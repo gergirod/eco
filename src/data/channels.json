@@ -57,9 +57,16 @@
   "subscribers": "541K",
   "enabled": true,
   "handle_verified": true,
-  "has_data": false,
-  "stats": null,
-  "pipeline_status": "configurado"
+  "has_data": true,
+  "stats": {
+   "videos_processed": 1,
+   "total_vod_views": 4326,
+   "avg_concurrent": 5808,
+   "brands_detected": 0,
+   "mentions": 0,
+   "last_processed": "24/06/2026"
+  },
+  "pipeline_status": "activo"
  },
  {
   "id": "gelatina",

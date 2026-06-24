@@ -7,7 +7,7 @@
   "avg_concurrent": 80437,
   "brands": 34,
   "mentions": 48,
-  "share_views": 70.2,
+  "share_views": 70.0,
   "n_brands_live": 33,
   "top_brands": [
    {
@@ -384,5 +384,17 @@
     "value_usd": 1233.0
    }
   ]
+ },
+ {
+  "id": "blend",
+  "name": "Blender",
+  "videos": 1,
+  "vod_views": 4326,
+  "avg_concurrent": 5808,
+  "brands": 0,
+  "mentions": 0,
+  "share_views": 0.2,
+  "n_brands_live": 0,
+  "top_brands": []
  }
 ]
