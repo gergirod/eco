@@ -11,7 +11,7 @@
   "n_videos": 4,
   "first_seen": "23/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 5100.0,
+  "value_usd": 8463.0,
   "samples": [
    {
     "channel": "olga",
@@ -49,7 +49,7 @@
     "date": "23/06/2026",
     "video_id": "q_clAienUJw",
     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "00:55:02",
+    "minute": "00:55:06",
     "views": 73490,
     "conc_at": 42582
    },
@@ -108,7 +108,7 @@
   "n_videos": 4,
   "first_seen": "09/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 5344.0,
+  "value_usd": 6201.0,
   "samples": [
    {
     "channel": "olga",
@@ -116,9 +116,9 @@
     "date": "23/06/2026",
     "video_id": "8lOkxIDSd4w",
     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-    "minute": "01:26:23",
+    "minute": "01:27:29",
     "views": 35722,
-    "conc_at": 39394
+    "conc_at": 39330
    },
    {
     "channel": "olga",
@@ -126,9 +126,9 @@
     "date": "23/06/2026",
     "video_id": "bX7MB2_OI2I",
     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-    "minute": "01:57:41",
+    "minute": "01:57:36",
     "views": 43284,
-    "conc_at": 30325
+    "conc_at": 30305
    },
    {
     "channel": "luzu",
@@ -156,9 +156,9 @@
     "date": "23/06/2026",
     "video_id": "S1UDpsKkZvE",
     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
-    "minute": "02:12:47",
+    "minute": "02:13:26",
     "views": 137091,
-    "conc_at": 75061
+    "conc_at": 75404
    },
    {
     "channel": "luzu",
@@ -176,9 +176,9 @@
     "date": "09/06/2026",
     "video_id": "cH7UROOHpGI",
     "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
-    "minute": "01:46:25",
+    "minute": "01:46:29",
     "views": 208630,
-    "conc_at": 33162
+    "conc_at": 33144
    }
   ],
   "kind": "marca"
@@ -194,7 +194,7 @@
   "n_videos": 5,
   "first_seen": "09/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 4133.0,
+  "value_usd": 5933.0,
   "samples": [
    {
     "channel": "olga",
@@ -212,9 +212,9 @@
     "date": "23/06/2026",
     "video_id": "NKhi31a86K8",
     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
-    "minute": "00:42:16",
+    "minute": "00:44:50",
     "views": 14487,
-    "conc_at": 9093
+    "conc_at": 8862
    },
    {
     "channel": "olga",
@@ -222,7 +222,7 @@
     "date": "23/06/2026",
     "video_id": "q_clAienUJw",
     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:04:26",
+    "minute": "02:04:15",
     "views": 73490,
     "conc_at": 42582
    },
@@ -242,7 +242,7 @@
     "date": "23/06/2026",
     "video_id": "q_clAienUJw",
     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:22:22",
+    "minute": "02:22:24",
     "views": 73490,
     "conc_at": 42582
    },
@@ -281,7 +281,7 @@
   "n_videos": 4,
   "first_seen": "23/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 2948.0,
+  "value_usd": 3764.0,
   "samples": [
    {
     "channel": "luzu",
@@ -319,9 +319,9 @@
     "date": "24/06/2026",
     "video_id": "JqkhC1EnyTQ",
     "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
-    "minute": "01:43:32",
+    "minute": "01:43:18",
     "views": 12997,
-    "conc_at": 7812
+    "conc_at": 7811
    },
    {
     "channel": "olga",
@@ -329,9 +329,9 @@
     "date": "24/06/2026",
     "video_id": "JqkhC1EnyTQ",
     "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
-    "minute": "01:43:32",
+    "minute": "01:44:01",
     "views": 12997,
-    "conc_at": 7812
+    "conc_at": 7806
    },
    {
     "channel": "olga",
@@ -358,7 +358,7 @@
   "n_videos": 5,
   "first_seen": "09/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 5314.0,
+  "value_usd": 15470.0,
   "samples": [
    {
     "channel": "luzu",
@@ -425,7 +425,7 @@
   "n_videos": 3,
   "first_seen": "23/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 19843.0,
+  "value_usd": 19841.0,
   "samples": [
    {
     "channel": "olga",
@@ -453,9 +453,9 @@
     "date": "23/06/2026",
     "video_id": "cHMIm1Fnig4",
     "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
-    "minute": "00:47:25",
+    "minute": "00:47:21",
     "views": 373638,
-    "conc_at": 219717
+    "conc_at": 219633
    },
    {
     "channel": "luzu",
@@ -482,7 +482,7 @@
   "n_videos": 3,
   "first_seen": "23/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 8008.0,
+  "value_usd": 8006.0,
   "samples": [
    {
     "channel": "luzu",
@@ -510,9 +510,9 @@
     "date": "24/06/2026",
     "video_id": "7Oo5Hf7f14M",
     "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "minute": "00:30:02",
+    "minute": "00:31:36",
     "views": 70980,
-    "conc_at": 49510
+    "conc_at": 49468
    },
    {
     "channel": "olga",
@@ -538,7 +538,7 @@
   "n_videos": 2,
   "first_seen": "22/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 1433.0,
+  "value_usd": 1655.0,
   "samples": [
    {
     "channel": "olga",
@@ -640,7 +640,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 2364.0,
+  "value_usd": 3696.0,
   "samples": [
    {
     "channel": "olga",
@@ -668,9 +668,9 @@
     "date": "23/06/2026",
     "video_id": "bX7MB2_OI2I",
     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-    "minute": "02:31:32",
+    "minute": "02:36:11",
     "views": 43284,
-    "conc_at": 36717
+    "conc_at": 38062
    }
   ],
   "kind": "marca"
@@ -686,7 +686,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 781.0,
+  "value_usd": 2305.0,
   "samples": [
    {
     "channel": "olga",
@@ -758,7 +758,7 @@
   "n_videos": 2,
   "first_seen": "19/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 609.0,
+  "value_usd": 1302.0,
   "samples": [
    {
     "channel": "olga",
@@ -776,9 +776,9 @@
     "date": "19/06/2026",
     "video_id": "XHV2BV9DWMs",
     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "minute": "02:00:27",
+    "minute": "02:00:11",
     "views": 39368,
-    "conc_at": 36063
+    "conc_at": 36124
    }
   ],
   "kind": "marca"
@@ -802,9 +802,9 @@
     "date": "23/06/2026",
     "video_id": "NKhi31a86K8",
     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
-    "minute": "00:56:23",
+    "minute": "00:56:09",
     "views": 14487,
-    "conc_at": 8659
+    "conc_at": 8666
    },
    {
     "channel": "olga",
@@ -830,7 +830,7 @@
   "n_videos": 2,
   "first_seen": "23/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 256.0,
+  "value_usd": 401.0,
   "samples": [
    {
     "channel": "olga",
@@ -902,7 +902,7 @@
   "n_videos": 1,
   "first_seen": "22/06/2026",
   "last_seen": "22/06/2026",
-  "value_usd": 1752.0,
+  "value_usd": 4507.0,
   "samples": [
    {
     "channel": "luzu",
@@ -920,7 +920,7 @@
     "date": "22/06/2026",
     "video_id": "yp1SuqSXmxA",
     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
-    "minute": "01:56:25",
+    "minute": "01:58:40",
     "views": 133449,
     "conc_at": 89404
    }
@@ -938,7 +938,7 @@
   "n_videos": 2,
   "first_seen": "22/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 2789.0,
+  "value_usd": 3180.0,
   "samples": [
    {
     "channel": "luzu",
@@ -956,9 +956,9 @@
     "date": "23/06/2026",
     "video_id": "2E9MjxyDU9o",
     "title": "#LOSDELFONDO | SORTEAMOS LA CAMISETA DEL PURRETE 10, EL BÓXER DEL MITO NO DA MÁS, ANGELITA LA ROMPIÓ",
-    "minute": "01:24:05",
+    "minute": "01:24:03",
     "views": 33834,
-    "conc_at": 20400
+    "conc_at": 20418
    }
   ],
   "kind": "marca"
@@ -992,9 +992,9 @@
     "date": "24/06/2026",
     "video_id": "7Oo5Hf7f14M",
     "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "minute": "01:18:27",
+    "minute": "01:18:01",
     "views": 70980,
-    "conc_at": 51168
+    "conc_at": 51166
    }
   ],
   "kind": "marca"
@@ -1010,7 +1010,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 1419.0,
+  "value_usd": 4192.0,
   "samples": [
    {
     "channel": "luzu",
@@ -1046,7 +1046,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 2018.0,
+  "value_usd": 3104.0,
   "samples": [
    {
     "channel": "luzu",
@@ -1064,9 +1064,9 @@
     "date": "23/06/2026",
     "video_id": "S1UDpsKkZvE",
     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
-    "minute": "02:56:31",
+    "minute": "02:56:34",
     "views": 137091,
-    "conc_at": 94046
+    "conc_at": 94082
    }
   ],
   "kind": "marca"
@@ -1118,7 +1118,7 @@
   "n_videos": 1,
   "first_seen": "19/06/2026",
   "last_seen": "19/06/2026",
-  "value_usd": 1924.0,
+  "value_usd": 1202.0,
   "samples": [
    {
     "channel": "olga",
@@ -1136,9 +1136,9 @@
     "date": "19/06/2026",
     "video_id": "XHV2BV9DWMs",
     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "minute": "02:20:02",
+    "minute": "02:20:46",
     "views": 39368,
-    "conc_at": 33216
+    "conc_at": 33049
    }
   ],
   "kind": "marca"
@@ -1154,7 +1154,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 852.0,
+  "value_usd": 1311.0,
   "samples": [
    {
     "channel": "olga",
@@ -1162,9 +1162,9 @@
     "date": "23/06/2026",
     "video_id": "8lOkxIDSd4w",
     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-    "minute": "01:06:04",
+    "minute": "01:06:13",
     "views": 35722,
-    "conc_at": 39717
+    "conc_at": 39723
    }
   ],
   "kind": "marca"
@@ -1310,7 +1310,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 280.0,
+  "value_usd": 826.0,
   "samples": [
    {
     "channel": "olga",
@@ -1396,7 +1396,7 @@
     "date": "22/06/2026",
     "video_id": "yp1SuqSXmxA",
     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
-    "minute": "00:14:13",
+    "minute": "00:13:50",
     "views": 133449,
     "conc_at": 89404
    }
@@ -1466,7 +1466,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 2330.0,
+  "value_usd": 6885.0,
   "samples": [
    {
     "channel": "luzu",
@@ -1500,9 +1500,9 @@
     "date": "23/06/2026",
     "video_id": "cHMIm1Fnig4",
     "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
-    "minute": "01:54:59",
+    "minute": "01:55:00",
     "views": 373638,
-    "conc_at": 241702
+    "conc_at": 241694
    }
   ],
   "kind": "marca"
@@ -1518,7 +1518,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 2324.0,
+  "value_usd": 6868.0,
   "samples": [
    {
     "channel": "luzu",
@@ -1544,7 +1544,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 2302.0,
+  "value_usd": 6802.0,
   "samples": [
    {
     "channel": "luzu",
@@ -1552,9 +1552,9 @@
     "date": "23/06/2026",
     "video_id": "cHMIm1Fnig4",
     "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
-    "minute": "02:12:38",
+    "minute": "02:12:19",
     "views": 373638,
-    "conc_at": 234876
+    "conc_at": 234893
    }
   ],
   "kind": "marca"
@@ -1622,7 +1622,7 @@
   "n_videos": 1,
   "first_seen": "24/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 1552.0,
+  "value_usd": 1555.0,
   "samples": [
    {
     "channel": "luzu",
@@ -1630,9 +1630,9 @@
     "date": "24/06/2026",
     "video_id": "wpLDMAyU_fA",
     "title": "#PATRIAYFAMILIA l CÁMARA OCULTA A MARCOS GILES Y SE CHAMUYAN A AGUSNETA",
-    "minute": "01:11:41",
+    "minute": "01:11:26",
     "views": 118153,
-    "conc_at": 72365
+    "conc_at": 72485
    }
   ],
   "kind": "marca"
@@ -1674,7 +1674,7 @@
   "n_videos": 1,
   "first_seen": "24/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 479.0,
+  "value_usd": 2177.0,
   "samples": [
    {
     "channel": "luzu",
@@ -1752,7 +1752,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 309.0,
+  "value_usd": 913.0,
   "samples": [
    {
     "channel": "olga",
@@ -1804,7 +1804,7 @@
   "n_videos": 1,
   "first_seen": "24/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 603.0,
+  "value_usd": 447.0,
   "samples": [
    {
     "channel": "olga",
@@ -1812,9 +1812,9 @@
     "date": "24/06/2026",
     "video_id": "kDbkbzy_ASA",
     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
-    "minute": "01:03:09",
+    "minute": "01:02:47",
     "views": 28305,
-    "conc_at": 20838
+    "conc_at": 20853
    }
   ],
   "kind": "marca"
@@ -1934,7 +1934,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 142.0,
+  "value_usd": 646.0,
   "samples": [
    {
     "channel": "luzu",
@@ -1986,7 +1986,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 805.0,
+  "value_usd": 2380.0,
   "samples": [
    {
     "channel": "luzu",
@@ -2038,7 +2038,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 454.0,
+  "value_usd": 2063.0,
   "samples": [
    {
     "channel": "luzu",
@@ -2064,7 +2064,7 @@
   "n_videos": 1,
   "first_seen": "22/06/2026",
   "last_seen": "22/06/2026",
-  "value_usd": 74.0,
+  "value_usd": 218.0,
   "samples": [
    {
     "channel": "olga",
@@ -2098,9 +2098,9 @@
     "date": "22/06/2026",
     "video_id": "95yJuQx7ol8",
     "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
-    "minute": "00:55:49",
+    "minute": "00:55:36",
     "views": 15613,
-    "conc_at": 11807
+    "conc_at": 11794
    }
   ],
   "kind": "marca"
@@ -2116,7 +2116,7 @@
   "n_videos": 1,
   "first_seen": "22/06/2026",
   "last_seen": "22/06/2026",
-  "value_usd": 120.0,
+  "value_usd": 354.0,
   "samples": [
    {
     "channel": "olga",
@@ -2142,7 +2142,7 @@
   "n_videos": 1,
   "first_seen": "22/06/2026",
   "last_seen": "22/06/2026",
-  "value_usd": 149.0,
+  "value_usd": 441.0,
   "samples": [
    {
     "channel": "olga",
@@ -2168,7 +2168,7 @@
   "n_videos": 1,
   "first_seen": "09/06/2026",
   "last_seen": "09/06/2026",
-  "value_usd": 1875.0,
+  "value_usd": 1876.0,
   "samples": [
    {
     "channel": "olga",
@@ -2176,9 +2176,9 @@
     "date": "09/06/2026",
     "video_id": "cH7UROOHpGI",
     "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
-    "minute": "00:36:46",
+    "minute": "00:36:45",
     "views": 208630,
-    "conc_at": 42096
+    "conc_at": 42107
    }
   ],
   "kind": "marca"
@@ -2194,7 +2194,7 @@
   "n_videos": 1,
   "first_seen": "09/06/2026",
   "last_seen": "09/06/2026",
-  "value_usd": 1134.0,
+  "value_usd": 1744.0,
   "samples": [
    {
     "channel": "olga",
@@ -2272,7 +2272,7 @@
   "n_videos": 1,
   "first_seen": "24/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 176.0,
+  "value_usd": 269.0,
   "samples": [
    {
     "channel": "olga",
@@ -2280,9 +2280,9 @@
     "date": "24/06/2026",
     "video_id": "JqkhC1EnyTQ",
     "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
-    "minute": "00:52:52",
+    "minute": "00:53:41",
     "views": 12997,
-    "conc_at": 8182
+    "conc_at": 8150
    }
   ],
   "kind": "marca"
@@ -2298,7 +2298,7 @@
   "n_videos": 1,
   "first_seen": "19/06/2026",
   "last_seen": "19/06/2026",
-  "value_usd": 881.0,
+  "value_usd": 880.0,
   "samples": [
    {
     "channel": "olga",
@@ -2306,9 +2306,9 @@
     "date": "19/06/2026",
     "video_id": "XHV2BV9DWMs",
     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "minute": "01:03:00",
+    "minute": "01:02:49",
     "views": 39368,
-    "conc_at": 41051
+    "conc_at": 41046
    }
   ],
   "kind": "marca"
@@ -2324,7 +2324,7 @@
   "n_videos": 1,
   "first_seen": "19/06/2026",
   "last_seen": "19/06/2026",
-  "value_usd": 355.0,
+  "value_usd": 1047.0,
   "samples": [
    {
     "channel": "olga",

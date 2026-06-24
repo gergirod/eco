@@ -110,10 +110,10 @@ function extractCode(quote: string): string | null {
 
 function tagFor(d: any): { cls: string; label: string } {
   if (d.tier === 3 || hasPromoCode(d.quote || ""))
-    return { cls: "codigo", label: "Integración · PNT" };
+    return { cls: "codigo", label: "Con código o promo · PNT" };
   if (d.tier === 2)
     return { cls: "paid", label: "Lectura dedicada · PNT" };
-  return { cls: "paid", label: "Pauta · PNT" };
+  return { cls: "paid", label: "Al pasar · PNT" };
 }
 
 function programLabel(d: any): string {
@@ -142,14 +142,16 @@ function mentionCard(d: any, chName: Record<string, string>, featured: boolean):
     d.tier === 3 || code
       ? code
         ? `código ${code}`
-        : "integración / cupón"
-      : d.tier_label?.split("·").pop()?.trim() || "lectura de pauta";
+        : "con código o promo"
+      : d.tier === 2
+        ? "lectura dedicada"
+        : "al pasar";
 
   const calcBlock = featured
     ? `<div class="calc">
         <div class="calc-title">Qué significa esta exposición</div>
         <p class="calc-lead">Tu marca estuvo <b>al aire ante ${conc} personas mirando en vivo al mismo tiempo</b>${d.conc_at ? venueLine(d.conc_at) : ""}</p>
-        <div class="calc-equiv">Valor de pauta equivalente: <b>≈ ${usd(d.value_usd)}</b> <span>— referencia de mercado (lente A: audiencia al minuto × CPM × tier × sentimiento). No es facturación ni ventas.</span></div>
+        <div class="calc-equiv">Valor de pauta equivalente: <b>≈ ${usd(d.value_usd)}</b> <span>— referencia de mercado (lente A: audiencia al minuto × CPM × formato × sentimiento). No es facturación ni ventas.</span></div>
         <div class="calc-roi">
           <div><span class="roi-yes">Verificable</span>cita contrastada con la transcripción · ${vodA || `minuto ${ts}`}${d.precise ? "" : " (aprox.)"}.</div>
           ${code ? `<div><span class="roi-yes">Atribución</span>lectura con código <b>${esc(code)}</b> — compras con ese código son atribuibles a esta aparición.</div>` : `<div><span class="roi-yes">Medición</span>quién te vio, en qué minuto exacto, ante cuánta gente y qué se dijo al aire.</div>`}
@@ -250,7 +252,7 @@ export function buildReportHTML(
   </div>
 
   <div class="foot">
-    <p><b>Cómo se mide.</b> Solo lecturas de pauta verificadas (menciones_patrocinadas + cita en transcript). La audiencia es la cantidad real de espectadores conectados en vivo en ese minuto exacto. El valor de pauta equivalente usa lente A (MODELO-VALORIZACION): audiencia al minuto × CPM × tier × sentimiento. <b>No es facturación ni ventas atribuidas.</b></p>
+    <p><b>Cómo se mide.</b> Solo lecturas de pauta verificadas (menciones_patrocinadas + cita en transcript). La audiencia es la cantidad real de espectadores conectados en vivo en ese minuto exacto. El valor de pauta equivalente usa lente A (MODELO-VALORIZACION): audiencia al minuto × CPM × formato de pauta × sentimiento. <b>No es facturación ni ventas atribuidas.</b></p>
     <p>Generado por Eco · ${today} · Inteligencia de exposición de marca en streaming argentino en vivo (Olga, Luzu, Bondi, Blender).</p>
   </div>
 </div>

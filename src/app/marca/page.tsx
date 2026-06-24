@@ -3,6 +3,7 @@ import { useState, useMemo, useEffect } from "react";
 import { PageHeader, Stat, Badge, Bar } from "@/components/ui";
 import BrandPicker from "@/components/BrandPicker";
 import { usd, num, compact, fmtHMS } from "@/lib/format";
+import { PROMINENCE_BAR, PROMINENCE_TONE, prominenceLabel } from "@/lib/prominence";
 import { useDataset } from "@/lib/useDataset";
 import reportsFb from "@/data/reports.json";
 import channelsFb from "@/data/channels.json";
@@ -15,7 +16,7 @@ function tsLink(videoId: string, seconds: number) {
   return `https://www.youtube.com/watch?v=${videoId}&t=${Math.max(0, seconds | 0)}s`;
 }
 
-const TIER_TONE: Record<number, "blue" | "green" | "gray"> = { 1: "blue", 2: "green", 3: "gray" };
+const TIER_TONE = PROMINENCE_TONE;
 const SENT_TONE: Record<string, "green" | "gray" | "red"> = {
   positivo: "green",
   neutro: "gray",
@@ -221,13 +222,13 @@ export default function MarcaDashboard() {
         </div>
         <div className="card p-5 flex flex-col gap-5">
           <div>
-            <h3 className="text-[13px] font-semibold mb-2.5">Prominencia (tier)</h3>
+            <h3 className="text-[13px] font-semibold mb-2.5">Formato de la pauta</h3>
             <SegBar
-              parts={[
-                { label: "Tier 1 · al pasar", value: tier["1"] || 0, color: "#cbd2dd" },
-                { label: "Tier 2 · dedicada", value: tier["2"] || 0, color: "#22a06b" },
-                { label: "Tier 3 · integración", value: tier["3"] || 0, color: "#2f5fe0" },
-              ]}
+              parts={PROMINENCE_BAR.map((p) => ({
+                label: p.label,
+                value: tier[p.key as "1" | "2" | "3"] || 0,
+                color: p.color,
+              }))}
             />
           </div>
           <div>
@@ -277,7 +278,7 @@ export default function MarcaDashboard() {
                   <th>Fecha</th>
                   <th>Canal</th>
                   <th>Prueba textual</th>
-                  <th>Tier</th>
+                  <th>Formato</th>
                   <th>Sent.</th>
                   <th className="text-right">En vivo</th>
                   <th className="text-right">Valor</th>
@@ -303,7 +304,9 @@ export default function MarcaDashboard() {
                       </span>
                     </td>
                     <td>
-                      <Badge tone={TIER_TONE[d.tier] || "gray"}>{d.tier_label}</Badge>
+                      <Badge tone={TIER_TONE[d.tier] || "gray"}>
+                        {prominenceLabel(d.tier, d.tier_label)}
+                      </Badge>
                     </td>
                     <td>
                       <Badge tone={SENT_TONE[d.sentiment] || "gray"}>
@@ -335,7 +338,7 @@ export default function MarcaDashboard() {
 
       <p className="text-[11px] text-gray-400 mt-4 leading-relaxed max-w-[820px]">
         Solo lecturas de pauta verificadas (menciones_patrocinadas + cita en transcript), igual que
-        report.py. Valor = audiencia al minuto × CPM × tier de prominencia × sentimiento (MODELO-VALORIZACION).
+        report.py. Valor = audiencia al minuto × CPM × formato de pauta × sentimiento (MODELO-VALORIZACION).
         Benchmark de exposición, no facturación. El link “ver” abre el VOD en el segundo exacto.
       </p>
 

@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { PageHeader, Stat, Badge, Bar } from "@/components/ui";
+import { PageHeader, Stat, Bar } from "@/components/ui";
+import TopBrandsTable from "@/components/TopBrandsTable";
 import { compact, num, usd } from "@/lib/format";
 import { fetchDataset } from "@/lib/supabase";
 import metaFb from "@/data/meta.json";
@@ -40,7 +41,14 @@ export default async function Home() {
   const maxViews = Math.max(...benchmark.map((b: any) => b.vod_views), 1);
   const nPauta = meta.n_pauta_mentions ?? reportList.reduce((a, r) => a + r.mentions, 0);
   const totalExposure = reportList.reduce((a, r) => a + (r.value_usd || 0), 0);
-  const topBrands = [...reportList].sort((a, b) => b.mentions - a.mentions).slice(0, 8);
+  const topBrands = [...reportList]
+    .sort((a, b) => b.mentions - a.mentions)
+    .map((b: any) => ({
+      slug: b.slug,
+      name: b.name,
+      mentions: b.mentions,
+      value_usd: b.value_usd || 0,
+    }));
 
   return (
     <div>
@@ -95,21 +103,7 @@ export default async function Home() {
             <h2 className="text-[15px] font-semibold">Top marcas por pauta</h2>
             <Link href="/marca" className="text-[12px] text-accent hover:underline">Reportes →</Link>
           </div>
-          <table>
-            <tbody>
-              {topBrands.map((b: any) => (
-                <tr key={b.slug}>
-                  <td className="font-medium">
-                    <Link href={`/marca?brand=${b.slug}`} className="hover:text-accent hover:underline">
-                      {b.name}
-                    </Link>
-                  </td>
-                  <td className="text-gray-400 text-right tabular-nums">{b.mentions} PNT</td>
-                  <td className="text-right"><Badge tone="blue">{usd(b.value_usd)}</Badge></td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+          <TopBrandsTable brands={topBrands} />
         </div>
       </div>
 

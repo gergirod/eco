@@ -2,9 +2,10 @@
 import { useMemo } from "react";
 import { Badge } from "@/components/ui";
 import { usd, num, compact } from "@/lib/format";
+import { PROMINENCE_TONE, prominenceLabel } from "@/lib/prominence";
 import { openProgramReport } from "@/lib/programReport";
 
-const TIER_TONE: Record<number, "blue" | "green" | "gray"> = { 1: "blue", 2: "green", 3: "gray" };
+const TIER_TONE = PROMINENCE_TONE;
 const SENT_TONE: Record<string, "green" | "gray" | "red"> = {
   positivo: "green",
   neutro: "gray",
@@ -189,7 +190,9 @@ export default function MomentModal({
         </blockquote>
 
         <div className="flex items-center gap-2 mb-4 flex-wrap">
-          <Badge tone={TIER_TONE[mention.tier] || "gray"}>{mention.tier_label}</Badge>
+          <Badge tone={TIER_TONE[mention.tier] || "gray"}>
+            {prominenceLabel(mention.tier, mention.tier_label)}
+          </Badge>
           <Badge tone={SENT_TONE[mention.sentiment] || "gray"}>sentimiento {mention.sentiment}</Badge>
           <Badge tone="gray">{fmtHMS(mention.t_seconds || 0)} del programa</Badge>
           {mention.precise ? <Badge tone="green">timestamp exacto</Badge> : <Badge tone="amber">minuto aprox.</Badge>}
