@@ -67,14 +67,26 @@ export default function MediaKitPage() {
       <div className="grid grid-cols-[1fr_1fr] gap-5">
         {/* social proof: marcas que ya aparecieron */}
         <div className="card p-5">
-          <h3 className="text-[14px] font-semibold mb-1">Marcas que ya aparecieron</h3>
-          <p className="text-[12px] text-gray-400 mb-3">Social proof: anunciantes presentes en el canal.</p>
+          <div className="flex items-baseline justify-between mb-1">
+            <h3 className="text-[14px] font-semibold">Marcas que ya aparecieron</h3>
+            <span className="text-[11px] text-gray-400">{b?.n_brands_live ?? (b?.top_brands || []).length} marcas · click → su performance</span>
+          </div>
+          <p className="text-[12px] text-gray-400 mb-3">Social proof: anunciantes presentes en el canal con audiencia medida al minuto.</p>
           <div className="flex flex-wrap gap-2">
-            {(b?.top_brands || []).map((br: string, i: number) => (
-              <span key={i} className="px-2.5 py-1 rounded-lg bg-gray-100 text-[12.5px] text-gray-700">
-                {br}
-              </span>
+            {(b?.top_brands || []).map((br: any, i: number) => (
+              <a
+                key={i}
+                href={`/marca?brand=${br.slug}`}
+                title={`${br.mentions} apariciones · ${usd(br.value_usd)}`}
+                className="group px-2.5 py-1 rounded-lg bg-gray-100 hover:bg-accent-soft text-[12.5px] text-gray-700 hover:text-accent transition flex items-center gap-1.5"
+              >
+                {br.name}
+                <span className="text-[11px] text-gray-400 group-hover:text-accent tabular-nums">{br.mentions}</span>
+              </a>
             ))}
+            {!(b?.top_brands || []).length && (
+              <span className="text-[12.5px] text-gray-400">Sin marcas con audiencia medida aún en este canal.</span>
+            )}
           </div>
         </div>
 
