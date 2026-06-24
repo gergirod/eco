@@ -1,11 +1,12 @@
 {
- "exported_at": "2026-06-24T22:41:14.960731+00:00",
+ "exported_at": "2026-06-24T22:48:07.321784+00:00",
  "n_videos": 23,
  "n_topics": 23,
  "n_topics_total": 87,
- "n_brands": 420,
+ "n_brands": 74,
  "n_products": 62,
- "n_moments": 23,
+ "n_pauta_mentions": 127,
+ "n_moments": 22,
  "n_trends": 120,
  "cpm": 30.0,
  "peso_default": 0.3

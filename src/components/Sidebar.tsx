@@ -1,20 +1,36 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import metaFb from "@/data/meta.json";
 
 const NAV = [
   { href: "/", label: "Resumen", icon: "◇" },
   { href: "/backoffice", label: "Backoffice · Runs", icon: "▤", group: "Operación" },
-  { href: "/marca", label: "Dashboard de marca", icon: "◉", group: "Cliente" },
+  { href: "/marca", label: "Reportes de marca", icon: "◉", group: "Venta · entregable" },
   { href: "/competencia", label: "Competencia", icon: "⇄" },
-  { href: "/productos", label: "Catálogo de marcas", icon: "▦" },
-  { href: "/tendencias", label: "Radar de Tendencias", icon: "✷", group: "Inteligencia" },
-  { href: "/audiencia", label: "Audience Quality", icon: "◔" },
   { href: "/mediakit", label: "Media Kit por canal", icon: "▣" },
+  { href: "/audiencia", label: "Audiencia", icon: "◔", group: "Contexto · defensa CPM" },
+  { href: "/productos", label: "Prospectos & research", icon: "▦" },
+  { href: "/tendencias", label: "Radar (capa 2)", icon: "✷", group: "Inteligencia extra" },
 ];
+
+function fmtExport(iso: string) {
+  try {
+    return new Date(iso).toLocaleString("es-AR", {
+      day: "2-digit",
+      month: "2-digit",
+      hour: "2-digit",
+      minute: "2-digit",
+    });
+  } catch {
+    return "";
+  }
+}
 
 export default function Sidebar() {
   const path = usePathname();
+  const exported = fmtExport((metaFb as any).exported_at || "");
+
   return (
     <aside className="w-[228px] shrink-0 border-r border-[#ececec] bg-white px-4 py-6 flex flex-col">
       <div className="px-2 mb-7">
@@ -46,7 +62,15 @@ export default function Sidebar() {
       </nav>
       <div className="mt-auto px-2 pt-6">
         <div className="text-[10px] text-gray-300 leading-relaxed">
-          Demo · datos reales del pipeline.<br />Modo admin / agencia.
+          UI interna · datos del pipeline.
+          {exported && (
+            <>
+              <br />
+              Export: {exported}
+            </>
+          )}
+          <br />
+          <span className="text-gray-400">Reportes = solo PNT verificada</span>
         </div>
       </div>
     </aside>

@@ -12,8 +12,8 @@
    "videos_processed": 12,
    "total_vod_views": 600893,
    "avg_concurrent": 27658,
-   "brands_detected": 237,
-   "mentions": 348,
+   "brands_detected": 47,
+   "mentions": 82,
    "last_processed": "24/06/2026"
   },
   "pipeline_status": "activo"
@@ -31,8 +31,8 @@
    "videos_processed": 11,
    "total_vod_views": 1414525,
    "avg_concurrent": 80437,
-   "brands_detected": 219,
-   "mentions": 346,
+   "brands_detected": 34,
+   "mentions": 48,
    "last_processed": "24/06/2026"
   },
   "pipeline_status": "activo"

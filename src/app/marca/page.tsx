@@ -103,22 +103,14 @@ export default function MarcaDashboard() {
     () => Object.fromEntries(channels.map((c: any) => [c.id, c.name])),
     [channels]
   );
-  const [onlyPaid, setOnlyPaid] = useState(true);
-  const allOptions = useMemo(
+  const options = useMemo(
     () =>
       Object.entries(reports as any)
         .map(([slug, r]: any) => ({
           slug, name: r.name, mentions: r.mentions, kind: r.kind || "marca",
-          paid: (r.by_tier && r.by_tier["1"]) || 0,
         }))
-        .sort((a, b) => b.paid - a.paid || b.mentions - a.mentions),
+        .sort((a, b) => b.mentions - a.mentions),
     [reports]
-  );
-  const isPaidBrand = (o: any) => o.paid > 0 && o.kind === "marca";
-  const nPaid = useMemo(() => allOptions.filter(isPaidBrand).length, [allOptions]);
-  const options = useMemo(
-    () => (onlyPaid ? allOptions.filter(isPaidBrand) : allOptions),
-    [allOptions, onlyPaid]
   );
   const [brand, setBrand] = useState(options[0]?.slug || "");
   // permite llegar desde el Media Kit con ?brand=<slug>
@@ -159,8 +151,8 @@ export default function MarcaDashboard() {
   return (
     <div>
       <PageHeader
-        title="Dashboard de marca"
-        sub="Vista del cliente · modo agencia. Elegí la marca que pautás y mirá dónde apareció."
+        title="Reportes de marca"
+        sub="Entregable comercial: PNT verificada, minuto exacto, concurrentes en vivo y PDF listo para mandar."
       />
 
       <div className="flex items-center gap-3 mb-6 flex-wrap">
@@ -168,15 +160,11 @@ export default function MarcaDashboard() {
         {r?.kind && r.kind !== "marca" && (
           <Badge tone="amber">{r.kind === "plataforma" ? "plataforma" : "lugar"} · no anunciante</Badge>
         )}
-        <label className="flex items-center gap-2 text-[12px] text-gray-500 cursor-pointer">
-          <input type="checkbox" checked={onlyPaid} onChange={(e) => setOnlyPaid(e.target.checked)} />
-          Solo marcas de pauta
-        </label>
         <span className="text-[12px] text-gray-400">
-          {options.length} {onlyPaid ? "marcas con pauta" : "marcas"}
+          {options.length} marcas con pauta
         </span>
         <button className="btn btn-primary ml-auto" onClick={downloadPDF}>
-          ↓ Descargar reporte PDF
+          ↓ Descargar one-pager PDF
         </button>
       </div>
 
@@ -186,24 +174,36 @@ export default function MarcaDashboard() {
           Resumen ejecutivo
         </div>
         <p className="text-[15px] leading-relaxed text-gray-700 max-w-[820px]">
-          <b>{r.name}</b> registró <b>{num(r.mentions)}</b> menciones en{" "}
-          <b>{programs}</b> programas across <b>{r.channels.length}</b> streams, con una exposición de{" "}
-          <b>{compact(reach)}</b> views acumuladas y un valor de referencia de{" "}
-          <b>{usd(r.value_usd)}</b> (lente CPM).{" "}
+          <b>{r.name}</b> acumula <b>{num(r.mentions)}</b> lecturas de pauta (PNT) en{" "}
+          <b>{programs}</b> programas across <b>{r.channels.length}</b> streams, con exposición total de{" "}
+          <b>{usd(r.value_usd)}</b> (lente A · audiencia al minuto).{" "}
           {best && (
             <>
-              El pico fue en <b>{best.channel_name}</b> el {best.date} (
-              {usd(best.value_usd)}). La mayor presencia estuvo en <b>{topChannel}</b>.
+              El momento más fuerte: <b>{best.channel_name}</b> el {best.date}
+              {best.conc_at ? (
+                <>
+                  {" "}
+                  — <b>{compact(best.conc_at)}</b> mirando en vivo en el minuto exacto (
+                  {usd(best.value_usd)})
+                </>
+              ) : (
+                <> ({usd(best.value_usd)})</>
+              )}
+              . Mayor presencia en <b>{topChannel}</b>.
             </>
           )}
         </p>
       </div>
 
       <div className="grid grid-cols-4 gap-3 mb-5">
-        <Stat label="Menciones" value={num(r.mentions)} hint={`en ${programs} programas`} />
-        <Stat label="Canales" value={r.channels.length} hint="streams con aparición" />
-        <Stat label="Alcance VOD" value={compact(reach)} hint="views acumuladas" />
-        <Stat label="Valor de referencia" value={usd(r.value_usd)} hint="lente CPM, benchmark" />
+        <Stat label="PNT verificadas" value={num(r.mentions)} hint={`en ${programs} programas`} />
+        <Stat label="Canales" value={r.channels.length} hint="streams con pauta" />
+        <Stat
+          label="Pico en vivo"
+          value={best?.conc_at ? compact(best.conc_at) : "—"}
+          hint={best ? `min ${best.minute}` : "sin concurrentes"}
+        />
+        <Stat label="Exposición total" value={usd(r.value_usd)} hint="lente A · benchmark" />
       </div>
 
       {/* evolución + desgloses */}
@@ -218,9 +218,9 @@ export default function MarcaDashboard() {
             <h3 className="text-[13px] font-semibold mb-2.5">Prominencia (tier)</h3>
             <SegBar
               parts={[
-                { label: "Pauta / PNT", value: tier["1"] || 0, color: "#2f5fe0" },
-                { label: "Orgánica", value: tier["2"] || 0, color: "#22a06b" },
-                { label: "Aproximada", value: tier["3"] || 0, color: "#cbd2dd" },
+                { label: "Tier 1 · al pasar", value: tier["1"] || 0, color: "#cbd2dd" },
+                { label: "Tier 2 · dedicada", value: tier["2"] || 0, color: "#22a06b" },
+                { label: "Tier 3 · integración", value: tier["3"] || 0, color: "#2f5fe0" },
               ]}
             />
           </div>
@@ -273,7 +273,7 @@ export default function MarcaDashboard() {
                   <th>Prueba textual</th>
                   <th>Tier</th>
                   <th>Sent.</th>
-                  <th className="text-right">Views</th>
+                  <th className="text-right">En vivo</th>
                   <th className="text-right">Valor</th>
                   <th></th>
                 </tr>
@@ -304,7 +304,9 @@ export default function MarcaDashboard() {
                         {d.sentiment === "positivo" ? "＋" : d.sentiment === "negativo" ? "－" : "○"}
                       </Badge>
                     </td>
-                    <td className="text-right tabular-nums">{compact(d.views)}</td>
+                    <td className="text-right tabular-nums">
+                      {d.conc_at ? compact(d.conc_at) : <span className="text-gray-300">—</span>}
+                    </td>
                     <td className="text-right tabular-nums text-gray-500">{usd(d.value_usd)}</td>
                     <td>
                       <a
@@ -326,10 +328,9 @@ export default function MarcaDashboard() {
       </div>
 
       <p className="text-[11px] text-gray-400 mt-4 leading-relaxed max-w-[820px]">
-        Valor de referencia = lente CPM (audiencia × CPM × peso de prominencia), según
-        MODELO-VALORIZACION. Es un benchmark de exposición earned-media, no facturación. El tier
-        (pauta / orgánica / aproximada) y el sentimiento se infieren del contexto hablado alrededor de
-        la mención. El link “ver” abre el VOD en el segundo exacto.
+        Solo lecturas de pauta verificadas (menciones_patrocinadas + cita en transcript), igual que
+        report.py. Valor = audiencia al minuto × CPM × tier de prominencia × sentimiento (MODELO-VALORIZACION).
+        Benchmark de exposición, no facturación. El link “ver” abre el VOD en el segundo exacto.
       </p>
 
       {openMention && (

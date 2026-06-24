@@ -1,5 +1,6 @@
 "use client";
 import { useState, useMemo } from "react";
+import Link from "next/link";
 import { PageHeader, Badge, Bar, Stat } from "@/components/ui";
 import BrandPicker from "@/components/BrandPicker";
 import { usd, num, compact } from "@/lib/format";
@@ -45,7 +46,10 @@ export default function Competencia() {
 
   return (
     <div>
-      <PageHeader title="Competencia" sub="Compará tu marca contra competidores: menciones, valor y presencia por stream." />
+      <PageHeader
+        title="Competencia"
+        sub="Share of voice entre anunciantes que pautaron: PNT, exposición y presencia por canal."
+      />
 
       <div className="card p-4 mb-6 flex flex-wrap items-center gap-4">
         <div className="flex items-center gap-2">
@@ -69,7 +73,7 @@ export default function Competencia() {
 
       <div className="grid grid-cols-2 gap-5 mb-5">
         <div className="card p-5">
-          <h2 className="text-[15px] font-semibold mb-4">Menciones acumuladas</h2>
+          <h2 className="text-[15px] font-semibold mb-4">PNT acumuladas</h2>
           <div className="flex flex-col gap-3.5">
             {all.map((b, i) => (
               <div key={b.slug}>
@@ -87,7 +91,7 @@ export default function Competencia() {
         </div>
 
         <div className="card p-5">
-          <h2 className="text-[15px] font-semibold mb-4">Valor de referencia (CPM)</h2>
+          <h2 className="text-[15px] font-semibold mb-4">Exposición (lente A)</h2>
           <div className="flex flex-col gap-3.5">
             {all.map((b, i) => (
               <div key={b.slug}>
@@ -106,7 +110,7 @@ export default function Competencia() {
       <div className="card overflow-hidden">
         <div className="px-5 py-3.5 border-b border-[#ececec]">
           <h2 className="text-[15px] font-semibold">Presencia por stream</h2>
-          <p className="text-[12px] text-gray-400 mt-0.5">En qué canales aparece cada marca (✓ = detectada)</p>
+          <p className="text-[12px] text-gray-400 mt-0.5">Solo anunciantes con pauta verificada en el canal</p>
         </div>
         <table>
           <thead>
@@ -125,7 +129,9 @@ export default function Competencia() {
                 <td className="font-medium">
                   <span className="inline-flex items-center gap-2">
                     <span className="w-2 h-2 rounded-full" style={{ background: PALETTE[i % PALETTE.length] }} />
-                    {b.name}
+                    <Link href={`/marca?brand=${b.slug}`} className="hover:text-accent hover:underline">
+                      {b.name}
+                    </Link>
                   </span>
                 </td>
                 {channelsUsed.map((c) => (
@@ -142,7 +148,8 @@ export default function Competencia() {
       </div>
 
       <p className="text-[11px] text-gray-400 mt-4">
-        Share of voice por menciones acumuladas en los streams procesados. Agregá hasta 4 competidores.
+        Comparación entre marcas con PNT real (no menciones orgánicas). Click en una marca →{" "}
+        <Link href="/marca" className="text-accent hover:underline">reporte completo + PDF</Link>.
       </p>
     </div>
   );

@@ -141,7 +141,7 @@ export default function Backoffice() {
               <th>Estado proceso</th>
               <th className="text-right">VODs</th>
               <th className="text-right">Audiencia media</th>
-              <th className="text-right">Marcas</th>
+              <th className="text-right">Anunciantes</th>
               <th>Último</th>
             </tr>
           </thead>

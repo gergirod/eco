@@ -64,7 +64,7 @@ export default function TendenciasPage() {
     <div>
       <PageHeader
         title="Radar de Tendencias"
-        sub="Temas, marcas y personas que explotan en el streaming AR antes de llegar a Google Trends. Señal de demanda emergente."
+        sub="Capa 2 · señales emergentes cross-canal. Complemento al reporte de pauta, no es el entregable principal."
       />
 
       <div className="flex items-center gap-3 mb-5 flex-wrap">
@@ -129,9 +129,9 @@ export default function TendenciasPage() {
         Tendencia = aparición en ≥2 comunidades (filtro anti-meme). El score combina volumen,
         cross-comunidad y persistencia multi-día. La sparkline muestra la evolución de menciones por
         día (verde = subiendo). La columna <b>vs Google Trends</b> compara la primera mención en
-        streams contra la fecha de despegue en Google Trends (AR): <b>pre-búsqueda</b> = Google aún no
-        registra volumen; <b>+N días antes</b> = lo detectamos antes; <b>ya masivo</b> = llegamos
-        después. Capa 2 del pipeline: señal de demanda emergente antes de Google Trends.
+        streams contra la fecha de despegue en Google Trends (AR).{" "}
+        <b>No reemplaza el reporte de marca</b> (PNT + minuto + concurrentes): es inteligencia extra para
+        prospectar temas calientes antes de Google.
       </p>
     </div>
   );

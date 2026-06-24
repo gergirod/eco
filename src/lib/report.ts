@@ -1,5 +1,5 @@
-// Genera el reporte de marca como HTML branded para imprimir / guardar como PDF.
-// Se abre en una ventana nueva y se dispara window.print() -> "Guardar como PDF".
+// Genera el reporte de marca como HTML branded (mismo look que los one-pagers de outreach).
+// Se abre en una ventana nueva y se dispara window.print() → "Guardar como PDF".
 
 const usd = (n: number) => "US$ " + Math.round(n || 0).toLocaleString("es-AR");
 const num = (n: number) => (n ?? 0).toLocaleString("es-AR");
@@ -11,127 +11,227 @@ const compact = (n: number) => {
 const esc = (s: string) =>
   (s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c] as string));
 
-function bars(series: any[]): string {
-  if (!series || !series.length) return "";
-  const maxV = Math.max(...series.map((s) => s.value_usd), 1);
-  const W = 700, H = 140, pad = 6;
-  const bw = (W - pad * 2) / series.length;
-  const rects = series
-    .map((s, i) => {
-      const h = ((H - 24) * s.value_usd) / maxV;
-      const x = pad + i * bw;
-      return `<rect x="${(x + bw * 0.18).toFixed(1)}" y="${(H - 18 - h).toFixed(1)}" width="${(bw * 0.64).toFixed(1)}" height="${Math.max(1, h).toFixed(1)}" rx="2" fill="#2f5fe0" />`;
-    })
-    .join("");
-  return `<svg viewBox="0 0 ${W} ${H}" width="100%" height="140">${rects}</svg>`;
+const REPORT_CSS = `
+  :root{
+    --ink:#15212b; --muted:#5b6b78; --line:#e4e9ee; --bg:#ffffff;
+    --accent:#0f7d6b; --accent-soft:#e8f5f1; --gold:#b8862b; --gold-soft:#f7efdc;
+    --paid:#0f7d6b;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       color:var(--ink);background:#f3f5f7;line-height:1.5;padding:32px 16px}
+  .page{max-width:760px;margin:0 auto;background:var(--bg);border-radius:14px;
+        box-shadow:0 4px 24px rgba(20,33,43,.08);overflow:hidden}
+  .head{padding:34px 40px 26px;border-bottom:1px solid var(--line)}
+  .kicker{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  h1{font-size:30px;line-height:1.15;margin:8px 0 6px;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:15px}
+  .meta{display:flex;flex-wrap:wrap;gap:18px;margin-top:18px;font-size:13px;color:var(--muted)}
+  .meta b{color:var(--ink);font-weight:600}
+  .hero{padding:28px 40px;background:linear-gradient(180deg,#fbfdfc,#fff);border-bottom:1px solid var(--line)}
+  .hero-grid{display:flex;gap:14px;flex-wrap:wrap}
+  .stat{flex:1;min-width:140px;border:1px solid var(--line);border-radius:12px;padding:16px 18px;background:#fff}
+  .stat .n{font-size:28px;font-weight:700;letter-spacing:-.02em}
+  .stat .l{font-size:12px;color:var(--muted);margin-top:4px;line-height:1.35}
+  .stat.paid .n{color:var(--paid)}
+  .body{padding:26px 40px 8px}
+  .lead{font-size:16px;color:#33424e;margin-bottom:24px}
+  .lead b{color:var(--ink)}
+  .section-label{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;
+                 color:var(--muted);margin:8px 0 14px}
+  .card{border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin-bottom:18px}
+  .card.compact{padding:16px 18px}
+  .tag{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;
+       text-transform:uppercase;padding:4px 10px;border-radius:999px;margin-bottom:10px}
+  .tag.paid{background:var(--accent-soft);color:var(--paid)}
+  .tag.codigo{background:var(--gold-soft);color:var(--gold)}
+  .card h3{font-size:17px;margin-bottom:4px;line-height:1.3}
+  .card .when{font-size:13px;color:var(--muted);margin-bottom:12px}
+  .quote{border-left:3px solid var(--line);padding:8px 0 8px 16px;margin:12px 0;
+         font-style:italic;color:#3a4853;font-size:14px;line-height:1.45}
+  .rowstats{display:flex;gap:20px;flex-wrap:wrap;margin-top:14px;padding-top:14px;border-top:1px dashed var(--line)}
+  .rowstats div{font-size:12px;color:var(--muted);min-width:90px}
+  .rowstats b{display:block;font-size:17px;color:var(--ink);font-weight:700;margin-bottom:2px}
+  .calc{margin-top:16px;background:#f7faf9;border:1px solid #dceee9;border-radius:10px;padding:14px 16px}
+  .calc-title{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--paid);margin-bottom:10px}
+  .calc-lead{font-size:14.5px;color:#26433c;margin-bottom:12px;line-height:1.5}
+  .calc-lead b{color:var(--ink)}
+  .calc-equiv{font-size:13px;color:var(--ink);background:#fff;border:1px solid #dceee9;border-radius:8px;padding:10px 12px;margin-bottom:10px}
+  .calc-equiv b{color:var(--paid);font-weight:800}
+  .calc-equiv span{color:var(--muted);font-size:11.5px}
+  .calc-roi{display:flex;flex-direction:column;gap:8px;border-top:1px dashed #dceee9;padding-top:10px}
+  .calc-roi div{font-size:12px;color:#3a4853;line-height:1.45}
+  .roi-yes{display:inline-block;font-weight:700;font-size:10px;text-transform:uppercase;letter-spacing:.04em;
+           padding:2px 8px;border-radius:999px;margin-right:6px;background:var(--accent-soft);color:var(--paid)}
+  .insight{background:var(--accent-soft);border:1px solid #cfe9e2;border-radius:12px;
+           padding:18px 22px;margin:6px 0 24px}
+  .insight h4{font-size:13px;color:var(--paid);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px}
+  .insight p{font-size:14.5px;color:#26433c;line-height:1.5}
+  .summary-bar{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px;padding:14px 16px;
+               background:#f7faf9;border:1px solid #dceee9;border-radius:10px;font-size:13px;color:#33424e}
+  .summary-bar b{color:var(--ink)}
+  .foot{padding:20px 40px 30px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
+  .foot b{color:var(--ink)}
+  .foot p{margin-bottom:8px;line-height:1.5}
+  @media print{
+    body{background:#fff;padding:0}
+    .page{box-shadow:none;border-radius:0;max-width:100%}
+    .card,.insight{break-inside:avoid}
+  }
+  @page{margin:14mm}
+`;
+
+function hasPromoCode(quote: string): boolean {
+  const q = (quote || "").toLowerCase();
+  return /codigo|código|cupon|cupón|sorteo|promo|descuento|%\s*off|aprovech/.test(q);
 }
 
-function seg(parts: { label: string; value: number; color: string }[]): string {
-  const total = parts.reduce((a, p) => a + p.value, 0) || 1;
-  const segs = parts
-    .map((p) => `<span style="display:inline-block;height:10px;width:${((p.value / total) * 100).toFixed(1)}%;background:${p.color}"></span>`)
-    .join("");
-  const legend = parts
-    .map((p) => `<span style="margin-right:14px;font-size:11px;color:#555"><span style="display:inline-block;width:8px;height:8px;border-radius:50%;background:${p.color};margin-right:5px"></span>${p.label} ${p.value}</span>`)
-    .join("");
-  return `<div style="display:flex;border-radius:6px;overflow:hidden;background:#eee">${segs}</div><div style="margin-top:6px">${legend}</div>`;
+function extractCode(quote: string): string | null {
+  const m = (quote || "").match(
+    /(?:codigo|código|cup[oó]n|code)\s+([A-Za-z0-9Á-ú\-_]{2,20})/i
+  );
+  return m ? m[1].toUpperCase() : null;
+}
+
+function tagFor(d: any): { cls: string; label: string } {
+  if (d.tier === 3 || hasPromoCode(d.quote || ""))
+    return { cls: "codigo", label: "Integración · PNT" };
+  if (d.tier === 2)
+    return { cls: "paid", label: "Lectura dedicada · PNT" };
+  return { cls: "paid", label: "Pauta · PNT" };
+}
+
+function programLabel(d: any): string {
+  const t = (d.title || "").replace(/\s+/g, " ").trim();
+  return t.length > 72 ? t.slice(0, 69) + "…" : t;
+}
+
+function venueLine(n: number): string {
+  if (n >= 8000) return " — el equivalente a llenar una sala grande, todas viendo tu marca a la vez.";
+  if (n >= 4000) return " — una audiencia del tamaño de un teatro lleno, en el minuto exacto de tu lectura.";
+  return ".";
+}
+
+function mentionCard(d: any, chName: Record<string, string>, featured: boolean): string {
+  const tag = tagFor(d);
+  const code = extractCode(d.quote || "");
+  const canal = esc(chName[d.channel] || d.channel_name || d.channel || "");
+  const conc = d.conc_at ? num(d.conc_at) : "—";
+  const peak = d.program_peak ? num(d.program_peak) : null;
+  const tipo =
+    d.tier === 3 || code
+      ? code
+        ? `código ${code}`
+        : "integración / cupón"
+      : d.tier_label?.split("·").pop()?.trim() || "lectura de pauta";
+
+  const calcBlock = featured
+    ? `<div class="calc">
+        <div class="calc-title">Qué significa esta exposición</div>
+        <p class="calc-lead">Tu marca estuvo <b>al aire ante ${conc} personas mirando en vivo al mismo tiempo</b>${d.conc_at ? venueLine(d.conc_at) : ""}</p>
+        <div class="calc-equiv">Valor de pauta equivalente: <b>≈ ${usd(d.value_usd)}</b> <span>— referencia de mercado (lente A: audiencia al minuto × CPM × tier × sentimiento). No es facturación ni ventas.</span></div>
+        <div class="calc-roi">
+          <div><span class="roi-yes">Verificable</span>cita textual contrastada contra la transcripción del programa · minuto ${esc(d.minute)}${d.precise ? "" : " (aprox.)"}.</div>
+          ${code ? `<div><span class="roi-yes">Atribución</span>lectura con código <b>${esc(code)}</b> — compras con ese código son atribuibles a esta aparición.</div>` : `<div><span class="roi-yes">Medición</span>quién te vio, en qué minuto exacto, ante cuánta gente y qué se dijo al aire.</div>`}
+        </div>
+      </div>`
+    : `<div class="calc-equiv" style="margin-top:14px">Exposición: <b>≈ ${usd(d.value_usd)}</b> <span>· ${conc} en vivo · min ${esc(d.minute)}</span></div>`;
+
+  return `<div class="card${featured ? "" : " compact"}">
+    <span class="tag ${tag.cls}">${esc(tag.label)}</span>
+    <h3>${canal}${featured ? "" : ` · ${esc(d.date)}`}</h3>
+    <div class="when">${esc(programLabel(d))} · minuto ${esc(d.minute)}</div>
+    <div class="quote">"${esc(d.quote || d.title || "")}"</div>
+    <div class="rowstats">
+      <div><b>${conc}</b>mirando en ese minuto</div>
+      <div><b>${esc(d.minute)}</b>minuto exacto</div>
+      ${peak ? `<div><b>${peak}</b>pico del programa</div>` : ""}
+      <div><b>${esc(tipo)}</b>tipo de lectura</div>
+    </div>
+    ${calcBlock}
+  </div>`;
 }
 
 export function buildReportHTML(
   r: any,
   ctx: { reach: number; programs: number; topChannel: string; chName: Record<string, string> }
 ): string {
-  const tier = r.by_tier || {};
-  const sent = r.by_sentiment || {};
   const best = r.best;
   const today = new Date().toLocaleDateString("es-AR");
+  const detail: any[] = r.detail || [];
+  const channelsLabel = (r.channels || [])
+    .map((c: string) => ctx.chName[c] || c)
+    .join(" · ");
+  const titleSuffix =
+    (r.channels || []).length === 1 ? ` en ${ctx.chName[r.channels[0]] || r.channels[0]}` : "";
 
-  const rows = (r.detail || [])
-    .map(
-      (d: any) => `
-    <tr>
-      <td>${esc(d.date)}</td>
-      <td>${esc(ctx.chName[d.channel] || d.channel_name || "")}</td>
-      <td><i>${esc(d.quote || d.title || "")}</i><br><span class="muted">${esc((d.title || "").slice(0, 60))} · ${esc(d.minute)}</span></td>
-      <td>${esc(d.tier_label || "")}</td>
-      <td>${esc(d.sentiment || "")}</td>
-      <td class="r">${compact(d.views)}</td>
-      <td class="r">${usd(d.value_usd)}</td>
-    </tr>`
-    )
-    .join("");
+  const heroConc = best?.conc_at ? num(best.conc_at) : "—";
+  const heroPeak = best?.program_peak ? num(best.program_peak) : "—";
 
-  return `<!doctype html><html lang="es"><head><meta charset="utf-8">
-<title>Eco · Reporte ${esc(r.name)}</title>
-<style>
-  * { box-sizing: border-box; }
-  body { font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color:#1a1a1a; margin:0; padding:40px 44px; }
-  .brand { font-size:13px; font-weight:600; letter-spacing:-.2px; }
-  .brand span { color:#888; font-weight:400; }
-  h1 { font-size:25px; margin:6px 0 2px; }
-  .sub { color:#666; font-size:13px; margin-bottom:22px; }
-  .kpis { display:flex; gap:12px; margin:18px 0 24px; }
-  .kpi { flex:1; border:1px solid #ececec; border-radius:10px; padding:12px 14px; }
-  .kpi .l { font-size:10px; text-transform:uppercase; letter-spacing:.4px; color:#999; }
-  .kpi .v { font-size:20px; font-weight:600; margin-top:3px; }
-  .exec { background:#f7f9ff; border:1px solid #e6ecfb; border-radius:10px; padding:16px 18px; font-size:13.5px; line-height:1.6; color:#333; }
-  .grid2 { display:flex; gap:20px; margin:22px 0; }
-  .box { flex:1; border:1px solid #ececec; border-radius:10px; padding:16px; }
-  h2 { font-size:14px; margin:0 0 12px; }
-  h3 { font-size:12px; margin:0 0 8px; }
-  table { width:100%; border-collapse:collapse; margin-top:8px; }
-  th { text-align:left; font-size:10px; color:#999; text-transform:uppercase; letter-spacing:.3px; padding:8px 8px; border-bottom:1px solid #ececec; }
-  td { font-size:11.5px; padding:8px 8px; border-bottom:1px solid #f3f3f3; vertical-align:top; }
-  td.r, th.r { text-align:right; white-space:nowrap; }
-  .muted { color:#aaa; font-size:10px; }
-  .foot { color:#999; font-size:10px; margin-top:18px; line-height:1.5; }
-  @media print { body { padding:24px 28px; } @page { margin:14mm; } }
-</style></head><body>
-  <div class="brand">Eco <span>· el eco de tu marca en el streaming AR</span></div>
-  <h1>${esc(r.name)}</h1>
-  <div class="sub">Reporte de brand intelligence · streaming argentino en vivo · ${today}</div>
+  const leadBest = best
+    ? best.conc_at
+      ? `Lo medí contra la <b>audiencia real del minuto exacto</b> en que se leyó: <b>${heroConc}</b> personas mirando en vivo.`
+      : `Registramos <b>${num(r.mentions)}</b> lecturas de pauta verificadas con cita textual.`
+    : "";
 
-  <div class="exec">
-    <b>${esc(r.name)}</b> registró <b>${num(r.mentions)}</b> menciones en <b>${ctx.programs}</b> programas
-    a lo largo de <b>${(r.channels || []).length}</b> streams, con <b>${compact(ctx.reach)}</b> views acumuladas
-    y un valor de referencia de <b>${usd(r.value_usd)}</b> (lente CPM).
-    ${best ? `El pico fue en <b>${esc(best.channel_name)}</b> el ${esc(best.date)} (${usd(best.value_usd)}). Mayor presencia en <b>${esc(ctx.topChannel)}</b>.` : ""}
+  const insight =
+    best?.conc_at && best?.program_peak
+      ? `<div class="insight"><h4>El dato que no se suele ver</h4><p>La mayoría de los reportes te dan el promedio del programa. Tu aparición más fuerte salió con <b>${heroConc} mirando en vivo</b> (pico del programa: ${heroPeak}). Esa es la diferencia entre "el stream tuvo tanta gente" y "tu marca apareció ante tanta gente". Medición independiente, al minuto, con la cita verificada.</p></div>`
+      : "";
+
+  const sorted = [...detail].sort((a, b) => (b.value_usd || 0) - (a.value_usd || 0));
+  const bestKey = best ? `${best.video_id}:${best.minute}` : "";
+  const featured = sorted.find((d) => `${d.video_id}:${d.minute}` === bestKey) || sorted[0];
+  const rest = sorted.filter((d) => `${d.video_id}:${d.minute}` !== `${featured?.video_id}:${featured?.minute}`);
+
+  const featuredHtml = featured ? mentionCard(featured, ctx.chName, true) : "";
+  const restHtml =
+    rest.length > 0
+      ? `<div class="section-label">Otras apariciones (${rest.length})</div>${rest.map((d) => mentionCard(d, ctx.chName, false)).join("")}`
+      : "";
+
+  const summaryBar =
+    r.mentions > 1
+      ? `<div class="summary-bar"><span><b>${num(r.mentions)}</b> PNT verificadas</span><span><b>${ctx.programs}</b> programas</span><span><b>${channelsLabel || ctx.topChannel}</b></span><span>Exposición total <b>${usd(r.value_usd)}</b></span></div>`
+      : "";
+
+  return `<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>${esc(r.name)} — Exposición en streaming en vivo</title>
+<style>${REPORT_CSS}</style></head><body>
+<div class="page">
+  <div class="head">
+    <div class="kicker">Exposición de marca · Streaming en vivo · Eco</div>
+    <h1>${esc(r.name)}${esc(titleSuffix)}</h1>
+    <div class="sub">Cuánta gente vio tu marca, en qué minuto exacto, y qué dijeron al aire.</div>
+    <div class="meta">
+      ${best ? `<span><b>Programa:</b> ${esc(programLabel(best))}</span>` : ""}
+      ${best ? `<span><b>Emisión:</b> ${esc(best.date)}</span>` : `<span><b>Período:</b> ${today}</span>`}
+      ${best?.program_peak ? `<span><b>Pico del programa:</b> ${heroPeak} espectadores</span>` : ""}
+      ${(r.channels || []).length > 1 ? `<span><b>Canales:</b> ${esc(channelsLabel)}</span>` : ""}
+    </div>
   </div>
 
-  <div class="kpis">
-    <div class="kpi"><div class="l">Menciones</div><div class="v">${num(r.mentions)}</div></div>
-    <div class="kpi"><div class="l">Streams</div><div class="v">${(r.channels || []).length}</div></div>
-    <div class="kpi"><div class="l">Alcance VOD</div><div class="v">${compact(ctx.reach)}</div></div>
-    <div class="kpi"><div class="l">Valor referencia</div><div class="v">${usd(r.value_usd)}</div></div>
+  <div class="hero">
+    <div class="hero-grid">
+      <div class="stat paid"><div class="n">${heroConc}</div><div class="l">mirando en vivo en el minuto de la aparición más fuerte</div></div>
+      <div class="stat"><div class="n">${heroPeak !== "—" ? heroPeak : num(r.mentions)}</div><div class="l">${heroPeak !== "—" ? "pico de espectadores simultáneos" : "lecturas de pauta (PNT)"}</div></div>
+      <div class="stat"><div class="n">${usd(r.value_usd)}</div><div class="l">exposición total estimada (lente A)</div></div>
+    </div>
   </div>
 
-  <div class="grid2">
-    <div class="box"><h2>Evolución temporal</h2>${bars(r.series)}<div class="muted">Valor de referencia por día (USD).</div></div>
+  <div class="body">
+    <p class="lead"><b>${esc(r.name)}</b> acumula <b>${num(r.mentions)}</b> lecturas de pauta en <b>${ctx.programs}</b> programa${ctx.programs === 1 ? "" : "s"}${channelsLabel ? ` (${esc(channelsLabel)})` : ""}. ${leadBest} Acá está el detalle con prueba textual verificada.</p>
+    ${summaryBar}
+    ${featuredHtml}
+    ${insight}
+    ${restHtml}
   </div>
-
-  <div class="grid2">
-    <div class="box"><h3>Prominencia (tier)</h3>${seg([
-      { label: "Pauta / PNT", value: tier["1"] || 0, color: "#2f5fe0" },
-      { label: "Orgánica", value: tier["2"] || 0, color: "#22a06b" },
-      { label: "Aproximada", value: tier["3"] || 0, color: "#cbd2dd" },
-    ])}</div>
-    <div class="box"><h3>Sentimiento</h3>${seg([
-      { label: "Positivo", value: sent.positivo || 0, color: "#22a06b" },
-      { label: "Neutro", value: sent.neutro || 0, color: "#cbd2dd" },
-      { label: "Negativo", value: sent.negativo || 0, color: "#e2574c" },
-    ])}</div>
-  </div>
-
-  <h2>Detalle con prueba textual</h2>
-  <table>
-    <thead><tr><th>Fecha</th><th>Canal</th><th>Prueba textual</th><th>Tier</th><th>Sent.</th><th class="r">Views</th><th class="r">Valor</th></tr></thead>
-    <tbody>${rows}</tbody>
-  </table>
 
   <div class="foot">
-    Valor de referencia = lente CPM (audiencia × CPM × peso de prominencia), según MODELO-VALORIZACION.
-    Es un benchmark de exposición earned-media, no facturación. Tier y sentimiento se infieren del contexto hablado alrededor de la mención.
-    Generado por Eco · ${today}.
+    <p><b>Cómo se mide.</b> Solo lecturas de pauta verificadas (menciones_patrocinadas + cita en transcript). La audiencia es la cantidad real de espectadores conectados en vivo en ese minuto exacto. El valor de pauta equivalente usa lente A (MODELO-VALORIZACION): audiencia al minuto × CPM × tier × sentimiento. <b>No es facturación ni ventas atribuidas.</b></p>
+    <p>Generado por Eco · ${today} · Inteligencia de exposición de marca en streaming argentino en vivo (Olga, Luzu, Bondi, Blender).</p>
   </div>
+</div>
 </body></html>`;
 }

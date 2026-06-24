@@ -13,7 +13,7 @@ export default function AudienciaPage() {
     <div>
       <PageHeader
         title="Audience Quality"
-        sub="Calidad de audiencia por canal: concurrentes reales, pico, cobertura y engagement de chat. La base para defender el CPM."
+        sub="Concurrentes reales minuto a minuto. Contexto para defender CPM en el media kit y en los reportes de marca."
       />
 
       <div className="grid grid-cols-3 gap-3 mb-6">
