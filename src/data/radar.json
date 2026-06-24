@@ -36,7 +36,10 @@
     "date": "11/06/2026",
     "n": 8
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "fútbol",
@@ -74,7 +77,10 @@
     "date": "11/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "mundial 2026",
@@ -109,7 +115,10 @@
     "date": "11/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "videojuegos",
@@ -140,7 +149,10 @@
     "date": "08/06/2026",
     "n": 1
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "mercado inmobiliario",
@@ -173,7 +185,10 @@
     "date": "11/06/2026",
     "n": 20
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "mundialito ciudades",
@@ -197,7 +212,10 @@
     "date": "05/06/2026",
     "n": 19
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "servicios funerarios",
@@ -220,7 +238,10 @@
     "date": "11/06/2026",
     "n": 21
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "feng shui",
@@ -240,7 +261,10 @@
     "date": "08/06/2026",
     "n": 20
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "videojuegos retro",
@@ -267,7 +291,10 @@
     "date": "05/06/2026",
     "n": 16
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "música",
@@ -297,7 +324,10 @@
     "date": "11/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "indio solari",
@@ -318,7 +348,10 @@
     "date": "05/06/2026",
     "n": 15
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "series películas",
@@ -351,7 +384,10 @@
     "date": "11/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "gastronomía",
@@ -380,7 +416,10 @@
     "date": "08/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "música argentina",
@@ -404,7 +443,10 @@
     "date": "08/06/2026",
     "n": 6
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "los redondos",
@@ -425,7 +467,10 @@
     "date": "05/06/2026",
     "n": 14
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "tatuajes",
@@ -448,7 +493,10 @@
     "date": "03/06/2026",
     "n": 13
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "relaciones personales",
@@ -476,7 +524,10 @@
     "date": "11/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "el indio solari",
@@ -497,7 +548,10 @@
     "date": "05/06/2026",
     "n": 13
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "lesiones futbol",
@@ -527,7 +581,10 @@
     "date": "05/06/2026",
     "n": 1
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "mundiales futbol",
@@ -547,7 +604,10 @@
     "date": "01/06/2026",
     "n": 12
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "viajes internacionales",
@@ -577,7 +637,10 @@
     "date": "08/06/2026",
     "n": 7
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "tenis",
@@ -598,7 +661,10 @@
     "date": "08/06/2026",
     "n": 11
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "movimientos sociales",
@@ -619,7 +685,10 @@
     "date": "03/06/2026",
     "n": 10
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "documentales",
@@ -640,7 +709,10 @@
     "date": "05/06/2026",
     "n": 10
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "decoración",
@@ -667,7 +739,10 @@
     "date": "08/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "esoterismo",
@@ -691,7 +766,10 @@
     "date": "08/06/2026",
     "n": 5
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "películas animadas",
@@ -715,7 +793,10 @@
     "date": "11/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "fútbol mundial",
@@ -741,7 +822,10 @@
     "date": "03/06/2026",
     "n": 5
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "turismo argentina",
@@ -766,7 +850,10 @@
     "date": "08/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "videojuegos deportivos",
@@ -787,7 +874,10 @@
     "date": "05/06/2026",
     "n": 9
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "selección argentina",
@@ -813,7 +903,10 @@
     "date": "03/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "caso agostina",
@@ -834,7 +927,10 @@
     "date": "03/06/2026",
     "n": 9
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "aura kirlian",
@@ -858,7 +954,10 @@
     "date": "08/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "violencia de género",
@@ -879,7 +978,10 @@
     "date": "03/06/2026",
     "n": 8
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "redes sociales",
@@ -904,7 +1006,10 @@
     "date": "08/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "política honduras",
@@ -925,7 +1030,10 @@
     "date": "03/06/2026",
     "n": 8
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "gastronomía argentina",
@@ -949,7 +1057,10 @@
     "date": "08/06/2026",
     "n": 5
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "espacios música viva",
@@ -969,7 +1080,10 @@
     "date": "05/06/2026",
     "n": 8
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "destinos turísticos",
@@ -989,7 +1103,10 @@
     "date": "05/06/2026",
     "n": 8
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "decoración plantas",
@@ -1016,7 +1133,10 @@
     "date": "08/06/2026",
     "n": 5
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "herencia familia",
@@ -1043,7 +1163,10 @@
     "date": "11/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "género",
@@ -1064,7 +1187,10 @@
     "date": "03/06/2026",
     "n": 7
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "torneos fútbol",
@@ -1089,7 +1215,10 @@
     "date": "03/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "gastronomía callejera",
@@ -1109,7 +1238,10 @@
     "date": "08/06/2026",
     "n": 7
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "relaciones familiares",
@@ -1131,7 +1263,10 @@
     "date": "03/06/2026",
     "n": 6
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "paternidad",
@@ -1156,7 +1291,10 @@
     "date": "08/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "comercialismo vs autenticidad",
@@ -1180,7 +1318,10 @@
     "date": "05/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "música artistas",
@@ -1204,7 +1345,10 @@
     "date": "11/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "true crime",
@@ -1229,7 +1373,10 @@
     "date": "11/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "caso barrelier",
@@ -1250,7 +1397,10 @@
     "date": "11/06/2026",
     "n": 6
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "profesiones",
@@ -1275,7 +1425,10 @@
     "date": "11/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "entretenimiento vintage",
@@ -1296,7 +1449,10 @@
     "date": "05/06/2026",
     "n": 6
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "bandas rock",
@@ -1320,7 +1476,10 @@
     "date": "05/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "fútbol mercado",
@@ -1345,7 +1504,10 @@
     "date": "03/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "historia fútbol",
@@ -1369,7 +1531,10 @@
     "date": "08/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "geopatía",
@@ -1390,7 +1555,10 @@
     "date": "08/06/2026",
     "n": 6
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "música eventos",
@@ -1415,7 +1583,10 @@
     "date": "08/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "identidad cultural",
@@ -1435,7 +1606,10 @@
     "date": "05/06/2026",
     "n": 6
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "cultura regional",
@@ -1455,7 +1629,10 @@
     "date": "08/06/2026",
     "n": 6
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "higiene personal",
@@ -1475,7 +1652,10 @@
     "date": "08/06/2026",
     "n": 6
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "giras conciertos",
@@ -1500,7 +1680,10 @@
     "date": "11/06/2026",
     "n": 1
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "programas televisivos",
@@ -1526,7 +1709,10 @@
     "date": "08/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "familia relaciones",
@@ -1551,7 +1737,10 @@
     "date": "08/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "femicidio violencia",
@@ -1571,7 +1760,10 @@
     "date": "03/06/2026",
     "n": 5
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "género roles",
@@ -1591,7 +1783,10 @@
     "date": "03/06/2026",
     "n": 5
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "pastelería",
@@ -1611,7 +1806,10 @@
     "date": "03/06/2026",
     "n": 5
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "política",
@@ -1632,7 +1830,10 @@
     "date": "03/06/2026",
     "n": 5
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "geopolítica",
@@ -1653,7 +1854,10 @@
     "date": "03/06/2026",
     "n": 5
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "infancia desarrollo",
@@ -1673,7 +1877,10 @@
     "date": "11/06/2026",
     "n": 5
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "futbol internacional",
@@ -1698,7 +1905,10 @@
     "date": "11/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "historia argentina",
@@ -1723,7 +1933,10 @@
     "date": "11/06/2026",
     "n": 1
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "educación",
@@ -1748,7 +1961,10 @@
     "date": "08/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "violencia género",
@@ -1768,7 +1984,10 @@
     "date": "03/06/2026",
     "n": 5
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "técnicos futbol",
@@ -1792,7 +2011,10 @@
     "date": "08/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "producción musical",
@@ -1817,7 +2039,10 @@
     "date": "08/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "san salvador de jujuy",
@@ -1837,7 +2062,10 @@
     "date": "05/06/2026",
     "n": 5
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "turismo patagónico",
@@ -1857,7 +2085,10 @@
     "date": "05/06/2026",
     "n": 5
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "marketing digital",
@@ -1882,7 +2113,10 @@
     "date": "11/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "joyería",
@@ -1902,7 +2136,10 @@
     "date": "11/06/2026",
     "n": 5
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "carrera profesional",
@@ -1928,7 +2165,10 @@
     "date": "05/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "danza",
@@ -1953,7 +2193,10 @@
     "date": "11/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "construcción vivienda",
@@ -1978,7 +2221,10 @@
     "date": "08/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "tecnología",
@@ -1998,7 +2244,10 @@
     "date": "03/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "musicales",
@@ -2022,7 +2271,10 @@
     "date": "08/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "países mundo",
@@ -2042,7 +2294,10 @@
     "date": "03/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "fútbol internacional",
@@ -2067,7 +2322,10 @@
     "date": "03/06/2026",
     "n": 1
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "honduras",
@@ -2087,7 +2345,10 @@
     "date": "03/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "true crime argentina",
@@ -2108,7 +2369,10 @@
     "date": "11/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "medicina forense",
@@ -2129,7 +2393,10 @@
     "date": "11/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "nutrición saludable",
@@ -2153,7 +2420,10 @@
     "date": "11/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "películas fantasía",
@@ -2173,7 +2443,10 @@
     "date": "11/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "nostalgia argentina",
@@ -2197,7 +2470,10 @@
     "date": "11/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "artes plásticas",
@@ -2218,7 +2494,10 @@
     "date": "05/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "fanfiction",
@@ -2238,7 +2517,10 @@
     "date": "03/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "migración argentina",
@@ -2262,7 +2544,10 @@
     "date": "08/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "historia futbolística",
@@ -2283,7 +2568,10 @@
     "date": "01/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "historia clubes",
@@ -2303,7 +2591,10 @@
     "date": "01/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "carrera futbolística",
@@ -2324,7 +2615,10 @@
     "date": "08/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "fiestas populares",
@@ -2344,7 +2638,10 @@
     "date": "05/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "turismo buenos aires",
@@ -2364,7 +2661,10 @@
     "date": "05/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "lingüística argentina",
@@ -2384,7 +2684,10 @@
     "date": "08/06/2026",
     "n": 4
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "pseudociencia",
@@ -2409,7 +2712,10 @@
     "date": "08/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "espiritualismo",
@@ -2429,7 +2735,10 @@
     "date": "03/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "cirugía estética",
@@ -2454,7 +2763,10 @@
     "date": "11/06/2026",
     "n": 1
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "género y masculinidad",
@@ -2474,7 +2786,10 @@
     "date": "03/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "medios comunicación",
@@ -2494,7 +2809,10 @@
     "date": "03/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "bebidas",
@@ -2518,7 +2836,10 @@
     "date": "08/06/2026",
     "n": 1
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "migraciones",
@@ -2538,7 +2859,10 @@
     "date": "03/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "migraciones humanitario",
@@ -2558,7 +2882,10 @@
     "date": "03/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "noticias internacionales",
@@ -2578,7 +2905,10 @@
     "date": "03/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "delitos",
@@ -2598,7 +2928,10 @@
     "date": "11/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "delincuencia",
@@ -2618,7 +2951,10 @@
     "date": "11/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "drogas sustancias",
@@ -2638,7 +2974,10 @@
     "date": "11/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "drogas médicas",
@@ -2658,7 +2997,10 @@
     "date": "11/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "seguridad del hogar",
@@ -2683,7 +3025,10 @@
     "date": "11/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "animales bienestar",
@@ -2703,7 +3048,10 @@
     "date": "11/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "salud física",
@@ -2723,7 +3071,10 @@
     "date": "11/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "salud",
@@ -2748,7 +3099,10 @@
     "date": "11/06/2026",
     "n": 2
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "sexualidad",
@@ -2769,7 +3123,10 @@
     "date": "11/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  },
  {
   "tema": "gastronomía alimentos",
@@ -2789,6 +3146,9 @@
     "date": "05/06/2026",
     "n": 3
    }
-  ]
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null
  }
 ]

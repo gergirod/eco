@@ -153,7 +153,7 @@
   "brands": 246,
   "mentions": 334,
   "share_views": 29.6,
-  "n_brands_live": 19,
+  "n_brands_live": 20,
   "top_brands": [
    {
     "slug": "fifa",
@@ -178,6 +178,12 @@
     "name": "PlayStation",
     "mentions": 1,
     "value_usd": 363.0
+   },
+   {
+    "slug": "quilmes",
+    "name": "Quilmes",
+    "mentions": 1,
+    "value_usd": 334.0
    },
    {
     "slug": "sony",
