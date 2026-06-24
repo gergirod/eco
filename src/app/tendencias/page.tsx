@@ -19,6 +19,36 @@ function Spark({ serie }: { serie: { date: string; n: number }[] }) {
   );
 }
 
+function GTCell({ t }: { t: any }) {
+  const s = t.gt_status;
+  if (!s) return <span className="text-gray-300 text-[11px]">sin comparar</span>;
+  if (s === "pre_busqueda")
+    return (
+      <span title="Google Trends todavía no registra volumen para este tema en AR">
+        <Badge tone="green">pre-búsqueda</Badge>
+      </span>
+    );
+  if (s === "adelantado")
+    return (
+      <span title="Lo detectamos en streams antes del despegue en Google Trends">
+        <Badge tone="blue">+{t.gt_lead_days} días antes</Badge>
+      </span>
+    );
+  if (s === "ya_masivo")
+    return (
+      <span title="Google ya venía con volumen: llegamos después">
+        <Badge tone="gray">ya masivo</Badge>
+      </span>
+    );
+  if (s === "en_linea")
+    return (
+      <span title="Despegó en streams y en Google casi al mismo tiempo">
+        <Badge tone="amber">en línea</Badge>
+      </span>
+    );
+  return <span className="text-gray-300 text-[11px]">s/d</span>;
+}
+
 export default function TendenciasPage() {
   const radar = useDataset<any[]>("radar", radarFb);
   const [onlyCross, setOnlyCross] = useState(true);
@@ -61,6 +91,7 @@ export default function TendenciasPage() {
                 <th className="text-right">Score</th>
                 <th className="text-right">Menc.</th>
                 <th>Canales</th>
+                <th>vs Google Trends</th>
                 <th>Tendencia</th>
               </tr>
             </thead>
@@ -83,6 +114,7 @@ export default function TendenciasPage() {
                   <td className="text-right tabular-nums font-semibold">{t.score}</td>
                   <td className="text-right tabular-nums text-gray-500">{t.menciones}</td>
                   <td className="text-[12.5px] text-gray-500">{(t.canales || []).join(", ")}</td>
+                  <td><GTCell t={t} /></td>
                   <td>
                     <Spark serie={t.serie} />
                   </td>
@@ -96,7 +128,10 @@ export default function TendenciasPage() {
       <p className="text-[11px] text-gray-400 mt-4 leading-relaxed max-w-[820px]">
         Tendencia = aparición en ≥2 comunidades (filtro anti-meme). El score combina volumen,
         cross-comunidad y persistencia multi-día. La sparkline muestra la evolución de menciones por
-        día (verde = subiendo). Capa 2 del pipeline: señal de demanda emergente antes de Google Trends.
+        día (verde = subiendo). La columna <b>vs Google Trends</b> compara la primera mención en
+        streams contra la fecha de despegue en Google Trends (AR): <b>pre-búsqueda</b> = Google aún no
+        registra volumen; <b>+N días antes</b> = lo detectamos antes; <b>ya masivo</b> = llegamos
+        después. Capa 2 del pipeline: señal de demanda emergente antes de Google Trends.
       </p>
     </div>
   );

@@ -1159,6 +1159,31 @@
   "kind": "producto"
  },
  {
+  "slug": "balance-sociedad-de-bolsa",
+  "name": "Balance (sociedad de bolsa)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 139.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "24/06/2026",
+    "video_id": "bQfYZ3sfUYc",
+    "title": "LA NOVELA con CARINA ZAMPINI, DIEGO CASTRO, GABY SCHULTZ Y AGUS BATTIONI | EN VIVO",
+    "minute": "00:40",
+    "views": 15393
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "televisores-50-pulgadas-o-mas",
   "name": "Televisores (50 pulgadas o más)",
   "mentions": 1,

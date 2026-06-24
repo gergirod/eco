@@ -11,55 +11,120 @@ const SENT_TONE: Record<string, "green" | "gray" | "red"> = {
   negativo: "red",
 };
 
-function fmtMin(m: number) {
-  return `${String(Math.floor(m / 60)).padStart(2, "0")}:${String(m % 60).padStart(2, "0")}`;
+// minuto-desde-el-inicio -> "h:mm" (ej. 110 -> "1:50"); <60 -> "0:MM"
+function fmtClock(min: number) {
+  const h = Math.floor(min / 60);
+  const m = Math.round(min % 60);
+  return `${h}:${String(m).padStart(2, "0")}`;
+}
+// segundos -> "h:mm:ss"
+function fmtHMS(sec: number) {
+  const s = Math.max(0, sec | 0);
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const ss = s % 60;
+  return `${h}:${String(m).padStart(2, "0")}:${String(ss).padStart(2, "0")}`;
+}
+function kfmt(n: number) {
+  if (n >= 1000) return (n / 1000).toFixed(n >= 10000 ? 0 : 1).replace(".0", "") + "K";
+  return String(Math.round(n));
 }
 
 /* Gráfico de audiencia al minuto + barras de chat, con la marca del momento de la mención */
 function MomentChart({ series, hotMin }: { series: any[]; hotMin: number }) {
   const W = 760,
-    H = 220,
-    padL = 6,
-    padB = 22,
-    padT = 8;
+    H = 250,
+    padL = 46,
+    padR = 14,
+    padB = 30,
+    padT = 16;
   const pts = series.filter((s) => s.c != null);
   if (!pts.length) return <div className="text-[12px] text-gray-400">Sin serie de audiencia.</div>;
   const maxC = Math.max(...pts.map((s) => s.c), 1);
   const maxChat = Math.max(...series.map((s) => s.chat || 0), 1);
-  const n = series.length;
-  const x = (m: number) => padL + (m / Math.max(1, n - 1)) * (W - padL * 2);
+  const lastMin = series[series.length - 1].m || pts[pts.length - 1].m || 1;
+  const x = (m: number) => padL + (m / Math.max(1, lastMin)) * (W - padL - padR);
   const y = (c: number) => padT + (1 - c / maxC) * (H - padT - padB);
 
   const line = pts.map((s) => `${x(s.m).toFixed(1)},${y(s.c).toFixed(1)}`).join(" ");
-  const area = `${padL},${H - padB} ${line} ${x(pts[pts.length - 1].m).toFixed(1)},${H - padB}`;
+  const area = `${x(pts[0].m).toFixed(1)},${H - padB} ${line} ${x(pts[pts.length - 1].m).toFixed(1)},${H - padB}`;
   const hot = series.find((s) => s.m === hotMin) || pts.reduce((a, b) => (Math.abs(b.m - hotMin) < Math.abs(a.m - hotMin) ? b : a));
+  const peak = pts.reduce((a, b) => (b.c > a.c ? b : a));
+
+  // ticks de tiempo cada 30 min
+  const xticks: number[] = [];
+  for (let m = 0; m <= lastMin; m += 30) xticks.push(m);
+  if (xticks[xticks.length - 1] !== lastMin) xticks.push(lastMin);
+  // gridlines de audiencia
+  const yvals = [0, 0.25, 0.5, 0.75, 1].map((f) => Math.round(maxC * f));
+  const hotRight = x(hot.m) > W - 90;
 
   return (
-    <svg viewBox={`0 0 ${W} ${H}`} className="w-full" style={{ height: 220 }}>
+    <svg viewBox={`0 0 ${W} ${H}`} className="w-full" style={{ height: 250 }}>
+      <defs>
+        <linearGradient id="audFill" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stopColor="#2f5fe0" stopOpacity="0.22" />
+          <stop offset="100%" stopColor="#2f5fe0" stopOpacity="0.02" />
+        </linearGradient>
+      </defs>
+
+      {/* gridlines + labels de audiencia (eje Y) */}
+      {yvals.map((v, i) => (
+        <g key={i}>
+          <line x1={padL} y1={y(v)} x2={W - padR} y2={y(v)} stroke="#eef0f4" strokeWidth={1} />
+          <text x={padL - 6} y={y(v) + 3} textAnchor="end" fontSize="9.5" fill="#9aa3af">
+            {kfmt(v)}
+          </text>
+        </g>
+      ))}
+
       {/* chat bars (fondo) */}
       {series.map((s, i) =>
         s.chat ? (
           <rect
             key={i}
-            x={x(s.m) - 1.2}
-            y={H - padB - ((s.chat / maxChat) * (H - padT - padB)) * 0.5}
-            width={2.4}
-            height={((s.chat / maxChat) * (H - padT - padB)) * 0.5}
-            fill="#d9e1f5"
+            x={x(s.m) - 1.1}
+            y={H - padB - ((s.chat / maxChat) * (H - padT - padB)) * 0.4}
+            width={2.2}
+            height={((s.chat / maxChat) * (H - padT - padB)) * 0.4}
+            fill="#cdd8f2"
           />
         ) : null
       )}
-      {/* área de audiencia */}
-      <polygon points={area} fill="#eef2fd" />
-      <polyline points={line} fill="none" stroke="#2f5fe0" strokeWidth={1.8} />
-      {/* marca del momento */}
+
+      {/* área + línea de audiencia */}
+      <polygon points={area} fill="url(#audFill)" />
+      <polyline points={line} fill="none" stroke="#2f5fe0" strokeWidth={2} />
+
+      {/* eje X: tiempo desde el inicio */}
+      {xticks.map((m, i) => (
+        <text key={i} x={x(m)} y={H - 10} textAnchor="middle" fontSize="9.5" fill="#9aa3af">
+          {fmtClock(m)}
+        </text>
+      ))}
+      <text x={(padL + W - padR) / 2} y={H - 0.5} textAnchor="middle" fontSize="8.5" fill="#c0c6d0">
+        tiempo desde el inicio del programa (h:mm)
+      </text>
+
+      {/* pico del programa */}
+      <circle cx={x(peak.m)} cy={y(peak.c)} r={3} fill="#2f5fe0" />
+      <text x={x(peak.m)} y={y(peak.c) - 7} textAnchor="middle" fontSize="9.5" fill="#2f5fe0" fontWeight="600">
+        pico {kfmt(peak.c)}
+      </text>
+
+      {/* marca del momento de la mención */}
       {hot && hot.c != null && (
         <g>
-          <line x1={x(hot.m)} y1={padT} x2={x(hot.m)} y2={H - padB} stroke="#e2574c" strokeWidth={1.2} strokeDasharray="3 3" />
-          <circle cx={x(hot.m)} cy={y(hot.c)} r={4} fill="#e2574c" />
-          <text x={x(hot.m)} y={padT + 10} textAnchor="middle" fontSize="9" fill="#e2574c" fontWeight="600">
-            mención {fmtMin(hot.m)}
-          </text>
+          <line x1={x(hot.m)} y1={padT} x2={x(hot.m)} y2={H - padB} stroke="#e2574c" strokeWidth={1.3} strokeDasharray="4 3" />
+          <circle cx={x(hot.m)} cy={y(hot.c)} r={4.5} fill="#e2574c" />
+          <g transform={`translate(${x(hot.m) + (hotRight ? -8 : 8)},${padT + 4})`}>
+            <text textAnchor={hotRight ? "end" : "start"} fontSize="10.5" fill="#e2574c" fontWeight="700">
+              mención · {fmtClock(hot.m)}
+            </text>
+            <text y={13} textAnchor={hotRight ? "end" : "start"} fontSize="9.5" fill="#e2574c">
+              {kfmt(hot.c)} mirando en vivo
+            </text>
+          </g>
         </g>
       )}
     </svg>
@@ -118,13 +183,15 @@ export default function MomentModal({
         </div>
 
         <blockquote className="border-l-2 border-accent pl-3 my-4 text-[14px] italic text-gray-700">
-          {mention.quote ? `“${mention.quote}”` : "Mención detectada (sin cita textual precisa)."}
+          {mention.quote
+            ? `“${mention.quote}”`
+            : "La marca se nombró en este tramo; la transcripción no fijó la frase textual exacta."}
         </blockquote>
 
         <div className="flex items-center gap-2 mb-4 flex-wrap">
           <Badge tone={TIER_TONE[mention.tier] || "gray"}>{mention.tier_label}</Badge>
           <Badge tone={SENT_TONE[mention.sentiment] || "gray"}>sentimiento {mention.sentiment}</Badge>
-          <Badge tone="gray">minuto {mention.minute}</Badge>
+          <Badge tone="gray">{fmtHMS(mention.t_seconds || 0)} del programa</Badge>
           {mention.precise ? <Badge tone="green">timestamp exacto</Badge> : <Badge tone="amber">minuto aprox.</Badge>}
         </div>
 

@@ -103,18 +103,22 @@ export default function MarcaDashboard() {
     () => Object.fromEntries(channels.map((c: any) => [c.id, c.name])),
     [channels]
   );
-  const [onlyBrands, setOnlyBrands] = useState(true);
+  const [onlyPaid, setOnlyPaid] = useState(true);
   const allOptions = useMemo(
     () =>
       Object.entries(reports as any)
-        .map(([slug, r]: any) => ({ slug, name: r.name, mentions: r.mentions, kind: r.kind || "marca" }))
-        .sort((a, b) => b.mentions - a.mentions),
+        .map(([slug, r]: any) => ({
+          slug, name: r.name, mentions: r.mentions, kind: r.kind || "marca",
+          paid: (r.by_tier && r.by_tier["1"]) || 0,
+        }))
+        .sort((a, b) => b.paid - a.paid || b.mentions - a.mentions),
     [reports]
   );
-  const nNonBrand = useMemo(() => allOptions.filter((o) => o.kind !== "marca").length, [allOptions]);
+  const isPaidBrand = (o: any) => o.paid > 0 && o.kind === "marca";
+  const nPaid = useMemo(() => allOptions.filter(isPaidBrand).length, [allOptions]);
   const options = useMemo(
-    () => (onlyBrands ? allOptions.filter((o) => o.kind === "marca") : allOptions),
-    [allOptions, onlyBrands]
+    () => (onlyPaid ? allOptions.filter(isPaidBrand) : allOptions),
+    [allOptions, onlyPaid]
   );
   const [brand, setBrand] = useState(options[0]?.slug || "");
   // permite llegar desde el Media Kit con ?brand=<slug>
@@ -165,10 +169,12 @@ export default function MarcaDashboard() {
           <Badge tone="amber">{r.kind === "plataforma" ? "plataforma" : "lugar"} · no anunciante</Badge>
         )}
         <label className="flex items-center gap-2 text-[12px] text-gray-500 cursor-pointer">
-          <input type="checkbox" checked={onlyBrands} onChange={(e) => setOnlyBrands(e.target.checked)} />
-          Solo anunciantes ({nNonBrand} plataformas/lugares ocultos)
+          <input type="checkbox" checked={onlyPaid} onChange={(e) => setOnlyPaid(e.target.checked)} />
+          Solo marcas de pauta
         </label>
-        <span className="text-[12px] text-gray-400">{options.length} marcas</span>
+        <span className="text-[12px] text-gray-400">
+          {options.length} {onlyPaid ? "marcas con pauta" : "marcas"}
+        </span>
         <button className="btn btn-primary ml-auto" onClick={downloadPDF}>
           ↓ Descargar reporte PDF
         </button>

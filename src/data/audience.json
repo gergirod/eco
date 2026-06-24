@@ -2,8 +2,8 @@
  {
   "id": "luzu",
   "name": "Luzu TV",
-  "videos": 10,
-  "avg_concurrent": 86936,
+  "videos": 11,
+  "avg_concurrent": 80437,
   "peak_concurrent": 243607,
   "chat_coverage": 0,
   "chat_msgs_per_1k_min": null,

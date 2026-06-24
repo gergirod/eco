@@ -12,7 +12,7 @@
    "videos_processed": 12,
    "total_vod_views": 600893,
    "avg_concurrent": 27658,
-   "brands_detected": 250,
+   "brands_detected": 237,
    "mentions": 348,
    "last_processed": "24/06/2026"
   },
@@ -28,11 +28,11 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 10,
-   "total_vod_views": 1399132,
-   "avg_concurrent": 86936,
-   "brands_detected": 222,
-   "mentions": 331,
+   "videos_processed": 11,
+   "total_vod_views": 1414525,
+   "avg_concurrent": 80437,
+   "brands_detected": 219,
+   "mentions": 346,
    "last_processed": "24/06/2026"
   },
   "pipeline_status": "activo"

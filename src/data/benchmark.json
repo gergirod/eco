@@ -2,14 +2,20 @@
  {
   "id": "luzu",
   "name": "Luzu TV",
-  "videos": 10,
-  "vod_views": 1399132,
-  "avg_concurrent": 86936,
-  "brands": 222,
-  "mentions": 331,
-  "share_views": 70.0,
-  "n_brands_live": 36,
+  "videos": 11,
+  "vod_views": 1414525,
+  "avg_concurrent": 80437,
+  "brands": 219,
+  "mentions": 346,
+  "share_views": 70.2,
+  "n_brands_live": 33,
   "top_brands": [
+   {
+    "slug": "asiscard",
+    "name": "Asiscard",
+    "mentions": 3,
+    "value_usd": 5710.0
+   },
    {
     "slug": "mercado-libre",
     "name": "Mercado Libre",
@@ -23,10 +29,16 @@
     "value_usd": 1497.0
    },
    {
-    "slug": "asiscar",
-    "name": "Asiscar",
+    "slug": "rexona",
+    "name": "Rexona",
     "mentions": 2,
-    "value_usd": 4078.0
+    "value_usd": 2297.0
+   },
+   {
+    "slug": "la-roche-posay",
+    "name": "La Roche-Posay",
+    "mentions": 2,
+    "value_usd": 1868.0
    },
    {
     "slug": "coca-cola",
@@ -47,10 +59,10 @@
     "value_usd": 506.0
    },
    {
-    "slug": "rexona",
-    "name": "Rexona",
+    "slug": "skip",
+    "name": "Skip",
     "mentions": 1,
-    "value_usd": 2159.0
+    "value_usd": 675.0
    },
    {
     "slug": "quilmes",
@@ -65,14 +77,20 @@
     "value_usd": 2140.0
    },
    {
-    "slug": "melimas",
-    "name": "MeliMás",
+    "slug": "dia",
+    "name": "Día",
     "mentions": 1,
-    "value_usd": 343.0
+    "value_usd": 2140.0
    },
    {
-    "slug": "smart-tv",
-    "name": "Smart TV",
+    "slug": "pedidos-ya",
+    "name": "Pedidos Ya",
+    "mentions": 1,
+    "value_usd": 725.0
+   },
+   {
+    "slug": "melimas",
+    "name": "MeliMás",
     "mentions": 1,
     "value_usd": 343.0
    },
@@ -99,18 +117,6 @@
     "name": "Hisense",
     "mentions": 1,
     "value_usd": 833.0
-   },
-   {
-    "slug": "asiscard",
-    "name": "Asiscard",
-    "mentions": 1,
-    "value_usd": 1811.0
-   },
-   {
-    "slug": "dia",
-    "name": "Día",
-    "mentions": 1,
-    "value_usd": 2140.0
    },
    {
     "slug": "lays",
@@ -161,34 +167,28 @@
     "value_usd": 633.0
    },
    {
-    "slug": "skip-expert",
-    "name": "Skip Expert",
-    "mentions": 1,
-    "value_usd": 675.0
-   },
-   {
     "slug": "coffee-house",
     "name": "Coffee House",
     "mentions": 1,
     "value_usd": 846.0
    },
    {
-    "slug": "antelios-uber-fps-50",
-    "name": "Antelios Uber FPS 50",
-    "mentions": 1,
-    "value_usd": 934.0
-   },
-   {
-    "slug": "la-roche-posay",
-    "name": "La Roche-Posay",
-    "mentions": 1,
-    "value_usd": 934.0
-   },
-   {
     "slug": "banco-patagonia",
     "name": "Banco Patagonia",
     "mentions": 1,
     "value_usd": 976.0
+   },
+   {
+    "slug": "club-patagonia",
+    "name": "Club Patagonia",
+    "mentions": 1,
+    "value_usd": 976.0
+   },
+   {
+    "slug": "haussler",
+    "name": "Haussler",
+    "mentions": 1,
+    "value_usd": 179.0
    }
   ]
  },
@@ -198,16 +198,22 @@
   "videos": 12,
   "vod_views": 600893,
   "avg_concurrent": 27658,
-  "brands": 250,
+  "brands": 237,
   "mentions": 348,
-  "share_views": 30.0,
-  "n_brands_live": 49,
+  "share_views": 29.8,
+  "n_brands_live": 44,
   "top_brands": [
    {
     "slug": "geniol",
     "name": "Geniol",
+    "mentions": 6,
+    "value_usd": 1882.0
+   },
+   {
+    "slug": "iol-inversiones",
+    "name": "IOL Inversiones",
     "mentions": 5,
-    "value_usd": 1557.0
+    "value_usd": 977.0
    },
    {
     "slug": "mcdonald-s",
@@ -222,6 +228,24 @@
     "value_usd": 450.0
    },
    {
+    "slug": "skip",
+    "name": "Skip",
+    "mentions": 2,
+    "value_usd": 628.0
+   },
+   {
+    "slug": "pharma-olga",
+    "name": "Pharma Olga",
+    "mentions": 2,
+    "value_usd": 405.0
+   },
+   {
+    "slug": "rexona",
+    "name": "Rexona",
+    "mentions": 2,
+    "value_usd": 453.0
+   },
+   {
     "slug": "ypf",
     "name": "YPF",
     "mentions": 2,
@@ -234,28 +258,10 @@
     "value_usd": 258.0
    },
    {
-    "slug": "rexona",
-    "name": "Rexona",
-    "mentions": 2,
-    "value_usd": 453.0
-   },
-   {
-    "slug": "pharmaolga",
-    "name": "Pharmaolga",
-    "mentions": 2,
-    "value_usd": 405.0
-   },
-   {
     "slug": "swift",
     "name": "Swift",
     "mentions": 2,
     "value_usd": 255.0
-   },
-   {
-    "slug": "yol-inversiones",
-    "name": "YOL Inversiones",
-    "mentions": 2,
-    "value_usd": 454.0
    },
    {
     "slug": "mercado-libre",
@@ -270,10 +276,16 @@
     "value_usd": 358.0
    },
    {
-    "slug": "asiscar",
-    "name": "Asiscar",
+    "slug": "asiscard",
+    "name": "Asiscard",
     "mentions": 1,
     "value_usd": 71.0
+   },
+   {
+    "slug": "la-roche-posay",
+    "name": "La Roche-Posay",
+    "mentions": 1,
+    "value_usd": 448.0
    },
    {
     "slug": "quilmes",
@@ -282,10 +294,10 @@
     "value_usd": 334.0
    },
    {
-    "slug": "skip",
-    "name": "Skip",
+    "slug": "johnnie-walker",
+    "name": "Johnnie Walker",
     "mentions": 1,
-    "value_usd": 272.0
+    "value_usd": 76.0
    },
    {
     "slug": "at-t",
@@ -298,6 +310,18 @@
     "name": "Sony",
     "mentions": 1,
     "value_usd": 267.0
+   },
+   {
+    "slug": "dia",
+    "name": "Día",
+    "mentions": 1,
+    "value_usd": 191.0
+   },
+   {
+    "slug": "smirnoff",
+    "name": "Smirnoff",
+    "mentions": 1,
+    "value_usd": 169.0
    },
    {
     "slug": "ticketek",
@@ -330,28 +354,16 @@
     "value_usd": 385.0
    },
    {
-    "slug": "antelios-uv-air-de-la-roche-posay",
-    "name": "Antelios UV Air de la Roche-Posay",
-    "mentions": 1,
-    "value_usd": 448.0
-   },
-   {
     "slug": "swiss-medical",
     "name": "Swiss Medical",
     "mentions": 1,
     "value_usd": 365.0
    },
    {
-    "slug": "hellman-s",
-    "name": "Hellman's",
+    "slug": "hellmann-s",
+    "name": "Hellmann's",
     "mentions": 1,
-    "value_usd": 347.0
-   },
-   {
-    "slug": "johnny-walker",
-    "name": "Johnny Walker",
-    "mentions": 1,
-    "value_usd": 76.0
+    "value_usd": 346.0
    },
    {
     "slug": "hyundai",
@@ -360,26 +372,14 @@
     "value_usd": 76.0
    },
    {
-    "slug": "iol-inversiones",
-    "name": "IOL Inversiones",
-    "mentions": 1,
-    "value_usd": 70.0
-   },
-   {
-    "slug": "yol",
-    "name": "YOL",
-    "mentions": 1,
-    "value_usd": 70.0
-   },
-   {
     "slug": "top-line",
     "name": "Top Line",
     "mentions": 1,
     "value_usd": 270.0
    },
    {
-    "slug": "iol",
-    "name": "IOL",
+    "slug": "olga-store",
+    "name": "Olga Store",
     "mentions": 1,
     "value_usd": 383.0
    }
