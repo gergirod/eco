@@ -1,4 +1,6 @@
-# Streamproof — Demo UI
+# Eco — Demo UI
+
+> Eco · el eco de tu marca en el streaming argentino en vivo.
 
 UI de demostración (Next.js) sobre el pipeline de brand intelligence del streaming argentino.
 Diseño limpio, light-mode. Datos **reales** exportados del pipeline.

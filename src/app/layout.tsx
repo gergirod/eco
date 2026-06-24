@@ -3,7 +3,7 @@ import "./globals.css";
 import Sidebar from "@/components/Sidebar";
 
 export const metadata: Metadata = {
-  title: "Streamproof — Brand Intelligence",
+  title: "Eco — Brand Intelligence",
   description: "Inteligencia de marca sobre el streaming argentino en vivo",
 };
 

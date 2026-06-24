@@ -1,4 +1,4 @@
--- Streamproof · esquema mínimo para alimentar la UI desde Supabase.
+-- Eco · esquema mínimo para alimentar la UI desde Supabase.
 -- Una sola tabla con los datasets como JSONB (cabe holgado en el free tier).
 -- Correr en: Supabase → SQL Editor → New query → Run.
 

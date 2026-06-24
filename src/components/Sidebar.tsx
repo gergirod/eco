@@ -15,8 +15,8 @@ export default function Sidebar() {
   return (
     <aside className="w-[228px] shrink-0 border-r border-[#ececec] bg-white px-4 py-6 flex flex-col">
       <div className="px-2 mb-7">
-        <div className="text-[15px] font-semibold tracking-tight">Streamproof</div>
-        <div className="text-[11px] text-gray-400 mt-0.5">Brand Intelligence · AR</div>
+        <div className="text-[15px] font-semibold tracking-tight">Eco</div>
+        <div className="text-[11px] text-gray-400 mt-0.5">El eco de tu marca · AR</div>
       </div>
       <nav className="flex flex-col gap-0.5">
         {NAV.map((n) => {
