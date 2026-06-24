@@ -9,11 +9,11 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 43,
-   "total_vod_views": 5101225,
+   "videos_processed": 11,
+   "total_vod_views": 587896,
    "avg_concurrent": 29468,
-   "brands_detected": 854,
-   "mentions": 1273,
+   "brands_detected": 246,
+   "mentions": 334,
    "last_processed": "24/06/2026"
   },
   "pipeline_status": "activo"
@@ -28,11 +28,11 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 42,
-   "total_vod_views": 10533369,
+   "videos_processed": 10,
+   "total_vod_views": 1399132,
    "avg_concurrent": 86936,
-   "brands_detected": 630,
-   "mentions": 972,
+   "brands_detected": 222,
+   "mentions": 331,
    "last_processed": "24/06/2026"
   },
   "pipeline_status": "activo"

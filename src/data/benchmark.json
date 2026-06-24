@@ -2,12 +2,12 @@
  {
   "id": "luzu",
   "name": "Luzu TV",
-  "videos": 42,
-  "vod_views": 10533369,
+  "videos": 10,
+  "vod_views": 1399132,
   "avg_concurrent": 86936,
-  "brands": 630,
-  "mentions": 972,
-  "share_views": 67.4,
+  "brands": 222,
+  "mentions": 331,
+  "share_views": 70.4,
   "n_brands_live": 22,
   "top_brands": [
    {
@@ -23,12 +23,6 @@
     "value_usd": 1686.0
    },
    {
-    "slug": "mercado-libre",
-    "name": "Mercado Libre",
-    "mentions": 1,
-    "value_usd": 343.0
-   },
-   {
     "slug": "fifa",
     "name": "FIFA",
     "mentions": 1,
@@ -41,10 +35,10 @@
     "value_usd": 1686.0
    },
    {
-    "slug": "coca-cola",
-    "name": "Coca-Cola",
+    "slug": "mercado-libre",
+    "name": "Mercado Libre",
     "mentions": 1,
-    "value_usd": 344.0
+    "value_usd": 343.0
    },
    {
     "slug": "playstation",
@@ -53,16 +47,10 @@
     "value_usd": 506.0
    },
    {
-    "slug": "pedido-ya",
-    "name": "Pedido Ya",
+    "slug": "coca-cola",
+    "name": "Coca-Cola",
     "mentions": 1,
-    "value_usd": 725.0
-   },
-   {
-    "slug": "euforica",
-    "name": "Eufórica",
-    "mentions": 1,
-    "value_usd": 919.0
+    "value_usd": 344.0
    },
    {
     "slug": "melimas",
@@ -87,6 +75,12 @@
     "name": "Hisense",
     "mentions": 1,
     "value_usd": 833.0
+   },
+   {
+    "slug": "euforica",
+    "name": "Eufórica",
+    "mentions": 1,
+    "value_usd": 919.0
    },
    {
     "slug": "jorjito",
@@ -131,6 +125,12 @@
     "value_usd": 725.0
    },
    {
+    "slug": "pedido-ya",
+    "name": "Pedido Ya",
+    "mentions": 1,
+    "value_usd": 725.0
+   },
+   {
     "slug": "farmacia",
     "name": "Farmacia",
     "mentions": 1,
@@ -147,12 +147,12 @@
  {
   "id": "olga",
   "name": "Olga",
-  "videos": 43,
-  "vod_views": 5101225,
+  "videos": 11,
+  "vod_views": 587896,
   "avg_concurrent": 29468,
-  "brands": 854,
-  "mentions": 1273,
-  "share_views": 32.6,
+  "brands": 246,
+  "mentions": 334,
+  "share_views": 29.6,
   "n_brands_live": 19,
   "top_brands": [
    {
@@ -174,18 +174,6 @@
     "value_usd": 383.0
    },
    {
-    "slug": "cabify",
-    "name": "Cabify",
-    "mentions": 1,
-    "value_usd": 300.0
-   },
-   {
-    "slug": "nike",
-    "name": "Nike",
-    "mentions": 1,
-    "value_usd": 367.0
-   },
-   {
     "slug": "playstation",
     "name": "PlayStation",
     "mentions": 1,
@@ -196,18 +184,6 @@
     "name": "Sony",
     "mentions": 1,
     "value_usd": 267.0
-   },
-   {
-    "slug": "fravega",
-    "name": "Frávega",
-    "mentions": 1,
-    "value_usd": 378.0
-   },
-   {
-    "slug": "hyundai",
-    "name": "Hyundai",
-    "mentions": 1,
-    "value_usd": 76.0
    },
    {
     "slug": "ticketek",
@@ -232,6 +208,12 @@
     "name": "Ghost of Tsushima",
     "mentions": 1,
     "value_usd": 364.0
+   },
+   {
+    "slug": "hyundai",
+    "name": "Hyundai",
+    "mentions": 1,
+    "value_usd": 76.0
    },
    {
     "slug": "iol-inversiones",
@@ -264,10 +246,28 @@
     "value_usd": 189.0
    },
    {
+    "slug": "fravega",
+    "name": "Fravega",
+    "mentions": 1,
+    "value_usd": 378.0
+   },
+   {
     "slug": "lux",
     "name": "Lux",
     "mentions": 1,
     "value_usd": 352.0
+   },
+   {
+    "slug": "nike",
+    "name": "Nike",
+    "mentions": 1,
+    "value_usd": 367.0
+   },
+   {
+    "slug": "cabify",
+    "name": "Cabify",
+    "mentions": 1,
+    "value_usd": 300.0
    }
   ]
  }
