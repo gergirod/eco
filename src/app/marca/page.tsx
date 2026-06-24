@@ -103,12 +103,18 @@ export default function MarcaDashboard() {
     () => Object.fromEntries(channels.map((c: any) => [c.id, c.name])),
     [channels]
   );
-  const options = useMemo(
+  const [onlyBrands, setOnlyBrands] = useState(true);
+  const allOptions = useMemo(
     () =>
       Object.entries(reports as any)
-        .map(([slug, r]: any) => ({ slug, name: r.name, mentions: r.mentions }))
+        .map(([slug, r]: any) => ({ slug, name: r.name, mentions: r.mentions, kind: r.kind || "marca" }))
         .sort((a, b) => b.mentions - a.mentions),
     [reports]
+  );
+  const nNonBrand = useMemo(() => allOptions.filter((o) => o.kind !== "marca").length, [allOptions]);
+  const options = useMemo(
+    () => (onlyBrands ? allOptions.filter((o) => o.kind === "marca") : allOptions),
+    [allOptions, onlyBrands]
   );
   const [brand, setBrand] = useState(options[0]?.slug || "");
   // permite llegar desde el Media Kit con ?brand=<slug>
@@ -155,9 +161,14 @@ export default function MarcaDashboard() {
 
       <div className="flex items-center gap-3 mb-6 flex-wrap">
         <BrandPicker options={options} value={brand} onChange={setBrand} />
-        <span className="text-[12px] text-gray-400">
-          {options.length} marcas con menciones · modo agencia (varias marcas)
-        </span>
+        {r?.kind && r.kind !== "marca" && (
+          <Badge tone="amber">{r.kind === "plataforma" ? "plataforma" : "lugar"} · no anunciante</Badge>
+        )}
+        <label className="flex items-center gap-2 text-[12px] text-gray-500 cursor-pointer">
+          <input type="checkbox" checked={onlyBrands} onChange={(e) => setOnlyBrands(e.target.checked)} />
+          Solo anunciantes ({nNonBrand} plataformas/lugares ocultos)
+        </label>
+        <span className="text-[12px] text-gray-400">{options.length} marcas</span>
         <button className="btn btn-primary ml-auto" onClick={downloadPDF}>
           ↓ Descargar reporte PDF
         </button>

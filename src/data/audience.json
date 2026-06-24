@@ -38,11 +38,11 @@
  {
   "id": "olga",
   "name": "Olga",
-  "videos": 11,
-  "avg_concurrent": 29468,
+  "videos": 12,
+  "avg_concurrent": 27658,
   "peak_concurrent": 49756,
-  "chat_coverage": 91,
-  "chat_msgs_per_1k_min": 1.0,
+  "chat_coverage": 92,
+  "chat_msgs_per_1k_min": 0.9,
   "top_programs": [
    {
     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",

@@ -7,38 +7,38 @@
   "avg_concurrent": 86936,
   "brands": 222,
   "mentions": 331,
-  "share_views": 70.4,
-  "n_brands_live": 22,
+  "share_views": 70.0,
+  "n_brands_live": 36,
   "top_brands": [
-   {
-    "slug": "instagram",
-    "name": "Instagram",
-    "mentions": 2,
-    "value_usd": 1897.0
-   },
-   {
-    "slug": "tiktok",
-    "name": "TikTok",
-    "mentions": 1,
-    "value_usd": 1686.0
-   },
-   {
-    "slug": "fifa",
-    "name": "FIFA",
-    "mentions": 1,
-    "value_usd": 506.0
-   },
-   {
-    "slug": "whatsapp",
-    "name": "WhatsApp",
-    "mentions": 1,
-    "value_usd": 1686.0
-   },
    {
     "slug": "mercado-libre",
     "name": "Mercado Libre",
-    "mentions": 1,
-    "value_usd": 343.0
+    "mentions": 2,
+    "value_usd": 788.0
+   },
+   {
+    "slug": "mercado-pago",
+    "name": "Mercado Pago",
+    "mentions": 2,
+    "value_usd": 1497.0
+   },
+   {
+    "slug": "asiscar",
+    "name": "Asiscar",
+    "mentions": 2,
+    "value_usd": 4078.0
+   },
+   {
+    "slug": "coca-cola",
+    "name": "Coca-Cola",
+    "mentions": 2,
+    "value_usd": 688.0
+   },
+   {
+    "slug": "natura",
+    "name": "Natura",
+    "mentions": 2,
+    "value_usd": 989.0
    },
    {
     "slug": "playstation",
@@ -47,10 +47,22 @@
     "value_usd": 506.0
    },
    {
-    "slug": "coca-cola",
-    "name": "Coca-Cola",
+    "slug": "rexona",
+    "name": "Rexona",
     "mentions": 1,
-    "value_usd": 344.0
+    "value_usd": 2159.0
+   },
+   {
+    "slug": "quilmes",
+    "name": "Quilmes",
+    "mentions": 1,
+    "value_usd": 445.0
+   },
+   {
+    "slug": "wanderlust",
+    "name": "Wanderlust",
+    "mentions": 1,
+    "value_usd": 2140.0
    },
    {
     "slug": "melimas",
@@ -65,8 +77,20 @@
     "value_usd": 343.0
    },
    {
+    "slug": "natier",
+    "name": "Natier",
+    "mentions": 1,
+    "value_usd": 805.0
+   },
+   {
     "slug": "sovestar",
     "name": "Sovestar",
+    "mentions": 1,
+    "value_usd": 805.0
+   },
+   {
+    "slug": "natura-aderezos",
+    "name": "Natura Aderezos",
     "mentions": 1,
     "value_usd": 805.0
    },
@@ -77,10 +101,46 @@
     "value_usd": 833.0
    },
    {
-    "slug": "euforica",
-    "name": "Eufórica",
+    "slug": "asiscard",
+    "name": "Asiscard",
     "mentions": 1,
-    "value_usd": 919.0
+    "value_usd": 1811.0
+   },
+   {
+    "slug": "dia",
+    "name": "Día",
+    "mentions": 1,
+    "value_usd": 2140.0
+   },
+   {
+    "slug": "lays",
+    "name": "Lays",
+    "mentions": 1,
+    "value_usd": 2177.0
+   },
+   {
+    "slug": "miquelo-ultra",
+    "name": "Miquelo Ultra",
+    "mentions": 1,
+    "value_usd": 2137.0
+   },
+   {
+    "slug": "airbnb",
+    "name": "Airbnb",
+    "mentions": 1,
+    "value_usd": 2114.0
+   },
+   {
+    "slug": "canji",
+    "name": "Canji",
+    "mentions": 1,
+    "value_usd": 461.0
+   },
+   {
+    "slug": "ariel",
+    "name": "Ariel",
+    "mentions": 1,
+    "value_usd": 440.0
    },
    {
     "slug": "jorjito",
@@ -93,6 +153,24 @@
     "name": "Spice Girls",
     "mentions": 1,
     "value_usd": 605.0
+   },
+   {
+    "slug": "remax",
+    "name": "Remax",
+    "mentions": 1,
+    "value_usd": 633.0
+   },
+   {
+    "slug": "skip-expert",
+    "name": "Skip Expert",
+    "mentions": 1,
+    "value_usd": 675.0
+   },
+   {
+    "slug": "coffee-house",
+    "name": "Coffee House",
+    "mentions": 1,
+    "value_usd": 846.0
    },
    {
     "slug": "antelios-uber-fps-50",
@@ -111,50 +189,32 @@
     "name": "Banco Patagonia",
     "mentions": 1,
     "value_usd": 976.0
-   },
-   {
-    "slug": "club-patagonia",
-    "name": "Club Patagonia",
-    "mentions": 1,
-    "value_usd": 976.0
-   },
-   {
-    "slug": "mostaza",
-    "name": "Mostaza",
-    "mentions": 1,
-    "value_usd": 725.0
-   },
-   {
-    "slug": "pedido-ya",
-    "name": "Pedido Ya",
-    "mentions": 1,
-    "value_usd": 725.0
-   },
-   {
-    "slug": "farmacia",
-    "name": "Farmacia",
-    "mentions": 1,
-    "value_usd": 258.0
-   },
-   {
-    "slug": "coto-digital",
-    "name": "Coto Digital",
-    "mentions": 1,
-    "value_usd": 2106.0
    }
   ]
  },
  {
   "id": "olga",
   "name": "Olga",
-  "videos": 11,
-  "vod_views": 587896,
-  "avg_concurrent": 29468,
-  "brands": 246,
-  "mentions": 334,
-  "share_views": 29.6,
-  "n_brands_live": 20,
+  "videos": 12,
+  "vod_views": 600893,
+  "avg_concurrent": 27658,
+  "brands": 250,
+  "mentions": 348,
+  "share_views": 30.0,
+  "n_brands_live": 49,
   "top_brands": [
+   {
+    "slug": "geniol",
+    "name": "Geniol",
+    "mentions": 5,
+    "value_usd": 1557.0
+   },
+   {
+    "slug": "mcdonald-s",
+    "name": "McDonald's",
+    "mentions": 4,
+    "value_usd": 514.0
+   },
    {
     "slug": "fifa",
     "name": "FIFA",
@@ -162,28 +222,76 @@
     "value_usd": 450.0
    },
    {
-    "slug": "movistar-arena",
-    "name": "Movistar Arena",
-    "mentions": 1,
-    "value_usd": 345.0
+    "slug": "ypf",
+    "name": "YPF",
+    "mentions": 2,
+    "value_usd": 725.0
    },
    {
-    "slug": "geniol",
-    "name": "Geniol",
+    "slug": "schneider",
+    "name": "Schneider",
+    "mentions": 2,
+    "value_usd": 258.0
+   },
+   {
+    "slug": "rexona",
+    "name": "Rexona",
+    "mentions": 2,
+    "value_usd": 453.0
+   },
+   {
+    "slug": "pharmaolga",
+    "name": "Pharmaolga",
+    "mentions": 2,
+    "value_usd": 405.0
+   },
+   {
+    "slug": "swift",
+    "name": "Swift",
+    "mentions": 2,
+    "value_usd": 255.0
+   },
+   {
+    "slug": "yol-inversiones",
+    "name": "YOL Inversiones",
+    "mentions": 2,
+    "value_usd": 454.0
+   },
+   {
+    "slug": "mercado-libre",
+    "name": "Mercado Libre",
     "mentions": 1,
     "value_usd": 383.0
    },
    {
-    "slug": "playstation",
-    "name": "PlayStation",
+    "slug": "adidas",
+    "name": "Adidas",
     "mentions": 1,
-    "value_usd": 363.0
+    "value_usd": 358.0
+   },
+   {
+    "slug": "asiscar",
+    "name": "Asiscar",
+    "mentions": 1,
+    "value_usd": 71.0
    },
    {
     "slug": "quilmes",
     "name": "Quilmes",
     "mentions": 1,
     "value_usd": 334.0
+   },
+   {
+    "slug": "skip",
+    "name": "Skip",
+    "mentions": 1,
+    "value_usd": 272.0
+   },
+   {
+    "slug": "at-t",
+    "name": "AT&T",
+    "mentions": 1,
+    "value_usd": 370.0
    },
    {
     "slug": "sony",
@@ -198,6 +306,18 @@
     "value_usd": 199.0
    },
    {
+    "slug": "evaginagel",
+    "name": "Evaginagel",
+    "mentions": 1,
+    "value_usd": 311.0
+   },
+   {
+    "slug": "green-life",
+    "name": "Green Life",
+    "mentions": 1,
+    "value_usd": 330.0
+   },
+   {
     "slug": "ipf-full",
     "name": "IPF full",
     "mentions": 1,
@@ -210,10 +330,28 @@
     "value_usd": 385.0
    },
    {
-    "slug": "ghost-of-tsushima",
-    "name": "Ghost of Tsushima",
+    "slug": "antelios-uv-air-de-la-roche-posay",
+    "name": "Antelios UV Air de la Roche-Posay",
     "mentions": 1,
-    "value_usd": 364.0
+    "value_usd": 448.0
+   },
+   {
+    "slug": "swiss-medical",
+    "name": "Swiss Medical",
+    "mentions": 1,
+    "value_usd": 365.0
+   },
+   {
+    "slug": "hellman-s",
+    "name": "Hellman's",
+    "mentions": 1,
+    "value_usd": 347.0
+   },
+   {
+    "slug": "johnny-walker",
+    "name": "Johnny Walker",
+    "mentions": 1,
+    "value_usd": 76.0
    },
    {
     "slug": "hyundai",
@@ -234,46 +372,16 @@
     "value_usd": 70.0
    },
    {
+    "slug": "top-line",
+    "name": "Top Line",
+    "mentions": 1,
+    "value_usd": 270.0
+   },
+   {
     "slug": "iol",
     "name": "IOL",
     "mentions": 1,
     "value_usd": 383.0
-   },
-   {
-    "slug": "bakeshop",
-    "name": "Bakeshop",
-    "mentions": 1,
-    "value_usd": 191.0
-   },
-   {
-    "slug": "billetera-virtual",
-    "name": "Billetera Virtual",
-    "mentions": 1,
-    "value_usd": 189.0
-   },
-   {
-    "slug": "fravega",
-    "name": "Fravega",
-    "mentions": 1,
-    "value_usd": 378.0
-   },
-   {
-    "slug": "lux",
-    "name": "Lux",
-    "mentions": 1,
-    "value_usd": 352.0
-   },
-   {
-    "slug": "nike",
-    "name": "Nike",
-    "mentions": 1,
-    "value_usd": 367.0
-   },
-   {
-    "slug": "cabify",
-    "name": "Cabify",
-    "mentions": 1,
-    "value_usd": 300.0
    }
   ]
  }

@@ -2,16 +2,16 @@
  {
   "slug": "movistar-arena",
   "name": "Movistar Arena",
-  "mentions": 57,
+  "mentions": 59,
   "channels": [
    "luzu",
    "olga"
   ],
   "n_channels": 2,
-  "n_videos": 18,
+  "n_videos": 19,
   "first_seen": "19/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 42713.0,
+  "value_usd": 42947.0,
   "samples": [
    {
     "channel": "olga",
@@ -86,7 +86,7 @@
     "views": 43284
    }
   ],
-  "kind": "marca"
+  "kind": "lugar"
  },
  {
   "slug": "instagram",
@@ -175,7 +175,7 @@
     "views": 118153
    }
   ],
-  "kind": "marca"
+  "kind": "plataforma"
  },
  {
   "slug": "tiktok",
@@ -264,21 +264,21 @@
     "views": 118153
    }
   ],
-  "kind": "marca"
+  "kind": "plataforma"
  },
  {
   "slug": "fifa",
   "name": "FIFA",
-  "mentions": 9,
+  "mentions": 10,
   "channels": [
    "luzu",
    "olga"
   ],
   "n_channels": 2,
-  "n_videos": 7,
+  "n_videos": 8,
   "first_seen": "22/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 4984.0,
+  "value_usd": 5101.0,
   "samples": [
    {
     "channel": "olga",
@@ -442,7 +442,7 @@
     "views": 118017
    }
   ],
-  "kind": "marca"
+  "kind": "plataforma"
  },
  {
   "slug": "whatsapp",
@@ -531,7 +531,7 @@
     "views": 208630
    }
   ],
-  "kind": "marca"
+  "kind": "plataforma"
  },
  {
   "slug": "twitter",
@@ -609,6 +609,86 @@
     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
     "minute": "02:30",
     "views": 39368
+   }
+  ],
+  "kind": "plataforma"
+ },
+ {
+  "slug": "mcdonald-s",
+  "name": "McDonald's",
+  "mentions": 7,
+  "channels": [
+   "luzu",
+   "olga"
+  ],
+  "n_channels": 2,
+  "n_videos": 4,
+  "first_seen": "22/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 1972.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "kDbkbzy_ASA",
+    "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
+    "minute": "01:30",
+    "views": 28305
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "E1SnlQyyuRc",
+    "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
+    "minute": "00:30",
+    "views": 118017
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "22/06/2026",
+    "video_id": "95yJuQx7ol8",
+    "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+    "minute": "00:50",
+    "views": 15613
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "22/06/2026",
+    "video_id": "95yJuQx7ol8",
+    "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+    "minute": "01:00",
+    "views": 15613
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "22/06/2026",
+    "video_id": "95yJuQx7ol8",
+    "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+    "minute": "01:50",
+    "views": 15613
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "JqkhC1EnyTQ",
+    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+    "minute": "01:00",
+    "views": 12997
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "JqkhC1EnyTQ",
+    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+    "minute": "01:50",
+    "views": 12997
    }
   ],
   "kind": "marca"
@@ -752,7 +832,7 @@
     "views": 39368
    }
   ],
-  "kind": "marca"
+  "kind": "plataforma"
  },
  {
   "slug": "fm-luzu",
@@ -948,68 +1028,6 @@
   "kind": "marca"
  },
  {
-  "slug": "mcdonald-s",
-  "name": "McDonald's",
-  "mentions": 5,
-  "channels": [
-   "luzu",
-   "olga"
-  ],
-  "n_channels": 2,
-  "n_videos": 3,
-  "first_seen": "22/06/2026",
-  "last_seen": "24/06/2026",
-  "value_usd": 1738.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "24/06/2026",
-    "video_id": "kDbkbzy_ASA",
-    "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
-    "minute": "01:30",
-    "views": 28305
-   },
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "23/06/2026",
-    "video_id": "E1SnlQyyuRc",
-    "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
-    "minute": "00:30",
-    "views": 118017
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "22/06/2026",
-    "video_id": "95yJuQx7ol8",
-    "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
-    "minute": "00:50",
-    "views": 15613
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "22/06/2026",
-    "video_id": "95yJuQx7ol8",
-    "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
-    "minute": "01:00",
-    "views": 15613
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "22/06/2026",
-    "video_id": "95yJuQx7ol8",
-    "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
-    "minute": "01:50",
-    "views": 15613
-   }
-  ],
-  "kind": "marca"
- },
- {
   "slug": "adidas",
   "name": "Adidas",
   "mentions": 4,
@@ -1111,6 +1129,59 @@
     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
     "minute": "01:30",
     "views": 137091
+   }
+  ],
+  "kind": "lugar"
+ },
+ {
+  "slug": "fernet",
+  "name": "Fernet",
+  "mentions": 4,
+  "channels": [
+   "luzu",
+   "olga"
+  ],
+  "n_channels": 2,
+  "n_videos": 4,
+  "first_seen": "22/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 1959.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "NKhi31a86K8",
+    "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+    "minute": "01:20",
+    "views": 14487
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "Ovdcl6-B2kc",
+    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "minute": "00:10",
+    "views": 56741
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "22/06/2026",
+    "video_id": "yp1SuqSXmxA",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
+    "minute": "01:40",
+    "views": 133449
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "JqkhC1EnyTQ",
+    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+    "minute": "01:50",
+    "views": 12997
    }
   ],
   "kind": "marca"
@@ -1253,7 +1324,7 @@
     "views": 208630
    }
   ],
-  "kind": "marca"
+  "kind": "plataforma"
  },
  {
   "slug": "canal-13",
@@ -1297,7 +1368,7 @@
     "views": 335199
    }
   ],
-  "kind": "marca"
+  "kind": "lugar"
  },
  {
   "slug": "playstation",
@@ -1385,7 +1456,7 @@
     "views": 208630
    }
   ],
-  "kind": "marca"
+  "kind": "plataforma"
  },
  {
   "slug": "ypf",
@@ -1431,8 +1502,8 @@
   "kind": "marca"
  },
  {
-  "slug": "fernet",
-  "name": "Fernet",
+  "slug": "real-madrid",
+  "name": "Real Madrid",
   "mentions": 3,
   "channels": [
    "luzu",
@@ -1440,9 +1511,9 @@
   ],
   "n_channels": 2,
   "n_videos": 3,
-  "first_seen": "22/06/2026",
-  "last_seen": "23/06/2026",
-  "value_usd": 1842.0,
+  "first_seen": "23/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 552.0,
   "samples": [
    {
     "channel": "olga",
@@ -1450,26 +1521,26 @@
     "date": "23/06/2026",
     "video_id": "NKhi31a86K8",
     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
-    "minute": "01:20",
+    "minute": "00:00",
     "views": 14487
    },
    {
     "channel": "luzu",
     "channel_name": "LUZU TV",
     "date": "23/06/2026",
-    "video_id": "Ovdcl6-B2kc",
-    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "video_id": "2E9MjxyDU9o",
+    "title": "#LOSDELFONDO | SORTEAMOS LA CAMISETA DEL PURRETE 10, EL BÓXER DEL MITO NO DA MÁS, ANGELITA LA ROMPIÓ",
     "minute": "00:10",
-    "views": 56741
+    "views": 33834
    },
    {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "22/06/2026",
-    "video_id": "yp1SuqSXmxA",
-    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
-    "minute": "01:40",
-    "views": 133449
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "JqkhC1EnyTQ",
+    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+    "minute": "01:00",
+    "views": 12997
    }
   ],
   "kind": "marca"
@@ -1645,7 +1716,7 @@
     "views": 70980
    }
   ],
-  "kind": "marca"
+  "kind": "plataforma"
  },
  {
   "slug": "bizarrap",
@@ -1686,6 +1757,50 @@
     "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
     "minute": "02:10",
     "views": 335199
+   }
+  ],
+  "kind": "marca"
+ },
+ {
+  "slug": "rexona",
+  "name": "Rexona",
+  "mentions": 3,
+  "channels": [
+   "luzu",
+   "olga"
+  ],
+  "n_channels": 2,
+  "n_videos": 3,
+  "first_seen": "23/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 4141.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "cHMIm1Fnig4",
+    "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+    "minute": "01:30",
+    "views": 373638
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "02:10",
+    "views": 73490
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "JqkhC1EnyTQ",
+    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+    "minute": "01:40",
+    "views": 12997
    }
   ],
   "kind": "marca"
@@ -2097,41 +2212,6 @@
   "kind": "marca"
  },
  {
-  "slug": "real-madrid",
-  "name": "Real Madrid",
-  "mentions": 2,
-  "channels": [
-   "luzu",
-   "olga"
-  ],
-  "n_channels": 2,
-  "n_videos": 2,
-  "first_seen": "23/06/2026",
-  "last_seen": "23/06/2026",
-  "value_usd": 435.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "NKhi31a86K8",
-    "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
-    "minute": "00:00",
-    "views": 14487
-   },
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "23/06/2026",
-    "video_id": "2E9MjxyDU9o",
-    "title": "#LOSDELFONDO | SORTEAMOS LA CAMISETA DEL PURRETE 10, EL BÓXER DEL MITO NO DA MÁS, ANGELITA LA ROMPIÓ",
-    "minute": "00:10",
-    "views": 33834
-   }
-  ],
-  "kind": "marca"
- },
- {
   "slug": "pharmaolga",
   "name": "Pharmaolga",
   "mentions": 2,
@@ -2367,7 +2447,7 @@
     "views": 137091
    }
   ],
-  "kind": "marca"
+  "kind": "plataforma"
  },
  {
   "slug": "coca-cola",
@@ -2641,7 +2721,7 @@
     "views": 39368
    }
   ],
-  "kind": "marca"
+  "kind": "plataforma"
  },
  {
   "slug": "sony",
@@ -2674,41 +2754,6 @@
     "title": "CLASES DE MODELAJE CON PAULA CHAVES | #TapadosDeLaburo 23/6",
     "minute": "00:30",
     "views": 43475
-   }
-  ],
-  "kind": "marca"
- },
- {
-  "slug": "rexona",
-  "name": "Rexona",
-  "mentions": 2,
-  "channels": [
-   "luzu",
-   "olga"
-  ],
-  "n_channels": 2,
-  "n_videos": 2,
-  "first_seen": "23/06/2026",
-  "last_seen": "23/06/2026",
-  "value_usd": 4024.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "23/06/2026",
-    "video_id": "cHMIm1Fnig4",
-    "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
-    "minute": "01:30",
-    "views": 373638
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:10",
-    "views": 73490
    }
   ],
   "kind": "marca"
@@ -3021,6 +3066,40 @@
   "kind": "marca"
  },
  {
+  "slug": "yol-inversiones",
+  "name": "YOL Inversiones",
+  "mentions": 2,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "23/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 778.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "00:50",
+    "views": 73490
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "JqkhC1EnyTQ",
+    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+    "minute": "01:10",
+    "views": 12997
+   }
+  ],
+  "kind": "marca"
+ },
+ {
   "slug": "miami",
   "name": "Miami",
   "mentions": 2,
@@ -3085,6 +3164,40 @@
     "title": "#LOSDELFONDO | SORTEAMOS LA CAMISETA DEL PURRETE 10, EL BÓXER DEL MITO NO DA MÁS, ANGELITA LA ROMPIÓ",
     "minute": "00:30",
     "views": 33834
+   }
+  ],
+  "kind": "marca"
+ },
+ {
+  "slug": "olga",
+  "name": "Olga",
+  "mentions": 2,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "23/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 778.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "03:30",
+    "views": 73490
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "JqkhC1EnyTQ",
+    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+    "minute": "01:50",
+    "views": 12997
    }
   ],
   "kind": "marca"
@@ -3258,7 +3371,7 @@
     "views": 22030
    }
   ],
-  "kind": "marca"
+  "kind": "plataforma"
  },
  {
   "slug": "zoom",
@@ -7426,7 +7539,7 @@
     "views": 70980
    }
   ],
-  "kind": "marca"
+  "kind": "plataforma"
  },
  {
   "slug": "meta",
@@ -7456,31 +7569,6 @@
  {
   "slug": "banco-ciudad",
   "name": "Banco Ciudad",
-  "mentions": 1,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "23/06/2026",
-  "last_seen": "23/06/2026",
-  "value_usd": 661.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "00:50",
-    "views": 73490
-   }
-  ],
-  "kind": "marca"
- },
- {
-  "slug": "yol-inversiones",
-  "name": "YOL Inversiones",
   "mentions": 1,
   "channels": [
    "olga"
@@ -7981,31 +8069,6 @@
  {
   "slug": "real",
   "name": "Real",
-  "mentions": 1,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "23/06/2026",
-  "last_seen": "23/06/2026",
-  "value_usd": 661.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "03:30",
-    "views": 73490
-   }
-  ],
-  "kind": "marca"
- },
- {
-  "slug": "olga",
-  "name": "Olga",
   "mentions": 1,
   "channels": [
    "olga"
@@ -9651,7 +9714,7 @@
     "views": 33834
    }
   ],
-  "kind": "marca"
+  "kind": "plataforma"
  },
  {
   "slug": "the-go",
@@ -11379,6 +11442,106 @@
   "kind": "marca"
  },
  {
+  "slug": "nadir-argentina",
+  "name": "Nadir Argentina",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 117.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "JqkhC1EnyTQ",
+    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+    "minute": "00:50",
+    "views": 12997
+   }
+  ],
+  "kind": "marca"
+ },
+ {
+  "slug": "afa",
+  "name": "AFA",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 117.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "JqkhC1EnyTQ",
+    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+    "minute": "01:40",
+    "views": 12997
+   }
+  ],
+  "kind": "marca"
+ },
+ {
+  "slug": "fanta",
+  "name": "Fanta",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 117.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "JqkhC1EnyTQ",
+    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+    "minute": "01:50",
+    "views": 12997
+   }
+  ],
+  "kind": "marca"
+ },
+ {
+  "slug": "vino",
+  "name": "Vino",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 117.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "JqkhC1EnyTQ",
+    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+    "minute": "01:50",
+    "views": 12997
+   }
+  ],
+  "kind": "marca"
+ },
+ {
   "slug": "bruno-valentino",
   "name": "Bruno Valentino",
   "mentions": 1,
@@ -11776,7 +11939,7 @@
     "views": 39368
    }
   ],
-  "kind": "marca"
+  "kind": "lugar"
  },
  {
   "slug": "la-fm-vida-97-9",
@@ -11876,7 +12039,7 @@
     "views": 39368
    }
   ],
-  "kind": "marca"
+  "kind": "lugar"
  },
  {
   "slug": "mana",
@@ -12351,6 +12514,6 @@
     "views": 40410
    }
   ],
-  "kind": "marca"
+  "kind": "plataforma"
  }
 ]

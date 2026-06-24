@@ -1384,6 +1384,31 @@
   "kind": "producto"
  },
  {
+  "slug": "memphis-equipo-nba",
+  "name": "Memphis (equipo NBA)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 117.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "JqkhC1EnyTQ",
+    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+    "minute": "01:10",
+    "views": 12997
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "air-fryer",
   "name": "air fryer",
   "mentions": 1,
