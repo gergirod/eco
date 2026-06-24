@@ -4,19 +4,43 @@ import { compact, num, usd } from "@/lib/format";
 import { fetchDataset } from "@/lib/supabase";
 import metaFb from "@/data/meta.json";
 import channelsFb from "@/data/channels.json";
-import brandsFb from "@/data/brands.json";
 import benchmarkFb from "@/data/benchmark.json";
+import reportsFb from "@/data/reports.json";
 
 export const dynamic = "force-dynamic";
 
+function ts(iso?: string) {
+  return Date.parse(iso || "") || 0;
+}
+
+/** Supabase puede quedar stale; si el bundle local es más nuevo, gana el bundle. */
+function bundleNewer(metaSb: any | null) {
+  return !metaSb || ts(metaFb.exported_at) > ts(metaSb.exported_at);
+}
+
 export default async function Home() {
-  const meta: any = (await fetchDataset("meta")) ?? metaFb;
-  const channels: any[] = (await fetchDataset("channels")) ?? channelsFb;
-  const brands: any[] = (await fetchDataset("brands")) ?? brandsFb;
-  const benchmark: any[] = (await fetchDataset("benchmark")) ?? benchmarkFb;
+  const metaSb = await fetchDataset<any>("meta");
+  const useBundle = bundleNewer(metaSb);
+  const meta: any = useBundle ? metaFb : metaSb ?? metaFb;
+  const channels: any[] = useBundle
+    ? channelsFb
+    : ((await fetchDataset("channels")) ?? channelsFb);
+  const benchmark: any[] = useBundle
+    ? benchmarkFb
+    : ((await fetchDataset("benchmark")) ?? benchmarkFb);
+  const reports: Record<string, any> = useBundle
+    ? reportsFb
+    : ((await fetchDataset("reports")) ?? reportsFb);
+
+  const reportList = Object.entries(reports)
+    .map(([slug, r]) => ({ slug, ...(r as object) }))
+    .filter((r: any) => r.kind === "marca" || !r.kind);
+
   const withData = channels.filter((c: any) => c.has_data);
   const maxViews = Math.max(...benchmark.map((b: any) => b.vod_views), 1);
-  const topBrands = brands.slice(0, 8);
+  const nPauta = meta.n_pauta_mentions ?? reportList.reduce((a, r) => a + r.mentions, 0);
+  const totalExposure = reportList.reduce((a, r) => a + (r.value_usd || 0), 0);
+  const topBrands = [...reportList].sort((a, b) => b.mentions - a.mentions).slice(0, 8);
 
   return (
     <div>
@@ -30,12 +54,12 @@ export default async function Home() {
         <Stat label="VODs procesados" value={num(meta.n_videos)} hint={`${meta.n_topics} en vivo con audiencia`} />
         <Stat
           label="PNT verificadas"
-          value={num(meta.n_pauta_mentions ?? meta.n_brands)}
-          hint={`${meta.n_brands} marcas anunciantes · solo pauta`}
+          value={num(nPauta)}
+          hint={`${reportList.length} anunciantes · solo pauta`}
         />
         <Stat
           label="Exposición pauta"
-          value={usd(brands.reduce((a: number, b: any) => a + b.value_usd, 0))}
+          value={usd(totalExposure)}
           hint="lente A · audiencia al minuto"
         />
       </div>
@@ -75,7 +99,11 @@ export default async function Home() {
             <tbody>
               {topBrands.map((b: any) => (
                 <tr key={b.slug}>
-                  <td className="font-medium">{b.name}</td>
+                  <td className="font-medium">
+                    <Link href={`/marca?brand=${b.slug}`} className="hover:text-accent hover:underline">
+                      {b.name}
+                    </Link>
+                  </td>
                   <td className="text-gray-400 text-right tabular-nums">{b.mentions} PNT</td>
                   <td className="text-right"><Badge tone="blue">{usd(b.value_usd)}</Badge></td>
                 </tr>

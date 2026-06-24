@@ -11,6 +11,19 @@ const compact = (n: number) => {
 const esc = (s: string) =>
   (s || "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c] as string));
 
+function fmtHMS(sec: number) {
+  const s = Math.max(0, Math.floor(sec || 0));
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const ss = s % 60;
+  const mm = `${String(m).padStart(2, "0")}:${String(ss).padStart(2, "0")}`;
+  return h ? `${String(h).padStart(2, "0")}:${mm}` : mm;
+}
+
+function vodUrl(videoId: string, tSeconds: number) {
+  return `https://www.youtube.com/watch?v=${videoId}&t=${Math.max(0, Math.floor(tSeconds || 0))}s`;
+}
+
 const REPORT_CSS = `
   :root{
     --ink:#15212b; --muted:#5b6b78; --line:#e4e9ee; --bg:#ffffff;
@@ -73,6 +86,8 @@ const REPORT_CSS = `
   .foot{padding:20px 40px 30px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
   .foot b{color:var(--ink)}
   .foot p{margin-bottom:8px;line-height:1.5}
+  .vod-link{color:var(--paid);font-weight:600;text-decoration:none}
+  .vod-link:hover{text-decoration:underline}
   @media print{
     body{background:#fff;padding:0}
     .page{box-shadow:none;border-radius:0;max-width:100%}
@@ -118,6 +133,11 @@ function mentionCard(d: any, chName: Record<string, string>, featured: boolean):
   const canal = esc(chName[d.channel] || d.channel_name || d.channel || "");
   const conc = d.conc_at ? num(d.conc_at) : "—";
   const peak = d.program_peak ? num(d.program_peak) : null;
+  const ts = fmtHMS(d.t_seconds || 0);
+  const vod = d.video_id ? vodUrl(d.video_id, d.t_seconds || 0) : "";
+  const vodA = vod
+    ? `<a class="vod-link" href="${esc(vod)}" target="_blank" rel="noreferrer">Ver en YouTube (${ts}) ↗</a>`
+    : "";
   const tipo =
     d.tier === 3 || code
       ? code
@@ -131,20 +151,20 @@ function mentionCard(d: any, chName: Record<string, string>, featured: boolean):
         <p class="calc-lead">Tu marca estuvo <b>al aire ante ${conc} personas mirando en vivo al mismo tiempo</b>${d.conc_at ? venueLine(d.conc_at) : ""}</p>
         <div class="calc-equiv">Valor de pauta equivalente: <b>≈ ${usd(d.value_usd)}</b> <span>— referencia de mercado (lente A: audiencia al minuto × CPM × tier × sentimiento). No es facturación ni ventas.</span></div>
         <div class="calc-roi">
-          <div><span class="roi-yes">Verificable</span>cita textual contrastada contra la transcripción del programa · minuto ${esc(d.minute)}${d.precise ? "" : " (aprox.)"}.</div>
+          <div><span class="roi-yes">Verificable</span>cita contrastada con la transcripción · ${vodA || `minuto ${ts}`}${d.precise ? "" : " (aprox.)"}.</div>
           ${code ? `<div><span class="roi-yes">Atribución</span>lectura con código <b>${esc(code)}</b> — compras con ese código son atribuibles a esta aparición.</div>` : `<div><span class="roi-yes">Medición</span>quién te vio, en qué minuto exacto, ante cuánta gente y qué se dijo al aire.</div>`}
         </div>
       </div>`
-    : `<div class="calc-equiv" style="margin-top:14px">Exposición: <b>≈ ${usd(d.value_usd)}</b> <span>· ${conc} en vivo · min ${esc(d.minute)}</span></div>`;
+    : `<div class="calc-equiv" style="margin-top:14px">Exposición: <b>≈ ${usd(d.value_usd)}</b> <span>· ${conc} en vivo · ${vodA || ts}</span></div>`;
 
   return `<div class="card${featured ? "" : " compact"}">
     <span class="tag ${tag.cls}">${esc(tag.label)}</span>
     <h3>${canal}${featured ? "" : ` · ${esc(d.date)}`}</h3>
-    <div class="when">${esc(programLabel(d))} · minuto ${esc(d.minute)}</div>
+    <div class="when">${esc(programLabel(d))} · ${ts}${vodA ? ` · ${vodA}` : ""}</div>
     <div class="quote">"${esc(d.quote || d.title || "")}"</div>
     <div class="rowstats">
       <div><b>${conc}</b>mirando en ese minuto</div>
-      <div><b>${esc(d.minute)}</b>minuto exacto</div>
+      <div><b>${ts}</b>marca en el VOD</div>
       ${peak ? `<div><b>${peak}</b>pico del programa</div>` : ""}
       <div><b>${esc(tipo)}</b>tipo de lectura</div>
     </div>
@@ -180,9 +200,9 @@ export function buildReportHTML(
       : "";
 
   const sorted = [...detail].sort((a, b) => (b.value_usd || 0) - (a.value_usd || 0));
-  const bestKey = best ? `${best.video_id}:${best.minute}` : "";
-  const featured = sorted.find((d) => `${d.video_id}:${d.minute}` === bestKey) || sorted[0];
-  const rest = sorted.filter((d) => `${d.video_id}:${d.minute}` !== `${featured?.video_id}:${featured?.minute}`);
+  // Siempre la PNT principal (= r.best), no la primera del mismo minuto
+  const featured = best || sorted[0];
+  const rest = sorted.filter((d) => d.quote !== featured?.quote);
 
   const featuredHtml = featured ? mentionCard(featured, ctx.chName, true) : "";
   const restHtml =
@@ -208,6 +228,7 @@ export function buildReportHTML(
       ${best ? `<span><b>Programa:</b> ${esc(programLabel(best))}</span>` : ""}
       ${best ? `<span><b>Emisión:</b> ${esc(best.date)}</span>` : `<span><b>Período:</b> ${today}</span>`}
       ${best?.program_peak ? `<span><b>Pico del programa:</b> ${heroPeak} espectadores</span>` : ""}
+      ${best?.video_id ? `<span><b>Verificación:</b> <a class="vod-link" href="${esc(vodUrl(best.video_id, best.t_seconds || 0))}">YouTube ${fmtHMS(best.t_seconds || 0)} ↗</a></span>` : ""}
       ${(r.channels || []).length > 1 ? `<span><b>Canales:</b> ${esc(channelsLabel)}</span>` : ""}
     </div>
   </div>

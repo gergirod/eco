@@ -5,8 +5,8 @@
   "videos": 11,
   "vod_views": 1414525,
   "avg_concurrent": 80437,
-  "brands": 34,
-  "mentions": 48,
+  "brands": 33,
+  "mentions": 47,
   "share_views": 70.0,
   "n_brands_live": 33,
   "top_brands": [
@@ -198,10 +198,10 @@
   "videos": 12,
   "vod_views": 600893,
   "avg_concurrent": 27658,
-  "brands": 47,
-  "mentions": 82,
+  "brands": 43,
+  "mentions": 77,
   "share_views": 29.8,
-  "n_brands_live": 45,
+  "n_brands_live": 43,
   "top_brands": [
    {
     "slug": "iol-inversiones",
@@ -280,12 +280,6 @@
     "name": "Johnnie Walker",
     "mentions": 2,
     "value_usd": 256.0
-   },
-   {
-    "slug": "olga-store",
-    "name": "Olga Store",
-    "mentions": 2,
-    "value_usd": 1826.0
    },
    {
     "slug": "schneider",
@@ -382,6 +376,12 @@
     "name": "Home by Hudson",
     "mentions": 1,
     "value_usd": 1233.0
+   },
+   {
+    "slug": "galicia-visa-master",
+    "name": "Galicia, Visa, Master",
+    "mentions": 1,
+    "value_usd": 309.0
    }
   ]
  },

@@ -2,11 +2,12 @@
 import { useState, useMemo, useEffect } from "react";
 import { PageHeader, Stat, Badge, Bar } from "@/components/ui";
 import BrandPicker from "@/components/BrandPicker";
-import { usd, num, compact } from "@/lib/format";
+import { usd, num, compact, fmtHMS } from "@/lib/format";
 import { useDataset } from "@/lib/useDataset";
 import reportsFb from "@/data/reports.json";
 import channelsFb from "@/data/channels.json";
 import momentsFb from "@/data/moments.json";
+import metaFb from "@/data/meta.json";
 import { buildReportHTML } from "@/lib/report";
 import MomentModal from "@/components/MomentModal";
 
@@ -109,8 +110,13 @@ export default function MarcaDashboard() {
         .map(([slug, r]: any) => ({
           slug, name: r.name, mentions: r.mentions, kind: r.kind || "marca",
         }))
+        .filter((o) => o.kind === "marca")
         .sort((a, b) => b.mentions - a.mentions),
     [reports]
+  );
+  const totalPnt = useMemo(
+    () => options.reduce((a, o) => a + o.mentions, 0),
+    [options]
   );
   const [brand, setBrand] = useState(options[0]?.slug || "");
   // permite llegar desde el Media Kit con ?brand=<slug>
@@ -161,7 +167,7 @@ export default function MarcaDashboard() {
           <Badge tone="amber">{r.kind === "plataforma" ? "plataforma" : "lugar"} · no anunciante</Badge>
         )}
         <span className="text-[12px] text-gray-400">
-          {options.length} marcas con pauta
+          {options.length} anunciantes · {num((metaFb as any).n_pauta_mentions ?? totalPnt)} PNT
         </span>
         <button className="btn btn-primary ml-auto" onClick={downloadPDF}>
           ↓ Descargar one-pager PDF
@@ -201,7 +207,7 @@ export default function MarcaDashboard() {
         <Stat
           label="Pico en vivo"
           value={best?.conc_at ? compact(best.conc_at) : "—"}
-          hint={best ? `min ${best.minute}` : "sin concurrentes"}
+          hint={best ? `marca ${fmtHMS(best.t_seconds || 0)}` : "sin concurrentes"}
         />
         <Stat label="Exposición total" value={usd(r.value_usd)} hint="lente A · benchmark" />
       </div>
@@ -293,7 +299,7 @@ export default function MarcaDashboard() {
                       )}
                       <span className="text-[11px] text-gray-400 block mt-0.5">
                         {d.title?.slice(0, 48)}
-                        {d.title?.length > 48 ? "…" : ""} · {d.minute}
+                        {d.title?.length > 48 ? "…" : ""} · {fmtHMS(d.t_seconds || 0)}
                       </span>
                     </td>
                     <td>

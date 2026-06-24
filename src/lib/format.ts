@@ -10,3 +10,16 @@ export const compact = (n: number) => {
 };
 
 export const pct = (n: number) => `${n.toFixed(1)}%`;
+
+/** Timestamp en el VOD: HH:MM:SS (ej. 02:31:32, no 151:32). */
+export const fmtHMS = (sec: number) => {
+  const s = Math.max(0, Math.floor(sec || 0));
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const ss = s % 60;
+  const mm = `${String(m).padStart(2, "0")}:${String(ss).padStart(2, "0")}`;
+  return h ? `${String(h).padStart(2, "0")}:${mm}` : mm;
+};
+
+export const vodLink = (videoId: string, tSeconds: number) =>
+  `https://www.youtube.com/watch?v=${videoId}&t=${Math.max(0, Math.floor(tSeconds || 0))}s`;
