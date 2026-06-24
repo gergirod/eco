@@ -8,6 +8,9 @@ const NAV = [
   { href: "/marca", label: "Dashboard de marca", icon: "◉", group: "Cliente" },
   { href: "/competencia", label: "Competencia", icon: "⇄" },
   { href: "/productos", label: "Catálogo de marcas", icon: "▦" },
+  { href: "/tendencias", label: "Radar de Tendencias", icon: "✷", group: "Inteligencia" },
+  { href: "/audiencia", label: "Audience Quality", icon: "◔" },
+  { href: "/mediakit", label: "Media Kit por canal", icon: "▣" },
 ];
 
 export default function Sidebar() {

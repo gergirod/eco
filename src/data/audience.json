@@ -1,0 +1,74 @@
+[
+ {
+  "id": "luzu",
+  "name": "Luzu TV",
+  "videos": 10,
+  "avg_concurrent": 86936,
+  "peak_concurrent": 243607,
+  "chat_coverage": 0,
+  "chat_msgs_per_1k_min": null,
+  "top_programs": [
+   {
+    "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+    "peak": 243607,
+    "video_id": "cHMIm1Fnig4"
+   },
+   {
+    "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
+    "peak": 233997,
+    "video_id": "WCF4oC8GC9o"
+   },
+   {
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
+    "peak": 125483,
+    "video_id": "yp1SuqSXmxA"
+   },
+   {
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+    "peak": 125418,
+    "video_id": "S1UDpsKkZvE"
+   },
+   {
+    "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
+    "peak": 114637,
+    "video_id": "E1SnlQyyuRc"
+   }
+  ]
+ },
+ {
+  "id": "olga",
+  "name": "Olga",
+  "videos": 11,
+  "avg_concurrent": 29468,
+  "peak_concurrent": 49756,
+  "chat_coverage": 91,
+  "chat_msgs_per_1k_min": 1.0,
+  "top_programs": [
+   {
+    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+    "peak": 49756,
+    "video_id": "bX7MB2_OI2I"
+   },
+   {
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "peak": 49257,
+    "video_id": "q_clAienUJw"
+   },
+   {
+    "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
+    "peak": 45000,
+    "video_id": "cH7UROOHpGI"
+   },
+   {
+    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+    "peak": 41988,
+    "video_id": "XHV2BV9DWMs"
+   },
+   {
+    "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+    "peak": 40599,
+    "video_id": "ptOHcGEdWCk"
+   }
+  ]
+ }
+]

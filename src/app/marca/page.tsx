@@ -6,7 +6,9 @@ import { usd, num, compact } from "@/lib/format";
 import { useDataset } from "@/lib/useDataset";
 import reportsFb from "@/data/reports.json";
 import channelsFb from "@/data/channels.json";
+import momentsFb from "@/data/moments.json";
 import { buildReportHTML } from "@/lib/report";
+import MomentModal from "@/components/MomentModal";
 
 function tsLink(videoId: string, seconds: number) {
   return `https://www.youtube.com/watch?v=${videoId}&t=${Math.max(0, seconds | 0)}s`;
@@ -95,6 +97,8 @@ function SegBar({ parts }: { parts: { label: string; value: number; color: strin
 export default function MarcaDashboard() {
   const reports = useDataset<any>("reports", reportsFb);
   const channels = useDataset<any[]>("channels", channelsFb);
+  const moments = useDataset<any>("moments", momentsFb);
+  const [openMention, setOpenMention] = useState<any | null>(null);
   const CH_NAME: Record<string, string> = useMemo(
     () => Object.fromEntries(channels.map((c: any) => [c.id, c.name])),
     [channels]
@@ -230,7 +234,12 @@ export default function MarcaDashboard() {
 
         <div className="card overflow-hidden">
           <div className="px-5 py-3.5 border-b border-[#ececec] flex items-center justify-between">
-            <h2 className="text-[15px] font-semibold">Menciones · {r.name}</h2>
+            <h2 className="text-[15px] font-semibold">
+              Menciones · {r.name}
+              <span className="text-[11.5px] font-normal text-gray-400 ml-2">
+                click en una fila → Momento de Atención
+              </span>
+            </h2>
             <Badge tone="gray">{r.detail.length} registros</Badge>
           </div>
           <div className="max-h-[620px] overflow-auto">
@@ -249,7 +258,7 @@ export default function MarcaDashboard() {
               </thead>
               <tbody>
                 {r.detail.map((d: any, i: number) => (
-                  <tr key={i}>
+                  <tr key={i} className="cursor-pointer" onClick={() => setOpenMention(d)}>
                     <td className="text-gray-500 whitespace-nowrap">{d.date}</td>
                     <td className="whitespace-nowrap">{CH_NAME[d.channel] || d.channel_name}</td>
                     <td className="max-w-[340px]">
@@ -280,6 +289,7 @@ export default function MarcaDashboard() {
                         href={tsLink(d.video_id, d.t_seconds)}
                         target="_blank"
                         rel="noreferrer"
+                        onClick={(e) => e.stopPropagation()}
                         className="text-accent text-[12px] hover:underline whitespace-nowrap"
                       >
                         ver ↗
@@ -299,6 +309,14 @@ export default function MarcaDashboard() {
         (pauta / orgánica / aproximada) y el sentimiento se infieren del contexto hablado alrededor de
         la mención. El link “ver” abre el VOD en el segundo exacto.
       </p>
+
+      {openMention && (
+        <MomentModal
+          mention={openMention}
+          moment={(moments as any)[openMention.video_id] || null}
+          onClose={() => setOpenMention(null)}
+        />
+      )}
     </div>
   );
 }

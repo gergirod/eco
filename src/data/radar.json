@@ -1,0 +1,2794 @@
+[
+ {
+  "tema": "mundial fútbol",
+  "score": 58,
+  "menciones": 27,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura",
+   "lugar",
+   "persona"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "01/06/2026",
+    "n": 26
+   },
+   {
+    "date": "03/06/2026",
+    "n": 9
+   },
+   {
+    "date": "05/06/2026",
+    "n": 4
+   },
+   {
+    "date": "08/06/2026",
+    "n": 11
+   },
+   {
+    "date": "11/06/2026",
+    "n": 8
+   }
+  ]
+ },
+ {
+  "tema": "fútbol",
+  "score": 35,
+  "menciones": 15,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura",
+   "tecnologia"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "01/06/2026",
+    "n": 10
+   },
+   {
+    "date": "03/06/2026",
+    "n": 6
+   },
+   {
+    "date": "05/06/2026",
+    "n": 2
+   },
+   {
+    "date": "08/06/2026",
+    "n": 13
+   },
+   {
+    "date": "11/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "mundial 2026",
+  "score": 28,
+  "menciones": 12,
+  "canales": [
+   "LUZU TV",
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura",
+   "lugar"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "01/06/2026",
+    "n": 13
+   },
+   {
+    "date": "03/06/2026",
+    "n": 9
+   },
+   {
+    "date": "08/06/2026",
+    "n": 2
+   },
+   {
+    "date": "11/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "videojuegos",
+  "score": 24,
+  "menciones": 12,
+  "canales": [
+   "LUZU TV",
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "producto",
+   "tecnologia"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 4
+   },
+   {
+    "date": "05/06/2026",
+    "n": 19
+   },
+   {
+    "date": "08/06/2026",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "tema": "mercado inmobiliario",
+  "score": 23,
+  "menciones": 10,
+  "canales": [
+   "LUZU TV",
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura",
+   "lugar",
+   "otro",
+   "producto"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 1
+   },
+   {
+    "date": "08/06/2026",
+    "n": 2
+   },
+   {
+    "date": "11/06/2026",
+    "n": 20
+   }
+  ]
+ },
+ {
+  "tema": "mundialito ciudades",
+  "score": 22,
+  "menciones": 8,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 3
+   },
+   {
+    "date": "05/06/2026",
+    "n": 19
+   }
+  ]
+ },
+ {
+  "tema": "servicios funerarios",
+  "score": 21,
+  "menciones": 8,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura",
+   "producto",
+   "salud"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "11/06/2026",
+    "n": 21
+   }
+  ]
+ },
+ {
+  "tema": "feng shui",
+  "score": 20,
+  "menciones": 7,
+  "canales": [
+   "LUZU TV"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "08/06/2026",
+    "n": 20
+   }
+  ]
+ },
+ {
+  "tema": "videojuegos retro",
+  "score": 19,
+  "menciones": 7,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura",
+   "producto",
+   "tecnologia"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 3
+   },
+   {
+    "date": "05/06/2026",
+    "n": 16
+   }
+  ]
+ },
+ {
+  "tema": "música",
+  "score": 18,
+  "menciones": 9,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura",
+   "producto"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 11
+   },
+   {
+    "date": "08/06/2026",
+    "n": 4
+   },
+   {
+    "date": "11/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "indio solari",
+  "score": 15,
+  "menciones": 5,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "persona"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 15
+   }
+  ]
+ },
+ {
+  "tema": "series películas",
+  "score": 14,
+  "menciones": 6,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "tecnologia"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "01/06/2026",
+    "n": 1
+   },
+   {
+    "date": "03/06/2026",
+    "n": 9
+   },
+   {
+    "date": "05/06/2026",
+    "n": 1
+   },
+   {
+    "date": "11/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "gastronomía",
+  "score": 14,
+  "menciones": 6,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "comida",
+   "salud"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 6
+   },
+   {
+    "date": "05/06/2026",
+    "n": 4
+   },
+   {
+    "date": "08/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "música argentina",
+  "score": 14,
+  "menciones": 7,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 8
+   },
+   {
+    "date": "08/06/2026",
+    "n": 6
+   }
+  ]
+ },
+ {
+  "tema": "los redondos",
+  "score": 14,
+  "menciones": 5,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "persona"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 14
+   }
+  ]
+ },
+ {
+  "tema": "tatuajes",
+  "score": 13,
+  "menciones": 6,
+  "canales": [
+   "LUZU TV",
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "otro",
+   "salud"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": false,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 13
+   }
+  ]
+ },
+ {
+  "tema": "relaciones personales",
+  "score": 13,
+  "menciones": 5,
+  "canales": [
+   "LUZU TV",
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura",
+   "otro",
+   "salud"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 11
+   },
+   {
+    "date": "11/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "el indio solari",
+  "score": 13,
+  "menciones": 5,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "persona"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 13
+   }
+  ]
+ },
+ {
+  "tema": "lesiones futbol",
+  "score": 12,
+  "menciones": 6,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "persona",
+   "salud"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "01/06/2026",
+    "n": 9
+   },
+   {
+    "date": "03/06/2026",
+    "n": 2
+   },
+   {
+    "date": "05/06/2026",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "tema": "mundiales futbol",
+  "score": 12,
+  "menciones": 6,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "01/06/2026",
+    "n": 12
+   }
+  ]
+ },
+ {
+  "tema": "viajes internacionales",
+  "score": 11,
+  "menciones": 6,
+  "canales": [
+   "LUZU TV",
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "lugar"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 1
+   },
+   {
+    "date": "05/06/2026",
+    "n": 3
+   },
+   {
+    "date": "08/06/2026",
+    "n": 7
+   }
+  ]
+ },
+ {
+  "tema": "tenis",
+  "score": 11,
+  "menciones": 5,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "otro"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "08/06/2026",
+    "n": 11
+   }
+  ]
+ },
+ {
+  "tema": "movimientos sociales",
+  "score": 10,
+  "menciones": 4,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 10
+   }
+  ]
+ },
+ {
+  "tema": "documentales",
+  "score": 10,
+  "menciones": 4,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "producto"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 10
+   }
+  ]
+ },
+ {
+  "tema": "decoración",
+  "score": 9,
+  "menciones": 4,
+  "canales": [
+   "LUZU TV",
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura",
+   "producto"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 5
+   },
+   {
+    "date": "08/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "esoterismo",
+  "score": 9,
+  "menciones": 4,
+  "canales": [
+   "LUZU TV"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 4
+   },
+   {
+    "date": "08/06/2026",
+    "n": 5
+   }
+  ]
+ },
+ {
+  "tema": "películas animadas",
+  "score": 9,
+  "menciones": 4,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 6
+   },
+   {
+    "date": "11/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "fútbol mundial",
+  "score": 9,
+  "menciones": 4,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura",
+   "lugar"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "01/06/2026",
+    "n": 4
+   },
+   {
+    "date": "03/06/2026",
+    "n": 5
+   }
+  ]
+ },
+ {
+  "tema": "turismo argentina",
+  "score": 9,
+  "menciones": 5,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "lugar",
+   "producto"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 7
+   },
+   {
+    "date": "08/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "videojuegos deportivos",
+  "score": 9,
+  "menciones": 3,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "tecnologia"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 9
+   }
+  ]
+ },
+ {
+  "tema": "selección argentina",
+  "score": 9,
+  "menciones": 5,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "lugar",
+   "persona"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "01/06/2026",
+    "n": 7
+   },
+   {
+    "date": "03/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "caso agostina",
+  "score": 9,
+  "menciones": 3,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "persona"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 9
+   }
+  ]
+ },
+ {
+  "tema": "aura kirlian",
+  "score": 8,
+  "menciones": 3,
+  "canales": [
+   "LUZU TV"
+  ],
+  "categorias": [
+   "tecnologia"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 6
+   },
+   {
+    "date": "08/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "violencia de género",
+  "score": 8,
+  "menciones": 3,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "salud"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 8
+   }
+  ]
+ },
+ {
+  "tema": "redes sociales",
+  "score": 8,
+  "menciones": 4,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "tecnologia"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 6
+   },
+   {
+    "date": "08/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "política honduras",
+  "score": 8,
+  "menciones": 3,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "política"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 8
+   }
+  ]
+ },
+ {
+  "tema": "gastronomía argentina",
+  "score": 8,
+  "menciones": 5,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "comida"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 3
+   },
+   {
+    "date": "08/06/2026",
+    "n": 5
+   }
+  ]
+ },
+ {
+  "tema": "espacios música viva",
+  "score": 8,
+  "menciones": 3,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "lugar"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 8
+   }
+  ]
+ },
+ {
+  "tema": "destinos turísticos",
+  "score": 8,
+  "menciones": 4,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "lugar"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 8
+   }
+  ]
+ },
+ {
+  "tema": "decoración plantas",
+  "score": 7,
+  "menciones": 3,
+  "canales": [
+   "LUZU TV",
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "otro",
+   "producto"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 2
+   },
+   {
+    "date": "08/06/2026",
+    "n": 5
+   }
+  ]
+ },
+ {
+  "tema": "herencia familia",
+  "score": 7,
+  "menciones": 3,
+  "canales": [
+   "LUZU TV",
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "otro",
+   "salud"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "08/06/2026",
+    "n": 4
+   },
+   {
+    "date": "11/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "género",
+  "score": 7,
+  "menciones": 3,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 7
+   }
+  ]
+ },
+ {
+  "tema": "torneos fútbol",
+  "score": 7,
+  "menciones": 3,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "01/06/2026",
+    "n": 5
+   },
+   {
+    "date": "03/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "gastronomía callejera",
+  "score": 7,
+  "menciones": 3,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "comida"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "08/06/2026",
+    "n": 7
+   }
+  ]
+ },
+ {
+  "tema": "relaciones familiares",
+  "score": 6,
+  "menciones": 2,
+  "canales": [
+   "LUZU TV",
+   "OLGA"
+  ],
+  "categorias": [
+   "otro",
+   "persona"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": false,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 6
+   }
+  ]
+ },
+ {
+  "tema": "paternidad",
+  "score": 6,
+  "menciones": 3,
+  "canales": [
+   "LUZU TV",
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 4
+   },
+   {
+    "date": "08/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "comercialismo vs autenticidad",
+  "score": 6,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 3
+   },
+   {
+    "date": "05/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "música artistas",
+  "score": 6,
+  "menciones": 3,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 2
+   },
+   {
+    "date": "11/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "true crime",
+  "score": 6,
+  "menciones": 3,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "tecnologia"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "08/06/2026",
+    "n": 2
+   },
+   {
+    "date": "11/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "caso barrelier",
+  "score": 6,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "persona"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "11/06/2026",
+    "n": 6
+   }
+  ]
+ },
+ {
+  "tema": "profesiones",
+  "score": 6,
+  "menciones": 3,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "persona"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "08/06/2026",
+    "n": 2
+   },
+   {
+    "date": "11/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "entretenimiento vintage",
+  "score": 6,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "producto",
+   "tecnologia"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 6
+   }
+  ]
+ },
+ {
+  "tema": "bandas rock",
+  "score": 6,
+  "menciones": 3,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 2
+   },
+   {
+    "date": "05/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "fútbol mercado",
+  "score": 6,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "persona"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "01/06/2026",
+    "n": 3
+   },
+   {
+    "date": "03/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "historia fútbol",
+  "score": 6,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "01/06/2026",
+    "n": 3
+   },
+   {
+    "date": "08/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "geopatía",
+  "score": 6,
+  "menciones": 3,
+  "canales": [
+   "LUZU TV"
+  ],
+  "categorias": [
+   "salud",
+   "tecnologia"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "08/06/2026",
+    "n": 6
+   }
+  ]
+ },
+ {
+  "tema": "música eventos",
+  "score": 6,
+  "menciones": 3,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 4
+   },
+   {
+    "date": "08/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "identidad cultural",
+  "score": 6,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 6
+   }
+  ]
+ },
+ {
+  "tema": "cultura regional",
+  "score": 6,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "08/06/2026",
+    "n": 6
+   }
+  ]
+ },
+ {
+  "tema": "higiene personal",
+  "score": 6,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "salud"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "08/06/2026",
+    "n": 6
+   }
+  ]
+ },
+ {
+  "tema": "giras conciertos",
+  "score": 6,
+  "menciones": 3,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "lugar"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "08/06/2026",
+    "n": 5
+   },
+   {
+    "date": "11/06/2026",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "tema": "programas televisivos",
+  "score": 5,
+  "menciones": 2,
+  "canales": [
+   "LUZU TV",
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "tecnologia"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 3
+   },
+   {
+    "date": "08/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "familia relaciones",
+  "score": 5,
+  "menciones": 2,
+  "canales": [
+   "LUZU TV",
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 3
+   },
+   {
+    "date": "08/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "femicidio violencia",
+  "score": 5,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 5
+   }
+  ]
+ },
+ {
+  "tema": "género roles",
+  "score": 5,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 5
+   }
+  ]
+ },
+ {
+  "tema": "pastelería",
+  "score": 5,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "lugar"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 5
+   }
+  ]
+ },
+ {
+  "tema": "política",
+  "score": 5,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "politica"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 5
+   }
+  ]
+ },
+ {
+  "tema": "geopolítica",
+  "score": 5,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "política"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 5
+   }
+  ]
+ },
+ {
+  "tema": "infancia desarrollo",
+  "score": 5,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "11/06/2026",
+    "n": 5
+   }
+  ]
+ },
+ {
+  "tema": "futbol internacional",
+  "score": 5,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "persona"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "08/06/2026",
+    "n": 3
+   },
+   {
+    "date": "11/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "historia argentina",
+  "score": 5,
+  "menciones": 3,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "otro"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 4
+   },
+   {
+    "date": "11/06/2026",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "tema": "educación",
+  "score": 5,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "educacion"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 2
+   },
+   {
+    "date": "08/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "violencia género",
+  "score": 5,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 5
+   }
+  ]
+ },
+ {
+  "tema": "técnicos futbol",
+  "score": 5,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "persona"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "01/06/2026",
+    "n": 3
+   },
+   {
+    "date": "08/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "producción musical",
+  "score": 5,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 3
+   },
+   {
+    "date": "08/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "san salvador de jujuy",
+  "score": 5,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "lugar"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 5
+   }
+  ]
+ },
+ {
+  "tema": "turismo patagónico",
+  "score": 5,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "lugar"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 5
+   }
+  ]
+ },
+ {
+  "tema": "marketing digital",
+  "score": 5,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "tecnologia"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "08/06/2026",
+    "n": 2
+   },
+   {
+    "date": "11/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "joyería",
+  "score": 5,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "producto"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "11/06/2026",
+    "n": 5
+   }
+  ]
+ },
+ {
+  "tema": "carrera profesional",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "LUZU TV",
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 2
+   },
+   {
+    "date": "05/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "danza",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "LUZU TV",
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 2
+   },
+   {
+    "date": "11/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "construcción vivienda",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "LUZU TV",
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 2
+   },
+   {
+    "date": "08/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "tecnología",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "tecnologia"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "musicales",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 2
+   },
+   {
+    "date": "08/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "países mundo",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "fútbol internacional",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "lugar"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "01/06/2026",
+    "n": 3
+   },
+   {
+    "date": "03/06/2026",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "tema": "honduras",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "true crime argentina",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "persona",
+   "salud"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "11/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "medicina forense",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "producto",
+   "salud"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "11/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "nutrición saludable",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "comida"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 2
+   },
+   {
+    "date": "11/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "películas fantasía",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "11/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "nostalgia argentina",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 2
+   },
+   {
+    "date": "11/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "artes plásticas",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "producto"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "fanfiction",
+  "score": 4,
+  "menciones": 3,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "migración argentina",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "lugar"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "01/06/2026",
+    "n": 2
+   },
+   {
+    "date": "08/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "historia futbolística",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "producto"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "01/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "historia clubes",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "01/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "carrera futbolística",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "persona"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "08/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "fiestas populares",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "turismo buenos aires",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "lugar"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "lingüística argentina",
+  "score": 4,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "08/06/2026",
+    "n": 4
+   }
+  ]
+ },
+ {
+  "tema": "pseudociencia",
+  "score": 3,
+  "menciones": 2,
+  "canales": [
+   "LUZU TV"
+  ],
+  "categorias": [
+   "cultura",
+   "tecnologia"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 1
+   },
+   {
+    "date": "08/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "espiritualismo",
+  "score": 3,
+  "menciones": 1,
+  "canales": [
+   "LUZU TV"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "cirugía estética",
+  "score": 3,
+  "menciones": 2,
+  "canales": [
+   "LUZU TV",
+   "OLGA"
+  ],
+  "categorias": [
+   "salud"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 2
+   },
+   {
+    "date": "11/06/2026",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "tema": "género y masculinidad",
+  "score": 3,
+  "menciones": 1,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "medios comunicación",
+  "score": 3,
+  "menciones": 1,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "bebidas",
+  "score": 3,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "comida"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 2
+   },
+   {
+    "date": "08/06/2026",
+    "n": 1
+   }
+  ]
+ },
+ {
+  "tema": "migraciones",
+  "score": 3,
+  "menciones": 1,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "migraciones humanitario",
+  "score": 3,
+  "menciones": 1,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "lugar"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "noticias internacionales",
+  "score": 3,
+  "menciones": 1,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "03/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "delitos",
+  "score": 3,
+  "menciones": 1,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "11/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "delincuencia",
+  "score": 3,
+  "menciones": 1,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "salud"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "11/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "drogas sustancias",
+  "score": 3,
+  "menciones": 1,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "salud"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "11/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "drogas médicas",
+  "score": 3,
+  "menciones": 1,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "salud"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "11/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "seguridad del hogar",
+  "score": 3,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "producto",
+   "salud"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "08/06/2026",
+    "n": 1
+   },
+   {
+    "date": "11/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "animales bienestar",
+  "score": 3,
+  "menciones": 1,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "11/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "salud física",
+  "score": 3,
+  "menciones": 1,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "salud"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "11/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "salud",
+  "score": 3,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "salud"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "08/06/2026",
+    "n": 1
+   },
+   {
+    "date": "11/06/2026",
+    "n": 2
+   }
+  ]
+ },
+ {
+  "tema": "sexualidad",
+  "score": 3,
+  "menciones": 2,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "cultura",
+   "salud"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "11/06/2026",
+    "n": 3
+   }
+  ]
+ },
+ {
+  "tema": "gastronomía alimentos",
+  "score": 3,
+  "menciones": 1,
+  "canales": [
+   "OLGA"
+  ],
+  "categorias": [
+   "comida"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "05/06/2026",
+    "n": 3
+   }
+  ]
+ }
+]
