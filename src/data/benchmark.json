@@ -1,0 +1,36 @@
+[
+ {
+  "id": "luzu",
+  "name": "Luzu TV",
+  "videos": 42,
+  "vod_views": 10533369,
+  "avg_concurrent": 86936,
+  "brands": 630,
+  "mentions": 972,
+  "share_views": 67.4,
+  "top_brands": [
+   "Instagram",
+   "Movistar Arena",
+   "TikTok",
+   "Mercado Libre",
+   "Twitter"
+  ]
+ },
+ {
+  "id": "olga",
+  "name": "Olga",
+  "videos": 43,
+  "vod_views": 5101225,
+  "avg_concurrent": 29468,
+  "brands": 854,
+  "mentions": 1273,
+  "share_views": 32.6,
+  "top_brands": [
+   "Movistar Arena",
+   "YouTube",
+   "FIFA",
+   "Disney",
+   "Instagram"
+  ]
+ }
+]

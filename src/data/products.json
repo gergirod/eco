@@ -1,0 +1,8364 @@
+[
+ {
+  "slug": "dia-supermercado",
+  "name": "Día (supermercado)",
+  "mentions": 6,
+  "channels": [
+   "luzu",
+   "olga"
+  ],
+  "n_channels": 2,
+  "n_videos": 6,
+  "first_seen": "04/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 21087.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "02:40",
+    "views": 73490
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "XyXIVC9Ej0s",
+    "title": "#NADIEDICENADA | ¿EL FUTBOL ES COMO UN PROGRAMA DE CHIMENTOS? Y JOAQUIN PENSÓ QUE LE IBAN A ROBAR",
+    "minute": "01:10",
+    "views": 869122
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "ducAINU1rFQ",
+    "title": "EL ANUNCIO MÁS GRANDE en la HISTORIA DE #TDT 5/6",
+    "minute": "01:00",
+    "views": 138625
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "04/06/2026",
+    "video_id": "F-agZdGGj4g",
+    "title": "#NADIEDICENADA | NO ENTENDEMOS QUÉ PASÓ HOY: PICADAS, MARIPOSAS Y... ¿LAS ABUELAS DEL STREAMING?",
+    "minute": "00:40",
+    "views": 1076512
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "04/06/2026",
+    "video_id": "cv2t2_4ffP8",
+    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
+    "minute": "01:20",
+    "views": 145830
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "19/06/2026",
+    "video_id": "XHV2BV9DWMs",
+    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+    "minute": "01:20",
+    "views": 39368
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "play-playstation",
+  "name": "Play (PlayStation)",
+  "mentions": 2,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "04/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 2147.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "11/06/2026",
+    "video_id": "8pR4K5V_6_s",
+    "title": "¿QUÉ TAN PRINCESA SOS? | #TapadosDeLaburo 11/6",
+    "minute": "01:00",
+    "views": 92701
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "04/06/2026",
+    "video_id": "cv2t2_4ffP8",
+    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
+    "minute": "01:30",
+    "views": 145830
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "potus",
+  "name": "potus",
+  "mentions": 2,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "08/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 2566.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "08/06/2026",
+    "video_id": "4sySXUl-XWA",
+    "title": "#ELSHOWDELVERANO | FLOR, MARLEY Y SU RELACIÓN CON EL FENGSHUI: CÓMO ACOMODAR LA ENERGÍA DE TU HOGAR",
+    "minute": "00:40",
+    "views": 263028
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "KoYLJOd9qyo",
+    "title": "#FMLUZU | CRIS Y LA GURI INSPIRAN A MARGELA + LA COLUMNA DE FLACA SOBRE CABO VERDE",
+    "minute": "00:30",
+    "views": 22030
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "air-fryer",
+  "name": "air fryer",
+  "mentions": 2,
+  "channels": [
+   "luzu",
+   "olga"
+  ],
+  "n_channels": 2,
+  "n_videos": 2,
+  "first_seen": "06/06/2026",
+  "last_seen": "19/06/2026",
+  "value_usd": 1905.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "06/06/2026",
+    "video_id": "b3xixpLLqjY",
+    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
+    "minute": "01:30",
+    "views": 172288
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "19/06/2026",
+    "video_id": "XHV2BV9DWMs",
+    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+    "minute": "00:00",
+    "views": 39368
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "plp-programa",
+  "name": "PLP (programa)",
+  "mentions": 2,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "05/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 16248.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "Y5xV6ZZE5c4",
+    "title": "#NADIEDICENADA | NUEVAMENTE NO ENTENDEMOS LA COLUMNA DE MOMI Y ¿OCCHIAMIN YA ESTÁ GRANDE?",
+    "minute": "02:00",
+    "views": 1057321
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "11/06/2026",
+    "video_id": "aeyaHqA4ByI",
+    "title": "#NADIEDICENADA | ¿FLOR SE INDIGNÓ CON UNA OYENTE? Y TODOS NOS PREPARAMOS PARA MIAMI Y EL MUNDIAL",
+    "minute": "01:50",
+    "views": 748037
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "fifa-videojuego",
+  "name": "FIFA (videojuego)",
+  "mentions": 2,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "01/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 752.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "03/06/2026",
+    "video_id": "VphQnT79K00",
+    "title": "LAS MUJERES Y EL FÚTBOL: LOS ESPACIOS CONQUISTADOS EN EL DEPORTE | #GolGana 3/6",
+    "minute": "00:30",
+    "views": 33865
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/06/2026",
+    "video_id": "4WnW6HfmSvo",
+    "title": "¿LLEGA DIBU MARTÍNEZ AL DEBUT CON ARGENTINA? | #GolGana 1/6",
+    "minute": "00:50",
+    "views": 49644
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "olga-canal",
+  "name": "Olga (canal)",
+  "mentions": 2,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "08/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 2445.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "2sxqtU8XXTQ",
+    "title": "CLASES DE MODELAJE CON PAULA CHAVES | #TapadosDeLaburo 23/6",
+    "minute": "01:20",
+    "views": 43475
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "LzZD6sPGPu0",
+    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
+    "minute": "01:50",
+    "views": 228227
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "flow-plataforma-de-streaming",
+  "name": "Flow (plataforma de streaming)",
+  "mentions": 2,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "05/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 2323.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "HxSfByGpEe0",
+    "title": "HACÉ REÍR A LA MESA y GANAS $50.000 | #TapadosDeLaburo 5/6",
+    "minute": "00:50",
+    "views": 126383
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "83HBNm_5Yvo",
+    "title": "¿BAÑARSE DE DÍA O DE NOCHE? | #TapadosDeLaburo 8/6",
+    "minute": "00:10",
+    "views": 131716
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "youtube-canal-de-olga",
+  "name": "YouTube (canal de Olga)",
+  "mentions": 2,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 4108.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "LzZD6sPGPu0",
+    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
+    "minute": "00:40",
+    "views": 228227
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "LzZD6sPGPu0",
+    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
+    "minute": "00:50",
+    "views": 228227
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "lost-serie",
+  "name": "Lost (serie)",
+  "mentions": 2,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 3197.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "03/06/2026",
+    "video_id": "0SzxfcU-x6w",
+    "title": "LUCAS SE OFENDE Y ABANDONA OLGA | #SoñéQueVolaba 3/6",
+    "minute": "00:30",
+    "views": 177615
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "03/06/2026",
+    "video_id": "0SzxfcU-x6w",
+    "title": "LUCAS SE OFENDE Y ABANDONA OLGA | #SoñéQueVolaba 3/6",
+    "minute": "00:40",
+    "views": 177615
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "coto-supermercado",
+  "name": "Coto (supermercado)",
+  "mentions": 2,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "02/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 2702.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "02/06/2026",
+    "video_id": "d2xRtbOTSQQ",
+    "title": "UNA BRUJA y ANDI SEMENTI ADIVINAN el FUTURO | #SoñéQueVolaba 2/6",
+    "minute": "00:10",
+    "views": 163948
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "2IOv_-h3BIo",
+    "title": "¿El MEJOR PROGRAMA del AÑO? NOCHE de DAYTONA, A JUGAR CON HUGO, FIFA y + JUEGUITOS | #SoñéQueVolaba",
+    "minute": "00:00",
+    "views": 136299
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "racing-equipo-de-futbol",
+  "name": "Racing (equipo de fútbol)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 3818.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "7KuEaYSYRj8",
+    "title": "ÍDOLO POPULAR: DESPEDIMOS al INDIO con USTEDES | #SoñéQueVolaba 5/6",
+    "minute": "00:40",
+    "views": 424273
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "urbano-restaurante-de-hamburguesas",
+  "name": "Urbano (restaurante de hamburguesas)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 3818.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "7KuEaYSYRj8",
+    "title": "ÍDOLO POPULAR: DESPEDIMOS al INDIO con USTEDES | #SoñéQueVolaba 5/6",
+    "minute": "01:00",
+    "views": 424273
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "los-redondos-albumes-varios",
+  "name": "Los Redondos (álbumes varios)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 3818.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "7KuEaYSYRj8",
+    "title": "ÍDOLO POPULAR: DESPEDIMOS al INDIO con USTEDES | #SoñéQueVolaba 5/6",
+    "minute": "01:20",
+    "views": 424273
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "tubos-de-mani-con-almendra-y-chocolate",
+  "name": "tubos de maní con almendra y chocolate",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 3818.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "7KuEaYSYRj8",
+    "title": "ÍDOLO POPULAR: DESPEDIMOS al INDIO con USTEDES | #SoñéQueVolaba 5/6",
+    "minute": "02:10",
+    "views": 424273
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "ensaimada",
+  "name": "ensaimada",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 3818.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "7KuEaYSYRj8",
+    "title": "ÍDOLO POPULAR: DESPEDIMOS al INDIO con USTEDES | #SoñéQueVolaba 5/6",
+    "minute": "02:20",
+    "views": 424273
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "kayak",
+  "name": "kayak",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 3818.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "7KuEaYSYRj8",
+    "title": "ÍDOLO POPULAR: DESPEDIMOS al INDIO con USTEDES | #SoñéQueVolaba 5/6",
+    "minute": "02:20",
+    "views": 424273
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "evanescence-go-winander-go-winter-bring-me-to-life",
+  "name": "Evanescence (Go Winander Go Winter, Bring Me To Life)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 414.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "11/06/2026",
+    "video_id": "_nXe8cJmDFk",
+    "title": "FESTEJAMOS EL PRE CUMPLE DE EVE | #MiPrimoEsAsí 11/6",
+    "minute": "01:20",
+    "views": 45997
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "desafiopdx-com",
+  "name": "desafiopdx.com",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 879.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "04/06/2026",
+    "video_id": "Vmo-2tGYPYg",
+    "title": "CHISMES QUE JAMÁS LE CONTASTE A NADIE | #TDT 4/6",
+    "minute": "00:20",
+    "views": 97693
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "offside-boliche",
+  "name": "Offside (boliche)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 879.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "04/06/2026",
+    "video_id": "Vmo-2tGYPYg",
+    "title": "CHISMES QUE JAMÁS LE CONTASTE A NADIE | #TDT 4/6",
+    "minute": "00:20",
+    "views": 97693
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "cadaver-exquisito-agustina-basterrica",
+  "name": "Cadáver Exquisito (Agustina Basterrica)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 879.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "04/06/2026",
+    "video_id": "Vmo-2tGYPYg",
+    "title": "CHISMES QUE JAMÁS LE CONTASTE A NADIE | #TDT 4/6",
+    "minute": "01:20",
+    "views": 97693
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "lotso-juguete-con-olor",
+  "name": "Lotso (juguete con olor)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 834.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "11/06/2026",
+    "video_id": "8pR4K5V_6_s",
+    "title": "¿QUÉ TAN PRINCESA SOS? | #TapadosDeLaburo 11/6",
+    "minute": "00:20",
+    "views": 92701
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "ntfg-no-te-va-a-gustar",
+  "name": "NTFG (No Te Va a Gustar)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 834.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "11/06/2026",
+    "video_id": "8pR4K5V_6_s",
+    "title": "¿QUÉ TAN PRINCESA SOS? | #TapadosDeLaburo 11/6",
+    "minute": "00:30",
+    "views": 92701
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "zadia-comida-rapida-alitas-golden-chicken",
+  "name": "Zadía (comida rápida - alitas Golden Chicken)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 834.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "11/06/2026",
+    "video_id": "8pR4K5V_6_s",
+    "title": "¿QUÉ TAN PRINCESA SOS? | #TapadosDeLaburo 11/6",
+    "minute": "01:10",
+    "views": 92701
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "glycolic-cristal-shampoo",
+  "name": "Glycolic Cristal (shampoo)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 2353.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "AUtF1mhDL_g",
+    "title": "RECORDAMOS AL INDIO SOLARI | #SeríaIncreíble 5/6",
+    "minute": "00:30",
+    "views": 261439
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "dab-coleccion-de-invierno-serums-corporales",
+  "name": "Dab (colección de invierno, serums corporales)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 2353.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "AUtF1mhDL_g",
+    "title": "RECORDAMOS AL INDIO SOLARI | #SeríaIncreíble 5/6",
+    "minute": "01:00",
+    "views": 261439
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "swift-carne-vacuna-hamburguesas",
+  "name": "Swift (carne vacuna, hamburguesas)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 2353.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "AUtF1mhDL_g",
+    "title": "RECORDAMOS AL INDIO SOLARI | #SeríaIncreíble 5/6",
+    "minute": "01:00",
+    "views": 261439
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "kirlian-maquina-fotografica-de-aura",
+  "name": "Kirlian (máquina fotográfica de aura)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 2513.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "03/06/2026",
+    "video_id": "-Nbzhf61mvU",
+    "title": "#ELSHOWDELVERANO | CON FLOR JAZMIN: MATERNIDAD, TATUAJES Y ANECDOTAS",
+    "minute": "00:00",
+    "views": 279222
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "monopatin",
+  "name": "monopatín",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 2513.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "03/06/2026",
+    "video_id": "-Nbzhf61mvU",
+    "title": "#ELSHOWDELVERANO | CON FLOR JAZMIN: MATERNIDAD, TATUAJES Y ANECDOTAS",
+    "minute": "00:00",
+    "views": 279222
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "nails-salon-de-unas",
+  "name": "Nails (salón de uñas)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 2513.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "03/06/2026",
+    "video_id": "-Nbzhf61mvU",
+    "title": "#ELSHOWDELVERANO | CON FLOR JAZMIN: MATERNIDAD, TATUAJES Y ANECDOTAS",
+    "minute": "00:20",
+    "views": 279222
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "caras-revista",
+  "name": "Caras (revista)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 2513.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "03/06/2026",
+    "video_id": "-Nbzhf61mvU",
+    "title": "#ELSHOWDELVERANO | CON FLOR JAZMIN: MATERNIDAD, TATUAJES Y ANECDOTAS",
+    "minute": "00:20",
+    "views": 279222
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pistola-masajeadora",
+  "name": "pistola masajeadora",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 321.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "8lOkxIDSd4w",
+    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+    "minute": "01:00",
+    "views": 35722
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "canon-colchon",
+  "name": "Canon (colchón)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 321.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "8lOkxIDSd4w",
+    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+    "minute": "01:10",
+    "views": 35722
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "catriel-fragancia",
+  "name": "Catriel (fragancia)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 321.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "8lOkxIDSd4w",
+    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+    "minute": "01:30",
+    "views": 35722
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "billy-elliot-musical-pelicula",
+  "name": "Billy Elliot (musical/película)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 321.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "8lOkxIDSd4w",
+    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+    "minute": "01:30",
+    "views": 35722
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "campeones-novela",
+  "name": "Campeones (novela)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 321.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "8lOkxIDSd4w",
+    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+    "minute": "01:50",
+    "views": 35722
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "play-consola",
+  "name": "Play (consola)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 321.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "8lOkxIDSd4w",
+    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+    "minute": "01:50",
+    "views": 35722
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "fischer-tarugo-durlock",
+  "name": "Fischer (tarugo Durlock)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 321.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "8lOkxIDSd4w",
+    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+    "minute": "01:50",
+    "views": 35722
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "serum-para-la-piel",
+  "name": "serum para la piel",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 390.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "bX7MB2_OI2I",
+    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+    "minute": "02:10",
+    "views": 43284
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "geles-para-sequedad-vaginal",
+  "name": "geles para sequedad vaginal",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 390.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "bX7MB2_OI2I",
+    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+    "minute": "02:10",
+    "views": 43284
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "parches-hormonales",
+  "name": "parches hormonales",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 390.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "bX7MB2_OI2I",
+    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+    "minute": "02:10",
+    "views": 43284
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "cremas-vaginales",
+  "name": "cremas vaginales",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 390.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "bX7MB2_OI2I",
+    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+    "minute": "02:10",
+    "views": 43284
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "acido-hialuronico",
+  "name": "ácido hialurónico",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 390.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "bX7MB2_OI2I",
+    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+    "minute": "02:20",
+    "views": 43284
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "preservativo",
+  "name": "preservativo",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 390.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "bX7MB2_OI2I",
+    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+    "minute": "02:20",
+    "views": 43284
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pintura-facial-celeste-y-blanca",
+  "name": "pintura facial celeste y blanca",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 428.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "MIMlH4vbv_M",
+    "title": "#LANOVELA | ¿QUÉ COSAS NOS SEDUCEN?, LA COREO MÁS ESPERADA Y SE VIENE EL MUNDIAL",
+    "minute": "00:10",
+    "views": 47543
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "camiseta-para-perros",
+  "name": "camiseta para perros",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 428.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "MIMlH4vbv_M",
+    "title": "#LANOVELA | ¿QUÉ COSAS NOS SEDUCEN?, LA COREO MÁS ESPERADA Y SE VIENE EL MUNDIAL",
+    "minute": "00:10",
+    "views": 47543
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "perfume",
+  "name": "perfume",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 428.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "MIMlH4vbv_M",
+    "title": "#LANOVELA | ¿QUÉ COSAS NOS SEDUCEN?, LA COREO MÁS ESPERADA Y SE VIENE EL MUNDIAL",
+    "minute": "00:50",
+    "views": 47543
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "carmelo-pasteleria-carmelo-pasteleria",
+  "name": "Carmelo Pastelería (@carmelo.pasteleria_)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 428.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "MIMlH4vbv_M",
+    "title": "#LANOVELA | ¿QUÉ COSAS NOS SEDUCEN?, LA COREO MÁS ESPERADA Y SE VIENE EL MUNDIAL",
+    "minute": "01:10",
+    "views": 47543
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "wicked-llavero",
+  "name": "Wicked (llavero)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 972.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "11/06/2026",
+    "video_id": "GLACgh8nuGY",
+    "title": "#SEFUELARGA l JULI POGGIO CONTRA AMANTES, RESPONDE TODO Y FERBO VS FAUSTI BO Y JULI CASTRO",
+    "minute": "00:50",
+    "views": 107987
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "plp-cancion-musica-de-fondo",
+  "name": "PLP (canción/música de fondo)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 972.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "11/06/2026",
+    "video_id": "GLACgh8nuGY",
+    "title": "#SEFUELARGA l JULI POGGIO CONTRA AMANTES, RESPONDE TODO Y FERBO VS FAUSTI BO Y JULI CASTRO",
+    "minute": "01:00",
+    "views": 107987
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "avatar-pelicula",
+  "name": "Avatar (película)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/06/2026",
+  "last_seen": "01/06/2026",
+  "value_usd": 942.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/06/2026",
+    "video_id": "NBEsmlg2SHY",
+    "title": "Las REFLEXIONES y REPERCUSIONES tras el FEMICIDIO de AGOSTINA VEGA | #TDT 1/6",
+    "minute": "01:40",
+    "views": 104635
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "dlc-downloadable-content",
+  "name": "DLC (Downloadable Content)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/06/2026",
+  "last_seen": "01/06/2026",
+  "value_usd": 942.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/06/2026",
+    "video_id": "NBEsmlg2SHY",
+    "title": "Las REFLEXIONES y REPERCUSIONES tras el FEMICIDIO de AGOSTINA VEGA | #TDT 1/6",
+    "minute": "01:40",
+    "views": 104635
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "audi-tarjeta-referencia",
+  "name": "Audi (tarjeta/referencia)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/06/2026",
+  "last_seen": "01/06/2026",
+  "value_usd": 942.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/06/2026",
+    "video_id": "NBEsmlg2SHY",
+    "title": "Las REFLEXIONES y REPERCUSIONES tras el FEMICIDIO de AGOSTINA VEGA | #TDT 1/6",
+    "minute": "01:40",
+    "views": 104635
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "www-felford-com-ar",
+  "name": "www.felford.com.ar",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 479.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "04/06/2026",
+    "video_id": "ZtZeqX0VL24",
+    "title": "#LOSNOTALENTOS l LLEGAMOS: OCCHIAMIN, EL PAPÁ DE AGUSNETA Y TINELLI NOS MIRAN",
+    "minute": "00:20",
+    "views": 53247
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "app-de-streaming-nombre-no-especificado",
+  "name": "App de streaming (nombre no especificado)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 479.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "04/06/2026",
+    "video_id": "ZtZeqX0VL24",
+    "title": "#LOSNOTALENTOS l LLEGAMOS: OCCHIAMIN, EL PAPÁ DE AGUSNETA Y TINELLI NOS MIRAN",
+    "minute": "01:00",
+    "views": 53247
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "perros-fu-decorativos",
+  "name": "Perros fu (decorativos)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 2367.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "08/06/2026",
+    "video_id": "4sySXUl-XWA",
+    "title": "#ELSHOWDELVERANO | FLOR, MARLEY Y SU RELACIÓN CON EL FENGSHUI: CÓMO ACOMODAR LA ENERGÍA DE TU HOGAR",
+    "minute": "00:10",
+    "views": 263028
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "marcapasos",
+  "name": "marcapasos",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 2367.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "08/06/2026",
+    "video_id": "4sySXUl-XWA",
+    "title": "#ELSHOWDELVERANO | FLOR, MARLEY Y SU RELACIÓN CON EL FENGSHUI: CÓMO ACOMODAR LA ENERGÍA DE TU HOGAR",
+    "minute": "00:40",
+    "views": 263028
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pendulo",
+  "name": "péndulo",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 2367.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "08/06/2026",
+    "video_id": "4sySXUl-XWA",
+    "title": "#ELSHOWDELVERANO | FLOR, MARLEY Y SU RELACIÓN CON EL FENGSHUI: CÓMO ACOMODAR LA ENERGÍA DE TU HOGAR",
+    "minute": "00:40",
+    "views": 263028
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "varas-de-radiestesia",
+  "name": "varas de radiestesia",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 2367.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "08/06/2026",
+    "video_id": "4sySXUl-XWA",
+    "title": "#ELSHOWDELVERANO | FLOR, MARLEY Y SU RELACIÓN CON EL FENGSHUI: CÓMO ACOMODAR LA ENERGÍA DE TU HOGAR",
+    "minute": "00:40",
+    "views": 263028
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "toallitas-intimas",
+  "name": "toallitas íntimas",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "02/06/2026",
+  "last_seen": "02/06/2026",
+  "value_usd": 1032.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "02/06/2026",
+    "video_id": "Y7TeotcndjQ",
+    "title": "COINCIDO O DEBATO: ¿SE PERDONA TODO POR SER DE OTRA ÉPOCA? | #TapadosDeLaburo 2/6",
+    "minute": "00:00",
+    "views": 114622
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "bananas",
+  "name": "bananas",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "02/06/2026",
+  "last_seen": "02/06/2026",
+  "value_usd": 1032.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "02/06/2026",
+    "video_id": "Y7TeotcndjQ",
+    "title": "COINCIDO O DEBATO: ¿SE PERDONA TODO POR SER DE OTRA ÉPOCA? | #TapadosDeLaburo 2/6",
+    "minute": "00:00",
+    "views": 114622
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "paltas",
+  "name": "paltas",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "02/06/2026",
+  "last_seen": "02/06/2026",
+  "value_usd": 1032.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "02/06/2026",
+    "video_id": "Y7TeotcndjQ",
+    "title": "COINCIDO O DEBATO: ¿SE PERDONA TODO POR SER DE OTRA ÉPOCA? | #TapadosDeLaburo 2/6",
+    "minute": "00:00",
+    "views": 114622
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "havana-galletitas",
+  "name": "Havana (galletitas)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "02/06/2026",
+  "last_seen": "02/06/2026",
+  "value_usd": 1032.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "02/06/2026",
+    "video_id": "Y7TeotcndjQ",
+    "title": "COINCIDO O DEBATO: ¿SE PERDONA TODO POR SER DE OTRA ÉPOCA? | #TapadosDeLaburo 2/6",
+    "minute": "00:20",
+    "views": 114622
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "lo-del-fuego-banda",
+  "name": "Lo del fuego (banda)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "06/06/2026",
+  "last_seen": "06/06/2026",
+  "value_usd": 1551.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "06/06/2026",
+    "video_id": "b3xixpLLqjY",
+    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
+    "minute": "00:00",
+    "views": 172288
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "canoncitos-de-dulce-de-leche",
+  "name": "cañoncitos de dulce de leche",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "06/06/2026",
+  "last_seen": "06/06/2026",
+  "value_usd": 1551.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "06/06/2026",
+    "video_id": "b3xixpLLqjY",
+    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
+    "minute": "00:10",
+    "views": 172288
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "canoncitos-de-leche",
+  "name": "cañoncitos de leche",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "06/06/2026",
+  "last_seen": "06/06/2026",
+  "value_usd": 1551.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "06/06/2026",
+    "video_id": "b3xixpLLqjY",
+    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
+    "minute": "00:30",
+    "views": 172288
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "sacramentos",
+  "name": "sacramentos",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "06/06/2026",
+  "last_seen": "06/06/2026",
+  "value_usd": 1551.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "06/06/2026",
+    "video_id": "b3xixpLLqjY",
+    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
+    "minute": "00:30",
+    "views": 172288
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "sillas-gamer",
+  "name": "sillas gamer",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "06/06/2026",
+  "last_seen": "06/06/2026",
+  "value_usd": 1551.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "06/06/2026",
+    "video_id": "b3xixpLLqjY",
+    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
+    "minute": "00:30",
+    "views": 172288
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "aspiradoras",
+  "name": "aspiradoras",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "06/06/2026",
+  "last_seen": "06/06/2026",
+  "value_usd": 1551.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "06/06/2026",
+    "video_id": "b3xixpLLqjY",
+    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
+    "minute": "00:30",
+    "views": 172288
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "medicina-farmacia",
+  "name": "medicina/farmacia",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "06/06/2026",
+  "last_seen": "06/06/2026",
+  "value_usd": 1551.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "06/06/2026",
+    "video_id": "b3xixpLLqjY",
+    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
+    "minute": "00:30",
+    "views": 172288
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "mates-y-facturas",
+  "name": "mates y facturas",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "06/06/2026",
+  "last_seen": "06/06/2026",
+  "value_usd": 1551.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "06/06/2026",
+    "video_id": "b3xixpLLqjY",
+    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
+    "minute": "00:30",
+    "views": 172288
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "dulce-de-leche-canoncitos",
+  "name": "Dulce de leche (cañoncitos)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "06/06/2026",
+  "last_seen": "06/06/2026",
+  "value_usd": 1551.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "06/06/2026",
+    "video_id": "b3xixpLLqjY",
+    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
+    "minute": "00:50",
+    "views": 172288
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "luzutv-shop",
+  "name": "luzutv.shop",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "06/06/2026",
+  "last_seen": "06/06/2026",
+  "value_usd": 1551.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "06/06/2026",
+    "video_id": "b3xixpLLqjY",
+    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
+    "minute": "01:20",
+    "views": 172288
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "mates-de-algarrobo",
+  "name": "mates de algarrobo",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "06/06/2026",
+  "last_seen": "06/06/2026",
+  "value_usd": 1551.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "06/06/2026",
+    "video_id": "b3xixpLLqjY",
+    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
+    "minute": "01:20",
+    "views": 172288
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "mates-de-acero",
+  "name": "mates de acero",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "06/06/2026",
+  "last_seen": "06/06/2026",
+  "value_usd": 1551.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "06/06/2026",
+    "video_id": "b3xixpLLqjY",
+    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
+    "minute": "01:20",
+    "views": 172288
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "mates-autosevantes",
+  "name": "mates autosevantes",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "06/06/2026",
+  "last_seen": "06/06/2026",
+  "value_usd": 1551.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "06/06/2026",
+    "video_id": "b3xixpLLqjY",
+    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
+    "minute": "01:20",
+    "views": 172288
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "post-it",
+  "name": "post-it",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "06/06/2026",
+  "last_seen": "06/06/2026",
+  "value_usd": 1551.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "06/06/2026",
+    "video_id": "b3xixpLLqjY",
+    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
+    "minute": "01:30",
+    "views": 172288
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "caja-de-herramientas",
+  "name": "caja de herramientas",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "06/06/2026",
+  "last_seen": "06/06/2026",
+  "value_usd": 1551.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "06/06/2026",
+    "video_id": "b3xixpLLqjY",
+    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
+    "minute": "01:30",
+    "views": 172288
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "qn-radio-programa",
+  "name": "QN (radio/programa)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 9516.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "Y5xV6ZZE5c4",
+    "title": "#NADIEDICENADA | NUEVAMENTE NO ENTENDEMOS LA COLUMNA DE MOMI Y ¿OCCHIAMIN YA ESTÁ GRANDE?",
+    "minute": "00:00",
+    "views": 1057321
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "canoli-salames",
+  "name": "Cañoli (salames)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 9516.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "Y5xV6ZZE5c4",
+    "title": "#NADIEDICENADA | NUEVAMENTE NO ENTENDEMOS LA COLUMNA DE MOMI Y ¿OCCHIAMIN YA ESTÁ GRANDE?",
+    "minute": "00:30",
+    "views": 1057321
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "el-usu-aplicacion",
+  "name": "El Usu (aplicación)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 9516.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "Y5xV6ZZE5c4",
+    "title": "#NADIEDICENADA | NUEVAMENTE NO ENTENDEMOS LA COLUMNA DE MOMI Y ¿OCCHIAMIN YA ESTÁ GRANDE?",
+    "minute": "00:30",
+    "views": 1057321
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "perfume-colaboracion-con-nico",
+  "name": "Perfume (colaboración con Nico)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 9516.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "Y5xV6ZZE5c4",
+    "title": "#NADIEDICENADA | NUEVAMENTE NO ENTENDEMOS LA COLUMNA DE MOMI Y ¿OCCHIAMIN YA ESTÁ GRANDE?",
+    "minute": "01:40",
+    "views": 1057321
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "enigmatickets-com",
+  "name": "enigmatickets.com",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 9516.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "Y5xV6ZZE5c4",
+    "title": "#NADIEDICENADA | NUEVAMENTE NO ENTENDEMOS LA COLUMNA DE MOMI Y ¿OCCHIAMIN YA ESTÁ GRANDE?",
+    "minute": "01:50",
+    "views": 1057321
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "puntoticket-com",
+  "name": "puntoticket.com",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 9516.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "Y5xV6ZZE5c4",
+    "title": "#NADIEDICENADA | NUEVAMENTE NO ENTENDEMOS LA COLUMNA DE MOMI Y ¿OCCHIAMIN YA ESTÁ GRANDE?",
+    "minute": "01:50",
+    "views": 1057321
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "speed-bebida-energizante-lata-mundialista",
+  "name": "Speed (bebida energizante - lata mundialista)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 9516.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "Y5xV6ZZE5c4",
+    "title": "#NADIEDICENADA | NUEVAMENTE NO ENTENDEMOS LA COLUMNA DE MOMI Y ¿OCCHIAMIN YA ESTÁ GRANDE?",
+    "minute": "02:00",
+    "views": 1057321
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "cerveza-con-promocion-de-pasaje-al-mundial",
+  "name": "Cerveza (con promoción de pasaje al mundial)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 267.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "11/06/2026",
+    "video_id": "Fp5-hk5vL8U",
+    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
+    "minute": "00:30",
+    "views": 29670
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "swift-hamburguesas",
+  "name": "Swift (hamburguesas)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 267.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "11/06/2026",
+    "video_id": "Fp5-hk5vL8U",
+    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
+    "minute": "01:40",
+    "views": 29670
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pes-6-pro-evolution-soccer",
+  "name": "PES 6 (Pro Evolution Soccer)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 267.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "11/06/2026",
+    "video_id": "Fp5-hk5vL8U",
+    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
+    "minute": "01:50",
+    "views": 29670
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "extractor-de-leche",
+  "name": "extractor de leche",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 2486.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "03/06/2026",
+    "video_id": "R41W9i_YWio",
+    "title": "#PATRIAYFAMILIA l ¿CÓMO ESTÁ EL CORAZÓN DE ALBERE? Y SU RELACIÓN CON LA JOAQUI",
+    "minute": "01:40",
+    "views": 276239
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "blue-plataforma-de-streaming",
+  "name": "Blue (plataforma de streaming)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 305.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "03/06/2026",
+    "video_id": "VphQnT79K00",
+    "title": "LAS MUJERES Y EL FÚTBOL: LOS ESPACIOS CONQUISTADOS EN EL DEPORTE | #GolGana 3/6",
+    "minute": "00:20",
+    "views": 33865
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "swift-hamburguesas-carne",
+  "name": "Swift (hamburguesas/carne)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 305.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "03/06/2026",
+    "video_id": "VphQnT79K00",
+    "title": "LAS MUJERES Y EL FÚTBOL: LOS ESPACIOS CONQUISTADOS EN EL DEPORTE | #GolGana 3/6",
+    "minute": "01:40",
+    "views": 33865
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "nb-new-balance-posiblemente-medias",
+  "name": "NB (New Balance - posiblemente medias)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 511.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "Ovdcl6-B2kc",
+    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "minute": "00:30",
+    "views": 56741
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "globo-casaca",
+  "name": "Globo (casaca)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 511.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "Ovdcl6-B2kc",
+    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "minute": "01:40",
+    "views": 56741
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "millonarios-camiseta",
+  "name": "Millonarios (camiseta)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 511.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "Ovdcl6-B2kc",
+    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "minute": "01:40",
+    "views": 56741
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "copa-america-copita-de-regalo",
+  "name": "Copa América (copita de regalo)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 1846.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "03/06/2026",
+    "video_id": "3QYSdxUDWHc",
+    "title": "NI UNA MENOS: LA LUCHA QUE TODAVÍA NO TERMINA | #SeríaIncreíble 3/6",
+    "minute": "00:30",
+    "views": 205133
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "skip-jabon-liquido-para-ciclos-cortos",
+  "name": "Skip (jabón líquido para ciclos cortos)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 1846.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "03/06/2026",
+    "video_id": "3QYSdxUDWHc",
+    "title": "NI UNA MENOS: LA LUCHA QUE TODAVÍA NO TERMINA | #SeríaIncreíble 3/6",
+    "minute": "00:40",
+    "views": 205133
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "swift-carnes",
+  "name": "Swift (carnes)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 1846.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "03/06/2026",
+    "video_id": "3QYSdxUDWHc",
+    "title": "NI UNA MENOS: LA LUCHA QUE TODAVÍA NO TERMINA | #SeríaIncreíble 3/6",
+    "minute": "01:00",
+    "views": 205133
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "tdt-canal-plataforma",
+  "name": "TDT (canal/plataforma)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 1846.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "03/06/2026",
+    "video_id": "3QYSdxUDWHc",
+    "title": "NI UNA MENOS: LA LUCHA QUE TODAVÍA NO TERMINA | #SeríaIncreíble 3/6",
+    "minute": "01:00",
+    "views": 205133
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "youtube-luzu-tv",
+  "name": "YouTube (Luzu TV)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "22/06/2026",
+  "last_seen": "22/06/2026",
+  "value_usd": 1201.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "22/06/2026",
+    "video_id": "yp1SuqSXmxA",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
+    "minute": "00:40",
+    "views": 133449
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "maquina-de-cafe",
+  "name": "máquina de café",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "22/06/2026",
+  "last_seen": "22/06/2026",
+  "value_usd": 1201.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "22/06/2026",
+    "video_id": "yp1SuqSXmxA",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
+    "minute": "01:30",
+    "views": 133449
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "caloventor",
+  "name": "caloventor",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "22/06/2026",
+  "last_seen": "22/06/2026",
+  "value_usd": 1201.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "22/06/2026",
+    "video_id": "yp1SuqSXmxA",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
+    "minute": "01:30",
+    "views": 133449
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "movistar-arena-implicito-en-arena",
+  "name": "Movistar Arena (implícito en 'Arena')",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 3363.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "cHMIm1Fnig4",
+    "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+    "minute": "00:20",
+    "views": 373638
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "julian-alvarez-figura-regalo",
+  "name": "Julián Álvarez (figura/regalo)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 3363.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "cHMIm1Fnig4",
+    "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+    "minute": "02:00",
+    "views": 373638
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "waldorf-colegio",
+  "name": "Waldorf (colegio)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 1143.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "04/06/2026",
+    "video_id": "YsVvw9XAMjE",
+    "title": "ABRAN LAS JULIANAS | #MiPrimoEsAsí 4/6",
+    "minute": "00:10",
+    "views": 127003
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "palo-de-peron-empresa-de-seguridad",
+  "name": "Palo de Perón (empresa de seguridad)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 1143.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "04/06/2026",
+    "video_id": "YsVvw9XAMjE",
+    "title": "ABRAN LAS JULIANAS | #MiPrimoEsAsí 4/6",
+    "minute": "00:10",
+    "views": 127003
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "adela-canal",
+  "name": "Adela (canal)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 1143.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "04/06/2026",
+    "video_id": "YsVvw9XAMjE",
+    "title": "ABRAN LAS JULIANAS | #MiPrimoEsAsí 4/6",
+    "minute": "00:20",
+    "views": 127003
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "minidisc",
+  "name": "minidisc",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 1143.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "04/06/2026",
+    "video_id": "YsVvw9XAMjE",
+    "title": "ABRAN LAS JULIANAS | #MiPrimoEsAsí 4/6",
+    "minute": "00:50",
+    "views": 127003
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "isaac-canal-de-tv",
+  "name": "Isaac (canal de TV)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 1143.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "04/06/2026",
+    "video_id": "YsVvw9XAMjE",
+    "title": "ABRAN LAS JULIANAS | #MiPrimoEsAsí 4/6",
+    "minute": "01:00",
+    "views": 127003
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "rocky-pelicula-musical",
+  "name": "Rocky (película/musical)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 391.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "2sxqtU8XXTQ",
+    "title": "CLASES DE MODELAJE CON PAULA CHAVES | #TapadosDeLaburo 23/6",
+    "minute": "01:10",
+    "views": 43475
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "hairspray-musical",
+  "name": "Hairspray (musical)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 391.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "2sxqtU8XXTQ",
+    "title": "CLASES DE MODELAJE CON PAULA CHAVES | #TapadosDeLaburo 23/6",
+    "minute": "01:10",
+    "views": 43475
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "tapados-de-laburo-programa",
+  "name": "Tapados de Laburo (programa)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 391.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "2sxqtU8XXTQ",
+    "title": "CLASES DE MODELAJE CON PAULA CHAVES | #TapadosDeLaburo 23/6",
+    "minute": "01:20",
+    "views": 43475
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "botines",
+  "name": "botines",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 1799.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "CGxGXCw8BVE",
+    "title": "#PATRIAYFAMILIA l OCCHIATO NOS DA LA NOTICIA ESPERADA Y BAD GYAL EN VIVO",
+    "minute": "01:30",
+    "views": 199859
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "camiseta",
+  "name": "camiseta",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 1799.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "CGxGXCw8BVE",
+    "title": "#PATRIAYFAMILIA l OCCHIATO NOS DA LA NOTICIA ESPERADA Y BAD GYAL EN VIVO",
+    "minute": "01:30",
+    "views": 199859
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "botella-de-agua",
+  "name": "botella de agua",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 1799.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "CGxGXCw8BVE",
+    "title": "#PATRIAYFAMILIA l OCCHIATO NOS DA LA NOTICIA ESPERADA Y BAD GYAL EN VIVO",
+    "minute": "01:30",
+    "views": 199859
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "reloj",
+  "name": "reloj",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 1799.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "CGxGXCw8BVE",
+    "title": "#PATRIAYFAMILIA l OCCHIATO NOS DA LA NOTICIA ESPERADA Y BAD GYAL EN VIVO",
+    "minute": "01:30",
+    "views": 199859
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pulsera",
+  "name": "pulsera",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 1799.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "CGxGXCw8BVE",
+    "title": "#PATRIAYFAMILIA l OCCHIATO NOS DA LA NOTICIA ESPERADA Y BAD GYAL EN VIVO",
+    "minute": "01:30",
+    "views": 199859
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "mate",
+  "name": "mate",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 1799.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "CGxGXCw8BVE",
+    "title": "#PATRIAYFAMILIA l OCCHIATO NOS DA LA NOTICIA ESPERADA Y BAD GYAL EN VIVO",
+    "minute": "01:30",
+    "views": 199859
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "river-estadio",
+  "name": "River (estadio)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 1881.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "08/06/2026",
+    "video_id": "ao3cUV0DY6k",
+    "title": "#PATRIAYFAMILIA l FUIMOS A VER A LALI Y VOLVIÓ JULI",
+    "minute": "00:50",
+    "views": 208968
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "sedal-producto-de-cuidado-capilar",
+  "name": "Sedal (producto de cuidado capilar)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 1881.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "08/06/2026",
+    "video_id": "ao3cUV0DY6k",
+    "title": "#PATRIAYFAMILIA l FUIMOS A VER A LALI Y VOLVIÓ JULI",
+    "minute": "01:30",
+    "views": 208968
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "crema-bronceadora",
+  "name": "crema bronceadora",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 1216.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "6COldxwUDK8",
+    "title": "HOY NOS ESTALLAMOS con ANTONIO RÍOS y CHANCHI ESTÉVEZ | #LaGambeta",
+    "minute": "00:00",
+    "views": 135147
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "billeteras-virtuales",
+  "name": "billeteras virtuales",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 1216.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "6COldxwUDK8",
+    "title": "HOY NOS ESTALLAMOS con ANTONIO RÍOS y CHANCHI ESTÉVEZ | #LaGambeta",
+    "minute": "00:00",
+    "views": 135147
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "raquetas",
+  "name": "raquetas",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 1216.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "6COldxwUDK8",
+    "title": "HOY NOS ESTALLAMOS con ANTONIO RÍOS y CHANCHI ESTÉVEZ | #LaGambeta",
+    "minute": "00:30",
+    "views": 135147
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pelotitas-de-tenis",
+  "name": "pelotitas de tenis",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 1216.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "6COldxwUDK8",
+    "title": "HOY NOS ESTALLAMOS con ANTONIO RÍOS y CHANCHI ESTÉVEZ | #LaGambeta",
+    "minute": "00:30",
+    "views": 135147
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "talco-deportivo",
+  "name": "talco deportivo",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 1216.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "6COldxwUDK8",
+    "title": "HOY NOS ESTALLAMOS con ANTONIO RÍOS y CHANCHI ESTÉVEZ | #LaGambeta",
+    "minute": "00:30",
+    "views": 135147
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "tac-desodorante-antitranspirante",
+  "name": "TAC (desodorante/antitranspirante)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 1216.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "6COldxwUDK8",
+    "title": "HOY NOS ESTALLAMOS con ANTONIO RÍOS y CHANCHI ESTÉVEZ | #LaGambeta",
+    "minute": "01:00",
+    "views": 135147
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "hovding-casco-airbag",
+  "name": "Hövding (casco airbag)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 1216.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "6COldxwUDK8",
+    "title": "HOY NOS ESTALLAMOS con ANTONIO RÍOS y CHANCHI ESTÉVEZ | #LaGambeta",
+    "minute": "01:10",
+    "views": 135147
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "zol-lentes",
+  "name": "Zol (lentes)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 1216.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "6COldxwUDK8",
+    "title": "HOY NOS ESTALLAMOS con ANTONIO RÍOS y CHANCHI ESTÉVEZ | #LaGambeta",
+    "minute": "01:30",
+    "views": 135147
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "futura-agencia",
+  "name": "Futura (agencia)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 1063.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "24/06/2026",
+    "video_id": "wpLDMAyU_fA",
+    "title": "#PATRIAYFAMILIA l CÁMARA OCULTA A MARCOS GILES Y SE CHAMUYAN A AGUSNETA",
+    "minute": "00:50",
+    "views": 118153
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "don-marca-mencionada-en-critica",
+  "name": "Don (marca mencionada en crítica)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 1063.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "24/06/2026",
+    "video_id": "wpLDMAyU_fA",
+    "title": "#PATRIAYFAMILIA l CÁMARA OCULTA A MARCOS GILES Y SE CHAMUYAN A AGUSNETA",
+    "minute": "00:50",
+    "views": 118153
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "mousse-de-chocolate",
+  "name": "mousse de chocolate",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 3512.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "b5MhH0NHJUo",
+    "title": "#ANTESQUENADIE | ¿ESTÁ MAL COIMEAR A UN DT POR LA FELICIDAD DE TU HIJO? + EL CASO DE WALTER BULACIO",
+    "minute": "00:00",
+    "views": 390265
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "personal-operadora-celular",
+  "name": "Personal (operadora celular)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 3512.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "b5MhH0NHJUo",
+    "title": "#ANTESQUENADIE | ¿ESTÁ MAL COIMEAR A UN DT POR LA FELICIDAD DE TU HIJO? + EL CASO DE WALTER BULACIO",
+    "minute": "01:00",
+    "views": 390265
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "macro-banco",
+  "name": "Macro (banco)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 3512.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "b5MhH0NHJUo",
+    "title": "#ANTESQUENADIE | ¿ESTÁ MAL COIMEAR A UN DT POR LA FELICIDAD DE TU HIJO? + EL CASO DE WALTER BULACIO",
+    "minute": "01:40",
+    "views": 390265
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "quality-space-cordoba",
+  "name": "Quality Space (Córdoba)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 3512.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "b5MhH0NHJUo",
+    "title": "#ANTESQUENADIE | ¿ESTÁ MAL COIMEAR A UN DT POR LA FELICIDAD DE TU HIJO? + EL CASO DE WALTER BULACIO",
+    "minute": "02:00",
+    "views": 390265
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "radio-city-mar-del-plata",
+  "name": "Radio City (Mar del Plata)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 3512.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "b5MhH0NHJUo",
+    "title": "#ANTESQUENADIE | ¿ESTÁ MAL COIMEAR A UN DT POR LA FELICIDAD DE TU HIJO? + EL CASO DE WALTER BULACIO",
+    "minute": "02:00",
+    "views": 390265
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "camisa-10-album",
+  "name": "Camisa 10 (álbum)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 3512.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "b5MhH0NHJUo",
+    "title": "#ANTESQUENADIE | ¿ESTÁ MAL COIMEAR A UN DT POR LA FELICIDAD DE TU HIJO? + EL CASO DE WALTER BULACIO",
+    "minute": "02:10",
+    "views": 390265
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "vinilos",
+  "name": "vinilos",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1137.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "HxSfByGpEe0",
+    "title": "HACÉ REÍR A LA MESA y GANAS $50.000 | #TapadosDeLaburo 5/6",
+    "minute": "00:00",
+    "views": 126383
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "radio",
+  "name": "radio",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1137.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "HxSfByGpEe0",
+    "title": "HACÉ REÍR A LA MESA y GANAS $50.000 | #TapadosDeLaburo 5/6",
+    "minute": "00:00",
+    "views": 126383
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "refresher-con-limonada-y-frutos-rojos",
+  "name": "refresher con limonada y frutos rojos",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1137.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "HxSfByGpEe0",
+    "title": "HACÉ REÍR A LA MESA y GANAS $50.000 | #TapadosDeLaburo 5/6",
+    "minute": "00:10",
+    "views": 126383
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pukibu-mascota-personaje",
+  "name": "Pukibu (mascota/personaje)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1137.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "HxSfByGpEe0",
+    "title": "HACÉ REÍR A LA MESA y GANAS $50.000 | #TapadosDeLaburo 5/6",
+    "minute": "01:00",
+    "views": 126383
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "fanta-bebida",
+  "name": "Fanta (bebida)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1137.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "HxSfByGpEe0",
+    "title": "HACÉ REÍR A LA MESA y GANAS $50.000 | #TapadosDeLaburo 5/6",
+    "minute": "01:00",
+    "views": 126383
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "olga-store",
+  "name": "olga.store",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1137.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "HxSfByGpEe0",
+    "title": "HACÉ REÍR A LA MESA y GANAS $50.000 | #TapadosDeLaburo 5/6",
+    "minute": "01:10",
+    "views": 126383
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "esa-dia",
+  "name": "esa día",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1137.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "HxSfByGpEe0",
+    "title": "HACÉ REÍR A LA MESA y GANAS $50.000 | #TapadosDeLaburo 5/6",
+    "minute": "01:20",
+    "views": 126383
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "gin-tonic",
+  "name": "gin tonic",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 2054.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "LzZD6sPGPu0",
+    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
+    "minute": "00:20",
+    "views": 228227
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "cerveza",
+  "name": "cerveza",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 2054.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "LzZD6sPGPu0",
+    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
+    "minute": "00:20",
+    "views": 228227
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "leche-sachet",
+  "name": "Leche (sachet)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 2054.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "LzZD6sPGPu0",
+    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
+    "minute": "01:00",
+    "views": 228227
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "bad-bunny-remera",
+  "name": "Bad Bunny (remera)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 551.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "03/06/2026",
+    "video_id": "e43Kc2KbppA",
+    "title": "#FMLUZU | CRIS TIRA LOS REGALOS DE SU EX + EL POLLO MASAJEA AL MITO EN VIVO",
+    "minute": "00:30",
+    "views": 61175
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "luzu-app",
+  "name": "Luzu (app)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 3521.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "04/06/2026",
+    "video_id": "Jf7bO88vnm0",
+    "title": "#ANTESQUENADIE | ¿EL TRINCHE USA COFIA DE SEDA? + EL MEJOR JUEGO DEL STREAMING NACIONAL",
+    "minute": "00:50",
+    "views": 391168
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "strava-app-de-running-mencionada-como-traba",
+  "name": "Strava (app de running, mencionada como 'traba')",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 3521.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "04/06/2026",
+    "video_id": "Jf7bO88vnm0",
+    "title": "#ANTESQUENADIE | ¿EL TRINCHE USA COFIA DE SEDA? + EL MEJOR JUEGO DEL STREAMING NACIONAL",
+    "minute": "00:50",
+    "views": 391168
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "escudo-de-vulva-app-de-running-existente",
+  "name": "Escudo de Vulva (app de running existente)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 3521.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "04/06/2026",
+    "video_id": "Jf7bO88vnm0",
+    "title": "#ANTESQUENADIE | ¿EL TRINCHE USA COFIA DE SEDA? + EL MEJOR JUEGO DEL STREAMING NACIONAL",
+    "minute": "00:50",
+    "views": 391168
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "allaccess-com",
+  "name": "allaccess.com",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 3521.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "04/06/2026",
+    "video_id": "Jf7bO88vnm0",
+    "title": "#ANTESQUENADIE | ¿EL TRINCHE USA COFIA DE SEDA? + EL MEJOR JUEGO DEL STREAMING NACIONAL",
+    "minute": "01:30",
+    "views": 391168
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "shampoo-y-acondicionador-kit-con-cofia",
+  "name": "Shampoo y acondicionador (kit con cofia)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 3521.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "04/06/2026",
+    "video_id": "Jf7bO88vnm0",
+    "title": "#ANTESQUENADIE | ¿EL TRINCHE USA COFIA DE SEDA? + EL MEJOR JUEGO DEL STREAMING NACIONAL",
+    "minute": "01:50",
+    "views": 391168
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "lucas-substein-creador-de-contenido",
+  "name": "Lucas Substein (creador de contenido)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 1599.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "03/06/2026",
+    "video_id": "0SzxfcU-x6w",
+    "title": "LUCAS SE OFENDE Y ABANDONA OLGA | #SoñéQueVolaba 3/6",
+    "minute": "00:20",
+    "views": 177615
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "phil-collins-musico-referencia-musical",
+  "name": "Phil Collins (músico/referencia musical)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 1599.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "03/06/2026",
+    "video_id": "0SzxfcU-x6w",
+    "title": "LUCAS SE OFENDE Y ABANDONA OLGA | #SoñéQueVolaba 3/6",
+    "minute": "00:20",
+    "views": 177615
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "rock-and-pop-radio",
+  "name": "Rock and Pop (radio)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 1599.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "03/06/2026",
+    "video_id": "0SzxfcU-x6w",
+    "title": "LUCAS SE OFENDE Y ABANDONA OLGA | #SoñéQueVolaba 3/6",
+    "minute": "00:20",
+    "views": 177615
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "meta-gafas-ray-ban-stories",
+  "name": "Meta (gafas Ray-Ban Stories)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 1599.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "03/06/2026",
+    "video_id": "0SzxfcU-x6w",
+    "title": "LUCAS SE OFENDE Y ABANDONA OLGA | #SoñéQueVolaba 3/6",
+    "minute": "00:40",
+    "views": 177615
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "facebook-meta-zuckerberg",
+  "name": "Facebook/Meta (Zuckerberg)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 1599.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "03/06/2026",
+    "video_id": "0SzxfcU-x6w",
+    "title": "LUCAS SE OFENDE Y ABANDONA OLGA | #SoñéQueVolaba 3/6",
+    "minute": "01:30",
+    "views": 177615
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "king-of-the-congo-marca-de-matias-artagavitia-palermo",
+  "name": "King of the Congo (marca de Matías Artagavitia Palermo)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 1599.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "03/06/2026",
+    "video_id": "0SzxfcU-x6w",
+    "title": "LUCAS SE OFENDE Y ABANDONA OLGA | #SoñéQueVolaba 3/6",
+    "minute": "01:50",
+    "views": 177615
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "all-blacks-seleccion-rugby-nueva-zelanda",
+  "name": "All Blacks (selección rugby Nueva Zelanda)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 1599.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "03/06/2026",
+    "video_id": "0SzxfcU-x6w",
+    "title": "LUCAS SE OFENDE Y ABANDONA OLGA | #SoñéQueVolaba 3/6",
+    "minute": "01:50",
+    "views": 177615
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "all-whites-seleccion-futbol-nueva-zelanda",
+  "name": "All Whites (selección fútbol Nueva Zelanda)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 1599.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "03/06/2026",
+    "video_id": "0SzxfcU-x6w",
+    "title": "LUCAS SE OFENDE Y ABANDONA OLGA | #SoñéQueVolaba 3/6",
+    "minute": "01:50",
+    "views": 177615
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "macanchis",
+  "name": "macanchís",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 639.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "24/06/2026",
+    "video_id": "7Oo5Hf7f14M",
+    "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "minute": "00:00",
+    "views": 70980
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "eleven-waffles-serie",
+  "name": "Eleven (waffles serie)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 639.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "24/06/2026",
+    "video_id": "7Oo5Hf7f14M",
+    "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "minute": "01:50",
+    "views": 70980
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "jorjito-alfajor",
+  "name": "Jorjito (alfajor)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 639.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "24/06/2026",
+    "video_id": "7Oo5Hf7f14M",
+    "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "minute": "01:50",
+    "views": 70980
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "olga-programa",
+  "name": "Olga (programa)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 661.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "02:50",
+    "views": 73490
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "ser-increible-programa",
+  "name": "Ser Increíble (programa)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 661.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "02:50",
+    "views": 73490
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "cine-que-volaba-programa",
+  "name": "Cine que volaba (programa)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 661.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "02:50",
+    "views": 73490
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "golgana-programa",
+  "name": "Golgana (programa)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 661.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "02:50",
+    "views": 73490
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "por-el-mundo-programa-con-marley",
+  "name": "Por el Mundo (programa con Marley)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 661.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "02:50",
+    "views": 73490
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "swift-carnes-hamburguesas",
+  "name": "Swift (carnes/hamburguesas)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 445.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "LDTi8tvhNSc",
+    "title": "CÓMO SE PREPARA ARGENTINA DE CARA AL MUNDIAL | #GolGana 8/6",
+    "minute": "00:40",
+    "views": 49471
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "garnier-fructis-goodbye-danos-oil-control",
+  "name": "Garnier Fructis (Goodbye daños oil control)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 445.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "LDTi8tvhNSc",
+    "title": "CÓMO SE PREPARA ARGENTINA DE CARA AL MUNDIAL | #GolGana 8/6",
+    "minute": "01:00",
+    "views": 49471
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "didi-app-de-motos-transporte",
+  "name": "Didi (app de motos/transporte)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 445.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "LDTi8tvhNSc",
+    "title": "CÓMO SE PREPARA ARGENTINA DE CARA AL MUNDIAL | #GolGana 8/6",
+    "minute": "01:30",
+    "views": 49471
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "boxer-raza-de-perro",
+  "name": "Boxer (raza de perro)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "02/06/2026",
+  "last_seen": "02/06/2026",
+  "value_usd": 1476.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "02/06/2026",
+    "video_id": "d2xRtbOTSQQ",
+    "title": "UNA BRUJA y ANDI SEMENTI ADIVINAN el FUTURO | #SoñéQueVolaba 2/6",
+    "minute": "00:00",
+    "views": 163948
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "iol-auspiciante",
+  "name": "IOL (auspiciante)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "02/06/2026",
+  "last_seen": "02/06/2026",
+  "value_usd": 1476.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "02/06/2026",
+    "video_id": "d2xRtbOTSQQ",
+    "title": "UNA BRUJA y ANDI SEMENTI ADIVINAN el FUTURO | #SoñéQueVolaba 2/6",
+    "minute": "00:10",
+    "views": 163948
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "128-auto",
+  "name": "128 (auto)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "02/06/2026",
+  "last_seen": "02/06/2026",
+  "value_usd": 1476.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "02/06/2026",
+    "video_id": "d2xRtbOTSQQ",
+    "title": "UNA BRUJA y ANDI SEMENTI ADIVINAN el FUTURO | #SoñéQueVolaba 2/6",
+    "minute": "01:40",
+    "views": 163948
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "homero-tyson-artista-banda",
+  "name": "Homero Tyson (artista/banda)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "02/06/2026",
+  "last_seen": "02/06/2026",
+  "value_usd": 1476.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "02/06/2026",
+    "video_id": "d2xRtbOTSQQ",
+    "title": "UNA BRUJA y ANDI SEMENTI ADIVINAN el FUTURO | #SoñéQueVolaba 2/6",
+    "minute": "01:50",
+    "views": 163948
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "gel-de-proteina-de-mejillon-investigacion-china",
+  "name": "Gel de proteína de mejillón (investigación china)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "02/06/2026",
+  "last_seen": "02/06/2026",
+  "value_usd": 1476.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "02/06/2026",
+    "video_id": "d2xRtbOTSQQ",
+    "title": "UNA BRUJA y ANDI SEMENTI ADIVINAN el FUTURO | #SoñéQueVolaba 2/6",
+    "minute": "02:20",
+    "views": 163948
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "playstation-5-play-5",
+  "name": "PlayStation 5 (Play 5)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "02/06/2026",
+  "last_seen": "02/06/2026",
+  "value_usd": 1476.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "02/06/2026",
+    "video_id": "d2xRtbOTSQQ",
+    "title": "UNA BRUJA y ANDI SEMENTI ADIVINAN el FUTURO | #SoñéQueVolaba 2/6",
+    "minute": "02:30",
+    "views": 163948
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "vicky-app-asistente",
+  "name": "Vicky (app/asistente)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "02/06/2026",
+  "last_seen": "02/06/2026",
+  "value_usd": 1476.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "02/06/2026",
+    "video_id": "d2xRtbOTSQQ",
+    "title": "UNA BRUJA y ANDI SEMENTI ADIVINAN el FUTURO | #SoñéQueVolaba 2/6",
+    "minute": "02:30",
+    "views": 163948
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "woody-toy-story",
+  "name": "Woody (Toy Story)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 1135.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "11/06/2026",
+    "video_id": "N9oqgzallLk",
+    "title": "HOMERO IMITACIONES SE SALE DE CONTROL | #SoñéQueVolaba 11/6",
+    "minute": "00:00",
+    "views": 126079
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pelota-del-mundial-2026-colores-azul-rojo-y-verde",
+  "name": "Pelota del Mundial 2026 (colores azul, rojo y verde)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 1135.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "11/06/2026",
+    "video_id": "N9oqgzallLk",
+    "title": "HOMERO IMITACIONES SE SALE DE CONTROL | #SoñéQueVolaba 11/6",
+    "minute": "00:50",
+    "views": 126079
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "galletitas-de-lucuma",
+  "name": "galletitas de lúcuma",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 1135.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "11/06/2026",
+    "video_id": "N9oqgzallLk",
+    "title": "HOMERO IMITACIONES SE SALE DE CONTROL | #SoñéQueVolaba 11/6",
+    "minute": "01:10",
+    "views": 126079
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "kim-kardashian-referencia-de-estilo",
+  "name": "Kim Kardashian (referencia de estilo)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 4438.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "GC_Ahymb8Uw",
+    "title": "#ANTESQUENADIE | ¿LLORA JAMAICA? + VIERNES DE ABUELOS E INDIGNACIÓN PORQUE LOS JÓVENES NO CHAPAN",
+    "minute": "00:10",
+    "views": 493157
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "agua-micelar",
+  "name": "agua micelar",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 4438.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "GC_Ahymb8Uw",
+    "title": "#ANTESQUENADIE | ¿LLORA JAMAICA? + VIERNES DE ABUELOS E INDIGNACIÓN PORQUE LOS JÓVENES NO CHAPAN",
+    "minute": "01:20",
+    "views": 493157
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "desmaquillante",
+  "name": "desmaquillante",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 4438.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "GC_Ahymb8Uw",
+    "title": "#ANTESQUENADIE | ¿LLORA JAMAICA? + VIERNES DE ABUELOS E INDIGNACIÓN PORQUE LOS JÓVENES NO CHAPAN",
+    "minute": "01:20",
+    "views": 493157
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "qn-canal-de-tv",
+  "name": "QN (canal de TV)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 1234.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "S1UDpsKkZvE",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+    "minute": "01:00",
+    "views": 137091
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "obsesion-pelicula",
+  "name": "Obsesión (película)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/05/2026",
+  "last_seen": "29/05/2026",
+  "value_usd": 993.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/05/2026",
+    "video_id": "IZNfx1Rc9go",
+    "title": "EL EXTRAÑO CASO TIM PAYNE: DE DESCONOCIDO A FIGURA | #TapadosDeLaburo 29/5",
+    "minute": "00:20",
+    "views": 110384
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "a24-productora-de-cine",
+  "name": "A24 (productora de cine)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/05/2026",
+  "last_seen": "29/05/2026",
+  "value_usd": 993.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/05/2026",
+    "video_id": "IZNfx1Rc9go",
+    "title": "EL EXTRAÑO CASO TIM PAYNE: DE DESCONOCIDO A FIGURA | #TapadosDeLaburo 29/5",
+    "minute": "00:30",
+    "views": 110384
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "backrooms-pelicula-videojuego",
+  "name": "Backrooms (película/videojuego)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/05/2026",
+  "last_seen": "29/05/2026",
+  "value_usd": 993.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/05/2026",
+    "video_id": "IZNfx1Rc9go",
+    "title": "EL EXTRAÑO CASO TIM PAYNE: DE DESCONOCIDO A FIGURA | #TapadosDeLaburo 29/5",
+    "minute": "00:30",
+    "views": 110384
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "blair-witch-referencia-de-proyecto",
+  "name": "Blair Witch (referencia de proyecto)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/05/2026",
+  "last_seen": "29/05/2026",
+  "value_usd": 993.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/05/2026",
+    "video_id": "IZNfx1Rc9go",
+    "title": "EL EXTRAÑO CASO TIM PAYNE: DE DESCONOCIDO A FIGURA | #TapadosDeLaburo 29/5",
+    "minute": "00:30",
+    "views": 110384
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "fifa-fc-videojuego",
+  "name": "FIFA/FC (videojuego)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/05/2026",
+  "last_seen": "29/05/2026",
+  "value_usd": 993.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/05/2026",
+    "video_id": "IZNfx1Rc9go",
+    "title": "EL EXTRAÑO CASO TIM PAYNE: DE DESCONOCIDO A FIGURA | #TapadosDeLaburo 29/5",
+    "minute": "00:50",
+    "views": 110384
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "nuggets-marca-no-especificada",
+  "name": "Nuggets (marca no especificada)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/05/2026",
+  "last_seen": "29/05/2026",
+  "value_usd": 993.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/05/2026",
+    "video_id": "IZNfx1Rc9go",
+    "title": "EL EXTRAÑO CASO TIM PAYNE: DE DESCONOCIDO A FIGURA | #TapadosDeLaburo 29/5",
+    "minute": "00:50",
+    "views": 110384
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "tuentrada-com",
+  "name": "tuentrada.com",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/05/2026",
+  "last_seen": "29/05/2026",
+  "value_usd": 993.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/05/2026",
+    "video_id": "IZNfx1Rc9go",
+    "title": "EL EXTRAÑO CASO TIM PAYNE: DE DESCONOCIDO A FIGURA | #TapadosDeLaburo 29/5",
+    "minute": "01:20",
+    "views": 110384
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "luzu-app-y-plataforma-de-streaming",
+  "name": "Luzu (app y plataforma de streaming)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 1016.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "Ir6p9x-GQ_I",
+    "title": "#LOSDELFONDO | AGUSNETA SE BAJA DE LOS SHIPS, TODO SOBRE EL MUNDIAL, FÚTBOL SOPLADO GAGA",
+    "minute": "00:30",
+    "views": 112860
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "antiguascritura-ar",
+  "name": "antiguascritura.ar",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 1062.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "E1SnlQyyuRc",
+    "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
+    "minute": "00:40",
+    "views": 118017
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pava-electrica",
+  "name": "pava eléctrica",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 1062.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "E1SnlQyyuRc",
+    "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
+    "minute": "01:00",
+    "views": 118017
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "hace-detergente",
+  "name": "Hace (detergente)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 1062.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "E1SnlQyyuRc",
+    "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
+    "minute": "01:30",
+    "views": 118017
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "loro-negro-restaurante",
+  "name": "Loro Negro (restaurante)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 1185.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "83HBNm_5Yvo",
+    "title": "¿BAÑARSE DE DÍA O DE NOCHE? | #TapadosDeLaburo 8/6",
+    "minute": "00:20",
+    "views": 131716
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "the-american-dream-coleccion-de-marca-argentina",
+  "name": "The American Dream (colección de marca argentina)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 1185.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "83HBNm_5Yvo",
+    "title": "¿BAÑARSE DE DÍA O DE NOCHE? | #TapadosDeLaburo 8/6",
+    "minute": "00:30",
+    "views": 131716
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "the-american-dream-coleccion",
+  "name": "The American Dream (colección)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 1185.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "83HBNm_5Yvo",
+    "title": "¿BAÑARSE DE DÍA O DE NOCHE? | #TapadosDeLaburo 8/6",
+    "minute": "00:40",
+    "views": 131716
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "shakira-artista-cancion-mundial",
+  "name": "Shakira (artista/canción mundial)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 1185.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "83HBNm_5Yvo",
+    "title": "¿BAÑARSE DE DÍA O DE NOCHE? | #TapadosDeLaburo 8/6",
+    "minute": "00:40",
+    "views": 131716
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "speed-youtuber",
+  "name": "Speed (youtuber)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 1185.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "83HBNm_5Yvo",
+    "title": "¿BAÑARSE DE DÍA O DE NOCHE? | #TapadosDeLaburo 8/6",
+    "minute": "00:40",
+    "views": 131716
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "olga-plataforma",
+  "name": "Olga (plataforma)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "08/06/2026",
+  "last_seen": "08/06/2026",
+  "value_usd": 1185.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "08/06/2026",
+    "video_id": "83HBNm_5Yvo",
+    "title": "¿BAÑARSE DE DÍA O DE NOCHE? | #TapadosDeLaburo 8/6",
+    "minute": "01:20",
+    "views": 131716
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "hans-zimmer-soundtrack",
+  "name": "Hans Zimmer (soundtrack)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 2032.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "10/06/2026",
+    "video_id": "OYdkMTk3Xds",
+    "title": "EXPERTOS ANALIZAN EL LENGUAJE NO VERBAL DE NAHIR GALARZA | #SeríaIncreíble 10/6",
+    "minute": "00:10",
+    "views": 225804
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "poet-producto-de-limpieza",
+  "name": "Poet (producto de limpieza)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "02/06/2026",
+  "last_seen": "02/06/2026",
+  "value_usd": 1778.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "02/06/2026",
+    "video_id": "J4eYe8ph_8M",
+    "title": "GASTÓN EDUL CUENTA TODO SOBRE LA SELECCIÓN EN KANSAS | #SeríaIncreíble 2/6",
+    "minute": "00:30",
+    "views": 197575
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "levite-jugo",
+  "name": "Levite (jugo)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 7822.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "XyXIVC9Ej0s",
+    "title": "#NADIEDICENADA | ¿EL FUTBOL ES COMO UN PROGRAMA DE CHIMENTOS? Y JOAQUIN PENSÓ QUE LE IBAN A ROBAR",
+    "minute": "00:50",
+    "views": 869122
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "nivea-crema-corporal-milk-nutritiva-con-acido-hialuronico",
+  "name": "Nivea (crema corporal Milk Nutritiva con ácido hialurónico)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 7822.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "XyXIVC9Ej0s",
+    "title": "#NADIEDICENADA | ¿EL FUTBOL ES COMO UN PROGRAMA DE CHIMENTOS? Y JOAQUIN PENSÓ QUE LE IBAN A ROBAR",
+    "minute": "01:30",
+    "views": 869122
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "nord-productos-de-sabores",
+  "name": "Nord (productos de sabores)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 7822.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "XyXIVC9Ej0s",
+    "title": "#NADIEDICENADA | ¿EL FUTBOL ES COMO UN PROGRAMA DE CHIMENTOS? Y JOAQUIN PENSÓ QUE LE IBAN A ROBAR",
+    "minute": "01:40",
+    "views": 869122
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "la-segunda-seguro",
+  "name": "La Segunda (seguro)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 7822.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "XyXIVC9Ej0s",
+    "title": "#NADIEDICENADA | ¿EL FUTBOL ES COMO UN PROGRAMA DE CHIMENTOS? Y JOAQUIN PENSÓ QUE LE IBAN A ROBAR",
+    "minute": "01:40",
+    "views": 869122
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "origin-condominio",
+  "name": "Origin (condominio)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/06/2026",
+  "last_seen": "01/06/2026",
+  "value_usd": 447.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/06/2026",
+    "video_id": "4WnW6HfmSvo",
+    "title": "¿LLEGA DIBU MARTÍNEZ AL DEBUT CON ARGENTINA? | #GolGana 1/6",
+    "minute": "00:20",
+    "views": 49644
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "mercedes-benz-estadio",
+  "name": "Mercedes-Benz (estadio)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/06/2026",
+  "last_seen": "01/06/2026",
+  "value_usd": 447.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/06/2026",
+    "video_id": "4WnW6HfmSvo",
+    "title": "¿LLEGA DIBU MARTÍNEZ AL DEBUT CON ARGENTINA? | #GolGana 1/6",
+    "minute": "00:50",
+    "views": 49644
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "aca-automovil-club-argentino",
+  "name": "ACA (Automóvil Club Argentino)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/06/2026",
+  "last_seen": "01/06/2026",
+  "value_usd": 447.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/06/2026",
+    "video_id": "4WnW6HfmSvo",
+    "title": "¿LLEGA DIBU MARTÍNEZ AL DEBUT CON ARGENTINA? | #GolGana 1/6",
+    "minute": "01:40",
+    "views": 49644
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "claro-beneficios-con-entradas-de-cine",
+  "name": "Claro (beneficios con entradas de cine)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 1660.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "03/06/2026",
+    "video_id": "Iy38_er_9xI",
+    "title": "#SEFUELARGA l FERBO MUY EXPUESTO, ¿OTRA VEZ FUERA DE UN PLAN? Y ¿EL TE AMO PERDIÓ EL SENTIDO?",
+    "minute": "00:00",
+    "views": 184485
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "suculenta",
+  "name": "suculenta",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 198.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "KoYLJOd9qyo",
+    "title": "#FMLUZU | CRIS Y LA GURI INSPIRAN A MARGELA + LA COLUMNA DE FLACA SOBRE CABO VERDE",
+    "minute": "00:30",
+    "views": 22030
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "cactus",
+  "name": "cactus",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 198.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "KoYLJOd9qyo",
+    "title": "#FMLUZU | CRIS Y LA GURI INSPIRAN A MARGELA + LA COLUMNA DE FLACA SOBRE CABO VERDE",
+    "minute": "00:30",
+    "views": 22030
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "lengua-de-suegra",
+  "name": "lengua de suegra",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 198.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "KoYLJOd9qyo",
+    "title": "#FMLUZU | CRIS Y LA GURI INSPIRAN A MARGELA + LA COLUMNA DE FLACA SOBRE CABO VERDE",
+    "minute": "00:30",
+    "views": 22030
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "tuppers",
+  "name": "tuppers",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 198.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "KoYLJOd9qyo",
+    "title": "#FMLUZU | CRIS Y LA GURI INSPIRAN A MARGELA + LA COLUMNA DE FLACA SOBRE CABO VERDE",
+    "minute": "00:30",
+    "views": 22030
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "carbon-activado",
+  "name": "carbón activado",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 198.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "KoYLJOd9qyo",
+    "title": "#FMLUZU | CRIS Y LA GURI INSPIRAN A MARGELA + LA COLUMNA DE FLACA SOBRE CABO VERDE",
+    "minute": "00:30",
+    "views": 22030
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "telstar-equipo-de-paises-bajos",
+  "name": "Telstar (equipo de Países Bajos)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 300.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "10/06/2026",
+    "video_id": "aQS2rjKg6SU",
+    "title": "CURIOSIDADES EN LA CARRERA DE LIONEL ANDRÉS MESSI | #GolGana 10/6",
+    "minute": "01:00",
+    "views": 33304
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "bukhara-equipo-de-uzbekistan",
+  "name": "Bukhara (equipo de Uzbekistán)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 300.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "10/06/2026",
+    "video_id": "aQS2rjKg6SU",
+    "title": "CURIOSIDADES EN LA CARRERA DE LIONEL ANDRÉS MESSI | #GolGana 10/6",
+    "minute": "01:00",
+    "views": 33304
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "merch-merchandising-de-lachlan-power",
+  "name": "Merch (merchandising de Lachlan Power)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 300.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "10/06/2026",
+    "video_id": "aQS2rjKg6SU",
+    "title": "CURIOSIDADES EN LA CARRERA DE LIONEL ANDRÉS MESSI | #GolGana 10/6",
+    "minute": "01:00",
+    "views": 33304
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "zapatillas",
+  "name": "zapatillas",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 300.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "10/06/2026",
+    "video_id": "aQS2rjKg6SU",
+    "title": "CURIOSIDADES EN LA CARRERA DE LIONEL ANDRÉS MESSI | #GolGana 10/6",
+    "minute": "01:10",
+    "views": 33304
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "burger-king-whopper",
+  "name": "Burger King (Whopper)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1227.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "2IOv_-h3BIo",
+    "title": "¿El MEJOR PROGRAMA del AÑO? NOCHE de DAYTONA, A JUGAR CON HUGO, FIFA y + JUEGUITOS | #SoñéQueVolaba",
+    "minute": "00:10",
+    "views": 136299
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "naomi-arcade",
+  "name": "Naomi (arcade)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1227.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "2IOv_-h3BIo",
+    "title": "¿El MEJOR PROGRAMA del AÑO? NOCHE de DAYTONA, A JUGAR CON HUGO, FIFA y + JUEGUITOS | #SoñéQueVolaba",
+    "minute": "00:40",
+    "views": 136299
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "los-simpsons-videojuego",
+  "name": "Los Simpsons (videojuego)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1227.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "2IOv_-h3BIo",
+    "title": "¿El MEJOR PROGRAMA del AÑO? NOCHE de DAYTONA, A JUGAR CON HUGO, FIFA y + JUEGUITOS | #SoñéQueVolaba",
+    "minute": "00:50",
+    "views": 136299
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "olmo-bicicletas",
+  "name": "Olmo (bicicletas)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1227.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "2IOv_-h3BIo",
+    "title": "¿El MEJOR PROGRAMA del AÑO? NOCHE de DAYTONA, A JUGAR CON HUGO, FIFA y + JUEGUITOS | #SoñéQueVolaba",
+    "minute": "01:10",
+    "views": 136299
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pete-caramelo",
+  "name": "Pete (caramelo)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1227.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "2IOv_-h3BIo",
+    "title": "¿El MEJOR PROGRAMA del AÑO? NOCHE de DAYTONA, A JUGAR CON HUGO, FIFA y + JUEGUITOS | #SoñéQueVolaba",
+    "minute": "01:30",
+    "views": 136299
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "messi-en-el-juego",
+  "name": "Messi (en el juego)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1227.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "2IOv_-h3BIo",
+    "title": "¿El MEJOR PROGRAMA del AÑO? NOCHE de DAYTONA, A JUGAR CON HUGO, FIFA y + JUEGUITOS | #SoñéQueVolaba",
+    "minute": "01:50",
+    "views": 136299
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "bayern-equipo",
+  "name": "Bayern (equipo)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1227.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "2IOv_-h3BIo",
+    "title": "¿El MEJOR PROGRAMA del AÑO? NOCHE de DAYTONA, A JUGAR CON HUGO, FIFA y + JUEGUITOS | #SoñéQueVolaba",
+    "minute": "02:00",
+    "views": 136299
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "psg-equipo",
+  "name": "PSG (equipo)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1227.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "2IOv_-h3BIo",
+    "title": "¿El MEJOR PROGRAMA del AÑO? NOCHE de DAYTONA, A JUGAR CON HUGO, FIFA y + JUEGUITOS | #SoñéQueVolaba",
+    "minute": "02:00",
+    "views": 136299
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "contra-videojuego-de-ciber",
+  "name": "Contra (videojuego de ciber)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1227.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "2IOv_-h3BIo",
+    "title": "¿El MEJOR PROGRAMA del AÑO? NOCHE de DAYTONA, A JUGAR CON HUGO, FIFA y + JUEGUITOS | #SoñéQueVolaba",
+    "minute": "02:10",
+    "views": 136299
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "tablets",
+  "name": "tablets",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 422.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "03/06/2026",
+    "video_id": "I_UCBhGYGhg",
+    "title": "#LANOVELA | MANTENER MENTIRAS EN EL TIEMPO Y CARI SE TOMO UN \"TE AMO\" EN LA TAZA DE DIEGO",
+    "minute": "00:30",
+    "views": 46932
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "aplicacion-del-programa-ios-y-android",
+  "name": "aplicación del programa (iOS y Android)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 422.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "03/06/2026",
+    "video_id": "I_UCBhGYGhg",
+    "title": "#LANOVELA | MANTENER MENTIRAS EN EL TIEMPO Y CARI SE TOMO UN \"TE AMO\" EN LA TAZA DE DIEGO",
+    "minute": "00:50",
+    "views": 46932
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "luzu-aplicacion-plataforma-de-streaming",
+  "name": "Luzu (aplicación/plataforma de streaming)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "03/06/2026",
+  "last_seen": "03/06/2026",
+  "value_usd": 422.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "03/06/2026",
+    "video_id": "I_UCBhGYGhg",
+    "title": "#LANOVELA | MANTENER MENTIRAS EN EL TIEMPO Y CARI SE TOMO UN \"TE AMO\" EN LA TAZA DE DIEGO",
+    "minute": "01:00",
+    "views": 46932
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "punto-com-hotel-empresa-de-viajes",
+  "name": "Punto com (hotel/empresa de viajes)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 2444.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "04/06/2026",
+    "video_id": "PaeP2ee-rFI",
+    "title": "#ELSHOWDELVERANO | PREDECIMOS EL FUTURO Y NO HABLAMOS DE LA TRAYECTORIA DE TORTONESE",
+    "minute": "00:20",
+    "views": 271574
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "martin-fierro-premio",
+  "name": "Martín Fierro (premio)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 2444.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "04/06/2026",
+    "video_id": "PaeP2ee-rFI",
+    "title": "#ELSHOWDELVERANO | PREDECIMOS EL FUTURO Y NO HABLAMOS DE LA TRAYECTORIA DE TORTONESE",
+    "minute": "00:20",
+    "views": 271574
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "martin-fierro-premios",
+  "name": "Martín Fierro (premios)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 2444.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "04/06/2026",
+    "video_id": "PaeP2ee-rFI",
+    "title": "#ELSHOWDELVERANO | PREDECIMOS EL FUTURO Y NO HABLAMOS DE LA TRAYECTORIA DE TORTONESE",
+    "minute": "00:50",
+    "views": 271574
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "odio-equipo-de-diseno",
+  "name": "Odio (equipo de diseño)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1248.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "ducAINU1rFQ",
+    "title": "EL ANUNCIO MÁS GRANDE en la HISTORIA DE #TDT 5/6",
+    "minute": "00:50",
+    "views": 138625
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "gta-videojuego-mencionado",
+  "name": "GTA (videojuego mencionado)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1248.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "ducAINU1rFQ",
+    "title": "EL ANUNCIO MÁS GRANDE en la HISTORIA DE #TDT 5/6",
+    "minute": "00:50",
+    "views": 138625
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "garnier-ser-limpiador-con-vitamina-c",
+  "name": "Garnier Ser (limpiador con vitamina C)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1248.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "ducAINU1rFQ",
+    "title": "EL ANUNCIO MÁS GRANDE en la HISTORIA DE #TDT 5/6",
+    "minute": "01:00",
+    "views": 138625
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "modo-aplicacion-bancaria",
+  "name": "Modo (aplicación bancaria)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1248.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "ducAINU1rFQ",
+    "title": "EL ANUNCIO MÁS GRANDE en la HISTORIA DE #TDT 5/6",
+    "minute": "01:00",
+    "views": 138625
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "singer-maquina-de-coser",
+  "name": "Singer (máquina de coser)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1248.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "ducAINU1rFQ",
+    "title": "EL ANUNCIO MÁS GRANDE en la HISTORIA DE #TDT 5/6",
+    "minute": "01:30",
+    "views": 138625
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "jabon",
+  "name": "jabón",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1248.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "ducAINU1rFQ",
+    "title": "EL ANUNCIO MÁS GRANDE en la HISTORIA DE #TDT 5/6",
+    "minute": "01:40",
+    "views": 138625
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "papel-higienico",
+  "name": "papel higiénico",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1248.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "ducAINU1rFQ",
+    "title": "EL ANUNCIO MÁS GRANDE en la HISTORIA DE #TDT 5/6",
+    "minute": "01:40",
+    "views": 138625
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "cepillos-de-dientes",
+  "name": "cepillos de dientes",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1248.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "ducAINU1rFQ",
+    "title": "EL ANUNCIO MÁS GRANDE en la HISTORIA DE #TDT 5/6",
+    "minute": "01:40",
+    "views": 138625
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "toallas-femeninas",
+  "name": "toallas femeninas",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1248.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "ducAINU1rFQ",
+    "title": "EL ANUNCIO MÁS GRANDE en la HISTORIA DE #TDT 5/6",
+    "minute": "01:40",
+    "views": 138625
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pasta-dental",
+  "name": "pasta dental",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 1248.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "05/06/2026",
+    "video_id": "ducAINU1rFQ",
+    "title": "EL ANUNCIO MÁS GRANDE en la HISTORIA DE #TDT 5/6",
+    "minute": "01:40",
+    "views": 138625
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "televisores-50-pulgadas-o-mas",
+  "name": "Televisores (50 pulgadas o más)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 1878.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "09/06/2026",
+    "video_id": "cH7UROOHpGI",
+    "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
+    "minute": "00:30",
+    "views": 208630
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "her-pelicula",
+  "name": "Her (película)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 1878.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "09/06/2026",
+    "video_id": "cH7UROOHpGI",
+    "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
+    "minute": "01:20",
+    "views": 208630
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "dia-supermercado-app",
+  "name": "Día (supermercado/app)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 1878.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "09/06/2026",
+    "video_id": "cH7UROOHpGI",
+    "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
+    "minute": "01:20",
+    "views": 208630
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pulpo-marca-de-remeras",
+  "name": "Pulpo (marca de remeras)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 3017.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "24/06/2026",
+    "video_id": "WCF4oC8GC9o",
+    "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
+    "minute": "00:50",
+    "views": 335199
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "mango-loco-sabor-de-vape",
+  "name": "Mango Loco (sabor de vape)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 3017.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "24/06/2026",
+    "video_id": "WCF4oC8GC9o",
+    "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
+    "minute": "01:30",
+    "views": 335199
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "perro-negro-lugar",
+  "name": "Perro Negro (lugar)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 3017.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "24/06/2026",
+    "video_id": "WCF4oC8GC9o",
+    "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
+    "minute": "01:30",
+    "views": 335199
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "gloria-asistente-ia",
+  "name": "Gloria (asistente IA)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 3017.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "24/06/2026",
+    "video_id": "WCF4oC8GC9o",
+    "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
+    "minute": "01:40",
+    "views": 335199
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "iol-inversiones",
+  "name": "IOL (inversiones)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 3017.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "24/06/2026",
+    "video_id": "WCF4oC8GC9o",
+    "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
+    "minute": "01:40",
+    "views": 335199
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "vape",
+  "name": "vape",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 3017.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "24/06/2026",
+    "video_id": "WCF4oC8GC9o",
+    "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
+    "minute": "01:50",
+    "views": 335199
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "la-ley-banda",
+  "name": "La Ley (banda)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 1683.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "OZwUR5pR7cA",
+    "title": "#PATRIAYFAMILIA l CAMI ES SHAKIRA Y AGUSNETA SE PONE LAS LOLAS",
+    "minute": "00:20",
+    "views": 187041
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "america-canal",
+  "name": "América (canal)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 1683.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "OZwUR5pR7cA",
+    "title": "#PATRIAYFAMILIA l CAMI ES SHAKIRA Y AGUSNETA SE PONE LAS LOLAS",
+    "minute": "00:30",
+    "views": 187041
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "lusutv-shop",
+  "name": "lusutv.shop",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 1683.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "OZwUR5pR7cA",
+    "title": "#PATRIAYFAMILIA l CAMI ES SHAKIRA Y AGUSNETA SE PONE LAS LOLAS",
+    "minute": "01:00",
+    "views": 187041
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "king-hamburguesas",
+  "name": "King (hamburguesas)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 1683.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "OZwUR5pR7cA",
+    "title": "#PATRIAYFAMILIA l CAMI ES SHAKIRA Y AGUSNETA SE PONE LAS LOLAS",
+    "minute": "01:00",
+    "views": 187041
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "allaccess-com-ar",
+  "name": "allaccess.com.ar",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 1683.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "OZwUR5pR7cA",
+    "title": "#PATRIAYFAMILIA l CAMI ES SHAKIRA Y AGUSNETA SE PONE LAS LOLAS",
+    "minute": "01:40",
+    "views": 187041
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "tiny-venue",
+  "name": "Tiny (venue)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 3370.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "LCHcl21l1CE",
+    "title": "#ANTESQUENADIE | ¿ARMAMOS PAREJAS A CIEGAS? Y JUGUETES TRUCHOS QUE MARCARON NUESTRA INFANCIA",
+    "minute": "00:00",
+    "views": 374462
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "vista-obligaciones-negociables",
+  "name": "Vista (obligaciones negociables)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 3370.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "LCHcl21l1CE",
+    "title": "#ANTESQUENADIE | ¿ARMAMOS PAREJAS A CIEGAS? Y JUGUETES TRUCHOS QUE MARCARON NUESTRA INFANCIA",
+    "minute": "00:20",
+    "views": 374462
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pampa-obligaciones-negociables",
+  "name": "Pampa (obligaciones negociables)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 3370.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "LCHcl21l1CE",
+    "title": "#ANTESQUENADIE | ¿ARMAMOS PAREJAS A CIEGAS? Y JUGUETES TRUCHOS QUE MARCARON NUESTRA INFANCIA",
+    "minute": "00:20",
+    "views": 374462
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "bausda-fondo-balance-ahorro-en-dolares",
+  "name": "BAUSDA (fondo Balance Ahorro en Dólares)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 3370.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "LCHcl21l1CE",
+    "title": "#ANTESQUENADIE | ¿ARMAMOS PAREJAS A CIEGAS? Y JUGUETES TRUCHOS QUE MARCARON NUESTRA INFANCIA",
+    "minute": "00:20",
+    "views": 374462
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "balance-plataforma-de-inversion",
+  "name": "Balance (plataforma de inversión)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 3370.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "LCHcl21l1CE",
+    "title": "#ANTESQUENADIE | ¿ARMAMOS PAREJAS A CIEGAS? Y JUGUETES TRUCHOS QUE MARCARON NUESTRA INFANCIA",
+    "minute": "00:30",
+    "views": 374462
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "extra-1a-fondo",
+  "name": "Extra 1A (fondo)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 3370.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "LCHcl21l1CE",
+    "title": "#ANTESQUENADIE | ¿ARMAMOS PAREJAS A CIEGAS? Y JUGUETES TRUCHOS QUE MARCARON NUESTRA INFANCIA",
+    "minute": "00:30",
+    "views": 374462
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "money-market-fondo",
+  "name": "Money Market (fondo)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 3370.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "LCHcl21l1CE",
+    "title": "#ANTESQUENADIE | ¿ARMAMOS PAREJAS A CIEGAS? Y JUGUETES TRUCHOS QUE MARCARON NUESTRA INFANCIA",
+    "minute": "00:30",
+    "views": 374462
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "balance-ahorro-en-pesos-fondo",
+  "name": "Balance Ahorro en Pesos (fondo)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 3370.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "LCHcl21l1CE",
+    "title": "#ANTESQUENADIE | ¿ARMAMOS PAREJAS A CIEGAS? Y JUGUETES TRUCHOS QUE MARCARON NUESTRA INFANCIA",
+    "minute": "00:30",
+    "views": 374462
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "diaz-marca-de-snacks-bebidas",
+  "name": "Díaz (marca de snacks/bebidas)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 3370.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "LCHcl21l1CE",
+    "title": "#ANTESQUENADIE | ¿ARMAMOS PAREJAS A CIEGAS? Y JUGUETES TRUCHOS QUE MARCARON NUESTRA INFANCIA",
+    "minute": "00:40",
+    "views": 374462
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "the-notebook-pelicula",
+  "name": "The Notebook (película)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 3370.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "LCHcl21l1CE",
+    "title": "#ANTESQUENADIE | ¿ARMAMOS PAREJAS A CIEGAS? Y JUGUETES TRUCHOS QUE MARCARON NUESTRA INFANCIA",
+    "minute": "00:50",
+    "views": 374462
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "camiseta-de-argentina-oficial-vs-alternativa",
+  "name": "Camiseta de Argentina (oficial vs. alternativa)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 3370.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "LCHcl21l1CE",
+    "title": "#ANTESQUENADIE | ¿ARMAMOS PAREJAS A CIEGAS? Y JUGUETES TRUCHOS QUE MARCARON NUESTRA INFANCIA",
+    "minute": "01:30",
+    "views": 374462
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "batalla-naval-electronica",
+  "name": "Batalla Naval (electrónica)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 3370.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "LCHcl21l1CE",
+    "title": "#ANTESQUENADIE | ¿ARMAMOS PAREJAS A CIEGAS? Y JUGUETES TRUCHOS QUE MARCARON NUESTRA INFANCIA",
+    "minute": "01:40",
+    "views": 374462
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "booty-juguete",
+  "name": "Booty (juguete)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 3370.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "LCHcl21l1CE",
+    "title": "#ANTESQUENADIE | ¿ARMAMOS PAREJAS A CIEGAS? Y JUGUETES TRUCHOS QUE MARCARON NUESTRA INFANCIA",
+    "minute": "01:40",
+    "views": 374462
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "flow-plataforma-streaming",
+  "name": "Flow (plataforma streaming)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 9689.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "04/06/2026",
+    "video_id": "F-agZdGGj4g",
+    "title": "#NADIEDICENADA | NO ENTENDEMOS QUÉ PASÓ HOY: PICADAS, MARIPOSAS Y... ¿LAS ABUELAS DEL STREAMING?",
+    "minute": "00:40",
+    "views": 1076512
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "televisor-generico",
+  "name": "Televisor (genérico)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 9689.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "04/06/2026",
+    "video_id": "F-agZdGGj4g",
+    "title": "#NADIEDICENADA | NO ENTENDEMOS QUÉ PASÓ HOY: PICADAS, MARIPOSAS Y... ¿LAS ABUELAS DEL STREAMING?",
+    "minute": "00:50",
+    "views": 1076512
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "palitos-de-queso-marca-no-especificada",
+  "name": "Palitos de queso (marca no especificada)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 9689.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "04/06/2026",
+    "video_id": "F-agZdGGj4g",
+    "title": "#NADIEDICENADA | NO ENTENDEMOS QUÉ PASÓ HOY: PICADAS, MARIPOSAS Y... ¿LAS ABUELAS DEL STREAMING?",
+    "minute": "01:00",
+    "views": 1076512
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "chisito-de-ketchup-kepchu",
+  "name": "Chisito de Ketchup (Kepchu)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 9689.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "04/06/2026",
+    "video_id": "F-agZdGGj4g",
+    "title": "#NADIEDICENADA | NO ENTENDEMOS QUÉ PASÓ HOY: PICADAS, MARIPOSAS Y... ¿LAS ABUELAS DEL STREAMING?",
+    "minute": "01:10",
+    "views": 1076512
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "spring-restaurante",
+  "name": "Spring (restaurante)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 9689.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "04/06/2026",
+    "video_id": "F-agZdGGj4g",
+    "title": "#NADIEDICENADA | NO ENTENDEMOS QUÉ PASÓ HOY: PICADAS, MARIPOSAS Y... ¿LAS ABUELAS DEL STREAMING?",
+    "minute": "01:20",
+    "views": 1076512
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "la-gulli-proveedor-de-san-pedro",
+  "name": "La Gulli (proveedor de San Pedro)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 9689.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "04/06/2026",
+    "video_id": "F-agZdGGj4g",
+    "title": "#NADIEDICENADA | NO ENTENDEMOS QUÉ PASÓ HOY: PICADAS, MARIPOSAS Y... ¿LAS ABUELAS DEL STREAMING?",
+    "minute": "02:10",
+    "views": 1076512
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "powered-bebida-energetica",
+  "name": "Powered (bebida energética)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 6732.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "11/06/2026",
+    "video_id": "aeyaHqA4ByI",
+    "title": "#NADIEDICENADA | ¿FLOR SE INDIGNÓ CON UNA OYENTE? Y TODOS NOS PREPARAMOS PARA MIAMI Y EL MUNDIAL",
+    "minute": "01:10",
+    "views": 748037
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "actron-analgesico",
+  "name": "Actrón (analgésico)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 6732.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "11/06/2026",
+    "video_id": "aeyaHqA4ByI",
+    "title": "#NADIEDICENADA | ¿FLOR SE INDIGNÓ CON UNA OYENTE? Y TODOS NOS PREPARAMOS PARA MIAMI Y EL MUNDIAL",
+    "minute": "01:10",
+    "views": 748037
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "macro-banco-seguros",
+  "name": "Macro (banco/seguros)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 6732.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "11/06/2026",
+    "video_id": "aeyaHqA4ByI",
+    "title": "#NADIEDICENADA | ¿FLOR SE INDIGNÓ CON UNA OYENTE? Y TODOS NOS PREPARAMOS PARA MIAMI Y EL MUNDIAL",
+    "minute": "01:30",
+    "views": 748037
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "life-seguros",
+  "name": "Life (seguros)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 6732.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "11/06/2026",
+    "video_id": "aeyaHqA4ByI",
+    "title": "#NADIEDICENADA | ¿FLOR SE INDIGNÓ CON UNA OYENTE? Y TODOS NOS PREPARAMOS PARA MIAMI Y EL MUNDIAL",
+    "minute": "01:30",
+    "views": 748037
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "casas-de-apuestas-deportivas-legales-e-ilegales",
+  "name": "Casas de apuestas deportivas (legales e ilegales)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 3007.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "11/06/2026",
+    "video_id": "RZ3T2ScqCAE",
+    "title": "#ANTESQUENADIE | ¿ALGUIEN TIENE OLOR A PELO? Y EL TRINCHE SE SACA COMO NUNCA ANTES",
+    "minute": "00:10",
+    "views": 334145
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "vidol-producto-palabra-inventada",
+  "name": "Vidol (producto/palabra inventada)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 1312.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "04/06/2026",
+    "video_id": "cv2t2_4ffP8",
+    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
+    "minute": "00:00",
+    "views": 145830
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "polo-auto",
+  "name": "Polo (auto)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 1312.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "04/06/2026",
+    "video_id": "cv2t2_4ffP8",
+    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
+    "minute": "01:10",
+    "views": 145830
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pixar-software-de-sorteo",
+  "name": "Pixar (software de sorteo)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 1312.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "04/06/2026",
+    "video_id": "cv2t2_4ffP8",
+    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
+    "minute": "01:10",
+    "views": 145830
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "token-prestamo-de-mercado-pago",
+  "name": "Token (préstamo de Mercado Pago)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 1312.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "04/06/2026",
+    "video_id": "cv2t2_4ffP8",
+    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
+    "minute": "02:00",
+    "views": 145830
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "jordan-logo",
+  "name": "Jordan (logo)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 1312.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "04/06/2026",
+    "video_id": "cv2t2_4ffP8",
+    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
+    "minute": "02:10",
+    "views": 145830
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "tequila",
+  "name": "tequila",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 1312.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "04/06/2026",
+    "video_id": "cv2t2_4ffP8",
+    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
+    "minute": "02:30",
+    "views": 145830
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "bagels",
+  "name": "bagels",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "04/06/2026",
+  "last_seen": "04/06/2026",
+  "value_usd": 1312.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "04/06/2026",
+    "video_id": "cv2t2_4ffP8",
+    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
+    "minute": "02:30",
+    "views": 145830
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "mulan-disney",
+  "name": "Mulán (Disney)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 1691.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "11/06/2026",
+    "video_id": "10FOoeUHNy0",
+    "title": "INTENTAMOS DARLE EL SUSTO DE SU VIDA A ORIANA | #SeríaIncreíble 11/6",
+    "minute": "00:00",
+    "views": 187884
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "brencejas-tintura",
+  "name": "Brencejas (tintura)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 1691.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "11/06/2026",
+    "video_id": "10FOoeUHNy0",
+    "title": "INTENTAMOS DARLE EL SUSTO DE SU VIDA A ORIANA | #SeríaIncreíble 11/6",
+    "minute": "01:10",
+    "views": 187884
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "colodion-producto-para-relleno-de-facciones",
+  "name": "Colodión (producto para relleno de facciones)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 1691.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "11/06/2026",
+    "video_id": "10FOoeUHNy0",
+    "title": "INTENTAMOS DARLE EL SUSTO DE SU VIDA A ORIANA | #SeríaIncreíble 11/6",
+    "minute": "01:10",
+    "views": 187884
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "botox-mencionado-como-comparacion",
+  "name": "Botox (mencionado como comparación)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 1691.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "11/06/2026",
+    "video_id": "10FOoeUHNy0",
+    "title": "INTENTAMOS DARLE EL SUSTO DE SU VIDA A ORIANA | #SeríaIncreíble 11/6",
+    "minute": "01:10",
+    "views": 187884
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "fx-productos-de-efectos-especiales",
+  "name": "FX (productos de efectos especiales)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "11/06/2026",
+  "last_seen": "11/06/2026",
+  "value_usd": 1691.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "11/06/2026",
+    "video_id": "10FOoeUHNy0",
+    "title": "INTENTAMOS DARLE EL SUSTO DE SU VIDA A ORIANA | #SeríaIncreíble 11/6",
+    "minute": "01:10",
+    "views": 187884
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pedal-de-sustain",
+  "name": "pedal de sustain",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "19/06/2026",
+  "last_seen": "19/06/2026",
+  "value_usd": 354.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "19/06/2026",
+    "video_id": "XHV2BV9DWMs",
+    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+    "minute": "00:10",
+    "views": 39368
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "olga-streamers",
+  "name": "Olga (streamers)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "19/06/2026",
+  "last_seen": "19/06/2026",
+  "value_usd": 354.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "19/06/2026",
+    "video_id": "XHV2BV9DWMs",
+    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+    "minute": "02:20",
+    "views": 39368
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "olga-plataforma-de-suscripcion",
+  "name": "Olga (plataforma de suscripción)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "19/06/2026",
+  "last_seen": "19/06/2026",
+  "value_usd": 354.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "19/06/2026",
+    "video_id": "XHV2BV9DWMs",
+    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+    "minute": "02:30",
+    "views": 39368
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "bad-bunny-referencia-a-ropa-estilo",
+  "name": "Bad Bunny (referencia a ropa/estilo)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 2034.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "UtcsB5NsGj8",
+    "title": "#ELSHOWDELVERANO | DÍA DE RITUALES: NOS FROTAMOS EL PEPINO, ENTERRAMOS LA ZANAHORIA Y MUCHO MÁS",
+    "minute": "00:00",
+    "views": 225985
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "sqr-codigo-de-escaneo",
+  "name": "SQR (código de escaneo)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 2034.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "09/06/2026",
+    "video_id": "UtcsB5NsGj8",
+    "title": "#ELSHOWDELVERANO | DÍA DE RITUALES: NOS FROTAMOS EL PEPINO, ENTERRAMOS LA ZANAHORIA Y MUCHO MÁS",
+    "minute": "00:00",
+    "views": 225985
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "marca-de-lacteos-vintage",
+  "name": "Marca de lácteos (vintage)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 990.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "09/06/2026",
+    "video_id": "aXeHcoK3RFw",
+    "title": "EL JUEGO MÁS TIERNO: LOS PERRITOS SON LAVA | #TapadosDeLaburo 9/6",
+    "minute": "00:00",
+    "views": 109966
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "tdt-programa-canal",
+  "name": "TDT (programa/canal)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 990.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "09/06/2026",
+    "video_id": "aXeHcoK3RFw",
+    "title": "EL JUEGO MÁS TIERNO: LOS PERRITOS SON LAVA | #TapadosDeLaburo 9/6",
+    "minute": "00:10",
+    "views": 109966
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "kit-de-asado",
+  "name": "kit de asado",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 990.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "09/06/2026",
+    "video_id": "aXeHcoK3RFw",
+    "title": "EL JUEGO MÁS TIERNO: LOS PERRITOS SON LAVA | #TapadosDeLaburo 9/6",
+    "minute": "00:30",
+    "views": 109966
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "tapados-nombre-del-programa",
+  "name": "Tapados (nombre del programa)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "09/06/2026",
+  "last_seen": "09/06/2026",
+  "value_usd": 990.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "09/06/2026",
+    "video_id": "aXeHcoK3RFw",
+    "title": "EL JUEGO MÁS TIERNO: LOS PERRITOS SON LAVA | #TapadosDeLaburo 9/6",
+    "minute": "01:50",
+    "views": 109966
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "estacion-de-servicio",
+  "name": "estación de servicio",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 364.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "s__pKWUr4MM",
+    "title": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
+    "minute": "00:00",
+    "views": 40410
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "banderas-argentinas",
+  "name": "banderas argentinas",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 520.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "OMoimQeA_Ec",
+    "title": "#FMLUZU | PALPITAMOS LA PREVIA DEL MUNDIAL + LA GURI CHAPA EN VIVO",
+    "minute": "00:00",
+    "views": 57735
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "bombachas-de-paises",
+  "name": "bombachas de países",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 520.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "OMoimQeA_Ec",
+    "title": "#FMLUZU | PALPITAMOS LA PREVIA DEL MUNDIAL + LA GURI CHAPA EN VIVO",
+    "minute": "00:00",
+    "views": 57735
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "aplicacion-de-audio",
+  "name": "aplicación de audio",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 520.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "OMoimQeA_Ec",
+    "title": "#FMLUZU | PALPITAMOS LA PREVIA DEL MUNDIAL + LA GURI CHAPA EN VIVO",
+    "minute": "00:00",
+    "views": 57735
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "bombacha-ropa-interior",
+  "name": "Bombacha (ropa interior)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 520.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "OMoimQeA_Ec",
+    "title": "#FMLUZU | PALPITAMOS LA PREVIA DEL MUNDIAL + LA GURI CHAPA EN VIVO",
+    "minute": "00:40",
+    "views": 57735
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "sipo-encendedores",
+  "name": "Sipo (encendedores)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 520.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "OMoimQeA_Ec",
+    "title": "#FMLUZU | PALPITAMOS LA PREVIA DEL MUNDIAL + LA GURI CHAPA EN VIVO",
+    "minute": "00:40",
+    "views": 57735
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "guerrin-pizzeria",
+  "name": "Guerrín (pizzería)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 520.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "OMoimQeA_Ec",
+    "title": "#FMLUZU | PALPITAMOS LA PREVIA DEL MUNDIAL + LA GURI CHAPA EN VIVO",
+    "minute": "00:40",
+    "views": 57735
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "banchero-pizzeria",
+  "name": "Banchero (pizzería)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 520.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "OMoimQeA_Ec",
+    "title": "#FMLUZU | PALPITAMOS LA PREVIA DEL MUNDIAL + LA GURI CHAPA EN VIVO",
+    "minute": "00:40",
+    "views": 57735
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "gran-rex-teatro",
+  "name": "Gran Rex (teatro)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 520.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "OMoimQeA_Ec",
+    "title": "#FMLUZU | PALPITAMOS LA PREVIA DEL MUNDIAL + LA GURI CHAPA EN VIVO",
+    "minute": "00:40",
+    "views": 57735
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "nuclear-sludge-caramelos-acidos",
+  "name": "Nuclear Sludge (caramelos ácidos)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/06/2026",
+  "last_seen": "01/06/2026",
+  "value_usd": 1110.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/06/2026",
+    "video_id": "GgeocOAEm7o",
+    "title": "NOE CUSTODIO ES LA MEJOR JUGADORA de “EN UNA ESCENA” | #TapadosDeLaburo 1/6",
+    "minute": "00:20",
+    "views": 123331
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "mascara-mega-listo",
+  "name": "máscara mega listo",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 1705.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "FXtNa0lTAT4",
+    "title": "#SEFUELARGA l MORE MIÑO QUIERE QUEDAR EN LUZU, TEO TRAE INFORMACIÓN CHILLEDO Y ¿MA/PATERNAMOS?",
+    "minute": "00:00",
+    "views": 189465
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "cupon-luz-u10",
+  "name": "cupón luz u10",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 1705.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "FXtNa0lTAT4",
+    "title": "#SEFUELARGA l MORE MIÑO QUIERE QUEDAR EN LUZU, TEO TRAE INFORMACIÓN CHILLEDO Y ¿MA/PATERNAMOS?",
+    "minute": "00:00",
+    "views": 189465
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "hudson-competencia-sorteo-para-dia-del-padre",
+  "name": "Hudson (competencia/sorteo para Día del Padre)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 1705.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "FXtNa0lTAT4",
+    "title": "#SEFUELARGA l MORE MIÑO QUIERE QUEDAR EN LUZU, TEO TRAE INFORMACIÓN CHILLEDO Y ¿MA/PATERNAMOS?",
+    "minute": "00:10",
+    "views": 189465
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "tostadora",
+  "name": "tostadora",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 1705.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "FXtNa0lTAT4",
+    "title": "#SEFUELARGA l MORE MIÑO QUIERE QUEDAR EN LUZU, TEO TRAE INFORMACIÓN CHILLEDO Y ¿MA/PATERNAMOS?",
+    "minute": "00:50",
+    "views": 189465
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "hanson-utensilios-de-asado",
+  "name": "Hanson (utensilios de asado)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 1705.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "FXtNa0lTAT4",
+    "title": "#SEFUELARGA l MORE MIÑO QUIERE QUEDAR EN LUZU, TEO TRAE INFORMACIÓN CHILLEDO Y ¿MA/PATERNAMOS?",
+    "minute": "01:50",
+    "views": 189465
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "mateando-mates-y-termos",
+  "name": "Mateando (mates y termos)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "10/06/2026",
+  "last_seen": "10/06/2026",
+  "value_usd": 1705.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "10/06/2026",
+    "video_id": "FXtNa0lTAT4",
+    "title": "#SEFUELARGA l MORE MIÑO QUIERE QUEDAR EN LUZU, TEO TRAE INFORMACIÓN CHILLEDO Y ¿MA/PATERNAMOS?",
+    "minute": "01:50",
+    "views": 189465
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "conejo-pelucas",
+  "name": "Conejo (pelucas)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 2495.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "MTBXBVW5wHE",
+    "title": "#PATRIAYFAMILIA l NUEVAS DRAGAS Y LLORAMOS DE LA EMOCIÓN",
+    "minute": "00:30",
+    "views": 277253
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "merch-de-euforica-vasito-con-nombre",
+  "name": "Merch de Eufórica (vasito con nombre)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 2495.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "MTBXBVW5wHE",
+    "title": "#PATRIAYFAMILIA l NUEVAS DRAGAS Y LLORAMOS DE LA EMOCIÓN",
+    "minute": "00:30",
+    "views": 277253
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "lazy-town-referencia-inspiracional",
+  "name": "Lazy Town (referencia inspiracional)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 2495.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "MTBXBVW5wHE",
+    "title": "#PATRIAYFAMILIA l NUEVAS DRAGAS Y LLORAMOS DE LA EMOCIÓN",
+    "minute": "00:40",
+    "views": 277253
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "la-molo-disenadora-modista",
+  "name": "La Molo (diseñadora/modista)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 2495.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "MTBXBVW5wHE",
+    "title": "#PATRIAYFAMILIA l NUEVAS DRAGAS Y LLORAMOS DE LA EMOCIÓN",
+    "minute": "00:50",
+    "views": 277253
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "neymar-marca-tienda-de-pelucas",
+  "name": "Neymar (marca/tienda de pelucas)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 2495.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "MTBXBVW5wHE",
+    "title": "#PATRIAYFAMILIA l NUEVAS DRAGAS Y LLORAMOS DE LA EMOCIÓN",
+    "minute": "01:10",
+    "views": 277253
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "canecalon-fibra-para-pelucas",
+  "name": "Canecalón (fibra para pelucas)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 2495.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "MTBXBVW5wHE",
+    "title": "#PATRIAYFAMILIA l NUEVAS DRAGAS Y LLORAMOS DE LA EMOCIÓN",
+    "minute": "01:10",
+    "views": 277253
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "futura-fibra-para-pelucas",
+  "name": "Futura (fibra para pelucas)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 2495.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "MTBXBVW5wHE",
+    "title": "#PATRIAYFAMILIA l NUEVAS DRAGAS Y LLORAMOS DE LA EMOCIÓN",
+    "minute": "01:10",
+    "views": 277253
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "lace-front-tipo-de-peluca",
+  "name": "Lace front (tipo de peluca)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 2495.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "MTBXBVW5wHE",
+    "title": "#PATRIAYFAMILIA l NUEVAS DRAGAS Y LLORAMOS DE LA EMOCIÓN",
+    "minute": "01:10",
+    "views": 277253
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "alter-ego-cancion",
+  "name": "Alter Ego (canción)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "05/06/2026",
+  "last_seen": "05/06/2026",
+  "value_usd": 2495.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "05/06/2026",
+    "video_id": "MTBXBVW5wHE",
+    "title": "#PATRIAYFAMILIA l NUEVAS DRAGAS Y LLORAMOS DE LA EMOCIÓN",
+    "minute": "01:20",
+    "views": 277253
+   }
+  ],
+  "kind": "producto"
+ }
+]

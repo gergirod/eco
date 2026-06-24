@@ -1,0 +1,51 @@
+"use client";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+
+const NAV = [
+  { href: "/", label: "Resumen", icon: "◇" },
+  { href: "/backoffice", label: "Backoffice · Runs", icon: "▤", group: "Operación" },
+  { href: "/marca", label: "Dashboard de marca", icon: "◉", group: "Cliente" },
+  { href: "/competencia", label: "Competencia", icon: "⇄" },
+  { href: "/productos", label: "Catálogo de marcas", icon: "▦" },
+];
+
+export default function Sidebar() {
+  const path = usePathname();
+  return (
+    <aside className="w-[228px] shrink-0 border-r border-[#ececec] bg-white px-4 py-6 flex flex-col">
+      <div className="px-2 mb-7">
+        <div className="text-[15px] font-semibold tracking-tight">Streamproof</div>
+        <div className="text-[11px] text-gray-400 mt-0.5">Brand Intelligence · AR</div>
+      </div>
+      <nav className="flex flex-col gap-0.5">
+        {NAV.map((n) => {
+          const active = n.href === "/" ? path === "/" : path.startsWith(n.href);
+          return (
+            <div key={n.href}>
+              {n.group && (
+                <div className="text-[10px] uppercase tracking-wider text-gray-300 px-2 mt-4 mb-1">
+                  {n.group}
+                </div>
+              )}
+              <Link
+                href={n.href}
+                className={`flex items-center gap-2.5 px-2.5 py-2 rounded-lg text-[13px] transition ${
+                  active ? "bg-accent-soft text-accent font-medium" : "text-gray-600 hover:bg-gray-50"
+                }`}
+              >
+                <span className="text-[13px] opacity-70">{n.icon}</span>
+                {n.label}
+              </Link>
+            </div>
+          );
+        })}
+      </nav>
+      <div className="mt-auto px-2 pt-6">
+        <div className="text-[10px] text-gray-300 leading-relaxed">
+          Demo · datos reales del pipeline.<br />Modo admin / agencia.
+        </div>
+      </div>
+    </aside>
+  );
+}
