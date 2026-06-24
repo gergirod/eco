@@ -2,6 +2,7 @@
 import { useMemo } from "react";
 import { Badge } from "@/components/ui";
 import { usd, num, compact } from "@/lib/format";
+import { openProgramReport } from "@/lib/programReport";
 
 const TIER_TONE: Record<number, "blue" | "green" | "gray"> = { 1: "blue", 2: "green", 3: "gray" };
 const SENT_TONE: Record<string, "green" | "gray" | "red"> = {
@@ -68,10 +69,12 @@ function MomentChart({ series, hotMin }: { series: any[]; hotMin: number }) {
 export default function MomentModal({
   mention,
   moment,
+  brandName,
   onClose,
 }: {
   mention: any;
   moment: any | null;
+  brandName?: string;
   onClose: () => void;
 }) {
   const hotMin = Math.floor((mention.t_seconds || 0) / 60);
@@ -170,9 +173,24 @@ export default function MomentModal({
           </div>
         )}
 
-        <a href={vodLink} target="_blank" rel="noreferrer" className="btn btn-primary">
-          ▶ Ver el momento en el VOD
-        </a>
+        <div className="flex items-center gap-2 flex-wrap">
+          <a href={vodLink} target="_blank" rel="noreferrer" className="btn btn-primary">
+            ▶ Ver el momento en el VOD
+          </a>
+          <button
+            className="btn btn-ghost"
+            onClick={() =>
+              openProgramReport({
+                ...mention,
+                brand_name: brandName || mention.brand_name,
+                conc_at: concAt,
+                program_peak: moment?.peak,
+              })
+            }
+          >
+            ⬇ Descargar reporte del programa (PDF)
+          </button>
+        </div>
         <p className="text-[11px] text-gray-400 mt-3 leading-relaxed">
           No estimamos impresiones ni tasamos por tarifa teórica (AVE): medimos la atención real al
           minuto de la mención y la respuesta de la audiencia en el chat. Valorización = lente CPM

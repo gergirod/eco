@@ -1,5 +1,5 @@
 "use client";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { PageHeader, Stat, Badge, Bar } from "@/components/ui";
 import BrandPicker from "@/components/BrandPicker";
 import { usd, num, compact } from "@/lib/format";
@@ -110,8 +110,13 @@ export default function MarcaDashboard() {
         .sort((a, b) => b.mentions - a.mentions),
     [reports]
   );
-  const [brand, setBrand] = useState("mercado-libre");
-  const r: any = (reports as any)[brand] || (reports as any)[options[0].slug];
+  const [brand, setBrand] = useState(options[0]?.slug || "");
+  // permite llegar desde el Media Kit con ?brand=<slug>
+  useEffect(() => {
+    const q = new URLSearchParams(window.location.search).get("brand");
+    if (q && (reports as any)[q]) setBrand(q);
+  }, [reports]);
+  const r: any = (reports as any)[brand] || (reports as any)[options[0]?.slug];
 
   const byChannel = useMemo(() => {
     const m: Record<string, { mentions: number; value: number }> = {};
@@ -314,6 +319,7 @@ export default function MarcaDashboard() {
         <MomentModal
           mention={openMention}
           moment={(moments as any)[openMention.video_id] || null}
+          brandName={r.name}
           onClose={() => setOpenMention(null)}
         />
       )}
