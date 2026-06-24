@@ -1,4 +1,5 @@
 import React from "react";
+import InfoTip from "@/components/InfoTip";
 
 export function PageHeader({ title, sub }: { title: string; sub?: string }) {
   return (
@@ -9,10 +10,23 @@ export function PageHeader({ title, sub }: { title: string; sub?: string }) {
   );
 }
 
-export function Stat({ label, value, hint }: { label: string; value: React.ReactNode; hint?: string }) {
+export function Stat({
+  label,
+  value,
+  hint,
+  info,
+}: {
+  label: string;
+  value: React.ReactNode;
+  hint?: string;
+  info?: string;
+}) {
   return (
     <div className="card px-4 py-3.5">
-      <div className="text-[11px] uppercase tracking-wide text-gray-400">{label}</div>
+      <div className="flex items-center gap-1.5 text-[11px] uppercase tracking-wide text-gray-400">
+        <span>{label}</span>
+        {info && <InfoTip text={info} label={`Qué significa: ${label}`} />}
+      </div>
       <div className="text-[21px] font-semibold mt-1 tabular-nums">{value}</div>
       {hint && <div className="text-[11.5px] text-gray-400 mt-0.5">{hint}</div>}
     </div>

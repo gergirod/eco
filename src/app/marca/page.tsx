@@ -4,6 +4,8 @@ import { PageHeader, Stat, Badge, Bar } from "@/components/ui";
 import BrandPicker from "@/components/BrandPicker";
 import { usd, num, compact, fmtHMS } from "@/lib/format";
 import { PROMINENCE_BAR, PROMINENCE_TONE, prominenceLabel } from "@/lib/prominence";
+import { VALUATION_HINT, VALUATION_INFO, VALUATION_INFO_SHORT } from "@/lib/valuation";
+import InfoTip from "@/components/InfoTip";
 import { useDataset } from "@/lib/useDataset";
 import reportsFb from "@/data/reports.json";
 import channelsFb from "@/data/channels.json";
@@ -183,7 +185,7 @@ export default function MarcaDashboard() {
         <p className="text-[15px] leading-relaxed text-gray-700 max-w-[820px]">
           <b>{r.name}</b> acumula <b>{num(r.mentions)}</b> lecturas de pauta (PNT) en{" "}
           <b>{programs}</b> programas across <b>{r.channels.length}</b> streams, con exposición total de{" "}
-          <b>{usd(r.value_usd)}</b> (lente A · audiencia al minuto).{" "}
+          <b>{usd(r.value_usd)}</b> de exposición estimada ({VALUATION_INFO_SHORT.toLowerCase()}).{" "}
           {best && (
             <>
               El momento más fuerte: <b>{best.channel_name}</b> el {best.date}
@@ -210,7 +212,12 @@ export default function MarcaDashboard() {
           value={best?.conc_at ? compact(best.conc_at) : "—"}
           hint={best ? `marca ${fmtHMS(best.t_seconds || 0)}` : "sin concurrentes"}
         />
-        <Stat label="Exposición total" value={usd(r.value_usd)} hint="lente A · benchmark" />
+        <Stat
+          label="Exposición estimada"
+          value={usd(r.value_usd)}
+          hint={VALUATION_HINT}
+          info={VALUATION_INFO}
+        />
       </div>
 
       {/* evolución + desgloses */}
@@ -218,7 +225,7 @@ export default function MarcaDashboard() {
         <div className="card p-5">
           <h2 className="text-[15px] font-semibold mb-3">Evolución temporal</h2>
           <EvolutionChart series={r.series} />
-          <div className="text-[11px] text-gray-400 mt-1">Valor de referencia por día (USD).</div>
+          <div className="text-[11px] text-gray-400 mt-1">Exposición estimada por día (benchmark, no factura).</div>
         </div>
         <div className="card p-5 flex flex-col gap-5">
           <div>
@@ -281,7 +288,12 @@ export default function MarcaDashboard() {
                   <th>Formato</th>
                   <th>Sent.</th>
                   <th className="text-right">En vivo</th>
-                  <th className="text-right">Valor</th>
+                  <th className="text-right">
+                    <span className="inline-flex items-center justify-end gap-1">
+                      Exposición
+                      <InfoTip text={VALUATION_INFO} label="Qué significa la exposición en USD" />
+                    </span>
+                  </th>
                   <th></th>
                 </tr>
               </thead>
@@ -337,9 +349,9 @@ export default function MarcaDashboard() {
       </div>
 
       <p className="text-[11px] text-gray-400 mt-4 leading-relaxed max-w-[820px]">
-        Solo lecturas de pauta verificadas (menciones_patrocinadas + cita en transcript), igual que
-        report.py. Valor = audiencia al minuto × CPM × formato de pauta × sentimiento (MODELO-VALORIZACION).
-        Benchmark de exposición, no facturación. El link “ver” abre el VOD en el segundo exacto.
+        Solo lecturas de pauta verificadas (menciones_patrocinadas + cita en transcript).{" "}
+        {VALUATION_INFO_SHORT} Cálculo: audiencia real del minuto × CPM × formato × sentimiento.
+        El link “ver” abre el VOD en el segundo exacto.
       </p>
 
       {openMention && (

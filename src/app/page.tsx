@@ -2,6 +2,7 @@ import Link from "next/link";
 import { PageHeader, Stat, Bar } from "@/components/ui";
 import TopBrandsTable from "@/components/TopBrandsTable";
 import { compact, num, usd } from "@/lib/format";
+import { VALUATION_HINT, VALUATION_INFO } from "@/lib/valuation";
 import { fetchDataset } from "@/lib/supabase";
 import metaFb from "@/data/meta.json";
 import channelsFb from "@/data/channels.json";
@@ -66,9 +67,10 @@ export default async function Home() {
           hint={`${reportList.length} anunciantes · solo pauta`}
         />
         <Stat
-          label="Exposición pauta"
+          label="Exposición estimada"
           value={usd(totalExposure)}
-          hint="lente A · audiencia al minuto"
+          hint={VALUATION_HINT}
+          info={VALUATION_INFO}
         />
       </div>
 
@@ -101,7 +103,6 @@ export default async function Home() {
         <div className="card p-5">
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-[15px] font-semibold">Top marcas por pauta</h2>
-            <Link href="/marca" className="text-[12px] text-accent hover:underline">Reportes →</Link>
           </div>
           <TopBrandsTable brands={topBrands} />
         </div>

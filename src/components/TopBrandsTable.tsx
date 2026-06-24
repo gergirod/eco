@@ -3,7 +3,9 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Badge } from "@/components/ui";
+import InfoTip from "@/components/InfoTip";
 import { usd } from "@/lib/format";
+import { VALUATION_INFO, VALUATION_INFO_SHORT } from "@/lib/valuation";
 
 const PREVIEW = 8;
 
@@ -17,6 +19,10 @@ export default function TopBrandsTable({
 
   return (
     <>
+      <div className="flex items-center gap-1.5 text-[11px] text-gray-400 mb-2">
+        <span>{VALUATION_INFO_SHORT}</span>
+        <InfoTip text={VALUATION_INFO} label="Qué significa la exposición en USD" />
+      </div>
       <table>
         <tbody>
           {visible.map((b) => (
