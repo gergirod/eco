@@ -8,187 +8,139 @@
   "brands": 630,
   "mentions": 972,
   "share_views": 67.4,
-  "n_brands_live": 222,
+  "n_brands_live": 22,
   "top_brands": [
-   {
-    "slug": "movistar-arena",
-    "name": "Movistar Arena",
-    "mentions": 25,
-    "value_usd": 20353.0
-   },
    {
     "slug": "instagram",
     "name": "Instagram",
-    "mentions": 16,
-    "value_usd": 13236.0
+    "mentions": 2,
+    "value_usd": 1897.0
    },
    {
     "slug": "tiktok",
     "name": "TikTok",
-    "mentions": 14,
-    "value_usd": 15760.0
-   },
-   {
-    "slug": "fm-luzu",
-    "name": "FM Luzu",
-    "mentions": 6,
-    "value_usd": 3544.0
-   },
-   {
-    "slug": "resumido-info",
-    "name": "Resumido Info",
-    "mentions": 5,
-    "value_usd": 3867.0
-   },
-   {
-    "slug": "disney",
-    "name": "Disney",
-    "mentions": 4,
-    "value_usd": 1763.0
-   },
-   {
-    "slug": "twitter",
-    "name": "Twitter",
-    "mentions": 4,
-    "value_usd": 1319.0
-   },
-   {
-    "slug": "whatsapp",
-    "name": "WhatsApp",
-    "mentions": 4,
-    "value_usd": 3325.0
-   },
-   {
-    "slug": "fifa",
-    "name": "FIFA",
-    "mentions": 3,
-    "value_usd": 1309.0
-   },
-   {
-    "slug": "mercado-pago",
-    "name": "Mercado Pago",
-    "mentions": 3,
-    "value_usd": 3563.0
-   },
-   {
-    "slug": "spotify",
-    "name": "Spotify",
-    "mentions": 3,
-    "value_usd": 2598.0
-   },
-   {
-    "slug": "bizarrap",
-    "name": "Bizarrap",
-    "mentions": 3,
-    "value_usd": 3911.0
-   },
-   {
-    "slug": "ojos-locos",
-    "name": "Ojos Locos",
-    "mentions": 3,
-    "value_usd": 4723.0
-   },
-   {
-    "slug": "7-eleven",
-    "name": "7-Eleven",
-    "mentions": 3,
-    "value_usd": 6366.0
-   },
-   {
-    "slug": "chat-gpt",
-    "name": "Chat GPT",
-    "mentions": 3,
-    "value_usd": 1435.0
-   },
-   {
-    "slug": "youtube",
-    "name": "YouTube",
-    "mentions": 2,
-    "value_usd": 1339.0
+    "mentions": 1,
+    "value_usd": 1686.0
    },
    {
     "slug": "mercado-libre",
     "name": "Mercado Libre",
-    "mentions": 2,
-    "value_usd": 788.0
+    "mentions": 1,
+    "value_usd": 343.0
    },
    {
-    "slug": "netflix",
-    "name": "Netflix",
-    "mentions": 2,
-    "value_usd": 1148.0
+    "slug": "fifa",
+    "name": "FIFA",
+    "mentions": 1,
+    "value_usd": 506.0
    },
    {
-    "slug": "telefe",
-    "name": "Telefe",
-    "mentions": 2,
-    "value_usd": 1375.0
+    "slug": "whatsapp",
+    "name": "WhatsApp",
+    "mentions": 1,
+    "value_usd": 1686.0
    },
    {
     "slug": "coca-cola",
     "name": "Coca-Cola",
-    "mentions": 2,
-    "value_usd": 688.0
+    "mentions": 1,
+    "value_usd": 344.0
    },
    {
-    "slug": "twitch",
-    "name": "Twitch",
-    "mentions": 2,
-    "value_usd": 455.0
+    "slug": "playstation",
+    "name": "PlayStation",
+    "mentions": 1,
+    "value_usd": 506.0
    },
    {
-    "slug": "gran-hermano",
-    "name": "Gran Hermano",
-    "mentions": 2,
-    "value_usd": 2902.0
+    "slug": "pedido-ya",
+    "name": "Pedido Ya",
+    "mentions": 1,
+    "value_usd": 725.0
    },
    {
-    "slug": "apple",
-    "name": "Apple",
-    "mentions": 2,
-    "value_usd": 563.0
+    "slug": "euforica",
+    "name": "Eufórica",
+    "mentions": 1,
+    "value_usd": 919.0
    },
    {
-    "slug": "hannah-montana",
-    "name": "Hannah Montana",
-    "mentions": 2,
-    "value_usd": 2266.0
+    "slug": "melimas",
+    "name": "MeliMás",
+    "mentions": 1,
+    "value_usd": 343.0
    },
    {
-    "slug": "fernet",
-    "name": "Fernet",
-    "mentions": 2,
-    "value_usd": 1167.0
+    "slug": "smart-tv",
+    "name": "Smart TV",
+    "mentions": 1,
+    "value_usd": 343.0
    },
    {
-    "slug": "asiscar",
-    "name": "Asiscar",
-    "mentions": 2,
-    "value_usd": 4078.0
+    "slug": "sovestar",
+    "name": "Sovestar",
+    "mentions": 1,
+    "value_usd": 805.0
    },
    {
-    "slug": "patrifamilia",
-    "name": "PatriFamilia",
-    "mentions": 2,
-    "value_usd": 1681.0
+    "slug": "hisense",
+    "name": "Hisense",
+    "mentions": 1,
+    "value_usd": 833.0
    },
    {
-    "slug": "san-lorenzo",
-    "name": "San Lorenzo",
-    "mentions": 2,
-    "value_usd": 952.0
+    "slug": "jorjito",
+    "name": "Jorjito",
+    "mentions": 1,
+    "value_usd": 433.0
    },
    {
-    "slug": "tesla",
-    "name": "Tesla",
-    "mentions": 2,
-    "value_usd": 2490.0
+    "slug": "spice-girls",
+    "name": "Spice Girls",
+    "mentions": 1,
+    "value_usd": 605.0
    },
    {
-    "slug": "canal-9",
-    "name": "Canal 9",
-    "mentions": 2,
-    "value_usd": 3919.0
+    "slug": "antelios-uber-fps-50",
+    "name": "Antelios Uber FPS 50",
+    "mentions": 1,
+    "value_usd": 934.0
+   },
+   {
+    "slug": "la-roche-posay",
+    "name": "La Roche-Posay",
+    "mentions": 1,
+    "value_usd": 934.0
+   },
+   {
+    "slug": "banco-patagonia",
+    "name": "Banco Patagonia",
+    "mentions": 1,
+    "value_usd": 976.0
+   },
+   {
+    "slug": "club-patagonia",
+    "name": "Club Patagonia",
+    "mentions": 1,
+    "value_usd": 976.0
+   },
+   {
+    "slug": "mostaza",
+    "name": "Mostaza",
+    "mentions": 1,
+    "value_usd": 725.0
+   },
+   {
+    "slug": "farmacia",
+    "name": "Farmacia",
+    "mentions": 1,
+    "value_usd": 258.0
+   },
+   {
+    "slug": "coto-digital",
+    "name": "Coto Digital",
+    "mentions": 1,
+    "value_usd": 2106.0
    }
   ]
  },
@@ -201,187 +153,121 @@
   "brands": 854,
   "mentions": 1273,
   "share_views": 32.6,
-  "n_brands_live": 246,
+  "n_brands_live": 19,
   "top_brands": [
-   {
-    "slug": "movistar-arena",
-    "name": "Movistar Arena",
-    "mentions": 32,
-    "value_usd": 8342.0
-   },
    {
     "slug": "fifa",
     "name": "FIFA",
-    "mentions": 6,
-    "value_usd": 1286.0
+    "mentions": 2,
+    "value_usd": 450.0
+   },
+   {
+    "slug": "movistar-arena",
+    "name": "Movistar Arena",
+    "mentions": 1,
+    "value_usd": 345.0
    },
    {
     "slug": "geniol",
     "name": "Geniol",
-    "mentions": 6,
-    "value_usd": 1882.0
+    "mentions": 1,
+    "value_usd": 383.0
    },
    {
-    "slug": "disney",
-    "name": "Disney",
-    "mentions": 5,
-    "value_usd": 1300.0
+    "slug": "cabify",
+    "name": "Cabify",
+    "mentions": 1,
+    "value_usd": 300.0
    },
    {
-    "slug": "whatsapp",
-    "name": "WhatsApp",
-    "mentions": 5,
-    "value_usd": 1373.0
-   },
-   {
-    "slug": "instagram",
-    "name": "Instagram",
-    "mentions": 4,
-    "value_usd": 1095.0
-   },
-   {
-    "slug": "youtube",
-    "name": "YouTube",
-    "mentions": 4,
-    "value_usd": 1266.0
-   },
-   {
-    "slug": "mcdonald-s",
-    "name": "McDonald's",
-    "mentions": 4,
-    "value_usd": 514.0
-   },
-   {
-    "slug": "mercado-libre",
-    "name": "Mercado Libre",
-    "mentions": 3,
-    "value_usd": 982.0
-   },
-   {
-    "slug": "twitter",
-    "name": "Twitter",
-    "mentions": 3,
-    "value_usd": 934.0
-   },
-   {
-    "slug": "movistar",
-    "name": "Movistar",
-    "mentions": 3,
-    "value_usd": 1007.0
-   },
-   {
-    "slug": "adidas",
-    "name": "Adidas",
-    "mentions": 3,
-    "value_usd": 751.0
-   },
-   {
-    "slug": "schneider",
-    "name": "Schneider",
-    "mentions": 3,
-    "value_usd": 333.0
-   },
-   {
-    "slug": "ypf",
-    "name": "YPF",
-    "mentions": 3,
-    "value_usd": 1108.0
-   },
-   {
-    "slug": "telefe",
-    "name": "Telefe",
-    "mentions": 2,
-    "value_usd": 598.0
-   },
-   {
-    "slug": "chatgpt",
-    "name": "ChatGPT",
-    "mentions": 2,
-    "value_usd": 560.0
+    "slug": "nike",
+    "name": "Nike",
+    "mentions": 1,
+    "value_usd": 367.0
    },
    {
     "slug": "playstation",
     "name": "PlayStation",
-    "mentions": 2,
-    "value_usd": 424.0
+    "mentions": 1,
+    "value_usd": 363.0
    },
    {
-    "slug": "canal-13",
-    "name": "Canal 13",
-    "mentions": 2,
-    "value_usd": 491.0
+    "slug": "sony",
+    "name": "Sony",
+    "mentions": 1,
+    "value_usd": 267.0
    },
    {
-    "slug": "skip",
-    "name": "Skip",
-    "mentions": 2,
-    "value_usd": 569.0
+    "slug": "fravega",
+    "name": "Frávega",
+    "mentions": 1,
+    "value_usd": 378.0
    },
    {
-    "slug": "facebook",
-    "name": "Facebook",
-    "mentions": 2,
-    "value_usd": 732.0
+    "slug": "hyundai",
+    "name": "Hyundai",
+    "mentions": 1,
+    "value_usd": 76.0
    },
    {
-    "slug": "liverpool",
-    "name": "Liverpool",
-    "mentions": 2,
-    "value_usd": 506.0
+    "slug": "ticketek",
+    "name": "Ticketek",
+    "mentions": 1,
+    "value_usd": 199.0
    },
    {
-    "slug": "gta",
-    "name": "GTA",
-    "mentions": 2,
-    "value_usd": 521.0
+    "slug": "ipf-full",
+    "name": "IPF full",
+    "mentions": 1,
+    "value_usd": 385.0
    },
    {
-    "slug": "swift",
-    "name": "Swift",
-    "mentions": 2,
-    "value_usd": 255.0
+    "slug": "full-guapaletas",
+    "name": "Full Guapaletas",
+    "mentions": 1,
+    "value_usd": 385.0
    },
    {
-    "slug": "billy-elliot",
-    "name": "Billy Elliot",
-    "mentions": 2,
-    "value_usd": 707.0
+    "slug": "ghost-of-tsushima",
+    "name": "Ghost of Tsushima",
+    "mentions": 1,
+    "value_usd": 364.0
    },
    {
-    "slug": "at-t",
-    "name": "AT&T",
-    "mentions": 2,
-    "value_usd": 789.0
+    "slug": "iol-inversiones",
+    "name": "IOL Inversiones",
+    "mentions": 1,
+    "value_usd": 70.0
    },
    {
-    "slug": "pharmaolga",
-    "name": "Pharmaolga",
-    "mentions": 2,
-    "value_usd": 405.0
+    "slug": "yol",
+    "name": "YOL",
+    "mentions": 1,
+    "value_usd": 70.0
    },
    {
-    "slug": "cooling-break",
-    "name": "Cooling Break",
-    "mentions": 2,
-    "value_usd": 382.0
+    "slug": "iol",
+    "name": "IOL",
+    "mentions": 1,
+    "value_usd": 383.0
    },
    {
-    "slug": "lakers",
-    "name": "Lakers",
-    "mentions": 2,
-    "value_usd": 437.0
+    "slug": "bakeshop",
+    "name": "Bakeshop",
+    "mentions": 1,
+    "value_usd": 191.0
    },
    {
-    "slug": "indifferent-streetwear",
-    "name": "Indifferent Streetwear",
-    "mentions": 2,
-    "value_usd": 538.0
+    "slug": "billetera-virtual",
+    "name": "Billetera Virtual",
+    "mentions": 1,
+    "value_usd": 189.0
    },
    {
-    "slug": "mantecol",
-    "name": "Mantecol",
-    "mentions": 2,
-    "value_usd": 766.0
+    "slug": "lux",
+    "name": "Lux",
+    "mentions": 1,
+    "value_usd": 352.0
    }
   ]
  }
