@@ -7,7 +7,7 @@ export default function OpsLogout() {
 
   async function logout() {
     await fetch("/api/operacion/auth", { method: "DELETE" });
-    router.replace("/operacion/login");
+    router.replace("/backoffice/login");
     router.refresh();
   }
 

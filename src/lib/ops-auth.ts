@@ -20,8 +20,8 @@ export async function opsSessionValid(
   return cookieValue === (await opsSessionToken(password));
 }
 
-export const OPS_PROTECTED_PREFIXES = ["/backoffice", "/operacion", "/casos"] as const;
-export const OPS_LOGIN_PATH = "/operacion/login";
+export const OPS_PROTECTED_PREFIXES = ["/backoffice"] as const;
+export const OPS_LOGIN_PATH = "/backoffice/login";
 
 export function isOpsProtectedPath(pathname: string): boolean {
   if (pathname === OPS_LOGIN_PATH) return false;

@@ -5,9 +5,7 @@ import metaFb from "@/data/meta.json";
 
 const NAV = [
   { href: "/", label: "Resumen", icon: "◇" },
-  { href: "/backoffice", label: "Backoffice · Runs", icon: "▤", group: "Operación" },
-  { href: "/operacion", label: "Runbook · comandos", icon: "⌘", group: "Operación" },
-  { href: "/casos", label: "Casos de uso", icon: "?", group: "Operación" },
+  { href: "/backoffice", label: "Backoffice", icon: "▤", group: "Operación" },
   { href: "/marca", label: "Reportes de marca", icon: "◉", group: "Venta · entregable" },
   { href: "/certificado", label: "Certificados de emisión", icon: "◎", group: "Venta · entregable" },
   { href: "/competencia", label: "Competencia", icon: "⇄" },
@@ -33,7 +31,7 @@ function fmtExport(iso: string) {
 export default function Sidebar() {
   const path = usePathname();
   const exported = fmtExport((metaFb as any).exported_at || "");
-  const onLogin = path === "/operacion/login";
+  const onLogin = path === "/backoffice/login";
 
   if (onLogin) {
     return (
