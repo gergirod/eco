@@ -59,12 +59,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 2,
-   "total_vod_views": 8110,
-   "avg_concurrent": 5054,
-   "brands_detected": 0,
-   "mentions": 0,
-   "last_processed": "24/06/2026"
+   "videos_processed": 4,
+   "total_vod_views": 22065,
+   "avg_concurrent": 6867,
+   "brands_detected": 8,
+   "mentions": 8,
+   "last_processed": "25/06/2026"
   },
   "pipeline_status": "activo"
  },

@@ -676,6 +676,53 @@
   "kind": "marca"
  },
  {
+  "slug": "ypf",
+  "name": "YPF",
+  "mentions": 3,
+  "channels": [
+   "blend",
+   "olga"
+  ],
+  "n_channels": 2,
+  "n_videos": 3,
+  "first_seen": "23/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 1511.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "ptOHcGEdWCk",
+    "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+    "minute": "02:07:21",
+    "views": 45112,
+    "conc_at": 37998
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "02:39:00",
+    "views": 73490,
+    "conc_at": 42582
+   },
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "25/06/2026",
+    "video_id": "JXVQmuDctII",
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "minute": "01:06:09",
+    "views": 9779,
+    "conc_at": 11157
+   }
+  ],
+  "kind": "marca"
+ },
+ {
   "slug": "canon",
   "name": "Canon",
   "mentions": 2,
@@ -707,42 +754,6 @@
     "minute": "01:22:04",
     "views": 35722,
     "conc_at": 39537
-   }
-  ],
-  "kind": "marca"
- },
- {
-  "slug": "ypf",
-  "name": "YPF",
-  "mentions": 2,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 2,
-  "first_seen": "23/06/2026",
-  "last_seen": "23/06/2026",
-  "value_usd": 1272.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "ptOHcGEdWCk",
-    "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
-    "minute": "02:07:21",
-    "views": 45112,
-    "conc_at": 37998
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:39:00",
-    "views": 73490,
-    "conc_at": 42582
    }
   ],
   "kind": "marca"
@@ -1841,6 +1852,188 @@
     "minute": "01:25:55",
     "views": 28305,
     "conc_at": 18770
+   }
+  ],
+  "kind": "marca"
+ },
+ {
+  "slug": "seco",
+  "name": "Seco",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 23.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "25/06/2026",
+    "video_id": "JXVQmuDctII",
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "minute": "00:00:40",
+    "views": 9779,
+    "conc_at": 511
+   }
+  ],
+  "kind": "marca"
+ },
+ {
+  "slug": "uber",
+  "name": "Uber",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 23.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "25/06/2026",
+    "video_id": "JXVQmuDctII",
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "minute": "00:00:42",
+    "views": 9779,
+    "conc_at": 511
+   }
+  ],
+  "kind": "marca"
+ },
+ {
+  "slug": "guberpaticerie",
+  "name": "guberpaticerie",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 23.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "25/06/2026",
+    "video_id": "JXVQmuDctII",
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "minute": "00:01:10",
+    "views": 9779,
+    "conc_at": 511
+   }
+  ],
+  "kind": "marca"
+ },
+ {
+  "slug": "escorial",
+  "name": "Escorial",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 246.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "25/06/2026",
+    "video_id": "JXVQmuDctII",
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "minute": "01:00:14",
+    "views": 9779,
+    "conc_at": 11483
+   }
+  ],
+  "kind": "marca"
+ },
+ {
+  "slug": "hoy-cerdo",
+  "name": "Hoy Cerdo",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 275.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "25/06/2026",
+    "video_id": "JXVQmuDctII",
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "minute": "02:00:15",
+    "views": 9779,
+    "conc_at": 9503
+   }
+  ],
+  "kind": "marca"
+ },
+ {
+  "slug": "guacamoles-eventos",
+  "name": "Guacamoles Eventos",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 207.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "24/06/2026",
+    "video_id": "tcq7UAzc3iw",
+    "title": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
+    "minute": "01:35:36",
+    "views": 4176,
+    "conc_at": 7145
+   }
+  ],
+  "kind": "marca"
+ },
+ {
+  "slug": "buenos-aires-ciudad",
+  "name": "Buenos Aires ciudad",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 207.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "24/06/2026",
+    "video_id": "tcq7UAzc3iw",
+    "title": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
+    "minute": "01:36:33",
+    "views": 4176,
+    "conc_at": 7136
    }
   ],
   "kind": "marca"

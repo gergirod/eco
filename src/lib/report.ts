@@ -158,6 +158,8 @@ function programLabel(d: any): string {
   return t.length > 72 ? t.slice(0, 69) + "…" : t;
 }
 
+export { REPORT_CSS, esc, fmtHMS, vodUrl, num, compact, programLabel };
+
 function venueLine(n: number): string {
   if (n >= 8000) return " — el equivalente a llenar una sala grande, todas viendo tu marca a la vez.";
   if (n >= 4000) return " — una audiencia del tamaño de un teatro lleno, en el minuto exacto de tu lectura.";

@@ -7,7 +7,7 @@
   "avg_concurrent": 80437,
   "brands": 33,
   "mentions": 47,
-  "share_views": 69.9,
+  "share_views": 69.4,
   "n_brands_live": 33,
   "top_brands": [
    {
@@ -200,7 +200,7 @@
   "avg_concurrent": 27658,
   "brands": 43,
   "mentions": 77,
-  "share_views": 29.7,
+  "share_views": 29.5,
   "n_brands_live": 43,
   "top_brands": [
    {
@@ -252,16 +252,16 @@
     "value_usd": 3696.0
    },
    {
-    "slug": "canon",
-    "name": "Canon",
-    "mentions": 2,
-    "value_usd": 2305.0
-   },
-   {
     "slug": "ypf",
     "name": "YPF",
     "mentions": 2,
     "value_usd": 1272.0
+   },
+   {
+    "slug": "canon",
+    "name": "Canon",
+    "mentions": 2,
+    "value_usd": 2305.0
    },
    {
     "slug": "pharma-olga",
@@ -388,13 +388,62 @@
  {
   "id": "blend",
   "name": "Blender",
-  "videos": 2,
-  "vod_views": 8110,
-  "avg_concurrent": 5054,
-  "brands": 0,
-  "mentions": 0,
-  "share_views": 0.4,
-  "n_brands_live": 0,
-  "top_brands": []
+  "videos": 4,
+  "vod_views": 22065,
+  "avg_concurrent": 6867,
+  "brands": 8,
+  "mentions": 8,
+  "share_views": 1.1,
+  "n_brands_live": 8,
+  "top_brands": [
+   {
+    "slug": "ypf",
+    "name": "YPF",
+    "mentions": 1,
+    "value_usd": 239.0
+   },
+   {
+    "slug": "seco",
+    "name": "Seco",
+    "mentions": 1,
+    "value_usd": 23.0
+   },
+   {
+    "slug": "uber",
+    "name": "Uber",
+    "mentions": 1,
+    "value_usd": 23.0
+   },
+   {
+    "slug": "guberpaticerie",
+    "name": "guberpaticerie",
+    "mentions": 1,
+    "value_usd": 23.0
+   },
+   {
+    "slug": "escorial",
+    "name": "Escorial",
+    "mentions": 1,
+    "value_usd": 246.0
+   },
+   {
+    "slug": "hoy-cerdo",
+    "name": "Hoy Cerdo",
+    "mentions": 1,
+    "value_usd": 275.0
+   },
+   {
+    "slug": "guacamoles-eventos",
+    "name": "Guacamoles Eventos",
+    "mentions": 1,
+    "value_usd": 207.0
+   },
+   {
+    "slug": "buenos-aires-ciudad",
+    "name": "Buenos Aires ciudad",
+    "mentions": 1,
+    "value_usd": 207.0
+   }
+  ]
  }
 ]

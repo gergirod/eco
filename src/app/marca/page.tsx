@@ -3,9 +3,8 @@ import { useState, useMemo, useEffect } from "react";
 import { PageHeader, Stat, Badge, Bar } from "@/components/ui";
 import BrandPicker from "@/components/BrandPicker";
 import { usd, num, compact, fmtHMS } from "@/lib/format";
-import { PROMINENCE_BAR, PROMINENCE_TONE, prominenceLabel } from "@/lib/prominence";
+import { PROMINENCE_BAR } from "@/lib/prominence";
 import { VALUATION_HINT, VALUATION_INFO, usdEst } from "@/lib/valuation";
-import InfoTip from "@/components/InfoTip";
 import ValuationNotice from "@/components/ValuationNotice";
 import { useDataset } from "@/lib/useDataset";
 import reportsFb from "@/data/reports.json";
@@ -15,17 +14,7 @@ import metaFb from "@/data/meta.json";
 import { buildReportHTML } from "@/lib/report";
 import { calcEfficiency, loadInversion, saveInversion } from "@/lib/efficiency";
 import MomentModal from "@/components/MomentModal";
-
-function tsLink(videoId: string, seconds: number) {
-  return `https://www.youtube.com/watch?v=${videoId}&t=${Math.max(0, seconds | 0)}s`;
-}
-
-const TIER_TONE = PROMINENCE_TONE;
-const SENT_TONE: Record<string, "green" | "gray" | "red"> = {
-  positivo: "green",
-  neutro: "gray",
-  negativo: "red",
-};
+import ActivationsTable from "@/components/ActivationsTable";
 
 /* --- mini gráfico de evolución (SVG, sin dependencias) --- */
 function EvolutionChart({ series }: { series: any[] }) {
@@ -333,84 +322,14 @@ export default function MarcaDashboard() {
           </div>
         </div>
 
-        <div className="card overflow-hidden">
-          <div className="px-5 py-3.5 border-b border-[#ececec] flex items-center justify-between">
-            <h2 className="text-[15px] font-semibold">
-              Menciones · {r.name}
-              <span className="text-[11.5px] font-normal text-gray-400 ml-2">
-                click en una fila → Momento de Atención
-              </span>
-            </h2>
-            <Badge tone="gray">{r.detail.length} registros</Badge>
-          </div>
-          <div className="max-h-[620px] overflow-auto">
-            <table>
-              <thead className="sticky top-0 bg-white">
-                <tr>
-                  <th>Fecha</th>
-                  <th>Canal</th>
-                  <th>Prueba textual</th>
-                  <th>Formato</th>
-                  <th>Sent.</th>
-                  <th className="text-right">En vivo</th>
-                  <th className="text-right">
-                    <span className="inline-flex items-center justify-end gap-1">
-                      Exposición
-                      <InfoTip text={VALUATION_INFO} label="Qué significa la exposición en USD" />
-                    </span>
-                  </th>
-                  <th></th>
-                </tr>
-              </thead>
-              <tbody>
-                {r.detail.map((d: any, i: number) => (
-                  <tr key={i} className="cursor-pointer" onClick={() => setOpenMention(d)}>
-                    <td className="text-gray-500 whitespace-nowrap">{d.date}</td>
-                    <td className="whitespace-nowrap">{CH_NAME[d.channel] || d.channel_name}</td>
-                    <td className="max-w-[340px]">
-                      {d.quote ? (
-                        <span className="text-gray-700 italic">“{d.quote}”</span>
-                      ) : (
-                        <span className="text-gray-400 truncate block" title={d.title}>
-                          {d.title}
-                        </span>
-                      )}
-                      <span className="text-[11px] text-gray-400 block mt-0.5">
-                        {d.title?.slice(0, 48)}
-                        {d.title?.length > 48 ? "…" : ""} · {fmtHMS(d.t_seconds || 0)}
-                      </span>
-                    </td>
-                    <td>
-                      <Badge tone={TIER_TONE[d.tier] || "gray"}>
-                        {prominenceLabel(d.tier, d.tier_label)}
-                      </Badge>
-                    </td>
-                    <td>
-                      <Badge tone={SENT_TONE[d.sentiment] || "gray"}>
-                        {d.sentiment === "positivo" ? "＋" : d.sentiment === "negativo" ? "－" : "○"}
-                      </Badge>
-                    </td>
-                    <td className="text-right tabular-nums">
-                      {d.conc_at ? compact(d.conc_at) : <span className="text-gray-300">—</span>}
-                    </td>
-                    <td className="text-right tabular-nums text-gray-500 text-[12px]">{usdEst(d.value_usd)}</td>
-                    <td>
-                      <a
-                        href={tsLink(d.video_id, d.t_seconds)}
-                        target="_blank"
-                        rel="noreferrer"
-                        onClick={(e) => e.stopPropagation()}
-                        className="text-accent text-[12px] hover:underline whitespace-nowrap"
-                      >
-                        ver ↗
-                      </a>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </div>
+        <ActivationsTable
+          variant="brand"
+          rows={r.detail}
+          chName={CH_NAME}
+          onRowClick={setOpenMention}
+          title={`Menciones · ${r.name}`}
+          subtitle="click en una fila → Momento de Atención"
+        />
       </div>
 
       <p className="text-[11px] text-gray-400 mt-4 leading-relaxed max-w-[820px]">

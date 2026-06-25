@@ -934,6 +934,181 @@
   "kind": "producto"
  },
  {
+  "slug": "guberpaticerie",
+  "name": "guberpaticerie",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "25/06/2026",
+    "video_id": "JXVQmuDctII",
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "minute": "00:00",
+    "views": 9779
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "alginato",
+  "name": "alginato",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "25/06/2026",
+    "video_id": "JXVQmuDctII",
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "minute": "01:30",
+    "views": 9779
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "vaselina",
+  "name": "vaselina",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "25/06/2026",
+    "video_id": "JXVQmuDctII",
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "minute": "01:30",
+    "views": 9779
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "yeso-verde",
+  "name": "yeso verde",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "25/06/2026",
+    "video_id": "JXVQmuDctII",
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "minute": "01:30",
+    "views": 9779
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "silicona",
+  "name": "silicona",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "25/06/2026",
+    "video_id": "JXVQmuDctII",
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "minute": "01:30",
+    "views": 9779
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "c-o-marca-de-cerdo",
+  "name": "C.O. (marca de cerdo)",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "24/06/2026",
+    "video_id": "tcq7UAzc3iw",
+    "title": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
+    "minute": "00:00",
+    "views": 4176
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "balas-gratis-programa",
+  "name": "Balas Gratis (programa)",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "24/06/2026",
+    "video_id": "tcq7UAzc3iw",
+    "title": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
+    "minute": "00:00",
+    "views": 4176
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "qn-canal-de-tv",
   "name": "QN (canal de TV)",
   "mentions": 1,

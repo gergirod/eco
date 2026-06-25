@@ -5,10 +5,14 @@ export default function BrandPicker({
   options,
   value,
   onChange,
+  placeholder = "Elegí una marca",
+  searchPlaceholder = "Buscar marca…",
 }: {
   options: { slug: string; name: string; mentions: number }[];
   value: string;
   onChange: (slug: string) => void;
+  placeholder?: string;
+  searchPlaceholder?: string;
 }) {
   const [open, setOpen] = useState(false);
   const [q, setQ] = useState("");
@@ -30,7 +34,7 @@ export default function BrandPicker({
   return (
     <div className="relative" ref={ref}>
       <button className="btn btn-ghost min-w-[220px] justify-between" onClick={() => setOpen((o) => !o)}>
-        <span className="font-medium">{sel ? sel.name : "Elegí una marca"}</span>
+        <span className="font-medium">{sel ? sel.name : placeholder}</span>
         <span className="text-gray-400">▾</span>
       </button>
       {open && (
@@ -39,7 +43,7 @@ export default function BrandPicker({
             autoFocus
             value={q}
             onChange={(e) => setQ(e.target.value)}
-            placeholder="Buscar marca…"
+            placeholder={searchPlaceholder}
             className="w-full px-3 py-2 text-[13px] border border-gray-200 rounded-lg mb-1 outline-none focus:border-accent"
           />
           {filtered.map((o) => (

@@ -6,6 +6,7 @@ import metaFb from "@/data/meta.json";
 const NAV = [
   { href: "/", label: "Resumen", icon: "◇" },
   { href: "/backoffice", label: "Backoffice", icon: "▤", group: "Operación" },
+  { href: "/campaign", label: "Campaign Intelligence", icon: "◈", group: "Venta · entregable" },
   { href: "/marca", label: "Reportes de marca", icon: "◉", group: "Venta · entregable" },
   { href: "/certificado", label: "Certificados de emisión", icon: "◎", group: "Venta · entregable" },
   { href: "/competencia", label: "Competencia", icon: "⇄" },
