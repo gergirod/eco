@@ -5,6 +5,7 @@ import { PageHeader, Badge, Bar, Stat } from "@/components/ui";
 import BrandPicker from "@/components/BrandPicker";
 import { usd, num, compact } from "@/lib/format";
 import { usdEst } from "@/lib/valuation";
+import ValuationNotice from "@/components/ValuationNotice";
 import { useDataset } from "@/lib/useDataset";
 import brandsFb from "@/data/brands.json";
 import channelsFb from "@/data/channels.json";
@@ -72,6 +73,10 @@ export default function Competencia() {
         </div>
       </div>
 
+      <div className="mb-5">
+        <ValuationNotice compact />
+      </div>
+
       <div className="grid grid-cols-2 gap-5 mb-5">
         <div className="card p-5">
           <h2 className="text-[15px] font-semibold mb-4">PNT acumuladas</h2>
@@ -92,7 +97,7 @@ export default function Competencia() {
         </div>
 
         <div className="card p-5">
-          <h2 className="text-[15px] font-semibold mb-4">Exposición (lente A)</h2>
+          <h2 className="text-[15px] font-semibold mb-4">Exposición estimada (rango)</h2>
           <div className="flex flex-col gap-3.5">
             {all.map((b, i) => (
               <div key={b.slug}>

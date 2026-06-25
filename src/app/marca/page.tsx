@@ -4,8 +4,9 @@ import { PageHeader, Stat, Badge, Bar } from "@/components/ui";
 import BrandPicker from "@/components/BrandPicker";
 import { usd, num, compact, fmtHMS } from "@/lib/format";
 import { PROMINENCE_BAR, PROMINENCE_TONE, prominenceLabel } from "@/lib/prominence";
-import { VALUATION_HINT, VALUATION_INFO, VALUATION_INFO_SHORT, usdEst } from "@/lib/valuation";
+import { VALUATION_HINT, VALUATION_INFO, usdEst } from "@/lib/valuation";
 import InfoTip from "@/components/InfoTip";
+import ValuationNotice from "@/components/ValuationNotice";
 import { useDataset } from "@/lib/useDataset";
 import reportsFb from "@/data/reports.json";
 import channelsFb from "@/data/channels.json";
@@ -185,7 +186,7 @@ export default function MarcaDashboard() {
         <p className="text-[15px] leading-relaxed text-gray-700 max-w-[820px]">
           <b>{r.name}</b> acumula <b>{num(r.mentions)}</b> lecturas de pauta (PNT) en{" "}
           <b>{programs}</b> programas across <b>{r.channels.length}</b> streams, con exposición total de{" "}
-          <b>{usdEst(r.value_usd)}</b> de exposición estimada ({VALUATION_INFO_SHORT.toLowerCase()}).{" "}
+          <b>{usdEst(r.value_usd)}</b> de exposición estimada en rango (benchmark, no facturación).{" "}
           {best && (
             <>
               El momento más fuerte: <b>{best.channel_name}</b> el {best.date}
@@ -218,6 +219,10 @@ export default function MarcaDashboard() {
           hint={VALUATION_HINT}
           info={VALUATION_INFO}
         />
+      </div>
+
+      <div className="mb-5">
+        <ValuationNotice />
       </div>
 
       {/* evolución + desgloses */}
@@ -349,8 +354,7 @@ export default function MarcaDashboard() {
       </div>
 
       <p className="text-[11px] text-gray-400 mt-4 leading-relaxed max-w-[820px]">
-        Solo lecturas de pauta verificadas (menciones_patrocinadas + cita en transcript).{" "}
-        {VALUATION_INFO_SHORT} Cálculo: audiencia real del minuto × CPM × formato × sentimiento.
+        Solo lecturas de pauta verificadas (menciones_patrocinadas + cita en transcript).
         El link “ver” abre el VOD en el segundo exacto.
       </p>
 

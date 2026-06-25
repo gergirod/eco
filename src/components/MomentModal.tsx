@@ -3,7 +3,7 @@ import { useMemo } from "react";
 import { Badge } from "@/components/ui";
 import { usd, num, compact } from "@/lib/format";
 import { PROMINENCE_TONE, prominenceLabel } from "@/lib/prominence";
-import { VALUATION_HINT, VALUATION_INFO, usdEst } from "@/lib/valuation";
+import { VALUATION_BULLETS, VALUATION_HINT, VALUATION_INFO, usdEst } from "@/lib/valuation";
 import InfoTip from "@/components/InfoTip";
 import { openProgramReport } from "@/lib/programReport";
 
@@ -223,7 +223,10 @@ export default function MomentModal({
               <InfoTip text={VALUATION_INFO} label="Qué significa la exposición en USD" />
             </div>
             <div className="text-[18px] font-semibold mt-1 tabular-nums leading-snug">{usdEst(mention.value_usd)}</div>
-            <div className="text-[11px] text-gray-400">{VALUATION_HINT}</div>
+            <div className="text-[11px] text-gray-400 leading-snug mt-1">{VALUATION_HINT}</div>
+            <p className="text-[11px] text-gray-500 leading-relaxed mt-2 border-t border-gray-100 pt-2">
+              {VALUATION_BULLETS.what} {VALUATION_BULLETS.range}
+            </p>
           </div>
         </div>
 

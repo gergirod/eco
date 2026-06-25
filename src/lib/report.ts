@@ -106,6 +106,13 @@ const REPORT_CSS = `
   .summary-bar{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:20px;padding:14px 16px;
                background:#f7faf9;border:1px solid #dceee9;border-radius:10px;font-size:13px;color:#33424e}
   .summary-bar b{color:var(--ink)}
+  .method-box{margin:8px 0 24px;padding:18px 22px;background:#fffbeb;border:1px solid #fde68a;
+              border-left:4px solid #f59e0b;border-radius:12px}
+  .method-box h4{font-size:13px;color:#92400e;text-transform:uppercase;letter-spacing:.06em;margin-bottom:12px}
+  .method-row{display:flex;gap:12px;margin-bottom:8px;font-size:12.5px;line-height:1.45;color:#57534e}
+  .method-row:last-child{margin-bottom:0}
+  .method-row b{flex:0 0 118px;color:#292524;font-size:12px}
+  .method-row span{flex:1}
   .foot{padding:20px 40px 30px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
   .foot b{color:var(--ink)}
   .foot p{margin-bottom:8px;line-height:1.5}
@@ -240,6 +247,15 @@ export function buildReportHTML(
       ? `<div class="summary-bar"><span><b>${num(r.mentions)}</b> PNT verificadas</span><span><b>${ctx.programs}</b> programas</span><span><b>${channelsLabel || ctx.topChannel}</b></span><span>Exposición <b>${usdEst(r.value_usd)}</b></span></div>`
       : "";
 
+  const methodologyBox = `<div class="method-box">
+    <h4>Qué significa la exposición en USD</h4>
+    <div class="method-row"><b>Qué es</b><span>Benchmark estimado de exposición publicitaria. <strong>No es lo que la marca pagó</strong>, ni facturación, ni ventas atribuidas.</span></div>
+    <div class="method-row"><b>Qué medimos</b><span>Espectadores conectados en el minuto exacto de la PNT, cita textual verificada en el transcript y formato de la pauta.</span></div>
+    <div class="method-row"><b>Cómo se calcula</b><span>(concurrentes en vivo ÷ 1.000) × CPM de referencia × formato × sentimiento. CPM ref.: USD ${CPM_LOW}–${CPM_HIGH} (medio ${CPM_MID}).</span></div>
+    <div class="method-row"><b>Por qué un rango</b><span>No hay tarifa pública única para PNT en vivo. Mostramos rango estimado, no un precio exacto.</span></div>
+    <div class="method-row"><b>Origen del CPM</b><span>Calibración contra tarifas de mercado (~USD 3.000 por PNT en shows top) y benchmarks host-read en vivo (USD 25–40). No es CPM de pre-roll programático.</span></div>
+  </div>`;
+
   return `<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(r.name)} — Exposición en streaming en vivo</title>
@@ -272,10 +288,11 @@ export function buildReportHTML(
     ${featuredHtml}
     ${insight}
     ${restHtml}
+    ${methodologyBox}
   </div>
 
   <div class="foot">
-    <p><b>Cómo se mide.</b> Solo lecturas de pauta verificadas (menciones_patrocinadas + cita en transcript). La audiencia es la cantidad real de espectadores conectados en vivo en ese minuto exacto. La exposición se muestra como rango estimado (CPM de referencia USD ${CPM_LOW}–${CPM_HIGH} por mil espectadores × formato × sentimiento). <b>No es facturación ni ventas atribuidas.</b></p>
+    <p><b>Verificación.</b> Solo lecturas de pauta con cita en transcript. Audiencia = concurrentes reales en el minuto exacto (link YouTube arriba). Los USD son benchmark en rango — ver cuadro metodológico.</p>
     <p>Generado por Eco · ${today} · Inteligencia de exposición de marca en streaming argentino en vivo (Olga, Luzu, Bondi, Blender).</p>
   </div>
 </div>

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { PageHeader, Stat, Bar } from "@/components/ui";
 import TopBrandsTable from "@/components/TopBrandsTable";
+import ValuationNotice from "@/components/ValuationNotice";
 import { compact, num, usd } from "@/lib/format";
 import { VALUATION_HINT, VALUATION_INFO, usdEstSum } from "@/lib/valuation";
 import { fetchDataset } from "@/lib/supabase";
@@ -74,6 +75,10 @@ export default async function Home() {
         />
       </div>
 
+      <div className="mb-5">
+        <ValuationNotice compact />
+      </div>
+
       <div className="grid grid-cols-2 gap-5">
         <div className="card p-5">
           <div className="flex items-center justify-between mb-4">
@@ -103,6 +108,7 @@ export default async function Home() {
         <div className="card p-5">
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-[15px] font-semibold">Top marcas por pauta</h2>
+            <Link href="/marca" className="text-[12px] text-accent hover:underline">Reportes →</Link>
           </div>
           <TopBrandsTable brands={topBrands} />
         </div>

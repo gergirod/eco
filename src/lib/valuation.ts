@@ -7,20 +7,32 @@ export const VALUATION_CPM = 30;
 export const VALUATION_CPM_LOW = 25;
 export const VALUATION_CPM_HIGH = 35;
 
-export const VALUATION_HINT = `Estimado · CPM ref. USD ${VALUATION_CPM_LOW}–${VALUATION_CPM_HIGH} · no es lo que pagó la marca`;
+export const VALUATION_NOTICE_TITLE = "Qué significa la exposición en USD";
 
-export const VALUATION_INFO = `No es lo que la marca pagó ni facturación.
+export const VALUATION_BULLETS = {
+  what: "Es un benchmark estimado de exposición publicitaria. No es lo que la marca pagó, ni facturación, ni ventas atribuidas.",
+  measured:
+    "Medimos nosotros: espectadores conectados en el minuto exacto de la PNT, la cita textual en el transcript y el formato de la pauta (al pasar / lectura dedicada / con código).",
+  formula: `(concurrentes en vivo ÷ 1.000) × CPM de referencia × formato × sentimiento`,
+  range: `Mostramos un rango (no un número fijo) usando CPM USD ${VALUATION_CPM_LOW}–${VALUATION_CPM_HIGH} por mil espectadores — punto medio ${VALUATION_CPM}. No hay tarifa pública única; el rango refleja esa incertidumbre.`,
+  source:
+    "Origen del CPM: calibración contra tarifas de mercado de PNT en shows top (~USD 3.000 por aparición) y benchmarks globales de host-read en vivo (USD 25–40). No usamos CPM de streaming programático (pre-roll, USD 10–20). Ver MODELO-VALORIZACION.md.",
+} as const;
 
-Es un benchmark estimado: cuánto valdría esa aparición si la compraras hoy al precio de referencia del streaming en vivo (host-read / integración en canal).
+export const VALUATION_HINT = `Estimado · rango CPM USD ${VALUATION_CPM_LOW}–${VALUATION_CPM_HIGH} · no es lo que pagó la marca`;
 
-Fórmula: (personas mirando en el minuto exacto ÷ 1.000) × CPM × formato de pauta × sentimiento.
+export const VALUATION_INFO = `${VALUATION_BULLETS.what}
 
-Mostramos un rango (USD ${VALUATION_CPM_LOW}–${VALUATION_CPM_HIGH} por mil espectadores) porque no hay tarifa pública única: el streaming programático ronda USD 10–20, pero una PNT leída en vivo en show top calibra ~USD 30–33 contra tarifas de ~USD 3.000 por aparición.
+${VALUATION_BULLETS.measured}
 
-Medimos la audiencia real del minuto (no el promedio del programa).`;
+Fórmula: ${VALUATION_BULLETS.formula}
+
+${VALUATION_BULLETS.range}
+
+${VALUATION_BULLETS.source}`;
 
 export const VALUATION_INFO_SHORT =
-  "Exposición estimada en rango. No es facturación ni lo que pagó el anunciante.";
+  "Benchmark en rango. No es facturación ni lo que pagó el anunciante.";
 
 /** Convierte valor calculado al CPM medio → rango min/max. */
 export function exposureRange(valueMid: number) {
