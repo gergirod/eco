@@ -4,7 +4,7 @@ import { PageHeader, Stat, Badge, Bar } from "@/components/ui";
 import BrandPicker from "@/components/BrandPicker";
 import { usd, num, compact, fmtHMS } from "@/lib/format";
 import { PROMINENCE_BAR, PROMINENCE_TONE, prominenceLabel } from "@/lib/prominence";
-import { VALUATION_HINT, VALUATION_INFO, VALUATION_INFO_SHORT } from "@/lib/valuation";
+import { VALUATION_HINT, VALUATION_INFO, VALUATION_INFO_SHORT, usdEst } from "@/lib/valuation";
 import InfoTip from "@/components/InfoTip";
 import { useDataset } from "@/lib/useDataset";
 import reportsFb from "@/data/reports.json";
@@ -52,7 +52,7 @@ function EvolutionChart({ series }: { series: any[] }) {
               fill="#2f5fe0"
               opacity={0.85}
             >
-              <title>{`${s.date} · ${s.mentions} menciones · ${usd(s.value_usd)}`}</title>
+              <title>{`${s.date} · ${s.mentions} menciones · ${usdEst(s.value_usd)}`}</title>
             </rect>
             {n <= 16 && (
               <text
@@ -185,7 +185,7 @@ export default function MarcaDashboard() {
         <p className="text-[15px] leading-relaxed text-gray-700 max-w-[820px]">
           <b>{r.name}</b> acumula <b>{num(r.mentions)}</b> lecturas de pauta (PNT) en{" "}
           <b>{programs}</b> programas across <b>{r.channels.length}</b> streams, con exposición total de{" "}
-          <b>{usd(r.value_usd)}</b> de exposición estimada ({VALUATION_INFO_SHORT.toLowerCase()}).{" "}
+          <b>{usdEst(r.value_usd)}</b> de exposición estimada ({VALUATION_INFO_SHORT.toLowerCase()}).{" "}
           {best && (
             <>
               El momento más fuerte: <b>{best.channel_name}</b> el {best.date}
@@ -193,10 +193,10 @@ export default function MarcaDashboard() {
                 <>
                   {" "}
                   — <b>{compact(best.conc_at)}</b> mirando en vivo en el minuto exacto (
-                  {usd(best.value_usd)})
+                  {usdEst(best.value_usd)})
                 </>
               ) : (
-                <> ({usd(best.value_usd)})</>
+                <> ({usdEst(best.value_usd)})</>
               )}
               . Mayor presencia en <b>{topChannel}</b>.
             </>
@@ -214,7 +214,7 @@ export default function MarcaDashboard() {
         />
         <Stat
           label="Exposición estimada"
-          value={usd(r.value_usd)}
+          value={usdEst(r.value_usd)}
           hint={VALUATION_HINT}
           info={VALUATION_INFO}
         />
@@ -262,7 +262,7 @@ export default function MarcaDashboard() {
                   <span className="text-gray-400 tabular-nums">{v.mentions}</span>
                 </div>
                 <Bar value={v.mentions} max={maxCh} />
-                <div className="text-[11px] text-gray-400 mt-0.5">{usd(v.value)}</div>
+                <div className="text-[11px] text-gray-400 mt-0.5">{usdEst(v.value)}</div>
               </div>
             ))}
           </div>
@@ -328,7 +328,7 @@ export default function MarcaDashboard() {
                     <td className="text-right tabular-nums">
                       {d.conc_at ? compact(d.conc_at) : <span className="text-gray-300">—</span>}
                     </td>
-                    <td className="text-right tabular-nums text-gray-500">{usd(d.value_usd)}</td>
+                    <td className="text-right tabular-nums text-gray-500 text-[12px]">{usdEst(d.value_usd)}</td>
                     <td>
                       <a
                         href={tsLink(d.video_id, d.t_seconds)}

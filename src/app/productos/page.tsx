@@ -3,6 +3,7 @@ import { useState, useMemo } from "react";
 import Link from "next/link";
 import { PageHeader, Badge } from "@/components/ui";
 import { usd, num } from "@/lib/format";
+import { usdEst } from "@/lib/valuation";
 import { useDataset } from "@/lib/useDataset";
 import brandsFb from "@/data/brands.json";
 import productsFb from "@/data/products.json";
@@ -105,7 +106,7 @@ export default function Catalogo() {
                 <td className="text-gray-400 text-[12px] whitespace-nowrap">{x.first_seen} – {x.last_seen}</td>
                 {tab === "anunciantes" && (
                   <>
-                    <td className="text-right tabular-nums text-gray-500">{usd(x.value_usd)}</td>
+                    <td className="text-right tabular-nums text-gray-500 text-[12px]">{usdEst(x.value_usd, true)}</td>
                     <td>
                       <Link href={`/marca?brand=${x.slug}`} className="text-accent text-[12px] hover:underline whitespace-nowrap">
                         reporte →

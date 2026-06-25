@@ -2,6 +2,29 @@
 // Se abre en una ventana nueva y se dispara window.print() → "Guardar como PDF".
 
 const usd = (n: number) => "US$ " + Math.round(n || 0).toLocaleString("es-AR");
+const CPM_LOW = 25;
+const CPM_MID = 30;
+const CPM_HIGH = 35;
+function usdEst(n: number): string {
+  const mid = Math.max(0, n || 0);
+  if (mid <= 0) return "≈ US$ 0";
+  const min = Math.round(mid * (CPM_LOW / CPM_MID));
+  const max = Math.round(mid * (CPM_HIGH / CPM_MID));
+  if (min === max) return `≈ ${usd(mid)}`;
+  return `≈ ${usd(min)} – ${usd(max)}`;
+}
+function usdEstSum(values: number[]): string {
+  let min = 0, max = 0, mid = 0;
+  for (const v of values) {
+    const m = Math.max(0, v || 0);
+    min += Math.round(m * (CPM_LOW / CPM_MID));
+    max += Math.round(m * (CPM_HIGH / CPM_MID));
+    mid += Math.round(m);
+  }
+  if (mid <= 0) return "≈ US$ 0";
+  if (min === max) return `≈ ${usd(mid)}`;
+  return `≈ ${usd(min)} – ${usd(max)}`;
+}
 const num = (n: number) => (n ?? 0).toLocaleString("es-AR");
 const compact = (n: number) => {
   if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace(".0", "") + "M";
@@ -151,13 +174,13 @@ function mentionCard(d: any, chName: Record<string, string>, featured: boolean):
     ? `<div class="calc">
         <div class="calc-title">Qué significa esta exposición</div>
         <p class="calc-lead">Tu marca estuvo <b>al aire ante ${conc} personas mirando en vivo al mismo tiempo</b>${d.conc_at ? venueLine(d.conc_at) : ""}</p>
-        <div class="calc-equiv">Valor de pauta equivalente: <b>≈ ${usd(d.value_usd)}</b> <span>— referencia de mercado (lente A: audiencia al minuto × CPM × formato × sentimiento). No es facturación ni ventas.</span></div>
+        <div class="calc-equiv">Exposición estimada: <b>${usdEst(d.value_usd)}</b> <span>— benchmark (audiencia al minuto × CPM USD ${CPM_LOW}–${CPM_HIGH} × formato × sentimiento). No es facturación ni ventas.</span></div>
         <div class="calc-roi">
           <div><span class="roi-yes">Verificable</span>cita contrastada con la transcripción · ${vodA || `minuto ${ts}`}${d.precise ? "" : " (aprox.)"}.</div>
           ${code ? `<div><span class="roi-yes">Atribución</span>lectura con código <b>${esc(code)}</b> — compras con ese código son atribuibles a esta aparición.</div>` : `<div><span class="roi-yes">Medición</span>quién te vio, en qué minuto exacto, ante cuánta gente y qué se dijo al aire.</div>`}
         </div>
       </div>`
-    : `<div class="calc-equiv" style="margin-top:14px">Exposición: <b>≈ ${usd(d.value_usd)}</b> <span>· ${conc} en vivo · ${vodA || ts}</span></div>`;
+    : `<div class="calc-equiv" style="margin-top:14px">Exposición: <b>${usdEst(d.value_usd)}</b> <span>· ${conc} en vivo · ${vodA || ts}</span></div>`;
 
   return `<div class="card${featured ? "" : " compact"}">
     <span class="tag ${tag.cls}">${esc(tag.label)}</span>
@@ -214,7 +237,7 @@ export function buildReportHTML(
 
   const summaryBar =
     r.mentions > 1
-      ? `<div class="summary-bar"><span><b>${num(r.mentions)}</b> PNT verificadas</span><span><b>${ctx.programs}</b> programas</span><span><b>${channelsLabel || ctx.topChannel}</b></span><span>Exposición total <b>${usd(r.value_usd)}</b></span></div>`
+      ? `<div class="summary-bar"><span><b>${num(r.mentions)}</b> PNT verificadas</span><span><b>${ctx.programs}</b> programas</span><span><b>${channelsLabel || ctx.topChannel}</b></span><span>Exposición <b>${usdEst(r.value_usd)}</b></span></div>`
       : "";
 
   return `<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
@@ -239,7 +262,7 @@ export function buildReportHTML(
     <div class="hero-grid">
       <div class="stat paid"><div class="n">${heroConc}</div><div class="l">mirando en vivo en el minuto de la aparición más fuerte</div></div>
       <div class="stat"><div class="n">${heroPeak !== "—" ? heroPeak : num(r.mentions)}</div><div class="l">${heroPeak !== "—" ? "pico de espectadores simultáneos" : "lecturas de pauta (PNT)"}</div></div>
-      <div class="stat"><div class="n">${usd(r.value_usd)}</div><div class="l">exposición total estimada (lente A)</div></div>
+      <div class="stat"><div class="n">${usdEst(r.value_usd)}</div><div class="l">exposición estimada (rango CPM ref.)</div></div>
     </div>
   </div>
 
@@ -252,7 +275,7 @@ export function buildReportHTML(
   </div>
 
   <div class="foot">
-    <p><b>Cómo se mide.</b> Solo lecturas de pauta verificadas (menciones_patrocinadas + cita en transcript). La audiencia es la cantidad real de espectadores conectados en vivo en ese minuto exacto. El valor de pauta equivalente usa lente A (MODELO-VALORIZACION): audiencia al minuto × CPM × formato de pauta × sentimiento. <b>No es facturación ni ventas atribuidas.</b></p>
+    <p><b>Cómo se mide.</b> Solo lecturas de pauta verificadas (menciones_patrocinadas + cita en transcript). La audiencia es la cantidad real de espectadores conectados en vivo en ese minuto exacto. La exposición se muestra como rango estimado (CPM de referencia USD ${CPM_LOW}–${CPM_HIGH} por mil espectadores × formato × sentimiento). <b>No es facturación ni ventas atribuidas.</b></p>
     <p>Generado por Eco · ${today} · Inteligencia de exposición de marca en streaming argentino en vivo (Olga, Luzu, Bondi, Blender).</p>
   </div>
 </div>

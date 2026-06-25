@@ -2,7 +2,7 @@ import Link from "next/link";
 import { PageHeader, Stat, Bar } from "@/components/ui";
 import TopBrandsTable from "@/components/TopBrandsTable";
 import { compact, num, usd } from "@/lib/format";
-import { VALUATION_HINT, VALUATION_INFO } from "@/lib/valuation";
+import { VALUATION_HINT, VALUATION_INFO, usdEstSum } from "@/lib/valuation";
 import { fetchDataset } from "@/lib/supabase";
 import metaFb from "@/data/meta.json";
 import channelsFb from "@/data/channels.json";
@@ -41,7 +41,7 @@ export default async function Home() {
   const withData = channels.filter((c: any) => c.has_data);
   const maxViews = Math.max(...benchmark.map((b: any) => b.vod_views), 1);
   const nPauta = meta.n_pauta_mentions ?? reportList.reduce((a, r) => a + r.mentions, 0);
-  const totalExposure = reportList.reduce((a, r) => a + (r.value_usd || 0), 0);
+  const exposureValues = reportList.map((r: any) => r.value_usd || 0);
   const topBrands = [...reportList]
     .sort((a, b) => b.mentions - a.mentions)
     .map((b: any) => ({
@@ -68,7 +68,7 @@ export default async function Home() {
         />
         <Stat
           label="Exposición estimada"
-          value={usd(totalExposure)}
+          value={usdEstSum(exposureValues)}
           hint={VALUATION_HINT}
           info={VALUATION_INFO}
         />

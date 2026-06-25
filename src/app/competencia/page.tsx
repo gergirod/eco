@@ -4,6 +4,7 @@ import Link from "next/link";
 import { PageHeader, Badge, Bar, Stat } from "@/components/ui";
 import BrandPicker from "@/components/BrandPicker";
 import { usd, num, compact } from "@/lib/format";
+import { usdEst } from "@/lib/valuation";
 import { useDataset } from "@/lib/useDataset";
 import brandsFb from "@/data/brands.json";
 import channelsFb from "@/data/channels.json";
@@ -97,7 +98,7 @@ export default function Competencia() {
               <div key={b.slug}>
                 <div className="flex justify-between text-[13px] mb-1">
                   <span className="font-medium">{b.name}</span>
-                  <span className="tabular-nums text-gray-500">{usd(b.value_usd)}</span>
+                  <span className="tabular-nums text-gray-500 text-[12px]">{usdEst(b.value_usd, true)}</span>
                 </div>
                 <Bar value={b.value_usd} max={maxV} tone={PALETTE[i % PALETTE.length]} />
               </div>
@@ -140,7 +141,7 @@ export default function Competencia() {
                   </td>
                 ))}
                 <td className="text-right tabular-nums">{num(b.mentions)}</td>
-                <td className="text-right tabular-nums text-gray-500">{usd(b.value_usd)}</td>
+                <td className="text-right tabular-nums text-gray-500 text-[12px]">{usdEst(b.value_usd, true)}</td>
               </tr>
             ))}
           </tbody>

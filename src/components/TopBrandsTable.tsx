@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Badge } from "@/components/ui";
 import InfoTip from "@/components/InfoTip";
 import { usd } from "@/lib/format";
-import { VALUATION_INFO, VALUATION_INFO_SHORT } from "@/lib/valuation";
+import { VALUATION_INFO, VALUATION_INFO_SHORT, usdEst } from "@/lib/valuation";
 
 const PREVIEW = 8;
 
@@ -34,7 +34,7 @@ export default function TopBrandsTable({
               </td>
               <td className="text-gray-400 text-right tabular-nums">{b.mentions} PNT</td>
               <td className="text-right">
-                <Badge tone="blue">{usd(b.value_usd)}</Badge>
+                <Badge tone="blue">{usdEst(b.value_usd, true)}</Badge>
               </td>
             </tr>
           ))}
