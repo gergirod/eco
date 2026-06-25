@@ -7,6 +7,7 @@ const NAV = [
   { href: "/", label: "Resumen", icon: "◇" },
   { href: "/backoffice", label: "Backoffice · Runs", icon: "▤", group: "Operación" },
   { href: "/marca", label: "Reportes de marca", icon: "◉", group: "Venta · entregable" },
+  { href: "/certificado", label: "Certificados de emisión", icon: "◎", group: "Venta · entregable" },
   { href: "/competencia", label: "Competencia", icon: "⇄" },
   { href: "/mediakit", label: "Media Kit por canal", icon: "▣" },
   { href: "/audiencia", label: "Audiencia", icon: "◔", group: "Contexto · defensa CPM" },

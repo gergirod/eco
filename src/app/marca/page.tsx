@@ -13,6 +13,7 @@ import channelsFb from "@/data/channels.json";
 import momentsFb from "@/data/moments.json";
 import metaFb from "@/data/meta.json";
 import { buildReportHTML } from "@/lib/report";
+import { calcEfficiency, loadInversion, saveInversion } from "@/lib/efficiency";
 import MomentModal from "@/components/MomentModal";
 
 function tsLink(videoId: string, seconds: number) {
@@ -123,11 +124,16 @@ export default function MarcaDashboard() {
     [options]
   );
   const [brand, setBrand] = useState(options[0]?.slug || "");
+  const [inversion, setInversion] = useState<number | "">("");
   // permite llegar desde el Media Kit con ?brand=<slug>
   useEffect(() => {
     const q = new URLSearchParams(window.location.search).get("brand");
     if (q && (reports as any)[q]) setBrand(q);
   }, [reports]);
+  useEffect(() => {
+    const saved = loadInversion(brand);
+    setInversion(saved ?? "");
+  }, [brand]);
   const r: any = (reports as any)[brand] || (reports as any)[options[0]?.slug];
 
   const byChannel = useMemo(() => {
@@ -149,7 +155,8 @@ export default function MarcaDashboard() {
   const topChannel = byChannel[0] ? CH_NAME[byChannel[0][0]] || byChannel[0][0] : "—";
 
   function downloadPDF() {
-    const html = buildReportHTML(r, { reach, programs, topChannel, chName: CH_NAME });
+    const inv = typeof inversion === "number" && inversion > 0 ? inversion : null;
+    const html = buildReportHTML(r, { reach, programs, topChannel, chName: CH_NAME, inversionUsd: inv });
     const w = window.open("", "_blank");
     if (!w) return;
     w.document.write(html);
@@ -157,6 +164,12 @@ export default function MarcaDashboard() {
     w.focus();
     setTimeout(() => w.print(), 350);
   }
+
+  const efficiency = useMemo(() => {
+    const inv = typeof inversion === "number" && inversion > 0 ? inversion : null;
+    if (!inv) return null;
+    return calcEfficiency(inv, r.value_usd || 0, r.mentions || 0);
+  }, [inversion, r]);
 
   return (
     <div>
@@ -223,6 +236,53 @@ export default function MarcaDashboard() {
 
       <div className="mb-5">
         <ValuationNotice />
+      </div>
+
+      {/* Capa 1.5 — inversión declarada (opcional, solo producto marca) */}
+      <div className="card p-5 mb-5">
+        <div className="flex items-baseline justify-between gap-4 mb-2">
+          <h2 className="text-[15px] font-semibold">¿Valió la pena? · Inversión declarada</h2>
+          <span className="text-[11px] text-gray-400">Opcional · solo en PDF marca</span>
+        </div>
+        <p className="text-[13px] text-gray-500 mb-3 max-w-[720px]">
+          Si el cliente comparte cuánto pagó por la pauta, comparamos contra la exposición medida (benchmark).
+          No inferimos precios — el número lo carga el usuario.
+        </p>
+        <div className="flex items-center gap-3 flex-wrap">
+          <label className="text-[13px] text-gray-600">
+            Inversión total declarada (USD)
+            <input
+              type="number"
+              min={0}
+              step={100}
+              placeholder="ej. 15000"
+              value={inversion}
+              onChange={(e) => {
+                const v = e.target.value === "" ? "" : Number(e.target.value);
+                setInversion(v);
+                if (typeof v === "number" && v > 0) saveInversion(brand, v);
+                else saveInversion(brand, null);
+              }}
+              className="block mt-1 w-44 px-3 py-2 border border-[#ececec] rounded-lg text-[14px]"
+            />
+          </label>
+          {efficiency && (
+            <div
+              className={`flex-1 min-w-[240px] rounded-lg px-4 py-3 text-[13px] leading-relaxed ${
+                efficiency.verdict === "strong"
+                  ? "bg-green-50 text-green-900 border border-green-100"
+                  : efficiency.verdict === "weak"
+                    ? "bg-amber-50 text-amber-900 border border-amber-100"
+                    : "bg-blue-50 text-blue-900 border border-blue-100"
+              }`}
+            >
+              <b>{efficiency.headline}</b>
+              <div className="text-[12px] mt-1 opacity-90">
+                {efficiency.bullets[1]} · {efficiency.bullets[2]}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
 
       {/* evolución + desgloses */}

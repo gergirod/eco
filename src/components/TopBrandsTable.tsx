@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import { Badge } from "@/components/ui";
-import { VALUATION_BULLETS } from "@/lib/valuation";
 import InfoTip from "@/components/InfoTip";
 import { usd } from "@/lib/format";
 import { VALUATION_INFO, VALUATION_BULLETS, usdEst } from "@/lib/valuation";

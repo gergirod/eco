@@ -1,6 +1,8 @@
 // Genera el reporte de marca como HTML branded (mismo look que los one-pagers de outreach).
 // Se abre en una ventana nueva y se dispara window.print() → "Guardar como PDF".
 
+import { calcEfficiency, efficiencyHtmlBlock } from "@/lib/efficiency";
+
 const usd = (n: number) => "US$ " + Math.round(n || 0).toLocaleString("es-AR");
 const CPM_LOW = 25;
 const CPM_MID = 30;
@@ -113,6 +115,11 @@ const REPORT_CSS = `
   .method-row:last-child{margin-bottom:0}
   .method-row b{flex:0 0 118px;color:#292524;font-size:12px}
   .method-row span{flex:1}
+  .efficiency{margin:8px 0 24px;padding:18px 22px;border-radius:12px}
+  .efficiency h4{font-size:13px;text-transform:uppercase;letter-spacing:.06em;margin-bottom:10px}
+  .eff-lead{font-size:15px;color:#26433c;margin-bottom:12px;line-height:1.5}
+  .eff-list{margin:0 0 12px 18px;font-size:13px;color:#3a4853;line-height:1.55}
+  .eff-note{font-size:11.5px;color:var(--muted);line-height:1.45}
   .foot{padding:20px 40px 30px;border-top:1px solid var(--line);font-size:12px;color:var(--muted)}
   .foot b{color:var(--ink)}
   .foot p{margin-bottom:8px;line-height:1.5}
@@ -206,7 +213,13 @@ function mentionCard(d: any, chName: Record<string, string>, featured: boolean):
 
 export function buildReportHTML(
   r: any,
-  ctx: { reach: number; programs: number; topChannel: string; chName: Record<string, string> }
+  ctx: {
+    reach: number;
+    programs: number;
+    topChannel: string;
+    chName: Record<string, string>;
+    inversionUsd?: number | null;
+  }
 ): string {
   const best = r.best;
   const today = new Date().toLocaleDateString("es-AR");
@@ -245,6 +258,14 @@ export function buildReportHTML(
   const summaryBar =
     r.mentions > 1
       ? `<div class="summary-bar"><span><b>${num(r.mentions)}</b> PNT verificadas</span><span><b>${ctx.programs}</b> programas</span><span><b>${channelsLabel || ctx.topChannel}</b></span><span>Exposición <b>${usdEst(r.value_usd)}</b></span></div>`
+      : "";
+
+  const efficiency =
+    ctx.inversionUsd && ctx.inversionUsd > 0
+      ? (() => {
+          const e = calcEfficiency(ctx.inversionUsd, r.value_usd || 0, r.mentions || 0);
+          return e ? efficiencyHtmlBlock(e) : "";
+        })()
       : "";
 
   const methodologyBox = `<div class="method-box">
@@ -287,6 +308,7 @@ export function buildReportHTML(
     ${summaryBar}
     ${featuredHtml}
     ${insight}
+    ${efficiency}
     ${restHtml}
     ${methodologyBox}
   </div>

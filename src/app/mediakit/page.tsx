@@ -64,6 +64,18 @@ export default function MediaKitPage() {
         <Stat label="Anunciantes (PNT)" value={num(b?.n_brands_live ?? ch.stats.brands_detected)} hint="marcas que ya pautaron" />
       </div>
 
+      <div className="mb-5 flex flex-wrap gap-2">
+        <a
+          href={`/certificado?channel=${ch.id}`}
+          className="btn btn-primary text-[13px]"
+        >
+          Certificados de emisión →
+        </a>
+        <span className="text-[12px] text-gray-400 self-center">
+          PDF por programa y por marca — prueba de entrega para el comercial del canal.
+        </span>
+      </div>
+
       <div className="grid grid-cols-[1fr_1fr] gap-5">
         {/* social proof: marcas que ya aparecieron */}
         <div className="card p-5">
