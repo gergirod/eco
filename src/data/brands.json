@@ -109,16 +109,16 @@
  {
   "slug": "skip",
   "name": "Skip",
-  "mentions": 7,
+  "mentions": 6,
   "channels": [
    "luzu",
    "olga"
   ],
   "n_channels": 2,
-  "n_videos": 4,
-  "first_seen": "09/06/2026",
+  "n_videos": 3,
+  "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 6201.0,
+  "value_usd": 5241.0,
   "samples": [
    {
     "channel": "olga",
@@ -179,26 +179,16 @@
     "minute": "02:12:47",
     "views": 137091,
     "conc_at": 75061
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "09/06/2026",
-    "video_id": "cH7UROOHpGI",
-    "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
-    "minute": "01:46:29",
-    "views": 208630,
-    "conc_at": 33144
    }
   ],
   "kind": "marca",
-  "n_activations": 7,
-  "n_programs": 4,
+  "n_activations": 6,
+  "n_programs": 3,
   "peak_conc_at": 75404,
   "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 7 activaciones en 4 programas y 2 canales — 7 con evidencia completa y 0 con evidencia parcial.",
+  "confidence_reason": "Evidencia densa en streaming: 6 activaciones en 3 programas y 2 canales — 6 con evidencia completa y 0 con evidencia parcial.",
   "evidence_summary": {
-   "verified": 7,
+   "verified": 6,
    "partial": 0,
    "insufficient": 0
   }
@@ -206,15 +196,15 @@
  {
   "slug": "geniol",
   "name": "Geniol",
-  "mentions": 7,
+  "mentions": 6,
   "channels": [
    "olga"
   ],
   "n_channels": 1,
-  "n_videos": 5,
-  "first_seen": "09/06/2026",
+  "n_videos": 4,
+  "first_seen": "19/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 5933.0,
+  "value_usd": 4324.0,
   "samples": [
    {
     "channel": "olga",
@@ -269,16 +259,6 @@
    {
     "channel": "olga",
     "channel_name": "OLGA",
-    "date": "09/06/2026",
-    "video_id": "cH7UROOHpGI",
-    "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
-    "minute": "00:57:33",
-    "views": 208630,
-    "conc_at": 36122
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
     "date": "19/06/2026",
     "video_id": "XHV2BV9DWMs",
     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
@@ -288,13 +268,13 @@
    }
   ],
   "kind": "marca",
-  "n_activations": 7,
-  "n_programs": 5,
+  "n_activations": 6,
+  "n_programs": 4,
   "peak_conc_at": 42582,
   "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 7 activaciones en 5 programas y 1 canales — 6 con evidencia completa y 1 con evidencia parcial.",
+  "confidence_reason": "Evidencia densa en streaming: 6 activaciones en 4 programas y 1 canales — 5 con evidencia completa y 1 con evidencia parcial.",
   "evidence_summary": {
-   "verified": 6,
+   "verified": 5,
    "partial": 1,
    "insufficient": 0
   }
@@ -382,83 +362,6 @@
   "confidence_reason": "Evidencia densa en streaming: 6 activaciones en 4 programas y 2 canales — 6 con evidencia completa y 0 con evidencia parcial.",
   "evidence_summary": {
    "verified": 6,
-   "partial": 0,
-   "insufficient": 0
-  }
- },
- {
-  "slug": "dia",
-  "name": "Día",
-  "mentions": 5,
-  "channels": [
-   "luzu",
-   "olga"
-  ],
-  "n_channels": 2,
-  "n_videos": 5,
-  "first_seen": "09/06/2026",
-  "last_seen": "24/06/2026",
-  "value_usd": 15470.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "23/06/2026",
-    "video_id": "cHMIm1Fnig4",
-    "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
-    "minute": "01:24:26",
-    "views": 373638,
-    "conc_at": 237804
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:48:48",
-    "views": 73490,
-    "conc_at": 43257
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "24/06/2026",
-    "video_id": "kDbkbzy_ASA",
-    "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
-    "minute": "00:50:48",
-    "views": 28305,
-    "conc_at": 21235
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "09/06/2026",
-    "video_id": "cH7UROOHpGI",
-    "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
-    "minute": "01:20:17",
-    "views": 208630,
-    "conc_at": 40916
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "19/06/2026",
-    "video_id": "XHV2BV9DWMs",
-    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "minute": "01:20:52",
-    "views": 39368,
-    "conc_at": 41872
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 5,
-  "n_programs": 5,
-  "peak_conc_at": 237804,
-  "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 5 activaciones en 5 programas y 2 canales — 5 con evidencia completa y 0 con evidencia parcial.",
-  "evidence_summary": {
-   "verified": 5,
    "partial": 0,
    "insufficient": 0
   }
@@ -591,6 +494,73 @@
   "peak_conc_at": 49510,
   "confidence_tier": "high_confidence",
   "confidence_reason": "Evidencia densa en streaming: 4 activaciones en 3 programas y 2 canales — 4 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 4,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "dia",
+  "name": "Día",
+  "mentions": 4,
+  "channels": [
+   "luzu",
+   "olga"
+  ],
+  "n_channels": 2,
+  "n_videos": 4,
+  "first_seen": "19/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 14120.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "cHMIm1Fnig4",
+    "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+    "minute": "01:24:26",
+    "views": 373638,
+    "conc_at": 237804
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "02:48:48",
+    "views": 73490,
+    "conc_at": 43257
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "kDbkbzy_ASA",
+    "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
+    "minute": "00:50:48",
+    "views": 28305,
+    "conc_at": 21235
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "19/06/2026",
+    "video_id": "XHV2BV9DWMs",
+    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+    "minute": "01:20:52",
+    "views": 39368,
+    "conc_at": 41872
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 4,
+  "n_programs": 4,
+  "peak_conc_at": 237804,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 4 activaciones en 4 programas y 2 canales — 4 con evidencia completa y 0 con evidencia parcial.",
   "evidence_summary": {
    "verified": 4,
    "partial": 0,
@@ -3032,78 +3002,6 @@
   "n_activations": 1,
   "n_programs": 1,
   "peak_conc_at": 15215,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  }
- },
- {
-  "slug": "fravega",
-  "name": "Fravega",
-  "mentions": 1,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "09/06/2026",
-  "last_seen": "09/06/2026",
-  "value_usd": 1876.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "09/06/2026",
-    "video_id": "cH7UROOHpGI",
-    "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
-    "minute": "00:36:45",
-    "views": 208630,
-    "conc_at": 42107
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 42107,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  }
- },
- {
-  "slug": "sif-anti-mufa",
-  "name": "SIF anti-mufa",
-  "mentions": 1,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "09/06/2026",
-  "last_seen": "09/06/2026",
-  "value_usd": 1744.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "09/06/2026",
-    "video_id": "cH7UROOHpGI",
-    "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
-    "minute": "01:26:28",
-    "views": 208630,
-    "conc_at": 39150
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 39150,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {

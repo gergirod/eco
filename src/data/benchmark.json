@@ -7,7 +7,7 @@
   "avg_concurrent": 80437,
   "brands": 33,
   "mentions": 47,
-  "share_views": 69.4,
+  "share_views": 77.3,
   "n_brands_live": 33,
   "top_brands": [
    {
@@ -195,13 +195,13 @@
  {
   "id": "olga",
   "name": "Olga",
-  "videos": 12,
-  "vod_views": 600893,
-  "avg_concurrent": 27658,
-  "brands": 43,
-  "mentions": 77,
-  "share_views": 29.5,
-  "n_brands_live": 43,
+  "videos": 11,
+  "vod_views": 392263,
+  "avg_concurrent": 26661,
+  "brands": 41,
+  "mentions": 72,
+  "share_views": 21.4,
+  "n_brands_live": 41,
   "top_brands": [
    {
     "slug": "iol-inversiones",
@@ -212,8 +212,8 @@
    {
     "slug": "geniol",
     "name": "Geniol",
-    "mentions": 7,
-    "value_usd": 5933.0
+    "mentions": 6,
+    "value_usd": 4324.0
    },
    {
     "slug": "rexona",
@@ -222,22 +222,16 @@
     "value_usd": 1911.0
    },
    {
-    "slug": "dia",
-    "name": "Día",
-    "mentions": 4,
-    "value_usd": 4876.0
-   },
-   {
     "slug": "mcdonald-s",
     "name": "McDonald's",
     "mentions": 4,
     "value_usd": 1655.0
    },
    {
-    "slug": "skip",
-    "name": "Skip",
+    "slug": "dia",
+    "name": "Día",
     "mentions": 3,
-    "value_usd": 2977.0
+    "value_usd": 3526.0
    },
    {
     "slug": "cordoba-turismo",
@@ -250,6 +244,12 @@
     "name": "Green Life",
     "mentions": 3,
     "value_usd": 3696.0
+   },
+   {
+    "slug": "skip",
+    "name": "Skip",
+    "mentions": 2,
+    "value_usd": 2017.0
    },
    {
     "slug": "ypf",
@@ -393,7 +393,7 @@
   "avg_concurrent": 6867,
   "brands": 8,
   "mentions": 8,
-  "share_views": 1.1,
+  "share_views": 1.2,
   "n_brands_live": 8,
   "top_brands": [
    {

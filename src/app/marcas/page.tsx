@@ -12,7 +12,8 @@ import {
 } from "@/lib/discovery";
 import channelsBundle from "@/data/channels.json";
 
-const PREVIEW_COUNT = 3;
+const PREVIEW_COUNT = 9;
+const HEADLINE_BRAND_COUNT = 3;
 const PINNED_PREVIEW_SLUG = "iol-inversiones";
 
 const CH_NAME: Record<string, string> = Object.fromEntries(
@@ -60,7 +61,7 @@ function MarcasContent() {
   const previewSlugs = useMemo(() => previewItems.map((item) => item.slug), [previewItems]);
 
   const headline = useMemo(() => {
-    const shortNames = previewItems.map((item) => {
+    const shortNames = previewItems.slice(0, HEADLINE_BRAND_COUNT).map((item) => {
       if (item.slug === "iol-inversiones") return "IOL";
       return item.name.split(" ")[0];
     });

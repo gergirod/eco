@@ -1,22 +1,22 @@
 {
- "exported_at": "2026-06-25T21:32:43.352800+00:00",
- "n_videos": 27,
- "n_topics": 27,
+ "exported_at": "2026-06-25T22:55:22.145479+00:00",
+ "n_videos": 26,
+ "n_topics": 26,
  "n_topics_total": 91,
- "n_brands": 77,
- "n_products": 70,
- "n_pauta_mentions": 132,
- "n_moments": 24,
+ "n_brands": 75,
+ "n_products": 67,
+ "n_pauta_mentions": 127,
+ "n_moments": 23,
  "n_trends": 120,
  "cpm": 30.0,
  "peso_default": 0.3,
  "discovery": {
   "channels_covered": 3,
-  "hours_captured": 59.9,
+  "hours_captured": 58.1,
   "last_capture": "2026-06-25",
-  "programs_with_viewers": 27,
+  "programs_with_viewers": 26,
   "high_confidence_advertisers": 10,
   "emerging_confidence_advertisers": 13,
-  "activations_with_verified_evidence": 130
+  "activations_with_verified_evidence": 125
  }
 }

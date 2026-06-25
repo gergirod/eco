@@ -253,30 +253,24 @@
  },
  "skip": {
   "name": "Skip",
-  "mentions": 7,
+  "mentions": 6,
   "kind": "marca",
-  "value_usd": 6201.0,
+  "value_usd": 5241.0,
   "channels": [
    "luzu",
    "olga"
   ],
   "by_tier": {
    "1": 0,
-   "2": 7,
+   "2": 6,
    "3": 0
   },
   "by_sentiment": {
-   "positivo": 3,
+   "positivo": 2,
    "neutro": 0,
    "negativo": 4
   },
   "series": [
-   {
-    "date_iso": "20260609",
-    "date": "09/06/2026",
-    "mentions": 1,
-    "value_usd": 960.0
-   },
    {
     "date_iso": "20260623",
     "date": "23/06/2026",
@@ -452,58 +446,28 @@
     "has_chat": true,
     "evidence": "VERIFIED",
     "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "09/06/2026",
-    "date_iso": "20260609",
-    "video_id": "cH7UROOHpGI",
-    "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
-    "minute": "01:46:29",
-    "t_seconds": 6389,
-    "precise": true,
-    "views": 208630,
-    "value_usd": 960.0,
-    "quote": "Es el único jabón líquido diseñado para ciclos cortos de lavado que elimina suciedad y malos olores, incluso en ciclo de 15 minutos",
-    "tier": 2,
-    "tier_label": "Lectura dedicada",
-    "sentiment": "positivo",
-    "conc_at": 33144,
-    "retention_pct": null,
-    "chat_ratio": null,
-    "program_peak": 45000,
-    "has_chat": false,
-    "evidence": "VERIFIED",
-    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
    }
   ]
  },
  "geniol": {
   "name": "Geniol",
-  "mentions": 7,
+  "mentions": 6,
   "kind": "marca",
-  "value_usd": 5933.0,
+  "value_usd": 4324.0,
   "channels": [
    "olga"
   ],
   "by_tier": {
    "1": 1,
    "2": 5,
-   "3": 1
+   "3": 0
   },
   "by_sentiment": {
-   "positivo": 5,
+   "positivo": 4,
    "neutro": 1,
    "negativo": 1
   },
   "series": [
-   {
-    "date_iso": "20260609",
-    "date": "09/06/2026",
-    "mentions": 1,
-    "value_usd": 1609.0
-   },
    {
     "date_iso": "20260619",
     "date": "19/06/2026",
@@ -520,24 +484,24 @@
   "best": {
    "channel": "olga",
    "channel_name": "OLGA",
-   "date": "09/06/2026",
-   "date_iso": "20260609",
-   "video_id": "cH7UROOHpGI",
-   "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
-   "minute": "00:57:33",
-   "t_seconds": 3453,
+   "date": "23/06/2026",
+   "date_iso": "20260623",
+   "video_id": "q_clAienUJw",
+   "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+   "minute": "02:18:58",
+   "t_seconds": 8338,
    "precise": true,
-   "views": 208630,
-   "value_usd": 1609.0,
-   "quote": "Se entrega gratis en Pharma Olga, Bonplan 1631, para alivio de dolores",
-   "tier": 3,
-   "tier_label": "Con código o promo",
+   "views": 73490,
+   "value_usd": 1233.0,
+   "quote": "Porque hoy junto a Geniol tenemos un juego. Vieron la icónica cabeza de Geniol. Bueno, la tenemos acá con nosotros como ya la vieron.",
+   "tier": 2,
+   "tier_label": "Lectura dedicada",
    "sentiment": "positivo",
-   "conc_at": 36122,
+   "conc_at": 42582,
    "retention_pct": null,
-   "chat_ratio": null,
-   "program_peak": 45000,
-   "has_chat": false,
+   "chat_ratio": 0.0,
+   "program_peak": 49257,
+   "has_chat": true,
    "evidence": "VERIFIED",
    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
   },
@@ -685,30 +649,6 @@
     "has_chat": true,
     "evidence": "PARTIAL_EVIDENCE",
     "evidence_reason": "Evidencia parcial: cita en transcript; timestamp aproximado"
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "09/06/2026",
-    "date_iso": "20260609",
-    "video_id": "cH7UROOHpGI",
-    "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
-    "minute": "00:57:33",
-    "t_seconds": 3453,
-    "precise": true,
-    "views": 208630,
-    "value_usd": 1609.0,
-    "quote": "Se entrega gratis en Pharma Olga, Bonplan 1631, para alivio de dolores",
-    "tier": 3,
-    "tier_label": "Con código o promo",
-    "sentiment": "positivo",
-    "conc_at": 36122,
-    "retention_pct": null,
-    "chat_ratio": null,
-    "program_peak": 45000,
-    "has_chat": false,
-    "evidence": "VERIFIED",
-    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
    }
   ]
  },
@@ -910,198 +850,6 @@
     "retention_pct": 1.1,
     "chat_ratio": null,
     "program_peak": 243607,
-    "has_chat": false,
-    "evidence": "VERIFIED",
-    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
-   }
-  ]
- },
- "dia": {
-  "name": "Día",
-  "mentions": 5,
-  "kind": "marca",
-  "value_usd": 15470.0,
-  "channels": [
-   "luzu",
-   "olga"
-  ],
-  "by_tier": {
-   "1": 0,
-   "2": 1,
-   "3": 4
-  },
-  "by_sentiment": {
-   "positivo": 2,
-   "neutro": 3,
-   "negativo": 0
-  },
-  "series": [
-   {
-    "date_iso": "20260609",
-    "date": "09/06/2026",
-    "mentions": 1,
-    "value_usd": 1350.0
-   },
-   {
-    "date_iso": "20260619",
-    "date": "19/06/2026",
-    "mentions": 1,
-    "value_usd": 898.0
-   },
-   {
-    "date_iso": "20260623",
-    "date": "23/06/2026",
-    "mentions": 2,
-    "value_usd": 12521.0
-   },
-   {
-    "date_iso": "20260624",
-    "date": "24/06/2026",
-    "mentions": 1,
-    "value_usd": 701.0
-   }
-  ],
-  "best": {
-   "channel": "luzu",
-   "channel_name": "LUZU TV",
-   "date": "23/06/2026",
-   "date_iso": "20260623",
-   "video_id": "cHMIm1Fnig4",
-   "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
-   "minute": "01:24:26",
-   "t_seconds": 5066,
-   "precise": true,
-   "views": 373638,
-   "value_usd": 10594.0,
-   "quote": "Si querés maximizar el ahorro Te cuento que hoy es martes Y los campeones de la previa ahorran en día Es 20% de ahorro literal No tiene mínimo ni tiene tope Y pagás como querés. Muchas gracias a Día Por acompañarnos siempre",
-   "tier": 3,
-   "tier_label": "Con código o promo",
-   "sentiment": "positivo",
-   "conc_at": 237804,
-   "retention_pct": 0.1,
-   "chat_ratio": null,
-   "program_peak": 243607,
-   "has_chat": false,
-   "evidence": "VERIFIED",
-   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
-  },
-  "detail": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "24/06/2026",
-    "date_iso": "20260624",
-    "video_id": "kDbkbzy_ASA",
-    "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
-    "minute": "00:50:48",
-    "t_seconds": 3048,
-    "precise": true,
-    "views": 28305,
-    "value_usd": 701.0,
-    "quote": "No te duermas con estas ofertas súper despiertos hoy de las 17 hasta las 00 horas. Ofertas que no te dejan dormir hasta 2x1 en productos seleccionados en Día Online. Y a Día y pagando con billetera virtual tenés un 10% de descuento extra. Con Día llegás.",
-    "tier": 3,
-    "tier_label": "Con código o promo",
-    "sentiment": "neutro",
-    "conc_at": 21235,
-    "retention_pct": -0.7,
-    "chat_ratio": 0.87,
-    "program_peak": 21399,
-    "has_chat": true,
-    "evidence": "VERIFIED",
-    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "date_iso": "20260623",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:48:48",
-    "t_seconds": 10128,
-    "precise": true,
-    "views": 73490,
-    "value_usd": 1927.0,
-    "quote": "Hoy es martes y los campeones de la previa ahorramos en día Tenemos el cupón de la victoria 20% de ahorro, literal, amiga Lo mejor es que jugamos sin bar No tiene mínimo, no tiene tope y pagás como querés",
-    "tier": 3,
-    "tier_label": "Con código o promo",
-    "sentiment": "positivo",
-    "conc_at": 43257,
-    "retention_pct": 2.1,
-    "chat_ratio": 0.61,
-    "program_peak": 49257,
-    "has_chat": true,
-    "evidence": "VERIFIED",
-    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
-   },
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "23/06/2026",
-    "date_iso": "20260623",
-    "video_id": "cHMIm1Fnig4",
-    "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
-    "minute": "01:24:26",
-    "t_seconds": 5066,
-    "precise": true,
-    "views": 373638,
-    "value_usd": 10594.0,
-    "quote": "Si querés maximizar el ahorro Te cuento que hoy es martes Y los campeones de la previa ahorran en día Es 20% de ahorro literal No tiene mínimo ni tiene tope Y pagás como querés. Muchas gracias a Día Por acompañarnos siempre",
-    "tier": 3,
-    "tier_label": "Con código o promo",
-    "sentiment": "positivo",
-    "conc_at": 237804,
-    "retention_pct": 0.1,
-    "chat_ratio": null,
-    "program_peak": 243607,
-    "has_chat": false,
-    "evidence": "VERIFIED",
-    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "19/06/2026",
-    "date_iso": "20260619",
-    "video_id": "XHV2BV9DWMs",
-    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "minute": "01:20:52",
-    "t_seconds": 4852,
-    "precise": true,
-    "views": 39368,
-    "value_usd": 898.0,
-    "quote": "Estos productos de la mejor calidad y al mejor precio Fueron diseñados para ganar En cualquier mesa y los conseguís en día Porque los campeones de la previa Ahorramos en día Con día, llegás",
-    "tier": 2,
-    "tier_label": "Lectura dedicada",
-    "sentiment": "neutro",
-    "conc_at": 41872,
-    "retention_pct": -0.4,
-    "chat_ratio": 0.0,
-    "program_peak": 41988,
-    "has_chat": true,
-    "evidence": "VERIFIED",
-    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "09/06/2026",
-    "date_iso": "20260609",
-    "video_id": "cH7UROOHpGI",
-    "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
-    "minute": "01:20:17",
-    "t_seconds": 4817,
-    "precise": true,
-    "views": 208630,
-    "value_usd": 1350.0,
-    "quote": "Se promocionó con cupón de 20% descuento, invitación a unirse al canal de WhatsApp",
-    "tier": 3,
-    "tier_label": "Con código o promo",
-    "sentiment": "neutro",
-    "conc_at": 40916,
-    "retention_pct": null,
-    "chat_ratio": null,
-    "program_peak": 45000,
     "has_chat": false,
     "evidence": "VERIFIED",
     "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
@@ -1415,6 +1163,168 @@
     "chat_ratio": null,
     "program_peak": 40357,
     "has_chat": false,
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "dia": {
+  "name": "Día",
+  "mentions": 4,
+  "kind": "marca",
+  "value_usd": 14120.0,
+  "channels": [
+   "luzu",
+   "olga"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 1,
+   "3": 3
+  },
+  "by_sentiment": {
+   "positivo": 2,
+   "neutro": 2,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260619",
+    "date": "19/06/2026",
+    "mentions": 1,
+    "value_usd": 898.0
+   },
+   {
+    "date_iso": "20260623",
+    "date": "23/06/2026",
+    "mentions": 2,
+    "value_usd": 12521.0
+   },
+   {
+    "date_iso": "20260624",
+    "date": "24/06/2026",
+    "mentions": 1,
+    "value_usd": 701.0
+   }
+  ],
+  "best": {
+   "channel": "luzu",
+   "channel_name": "LUZU TV",
+   "date": "23/06/2026",
+   "date_iso": "20260623",
+   "video_id": "cHMIm1Fnig4",
+   "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+   "minute": "01:24:26",
+   "t_seconds": 5066,
+   "precise": true,
+   "views": 373638,
+   "value_usd": 10594.0,
+   "quote": "Si querés maximizar el ahorro Te cuento que hoy es martes Y los campeones de la previa ahorran en día Es 20% de ahorro literal No tiene mínimo ni tiene tope Y pagás como querés. Muchas gracias a Día Por acompañarnos siempre",
+   "tier": 3,
+   "tier_label": "Con código o promo",
+   "sentiment": "positivo",
+   "conc_at": 237804,
+   "retention_pct": 0.1,
+   "chat_ratio": null,
+   "program_peak": 243607,
+   "has_chat": false,
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "date_iso": "20260624",
+    "video_id": "kDbkbzy_ASA",
+    "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
+    "minute": "00:50:48",
+    "t_seconds": 3048,
+    "precise": true,
+    "views": 28305,
+    "value_usd": 701.0,
+    "quote": "No te duermas con estas ofertas súper despiertos hoy de las 17 hasta las 00 horas. Ofertas que no te dejan dormir hasta 2x1 en productos seleccionados en Día Online. Y a Día y pagando con billetera virtual tenés un 10% de descuento extra. Con Día llegás.",
+    "tier": 3,
+    "tier_label": "Con código o promo",
+    "sentiment": "neutro",
+    "conc_at": 21235,
+    "retention_pct": -0.7,
+    "chat_ratio": 0.87,
+    "program_peak": 21399,
+    "has_chat": true,
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "date_iso": "20260623",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "02:48:48",
+    "t_seconds": 10128,
+    "precise": true,
+    "views": 73490,
+    "value_usd": 1927.0,
+    "quote": "Hoy es martes y los campeones de la previa ahorramos en día Tenemos el cupón de la victoria 20% de ahorro, literal, amiga Lo mejor es que jugamos sin bar No tiene mínimo, no tiene tope y pagás como querés",
+    "tier": 3,
+    "tier_label": "Con código o promo",
+    "sentiment": "positivo",
+    "conc_at": 43257,
+    "retention_pct": 2.1,
+    "chat_ratio": 0.61,
+    "program_peak": 49257,
+    "has_chat": true,
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "date_iso": "20260623",
+    "video_id": "cHMIm1Fnig4",
+    "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+    "minute": "01:24:26",
+    "t_seconds": 5066,
+    "precise": true,
+    "views": 373638,
+    "value_usd": 10594.0,
+    "quote": "Si querés maximizar el ahorro Te cuento que hoy es martes Y los campeones de la previa ahorran en día Es 20% de ahorro literal No tiene mínimo ni tiene tope Y pagás como querés. Muchas gracias a Día Por acompañarnos siempre",
+    "tier": 3,
+    "tier_label": "Con código o promo",
+    "sentiment": "positivo",
+    "conc_at": 237804,
+    "retention_pct": 0.1,
+    "chat_ratio": null,
+    "program_peak": 243607,
+    "has_chat": false,
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "19/06/2026",
+    "date_iso": "20260619",
+    "video_id": "XHV2BV9DWMs",
+    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+    "minute": "01:20:52",
+    "t_seconds": 4852,
+    "precise": true,
+    "views": 39368,
+    "value_usd": 898.0,
+    "quote": "Estos productos de la mejor calidad y al mejor precio Fueron diseñados para ganar En cualquier mesa y los conseguís en día Porque los campeones de la previa Ahorramos en día Con día, llegás",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "neutro",
+    "conc_at": 41872,
+    "retention_pct": -0.4,
+    "chat_ratio": 0.0,
+    "program_peak": 41988,
+    "has_chat": true,
     "evidence": "VERIFIED",
     "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
    }
@@ -6736,160 +6646,6 @@
     "chat_ratio": 0.0,
     "program_peak": 15217,
     "has_chat": true,
-    "evidence": "VERIFIED",
-    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
-   }
-  ]
- },
- "fravega": {
-  "name": "Fravega",
-  "mentions": 1,
-  "kind": "marca",
-  "value_usd": 1876.0,
-  "channels": [
-   "olga"
-  ],
-  "by_tier": {
-   "1": 0,
-   "2": 0,
-   "3": 1
-  },
-  "by_sentiment": {
-   "positivo": 1,
-   "neutro": 0,
-   "negativo": 0
-  },
-  "series": [
-   {
-    "date_iso": "20260609",
-    "date": "09/06/2026",
-    "mentions": 1,
-    "value_usd": 1876.0
-   }
-  ],
-  "best": {
-   "channel": "olga",
-   "channel_name": "OLGA",
-   "date": "09/06/2026",
-   "date_iso": "20260609",
-   "video_id": "cH7UROOHpGI",
-   "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
-   "minute": "00:36:45",
-   "t_seconds": 2205,
-   "precise": true,
-   "views": 208630,
-   "value_usd": 1876.0,
-   "quote": "Este año hay mundial y en Fravega tenemos televisores de altas pulgadas con hasta 30% de descuento",
-   "tier": 3,
-   "tier_label": "Con código o promo",
-   "sentiment": "positivo",
-   "conc_at": 42107,
-   "retention_pct": null,
-   "chat_ratio": null,
-   "program_peak": 45000,
-   "has_chat": false,
-   "evidence": "VERIFIED",
-   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
-  },
-  "detail": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "09/06/2026",
-    "date_iso": "20260609",
-    "video_id": "cH7UROOHpGI",
-    "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
-    "minute": "00:36:45",
-    "t_seconds": 2205,
-    "precise": true,
-    "views": 208630,
-    "value_usd": 1876.0,
-    "quote": "Este año hay mundial y en Fravega tenemos televisores de altas pulgadas con hasta 30% de descuento",
-    "tier": 3,
-    "tier_label": "Con código o promo",
-    "sentiment": "positivo",
-    "conc_at": 42107,
-    "retention_pct": null,
-    "chat_ratio": null,
-    "program_peak": 45000,
-    "has_chat": false,
-    "evidence": "VERIFIED",
-    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
-   }
-  ]
- },
- "sif-anti-mufa": {
-  "name": "SIF anti-mufa",
-  "mentions": 1,
-  "kind": "marca",
-  "value_usd": 1744.0,
-  "channels": [
-   "olga"
-  ],
-  "by_tier": {
-   "1": 0,
-   "2": 0,
-   "3": 1
-  },
-  "by_sentiment": {
-   "positivo": 1,
-   "neutro": 0,
-   "negativo": 0
-  },
-  "series": [
-   {
-    "date_iso": "20260609",
-    "date": "09/06/2026",
-    "mentions": 1,
-    "value_usd": 1744.0
-   }
-  ],
-  "best": {
-   "channel": "olga",
-   "channel_name": "OLGA",
-   "date": "09/06/2026",
-   "date_iso": "20260609",
-   "video_id": "cH7UROOHpGI",
-   "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
-   "minute": "01:26:28",
-   "t_seconds": 5188,
-   "precise": true,
-   "views": 208630,
-   "value_usd": 1744.0,
-   "quote": "Se presentó el producto como solución para protegerse de la mufa, participante lo llevó en valija",
-   "tier": 3,
-   "tier_label": "Con código o promo",
-   "sentiment": "positivo",
-   "conc_at": 39150,
-   "retention_pct": null,
-   "chat_ratio": null,
-   "program_peak": 45000,
-   "has_chat": false,
-   "evidence": "VERIFIED",
-   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
-  },
-  "detail": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "09/06/2026",
-    "date_iso": "20260609",
-    "video_id": "cH7UROOHpGI",
-    "title": "ÉL FUE EL PRIMER AMOR DE ORIANA SABATINI | #SeríaIncreíble 9/6",
-    "minute": "01:26:28",
-    "t_seconds": 5188,
-    "precise": true,
-    "views": 208630,
-    "value_usd": 1744.0,
-    "quote": "Se presentó el producto como solución para protegerse de la mufa, participante lo llevó en valija",
-    "tier": 3,
-    "tier_label": "Con código o promo",
-    "sentiment": "positivo",
-    "conc_at": 39150,
-    "retention_pct": null,
-    "chat_ratio": null,
-    "program_peak": 45000,
-    "has_chat": false,
     "evidence": "VERIFIED",
     "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso y audiencia concurrente al instante"
    }
