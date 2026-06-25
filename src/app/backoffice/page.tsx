@@ -7,8 +7,10 @@ import OpsLogout from "@/components/OpsLogout";
 import RunsPanel from "@/components/backoffice/RunsPanel";
 import RunbookPanel from "@/components/backoffice/RunbookPanel";
 import CasosPanel from "@/components/backoffice/CasosPanel";
+import ResumenPanel from "@/components/backoffice/ResumenPanel";
 
 const TABS = [
+  { id: "resumen", label: "Resumen", sub: "Salud del pipeline y métricas operativas del corpus." },
   { id: "runs", label: "Runs", sub: "Canales, estado en vivo y disparar el pipeline." },
   { id: "runbook", label: "Runbook", sub: "Comandos para captura, pipeline y Supabase." },
   { id: "casos", label: "Casos de uso", sub: "Preguntas y respuestas por marca, agencia y canal." },
@@ -21,18 +23,27 @@ function BackofficeInner() {
   const router = useRouter();
   const tabParam = params.get("tab");
   const initial: TabId =
-    tabParam === "runbook" || tabParam === "casos" ? tabParam : "runs";
+    tabParam === "runs" || tabParam === "runbook" || tabParam === "casos"
+      ? tabParam
+      : "resumen";
   const [tab, setTab] = useState<TabId>(initial);
 
   useEffect(() => {
-    if (tabParam === "runbook" || tabParam === "casos" || tabParam === "runs") {
+    if (
+      tabParam === "resumen" ||
+      tabParam === "runs" ||
+      tabParam === "runbook" ||
+      tabParam === "casos"
+    ) {
       setTab(tabParam);
+    } else if (!tabParam) {
+      setTab("resumen");
     }
   }, [tabParam]);
 
   function selectTab(id: TabId) {
     setTab(id);
-    const url = id === "runs" ? "/backoffice" : `/backoffice?tab=${id}`;
+    const url = id === "resumen" ? "/backoffice" : `/backoffice?tab=${id}`;
     router.replace(url, { scroll: false });
   }
 
@@ -43,7 +54,7 @@ function BackofficeInner() {
       <div className="flex items-start justify-between gap-4 mb-4">
         <PageHeader
           title="Backoffice"
-          sub="Operación interna: runs, runbook y casos de uso comercial."
+          sub="Operación interna: resumen del corpus, runs, runbook y casos de uso."
         />
         <OpsLogout />
       </div>
@@ -67,6 +78,7 @@ function BackofficeInner() {
 
       <p className="text-[13px] text-gray-500 mb-5">{active.sub}</p>
 
+      {tab === "resumen" && <ResumenPanel />}
       {tab === "runs" && <RunsPanel />}
       {tab === "runbook" && <RunbookPanel />}
       {tab === "casos" && <CasosPanel />}

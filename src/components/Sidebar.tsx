@@ -11,7 +11,8 @@ const NAV_VISIBLE = [
 
 /**
  * Rutas ocultas del sidebar (activas por URL directa — restaurar en NAV_VISIBLE cuando corresponda):
- * / · /campaign · /marca · /certificado · /competencia · /mediakit · /audiencia · /productos · /tendencias
+ * /campaign · /marca · /certificado · /competencia · /mediakit · /audiencia · /productos · /tendencias
+ * / redirige a /discover
  */
 
 function fmtExport(iso: string) {
@@ -50,10 +51,12 @@ export default function Sidebar() {
   return (
     <aside className="w-[228px] shrink-0 border-r border-[#ececec] bg-white px-4 py-6 flex flex-col">
       <div className="px-2 mb-7">
-        <div className="text-[15px] font-semibold tracking-tight">Eco</div>
-        <div className="text-[11px] text-gray-400 mt-0.5">
-          Inteligencia comercial · streaming
-        </div>
+        <Link href="/discover" className="block hover:opacity-80 transition-opacity">
+          <div className="text-[15px] font-semibold tracking-tight">Eco</div>
+          <div className="text-[11px] text-gray-400 mt-0.5">
+            Inteligencia comercial · streaming
+          </div>
+        </Link>
       </div>
       <nav className="flex flex-col gap-0.5">
         {NAV_VISIBLE.map((n) => {
