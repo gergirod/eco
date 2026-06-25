@@ -13,7 +13,8 @@ import {
   formatScopePeriod,
 } from "@/lib/campaign";
 import type { DiscoveryAdvertiser } from "@/lib/discovery";
-import { compact, fmtHMS, num, usdEst, vodLink } from "@/lib/format";
+import { compact, fmtHMS, num, vodLink } from "@/lib/format";
+import { usdEst } from "@/lib/valuation";
 import { printCampaignReportPDF } from "@/lib/campaignReport";
 import { buildReportHTML } from "@/lib/report";
 import { PROMINENCE_BAR } from "@/lib/prominence";

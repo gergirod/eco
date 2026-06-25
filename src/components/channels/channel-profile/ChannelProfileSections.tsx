@@ -6,9 +6,9 @@ import { Badge, Bar, Stat } from "@/components/ui";
 import { evidenceLabel, evidenceTone } from "@/lib/campaign";
 import ProgramListCard from "@/components/programs/ProgramListCard";
 import type { ChannelBenchmark, ChannelProfile } from "@/lib/channelProfile";
-import { compact, num, usdEst, vodLink } from "@/lib/format";
+import { compact, num, vodLink } from "@/lib/format";
 import { PROMINENCE_BAR } from "@/lib/prominence";
-import { VALUATION_HINT, VALUATION_INFO } from "@/lib/valuation";
+import { VALUATION_HINT, VALUATION_INFO, usdEst } from "@/lib/valuation";
 import type { ChannelProfileTabId } from "./tabs";
 
 type Props = {
