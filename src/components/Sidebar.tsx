@@ -5,6 +5,7 @@ import metaFb from "@/data/meta.json";
 
 const NAV = [
   { href: "/", label: "Resumen", icon: "◇" },
+  { href: "/discover", label: "Discovery", icon: "◆", group: "Inteligencia comercial" },
   { href: "/backoffice", label: "Backoffice", icon: "▤", group: "Operación" },
   { href: "/campaign", label: "Campaign Intelligence", icon: "◈", group: "Venta · entregable" },
   { href: "/marca", label: "Reportes de marca", icon: "◉", group: "Venta · entregable" },
@@ -79,17 +80,19 @@ export default function Sidebar() {
         })}
       </nav>
       <div className="mt-auto px-2 pt-6">
-        <div className="text-[10px] text-gray-300 leading-relaxed">
-          UI interna · datos del pipeline.
-          {exported && (
-            <>
-              <br />
-              Export: {exported}
-            </>
-          )}
-          <br />
-          <span className="text-gray-400">Reportes = solo PNT verificada</span>
-        </div>
+        {!path.startsWith("/discover") && (
+          <div className="text-[10px] text-gray-300 leading-relaxed">
+            UI interna · datos del pipeline.
+            {exported && (
+              <>
+                <br />
+                Export: {exported}
+              </>
+            )}
+            <br />
+            <span className="text-gray-400">Reportes = solo PNT verificada</span>
+          </div>
+        )}
       </div>
     </aside>
   );
