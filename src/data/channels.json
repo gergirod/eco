@@ -59,9 +59,9 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 1,
-   "total_vod_views": 4326,
-   "avg_concurrent": 5808,
+   "videos_processed": 2,
+   "total_vod_views": 8110,
+   "avg_concurrent": 5054,
    "brands_detected": 0,
    "mentions": 0,
    "last_processed": "24/06/2026"
@@ -71,38 +71,38 @@
  {
   "id": "gelatina",
   "name": "Gelatina",
-  "url": "https://www.youtube.com/@gelatinaweb",
+  "url": "https://www.youtube.com/@SomosGelatina",
   "genre": "Política / cultura",
   "subscribers": "420K",
-  "enabled": false,
-  "handle_verified": false,
+  "enabled": true,
+  "handle_verified": true,
   "has_data": false,
   "stats": null,
-  "pipeline_status": "disponible"
+  "pipeline_status": "configurado"
  },
  {
   "id": "vorterix",
   "name": "Vorterix",
-  "url": "https://www.youtube.com/@vorterix",
+  "url": "https://www.youtube.com/@VorterixOficial",
   "genre": "Música / rock",
   "subscribers": "1.6M",
-  "enabled": false,
+  "enabled": true,
   "handle_verified": true,
   "has_data": false,
   "stats": null,
-  "pipeline_status": "disponible"
+  "pipeline_status": "configurado"
  },
  {
   "id": "urbana",
   "name": "Urbana Play",
-  "url": "https://www.youtube.com/@urbanaplayfm",
+  "url": "https://www.youtube.com/@UrbanaPlayFM",
   "genre": "Radio / talk",
   "subscribers": "390K",
-  "enabled": false,
-  "handle_verified": false,
+  "enabled": true,
+  "handle_verified": true,
   "has_data": false,
   "stats": null,
-  "pipeline_status": "disponible"
+  "pipeline_status": "configurado"
  },
  {
   "id": "carnaval",
@@ -122,11 +122,11 @@
   "url": "https://www.youtube.com/@NeuraMedia",
   "genre": "Actualidad / política",
   "subscribers": "520K",
-  "enabled": false,
-  "handle_verified": false,
+  "enabled": true,
+  "handle_verified": true,
   "has_data": false,
   "stats": null,
-  "pipeline_status": "disponible"
+  "pipeline_status": "configurado"
  },
  {
   "id": "lacasa",

@@ -7,7 +7,7 @@
   "avg_concurrent": 80437,
   "brands": 33,
   "mentions": 47,
-  "share_views": 70.0,
+  "share_views": 69.9,
   "n_brands_live": 33,
   "top_brands": [
    {
@@ -200,7 +200,7 @@
   "avg_concurrent": 27658,
   "brands": 43,
   "mentions": 77,
-  "share_views": 29.8,
+  "share_views": 29.7,
   "n_brands_live": 43,
   "top_brands": [
    {
@@ -388,12 +388,12 @@
  {
   "id": "blend",
   "name": "Blender",
-  "videos": 1,
-  "vod_views": 4326,
-  "avg_concurrent": 5808,
+  "videos": 2,
+  "vod_views": 8110,
+  "avg_concurrent": 5054,
   "brands": 0,
   "mentions": 0,
-  "share_views": 0.2,
+  "share_views": 0.4,
   "n_brands_live": 0,
   "top_brands": []
  }

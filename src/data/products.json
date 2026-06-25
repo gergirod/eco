@@ -34,6 +34,31 @@
   "kind": "producto"
  },
  {
+  "slug": "m-canal-de-tv",
+  "name": "M (canal de TV)",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "24/06/2026",
+    "video_id": "A_ww0XRZnps",
+    "title": "¿NOS INVADEN O QUÉ?, ODIADOS CON EL ALGORITMO y  LA CRISIS DE LA COLO  | ÚLTIMO AVISO | BLENDER",
+    "minute": "00:20",
+    "views": 3784
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "pistola-masajeadora",
   "name": "pistola masajeadora",
   "mentions": 1,
