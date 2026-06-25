@@ -5,6 +5,9 @@ import Link from "next/link";
 import { Badge } from "@/components/ui";
 import {
   TAGLINE,
+  UNIFIED_THESIS,
+  PRODUCT_NAME,
+  DESIGN_PARTNER,
   STATUS,
   CONFIDENCE_LEVELS,
   ICP_INTEL,
@@ -105,7 +108,9 @@ export default function InteligenciaPanel() {
   return (
     <div>
       <div className="card p-5 mb-5 border-accent/20 bg-accent-soft/30">
+        <p className="text-[11px] uppercase tracking-wide text-accent font-semibold mb-1">{PRODUCT_NAME}</p>
         <p className="text-[15px] font-medium text-gray-900 mb-2">{TAGLINE}</p>
+        <p className="text-[13px] text-gray-700 mb-3 leading-relaxed">{UNIFIED_THESIS}</p>
         <ul className="text-[13px] text-gray-600 space-y-1">
           <li>
             <b>Producto:</b> {STATUS.product}
@@ -116,6 +121,18 @@ export default function InteligenciaPanel() {
           <li>
             <b>Próximo:</b> {STATUS.next}
           </li>
+        </ul>
+      </div>
+
+      <div className="card p-5 mb-5">
+        <h2 className="text-[15px] font-semibold mb-2">{DESIGN_PARTNER.name}</h2>
+        <p className="text-[12px] text-gray-500 mb-3">
+          ICP primario: {DESIGN_PARTNER.icpPrimary}. También: {DESIGN_PARTNER.alsoValid}.
+        </p>
+        <ul className="text-[13px] text-gray-700 space-y-1.5 list-disc pl-4">
+          {DESIGN_PARTNER.includes.map((item) => (
+            <li key={item}>{item}</li>
+          ))}
         </ul>
       </div>
 

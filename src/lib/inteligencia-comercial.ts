@@ -21,12 +21,17 @@ export type IcpIntel = {
   callOpener: string;
 };
 
+export const PRODUCT_NAME = "ECO Intelligence";
+
 export const TAGLINE =
-  "No medimos publicidad. Medimos atención con evidencia — minuto exacto, transcript, chat en vivo.";
+  "Inteligencia comercial sobre streaming para mejores decisiones — con evidencia verificable.";
+
+export const UNIFIED_THESIS =
+  "Una sola capa de inteligencia. Tres decisiones: la marca audita su inversión, la agencia defiende valor al cliente, el canal renueva anunciantes. Mismo corpus, distinto slice.";
 
 export const STATUS = {
-  product: "Plataforma v1 navegable (Marcas, Canales, Novedades, Tendencias, Programas).",
-  business: "Falta primer cliente pago.",
+  product: "Plataforma v1 + brief semanal. Marcas, Canales, Novedades, Tendencias, Programas.",
+  business: "Falta primer Design Partner pago.",
   next: "Intelligence Layer: recomendaciones y alertas cruzadas (ARCH-001 §6).",
 };
 
@@ -60,7 +65,7 @@ export const ICP_INTEL: IcpIntel[] = [
   {
     id: "marca",
     label: "Marca",
-    product: "A — reporte + plataforma",
+    product: "ECO Intelligence — decisión de inversión",
     buyerQuestion: "¿Cómo rindió mi inversión en atención real?",
     valueToday:
       "Certificado creíble para gerencia: minuto, concurrentes, cita, link al segundo. Un programa alcanza para el primer cheque.",
@@ -136,7 +141,7 @@ export const ICP_INTEL: IcpIntel[] = [
   {
     id: "agencia",
     label: "Agencia",
-    product: "A — mismo PDF, uso multi-cliente",
+    product: "ECO Intelligence — decisión de portfolio",
     buyerQuestion: "¿Puedo demostrar valor al cliente y planificar mejor que el canal?",
     valueToday:
       "Prueba independiente del comercial del stream en 5 minutos. Mismo entregable que ve la marca, con ángulo de cumplimiento.",
@@ -194,7 +199,7 @@ export const ICP_INTEL: IcpIntel[] = [
   {
     id: "canal",
     label: "Canal",
-    product: "B — certificado + media kit",
+    product: "ECO Intelligence — decisión comercial del canal",
     buyerQuestion: "¿Cómo defiendo tarifa y renuevo anunciantes?",
     valueToday:
       "Certificado listo para mandar al comercial de la marca: minuto, cita, 238k mirando. Cierra renovaciones con prueba.",
@@ -270,7 +275,11 @@ export const COMPOUNDING = [
 ];
 
 export const PRICING = [
-  { stage: "Fundador (validar «sí pago»)", ticket: "ARS 150–300K/mes (~USD 100–200)", note: "1 marca, reporte semanal" },
+  {
+    stage: "Design Partner (validar «sí pago»)",
+    ticket: "ARS 150–300K/mes (~USD 100–200)",
+    note: "ECO Intelligence: 1 marca + brief semanal + plataforma",
+  },
   { stage: "Starter", ticket: "~USD 150/mes", note: "1 marca, 2 canales" },
   { stage: "Pro", ticket: "~USD 500/mes", note: "Hasta 5 marcas, todos los canales" },
   { stage: "Agencia", ticket: "USD 1.500+/mes", note: "Multi-cliente, tendencias, white-label" },
@@ -287,8 +296,21 @@ export const PROMISE_RULES = [
   "Sin concurrentes de ese programa → no hay hero. No prometer.",
   "Sin chat en el canal (ej. Luzu YT) → no prometer reacción del chat.",
   "Con 2 días de data → no vender evolución trimestral.",
-  "Canal: certificado sí; «¿le convino a la marca?» no — eso es producto A.",
+  "Canal: renovación y tarifa sí; «¿le convino a la marca?» no — decisión del anunciante.",
 ];
+
+export const DESIGN_PARTNER = {
+  name: "ECO Intelligence — Design Partner",
+  includes: [
+    "1 marca monitoreada + hasta 2 competidores",
+    "Brief semanal (export PDF para reuniones)",
+    "Acceso plataforma: Marcas, Canales, Novedades, Tendencias",
+    "1 call de lectura al mes",
+    "Primer brief gratis con data real de su portfolio",
+  ],
+  icpPrimary: "Agencia boutique (primer cierre)",
+  alsoValid: "Marca DTC con campaña activa · Canal (segundo movimiento)",
+};
 
 export const PLATFORM_MAP = [
   { surface: "Perfil de marca", href: "/marcas", answers: "Apariciones, programas, canales, audiencia, evidencia" },
@@ -296,7 +318,7 @@ export const PLATFORM_MAP = [
   { surface: "Novedades", href: "/novedades", answers: "Briefing: qué pasó y merece atención" },
   { surface: "Tendencias", href: "/tendencias", answers: "Patrones de mercado + señal Google Trends" },
   { surface: "Programa", href: "/programas", answers: "Entidad desde canal o marca — sin nav propio" },
-  { surface: "PDF / certificado", href: "/marca", answers: "Entregable vendible one-pager" },
+  { surface: "Brief semanal", href: "/marca", answers: "Export PDF para reuniones — no es el producto, es la entrega" },
 ];
 
 export function confidenceLabel(c: Confidence): { text: string; tone: "green" | "amber" | "blue" } {
