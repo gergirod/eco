@@ -78,13 +78,15 @@ export default function Sidebar() {
         </Link>
       </div>
       <nav className="flex flex-col gap-0.5">
-        {NAV_MODULES.map((n) => (
-          <NavLink
-            key={n.href}
-            item={n}
-            active={!n.comingSoon && (path === n.href || path.startsWith(`${n.href}/`))}
-          />
-        ))}
+        {NAV_MODULES.map((n) => {
+          const active =
+            !n.comingSoon &&
+            (path === n.href ||
+              path.startsWith(`${n.href}/`) ||
+              (n.href === "/marcas" && path.startsWith("/campanas")) ||
+              (n.href === "/canales" && path.startsWith("/programas")));
+          return <NavLink key={n.href} item={n} active={active} />;
+        })}
       </nav>
       <div className="mt-6 pt-4 border-t border-[#ececec]">
         <nav className="flex flex-col gap-0.5">

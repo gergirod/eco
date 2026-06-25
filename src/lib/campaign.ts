@@ -74,6 +74,27 @@ export function listCampaignReports(reports: Record<string, any>) {
     .sort((a, b) => b.mentions - a.mentions);
 }
 
+/** Resuelve el slug de marca (Discovery) para una campaña publicada. */
+export function findAdvertiserSlugForCampaign(
+  campaignSlug: string,
+  reports: Record<string, any>,
+  brands: { slug: string; name: string }[]
+): string | null {
+  const key = campaignReportKey(campaignSlug);
+  const report = reports[key];
+  const marca = (report?.scope?.marca || report?.name || "").trim().toLowerCase();
+  if (marca) {
+    const exact = brands.find((b) => b.name.trim().toLowerCase() === marca);
+    if (exact) return exact.slug;
+  }
+  const prefix = campaignSlug.split("-")[0];
+  if (prefix) {
+    const byPrefix = brands.find((b) => b.slug.startsWith(prefix));
+    if (byPrefix) return byPrefix.slug;
+  }
+  return null;
+}
+
 /** Resuelve la campaña publicada asociada a una marca (si existe). */
 export function findCampaignSlugForAdvertiser(
   advertiserSlug: string,

@@ -116,9 +116,9 @@
     "n": 4
    }
   ],
-  "gt_status": null,
-  "gt_lead_days": null,
-  "gt_peak": null
+  "gt_status": "adelantado",
+  "gt_lead_days": 6,
+  "gt_peak": 100
  },
  {
   "tema": "videojuegos",
@@ -150,9 +150,9 @@
     "n": 1
    }
   ],
-  "gt_status": null,
-  "gt_lead_days": null,
-  "gt_peak": null
+  "gt_status": "ya_masivo",
+  "gt_lead_days": -346,
+  "gt_peak": 100
  },
  {
   "tema": "mercado inmobiliario",
@@ -186,9 +186,9 @@
     "n": 20
    }
   ],
-  "gt_status": null,
-  "gt_lead_days": null,
-  "gt_peak": null
+  "gt_status": "ya_masivo",
+  "gt_lead_days": -327,
+  "gt_peak": 100
  },
  {
   "tema": "mundialito ciudades",
@@ -494,9 +494,9 @@
     "n": 13
    }
   ],
-  "gt_status": null,
-  "gt_lead_days": null,
-  "gt_peak": null
+  "gt_status": "ya_masivo",
+  "gt_lead_days": -346,
+  "gt_peak": 100
  },
  {
   "tema": "relaciones personales",
@@ -525,9 +525,9 @@
     "n": 2
    }
   ],
-  "gt_status": null,
-  "gt_lead_days": null,
-  "gt_peak": null
+  "gt_status": "ya_masivo",
+  "gt_lead_days": -304,
+  "gt_peak": 100
  },
  {
   "tema": "el indio solari",

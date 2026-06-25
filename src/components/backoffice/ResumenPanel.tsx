@@ -111,11 +111,16 @@ export default function ResumenPanel() {
           <Link href="/marcas" className="text-accent font-medium">
             Marcas
           </Link>{" "}
-          — puerta de entrada del producto.{" "}
-          <Link href="/campanas" className="text-accent font-medium">
-            Campañas
+          — puerta de entrada.{" "}
+          <Link href="/canales" className="text-accent font-medium">
+            Canales
           </Link>{" "}
-          — informe de entrega.{" "}
+          — actividad por canal.{" "}
+          <Link href="/campanas?slug=iol-jun-2026" className="text-accent">
+            Informe IOL
+          </Link>
+          {" "}
+          (ruta profunda). Vistas legacy:{" "}
           <Link href="/marca" className="text-accent">
             Reportes de marca
           </Link>
@@ -134,10 +139,6 @@ export default function ResumenPanel() {
           ,{" "}
           <Link href="/productos" className="text-accent">
             Prospectos & research
-          </Link>
-          ,{" "}
-          <Link href="/tendencias" className="text-accent">
-            Radar
           </Link>
           .
         </p>

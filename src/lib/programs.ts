@@ -19,7 +19,8 @@ export type PntRow = {
   sentiment: string;
   conc_at: number | null;
   program_peak?: number;
-  precise?: boolean;
+  evidence?: string;
+  evidence_reason?: string;
 };
 
 export type Program = {
@@ -82,6 +83,60 @@ export function buildProgramsIndex(
     (a, b) =>
       (b.date_iso || "").localeCompare(a.date_iso || "") ||
       (b.peak || 0) - (a.peak || 0) ||
+      b.pnt_count - a.pnt_count
+  );
+}
+
+/** Solo informes de marca — excluye campaign-* para no duplicar activaciones. */
+export function marcaReportsOnly(
+  reports: Record<string, { name: string; kind?: string; detail?: Record<string, unknown>[] }>
+): Record<string, { name: string; detail?: Record<string, unknown>[] }> {
+  return Object.fromEntries(
+    Object.entries(reports).filter(([, r]) => !r.kind || r.kind === "marca")
+  ) as Record<string, { name: string; detail?: Record<string, unknown>[] }>;
+}
+
+export function getProgram(
+  videoId: string,
+  reports: Record<string, { name: string; kind?: string; detail?: Record<string, unknown>[] }>,
+  moments: Record<string, Record<string, unknown>>
+): Program | null {
+  const programs = buildProgramsIndex(marcaReportsOnly(reports), moments);
+  return programs.find((p) => p.video_id === videoId) ?? null;
+}
+
+export type BrandProgramSort = "peak" | "activations" | "recency";
+
+export function brandPeakInProgram(program: Program, brandSlug: string): number {
+  return Math.max(
+    0,
+    ...program.pnt.filter((r) => r.brand_slug === brandSlug).map((r) => r.conc_at || 0)
+  );
+}
+
+export function programsForBrand(
+  reports: Record<string, { name: string; kind?: string; detail?: Record<string, unknown>[] }>,
+  moments: Record<string, Record<string, unknown>>,
+  brandSlug: string,
+  sort: BrandProgramSort = "peak"
+): Program[] {
+  const programs = buildProgramsIndex(marcaReportsOnly(reports), moments)
+    .map((p) => {
+      const pnt = p.pnt.filter((x) => x.brand_slug === brandSlug);
+      if (!pnt.length) return null;
+      return { ...p, pnt, pnt_count: pnt.length, brands: [brandSlug] };
+    })
+    .filter((p): p is Program => p != null);
+
+  if (sort === "recency") {
+    return programs.sort((a, b) => (b.date_iso || "").localeCompare(a.date_iso || ""));
+  }
+  if (sort === "activations") {
+    return programs.sort((a, b) => b.pnt_count - a.pnt_count || brandPeakInProgram(b, brandSlug) - brandPeakInProgram(a, brandSlug));
+  }
+  return programs.sort(
+    (a, b) =>
+      brandPeakInProgram(b, brandSlug) - brandPeakInProgram(a, brandSlug) ||
       b.pnt_count - a.pnt_count
   );
 }

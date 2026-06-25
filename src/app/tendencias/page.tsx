@@ -1,137 +1,132 @@
 "use client";
-import { useState, useMemo } from "react";
-import { PageHeader, Badge } from "@/components/ui";
+
+import Link from "next/link";
+import { useMemo } from "react";
+import TendenciaCard from "@/components/tendencias/TendenciaCard";
+import CoverageLine from "@/components/CoverageLine";
+import { getPlatformCoverage, loadDiscoveryDataset } from "@/lib/discovery";
+import { buildTendencias, tendenciasSubline } from "@/lib/tendencias";
 import { useDataset } from "@/lib/useDataset";
+import audienceFb from "@/data/audience.json";
+import benchmarkFb from "@/data/benchmark.json";
+import brandsFb from "@/data/brands.json";
+import metaFb from "@/data/meta.json";
 import radarFb from "@/data/radar.json";
 
-function Spark({ serie }: { serie: { date: string; n: number }[] }) {
-  if (!serie || serie.length < 2) return <span className="text-gray-300 text-[11px]">—</span>;
-  const W = 90,
-    H = 26;
-  const max = Math.max(...serie.map((s) => s.n), 1);
-  const step = W / (serie.length - 1);
-  const pts = serie.map((s, i) => `${(i * step).toFixed(1)},${(H - (s.n / max) * (H - 3) - 1).toFixed(1)}`).join(" ");
-  const rising = serie[serie.length - 1].n >= serie[0].n;
-  return (
-    <svg viewBox={`0 0 ${W} ${H}`} width={W} height={H}>
-      <polyline points={pts} fill="none" stroke={rising ? "#22a06b" : "#e2574c"} strokeWidth={1.6} />
-    </svg>
-  );
-}
-
-function GTCell({ t }: { t: any }) {
-  const s = t.gt_status;
-  if (!s) return <span className="text-gray-300 text-[11px]">sin comparar</span>;
-  if (s === "pre_busqueda")
-    return (
-      <span title="Google Trends todavía no registra volumen para este tema en AR">
-        <Badge tone="green">pre-búsqueda</Badge>
-      </span>
-    );
-  if (s === "adelantado")
-    return (
-      <span title="Lo detectamos en streams antes del despegue en Google Trends">
-        <Badge tone="blue">+{t.gt_lead_days} días antes</Badge>
-      </span>
-    );
-  if (s === "ya_masivo")
-    return (
-      <span title="Google ya venía con volumen: llegamos después">
-        <Badge tone="gray">ya masivo</Badge>
-      </span>
-    );
-  if (s === "en_linea")
-    return (
-      <span title="Despegó en streams y en Google casi al mismo tiempo">
-        <Badge tone="amber">en línea</Badge>
-      </span>
-    );
-  return <span className="text-gray-300 text-[11px]">s/d</span>;
-}
-
 export default function TendenciasPage() {
-  const radar = useDataset<any[]>("radar", radarFb);
-  const [onlyCross, setOnlyCross] = useState(true);
-  const [q, setQ] = useState("");
+  const radar = useDataset("radar", radarFb);
+  const benchmark = useDataset("benchmark", benchmarkFb);
+  const audience = useDataset("audience", audienceFb);
+  const brands = useDataset("brands", brandsFb);
+  const meta = useDataset("meta", metaFb);
+  const coverage = useMemo(() => getPlatformCoverage(loadDiscoveryDataset()), []);
 
-  const rows = useMemo(() => {
-    return radar
-      .filter((t) => (onlyCross ? t.cross_comunidad : true))
-      .filter((t) => (q ? t.tema.toLowerCase().includes(q.toLowerCase()) : true));
-  }, [radar, onlyCross, q]);
+  const insights = useMemo(
+    () =>
+      buildTendencias(
+        radar as Parameters<typeof buildTendencias>[0],
+        benchmark as Parameters<typeof buildTendencias>[1],
+        audience as Parameters<typeof buildTendencias>[2],
+        brands as Parameters<typeof buildTendencias>[3],
+        meta as Parameters<typeof buildTendencias>[4]
+      ),
+    [radar, benchmark, audience, brands, meta]
+  );
+
+  const subline = tendenciasSubline(insights.length, meta as Parameters<typeof tendenciasSubline>[1]);
+
+  const gtEnriched = useMemo(
+    () =>
+      (radar as { gt_status?: string | null }[]).filter(
+        (r) => r.gt_status === "adelantado" || r.gt_status === "pre_busqueda"
+      ).length,
+    [radar]
+  );
+  const byConfidence = useMemo(() => {
+    const m: Record<string, number> = {};
+    for (const i of insights) m[i.confidence] = (m[i.confidence] || 0) + 1;
+    return m;
+  }, [insights]);
 
   return (
-    <div>
-      <PageHeader
-        title="Radar de Tendencias"
-        sub="Capa 2 · señales emergentes cross-canal. Complemento al reporte de pauta, no es el entregable principal."
-      />
+    <div className="max-w-3xl">
+      <h1 className="text-[28px] font-semibold tracking-tight text-ink leading-tight">
+        ¿Qué está cambiando en el mercado?
+      </h1>
+      <p className="text-[14px] text-gray-500 mt-2 max-w-xl">
+        Patrones construidos sobre múltiples señales — no es un listado de temas ni predicción.
+        Cada ítem habilita una decisión comercial.
+      </p>
+      <CoverageLine coverage={coverage} />
+      <p className="text-[12.5px] text-gray-400 mb-6">{subline}</p>
 
-      <div className="flex items-center gap-3 mb-5 flex-wrap">
-        <input
-          className="border border-[#ececec] rounded-lg px-3 py-2 text-[13px] w-[260px] bg-white"
-          placeholder="Buscar tema…"
-          value={q}
-          onChange={(e) => setQ(e.target.value)}
-        />
-        <label className="flex items-center gap-2 text-[13px] text-gray-600 cursor-pointer">
-          <input type="checkbox" checked={onlyCross} onChange={(e) => setOnlyCross(e.target.checked)} />
-          Solo cross-canal (≥2 comunidades)
-        </label>
-        <span className="text-[12px] text-gray-400 ml-auto">{rows.length} tendencias</span>
-      </div>
-
-      <div className="card overflow-hidden">
-        <div className="max-h-[640px] overflow-auto">
-          <table>
-            <thead className="sticky top-0 bg-white">
-              <tr>
-                <th>Tema</th>
-                <th>Señal</th>
-                <th className="text-right">Score</th>
-                <th className="text-right">Menc.</th>
-                <th>Canales</th>
-                <th>vs Google Trends</th>
-                <th>Tendencia</th>
-              </tr>
-            </thead>
-            <tbody>
-              {rows.map((t, i) => (
-                <tr key={i}>
-                  <td className="font-medium max-w-[300px]">
-                    {t.tema}
-                    <span className="block text-[11px] text-gray-400 font-normal">
-                      {(t.categorias || []).slice(0, 3).join(" · ")}
-                    </span>
-                  </td>
-                  <td>
-                    <div className="flex gap-1 flex-wrap">
-                      {t.candidato && <Badge tone="green">candidato</Badge>}
-                      {t.cross_comunidad && <Badge tone="blue">cross-canal</Badge>}
-                      {t.multi_dia && <Badge tone="gray">multi-día</Badge>}
-                    </div>
-                  </td>
-                  <td className="text-right tabular-nums font-semibold">{t.score}</td>
-                  <td className="text-right tabular-nums text-gray-500">{t.menciones}</td>
-                  <td className="text-[12.5px] text-gray-500">{(t.canales || []).join(", ")}</td>
-                  <td><GTCell t={t} /></td>
-                  <td>
-                    <Spark serie={t.serie} />
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+      {insights.length > 0 && (
+        <div className="flex flex-wrap gap-2 mb-6 text-[12px] text-gray-500">
+          {byConfidence.insight ? (
+            <span className="px-2.5 py-1 rounded-full bg-accent-soft/60 text-accent">
+              {byConfidence.insight} insight{byConfidence.insight === 1 ? "" : "s"}
+            </span>
+          ) : null}
+          {byConfidence.evidencia ? (
+            <span className="px-2.5 py-1 rounded-full bg-gray-50">
+              {byConfidence.evidencia} evidencia
+            </span>
+          ) : null}
+          {byConfidence.conversacion ? (
+            <span className="px-2.5 py-1 rounded-full bg-gray-50">
+              {byConfidence.conversacion} conversación
+            </span>
+          ) : null}
         </div>
+      )}
+
+      <div className="card p-4 mb-6 bg-gray-50/80 border-[#ececec] text-[12.5px] text-gray-600 leading-relaxed">
+        <b className="text-gray-700">Corpus corto (~2 semanas).</b> Los patrones son exploratorios.
+        No usamos forecasting ni temas como perfiles — solo conclusiones honestas sobre lo capturado.
+        {gtEnriched === 0 ? (
+          <>
+            {" "}
+            La validación con búsqueda AR aún no está en el export — corré{" "}
+            <code className="text-[11px] bg-white px-1 rounded">python radar.py --enrich</code> en el
+            pipeline y luego <code className="text-[11px] bg-white px-1 rounded">export_ui.py</code>.
+          </>
+        ) : (
+          <> {gtEnriched} patrón{gtEnriched === 1 ? "" : "es"} con señal de anticipación vs búsqueda.</>
+        )}
       </div>
 
-      <p className="text-[11px] text-gray-400 mt-4 leading-relaxed max-w-[820px]">
-        Tendencia = aparición en ≥2 comunidades (filtro anti-meme). El score combina volumen,
-        cross-comunidad y persistencia multi-día. La sparkline muestra la evolución de menciones por
-        día (verde = subiendo). La columna <b>vs Google Trends</b> compara la primera mención en
-        streams contra la fecha de despegue en Google Trends (AR).{" "}
-        <b>No reemplaza el reporte de marca</b> (PNT + minuto + concurrentes): es inteligencia extra para
-        prospectar temas calientes antes de Google.
+      {insights.length === 0 ? (
+        <div className="card p-8 text-[14px] text-gray-600 leading-relaxed">
+          <p className="mb-4">
+            Aún no hay patrones con masa crítica en el export actual. Revisá{" "}
+            <Link href="/novedades" className="text-accent font-medium hover:underline">
+              Novedades
+            </Link>{" "}
+            para eventos puntuales.
+          </p>
+        </div>
+      ) : (
+        <div className="flex flex-col gap-4">
+          {insights.map((insight) => (
+            <TendenciaCard key={insight.id} insight={insight} />
+          ))}
+        </div>
+      )}
+
+      <p className="text-[11px] text-gray-400 mt-6 leading-relaxed max-w-xl">
+        Eventos discretos (nueva marca, nuevo programa) viven en{" "}
+        <Link href="/novedades" className="text-accent hover:underline">
+          Novedades
+        </Link>
+        . Profundidad por entidad en{" "}
+        <Link href="/marcas" className="text-accent hover:underline">
+          Marcas
+        </Link>{" "}
+        y{" "}
+        <Link href="/canales" className="text-accent hover:underline">
+          Canales
+        </Link>
+        .
       </p>
     </div>
   );

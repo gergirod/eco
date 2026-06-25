@@ -1,43 +1,80 @@
 "use client";
 
 import Link from "next/link";
-import { useParams } from "next/navigation";
-import { useMemo, useState } from "react";
-import ProfileEvidenceHero from "@/components/discovery/ProfileEvidenceHero";
-import { Badge } from "@/components/ui";
-import { compact, vodLink } from "@/lib/format";
-import { findCampaignSlugForAdvertiser } from "@/lib/campaign";
+import { Suspense, useEffect, useMemo, useState } from "react";
+import { useParams, useRouter, useSearchParams } from "next/navigation";
+import BrandProfileSections from "@/components/discovery/brand-profile/BrandProfileSections";
+import BrandProfileTabBar from "@/components/discovery/brand-profile/BrandProfileTabBar";
 import {
+  parseBrandProfileTab,
+  type BrandProfileTabId,
+} from "@/components/discovery/brand-profile/tabs";
+import ProfileEvidenceHero from "@/components/discovery/ProfileEvidenceHero";
+import MomentModal from "@/components/MomentModal";
+import { campaignReportKey, findCampaignSlugForAdvertiser } from "@/lib/campaign";
+import {
+  createDiscoveryDataset,
   getAdvertiserProfile,
-  loadDiscoveryDataset,
   pickHighlightActivation,
 } from "@/lib/discovery";
-import { evidenceLabel, evidenceTone } from "@/lib/campaign";
-import channelsBundle from "@/data/channels.json";
-import reportsBundle from "@/data/reports.json";
+import { useDataset } from "@/lib/useDataset";
+import brandsFb from "@/data/brands.json";
+import channelsFb from "@/data/channels.json";
+import metaFb from "@/data/meta.json";
+import momentsFb from "@/data/moments.json";
+import reportsFb from "@/data/reports.json";
 
-const CH_NAME: Record<string, string> = Object.fromEntries(
-  (channelsBundle as { id: string; name: string }[]).map((c) => [c.id, c.name])
-);
-
-export default function MarcaProfilePage() {
+function MarcaProfileInner() {
   const params = useParams();
+  const searchParams = useSearchParams();
+  const router = useRouter();
   const slug = typeof params.slug === "string" ? params.slug : "";
-  const [tableOpen, setTableOpen] = useState(false);
 
-  const profile = useMemo(
-    () => getAdvertiserProfile(slug, loadDiscoveryDataset()),
-    [slug]
+  const reports = useDataset<Record<string, unknown>>("reports", reportsFb as Record<string, unknown>);
+  const channels = useDataset<{ id: string; name: string }[]>("channels", channelsFb as { id: string; name: string }[]);
+  const moments = useDataset<Record<string, Record<string, unknown>>>(
+    "moments",
+    momentsFb as Record<string, Record<string, unknown>>
   );
+  const brands = useDataset<unknown>("brands", brandsFb);
+  const meta = useDataset<unknown>("meta", metaFb);
+
+  const [openMention, setOpenMention] = useState<Record<string, unknown> | null>(null);
+  const tab = parseBrandProfileTab(searchParams.get("tab"));
+
+  const dataset = useMemo(
+    () => createDiscoveryDataset(brands, reports, meta),
+    [brands, reports, meta]
+  );
+
+  const profile = useMemo(() => getAdvertiserProfile(slug, dataset), [slug, dataset]);
+
+  const chName = useMemo(
+    () => Object.fromEntries(channels.map((c) => [c.id, c.name])),
+    [channels]
+  );
+
+  const report = (reports[slug] || null) as {
+    name?: string;
+    kind?: string;
+    detail?: Record<string, unknown>[];
+  } | null;
 
   const campaignSlug = useMemo(() => {
     if (!profile) return null;
     return findCampaignSlugForAdvertiser(
       profile.advertiser.slug,
       profile.advertiser.name,
-      reportsBundle as Record<string, unknown>
+      reports
     );
-  }, [profile]);
+  }, [profile, reports]);
+
+  const campaignReport = useMemo(() => {
+    if (!campaignSlug) return null;
+    return (reports[campaignReportKey(campaignSlug)] || null) as Parameters<
+      typeof BrandProfileSections
+    >[0]["campaignReport"];
+  }, [campaignSlug, reports]);
 
   const topActivation = useMemo(() => {
     const activations = profile?.activations ?? [];
@@ -53,6 +90,18 @@ export default function MarcaProfilePage() {
     if (!profile) return null;
     return profile.highlight ?? pickHighlightActivation(profile.activations);
   }, [profile]);
+
+  function selectTab(id: BrandProfileTabId) {
+    const url = id === "resumen" ? `/marcas/${slug}` : `/marcas/${slug}?tab=${id}`;
+    router.replace(url, { scroll: false });
+  }
+
+  useEffect(() => {
+    const q = searchParams.get("tab");
+    if (q && parseBrandProfileTab(q) === "resumen" && q !== "resumen") {
+      router.replace(`/marcas/${slug}`, { scroll: false });
+    }
+  }, [searchParams, slug, router]);
 
   if (!profile || profile.advertiser.confidenceTier === "detected") {
     return (
@@ -71,10 +120,24 @@ export default function MarcaProfilePage() {
     );
   }
 
-  const { advertiser, activations } = profile;
+  if (!report || report.kind !== "marca" || !report.detail?.length) {
+    return (
+      <div className="max-w-2xl">
+        <Link href="/marcas" className="text-[13px] text-gray-500 hover:text-accent mb-5 inline-block">
+          ← Marcas
+        </Link>
+        <h1 className="text-[22px] font-semibold tracking-tight">{profile.advertiser.name}</h1>
+        <p className="text-[13.5px] text-gray-500 mt-2">
+          Sin apariciones de pauta en el export actual para profundizar.
+        </p>
+      </div>
+    );
+  }
+
+  const { advertiser } = profile;
 
   return (
-    <div className="max-w-4xl pb-10">
+    <div className="max-w-5xl pb-10">
       <Link
         href="/marcas"
         className="text-[13px] text-gray-500 hover:text-accent mb-5 inline-block"
@@ -93,96 +156,40 @@ export default function MarcaProfilePage() {
         highlight={featuredHighlight}
         activation={topActivation}
         campaignSlug={campaignSlug}
+        profileSlug={slug}
       />
 
-      <div className="flex flex-wrap items-center gap-3 mb-8 pb-8 border-b border-[#ececec]">
-        {campaignSlug ? (
-          <Link href={`/campanas?slug=${campaignSlug}`} className="btn btn-primary">
-            Armar informe de entrega
-          </Link>
-        ) : null}
-        <Link href="/marcas" className="text-[12.5px] text-gray-500 hover:text-accent">
-          ← Volver a marcas
-        </Link>
-      </div>
+      <BrandProfileTabBar active={tab} onSelect={selectTab} />
 
-      <section>
-        <button
-          type="button"
-          onClick={() => setTableOpen((v) => !v)}
-          className="flex w-full items-center justify-between gap-4 py-3 text-left group"
-          aria-expanded={tableOpen}
-        >
-          <span className="text-[15px] font-semibold text-ink group-hover:text-accent transition-colors">
-            Todas las apariciones ({activations.length})
-          </span>
-          <span className="text-[12px] text-gray-400 shrink-0">
-            {tableOpen ? "Ocultar" : "Revisar inventario completo"}
-          </span>
-        </button>
+      <BrandProfileSections
+        tab={tab}
+        slug={slug}
+        advertiser={advertiser}
+        report={report as Parameters<typeof BrandProfileSections>[0]["report"]}
+        chName={chName}
+        moments={moments}
+        campaignSlug={campaignSlug}
+        campaignReport={campaignReport}
+        onOpenMoment={setOpenMention}
+        allReports={reports as Record<string, { name: string; detail?: Record<string, unknown>[] }>}
+      />
 
-        {tableOpen && (
-          <div className="card overflow-hidden mt-2">
-            <div className="overflow-auto">
-              <table>
-                <thead className="sticky top-0 bg-white">
-                  <tr>
-                    <th>Fecha</th>
-                    <th>Cita en el programa</th>
-                    <th>Programa</th>
-                    <th>Canal</th>
-                    <th>Respaldo</th>
-                    <th className="text-right">En vivo</th>
-                    <th></th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {activations.map((a, i) => (
-                    <tr key={`${a.videoId}-${i}`}>
-                      <td className="text-gray-500 whitespace-nowrap text-[12.5px]">{a.date}</td>
-                      <td className="max-w-[220px]">
-                        {a.quote ? (
-                          <span className="text-gray-700 italic text-[12.5px] line-clamp-2">
-                            &ldquo;{a.quote}&rdquo;
-                          </span>
-                        ) : (
-                          <span className="text-gray-400">—</span>
-                        )}
-                      </td>
-                      <td className="max-w-[160px] truncate text-[12.5px]" title={a.title}>
-                        {a.title}
-                      </td>
-                      <td className="whitespace-nowrap text-[12.5px]">
-                        {a.channelName || CH_NAME[a.channel]}
-                      </td>
-                      <td>
-                        <Badge tone={evidenceTone(a.evidence)} title={a.evidenceReason}>
-                          {evidenceLabel(a.evidence)}
-                        </Badge>
-                      </td>
-                      <td className="text-right tabular-nums text-[12.5px]">
-                        {a.concurrentViewers ? compact(a.concurrentViewers) : "—"}
-                      </td>
-                      <td>
-                        {a.videoId ? (
-                          <a
-                            href={vodLink(a.videoId, a.tSeconds)}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-[12px] text-accent hover:underline whitespace-nowrap"
-                          >
-                            Ir al minuto
-                          </a>
-                        ) : null}
-                      </td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </div>
-          </div>
-        )}
-      </section>
+      {openMention && (
+        <MomentModal
+          mention={openMention}
+          moment={moments[String(openMention.video_id)] || null}
+          brandName={advertiser.name}
+          onClose={() => setOpenMention(null)}
+        />
+      )}
     </div>
+  );
+}
+
+export default function MarcaProfilePage() {
+  return (
+    <Suspense fallback={<div className="text-[13px] text-gray-400">Cargando perfil…</div>}>
+      <MarcaProfileInner />
+    </Suspense>
   );
 }

@@ -1,4 +1,4 @@
-/** Navegación principal — SPEC-005 */
+/** Navegación principal — SPEC-006 */
 
 type NavModule = {
   href: string;
@@ -10,8 +10,8 @@ type NavModule = {
 const NAV_MODULES: NavModule[] = [
   { href: "/marcas", label: "Marcas", icon: "◆" },
   { href: "/canales", label: "Canales", icon: "▣" },
-  { href: "/campanas", label: "Campañas", icon: "✓" },
-  { href: "/movimientos", label: "Movimientos", icon: "↗", comingSoon: true },
+  { href: "/novedades", label: "Novedades", icon: "◇" },
+  { href: "/tendencias", label: "Tendencias", icon: "↗" },
 ];
 
 /** Rutas legacy redirigen vía next.config. Operación interna: /backoffice */

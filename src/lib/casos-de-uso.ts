@@ -233,7 +233,9 @@ export const UI_MAP: { type: string; where: string; href?: string }[] = [
   { type: "Certificado programa completo", where: "PDF con todas las PNT", href: "/certificado" },
   { type: "Media kit / tarifa / benchmark", where: "Por canal", href: "/mediakit" },
   { type: "Retención + reacción detallada", where: "pipeline/reaccion.py (interno)" },
-  { type: "Tendencias cross-canal", where: "Radar capa 2", href: "/tendencias" },
+  { type: "Novedades / briefing", where: "Eventos recientes", href: "/novedades" },
+  { type: "Tendencias cross-canal", where: "Patrones de mercado", href: "/tendencias" },
+  { type: "Perfil marca / canal", where: "Profundidad por entidad", href: "/marcas" },
 ];
 
 export function moatLabel(m: MoatLevel): { text: string; tone: "green" | "amber" | "red" | "gray" } {

@@ -7,12 +7,14 @@ import OpsLogout from "@/components/OpsLogout";
 import RunsPanel from "@/components/backoffice/RunsPanel";
 import RunbookPanel from "@/components/backoffice/RunbookPanel";
 import CasosPanel from "@/components/backoffice/CasosPanel";
+import InteligenciaPanel from "@/components/backoffice/InteligenciaPanel";
 import ResumenPanel from "@/components/backoffice/ResumenPanel";
 
 const TABS = [
   { id: "resumen", label: "Resumen", sub: "Salud del pipeline y métricas operativas del corpus." },
   { id: "runs", label: "Runs", sub: "Canales, estado en vivo y disparar el pipeline." },
   { id: "runbook", label: "Runbook", sub: "Comandos para captura, pipeline y Supabase." },
+  { id: "inteligencia", label: "Inteligencia", sub: "Qué vendemos hoy vs en 90 días — guía para calls." },
   { id: "casos", label: "Casos de uso", sub: "Preguntas y respuestas por marca, agencia y canal." },
 ] as const;
 
@@ -23,7 +25,10 @@ function BackofficeInner() {
   const router = useRouter();
   const tabParam = params.get("tab");
   const initial: TabId =
-    tabParam === "runs" || tabParam === "runbook" || tabParam === "casos"
+    tabParam === "runs" ||
+    tabParam === "runbook" ||
+    tabParam === "casos" ||
+    tabParam === "inteligencia"
       ? tabParam
       : "resumen";
   const [tab, setTab] = useState<TabId>(initial);
@@ -33,7 +38,8 @@ function BackofficeInner() {
       tabParam === "resumen" ||
       tabParam === "runs" ||
       tabParam === "runbook" ||
-      tabParam === "casos"
+      tabParam === "casos" ||
+      tabParam === "inteligencia"
     ) {
       setTab(tabParam);
     } else if (!tabParam) {
@@ -54,7 +60,7 @@ function BackofficeInner() {
       <div className="flex items-start justify-between gap-4 mb-4">
         <PageHeader
           title="Backoffice"
-          sub="Operación interna: resumen del corpus, runs, runbook y casos de uso."
+          sub="Operación interna: resumen, runs, runbook, inteligencia comercial y casos de uso."
         />
         <OpsLogout />
       </div>
@@ -81,6 +87,7 @@ function BackofficeInner() {
       {tab === "resumen" && <ResumenPanel />}
       {tab === "runs" && <RunsPanel />}
       {tab === "runbook" && <RunbookPanel />}
+      {tab === "inteligencia" && <InteligenciaPanel />}
       {tab === "casos" && <CasosPanel />}
     </div>
   );

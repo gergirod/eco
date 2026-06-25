@@ -1,12 +1,11 @@
 import Link from "next/link";
 
-const IOL_CAMPAIGN_SLUG = "iol-jun-2026";
+const IOL_ADVERTISER_SLUG = "iol-inversiones";
 
 const STEPS = [
   { n: 1, title: "Marcas", desc: "Investigá quién pauta y con qué respaldo" },
-  { n: 2, title: "Apariciones", desc: "Revisá dónde y cuándo apareció" },
-  { n: 3, title: "Campañas", desc: "Comprobá que la inversión se cumplió" },
-  { n: 4, title: "Informe de entrega", desc: "Presentá el resultado al cliente" },
+  { n: 2, title: "Evidencia", desc: "Revisá dónde y cuándo apareció" },
+  { n: 3, title: "Informe de entrega", desc: "Comprobá la inversión y descargá el PDF" },
 ];
 
 export default function DiscoveryProductFunnel() {
@@ -19,12 +18,12 @@ export default function DiscoveryProductFunnel() {
         El camino completo para defender una inversión en streaming con evidencia independiente.
       </p>
 
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+      <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
         {STEPS.map((step, i) => (
           <div key={step.n} className="relative">
             {i < STEPS.length - 1 && (
               <span
-                className="hidden lg:block absolute top-4 left-[calc(50%+1.25rem)] w-[calc(100%-2.5rem)] h-px bg-gray-200"
+                className="hidden sm:block absolute top-4 left-[calc(50%+1.25rem)] w-[calc(100%-2.5rem)] h-px bg-gray-200"
                 aria-hidden
               />
             )}
@@ -40,10 +39,10 @@ export default function DiscoveryProductFunnel() {
       </div>
 
       <Link
-        href={`/campanas?slug=${IOL_CAMPAIGN_SLUG}`}
+        href={`/marcas/${IOL_ADVERTISER_SLUG}`}
         className="btn btn-primary inline-flex"
       >
-        Armar informe IOL →
+        Investigar IOL →
       </Link>
     </section>
   );

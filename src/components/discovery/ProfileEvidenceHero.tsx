@@ -14,6 +14,7 @@ type ProfileEvidenceHeroProps = {
   highlight: DiscoveryHighlight | null;
   activation: DiscoveryActivation | null;
   campaignSlug?: string | null;
+  profileSlug?: string;
 };
 
 export default function ProfileEvidenceHero({
@@ -21,6 +22,7 @@ export default function ProfileEvidenceHero({
   highlight,
   activation,
   campaignSlug,
+  profileSlug,
 }: ProfileEvidenceHeroProps) {
   const peak =
     advertiser.peakConcurrentViewers != null && advertiser.peakConcurrentViewers > 0
@@ -48,6 +50,12 @@ export default function ProfileEvidenceHero({
   ]
     .filter(Boolean)
     .join(" · ");
+
+  const informeHref = profileSlug
+    ? `/marcas/${profileSlug}?tab=informes`
+    : campaignSlug
+      ? `/campanas?slug=${campaignSlug}`
+      : null;
 
   const statsLine = (
     <>
@@ -119,11 +127,8 @@ export default function ProfileEvidenceHero({
                 Ver el momento
               </a>
             ) : null}
-            {campaignSlug ? (
-              <Link
-                href={`/campanas?slug=${campaignSlug}`}
-                className="btn btn-ghost border border-gray-200"
-              >
+            {informeHref ? (
+              <Link href={informeHref} className="btn btn-primary">
                 Armar informe de entrega
               </Link>
             ) : null}
@@ -132,9 +137,14 @@ export default function ProfileEvidenceHero({
       ) : (
         <div className="card p-6">
           <p className="text-[13.5px] text-gray-600 mb-2">{statsLine}</p>
-          <p className="text-[13.5px] text-gray-500">
+          <p className="text-[13.5px] text-gray-500 mb-4">
             Sin cita destacada en el período observado. Revisá el inventario completo abajo.
           </p>
+          {informeHref ? (
+            <Link href={informeHref} className="btn btn-primary">
+              Armar informe de entrega
+            </Link>
+          ) : null}
         </div>
       )}
 

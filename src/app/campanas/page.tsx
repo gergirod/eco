@@ -8,11 +8,17 @@ import CampaignHeader from "@/components/CampaignHeader";
 import ActivationsTable from "@/components/ActivationsTable";
 import MomentModal from "@/components/MomentModal";
 import { useDataset } from "@/lib/useDataset";
-import { campaignReportKey, formatScopePeriod, listCampaignReports } from "@/lib/campaign";
+import {
+  campaignReportKey,
+  findAdvertiserSlugForCampaign,
+  formatScopePeriod,
+  listCampaignReports,
+} from "@/lib/campaign";
 import { printCampaignReportPDF } from "@/lib/campaignReport";
 import reportsFb from "@/data/reports.json";
 import channelsFb from "@/data/channels.json";
 import momentsFb from "@/data/moments.json";
+import brandsFb from "@/data/brands.json";
 
 function CampanasPageInner() {
   const reports = useDataset<any>("reports", reportsFb);
@@ -24,6 +30,11 @@ function CampanasPageInner() {
   const chName: Record<string, string> = useMemo(
     () => Object.fromEntries(channels.map((c: any) => [c.id, c.name])),
     [channels]
+  );
+
+  const brands = useMemo(
+    () => (brandsFb as { slug: string; name: string }[]),
+    []
   );
 
   const campaigns = useMemo(() => listCampaignReports(reports as Record<string, any>), [reports]);
@@ -53,19 +64,31 @@ function CampanasPageInner() {
   const reportKey = slug ? campaignReportKey(slug) : campaigns[0]?.key;
   const report: any = reportKey ? (reports as any)[reportKey] : null;
 
+  const advertiserSlug = useMemo(() => {
+    if (!slug) return null;
+    return findAdvertiserSlugForCampaign(slug, reports as Record<string, any>, brands);
+  }, [slug, reports, brands]);
+
+  const brandName = report?.scope?.marca || report?.name || "Marca";
+
   if (!campaigns.length) {
     return (
       <div className="max-w-xl">
-        <h1 className="text-[28px] font-semibold tracking-tight">Campañas</h1>
+        <nav className="text-[13px] text-gray-500 mb-5">
+          <Link href="/marcas" className="hover:text-accent">
+            Marcas
+          </Link>
+        </nav>
+        <h1 className="text-[28px] font-semibold tracking-tight">Informe de entrega</h1>
         <p className="text-[15px] text-gray-600 mt-3 leading-relaxed">
-          Comprobar que la pauta se cumplió — informe de entrega con respaldo.
+          Comprobá que la pauta se cumplió — con cita, minuto y concurrentes cuando hay captura.
         </p>
         <div className="card p-8 text-[14px] text-gray-600 mt-6">
-          No hay campañas publicadas todavía. Investigá una marca en{" "}
+          No hay informes publicados todavía. Investigá una marca en{" "}
           <Link href="/marcas" className="text-accent font-medium hover:underline">
             Marcas
           </Link>{" "}
-          para armar tu primer informe de entrega.
+          y armá tu primer informe desde su perfil.
         </div>
       </div>
     );
@@ -74,9 +97,14 @@ function CampanasPageInner() {
   if (!report) {
     return (
       <div className="max-w-xl">
-        <h1 className="text-[28px] font-semibold tracking-tight">Campañas</h1>
+        <nav className="text-[13px] text-gray-500 mb-5">
+          <Link href="/marcas" className="hover:text-accent">
+            Marcas
+          </Link>
+        </nav>
+        <h1 className="text-[28px] font-semibold tracking-tight">Informe de entrega</h1>
         <div className="card p-8 text-[14px] text-gray-600 mt-6">
-          No encontramos esa campaña en el período publicado.
+          No encontramos ese informe en el período publicado.
         </div>
       </div>
     );
@@ -84,16 +112,39 @@ function CampanasPageInner() {
 
   return (
     <div>
+      <nav className="text-[13px] text-gray-500 mb-5 flex flex-wrap items-center gap-1.5">
+        <Link href="/marcas" className="hover:text-accent">
+          Marcas
+        </Link>
+        <span className="text-gray-300">/</span>
+        {advertiserSlug ? (
+          <>
+            <Link href={`/marcas/${advertiserSlug}`} className="hover:text-accent">
+              {brandName}
+            </Link>
+            <span className="text-gray-300">/</span>
+          </>
+        ) : (
+          <>
+            <span className="text-gray-700">{brandName}</span>
+            <span className="text-gray-300">/</span>
+          </>
+        )}
+        <span className="text-gray-700">Informe de entrega</span>
+      </nav>
+
       <CampaignHeader report={report} chName={chName} />
 
       <div className="flex items-center gap-3 mb-6 flex-wrap">
-        <BrandPicker
-          options={pickerOptions}
-          value={slug}
-          onChange={setSlug}
-          placeholder="Elegir otra campaña"
-          searchPlaceholder="Buscar campaña…"
-        />
+        {campaigns.length > 1 ? (
+          <BrandPicker
+            options={pickerOptions}
+            value={slug}
+            onChange={setSlug}
+            placeholder="Elegir otro informe"
+            searchPlaceholder="Buscar marca…"
+          />
+        ) : null}
         <button
           type="button"
           className="btn btn-primary ml-auto"
@@ -116,6 +167,14 @@ function CampanasPageInner() {
         segundo exacto. El respaldo describe prueba en transcript y audiencia — no cumplimiento
         contractual.
       </p>
+
+      {advertiserSlug ? (
+        <p className="text-[12.5px] text-gray-500 mt-6">
+          <Link href={`/marcas/${advertiserSlug}`} className="text-accent font-medium hover:underline">
+            ← Volver al perfil de {brandName}
+          </Link>
+        </p>
+      ) : null}
 
       {openMention && (
         <MomentModal

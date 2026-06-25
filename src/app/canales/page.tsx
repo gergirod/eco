@@ -1,153 +1,142 @@
 "use client";
-import { useMemo } from "react";
+
 import Link from "next/link";
+import { Suspense, useEffect, useMemo } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import CoverageLine from "@/components/CoverageLine";
-import { useDataset } from "@/lib/useDataset";
 import { getPlatformCoverage, loadDiscoveryDataset } from "@/lib/discovery";
+import { listChannelBrowseItems } from "@/lib/channelProfile";
+import { useDataset } from "@/lib/useDataset";
 import { compact, num } from "@/lib/format";
 import audienceFb from "@/data/audience.json";
 import benchmarkFb from "@/data/benchmark.json";
 import channelsFb from "@/data/channels.json";
 
-type ChannelConfig = {
-  id: string;
-  name: string;
-  enabled: boolean;
-  has_data: boolean;
-};
-
-function shortProgramTitle(title: string): string {
-  const t = title.trim();
-  if (t.length <= 72) return t;
-  return `${t.slice(0, 69).trimEnd()}…`;
-}
-
-export default function CanalesPage() {
-  const audience = useDataset<any[]>("audience", audienceFb);
-  const benchmark = useDataset<any[]>("benchmark", benchmarkFb);
-  const channelsConfig = useDataset<ChannelConfig[]>("channels", channelsFb);
+function CanalesListInner() {
+  const searchParams = useSearchParams();
+  const router = useRouter();
+  const audience = useDataset("audience", audienceFb);
+  const benchmark = useDataset("benchmark", benchmarkFb);
+  const channelsConfig = useDataset("channels", channelsFb);
   const coverage = useMemo(() => getPlatformCoverage(loadDiscoveryDataset()), []);
 
-  const audienceById = useMemo(
-    () => Object.fromEntries(audience.map((a) => [a.id, a])),
-    [audience]
-  );
-  const benchmarkById = useMemo(
-    () => Object.fromEntries(benchmark.map((b) => [b.id, b])),
-    [benchmark]
+  const items = useMemo(
+    () =>
+      listChannelBrowseItems(
+        channelsConfig as Parameters<typeof listChannelBrowseItems>[0],
+        audience as Parameters<typeof listChannelBrowseItems>[1],
+        benchmark as Parameters<typeof listChannelBrowseItems>[2]
+      ),
+    [channelsConfig, audience, benchmark]
   );
 
+  const withCapture = items.filter((c) => c.hasCapture);
+  const withoutCapture = items.filter((c) => !c.hasCapture);
+
   const heroLine = useMemo(() => {
-    if (!audience.length) return "Compará dónde está la atención y la actividad comercial.";
-    const byAudience = [...audience].sort((a, b) => b.avg_concurrent - a.avg_concurrent);
-    const byBrands = [...benchmark].sort((a, b) => (b.brands || 0) - (a.brands || 0));
+    if (!withCapture.length) return "¿Qué sabemos sobre cada canal del streaming capturado?";
+    const byAudience = [...withCapture].sort(
+      (a, b) => (b.avgConcurrent ?? 0) - (a.avgConcurrent ?? 0)
+    );
+    const byBrands = [...withCapture].sort((a, b) => b.brands - a.brands);
     const topAud = byAudience[0]?.name;
     const topBrands = byBrands[0]?.name;
     if (topAud && topBrands && topAud !== topBrands) {
       return `${topAud} concentra la audiencia; ${topBrands} concentra marcas con pauta.`;
     }
     if (topAud) return `${topAud} lidera audiencia y actividad comercial en el período.`;
-    return "Compará dónde está la atención y la actividad comercial.";
-  }, [audience, benchmark]);
+    return "Investigá cada canal en profundidad — audiencia, marcas y programas.";
+  }, [withCapture]);
 
-  const enabledNoData = useMemo(
-    () =>
-      channelsConfig.filter((c) => c.enabled && !c.has_data && !audienceById[c.id]),
-    [channelsConfig, audienceById]
-  );
-
-  const topBrandsByChannel = useMemo(() => {
-    const map: Record<string, { slug: string; name: string; mentions: number }[]> = {};
-    for (const ch of benchmark) {
-      map[ch.id] = (ch.top_brands || []).slice(0, 5);
-    }
-    return map;
-  }, [benchmark]);
-
-  const sortedAudience = useMemo(
-    () => [...audience].sort((a, b) => b.avg_concurrent - a.avg_concurrent),
-    [audience]
-  );
+  useEffect(() => {
+    const ch = searchParams.get("channel");
+    if (ch) router.replace(`/canales/${ch}`);
+  }, [searchParams, router]);
 
   return (
     <div className="max-w-4xl">
       <h1 className="text-[28px] font-semibold tracking-tight text-ink leading-tight max-w-2xl">
         {heroLine}
       </h1>
+      <p className="text-[14px] text-gray-500 mt-2 max-w-xl">
+        ¿Qué sabemos sobre este canal? Elegí uno para ver programas, marcas activas, audiencia y
+        comparaciones.
+      </p>
       <CoverageLine coverage={coverage} />
 
-      <div className="flex flex-col gap-5">
-        {sortedAudience.map((a, index) => {
-          const brands = topBrandsByChannel[a.id] || [];
-          const topProgram = a.top_programs?.[0];
-          const isTopAudience = index === 0;
+      <div className="flex flex-col gap-4">
+        {withCapture.map((ch, index) => {
+          const isTopAudience = index === 0 && (ch.avgConcurrent ?? 0) > 0;
           const isTopBrands =
-            (benchmarkById[a.id]?.brands || 0) >=
-            Math.max(...benchmark.map((b) => b.brands || 0), 0);
+            ch.brands >= Math.max(...withCapture.map((c) => c.brands), 0) && ch.brands > 0;
 
           return (
-            <article key={a.id} className="card p-5 sm:p-6">
-              <div className="flex items-start justify-between gap-4 mb-3">
+            <Link
+              key={ch.id}
+              href={`/canales/${ch.id}`}
+              className="card p-5 sm:p-6 block hover:border-accent/30 transition-colors group"
+            >
+              <div className="flex items-start justify-between gap-4">
                 <div>
-                  <h2 className="text-[18px] font-semibold text-ink">{a.name}</h2>
+                  <h2 className="text-[18px] font-semibold text-ink group-hover:text-accent transition-colors">
+                    {ch.name}
+                  </h2>
                   <p className="text-[13.5px] text-gray-600 mt-1.5 leading-relaxed max-w-xl">
                     {isTopAudience && isTopBrands
-                      ? `Mayor audiencia y más marcas activas del período — promedio ${num(a.avg_concurrent)} mirando, pico ${compact(a.peak_concurrent)}.`
+                      ? `Mayor audiencia y más marcas activas — promedio ${num(ch.avgConcurrent ?? 0)} mirando${ch.peakConcurrent ? `, pico ${compact(ch.peakConcurrent)}` : ""}.`
                       : isTopAudience
-                        ? `Mayor audiencia del período — promedio ${num(a.avg_concurrent)} mirando, pico ${compact(a.peak_concurrent)}.`
+                        ? `Mayor audiencia del período — promedio ${num(ch.avgConcurrent ?? 0)} mirando.`
                         : isTopBrands
-                          ? `Más marcas con pauta del período — promedio ${num(a.avg_concurrent)} mirando.`
-                          : `${a.videos} programas capturados — promedio ${num(a.avg_concurrent)} mirando, pico ${compact(a.peak_concurrent)}.`}
+                          ? `Más marcas con pauta — ${ch.brands} activas, ${ch.mentions} apariciones.`
+                          : `${ch.mentions} apariciones · ${ch.brands} marcas · promedio ${num(ch.avgConcurrent ?? 0)} mirando.`}
                   </p>
+                  {ch.topBrandName && (
+                    <p className="text-[12.5px] text-gray-400 mt-2">
+                      Marca destacada · {ch.topBrandName}
+                      {ch.shareViews != null ? ` · ${ch.shareViews}% share views` : ""}
+                    </p>
+                  )}
                 </div>
-                <Link
-                  href={`/marcas?channel=${a.id}`}
-                  className="text-[12.5px] text-accent font-medium hover:underline shrink-0"
-                >
-                  Ver marcas activas →
-                </Link>
+                <span className="text-[12.5px] text-accent font-medium shrink-0 group-hover:underline">
+                  Ver perfil →
+                </span>
               </div>
-
-              {topProgram && (
-                <p className="text-[13px] text-gray-500 mb-4">
-                  Programa con mayor pico ·{" "}
-                  <span className="text-gray-700">{shortProgramTitle(topProgram.title || "")}</span>
-                  {" · "}
-                  <span className="font-medium text-ink">{compact(topProgram.peak)} mirando</span>
-                </p>
-              )}
-
-              {brands.length > 0 && (
-                <div className="border-t border-[#f0f0f0] pt-3">
-                  <div className="text-[12px] font-medium text-gray-500 mb-2">Marcas más activas</div>
-                  <div className="flex flex-wrap gap-2">
-                    {brands.map((b) => (
-                      <Link
-                        key={b.slug}
-                        href={`/marcas/${b.slug}`}
-                        className="text-[12.5px] px-2.5 py-1 rounded-full bg-gray-50 text-gray-700 hover:bg-accent-soft hover:text-accent"
-                      >
-                        {b.name}
-                      </Link>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </article>
+            </Link>
           );
         })}
 
-        {enabledNoData.length > 0 && (
-          <div className="text-[13px] text-gray-500 pt-2">
-            {enabledNoData.map((c) => c.name).join(" · ")} — sin captura en el período actual
+        {withoutCapture.length > 0 && (
+          <div className="pt-4">
+            <p className="text-[12px] font-medium text-gray-400 uppercase tracking-wide mb-3">
+              Sin captura en el período
+            </p>
+            <div className="flex flex-col gap-2">
+              {withoutCapture.map((ch) => (
+                <Link
+                  key={ch.id}
+                  href={`/canales/${ch.id}`}
+                  className="text-[13.5px] text-gray-500 hover:text-accent py-1"
+                >
+                  {ch.name} →
+                </Link>
+              ))}
+            </div>
           </div>
         )}
       </div>
 
       <p className="text-[11px] text-gray-400 mt-6 leading-relaxed max-w-xl">
-        Audiencia concurrente medida minuto a minuto durante el vivo. Solo emisiones capturadas en
-        el período — no es el catálogo completo del canal.
+        Solo emisiones capturadas en el período — no es el catálogo completo del canal. Audiencia
+        concurrente medida minuto a minuto durante el vivo.
       </p>
     </div>
+  );
+}
+
+export default function CanalesPage() {
+  return (
+    <Suspense fallback={<div className="text-[13px] text-gray-400">Cargando canales…</div>}>
+      <CanalesListInner />
+    </Suspense>
   );
 }

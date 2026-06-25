@@ -9,7 +9,7 @@ const nextConfig = {
       { source: "/discover", destination: "/marcas", permanent: false },
       { source: "/discover/:slug", destination: "/marcas/:slug", permanent: false },
       { source: "/campaign", destination: "/campanas", permanent: false },
-      { source: "/tendencias", destination: "/movimientos", permanent: false },
+      { source: "/movimientos", destination: "/novedades", permanent: false },
       { source: "/audiencia", destination: "/canales", permanent: false },
     ];
   },
