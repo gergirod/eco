@@ -7,24 +7,29 @@ Diseño limpio, light-mode. Datos **reales** exportados del pipeline.
 
 ## Vistas
 - **Resumen** (`/`) — KPIs globales + benchmark entre canales.
-- **Operación** (contraseña) — `/backoffice`, `/operacion`, `/casos`
+- **Operación** (contraseña) — `/backoffice` (runs, runbook, casos de uso)
 - **Dashboard de marca** (`/marca`) — vista cliente / agencia: elegir marca, menciones por stream, valorización.
 - **Competencia** (`/competencia`) — comparar marca propia vs competidores (share of voice, valor, presencia por canal).
 - **Catálogo de marcas** (`/productos`) — universo acumulado, filtrable.
 
-## Sección Operación (password)
+## Backoffice (contraseña)
 
-Rutas protegidas: `/backoffice`, `/operacion`, `/casos`. Login en `/operacion/login`.
+Ruta protegida: `/backoffice`. Login: `/backoffice/login`.
 
-**Vercel** → Settings → Environment Variables:
+**Dónde va la contraseña (no es un .md del repo):**
+
+| Entorno | Archivo / lugar |
+|---------|-----------------|
+| **Local** | `webapp/.env.local` — copiá `webapp/.env.example` y editá la línea `BACK_OFFICE_PASSWORD=...` |
+| **Vercel** | Project → Settings → Environment Variables → `BACK_OFFICE_PASSWORD` |
 
 ```
 BACK_OFFICE_PASSWORD=<tu clave>
 ```
 
-Redeploy después de agregar la variable. En local: copiar `.env.example` → `.env.local` con la misma clave.
+Reiniciá `npm run dev` después de tocar `.env.local`. En Vercel, redeploy después de agregar la variable.
 
-Sin `BACK_OFFICE_PASSWORD` en producción, esas rutas redirigen al login (en `development` quedan abiertas para trabajar sin fricción).
+Sin `BACK_OFFICE_PASSWORD` configurada, `/backoffice` redirige al login con el mensaje de que falta la variable en el servidor.
 
 ## Correr local
 ```bash

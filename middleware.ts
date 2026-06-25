@@ -13,7 +13,6 @@ export async function middleware(req: NextRequest) {
 
   const password = process.env.BACK_OFFICE_PASSWORD;
   if (!password) {
-    if (process.env.NODE_ENV === "development") return NextResponse.next();
     const login = new URL(OPS_LOGIN_PATH, req.url);
     login.searchParams.set("from", pathname);
     login.searchParams.set("err", "config");
