@@ -7,10 +7,24 @@ Diseño limpio, light-mode. Datos **reales** exportados del pipeline.
 
 ## Vistas
 - **Resumen** (`/`) — KPIs globales + benchmark entre canales.
-- **Backoffice · Runs** (`/backoffice`) — selección de canales, disparar run, estado del proceso y **estado en vivo real** (on-demand).
+- **Operación** (contraseña) — `/backoffice`, `/operacion`, `/casos`
 - **Dashboard de marca** (`/marca`) — vista cliente / agencia: elegir marca, menciones por stream, valorización.
 - **Competencia** (`/competencia`) — comparar marca propia vs competidores (share of voice, valor, presencia por canal).
 - **Catálogo de marcas** (`/productos`) — universo acumulado, filtrable.
+
+## Sección Operación (password)
+
+Rutas protegidas: `/backoffice`, `/operacion`, `/casos`. Login en `/operacion/login`.
+
+**Vercel** → Settings → Environment Variables:
+
+```
+BACK_OFFICE_PASSWORD=<tu clave>
+```
+
+Redeploy después de agregar la variable. En local: copiar `.env.example` → `.env.local` con la misma clave.
+
+Sin `BACK_OFFICE_PASSWORD` en producción, esas rutas redirigen al login (en `development` quedan abiertas para trabajar sin fricción).
 
 ## Correr local
 ```bash
@@ -44,7 +58,7 @@ python push_supabase.py    # opcional: sube esos JSON a Supabase (UI fresca sin 
 ## Deploy a Vercel
 1. Subir el repo a GitHub (la carpeta `webapp` como root del proyecto, o configurar "Root Directory: webapp" en Vercel).
 2. En Vercel: New Project → importar el repo → Framework: Next.js → Deploy.
-3. No requiere variables de entorno. La data viaja en el bundle (`src/data/*.json`).
+3. No requiere variables de entorno para las vistas públicas. Opcional: `BACK_OFFICE_PASSWORD` y Supabase (ver arriba).
 
 ### Notas
 - El **estado en vivo** (`/api/live`) chequea YouTube on-demand. Desde IPs de datacenter (Vercel) YouTube puede limitar el request; ante error devuelve `s/d` sin romper la UI.

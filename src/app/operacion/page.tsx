@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { PageHeader, Badge } from "@/components/ui";
+import OpsLogout from "@/components/OpsLogout";
 import {
   SECTIONS,
   CHANNELS,
@@ -47,6 +48,9 @@ export default function OperacionPage() {
 
   return (
     <div className="max-w-[900px]">
+      <div className="flex justify-end mb-1">
+        <OpsLogout />
+      </div>
       <PageHeader
         title="Operación"
         sub="Runbook interno: captura en vivo mañana, pipeline y publicación a Supabase / web."

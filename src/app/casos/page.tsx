@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import { PageHeader, Badge } from "@/components/ui";
+import OpsLogout from "@/components/OpsLogout";
 import {
   PROFILES,
   POSITIONING,
@@ -156,6 +157,9 @@ export default function CasosPage() {
 
   return (
     <div className="max-w-[1100px]">
+      <div className="flex justify-end mb-1">
+        <OpsLogout />
+      </div>
       <PageHeader
         title="Casos de uso"
         sub="Referencia comercial: qué preguntan marca, agencia y canal — y qué respondemos con cada entregable."

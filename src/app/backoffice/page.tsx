@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { PageHeader, Badge, Stat } from "@/components/ui";
+import OpsLogout from "@/components/OpsLogout";
 import { compact, num } from "@/lib/format";
 import { useDataset } from "@/lib/useDataset";
 import channelsFb from "@/data/channels.json";
@@ -63,6 +64,9 @@ export default function Backoffice() {
 
   return (
     <div>
+      <div className="flex justify-end mb-1">
+        <OpsLogout />
+      </div>
       <PageHeader title="Backoffice · Runs" sub="Vista interna: elegí canales, dispará el run y mirá el estado del proceso." />
 
       <div className="grid grid-cols-4 gap-3 mb-6">
