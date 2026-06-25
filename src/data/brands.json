@@ -94,7 +94,17 @@
     "conc_at": 7875
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 8,
+  "n_programs": 4,
+  "peak_conc_at": 230574,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 8 activaciones en 4 programas y 2 canales — 8 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 8,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "skip",
@@ -181,7 +191,17 @@
     "conc_at": 33144
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 7,
+  "n_programs": 4,
+  "peak_conc_at": 75404,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 7 activaciones en 4 programas y 2 canales — 7 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 7,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "geniol",
@@ -267,7 +287,17 @@
     "conc_at": 37536
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 7,
+  "n_programs": 5,
+  "peak_conc_at": 42582,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 7 activaciones en 5 programas y 1 canales — 6 con evidencia completa y 1 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 6,
+   "partial": 1,
+   "insufficient": 0
+  }
  },
  {
   "slug": "rexona",
@@ -344,7 +374,17 @@
     "conc_at": 7812
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 6,
+  "n_programs": 4,
+  "peak_conc_at": 239778,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 6 activaciones en 4 programas y 2 canales — 6 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 6,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "dia",
@@ -411,7 +451,17 @@
     "conc_at": 41872
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 5,
+  "n_programs": 5,
+  "peak_conc_at": 237804,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 5 activaciones en 5 programas y 2 canales — 5 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 5,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "asiscard",
@@ -468,7 +518,17 @@
     "conc_at": 232929
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 4,
+  "n_programs": 3,
+  "peak_conc_at": 232929,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 4 activaciones en 3 programas y 2 canales — 4 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 4,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "mercado-libre",
@@ -525,7 +585,17 @@
     "conc_at": 42582
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 4,
+  "n_programs": 3,
+  "peak_conc_at": 49510,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 4 activaciones en 3 programas y 2 canales — 4 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 4,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "mcdonald-s",
@@ -581,7 +651,17 @@
     "conc_at": 15088
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 4,
+  "n_programs": 2,
+  "peak_conc_at": 18141,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 4 activaciones en 2 programas y 1 canales — 4 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 4,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "cordoba-turismo",
@@ -627,7 +707,17 @@
     "conc_at": 11663
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 3,
+  "n_programs": 3,
+  "peak_conc_at": 34885,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 3 activaciones en 3 programas y 1 canales — 3 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 3,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "green-life",
@@ -673,7 +763,17 @@
     "conc_at": 38062
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 3,
+  "n_programs": 1,
+  "peak_conc_at": 38062,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 3 activación(es) con evidencia en transcript (3 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 3,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "ypf",
@@ -720,7 +820,17 @@
     "conc_at": 11157
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 3,
+  "n_programs": 3,
+  "peak_conc_at": 42582,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 3 activaciones en 3 programas y 2 canales — 3 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 3,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "canon",
@@ -756,7 +866,17 @@
     "conc_at": 39537
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 1,
+  "peak_conc_at": 40063,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "pharma-olga",
@@ -792,7 +912,17 @@
     "conc_at": 36124
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 36124,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "swift",
@@ -828,7 +958,17 @@
     "conc_at": 19713
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 19713,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "johnnie-walker",
@@ -864,7 +1004,17 @@
     "conc_at": 7550
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 8477,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (1 completas, 1 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 1,
+   "insufficient": 0
+  }
  },
  {
   "slug": "coca-cola",
@@ -900,7 +1050,17 @@
     "conc_at": 38193
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 1,
+  "peak_conc_at": 38250,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "natura-aderezos",
@@ -936,7 +1096,17 @@
     "conc_at": 89404
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 1,
+  "peak_conc_at": 89404,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "natura",
@@ -972,7 +1142,17 @@
     "conc_at": 20418
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 89404,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "canji",
@@ -1008,7 +1188,17 @@
     "conc_at": 51166
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 1,
+  "peak_conc_at": 51168,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "mercado-pago",
@@ -1044,7 +1234,17 @@
     "conc_at": 83666
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 1,
+  "peak_conc_at": 83666,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "coffee-house",
@@ -1080,7 +1280,17 @@
     "conc_at": 94082
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 1,
+  "peak_conc_at": 94082,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "schneider",
@@ -1116,7 +1326,17 @@
     "conc_at": 14409
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 1,
+  "peak_conc_at": 14409,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "picadeli",
@@ -1152,7 +1372,17 @@
     "conc_at": 33049
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 1,
+  "peak_conc_at": 33216,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "adidas",
@@ -1178,7 +1408,17 @@
     "conc_at": 39723
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 39723,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "evaginagel",
@@ -1204,7 +1444,17 @@
     "conc_at": 34534
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 34534,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "full-guapaletas",
@@ -1230,7 +1480,17 @@
     "conc_at": 42830
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 42830,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "espn3-disney",
@@ -1256,7 +1516,17 @@
     "conc_at": 41928
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 41928,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "la-roche-posay",
@@ -1282,7 +1552,17 @@
     "conc_at": 49756
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 49756,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "swiss-medical",
@@ -1308,7 +1588,17 @@
     "conc_at": 40582
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 40582,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "hellmann-s",
@@ -1334,7 +1624,17 @@
     "conc_at": 38530
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 38530,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "hyundai",
@@ -1360,7 +1660,17 @@
     "conc_at": 8458
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 8458,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "cooling-break-schneider",
@@ -1386,7 +1696,17 @@
     "conc_at": 8297
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 8297,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "natier",
@@ -1412,7 +1732,17 @@
     "conc_at": 89404
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 89404,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "sovestar",
@@ -1438,7 +1768,17 @@
     "conc_at": 89404
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 89404,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "hisense",
@@ -1464,7 +1804,17 @@
     "conc_at": 92337
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 92337,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "wanderlust",
@@ -1490,7 +1840,17 @@
     "conc_at": 237771
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 237771,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "lays",
@@ -1516,7 +1876,17 @@
     "conc_at": 241694
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 241694,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "miquelo-ultra",
@@ -1542,7 +1912,17 @@
     "conc_at": 237169
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 237169,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "airbnb",
@@ -1568,7 +1948,17 @@
     "conc_at": 234893
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 234893,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "sony",
@@ -1594,7 +1984,17 @@
     "conc_at": 29636
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 29636,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "top-line",
@@ -1620,7 +2020,17 @@
     "conc_at": 30017
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 30017,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "alma-marcela-gozo",
@@ -1646,7 +2056,17 @@
     "conc_at": 72485
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 72485,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "quilmes",
@@ -1672,7 +2092,17 @@
     "conc_at": 49453
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 49453,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "ariel",
@@ -1698,7 +2128,17 @@
     "conc_at": 48867
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 48867,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "jorjito",
@@ -1724,7 +2164,17 @@
     "conc_at": 48016
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 48016,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "home-by-hudson",
@@ -1750,7 +2200,17 @@
     "conc_at": 42582
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 42582,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "galicia-visa-master",
@@ -1776,7 +2236,17 @@
     "conc_at": 42582
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 42582,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "cordoba-destino-turistico",
@@ -1802,7 +2272,17 @@
     "conc_at": 48622
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 48622,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "evacare-gino",
@@ -1828,7 +2308,17 @@
     "conc_at": 20853
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 20853,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "smirnoff",
@@ -1854,7 +2344,17 @@
     "conc_at": 18770
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 18770,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "seco",
@@ -1880,7 +2380,17 @@
     "conc_at": 511
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 511,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "uber",
@@ -1906,7 +2416,17 @@
     "conc_at": 511
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 511,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "guberpaticerie",
@@ -1932,7 +2452,17 @@
     "conc_at": 511
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 511,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "escorial",
@@ -1958,7 +2488,17 @@
     "conc_at": 11483
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 11483,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "hoy-cerdo",
@@ -1984,7 +2524,17 @@
     "conc_at": 9503
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 9503,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "guacamoles-eventos",
@@ -2010,7 +2560,17 @@
     "conc_at": 7145
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 7145,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "buenos-aires-ciudad",
@@ -2036,7 +2596,17 @@
     "conc_at": 7136
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 7136,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "remax",
@@ -2062,7 +2632,17 @@
     "conc_at": 70599
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 70599,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "la-roche-posay-antelios",
@@ -2088,7 +2668,17 @@
     "conc_at": 104153
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 104153,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "banco-patagonia-club-patagonia",
@@ -2114,7 +2704,17 @@
     "conc_at": 108562
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 108562,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "camiseta-del-purrete-10",
@@ -2140,7 +2740,17 @@
     "conc_at": 19574
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 19574,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "haussler",
@@ -2166,7 +2776,17 @@
     "conc_at": 19882
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 19882,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "pestanela",
@@ -2192,7 +2812,17 @@
     "conc_at": 110934
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 110934,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "mostaza",
@@ -2218,7 +2848,17 @@
     "conc_at": 80284
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 80284,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "hace",
@@ -2244,7 +2884,17 @@
     "conc_at": 62530
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 62530,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "personal",
@@ -2270,7 +2920,17 @@
     "conc_at": 7534
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 7534,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "redoxon",
@@ -2296,7 +2956,17 @@
     "conc_at": 11794
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 11794,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "aerolineas-argentinas",
@@ -2322,7 +2992,17 @@
     "conc_at": 12213
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 12213,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "didi",
@@ -2348,7 +3028,17 @@
     "conc_at": 15215
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 15215,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "fravega",
@@ -2374,7 +3064,17 @@
     "conc_at": 42107
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 42107,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "sif-anti-mufa",
@@ -2400,7 +3100,17 @@
     "conc_at": 39150
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 39150,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "marroc-de-belfort-felford",
@@ -2426,7 +3136,17 @@
     "conc_at": 232946
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 232946,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "coto-digital",
@@ -2452,7 +3172,17 @@
     "conc_at": 233938
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 233938,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "nadir-argentina",
@@ -2478,7 +3208,17 @@
     "conc_at": 8150
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 8150,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "at-t",
@@ -2504,7 +3244,17 @@
     "conc_at": 41046
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 41046,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "geniori-plushie-geniol",
@@ -2530,7 +3280,17 @@
     "conc_at": 36173
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 36173,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  },
  {
   "slug": "cabify",
@@ -2556,6 +3316,16 @@
     "conc_at": 33364
    }
   ],
-  "kind": "marca"
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 33364,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
  }
 ]
