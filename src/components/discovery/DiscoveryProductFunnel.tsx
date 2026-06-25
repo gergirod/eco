@@ -3,10 +3,10 @@ import Link from "next/link";
 const IOL_CAMPAIGN_SLUG = "iol-jun-2026";
 
 const STEPS = [
-  { n: 1, title: "Discovery", desc: "Explorá quién pauta con evidencia" },
-  { n: 2, title: "Perfil", desc: "Investigá activaciones y prueba" },
-  { n: 3, title: "Campaign Intelligence", desc: "Auditá el flight con criterio" },
-  { n: 4, title: "Informe PDF", desc: "Presentá el resultado al cliente" },
+  { n: 1, title: "Marcas", desc: "Investigá quién pauta y con qué respaldo" },
+  { n: 2, title: "Apariciones", desc: "Revisá dónde y cuándo apareció" },
+  { n: 3, title: "Campañas", desc: "Comprobá que la inversión se cumplió" },
+  { n: 4, title: "Informe de entrega", desc: "Presentá el resultado al cliente" },
 ];
 
 export default function DiscoveryProductFunnel() {
@@ -40,10 +40,10 @@ export default function DiscoveryProductFunnel() {
       </div>
 
       <Link
-        href={`/campaign?slug=${IOL_CAMPAIGN_SLUG}`}
+        href={`/campanas?slug=${IOL_CAMPAIGN_SLUG}`}
         className="btn btn-primary inline-flex"
       >
-        Ver auditoría IOL →
+        Armar informe IOL →
       </Link>
     </section>
   );

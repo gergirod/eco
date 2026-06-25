@@ -50,7 +50,7 @@ export default function ActivationsTable({
               <th>Canal</th>
               <th>Prueba textual</th>
               <th>Formato</th>
-              {isCampaign ? <th>Evidencia</th> : <th>Sent.</th>}
+              {isCampaign ? <th>Respaldo</th> : <th>Sent.</th>}
               <th className="text-right">En vivo</th>
               {!isCampaign && (
                 <th className="text-right">

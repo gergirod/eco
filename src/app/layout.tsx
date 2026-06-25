@@ -3,8 +3,8 @@ import "./globals.css";
 import Sidebar from "@/components/Sidebar";
 
 export const metadata: Metadata = {
-  title: "Eco — Brand Intelligence",
-  description: "Inteligencia de marca sobre el streaming argentino en vivo",
+  title: "Eco — Inteligencia comercial en streaming",
+  description: "Quién pauta, dónde y con qué respaldo — streaming en vivo argentino",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

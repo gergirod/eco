@@ -24,7 +24,7 @@ const ALL_TIERS: ConfidenceTier[] = [
 
 type AdvertiserBrowseProps = {
   dataset: DiscoveryDataset;
-  /** Slugs already shown in the hero preview — excluded from alta confianza grid. */
+  /** Slugs already shown in the hero preview — excluded from expanded list. */
   excludeSlugs?: string[];
 };
 
@@ -46,13 +46,13 @@ function BrowseFilters({
   onSort: (v: DiscoverySortKey) => void;
 }) {
   return (
-    <div className="flex flex-wrap items-center gap-2 mb-5">
+    <div className="flex flex-wrap items-center gap-2">
       <input
         value={query}
         onChange={(e) => onQuery(e.target.value)}
-        placeholder="Buscar por nombre…"
-        className="px-3 py-2 text-[13px] border border-gray-200 rounded-lg outline-none focus:border-accent w-[220px]"
-        aria-label="Buscar anunciante"
+        placeholder="Buscar mi marca o una competencia…"
+        className="px-3 py-2 text-[13px] border border-gray-200 rounded-lg outline-none focus:border-accent w-full sm:w-[260px]"
+        aria-label="Buscar marca"
       />
       <select
         value={channel}
@@ -97,16 +97,13 @@ export default function AdvertiserBrowse({ dataset, excludeSlugs = [] }: Adverti
   const initialQ = searchParams.get("q") ?? "";
   const initialChannel = searchParams.get("channel") ?? "";
 
-  const [corpusQuery, setCorpusQuery] = useState(initialQ);
-  const [corpusChannel, setCorpusChannel] = useState(initialChannel);
-  const [corpusSort, setCorpusSort] = useState<DiscoverySortKey>("peak_conc_at");
-  const [emergingOpen, setEmergingOpen] = useState(false);
-  const [corpusOpen, setCorpusOpen] = useState(Boolean(initialQ || initialChannel));
+  const [query, setQuery] = useState(initialQ);
+  const [channel, setChannel] = useState(initialChannel);
+  const [sort, setSort] = useState<DiscoverySortKey>("peak_conc_at");
+  const [expanded, setExpanded] = useState(Boolean(initialQ || initialChannel));
 
   const excluded = useMemo(() => new Set(excludeSlugs), [excludeSlugs]);
 
-  const highCount =
-    dataset.meta.highConfidenceAdvertisers || countByTier(dataset, "high_confidence");
   const emergingCount =
     dataset.meta.emergingConfidenceAdvertisers || countByTier(dataset, "emerging_confidence");
   const totalCount = dataset.advertisers.length;
@@ -119,14 +116,13 @@ export default function AdvertiserBrowse({ dataset, excludeSlugs = [] }: Adverti
     return [...ids].sort((a, b) => (CH_NAME[a] || a).localeCompare(CH_NAME[b] || b));
   }, [dataset]);
 
-  const highConfidenceItems = useMemo(() => {
+  const moreHighConfidence = useMemo(() => {
     const items = browseAdvertisers(dataset, {
       tiers: ["high_confidence"],
       sort: "peak_conc_at",
     });
-    if (!excludeSlugs.length) return items;
     return items.filter((item) => !excluded.has(item.slug));
-  }, [dataset, excludeSlugs, excluded]);
+  }, [dataset, excluded]);
 
   const emergingItems = useMemo(
     () =>
@@ -137,120 +133,93 @@ export default function AdvertiserBrowse({ dataset, excludeSlugs = [] }: Adverti
     [dataset]
   );
 
-  const corpusItems = useMemo(
+  const filteredItems = useMemo(
     () =>
       browseAdvertisers(dataset, {
         tiers: ALL_TIERS,
-        query: corpusQuery,
-        channel: corpusChannel,
-        sort: corpusSort,
+        query,
+        channel,
+        sort,
       }),
-    [dataset, corpusQuery, corpusChannel, corpusSort]
+    [dataset, query, channel, sort]
   );
 
-  const hasCorpusFilters = Boolean(corpusQuery.trim() || corpusChannel);
+  const hasFilters = Boolean(query.trim() || channel);
+  const showExpanded = expanded || hasFilters;
+
+  const moreCount =
+    moreHighConfidence.length + emergingItems.length + countByTier(dataset, "detected");
 
   return (
-    <div className="space-y-12">
-      {/* Nivel 1 — Alta confianza */}
-      <section id="alta-confianza" className="scroll-mt-6">
-        <div className="mb-5">
-          <h2 className="text-[18px] font-semibold tracking-tight text-ink">
-            Alta confianza
-          </h2>
-          <p className="text-[13px] text-gray-500 mt-1">
-            {highCount} {highCount === 1 ? "anunciante recomendado" : "anunciantes recomendados"}{" "}
-            para investigar primero
-          </p>
-        </div>
-        {highConfidenceItems.length > 0 ? (
-          <CardGrid items={highConfidenceItems} />
-        ) : (
-          <p className="text-[13px] text-gray-400">Sin anunciantes de alta confianza en el período.</p>
-        )}
-      </section>
+    <section className="mt-2">
+      <BrowseFilters
+        query={query}
+        channel={channel}
+        sort={sort}
+        channelOptions={channelOptions}
+        onQuery={setQuery}
+        onChannel={setChannel}
+        onSort={setSort}
+      />
 
-      {/* Nivel 2 — Señal temprana */}
-      {emergingCount > 0 && (
-        <section id="senal-temprana" className="scroll-mt-6">
-          <button
-            type="button"
-            onClick={() => setEmergingOpen((v) => !v)}
-            className="flex w-full items-start justify-between gap-4 text-left group"
-            aria-expanded={emergingOpen}
-          >
-            <div>
-              <h2 className="text-[18px] font-semibold tracking-tight text-ink group-hover:text-accent transition-colors">
-                Señal temprana
-              </h2>
-              <p className="text-[13px] text-gray-500 mt-1">
-                {emergingCount} {emergingCount === 1 ? "marca" : "marcas"} con evidencia parcial —
-                aún no listas para auditoría
-              </p>
-            </div>
-            <span className="text-[13px] text-gray-400 shrink-0 mt-1">
-              {emergingOpen ? "Ocultar ▾" : "Expandir ▸"}
-            </span>
-          </button>
-          {emergingOpen && (
-            <div className="mt-5">
-              <CardGrid items={emergingItems} />
-            </div>
-          )}
-        </section>
-      )}
-
-      {/* Nivel 3 — Todos los anunciantes (corpus completo) */}
-      <section id="todos-los-anunciantes" className="scroll-mt-6 pt-2 border-t border-[#ececec]">
+      {!showExpanded && !hasFilters && (
         <button
           type="button"
-          onClick={() => setCorpusOpen((v) => !v)}
-          className="flex w-full items-start justify-between gap-4 text-left group mb-1"
-          aria-expanded={corpusOpen}
+          onClick={() => setExpanded(true)}
+          className="mt-5 text-[13.5px] text-accent font-medium hover:underline"
         >
-          <div>
-            <h2 className="text-[18px] font-semibold tracking-tight text-ink group-hover:text-accent transition-colors">
-              Todos los anunciantes
-            </h2>
-            <p className="text-[13px] text-gray-500 mt-1">
-              {totalCount} en el corpus — buscá tu marca o una competencia
-            </p>
-          </div>
-          {!hasCorpusFilters && (
-            <span className="text-[13px] text-gray-400 shrink-0 mt-1">
-              {corpusOpen ? "Ocultar ▾" : "Explorar ▸"}
-            </span>
-          )}
+          Ver más marcas ({moreCount} en el período) →
         </button>
+      )}
 
-        {(corpusOpen || hasCorpusFilters) && (
-          <div className="mt-4">
-            <BrowseFilters
-              query={corpusQuery}
-              channel={corpusChannel}
-              sort={corpusSort}
-              channelOptions={channelOptions}
-              onQuery={setCorpusQuery}
-              onChannel={setCorpusChannel}
-              onSort={setCorpusSort}
-            />
+      {showExpanded && (
+        <div className="mt-6 space-y-10">
+          {hasFilters ? (
+            <>
+              {filteredItems.length === 0 ? (
+                <div className="card p-8 text-center text-[13.5px] text-gray-500">
+                  Ninguna marca coincide con esta búsqueda.
+                </div>
+              ) : (
+                <>
+                  <p className="text-[12.5px] text-gray-400">
+                    {filteredItems.length} de {totalCount} marcas
+                  </p>
+                  <CardGrid items={filteredItems} />
+                </>
+              )}
+            </>
+          ) : (
+            <>
+              {moreHighConfidence.length > 0 && (
+                <div>
+                  <h2 className="text-[15px] font-semibold text-ink mb-4">Más marcas con actividad sólida</h2>
+                  <CardGrid items={moreHighConfidence} />
+                </div>
+              )}
 
-            {corpusItems.length === 0 ? (
-              <div className="card p-8 text-center text-[13.5px] text-gray-500">
-                Ningún anunciante coincide con esta búsqueda.
-              </div>
-            ) : (
-              <>
-                <p className="text-[12.5px] text-gray-400 mb-4">
-                  {corpusItems.length} de {totalCount} anunciantes
-                  {hasCorpusFilters ? " con estos filtros" : ""}
+              {emergingCount > 0 && (
+                <div>
+                  <h2 className="text-[15px] font-semibold text-ink mb-1">Señal temprana</h2>
+                  <p className="text-[13px] text-gray-500 mb-4">
+                    {emergingCount} {emergingCount === 1 ? "marca" : "marcas"} con respaldo parcial
+                    — aún no listas para auditoría
+                  </p>
+                  <CardGrid items={emergingItems} />
+                </div>
+              )}
+
+              <div>
+                <h2 className="text-[15px] font-semibold text-ink mb-1">Todas las marcas</h2>
+                <p className="text-[13px] text-gray-500 mb-4">
+                  {totalCount} en el período — usá los filtros de arriba para encontrar la tuya
                 </p>
-                <CardGrid items={corpusItems} />
-              </>
-            )}
-          </div>
-        )}
-      </section>
-    </div>
+                <CardGrid items={filteredItems} />
+              </div>
+            </>
+          )}
+        </div>
+      )}
+    </section>
   );
 }

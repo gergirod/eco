@@ -67,7 +67,7 @@ export default function AdvertiserBrowseCard({
 
       <p className="text-[13px] text-gray-500 mb-4">
         <strong className="text-ink font-medium">{item.activationCount}</strong>{" "}
-        {item.activationCount === 1 ? "activación" : "activaciones"}
+        {item.activationCount === 1 ? "aparición" : "apariciones"}
         {peak ? (
           <>
             {" "}
@@ -77,12 +77,12 @@ export default function AdvertiserBrowseCard({
       </p>
 
       <Link
-        href={`/discover/${item.slug}`}
+        href={`/marcas/${item.slug}`}
         className={`font-medium text-accent hover:underline mt-auto ${
           isFeatured ? "text-[14px]" : "text-[13px]"
         }`}
       >
-        Ver perfil →
+        Investigar →
       </Link>
     </article>
   );

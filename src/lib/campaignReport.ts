@@ -1,5 +1,4 @@
-// Campaign Intelligence — informe ejecutivo para entrega al cliente (PDF vía window.print).
-// Reutiliza infraestructura de report.ts; lógica de presentación aislada de Brand Intelligence.
+// Informe de entrega — PDF vía window.print (copy SPEC-005).
 
 import {
   EVIDENCE_LABEL,
@@ -66,7 +65,7 @@ function campaignTitle(report: any): string {
 function executiveConclusion(report: any, chName: Record<string, string>): string {
   const total = report.mentions ?? report.detail?.length ?? 0;
   if (!total) {
-    return "En el período analizado no se registraron activaciones de pauta verificables para esta marca en los canales incluidos.";
+    return "En el período analizado no se registraron apariciones de pauta verificables para esta marca en los canales incluidos.";
   }
 
   const by = report.summary?.by_evidence || {};
@@ -80,7 +79,7 @@ function executiveConclusion(report: any, chName: Record<string, string>): strin
 
   if (verified === total) {
     return (
-      `Se detectaron ${total} activaciones de pauta en el flight analizado. Todas cuentan con evidencia completa: ` +
+      `Se detectaron ${total} apariciones de pauta en el período acordado. Todas cuentan con respaldo completo: ` +
       `cita verificable en el programa y, cuando hubo captura en vivo, medición de audiencia al instante.` +
       (bestConc
         ? ` El momento de mayor atención reunió ${bestConc} personas mirando en ${esc(bestCh)} (${esc(bestProg)}).`
@@ -89,9 +88,9 @@ function executiveConclusion(report: any, chName: Record<string, string>): strin
   }
 
   let base =
-    `Se detectaron ${total} activaciones de pauta. ${verified} con evidencia completa`;
-  if (partial) base += `, ${partial} con evidencia parcial`;
-  if (insufficient) base += `, ${insufficient} con evidencia insuficiente`;
+    `Se detectaron ${total} apariciones de pauta. ${verified} con respaldo completo`;
+  if (partial) base += `, ${partial} con respaldo parcial`;
+  if (insufficient) base += `, ${insufficient} con respaldo insuficiente`;
   base += ".";
   if (bestConc) {
     base += ` La mayor audiencia medida fue ${bestConc} personas en ${esc(bestCh)}.`;
@@ -113,7 +112,7 @@ function evidenceSummaryHtml(report: any): string {
     }).join("")}
     <div class="evidence-pill">
       <div class="n">${num(total)}</div>
-      <div class="l">Activaciones totales</div>
+      <div class="l">Apariciones totales</div>
     </div>
   </div>`;
 }
@@ -150,9 +149,9 @@ function methodologyPage(): string {
     <h2 style="font-size:22px;margin-bottom:16px">Cómo leer este informe</h2>
     <div class="method-box" style="background:#f7faf9;border-color:#dceee9;border-left-color:var(--campaign)">
       <div class="method-row"><b>Origen de los datos</b><span>Transcripción del audio del programa en vivo y captura de audiencia concurrente minuto a minuto, cuando el canal estaba al aire en el período analizado.</span></div>
-      <div class="method-row"><b>Qué es “Evidencia”</b><span>Indica cuánto respaldo verificable existe por activación: cita en el programa, segundo exacto de la lectura y personas mirando en ese instante. No evaluamos video, logos, códigos QR ni cumplimiento del plan de medios.</span></div>
-      <div class="method-row"><b>Evidencia completa</b><span>Cita verificable + minuto preciso + audiencia concurrente capturada.</span></div>
-      <div class="method-row"><b>Evidencia parcial</b><span>Cita verificable, pero sin minuto preciso o sin dato de audiencia al instante.</span></div>
+      <div class="method-row"><b>Qué es el respaldo</b><span>Indica cuánta prueba verificable existe por aparición: cita en el programa, segundo exacto de la lectura y personas mirando en ese instante. No evaluamos video, logos, códigos QR ni cumplimiento del plan de medios.</span></div>
+      <div class="method-row"><b>Respaldo completo</b><span>Cita verificable + minuto preciso + audiencia concurrente capturada.</span></div>
+      <div class="method-row"><b>Respaldo parcial</b><span>Cita verificable, pero sin minuto preciso o sin dato de audiencia al instante.</span></div>
       <div class="method-row"><b>Limitaciones</b><span>Si no hubo captura en el día de emisión, la audiencia al instante puede no estar disponible. Este informe no sustituye el reporte del canal ni certifica entrega contractual.</span></div>
     </div>
     <p style="font-size:13px;color:var(--muted);margin-top:20px;line-height:1.5">
@@ -174,7 +173,6 @@ export function buildCampaignReportHTML(
   const total = report.mentions ?? report.detail?.length ?? 0;
   const today = new Date().toLocaleDateString("es-AR");
   const title = campaignTitle(report);
-  const slug = report.campaign_slug || "";
 
   const sorted = [...(report.detail || [])].sort((a, b) => {
     const da = a.date_iso || "";
@@ -187,19 +185,18 @@ export function buildCampaignReportHTML(
 
   return `<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>${esc(title)} — Informe de campaña</title>
+<title>${esc(title)} — Informe de entrega</title>
 <style>${CAMPAIGN_REPORT_CSS}</style></head><body>
 <div class="page campaign-doc">
 
   <section class="pdf-page head">
-    <div class="kicker">Campaign Intelligence · Informe ejecutivo</div>
+    <div class="kicker">Informe de entrega · Campaña</div>
     <h1>${esc(title)}</h1>
-    <div class="sub">Investigación de pauta en streaming en vivo — período y canales del flight contratado.</div>
+    <div class="sub">Pauta verificada en streaming en vivo — período y canales de la compra.</div>
     <div class="meta">
       <span><b>Marca:</b> ${esc(brand)}</span>
       <span><b>Período:</b> ${esc(period)}</span>
       <span><b>Canales:</b> ${esc(channelsLabel || "—")}</span>
-      ${slug ? `<span><b>Referencia:</b> ${esc(slug)}</span>` : ""}
       <span><b>Emisión del informe:</b> ${esc(today)}</span>
     </div>
   </section>
@@ -208,12 +205,12 @@ export function buildCampaignReportHTML(
     <div class="section-label">Resumen ejecutivo</div>
     <div class="hero" style="border-bottom:none;padding-left:0;padding-right:0">
       <div class="hero-grid">
-        <div class="stat paid"><div class="n">${num(total)}</div><div class="l">activaciones detectadas en el flight</div></div>
+        <div class="stat paid"><div class="n">${num(total)}</div><div class="l">apariciones en el período</div></div>
         <div class="stat"><div class="n">${esc(period)}</div><div class="l">período analizado</div></div>
         <div class="stat"><div class="n">${(scope.canales || report.channels || []).length}</div><div class="l">canales incluidos</div></div>
       </div>
     </div>
-    <div class="section-label" style="margin-top:8px">Resumen de evidencia</div>
+    <div class="section-label" style="margin-top:8px">Resumen de respaldo</div>
     ${evidenceSummaryHtml(report)}
     <div class="conclusion">
       <h4>Conclusión ejecutiva</h4>
@@ -222,19 +219,19 @@ export function buildCampaignReportHTML(
   </section>
 
   <section class="pdf-page break">
-    <div class="section-label">Línea de tiempo de activaciones</div>
+    <div class="section-label">Inventario de apariciones</div>
     <p class="lead" style="margin-bottom:18px">
-      Cada fila es una lectura de pauta verificada en el período del flight, en orden cronológico.
+      Cada bloque es una lectura de pauta verificada en el período acordado, en orden cronológico.
       El enlace abre el video en el segundo exacto de la cita.
     </p>
-    ${timelineHtml || "<p>No hay activaciones en el flight.</p>"}
+    ${timelineHtml || "<p>No hay apariciones en el período.</p>"}
   </section>
 
   ${methodologyPage()}
 
   <div class="foot">
-    <p><b>Alcance.</b> Solo activaciones dentro del flight definido (${esc(period)}, ${esc(channelsLabel)}). Sin histórico de la marca fuera de este período.</p>
-    <p>Eco · Campaign Intelligence · ${esc(today)}</p>
+    <p><b>Alcance.</b> Solo apariciones dentro del período acordado (${esc(period)}, ${esc(channelsLabel)}). Sin histórico de la marca fuera de este período.</p>
+    <p>Eco · Informe de entrega · ${esc(today)}</p>
   </div>
 </div>
 </body></html>`;

@@ -9,7 +9,7 @@ export default function DiscoveryHeroPreview({ items }: DiscoveryHeroPreviewProp
   if (!items.length) return null;
 
   return (
-    <section className="mb-10 -mx-1" aria-label="Anunciantes destacados">
+    <section className="mb-10 -mx-1" aria-label="Marcas destacadas">
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {items.map((item) => (
           <AdvertiserBrowseCard key={item.slug} item={item} variant="featured" />

@@ -9,18 +9,18 @@ const CH_NAME: Record<string, string> = Object.fromEntries(
   (channelsBundle as { id: string; name: string }[]).map((c) => [c.id, c.name])
 );
 
-const IOL_CAMPAIGN_SLUG = "iol-jun-2026";
-
 type ProfileEvidenceHeroProps = {
   advertiser: DiscoveryAdvertiser;
   highlight: DiscoveryHighlight | null;
   activation: DiscoveryActivation | null;
+  campaignSlug?: string | null;
 };
 
 export default function ProfileEvidenceHero({
   advertiser,
   highlight,
   activation,
+  campaignSlug,
 }: ProfileEvidenceHeroProps) {
   const peak =
     advertiser.peakConcurrentViewers != null && advertiser.peakConcurrentViewers > 0
@@ -39,32 +39,38 @@ export default function ProfileEvidenceHero({
 
   const channelList = advertiser.channels.map((c) => CH_NAME[c] || c).join(", ");
 
+  const scopeLine = [
+    channelList && `Canales · ${channelList}`,
+    advertiser.firstSeen,
+    advertiser.lastSeen && advertiser.lastSeen !== advertiser.firstSeen
+      ? `– ${advertiser.lastSeen}`
+      : "",
+  ]
+    .filter(Boolean)
+    .join(" · ");
+
+  const statsLine = (
+    <>
+      {advertiser.programCount} {advertiser.programCount === 1 ? "programa" : "programas"} ·{" "}
+      {advertiser.activationCount}{" "}
+      {advertiser.activationCount === 1 ? "aparición" : "apariciones"}
+      {peak ? <> · pico {peak} mirando</> : null}
+    </>
+  );
+
   return (
     <section className="mb-8">
-      <p className="text-[15px] sm:text-[17px] text-gray-700 leading-relaxed max-w-3xl mb-6">
-        <strong className="text-ink font-semibold">{advertiser.name}</strong> apareció en{" "}
-        <strong className="text-ink font-medium">{advertiser.programCount}</strong>{" "}
-        {advertiser.programCount === 1 ? "programa" : "programas"} con{" "}
-        <strong className="text-ink font-medium">{advertiser.activationCount}</strong>{" "}
-        {advertiser.activationCount === 1 ? "activación" : "activaciones"} de pauta
-        {peak ? (
-          <>
-            {" "}
-            — pico de <strong className="text-ink font-medium">{peak}</strong> mirando
-          </>
-        ) : null}
-        .
-      </p>
-
       {quote ? (
         <div className="rounded-2xl border border-accent/15 bg-gradient-to-br from-accent-soft/50 via-white to-white p-6 sm:p-8 shadow-[0_2px_12px_rgba(47,95,224,0.06)]">
           <p className="text-[11px] uppercase tracking-wider text-accent font-medium mb-4">
-            Mejor evidencia disponible
+            Mejor respaldo disponible
           </p>
 
-          <blockquote className="text-[18px] sm:text-[20px] font-medium text-ink leading-snug tracking-tight mb-6">
+          <blockquote className="text-[18px] sm:text-[22px] font-medium text-ink leading-snug tracking-tight mb-5">
             &ldquo;{quote}&rdquo;
           </blockquote>
+
+          <p className="text-[13.5px] text-gray-600 mb-5">{statsLine}</p>
 
           <div className="flex flex-wrap gap-x-6 gap-y-2 text-[13px] text-gray-600 mb-6">
             {program && (
@@ -113,29 +119,26 @@ export default function ProfileEvidenceHero({
                 Ver el momento
               </a>
             ) : null}
-            {advertiser.slug === "iol-inversiones" ? (
+            {campaignSlug ? (
               <Link
-                href={`/campaign?slug=${IOL_CAMPAIGN_SLUG}`}
+                href={`/campanas?slug=${campaignSlug}`}
                 className="btn btn-ghost border border-gray-200"
               >
-                Auditar campaña IOL
+                Armar informe de entrega
               </Link>
             ) : null}
           </div>
         </div>
       ) : (
-        <div className="card p-6 text-[13.5px] text-gray-500">
-          Sin cita destacada en el período observado. Revisá el inventario completo abajo.
+        <div className="card p-6">
+          <p className="text-[13.5px] text-gray-600 mb-2">{statsLine}</p>
+          <p className="text-[13.5px] text-gray-500">
+            Sin cita destacada en el período observado. Revisá el inventario completo abajo.
+          </p>
         </div>
       )}
 
-      <p className="mt-4 text-[12.5px] text-gray-400">
-        {channelList && <>Canales · {channelList} · </>}
-        {advertiser.firstSeen}
-        {advertiser.lastSeen && advertiser.lastSeen !== advertiser.firstSeen
-          ? ` – ${advertiser.lastSeen}`
-          : ""}
-      </p>
+      {scopeLine && <p className="mt-4 text-[12.5px] text-gray-400">{scopeLine}</p>}
     </section>
   );
 }

@@ -108,14 +108,14 @@ export default function ResumenPanel() {
       <div className="card p-5 mt-5">
         <h2 className="text-[15px] font-semibold mb-1">Vistas del producto (acceso directo)</h2>
         <p className="text-[13px] text-gray-500 leading-relaxed">
-          <Link href="/discover" className="text-accent font-medium">
-            Discovery
+          <Link href="/marcas" className="text-accent font-medium">
+            Marcas
           </Link>{" "}
-          — experiencia principal del producto.{" "}
-          <Link href="/campaign" className="text-accent font-medium">
-            Campaign Intelligence
+          — puerta de entrada del producto.{" "}
+          <Link href="/campanas" className="text-accent font-medium">
+            Campañas
           </Link>{" "}
-          — auditoría de campaña.{" "}
+          — informe de entrega.{" "}
           <Link href="/marca" className="text-accent">
             Reportes de marca
           </Link>
