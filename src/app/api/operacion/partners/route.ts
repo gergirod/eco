@@ -2,9 +2,11 @@ import { NextResponse } from "next/server";
 import { buildAccessUrl, parseAccessMonths, accessLinkExpiresAt } from "@/lib/partner-invite";
 import { requireOpsAuth } from "@/lib/ops-api-auth";
 import {
+  extendPartnerAccess,
   listPartners,
   partnerHasAccessLink,
   partnersStoreStatus,
+  setPartnerActive,
   upsertPartner,
   type UpsertPartnerInput,
 } from "@/lib/partners-store";
@@ -89,4 +91,50 @@ export async function POST(req: Request) {
     accessUrl: result.inviteToken ? buildAccessUrl(result.inviteToken, origin) : undefined,
     accessExpiresAt: result.inviteToken ? accessLinkExpiresAt(accessMonths) : undefined,
   });
+}
+
+export async function PATCH(req: Request) {
+  if (!(await requireOpsAuth())) {
+    return NextResponse.json({ ok: false, error: "No autorizado" }, { status: 401 });
+  }
+
+  let body: { id?: string; active?: boolean; extend_months?: number };
+  try {
+    body = await req.json();
+  } catch {
+    return NextResponse.json({ ok: false, error: "JSON inválido" }, { status: 400 });
+  }
+
+  const id = body.id?.trim();
+  if (!id) {
+    return NextResponse.json({ ok: false, error: "id obligatorio" }, { status: 400 });
+  }
+
+  if (body.extend_months != null) {
+    const months = parseAccessMonths(body.extend_months);
+    if (months <= 0) {
+      return NextResponse.json(
+        { ok: false, error: "extend_months debe ser ≥ 1" },
+        { status: 400 }
+      );
+    }
+    const result = await extendPartnerAccess(id, months);
+    if (!result.ok) {
+      return NextResponse.json({ ok: false, error: result.error }, { status: 400 });
+    }
+    return NextResponse.json({ ok: true, accessExpiresAt: result.expiresAt });
+  }
+
+  if (typeof body.active === "boolean") {
+    const result = await setPartnerActive(id, body.active);
+    if (!result.ok) {
+      return NextResponse.json({ ok: false, error: result.error }, { status: 400 });
+    }
+    return NextResponse.json({ ok: true, active: body.active });
+  }
+
+  return NextResponse.json(
+    { ok: false, error: "Enviá active (boolean) o extend_months (número)" },
+    { status: 400 }
+  );
 }

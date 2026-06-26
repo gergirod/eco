@@ -216,6 +216,58 @@ export async function createPartnerInvite(
   return { ok: true, inviteToken };
 }
 
+/** Extiende validez sin cambiar el link — cuando pagan otro mes. */
+export async function extendPartnerAccess(
+  partnerId: string,
+  months: number
+): Promise<{ ok: boolean; error?: string; expiresAt?: string | null }> {
+  const { enabled } = supabaseServiceConfig();
+  if (!enabled) return { ok: false, error: "Supabase no configurado." };
+
+  const partner = await getPartnerById(partnerId);
+  if (!partner) return { ok: false, error: "Cliente no encontrado." };
+  if (partner.active === false) return { ok: false, error: "Cliente dado de baja." };
+  if (!partner.invite_token_hash) {
+    const created = await createPartnerInvite(partnerId, { accessMonths: months });
+    if (!created.ok) return { ok: false, error: created.error };
+    return {
+      ok: true,
+      expiresAt: accessLinkExpiresAt(months),
+    };
+  }
+
+  const { extendAccessExpiry } = await import("@/lib/partner-invite");
+  const invite_expires_at = extendAccessExpiry(months, partner.invite_expires_at);
+  const { ok, status } = await patchPartnerRow(partnerId, { invite_expires_at });
+  if (!ok) {
+    if (status === 404) return { ok: false, error: SUPABASE_PARTNERS_SETUP_HINT };
+    return { ok: false, error: `Supabase error ${status}` };
+  }
+  return { ok: true, expiresAt: invite_expires_at };
+}
+
+/** Revoca acceso: inactivo + link anulado. Sesiones existentes dejan de funcionar. */
+export async function setPartnerActive(
+  partnerId: string,
+  active: boolean
+): Promise<{ ok: boolean; error?: string }> {
+  const { enabled } = supabaseServiceConfig();
+  if (!enabled) return { ok: false, error: "Supabase no configurado." };
+
+  const fields: Record<string, unknown> = { active };
+  if (!active) {
+    fields.invite_token_hash = null;
+    fields.invite_expires_at = null;
+  }
+
+  const { ok, status } = await patchPartnerRow(partnerId, fields);
+  if (!ok) {
+    if (status === 404) return { ok: false, error: SUPABASE_PARTNERS_SETUP_HINT };
+    return { ok: false, error: `Supabase error ${status}` };
+  }
+  return { ok: true };
+}
+
 export async function acceptPartnerInvite(
   token: string,
   password: string

@@ -5,6 +5,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import BrandPortfolioPicker from "@/components/backoffice/BrandPortfolioPicker";
 import ChannelContractPicker from "@/components/backoffice/ChannelContractPicker";
 import PlanPriceField from "@/components/backoffice/PlanPriceField";
+import AccessValidityField from "@/components/backoffice/AccessValidityField";
 import {
   ACCESS_TIMELINE,
   WEEKLY_CHECKLIST,
@@ -102,18 +103,21 @@ function InviteLinkBox({
 
 function PartnerCard({
   partner,
-  accessMonths,
   onRegenerateInvite,
+  onExtendAccess,
+  onSetActive,
 }: {
   partner: PartnerApiRow;
-  accessMonths: number;
   onRegenerateInvite: (
     id: string,
     reset: boolean,
     months: number
   ) => Promise<{ url: string | null; expiresAt: string | null }>;
+  onExtendAccess: (id: string, months: number) => Promise<string | null>;
+  onSetActive: (id: string, active: boolean) => Promise<boolean>;
 }) {
   const [inviteBusy, setInviteBusy] = useState(false);
+  const [statusBusy, setStatusBusy] = useState(false);
   const [inviteUrl, setInviteUrl] = useState<string | null>(null);
   const [inviteExpiresAt, setInviteExpiresAt] = useState<string | null>(null);
   const icp = partner.icp || "agencia";
@@ -216,7 +220,11 @@ function PartnerCard({
 
       <div className="border-t border-[#ececec] pt-4 mb-4 space-y-2">
         <div className="text-[11px] uppercase tracking-wide text-gray-400 mb-2">Acceso plataforma</div>
-        {partner.pending_invite ? (
+        {!partner.active ? (
+          <p className="text-[12px] text-red-700">
+            Dado de baja — sin acceso. Reactivalo cuando vuelvan a pagar.
+          </p>
+        ) : partner.pending_invite ? (
           <p className="text-[12px] text-green-700">
             Link activo
             {partner.invite_expires_at
@@ -227,39 +235,87 @@ function PartnerCard({
           <p className="text-[12px] text-gray-500">Sin link — generá uno</p>
         )}
         <div className="flex flex-wrap gap-2 mt-2">
-          <button
-            type="button"
-            disabled={inviteBusy || !partner.active}
-            onClick={async () => {
-              setInviteBusy(true);
-              const result = await onRegenerateInvite(partner.id, false, accessMonths);
-              if (result.url) {
-                setInviteUrl(result.url);
-                setInviteExpiresAt(result.expiresAt);
-              }
-              setInviteBusy(false);
-            }}
-            className="text-[12px] px-3 py-1.5 rounded-lg border border-[#ececec] hover:bg-gray-50 disabled:opacity-50"
-          >
-            {inviteBusy ? "Generando…" : "Generar / renovar link"}
-          </button>
-          {partner.pending_invite && (
+          {partner.active && (
+            <>
+              <button
+                type="button"
+                disabled={inviteBusy || statusBusy}
+                onClick={async () => {
+                  setStatusBusy(true);
+                  await onExtendAccess(partner.id, 1);
+                  setStatusBusy(false);
+                }}
+                className="text-[12px] px-3 py-1.5 rounded-lg border border-green-200 text-green-800 hover:bg-green-50 disabled:opacity-50"
+              >
+                {statusBusy ? "Renovando…" : "Renovar +1 mes (pagó)"}
+              </button>
+              <button
+                type="button"
+                disabled={inviteBusy || statusBusy}
+                onClick={async () => {
+                  setInviteBusy(true);
+                  const result = await onRegenerateInvite(partner.id, false, 1);
+                  if (result.url) {
+                    setInviteUrl(result.url);
+                    setInviteExpiresAt(result.expiresAt);
+                  }
+                  setInviteBusy(false);
+                }}
+                className="text-[12px] px-3 py-1.5 rounded-lg border border-[#ececec] hover:bg-gray-50 disabled:opacity-50"
+              >
+                {inviteBusy ? "Generando…" : "Generar link (1 mes)"}
+              </button>
+              {partner.pending_invite && (
+                <button
+                  type="button"
+                  disabled={inviteBusy || statusBusy}
+                  onClick={async () => {
+                    if (!confirm("¿Revocar el link actual y generar uno nuevo?")) return;
+                    setInviteBusy(true);
+                    const result = await onRegenerateInvite(partner.id, true, 1);
+                    if (result.url) {
+                      setInviteUrl(result.url);
+                      setInviteExpiresAt(result.expiresAt);
+                    }
+                    setInviteBusy(false);
+                  }}
+                  className="text-[12px] px-3 py-1.5 rounded-lg border border-amber-200 text-amber-800 hover:bg-amber-50 disabled:opacity-50"
+                >
+                  Nuevo link
+                </button>
+              )}
+              <button
+                type="button"
+                disabled={inviteBusy || statusBusy}
+                onClick={async () => {
+                  if (
+                    !confirm(
+                      `¿Dar de baja a ${partner.name}? Corta acceso al instante (no pagó).`
+                    )
+                  )
+                    return;
+                  setStatusBusy(true);
+                  await onSetActive(partner.id, false);
+                  setStatusBusy(false);
+                }}
+                className="text-[12px] px-3 py-1.5 rounded-lg border border-red-200 text-red-700 hover:bg-red-50 disabled:opacity-50"
+              >
+                Dar de baja
+              </button>
+            </>
+          )}
+          {!partner.active && (
             <button
               type="button"
-              disabled={inviteBusy || !partner.active}
+              disabled={statusBusy}
               onClick={async () => {
-                if (!confirm("¿Revocar el link actual y generar uno nuevo?")) return;
-                setInviteBusy(true);
-                const result = await onRegenerateInvite(partner.id, true, accessMonths);
-                if (result.url) {
-                  setInviteUrl(result.url);
-                  setInviteExpiresAt(result.expiresAt);
-                }
-                setInviteBusy(false);
+                setStatusBusy(true);
+                await onSetActive(partner.id, true);
+                setStatusBusy(false);
               }}
-              className="text-[12px] px-3 py-1.5 rounded-lg border border-amber-200 text-amber-800 hover:bg-amber-50 disabled:opacity-50"
+              className="text-[12px] px-3 py-1.5 rounded-lg border border-[#ececec] hover:bg-gray-50 disabled:opacity-50"
             >
-              Revocar y renovar
+              Reactivar cliente
             </button>
           )}
         </div>
@@ -268,7 +324,7 @@ function PartnerCard({
             <InviteLinkBox
               url={inviteUrl}
               expiresAt={inviteExpiresAt}
-              months={accessMonths}
+              months={1}
             />
           </div>
         )}
@@ -335,7 +391,7 @@ export default function DesignPartnersPanel() {
   const [saveMsg, setSaveMsg] = useState("");
   const [accessUrl, setAccessUrl] = useState("");
   const [accessExpiresAt, setAccessExpiresAt] = useState<string | null>(null);
-  const [formAccessMonths, setFormAccessMonths] = useState("12");
+  const [formAccessMonths, setFormAccessMonths] = useState("1");
 
   const planOptions = useMemo(() => plansForIcp(formIcp), [formIcp]);
   const maxBrands = PLAN_MAX_BRANDS[formPlan];
@@ -411,6 +467,39 @@ export default function DesignPartnersPanel() {
       };
     } catch {
       return { url: null, expiresAt: null };
+    }
+  }
+
+  async function extendAccess(id: string, months: number): Promise<string | null> {
+    try {
+      const res = await fetch("/api/operacion/partners", {
+        method: "PATCH",
+        credentials: "same-origin",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, extend_months: months }),
+      });
+      const data = await res.json();
+      if (!res.ok) return null;
+      await loadPartners();
+      return data.accessExpiresAt ?? null;
+    } catch {
+      return null;
+    }
+  }
+
+  async function setPartnerActiveStatus(id: string, active: boolean): Promise<boolean> {
+    try {
+      const res = await fetch("/api/operacion/partners", {
+        method: "PATCH",
+        credentials: "same-origin",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, active }),
+      });
+      if (!res.ok) return false;
+      await loadPartners();
+      return true;
+    } catch {
+      return false;
     }
   }
 
@@ -510,8 +599,8 @@ export default function DesignPartnersPanel() {
     const link = accessUrl || "https://[tu-dominio]/acceso/entrar/[link-unico]";
     const validity =
       parsedAccessMonths > 0
-        ? `El link vence en ${parsedAccessMonths} mes${parsedAccessMonths === 1 ? "" : "es"}.`
-        : "El link no vence (hasta que lo revoques).";
+        ? `El acceso vence en ${parsedAccessMonths} mes${parsedAccessMonths === 1 ? "" : "es"} — renovalo desde el backoffice cuando paguen.`
+        : "El link no vence (hasta que lo revoques manualmente).";
     const scopeLine =
       formIcp === "canal"
         ? "Ves tu canal, benchmark del mercado, certificados, novedades y tendencias."
@@ -683,19 +772,9 @@ ECO Intelligence`;
               value={formPriceArs}
               onChange={setFormPriceArs}
             />
-            <label className="text-[12px] text-gray-600">
-              Validez del link (meses)
-              <input
-                type="number"
-                min={0}
-                max={120}
-                value={formAccessMonths}
-                onChange={(e) => setFormAccessMonths(e.target.value)}
-                className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px]"
-                placeholder="12"
-              />
-              <span className="text-[11px] text-gray-400">0 = sin vencimiento</span>
-            </label>
+            <div className="sm:col-span-2">
+              <AccessValidityField value={formAccessMonths} onChange={setFormAccessMonths} />
+            </div>
           </div>
           <button
             type="submit"
@@ -755,8 +834,9 @@ ECO Intelligence`;
               <PartnerCard
                 key={p.id}
                 partner={p}
-                accessMonths={parsedAccessMonths}
                 onRegenerateInvite={regenerateInvite}
+                onExtendAccess={extendAccess}
+                onSetActive={setPartnerActiveStatus}
               />
             ))}
           </div>

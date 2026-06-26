@@ -31,6 +31,20 @@ export function accessLinkExpiresAt(months?: number | null, from = new Date()): 
   return d.toISOString();
 }
 
+/** Suma meses al vencimiento actual (o desde hoy si ya venció) — renovación por pago. */
+export function extendAccessExpiry(
+  months: number,
+  currentExpires: string | null | undefined
+): string | null {
+  const n = Math.floor(months);
+  if (n <= 0) return null;
+  const base =
+    currentExpires && !isAccessLinkExpired(currentExpires)
+      ? new Date(currentExpires)
+      : new Date();
+  return accessLinkExpiresAt(n, base);
+}
+
 /** @deprecated alias */
 export const inviteExpiresAt = accessLinkExpiresAt;
 
