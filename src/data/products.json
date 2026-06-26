@@ -1818,6 +1818,56 @@
   "kind": "producto"
  },
  {
+  "slug": "casas-de-apuestas-generico",
+  "name": "casas de apuestas (genérico)",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "26/06/2026",
+    "video_id": "tlhTO7YtTJ0",
+    "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
+    "minute": "01:20",
+    "views": 5955
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "billeteras-virtuales",
+  "name": "billeteras virtuales",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "26/06/2026",
+    "video_id": "tlhTO7YtTJ0",
+    "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
+    "minute": "01:20",
+    "views": 5955
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "air-fryer",
   "name": "air fryer",
   "mentions": 1,

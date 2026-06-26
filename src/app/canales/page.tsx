@@ -117,7 +117,7 @@ function CanalesListInner() {
                   {ch.topBrandName && (
                     <p className="text-[12.5px] text-gray-400 mt-2">
                       Marca destacada · {ch.topBrandName}
-                      {ch.shareViews != null ? ` · ${ch.shareViews}% share views` : ""}
+                      {ch.shareViews != null ? ` · ${ch.shareViews}% de reproducciones capturadas` : ""}
                     </p>
                   )}
                 </div>

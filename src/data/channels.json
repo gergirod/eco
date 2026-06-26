@@ -28,11 +28,11 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 12,
-   "total_vod_views": 1536593,
-   "avg_concurrent": 81244,
-   "brands_detected": 37,
-   "mentions": 51,
+   "videos_processed": 13,
+   "total_vod_views": 1885145,
+   "avg_concurrent": 89639,
+   "brands_detected": 43,
+   "mentions": 58,
    "last_processed": "26/06/2026"
   },
   "pipeline_status": "activo"

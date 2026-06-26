@@ -2,8 +2,8 @@
  {
   "id": "luzu",
   "name": "Luzu TV",
-  "videos": 11,
-  "avg_concurrent": 86388,
+  "videos": 12,
+  "avg_concurrent": 95054,
   "peak_concurrent": 243607,
   "chat_coverage": 0,
   "chat_msgs_per_1k_min": null,
@@ -22,6 +22,11 @@
     "video_id": "WCF4oC8GC9o"
    },
    {
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "peak": 217174,
+    "video_id": "W5dvBDWCWWk"
+   },
+   {
     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
     "peak": 125483,
     "video_id": "yp1SuqSXmxA"
@@ -30,11 +35,6 @@
     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
     "peak": 125418,
     "video_id": "S1UDpsKkZvE"
-   },
-   {
-    "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
-    "peak": 114637,
-    "video_id": "E1SnlQyyuRc"
    }
   ],
   "top_programs_by_chat": []

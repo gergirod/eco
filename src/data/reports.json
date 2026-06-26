@@ -3912,6 +3912,152 @@
    }
   ]
  },
+ "wanderlust": {
+  "name": "Wanderlust",
+  "mentions": 2,
+  "kind": "marca",
+  "value_usd": 12313.0,
+  "channels": [
+   "luzu"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 2,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 2,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260623",
+    "date": "23/06/2026",
+    "mentions": 1,
+    "value_usd": 6887.0
+   },
+   {
+    "date_iso": "20260626",
+    "date": "26/06/2026",
+    "mentions": 1,
+    "value_usd": 5426.0
+   }
+  ],
+  "best": {
+   "channel": "luzu",
+   "channel_name": "LUZU TV",
+   "date": "23/06/2026",
+   "date_iso": "20260623",
+   "video_id": "cHMIm1Fnig4",
+   "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+   "minute": "01:24:17",
+   "t_seconds": 5057,
+   "precise": true,
+   "views": 373638,
+   "value_usd": 6887.0,
+   "quote": "Wanderlust es la marca de valijas Con más actitud del país Y nos acompaña en todo este recorrido por el Mundial con esta carry-on edición especial Luzu. La llevé el Zafo, el Puy Puy. Yo la llevamos los tres a estallar. La verdad después de tantos aeropuertos, vuelos y kilómetros necesitas una valija que está a la altura de la aventura. Así que gracias Wanderlust por acompañarnos.",
+   "tier": 2,
+   "tier_label": "Lectura dedicada",
+   "sentiment": "positivo",
+   "conc_at": 237826,
+   "retention_pct": 0.1,
+   "chat_ratio": null,
+   "chat_reaction": {
+    "cobertura": false,
+    "has_chat": false,
+    "chat_ratio": null,
+    "tone": "none",
+    "table_line": "Sin chat capturado",
+    "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+    "detail_lines": [],
+    "ejemplos": []
+   },
+   "program_peak": 243607,
+   "has_chat": false,
+   "anchor_confidence": "fuzzy",
+   "anchor_validated": true,
+   "transcript_at_ts": "Totalmente Que es durísimo ¡Amé! ¡Es una verga! ¡Amé! 240.000 personas somos, amigos Siendo las 11.33 de la mañana Me encanta que se abran estas charlas también",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "minute": "00:40:51",
+    "t_seconds": 2451,
+    "precise": true,
+    "views": 348552,
+    "value_usd": 5426.0,
+    "quote": "Wanderlust es la marca de valijas con más actitud del país y nos acompaña en todo este recorrido por el mundial con esta carrion edición especial de uso, es la que llevamos siempre cuando vamos a los partidos, la que trajimos acá toda, la verdad que después de tantos aeropuertos vuelos y kilómetros, necesitas una valija que esté a la altura de la aventura así que gracias a Wanderlust por acompañarnos, pueden conocer más de la marca en arroba somos guion bajo Wanderlust guion bajo ar, Wanderlust tu aventura, nuestro equipaje",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 187365,
+    "retention_pct": 3.1,
+    "chat_ratio": null,
+    "chat_reaction": {
+     "cobertura": false,
+     "has_chat": false,
+     "chat_ratio": null,
+     "tone": "none",
+     "table_line": "Sin chat capturado",
+     "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+     "detail_lines": [],
+     "ejemplos": []
+    },
+    "program_peak": 217174,
+    "has_chat": false,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "Queremos el Barça. Exacto. ¿Y ese ruedito con bufanda? No.",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "date_iso": "20260623",
+    "video_id": "cHMIm1Fnig4",
+    "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+    "minute": "01:24:17",
+    "t_seconds": 5057,
+    "precise": true,
+    "views": 373638,
+    "value_usd": 6887.0,
+    "quote": "Wanderlust es la marca de valijas Con más actitud del país Y nos acompaña en todo este recorrido por el Mundial con esta carry-on edición especial Luzu. La llevé el Zafo, el Puy Puy. Yo la llevamos los tres a estallar. La verdad después de tantos aeropuertos, vuelos y kilómetros necesitas una valija que está a la altura de la aventura. Así que gracias Wanderlust por acompañarnos.",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 237826,
+    "retention_pct": 0.1,
+    "chat_ratio": null,
+    "chat_reaction": {
+     "cobertura": false,
+     "has_chat": false,
+     "chat_ratio": null,
+     "tone": "none",
+     "table_line": "Sin chat capturado",
+     "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+     "detail_lines": [],
+     "ejemplos": []
+    },
+    "program_peak": 243607,
+    "has_chat": false,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "Totalmente Que es durísimo ¡Amé! ¡Es una verga! ¡Amé! 240.000 personas somos, amigos Siendo las 11.33 de la mañana Me encanta que se abran estas charlas también",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   }
+  ]
+ },
  "canji": {
   "name": "Canji",
   "mentions": 2,
@@ -6432,109 +6578,6 @@
    }
   ]
  },
- "wanderlust": {
-  "name": "Wanderlust",
-  "mentions": 1,
-  "kind": "marca",
-  "value_usd": 6887.0,
-  "channels": [
-   "luzu"
-  ],
-  "by_tier": {
-   "1": 0,
-   "2": 1,
-   "3": 0
-  },
-  "by_sentiment": {
-   "positivo": 1,
-   "neutro": 0,
-   "negativo": 0
-  },
-  "series": [
-   {
-    "date_iso": "20260623",
-    "date": "23/06/2026",
-    "mentions": 1,
-    "value_usd": 6887.0
-   }
-  ],
-  "best": {
-   "channel": "luzu",
-   "channel_name": "LUZU TV",
-   "date": "23/06/2026",
-   "date_iso": "20260623",
-   "video_id": "cHMIm1Fnig4",
-   "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
-   "minute": "01:24:17",
-   "t_seconds": 5057,
-   "precise": true,
-   "views": 373638,
-   "value_usd": 6887.0,
-   "quote": "Wanderlust es la marca de valijas Con más actitud del país Y nos acompaña en todo este recorrido por el Mundial con esta carry-on edición especial Luzu. La llevé el Zafo, el Puy Puy. Yo la llevamos los tres a estallar. La verdad después de tantos aeropuertos, vuelos y kilómetros necesitas una valija que está a la altura de la aventura. Así que gracias Wanderlust por acompañarnos.",
-   "tier": 2,
-   "tier_label": "Lectura dedicada",
-   "sentiment": "positivo",
-   "conc_at": 237826,
-   "retention_pct": 0.1,
-   "chat_ratio": null,
-   "chat_reaction": {
-    "cobertura": false,
-    "has_chat": false,
-    "chat_ratio": null,
-    "tone": "none",
-    "table_line": "Sin chat capturado",
-    "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
-    "detail_lines": [],
-    "ejemplos": []
-   },
-   "program_peak": 243607,
-   "has_chat": false,
-   "anchor_confidence": "fuzzy",
-   "anchor_validated": true,
-   "transcript_at_ts": "Totalmente Que es durísimo ¡Amé! ¡Es una verga! ¡Amé! 240.000 personas somos, amigos Siendo las 11.33 de la mañana Me encanta que se abran estas charlas también",
-   "evidence": "VERIFIED",
-   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
-  },
-  "detail": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "23/06/2026",
-    "date_iso": "20260623",
-    "video_id": "cHMIm1Fnig4",
-    "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
-    "minute": "01:24:17",
-    "t_seconds": 5057,
-    "precise": true,
-    "views": 373638,
-    "value_usd": 6887.0,
-    "quote": "Wanderlust es la marca de valijas Con más actitud del país Y nos acompaña en todo este recorrido por el Mundial con esta carry-on edición especial Luzu. La llevé el Zafo, el Puy Puy. Yo la llevamos los tres a estallar. La verdad después de tantos aeropuertos, vuelos y kilómetros necesitas una valija que está a la altura de la aventura. Así que gracias Wanderlust por acompañarnos.",
-    "tier": 2,
-    "tier_label": "Lectura dedicada",
-    "sentiment": "positivo",
-    "conc_at": 237826,
-    "retention_pct": 0.1,
-    "chat_ratio": null,
-    "chat_reaction": {
-     "cobertura": false,
-     "has_chat": false,
-     "chat_ratio": null,
-     "tone": "none",
-     "table_line": "Sin chat capturado",
-     "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
-     "detail_lines": [],
-     "ejemplos": []
-    },
-    "program_peak": 243607,
-    "has_chat": false,
-    "anchor_confidence": "fuzzy",
-    "anchor_validated": true,
-    "transcript_at_ts": "Totalmente Que es durísimo ¡Amé! ¡Es una verga! ¡Amé! 240.000 personas somos, amigos Siendo las 11.33 de la mañana Me encanta que se abran estas charlas también",
-    "evidence": "VERIFIED",
-    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
-   }
-  ]
- },
  "lays": {
   "name": "Lays",
   "mentions": 1,
@@ -7863,6 +7906,624 @@
     "transcript_at_ts": "que le hizo magia negra a los de Inglaterra Dijeron que no era magia negra Que en realidad era como magia blanca No, porque la magia negra Se asocia a algo, a un trabajo O un mal que vos le haces a otro",
     "evidence": "VERIFIED",
     "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "nivea-milk-nutritiva": {
+  "name": "Nivea Milk Nutritiva",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 5719.0,
+  "channels": [
+   "luzu"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 1,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 1,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260626",
+    "date": "26/06/2026",
+    "mentions": 1,
+    "value_usd": 5719.0
+   }
+  ],
+  "best": {
+   "channel": "luzu",
+   "channel_name": "LUZU TV",
+   "date": "26/06/2026",
+   "date_iso": "20260626",
+   "video_id": "W5dvBDWCWWk",
+   "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+   "minute": "00:49:51",
+   "t_seconds": 2991,
+   "precise": true,
+   "views": 348552,
+   "value_usd": 5719.0,
+   "quote": "Si estás buscando humectación duradera Probala la nueva crema corporal Nivea Milk Nutritiva, es la que usamos acá Porque estamos bronceados y nos hace muy bien",
+   "tier": 2,
+   "tier_label": "Lectura dedicada",
+   "sentiment": "positivo",
+   "conc_at": 197502,
+   "retention_pct": 2.8,
+   "chat_ratio": null,
+   "chat_reaction": {
+    "cobertura": false,
+    "has_chat": false,
+    "chat_ratio": null,
+    "tone": "none",
+    "table_line": "Sin chat capturado",
+    "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+    "detail_lines": [],
+    "ejemplos": []
+   },
+   "program_peak": 217174,
+   "has_chat": false,
+   "anchor_confidence": "exact",
+   "anchor_validated": true,
+   "transcript_at_ts": "Sobre este asunto Nico investiga, se va a meter en las habitaciones Y antes que eso te voy a decir Que si estás buscando humectación duradera Probala la nueva crema corporal Nivea Milk Nutritiva, es la que usamos acá Porque estamos bronceados y nos hace muy bien",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "minute": "00:49:51",
+    "t_seconds": 2991,
+    "precise": true,
+    "views": 348552,
+    "value_usd": 5719.0,
+    "quote": "Si estás buscando humectación duradera Probala la nueva crema corporal Nivea Milk Nutritiva, es la que usamos acá Porque estamos bronceados y nos hace muy bien",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 197502,
+    "retention_pct": 2.8,
+    "chat_ratio": null,
+    "chat_reaction": {
+     "cobertura": false,
+     "has_chat": false,
+     "chat_ratio": null,
+     "tone": "none",
+     "table_line": "Sin chat capturado",
+     "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+     "detail_lines": [],
+     "ejemplos": []
+    },
+    "program_peak": 217174,
+    "has_chat": false,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "Sobre este asunto Nico investiga, se va a meter en las habitaciones Y antes que eso te voy a decir Que si estás buscando humectación duradera Probala la nueva crema corporal Nivea Milk Nutritiva, es la que usamos acá Porque estamos bronceados y nos hace muy bien",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "nivea": {
+  "name": "Nivea",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 5722.0,
+  "channels": [
+   "luzu"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 1,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 1,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260626",
+    "date": "26/06/2026",
+    "mentions": 1,
+    "value_usd": 5722.0
+   }
+  ],
+  "best": {
+   "channel": "luzu",
+   "channel_name": "LUZU TV",
+   "date": "26/06/2026",
+   "date_iso": "20260626",
+   "video_id": "W5dvBDWCWWk",
+   "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+   "minute": "00:50:00",
+   "t_seconds": 3000,
+   "precise": true,
+   "views": 348552,
+   "value_usd": 5722.0,
+   "quote": "Es con ácido y alurónico Puro, que brinda humectación Por 72 horas Si querés una piel más suave, nutrida y cuidada, elegí Nivea, la marca número uno en cuidado de la piel del mundo. Muchas gracias a la gente de Nivea, amigos.",
+   "tier": 2,
+   "tier_label": "Lectura dedicada",
+   "sentiment": "positivo",
+   "conc_at": 197614,
+   "retention_pct": 2.9,
+   "chat_ratio": null,
+   "chat_reaction": {
+    "cobertura": false,
+    "has_chat": false,
+    "chat_ratio": null,
+    "tone": "none",
+    "table_line": "Sin chat capturado",
+    "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+    "detail_lines": [],
+    "ejemplos": []
+   },
+   "program_peak": 217174,
+   "has_chat": false,
+   "anchor_confidence": "fuzzy",
+   "anchor_validated": true,
+   "transcript_at_ts": "Probala la nueva crema corporal Nivea Milk Nutritiva, es la que usamos acá Porque estamos bronceados y nos hace muy bien Es con ácido y alurónico Puro, que brinda humectación Por 72 horas Si querés una piel más suave, nutrida y cuidada, elegí Nivea, la marca número uno en cuidado de la piel del mundo.",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "minute": "00:50:00",
+    "t_seconds": 3000,
+    "precise": true,
+    "views": 348552,
+    "value_usd": 5722.0,
+    "quote": "Es con ácido y alurónico Puro, que brinda humectación Por 72 horas Si querés una piel más suave, nutrida y cuidada, elegí Nivea, la marca número uno en cuidado de la piel del mundo. Muchas gracias a la gente de Nivea, amigos.",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 197614,
+    "retention_pct": 2.9,
+    "chat_ratio": null,
+    "chat_reaction": {
+     "cobertura": false,
+     "has_chat": false,
+     "chat_ratio": null,
+     "tone": "none",
+     "table_line": "Sin chat capturado",
+     "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+     "detail_lines": [],
+     "ejemplos": []
+    },
+    "program_peak": 217174,
+    "has_chat": false,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "Probala la nueva crema corporal Nivea Milk Nutritiva, es la que usamos acá Porque estamos bronceados y nos hace muy bien Es con ácido y alurónico Puro, que brinda humectación Por 72 horas Si querés una piel más suave, nutrida y cuidada, elegí Nivea, la marca número uno en cuidado de la piel del mundo.",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "cymes": {
+  "name": "Cymes",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 9444.0,
+  "channels": [
+   "luzu"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 0,
+   "3": 1
+  },
+  "by_sentiment": {
+   "positivo": 1,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260626",
+    "date": "26/06/2026",
+    "mentions": 1,
+    "value_usd": 9444.0
+   }
+  ],
+  "best": {
+   "channel": "luzu",
+   "channel_name": "LUZU TV",
+   "date": "26/06/2026",
+   "date_iso": "20260626",
+   "video_id": "W5dvBDWCWWk",
+   "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+   "minute": "01:04:40",
+   "t_seconds": 3880,
+   "precise": true,
+   "views": 348552,
+   "value_usd": 9444.0,
+   "quote": "Che, desde hace 55 años Cymes es la marca que eligen las familias argentinas por su calidad, confianza y trayectoria. Y en el mes del Mundial llegaron las pelotas Cymes. Pedilas en las franquicias aderidas. Además, escaneando el código QR en las tapas de los botellones, podés colaborar con la cooperadora del Hospital de Niños, Ricardo Gutiérrez. Todos los productos Cymes son analizados por un laboratorio acreditado por Coffee Lab. Bajo normas ISO 9001 y 14001, garantizando calidad y confianza para vos y para tu familia. Cymes, pureza bien protegida.",
+   "tier": 3,
+   "tier_label": "Con código o promo",
+   "sentiment": "positivo",
+   "conc_at": 211985,
+   "retention_pct": 0.5,
+   "chat_ratio": null,
+   "chat_reaction": {
+    "cobertura": false,
+    "has_chat": false,
+    "chat_ratio": null,
+    "tone": "none",
+    "table_line": "Sin chat capturado",
+    "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+    "detail_lines": [],
+    "ejemplos": []
+   },
+   "program_peak": 217174,
+   "has_chat": false,
+   "anchor_confidence": "exact",
+   "anchor_validated": true,
+   "transcript_at_ts": "Al estar de vacaciones Ah, bueno, así cualquiera, ¿no? Y sí Che, desde hace 55 años Cymes es la marca que eligen las familias argentinas por su calidad, confianza y trayectoria.",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "minute": "01:04:40",
+    "t_seconds": 3880,
+    "precise": true,
+    "views": 348552,
+    "value_usd": 9444.0,
+    "quote": "Che, desde hace 55 años Cymes es la marca que eligen las familias argentinas por su calidad, confianza y trayectoria. Y en el mes del Mundial llegaron las pelotas Cymes. Pedilas en las franquicias aderidas. Además, escaneando el código QR en las tapas de los botellones, podés colaborar con la cooperadora del Hospital de Niños, Ricardo Gutiérrez. Todos los productos Cymes son analizados por un laboratorio acreditado por Coffee Lab. Bajo normas ISO 9001 y 14001, garantizando calidad y confianza para vos y para tu familia. Cymes, pureza bien protegida.",
+    "tier": 3,
+    "tier_label": "Con código o promo",
+    "sentiment": "positivo",
+    "conc_at": 211985,
+    "retention_pct": 0.5,
+    "chat_ratio": null,
+    "chat_reaction": {
+     "cobertura": false,
+     "has_chat": false,
+     "chat_ratio": null,
+     "tone": "none",
+     "table_line": "Sin chat capturado",
+     "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+     "detail_lines": [],
+     "ejemplos": []
+    },
+    "program_peak": 217174,
+    "has_chat": false,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "Al estar de vacaciones Ah, bueno, así cualquiera, ¿no? Y sí Che, desde hace 55 años Cymes es la marca que eligen las familias argentinas por su calidad, confianza y trayectoria.",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "pringles": {
+  "name": "Pringles",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 6285.0,
+  "channels": [
+   "luzu"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 1,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 1,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260626",
+    "date": "26/06/2026",
+    "mentions": 1,
+    "value_usd": 6285.0
+   }
+  ],
+  "best": {
+   "channel": "luzu",
+   "channel_name": "LUZU TV",
+   "date": "26/06/2026",
+   "date_iso": "20260626",
+   "video_id": "W5dvBDWCWWk",
+   "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+   "minute": "01:29:29",
+   "t_seconds": 5369,
+   "precise": true,
+   "views": 348552,
+   "value_usd": 6285.0,
+   "quote": "Ninguna papa se compara con Pringles que son las que tenemos acá, ¿eh? Son espectaculares. Hay de todo, los sabores. Para que puedan disfrutar de la previa de cada partido. Cheddar y bacon, crema y cebolla, queso y obvio, las originales. Las favoritas de todos. Ya saben, vienen en tubo. Las podés disfrutar donde sea y como más te guste. Pringles, las más originales.",
+   "tier": 2,
+   "tier_label": "Lectura dedicada",
+   "sentiment": "positivo",
+   "conc_at": 217027,
+   "retention_pct": 0.1,
+   "chat_ratio": null,
+   "chat_reaction": {
+    "cobertura": false,
+    "has_chat": false,
+    "chat_ratio": null,
+    "tone": "none",
+    "table_line": "Sin chat capturado",
+    "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+    "detail_lines": [],
+    "ejemplos": []
+   },
+   "program_peak": 217174,
+   "has_chat": false,
+   "anchor_confidence": "exact",
+   "anchor_validated": true,
+   "transcript_at_ts": "Arrancó el Mundial y en cada partido Las papas están que arden, amigos Pero ¿saben qué? Ninguna papa se compara con Pringles Que son las que tenemos acá, ¿eh? Son espectaculares Hay de todo, los sabores Para que puedan disfrutar de la previa de cada partido",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "minute": "01:29:29",
+    "t_seconds": 5369,
+    "precise": true,
+    "views": 348552,
+    "value_usd": 6285.0,
+    "quote": "Ninguna papa se compara con Pringles que son las que tenemos acá, ¿eh? Son espectaculares. Hay de todo, los sabores. Para que puedan disfrutar de la previa de cada partido. Cheddar y bacon, crema y cebolla, queso y obvio, las originales. Las favoritas de todos. Ya saben, vienen en tubo. Las podés disfrutar donde sea y como más te guste. Pringles, las más originales.",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 217027,
+    "retention_pct": 0.1,
+    "chat_ratio": null,
+    "chat_reaction": {
+     "cobertura": false,
+     "has_chat": false,
+     "chat_ratio": null,
+     "tone": "none",
+     "table_line": "Sin chat capturado",
+     "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+     "detail_lines": [],
+     "ejemplos": []
+    },
+    "program_peak": 217174,
+    "has_chat": false,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "Arrancó el Mundial y en cada partido Las papas están que arden, amigos Pero ¿saben qué? Ninguna papa se compara con Pringles Que son las que tenemos acá, ¿eh? Son espectaculares Hay de todo, los sabores Para que puedan disfrutar de la previa de cada partido",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "patria-y-familia": {
+  "name": "Patria y Familia",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 1398.0,
+  "channels": [
+   "luzu"
+  ],
+  "by_tier": {
+   "1": 1,
+   "2": 0,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 0,
+   "neutro": 1,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260626",
+    "date": "26/06/2026",
+    "mentions": 1,
+    "value_usd": 1398.0
+   }
+  ],
+  "best": {
+   "channel": "luzu",
+   "channel_name": "LUZU TV",
+   "date": "26/06/2026",
+   "date_iso": "20260626",
+   "video_id": "W5dvBDWCWWk",
+   "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+   "minute": "02:32:31",
+   "t_seconds": 9151,
+   "precise": true,
+   "views": 348552,
+   "value_usd": 1398.0,
+   "quote": "Allánco ya pedito porque se viene un programón de Patria y Familia",
+   "tier": 1,
+   "tier_label": "Al pasar",
+   "sentiment": "neutro",
+   "conc_at": 192619,
+   "retention_pct": -16.3,
+   "chat_ratio": null,
+   "chat_reaction": {
+    "cobertura": false,
+    "has_chat": false,
+    "chat_ratio": null,
+    "tone": "none",
+    "table_line": "Sin chat capturado",
+    "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+    "detail_lines": [],
+    "ejemplos": []
+   },
+   "program_peak": 217174,
+   "has_chat": false,
+   "anchor_confidence": "exact",
+   "anchor_validated": true,
+   "transcript_at_ts": "y buenas buenas para Patri y familia ya se hicieron el almuerzo Yo volví y les traje las noticias resumidas para que sigan el día bien informados Allánco ya pedito porque se viene un programón de Patria y Familia Empiezo con que Argentina ya tiene su propia calle en Nueva York Según el gobierno de Argentino, esto busca destacar los fuertes lazos entre Argentina y Estados Unidos",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "minute": "02:32:31",
+    "t_seconds": 9151,
+    "precise": true,
+    "views": 348552,
+    "value_usd": 1398.0,
+    "quote": "Allánco ya pedito porque se viene un programón de Patria y Familia",
+    "tier": 1,
+    "tier_label": "Al pasar",
+    "sentiment": "neutro",
+    "conc_at": 192619,
+    "retention_pct": -16.3,
+    "chat_ratio": null,
+    "chat_reaction": {
+     "cobertura": false,
+     "has_chat": false,
+     "chat_ratio": null,
+     "tone": "none",
+     "table_line": "Sin chat capturado",
+     "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+     "detail_lines": [],
+     "ejemplos": []
+    },
+    "program_peak": 217174,
+    "has_chat": false,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "y buenas buenas para Patri y familia ya se hicieron el almuerzo Yo volví y les traje las noticias resumidas para que sigan el día bien informados Allánco ya pedito porque se viene un programón de Patria y Familia Empiezo con que Argentina ya tiene su propia calle en Nueva York Según el gobierno de Argentino, esto busca destacar los fuertes lazos entre Argentina y Estados Unidos",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "pollo-tati-y-agus-garcia": {
+  "name": "Pollo Tati y Agus García",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 7555.0,
+  "channels": [
+   "luzu"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 0,
+   "3": 1
+  },
+  "by_sentiment": {
+   "positivo": 1,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260626",
+    "date": "26/06/2026",
+    "mentions": 1,
+    "value_usd": 7555.0
+   }
+  ],
+  "best": {
+   "channel": "luzu",
+   "channel_name": "LUZU TV",
+   "date": "26/06/2026",
+   "date_iso": "20260626",
+   "video_id": "W5dvBDWCWWk",
+   "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+   "minute": "02:34:14",
+   "t_seconds": 9254,
+   "precise": true,
+   "views": 348552,
+   "value_usd": 7555.0,
+   "quote": "los sábados son mejores gracias al pollo Tati y a Agus García. Mañana de 9 a 11 están ellos para acompañarnos",
+   "tier": 3,
+   "tier_label": "Con código o promo",
+   "sentiment": "positivo",
+   "conc_at": 169581,
+   "retention_pct": -13.7,
+   "chat_ratio": null,
+   "chat_reaction": {
+    "cobertura": false,
+    "has_chat": false,
+    "chat_ratio": null,
+    "tone": "none",
+    "table_line": "Sin chat capturado",
+    "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+    "detail_lines": [],
+    "ejemplos": []
+   },
+   "program_peak": 217174,
+   "has_chat": false,
+   "anchor_confidence": "exact",
+   "anchor_validated": true,
+   "transcript_at_ts": "Gente, los sábados son mejores gracias al pollo Tati y a Agus García. Mañana de 9 a 11 están ellos para acompañarnos mientras tomamos unos cafecitos.",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "minute": "02:34:14",
+    "t_seconds": 9254,
+    "precise": true,
+    "views": 348552,
+    "value_usd": 7555.0,
+    "quote": "los sábados son mejores gracias al pollo Tati y a Agus García. Mañana de 9 a 11 están ellos para acompañarnos",
+    "tier": 3,
+    "tier_label": "Con código o promo",
+    "sentiment": "positivo",
+    "conc_at": 169581,
+    "retention_pct": -13.7,
+    "chat_ratio": null,
+    "chat_reaction": {
+     "cobertura": false,
+     "has_chat": false,
+     "chat_ratio": null,
+     "tone": "none",
+     "table_line": "Sin chat capturado",
+     "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+     "detail_lines": [],
+     "ejemplos": []
+    },
+    "program_peak": 217174,
+    "has_chat": false,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "Gente, los sábados son mejores gracias al pollo Tati y a Agus García. Mañana de 9 a 11 están ellos para acompañarnos mientras tomamos unos cafecitos.",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
    }
   ]
  },

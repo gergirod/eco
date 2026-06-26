@@ -2,13 +2,13 @@
  {
   "id": "luzu",
   "name": "Luzu TV",
-  "videos": 12,
-  "vod_views": 1536593,
-  "avg_concurrent": 81244,
-  "brands": 37,
-  "mentions": 51,
-  "share_views": 75.9,
-  "n_brands_live": 37,
+  "videos": 13,
+  "vod_views": 1885145,
+  "avg_concurrent": 89639,
+  "brands": 43,
+  "mentions": 58,
+  "share_views": 79.4,
+  "n_brands_live": 43,
   "top_brands": [
    {
     "slug": "skip",
@@ -39,6 +39,12 @@
     "name": "Natura",
     "mentions": 2,
     "value_usd": 3180.0
+   },
+   {
+    "slug": "wanderlust",
+    "name": "Wanderlust",
+    "mentions": 2,
+    "value_usd": 12313.0
    },
    {
     "slug": "canji",
@@ -119,12 +125,6 @@
     "value_usd": 4118.0
    },
    {
-    "slug": "wanderlust",
-    "name": "Wanderlust",
-    "mentions": 1,
-    "value_usd": 6887.0
-   },
-   {
     "slug": "lays",
     "name": "Lays",
     "mentions": 1,
@@ -149,46 +149,46 @@
     "value_usd": 1562.0
    },
    {
+    "slug": "nivea-milk-nutritiva",
+    "name": "Nivea Milk Nutritiva",
+    "mentions": 1,
+    "value_usd": 5719.0
+   },
+   {
+    "slug": "nivea",
+    "name": "Nivea",
+    "mentions": 1,
+    "value_usd": 5722.0
+   },
+   {
+    "slug": "cymes",
+    "name": "Cymes",
+    "mentions": 1,
+    "value_usd": 9444.0
+   },
+   {
+    "slug": "pringles",
+    "name": "Pringles",
+    "mentions": 1,
+    "value_usd": 6285.0
+   },
+   {
+    "slug": "patria-y-familia",
+    "name": "Patria y Familia",
+    "mentions": 1,
+    "value_usd": 1398.0
+   },
+   {
+    "slug": "pollo-tati-y-agus-garcia",
+    "name": "Pollo Tati y Agus García",
+    "mentions": 1,
+    "value_usd": 7555.0
+   },
+   {
     "slug": "quilmes",
     "name": "Quilmes",
     "mentions": 1,
     "value_usd": 2204.0
-   },
-   {
-    "slug": "ariel",
-    "name": "Ariel",
-    "mentions": 1,
-    "value_usd": 2144.0
-   },
-   {
-    "slug": "fenix",
-    "name": "Fénix",
-    "mentions": 1,
-    "value_usd": 2121.0
-   },
-   {
-    "slug": "l-oreal-paris",
-    "name": "L'Oréal Paris",
-    "mentions": 1,
-    "value_usd": 2121.0
-   },
-   {
-    "slug": "viv-glycolic-crystal",
-    "name": "VIV Glycolic Crystal",
-    "mentions": 1,
-    "value_usd": 2164.0
-   },
-   {
-    "slug": "la-roche-posay-antelios",
-    "name": "La Roche-Posay Antelios",
-    "mentions": 1,
-    "value_usd": 4640.0
-   },
-   {
-    "slug": "banco-patagonia-club-patagonia",
-    "name": "Banco Patagonia / Club Patagonia",
-    "mentions": 1,
-    "value_usd": 4823.0
    }
   ]
  },
@@ -200,7 +200,7 @@
   "avg_concurrent": 27993,
   "brands": 45,
   "mentions": 74,
-  "share_views": 22.0,
+  "share_views": 18.7,
   "n_brands_live": 45,
   "top_brands": [
    {
@@ -393,7 +393,7 @@
   "avg_concurrent": 6867,
   "brands": 8,
   "mentions": 8,
-  "share_views": 1.1,
+  "share_views": 0.9,
   "n_brands_live": 8,
   "top_brands": [
    {
@@ -454,7 +454,7 @@
   "avg_concurrent": 8776,
   "brands": 1,
   "mentions": 1,
-  "share_views": 0.8,
+  "share_views": 0.7,
   "n_brands_live": 1,
   "top_brands": [
    {

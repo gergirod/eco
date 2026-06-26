@@ -1023,6 +1023,52 @@
   }
  },
  {
+  "slug": "wanderlust",
+  "name": "Wanderlust",
+  "mentions": 2,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "23/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 12313.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "cHMIm1Fnig4",
+    "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+    "minute": "01:24:17",
+    "views": 373638,
+    "conc_at": 237826
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "minute": "00:40:51",
+    "views": 348552,
+    "conc_at": 187365
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 237826,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
   "slug": "canji",
   "name": "Canji",
   "mentions": 2,
@@ -1803,42 +1849,6 @@
   }
  },
  {
-  "slug": "wanderlust",
-  "name": "Wanderlust",
-  "mentions": 1,
-  "channels": [
-   "luzu"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "23/06/2026",
-  "last_seen": "23/06/2026",
-  "value_usd": 6887.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "23/06/2026",
-    "video_id": "cHMIm1Fnig4",
-    "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
-    "minute": "01:24:17",
-    "views": 373638,
-    "conc_at": 237826
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 237826,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  }
- },
- {
   "slug": "lays",
   "name": "Lays",
   "mentions": 1,
@@ -2226,6 +2236,222 @@
   "n_activations": 1,
   "n_programs": 1,
   "peak_conc_at": 72806,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "nivea-milk-nutritiva",
+  "name": "Nivea Milk Nutritiva",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 5719.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "minute": "00:49:51",
+    "views": 348552,
+    "conc_at": 197502
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 197502,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "nivea",
+  "name": "Nivea",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 5722.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "minute": "00:50:00",
+    "views": 348552,
+    "conc_at": 197614
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 197614,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "cymes",
+  "name": "Cymes",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 9444.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "minute": "01:04:40",
+    "views": 348552,
+    "conc_at": 211985
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 211985,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "pringles",
+  "name": "Pringles",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 6285.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "minute": "01:29:29",
+    "views": 348552,
+    "conc_at": 217027
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 217027,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "patria-y-familia",
+  "name": "Patria y Familia",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 1398.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "minute": "02:32:31",
+    "views": 348552,
+    "conc_at": 192619
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 192619,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "pollo-tati-y-agus-garcia",
+  "name": "Pollo Tati y Agus García",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 7555.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "minute": "02:34:14",
+    "views": 348552,
+    "conc_at": 169581
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 169581,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
