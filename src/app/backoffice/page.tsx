@@ -14,7 +14,7 @@ import ResumenPanel from "@/components/backoffice/ResumenPanel";
 
 const TABS = [
   { id: "resumen", label: "Resumen", sub: "Salud del pipeline y métricas operativas del corpus." },
-  { id: "clientes", label: "Clientes", sub: "Design partners: alta, marcas, competidores, brief semanal y cuándo dar acceso." },
+  { id: "clientes", label: "Clientes", sub: "Design partners: alta, marcas, competidores, acceso y onboarding." },
   { id: "runs", label: "Runs", sub: "Canales, estado en vivo y disparar el pipeline." },
   { id: "runbook", label: "Runbook", sub: "Comandos para captura, pipeline y Supabase." },
   { id: "inteligencia", label: "Inteligencia", sub: "Qué vendemos hoy vs en 90 días — guía para calls." },

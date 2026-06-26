@@ -2,12 +2,20 @@
 
 import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
+import BrandPortfolioPicker from "@/components/backoffice/BrandPortfolioPicker";
+import ChannelContractPicker from "@/components/backoffice/ChannelContractPicker";
 import {
   ACCESS_TIMELINE,
   WEEKLY_CHECKLIST,
   brandDisplayName,
-  parseParesString,
+  briefMailBlock,
+  BRIEF_STEPS_MARCA,
 } from "@/lib/design-partners";
+import {
+  emptyBrandPair,
+  pairsToPartnerPayload,
+  type BrandPair,
+} from "@/lib/brand-catalog";
 import { formatAccessExpiry } from "@/lib/partner-invite";
 import {
   ICP_DEFAULT_PLAN,
@@ -267,8 +275,16 @@ function PartnerCard({
       {icp !== "canal" && partner.brand_slugs.length > 0 && (
         <div className="border-t border-[#ececec] pt-4">
           <div className="text-[11px] uppercase tracking-wide text-gray-400 mb-2">
-            Generar brief (viernes o gancho gratis)
+            Brief semanal (self-service)
           </div>
+          <p className="text-[12px] text-gray-500 mb-2">
+            El cliente lo genera solo — pasos:
+          </p>
+          <ol className="text-[12px] text-gray-600 list-decimal list-inside space-y-0.5 mb-3">
+            {BRIEF_STEPS_MARCA.map((step) => (
+              <li key={step}>{step}</li>
+            ))}
+          </ol>
           <ul className="space-y-2">
             {partner.brand_slugs.map((slug) => (
               <li key={slug} className="text-[13px]">
@@ -278,6 +294,7 @@ function PartnerCard({
                 >
                   {brandDisplayName(slug)} → Informes → PDF
                 </Link>
+                <span className="text-gray-400 text-[12px]"> (vista previa operador)</span>
               </li>
             ))}
           </ul>
@@ -302,9 +319,9 @@ export default function DesignPartnersPanel() {
   const [formName, setFormName] = useState("");
   const [formIcp, setFormIcp] = useState<PartnerIcp>("agencia");
   const [formPlan, setFormPlan] = useState<PartnerPlan>(ICP_DEFAULT_PLAN.agencia);
-  const [formPares, setFormPares] = useState("");
+  const [formBrandPairs, setFormBrandPairs] = useState<BrandPair[]>([emptyBrandPair()]);
   const [formChannelId, setFormChannelId] = useState("");
-  const [formBenchmark, setFormBenchmark] = useState("");
+  const [formBenchmarkIds, setFormBenchmarkIds] = useState<string[]>([]);
   const [formEmail, setFormEmail] = useState("");
   const [formPriceArs, setFormPriceArs] = useState("");
   const [saving, setSaving] = useState(false);
@@ -321,6 +338,13 @@ export default function DesignPartnersPanel() {
       setFormPlan(ICP_DEFAULT_PLAN[formIcp]);
     }
   }, [formIcp, formPlan, planOptions]);
+
+  useEffect(() => {
+    setFormBrandPairs((prev) => {
+      if (prev.length <= maxBrands) return prev;
+      return prev.slice(0, maxBrands);
+    });
+  }, [maxBrands]);
 
   const loadPartners = useCallback(async () => {
     setLoadError("");
@@ -383,24 +407,33 @@ export default function DesignPartnersPanel() {
     let competitor_by_brand: Record<string, string> = {};
 
     if (!isCanal) {
-      const parsed = parseParesString(formPares);
+      const incomplete = formBrandPairs.some((p) => !p.brandSlug || !p.competitorSlug);
+      if (incomplete) {
+        setSaveMsg("Completá marca y competidor en cada fila.");
+        setSaving(false);
+        return;
+      }
+      const slugs = formBrandPairs.map((p) => p.brandSlug);
+      if (new Set(slugs).size !== slugs.length) {
+        setSaveMsg("No podés repetir la misma marca en dos filas.");
+        setSaving(false);
+        return;
+      }
+      const parsed = pairsToPartnerPayload(formBrandPairs);
       brand_slugs = parsed.brand_slugs;
       competitor_by_brand = parsed.competitor_by_brand;
       if (!brand_slugs.length) {
-        setSaveMsg("Usá slugs en pares: iol-inversiones:geniol");
+        setSaveMsg("Agregá al menos una marca con su competidor.");
         setSaving(false);
         return;
       }
     }
 
     const channel_ids = formChannelId.trim() ? [formChannelId.trim()] : [];
-    const benchmark_channel_ids = formBenchmark
-      .split(",")
-      .map((s) => s.trim())
-      .filter(Boolean);
+    const benchmark_channel_ids = formBenchmarkIds;
 
     if (isCanal && !channel_ids.length) {
-      setSaveMsg("ICP canal requiere el ID del canal (ej. olga)");
+      setSaveMsg("Elegí el canal principal del contrato.");
       setSaving(false);
       return;
     }
@@ -469,7 +502,7 @@ ${link}
 Solo funciona para ${name} — ${scopeLine}
 ${validity}
 
-El brief semanal sigue por mail. La plataforma es para profundizar con evidencia al minuto.
+${briefMailBlock(formIcp)}
 
 —
 ECO Intelligence`;
@@ -588,38 +621,18 @@ ECO Intelligence`;
             </label>
 
             {formIcp === "canal" ? (
-              <>
-                <label className="text-[12px] text-gray-600">
-                  Canal principal <span className="text-gray-400">id en channels.json</span>
-                  <input
-                    value={formChannelId}
-                    onChange={(e) => setFormChannelId(e.target.value.replace(/\s+/g, "").toLowerCase())}
-                    className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px] font-mono"
-                    placeholder="olga"
-                    required
-                  />
-                </label>
-                <label className="text-[12px] text-gray-600 sm:col-span-2">
-                  Benchmark canales <span className="text-gray-400">opcional, separados por coma</span>
-                  <input
-                    value={formBenchmark}
-                    onChange={(e) => setFormBenchmark(e.target.value)}
-                    className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px] font-mono"
-                    placeholder="luzu,bondi,blender"
-                  />
-                </label>
-              </>
+              <ChannelContractPicker
+                channelId={formChannelId}
+                benchmarkIds={formBenchmarkIds}
+                onChannelId={setFormChannelId}
+                onBenchmarkIds={setFormBenchmarkIds}
+              />
             ) : (
-              <label className="text-[12px] text-gray-600 sm:col-span-2">
-                Pares <span className="text-gray-400">slug-marca:slug-competidor</span>
-                <input
-                  value={formPares}
-                  onChange={(e) => setFormPares(e.target.value)}
-                  className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px] font-mono"
-                  placeholder="iol-inversiones:geniol,wanderlust:rexona"
-                  required
-                />
-              </label>
+              <BrandPortfolioPicker
+                value={formBrandPairs}
+                onChange={setFormBrandPairs}
+                maxPairs={maxBrands}
+              />
             )}
 
             <label className="text-[12px] text-gray-600 sm:col-span-2">
@@ -673,11 +686,7 @@ ECO Intelligence`;
           )}
         </form>
         <p className="text-[11px] text-gray-400 mt-3">
-          Buscar slugs:{" "}
-          <code className="bg-gray-100 px-1 rounded">
-            python onboard_partner.py --search &quot;marca&quot;
-          </code>
-          · Specs: MARKET-002 · SPEC-010
+          Marcas y canales del corpus ECO · Specs: MARKET-002 · SPEC-010
         </p>
       </div>
 

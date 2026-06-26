@@ -1,6 +1,6 @@
 import partnersFile from "@/data/partners.json";
 import brandsFile from "@/data/brands.json";
-import type { PartnerRecord, PartnersFile } from "@/lib/partners";
+import type { PartnerRecord, PartnersFile, PartnerIcp } from "@/lib/partners";
 import { partnerCompetitorSlugs } from "@/lib/partners";
 
 export type PartnerStage =
@@ -93,7 +93,7 @@ export const ACCESS_TIMELINE = [
   {
     fase: "2. Gancho (post-call)",
     plataforma: "No",
-    entregable: "Brief PDF gratis por mail — generás desde links abajo, sin login.",
+    entregable: "Demo del brief en PDF — compartís link de preview o acceso temporal.",
   },
   {
     fase: "3. Cierran design partner (pagan)",
@@ -103,14 +103,42 @@ export const ACCESS_TIMELINE = [
   {
     fase: "4. Cada viernes",
     plataforma: "Ya tienen acceso",
-    entregable: "PDF + 3 bullets de delta por mail. Plataforma para profundizar.",
+    entregable: "El cliente: Marca → Informes → Descargar resumen PDF. Vos no enviás nada.",
   },
 ] as const;
 
 export const WEEKLY_CHECKLIST = [
-  "Correr export_ui.py (o verificar cron nocturno)",
-  "Por cada marca del partner: abrir perfil → Informes → Descargar PDF",
-  "Escribir 3 bullets: qué apareció nuevo / mejor PNT / orgánico o competidor",
-  "Enviar mail con PDF adjunto + links a /marcas/{slug}",
-  "Call de lectura quincenal el primer mes (opcional)",
+  "Verificar pipeline al día (Resumen → último run)",
+  "Confirmar marcas del partner con datos frescos en el corpus",
+  "El brief lo genera el cliente desde su espacio — no enviar PDFs manualmente",
+  "Opcional: ping si llevan >7 días sin entrar a la plataforma",
 ] as const;
+
+/** Pasos que el cliente sigue en la plataforma (marca / agencia). */
+export const BRIEF_STEPS_MARCA = [
+  "Entrá con tu link de acceso",
+  "Elegí una de tus marcas en el menú lateral (o desde Inicio)",
+  'Abrí la pestaña "Informes"',
+  'Clic en "Descargar resumen PDF" → Imprimir → Guardar como PDF',
+] as const;
+
+/** Pasos para ICP canal. */
+export const BRIEF_STEPS_CANAL = [
+  "Entrá con tu link de acceso",
+  "Tu canal está en el menú lateral",
+  "Certificado de emisión y benchmark desde el perfil del canal",
+] as const;
+
+export function briefStepsForIcp(icp: PartnerIcp): readonly string[] {
+  return icp === "canal" ? BRIEF_STEPS_CANAL : BRIEF_STEPS_MARCA;
+}
+
+export function briefMailBlock(icp: PartnerIcp): string {
+  const steps = briefStepsForIcp(icp);
+  const intro =
+    icp === "canal"
+      ? "Desde la plataforma accedés a tu canal, certificados y tendencias del mercado cuando lo necesites."
+      : "Desde la plataforma generás tu brief semanal en PDF cuando lo necesites: marcas, competidores y evidencia minuto a minuto.";
+  const howTo = steps.map((s, i) => `${i + 1}. ${s}`).join("\n");
+  return `${intro}\n\nCómo hacerlo:\n${howTo}`;
+}

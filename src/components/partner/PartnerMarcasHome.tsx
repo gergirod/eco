@@ -8,6 +8,7 @@ import {
   loadDiscoveryDataset,
   getPlatformCoverage,
 } from "@/lib/discovery";
+import { BRIEF_STEPS_MARCA } from "@/lib/design-partners";
 import { partnerBrandLabel, type PartnerRecord } from "@/lib/partners";
 import { useMemo } from "react";
 
@@ -109,10 +110,15 @@ export default function PartnerMarcasHome({
 
       <section className="mt-10 card p-5">
         <h2 className="text-[14px] font-semibold mb-2">Brief semanal</h2>
-        <p className="text-[13px] text-gray-600 leading-relaxed">
-          El resumen para tu reunión del viernes llega por mail en PDF. Acá profundizás cada
-          aparición: citas, concurrentes al minuto y links al segundo exacto en YouTube.
+        <p className="text-[13px] text-gray-600 leading-relaxed mb-3">
+          Generá tu resumen para la reunión del viernes cuando quieras — citas, concurrentes al
+          minuto y links al segundo exacto en YouTube.
         </p>
+        <ol className="text-[13px] text-gray-600 list-decimal list-inside space-y-1 mb-4">
+          {BRIEF_STEPS_MARCA.map((step) => (
+            <li key={step}>{step}</li>
+          ))}
+        </ol>
         {clientBrands[0] && (
           <Link
             href={`/marcas/${clientBrands[0].slug}?tab=informes`}
