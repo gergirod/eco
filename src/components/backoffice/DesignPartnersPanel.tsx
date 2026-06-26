@@ -490,8 +490,8 @@ export default function DesignPartnersPanel() {
         : "El link no vence (hasta que lo revoques).";
     const scopeLine =
       formIcp === "canal"
-        ? "Ves tu canal, benchmark del mercado, certificados y tendencias."
-        : "Ves tus marcas y competidores del contrato, más el mercado de streaming (canales, programas, tendencias).";
+        ? "Ves tu canal, benchmark del mercado, certificados, novedades y tendencias."
+        : "Ves tus marcas y competidores del contrato, más el mercado de streaming (canales, programas, novedades y tendencias).";
     return `Hola,
 
 Tu espacio en ECO Intelligence está listo.

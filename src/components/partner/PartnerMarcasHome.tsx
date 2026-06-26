@@ -67,8 +67,8 @@ export default function PartnerMarcasHome({
           Tus marcas monitoreadas
         </h1>
         <p className="text-[14px] text-gray-500 mt-2 max-w-2xl leading-relaxed">
-          Perfiles con pauta verificada, orgánico y evidencia al minuto. Canales y tendencias
-          del ecosistema están disponibles en el menú como contexto de mercado.
+          Perfiles con pauta verificada, orgánico y evidencia al minuto. Canales, novedades y
+          tendencias del ecosistema están disponibles en el menú como contexto de mercado.
         </p>
       </div>
 

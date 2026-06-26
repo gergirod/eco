@@ -137,7 +137,7 @@ export function briefMailBlock(icp: PartnerIcp): string {
   const steps = briefStepsForIcp(icp);
   const intro =
     icp === "canal"
-      ? "Desde la plataforma accedés a tu canal, certificados y tendencias del mercado cuando lo necesites."
+      ? "Desde la plataforma accedés a tu canal, certificados, novedades y tendencias del mercado cuando lo necesites."
       : "Desde la plataforma generás tu brief semanal en PDF cuando lo necesites: marcas, competidores y evidencia minuto a minuto.";
   const howTo = steps.map((s, i) => `${i + 1}. ${s}`).join("\n");
   return `${intro}\n\nCómo hacerlo:\n${howTo}`;
