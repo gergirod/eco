@@ -21,11 +21,13 @@ function formatChannels(ids: string[]): string {
 type AdvertiserBrowseCardProps = {
   item: DiscoveryBrowseItem;
   variant?: "featured" | "default";
+  badge?: string;
 };
 
 export default function AdvertiserBrowseCard({
   item,
   variant = "default",
+  badge,
 }: AdvertiserBrowseCardProps) {
   const peak =
     item.peakConcurrentViewers != null && item.peakConcurrentViewers > 0
@@ -49,6 +51,11 @@ export default function AdvertiserBrowseCard({
         }`}
       >
         {item.name}
+        {badge ? (
+          <span className="ml-2 text-[10px] uppercase tracking-wide font-medium text-accent align-middle">
+            {badge}
+          </span>
+        ) : null}
       </h3>
 
       <p className="text-[12.5px] text-gray-400 mb-3">{formatChannels(item.channels)}</p>

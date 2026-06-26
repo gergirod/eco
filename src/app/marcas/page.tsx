@@ -1,16 +1,20 @@
 "use client";
 
-import { Suspense, useMemo } from "react";
+import { Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import CoverageLine from "@/components/CoverageLine";
 import DiscoveryHero from "@/components/discovery/DiscoveryHero";
 import DiscoveryHeroPreview from "@/components/discovery/DiscoveryHeroPreview";
 import AdvertiserBrowse from "@/components/discovery/AdvertiserBrowse";
+import PartnerMarcasHome from "@/components/partner/PartnerMarcasHome";
+import { usePartner } from "@/contexts/PartnerContext";
 import {
   browseAdvertisers,
   getPlatformCoverage,
   loadDiscoveryDataset,
 } from "@/lib/discovery";
 import channelsBundle from "@/data/channels.json";
+import { useMemo } from "react";
 
 const PREVIEW_COUNT = 9;
 const HEADLINE_BRAND_COUNT = 3;
@@ -54,7 +58,7 @@ function channelTeaserFromPreview(
   return `${names.slice(0, -1).join(", ")} y ${names[names.length - 1]}`;
 }
 
-function MarcasContent() {
+function MarcasPublicContent() {
   const dataset = useMemo(() => loadDiscoveryDataset(), []);
   const coverage = useMemo(() => getPlatformCoverage(dataset), [dataset]);
   const previewItems = useMemo(() => buildPreviewItems(dataset), [dataset]);
@@ -83,10 +87,39 @@ function MarcasContent() {
   );
 }
 
+function MarcasPageInner() {
+  const { loading, isScoped, partner } = usePartner();
+  const searchParams = useSearchParams();
+  const scopeErr = searchParams.get("err") === "scope";
+
+  if (loading) {
+    return <div className="text-[13px] text-gray-400 py-8">Cargando…</div>;
+  }
+
+  if (isScoped && partner) {
+    return (
+      <>
+        {scopeErr && (
+          <div className="mb-4 p-3 rounded-lg bg-red-50 text-[13px] text-red-700 border border-red-100">
+            Esa marca no está en tu contrato. Elegí una de tus marcas abajo.
+          </div>
+        )}
+        <PartnerMarcasHome
+          brandSlugs={partner.brand_slugs}
+          competitorSlugs={partner.competitor_slugs}
+          partnerName={partner.name}
+        />
+      </>
+    );
+  }
+
+  return <MarcasPublicContent />;
+}
+
 export default function MarcasPage() {
   return (
     <Suspense fallback={<div className="text-[13px] text-gray-400 py-8">Cargando…</div>}>
-      <MarcasContent />
+      <MarcasPageInner />
     </Suspense>
   );
 }

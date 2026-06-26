@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "partners": [
+    {
+      "id": "plantilla",
+      "name": "Agencia (plantilla — desactivada)",
+      "brand_slugs": ["iol-inversiones"],
+      "competitor_slugs": [],
+      "active": false,
+      "notes": "Copiar bloque, cambiar id/name/slugs, active:true. Contraseña en ECO_PARTNER_PASSWORDS."
+    }
+  ]
+}

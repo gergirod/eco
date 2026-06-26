@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import metaFb from "@/data/meta.json";
+import { usePartner } from "@/contexts/PartnerContext";
 import { NAV_INTERNAL, NAV_MODULES, type NavModule } from "@/lib/nav";
 
 function fmtExport(iso: string) {
@@ -49,8 +50,9 @@ function NavLink({ item, active }: { item: NavModule; active: boolean }) {
 
 export default function Sidebar() {
   const path = usePathname();
-  const exported = fmtExport((metaFb as any).exported_at || "");
-  const onLogin = path === "/backoffice/login";
+  const { isScoped, partner, logout } = usePartner();
+  const exported = fmtExport((metaFb as { exported_at?: string }).exported_at || "");
+  const onLogin = path === "/backoffice/login" || path === "/acceso";
   const onBackoffice = path.startsWith("/backoffice");
 
   if (onLogin) {
@@ -58,11 +60,15 @@ export default function Sidebar() {
       <aside className="w-[228px] shrink-0 border-r border-[#ececec] bg-white px-4 py-6 flex flex-col">
         <div className="px-2 mb-7">
           <div className="text-[15px] font-semibold tracking-tight">Eco</div>
-          <div className="text-[11px] text-gray-400 mt-0.5">Operación · acceso interno</div>
+          <div className="text-[11px] text-gray-400 mt-0.5">
+            {path === "/acceso" ? "Acceso clientes" : "Operación · acceso interno"}
+          </div>
         </div>
-        <Link href="/marcas" className="px-2.5 py-2 text-[13px] text-gray-500 hover:text-accent">
-          ← Volver a Marcas
-        </Link>
+        {path === "/backoffice/login" && (
+          <Link href="/marcas" className="px-2.5 py-2 text-[13px] text-gray-500 hover:text-accent">
+            ← Volver a Marcas
+          </Link>
+        )}
       </aside>
     );
   }
@@ -73,10 +79,46 @@ export default function Sidebar() {
         <Link href="/marcas" className="block hover:opacity-80 transition-opacity">
           <div className="text-[15px] font-semibold tracking-tight">Eco</div>
           <div className="text-[11px] text-gray-400 mt-0.5">
-            Inteligencia comercial · streaming
+            {isScoped && partner ? partner.name : "Inteligencia comercial · streaming"}
           </div>
         </Link>
       </div>
+
+      {isScoped && partner && (
+        <div className="px-2 mb-4 pb-4 border-b border-[#ececec]">
+          <div className="text-[10px] uppercase tracking-wide text-gray-400 mb-2">Tus marcas</div>
+          <nav className="flex flex-col gap-0.5">
+            {partner.brand_slugs.map((slug) => (
+              <Link
+                key={slug}
+                href={`/marcas/${slug}`}
+                className={`px-2.5 py-1.5 rounded-lg text-[12px] ${
+                  path === `/marcas/${slug}`
+                    ? "bg-accent-soft text-accent font-medium"
+                    : "text-gray-600 hover:bg-gray-50"
+                }`}
+              >
+                {slug.replace(/-/g, " ")}
+              </Link>
+            ))}
+            {partner.competitor_slugs.map((slug) => (
+              <Link
+                key={slug}
+                href={`/marcas/${slug}`}
+                className={`px-2.5 py-1.5 rounded-lg text-[12px] ${
+                  path === `/marcas/${slug}`
+                    ? "bg-gray-100 text-gray-800 font-medium"
+                    : "text-gray-500 hover:bg-gray-50"
+                }`}
+              >
+                {slug.replace(/-/g, " ")}
+                <span className="text-[9px] uppercase text-gray-400 ml-1">comp.</span>
+              </Link>
+            ))}
+          </nav>
+        </div>
+      )}
+
       <nav className="flex flex-col gap-0.5">
         {NAV_MODULES.map((n) => {
           const active =
@@ -88,17 +130,31 @@ export default function Sidebar() {
           return <NavLink key={n.href} item={n} active={active} />;
         })}
       </nav>
-      <div className="mt-6 pt-4 border-t border-[#ececec]">
-        <nav className="flex flex-col gap-0.5">
-          {NAV_INTERNAL.map((n) => (
-            <NavLink
-              key={n.href}
-              item={n}
-              active={path === n.href || path.startsWith(`${n.href}/`)}
-            />
-          ))}
-        </nav>
-      </div>
+
+      {!isScoped && (
+        <div className="mt-6 pt-4 border-t border-[#ececec]">
+          <nav className="flex flex-col gap-0.5">
+            {NAV_INTERNAL.map((n) => (
+              <NavLink
+                key={n.href}
+                item={n}
+                active={path === n.href || path.startsWith(`${n.href}/`)}
+              />
+            ))}
+          </nav>
+        </div>
+      )}
+
+      {isScoped && (
+        <button
+          type="button"
+          onClick={() => logout()}
+          className="mt-6 px-2.5 py-2 text-left text-[12px] text-gray-400 hover:text-gray-600"
+        >
+          Cerrar sesión
+        </button>
+      )}
+
       {onBackoffice && (
         <div className="mt-auto px-2 pt-6">
           <div className="text-[10px] text-gray-300 leading-relaxed">
