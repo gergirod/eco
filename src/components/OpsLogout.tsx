@@ -6,8 +6,8 @@ export default function OpsLogout() {
   const router = useRouter();
 
   async function logout() {
-    await fetch("/api/operacion/auth", { method: "DELETE" });
-    router.replace("/backoffice/login");
+    await fetch("/api/admin/auth", { method: "DELETE", credentials: "same-origin" });
+    router.replace("/acceso");
     router.refresh();
   }
 
@@ -17,7 +17,7 @@ export default function OpsLogout() {
       onClick={logout}
       className="text-[12px] text-gray-400 hover:text-gray-600 transition"
     >
-      Cerrar sesión operación
+      Cerrar sesión
     </button>
   );
 }

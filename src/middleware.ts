@@ -2,14 +2,13 @@ import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import {
   ADMIN_COOKIE,
+  adminSessionValid,
   hasFullPlatformAccess,
 } from "@/lib/admin-auth";
 import {
   OPS_COOKIE,
   OPS_LOGIN_PATH,
   isOpsAuthenticated,
-  isOpsProtectedPath,
-  opsSessionValid,
 } from "@/lib/ops-auth";
 import {
   PARTNER_COOKIE,
@@ -28,20 +27,15 @@ import { getPartnerById, getPartnerByAccessToken } from "@/lib/partners-store";
 export async function middleware(req: NextRequest) {
   const { pathname } = req.nextUrl;
 
-  // --- Backoffice (operación interna) ---
-  if (pathname === OPS_LOGIN_PATH || pathname.startsWith("/backoffice")) {
-    if (!isOpsProtectedPath(pathname)) return NextResponse.next();
+  // --- Backoffice: solo admin ECO (login en /acceso) ---
+  if (pathname === OPS_LOGIN_PATH) {
+    return NextResponse.redirect(new URL("/acceso", req.url));
+  }
 
-    const password = process.env.BACK_OFFICE_PASSWORD;
-    if (!password) {
-      const login = new URL(OPS_LOGIN_PATH, req.url);
-      login.searchParams.set("from", pathname);
-      login.searchParams.set("err", "config");
-      return NextResponse.redirect(login);
-    }
-    const cookie = req.cookies.get(OPS_COOKIE)?.value;
-    if (await opsSessionValid(cookie, password)) return NextResponse.next();
-    const login = new URL(OPS_LOGIN_PATH, req.url);
+  if (pathname.startsWith("/backoffice")) {
+    const adminCookie = req.cookies.get(ADMIN_COOKIE)?.value;
+    if (await adminSessionValid(adminCookie)) return NextResponse.next();
+    const login = new URL("/acceso", req.url);
     login.searchParams.set("from", pathname);
     return NextResponse.redirect(login);
   }
@@ -54,12 +48,12 @@ export async function middleware(req: NextRequest) {
     }
 
     const opsCookie = req.cookies.get(OPS_COOKIE)?.value;
-    const opsPassword = process.env.BACK_OFFICE_PASSWORD;
-    if (opsCookie && opsPassword && (await opsSessionValid(opsCookie, opsPassword))) {
-      const bo = new URL("/backoffice", req.url);
-      bo.searchParams.set("tab", "clientes");
-      bo.searchParams.set("err", "client-link");
-      return NextResponse.redirect(bo);
+    const adminCookie = req.cookies.get(ADMIN_COOKIE)?.value;
+    if (
+      (await adminSessionValid(adminCookie)) ||
+      (await isOpsAuthenticated(opsCookie))
+    ) {
+      return NextResponse.redirect(new URL("/marcas", req.url));
     }
 
     const partner = await getPartnerByAccessToken(entrarMatch[1]);

@@ -50,9 +50,9 @@ function NavLink({ item, active }: { item: NavModule; active: boolean }) {
 
 export default function Sidebar() {
   const path = usePathname();
-  const { isScoped, partner, logout } = usePartner();
+  const { isScoped, isAdmin, partner, logout } = usePartner();
   const exported = fmtExport((metaFb as { exported_at?: string }).exported_at || "");
-  const onLogin = path === "/backoffice/login" || path === "/acceso";
+  const onLogin = path === "/acceso";
   const onBackoffice = path.startsWith("/backoffice");
 
   if (onLogin) {
@@ -60,15 +60,8 @@ export default function Sidebar() {
       <aside className="w-[228px] shrink-0 border-r border-[#ececec] bg-white px-4 py-6 flex flex-col">
         <div className="px-2 mb-7">
           <div className="text-[15px] font-semibold tracking-tight">Eco</div>
-          <div className="text-[11px] text-gray-400 mt-0.5">
-            {path === "/acceso" ? "Acceso clientes" : "Operación · acceso interno"}
-          </div>
+          <div className="text-[11px] text-gray-400 mt-0.5">Acceso</div>
         </div>
-        {path === "/backoffice/login" && (
-          <Link href="/marcas" className="px-2.5 py-2 text-[13px] text-gray-500 hover:text-accent">
-            ← Volver a Marcas
-          </Link>
-        )}
       </aside>
     );
   }
@@ -79,7 +72,11 @@ export default function Sidebar() {
         <Link href="/marcas" className="block hover:opacity-80 transition-opacity">
           <div className="text-[15px] font-semibold tracking-tight">Eco</div>
           <div className="text-[11px] text-gray-400 mt-0.5">
-            {isScoped && partner ? partner.name : "Inteligencia comercial · streaming"}
+            {isAdmin
+              ? "Admin ECO"
+              : isScoped && partner
+                ? partner.name
+                : "Inteligencia comercial · streaming"}
           </div>
         </Link>
       </div>
@@ -131,7 +128,7 @@ export default function Sidebar() {
         })}
       </nav>
 
-      {!isScoped && (
+      {isAdmin && (
         <div className="mt-6 pt-4 border-t border-[#ececec]">
           <nav className="flex flex-col gap-0.5">
             {NAV_INTERNAL.map((n) => (
@@ -145,7 +142,7 @@ export default function Sidebar() {
         </div>
       )}
 
-      {isScoped && (
+      {(isScoped || isAdmin) && (
         <button
           type="button"
           onClick={() => logout()}

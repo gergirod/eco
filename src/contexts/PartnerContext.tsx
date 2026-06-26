@@ -23,6 +23,7 @@ type PartnerContextValue = {
   partner: PartnerView | null;
   allSlugs: string[];
   isScoped: boolean;
+  isAdmin: boolean;
   refresh: () => Promise<void>;
   logout: () => Promise<void>;
 };
@@ -33,6 +34,7 @@ export function PartnerProvider({ children }: { children: ReactNode }) {
   const [loading, setLoading] = useState(true);
   const [mode, setMode] = useState<"open" | "partners">("open");
   const [partner, setPartner] = useState<PartnerView | null>(null);
+  const [isAdmin, setIsAdmin] = useState(false);
 
   const refresh = useCallback(async () => {
     try {
@@ -40,9 +42,11 @@ export function PartnerProvider({ children }: { children: ReactNode }) {
       const data = await res.json();
       setMode(data.mode === "partners" ? "partners" : "open");
       setPartner(data.partner ?? null);
+      setIsAdmin(data.isAdmin === true);
     } catch {
       setMode("open");
       setPartner(null);
+      setIsAdmin(false);
     } finally {
       setLoading(false);
     }
@@ -53,8 +57,12 @@ export function PartnerProvider({ children }: { children: ReactNode }) {
   }, [refresh]);
 
   const logout = useCallback(async () => {
-    await fetch("/api/partner/auth", { method: "DELETE", credentials: "same-origin" });
+    await Promise.all([
+      fetch("/api/admin/auth", { method: "DELETE", credentials: "same-origin" }),
+      fetch("/api/partner/auth", { method: "DELETE", credentials: "same-origin" }),
+    ]);
     setPartner(null);
+    setIsAdmin(false);
     window.location.href = "/acceso";
   }, []);
 
@@ -70,10 +78,11 @@ export function PartnerProvider({ children }: { children: ReactNode }) {
       partner,
       allSlugs,
       isScoped: mode === "partners" && partner != null,
+      isAdmin,
       refresh,
       logout,
     }),
-    [loading, mode, partner, allSlugs, refresh, logout]
+    [loading, mode, partner, allSlugs, isAdmin, refresh, logout]
   );
 
   return <PartnerContext.Provider value={value}>{children}</PartnerContext.Provider>;
