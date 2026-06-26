@@ -3423,6 +3423,42 @@
   }
  },
  {
+  "slug": "sastreria-teta-lee",
+  "name": "Sastrería Teta Lee",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 79.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "26/06/2026",
+    "video_id": "tlhTO7YtTJ0",
+    "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
+    "minute": "02:19:09",
+    "views": 5955,
+    "conc_at": 1771
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 1771,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
   "slug": "geniori-plushie-geniol",
   "name": "Geniori Plushie / Geniol",
   "mentions": 1,

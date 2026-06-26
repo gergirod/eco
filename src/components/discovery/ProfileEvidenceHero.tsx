@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { Badge } from "@/components/ui";
+import EntityCoverageLine from "@/components/EntityCoverageLine";
+import { brandEntityCoverage } from "@/lib/coverage";
 import { compact, fmtHMS, vodLink } from "@/lib/format";
 import type { DiscoveryActivation, DiscoveryAdvertiser, DiscoveryHighlight } from "@/lib/discovery";
 import { evidenceLabel, evidenceTone } from "@/lib/campaign";
@@ -40,16 +42,7 @@ export default function ProfileEvidenceHero({
   const evidence = highlight?.evidence || activation?.evidence || "";
 
   const channelList = advertiser.channels.map((c) => CH_NAME[c] || c).join(", ");
-
-  const scopeLine = [
-    channelList && `Canales · ${channelList}`,
-    advertiser.firstSeen,
-    advertiser.lastSeen && advertiser.lastSeen !== advertiser.firstSeen
-      ? `– ${advertiser.lastSeen}`
-      : "",
-  ]
-    .filter(Boolean)
-    .join(" · ");
+  const entityCoverage = brandEntityCoverage(advertiser);
 
   const informeHref = profileSlug
     ? `/marcas/${profileSlug}?tab=informes`
@@ -148,7 +141,10 @@ export default function ProfileEvidenceHero({
         </div>
       )}
 
-      {scopeLine && <p className="mt-4 text-[12.5px] text-gray-400">{scopeLine}</p>}
+      <EntityCoverageLine text={entityCoverage} className="mt-4 mb-0" />
+      {channelList ? (
+        <p className="mt-2 text-[12px] text-gray-400">Canales · {channelList}</p>
+      ) : null}
     </section>
   );
 }

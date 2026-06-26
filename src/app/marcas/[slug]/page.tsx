@@ -9,12 +9,14 @@ import {
   parseBrandProfileTab,
   type BrandProfileTabId,
 } from "@/components/discovery/brand-profile/tabs";
+import CoverageLine from "@/components/CoverageLine";
 import ProfileEvidenceHero from "@/components/discovery/ProfileEvidenceHero";
 import MomentModal from "@/components/MomentModal";
 import { campaignReportKey, findCampaignSlugForAdvertiser } from "@/lib/campaign";
 import {
   createDiscoveryDataset,
   getAdvertiserProfile,
+  getPlatformCoverage,
   pickHighlightActivation,
 } from "@/lib/discovery";
 import { useDataset } from "@/lib/useDataset";
@@ -46,6 +48,8 @@ function MarcaProfileInner() {
     () => createDiscoveryDataset(brands, reports, meta),
     [brands, reports, meta]
   );
+
+  const coverage = useMemo(() => getPlatformCoverage(dataset), [dataset]);
 
   const profile = useMemo(() => getAdvertiserProfile(slug, dataset), [slug, dataset]);
 
@@ -150,6 +154,8 @@ function MarcaProfileInner() {
           {advertiser.name}
         </h1>
       </header>
+
+      <CoverageLine coverage={coverage} className="mb-4" />
 
       <ProfileEvidenceHero
         advertiser={advertiser}

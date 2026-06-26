@@ -76,9 +76,16 @@
   "subscribers": "420K",
   "enabled": true,
   "handle_verified": true,
-  "has_data": false,
-  "stats": null,
-  "pipeline_status": "configurado"
+  "has_data": true,
+  "stats": {
+   "videos_processed": 1,
+   "total_vod_views": 5955,
+   "avg_concurrent": 1473,
+   "brands_detected": 1,
+   "mentions": 1,
+   "last_processed": "26/06/2026"
+  },
+  "pipeline_status": "activo"
  },
  {
   "id": "vorterix",

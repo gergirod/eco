@@ -11655,6 +11655,127 @@
    }
   ]
  },
+ "sastreria-teta-lee": {
+  "name": "Sastrería Teta Lee",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 79.0,
+  "channels": [
+   "gelatina"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 0,
+   "3": 1
+  },
+  "by_sentiment": {
+   "positivo": 1,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260626",
+    "date": "26/06/2026",
+    "mentions": 1,
+    "value_usd": 79.0
+   }
+  ],
+  "best": {
+   "channel": "gelatina",
+   "channel_name": "GELATINA",
+   "date": "26/06/2026",
+   "date_iso": "20260626",
+   "video_id": "tlhTO7YtTJ0",
+   "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
+   "minute": "02:19:09",
+   "t_seconds": 8349,
+   "precise": true,
+   "views": 5955,
+   "value_usd": 79.0,
+   "quote": "Agradecimientos finales, el traje es de Sastrería Teta Lee, miren que bonito... arroba sastrería guión bajo de talí",
+   "tier": 3,
+   "tier_label": "Con código o promo",
+   "sentiment": "positivo",
+   "conc_at": 1771,
+   "retention_pct": -8.1,
+   "chat_ratio": 1.59,
+   "chat_reaction": {
+    "cobertura": true,
+    "has_chat": true,
+    "chat_ratio": 1.59,
+    "spike_rpm": 0.6,
+    "pre_rpm": 12.5,
+    "post_rpm": 8.0,
+    "eco_marca_post": 0,
+    "eco_line": null,
+    "demanda_post": 0,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "up",
+    "table_line": "Chat 1.6× más activo que el promedio del programa",
+    "headline": "Cuando corrió la aparición, el chat estuvo 1.6× más activo que el ritmo normal del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 12.5 msgs/min → después: 8.0 msgs/min.",
+    "detail_lines": [],
+    "ejemplos": [],
+    "motivo": null
+   },
+   "program_peak": 1941,
+   "has_chat": true,
+   "anchor_confidence": "exact",
+   "anchor_validated": true,
+   "transcript_at_ts": "Llegarán ellos dos a un mano a mano en la final Y definiremos ahí entonces Quien es el payaso del año Amigos y amigas, gracias, nos vamos Agradecimientos finales, el traje es de Sastrería Teta Lee, miren que bonito Miren que lindo Hermoso todo, hay trajes para las chicas",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "tlhTO7YtTJ0",
+    "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
+    "minute": "02:19:09",
+    "t_seconds": 8349,
+    "precise": true,
+    "views": 5955,
+    "value_usd": 79.0,
+    "quote": "Agradecimientos finales, el traje es de Sastrería Teta Lee, miren que bonito... arroba sastrería guión bajo de talí",
+    "tier": 3,
+    "tier_label": "Con código o promo",
+    "sentiment": "positivo",
+    "conc_at": 1771,
+    "retention_pct": -8.1,
+    "chat_ratio": 1.59,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 1.59,
+     "spike_rpm": 0.6,
+     "pre_rpm": 12.5,
+     "post_rpm": 8.0,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "up",
+     "table_line": "Chat 1.6× más activo que el promedio del programa",
+     "headline": "Cuando corrió la aparición, el chat estuvo 1.6× más activo que el ritmo normal del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 12.5 msgs/min → después: 8.0 msgs/min.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "program_peak": 1941,
+    "has_chat": true,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "Llegarán ellos dos a un mano a mano en la final Y definiremos ahí entonces Quien es el payaso del año Amigos y amigas, gracias, nos vamos Agradecimientos finales, el traje es de Sastrería Teta Lee, miren que bonito Miren que lindo Hermoso todo, hay trajes para las chicas",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
  "geniori-plushie-geniol": {
   "name": "Geniori Plushie / Geniol",
   "mentions": 1,

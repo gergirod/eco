@@ -6,6 +6,8 @@ import { useParams, useRouter, useSearchParams } from "next/navigation";
 import ChannelProfileHero from "@/components/channels/channel-profile/ChannelProfileHero";
 import ChannelProfileSections from "@/components/channels/channel-profile/ChannelProfileSections";
 import ChannelProfileTabBar from "@/components/channels/channel-profile/ChannelProfileTabBar";
+import CoverageLine from "@/components/CoverageLine";
+import { getPlatformCoverage, loadDiscoveryDataset } from "@/lib/discovery";
 import {
   parseChannelProfileTab,
   type ChannelProfileTabId,
@@ -29,6 +31,8 @@ function CanalProfileInner() {
   const benchmark = useDataset("benchmark", benchmarkFb);
   const reports = useDataset("reports", reportsFb);
   const moments = useDataset("moments", momentsFb);
+
+  const coverage = useMemo(() => getPlatformCoverage(loadDiscoveryDataset()), []);
 
   const tab = parseChannelProfileTab(searchParams.get("tab"));
 
@@ -90,6 +94,8 @@ function CanalProfileInner() {
           {config.name}
         </h1>
       </header>
+
+      <CoverageLine coverage={coverage} className="mb-4" />
 
       <ChannelProfileHero profile={profile} />
 

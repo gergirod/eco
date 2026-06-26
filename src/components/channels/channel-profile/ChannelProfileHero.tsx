@@ -1,5 +1,7 @@
 import Link from "next/link";
 import { Badge } from "@/components/ui";
+import EntityCoverageLine from "@/components/EntityCoverageLine";
+import { channelEntityCoverage } from "@/lib/coverage";
 import { compact, num } from "@/lib/format";
 import type { ChannelProfile } from "@/lib/channelProfile";
 
@@ -20,8 +22,10 @@ export default function ChannelProfileHero({ profile }: Props) {
       ? `${config.name} — monitoreo activo, sin emisiones con audiencia en el período actual.`
       : `${config.name} — canal configurado, sin captura reciente.`;
 
+  const entityCoverage = channelEntityCoverage(profile);
+
   return (
-    <section className="mb-8">
+    <section className="mb-4">
       <div className="rounded-2xl border border-[#ececec] bg-gradient-to-br from-gray-50/80 via-white to-white p-6 sm:p-8">
         <p className="text-[11px] uppercase tracking-wider text-gray-400 font-medium mb-3">
           Perfil del canal
@@ -86,6 +90,7 @@ export default function ChannelProfileHero({ profile }: Props) {
           )}
         </div>
       </div>
+      {entityCoverage ? <EntityCoverageLine text={entityCoverage} className="mb-0 mt-4" /> : null}
     </section>
   );
 }

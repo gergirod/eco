@@ -23,7 +23,9 @@ export type DiscoveryEvidenceSummary = {
 export type DiscoveryPlatformCoverage = {
   channelsCovered: number;
   hoursCaptured: number;
+  firstCapture: string;
   lastCapture: string;
+  periodDays: number | null;
   programsWithViewers: number;
   highConfidenceAdvertisers: number;
   emergingConfidenceAdvertisers: number;
@@ -129,7 +131,9 @@ export const DEFAULT_BROWSE_TIERS: ConfidenceTier[] = ["high_confidence"];
 type ExportDiscoveryMeta = {
   channels_covered: number;
   hours_captured: number;
+  first_capture?: string;
   last_capture: string;
+  period_days?: number | null;
   programs_with_viewers: number;
   high_confidence_advertisers: number;
   emerging_confidence_advertisers: number;
@@ -226,7 +230,9 @@ function mapPlatformCoverage(metaRoot: ExportMetaRoot): DiscoveryPlatformCoverag
     return {
       channelsCovered: 0,
       hoursCaptured: 0,
+      firstCapture: "",
       lastCapture: "",
+      periodDays: null,
       programsWithViewers: 0,
       highConfidenceAdvertisers: 0,
       emergingConfidenceAdvertisers: 0,
@@ -236,7 +242,9 @@ function mapPlatformCoverage(metaRoot: ExportMetaRoot): DiscoveryPlatformCoverag
   return {
     channelsCovered: d.channels_covered,
     hoursCaptured: d.hours_captured,
+    firstCapture: d.first_capture ?? d.last_capture ?? "",
     lastCapture: d.last_capture,
+    periodDays: d.period_days ?? null,
     programsWithViewers: d.programs_with_viewers,
     highConfidenceAdvertisers: d.high_confidence_advertisers,
     emergingConfidenceAdvertisers: d.emerging_confidence_advertisers,

@@ -7,7 +7,7 @@
   "avg_concurrent": 81244,
   "brands": 37,
   "mentions": 51,
-  "share_views": 76.1,
+  "share_views": 75.9,
   "n_brands_live": 37,
   "top_brands": [
    {
@@ -462,6 +462,25 @@
     "name": "Café Imperial",
     "mentions": 1,
     "value_usd": 236.0
+   }
+  ]
+ },
+ {
+  "id": "gelatina",
+  "name": "Gelatina",
+  "videos": 1,
+  "vod_views": 5955,
+  "avg_concurrent": 1473,
+  "brands": 1,
+  "mentions": 1,
+  "share_views": 0.3,
+  "n_brands_live": 1,
+  "top_brands": [
+   {
+    "slug": "sastreria-teta-lee",
+    "name": "Sastrería Teta Lee",
+    "mentions": 1,
+    "value_usd": 79.0
    }
   ]
  }

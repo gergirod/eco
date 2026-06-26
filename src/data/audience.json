@@ -166,5 +166,31 @@
     "chat_engagement": 1.74
    }
   ]
+ },
+ {
+  "id": "gelatina",
+  "name": "Gelatina",
+  "videos": 1,
+  "avg_concurrent": 1473,
+  "peak_concurrent": 1941,
+  "chat_coverage": 100,
+  "chat_msgs_per_1k_min": 3.7,
+  "chat_quality_tier": "alta",
+  "chat_quality_label": "Comunidad activa",
+  "chat_noise_score": 0.04,
+  "top_programs": [
+   {
+    "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
+    "peak": 1941,
+    "video_id": "tlhTO7YtTJ0"
+   }
+  ],
+  "top_programs_by_chat": [
+   {
+    "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
+    "video_id": "tlhTO7YtTJ0",
+    "chat_engagement": 3.72
+   }
+  ]
  }
 ]
