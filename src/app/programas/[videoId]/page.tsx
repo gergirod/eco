@@ -82,7 +82,7 @@ export default function ProgramaProfilePage() {
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
         <Stat
-          label="Pico en vivo"
+          label="Pico de atención"
           value={program.peak ? compact(program.peak) : "—"}
           hint="concurrentes del programa"
         />
@@ -92,7 +92,7 @@ export default function ProgramaProfilePage() {
           hint="concurrentes"
         />
         <Stat label="Marcas con pauta" value={program.brands.length} hint="en esta emisión" />
-        <Stat label="Apariciones PNT" value={program.pnt_count} hint="verificadas" />
+        <Stat label="Apariciones de pauta" value={program.pnt_count} hint="verificadas" />
       </div>
 
       <div className="flex flex-wrap gap-3 mb-8">
@@ -149,7 +149,7 @@ export default function ProgramaProfilePage() {
                 <th>Minuto</th>
                 <th>Prueba</th>
                 <th>Respaldo</th>
-                <th className="text-right">En vivo</th>
+                <th className="text-right">Atención</th>
                 <th>Chat en la pauta</th>
                 <th className="text-right">Exposición</th>
               </tr>

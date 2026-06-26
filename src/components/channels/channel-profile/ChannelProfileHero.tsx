@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { Badge } from "@/components/ui";
 import EntityCoverageLine from "@/components/EntityCoverageLine";
-import { channelEntityCoverage } from "@/lib/coverage";
-import { compact, num } from "@/lib/format";
+import { ATTENTION_DEFINITION, channelEntityCoverage, formatAttentionLiveStats } from "@/lib/coverage";
+import { compact } from "@/lib/format";
 import type { ChannelProfile } from "@/lib/channelProfile";
 
 type Props = {
@@ -14,12 +14,16 @@ export default function ChannelProfileHero({ profile }: Props) {
   const topProgram = audience?.top_programs?.[0];
   const topBrand = benchmark?.top_brands?.[0];
 
+  const attentionLine = audience
+    ? formatAttentionLiveStats(audience.avg_concurrent, audience.peak_concurrent)
+    : null;
+
   const narrative = audience
     ? benchmark && benchmark.brands > 0
-      ? `${config.name} — promedio ${num(audience.avg_concurrent)} mirando, pico ${compact(audience.peak_concurrent)}. ${benchmark.brands} marcas con pauta en el período.`
-      : `${config.name} — promedio ${num(audience.avg_concurrent)} mirando, pico ${compact(audience.peak_concurrent)} en el período capturado.`
+      ? `${config.name} — ${attentionLine}. ${benchmark.brands} marcas con pauta en el período.`
+      : `${config.name} — ${attentionLine} en el período capturado.`
     : config.has_data
-      ? `${config.name} — monitoreo activo, sin emisiones con audiencia en el período actual.`
+      ? `${config.name} — monitoreo activo, sin emisiones con atención medida en el período actual.`
       : `${config.name} — canal configurado, sin captura reciente.`;
 
   const entityCoverage = channelEntityCoverage(profile);
@@ -30,9 +34,10 @@ export default function ChannelProfileHero({ profile }: Props) {
         <p className="text-[11px] uppercase tracking-wider text-gray-400 font-medium mb-3">
           Perfil del canal
         </p>
-        <p className="text-[17px] sm:text-[20px] font-medium text-ink leading-snug tracking-tight mb-4 max-w-2xl">
+        <p className="text-[17px] sm:text-[20px] font-medium text-ink leading-snug tracking-tight mb-3 max-w-2xl">
           {narrative}
         </p>
+        <p className="text-[13px] text-gray-500 mb-4 max-w-2xl leading-relaxed">{ATTENTION_DEFINITION}</p>
 
         <div className="flex flex-wrap gap-x-5 gap-y-2 text-[13px] text-gray-600 mb-5">
           {config.genre && (
@@ -62,7 +67,7 @@ export default function ChannelProfileHero({ profile }: Props) {
 
         {topProgram && (
           <p className="text-[13px] text-gray-500 mb-4">
-            Programa con mayor pico ·{" "}
+            Programa con mayor pico de atención ·{" "}
             <span className="text-gray-700 line-clamp-1">{topProgram.title}</span>
             {" · "}
             <span className="font-medium text-ink">{compact(topProgram.peak)} mirando</span>

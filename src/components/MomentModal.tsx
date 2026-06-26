@@ -140,7 +140,7 @@ function MomentChart({ series, hotMin }: { series: any[]; hotMin: number }) {
               mención · {fmtClock(hot.m)}
             </text>
             <text y={13} textAnchor={hotRight ? "end" : "start"} fontSize="9.5" fill="#e2574c">
-              {kfmt(hot.c)} mirando en vivo
+              {kfmt(hot.c)} de atención
             </text>
           </g>
         </g>
@@ -293,7 +293,7 @@ export default function MomentModal({
             <div className="flex gap-4 text-[11px] text-gray-400 mt-1">
               <span><span className="inline-block w-2.5 h-2.5 rounded-sm align-middle mr-1" style={{ background: "#2f5fe0" }} />audiencia concurrente</span>
               <span><span className="inline-block w-2.5 h-2.5 rounded-sm align-middle mr-1" style={{ background: "#d9e1f5" }} />volumen de chat</span>
-              <span><span className="inline-block w-2.5 h-2.5 rounded-sm align-middle mr-1" style={{ background: "#fde8e6" }} />ventana PNT (−2 / +3 min)</span>
+              <span><span className="inline-block w-2.5 h-2.5 rounded-sm align-middle mr-1" style={{ background: "#fde8e6" }} />ventana de la aparición (−2 / +3 min)</span>
             </div>
           </div>
         ) : (

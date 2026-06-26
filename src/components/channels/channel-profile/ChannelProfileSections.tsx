@@ -5,6 +5,7 @@ import { useMemo } from "react";
 import { Badge, Bar, Stat } from "@/components/ui";
 import { evidenceLabel, evidenceTone } from "@/lib/campaign";
 import ProgramListCard from "@/components/programs/ProgramListCard";
+import { ATTENTION_DEFINITION } from "@/lib/coverage";
 import type { ChannelBenchmark, ChannelAudience, ChannelProfile } from "@/lib/channelProfile";
 import { compact, num, vodLink } from "@/lib/format";
 import { PROMINENCE_BAR } from "@/lib/prominence";
@@ -61,12 +62,12 @@ function DescripcionSection({ profile }: { profile: ChannelProfile }) {
           {config.subscribers ? <> con <b>{config.subscribers}</b> suscriptores</> : null}
           {audience ? (
             <>
-              . En el período capturado registramos <b>{audience.videos}</b> programas con audiencia
+              . En el período capturado registramos <b>{audience.videos}</b> programas con atención
               medida — promedio <b>{num(audience.avg_concurrent)}</b> concurrentes, pico{" "}
               <b>{compact(audience.peak_concurrent)}</b>.
             </>
           ) : (
-            ". Sin emisiones con audiencia verificable en el período actual."
+            ". Sin emisiones con atención medida en el período actual."
           )}
           {benchmark && benchmark.brands > 0 ? (
             <>
@@ -90,14 +91,14 @@ function DescripcionSection({ profile }: { profile: ChannelProfile }) {
           hint="con pauta verificada"
         />
         <Stat
-          label="PNT en canal"
+          label="Apariciones de pauta"
           value={benchmark?.mentions ?? stats?.mentions ?? "—"}
           hint="apariciones totales"
         />
         <Stat
-          label="Share de views"
+          label="Reproducciones del período"
           value={benchmark?.share_views != null ? `${benchmark.share_views}%` : "—"}
-          hint="entre canales capturados"
+          hint="reproducciones acumuladas, no atención live"
         />
       </div>
     </div>
@@ -187,7 +188,7 @@ function ActividadSection({ profile }: { profile: ChannelProfile }) {
     <div>
       <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-5">
         <Stat label="Marcas activas" value={bench?.brands ?? "—"} hint="con pauta en el canal" />
-        <Stat label="Apariciones PNT" value={bench?.mentions ?? profile.activations.length} hint="verificadas" />
+        <Stat label="Apariciones de pauta" value={bench?.mentions ?? profile.activations.length} hint="verificadas" />
         <Stat
           label="Exposición estimada"
           value={usdEst(totalValue)}
@@ -233,9 +234,10 @@ function AudienciaSection({ profile }: { profile: ChannelProfile }) {
 
   return (
     <div>
+      <p className="text-[13px] text-gray-500 mb-4 max-w-2xl leading-relaxed">{ATTENTION_DEFINITION}</p>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
-        <Stat label="Concurrentes prom." value={num(aud.avg_concurrent)} hint="en programas capturados" />
-        <Stat label="Pico" value={compact(aud.peak_concurrent)} hint="un minuto del vivo" />
+        <Stat label="Atención prom." value={num(aud.avg_concurrent)} hint="concurrentes medidos" />
+        <Stat label="Pico de atención" value={compact(aud.peak_concurrent)} hint="un minuto del vivo" />
         <Stat
           label="Cobertura chat"
           value={aud.chat_coverage != null ? `${aud.chat_coverage}%` : "—"}
@@ -448,7 +450,7 @@ function EvidenciaSection({ profile }: { profile: ChannelProfile }) {
               <th>Fecha</th>
               <th>Prueba</th>
               <th>Respaldo</th>
-              <th className="text-right">En vivo</th>
+              <th className="text-right">Atención</th>
             </tr>
           </thead>
           <tbody>

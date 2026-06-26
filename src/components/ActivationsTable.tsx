@@ -51,8 +51,8 @@ export default function ActivationsTable({
               <th>Canal</th>
               <th>Prueba textual</th>
               <th>Formato</th>
-              {isCampaign ? <th>Respaldo</th> : <th>Sent.</th>}
-              <th className="text-right">En vivo</th>
+              {isCampaign ? <th>Respaldo</th> : <th>Tono</th>}
+              <th className="text-right">Atención</th>
               <th>Chat en la pauta</th>
               {!isCampaign && (
                 <th className="text-right">

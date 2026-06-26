@@ -252,7 +252,7 @@ export function buildNovedades(
         : `Nuevo programa procesado: ${shortTitle}`,
       why: prog.hasLive
         ? `Emitido en ${prog.channelName} con concurrentes medidos al minuto — evidencia verificable.`
-        : `Primera emisión de este programa en el corpus capturado.`,
+        : `Primera emisión de este programa en el período capturado.`,
       confidence: prog.hasLive ? "alta" : "media",
       category: "programa",
       action: {
@@ -272,7 +272,7 @@ export function buildNovedades(
       date: lp,
       dateSort: parseDisplayDate(lp),
       headline: `Captura actualizada en ${ch.name}`,
-      why: "Nuevas emisiones incorporadas al corpus — revisá marcas y programas del canal.",
+      why: "Nuevas emisiones incorporadas al período — revisá marcas y programas del canal.",
       confidence: "media",
       category: "captura",
       action: { type: "canal", id: ch.id, label: "Ver canal" },

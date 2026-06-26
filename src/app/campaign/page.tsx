@@ -116,7 +116,7 @@ function CampaignPageInner() {
 
       <p className="text-[11px] text-gray-400 mt-4 leading-relaxed max-w-[820px]">
         Solo activaciones del flight definido en config. El link “ver” abre el VOD en el segundo exacto.
-        La evidencia describe respaldo disponible en transcript y audiencia — no cumplimiento contractual.
+        La evidencia describe respaldo disponible en el programa y atención medida — no cumplimiento contractual.
       </p>
 
       {openMention && (

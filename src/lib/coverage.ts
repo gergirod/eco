@@ -2,8 +2,29 @@
  * Copy de cobertura del corpus — plataforma vs entidad (SPEC-004).
  */
 
+import { compact, num } from "./format";
 import type { ChannelProfile } from "./channelProfile";
 import type { DiscoveryAdvertiser, DiscoveryPlatformCoverage } from "./discovery";
+
+/** Definición customer-facing: qué es "atención" en Eco. */
+export const ATTENTION_DEFINITION =
+  "Atención = cuánta gente miraba el vivo en cada minuto (concurrentes). Lo medimos durante la emisión, no lo estimamos.";
+
+/** Etiquetas unificadas (SPEC-005): pauta en UI, PNT solo backoffice/industria. */
+export const PAUTA_APPEARANCES_LABEL = "Apariciones de pauta";
+export const ATTENTION_COLUMN_LABEL = "Atención";
+
+/** Línea corta para cards y héroes con stats de captura live. */
+export function formatAttentionLiveStats(
+  avgConcurrent: number | null | undefined,
+  peakConcurrent: number | null | undefined
+): string | null {
+  if (avgConcurrent == null || avgConcurrent <= 0) return null;
+  const avg = `promedio ${num(avgConcurrent)} mirando`;
+  const peak =
+    peakConcurrent != null && peakConcurrent > 0 ? ` · pico ${compact(peakConcurrent)}` : "";
+  return `Atención medida · ${avg}${peak}`;
+}
 
 export function formatCaptureDate(iso: string): string {
   if (!iso) return "—";

@@ -164,7 +164,7 @@ function CampanasPageInner() {
 
       <p className="text-[11px] text-gray-400 mt-4 leading-relaxed max-w-[820px]">
         Solo apariciones del período de pauta acordado. &ldquo;Ir al minuto&rdquo; abre el vivo en el
-        segundo exacto. El respaldo describe prueba en transcript y audiencia — no cumplimiento
+        segundo exacto. El respaldo describe prueba en el programa y atención medida — no cumplimiento
         contractual.
       </p>
 

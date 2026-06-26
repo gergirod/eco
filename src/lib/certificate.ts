@@ -83,7 +83,7 @@ function pntCard(p: PntRow, featured: boolean): string {
   const vodA = `<a class="vod-link" href="${esc(vod)}" target="_blank" rel="noreferrer">YouTube ${ts} ↗</a>`;
 
   return `<div class="card">
-    ${featured ? `<span class="tag">PNT verificada · ${esc(fmt)}</span>` : ""}
+    ${featured ? `<span class="tag">Pauta verificada · ${esc(fmt)}</span>` : ""}
     <div style="font-size:17px;font-weight:600;margin-bottom:4px">${esc(p.brand_name)}</div>
     <div style="font-size:13px;color:var(--muted);margin-bottom:12px">${ts}${p.precise === false ? " (aprox.)" : ""} · ${vodA}</div>
     <div class="quote">"${esc(p.quote || "")}"</div>
@@ -111,7 +111,7 @@ export function buildPntCertificateHTML(p: PntRow, program: Program): string {
 <style>${CERT_CSS}</style></head><body>
 <div class="page">
   <div class="head">
-    <div class="kicker">Certificado de emisión · PNT verificada · Eco</div>
+    <div class="kicker">Certificado de emisión · Pauta verificada · Eco</div>
     <h1>${esc(p.brand_name)}</h1>
     <div class="sub">Prueba de entrega: lectura de pauta al aire con audiencia medida al minuto.</div>
     <div class="meta">
@@ -132,7 +132,7 @@ export function buildPntCertificateHTML(p: PntRow, program: Program): string {
 
   <div class="body">
     <p class="lead">Este certificado acredita que <b>${esc(p.brand_name)}</b> fue leída al aire en <b>${esc(program.channel_name)}</b> el ${esc(program.date)}, con <b>${conc}</b> personas mirando en vivo en el minuto exacto. Formato: <b>${esc(fmt)}</b>.</p>
-    <div class="stamp">✓ PNT verificada con cita textual contrastada contra la transcripción del programa. Medición independiente — no es factura ni comprobante de pago.</div>
+    <div class="stamp">✓ Pauta verificada con cita textual contrastada contra la transcripción del programa. Medición independiente — no es factura ni comprobante de pago.</div>
     ${pntCard(p, true)}
   </div>
 
@@ -180,8 +180,8 @@ export function buildProgramCertificateHTML(program: Program): string {
     <div class="meta">
       <span><b>Fecha:</b> ${esc(program.date)}</span>
       <span><b>Duración:</b> ${dur}</span>
-      <span><b>Views VOD:</b> ${views}</span>
-      <span><b>PNT verificadas:</b> ${program.pnt_count}</span>
+      <span><b>Reproducciones VOD:</b> ${views}</span>
+      <span><b>Apariciones verificadas:</b> ${program.pnt_count}</span>
       <span><b>VOD:</b> <a class="vod-link" href="${esc(vod)}">YouTube ↗</a></span>
     </div>
   </div>
@@ -191,7 +191,7 @@ export function buildProgramCertificateHTML(program: Program): string {
       <div class="stat"><div class="n">${peak}</div><div class="l">pico de concurrentes</div></div>
       <div class="stat"><div class="n">${avg}</div><div class="l">promedio concurrentes</div></div>
       <div class="stat"><div class="n">${program.pnt_count}</div><div class="l">lecturas de pauta verificadas</div></div>
-      <div class="stat"><div class="n">${usdEst(totalExp)}</div><div class="l">exposición total estimada PNT</div></div>
+      <div class="stat"><div class="n">${usdEst(totalExp)}</div><div class="l">exposición total estimada de pauta</div></div>
     </div>
   </div>
 
@@ -209,7 +209,7 @@ export function buildProgramCertificateHTML(program: Program): string {
   </div>
 
   <div class="foot">
-    <p><b>Verificación.</b> Solo PNT con cita en transcript. Los USD son benchmark de exposición (CPM ref.), no facturación.</p>
+    <p><b>Verificación.</b> Solo apariciones con cita en el programa. Los USD son benchmark de exposición (CPM ref.), no facturación.</p>
     <p>Generado por Eco · ${today}.</p>
   </div>
 </div>

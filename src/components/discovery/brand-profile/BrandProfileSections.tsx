@@ -152,7 +152,7 @@ function ResumenSection({ report, chName }: { report: BrandReport; chName: Recor
         </div>
         <p className="text-[15px] leading-relaxed text-gray-700 max-w-[820px]">
           <b>{report.name}</b> acumula <b>{num(report.mentions ?? detail.length)}</b> lecturas de
-          pauta (PNT) en <b>{programs}</b> programas en <b>{report.channels?.length ?? 0}</b>{" "}
+          pauta en <b>{programs}</b> programas en <b>{report.channels?.length ?? 0}</b>{" "}
           streams, con exposición total de <b>{usdEst(report.value_usd || 0)}</b> de exposición
           estimada en rango (benchmark, no facturación).{" "}
           {best && (
@@ -161,7 +161,7 @@ function ResumenSection({ report, chName }: { report: BrandReport; chName: Recor
               {best.conc_at ? (
                 <>
                   {" "}
-                  — <b>{compact(best.conc_at)}</b> mirando en vivo en el minuto exacto (
+                  — <b>{compact(best.conc_at)}</b> de atención en el minuto exacto (
                   {usdEst(best.value_usd || 0)})
                 </>
               ) : (
@@ -174,10 +174,10 @@ function ResumenSection({ report, chName }: { report: BrandReport; chName: Recor
       </div>
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
-        <Stat label="PNT verificadas" value={num(report.mentions ?? detail.length)} hint={`en ${programs} programas`} />
+        <Stat label="Apariciones verificadas" value={num(report.mentions ?? detail.length)} hint={`en ${programs} programas`} />
         <Stat label="Canales" value={report.channels?.length ?? 0} hint="streams con pauta" />
         <Stat
-          label="Pico en vivo"
+          label="Pico de atención"
           value={best?.conc_at ? compact(best.conc_at) : "—"}
           hint={best ? `marca ${fmtHMS(best.t_seconds || 0)}` : "sin concurrentes"}
         />
@@ -294,7 +294,7 @@ function ProgramasSection({
   }
 
   const sorts: { id: BrandProgramSort; label: string }[] = [
-    { id: "peak", label: "Mayor pico en vivo" },
+    { id: "peak", label: "Mayor pico de atención" },
     { id: "activations", label: "Más apariciones" },
     { id: "recency", label: "Más reciente" },
   ];
@@ -412,8 +412,8 @@ function AudienciaSection({
     return (
       <div className="card p-6 max-w-xl">
         <p className="text-[14px] text-gray-600 leading-relaxed">
-          No hay concurrentes en vivo capturados para esta marca en el período. La audiencia al
-          minuto requiere captura live en el momento de la emisión.
+          No hay atención medida al minuto para esta marca en el período. Requiere captura
+          durante la emisión en vivo.
         </p>
       </div>
     );
@@ -510,8 +510,8 @@ function EvidenciaSection({
           </div>
         </div>
         <p className="text-[12.5px] text-gray-500 leading-relaxed">
-          Máxima confianza: apariciones con cita en transcript y concurrentes cuando hay captura
-          live. El respaldo describe prueba observable — no cumplimiento contractual.
+          Máxima confianza: apariciones con cita en el programa y atención medida cuando hay
+          captura en vivo. El respaldo describe prueba observable — no cumplimiento contractual.
         </p>
       </div>
       <div className="card p-5">

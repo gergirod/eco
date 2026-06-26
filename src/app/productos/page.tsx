@@ -35,8 +35,8 @@ export default function Catalogo() {
   return (
     <div>
       <PageHeader
-        title="Prospectos & research"
-        sub="Anunciantes = quienes ya pautaron (→ reporte). Research = objetos nombrados al aire (outreach, capa 2)."
+        title="Prospectos e investigación"
+        sub="Anunciantes = quienes ya pautaron (→ reporte). Investigación = temas nombrados al aire (outreach, capa 2)."
       />
 
       <div className="card p-3.5 mb-5 flex flex-wrap items-center gap-3">
@@ -47,7 +47,7 @@ export default function Catalogo() {
               tab === "anunciantes" ? "bg-white shadow-sm text-ink" : "text-gray-500"
             }`}
           >
-            Anunciantes (PNT)
+            Anunciantes con pauta
           </button>
           <button
             onClick={() => setTab("research")}
@@ -55,7 +55,7 @@ export default function Catalogo() {
               tab === "research" ? "bg-white shadow-sm text-ink" : "text-gray-500"
             }`}
           >
-            Research
+            Investigación
           </button>
         </div>
         <input
@@ -65,7 +65,7 @@ export default function Catalogo() {
           className="px-3 py-2 text-[13px] border border-gray-200 rounded-lg outline-none focus:border-accent w-[220px]"
         />
         <div className="flex items-center gap-2 text-[12.5px] text-gray-500">
-          mín. {tab === "anunciantes" ? "PNT" : "menciones"}
+          mín. {tab === "anunciantes" ? "apariciones" : "menciones"}
           <select value={minM} onChange={(e) => setMinM(Number(e.target.value))} className="border border-gray-200 rounded-lg px-2 py-1.5 outline-none">
             {[1, 2, 3, 5, 10].map((n) => (
               <option key={n} value={n}>{n}+</option>
@@ -75,7 +75,7 @@ export default function Catalogo() {
         <div className="flex items-center gap-2 text-[12.5px] text-gray-500">
           ordenar
           <select value={sort} onChange={(e) => setSort(e.target.value as any)} className="border border-gray-200 rounded-lg px-2 py-1.5 outline-none">
-            <option value="mentions">{tab === "anunciantes" ? "PNT" : "menciones"}</option>
+            <option value="mentions">{tab === "anunciantes" ? "apariciones" : "menciones"}</option>
             <option value="value">exposición</option>
             <option value="channels">cobertura</option>
           </select>
@@ -88,7 +88,7 @@ export default function Catalogo() {
           <thead>
             <tr>
               <th>{tab === "anunciantes" ? "Anunciante" : "Producto / tema"}</th>
-              <th className="text-right">{tab === "anunciantes" ? "PNT" : "Menciones"}</th>
+              <th className="text-right">{tab === "anunciantes" ? "Apariciones" : "Menciones"}</th>
               <th className="text-right">Canales</th>
               <th>Aparece en</th>
               <th>Período</th>

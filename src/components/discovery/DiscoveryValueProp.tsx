@@ -7,7 +7,7 @@ export default function DiscoveryValueProp() {
       <p className="text-[15px] sm:text-[16px] text-gray-700 leading-relaxed max-w-3xl">
         <strong className="text-ink font-medium">No analizamos menciones.</strong> Detectamos{" "}
         <strong className="text-ink font-medium">pauta verificable</strong> — con cita en el
-        programa, minuto exacto y cuánta gente miraba en ese instante.
+        programa, minuto exacto y cuánta gente miraba en ese instante (atención medida al minuto).
       </p>
     </section>
   );

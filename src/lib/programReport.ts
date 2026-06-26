@@ -19,7 +19,7 @@ function fmtMin(sec: number) {
 }
 
 const TIER_LABEL: Record<number, string> = {
-  1: "Activación de marca · PNT",
+  1: "Aparición de pauta · al pasar",
   2: "Mención orgánica",
   3: "Mención (minuto aprox.)",
 };

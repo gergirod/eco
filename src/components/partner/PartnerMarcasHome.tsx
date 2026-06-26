@@ -75,7 +75,7 @@ export default function PartnerMarcasHome({
 
       {missing.length > 0 && (
         <div className="mt-4 p-4 rounded-lg bg-amber-50 border border-amber-100 text-[13px] text-amber-900">
-          Sin captura reciente en el corpus para:{" "}
+          Sin captura reciente en el período para:{" "}
           <strong>{missing.map((s) => s.replace(/-/g, " ")).join(", ")}</strong>. El monitoreo
           arranca cuando la marca aparezca en un programa capturado.
         </div>

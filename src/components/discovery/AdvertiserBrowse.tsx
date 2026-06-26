@@ -73,7 +73,7 @@ function BrowseFilters({
         className="border border-gray-200 rounded-lg px-2.5 py-2 text-[13px] outline-none focus:border-accent bg-white"
         aria-label="Ordenar lista"
       >
-        <option value="peak_conc_at">Mayor audiencia</option>
+        <option value="peak_conc_at">Mayor atención medida</option>
         <option value="last_seen">Más recientes</option>
       </select>
     </div>

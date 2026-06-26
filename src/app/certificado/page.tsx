@@ -79,7 +79,7 @@ export default function CertificadoPage() {
     <div>
       <PageHeader
         title="Certificados de emisión"
-        sub="Producto canal: prueba de entrega PNT para el comercial del stream — minuto, cita, concurrentes y PDF listo para mandar al anunciante."
+        sub="Prueba de entrega de pauta para el comercial del stream — minuto, cita, atención medida y PDF listo para mandar al anunciante."
       />
 
       <div className="flex items-center gap-2 mb-5 flex-wrap">
@@ -110,7 +110,7 @@ export default function CertificadoPage() {
 
       {!channelPrograms.length ? (
         <div className="card p-6 text-[13px] text-gray-500">
-          Sin programas con PNT verificada en este canal todavía.
+          Sin programas con pauta verificada en este canal todavía.
         </div>
       ) : (
         <div className="grid grid-cols-[320px_1fr] gap-5">
@@ -133,7 +133,7 @@ export default function CertificadoPage() {
                   </div>
                   <div className="text-[11px] text-gray-400 mt-1 flex gap-2">
                     <span>{p.date}</span>
-                    <span>{p.pnt_count} PNT</span>
+                    <span>{p.pnt_count} apariciones</span>
                     {p.peak ? <span>{compact(p.peak)} pico</span> : null}
                   </div>
                 </button>
@@ -152,24 +152,24 @@ export default function CertificadoPage() {
                       {program.dur_min ? ` · ${program.dur_min} min` : ""}
                     </div>
                   </div>
-                  <Badge tone="blue">{program.pnt_count} PNT</Badge>
+                  <Badge tone="blue">{program.pnt_count} apariciones</Badge>
                 </div>
               </div>
 
               <div className="grid grid-cols-4 gap-3 mb-5">
                 <Stat
-                  label="Pico concurrentes"
+                  label="Pico de atención"
                   value={program.peak ? compact(program.peak) : "—"}
-                  hint="en vivo"
+                  hint="concurrentes"
                 />
                 <Stat
                   label="Promedio"
                   value={program.avg ? compact(program.avg) : "—"}
-                  hint="concurrentes"
+                  hint="atención medida"
                 />
-                <Stat label="Views VOD" value={program.views ? compact(program.views) : "—"} hint="acumuladas" />
+                <Stat label="Reproducciones VOD" value={program.views ? compact(program.views) : "—"} hint="acumuladas" />
                 <Stat
-                  label="Exposición PNT"
+                  label="Exposición de pauta"
                   value={usdEst(program.pnt.reduce((a, p) => a + (p.value_usd || 0), 0))}
                   hint="benchmark, no factura"
                 />
@@ -181,7 +181,7 @@ export default function CertificadoPage() {
                     <tr className="border-b border-[#ececec] text-left text-[11px] uppercase tracking-wide text-gray-400">
                       <th className="px-4 py-3 font-medium">Marca</th>
                       <th className="px-4 py-3 font-medium">Minuto</th>
-                      <th className="px-4 py-3 font-medium">Concurrentes</th>
+                      <th className="px-4 py-3 font-medium">Atención</th>
                       <th className="px-4 py-3 font-medium">Formato</th>
                       <th className="px-4 py-3 font-medium">Exposición</th>
                       <th className="px-4 py-3 font-medium w-36"></th>

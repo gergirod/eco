@@ -119,14 +119,14 @@ function periodLabel(meta: MetaDiscovery): string {
       month: "2-digit",
       year: "numeric",
     });
-    return `Corpus al ${d}`;
+    return `Datos al ${d}`;
   }
   return "Período actual del export";
 }
 
 function coverageFooter(meta: MetaDiscovery): string {
   const n = meta.discovery?.channels_covered ?? 3;
-  return `Basado en ${n} canales con captura · corpus corto — patrón exploratorio, no forecasting`;
+  return `Basado en ${n} canales con captura · período corto — patrón exploratorio, no predicción`;
 }
 
 function buildCommercialInsights(
@@ -156,7 +156,7 @@ function buildCommercialInsights(
           ? `Para alcance en VOD del período, ${leaderShare.name} domina frente a ${runner.name} (${runner.share_views}%). Evaluá mix de canales según objetivo de awareness.`
           : "El inventario con mayor volumen de views en el período está muy concentrado — el mix de canales importa para alcance.",
       signals: [
-        `Share views: ${benchmark.map((b) => `${b.name} ${b.share_views ?? 0}%`).join(" · ")}`,
+        `Reproducciones capturadas: ${benchmark.map((b) => `${b.name} ${b.share_views ?? 0}%`).join(" · ")}`,
         "Fuente: benchmark del export",
       ],
       action: {
@@ -182,7 +182,7 @@ function buildCommercialInsights(
         "Un canal puede ser fuerte en audiencia y otro en densidad de pauta — útil para separar objetivos de reach vs. social proof comercial.",
       signals: [
         `Marcas activas: ${benchmark.map((b) => `${b.name} ${b.brands ?? 0}`).join(" · ")}`,
-        `Menciones PNT: ${benchmark.map((b) => `${b.name} ${b.mentions ?? 0}`).join(" · ")}`,
+        `Apariciones de pauta: ${benchmark.map((b) => `${b.name} ${b.mentions ?? 0}`).join(" · ")}`,
       ],
       action: {
         href: `/canales/${leaderBrands.id}?tab=marcas`,
@@ -216,12 +216,12 @@ function buildAudienceInsights(
   return [
     {
       id: "audience-gap",
-      pattern: `Brecha de audiencia en vivo: ${top.name} promedia ${Math.round(ratio)}× los concurrentes de ${second.name}`,
+      pattern: `Brecha de atención: ${top.name} promedia ${Math.round(ratio)}× los concurrentes de ${second.name}`,
       period,
       confidence: "insight",
       coverage,
       implication:
-        "Para momentos de máximo impacto en vivo, la elección de canal no es equivalente — negociá con datos de concurrentes al minuto.",
+        "Para momentos de máximo impacto, la elección de canal no es equivalente — negociá con datos de atención al minuto.",
       signals: [
         `Promedio concurrentes: ${audience.map((a) => `${a.name} ${a.avg_concurrent ?? "—"}`).join(" · ")}`,
         `Picos: ${audience.map((a) => `${a.name} ${a.peak_concurrent ?? "—"}`).join(" · ")}`,
@@ -284,7 +284,7 @@ function buildConversationInsights(
           ? "Varios streams hablan del tema con continuidad — explorá si hay espacio de sponsorship antes de que el rubro se sature."
           : "Útil para anticipar temas en reuniones de contenido o pauta contextual — validar con marcas del rubro.",
       signals: [
-        `Menciones en transcript: ${row.menciones ?? "—"}`,
+        `Menciones en programas: ${row.menciones ?? "—"}`,
         `Canales: ${channelPhrase}`,
         momentum ? `Momentum reciente: ${momentum === "up" ? "alza" : momentum === "down" ? "baja" : "estable"}` : "",
       ].filter(Boolean),
@@ -325,7 +325,7 @@ function buildOpportunityInsights(
         "Patrón de oportunidad comercial: conversación multi-canal sin saturación evidente de sponsors — vale mapear marcas del sector en Marcas.",
       signals: [
         `Conversación en: ${formatChannelList(top.canales || [])}`,
-        `${top.menciones} menciones en transcripts del período`,
+        `${top.menciones} menciones en programas del período`,
         `${totalBrands} marcas con pauta en total en canales capturados`,
       ],
       action: {
@@ -354,7 +354,7 @@ function buildEmergingBrandsInsight(
       confidence: "evidencia",
       coverage,
       implication:
-        "El pipeline comercial está incorporando marcas nuevas — oportunidad para prospectar antes de que consoliden presencia en el ecosistema.",
+        "Hay marcas nuevas incorporándose — oportunidad para prospectar antes de que consoliden presencia en el ecosistema.",
       signals: [
         `Alta confianza: ${solid} marcas`,
         `Señal temprana: ${emerging} marcas`,
@@ -407,7 +407,7 @@ function buildSearchAnticipationInsights(
             : "El ecosistema capturado habló del tema antes de que Google registrara interés masivo — señal de anticipación, no de volumen comprobado.",
         signals: [
           `Conversación en: ${channelPhrase}`,
-          `${row.menciones ?? "—"} menciones en transcripts`,
+          `${row.menciones ?? "—"} menciones en programas`,
           "Búsqueda Argentina: interés posterior al pico en streaming",
           row.gt_lead_days != null ? `Anticipación estimada: ${row.gt_lead_days} días` : "",
         ].filter(Boolean),
@@ -426,7 +426,7 @@ function buildSearchAnticipationInsights(
         implication:
           "Todavía es conversación de nicho en vivo — no está masificada en búsqueda. Oportunidad para marcas que quieren asociarse antes del pico público.",
         signals: [
-          `${row.menciones ?? "—"} menciones en transcripts del período`,
+          `${row.menciones ?? "—"} menciones en programas del período`,
           "Búsqueda Argentina: sin volumen registrado comparable",
           row.candidato ? "Conversación sostenida en múltiples emisiones" : "",
         ].filter(Boolean),
@@ -493,7 +493,7 @@ function buildChatDemandInsights(
         confidence: "insight",
         coverage: `${coverage}${chatCoverage}`,
         implication:
-          "Señal de demanda en chat — exploratoria con corpus corto. Contrastar con lo que dijeron los conductores en Conversación.",
+          "Señal de demanda en chat — exploratoria con poco historial. Contrastar con lo que dijeron los conductores en Conversación.",
         signals: [
           `${row.n_programas} programa${row.n_programas === 1 ? "" : "s"} con chat`,
           `${row.n_signals ?? "—"} señales en el período`,
@@ -588,5 +588,5 @@ export function buildTendencias(
 
 export function tendenciasSubline(count: number, meta: MetaDiscovery): string {
   const n = meta.discovery?.channels_covered ?? 3;
-  return `${count} patrón${count === 1 ? "" : "es"} detectado${count === 1 ? "" : "s"} · ${n} canales · corpus exploratorio`;
+  return `${count} patrón${count === 1 ? "" : "es"} detectado${count === 1 ? "" : "s"} · ${n} canales · exploratorio`;
 }

@@ -102,7 +102,7 @@ function CanalProfileInner() {
       {!profile.hasCapture && (
         <div className="card p-4 mb-6 text-[13.5px] text-gray-600 bg-amber-50/50 border-amber-100">
           Sin captura comercial o de audiencia en el período actual. El perfil muestra configuración
-          y estado de monitoreo; los datos se completarán cuando el pipeline capture emisiones.
+          y estado de monitoreo; los datos se completarán cuando capturemos nuevas emisiones.
         </div>
       )}
 

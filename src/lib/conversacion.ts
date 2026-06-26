@@ -85,7 +85,7 @@ function computeMomentum(serie: { date: string; n: number }[]): MomentumInfo {
     return {
       kind: "nuevo",
       label: "Tema reciente",
-      hint: "Apareció hace poco en el corpus — todavía poca historia para comparar.",
+      hint: "Apareció hace poco en el período — todavía poca historia para comparar.",
     };
   }
   const sorted = [...serie].sort((a, b) => parseSerieDate(a.date) - parseSerieDate(b.date));
@@ -133,7 +133,7 @@ function computeMomentum(serie: { date: string; n: number }[]): MomentumInfo {
     label: `Ritmo parecido (~${recentAvg}/día)`,
     hint: prevAvg
       ? `Se habla con intensidad similar al tramo anterior (~${prevAvg}/día) — no es pico ni despegue.`
-      : `Promedio de ~${recentAvg} menciones por día en la última semana del corpus.`,
+      : `Promedio de ~${recentAvg} menciones por día en la última semana del período.`,
   };
 }
 
@@ -257,10 +257,10 @@ export function conversacionSubline(
   const ch = meta.discovery?.channels_covered ?? 0;
   const mode = crossOnly ? "temas en 2+ canales" : "temas detectados";
   if (!topics.length) {
-    return `Sin ${mode} en el corpus actual (${ch} canales monitoreados).`;
+    return `Sin ${mode} en el período actual (${ch} canales monitoreados).`;
   }
   const cross = topics.filter((t) => t.crossComunidad).length;
-  return `${topics.length} ${mode} · ${cross} cross-comunidad en esta vista · transcript de programas capturados`;
+  return `${topics.length} ${mode} · ${cross} en 2+ canales en esta vista · programas capturados`;
 }
 
 export const CHANNEL_SLUG: Record<string, string> = {

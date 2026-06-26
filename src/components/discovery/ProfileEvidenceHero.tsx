@@ -100,7 +100,7 @@ export default function ProfileEvidenceHero({
             )}
             {viewers != null && viewers > 0 && (
               <span>
-                <span className="text-gray-400">En vivo · </span>
+                <span className="text-gray-400">Atención · </span>
                 <span className="text-gray-800 font-semibold">{compact(viewers)} mirando</span>
               </span>
             )}

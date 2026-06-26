@@ -8,6 +8,8 @@ import DiscoveryHeroPreview from "@/components/discovery/DiscoveryHeroPreview";
 import AdvertiserBrowse from "@/components/discovery/AdvertiserBrowse";
 import PartnerMarcasHome from "@/components/partner/PartnerMarcasHome";
 import { usePartner } from "@/contexts/PartnerContext";
+import DiscoveryValueProp from "@/components/discovery/DiscoveryValueProp";
+import { ATTENTION_DEFINITION } from "@/lib/coverage";
 import {
   browseAdvertisers,
   getPlatformCoverage,
@@ -80,6 +82,8 @@ function MarcasPublicContent() {
   return (
     <div className="max-w-6xl pb-8">
       <DiscoveryHero headline={headline} />
+      <DiscoveryValueProp />
+      <p className="text-[12px] text-gray-400 mb-6 leading-relaxed max-w-3xl">{ATTENTION_DEFINITION}</p>
       <CoverageLine coverage={coverage} />
       <DiscoveryHeroPreview items={previewItems} />
       <AdvertiserBrowse dataset={dataset} excludeSlugs={previewSlugs} />

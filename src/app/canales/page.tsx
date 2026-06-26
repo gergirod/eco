@@ -4,10 +4,10 @@ import Link from "next/link";
 import { Suspense, useEffect, useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import CoverageLine from "@/components/CoverageLine";
+import { ATTENTION_DEFINITION, formatAttentionLiveStats } from "@/lib/coverage";
 import { getPlatformCoverage, loadDiscoveryDataset } from "@/lib/discovery";
 import { listChannelBrowseItems } from "@/lib/channelProfile";
 import { useDataset } from "@/lib/useDataset";
-import { compact, num } from "@/lib/format";
 import type { ChannelBrowseItem } from "@/lib/channelProfile";
 import audienceFb from "@/data/audience.json";
 import benchmarkFb from "@/data/benchmark.json";
@@ -43,10 +43,10 @@ function CanalesListInner() {
     const topAud = byAudience[0]?.name;
     const topBrands = byBrands[0]?.name;
     if (topAud && topBrands && topAud !== topBrands) {
-      return `${topAud} concentra la audiencia; ${topBrands} concentra marcas con pauta.`;
+      return `${topAud} concentra la atención medida; ${topBrands} concentra marcas con pauta.`;
     }
-    if (topAud) return `${topAud} lidera audiencia y actividad comercial en el período.`;
-    return "Investigá cada canal en profundidad — audiencia, marcas y programas.";
+    if (topAud) return `${topAud} lidera atención medida y actividad comercial en el período.`;
+    return "¿Dónde está la atención medida en el streaming capturado?";
   }, [withCapture]);
 
   useEffect(() => {
@@ -59,28 +59,16 @@ function CanalesListInner() {
     isTopAudience: boolean,
     isTopBrands: boolean
   ): string {
-    const aud =
-      ch.avgConcurrent != null && ch.avgConcurrent > 0
-        ? `promedio ${num(ch.avgConcurrent)} mirando${
-            ch.peakConcurrent ? `, pico ${compact(ch.peakConcurrent)}` : ""
-          }`
-        : null;
-
     if (isTopAudience && isTopBrands) {
-      return aud
-        ? `Mayor audiencia y más marcas activas — ${aud}.`
-        : "Mayor audiencia y más marcas activas en el período.";
+      return "Mayor atención medida y más marcas activas en el período.";
     }
     if (isTopAudience) {
-      return aud ? `Mayor audiencia del período — ${aud}.` : "Mayor audiencia del período.";
+      return "Mayor atención medida del período.";
     }
     if (isTopBrands) {
-      const commercial = `Más marcas con pauta — ${ch.brands} activas, ${ch.mentions} apariciones`;
-      return aud ? `${commercial} · ${aud}.` : `${commercial}.`;
+      return `Más marcas con pauta — ${ch.brands} activas, ${ch.mentions} apariciones.`;
     }
-    return aud
-      ? `${ch.mentions} apariciones · ${ch.brands} marcas · ${aud}.`
-      : `${ch.mentions} apariciones · ${ch.brands} marcas.`;
+    return `${ch.mentions} apariciones · ${ch.brands} marcas con pauta en el período.`;
   }
 
   return (
@@ -89,8 +77,7 @@ function CanalesListInner() {
         {heroLine}
       </h1>
       <p className="text-[14px] text-gray-500 mt-2 max-w-xl">
-        ¿Qué sabemos sobre este canal? Elegí uno para ver programas, marcas activas, audiencia y
-        comparaciones.
+        {ATTENTION_DEFINITION} Elegí un canal para ver programas, marcas activas y comparaciones.
       </p>
       <CoverageLine coverage={coverage} />
 
@@ -99,6 +86,7 @@ function CanalesListInner() {
           const isTopAudience = index === 0 && (ch.avgConcurrent ?? 0) > 0;
           const isTopBrands =
             ch.brands >= Math.max(...withCapture.map((c) => c.brands), 0) && ch.brands > 0;
+          const attentionLine = formatAttentionLiveStats(ch.avgConcurrent, ch.peakConcurrent);
 
           return (
             <Link
@@ -114,10 +102,15 @@ function CanalesListInner() {
                   <p className="text-[13.5px] text-gray-600 mt-1.5 leading-relaxed max-w-xl">
                     {channelSubtitle(ch, isTopAudience, isTopBrands)}
                   </p>
+                  {attentionLine && (
+                    <p className="text-[13px] font-medium text-ink mt-2">{attentionLine}</p>
+                  )}
                   {ch.topBrandName && (
                     <p className="text-[12.5px] text-gray-400 mt-2">
                       Marca destacada · {ch.topBrandName}
-                      {ch.shareViews != null ? ` · ${ch.shareViews}% de reproducciones capturadas` : ""}
+                      {ch.shareViews != null
+                        ? ` · ${ch.shareViews}% reproducciones del período (contexto acumulado)`
+                        : ""}
                     </p>
                   )}
                 </div>
@@ -150,8 +143,9 @@ function CanalesListInner() {
       </div>
 
       <p className="text-[11px] text-gray-400 mt-6 leading-relaxed max-w-xl">
-        Solo emisiones capturadas en el período — no es el catálogo completo del canal. Audiencia
-        concurrente medida minuto a minuto durante el vivo.
+        Solo emisiones capturadas en el período — no es el catálogo completo del canal.{" "}
+        {ATTENTION_DEFINITION} Las reproducciones VOD son acumulado post-emisión; no reemplazan la
+        medición de atención en el minuto del vivo.
       </p>
     </div>
   );

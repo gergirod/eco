@@ -84,15 +84,10 @@ export default function TendenciasPage() {
       )}
 
       <div className="card p-4 mb-6 bg-gray-50/80 border-[#ececec] text-[12.5px] text-gray-600 leading-relaxed">
-        <b className="text-gray-700">Corpus corto (~2 semanas).</b> Los patrones son exploratorios.
-        No usamos forecasting ni temas como perfiles — solo conclusiones honestas sobre lo capturado.
+        <b className="text-gray-700">Período corto (~2 semanas).</b> Los patrones son exploratorios.
+        No usamos predicción ni temas como perfiles — solo conclusiones honestas sobre lo capturado.
         {gtEnriched === 0 ? (
-          <>
-            {" "}
-            La validación con búsqueda AR aún no está en el export — corré{" "}
-            <code className="text-[11px] bg-white px-1 rounded">python radar.py --enrich</code> en el
-            pipeline y luego <code className="text-[11px] bg-white px-1 rounded">export_ui.py</code>.
-          </>
+          <> La validación con búsqueda AR se actualiza periódicamente.</>
         ) : (
           <> {gtEnriched} patrón{gtEnriched === 1 ? "" : "es"} con señal de anticipación vs búsqueda.</>
         )}

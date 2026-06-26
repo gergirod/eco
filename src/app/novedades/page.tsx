@@ -93,7 +93,7 @@ export default function NovedadesPage() {
       {events.length === 0 ? (
         <div className="card p-8 text-[14px] text-gray-600 leading-relaxed">
           <p className="mb-4">
-            No hay eventos nuevos en los últimos {WINDOW_DAYS} días con el corpus actual.
+            No hay eventos nuevos en los últimos {WINDOW_DAYS} días con los datos actuales.
           </p>
           <p>
             Explorá{" "}
@@ -116,7 +116,7 @@ export default function NovedadesPage() {
       )}
 
       <p className="text-[11px] text-gray-400 mt-6 leading-relaxed max-w-xl">
-        Solo eventos que el corpus puede sostener hoy. Ranking de temas en{" "}
+        Solo eventos que podemos sostener con la captura actual. Ranking de temas en{" "}
         <Link href="/conversacion" className="text-accent hover:underline">
           Conversación
         </Link>

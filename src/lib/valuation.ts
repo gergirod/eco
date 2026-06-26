@@ -12,7 +12,7 @@ export const VALUATION_NOTICE_TITLE = "Qué significa la exposición en USD";
 export const VALUATION_BULLETS = {
   what: "Es un benchmark estimado de exposición publicitaria. No es lo que la marca pagó, ni facturación, ni ventas atribuidas.",
   measured:
-    "Medimos nosotros: espectadores conectados en el minuto exacto de la PNT, la cita textual en el transcript y el formato de la pauta (al pasar / lectura dedicada / con código).",
+    "Medimos nosotros: espectadores conectados en el minuto exacto de la aparición, la cita textual en el programa y el formato de la pauta (al pasar / lectura dedicada / con código).",
   formula: `(concurrentes en vivo ÷ 1.000) × CPM de referencia × formato × sentimiento`,
   range: `Mostramos un rango (no un número fijo) usando CPM USD ${VALUATION_CPM_LOW}–${VALUATION_CPM_HIGH} por mil espectadores — punto medio ${VALUATION_CPM}. No hay tarifa pública única; el rango refleja esa incertidumbre.`,
   source:

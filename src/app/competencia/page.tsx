@@ -50,7 +50,7 @@ export default function Competencia() {
     <div>
       <PageHeader
         title="Competencia"
-        sub="Share of voice entre anunciantes que pautaron: PNT, exposición y presencia por canal."
+        sub="Participación entre anunciantes que pautaron: apariciones, exposición y presencia por canal."
       />
 
       <div className="card p-4 mb-6 flex flex-wrap items-center gap-4">
@@ -79,7 +79,7 @@ export default function Competencia() {
 
       <div className="grid grid-cols-2 gap-5 mb-5">
         <div className="card p-5">
-          <h2 className="text-[15px] font-semibold mb-4">PNT acumuladas</h2>
+          <h2 className="text-[15px] font-semibold mb-4">Apariciones de pauta</h2>
           <div className="flex flex-col gap-3.5">
             {all.map((b, i) => (
               <div key={b.slug}>
@@ -154,7 +154,7 @@ export default function Competencia() {
       </div>
 
       <p className="text-[11px] text-gray-400 mt-4">
-        Comparación entre marcas con PNT real (no menciones orgánicas). Click en una marca →{" "}
+        Comparación entre marcas con pauta verificada (no menciones orgánicas). Click en una marca →{" "}
         <Link href="/marca" className="text-accent hover:underline">reporte completo + PDF</Link>.
       </p>
     </div>

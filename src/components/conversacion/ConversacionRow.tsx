@@ -82,7 +82,7 @@ export default function ConversacionRow({ topic }: Props) {
           </p>
 
           <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[12px] text-gray-500 mb-1">
-            <span title="Bloques de 10 min del transcript donde apareció el tema">
+            <span title="Bloques de 10 min del programa donde apareció el tema">
               {mencionesLabel(topic)}
             </span>
             {topic.categoria ? (
@@ -143,7 +143,7 @@ export default function ConversacionRow({ topic }: Props) {
             {spark.length > 1 ? (
               <div
                 className="flex items-end gap-0.5 h-6"
-                title="Menciones por día (últimos puntos del corpus)"
+                title="Menciones por día (últimos puntos del período)"
                 aria-hidden
               >
                 {spark.map((p, i) => (
@@ -241,7 +241,7 @@ export default function ConversacionRow({ topic }: Props) {
 
               {topic.highlightsTotal > topic.highlights.length && (
                 <p className="text-[11px] text-gray-400 mt-3 leading-relaxed">
-                  Hay {topic.highlightsTotal - topic.highlights.length} ángulos más en el corpus;
+                  Hay {topic.highlightsTotal - topic.highlights.length} ángulos más en el período;
                   mostramos los más representativos por canal e intensidad.
                 </p>
               )}

@@ -35,7 +35,7 @@ export default function TopBrandsTable({
                   {b.name}
                 </Link>
               </td>
-              <td className="text-gray-400 text-right tabular-nums">{b.mentions} PNT</td>
+              <td className="text-gray-400 text-right tabular-nums">{b.mentions} apar.</td>
               <td className="text-right">
                 <Badge tone="blue">{usdEst(b.value_usd, true)}</Badge>
               </td>

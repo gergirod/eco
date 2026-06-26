@@ -93,7 +93,7 @@ export default function ConversacionPage() {
       {topics.length === 0 ? (
         <div className="card p-8 text-[14px] text-gray-600 leading-relaxed">
           <p>
-            Aún no hay temas cross-canal con masa en el corpus. Probá{" "}
+            Aún no hay temas en 2+ canales con masa en el período. Probá{" "}
             <button
               type="button"
               onClick={() => setCrossOnly(false)}
@@ -117,7 +117,7 @@ export default function ConversacionPage() {
       )}
 
       <p className="text-[11px] text-gray-400 mt-6 leading-relaxed max-w-xl">
-        Temas unificados por IA a partir del transcript · filtro anti-meme: priorizamos aparición en
+        Temas unificados por IA a partir de lo dicho en los programas · filtro anti-meme: priorizamos aparición en
         2+ comunidades. Expandí cada tema para ver qué dijeron los conductores y en qué canal.
         Variantes ruidosas (p.ej. mundial*) se agrupan en una sola entrada.
       </p>

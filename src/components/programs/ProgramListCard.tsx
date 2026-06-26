@@ -40,7 +40,7 @@ export default function ProgramListCard({
               <>
                 {" "}
                 · {p.pnt_count} {p.pnt_count === 1 ? "aparición" : "apariciones"} de la marca
-                {brandPeak > 0 ? ` · pico ${compact(brandPeak)} en vivo` : ""}
+                {brandPeak > 0 ? ` · pico ${compact(brandPeak)} atención` : ""}
               </>
             ) : (
               <>

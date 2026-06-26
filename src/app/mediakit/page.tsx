@@ -53,15 +53,15 @@ export default function MediaKitPage() {
               {ch.genre} · {ch.subscribers} suscriptores · {ch.stats.videos_processed} programas analizados
             </div>
           </div>
-          <Badge tone="blue">{shareV}% share of views del segmento</Badge>
+          <Badge tone="blue">{shareV}% reproducciones del segmento</Badge>
         </div>
       </div>
 
       <div className="grid grid-cols-4 gap-3 mb-5">
-        <Stat label="Audiencia concurrente prom." value={num(ch.stats.avg_concurrent)} hint="en vivo, al minuto" />
-        <Stat label="Views VOD acumuladas" value={compact(ch.stats.total_vod_views)} hint="cola de largo plazo" />
-        <Stat label="Valor de un minuto PNT" value={usd(minutoPNT)} hint={`audiencia ÷ 1k × CPM ${cpm}`} />
-        <Stat label="Anunciantes (PNT)" value={num(b?.n_brands_live ?? ch.stats.brands_detected)} hint="marcas que ya pautaron" />
+        <Stat label="Atención promedio" value={num(ch.stats.avg_concurrent)} hint="concurrentes al minuto" />
+        <Stat label="Reproducciones VOD" value={compact(ch.stats.total_vod_views)} hint="cola de largo plazo" />
+        <Stat label="Valor de un minuto de pauta" value={usd(minutoPNT)} hint={`atención ÷ 1k × CPM ${cpm}`} />
+        <Stat label="Anunciantes con pauta" value={num(b?.n_brands_live ?? ch.stats.brands_detected)} hint="marcas que ya pautaron" />
       </div>
 
       <div className="mb-5 flex flex-wrap gap-2">
@@ -83,13 +83,13 @@ export default function MediaKitPage() {
             <h3 className="text-[14px] font-semibold">Anunciantes que ya pautaron</h3>
             <span className="text-[11px] text-gray-400">{b?.n_brands_live ?? (b?.top_brands || []).length} marcas · click → reporte</span>
           </div>
-          <p className="text-[12px] text-gray-400 mb-3">Social proof para vender pauta: marcas con PNT verificada y audiencia medida al minuto.</p>
+          <p className="text-[12px] text-gray-400 mb-3">Prueba social para vender pauta: marcas con apariciones verificadas y atención medida al minuto.</p>
           <div className="flex flex-wrap gap-2">
             {(b?.top_brands || []).map((br: any, i: number) => (
               <a
                 key={i}
                 href={`/marca?brand=${br.slug}`}
-                title={`${br.mentions} PNT · ${usd(br.value_usd)}`}
+                title={`${br.mentions} apariciones · ${usd(br.value_usd)}`}
                 className="group px-2.5 py-1 rounded-lg bg-gray-100 hover:bg-accent-soft text-[12.5px] text-gray-700 hover:text-accent transition flex items-center gap-1.5"
               >
                 {br.name}
@@ -124,10 +124,10 @@ export default function MediaKitPage() {
       </div>
 
       <p className="text-[11px] text-gray-400 mt-4 leading-relaxed max-w-[820px]">
-        En lugar de screenshots de YouTube Studio, el media kit se arma solo desde la data del pipeline:
-        audiencia concurrente real por programa, CPM defendible (no AVE), marcas previas como prueba
-        social y comparación contra la competencia directa. Valor de un minuto PNT = audiencia
-        concurrente ÷ 1.000 × CPM. Benchmark de exposición, no facturación.
+        En lugar de screenshots de YouTube Studio, el media kit se arma solo desde los programas
+        capturados: atención medida por emisión, CPM defendible (no AVE), marcas previas como prueba
+        social y comparación contra la competencia directa. Valor de un minuto de pauta = concurrentes
+        al minuto ÷ 1.000 × CPM. Benchmark de exposición, no facturación.
       </p>
     </div>
   );
