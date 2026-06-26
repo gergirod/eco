@@ -78,7 +78,7 @@ export type PartnerRecord = {
   /** Marcas del portfolio del partner (monitoreo principal) */
   brand_slugs: string[];
   /**
-   * Competidores de referencia — **máx. 1 por marca** (`brand_slugs.length`).
+   * Competidores de referencia — **máx. 1 por marca**, opcional si no hay referente claro.
    * Preferir `competitor_by_brand` para dejar explícito el par.
    */
   competitor_slugs: string[];
@@ -150,7 +150,7 @@ export function validatePartnerPlan(partner: PartnerRecord): string | null {
   }
 
   if (!partner.brand_slugs.length) {
-    return "Indicá al menos una marca en pares marca:competidor.";
+    return "Indicá al menos una marca del contrato.";
   }
 
   return null;

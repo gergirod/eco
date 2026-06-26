@@ -38,9 +38,11 @@ export function pairsToPartnerPayload(pairs: BrandPair[]): {
   const competitor_by_brand: Record<string, string> = {};
 
   for (const pair of pairs) {
-    if (!pair.brandSlug || !pair.competitorSlug) continue;
+    if (!pair.brandSlug) continue;
     if (!brand_slugs.includes(pair.brandSlug)) brand_slugs.push(pair.brandSlug);
-    competitor_by_brand[pair.brandSlug] = pair.competitorSlug;
+    if (pair.competitorSlug) {
+      competitor_by_brand[pair.brandSlug] = pair.competitorSlug;
+    }
   }
 
   return { brand_slugs, competitor_by_brand };

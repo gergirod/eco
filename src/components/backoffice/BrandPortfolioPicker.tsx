@@ -20,12 +20,14 @@ function BrandSelect({
   onChange,
   excludeSlug,
   placeholder,
+  required = false,
 }: {
   label: string;
   value: string;
   onChange: (slug: string) => void;
   excludeSlug?: string;
   placeholder: string;
+  required?: boolean;
 }) {
   const options = useMemo(() => {
     return listBrandOptions().filter((b) => b.slug !== excludeSlug);
@@ -38,7 +40,7 @@ function BrandSelect({
         value={value}
         onChange={(e) => onChange(e.target.value)}
         className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px] bg-white truncate"
-        required
+        required={required}
       >
         <option value="">{placeholder}</option>
         {options.map((b) => (
@@ -52,8 +54,6 @@ function BrandSelect({
 }
 
 export default function BrandPortfolioPicker({ value, onChange, maxPairs }: Props) {
-  const usedBrandSlugs = new Set(value.map((p) => p.brandSlug).filter(Boolean));
-
   function updateRow(index: number, patch: Partial<BrandPair>) {
     const next = value.map((row, i) => (i === index ? { ...row, ...patch } : row));
     onChange(next);
@@ -75,7 +75,7 @@ export default function BrandPortfolioPicker({ value, onChange, maxPairs }: Prop
         <div>
           <div className="text-[12px] font-medium text-gray-700">Marcas del contrato</div>
           <p className="text-[11px] text-gray-400 mt-0.5">
-            Una fila por marca monitoreada + su competidor de referencia
+            Una fila por marca · competidor opcional si no hay referente claro
           </p>
         </div>
         {value.length < maxPairs && (
@@ -125,16 +125,16 @@ export default function BrandPortfolioPicker({ value, onChange, maxPairs }: Prop
                         slug && pair.competitorSlug === slug ? "" : pair.competitorSlug,
                     })
                   }
-                  excludeSlug={undefined}
                   placeholder="Elegí una marca…"
+                  required
                 />
                 <span className="hidden sm:block text-gray-300 pb-2 shrink-0">vs</span>
                 <BrandSelect
-                  label="Competidor a trackear"
+                  label="Competidor (opcional)"
                   value={pair.competitorSlug}
                   onChange={(slug) => updateRow(index, { competitorSlug: slug })}
                   excludeSlug={pair.brandSlug || undefined}
-                  placeholder="Elegí competidor…"
+                  placeholder="Sin competidor…"
                 />
               </div>
               {brandTakenElsewhere && (

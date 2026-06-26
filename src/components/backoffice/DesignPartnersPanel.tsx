@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import BrandPortfolioPicker from "@/components/backoffice/BrandPortfolioPicker";
 import ChannelContractPicker from "@/components/backoffice/ChannelContractPicker";
+import PlanPriceField from "@/components/backoffice/PlanPriceField";
 import {
   ACCESS_TIMELINE,
   WEEKLY_CHECKLIST,
@@ -16,6 +17,7 @@ import {
   pairsToPartnerPayload,
   type BrandPair,
 } from "@/lib/brand-catalog";
+import { PLAN_PRICE_GUIDES } from "@/lib/plan-pricing";
 import { formatAccessExpiry } from "@/lib/partner-invite";
 import {
   ICP_DEFAULT_PLAN,
@@ -326,7 +328,9 @@ export default function DesignPartnersPanel() {
   const [formChannelId, setFormChannelId] = useState("");
   const [formBenchmarkIds, setFormBenchmarkIds] = useState<string[]>([]);
   const [formEmail, setFormEmail] = useState("");
-  const [formPriceArs, setFormPriceArs] = useState("");
+  const [formPriceArs, setFormPriceArs] = useState(
+    String(PLAN_PRICE_GUIDES[ICP_DEFAULT_PLAN.agencia].arsSuggested)
+  );
   const [saving, setSaving] = useState(false);
   const [saveMsg, setSaveMsg] = useState("");
   const [accessUrl, setAccessUrl] = useState("");
@@ -335,12 +339,26 @@ export default function DesignPartnersPanel() {
 
   const planOptions = useMemo(() => plansForIcp(formIcp), [formIcp]);
   const maxBrands = PLAN_MAX_BRANDS[formPlan];
+  const prevPlanRef = useRef(formPlan);
 
   useEffect(() => {
     if (!planOptions.includes(formPlan)) {
       setFormPlan(ICP_DEFAULT_PLAN[formIcp]);
     }
   }, [formIcp, formPlan, planOptions]);
+
+  useEffect(() => {
+    const prev = prevPlanRef.current;
+    if (prev === formPlan) return;
+    const oldSuggested = PLAN_PRICE_GUIDES[prev].arsSuggested;
+    const newSuggested = PLAN_PRICE_GUIDES[formPlan].arsSuggested;
+    setFormPriceArs((cur) => {
+      const n = parseInt(cur.replace(/\D/g, ""), 10);
+      if (!cur.trim() || n === oldSuggested) return String(newSuggested);
+      return cur;
+    });
+    prevPlanRef.current = formPlan;
+  }, [formPlan]);
 
   useEffect(() => {
     setFormBrandPairs((prev) => {
@@ -413,13 +431,13 @@ export default function DesignPartnersPanel() {
     let competitor_by_brand: Record<string, string> = {};
 
     if (!isCanal) {
-      const incomplete = formBrandPairs.some((p) => !p.brandSlug || !p.competitorSlug);
-      if (incomplete) {
-        setSaveMsg("Completá marca y competidor en cada fila.");
+      const missingBrand = formBrandPairs.some((p) => !p.brandSlug);
+      if (missingBrand) {
+        setSaveMsg("Elegí al menos una marca en cada fila.");
         setSaving(false);
         return;
       }
-      const slugs = formBrandPairs.map((p) => p.brandSlug);
+      const slugs = formBrandPairs.map((p) => p.brandSlug).filter(Boolean);
       if (new Set(slugs).size !== slugs.length) {
         setSaveMsg("No podés repetir la misma marca en dos filas.");
         setSaving(false);
@@ -429,7 +447,7 @@ export default function DesignPartnersPanel() {
       brand_slugs = parsed.brand_slugs;
       competitor_by_brand = parsed.competitor_by_brand;
       if (!brand_slugs.length) {
-        setSaveMsg("Agregá al menos una marca con su competidor.");
+        setSaveMsg("Agregá al menos una marca del contrato.");
         setSaving(false);
         return;
       }
@@ -660,15 +678,11 @@ ECO Intelligence`;
                 placeholder="para tu referencia — el link lo mandás vos"
               />
             </label>
-            <label className="text-[12px] text-gray-600">
-              Precio ARS/mes
-              <input
-                value={formPriceArs}
-                onChange={(e) => setFormPriceArs(e.target.value)}
-                className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px]"
-                placeholder="280000"
-              />
-            </label>
+            <PlanPriceField
+              plan={formPlan}
+              value={formPriceArs}
+              onChange={setFormPriceArs}
+            />
             <label className="text-[12px] text-gray-600">
               Validez del link (meses)
               <input
