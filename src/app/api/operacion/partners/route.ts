@@ -6,6 +6,7 @@ import {
   extendPartnerAccess,
   listPartners,
   partnerHasAccessLink,
+  partnerOpsAccessUrl,
   partnersStoreStatus,
   setPartnerActive,
   upsertPartner,
@@ -20,6 +21,7 @@ export async function GET() {
 
   const partners = await listPartners();
   const store = await partnersStoreStatus();
+  const origin = new URL(req.url).origin;
   return NextResponse.json({
     ok: true,
     mode: store.mode,
@@ -43,6 +45,7 @@ export async function GET() {
       has_password: Boolean(p.password_hash),
       pending_invite: partnerHasAccessLink(p),
       invite_expires_at: p.invite_expires_at,
+      accessUrl: partnerOpsAccessUrl(p, origin),
     })),
   });
 }

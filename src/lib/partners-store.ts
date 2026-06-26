@@ -10,6 +10,7 @@ import {
   generateAccessToken,
   hashAccessToken,
   accessLinkExpiresAt,
+  buildAccessUrl,
   isAccessLinkExpired,
   isInviteExpired,
 } from "@/lib/partner-invite";
@@ -35,6 +36,7 @@ type DbPartnerRow = {
   notes: string | null;
   password_hash: string;
   invite_token_hash: string | null;
+  invite_token: string | null;
   invite_expires_at: string | null;
   price_ars_month?: number | null;
   contract_started_at?: string | null;
@@ -44,6 +46,8 @@ type DbPartnerRow = {
 export type PartnerWithSecret = PartnerRecord & {
   password_hash?: string;
   invite_token_hash?: string | null;
+  /** Token plano — solo backoffice (service role) para reconstruir URL */
+  invite_token?: string | null;
   invite_expires_at?: string | null;
 };
 
@@ -79,6 +83,7 @@ function rowToRecord(row: DbPartnerRow): PartnerWithSecret {
     ...base,
     password_hash: row.password_hash,
     invite_token_hash: row.invite_token_hash,
+    invite_token: row.invite_token,
     invite_expires_at: row.invite_expires_at,
   };
 }
@@ -209,6 +214,7 @@ export async function createPartnerInvite(
   const invite_token_hash = await hashAccessToken(inviteToken);
   const fields: Record<string, unknown> = {
     invite_token_hash,
+    invite_token: inviteToken,
     invite_expires_at: accessLinkExpiresAt(options?.accessMonths),
   };
   if (options?.clearPassword) fields.password_hash = "";
@@ -259,6 +265,7 @@ export async function setPartnerActive(
   const fields: Record<string, unknown> = { active };
   if (!active) {
     fields.invite_token_hash = null;
+    fields.invite_token = null;
     fields.invite_expires_at = null;
   }
 
@@ -351,6 +358,7 @@ export async function upsertPartner(input: UpsertPartnerInput): Promise<UpsertPa
   const existing = await getPartnerById(input.id);
   let password_hash = existing?.password_hash || "";
   let invite_token_hash = existing?.invite_token_hash ?? null;
+  let invite_token: string | null = existing?.invite_token ?? null;
   let invite_expires_at: string | null = existing?.invite_expires_at ?? null;
   let inviteToken: string | undefined;
 
@@ -365,6 +373,7 @@ export async function upsertPartner(input: UpsertPartnerInput): Promise<UpsertPa
   if (needsInvite) {
     inviteToken = generateAccessToken();
     invite_token_hash = await hashAccessToken(inviteToken);
+    invite_token = inviteToken;
     invite_expires_at = accessLinkExpiresAt(input.access_months);
     password_hash = "";
   }
@@ -386,6 +395,7 @@ export async function upsertPartner(input: UpsertPartnerInput): Promise<UpsertPa
     contract_started_at: input.contract_started_at || null,
     password_hash,
     invite_token_hash,
+    invite_token,
     invite_expires_at,
     updated_at: new Date().toISOString(),
   };
@@ -438,6 +448,15 @@ export function partnerHasAccessLink(partner: PartnerWithSecret): boolean {
   return Boolean(
     partner.invite_token_hash && !isAccessLinkExpired(partner.invite_expires_at)
   );
+}
+
+/** URL de acceso para backoffice — requiere invite_token guardado. */
+export function partnerOpsAccessUrl(
+  partner: PartnerWithSecret,
+  origin?: string
+): string | null {
+  if (!partner.invite_token || !partnerHasAccessLink(partner)) return null;
+  return buildAccessUrl(partner.invite_token, origin);
 }
 
 /** @deprecated */

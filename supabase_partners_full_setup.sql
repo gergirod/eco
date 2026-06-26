@@ -22,6 +22,7 @@ create table if not exists eco_partners (
   contract_started_at   date,
   password_hash         text not null default '',
   invite_token_hash     text,
+  invite_token          text,
   invite_expires_at     timestamptz,
   created_at            timestamptz not null default now(),
   updated_at            timestamptz not null default now()
@@ -30,6 +31,7 @@ create table if not exists eco_partners (
 -- Columnas por si la tabla existía sin ICP/plan (upgrade parcial)
 alter table eco_partners
   add column if not exists invite_token_hash text,
+  add column if not exists invite_token text,
   add column if not exists invite_expires_at timestamptz,
   add column if not exists icp text not null default 'agencia',
   add column if not exists plan text not null default 'portfolio',

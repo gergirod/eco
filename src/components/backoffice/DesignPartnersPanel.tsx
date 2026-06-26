@@ -48,6 +48,7 @@ type PartnerApiRow = {
   has_password: boolean;
   pending_invite?: boolean;
   invite_expires_at?: string;
+  accessUrl?: string | null;
 };
 
 function CopyButton({ text, label = "Copiar" }: { text: string; label?: string }) {
@@ -127,6 +128,8 @@ function PartnerCard({
   const [inviteExpiresAt, setInviteExpiresAt] = useState<string | null>(null);
   const icp = partner.icp || "agencia";
   const plan = partner.plan || ICP_DEFAULT_PLAN[icp];
+  const displayUrl = inviteUrl || partner.accessUrl || null;
+  const displayExpires = inviteExpiresAt ?? partner.invite_expires_at ?? null;
   const pairs = partner.brand_slugs.map((brandSlug) => ({
     brandSlug,
     brandName: brandDisplayName(brandSlug),
@@ -329,35 +332,43 @@ function PartnerCard({
             </button>
           )}
         </div>
-        {inviteUrl && (
+        {partner.active && partner.pending_invite && !displayUrl && (
+          <p className="text-[12px] text-amber-800 mt-2">
+            Link activo pero no guardado en texto — tocá <strong>Nuevo link</strong> una vez
+            para ver la URL copiable (invalida el link anterior).
+          </p>
+        )}
+        {displayUrl && (
           <div className="mt-3 space-y-3">
             <InviteLinkBox
-              url={inviteUrl}
-              expiresAt={inviteExpiresAt}
+              url={displayUrl}
+              expiresAt={displayExpires}
               months={1}
               label="Link para mandar al cliente"
             />
-            <div className="p-3 rounded-lg bg-gray-50 border border-[#ececec]">
-              <div className="flex justify-between mb-2">
-                <span className="text-[12px] font-medium text-gray-600">Mail de bienvenida</span>
-                <CopyButton
-                  text={buildPartnerWelcomeMail({
+            {(inviteUrl || displayUrl) && (
+              <div className="p-3 rounded-lg bg-gray-50 border border-[#ececec]">
+                <div className="flex justify-between mb-2">
+                  <span className="text-[12px] font-medium text-gray-600">Mail de bienvenida</span>
+                  <CopyButton
+                    text={buildPartnerWelcomeMail({
+                      name: partner.name,
+                      link: displayUrl,
+                      icp: icp,
+                      accessMonths: 1,
+                    })}
+                  />
+                </div>
+                <pre className="text-[11px] text-gray-600 whitespace-pre-wrap max-h-48 overflow-y-auto">
+                  {buildPartnerWelcomeMail({
                     name: partner.name,
-                    link: inviteUrl,
+                    link: displayUrl,
                     icp: icp,
                     accessMonths: 1,
                   })}
-                />
+                </pre>
               </div>
-              <pre className="text-[11px] text-gray-600 whitespace-pre-wrap max-h-48 overflow-y-auto">
-                {buildPartnerWelcomeMail({
-                  name: partner.name,
-                  link: inviteUrl,
-                  icp: icp,
-                  accessMonths: 1,
-                })}
-              </pre>
-            </div>
+            )}
           </div>
         )}
       </div>
@@ -903,6 +914,12 @@ export default function DesignPartnersPanel() {
           <strong>Setup Supabase (una vez):</strong> corré{" "}
           <code className="bg-white px-1 rounded">webapp/supabase_partners_full_setup.sql</code> en
           SQL Editor (un solo archivo — crea la tabla completa).
+        </p>
+        <p>
+          <strong>Link copiable en tarjeta:</strong> corré{" "}
+          <code className="bg-white px-1 rounded">supabase_partners_invite_token_migration.sql</code>{" "}
+          si el cliente ya existía; clientes nuevos lo guardan automático. Si falta URL, tocá{" "}
+          <em>Nuevo link</em> una vez.
         </p>
         <p>
           <strong>Vercel:</strong>{" "}
