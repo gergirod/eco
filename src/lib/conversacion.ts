@@ -29,6 +29,7 @@ export type ConversacionTopic = {
   cluster: string | null;
   variantesRelacionadas: string[];
   highlights: ConversacionHighlight[];
+  highlightsTotal: number;
   mergedCluster: boolean;
 };
 
@@ -45,6 +46,7 @@ type RadarRow = {
   cluster?: string | null;
   variantes_relacionadas?: string[];
   highlights?: ConversacionHighlight[];
+  highlights_total?: number;
 };
 
 /** Clusters que se fusionan en el ranking (variantes del mismo eje). */
@@ -102,11 +104,12 @@ function rowToTopic(r: RadarRow, mergedCluster = false): Omit<ConversacionTopic,
     cluster,
     variantesRelacionadas: r.variantes_relacionadas ?? [],
     highlights: r.highlights ?? [],
+    highlightsTotal: r.highlights_total ?? r.highlights?.length ?? 0,
     mergedCluster,
   };
 }
 
-function dedupeHighlights(items: ConversacionHighlight[], limit = 6): ConversacionHighlight[] {
+function dedupeHighlights(items: ConversacionHighlight[], limit = 20): ConversacionHighlight[] {
   const seen = new Set<string>();
   const out: ConversacionHighlight[] = [];
   for (const h of items) {
@@ -136,6 +139,7 @@ function mergeClusterRows(rows: RadarRow[]): RadarRow[] {
   for (const [ck, group] of byCluster) {
     group.sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
     const lead = group[0];
+    const allHighlights = dedupeHighlights(group.flatMap((x) => x.highlights ?? []), 999);
     const combined: RadarRow = {
       ...lead,
       tema: lead.tema,
@@ -149,7 +153,8 @@ function mergeClusterRows(rows: RadarRow[]): RadarRow[] {
           group.flatMap((x) => [x.tema, ...(x.variantes_relacionadas ?? [])]).filter(Boolean)
         ),
       ].filter((t) => t !== lead.tema),
-      highlights: dedupeHighlights(group.flatMap((x) => x.highlights ?? []), 6),
+      highlights: allHighlights.slice(0, 20),
+      highlights_total: allHighlights.length,
       cluster: ck,
     };
     merged.push(combined);
