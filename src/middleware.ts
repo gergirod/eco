@@ -1,6 +1,10 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 import {
+  ADMIN_COOKIE,
+  hasFullPlatformAccess,
+} from "@/lib/admin-auth";
+import {
   OPS_COOKIE,
   OPS_LOGIN_PATH,
   isOpsAuthenticated,
@@ -87,9 +91,10 @@ export async function middleware(req: NextRequest) {
 
   if (isPartnerPublicPath(pathname)) return NextResponse.next();
 
-  // Operador con sesión backoffice → vista completa (sin scope de cliente)
+  // Operador admin o backoffice → vista completa (sin scope de cliente)
+  const adminCookie = req.cookies.get(ADMIN_COOKIE)?.value;
   const opsCookie = req.cookies.get(OPS_COOKIE)?.value;
-  if (await isOpsAuthenticated(opsCookie)) {
+  if (await hasFullPlatformAccess(adminCookie, opsCookie, isOpsAuthenticated)) {
     return NextResponse.next();
   }
 

@@ -148,7 +148,7 @@ export function partnerCanViewSlug(
 
 export const PARTNER_LOGIN_PATH = "/acceso";
 
-export const PARTNER_PUBLIC_PREFIXES = ["/acceso", "/api/partner"] as const;
+export const PARTNER_PUBLIC_PREFIXES = ["/acceso", "/api/partner", "/api/admin"] as const;
 
 export const PARTNER_BLOCKED_PREFIXES = [
   "/productos",
