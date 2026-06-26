@@ -106,6 +106,7 @@ function CanalProfileInner() {
         tab={tab}
         profile={profile}
         allBenchmark={benchmark as Parameters<typeof ChannelProfileSections>[0]["allBenchmark"]}
+        allAudience={audience as Parameters<typeof ChannelProfileSections>[0]["allAudience"]}
         chName={Object.fromEntries(channels.map((c) => [c.id, c.name]))}
       />
     </div>

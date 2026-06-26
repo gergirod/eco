@@ -7,6 +7,9 @@
   "peak_concurrent": 243607,
   "chat_coverage": 0,
   "chat_msgs_per_1k_min": null,
+  "chat_quality_tier": "sin_datos",
+  "chat_quality_label": "Sin chat capturado",
+  "chat_noise_score": null,
   "top_programs": [
    {
     "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
@@ -33,7 +36,8 @@
     "peak": 114637,
     "video_id": "E1SnlQyyuRc"
    }
-  ]
+  ],
+  "top_programs_by_chat": []
  },
  {
   "id": "olga",
@@ -43,6 +47,9 @@
   "peak_concurrent": 49756,
   "chat_coverage": 100,
   "chat_msgs_per_1k_min": 0.9,
+  "chat_quality_tier": "alta",
+  "chat_quality_label": "Comunidad activa",
+  "chat_noise_score": 0.17,
   "top_programs": [
    {
     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
@@ -69,6 +76,33 @@
     "peak": 40599,
     "video_id": "ptOHcGEdWCk"
    }
+  ],
+  "top_programs_by_chat": [
+   {
+    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+    "video_id": "8lOkxIDSd4w",
+    "chat_engagement": 2.93
+   },
+   {
+    "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
+    "video_id": "kDbkbzy_ASA",
+    "chat_engagement": 2.81
+   },
+   {
+    "title": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
+    "video_id": "s__pKWUr4MM",
+    "chat_engagement": 0.81
+   },
+   {
+    "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+    "video_id": "ptOHcGEdWCk",
+    "chat_engagement": 0.78
+   },
+   {
+    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+    "video_id": "bX7MB2_OI2I",
+    "chat_engagement": 0.74
+   }
   ]
  },
  {
@@ -79,11 +113,21 @@
   "peak_concurrent": 9661,
   "chat_coverage": 100,
   "chat_msgs_per_1k_min": 0.7,
+  "chat_quality_tier": "media",
+  "chat_quality_label": "Comunidad moderada",
+  "chat_noise_score": 0.02,
   "top_programs": [
    {
     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
     "peak": 9661,
     "video_id": "3t9P2KFJ4K0"
+   }
+  ],
+  "top_programs_by_chat": [
+   {
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "video_id": "3t9P2KFJ4K0",
+    "chat_engagement": 0.71
    }
   ]
  },
@@ -95,6 +139,9 @@
   "peak_concurrent": 13819,
   "chat_coverage": 100,
   "chat_msgs_per_1k_min": 2.6,
+  "chat_quality_tier": "alta",
+  "chat_quality_label": "Comunidad activa",
+  "chat_noise_score": 0.16,
   "top_programs": [
    {
     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
@@ -105,6 +152,18 @@
     "title": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
     "peak": 7565,
     "video_id": "tcq7UAzc3iw"
+   }
+  ],
+  "top_programs_by_chat": [
+   {
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "video_id": "JXVQmuDctII",
+    "chat_engagement": 3.53
+   },
+   {
+    "title": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
+    "video_id": "tcq7UAzc3iw",
+    "chat_engagement": 1.74
    }
   ]
  }

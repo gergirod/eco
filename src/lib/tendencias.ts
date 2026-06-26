@@ -51,6 +51,24 @@ type AudienceRow = {
   name: string;
   avg_concurrent?: number;
   peak_concurrent?: number;
+  chat_coverage?: number;
+  chat_msgs_per_1k_min?: number | null;
+  chat_quality_label?: string;
+};
+
+type ChatDemandSignal = {
+  tema: string;
+  n_programas: number;
+  n_signals?: number;
+  canales: string[];
+  cross_canal?: boolean;
+  tipo?: string;
+  ejemplo?: string;
+};
+
+type ChatDemandExport = {
+  period?: string;
+  signals?: ChatDemandSignal[];
 };
 
 type MetaDiscovery = {
@@ -423,12 +441,126 @@ function buildSearchAnticipationInsights(
   return insights;
 }
 
+const DEMAND_TYPE_LABEL: Record<string, string> = {
+  pedido_link: "pedidos de link",
+  pregunta_precio: "consultas de precio",
+  pregunta_compra: "intención de compra",
+};
+
+function buildChatDemandInsights(
+  chatDemand: ChatDemandExport | null | undefined,
+  meta: MetaDiscovery,
+  period: string,
+  coverage: string
+): TendenciaInsight[] {
+  const signals = chatDemand?.signals || [];
+  if (!signals.length) return [];
+
+  const insights: TendenciaInsight[] = [];
+  const chatCoverage =
+    " · demanda desde chat de audiencia (OLGA/BLENDER; LUZU sin chat en el período)";
+
+  for (const row of signals.slice(0, 4)) {
+    const temaLabel = row.tema.charAt(0).toUpperCase() + row.tema.slice(1);
+    const channelPhrase = formatChannelList(row.canales || []);
+    const tipoLabel = row.tipo ? DEMAND_TYPE_LABEL[row.tipo] || "pedidos en chat" : "pedidos en chat";
+    const key = row.tema.toLowerCase().replace(/\s+/g, "-");
+
+    if (row.cross_canal) {
+      insights.push({
+        id: `chat-demand-cross-${key}`,
+        pattern: `La audiencia repitió pedidos sobre ${temaLabel} en ${channelPhrase}`,
+        period,
+        confidence: "insight",
+        coverage: `${coverage}${chatCoverage}`,
+        implication:
+          "Demanda transversal en chat — no es conversación del conductor. Útil para marcas del rubro o contenido patrocinado con CTA claro.",
+        signals: [
+          `${row.n_programas} programas con señal`,
+          `${row.n_signals ?? "—"} mensajes de demanda agregados`,
+          row.ejemplo ? `Ejemplo: “${row.ejemplo.slice(0, 80)}”` : "",
+        ].filter(Boolean),
+        action: {
+          href: "/canales/olga?tab=audiencia",
+          label: "Ver comunidad",
+        },
+      });
+    } else if (row.n_programas >= 2 || row.tipo === "pedido_link" || row.tipo === "pregunta_precio") {
+      insights.push({
+        id: `chat-demand-${key}`,
+        pattern: `En ${channelPhrase}, la audiencia pidió ${tipoLabel} sobre ${temaLabel}`,
+        period,
+        confidence: "insight",
+        coverage: `${coverage}${chatCoverage}`,
+        implication:
+          "Señal de demanda en chat — exploratoria con corpus corto. Contrastar con lo que dijeron los conductores en Conversación.",
+        signals: [
+          `${row.n_programas} programa${row.n_programas === 1 ? "" : "s"} con chat`,
+          `${row.n_signals ?? "—"} señales en el período`,
+          row.ejemplo ? `Ejemplo: “${row.ejemplo.slice(0, 80)}”` : "",
+        ].filter(Boolean),
+        action: {
+          href: "/novedades",
+          label: "Ver novedades",
+        },
+      });
+    }
+    if (insights.length >= 3) break;
+  }
+
+  return insights;
+}
+
+function buildCommunityInsights(
+  audience: AudienceRow[],
+  meta: MetaDiscovery,
+  period: string,
+  coverage: string
+): TendenciaInsight[] {
+  const withChat = audience.filter(
+    (a) => (a.chat_coverage || 0) > 0 && a.chat_msgs_per_1k_min != null
+  );
+  if (withChat.length < 2) return [];
+
+  const sorted = [...withChat].sort(
+    (a, b) => (b.chat_msgs_per_1k_min || 0) - (a.chat_msgs_per_1k_min || 0)
+  );
+  const top = sorted[0];
+  const second = sorted[1];
+  if (!top?.chat_msgs_per_1k_min || !second?.chat_msgs_per_1k_min) return [];
+
+  const ratio = top.chat_msgs_per_1k_min / second.chat_msgs_per_1k_min;
+  if (ratio < 1.35) return [];
+
+  return [
+    {
+      id: "community-engagement-gap",
+      pattern: `${top.name} concentra más actividad de chat por espectador que ${second.name}`,
+      period,
+      confidence: "insight",
+      coverage: `${coverage} · solo canales con chat capturado`,
+      implication:
+        top.chat_quality_label
+          ? `${top.name}: ${top.chat_quality_label.toLowerCase()}. Para activaciones con CTA en chat, el canal importa tanto como los concurrentes.`
+          : "El engagement en sala no sigue al volumen de audiencia — negociá formato según objetivo de interacción.",
+      signals: withChat.map(
+        (a) => `${a.name} ${a.chat_msgs_per_1k_min} msgs/1k concurrentes`
+      ),
+      action: {
+        href: `/canales/${top.id}?tab=comparaciones`,
+        label: "Comparar comunidad",
+      },
+    },
+  ];
+}
+
 export function buildTendencias(
   radar: RadarRow[],
   benchmark: BenchmarkRow[],
   audience: AudienceRow[],
   brands: { confidence_tier?: string; slug?: string; kind?: string }[],
-  meta: MetaDiscovery
+  meta: MetaDiscovery,
+  chatDemand?: ChatDemandExport | null
 ): TendenciaInsight[] {
   const period = periodLabel(meta);
   const coverage = coverageFooter(meta);
@@ -437,6 +569,8 @@ export function buildTendencias(
   const all = [
     ...buildCommercialInsights(benchmark, meta, period, coverage),
     ...buildAudienceInsights(audience, benchmark, meta, period, coverage),
+    ...buildChatDemandInsights(chatDemand, meta, period, coverage),
+    ...buildCommunityInsights(audience, meta, period, coverage),
     ...buildSearchAnticipationInsights(radar, period, coverage),
     ...buildOpportunityInsights(radar, benchmark, meta, period, coverage),
     ...buildEmergingBrandsInsight(marcaBrands, meta, period, coverage),

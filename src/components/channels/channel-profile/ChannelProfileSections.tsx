@@ -5,7 +5,7 @@ import { useMemo } from "react";
 import { Badge, Bar, Stat } from "@/components/ui";
 import { evidenceLabel, evidenceTone } from "@/lib/campaign";
 import ProgramListCard from "@/components/programs/ProgramListCard";
-import type { ChannelBenchmark, ChannelProfile } from "@/lib/channelProfile";
+import type { ChannelBenchmark, ChannelAudience, ChannelProfile } from "@/lib/channelProfile";
 import { compact, num, vodLink } from "@/lib/format";
 import { PROMINENCE_BAR } from "@/lib/prominence";
 import { VALUATION_HINT, VALUATION_INFO, usdEst } from "@/lib/valuation";
@@ -15,6 +15,7 @@ type Props = {
   tab: ChannelProfileTabId;
   profile: ChannelProfile;
   allBenchmark: ChannelBenchmark[];
+  allAudience?: ChannelAudience[];
   chName: Record<string, string>;
   onOpenActivation?: (row: ChannelProfile["activations"][0]) => void;
 };
@@ -221,6 +222,15 @@ function AudienciaSection({ profile }: { profile: ChannelProfile }) {
     );
   }
 
+  const chatLabel =
+    aud.chat_coverage === 0
+      ? "Sin chat capturado en el período"
+      : aud.chat_quality_label || null;
+  const noiseNote =
+    aud.chat_noise_score != null && aud.chat_noise_score >= 0.55
+      ? "Mucho mensaje repetido en la sala — la señal de demanda puede estar diluida."
+      : null;
+
   return (
     <div>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
@@ -232,11 +242,19 @@ function AudienciaSection({ profile }: { profile: ChannelProfile }) {
           hint="de programas"
         />
         <Stat
-          label="Engagement"
-          value={aud.chat_msgs_per_1k_min != null ? aud.chat_msgs_per_1k_min : "s/d"}
-          hint="msgs / 1k concurrentes"
+          label="Comunidad"
+          value={
+            aud.chat_msgs_per_1k_min != null ? `${aud.chat_msgs_per_1k_min} msgs/1k` : "s/d"
+          }
+          hint={chatLabel || "msgs / 1k concurrentes"}
         />
       </div>
+      {chatLabel && aud.chat_coverage !== 0 && (
+        <p className="text-[13px] text-gray-600 mb-4 max-w-xl leading-relaxed">{chatLabel}.</p>
+      )}
+      {noiseNote && (
+        <p className="text-[12.5px] text-gray-500 mb-4 max-w-xl leading-relaxed">{noiseNote}</p>
+      )}
       {aud.top_programs && aud.top_programs.length > 0 && (
         <div className="card p-5">
           <h2 className="text-[15px] font-semibold mb-3">Top programas por pico</h2>
@@ -257,6 +275,28 @@ function AudienciaSection({ profile }: { profile: ChannelProfile }) {
           </div>
         </div>
       )}
+      {aud.top_programs_by_chat && aud.top_programs_by_chat.length > 0 && (
+        <div className="card p-5 mt-5">
+          <h2 className="text-[15px] font-semibold mb-3">Top programas por actividad en chat</h2>
+          <div className="flex flex-col gap-2">
+            {aud.top_programs_by_chat.map((p, i) => (
+              <div key={i} className="flex items-center justify-between gap-4 text-[13px]">
+                <a
+                  href={vodLink(p.video_id)}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-700 hover:text-accent hover:underline truncate"
+                >
+                  {p.title || p.video_id}
+                </a>
+                <span className="tabular-nums text-gray-500 shrink-0">
+                  {p.chat_engagement} msgs/1k
+                </span>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 }
@@ -264,14 +304,21 @@ function AudienciaSection({ profile }: { profile: ChannelProfile }) {
 function ComparacionesSection({
   profile,
   allBenchmark,
+  allAudience = [],
 }: {
   profile: ChannelProfile;
   allBenchmark: ChannelBenchmark[];
+  allAudience?: ChannelAudience[];
 }) {
   const currentId = profile.config.id;
   const maxShare = Math.max(...allBenchmark.map((b) => b.share_views || 0), 1);
   const maxBrands = Math.max(...allBenchmark.map((b) => b.brands || 0), 1);
   const maxAvg = Math.max(...allBenchmark.map((b) => b.avg_concurrent || 0), 1);
+  const chatChannels = allAudience.filter((a) => (a.chat_coverage || 0) > 0);
+  const maxChatEng = Math.max(
+    ...chatChannels.map((a) => a.chat_msgs_per_1k_min || 0),
+    1
+  );
 
   if (allBenchmark.length < 2) {
     return (
@@ -336,6 +383,33 @@ function ComparacionesSection({
           </div>
         ))}
       </div>
+      {chatChannels.length >= 2 && (
+        <div className="card p-5">
+          <h2 className="text-[15px] font-semibold mb-1">Actividad en chat</h2>
+          <p className="text-[12px] text-gray-500 mb-4">
+            Solo canales con chat capturado — LUZU sin datos en el período.
+          </p>
+          {chatChannels.map((a) => (
+            <div key={a.id} className="mb-3 last:mb-0">
+              <div className="flex justify-between text-[13px] mb-1">
+                <Link
+                  href={`/canales/${a.id}?tab=audiencia`}
+                  className={a.id === currentId ? "font-semibold text-accent" : "hover:text-accent"}
+                >
+                  {a.name}
+                </Link>
+                <span className="tabular-nums text-gray-500">
+                  {a.chat_msgs_per_1k_min ?? "—"} msgs/1k
+                </span>
+              </div>
+              <Bar value={a.chat_msgs_per_1k_min || 0} max={maxChatEng} />
+              {a.chat_quality_label && (
+                <div className="text-[11px] text-gray-400 mt-0.5">{a.chat_quality_label}</div>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
@@ -409,7 +483,13 @@ function EvidenciaSection({ profile }: { profile: ChannelProfile }) {
   );
 }
 
-export default function ChannelProfileSections({ tab, profile, allBenchmark, chName }: Props) {
+export default function ChannelProfileSections({
+  tab,
+  profile,
+  allBenchmark,
+  allAudience,
+  chName,
+}: Props) {
   switch (tab) {
     case "descripcion":
       return <DescripcionSection profile={profile} />;
@@ -422,7 +502,13 @@ export default function ChannelProfileSections({ tab, profile, allBenchmark, chN
     case "audiencia":
       return <AudienciaSection profile={profile} />;
     case "comparaciones":
-      return <ComparacionesSection profile={profile} allBenchmark={allBenchmark} />;
+      return (
+        <ComparacionesSection
+          profile={profile}
+          allBenchmark={allBenchmark}
+          allAudience={allAudience}
+        />
+      );
     case "evidencia":
       return <EvidenciaSection profile={profile} />;
     default:

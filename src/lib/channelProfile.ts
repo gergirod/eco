@@ -32,7 +32,11 @@ export type ChannelAudience = {
   peak_concurrent: number;
   chat_coverage?: number;
   chat_msgs_per_1k_min?: number | null;
+  chat_quality_tier?: string;
+  chat_quality_label?: string;
+  chat_noise_score?: number | null;
   top_programs?: { title: string; peak: number; video_id: string }[];
+  top_programs_by_chat?: { title: string; video_id: string; chat_engagement: number }[];
 };
 
 export type ChannelBrandRef = {

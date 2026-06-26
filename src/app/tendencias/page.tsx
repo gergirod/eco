@@ -12,6 +12,7 @@ import benchmarkFb from "@/data/benchmark.json";
 import brandsFb from "@/data/brands.json";
 import metaFb from "@/data/meta.json";
 import radarFb from "@/data/radar.json";
+import chatDemandFb from "@/data/chat_demand.json";
 
 export default function TendenciasPage() {
   const radar = useDataset("radar", radarFb);
@@ -19,6 +20,7 @@ export default function TendenciasPage() {
   const audience = useDataset("audience", audienceFb);
   const brands = useDataset("brands", brandsFb);
   const meta = useDataset("meta", metaFb);
+  const chatDemand = useDataset("chat_demand", chatDemandFb);
   const coverage = useMemo(() => getPlatformCoverage(loadDiscoveryDataset()), []);
 
   const insights = useMemo(
@@ -28,9 +30,10 @@ export default function TendenciasPage() {
         benchmark as Parameters<typeof buildTendencias>[1],
         audience as Parameters<typeof buildTendencias>[2],
         brands as Parameters<typeof buildTendencias>[3],
-        meta as Parameters<typeof buildTendencias>[4]
+        meta as Parameters<typeof buildTendencias>[4],
+        chatDemand as Parameters<typeof buildTendencias>[5]
       ),
-    [radar, benchmark, audience, brands, meta]
+    [radar, benchmark, audience, brands, meta, chatDemand]
   );
 
   const subline = tendenciasSubline(insights.length, meta as Parameters<typeof tendenciasSubline>[1]);

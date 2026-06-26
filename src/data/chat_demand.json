@@ -1,0 +1,16 @@
+{
+ "period": "2026-06-26T15:13:45.228679+00:00",
+ "signals": [
+  {
+   "tema": "Crítica a Azzaro",
+   "n_programas": 2,
+   "n_signals": 3,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false,
+   "tipo": "otro",
+   "ejemplo": "azzaro, te convertiste en lo que juraste destruir"
+  }
+ ]
+}
