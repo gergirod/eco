@@ -2,6 +2,8 @@
 // Una activación concreta, medida contra la audiencia real del minuto exacto.
 // Se abre en ventana nueva y dispara print() -> "Guardar como PDF".
 
+import { getChatReaction, chatEcoLine } from "@/lib/chatReaction";
+
 const num = (n: number) => Math.round(n ?? 0).toLocaleString("es-AR");
 const usd = (n: number) => "USD " + Math.round(n || 0).toLocaleString("es-AR");
 const esc = (s: string) =>
@@ -23,13 +25,13 @@ const TIER_LABEL: Record<number, string> = {
 };
 
 /**
- * @param m  mención enriquecida (quote, t_seconds, conc_at, retention_pct, chat_ratio, value_usd, tier, sentiment, channel_name, title, date)
+ * @param m  mención enriquecida (quote, t_seconds, conc_at, retention_pct, chat_reaction, value_usd, tier, sentiment, channel_name, title, date)
  * @param peak  pico del programa (program_peak)
  */
 export function buildProgramReportHTML(m: any): string {
   const conc = m.conc_at ?? m.views ?? 0;
   const ret = m.retention_pct;
-  const chat = m.chat_ratio;
+  const chatRx = getChatReaction(m);
   const peak = m.program_peak || m.peak || 0;
   const tier = m.tier || 3;
   const isPaid = tier === 1;
@@ -41,9 +43,11 @@ export function buildProgramReportHTML(m: any): string {
       ? `<div class="stat"><div class="n">${retUp ? "+" : ""}${ret}%</div><div class="l">la audiencia <b>${retUp ? "creció" : "se movió"}</b> durante el tramo de la mención</div></div>`
       : "";
   const chatStat =
-    chat != null
-      ? `<div class="stat"><div class="n">x${chat}</div><div class="l">ritmo del chat vs. su base en ese tramo</div></div>`
-      : "";
+    chatRx.table_line && chatRx.has_chat !== false
+      ? `<div class="stat"><div class="n" style="font-size:17px;line-height:1.35">${esc(chatRx.table_line)}</div><div class="l">chat en la ventana de la aparición vs. el promedio del programa</div></div>`
+      : chatRx.has_chat === false
+        ? `<div class="stat"><div class="n" style="font-size:15px">Sin chat</div><div class="l">no hay captura de chat en este programa</div></div>`
+        : "";
 
   const retRow =
     ret != null
@@ -137,7 +141,7 @@ export function buildProgramReportHTML(m: any): string {
         <div class="calc-equiv">Valor de exposición equivalente: <b>≈ ${usd(m.value_usd)}</b> <span>— referencia de mercado de lo que costaría comprar esa misma audiencia en vivo, calculada al minuto (no a promedio del programa). Es benchmark de exposición, no facturación ni ventas.</span></div>
       </div>
     </div>
-    <div class="insight"><h4>El dato que no se suele ver</h4><p>La mayoría de los reportes te dan el <b>promedio del programa</b>. Pero tu aparición no salió en el promedio: salió ante <b>~${num(conc)} personas en ese minuto</b>, medido al minuto${ret != null ? ` — y la curva de audiencia ${retUp ? "subió" : "se movió"} mientras pasaba` : ""}. Medición independiente, con la cita verificada contra la transcripción.</p></div>
+    <div class="insight"><h4>El dato que no se suele ver</h4><p>La mayoría de los reportes te dan el <b>promedio del programa</b>. Pero tu aparición no salió en el promedio: salió ante <b>~${num(conc)} personas en ese minuto</b>, medido al minuto${ret != null ? ` — y la curva de audiencia ${retUp ? "subió" : "se movió"} mientras pasaba` : ""}. Medición independiente, con la cita verificada contra la transcripción.</p>${chatRx.headline ? `<p style="margin-top:10px"><b>Chat en la pauta:</b> ${esc(chatRx.headline)} <span style="color:#5b6b78">(El chat no certifica pauta.)</span></p>` : ""}${chatEcoLine(m) ? `<p style="margin-top:8px"><b>Eco de comunidad:</b> ${esc(chatEcoLine(m)!)}</p>` : ""}</div>
   </div>
   <div class="foot">
     <p><b>Cómo se mide.</b> La audiencia es la cantidad real de espectadores conectados en vivo en ese minuto exacto, tomada del stream. La retención compara los espectadores al inicio vs. al final del tramo. La cita está verificada contra la transcripción. El valor de exposición es una referencia de mercado conservadora (lente CPM), <b>no facturación ni ventas atribuidas</b>.</p>

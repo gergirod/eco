@@ -8,10 +8,10 @@
    "olga"
   ],
   "n_channels": 2,
-  "n_videos": 4,
+  "n_videos": 5,
   "first_seen": "23/06/2026",
-  "last_seen": "24/06/2026",
-  "value_usd": 8463.0,
+  "last_seen": "25/06/2026",
+  "value_usd": 11210.0,
   "samples": [
    {
     "channel": "olga",
@@ -19,9 +19,9 @@
     "date": "23/06/2026",
     "video_id": "NKhi31a86K8",
     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
-    "minute": "02:00:45",
+    "minute": "02:00:20",
     "views": 14487,
-    "conc_at": 7808
+    "conc_at": 7800
    },
    {
     "channel": "olga",
@@ -39,9 +39,19 @@
     "date": "23/06/2026",
     "video_id": "NKhi31a86K8",
     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
-    "minute": "02:00:45",
+    "minute": "02:02:23",
     "views": 14487,
-    "conc_at": 7808
+    "conc_at": 7707
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "25/06/2026",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "minute": "01:27:55",
+    "views": 52323,
+    "conc_at": 34141
    },
    {
     "channel": "olga",
@@ -49,7 +59,7 @@
     "date": "23/06/2026",
     "video_id": "q_clAienUJw",
     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "00:55:06",
+    "minute": "00:55:02",
     "views": 73490,
     "conc_at": 42582
    },
@@ -59,7 +69,7 @@
     "date": "23/06/2026",
     "video_id": "q_clAienUJw",
     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "01:05:40",
+    "minute": "01:05:14",
     "views": 73490,
     "conc_at": 42582
    },
@@ -69,9 +79,9 @@
     "date": "24/06/2026",
     "video_id": "WCF4oC8GC9o",
     "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
-    "minute": "01:46:48",
+    "minute": "01:49:14",
     "views": 335199,
-    "conc_at": 230574
+    "conc_at": 229621
    },
    {
     "channel": "olga",
@@ -79,116 +89,19 @@
     "date": "24/06/2026",
     "video_id": "JqkhC1EnyTQ",
     "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
-    "minute": "01:16:31",
+    "minute": "01:16:21",
     "views": 12997,
-    "conc_at": 7875
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "24/06/2026",
-    "video_id": "JqkhC1EnyTQ",
-    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
-    "minute": "01:16:31",
-    "views": 12997,
-    "conc_at": 7875
+    "conc_at": 7880
    }
   ],
   "kind": "marca",
   "n_activations": 8,
-  "n_programs": 4,
-  "peak_conc_at": 230574,
+  "n_programs": 5,
+  "peak_conc_at": 229621,
   "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 8 activaciones en 4 programas y 2 canales — 8 con evidencia completa y 0 con evidencia parcial.",
+  "confidence_reason": "Evidencia densa en streaming: 8 activaciones en 5 programas y 2 canales — 8 con evidencia completa y 0 con evidencia parcial.",
   "evidence_summary": {
    "verified": 8,
-   "partial": 0,
-   "insufficient": 0
-  }
- },
- {
-  "slug": "skip",
-  "name": "Skip",
-  "mentions": 6,
-  "channels": [
-   "luzu",
-   "olga"
-  ],
-  "n_channels": 2,
-  "n_videos": 3,
-  "first_seen": "23/06/2026",
-  "last_seen": "23/06/2026",
-  "value_usd": 5241.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "8lOkxIDSd4w",
-    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-    "minute": "01:27:29",
-    "views": 35722,
-    "conc_at": 39330
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "bX7MB2_OI2I",
-    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-    "minute": "01:57:36",
-    "views": 43284,
-    "conc_at": 30305
-   },
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "23/06/2026",
-    "video_id": "S1UDpsKkZvE",
-    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
-    "minute": "02:12:47",
-    "views": 137091,
-    "conc_at": 75061
-   },
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "23/06/2026",
-    "video_id": "S1UDpsKkZvE",
-    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
-    "minute": "02:12:47",
-    "views": 137091,
-    "conc_at": 75061
-   },
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "23/06/2026",
-    "video_id": "S1UDpsKkZvE",
-    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
-    "minute": "02:13:26",
-    "views": 137091,
-    "conc_at": 75404
-   },
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "23/06/2026",
-    "video_id": "S1UDpsKkZvE",
-    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
-    "minute": "02:12:47",
-    "views": 137091,
-    "conc_at": 75061
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 6,
-  "n_programs": 3,
-  "peak_conc_at": 75404,
-  "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 6 activaciones en 3 programas y 2 canales — 6 con evidencia completa y 0 con evidencia parcial.",
-  "evidence_summary": {
-   "verified": 6,
    "partial": 0,
    "insufficient": 0
   }
@@ -204,7 +117,7 @@
   "n_videos": 4,
   "first_seen": "19/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 4324.0,
+  "value_usd": 5090.0,
   "samples": [
    {
     "channel": "olga",
@@ -212,9 +125,9 @@
     "date": "23/06/2026",
     "video_id": "8lOkxIDSd4w",
     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-    "minute": "02:37:50",
+    "minute": "02:37:13",
     "views": 35722,
-    "conc_at": 36170
+    "conc_at": 36111
    },
    {
     "channel": "olga",
@@ -222,9 +135,9 @@
     "date": "23/06/2026",
     "video_id": "NKhi31a86K8",
     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
-    "minute": "00:44:50",
+    "minute": "00:44:11",
     "views": 14487,
-    "conc_at": 8862
+    "conc_at": 8930
    },
    {
     "channel": "olga",
@@ -232,7 +145,7 @@
     "date": "23/06/2026",
     "video_id": "q_clAienUJw",
     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:04:15",
+    "minute": "02:03:53",
     "views": 73490,
     "conc_at": 42582
    },
@@ -242,7 +155,7 @@
     "date": "23/06/2026",
     "video_id": "q_clAienUJw",
     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:18:58",
+    "minute": "02:18:24",
     "views": 73490,
     "conc_at": 42582
    },
@@ -252,7 +165,7 @@
     "date": "23/06/2026",
     "video_id": "q_clAienUJw",
     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:22:24",
+    "minute": "02:22:29",
     "views": 73490,
     "conc_at": 42582
    },
@@ -262,9 +175,9 @@
     "date": "19/06/2026",
     "video_id": "XHV2BV9DWMs",
     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "minute": "01:50:00",
+    "minute": "01:59:14",
     "views": 39368,
-    "conc_at": 37536
+    "conc_at": 36405
    }
   ],
   "kind": "marca",
@@ -280,36 +193,103 @@
   }
  },
  {
-  "slug": "rexona",
-  "name": "Rexona",
-  "mentions": 6,
+  "slug": "skip",
+  "name": "Skip",
+  "mentions": 5,
   "channels": [
    "luzu",
    "olga"
   ],
   "n_channels": 2,
-  "n_videos": 4,
+  "n_videos": 3,
   "first_seen": "23/06/2026",
-  "last_seen": "24/06/2026",
-  "value_usd": 3764.0,
+  "last_seen": "23/06/2026",
+  "value_usd": 5586.0,
   "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "8lOkxIDSd4w",
+    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+    "minute": "01:26:55",
+    "views": 35722,
+    "conc_at": 39363
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "bX7MB2_OI2I",
+    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+    "minute": "01:57:12",
+    "views": 43284,
+    "conc_at": 30199
+   },
    {
     "channel": "luzu",
     "channel_name": "LUZU TV",
     "date": "23/06/2026",
-    "video_id": "cHMIm1Fnig4",
-    "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
-    "minute": "01:30:02",
-    "views": 373638,
-    "conc_at": 239778
+    "video_id": "S1UDpsKkZvE",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+    "minute": "02:12:47",
+    "views": 137091,
+    "conc_at": 75061
    },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "S1UDpsKkZvE",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+    "minute": "02:12:52",
+    "views": 137091,
+    "conc_at": 75108
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "S1UDpsKkZvE",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+    "minute": "02:13:41",
+    "views": 137091,
+    "conc_at": 75531
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 5,
+  "n_programs": 3,
+  "peak_conc_at": 75531,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 5 activaciones en 3 programas y 2 canales — 5 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 5,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "rexona",
+  "name": "Rexona",
+  "mentions": 5,
+  "channels": [
+   "luzu",
+   "olga"
+  ],
+  "n_channels": 2,
+  "n_videos": 3,
+  "first_seen": "23/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 2687.0,
+  "samples": [
    {
     "channel": "olga",
     "channel_name": "OLGA",
     "date": "23/06/2026",
     "video_id": "q_clAienUJw",
     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:18:11",
+    "minute": "02:18:05",
     "views": 73490,
     "conc_at": 42582
    },
@@ -329,9 +309,9 @@
     "date": "24/06/2026",
     "video_id": "JqkhC1EnyTQ",
     "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
-    "minute": "01:43:18",
+    "minute": "01:43:30",
     "views": 12997,
-    "conc_at": 7811
+    "conc_at": 7812
    },
    {
     "channel": "olga",
@@ -349,19 +329,19 @@
     "date": "24/06/2026",
     "video_id": "JqkhC1EnyTQ",
     "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
-    "minute": "01:43:32",
+    "minute": "01:44:23",
     "views": 12997,
-    "conc_at": 7812
+    "conc_at": 7798
    }
   ],
   "kind": "marca",
-  "n_activations": 6,
-  "n_programs": 4,
-  "peak_conc_at": 239778,
+  "n_activations": 5,
+  "n_programs": 3,
+  "peak_conc_at": 42582,
   "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 6 activaciones en 4 programas y 2 canales — 6 con evidencia completa y 0 con evidencia parcial.",
+  "confidence_reason": "Evidencia densa en streaming: 5 activaciones en 3 programas y 2 canales — 5 con evidencia completa y 0 con evidencia parcial.",
   "evidence_summary": {
-   "verified": 6,
+   "verified": 5,
    "partial": 0,
    "insufficient": 0
   }
@@ -378,7 +358,7 @@
   "n_videos": 3,
   "first_seen": "23/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 19841.0,
+  "value_usd": 18268.0,
   "samples": [
    {
     "channel": "olga",
@@ -386,9 +366,9 @@
     "date": "23/06/2026",
     "video_id": "NKhi31a86K8",
     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
-    "minute": "01:51:42",
+    "minute": "01:51:07",
     "views": 14487,
-    "conc_at": 7896
+    "conc_at": 7907
    },
    {
     "channel": "luzu",
@@ -416,15 +396,15 @@
     "date": "24/06/2026",
     "video_id": "WCF4oC8GC9o",
     "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
-    "minute": "01:25:42",
+    "minute": "01:25:08",
     "views": 335199,
-    "conc_at": 232929
+    "conc_at": 232910
    }
   ],
   "kind": "marca",
   "n_activations": 4,
   "n_programs": 3,
-  "peak_conc_at": 232929,
+  "peak_conc_at": 232910,
   "confidence_tier": "high_confidence",
   "confidence_reason": "Evidencia densa en streaming: 4 activaciones en 3 programas y 2 canales — 4 con evidencia completa y 0 con evidencia parcial.",
   "evidence_summary": {
@@ -445,7 +425,7 @@
   "n_videos": 3,
   "first_seen": "23/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 8006.0,
+  "value_usd": 8005.0,
   "samples": [
    {
     "channel": "luzu",
@@ -453,9 +433,9 @@
     "date": "23/06/2026",
     "video_id": "Ovdcl6-B2kc",
     "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "minute": "01:36:36",
+    "minute": "01:36:44",
     "views": 56741,
-    "conc_at": 38136
+    "conc_at": 38135
    },
    {
     "channel": "luzu",
@@ -473,9 +453,9 @@
     "date": "24/06/2026",
     "video_id": "7Oo5Hf7f14M",
     "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "minute": "00:31:36",
+    "minute": "00:31:02",
     "views": 70980,
-    "conc_at": 49468
+    "conc_at": 49461
    },
    {
     "channel": "olga",
@@ -512,7 +492,7 @@
   "n_videos": 4,
   "first_seen": "19/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 14120.0,
+  "value_usd": 7431.0,
   "samples": [
    {
     "channel": "luzu",
@@ -520,9 +500,9 @@
     "date": "23/06/2026",
     "video_id": "cHMIm1Fnig4",
     "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
-    "minute": "01:24:26",
+    "minute": "01:27:50",
     "views": 373638,
-    "conc_at": 237804
+    "conc_at": 238446
    },
    {
     "channel": "olga",
@@ -530,9 +510,9 @@
     "date": "23/06/2026",
     "video_id": "q_clAienUJw",
     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:48:48",
+    "minute": "02:48:12",
     "views": 73490,
-    "conc_at": 43257
+    "conc_at": 43135
    },
    {
     "channel": "olga",
@@ -540,9 +520,9 @@
     "date": "24/06/2026",
     "video_id": "kDbkbzy_ASA",
     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
-    "minute": "00:50:48",
+    "minute": "00:57:59",
     "views": 28305,
-    "conc_at": 21235
+    "conc_at": 21034
    },
    {
     "channel": "olga",
@@ -550,15 +530,15 @@
     "date": "19/06/2026",
     "video_id": "XHV2BV9DWMs",
     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "minute": "01:20:52",
+    "minute": "01:26:59",
     "views": 39368,
-    "conc_at": 41872
+    "conc_at": 41092
    }
   ],
   "kind": "marca",
   "n_activations": 4,
   "n_programs": 4,
-  "peak_conc_at": 237804,
+  "peak_conc_at": 238446,
   "confidence_tier": "high_confidence",
   "confidence_reason": "Evidencia densa en streaming: 4 activaciones en 4 programas y 2 canales — 4 con evidencia completa y 0 con evidencia parcial.",
   "evidence_summary": {
@@ -578,7 +558,7 @@
   "n_videos": 2,
   "first_seen": "22/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 1655.0,
+  "value_usd": 1569.0,
   "samples": [
    {
     "channel": "olga",
@@ -596,9 +576,9 @@
     "date": "22/06/2026",
     "video_id": "95yJuQx7ol8",
     "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
-    "minute": "00:52:18",
+    "minute": "00:51:44",
     "views": 15613,
-    "conc_at": 11596
+    "conc_at": 11568
    },
    {
     "channel": "olga",
@@ -616,9 +596,9 @@
     "date": "22/06/2026",
     "video_id": "95yJuQx7ol8",
     "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
-    "minute": "01:58:45",
+    "minute": "01:58:18",
     "views": 15613,
-    "conc_at": 15088
+    "conc_at": 15160
    }
   ],
   "kind": "marca",
@@ -629,6 +609,62 @@
   "confidence_reason": "Evidencia densa en streaming: 4 activaciones en 2 programas y 1 canales — 4 con evidencia completa y 0 con evidencia parcial.",
   "evidence_summary": {
    "verified": 4,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "canon",
+  "name": "Canon",
+  "mentions": 3,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "23/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 3041.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "8lOkxIDSd4w",
+    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+    "minute": "01:14:38",
+    "views": 35722,
+    "conc_at": 40121
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "8lOkxIDSd4w",
+    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+    "minute": "01:22:53",
+    "views": 35722,
+    "conc_at": 39595
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "25/06/2026",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "minute": "01:00:00",
+    "views": 52323,
+    "conc_at": 34141
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 3,
+  "n_programs": 2,
+  "peak_conc_at": 40121,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 3 activaciones en 2 programas y 1 canales — 3 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 3,
    "partial": 0,
    "insufficient": 0
   }
@@ -672,7 +708,7 @@
     "date": "24/06/2026",
     "video_id": "s__pKWUr4MM",
     "title": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
-    "minute": "00:00:02",
+    "minute": "00:00:00",
     "views": 40410,
     "conc_at": 11663
    }
@@ -697,10 +733,10 @@
    "olga"
   ],
   "n_channels": 1,
-  "n_videos": 1,
+  "n_videos": 2,
   "first_seen": "23/06/2026",
-  "last_seen": "23/06/2026",
-  "value_usd": 3696.0,
+  "last_seen": "25/06/2026",
+  "value_usd": 3470.0,
   "samples": [
    {
     "channel": "olga",
@@ -718,27 +754,27 @@
     "date": "23/06/2026",
     "video_id": "bX7MB2_OI2I",
     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-    "minute": "02:31:32",
+    "minute": "02:35:53",
     "views": 43284,
-    "conc_at": 36717
+    "conc_at": 38007
    },
    {
     "channel": "olga",
     "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "bX7MB2_OI2I",
-    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-    "minute": "02:36:11",
-    "views": 43284,
-    "conc_at": 38062
+    "date": "25/06/2026",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "minute": "02:12:23",
+    "views": 52323,
+    "conc_at": 34141
    }
   ],
   "kind": "marca",
   "n_activations": 3,
-  "n_programs": 1,
-  "peak_conc_at": 38062,
-  "confidence_tier": "emerging_confidence",
-  "confidence_reason": "Señal temprana: 3 activación(es) con evidencia en transcript (3 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "n_programs": 2,
+  "peak_conc_at": 38007,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 3 activaciones en 2 programas y 1 canales — 3 con evidencia completa y 0 con evidencia parcial.",
   "evidence_summary": {
    "verified": 3,
    "partial": 0,
@@ -757,7 +793,7 @@
   "n_videos": 3,
   "first_seen": "23/06/2026",
   "last_seen": "25/06/2026",
-  "value_usd": 1511.0,
+  "value_usd": 1510.0,
   "samples": [
    {
     "channel": "olga",
@@ -765,9 +801,9 @@
     "date": "23/06/2026",
     "video_id": "ptOHcGEdWCk",
     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
-    "minute": "02:07:21",
+    "minute": "02:06:46",
     "views": 45112,
-    "conc_at": 37998
+    "conc_at": 37961
    },
    {
     "channel": "olga",
@@ -775,7 +811,7 @@
     "date": "23/06/2026",
     "video_id": "q_clAienUJw",
     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:39:00",
+    "minute": "02:38:27",
     "views": 73490,
     "conc_at": 42582
    },
@@ -785,9 +821,9 @@
     "date": "25/06/2026",
     "video_id": "JXVQmuDctII",
     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-    "minute": "01:06:09",
+    "minute": "01:05:52",
     "views": 9779,
-    "conc_at": 11157
+    "conc_at": 11160
    }
   ],
   "kind": "marca",
@@ -803,52 +839,6 @@
   }
  },
  {
-  "slug": "canon",
-  "name": "Canon",
-  "mentions": 2,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "23/06/2026",
-  "last_seen": "23/06/2026",
-  "value_usd": 2305.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "8lOkxIDSd4w",
-    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-    "minute": "01:15:15",
-    "views": 35722,
-    "conc_at": 40063
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "8lOkxIDSd4w",
-    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-    "minute": "01:22:04",
-    "views": 35722,
-    "conc_at": 39537
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 2,
-  "n_programs": 1,
-  "peak_conc_at": 40063,
-  "confidence_tier": "emerging_confidence",
-  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
-  "evidence_summary": {
-   "verified": 2,
-   "partial": 0,
-   "insufficient": 0
-  }
- },
- {
   "slug": "pharma-olga",
   "name": "Pharma Olga",
   "mentions": 2,
@@ -859,7 +849,7 @@
   "n_videos": 2,
   "first_seen": "19/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 1302.0,
+  "value_usd": 1300.0,
   "samples": [
    {
     "channel": "olga",
@@ -877,61 +867,15 @@
     "date": "19/06/2026",
     "video_id": "XHV2BV9DWMs",
     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "minute": "02:00:11",
+    "minute": "02:00:24",
     "views": 39368,
-    "conc_at": 36124
+    "conc_at": 36067
    }
   ],
   "kind": "marca",
   "n_activations": 2,
   "n_programs": 2,
-  "peak_conc_at": 36124,
-  "confidence_tier": "emerging_confidence",
-  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
-  "evidence_summary": {
-   "verified": 2,
-   "partial": 0,
-   "insufficient": 0
-  }
- },
- {
-  "slug": "swift",
-  "name": "Swift",
-  "mentions": 2,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 2,
-  "first_seen": "23/06/2026",
-  "last_seen": "24/06/2026",
-  "value_usd": 379.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "NKhi31a86K8",
-    "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
-    "minute": "00:56:09",
-    "views": 14487,
-    "conc_at": 8666
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "24/06/2026",
-    "video_id": "kDbkbzy_ASA",
-    "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
-    "minute": "01:17:20",
-    "views": 28305,
-    "conc_at": 19713
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 2,
-  "n_programs": 2,
-  "peak_conc_at": 19713,
+  "peak_conc_at": 36067,
   "confidence_tier": "emerging_confidence",
   "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
   "evidence_summary": {
@@ -951,7 +895,7 @@
   "n_videos": 2,
   "first_seen": "23/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 401.0,
+  "value_usd": 462.0,
   "samples": [
    {
     "channel": "olga",
@@ -959,9 +903,9 @@
     "date": "23/06/2026",
     "video_id": "NKhi31a86K8",
     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
-    "minute": "01:21:29",
+    "minute": "01:20:58",
     "views": 14487,
-    "conc_at": 8477
+    "conc_at": 8466
    },
    {
     "channel": "olga",
@@ -969,66 +913,20 @@
     "date": "24/06/2026",
     "video_id": "JqkhC1EnyTQ",
     "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
-    "minute": "02:10:00",
+    "minute": "02:10:45",
     "views": 12997,
-    "conc_at": 7550
+    "conc_at": 7487
    }
   ],
   "kind": "marca",
   "n_activations": 2,
   "n_programs": 2,
-  "peak_conc_at": 8477,
+  "peak_conc_at": 8466,
   "confidence_tier": "emerging_confidence",
   "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (1 completas, 1 parciales) — aún no alcanza la densidad para el listado principal.",
   "evidence_summary": {
    "verified": 1,
    "partial": 1,
-   "insufficient": 0
-  }
- },
- {
-  "slug": "coca-cola",
-  "name": "Coca-Cola",
-  "mentions": 2,
-  "channels": [
-   "luzu"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "23/06/2026",
-  "last_seen": "23/06/2026",
-  "value_usd": 1194.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "23/06/2026",
-    "video_id": "Ovdcl6-B2kc",
-    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "minute": "01:35:21",
-    "views": 56741,
-    "conc_at": 38250
-   },
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "23/06/2026",
-    "video_id": "Ovdcl6-B2kc",
-    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "minute": "01:45:35",
-    "views": 56741,
-    "conc_at": 38193
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 2,
-  "n_programs": 1,
-  "peak_conc_at": 38250,
-  "confidence_tier": "emerging_confidence",
-  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
-  "evidence_summary": {
-   "verified": 2,
-   "partial": 0,
    "insufficient": 0
   }
  },
@@ -1043,7 +941,7 @@
   "n_videos": 1,
   "first_seen": "22/06/2026",
   "last_seen": "22/06/2026",
-  "value_usd": 4507.0,
+  "value_usd": 3836.0,
   "samples": [
    {
     "channel": "luzu",
@@ -1051,7 +949,7 @@
     "date": "22/06/2026",
     "video_id": "yp1SuqSXmxA",
     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
-    "minute": "01:56:25",
+    "minute": "01:58:18",
     "views": 133449,
     "conc_at": 89404
    },
@@ -1107,9 +1005,9 @@
     "date": "23/06/2026",
     "video_id": "2E9MjxyDU9o",
     "title": "#LOSDELFONDO | SORTEAMOS LA CAMISETA DEL PURRETE 10, EL BÓXER DEL MITO NO DA MÁS, ANGELITA LA ROMPIÓ",
-    "minute": "01:24:03",
+    "minute": "01:24:05",
     "views": 33834,
-    "conc_at": 20418
+    "conc_at": 20400
    }
   ],
   "kind": "marca",
@@ -1153,15 +1051,153 @@
     "date": "24/06/2026",
     "video_id": "7Oo5Hf7f14M",
     "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "minute": "01:18:01",
+    "minute": "01:18:17",
     "views": 70980,
-    "conc_at": 51166
+    "conc_at": 51167
    }
   ],
   "kind": "marca",
   "n_activations": 2,
   "n_programs": 1,
   "peak_conc_at": 51168,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "jorjito",
+  "name": "Jorjito",
+  "mentions": 2,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "24/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 4751.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "24/06/2026",
+    "video_id": "7Oo5Hf7f14M",
+    "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "minute": "01:48:24",
+    "views": 70980,
+    "conc_at": 48084
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "fnvj0iK5yDI",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+    "minute": "02:25:17",
+    "views": 122068,
+    "conc_at": 79055
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 79055,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "banco-macro",
+  "name": "Banco Macro",
+  "mentions": 2,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 2907.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "fnvj0iK5yDI",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+    "minute": "02:07:56",
+    "views": 122068,
+    "conc_at": 73241
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "fnvj0iK5yDI",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+    "minute": "02:11:50",
+    "views": 122068,
+    "conc_at": 73241
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 1,
+  "peak_conc_at": 73241,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "remax",
+  "name": "Remax",
+  "mentions": 2,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "23/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 3331.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "fnvj0iK5yDI",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+    "minute": "02:40:50",
+    "views": 122068,
+    "conc_at": 85045
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "S1UDpsKkZvE",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+    "minute": "02:04:01",
+    "views": 137091,
+    "conc_at": 70258
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 85045,
   "confidence_tier": "emerging_confidence",
   "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
   "evidence_summary": {
@@ -1181,7 +1217,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 4192.0,
+  "value_usd": 4883.0,
   "samples": [
    {
     "channel": "luzu",
@@ -1189,9 +1225,9 @@
     "date": "23/06/2026",
     "video_id": "S1UDpsKkZvE",
     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
-    "minute": "02:31:00",
+    "minute": "02:37:03",
     "views": 137091,
-    "conc_at": 82478
+    "conc_at": 84937
    },
    {
     "channel": "luzu",
@@ -1207,7 +1243,7 @@
   "kind": "marca",
   "n_activations": 2,
   "n_programs": 1,
-  "peak_conc_at": 83666,
+  "peak_conc_at": 84937,
   "confidence_tier": "emerging_confidence",
   "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
   "evidence_summary": {
@@ -1227,7 +1263,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 3104.0,
+  "value_usd": 3098.0,
   "samples": [
    {
     "channel": "luzu",
@@ -1235,9 +1271,9 @@
     "date": "23/06/2026",
     "video_id": "S1UDpsKkZvE",
     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
-    "minute": "02:56:31",
+    "minute": "02:55:56",
     "views": 137091,
-    "conc_at": 94046
+    "conc_at": 93564
    },
    {
     "channel": "luzu",
@@ -1245,107 +1281,15 @@
     "date": "23/06/2026",
     "video_id": "S1UDpsKkZvE",
     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
-    "minute": "02:56:34",
+    "minute": "02:56:41",
     "views": 137091,
-    "conc_at": 94082
+    "conc_at": 94155
    }
   ],
   "kind": "marca",
   "n_activations": 2,
   "n_programs": 1,
-  "peak_conc_at": 94082,
-  "confidence_tier": "emerging_confidence",
-  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
-  "evidence_summary": {
-   "verified": 2,
-   "partial": 0,
-   "insufficient": 0
-  }
- },
- {
-  "slug": "schneider",
-  "name": "Schneider",
-  "mentions": 2,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "22/06/2026",
-  "last_seen": "22/06/2026",
-  "value_usd": 356.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "22/06/2026",
-    "video_id": "95yJuQx7ol8",
-    "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
-    "minute": "01:26:07",
-    "views": 15613,
-    "conc_at": 14160
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "22/06/2026",
-    "video_id": "95yJuQx7ol8",
-    "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
-    "minute": "01:31:42",
-    "views": 15613,
-    "conc_at": 14409
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 2,
-  "n_programs": 1,
-  "peak_conc_at": 14409,
-  "confidence_tier": "emerging_confidence",
-  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
-  "evidence_summary": {
-   "verified": 2,
-   "partial": 0,
-   "insufficient": 0
-  }
- },
- {
-  "slug": "picadeli",
-  "name": "Picadeli",
-  "mentions": 2,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "19/06/2026",
-  "last_seen": "19/06/2026",
-  "value_usd": 1202.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "19/06/2026",
-    "video_id": "XHV2BV9DWMs",
-    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "minute": "02:20:02",
-    "views": 39368,
-    "conc_at": 33216
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "19/06/2026",
-    "video_id": "XHV2BV9DWMs",
-    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "minute": "02:20:46",
-    "views": 39368,
-    "conc_at": 33049
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 2,
-  "n_programs": 1,
-  "peak_conc_at": 33216,
+  "peak_conc_at": 94155,
   "confidence_tier": "emerging_confidence",
   "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
   "evidence_summary": {
@@ -1437,7 +1381,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 459.0,
+  "value_usd": 458.0,
   "samples": [
    {
     "channel": "olga",
@@ -1445,15 +1389,15 @@
     "date": "23/06/2026",
     "video_id": "bX7MB2_OI2I",
     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-    "minute": "02:53:55",
+    "minute": "02:53:33",
     "views": 43284,
-    "conc_at": 42830
+    "conc_at": 42709
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 42830,
+  "peak_conc_at": 42709,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -1473,7 +1417,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 411.0,
+  "value_usd": 409.0,
   "samples": [
    {
     "channel": "olga",
@@ -1481,15 +1425,15 @@
     "date": "23/06/2026",
     "video_id": "bX7MB2_OI2I",
     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-    "minute": "02:50:52",
+    "minute": "02:50:18",
     "views": 43284,
-    "conc_at": 41928
+    "conc_at": 41772
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 41928,
+  "peak_conc_at": 41772,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -1517,7 +1461,7 @@
     "date": "23/06/2026",
     "video_id": "bX7MB2_OI2I",
     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-    "minute": "03:42:42",
+    "minute": "03:41:35",
     "views": 43284,
     "conc_at": 49756
    }
@@ -1581,7 +1525,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 826.0,
+  "value_usd": 827.0,
   "samples": [
    {
     "channel": "olga",
@@ -1589,15 +1533,51 @@
     "date": "23/06/2026",
     "video_id": "ptOHcGEdWCk",
     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
-    "minute": "01:54:30",
+    "minute": "01:53:57",
     "views": 45112,
-    "conc_at": 38530
+    "conc_at": 38560
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 38530,
+  "peak_conc_at": 38560,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "swift",
+  "name": "Swift",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 186.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "NKhi31a86K8",
+    "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+    "minute": "00:56:21",
+    "views": 14487,
+    "conc_at": 8661
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 8661,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -1661,15 +1641,51 @@
     "date": "23/06/2026",
     "video_id": "NKhi31a86K8",
     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
-    "minute": "01:34:43",
+    "minute": "01:34:08",
     "views": 14487,
-    "conc_at": 8297
+    "conc_at": 8288
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 8297,
+  "peak_conc_at": 8288,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "coca-cola",
+  "name": "Coca-Cola",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "23/06/2026",
+  "last_seen": "23/06/2026",
+  "value_usd": 820.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "Ovdcl6-B2kc",
+    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "minute": "01:45:02",
+    "views": 56741,
+    "conc_at": 38222
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 38222,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -1697,7 +1713,7 @@
     "date": "22/06/2026",
     "video_id": "yp1SuqSXmxA",
     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
-    "minute": "00:13:50",
+    "minute": "00:13:48",
     "views": 133449,
     "conc_at": 89404
    }
@@ -1761,7 +1777,7 @@
   "n_videos": 1,
   "first_seen": "22/06/2026",
   "last_seen": "22/06/2026",
-  "value_usd": 4114.0,
+  "value_usd": 4118.0,
   "samples": [
    {
     "channel": "luzu",
@@ -1769,15 +1785,15 @@
     "date": "22/06/2026",
     "video_id": "yp1SuqSXmxA",
     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
-    "minute": "02:49:18",
+    "minute": "02:49:26",
     "views": 133449,
-    "conc_at": 92337
+    "conc_at": 92441
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 92337,
+  "peak_conc_at": 92441,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -1797,7 +1813,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 6885.0,
+  "value_usd": 6887.0,
   "samples": [
    {
     "channel": "luzu",
@@ -1805,15 +1821,15 @@
     "date": "23/06/2026",
     "video_id": "cHMIm1Fnig4",
     "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
-    "minute": "01:24:39",
+    "minute": "01:24:17",
     "views": 373638,
-    "conc_at": 237771
+    "conc_at": 237826
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 237771,
+  "peak_conc_at": 237826,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -1833,7 +1849,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 6999.0,
+  "value_usd": 7005.0,
   "samples": [
    {
     "channel": "luzu",
@@ -1841,15 +1857,15 @@
     "date": "23/06/2026",
     "video_id": "cHMIm1Fnig4",
     "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
-    "minute": "01:55:00",
+    "minute": "01:54:24",
     "views": 373638,
-    "conc_at": 241694
+    "conc_at": 241892
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 241694,
+  "peak_conc_at": 241892,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -1869,7 +1885,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 6868.0,
+  "value_usd": 6877.0,
   "samples": [
    {
     "channel": "luzu",
@@ -1877,15 +1893,15 @@
     "date": "23/06/2026",
     "video_id": "cHMIm1Fnig4",
     "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
-    "minute": "02:06:39",
+    "minute": "02:06:05",
     "views": 373638,
-    "conc_at": 237169
+    "conc_at": 237472
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 237169,
+  "peak_conc_at": 237472,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -1905,7 +1921,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 6802.0,
+  "value_usd": 6801.0,
   "samples": [
    {
     "channel": "luzu",
@@ -1913,15 +1929,15 @@
     "date": "23/06/2026",
     "video_id": "cHMIm1Fnig4",
     "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
-    "minute": "02:12:19",
+    "minute": "02:12:03",
     "views": 373638,
-    "conc_at": 234893
+    "conc_at": 234874
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 234893,
+  "peak_conc_at": 234874,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -1977,7 +1993,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 869.0,
+  "value_usd": 868.0,
   "samples": [
    {
     "channel": "olga",
@@ -1985,15 +2001,195 @@
     "date": "23/06/2026",
     "video_id": "2sxqtU8XXTQ",
     "title": "CLASES DE MODELAJE CON PAULA CHAVES | #TapadosDeLaburo 23/6",
-    "minute": "00:44:58",
+    "minute": "00:44:19",
     "views": 43475,
-    "conc_at": 30017
+    "conc_at": 29973
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 30017,
+  "peak_conc_at": 29973,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "asociacion-argentina-de-salud-mental",
+  "name": "Asociación Argentina de Salud Mental",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 732.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "25/06/2026",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "minute": "00:21:52",
+    "views": 52323,
+    "conc_at": 34141
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 34141,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "sancor-salud",
+  "name": "Sancor Salud",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 1216.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "25/06/2026",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "minute": "02:59:49",
+    "views": 52323,
+    "conc_at": 41984
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 41984,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "osde",
+  "name": "OSDE",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 426.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "25/06/2026",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "minute": "03:07:34",
+    "views": 52323,
+    "conc_at": 43493
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 43493,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "cordoba",
+  "name": "Córdoba",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 1023.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "25/06/2026",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "minute": "03:43:01",
+    "views": 52323,
+    "conc_at": 47695
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 47695,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "la-roche-posay-anthelios-uvmune",
+  "name": "La Roche-Posay Anthelios Uvmune",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 1024.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "25/06/2026",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "minute": "03:42:53",
+    "views": 52323,
+    "conc_at": 47716
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 47716,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2013,7 +2209,7 @@
   "n_videos": 1,
   "first_seen": "24/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 1555.0,
+  "value_usd": 1562.0,
   "samples": [
    {
     "channel": "luzu",
@@ -2021,15 +2217,15 @@
     "date": "24/06/2026",
     "video_id": "wpLDMAyU_fA",
     "title": "#PATRIAYFAMILIA l CÁMARA OCULTA A MARCOS GILES Y SE CHAMUYAN A AGUSNETA",
-    "minute": "01:11:26",
+    "minute": "01:10:52",
     "views": 118153,
-    "conc_at": 72485
+    "conc_at": 72806
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 72485,
+  "peak_conc_at": 72806,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2049,7 +2245,7 @@
   "n_videos": 1,
   "first_seen": "24/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 2203.0,
+  "value_usd": 2204.0,
   "samples": [
    {
     "channel": "luzu",
@@ -2057,15 +2253,15 @@
     "date": "24/06/2026",
     "video_id": "7Oo5Hf7f14M",
     "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "minute": "00:31:27",
+    "minute": "00:30:25",
     "views": 70980,
-    "conc_at": 49453
+    "conc_at": 49474
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 49453,
+  "peak_conc_at": 49474,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2085,7 +2281,7 @@
   "n_videos": 1,
   "first_seen": "24/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 2177.0,
+  "value_usd": 2144.0,
   "samples": [
    {
     "channel": "luzu",
@@ -2093,51 +2289,15 @@
     "date": "24/06/2026",
     "video_id": "7Oo5Hf7f14M",
     "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "minute": "01:42:10",
+    "minute": "01:47:57",
     "views": 70980,
-    "conc_at": 48867
+    "conc_at": 48122
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 48867,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  }
- },
- {
-  "slug": "jorjito",
-  "name": "Jorjito",
-  "mentions": 1,
-  "channels": [
-   "luzu"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "24/06/2026",
-  "last_seen": "24/06/2026",
-  "value_usd": 2139.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "24/06/2026",
-    "video_id": "7Oo5Hf7f14M",
-    "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "minute": "01:48:58",
-    "views": 70980,
-    "conc_at": 48016
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 48016,
+  "peak_conc_at": 48122,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2165,7 +2325,7 @@
     "date": "23/06/2026",
     "video_id": "q_clAienUJw",
     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "01:25:48",
+    "minute": "01:25:45",
     "views": 73490,
     "conc_at": 42582
    }
@@ -2201,7 +2361,7 @@
     "date": "23/06/2026",
     "video_id": "q_clAienUJw",
     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "01:20:03",
+    "minute": "01:25:22",
     "views": 73490,
     "conc_at": 42582
    }
@@ -2255,6 +2415,114 @@
   }
  },
  {
+  "slug": "fenix",
+  "name": "Fénix",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 2121.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "fnvj0iK5yDI",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+    "minute": "00:08:31",
+    "views": 122068,
+    "conc_at": 73241
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 73241,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "l-oreal-paris",
+  "name": "L'Oréal Paris",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 2121.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "fnvj0iK5yDI",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+    "minute": "01:59:54",
+    "views": 122068,
+    "conc_at": 73241
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 73241,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "viv-glycolic-crystal",
+  "name": "VIV Glycolic Crystal",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 2164.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "fnvj0iK5yDI",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+    "minute": "03:08:54",
+    "views": 122068,
+    "conc_at": 100904
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 100904,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
   "slug": "evacare-gino",
   "name": "Evacare Gino",
   "mentions": 1,
@@ -2265,7 +2533,7 @@
   "n_videos": 1,
   "first_seen": "24/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 447.0,
+  "value_usd": 604.0,
   "samples": [
    {
     "channel": "olga",
@@ -2273,15 +2541,15 @@
     "date": "24/06/2026",
     "video_id": "kDbkbzy_ASA",
     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
-    "minute": "01:02:47",
+    "minute": "01:02:34",
     "views": 28305,
-    "conc_at": 20853
+    "conc_at": 20862
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 20853,
+  "peak_conc_at": 20862,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2345,7 +2613,7 @@
     "date": "25/06/2026",
     "video_id": "JXVQmuDctII",
     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-    "minute": "00:00:40",
+    "minute": "00:00:44",
     "views": 9779,
     "conc_at": 511
    }
@@ -2381,7 +2649,7 @@
     "date": "25/06/2026",
     "video_id": "JXVQmuDctII",
     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-    "minute": "00:00:42",
+    "minute": "00:00:22",
     "views": 9779,
     "conc_at": 511
    }
@@ -2417,7 +2685,7 @@
     "date": "25/06/2026",
     "video_id": "JXVQmuDctII",
     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-    "minute": "00:01:10",
+    "minute": "00:01:06",
     "views": 9779,
     "conc_at": 511
    }
@@ -2453,15 +2721,15 @@
     "date": "25/06/2026",
     "video_id": "JXVQmuDctII",
     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-    "minute": "01:00:14",
+    "minute": "01:00:00",
     "views": 9779,
-    "conc_at": 11483
+    "conc_at": 11469
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 11483,
+  "peak_conc_at": 11469,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2553,7 +2821,7 @@
   "n_videos": 1,
   "first_seen": "24/06/2026",
   "last_seen": "24/06/2026",
-  "value_usd": 207.0,
+  "value_usd": 153.0,
   "samples": [
    {
     "channel": "blend",
@@ -2561,51 +2829,15 @@
     "date": "24/06/2026",
     "video_id": "tcq7UAzc3iw",
     "title": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
-    "minute": "01:36:33",
+    "minute": "01:37:04",
     "views": 4176,
-    "conc_at": 7136
+    "conc_at": 7133
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 7136,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  }
- },
- {
-  "slug": "remax",
-  "name": "Remax",
-  "mentions": 1,
-  "channels": [
-   "luzu"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "23/06/2026",
-  "last_seen": "23/06/2026",
-  "value_usd": 1514.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "23/06/2026",
-    "video_id": "S1UDpsKkZvE",
-    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
-    "minute": "02:04:36",
-    "views": 137091,
-    "conc_at": 70599
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 70599,
+  "peak_conc_at": 7133,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2661,7 +2893,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 3583.0,
+  "value_usd": 4823.0,
   "samples": [
    {
     "channel": "luzu",
@@ -2669,15 +2901,15 @@
     "date": "23/06/2026",
     "video_id": "S1UDpsKkZvE",
     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
-    "minute": "03:13:36",
+    "minute": "03:13:23",
     "views": 137091,
-    "conc_at": 108562
+    "conc_at": 108253
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 108562,
+  "peak_conc_at": 108253,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2697,7 +2929,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 646.0,
+  "value_usd": 868.0,
   "samples": [
    {
     "channel": "luzu",
@@ -2705,15 +2937,15 @@
     "date": "23/06/2026",
     "video_id": "2E9MjxyDU9o",
     "title": "#LOSDELFONDO | SORTEAMOS LA CAMISETA DEL PURRETE 10, EL BÓXER DEL MITO NO DA MÁS, ANGELITA LA ROMPIÓ",
-    "minute": "00:51:52",
+    "minute": "00:58:46",
     "views": 33834,
-    "conc_at": 19574
+    "conc_at": 19487
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 19574,
+  "peak_conc_at": 19487,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2733,7 +2965,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 886.0,
+  "value_usd": 888.0,
   "samples": [
    {
     "channel": "luzu",
@@ -2741,15 +2973,15 @@
     "date": "23/06/2026",
     "video_id": "2E9MjxyDU9o",
     "title": "#LOSDELFONDO | SORTEAMOS LA CAMISETA DEL PURRETE 10, EL BÓXER DEL MITO NO DA MÁS, ANGELITA LA ROMPIÓ",
-    "minute": "01:25:14",
+    "minute": "01:25:06",
     "views": 33834,
-    "conc_at": 19882
+    "conc_at": 19926
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 19882,
+  "peak_conc_at": 19926,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2777,15 +3009,15 @@
     "date": "23/06/2026",
     "video_id": "E1SnlQyyuRc",
     "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
-    "minute": "00:09:28",
+    "minute": "00:09:26",
     "views": 118017,
-    "conc_at": 110934
+    "conc_at": 110968
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 110934,
+  "peak_conc_at": 110968,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2805,7 +3037,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 3577.0,
+  "value_usd": 3588.0,
   "samples": [
    {
     "channel": "luzu",
@@ -2813,15 +3045,15 @@
     "date": "23/06/2026",
     "video_id": "E1SnlQyyuRc",
     "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
-    "minute": "00:48:37",
+    "minute": "00:48:06",
     "views": 118017,
-    "conc_at": 80284
+    "conc_at": 80544
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 80284,
+  "peak_conc_at": 80544,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2841,7 +3073,7 @@
   "n_videos": 1,
   "first_seen": "23/06/2026",
   "last_seen": "23/06/2026",
-  "value_usd": 2063.0,
+  "value_usd": 2037.0,
   "samples": [
    {
     "channel": "luzu",
@@ -2849,15 +3081,51 @@
     "date": "23/06/2026",
     "video_id": "E1SnlQyyuRc",
     "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
-    "minute": "01:30:36",
+    "minute": "01:32:36",
     "views": 118017,
-    "conc_at": 62530
+    "conc_at": 61735
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 62530,
+  "peak_conc_at": 61735,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "cafe-imperial",
+  "name": "Café Imperial",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 236.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "3t9P2KFJ4K0",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "minute": "01:20:03",
+    "views": 15835,
+    "conc_at": 8141
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 8141,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2885,15 +3153,15 @@
     "date": "22/06/2026",
     "video_id": "95yJuQx7ol8",
     "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
-    "minute": "00:13:35",
+    "minute": "00:13:31",
     "views": 15613,
-    "conc_at": 7534
+    "conc_at": 7522
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 7534,
+  "peak_conc_at": 7522,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2921,15 +3189,15 @@
     "date": "22/06/2026",
     "video_id": "95yJuQx7ol8",
     "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
-    "minute": "00:55:36",
+    "minute": "00:55:48",
     "views": 15613,
-    "conc_at": 11794
+    "conc_at": 11806
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 11794,
+  "peak_conc_at": 11806,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2975,6 +3243,42 @@
   }
  },
  {
+  "slug": "schneider",
+  "name": "Schneider",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "22/06/2026",
+  "last_seen": "22/06/2026",
+  "value_usd": 304.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "22/06/2026",
+    "video_id": "95yJuQx7ol8",
+    "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+    "minute": "01:26:07",
+    "views": 15613,
+    "conc_at": 14160
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 14160,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
   "slug": "didi",
   "name": "Didi",
   "mentions": 1,
@@ -2993,15 +3297,15 @@
     "date": "22/06/2026",
     "video_id": "95yJuQx7ol8",
     "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
-    "minute": "01:54:44",
+    "minute": "01:54:11",
     "views": 15613,
-    "conc_at": 15215
+    "conc_at": 15217
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 15215,
+  "peak_conc_at": 15217,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -3029,15 +3333,15 @@
     "date": "24/06/2026",
     "video_id": "WCF4oC8GC9o",
     "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
-    "minute": "01:26:12",
+    "minute": "01:26:09",
     "views": 335199,
-    "conc_at": 232946
+    "conc_at": 232945
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 232946,
+  "peak_conc_at": 232945,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -3119,42 +3423,6 @@
   }
  },
  {
-  "slug": "at-t",
-  "name": "AT&T",
-  "mentions": 1,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "19/06/2026",
-  "last_seen": "19/06/2026",
-  "value_usd": 880.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "19/06/2026",
-    "video_id": "XHV2BV9DWMs",
-    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "minute": "01:02:49",
-    "views": 39368,
-    "conc_at": 41046
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 41046,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  }
- },
- {
   "slug": "geniori-plushie-geniol",
   "name": "Geniori Plushie / Geniol",
   "mentions": 1,
@@ -3209,15 +3477,51 @@
     "date": "19/06/2026",
     "video_id": "XHV2BV9DWMs",
     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "minute": "02:19:01",
+    "minute": "02:19:05",
     "views": 39368,
-    "conc_at": 33364
+    "conc_at": 33357
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 33364,
+  "peak_conc_at": 33357,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "picadeli",
+  "name": "Picadeli",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "19/06/2026",
+  "last_seen": "19/06/2026",
+  "value_usd": 962.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "19/06/2026",
+    "video_id": "XHV2BV9DWMs",
+    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+    "minute": "02:20:00",
+    "views": 39368,
+    "conc_at": 33220
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 33220,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {

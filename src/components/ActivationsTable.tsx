@@ -6,6 +6,7 @@ import { compact, fmtHMS, vodLink } from "@/lib/format";
 import { PROMINENCE_TONE, prominenceLabel } from "@/lib/prominence";
 import { VALUATION_INFO, usdEst } from "@/lib/valuation";
 import { evidenceLabel, evidenceTone } from "@/lib/campaign";
+import { chatEcoLine, chatTableLine, chatToneClass, chatToneDot } from "@/lib/chatReaction";
 
 const TIER_TONE = PROMINENCE_TONE;
 const SENT_TONE: Record<string, "green" | "gray" | "red"> = {
@@ -52,6 +53,7 @@ export default function ActivationsTable({
               <th>Formato</th>
               {isCampaign ? <th>Respaldo</th> : <th>Sent.</th>}
               <th className="text-right">En vivo</th>
+              <th>Chat en la pauta</th>
               {!isCampaign && (
                 <th className="text-right">
                   <span className="inline-flex items-center justify-end gap-1">
@@ -101,6 +103,22 @@ export default function ActivationsTable({
                 )}
                 <td className="text-right tabular-nums">
                   {d.conc_at ? compact(d.conc_at) : <span className="text-gray-300">—</span>}
+                </td>
+                <td className="max-w-[200px]">
+                  <div className="flex items-start gap-2">
+                    <span
+                      className={`mt-1.5 h-2 w-2 rounded-full shrink-0 ${chatToneDot(d)}`}
+                      aria-hidden
+                    />
+                    <span className={`text-[12px] leading-snug ${chatToneClass(d)}`}>
+                      {chatTableLine(d)}
+                    </span>
+                    {chatEcoLine(d) && (
+                      <span className="text-[10.5px] text-gray-500 leading-snug mt-0.5 block">
+                        {chatEcoLine(d)}
+                      </span>
+                    )}
+                  </div>
                 </td>
                 {!isCampaign && (
                   <td className="text-right tabular-nums text-gray-500 text-[12px]">

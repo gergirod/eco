@@ -114,7 +114,11 @@ export default function TendenciasPage() {
       )}
 
       <p className="text-[11px] text-gray-400 mt-6 leading-relaxed max-w-xl">
-        Eventos discretos (nueva marca, nuevo programa) viven en{" "}
+        Ranking de temas en{" "}
+        <Link href="/conversacion" className="text-accent hover:underline">
+          Conversación
+        </Link>
+        . Eventos discretos en{" "}
         <Link href="/novedades" className="text-accent hover:underline">
           Novedades
         </Link>

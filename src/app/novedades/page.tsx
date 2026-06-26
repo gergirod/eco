@@ -11,6 +11,7 @@ import brandsFb from "@/data/brands.json";
 import channelsFb from "@/data/channels.json";
 import metaFb from "@/data/meta.json";
 import reportsFb from "@/data/reports.json";
+import momentsFb from "@/data/moments.json";
 
 const WINDOW_DAYS = 7;
 
@@ -19,6 +20,7 @@ export default function NovedadesPage() {
   const reports = useDataset("reports", reportsFb);
   const channels = useDataset("channels", channelsFb);
   const meta = useDataset("meta", metaFb);
+  const moments = useDataset("moments", momentsFb);
   const coverage = useMemo(() => getPlatformCoverage(loadDiscoveryDataset()), []);
 
   const events = useMemo(
@@ -28,9 +30,10 @@ export default function NovedadesPage() {
         reports as Parameters<typeof buildNovedades>[1],
         channels as Parameters<typeof buildNovedades>[2],
         meta as Parameters<typeof buildNovedades>[3],
-        { windowDays: WINDOW_DAYS }
+        { windowDays: WINDOW_DAYS },
+        moments as Parameters<typeof buildNovedades>[5]
       ),
-    [brands, reports, channels, meta]
+    [brands, reports, channels, meta, moments]
   );
 
   const subline = novedadesCoverageLine(
@@ -79,6 +82,11 @@ export default function NovedadesPage() {
               {byCategory.captura} captura{byCategory.captura === 1 ? "" : "s"}
             </span>
           ) : null}
+          {byCategory.chat ? (
+            <span className="px-2.5 py-1 rounded-full bg-gray-50">
+              {byCategory.chat} chat
+            </span>
+          ) : null}
         </div>
       )}
 
@@ -108,8 +116,11 @@ export default function NovedadesPage() {
       )}
 
       <p className="text-[11px] text-gray-400 mt-6 leading-relaxed max-w-xl">
-        Solo eventos que el corpus puede sostener hoy. Patrones de mercado y comparaciones entre
-        períodos viven en{" "}
+        Solo eventos que el corpus puede sostener hoy. Ranking de temas en{" "}
+        <Link href="/conversacion" className="text-accent hover:underline">
+          Conversación
+        </Link>
+        . Patrones de mercado en{" "}
         <Link href="/tendencias" className="text-accent hover:underline">
           Tendencias
         </Link>

@@ -5,6 +5,8 @@
 
 import { formatScopePeriod, isCampaignReport } from "./campaign";
 
+import { buildChatNovedades } from "./chatNovedades";
+
 export type NovedadConfidence = "alta" | "media";
 
 export type NovedadAction =
@@ -20,7 +22,7 @@ export type NovedadEvent = {
   headline: string;
   why: string;
   confidence: NovedadConfidence;
-  category: "marca" | "programa" | "informe" | "captura";
+  category: "marca" | "programa" | "informe" | "captura" | "chat";
   action: NovedadAction;
 };
 
@@ -108,7 +110,8 @@ export function buildNovedades(
   reports: Record<string, { name: string; kind?: string; detail?: ActivationRow[]; scope?: { hasta?: string; desde?: string; marca?: string }; dataset_generated_at?: string; campaign_slug?: string }>,
   channels: { id: string; name: string; stats?: { last_processed?: string } }[],
   meta: { exported_at?: string },
-  options: NovedadesOptions = {}
+  options: NovedadesOptions = {},
+  moments?: Record<string, { video_id?: string; title?: string; channel?: string; date?: string; has_chat?: boolean; series?: { m: number; chat?: number }[]; audience_demand?: { tema: string; tipo?: string; evidencia?: string }[] }>
 ): NovedadEvent[] {
   const windowDays = options.windowDays ?? 7;
   const refTs = refTimestamp(meta.exported_at || "");
@@ -256,7 +259,7 @@ export function buildNovedades(
         type: "programa",
         channelId: prog.channel,
         videoId: vid,
-        label: "Ver canal",
+        label: "Ver programa",
       },
     });
   }
@@ -277,6 +280,13 @@ export function buildNovedades(
   }
 
   events.sort((a, b) => b.dateSort - a.dateSort);
+
+  if (moments) {
+    const chatEvents = buildChatNovedades(moments, reports, refTs, windowDays);
+    events.push(...chatEvents);
+    events.sort((a, b) => b.dateSort - a.dateSort);
+  }
+
   return events;
 }
 

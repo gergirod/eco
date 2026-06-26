@@ -9,12 +9,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 11,
-   "total_vod_views": 392263,
-   "avg_concurrent": 26661,
-   "brands_detected": 41,
-   "mentions": 72,
-   "last_processed": "24/06/2026"
+   "videos_processed": 12,
+   "total_vod_views": 444586,
+   "avg_concurrent": 27993,
+   "brands_detected": 45,
+   "mentions": 74,
+   "last_processed": "25/06/2026"
   },
   "pipeline_status": "activo"
  },
@@ -28,12 +28,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 11,
-   "total_vod_views": 1414525,
-   "avg_concurrent": 80437,
-   "brands_detected": 33,
-   "mentions": 47,
-   "last_processed": "24/06/2026"
+   "videos_processed": 12,
+   "total_vod_views": 1536593,
+   "avg_concurrent": 81244,
+   "brands_detected": 37,
+   "mentions": 51,
+   "last_processed": "26/06/2026"
   },
   "pipeline_status": "activo"
  },
@@ -88,9 +88,16 @@
   "subscribers": "1.6M",
   "enabled": true,
   "handle_verified": true,
-  "has_data": false,
-  "stats": null,
-  "pipeline_status": "configurado"
+  "has_data": true,
+  "stats": {
+   "videos_processed": 1,
+   "total_vod_views": 15835,
+   "avg_concurrent": 8776,
+   "brands_detected": 1,
+   "mentions": 1,
+   "last_processed": "26/06/2026"
+  },
+  "pipeline_status": "activo"
  },
  {
   "id": "urbana",

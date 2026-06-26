@@ -3,13 +3,14 @@
 import Link from "next/link";
 import { useMemo, useState } from "react";
 import { useParams } from "next/navigation";
-import MomentModal from "@/components/MomentModal";
+import AudienceDemandPanel from "@/components/programs/AudienceDemandPanel";
 import { Badge, Stat } from "@/components/ui";
 import { evidenceLabel, evidenceTone } from "@/lib/campaign";
 import { getProgram } from "@/lib/programs";
 import { useDataset } from "@/lib/useDataset";
 import { compact, fmtHMS, num, vodLink } from "@/lib/format";
 import { usdEst } from "@/lib/valuation";
+import { chatEcoLine, chatTableLine, chatToneClass, chatToneDot } from "@/lib/chatReaction";
 import reportsFb from "@/data/reports.json";
 import channelsFb from "@/data/channels.json";
 import momentsFb from "@/data/moments.json";
@@ -136,6 +137,8 @@ export default function ProgramaProfilePage() {
         </section>
       )}
 
+      <AudienceDemandPanel moment={moment} />
+
       <section>
         <h2 className="text-[15px] font-semibold mb-3">Apariciones en este programa</h2>
         <div className="card overflow-hidden">
@@ -147,6 +150,7 @@ export default function ProgramaProfilePage() {
                 <th>Prueba</th>
                 <th>Respaldo</th>
                 <th className="text-right">En vivo</th>
+                <th>Chat en la pauta</th>
                 <th className="text-right">Exposición</th>
               </tr>
             </thead>
@@ -179,6 +183,19 @@ export default function ProgramaProfilePage() {
                   </td>
                   <td className="text-right tabular-nums text-[12.5px]">
                     {row.conc_at ? compact(row.conc_at) : "—"}
+                  </td>
+                  <td className="max-w-[180px]">
+                    <div className="flex items-start gap-1.5">
+                      <span className={`mt-1.5 h-2 w-2 rounded-full shrink-0 ${chatToneDot(row)}`} aria-hidden />
+                      <span className={`text-[11.5px] leading-snug ${chatToneClass(row)}`}>
+                        {chatTableLine(row)}
+                      </span>
+                      {chatEcoLine(row) && (
+                        <span className="text-[10px] text-gray-500 leading-snug mt-0.5 block">
+                          {chatEcoLine(row)}
+                        </span>
+                      )}
+                    </div>
                   </td>
                   <td className="text-right tabular-nums text-[12px] text-gray-500">
                     {usdEst(row.value_usd)}

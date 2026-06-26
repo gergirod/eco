@@ -2,8 +2,8 @@
  {
   "id": "luzu",
   "name": "Luzu TV",
-  "videos": 10,
-  "avg_concurrent": 85991,
+  "videos": 11,
+  "avg_concurrent": 86388,
   "peak_concurrent": 243607,
   "chat_coverage": 0,
   "chat_msgs_per_1k_min": null,
@@ -38,8 +38,8 @@
  {
   "id": "olga",
   "name": "Olga",
-  "videos": 11,
-  "avg_concurrent": 26661,
+  "videos": 12,
+  "avg_concurrent": 27993,
   "peak_concurrent": 49756,
   "chat_coverage": 100,
   "chat_msgs_per_1k_min": 0.9,
@@ -55,6 +55,11 @@
     "video_id": "q_clAienUJw"
    },
    {
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "peak": 48991,
+    "video_id": "mxFu-R3O8TY"
+   },
+   {
     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
     "peak": 41988,
     "video_id": "XHV2BV9DWMs"
@@ -63,11 +68,22 @@
     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
     "peak": 40599,
     "video_id": "ptOHcGEdWCk"
-   },
+   }
+  ]
+ },
+ {
+  "id": "vorterix",
+  "name": "Vorterix",
+  "videos": 1,
+  "avg_concurrent": 8784,
+  "peak_concurrent": 9661,
+  "chat_coverage": 100,
+  "chat_msgs_per_1k_min": 0.7,
+  "top_programs": [
    {
-    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-    "peak": 40233,
-    "video_id": "8lOkxIDSd4w"
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "peak": 9661,
+    "video_id": "3t9P2KFJ4K0"
    }
   ]
  },

@@ -10,6 +10,7 @@ type NavModule = {
 const NAV_MODULES: NavModule[] = [
   { href: "/marcas", label: "Marcas", icon: "◆" },
   { href: "/canales", label: "Canales", icon: "▣" },
+  { href: "/conversacion", label: "Conversación", icon: "◎" },
   { href: "/novedades", label: "Novedades", icon: "◇" },
   { href: "/tendencias", label: "Tendencias", icon: "↗" },
 ];

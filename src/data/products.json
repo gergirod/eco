@@ -1,5 +1,39 @@
 [
  {
+  "slug": "olga-programa",
+  "name": "Olga (programa)",
+  "mentions": 2,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "23/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "25/06/2026",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "minute": "03:00",
+    "views": 52323
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "02:50",
+    "views": 73490
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "dia-supermercado",
   "name": "Día (supermercado)",
   "mentions": 2,
@@ -684,6 +718,106 @@
   "kind": "producto"
  },
  {
+  "slug": "canon-colchones",
+  "name": "Canon (colchones)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "25/06/2026",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "minute": "01:00",
+    "views": 52323
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "mercado-libre-ml",
+  "name": "Mercado Libre (ML)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "25/06/2026",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "minute": "01:30",
+    "views": 52323
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "am-programa-de-radio",
+  "name": "AM (programa de radio)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "25/06/2026",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "minute": "01:40",
+    "views": 52323
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "seria-increible-programa",
+  "name": "Sería Increíble (programa)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "25/06/2026",
+  "last_seen": "25/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "25/06/2026",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "minute": "01:40",
+    "views": 52323
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "futura-agencia",
   "name": "Futura (agencia)",
   "mentions": 1,
@@ -809,31 +943,6 @@
   "kind": "producto"
  },
  {
-  "slug": "olga-programa",
-  "name": "Olga (programa)",
-  "mentions": 1,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "23/06/2026",
-  "last_seen": "23/06/2026",
-  "value_usd": 0.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:50",
-    "views": 73490
-   }
-  ],
-  "kind": "producto"
- },
- {
   "slug": "ser-increible-programa",
   "name": "Ser Increíble (programa)",
   "mentions": 1,
@@ -929,6 +1038,81 @@
     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
     "minute": "02:50",
     "views": 73490
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "fenix-gimnasio",
+  "name": "Fénix (gimnasio)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "fnvj0iK5yDI",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+    "minute": "00:00",
+    "views": 122068
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "rimel-transparente",
+  "name": "rímel transparente",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "fnvj0iK5yDI",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+    "minute": "01:20",
+    "views": 122068
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "shampoo-y-crema-de-enjuague-the-rock",
+  "name": "shampoo y crema de enjuague (The Rock)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "fnvj0iK5yDI",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+    "minute": "03:10",
+    "views": 122068
    }
   ],
   "kind": "producto"
@@ -1379,6 +1563,81 @@
     "title": "LA NOVELA con CARINA ZAMPINI, DIEGO CASTRO, GABY SCHULTZ Y AGUS BATTIONI | EN VIVO",
     "minute": "00:40",
     "views": 15393
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "tetramitrozon",
+  "name": "tetramitrozón",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "3t9P2KFJ4K0",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "minute": "00:30",
+    "views": 15835
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "barcelona-cafeteria-en-salta",
+  "name": "Barcelona (cafetería en Salta)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "3t9P2KFJ4K0",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "minute": "00:30",
+    "views": 15835
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "fondo-monetario-internacional-fmi",
+  "name": "Fondo Monetario Internacional (FMI)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "3t9P2KFJ4K0",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "minute": "00:40",
+    "views": 15835
    }
   ],
   "kind": "producto"

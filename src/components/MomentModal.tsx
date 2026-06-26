@@ -3,9 +3,10 @@ import { useMemo } from "react";
 import { Badge } from "@/components/ui";
 import { usd, num, compact } from "@/lib/format";
 import { PROMINENCE_TONE, prominenceLabel } from "@/lib/prominence";
-import { VALUATION_BULLETS, VALUATION_HINT, VALUATION_INFO, usdEst } from "@/lib/valuation";
+import { VALUATION_HINT, VALUATION_INFO, usdEst } from "@/lib/valuation";
 import InfoTip from "@/components/InfoTip";
 import { openProgramReport } from "@/lib/programReport";
+import { chatEcoLine, chatHeadline, getChatReaction } from "@/lib/chatReaction";
 
 const TIER_TONE = PROMINENCE_TONE;
 const SENT_TONE: Record<string, "green" | "gray" | "red"> = {
@@ -48,6 +49,8 @@ function MomentChart({ series, hotMin }: { series: any[]; hotMin: number }) {
   const lastMin = series[series.length - 1].m || pts[pts.length - 1].m || 1;
   const x = (m: number) => padL + (m / Math.max(1, lastMin)) * (W - padL - padR);
   const y = (c: number) => padT + (1 - c / maxC) * (H - padT - padB);
+  const winLo = Math.max(0, hotMin - 2);
+  const winHi = Math.min(lastMin, hotMin + 3);
 
   const line = pts.map((s) => `${x(s.m).toFixed(1)},${y(s.c).toFixed(1)}`).join(" ");
   const area = `${x(pts[0].m).toFixed(1)},${H - padB} ${line} ${x(pts[pts.length - 1].m).toFixed(1)},${H - padB}`;
@@ -70,6 +73,18 @@ function MomentChart({ series, hotMin }: { series: any[]; hotMin: number }) {
           <stop offset="100%" stopColor="#2f5fe0" stopOpacity="0.02" />
         </linearGradient>
       </defs>
+
+      {/* ventana PNT: −2 / +3 min */}
+      {winHi > winLo && (
+        <rect
+          x={x(winLo)}
+          y={padT}
+          width={Math.max(1, x(winHi) - x(winLo))}
+          height={H - padT - padB}
+          fill="#e2574c"
+          opacity={0.06}
+        />
+      )}
 
       {/* gridlines + labels de audiencia (eje Y) */}
       {yvals.map((v, i) => (
@@ -146,11 +161,7 @@ export default function MomentModal({
   onClose: () => void;
 }) {
   const hotMin = Math.floor((mention.t_seconds || 0) / 60);
-  const chatAt = useMemo(() => {
-    if (!moment) return null;
-    const s = moment.series.find((x: any) => x.m === hotMin);
-    return s ? s.chat : null;
-  }, [moment, hotMin]);
+  const chatRx = useMemo(() => getChatReaction(mention), [mention]);
   const concAt = useMemo(() => {
     if (!moment) return mention.views;
     const near = moment.series
@@ -200,7 +211,7 @@ export default function MomentModal({
           {mention.precise ? <Badge tone="green">timestamp exacto</Badge> : <Badge tone="amber">minuto aprox.</Badge>}
         </div>
 
-        <div className="grid grid-cols-3 gap-3 mb-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-3">
           <div className="card px-4 py-3">
             <div className="text-[11px] uppercase tracking-wide text-gray-400">Audiencia en el minuto</div>
             <div className="text-[20px] font-semibold mt-1 tabular-nums">
@@ -209,25 +220,65 @@ export default function MomentModal({
             <div className="text-[11px] text-gray-400">concurrentes</div>
           </div>
           <div className="card px-4 py-3">
-            <div className="text-[11px] uppercase tracking-wide text-gray-400">Reacción del chat</div>
-            <div className="text-[20px] font-semibold mt-1 tabular-nums">
-              {chatAt != null ? num(chatAt) : "s/d"}
-            </div>
-            <div className="text-[11px] text-gray-400">
-              {moment?.has_chat ? "mensajes en ese minuto" : "chat no capturado"}
-            </div>
-          </div>
-          <div className="card px-4 py-3">
             <div className="flex items-center gap-1 text-[11px] uppercase tracking-wide text-gray-400">
               Exposición estimada
               <InfoTip text={VALUATION_INFO} label="Qué significa la exposición en USD" />
             </div>
             <div className="text-[18px] font-semibold mt-1 tabular-nums leading-snug">{usdEst(mention.value_usd)}</div>
             <div className="text-[11px] text-gray-400 leading-snug mt-1">{VALUATION_HINT}</div>
-            <p className="text-[11px] text-gray-500 leading-relaxed mt-2 border-t border-gray-100 pt-2">
-              {VALUATION_BULLETS.what} {VALUATION_BULLETS.range}
-            </p>
           </div>
+        </div>
+
+        <div className="card px-4 py-3.5 mb-5">
+          <div className="text-[11px] uppercase tracking-wide text-gray-400 mb-1.5">Chat en la pauta</div>
+          <p
+            className={`text-[14px] leading-relaxed ${
+              chatRx.tone === "up"
+                ? "text-green-800"
+                : chatRx.tone === "down"
+                  ? "text-amber-900"
+                  : "text-gray-700"
+            }`}
+          >
+            {chatRx.headline || chatRx.table_line || "—"}
+          </p>
+          {chatRx.pre_rpm != null && chatRx.post_rpm != null && chatRx.cobertura && (
+            <p className="text-[12px] text-gray-500 mt-2 tabular-nums">
+              Ritmo del chat: <b>{chatRx.pre_rpm}</b> msgs/min en los 2 min anteriores →{" "}
+              <b>{chatRx.post_rpm}</b> en los 3 min posteriores
+            </p>
+          )}
+          {(chatRx.detail_lines || []).map((line, i) => (
+            <p key={i} className="text-[12.5px] text-gray-600 mt-2">
+              {line}
+            </p>
+          ))}
+          {chatEcoLine(mention) && (chatRx.eco_marca_post ?? 0) > 0 && (
+            <div className="mt-3 pt-3 border-t border-gray-100">
+              <div className="text-[11px] uppercase tracking-wide text-accent font-medium mb-1">
+                Eco de comunidad
+              </div>
+              <p className="text-[13.5px] text-gray-700 leading-relaxed">{chatEcoLine(mention)}</p>
+              <p className="text-[11px] text-gray-400 mt-1">
+                La audiencia repitió la marca en el chat — no certifica que corrió la pauta.
+              </p>
+            </div>
+          )}
+          {chatRx.ejemplos && chatRx.ejemplos.length > 0 && (
+            <div className="mt-3 pt-3 border-t border-gray-100">
+              <div className="text-[11px] uppercase tracking-wide text-gray-400 mb-1.5">
+                Ejemplos de la audiencia
+              </div>
+              <ul className="text-[13px] text-gray-600 space-y-1">
+                {chatRx.ejemplos.map((e, i) => (
+                  <li key={i} className="italic">“{e}”</li>
+                ))}
+              </ul>
+              <p className="text-[11px] text-gray-400 mt-2">
+                El chat no certifica pauta — mide reacción de la sala.
+              </p>
+            </div>
+          )}
         </div>
 
         {moment ? (
@@ -242,7 +293,7 @@ export default function MomentModal({
             <div className="flex gap-4 text-[11px] text-gray-400 mt-1">
               <span><span className="inline-block w-2.5 h-2.5 rounded-sm align-middle mr-1" style={{ background: "#2f5fe0" }} />audiencia concurrente</span>
               <span><span className="inline-block w-2.5 h-2.5 rounded-sm align-middle mr-1" style={{ background: "#d9e1f5" }} />volumen de chat</span>
-              <span><span className="inline-block w-2.5 h-2.5 rounded-sm align-middle mr-1" style={{ background: "#e2574c" }} />momento de la mención</span>
+              <span><span className="inline-block w-2.5 h-2.5 rounded-sm align-middle mr-1" style={{ background: "#fde8e6" }} />ventana PNT (−2 / +3 min)</span>
             </div>
           </div>
         ) : (

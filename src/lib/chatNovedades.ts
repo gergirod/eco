@@ -1,0 +1,163 @@
+/**
+ * Eventos de chat para Novedades (SPEC-009 F3).
+ * Lee moments + reports del export actual — sin pipeline adicional.
+ */
+
+import type { NovedadEvent } from "./novedades";
+import { isDateInWindow, parseDisplayDate } from "./novedades";
+
+type MomentRow = {
+  video_id?: string;
+  title?: string;
+  channel?: string;
+  date?: string;
+  has_chat?: boolean;
+  series?: { m: number; chat?: number }[];
+  audience_demand?: { tema: string; tipo?: string; evidencia?: string; n?: number }[];
+};
+
+type ActivationRow = {
+  date?: string;
+  video_id?: string;
+  title?: string;
+  channel?: string;
+  channel_name?: string;
+  brand_name?: string;
+  t_seconds?: number;
+  chat_reaction?: {
+    eco_marca_post?: number;
+    eco_line?: string;
+    cobertura?: boolean;
+    chat_ratio?: number | null;
+    spike_rpm?: number | null;
+  };
+};
+
+const STRONG_DEMAND = new Set(["pedido_link", "pregunta_precio", "pregunta_compra"]);
+
+function shortTitle(title: string, max = 64): string {
+  return title.length > max ? `${title.slice(0, max - 1).trimEnd()}…` : title;
+}
+
+function fmtClock(min: number): string {
+  const h = Math.floor(min / 60);
+  const m = min % 60;
+  return h ? `${h}:${String(m).padStart(2, "0")}` : `${m} min`;
+}
+
+function detectChatPeak(mo: MomentRow): { minute: number; spike: number; peak: number } | null {
+  if (!mo.has_chat || !mo.series?.length) return null;
+  const chats = mo.series.map((s) => s.chat || 0);
+  const nonzero = chats.filter((c) => c > 0);
+  if (nonzero.length < 15) return null;
+  const avg = nonzero.reduce((a, b) => a + b, 0) / nonzero.length;
+  if (avg < 8) return null;
+  let peak = 0;
+  let peakMin = 0;
+  for (const s of mo.series) {
+    const c = s.chat || 0;
+    if (c > peak) {
+      peak = c;
+      peakMin = s.m;
+    }
+  }
+  if (peak < 2.5 * avg || peak < 25) return null;
+  return { minute: peakMin, spike: Math.round((peak / avg) * 10) / 10, peak };
+}
+
+export function buildChatNovedades(
+  moments: Record<string, MomentRow>,
+  reports: Record<string, { name: string; kind?: string; detail?: ActivationRow[] }>,
+  refTs: number,
+  windowDays: number
+): NovedadEvent[] {
+  const events: NovedadEvent[] = [];
+  const seenPeak = new Set<string>();
+  const seenDemand = new Set<string>();
+  const vidToChannel: Record<string, string> = {};
+  for (const report of Object.values(reports)) {
+    if (report.kind && report.kind !== "marca") continue;
+    for (const row of report.detail || []) {
+      if (row.video_id && row.channel) vidToChannel[row.video_id] = row.channel;
+    }
+  }
+
+  for (const [vid, mo] of Object.entries(moments)) {
+    if (!mo.date || !isDateInWindow(mo.date, refTs, windowDays)) continue;
+
+    const peak = detectChatPeak(mo);
+    if (peak && !seenPeak.has(vid)) {
+      seenPeak.add(vid);
+      const title = shortTitle(mo.title || vid);
+      const channelId = vidToChannel[vid] || (mo.channel || "").toLowerCase();
+      events.push({
+        id: `chat-peak-${vid}`,
+        date: mo.date,
+        dateSort: parseDisplayDate(mo.date),
+        headline: `Chat muy activo en ${title}`,
+        why: `Pico de ${peak.peak} msgs/min (~${peak.spike}× el ritmo habitual) en el min ${fmtClock(peak.minute)} — momento de atención espontánea en la sala.`,
+        confidence: "media",
+        category: "chat",
+        action: {
+          type: "programa",
+          channelId,
+          videoId: vid,
+          label: "Ver programa",
+        },
+      });
+    }
+
+    const strong = (mo.audience_demand || []).filter((d) => d.tipo && STRONG_DEMAND.has(d.tipo));
+    if (strong.length && !seenDemand.has(vid)) {
+      seenDemand.add(vid);
+      const top = strong[0];
+      const title = shortTitle(mo.title || vid);
+      const channelId = vidToChannel[vid] || (mo.channel || "").toLowerCase();
+      events.push({
+        id: `chat-demand-${vid}`,
+        date: mo.date,
+        dateSort: parseDisplayDate(mo.date),
+        headline: `Demanda en el chat: ${top.tema}`,
+        why: `La audiencia pidió algo concreto en ${title} — “${(top.evidencia || "").slice(0, 90)}${(top.evidencia?.length || 0) > 90 ? "…" : ""}”.`,
+        confidence: "media",
+        category: "chat",
+        action: {
+          type: "programa",
+          channelId,
+          videoId: vid,
+          label: "Ver demanda",
+        },
+      });
+    }
+  }
+
+  for (const [slug, report] of Object.entries(reports)) {
+    if (report.kind && report.kind !== "marca") continue;
+    for (const row of report.detail || []) {
+      const eco = row.chat_reaction?.eco_marca_post ?? 0;
+      if (eco < 2 || !row.date || !isDateInWindow(row.date, refTs, windowDays)) continue;
+      const vid = row.video_id || "";
+      const ts = row.t_seconds ?? 0;
+      const id = `chat-eco-${slug}-${vid}-${ts}`;
+      const brand = row.brand_name || report.name;
+      events.push({
+        id,
+        date: row.date,
+        dateSort: parseDisplayDate(row.date),
+        headline: `La audiencia repitió ${brand} en el chat`,
+        why:
+          row.chat_reaction?.eco_line ||
+          `${eco} mensajes mencionaron la marca tras la aparición — eco de comunidad, no certifica pauta.`,
+        confidence: "media",
+        category: "chat",
+        action: {
+          type: "marca",
+          slug,
+          label: "Ver aparición",
+        },
+      });
+    }
+  }
+
+  return events;
+}

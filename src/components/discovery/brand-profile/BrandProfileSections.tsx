@@ -14,6 +14,7 @@ import {
 } from "@/lib/campaign";
 import type { DiscoveryAdvertiser } from "@/lib/discovery";
 import { compact, fmtHMS, num, vodLink } from "@/lib/format";
+import { chatTableLine, chatToneClass, chatToneDot } from "@/lib/chatReaction";
 import { usdEst } from "@/lib/valuation";
 import { printCampaignReportPDF } from "@/lib/campaignReport";
 import { buildReportHTML } from "@/lib/report";
@@ -433,6 +434,7 @@ function AudienciaSection({
               <th>Canal</th>
               <th>Minuto</th>
               <th className="text-right">Concurrentes</th>
+              <th>Chat en la pauta</th>
             </tr>
           </thead>
           <tbody>
@@ -450,6 +452,14 @@ function AudienciaSection({
                 </td>
                 <td className="text-right tabular-nums font-semibold text-[13px]">
                   {compact(Number(d.conc_at))}
+                </td>
+                <td className="max-w-[180px]">
+                  <div className="flex items-start gap-1.5">
+                    <span className={`mt-1.5 h-2 w-2 rounded-full shrink-0 ${chatToneDot(d)}`} aria-hidden />
+                    <span className={`text-[11.5px] leading-snug ${chatToneClass(d)}`}>
+                      {chatTableLine(d)}
+                    </span>
+                  </div>
                 </td>
               </tr>
             ))}
