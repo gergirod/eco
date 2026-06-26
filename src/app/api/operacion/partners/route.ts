@@ -4,7 +4,7 @@ import { requireOpsAuth } from "@/lib/ops-api-auth";
 import {
   listPartners,
   partnerHasAccessLink,
-  partnersStoreMode,
+  partnersStoreStatus,
   upsertPartner,
   type UpsertPartnerInput,
 } from "@/lib/partners-store";
@@ -16,9 +16,12 @@ export async function GET() {
   }
 
   const partners = await listPartners();
+  const store = await partnersStoreStatus();
   return NextResponse.json({
     ok: true,
-    mode: partnersStoreMode(),
+    mode: store.mode,
+    tableReady: store.tableReady,
+    setupHint: store.setupHint,
     partners: partners.map((p) => ({
       id: p.id,
       name: p.name,

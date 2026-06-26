@@ -311,7 +311,10 @@ function PartnerCard({
 }
 
 export default function DesignPartnersPanel() {
-  const [storeMode, setStoreMode] = useState<"supabase" | "json" | "loading">("loading");
+  const [storeMode, setStoreMode] = useState<
+    "supabase" | "json" | "setup_required" | "loading"
+  >("loading");
+  const [setupHint, setSetupHint] = useState("");
   const [partners, setPartners] = useState<PartnerApiRow[]>([]);
   const [loadError, setLoadError] = useState("");
 
@@ -355,7 +358,10 @@ export default function DesignPartnersPanel() {
         setLoadError(data.error || "No se pudo cargar clientes");
         return;
       }
-      setStoreMode(data.mode);
+      setStoreMode(
+        data.tableReady ? "supabase" : data.setupHint ? "setup_required" : "json"
+      );
+      setSetupHint(data.setupHint || "");
       setPartners(data.partners || []);
     } catch {
       setLoadError("Error de red al cargar clientes");
@@ -514,6 +520,8 @@ ECO Intelligence`;
         className={`card p-4 text-[13px] ${
           storeMode === "supabase"
             ? "bg-green-50 border-green-100 text-green-900"
+            : storeMode === "setup_required"
+              ? "bg-red-50 border-red-100 text-red-900"
             : storeMode === "json"
               ? "bg-amber-50 border-amber-100 text-amber-900"
               : "bg-gray-50"
@@ -524,6 +532,13 @@ ECO Intelligence`;
           <>
             <strong>Supabase activo.</strong> Los clientes se guardan desde este formulario — sin
             deploy ni editar JSON.
+          </>
+        )}
+        {storeMode === "setup_required" && (
+          <>
+            <strong>Falta crear la tabla en Supabase.</strong> Tenés credenciales en Vercel pero{" "}
+            <code className="text-[11px] bg-white/60 px-1 rounded">eco_partners</code> no existe.
+            <p className="mt-2 leading-relaxed">{setupHint}</p>
           </>
         )}
         {storeMode === "json" && (

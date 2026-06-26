@@ -17,6 +17,9 @@ import { supabaseRest, supabaseServiceConfig } from "@/lib/supabase-server";
 import partnersFile from "@/data/partners.json";
 import type { PartnersFile } from "@/lib/partners";
 
+export const SUPABASE_PARTNERS_SETUP_HINT =
+  "La tabla eco_partners no existe. Abrí Supabase → SQL Editor y ejecutá webapp/supabase_partners_full_setup.sql (una sola vez).";
+
 type DbPartnerRow = {
   id: string;
   name: string;
@@ -328,10 +331,40 @@ export async function upsertPartner(input: UpsertPartnerInput): Promise<UpsertPa
     body: JSON.stringify(row),
   });
 
-  if (!ok) return { ok: false, error: `Supabase error ${status}` };
+  if (!ok) {
+    if (status === 404) return { ok: false, error: SUPABASE_PARTNERS_SETUP_HINT };
+    return { ok: false, error: `Supabase error ${status}` };
+  }
   return { ok: true, inviteToken };
 }
 
+export async function partnersStoreStatus(): Promise<{
+  mode: "supabase" | "json";
+  tableReady: boolean;
+  setupHint?: string;
+}> {
+  const cfg = supabaseServiceConfig();
+  if (!cfg.enabled) {
+    return { mode: "json", tableReady: false };
+  }
+
+  const { ok, status } = await supabaseRest<DbPartnerRow[]>(
+    "/eco_partners?select=id&limit=1"
+  );
+  if (!ok && status === 404) {
+    return { mode: "json", tableReady: false, setupHint: SUPABASE_PARTNERS_SETUP_HINT };
+  }
+  if (!ok) {
+    return {
+      mode: "json",
+      tableReady: false,
+      setupHint: `Supabase respondió ${status}. Revisá NEXT_PUBLIC_SUPABASE_URL y SUPABASE_SERVICE_ROLE_KEY en Vercel.`,
+    };
+  }
+  return { mode: "supabase", tableReady: true };
+}
+
+/** @deprecated Usar partnersStoreStatus() — solo indica credenciales, no si la tabla existe */
 export function partnersStoreMode(): "supabase" | "json" {
   return supabaseServiceConfig().enabled ? "supabase" : "json";
 }
