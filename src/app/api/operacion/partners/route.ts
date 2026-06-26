@@ -14,7 +14,7 @@ import {
 } from "@/lib/partners-store";
 import { partnerCompetitorSlugs } from "@/lib/partners";
 
-export async function GET() {
+export async function GET(req: Request) {
   if (!(await requireOpsAuth())) {
     return NextResponse.json({ ok: false, error: "No autorizado" }, { status: 401 });
   }
