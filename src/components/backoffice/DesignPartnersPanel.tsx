@@ -149,9 +149,10 @@ function PartnerCard({
             <span className="text-[10px] uppercase tracking-wide px-2 py-0.5 rounded bg-gray-100 text-gray-600 font-medium">
               {PLAN_LABELS[plan]}
             </span>
-            {partner.price_ars_month ? (
+            {partner.price_ars_month != null ? (
               <span className="text-[10px] px-2 py-0.5 rounded bg-gray-50 text-gray-500">
                 ARS {partner.price_ars_month.toLocaleString("es-AR")}/mes
+                {partner.price_ars_month === 0 ? " · sin cargo" : ""}
               </span>
             ) : null}
           </div>
@@ -592,7 +593,10 @@ export default function DesignPartnersPanel() {
     }
 
     const priceParsed = parseInt(formPriceArs.replace(/\D/g, ""), 10);
-    const price_ars_month = Number.isFinite(priceParsed) && priceParsed > 0 ? priceParsed : undefined;
+    const price_ars_month =
+      formPriceArs.trim() !== "" && Number.isFinite(priceParsed) && priceParsed >= 0
+        ? priceParsed
+        : undefined;
 
     const asDraft = opts?.asDraft === true;
 

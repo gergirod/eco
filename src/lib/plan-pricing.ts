@@ -49,8 +49,13 @@ export function applyDiscount(base: number, discountPercent: number): number {
   return Math.round(base * (1 - pct / 100));
 }
 
-/** Descuentos típicos design partner fundador */
-export const DESIGN_PARTNER_DISCOUNTS = [0, 10, 15, 20, 25] as const;
+/** Atajos opcionales en UI — el operador puede escribir cualquier % (0–100). */
+export const DISCOUNT_QUICK_PICKS = [0, 25, 50, 75, 100] as const;
+
+export function clampDiscountPercent(value: number): number {
+  if (!Number.isFinite(value)) return 0;
+  return Math.max(0, Math.min(100, Math.round(value)));
+}
 
 export function planPriceSummary(plan: PartnerPlan): string {
   const g = PLAN_PRICE_GUIDES[plan];
