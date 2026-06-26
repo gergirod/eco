@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import BrandPortfolioPicker from "@/components/backoffice/BrandPortfolioPicker";
 import ChannelContractPicker from "@/components/backoffice/ChannelContractPicker";
 import PlanPriceField from "@/components/backoffice/PlanPriceField";
@@ -395,26 +395,12 @@ export default function DesignPartnersPanel() {
 
   const planOptions = useMemo(() => plansForIcp(formIcp), [formIcp]);
   const maxBrands = PLAN_MAX_BRANDS[formPlan];
-  const prevPlanRef = useRef(formPlan);
 
   useEffect(() => {
     if (!planOptions.includes(formPlan)) {
       setFormPlan(ICP_DEFAULT_PLAN[formIcp]);
     }
   }, [formIcp, formPlan, planOptions]);
-
-  useEffect(() => {
-    const prev = prevPlanRef.current;
-    if (prev === formPlan) return;
-    const oldSuggested = PLAN_PRICE_GUIDES[prev].arsSuggested;
-    const newSuggested = PLAN_PRICE_GUIDES[formPlan].arsSuggested;
-    setFormPriceArs((cur) => {
-      const n = parseInt(cur.replace(/\D/g, ""), 10);
-      if (!cur.trim() || n === oldSuggested) return String(newSuggested);
-      return cur;
-    });
-    prevPlanRef.current = formPlan;
-  }, [formPlan]);
 
   useEffect(() => {
     setFormBrandPairs((prev) => {
@@ -771,6 +757,8 @@ ECO Intelligence`;
               plan={formPlan}
               value={formPriceArs}
               onChange={setFormPriceArs}
+              clientId={formId.trim() || undefined}
+              clientName={formName.trim() || undefined}
             />
             <div className="sm:col-span-2">
               <AccessValidityField value={formAccessMonths} onChange={setFormAccessMonths} />

@@ -1,8 +1,11 @@
 "use client";
 
-import { useMemo } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
+  applyDiscount,
+  DESIGN_PARTNER_DISCOUNTS,
   formatArs,
+  mercadoPagoCheckoutHint,
   PLAN_PRICE_GUIDES,
   planPriceSummary,
 } from "@/lib/plan-pricing";
@@ -12,10 +15,34 @@ type Props = {
   plan: PartnerPlan;
   value: string;
   onChange: (value: string) => void;
+  clientId?: string;
+  clientName?: string;
 };
 
-export default function PlanPriceField({ plan, value, onChange }: Props) {
+export default function PlanPriceField({
+  plan,
+  value,
+  onChange,
+  clientId,
+  clientName,
+}: Props) {
   const guide = PLAN_PRICE_GUIDES[plan];
+  const [basePrice, setBasePrice] = useState(guide.arsSuggested);
+  const [discountPct, setDiscountPct] = useState(0);
+  const [manualOverride, setManualOverride] = useState(false);
+
+  useEffect(() => {
+    setBasePrice(guide.arsSuggested);
+    setDiscountPct(0);
+    setManualOverride(false);
+    onChange(String(guide.arsSuggested));
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- reset al cambiar plan
+  }, [plan]);
+
+  useEffect(() => {
+    if (manualOverride) return;
+    onChange(String(applyDiscount(basePrice, discountPct)));
+  }, [basePrice, discountPct, manualOverride, onChange]);
 
   const parsed = useMemo(() => {
     const n = parseInt(value.replace(/\D/g, ""), 10);
@@ -25,7 +52,15 @@ export default function PlanPriceField({ plan, value, onChange }: Props) {
   const inRange =
     parsed !== null && parsed >= guide.arsMin && parsed <= guide.arsMax;
   const belowRange = parsed !== null && parsed < guide.arsMin;
-  const aboveRange = parsed !== null && parsed > guide.arsMax;
+
+  const mpHint =
+    parsed && clientName
+      ? mercadoPagoCheckoutHint({
+          amountArs: parsed,
+          title: `ECO Intelligence — ${clientName}`,
+          clientId,
+        })
+      : null;
 
   return (
     <div className="sm:col-span-2 space-y-2">
@@ -48,6 +83,8 @@ export default function PlanPriceField({ plan, value, onChange }: Props) {
           </strong>{" "}
           <span className="text-gray-400">({guide.usdHint})</span>
         </p>
+
+        <div className="text-[11px] text-gray-500 mb-1.5">Precio lista (base)</div>
         <div className="flex flex-wrap gap-2 mb-3">
           {(
             [
@@ -59,9 +96,12 @@ export default function PlanPriceField({ plan, value, onChange }: Props) {
             <button
               key={label}
               type="button"
-              onClick={() => onChange(String(amount))}
+              onClick={() => {
+                setManualOverride(false);
+                setBasePrice(amount);
+              }}
               className={`text-[11px] px-2.5 py-1 rounded-full border transition ${
-                parsed === amount
+                !manualOverride && basePrice === amount
                   ? "bg-accent-soft border-accent text-accent font-medium"
                   : "border-[#ececec] text-gray-600 hover:bg-white"
               }`}
@@ -70,13 +110,47 @@ export default function PlanPriceField({ plan, value, onChange }: Props) {
             </button>
           ))}
         </div>
+
+        <div className="text-[11px] text-gray-500 mb-1.5">Descuento design partner</div>
+        <div className="flex flex-wrap gap-2 mb-3">
+          {DESIGN_PARTNER_DISCOUNTS.map((pct) => (
+            <button
+              key={pct}
+              type="button"
+              onClick={() => {
+                setManualOverride(false);
+                setDiscountPct(pct);
+              }}
+              className={`text-[11px] px-2.5 py-1 rounded-full border transition ${
+                !manualOverride && discountPct === pct
+                  ? "bg-accent-soft border-accent text-accent font-medium"
+                  : "border-[#ececec] text-gray-600 hover:bg-white"
+              }`}
+            >
+              {pct === 0 ? "Sin descuento" : `−${pct}%`}
+            </button>
+          ))}
+        </div>
+
+        {!manualOverride && discountPct > 0 && (
+          <p className="text-[12px] text-gray-600 mb-3">
+            {formatArs(basePrice)} − {discountPct}% ={" "}
+            <strong className="text-ink">
+              ARS {formatArs(applyDiscount(basePrice, discountPct))}
+            </strong>
+          </p>
+        )}
+
         <label className="block text-[12px] text-gray-600">
-          Monto acordado
+          Precio final acordado (se guarda en contrato)
           <input
             value={value}
-            onChange={(e) => onChange(e.target.value.replace(/[^\d.]/g, ""))}
-            className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px] bg-white"
-            placeholder={String(guide.arsSuggested)}
+            onChange={(e) => {
+              setManualOverride(true);
+              onChange(e.target.value.replace(/[^\d.]/g, ""));
+            }}
+            className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px] bg-white font-medium"
+            placeholder={String(applyDiscount(basePrice, discountPct))}
             inputMode="numeric"
           />
         </label>
@@ -96,6 +170,23 @@ export default function PlanPriceField({ plan, value, onChange }: Props) {
                 ? "Por debajo del rango — OK si es gancho fundador."
                 : "Por encima del rango de referencia."}
           </p>
+        )}
+
+        {parsed !== null && (
+          <div className="mt-3 pt-3 border-t border-[#ececec]">
+            <div className="text-[11px] text-gray-500 mb-1">Cobro Mercado Pago (próximo paso)</div>
+            <p className="text-[12px] text-gray-700">
+              Precio final para el link de pago:{" "}
+              <strong>ARS {formatArs(parsed)}/mes</strong>
+            </p>
+            <p className="text-[11px] text-gray-400 mt-1 leading-relaxed">
+              Hoy guardás el monto acá. Después armamos el checkout MP con este precio final
+              (Preferences API o suscripción).
+            </p>
+            {mpHint && (
+              <p className="text-[10px] text-gray-400 mt-2 font-mono break-all">{mpHint}</p>
+            )}
+          </div>
         )}
       </div>
       <p className="text-[11px] text-gray-400">{planPriceSummary(plan)}</p>

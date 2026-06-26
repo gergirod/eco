@@ -44,7 +44,27 @@ export function formatArs(n: number): string {
   return n.toLocaleString("es-AR");
 }
 
+export function applyDiscount(base: number, discountPercent: number): number {
+  const pct = Math.max(0, Math.min(100, discountPercent));
+  return Math.round(base * (1 - pct / 100));
+}
+
+/** Descuentos típicos design partner fundador */
+export const DESIGN_PARTNER_DISCOUNTS = [0, 10, 15, 20, 25] as const;
+
 export function planPriceSummary(plan: PartnerPlan): string {
   const g = PLAN_PRICE_GUIDES[plan];
   return `${PLAN_LABELS[plan]} — ARS ${formatArs(g.arsMin)}–${formatArs(g.arsMax)} (${g.usdHint})`;
+}
+
+/** Placeholder hasta integrar MP Preferences API — usa el monto final acordado. */
+export function mercadoPagoCheckoutHint(opts: {
+  amountArs: number;
+  title: string;
+  clientId?: string;
+}): string {
+  const base =
+    process.env.NEXT_PUBLIC_MP_CHECKOUT_URL?.trim() ||
+    "https://www.mercadopago.com.ar/developers/es/docs/checkout-pro/overview";
+  return `${base} · monto: ARS ${formatArs(opts.amountArs)} · ${opts.title}${opts.clientId ? ` (${opts.clientId})` : ""}`;
 }
