@@ -93,12 +93,12 @@ export const ACCESS_TIMELINE = [
   {
     fase: "2. Gancho (post-call)",
     plataforma: "No",
-    entregable: "Demo del brief en PDF — compartís link de preview o acceso temporal.",
+    entregable: "Demo del brief — podés crear borrador en backoffice (sin acceso).",
   },
   {
     fase: "3. Cierran design partner (pagan)",
     plataforma: "Sí — mismo día",
-    entregable: "Alta en backoffice + link único por mail (entra directo, scope automático).",
+    entregable: "Activar acceso → copiás mail + link y se lo mandás al cliente.",
   },
   {
     fase: "4. Cada viernes",
@@ -141,4 +141,34 @@ export function briefMailBlock(icp: PartnerIcp): string {
       : "Desde la plataforma generás tu brief semanal en PDF cuando lo necesites: marcas, competidores y evidencia minuto a minuto.";
   const howTo = steps.map((s, i) => `${i + 1}. ${s}`).join("\n");
   return `${intro}\n\nCómo hacerlo:\n${howTo}`;
+}
+
+export function buildPartnerWelcomeMail(opts: {
+  name: string;
+  link: string;
+  icp: PartnerIcp;
+  accessMonths: number;
+}): string {
+  const validity =
+    opts.accessMonths > 0
+      ? `El acceso vence en ${opts.accessMonths} mes${opts.accessMonths === 1 ? "" : "es"} — renovalo desde el backoffice cuando paguen.`
+      : "El link no vence (hasta que lo revoques manualmente).";
+  const scopeLine =
+    opts.icp === "canal"
+      ? "Ves tu canal, benchmark del mercado, certificados, novedades y tendencias."
+      : "Ves tus marcas y competidores del contrato, más el mercado de streaming (canales, programas, novedades y tendencias).";
+  return `Hola,
+
+Tu espacio en ECO Intelligence está listo.
+
+Entrá acá (un click, sin contraseña):
+${opts.link}
+
+Solo funciona para ${opts.name} — ${scopeLine}
+${validity}
+
+${briefMailBlock(opts.icp)}
+
+—
+ECO Intelligence`;
 }

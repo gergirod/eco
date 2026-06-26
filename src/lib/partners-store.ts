@@ -167,6 +167,8 @@ export type UpsertPartnerInput = {
   access_months?: number;
   price_ars_month?: number;
   contract_started_at?: string;
+  /** true = guardar sin link (borrador hasta que paguen) */
+  skip_invite?: boolean;
 };
 
 export type UpsertPartnerResult = {
@@ -268,6 +270,16 @@ export async function setPartnerActive(
   return { ok: true };
 }
 
+/** Activa cliente post-pago: active + link de acceso. */
+export async function activatePartnerAccess(
+  partnerId: string,
+  accessMonths: number
+): Promise<{ ok: boolean; error?: string; inviteToken?: string }> {
+  const activeResult = await setPartnerActive(partnerId, true);
+  if (!activeResult.ok) return activeResult;
+  return createPartnerInvite(partnerId, { accessMonths });
+}
+
 export async function acceptPartnerInvite(
   token: string,
   password: string
@@ -347,7 +359,8 @@ export async function upsertPartner(input: UpsertPartnerInput): Promise<UpsertPa
   }
 
   const isNew = !existing;
-  const needsInvite = isNew && !input.password?.trim();
+  const wantsAccess = input.active !== false && !input.skip_invite;
+  const needsInvite = isNew && !input.password?.trim() && wantsAccess;
 
   if (needsInvite) {
     inviteToken = generateAccessToken();

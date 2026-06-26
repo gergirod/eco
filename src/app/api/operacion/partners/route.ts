@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { buildAccessUrl, parseAccessMonths, accessLinkExpiresAt } from "@/lib/partner-invite";
 import { requireOpsAuth } from "@/lib/ops-api-auth";
 import {
+  activatePartnerAccess,
   extendPartnerAccess,
   listPartners,
   partnerHasAccessLink,
@@ -98,7 +99,7 @@ export async function PATCH(req: Request) {
     return NextResponse.json({ ok: false, error: "No autorizado" }, { status: 401 });
   }
 
-  let body: { id?: string; active?: boolean; extend_months?: number };
+  let body: { id?: string; active?: boolean; extend_months?: number; activate_and_invite?: boolean; access_months?: number };
   try {
     body = await req.json();
   } catch {
@@ -108,6 +109,20 @@ export async function PATCH(req: Request) {
   const id = body.id?.trim();
   if (!id) {
     return NextResponse.json({ ok: false, error: "id obligatorio" }, { status: 400 });
+  }
+
+  if (body.activate_and_invite) {
+    const months = parseAccessMonths(body.access_months) || 1;
+    const origin = new URL(req.url).origin;
+    const result = await activatePartnerAccess(id, months);
+    if (!result.ok || !result.inviteToken) {
+      return NextResponse.json({ ok: false, error: result.error }, { status: 400 });
+    }
+    return NextResponse.json({
+      ok: true,
+      accessUrl: buildAccessUrl(result.inviteToken, origin),
+      accessExpiresAt: accessLinkExpiresAt(months),
+    });
   }
 
   if (body.extend_months != null) {
@@ -134,7 +149,7 @@ export async function PATCH(req: Request) {
   }
 
   return NextResponse.json(
-    { ok: false, error: "Enviá active (boolean) o extend_months (número)" },
+    { ok: false, error: "Enviá activate_and_invite, extend_months o active" },
     { status: 400 }
   );
 }

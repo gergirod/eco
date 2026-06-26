@@ -10,7 +10,7 @@ import {
   ACCESS_TIMELINE,
   WEEKLY_CHECKLIST,
   brandDisplayName,
-  briefMailBlock,
+  buildPartnerWelcomeMail,
   BRIEF_STEPS_MARCA,
 } from "@/lib/design-partners";
 import {
@@ -106,6 +106,7 @@ function PartnerCard({
   onRegenerateInvite,
   onExtendAccess,
   onSetActive,
+  onActivateAccess,
 }: {
   partner: PartnerApiRow;
   onRegenerateInvite: (
@@ -115,6 +116,10 @@ function PartnerCard({
   ) => Promise<{ url: string | null; expiresAt: string | null }>;
   onExtendAccess: (id: string, months: number) => Promise<string | null>;
   onSetActive: (id: string, active: boolean) => Promise<boolean>;
+  onActivateAccess: (
+    id: string,
+    months: number
+  ) => Promise<{ url: string | null; expiresAt: string | null }>;
 }) {
   const [inviteBusy, setInviteBusy] = useState(false);
   const [statusBusy, setStatusBusy] = useState(false);
@@ -164,8 +169,8 @@ function PartnerCard({
               ? "Link activo"
               : partner.has_password
                 ? "Activo"
-                : "Sin link"
-            : "Inactivo"}
+                : "Activo — sin link"
+            : "Pendiente / baja"}
         </span>
       </div>
 
@@ -221,8 +226,8 @@ function PartnerCard({
       <div className="border-t border-[#ececec] pt-4 mb-4 space-y-2">
         <div className="text-[11px] uppercase tracking-wide text-gray-400 mb-2">Acceso plataforma</div>
         {!partner.active ? (
-          <p className="text-[12px] text-red-700">
-            Dado de baja — sin acceso. Reactivalo cuando vuelvan a pagar.
+          <p className="text-[12px] text-amber-800">
+            Borrador o dado de baja — sin acceso. Activá cuando confirmes el pago.
           </p>
         ) : partner.pending_invite ? (
           <p className="text-[12px] text-green-700">
@@ -307,25 +312,51 @@ function PartnerCard({
           {!partner.active && (
             <button
               type="button"
-              disabled={statusBusy}
+              disabled={statusBusy || inviteBusy}
               onClick={async () => {
                 setStatusBusy(true);
-                await onSetActive(partner.id, true);
+                const result = await onActivateAccess(partner.id, 1);
+                if (result.url) {
+                  setInviteUrl(result.url);
+                  setInviteExpiresAt(result.expiresAt);
+                }
                 setStatusBusy(false);
               }}
-              className="text-[12px] px-3 py-1.5 rounded-lg border border-[#ececec] hover:bg-gray-50 disabled:opacity-50"
+              className="text-[12px] px-3 py-1.5 rounded-lg bg-accent text-white hover:opacity-90 disabled:opacity-50"
             >
-              Reactivar cliente
+              {statusBusy ? "Activando…" : "Activar acceso (pagó)"}
             </button>
           )}
         </div>
         {inviteUrl && (
-          <div className="mt-3">
+          <div className="mt-3 space-y-3">
             <InviteLinkBox
               url={inviteUrl}
               expiresAt={inviteExpiresAt}
               months={1}
+              label="Link para mandar al cliente"
             />
+            <div className="p-3 rounded-lg bg-gray-50 border border-[#ececec]">
+              <div className="flex justify-between mb-2">
+                <span className="text-[12px] font-medium text-gray-600">Mail de bienvenida</span>
+                <CopyButton
+                  text={buildPartnerWelcomeMail({
+                    name: partner.name,
+                    link: inviteUrl,
+                    icp: icp,
+                    accessMonths: 1,
+                  })}
+                />
+              </div>
+              <pre className="text-[11px] text-gray-600 whitespace-pre-wrap max-h-48 overflow-y-auto">
+                {buildPartnerWelcomeMail({
+                  name: partner.name,
+                  link: inviteUrl,
+                  icp: icp,
+                  accessMonths: 1,
+                })}
+              </pre>
+            </div>
           </div>
         )}
       </div>
@@ -494,7 +525,30 @@ export default function DesignPartnersPanel() {
     return Number.isFinite(n) && n > 0 ? n : 0;
   }, [formAccessMonths]);
 
-  async function savePartner(e: React.FormEvent) {
+  async function activateAccess(
+    id: string,
+    months: number
+  ): Promise<{ url: string | null; expiresAt: string | null }> {
+    try {
+      const res = await fetch("/api/operacion/partners", {
+        method: "PATCH",
+        credentials: "same-origin",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, activate_and_invite: true, access_months: months }),
+      });
+      const data = await res.json();
+      if (!res.ok) return { url: null, expiresAt: null };
+      await loadPartners();
+      return {
+        url: data.accessUrl || null,
+        expiresAt: data.accessExpiresAt ?? null,
+      };
+    } catch {
+      return { url: null, expiresAt: null };
+    }
+  }
+
+  async function savePartner(e: React.FormEvent, opts?: { asDraft?: boolean }) {
     e.preventDefault();
     setSaving(true);
     setSaveMsg("");
@@ -540,6 +594,8 @@ export default function DesignPartnersPanel() {
     const priceParsed = parseInt(formPriceArs.replace(/\D/g, ""), 10);
     const price_ars_month = Number.isFinite(priceParsed) && priceParsed > 0 ? priceParsed : undefined;
 
+    const asDraft = opts?.asDraft === true;
+
     try {
       const res = await fetch("/api/operacion/partners", {
         method: "POST",
@@ -558,7 +614,8 @@ export default function DesignPartnersPanel() {
           access_months: parsedAccessMonths,
           price_ars_month,
           contract_started_at: new Date().toISOString().slice(0, 10),
-          active: true,
+          active: !asDraft,
+          skip_invite: asDraft,
         }),
       });
       const data = await res.json();
@@ -566,10 +623,17 @@ export default function DesignPartnersPanel() {
         setSaveMsg(data.error || "Error al guardar");
         return;
       }
-      setSaveMsg("Cliente guardado. Mandá el link de acceso al cliente.");
+      setSaveMsg(
+        asDraft
+          ? "Borrador guardado. Activá el acceso cuando confirmes el pago."
+          : "Cliente activado. Copiá el mail abajo y mandá el link."
+      );
       if (data.accessUrl) {
         setAccessUrl(data.accessUrl);
         setAccessExpiresAt(data.accessExpiresAt ?? null);
+      } else {
+        setAccessUrl("");
+        setAccessExpiresAt(null);
       }
       await loadPartners();
     } catch {
@@ -580,32 +644,17 @@ export default function DesignPartnersPanel() {
   }
 
   const mailTemplate = useMemo(() => {
-    if (!formName && !accessUrl && !partners[0]) return "";
-    const name = formName || partners[0]?.name || "[Cliente]";
+    if (!formName && !accessUrl) return "";
+    const name = formName || "[Cliente]";
     const link = accessUrl || "https://[tu-dominio]/acceso/entrar/[link-unico]";
-    const validity =
-      parsedAccessMonths > 0
-        ? `El acceso vence en ${parsedAccessMonths} mes${parsedAccessMonths === 1 ? "" : "es"} — renovalo desde el backoffice cuando paguen.`
-        : "El link no vence (hasta que lo revoques manualmente).";
-    const scopeLine =
-      formIcp === "canal"
-        ? "Ves tu canal, benchmark del mercado, certificados, novedades y tendencias."
-        : "Ves tus marcas y competidores del contrato, más el mercado de streaming (canales, programas, novedades y tendencias).";
-    return `Hola,
-
-Tu espacio en ECO Intelligence está listo.
-
-Entrá acá (un click, sin contraseña):
-${link}
-
-Solo funciona para ${name} — ${scopeLine}
-${validity}
-
-${briefMailBlock(formIcp)}
-
-—
-ECO Intelligence`;
-  }, [formName, formIcp, partners, accessUrl, parsedAccessMonths]);
+    if (!accessUrl) return "";
+    return buildPartnerWelcomeMail({
+      name,
+      link,
+      icp: formIcp,
+      accessMonths: parsedAccessMonths || 1,
+    });
+  }, [formName, formIcp, accessUrl, parsedAccessMonths]);
 
   return (
     <div className="space-y-6 max-w-4xl">
@@ -671,9 +720,10 @@ ECO Intelligence`;
       <div className="card p-5">
         <h2 className="text-[15px] font-semibold mb-1">Alta de cliente</h2>
         <p className="text-[13px] text-gray-500 mb-4">
-          Elegí ICP y plan — los límites de marcas se validan al guardar. Link único automático.
+          Creá el borrador en la call; activá acceso el día que paguen. El mail lo mandás vos
+          (copiás plantilla + link).
         </p>
-        <form onSubmit={savePartner} className="space-y-3">
+        <form onSubmit={(e) => e.preventDefault()} className="space-y-3">
           <div className="grid sm:grid-cols-2 gap-3">
             <label className="text-[12px] text-gray-600">
               ID cliente
@@ -764,13 +814,24 @@ ECO Intelligence`;
               <AccessValidityField value={formAccessMonths} onChange={setFormAccessMonths} />
             </div>
           </div>
-          <button
-            type="submit"
-            disabled={saving || storeMode !== "supabase"}
-            className="btn btn-primary disabled:opacity-50"
-          >
-            {saving ? "Guardando…" : "Guardar cliente en Supabase"}
-          </button>
+          <div className="flex flex-wrap gap-3 pt-1">
+            <button
+              type="button"
+              disabled={saving || storeMode !== "supabase"}
+              onClick={(e) => savePartner(e, { asDraft: true })}
+              className="btn border border-[#ececec] disabled:opacity-50"
+            >
+              {saving ? "Guardando…" : "Guardar borrador"}
+            </button>
+            <button
+              type="button"
+              disabled={saving || storeMode !== "supabase"}
+              onClick={(e) => savePartner(e, { asDraft: false })}
+              className="btn btn-primary disabled:opacity-50"
+            >
+              {saving ? "Guardando…" : "Guardar y activar (ya pagó)"}
+            </button>
+          </div>
           {saveMsg && <p className="text-[13px] text-gray-700">{saveMsg}</p>}
           {accessUrl && (
             <InviteLinkBox
@@ -811,7 +872,8 @@ ECO Intelligence`;
 
       <div>
         <h2 className="text-[15px] font-semibold mb-3">
-          Clientes ({partners.filter((p) => p.active).length} activos)
+          Clientes ({partners.filter((p) => p.active).length} activos ·{" "}
+          {partners.filter((p) => !p.active).length} pendientes)
         </h2>
         {loadError && <p className="text-[13px] text-red-600 mb-3">{loadError}</p>}
         {partners.length === 0 ? (
@@ -825,6 +887,7 @@ ECO Intelligence`;
                 onRegenerateInvite={regenerateInvite}
                 onExtendAccess={extendAccess}
                 onSetActive={setPartnerActiveStatus}
+                onActivateAccess={activateAccess}
               />
             ))}
           </div>
