@@ -1,5 +1,5 @@
 {
- "period": "2026-06-26T15:13:45.228679+00:00",
+ "period": "2026-06-26T15:20:01.271196+00:00",
  "signals": [
   {
    "tema": "Crítica a Azzaro",
@@ -10,7 +10,7 @@
    ],
    "cross_canal": false,
    "tipo": "otro",
-   "ejemplo": "azzaro, te convertiste en lo que juraste destruir"
+   "ejemplo": "basta de azzaro"
   }
  ]
 }

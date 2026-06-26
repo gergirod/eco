@@ -118,7 +118,8 @@ export default function ConversacionPage() {
 
       <p className="text-[11px] text-gray-400 mt-6 leading-relaxed max-w-xl">
         Temas unificados por IA a partir del transcript · filtro anti-meme: priorizamos aparición en
-        2+ comunidades. Corpus en crecimiento — orientación para planning, no forecasting.
+        2+ comunidades. Expandí cada tema para ver qué dijeron los conductores y en qué canal.
+        Variantes ruidosas (p.ej. mundial*) se agrupan en una sola entrada.
       </p>
     </div>
   );

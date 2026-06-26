@@ -1,7 +1,15 @@
 /**
  * Conversación — ranking de temas en streaming (SPEC-008: no es Tendencias ni Novedades).
- * Fuente: radar.json (pipeline/radar.py sobre topics/).
+ * Fuente: radar.json (pipeline/radar.py sobre topics/) + highlights en export_ui.
  */
+
+export type ConversacionHighlight = {
+  channel: string;
+  video_id: string;
+  title: string;
+  subtema: string;
+  contexto: string;
+};
 
 export type ConversacionMomentum = "sube" | "baja" | "estable" | "nuevo";
 
@@ -18,6 +26,10 @@ export type ConversacionTopic = {
   momentum: ConversacionMomentum;
   serie: { date: string; n: number }[];
   categoria: string | null;
+  cluster: string | null;
+  variantesRelacionadas: string[];
+  highlights: ConversacionHighlight[];
+  mergedCluster: boolean;
 };
 
 type RadarRow = {
@@ -30,13 +42,13 @@ type RadarRow = {
   multi_dia?: boolean;
   candidato?: boolean;
   serie?: { date: string; n: number }[];
+  cluster?: string | null;
+  variantes_relacionadas?: string[];
+  highlights?: ConversacionHighlight[];
 };
 
-type MetaShape = {
-  exported_at?: string;
-  n_trends?: number;
-  discovery?: { channels_covered?: number; last_capture?: string };
-};
+/** Clusters que se fusionan en el ranking (variantes del mismo eje). */
+const MERGE_CLUSTERS = new Set(["mundial", "series"]);
 
 function titleLabel(tema: string): string {
   return tema
@@ -44,6 +56,12 @@ function titleLabel(tema: string): string {
     .filter(Boolean)
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
     .join(" ");
+}
+
+function clusterLabel(cluster: string): string {
+  if (cluster === "mundial") return "Mundial";
+  if (cluster === "series") return "Series y TV";
+  return titleLabel(cluster);
 }
 
 function parseSerieDate(d: string): number {
@@ -64,34 +82,108 @@ function computeMomentum(serie: { date: string; n: number }[]): ConversacionMome
   return "estable";
 }
 
+function rowToTopic(r: RadarRow, mergedCluster = false): Omit<ConversacionTopic, "rank" | "scorePct"> {
+  const serie = r.serie ?? [];
+  const cats = r.categorias ?? [];
+  const cluster = r.cluster ?? null;
+  const label =
+    mergedCluster && cluster ? clusterLabel(cluster) : titleLabel(r.tema);
+  return {
+    tema: r.tema,
+    temaLabel: label,
+    score: r.score ?? 0,
+    menciones: r.menciones ?? 0,
+    canales: r.canales ?? [],
+    crossComunidad: Boolean(r.cross_comunidad),
+    multiDia: Boolean(r.multi_dia),
+    momentum: computeMomentum(serie),
+    serie,
+    categoria: cats[0] ?? null,
+    cluster,
+    variantesRelacionadas: r.variantes_relacionadas ?? [],
+    highlights: r.highlights ?? [],
+    mergedCluster,
+  };
+}
+
+function dedupeHighlights(items: ConversacionHighlight[], limit = 6): ConversacionHighlight[] {
+  const seen = new Set<string>();
+  const out: ConversacionHighlight[] = [];
+  for (const h of items) {
+    const key = h.contexto.slice(0, 72).toLowerCase();
+    if (seen.has(key)) continue;
+    seen.add(key);
+    out.push(h);
+    if (out.length >= limit) break;
+  }
+  return out;
+}
+
+function mergeClusterRows(rows: RadarRow[]): RadarRow[] {
+  const byCluster = new Map<string, RadarRow[]>();
+  const rest: RadarRow[] = [];
+  for (const r of rows) {
+    const ck = r.cluster;
+    if (ck && MERGE_CLUSTERS.has(ck)) {
+      const list = byCluster.get(ck) || [];
+      list.push(r);
+      byCluster.set(ck, list);
+    } else {
+      rest.push(r);
+    }
+  }
+  const merged: RadarRow[] = [...rest];
+  for (const [ck, group] of byCluster) {
+    group.sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+    const lead = group[0];
+    const combined: RadarRow = {
+      ...lead,
+      tema: lead.tema,
+      score: group.reduce((s, x) => s + (x.score ?? 0), 0),
+      menciones: group.reduce((s, x) => s + (x.menciones ?? 0), 0),
+      canales: [...new Set(group.flatMap((x) => x.canales ?? []))],
+      cross_comunidad: group.some((x) => x.cross_comunidad),
+      multi_dia: group.some((x) => x.multi_dia),
+      variantes_relacionadas: [
+        ...new Set(
+          group.flatMap((x) => [x.tema, ...(x.variantes_relacionadas ?? [])]).filter(Boolean)
+        ),
+      ].filter((t) => t !== lead.tema),
+      highlights: dedupeHighlights(group.flatMap((x) => x.highlights ?? []), 6),
+      cluster: ck,
+    };
+    merged.push(combined);
+  }
+  return merged;
+}
+
+type MetaShape = {
+  exported_at?: string;
+  n_trends?: number;
+  discovery?: { channels_covered?: number; last_capture?: string };
+};
+
 export function buildConversacionRanking(
   radar: RadarRow[],
-  options: { crossOnly?: boolean; limit?: number } = {}
+  options: { crossOnly?: boolean; limit?: number; mergeClusters?: boolean } = {}
 ): ConversacionTopic[] {
-  const { crossOnly = true, limit = 25 } = options;
+  const { crossOnly = true, limit = 25, mergeClusters = true } = options;
   let rows = radar.filter((r) => r.tema && !r.tema.startsWith("_"));
   if (crossOnly) {
     rows = rows.filter((r) => r.cross_comunidad);
+  }
+  if (mergeClusters) {
+    rows = mergeClusterRows(rows);
   }
   rows.sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
   const maxScore = rows[0]?.score ?? 1;
 
   return rows.slice(0, limit).map((r, i) => {
-    const serie = r.serie ?? [];
-    const cats = r.categorias ?? [];
+    const base = rowToTopic(r, Boolean(r.cluster && MERGE_CLUSTERS.has(r.cluster)));
     return {
+      ...base,
       rank: i + 1,
-      tema: r.tema,
-      temaLabel: titleLabel(r.tema),
-      score: r.score ?? 0,
-      scorePct: Math.round(((r.score ?? 0) / maxScore) * 100),
-      menciones: r.menciones ?? 0,
-      canales: r.canales ?? [],
-      crossComunidad: Boolean(r.cross_comunidad),
-      multiDia: Boolean(r.multi_dia),
-      momentum: computeMomentum(serie),
-      serie,
-      categoria: cats[0] ?? null,
+      scorePct: Math.round(((base.score ?? 0) / maxScore) * 100),
     };
   });
 }

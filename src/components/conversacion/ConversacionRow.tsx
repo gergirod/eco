@@ -1,6 +1,10 @@
+"use client";
+
 import Link from "next/link";
+import { useState } from "react";
 import type { ConversacionTopic } from "@/lib/conversacion";
 import { CHANNEL_SLUG } from "@/lib/conversacion";
+import { vodLink } from "@/lib/format";
 
 const MOMENTUM: Record<
   ConversacionTopic["momentum"],
@@ -14,10 +18,20 @@ const MOMENTUM: Record<
 
 type Props = { topic: ConversacionTopic };
 
+function titleLabel(tema: string): string {
+  return tema
+    .split(/[\s/]+/)
+    .filter(Boolean)
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
 export default function ConversacionRow({ topic }: Props) {
+  const [open, setOpen] = useState(false);
   const mom = MOMENTUM[topic.momentum];
   const spark = topic.serie.slice(-8);
   const sparkMax = Math.max(...spark.map((p) => p.n), 1);
+  const hasDetail = topic.highlights.length > 0 || topic.variantesRelacionadas.length > 0;
 
   return (
     <article className="card p-4 sm:p-5">
@@ -47,7 +61,20 @@ export default function ConversacionRow({ topic }: Props) {
                 <span className="capitalize">{topic.categoria}</span>
               </>
             ) : null}
+            {topic.mergedCluster ? (
+              <>
+                <span className="text-gray-300">·</span>
+                <span className="text-gray-400">variantes unificadas</span>
+              </>
+            ) : null}
           </div>
+
+          {topic.variantesRelacionadas.length > 0 && (
+            <p className="text-[12px] text-gray-500 mb-3 leading-relaxed">
+              También como:{" "}
+              {topic.variantesRelacionadas.slice(0, 5).map(titleLabel).join(" · ")}
+            </p>
+          )}
 
           <div className="flex flex-wrap gap-1.5 mb-3">
             {topic.canales.map((ch) => {
@@ -72,7 +99,7 @@ export default function ConversacionRow({ topic }: Props) {
             ) : null}
           </div>
 
-          <div className="flex items-end gap-3">
+          <div className="flex items-end gap-3 mb-1">
             <div className="flex-1 h-2 rounded-full bg-gray-100 overflow-hidden max-w-xs">
               <div
                 className="h-full rounded-full bg-accent/80 transition-all"
@@ -96,6 +123,47 @@ export default function ConversacionRow({ topic }: Props) {
               </div>
             ) : null}
           </div>
+
+          {hasDetail ? (
+            <button
+              type="button"
+              onClick={() => setOpen((v) => !v)}
+              className="text-[12.5px] text-accent font-medium hover:underline mt-2"
+              aria-expanded={open}
+            >
+              {open ? "Ocultar qué se dijo" : "Ver qué se dijo y en qué canal"}
+            </button>
+          ) : (
+            <p className="text-[12px] text-gray-400 mt-2">
+              Sin contexto detallado en el export para este tema.
+            </p>
+          )}
+
+          {open && topic.highlights.length > 0 && (
+            <ul className="mt-4 flex flex-col gap-3 border-t border-gray-100 pt-4">
+              {topic.highlights.map((h, i) => (
+                <li key={`${h.video_id}-${i}`} className="text-[13px] leading-relaxed">
+                  <div className="flex flex-wrap items-center gap-x-2 gap-y-1 mb-1">
+                    <span className="text-[11px] font-medium px-2 py-0.5 rounded-full bg-gray-50 text-gray-600 border border-gray-100">
+                      {h.channel}
+                    </span>
+                    <a
+                      href={vodLink(h.video_id)}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[12px] text-gray-500 hover:text-accent truncate max-w-full"
+                    >
+                      {h.title || h.video_id}
+                    </a>
+                  </div>
+                  {h.subtema && h.subtema.toLowerCase() !== topic.tema.toLowerCase() ? (
+                    <div className="text-[11px] text-gray-400 mb-0.5">{titleLabel(h.subtema)}</div>
+                  ) : null}
+                  <p className="text-gray-700">{h.contexto}</p>
+                </li>
+              ))}
+            </ul>
+          )}
         </div>
       </div>
     </article>
