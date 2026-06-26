@@ -58,8 +58,7 @@ function AccesoForm() {
         setError(data.error || "No pudimos iniciar sesión");
         return;
       }
-      router.replace(from.startsWith("/") ? from : "/marcas");
-      router.refresh();
+      window.location.href = from.startsWith("/") ? from : "/marcas";
     } catch {
       setError("Error de red");
     } finally {

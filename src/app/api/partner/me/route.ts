@@ -7,6 +7,8 @@ import {
   partnerSessionValid,
 } from "@/lib/partner-auth";
 
+export const dynamic = "force-dynamic";
+
 export async function GET() {
   const mode = accessMode();
   const isAdmin = await adminSessionValid(cookies().get(ADMIN_COOKIE)?.value);

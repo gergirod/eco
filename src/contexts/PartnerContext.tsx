@@ -30,27 +30,37 @@ type PartnerContextValue = {
 
 const PartnerContext = createContext<PartnerContextValue | null>(null);
 
-export function PartnerProvider({ children }: { children: ReactNode }) {
+export function PartnerProvider({
+  children,
+  initialIsAdmin = false,
+}: {
+  children: ReactNode;
+  initialIsAdmin?: boolean;
+}) {
   const [loading, setLoading] = useState(true);
   const [mode, setMode] = useState<"open" | "partners">("open");
   const [partner, setPartner] = useState<PartnerView | null>(null);
-  const [isAdmin, setIsAdmin] = useState(false);
+  const [isAdmin, setIsAdmin] = useState(initialIsAdmin);
 
   const refresh = useCallback(async () => {
     try {
-      const res = await fetch("/api/partner/me", { credentials: "same-origin" });
-      const data = await res.json();
-      setMode(data.mode === "partners" ? "partners" : "open");
-      setPartner(data.partner ?? null);
-      setIsAdmin(data.isAdmin === true);
+      const [meRes, adminRes] = await Promise.all([
+        fetch("/api/partner/me", { credentials: "same-origin", cache: "no-store" }),
+        fetch("/api/admin/me", { credentials: "same-origin", cache: "no-store" }),
+      ]);
+      const meData = await meRes.json();
+      const adminData = await adminRes.json();
+      setMode(meData.mode === "partners" ? "partners" : "open");
+      setPartner(meData.partner ?? null);
+      setIsAdmin(adminData.isAdmin === true || meData.isAdmin === true || initialIsAdmin);
     } catch {
       setMode("open");
       setPartner(null);
-      setIsAdmin(false);
+      setIsAdmin(initialIsAdmin);
     } finally {
       setLoading(false);
     }
-  }, []);
+  }, [initialIsAdmin]);
 
   useEffect(() => {
     refresh();

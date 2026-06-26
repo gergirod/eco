@@ -7,6 +7,8 @@ import {
 } from "@/lib/admin-auth";
 import { PARTNER_COOKIE } from "@/lib/partner-auth";
 
+export const dynamic = "force-dynamic";
+
 export async function POST(req: Request) {
   if (!adminCredentials()) {
     return NextResponse.json(

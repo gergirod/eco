@@ -42,7 +42,10 @@ export async function verifyAdminLogin(
 ): Promise<boolean> {
   const creds = adminCredentials();
   if (!creds) return false;
-  return username.trim() === creds.username && password === creds.password;
+  return (
+    username.trim().toUpperCase() === creds.username.toUpperCase() &&
+    password === creds.password
+  );
 }
 
 /** Admin u operador backoffice → plataforma sin restricciones de cliente */
