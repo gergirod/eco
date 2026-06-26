@@ -1,6 +1,8 @@
 import {
   partnerCompetitorSlugs,
-  validatePartnerCompetitors,
+  normalizePartnerIcp,
+  normalizePartnerPlan,
+  validatePartnerContract,
   type PartnerRecord,
 } from "@/lib/partners";
 import { partnerSessionSuffix } from "@/lib/partner-auth";
@@ -9,6 +11,7 @@ import {
   hashAccessToken,
   accessLinkExpiresAt,
   isAccessLinkExpired,
+  isInviteExpired,
 } from "@/lib/partner-invite";
 import { supabaseRest, supabaseServiceConfig } from "@/lib/supabase-server";
 import partnersFile from "@/data/partners.json";
@@ -17,15 +20,21 @@ import type { PartnersFile } from "@/lib/partners";
 type DbPartnerRow = {
   id: string;
   name: string;
+  icp?: string | null;
+  plan?: string | null;
   brand_slugs: string[];
   competitor_slugs: string[];
   competitor_by_brand: Record<string, string>;
+  channel_ids?: string[];
+  benchmark_channel_ids?: string[];
   active: boolean;
   contact_email: string | null;
   notes: string | null;
   password_hash: string;
   invite_token_hash: string | null;
   invite_expires_at: string | null;
+  price_ars_month?: number | null;
+  contract_started_at?: string | null;
   updated_at?: string;
 };
 
@@ -36,9 +45,12 @@ export type PartnerWithSecret = PartnerRecord & {
 };
 
 function rowToRecord(row: DbPartnerRow): PartnerWithSecret {
+  const icp = normalizePartnerIcp(row.icp);
   const base: PartnerRecord = {
     id: row.id,
     name: row.name,
+    icp,
+    plan: normalizePartnerPlan(row.plan, icp),
     brand_slugs: row.brand_slugs || [],
     competitor_slugs: row.competitor_slugs?.length
       ? row.competitor_slugs
@@ -50,9 +62,15 @@ function rowToRecord(row: DbPartnerRow): PartnerWithSecret {
           competitor_by_brand: row.competitor_by_brand,
         }),
     competitor_by_brand: row.competitor_by_brand || undefined,
+    channel_ids: row.channel_ids?.length ? row.channel_ids : undefined,
+    benchmark_channel_ids: row.benchmark_channel_ids?.length
+      ? row.benchmark_channel_ids
+      : undefined,
     active: row.active,
     contact_email: row.contact_email || undefined,
     notes: row.notes || undefined,
+    price_ars_month: row.price_ars_month ?? undefined,
+    contract_started_at: row.contract_started_at ?? undefined,
   };
   return {
     ...base,
@@ -132,14 +150,20 @@ export async function verifyPartnerLogin(
 export type UpsertPartnerInput = {
   id: string;
   name: string;
+  icp?: PartnerRecord["icp"];
+  plan?: PartnerRecord["plan"];
   brand_slugs: string[];
   competitor_by_brand?: Record<string, string>;
   competitor_slugs?: string[];
+  channel_ids?: string[];
+  benchmark_channel_ids?: string[];
   contact_email?: string;
   notes?: string;
   password?: string;
   active?: boolean;
   access_months?: number;
+  price_ars_month?: number;
+  contract_started_at?: string;
 };
 
 export type UpsertPartnerResult = {
@@ -230,21 +254,31 @@ export async function upsertPartner(input: UpsertPartnerInput): Promise<UpsertPa
   const competitor_by_brand = input.competitor_by_brand || {};
   const competitor_slugs =
     input.competitor_slugs || [...new Set(Object.values(competitor_by_brand))];
+  const icp = normalizePartnerIcp(input.icp);
+  const plan = normalizePartnerPlan(input.plan, icp);
 
   const record: PartnerRecord = {
     id: input.id,
     name: input.name,
+    icp,
+    plan,
     brand_slugs: input.brand_slugs,
     competitor_slugs,
     competitor_by_brand: Object.keys(competitor_by_brand).length
       ? competitor_by_brand
       : undefined,
+    channel_ids: input.channel_ids?.length ? input.channel_ids : undefined,
+    benchmark_channel_ids: input.benchmark_channel_ids?.length
+      ? input.benchmark_channel_ids
+      : undefined,
     active: input.active !== false,
     contact_email: input.contact_email,
     notes: input.notes,
+    price_ars_month: input.price_ars_month,
+    contract_started_at: input.contract_started_at,
   };
 
-  const err = validatePartnerCompetitors(record);
+  const err = validatePartnerContract(record);
   if (err) return { ok: false, error: err };
 
   const existing = await getPartnerById(input.id);
@@ -270,12 +304,18 @@ export async function upsertPartner(input: UpsertPartnerInput): Promise<UpsertPa
   const row = {
     id: input.id,
     name: input.name,
+    icp,
+    plan,
     brand_slugs: input.brand_slugs,
     competitor_slugs,
     competitor_by_brand,
+    channel_ids: input.channel_ids || [],
+    benchmark_channel_ids: input.benchmark_channel_ids || [],
     active: input.active !== false,
     contact_email: input.contact_email || null,
     notes: input.notes || null,
+    price_ars_month: input.price_ars_month ?? null,
+    contract_started_at: input.contract_started_at || null,
     password_hash,
     invite_token_hash,
     invite_expires_at,

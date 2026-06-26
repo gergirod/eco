@@ -9,16 +9,31 @@ import {
   parseParesString,
 } from "@/lib/design-partners";
 import { formatAccessExpiry } from "@/lib/partner-invite";
+import {
+  ICP_DEFAULT_PLAN,
+  ICP_LABELS,
+  PARTNER_ICPS,
+  PLAN_LABELS,
+  PLAN_MAX_BRANDS,
+  plansForIcp,
+  type PartnerIcp,
+  type PartnerPlan,
+} from "@/lib/partners";
 
 type PartnerApiRow = {
   id: string;
   name: string;
+  icp?: PartnerIcp;
+  plan?: PartnerPlan;
   brand_slugs: string[];
   competitor_slugs: string[];
   competitor_by_brand: Record<string, string>;
+  channel_ids?: string[];
+  benchmark_channel_ids?: string[];
   active: boolean;
   contact_email?: string;
   notes?: string;
+  price_ars_month?: number;
   has_password: boolean;
   pending_invite?: boolean;
   invite_expires_at?: string;
@@ -91,6 +106,8 @@ function PartnerCard({
   const [inviteBusy, setInviteBusy] = useState(false);
   const [inviteUrl, setInviteUrl] = useState<string | null>(null);
   const [inviteExpiresAt, setInviteExpiresAt] = useState<string | null>(null);
+  const icp = partner.icp || "agencia";
+  const plan = partner.plan || ICP_DEFAULT_PLAN[icp];
   const pairs = partner.brand_slugs.map((brandSlug) => ({
     brandSlug,
     brandName: brandDisplayName(brandSlug),
@@ -106,6 +123,19 @@ function PartnerCard({
         <div>
           <h3 className="text-[16px] font-semibold text-ink">{partner.name}</h3>
           <p className="text-[12px] text-gray-400 font-mono mt-0.5">id: {partner.id}</p>
+          <div className="flex flex-wrap gap-2 mt-2">
+            <span className="text-[10px] uppercase tracking-wide px-2 py-0.5 rounded bg-accent-soft text-accent font-medium">
+              {ICP_LABELS[icp]}
+            </span>
+            <span className="text-[10px] uppercase tracking-wide px-2 py-0.5 rounded bg-gray-100 text-gray-600 font-medium">
+              {PLAN_LABELS[plan]}
+            </span>
+            {partner.price_ars_month ? (
+              <span className="text-[10px] px-2 py-0.5 rounded bg-gray-50 text-gray-500">
+                ARS {partner.price_ars_month.toLocaleString("es-AR")}/mes
+              </span>
+            ) : null}
+          </div>
           {partner.contact_email && (
             <p className="text-[12px] text-gray-500 mt-1">{partner.contact_email}</p>
           )}
@@ -125,31 +155,54 @@ function PartnerCard({
         </span>
       </div>
 
-      <div className="space-y-3 mb-5">
-        {pairs.map((pair) => (
-          <div
-            key={pair.brandSlug}
-            className="flex flex-wrap items-center gap-2 text-[13px] bg-gray-50 rounded-lg px-3 py-2"
-          >
-            <Link href={`/marcas/${pair.brandSlug}`} className="font-medium text-accent hover:underline">
-              {pair.brandName}
-            </Link>
-            {pair.competitorSlug ? (
-              <>
-                <span className="text-gray-300">vs</span>
-                <Link
-                  href={`/marcas/${pair.competitorSlug}`}
-                  className="text-gray-600 hover:text-accent hover:underline"
-                >
-                  {pair.competitorName}
-                </Link>
-              </>
-            ) : (
-              <span className="text-gray-400 text-[12px]">sin competidor</span>
-            )}
+      {icp === "canal" ? (
+        <div className="space-y-2 mb-5 text-[13px] bg-gray-50 rounded-lg px-3 py-2">
+          <div>
+            <span className="text-gray-500">Canal: </span>
+            {partner.channel_ids?.map((ch) => (
+              <Link
+                key={ch}
+                href={`/canales/${ch}`}
+                className="font-medium text-accent hover:underline mr-2"
+              >
+                {ch}
+              </Link>
+            ))}
           </div>
-        ))}
-      </div>
+          {partner.benchmark_channel_ids?.length ? (
+            <div>
+              <span className="text-gray-500">Benchmark: </span>
+              {partner.benchmark_channel_ids.join(", ")}
+            </div>
+          ) : null}
+        </div>
+      ) : (
+        <div className="space-y-3 mb-5">
+          {pairs.map((pair) => (
+            <div
+              key={pair.brandSlug}
+              className="flex flex-wrap items-center gap-2 text-[13px] bg-gray-50 rounded-lg px-3 py-2"
+            >
+              <Link href={`/marcas/${pair.brandSlug}`} className="font-medium text-accent hover:underline">
+                {pair.brandName}
+              </Link>
+              {pair.competitorSlug ? (
+                <>
+                  <span className="text-gray-300">vs</span>
+                  <Link
+                    href={`/marcas/${pair.competitorSlug}`}
+                    className="text-gray-600 hover:text-accent hover:underline"
+                  >
+                    {pair.competitorName}
+                  </Link>
+                </>
+              ) : (
+                <span className="text-gray-400 text-[12px]">sin competidor</span>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
 
       <div className="border-t border-[#ececec] pt-4 mb-4 space-y-2">
         <div className="text-[11px] uppercase tracking-wide text-gray-400 mb-2">Acceso plataforma</div>
@@ -211,23 +264,25 @@ function PartnerCard({
         )}
       </div>
 
-      <div className="border-t border-[#ececec] pt-4">
-        <div className="text-[11px] uppercase tracking-wide text-gray-400 mb-2">
-          Generar brief (viernes o gancho gratis)
+      {icp !== "canal" && partner.brand_slugs.length > 0 && (
+        <div className="border-t border-[#ececec] pt-4">
+          <div className="text-[11px] uppercase tracking-wide text-gray-400 mb-2">
+            Generar brief (viernes o gancho gratis)
+          </div>
+          <ul className="space-y-2">
+            {partner.brand_slugs.map((slug) => (
+              <li key={slug} className="text-[13px]">
+                <Link
+                  href={`/marcas/${slug}?tab=informes`}
+                  className="text-accent hover:underline font-medium"
+                >
+                  {brandDisplayName(slug)} → Informes → PDF
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
-        <ul className="space-y-2">
-          {partner.brand_slugs.map((slug) => (
-            <li key={slug} className="text-[13px]">
-              <Link
-                href={`/marcas/${slug}?tab=informes`}
-                className="text-accent hover:underline font-medium"
-              >
-                {brandDisplayName(slug)} → Informes → PDF
-              </Link>
-            </li>
-          ))}
-        </ul>
-      </div>
+      )}
 
       {partner.notes && (
         <p className="text-[12px] text-gray-500 mt-4 border-t border-[#ececec] pt-3">
@@ -245,13 +300,27 @@ export default function DesignPartnersPanel() {
 
   const [formId, setFormId] = useState("");
   const [formName, setFormName] = useState("");
+  const [formIcp, setFormIcp] = useState<PartnerIcp>("agencia");
+  const [formPlan, setFormPlan] = useState<PartnerPlan>(ICP_DEFAULT_PLAN.agencia);
   const [formPares, setFormPares] = useState("");
+  const [formChannelId, setFormChannelId] = useState("");
+  const [formBenchmark, setFormBenchmark] = useState("");
   const [formEmail, setFormEmail] = useState("");
+  const [formPriceArs, setFormPriceArs] = useState("");
   const [saving, setSaving] = useState(false);
   const [saveMsg, setSaveMsg] = useState("");
   const [accessUrl, setAccessUrl] = useState("");
   const [accessExpiresAt, setAccessExpiresAt] = useState<string | null>(null);
   const [formAccessMonths, setFormAccessMonths] = useState("12");
+
+  const planOptions = useMemo(() => plansForIcp(formIcp), [formIcp]);
+  const maxBrands = PLAN_MAX_BRANDS[formPlan];
+
+  useEffect(() => {
+    if (!planOptions.includes(formPlan)) {
+      setFormPlan(ICP_DEFAULT_PLAN[formIcp]);
+    }
+  }, [formIcp, formPlan, planOptions]);
 
   const loadPartners = useCallback(async () => {
     setLoadError("");
@@ -309,12 +378,35 @@ export default function DesignPartnersPanel() {
     setAccessUrl("");
     setAccessExpiresAt(null);
 
-    const { brand_slugs, competitor_by_brand } = parseParesString(formPares);
-    if (!brand_slugs.length) {
-      setSaveMsg("Usá slugs en pares: iol-inversiones:geniol");
+    const isCanal = formIcp === "canal";
+    let brand_slugs: string[] = [];
+    let competitor_by_brand: Record<string, string> = {};
+
+    if (!isCanal) {
+      const parsed = parseParesString(formPares);
+      brand_slugs = parsed.brand_slugs;
+      competitor_by_brand = parsed.competitor_by_brand;
+      if (!brand_slugs.length) {
+        setSaveMsg("Usá slugs en pares: iol-inversiones:geniol");
+        setSaving(false);
+        return;
+      }
+    }
+
+    const channel_ids = formChannelId.trim() ? [formChannelId.trim()] : [];
+    const benchmark_channel_ids = formBenchmark
+      .split(",")
+      .map((s) => s.trim())
+      .filter(Boolean);
+
+    if (isCanal && !channel_ids.length) {
+      setSaveMsg("ICP canal requiere el ID del canal (ej. olga)");
       setSaving(false);
       return;
     }
+
+    const priceParsed = parseInt(formPriceArs.replace(/\D/g, ""), 10);
+    const price_ars_month = Number.isFinite(priceParsed) && priceParsed > 0 ? priceParsed : undefined;
 
     try {
       const res = await fetch("/api/operacion/partners", {
@@ -324,10 +416,16 @@ export default function DesignPartnersPanel() {
         body: JSON.stringify({
           id: formId.trim(),
           name: formName.trim(),
+          icp: formIcp,
+          plan: formPlan,
           brand_slugs,
           competitor_by_brand,
+          channel_ids: isCanal ? channel_ids : undefined,
+          benchmark_channel_ids: isCanal ? benchmark_channel_ids : undefined,
           contact_email: formEmail.trim() || undefined,
           access_months: parsedAccessMonths,
+          price_ars_month,
+          contract_started_at: new Date().toISOString().slice(0, 10),
           active: true,
         }),
       });
@@ -351,12 +449,16 @@ export default function DesignPartnersPanel() {
 
   const mailTemplate = useMemo(() => {
     if (!formName && !accessUrl && !partners[0]) return "";
-    const name = formName || partners[0]?.name || "[Agencia]";
+    const name = formName || partners[0]?.name || "[Cliente]";
     const link = accessUrl || "https://[tu-dominio]/acceso/entrar/[link-unico]";
     const validity =
       parsedAccessMonths > 0
         ? `El link vence en ${parsedAccessMonths} mes${parsedAccessMonths === 1 ? "" : "es"}.`
         : "El link no vence (hasta que lo revoques).";
+    const scopeLine =
+      formIcp === "canal"
+        ? "Ves tu canal, benchmark del mercado, certificados y tendencias."
+        : "Ves tus marcas y competidores del contrato, más el mercado de streaming (canales, programas, tendencias).";
     return `Hola,
 
 Tu espacio en ECO Intelligence está listo.
@@ -364,14 +466,14 @@ Tu espacio en ECO Intelligence está listo.
 Entrá acá (un click, sin contraseña):
 ${link}
 
-Solo funciona para ${name} — ves únicamente tus marcas y competidores del contrato.
+Solo funciona para ${name} — ${scopeLine}
 ${validity}
 
 El brief semanal sigue por mail. La plataforma es para profundizar con evidencia al minuto.
 
 —
 ECO Intelligence`;
-  }, [formName, partners, accessUrl, parsedAccessMonths]);
+  }, [formName, formIcp, partners, accessUrl, parsedAccessMonths]);
 
   return (
     <div className="space-y-6 max-w-4xl">
@@ -428,14 +530,12 @@ ECO Intelligence`;
       <div className="card p-5">
         <h2 className="text-[15px] font-semibold mb-1">Alta de cliente</h2>
         <p className="text-[13px] text-gray-500 mb-4">
-          Slugs de <code className="text-[11px] bg-gray-100 px-1 rounded">brands.json</code> — 1
-          competidor por marca. Se genera un <strong>link único de acceso</strong> — el cliente entra
-          con un click; vos usás /backoffice.
+          Elegí ICP y plan — los límites de marcas se validan al guardar. Link único automático.
         </p>
         <form onSubmit={savePartner} className="space-y-3">
           <div className="grid sm:grid-cols-2 gap-3">
             <label className="text-[12px] text-gray-600">
-              ID agencia
+              ID cliente
               <input
                 value={formId}
                 onChange={(e) => setFormId(e.target.value.replace(/\s+/g, "-").toLowerCase())}
@@ -453,16 +553,75 @@ ECO Intelligence`;
                 required
               />
             </label>
-            <label className="text-[12px] text-gray-600 sm:col-span-2">
-              Pares <span className="text-gray-400">slug-marca:slug-competidor</span>
-              <input
-                value={formPares}
-                onChange={(e) => setFormPares(e.target.value)}
-                className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px] font-mono"
-                placeholder="iol-inversiones:geniol,wanderlust:rexona"
-                required
-              />
+            <label className="text-[12px] text-gray-600">
+              ICP
+              <select
+                value={formIcp}
+                onChange={(e) => setFormIcp(e.target.value as PartnerIcp)}
+                className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px] bg-white"
+              >
+                {PARTNER_ICPS.map((icp) => (
+                  <option key={icp} value={icp}>
+                    {ICP_LABELS[icp]}
+                  </option>
+                ))}
+              </select>
             </label>
+            <label className="text-[12px] text-gray-600">
+              Plan
+              <select
+                value={formPlan}
+                onChange={(e) => setFormPlan(e.target.value as PartnerPlan)}
+                className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px] bg-white"
+              >
+                {planOptions.map((plan) => (
+                  <option key={plan} value={plan}>
+                    {PLAN_LABELS[plan]}
+                  </option>
+                ))}
+              </select>
+              {formIcp !== "canal" && (
+                <span className="text-[11px] text-gray-400">
+                  Máx. {maxBrands} marca{maxBrands === 1 ? "" : "s"}
+                </span>
+              )}
+            </label>
+
+            {formIcp === "canal" ? (
+              <>
+                <label className="text-[12px] text-gray-600">
+                  Canal principal <span className="text-gray-400">id en channels.json</span>
+                  <input
+                    value={formChannelId}
+                    onChange={(e) => setFormChannelId(e.target.value.replace(/\s+/g, "").toLowerCase())}
+                    className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px] font-mono"
+                    placeholder="olga"
+                    required
+                  />
+                </label>
+                <label className="text-[12px] text-gray-600 sm:col-span-2">
+                  Benchmark canales <span className="text-gray-400">opcional, separados por coma</span>
+                  <input
+                    value={formBenchmark}
+                    onChange={(e) => setFormBenchmark(e.target.value)}
+                    className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px] font-mono"
+                    placeholder="luzu,bondi,blender"
+                  />
+                </label>
+              </>
+            ) : (
+              <label className="text-[12px] text-gray-600 sm:col-span-2">
+                Pares <span className="text-gray-400">slug-marca:slug-competidor</span>
+                <input
+                  value={formPares}
+                  onChange={(e) => setFormPares(e.target.value)}
+                  className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px] font-mono"
+                  placeholder="iol-inversiones:geniol,wanderlust:rexona"
+                  required
+                />
+              </label>
+            )}
+
             <label className="text-[12px] text-gray-600 sm:col-span-2">
               Email contacto
               <input
@@ -471,6 +630,15 @@ ECO Intelligence`;
                 onChange={(e) => setFormEmail(e.target.value)}
                 className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px]"
                 placeholder="para tu referencia — el link lo mandás vos"
+              />
+            </label>
+            <label className="text-[12px] text-gray-600">
+              Precio ARS/mes
+              <input
+                value={formPriceArs}
+                onChange={(e) => setFormPriceArs(e.target.value)}
+                className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px]"
+                placeholder="280000"
               />
             </label>
             <label className="text-[12px] text-gray-600">
@@ -509,6 +677,7 @@ ECO Intelligence`;
           <code className="bg-gray-100 px-1 rounded">
             python onboard_partner.py --search &quot;marca&quot;
           </code>
+          · Specs: MARKET-002 · SPEC-010
         </p>
       </div>
 
@@ -559,9 +728,8 @@ ECO Intelligence`;
       <div className="card p-5 bg-gray-50 text-[12px] text-gray-600 space-y-2">
         <p>
           <strong>Setup Supabase (una vez):</strong> corré{" "}
-          <code className="bg-white px-1 rounded">webapp/supabase_partners_schema.sql</code> y{" "}
-          <code className="bg-white px-1 rounded">supabase_partners_invite_migration.sql</code> en SQL
-          Editor.
+          <code className="bg-white px-1 rounded">webapp/supabase_partners_full_setup.sql</code> en
+          SQL Editor (un solo archivo — crea la tabla completa).
         </p>
         <p>
           <strong>Vercel:</strong>{" "}

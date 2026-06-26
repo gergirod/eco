@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import {
   PARTNER_COOKIE,
   partnerSessionToken,
+  partnerToSession,
 } from "@/lib/partner-auth";
 import { verifyPartnerLogin } from "@/lib/partners-store";
 
@@ -33,12 +34,7 @@ export async function POST(req: Request) {
   const token = await partnerSessionToken(partnerId, password);
   const res = NextResponse.json({
     ok: true,
-    partner: {
-      id: partner.id,
-      name: partner.name,
-      brand_slugs: partner.brand_slugs,
-      competitor_slugs: partner.competitor_slugs,
-    },
+    partner: partnerToSession(partner),
   });
   res.cookies.set(PARTNER_COOKIE, token, {
     httpOnly: true,

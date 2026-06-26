@@ -14,6 +14,7 @@ import {
   isPartnerPublicPath,
   marcasSlugFromPath,
   partnerCanViewSlug,
+  partnerLandingPath,
   partnerSessionValid,
 } from "@/lib/partner-auth";
 import { isAccessLinkExpired } from "@/lib/partner-invite";
@@ -62,7 +63,9 @@ export async function middleware(req: NextRequest) {
       partner.invite_token_hash &&
       !isAccessLinkExpired(partner.invite_expires_at)
     ) {
-      const res = NextResponse.redirect(new URL("/marcas", req.url));
+      const res = NextResponse.redirect(
+        new URL(partnerLandingPath(partner), req.url)
+      );
       res.cookies.set(PARTNER_COOKIE, `${partner.id}.${partner.invite_token_hash}`, {
         httpOnly: true,
         secure: process.env.NODE_ENV === "production",

@@ -1,7 +1,7 @@
 /** Auth de design partners — acceso scoped a marcas del contrato. */
 
 import type { PartnerRecord } from "@/lib/partners";
-import { partnerCompetitorSlugs } from "@/lib/partners";
+import { normalizePartnerIcp, normalizePartnerPlan, partnerCompetitorSlugs } from "@/lib/partners";
 import { getPartnerById } from "@/lib/partners-store";
 
 export const PARTNER_COOKIE = "eco_partner_session";
@@ -9,9 +9,41 @@ export const PARTNER_COOKIE = "eco_partner_session";
 export type PartnerSession = {
   id: string;
   name: string;
+  icp: PartnerRecord["icp"];
+  plan: PartnerRecord["plan"];
   brand_slugs: string[];
   competitor_slugs: string[];
+  channel_ids?: string[];
+  benchmark_channel_ids?: string[];
 };
+
+export function partnerToSession(partner: PartnerRecord): PartnerSession {
+  const icp = normalizePartnerIcp(partner.icp);
+  return {
+    id: partner.id,
+    name: partner.name,
+    icp,
+    plan: normalizePartnerPlan(partner.plan, icp),
+    brand_slugs: partner.brand_slugs,
+    competitor_slugs: partnerCompetitorSlugs(partner),
+    channel_ids: partner.channel_ids,
+    benchmark_channel_ids: partner.benchmark_channel_ids,
+  };
+}
+
+/** Landing post-login por ICP — SPEC-010 §5.3 */
+export function partnerLandingPath(
+  partner: Pick<PartnerRecord, "icp" | "brand_slugs" | "channel_ids">
+): string {
+  const icp = normalizePartnerIcp(partner.icp);
+  if (icp === "canal" && partner.channel_ids?.[0]) {
+    return `/canales/${partner.channel_ids[0]}`;
+  }
+  if (icp === "marca" && partner.brand_slugs[0]) {
+    return `/marcas/${partner.brand_slugs[0]}`;
+  }
+  return "/marcas";
+}
 
 export function accessMode(): "open" | "partners" {
   return process.env.ECO_ACCESS_MODE === "partners" ? "partners" : "open";
@@ -81,12 +113,7 @@ export async function partnerSessionValid(
 
   const storedHash = (partner as { password_hash?: string }).password_hash;
   if (storedHash && storedHash === parsed.token) {
-    return {
-      id: partner.id,
-      name: partner.name,
-      brand_slugs: partner.brand_slugs,
-      competitor_slugs: partnerCompetitorSlugs(partner),
-    };
+    return partnerToSession(partner);
   }
 
   // Sesión por link de acceso (magic link del cliente)
@@ -95,12 +122,7 @@ export async function partnerSessionValid(
   if (accessHash && accessHash === parsed.token) {
     const { isAccessLinkExpired } = await import("@/lib/partner-invite");
     if (!isAccessLinkExpired(accessExpires)) {
-      return {
-        id: partner.id,
-        name: partner.name,
-        brand_slugs: partner.brand_slugs,
-        competitor_slugs: partnerCompetitorSlugs(partner),
-      };
+      return partnerToSession(partner);
     }
   }
 
@@ -110,12 +132,7 @@ export async function partnerSessionValid(
   if (password) {
     const expected = await partnerSessionToken(partner.id, password);
     if (expected === `${partner.id}.${parsed.token}`) {
-      return {
-        id: partner.id,
-        name: partner.name,
-        brand_slugs: partner.brand_slugs,
-        competitor_slugs: partnerCompetitorSlugs(partner),
-      };
+      return partnerToSession(partner);
     }
   }
 
