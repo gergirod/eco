@@ -4,9 +4,11 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { useParams } from "next/navigation";
 import AudienceDemandPanel from "@/components/programs/AudienceDemandPanel";
+import MomentModal from "@/components/MomentModal";
 import { Badge, Stat } from "@/components/ui";
 import { evidenceLabel, evidenceTone } from "@/lib/campaign";
 import { getProgram } from "@/lib/programs";
+import { detectShowFormat } from "@/lib/showFormat";
 import { useDataset } from "@/lib/useDataset";
 import { compact, fmtHMS, num, vodLink } from "@/lib/format";
 import { usdEst } from "@/lib/valuation";
@@ -56,6 +58,7 @@ export default function ProgramaProfilePage() {
   }
 
   const channelLabel = chName[program.channel] || program.channel_name;
+  const show = detectShowFormat(program.channel, program.title);
   const totalValue = program.pnt.reduce((s, r) => s + (r.value_usd || 0), 0);
   const topBrand = [...program.pnt].sort((a, b) => (b.conc_at || 0) - (a.conc_at || 0))[0];
 
@@ -70,14 +73,42 @@ export default function ProgramaProfilePage() {
           {channelLabel}
         </Link>
         <span className="text-gray-300">/</span>
-        <span className="text-gray-700 line-clamp-1">Programa</span>
+        <Link href={`/canales/${program.channel}?tab=formatos`} className="hover:text-accent">
+          Formatos
+        </Link>
+        <span className="text-gray-300">/</span>
+        <Link
+          href={`/canales/${program.channel}?tab=programas&show=${show.id}`}
+          className="hover:text-accent"
+        >
+          {show.name}
+        </Link>
+        <span className="text-gray-300">/</span>
+        <span className="text-gray-700 line-clamp-1">Emisión</span>
       </nav>
 
       <header className="mb-6">
-        <p className="text-[11px] uppercase tracking-wide text-gray-400 mb-2">{channelLabel} · {program.date}</p>
+        <p className="text-[11px] uppercase tracking-wide text-accent font-medium mb-1.5">
+          Una emisión · {program.date}
+        </p>
         <h1 className="text-[22px] sm:text-[26px] font-semibold tracking-tight text-ink leading-snug">
           {program.title}
         </h1>
+        <p className="text-[13px] text-gray-500 mt-2 max-w-2xl leading-relaxed">
+          Todo lo de abajo es de <b className="text-gray-700">este vivo</b> — minuto a minuto, marcas y
+          atención de esa emisión ({show.name}, {program.date}). Para el acumulado del show andá a{" "}
+          <Link
+            href={`/canales/${program.channel}?tab=programas&show=${show.id}`}
+            className="text-accent font-medium hover:underline"
+          >
+            {show.name} en {channelLabel}
+          </Link>
+          ; para todas las emisiones del canal, a{" "}
+          <Link href={`/canales/${program.channel}?tab=programas`} className="text-accent font-medium hover:underline">
+            Emisiones
+          </Link>
+          .
+        </p>
       </header>
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
@@ -119,7 +150,7 @@ export default function ProgramaProfilePage() {
               return (
                 <Link
                   key={slug}
-                  href={`/marcas/${slug}`}
+                  href={`/marcas/${slug}?channel=${program.channel}`}
                   className="text-[13px] px-3 py-1.5 rounded-lg bg-gray-50 text-gray-800 hover:bg-accent-soft hover:text-accent border border-[#ececec]"
                 >
                   {row?.brand_name || slug}
@@ -163,7 +194,7 @@ export default function ProgramaProfilePage() {
                 >
                   <td>
                     <Link
-                      href={`/marcas/${row.brand_slug}`}
+                      href={`/marcas/${row.brand_slug}?channel=${program.channel}`}
                       className="text-accent hover:underline text-[12.5px]"
                       onClick={(e) => e.stopPropagation()}
                     >
@@ -212,7 +243,7 @@ export default function ProgramaProfilePage() {
 
       {program.views > 0 && (
         <p className="text-[12px] text-gray-400 mt-6">
-          {num(program.views)} views acumuladas en el export ·{" "}
+          {num(program.views)} reproducciones VOD de esta emisión ·{" "}
           {program.dur_min ? `${program.dur_min} min de emisión` : "duración no disponible"}
           {moment && (moment as { has_chat?: boolean }).has_chat === false ? " · sin chat capturado" : ""}
         </p>

@@ -2,7 +2,8 @@
 
 export const CHANNEL_PROFILE_TABS = [
   { id: "descripcion", label: "Descripción" },
-  { id: "programas", label: "Programas" },
+  { id: "formatos", label: "Formatos" },
+  { id: "programas", label: "Emisiones" },
   { id: "marcas", label: "Marcas activas" },
   { id: "actividad", label: "Actividad comercial" },
   { id: "audiencia", label: "Audiencia" },

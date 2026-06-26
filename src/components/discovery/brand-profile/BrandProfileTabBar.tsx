@@ -6,12 +6,17 @@ import { BRAND_PROFILE_TABS } from "./tabs";
 type Props = {
   active: BrandProfileTabId;
   onSelect: (id: BrandProfileTabId) => void;
+  /** Ocultar tabs que no aplican en vista acotada a un canal. */
+  hideTabIds?: BrandProfileTabId[];
 };
 
-export default function BrandProfileTabBar({ active, onSelect }: Props) {
+export default function BrandProfileTabBar({ active, onSelect, hideTabIds = [] }: Props) {
+  const hidden = new Set(hideTabIds);
+  const tabs = BRAND_PROFILE_TABS.filter((t) => !hidden.has(t.id));
+
   return (
     <div className="flex gap-2 mb-6 border-b border-[#ececec] pb-3 overflow-x-auto scrollbar-none">
-      {BRAND_PROFILE_TABS.map((t) => (
+      {tabs.map((t) => (
         <button
           key={t.id}
           type="button"

@@ -35,6 +35,7 @@ function CanalProfileInner() {
   const coverage = useMemo(() => getPlatformCoverage(loadDiscoveryDataset()), []);
 
   const tab = parseChannelProfileTab(searchParams.get("tab"));
+  const showFilter = searchParams.get("show");
 
   const profile = useMemo(
     () =>
@@ -50,8 +51,11 @@ function CanalProfileInner() {
   );
 
   function selectTab(id: ChannelProfileTabId) {
-    const url = id === "descripcion" ? `/canales/${channelId}` : `/canales/${channelId}?tab=${id}`;
-    router.replace(url, { scroll: false });
+    const params = new URLSearchParams();
+    if (id !== "descripcion") params.set("tab", id);
+    if (id === "programas" && showFilter) params.set("show", showFilter);
+    const q = params.toString();
+    router.replace(q ? `/canales/${channelId}?${q}` : `/canales/${channelId}`, { scroll: false });
   }
 
   useEffect(() => {
@@ -114,6 +118,7 @@ function CanalProfileInner() {
         allBenchmark={benchmark as Parameters<typeof ChannelProfileSections>[0]["allBenchmark"]}
         allAudience={audience as Parameters<typeof ChannelProfileSections>[0]["allAudience"]}
         chName={Object.fromEntries(channels.map((c) => [c.id, c.name]))}
+        showFilter={showFilter}
       />
     </div>
   );

@@ -77,7 +77,7 @@ export default function ChannelProfileHero({ profile }: Props) {
         <div className="flex flex-wrap items-center gap-3">
           {topBrand && (
             <Link
-              href={`/marcas/${topBrand.slug}`}
+              href={`/marcas/${topBrand.slug}?channel=${profile.config.id}`}
               className="btn btn-primary"
             >
               Investigar {topBrand.name}

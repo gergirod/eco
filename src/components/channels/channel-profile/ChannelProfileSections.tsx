@@ -9,6 +9,7 @@ import { ATTENTION_DEFINITION } from "@/lib/coverage";
 import type { ChannelBenchmark, ChannelAudience, ChannelProfile } from "@/lib/channelProfile";
 import { compact, num, vodLink } from "@/lib/format";
 import { PROMINENCE_BAR } from "@/lib/prominence";
+import { rollupsByShow } from "@/lib/showFormat";
 import { VALUATION_HINT, VALUATION_INFO, usdEst } from "@/lib/valuation";
 import type { ChannelProfileTabId } from "./tabs";
 
@@ -19,6 +20,8 @@ type Props = {
   allAudience?: ChannelAudience[];
   chName: Record<string, string>;
   onOpenActivation?: (row: ChannelProfile["activations"][0]) => void;
+  /** Filtra emisiones por formato (?show=ndn). */
+  showFilter?: string | null;
 };
 
 function SegBar({ parts }: { parts: { label: string; value: number; color: string }[] }) {
@@ -62,7 +65,7 @@ function DescripcionSection({ profile }: { profile: ChannelProfile }) {
           {config.subscribers ? <> con <b>{config.subscribers}</b> suscriptores</> : null}
           {audience ? (
             <>
-              . En el período capturado registramos <b>{audience.videos}</b> programas con atención
+              . En el período capturado registramos <b>{audience.videos}</b> emisiones con atención
               medida — promedio <b>{num(audience.avg_concurrent)}</b> concurrentes, pico{" "}
               <b>{compact(audience.peak_concurrent)}</b>.
             </>
@@ -81,9 +84,9 @@ function DescripcionSection({ profile }: { profile: ChannelProfile }) {
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         <Stat
-          label="Programas capturados"
+          label="Emisiones capturadas"
           value={stats?.videos_processed ?? audience?.videos ?? "—"}
-          hint="con data en el período"
+          hint="vivos del período"
         />
         <Stat
           label="Marcas activas"
@@ -105,27 +108,153 @@ function DescripcionSection({ profile }: { profile: ChannelProfile }) {
   );
 }
 
-function ProgramasSection({
+function FormatosSection({
   profile,
-  chName,
+  channelId,
 }: {
   profile: ChannelProfile;
-  chName: Record<string, string>;
+  channelId: string;
 }) {
-  const { programs } = profile;
-  if (!programs.length) {
+  const rollups = useMemo(() => rollupsByShow(profile.programs), [profile.programs]);
+
+  if (!rollups.length) {
     return (
       <p className="text-[14px] text-gray-500">
-        Sin programas con apariciones comerciales en el período.
+        Sin formatos con pauta en el período — cuando haya emisiones con marcas, los agrupamos por
+        nombre del show (NDN, AQN, etc.).
       </p>
     );
   }
 
   return (
-    <div className="flex flex-col gap-3">
-      {programs.map((p) => (
-        <ProgramListCard key={p.video_id} program={p} chName={chName} />
-      ))}
+    <div>
+      <p className="text-[13.5px] text-gray-600 mb-5 max-w-[640px] leading-relaxed">
+        Un <b>formato</b> es el show (ej. Nadie Dice Nada). Cada fila abajo agrupa las{" "}
+        <b>emisiones</b> diarias de ese formato en el período capturado.
+      </p>
+      <div className="grid gap-4 sm:grid-cols-2">
+        {rollups.map((r) => (
+          <div key={r.show.id} className="card p-5">
+            <h2 className="text-[16px] font-semibold text-ink mb-1">{r.show.name}</h2>
+            <p className="text-[12.5px] text-gray-500 mb-4">
+              {r.emissionCount} {r.emissionCount === 1 ? "emisión" : "emisiones"} ·{" "}
+              {r.mentionCount} apariciones · {r.brandSlugs.size}{" "}
+              {r.brandSlugs.size === 1 ? "marca" : "marcas"}
+            </p>
+            {r.peakAttention > 0 ? (
+              <p className="text-[12.5px] text-gray-600 mb-4">
+                Pico de atención en el período: <b>{compact(r.peakAttention)}</b>
+              </p>
+            ) : null}
+            <Link
+              href={`/canales/${channelId}?tab=programas&show=${r.show.id}`}
+              className="text-[13px] text-accent font-medium hover:underline"
+            >
+              Ver emisiones →
+            </Link>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function EmisionesSection({
+  profile,
+  chName,
+  showFilter,
+  channelId,
+}: {
+  profile: ChannelProfile;
+  chName: Record<string, string>;
+  showFilter?: string | null;
+  channelId: string;
+}) {
+  const rollups = useMemo(() => rollupsByShow(profile.programs), [profile.programs]);
+  const activeRollup = showFilter
+    ? rollups.find((r) => r.show.id === showFilter) || null
+    : null;
+  const programs = activeRollup ? activeRollup.emissions : profile.programs;
+
+  if (!profile.programs.length) {
+    return (
+      <p className="text-[14px] text-gray-500">
+        Sin emisiones con apariciones comerciales en el período.
+      </p>
+    );
+  }
+
+  if (showFilter && !activeRollup) {
+    return (
+      <p className="text-[14px] text-gray-500">
+        Sin emisiones para ese formato.{" "}
+        <Link href={`/canales/${channelId}?tab=programas`} className="text-accent hover:underline">
+          Ver todas las emisiones
+        </Link>
+        .
+      </p>
+    );
+  }
+
+  if (showFilter && activeRollup) {
+    return (
+      <div>
+        <div className="mb-5 flex flex-wrap items-center gap-3">
+          <Link
+            href={`/canales/${channelId}?tab=formatos`}
+            className="text-[13px] text-gray-500 hover:text-accent"
+          >
+            ← Formatos
+          </Link>
+          <span className="text-[13px] text-gray-400">·</span>
+          <span className="text-[14px] font-medium text-ink">{activeRollup.show.name}</span>
+        </div>
+        <p className="text-[13px] text-gray-500 mb-4">
+          {programs.length} {programs.length === 1 ? "emisión" : "emisiones"} de{" "}
+          {activeRollup.show.name} en el período.
+        </p>
+        <div className="flex flex-col gap-3">
+          {programs.map((p) => (
+            <ProgramListCard key={p.video_id} program={p} chName={chName} />
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <p className="text-[13.5px] text-gray-600 mb-5 max-w-[640px] leading-relaxed">
+        Cada tarjeta es <b>un vivo de un día</b> (un VOD). Para ver el acumulado por show, andá a{" "}
+        <Link href={`/canales/${channelId}?tab=formatos`} className="text-accent font-medium hover:underline">
+          Formatos
+        </Link>
+        .
+      </p>
+      <div className="flex flex-col gap-8">
+        {rollups.map((r) => (
+          <section key={r.show.id}>
+            <div className="flex flex-wrap items-baseline justify-between gap-2 mb-3">
+              <h2 className="text-[15px] font-semibold">{r.show.name}</h2>
+              <Link
+                href={`/canales/${channelId}?tab=programas&show=${r.show.id}`}
+                className="text-[12.5px] text-accent font-medium hover:underline"
+              >
+                Solo este formato →
+              </Link>
+            </div>
+            <p className="text-[12px] text-gray-400 mb-3">
+              {r.emissionCount} {r.emissionCount === 1 ? "emisión" : "emisiones"} ·{" "}
+              {r.mentionCount} apariciones
+            </p>
+            <div className="flex flex-col gap-3">
+              {r.emissions.map((p) => (
+                <ProgramListCard key={p.video_id} program={p} chName={chName} />
+              ))}
+            </div>
+          </section>
+        ))}
+      </div>
     </div>
   );
 }
@@ -149,7 +278,10 @@ function MarcasSection({ profile }: { profile: ChannelProfile }) {
         {brands.map((b) => (
           <div key={b.slug}>
             <div className="flex justify-between text-[13px] mb-1">
-              <Link href={`/marcas/${b.slug}`} className="font-medium hover:text-accent">
+              <Link
+                href={`/marcas/${b.slug}?channel=${profile.config.id}`}
+                className="font-medium text-accent hover:underline"
+              >
                 {b.name}
               </Link>
               <span className="text-gray-400 tabular-nums">{b.mentions} apariciones</span>
@@ -491,12 +623,24 @@ export default function ChannelProfileSections({
   allBenchmark,
   allAudience,
   chName,
+  showFilter,
 }: Props) {
+  const channelId = profile.config.id;
+
   switch (tab) {
     case "descripcion":
       return <DescripcionSection profile={profile} />;
+    case "formatos":
+      return <FormatosSection profile={profile} channelId={channelId} />;
     case "programas":
-      return <ProgramasSection profile={profile} chName={chName} />;
+      return (
+        <EmisionesSection
+          profile={profile}
+          chName={chName}
+          showFilter={showFilter}
+          channelId={channelId}
+        />
+      );
     case "marcas":
       return <MarcasSection profile={profile} />;
     case "actividad":

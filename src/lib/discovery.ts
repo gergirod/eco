@@ -389,6 +389,123 @@ export function getAdvertiserProfile(
   };
 }
 
+/** Filtra apariciones y agregados de marca a un solo canal (desde perfil de canal). */
+export function scopeActivationsToChannel(
+  activations: DiscoveryActivation[],
+  channelId: string
+): DiscoveryActivation[] {
+  const ch = channelId.trim().toLowerCase();
+  if (!ch) return activations;
+  return activations.filter((a) => a.channel.toLowerCase() === ch);
+}
+
+export function scopeAdvertiserToChannel(
+  advertiser: DiscoveryAdvertiser,
+  activations: DiscoveryActivation[],
+  channelId: string
+): DiscoveryAdvertiser | null {
+  const scoped = scopeActivationsToChannel(activations, channelId);
+  if (!scoped.length) return null;
+  const ch = channelId.trim().toLowerCase();
+  const channelIds = advertiser.channels.filter((c) => c.toLowerCase() === ch);
+  const programs = new Set(scoped.map((a) => a.videoId));
+  const dates = scoped.map((a) => a.date).filter(Boolean).sort();
+  const peak = Math.max(0, ...scoped.map((a) => a.concurrentViewers ?? 0));
+  return {
+    ...advertiser,
+    channels: channelIds.length ? channelIds : [channelId],
+    channelCount: 1,
+    programCount: programs.size,
+    activationCount: scoped.length,
+    firstSeen: dates[0] || advertiser.firstSeen,
+    lastSeen: dates[dates.length - 1] || advertiser.lastSeen,
+    peakConcurrentViewers: peak > 0 ? peak : null,
+  };
+}
+
+export type ScopedBrandReport = {
+  name: string;
+  kind?: string;
+  mentions?: number;
+  value_usd?: number;
+  channels?: string[];
+  detail?: Record<string, unknown>[];
+  series?: { date: string; value_usd: number; mentions: number }[];
+  by_tier?: Record<string, number>;
+  by_sentiment?: Record<string, number>;
+  best?: Record<string, unknown>;
+  summary?: { by_evidence?: Record<string, number> };
+  scope?: Record<string, unknown>;
+  [key: string]: unknown;
+};
+
+export function scopeBrandReportToChannel(
+  report: ScopedBrandReport,
+  channelId: string
+): ScopedBrandReport | null {
+  const ch = channelId.trim().toLowerCase();
+  const detail = (report.detail || []).filter(
+    (d) => String(d.channel || "").toLowerCase() === ch
+  );
+  if (!detail.length) return null;
+
+  const value_usd = detail.reduce((s, d) => s + Number(d.value_usd || 0), 0);
+  const by_tier: Record<string, number> = { "1": 0, "2": 0, "3": 0 };
+  const by_sentiment: Record<string, number> = { positivo: 0, neutro: 0, negativo: 0 };
+  const byEvidence: Record<string, number> = {};
+
+  for (const d of detail) {
+    const tk = String(d.tier || "3");
+    by_tier[tk] = (by_tier[tk] || 0) + 1;
+    const sent = String(d.sentiment || "neutro").toLowerCase();
+    if (sent.startsWith("pos")) by_sentiment.positivo += 1;
+    else if (sent.startsWith("neg")) by_sentiment.negativo += 1;
+    else by_sentiment.neutro += 1;
+    const ev = String(d.evidence || "");
+    if (ev) byEvidence[ev] = (byEvidence[ev] || 0) + 1;
+  }
+
+  const seriesMap = new Map<string, { value_usd: number; mentions: number }>();
+  for (const d of detail) {
+    const date = String(d.date || "").slice(0, 10);
+    if (!date) continue;
+    const cur = seriesMap.get(date) || { value_usd: 0, mentions: 0 };
+    cur.value_usd += Number(d.value_usd || 0);
+    cur.mentions += 1;
+    seriesMap.set(date, cur);
+  }
+  const series = [...seriesMap.entries()]
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([date, v]) => ({ date, ...v }));
+
+  const bestRow = [...detail].sort(
+    (a, b) => Number(b.conc_at || 0) - Number(a.conc_at || 0)
+  )[0];
+
+  return {
+    ...report,
+    detail,
+    mentions: detail.length,
+    value_usd,
+    channels: [channelId],
+    by_tier,
+    by_sentiment,
+    series,
+    best: bestRow
+      ? {
+          channel_name: bestRow.channel_name,
+          date: bestRow.date,
+          conc_at: bestRow.conc_at,
+          t_seconds: bestRow.t_seconds,
+          value_usd: bestRow.value_usd,
+        }
+      : report.best,
+    summary: Object.keys(byEvidence).length
+      ? { by_evidence: byEvidence }
+      : report.summary,
+  };
+}
+
 // ---------------------------------------------------------------------------
 // Browse helpers (pure — read exported fields only)
 // ---------------------------------------------------------------------------

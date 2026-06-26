@@ -77,7 +77,7 @@ function CanalesListInner() {
         {heroLine}
       </h1>
       <p className="text-[14px] text-gray-500 mt-2 max-w-xl">
-        {ATTENTION_DEFINITION} Elegí un canal para ver programas, marcas activas y comparaciones.
+        {ATTENTION_DEFINITION} Elegí un canal para ver formatos, emisiones, marcas activas y comparaciones.
       </p>
       <CoverageLine coverage={coverage} />
 

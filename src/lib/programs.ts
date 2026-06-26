@@ -118,12 +118,15 @@ export function programsForBrand(
   reports: Record<string, { name: string; kind?: string; detail?: Record<string, unknown>[] }>,
   moments: Record<string, Record<string, unknown>>,
   brandSlug: string,
-  sort: BrandProgramSort = "peak"
+  sort: BrandProgramSort = "peak",
+  channelId?: string
 ): Program[] {
+  const chFilter = channelId?.trim().toLowerCase();
   const programs = buildProgramsIndex(marcaReportsOnly(reports), moments)
     .map((p) => {
       const pnt = p.pnt.filter((x) => x.brand_slug === brandSlug);
       if (!pnt.length) return null;
+      if (chFilter && p.channel.toLowerCase() !== chFilter) return null;
       return { ...p, pnt, pnt_count: pnt.length, brands: [brandSlug] };
     })
     .filter((p): p is Program => p != null);

@@ -55,6 +55,8 @@ type SectionProps = {
   campaignReport: BrandReport | null;
   onOpenMoment: (row: Record<string, unknown>) => void;
   allReports: Record<string, { name: string; detail?: Record<string, unknown>[] }>;
+  /** Vista acotada a un canal (desde perfil de canal). */
+  channelScope?: string;
 };
 
 function EvolutionChart({ series }: { series: BrandReport["series"] }) {
@@ -277,16 +279,18 @@ function ProgramasSection({
   moments,
   brandSlug,
   chName,
+  channelScope,
 }: {
   reports: Record<string, { name: string; detail?: Record<string, unknown>[] }>;
   moments: Record<string, Record<string, unknown>>;
   brandSlug: string;
   chName: Record<string, string>;
+  channelScope?: string;
 }) {
   const [sort, setSort] = useState<BrandProgramSort>("peak");
   const programs = useMemo(
-    () => programsForBrand(reports, moments, brandSlug, sort),
-    [reports, moments, brandSlug, sort]
+    () => programsForBrand(reports, moments, brandSlug, sort, channelScope),
+    [reports, moments, brandSlug, sort, channelScope]
   );
 
   if (!programs.length) {
@@ -340,15 +344,17 @@ function VideosSection({
   moments,
   brandSlug,
   chName,
+  channelScope,
 }: {
   reports: Record<string, { name: string; detail?: Record<string, unknown>[] }>;
   moments: Record<string, Record<string, unknown>>;
   brandSlug: string;
   chName: Record<string, string>;
+  channelScope?: string;
 }) {
   const programs = useMemo(
-    () => programsForBrand(reports, moments, brandSlug),
-    [reports, moments, brandSlug]
+    () => programsForBrand(reports, moments, brandSlug, "peak", channelScope),
+    [reports, moments, brandSlug, channelScope]
   );
 
   if (!programs.length) {
@@ -643,6 +649,7 @@ export default function BrandProfileSections(props: SectionProps) {
     campaignReport,
     onOpenMoment,
     allReports,
+    channelScope,
   } = props;
 
   switch (tab) {
@@ -671,6 +678,7 @@ export default function BrandProfileSections(props: SectionProps) {
           moments={moments}
           brandSlug={slug}
           chName={chName}
+          channelScope={channelScope}
         />
       );
     case "canales":
@@ -688,6 +696,7 @@ export default function BrandProfileSections(props: SectionProps) {
           moments={moments}
           brandSlug={slug}
           chName={chName}
+          channelScope={channelScope}
         />
       );
     case "informes":

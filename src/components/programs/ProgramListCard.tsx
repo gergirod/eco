@@ -44,8 +44,8 @@ export default function ProgramListCard({
               </>
             ) : (
               <>
-                {p.peak ? ` · pico programa ${compact(p.peak)}` : ""}
                 {p.pnt_count > 0 ? ` · ${p.pnt_count} apariciones de marcas` : ""}
+                {p.peak ? ` · pico ${compact(p.peak)}` : ""}
               </>
             )}
           </p>
@@ -55,7 +55,7 @@ export default function ProgramListCard({
             href={`/programas/${p.video_id}`}
             className="text-[12.5px] text-accent font-medium hover:underline"
           >
-            Ver programa →
+            Ver emisión →
           </Link>
           <a
             href={vodLink(p.video_id, p.pnt[0]?.t_seconds || 0)}

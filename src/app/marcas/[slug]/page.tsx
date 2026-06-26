@@ -10,14 +10,20 @@ import {
   type BrandProfileTabId,
 } from "@/components/discovery/brand-profile/tabs";
 import CoverageLine from "@/components/CoverageLine";
+import EntityCoverageLine from "@/components/EntityCoverageLine";
 import ProfileEvidenceHero from "@/components/discovery/ProfileEvidenceHero";
 import MomentModal from "@/components/MomentModal";
 import { campaignReportKey, findCampaignSlugForAdvertiser } from "@/lib/campaign";
+import { brandEntityCoverage } from "@/lib/coverage";
 import {
   createDiscoveryDataset,
   getAdvertiserProfile,
   getPlatformCoverage,
   pickHighlightActivation,
+  scopeActivationsToChannel,
+  scopeAdvertiserToChannel,
+  scopeBrandReportToChannel,
+  type ScopedBrandReport,
 } from "@/lib/discovery";
 import { useDataset } from "@/lib/useDataset";
 import brandsFb from "@/data/brands.json";
@@ -42,7 +48,13 @@ function MarcaProfileInner() {
   const meta = useDataset<unknown>("meta", metaFb);
 
   const [openMention, setOpenMention] = useState<Record<string, unknown> | null>(null);
-  const tab = parseBrandProfileTab(searchParams.get("tab"));
+  const channelScope = (searchParams.get("channel") || "").trim().toLowerCase() || null;
+
+  const tab = useMemo(() => {
+    const parsed = parseBrandProfileTab(searchParams.get("tab"));
+    if (channelScope && parsed === "canales") return "resumen" as BrandProfileTabId;
+    return parsed;
+  }, [searchParams, channelScope]);
 
   const dataset = useMemo(
     () => createDiscoveryDataset(brands, reports, meta),
@@ -51,18 +63,38 @@ function MarcaProfileInner() {
 
   const coverage = useMemo(() => getPlatformCoverage(dataset), [dataset]);
 
-  const profile = useMemo(() => getAdvertiserProfile(slug, dataset), [slug, dataset]);
+  const baseProfile = useMemo(() => getAdvertiserProfile(slug, dataset), [slug, dataset]);
+
+  const profile = useMemo(() => {
+    if (!baseProfile || !channelScope) return baseProfile;
+    const activations = scopeActivationsToChannel(baseProfile.activations, channelScope);
+    const advertiser = scopeAdvertiserToChannel(
+      baseProfile.advertiser,
+      baseProfile.activations,
+      channelScope
+    );
+    if (!advertiser || !activations.length) return null;
+    return {
+      advertiser,
+      activations,
+      highlight: pickHighlightActivation(activations),
+    };
+  }, [baseProfile, channelScope]);
 
   const chName = useMemo(
     () => Object.fromEntries(channels.map((c) => [c.id, c.name])),
     [channels]
   );
 
-  const report = (reports[slug] || null) as {
-    name?: string;
-    kind?: string;
-    detail?: Record<string, unknown>[];
-  } | null;
+  const channelScopeName = channelScope ? chName[channelScope] || channelScope : null;
+
+  const rawReport = (reports[slug] || null) as ScopedBrandReport | null;
+
+  const report = useMemo(() => {
+    if (!rawReport || rawReport.kind !== "marca") return rawReport;
+    if (!channelScope) return rawReport;
+    return scopeBrandReportToChannel(rawReport, channelScope);
+  }, [rawReport, channelScope]);
 
   const campaignSlug = useMemo(() => {
     if (!profile) return null;
@@ -95,17 +127,42 @@ function MarcaProfileInner() {
     return profile.highlight ?? pickHighlightActivation(profile.activations);
   }, [profile]);
 
+  function brandProfileUrl(nextTab: BrandProfileTabId) {
+    const params = new URLSearchParams();
+    if (nextTab !== "resumen") params.set("tab", nextTab);
+    if (channelScope) params.set("channel", channelScope);
+    const q = params.toString();
+    return q ? `/marcas/${slug}?${q}` : `/marcas/${slug}`;
+  }
+
   function selectTab(id: BrandProfileTabId) {
-    const url = id === "resumen" ? `/marcas/${slug}` : `/marcas/${slug}?tab=${id}`;
-    router.replace(url, { scroll: false });
+    router.replace(brandProfileUrl(id), { scroll: false });
   }
 
   useEffect(() => {
     const q = searchParams.get("tab");
     if (q && parseBrandProfileTab(q) === "resumen" && q !== "resumen") {
-      router.replace(`/marcas/${slug}`, { scroll: false });
+      router.replace(brandProfileUrl("resumen"), { scroll: false });
     }
-  }, [searchParams, slug, router]);
+  }, [searchParams, slug, router, channelScope]);
+
+  if (channelScope && !profile) {
+    return (
+      <div className="max-w-2xl">
+        <Link
+          href={`/canales/${channelScope}?tab=marcas`}
+          className="text-[13px] text-gray-500 hover:text-accent mb-5 inline-block"
+        >
+          ← {channelScopeName || "Canal"}
+        </Link>
+        <h1 className="text-[22px] font-semibold tracking-tight">Sin pauta en este canal</h1>
+        <p className="text-[13.5px] text-gray-500 mt-2">
+          Esta marca no tiene apariciones verificadas en {channelScopeName || channelScope} en el
+          período capturado.
+        </p>
+      </div>
+    );
+  }
 
   if (!profile || profile.advertiser.confidenceTier === "detected") {
     return (
@@ -139,23 +196,44 @@ function MarcaProfileInner() {
   }
 
   const { advertiser } = profile;
+  const entityCoverage = brandEntityCoverage(advertiser);
+  const hideTabIds: BrandProfileTabId[] = channelScope ? ["canales"] : [];
 
   return (
     <div className="max-w-5xl pb-10">
-      <Link
-        href="/marcas"
-        className="text-[13px] text-gray-500 hover:text-accent mb-5 inline-block"
-      >
-        ← Marcas
-      </Link>
+      {channelScope ? (
+        <Link
+          href={`/canales/${channelScope}?tab=marcas`}
+          className="text-[13px] text-gray-500 hover:text-accent mb-5 inline-block"
+        >
+          ← {channelScopeName} · Marcas activas
+        </Link>
+      ) : (
+        <Link
+          href="/marcas"
+          className="text-[13px] text-gray-500 hover:text-accent mb-5 inline-block"
+        >
+          ← Marcas
+        </Link>
+      )}
 
       <header className="mb-2">
         <h1 className="text-[28px] sm:text-[32px] font-semibold tracking-tight text-ink">
           {advertiser.name}
         </h1>
+        {channelScope && channelScopeName ? (
+          <p className="text-[14px] text-gray-500 mt-1">
+            Pauta en <b className="text-gray-700">{channelScopeName}</b> — solo apariciones de este
+            canal.
+          </p>
+        ) : null}
       </header>
 
-      <CoverageLine coverage={coverage} className="mb-4" />
+      {channelScope ? (
+        <EntityCoverageLine text={entityCoverage} className="mb-4" />
+      ) : (
+        <CoverageLine coverage={coverage} className="mb-4" />
+      )}
 
       <ProfileEvidenceHero
         advertiser={advertiser}
@@ -165,7 +243,7 @@ function MarcaProfileInner() {
         profileSlug={slug}
       />
 
-      <BrandProfileTabBar active={tab} onSelect={selectTab} />
+      <BrandProfileTabBar active={tab} onSelect={selectTab} hideTabIds={hideTabIds} />
 
       <BrandProfileSections
         tab={tab}
@@ -178,6 +256,7 @@ function MarcaProfileInner() {
         campaignReport={campaignReport}
         onOpenMoment={setOpenMention}
         allReports={reports as Record<string, { name: string; detail?: Record<string, unknown>[] }>}
+        channelScope={channelScope || undefined}
       />
 
       {openMention && (
