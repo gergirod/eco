@@ -13,6 +13,12 @@ export type ConversacionHighlight = {
 
 export type ConversacionMomentum = "sube" | "baja" | "estable" | "nuevo";
 
+export type MomentumInfo = {
+  kind: ConversacionMomentum;
+  label: string;
+  hint: string;
+};
+
 export type ConversacionTopic = {
   rank: number;
   tema: string;
@@ -24,6 +30,8 @@ export type ConversacionTopic = {
   crossComunidad: boolean;
   multiDia: boolean;
   momentum: ConversacionMomentum;
+  momentumLabel: string;
+  momentumHint: string;
   serie: { date: string; n: number }[];
   categoria: string | null;
   cluster: string | null;
@@ -72,16 +80,61 @@ function parseSerieDate(d: string): number {
   return Date.UTC(Number(m[3]), Number(m[2]) - 1, Number(m[1]));
 }
 
-function computeMomentum(serie: { date: string; n: number }[]): ConversacionMomentum {
-  if (serie.length < 2) return "nuevo";
+function computeMomentum(serie: { date: string; n: number }[]): MomentumInfo {
+  if (serie.length < 2) {
+    return {
+      kind: "nuevo",
+      label: "Tema reciente",
+      hint: "Apareció hace poco en el corpus — todavía poca historia para comparar.",
+    };
+  }
   const sorted = [...serie].sort((a, b) => parseSerieDate(a.date) - parseSerieDate(b.date));
-  const recent = sorted.slice(-3).reduce((s, p) => s + p.n, 0);
-  const prev = sorted.slice(-6, -3).reduce((s, p) => s + p.n, 0);
-  if (prev === 0) return recent > 0 ? "sube" : "nuevo";
-  const ratio = recent / prev;
-  if (ratio >= 1.25) return "sube";
-  if (ratio <= 0.75) return "baja";
-  return "estable";
+  const recent = sorted.slice(-3);
+  const prev = sorted.slice(-6, -3);
+  const recentSum = recent.reduce((s, p) => s + p.n, 0);
+  const prevSum = prev.reduce((s, p) => s + p.n, 0);
+  const recentAvg = Math.round(recentSum / Math.max(1, recent.length));
+  const prevAvg = prev.length ? Math.round(prevSum / prev.length) : null;
+
+  if (prevSum === 0) {
+    return recentSum > 0
+      ? {
+          kind: "sube",
+          label: "Ganando tracción",
+          hint: `~${recentAvg} menciones por día en los últimos ${recent.length} días con data.`,
+        }
+      : {
+          kind: "nuevo",
+          label: "Tema reciente",
+          hint: "Sin menciones previas en el período para comparar.",
+        };
+  }
+
+  const ratio = recentSum / prevSum;
+  if (ratio >= 1.25) {
+    const pct = Math.round((ratio - 1) * 100);
+    return {
+      kind: "sube",
+      label: `Más charla reciente (+${pct}%)`,
+      hint: `~${recentAvg}/día últimos días vs ~${prevAvg}/día en el tramo anterior.`,
+    };
+  }
+  if (ratio <= 0.75) {
+    const pct = Math.round((1 - ratio) * 100);
+    return {
+      kind: "baja",
+      label: `Menos charla reciente (−${pct}%)`,
+      hint: `~${recentAvg}/día últimos días vs ~${prevAvg}/día en el tramo anterior.`,
+    };
+  }
+
+  return {
+    kind: "estable",
+    label: `Ritmo parecido (~${recentAvg}/día)`,
+    hint: prevAvg
+      ? `Se habla con intensidad similar al tramo anterior (~${prevAvg}/día) — no es pico ni despegue.`
+      : `Promedio de ~${recentAvg} menciones por día en la última semana del corpus.`,
+  };
 }
 
 function rowToTopic(r: RadarRow, mergedCluster = false): Omit<ConversacionTopic, "rank" | "scorePct"> {
@@ -90,6 +143,7 @@ function rowToTopic(r: RadarRow, mergedCluster = false): Omit<ConversacionTopic,
   const cluster = r.cluster ?? null;
   const label =
     mergedCluster && cluster ? clusterLabel(cluster) : titleLabel(r.tema);
+  const mom = computeMomentum(serie);
   return {
     tema: r.tema,
     temaLabel: label,
@@ -98,7 +152,9 @@ function rowToTopic(r: RadarRow, mergedCluster = false): Omit<ConversacionTopic,
     canales: r.canales ?? [],
     crossComunidad: Boolean(r.cross_comunidad),
     multiDia: Boolean(r.multi_dia),
-    momentum: computeMomentum(serie),
+    momentum: mom.kind,
+    momentumLabel: mom.label,
+    momentumHint: mom.hint,
     serie,
     categoria: cats[0] ?? null,
     cluster,

@@ -6,14 +6,14 @@ import type { ConversacionTopic } from "@/lib/conversacion";
 import { CHANNEL_SLUG } from "@/lib/conversacion";
 import { vodLink } from "@/lib/format";
 
-const MOMENTUM: Record<
+const MOMENTUM_STYLE: Record<
   ConversacionTopic["momentum"],
-  { label: string; className: string }
+  { className: string }
 > = {
-  sube: { label: "Sube", className: "text-green-700 bg-green-50" },
-  baja: { label: "Baja", className: "text-amber-800 bg-amber-50" },
-  estable: { label: "Estable", className: "text-gray-600 bg-gray-100" },
-  nuevo: { label: "Nuevo", className: "text-accent bg-accent-soft/50" },
+  sube: { className: "text-green-700 bg-green-50 border-green-100" },
+  baja: { className: "text-amber-800 bg-amber-50 border-amber-100" },
+  estable: { className: "text-gray-600 bg-gray-50 border-gray-200" },
+  nuevo: { className: "text-accent bg-accent-soft/50 border-accent/20" },
 };
 
 const CHANNEL_STYLE: Record<string, string> = {
@@ -47,7 +47,7 @@ function mencionesLabel(topic: ConversacionTopic): string {
 export default function ConversacionRow({ topic }: Props) {
   const [open, setOpen] = useState(false);
   const [showAll, setShowAll] = useState(false);
-  const mom = MOMENTUM[topic.momentum];
+  const mom = MOMENTUM_STYLE[topic.momentum];
   const spark = topic.serie.slice(-8);
   const sparkMax = Math.max(...spark.map((p) => p.n), 1);
   const hasDetail = topic.highlights.length > 0 || topic.variantesRelacionadas.length > 0;
@@ -70,11 +70,16 @@ export default function ConversacionRow({ topic }: Props) {
           <div className="flex flex-wrap items-start justify-between gap-2 mb-2">
             <h2 className="text-[16px] font-semibold text-ink leading-snug">{topic.temaLabel}</h2>
             <span
-              className={`text-[10px] uppercase tracking-wide font-medium px-2 py-0.5 rounded-full ${mom.className}`}
+              className={`text-[10px] font-medium px-2 py-0.5 rounded-full border max-w-[200px] sm:max-w-none text-right leading-snug ${mom.className}`}
+              title={topic.momentumHint}
             >
-              {mom.label}
+              {topic.momentumLabel}
             </span>
           </div>
+
+          <p className="text-[11.5px] text-gray-500 mb-2 leading-relaxed max-w-xl">
+            {topic.momentumHint}
+          </p>
 
           <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[12px] text-gray-500 mb-1">
             <span title="Bloques de 10 min del transcript donde apareció el tema">

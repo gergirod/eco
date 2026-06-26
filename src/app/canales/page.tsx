@@ -8,6 +8,7 @@ import { getPlatformCoverage, loadDiscoveryDataset } from "@/lib/discovery";
 import { listChannelBrowseItems } from "@/lib/channelProfile";
 import { useDataset } from "@/lib/useDataset";
 import { compact, num } from "@/lib/format";
+import type { ChannelBrowseItem } from "@/lib/channelProfile";
 import audienceFb from "@/data/audience.json";
 import benchmarkFb from "@/data/benchmark.json";
 import channelsFb from "@/data/channels.json";
@@ -53,6 +54,35 @@ function CanalesListInner() {
     if (ch) router.replace(`/canales/${ch}`);
   }, [searchParams, router]);
 
+  function channelSubtitle(
+    ch: ChannelBrowseItem,
+    isTopAudience: boolean,
+    isTopBrands: boolean
+  ): string {
+    const aud =
+      ch.avgConcurrent != null && ch.avgConcurrent > 0
+        ? `promedio ${num(ch.avgConcurrent)} mirando${
+            ch.peakConcurrent ? `, pico ${compact(ch.peakConcurrent)}` : ""
+          }`
+        : null;
+
+    if (isTopAudience && isTopBrands) {
+      return aud
+        ? `Mayor audiencia y más marcas activas — ${aud}.`
+        : "Mayor audiencia y más marcas activas en el período.";
+    }
+    if (isTopAudience) {
+      return aud ? `Mayor audiencia del período — ${aud}.` : "Mayor audiencia del período.";
+    }
+    if (isTopBrands) {
+      const commercial = `Más marcas con pauta — ${ch.brands} activas, ${ch.mentions} apariciones`;
+      return aud ? `${commercial} · ${aud}.` : `${commercial}.`;
+    }
+    return aud
+      ? `${ch.mentions} apariciones · ${ch.brands} marcas · ${aud}.`
+      : `${ch.mentions} apariciones · ${ch.brands} marcas.`;
+  }
+
   return (
     <div className="max-w-4xl">
       <h1 className="text-[28px] font-semibold tracking-tight text-ink leading-tight max-w-2xl">
@@ -82,13 +112,7 @@ function CanalesListInner() {
                     {ch.name}
                   </h2>
                   <p className="text-[13.5px] text-gray-600 mt-1.5 leading-relaxed max-w-xl">
-                    {isTopAudience && isTopBrands
-                      ? `Mayor audiencia y más marcas activas — promedio ${num(ch.avgConcurrent ?? 0)} mirando${ch.peakConcurrent ? `, pico ${compact(ch.peakConcurrent)}` : ""}.`
-                      : isTopAudience
-                        ? `Mayor audiencia del período — promedio ${num(ch.avgConcurrent ?? 0)} mirando.`
-                        : isTopBrands
-                          ? `Más marcas con pauta — ${ch.brands} activas, ${ch.mentions} apariciones.`
-                          : `${ch.mentions} apariciones · ${ch.brands} marcas · promedio ${num(ch.avgConcurrent ?? 0)} mirando.`}
+                    {channelSubtitle(ch, isTopAudience, isTopBrands)}
                   </p>
                   {ch.topBrandName && (
                     <p className="text-[12.5px] text-gray-400 mt-2">
