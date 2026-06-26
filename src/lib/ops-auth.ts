@@ -20,6 +20,15 @@ export async function opsSessionValid(
   return cookieValue === (await opsSessionToken(password));
 }
 
+/** Operador logueado en backoffice — bypass del gate de clientes (SPEC-010). */
+export async function isOpsAuthenticated(
+  cookieValue: string | undefined
+): Promise<boolean> {
+  const password = process.env.BACK_OFFICE_PASSWORD;
+  if (!password) return false;
+  return opsSessionValid(cookieValue, password);
+}
+
 export const OPS_PROTECTED_PREFIXES = ["/backoffice"] as const;
 export const OPS_LOGIN_PATH = "/backoffice/login";
 

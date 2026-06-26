@@ -3,6 +3,7 @@ import type { NextRequest } from "next/server";
 import {
   OPS_COOKIE,
   OPS_LOGIN_PATH,
+  isOpsAuthenticated,
   isOpsProtectedPath,
   opsSessionValid,
 } from "@/lib/ops-auth";
@@ -85,6 +86,12 @@ export async function middleware(req: NextRequest) {
   if (!isPartnerGated()) return NextResponse.next();
 
   if (isPartnerPublicPath(pathname)) return NextResponse.next();
+
+  // Operador con sesión backoffice → vista completa (sin scope de cliente)
+  const opsCookie = req.cookies.get(OPS_COOKIE)?.value;
+  if (await isOpsAuthenticated(opsCookie)) {
+    return NextResponse.next();
+  }
 
   const partnerCookie = req.cookies.get(PARTNER_COOKIE)?.value;
   const session = await partnerSessionValid(partnerCookie);

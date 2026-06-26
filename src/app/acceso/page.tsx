@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Suspense, useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 
@@ -105,6 +106,13 @@ function AccesoForm() {
         <p className="text-[11px] text-gray-400 mt-5 leading-relaxed">
           El brief semanal llega por mail. Esta plataforma es para profundizar en cada
           aparición con evidencia verificable.
+        </p>
+        <p className="text-[12px] text-gray-500 mt-4 pt-4 border-t border-[#ececec]">
+          ¿Sos operador ECO?{" "}
+          <Link href="/backoffice/login" className="text-accent font-medium hover:underline">
+            Entrá por backoffice
+          </Link>{" "}
+          — desde ahí ves la plataforma completa.
         </p>
       </div>
     </div>

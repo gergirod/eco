@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { Suspense, useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { PageHeader } from "@/components/ui";
@@ -66,7 +67,15 @@ function BackofficeInner() {
           title="Backoffice"
           sub="Operación interna: resumen, runs, runbook, inteligencia comercial y casos de uso."
         />
-        <OpsLogout />
+        <div className="flex items-center gap-3 shrink-0">
+          <Link
+            href="/marcas"
+            className="text-[12px] px-3 py-1.5 rounded-lg border border-[#ececec] text-gray-600 hover:bg-gray-50 hover:text-accent"
+          >
+            Plataforma completa →
+          </Link>
+          <OpsLogout />
+        </div>
       </div>
 
       <div className="flex flex-wrap gap-2 mb-6 border-b border-[#ececec] pb-3">
