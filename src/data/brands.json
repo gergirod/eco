@@ -356,6 +356,82 @@
   }
  },
  {
+  "slug": "pae",
+  "name": "PAE",
+  "mentions": 5,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 4,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 15.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "7ON4ZA5TtHc",
+    "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
+    "minute": "00:08:12",
+    "views": 3648,
+    "conc_at": 369
+   },
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "XYJRLyO9exg",
+    "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
+    "minute": "00:00:30",
+    "views": 1144,
+    "conc_at": 23
+   },
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "VRWovoLU0yQ",
+    "title": "🍿 Plot Twist 👾",
+    "minute": "00:07:58",
+    "views": 741,
+    "conc_at": 173
+   },
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "minute": "00:05:45",
+    "views": 419,
+    "conc_at": 51
+   },
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "minute": "01:44:56",
+    "views": 419,
+    "conc_at": 56
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 5,
+  "n_programs": 4,
+  "peak_conc_at": 369,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 5 activaciones en 4 programas y 1 canales — 4 con evidencia completa y 1 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 4,
+   "partial": 1,
+   "insufficient": 0
+  }
+ },
+ {
   "slug": "dia",
   "name": "Día",
   "mentions": 5,
@@ -812,62 +888,6 @@
   }
  },
  {
-  "slug": "pae",
-  "name": "PAE",
-  "mentions": 3,
-  "channels": [
-   "neura"
-  ],
-  "n_channels": 1,
-  "n_videos": 3,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 12.0,
-  "samples": [
-   {
-    "channel": "neura",
-    "channel_name": "Neura Media",
-    "date": "26/06/2026",
-    "video_id": "7ON4ZA5TtHc",
-    "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
-    "minute": "00:08:12",
-    "views": 3648,
-    "conc_at": 369
-   },
-   {
-    "channel": "neura",
-    "channel_name": "Neura Media",
-    "date": "26/06/2026",
-    "video_id": "XYJRLyO9exg",
-    "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
-    "minute": "00:00:30",
-    "views": 1144,
-    "conc_at": 23
-   },
-   {
-    "channel": "neura",
-    "channel_name": "Neura Media",
-    "date": "26/06/2026",
-    "video_id": "VRWovoLU0yQ",
-    "title": "🍿 Plot Twist 👾",
-    "minute": "00:07:58",
-    "views": 741,
-    "conc_at": 173
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 3,
-  "n_programs": 3,
-  "peak_conc_at": 369,
-  "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 3 activaciones en 3 programas y 1 canales — 3 con evidencia completa y 0 con evidencia parcial.",
-  "evidence_summary": {
-   "verified": 3,
-   "partial": 0,
-   "insufficient": 0
-  }
- },
- {
   "slug": "smirnoff",
   "name": "Smirnoff",
   "mentions": 3,
@@ -1177,6 +1197,52 @@
   "n_activations": 2,
   "n_programs": 2,
   "peak_conc_at": 39723,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "ecomod",
+  "name": "Ecomod",
+  "mentions": 2,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 14.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "XYJRLyO9exg",
+    "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
+    "minute": "01:00:30",
+    "views": 1144,
+    "conc_at": 401
+   },
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "minute": "01:45:20",
+    "views": 419,
+    "conc_at": 56
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 401,
   "confidence_tier": "emerging_confidence",
   "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
   "evidence_summary": {
@@ -2155,6 +2221,42 @@
   }
  },
  {
+  "slug": "garnier-fructis",
+  "name": "Garnier Fructis",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 388.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "FYdwwoHNrMs",
+    "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+    "minute": "00:23:36",
+    "views": 34139,
+    "conc_at": 13399
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 13399,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
   "slug": "propel-fit-planet",
   "name": "Propel Fit Planet",
   "mentions": 1,
@@ -2362,42 +2464,6 @@
   "n_activations": 1,
   "n_programs": 1,
   "peak_conc_at": 405,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  }
- },
- {
-  "slug": "ecomod",
-  "name": "Ecomod",
-  "mentions": 1,
-  "channels": [
-   "neura"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 12.0,
-  "samples": [
-   {
-    "channel": "neura",
-    "channel_name": "Neura Media",
-    "date": "26/06/2026",
-    "video_id": "XYJRLyO9exg",
-    "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
-    "minute": "01:00:30",
-    "views": 1144,
-    "conc_at": 401
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 401,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2794,6 +2860,186 @@
   "n_activations": 1,
   "n_programs": 1,
   "peak_conc_at": 7589,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "neura-de-gira",
+  "name": "Neura de Gira",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 2.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "minute": "00:34:16",
+    "views": 419,
+    "conc_at": 62
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 62,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "princess-cruises-discover-crucis",
+  "name": "Princess Cruises / Discover Crucis",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 2.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "minute": "00:35:38",
+    "views": 419,
+    "conc_at": 62
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 62,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "princess",
+  "name": "Princess",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 3.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "minute": "01:26:04",
+    "views": 419,
+    "conc_at": 60
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 60,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "neura-de-gira-princess-cruises",
+  "name": "Neura de Gira / Princess Cruises",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 2.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "minute": "01:44:10",
+    "views": 419,
+    "conc_at": 52
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 52,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "new-bed-travel",
+  "name": "New Bed Travel",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 2.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "minute": "01:45:11",
+    "views": 419,
+    "conc_at": 57
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 57,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -4702,6 +4948,78 @@
   "n_activations": 1,
   "n_programs": 1,
   "peak_conc_at": 679,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "telecentro",
+  "name": "Telecentro",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 14.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "LE5ICiVWzT8",
+    "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
+    "minute": "01:00:36",
+    "views": 4068,
+    "conc_at": 1417
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 1417,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  }
+ },
+ {
+  "slug": "live-seguros",
+  "name": "Live Seguros",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 24.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "LE5ICiVWzT8",
+    "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
+    "minute": "01:02:11",
+    "views": 4068,
+    "conc_at": 1134
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 1134,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {

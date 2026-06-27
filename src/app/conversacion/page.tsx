@@ -56,7 +56,7 @@ export default function ConversacionPage() {
               : "bg-white text-gray-600 border-gray-200 hover:border-gray-300"
           }`}
         >
-          Cross-canal (recomendado)
+          Varios streams (recomendado)
         </button>
         <button
           type="button"
@@ -78,7 +78,7 @@ export default function ConversacionPage() {
           <Link href="/tendencias" className="text-accent font-medium hover:underline">
             Tendencias
           </Link>{" "}
-          ves patrones de mercado (cambios, oportunidades, señales compuestas).
+          ves lecturas de mercado (cambios, oportunidades, patrones combinados).
         </p>
         <p>
           <b className="text-gray-700">Esto no es Marcas.</b> Las marcas con pauta verificada viven
@@ -93,7 +93,7 @@ export default function ConversacionPage() {
       {topics.length === 0 ? (
         <div className="card p-8 text-[14px] text-gray-600 leading-relaxed">
           <p>
-            Aún no hay temas en 2+ canales con masa en el período. Probá{" "}
+            Aún no hay temas en 2+ canales con suficiente respaldo en el período. Probá{" "}
             <button
               type="button"
               onClick={() => setCrossOnly(false)}
@@ -117,9 +117,9 @@ export default function ConversacionPage() {
       )}
 
       <p className="text-[11px] text-gray-400 mt-6 leading-relaxed max-w-xl">
-        Temas unificados por IA a partir de lo dicho en los programas · filtro anti-meme: priorizamos aparición en
-        2+ comunidades. Expandí cada tema para ver qué dijeron los conductores y en qué canal.
-        Variantes ruidosas (p.ej. mundial*) se agrupan en una sola entrada.
+        Ordenamos por charla relevante: volumen, crecimiento, si aparece en varios streams y pedidos en el chat.
+        Citas sacadas del audio. Con cobertura amplia, pedimos 3+ canales. Temas parecidos (p. ej. mundial*)
+        se agrupan en una sola entrada.
       </p>
     </div>
   );

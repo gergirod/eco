@@ -693,6 +693,56 @@
   "kind": "producto"
  },
  {
+  "slug": "tarahui-yerba",
+  "name": "Tarahui (yerba)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "FYdwwoHNrMs",
+    "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+    "minute": "00:30",
+    "views": 34139
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pelican-bar",
+  "name": "Pelican (bar)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "FYdwwoHNrMs",
+    "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+    "minute": "01:40",
+    "views": 34139
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "olga-tienda-merchandising",
   "name": "Olga (tienda/merchandising)",
   "mentions": 1,
@@ -1113,6 +1163,106 @@
     "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
     "minute": "01:10",
     "views": 10522
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pae-petrolera-argentina-energia",
+  "name": "PAE (Petrolera Argentina Energía)",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "minute": "00:00",
+    "views": 419
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "robot-aspiradora",
+  "name": "robot aspiradora",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "minute": "00:20",
+    "views": 419
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "ahkexperiences",
+  "name": "ahkexperiences",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "minute": "01:20",
+    "views": 419
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "newbettravel",
+  "name": "newbettravel",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "minute": "01:20",
+    "views": 419
    }
   ],
   "kind": "producto"

@@ -26,7 +26,9 @@ export type TendenciaInsight = {
 type RadarRow = {
   tema: string;
   score?: number;
+  trend_score?: number;
   menciones?: number;
+  growth_wow?: number;
   canales?: string[];
   cross_comunidad?: boolean;
   multi_dia?: boolean;
@@ -126,7 +128,7 @@ function periodLabel(meta: MetaDiscovery): string {
 
 function coverageFooter(meta: MetaDiscovery): string {
   const n = meta.discovery?.channels_covered ?? 3;
-  return `Basado en ${n} canales con captura · período corto — patrón exploratorio, no predicción`;
+  return `Basado en ${n} canales con captura · período corto — lectura preliminar, no predicción`;
 }
 
 function buildCommercialInsights(
@@ -157,7 +159,7 @@ function buildCommercialInsights(
           : "El inventario con mayor volumen de views en el período está muy concentrado — el mix de canales importa para alcance.",
       signals: [
         `Reproducciones capturadas: ${benchmark.map((b) => `${b.name} ${b.share_views ?? 0}%`).join(" · ")}`,
-        "Fuente: benchmark del export",
+        "Fuente: datos del período exportado",
       ],
       action: {
         href: `/canales/${leaderShare.id}?tab=comparaciones`,
@@ -179,7 +181,7 @@ function buildCommercialInsights(
       confidence: "insight",
       coverage,
       implication:
-        "Un canal puede ser fuerte en audiencia y otro en densidad de pauta — útil para separar objetivos de reach vs. social proof comercial.",
+        "Un canal puede tener mucha audiencia y otro mucha pauta — conviene separar objetivos de alcance vs. presencia comercial.",
       signals: [
         `Marcas activas: ${benchmark.map((b) => `${b.name} ${b.brands ?? 0}`).join(" · ")}`,
         `Apariciones de pauta: ${benchmark.map((b) => `${b.name} ${b.mentions ?? 0}`).join(" · ")}`,
@@ -246,7 +248,7 @@ function buildConversationInsights(
   const candidates = radar
     .filter((r) => r.tema && (r.canales?.length || 0) >= 1)
     .filter((r) => r.cross_comunidad || (r.canales?.length || 0) >= 2 || r.multi_dia)
-    .sort((a, b) => (b.menciones || 0) - (a.menciones || 0));
+    .sort((a, b) => (b.trend_score ?? b.menciones ?? 0) - (a.trend_score ?? a.menciones ?? 0));
 
   for (const row of candidates) {
     if (insights.length >= 4) break;
@@ -278,7 +280,7 @@ function buildConversationInsights(
       pattern,
       period,
       confidence: "conversacion",
-      coverage: `${coverage} · señal conversacional, no verdad absoluta`,
+      coverage: `${coverage} · charla en vivo, no dato cerrado`,
       implication:
         row.candidato && isMulti
           ? "Varios streams hablan del tema con continuidad — explorá si hay espacio de sponsorship antes de que el rubro se sature."
@@ -286,7 +288,9 @@ function buildConversationInsights(
       signals: [
         `Menciones en programas: ${row.menciones ?? "—"}`,
         `Canales: ${channelPhrase}`,
-        momentum ? `Momentum reciente: ${momentum === "up" ? "alza" : momentum === "down" ? "baja" : "estable"}` : "",
+        momentum
+          ? `Charla reciente: ${momentum === "up" ? "subiendo" : momentum === "down" ? "bajando" : "parecida"}`
+          : "",
       ].filter(Boolean),
       action: {
         href: slug ? `/canales/${slug}` : "/canales",
@@ -317,12 +321,12 @@ function buildOpportunityInsights(
   return [
     {
       id: "opportunity-conversation",
-      pattern: `Conversación transversal sobre ${temaLabel} — con poca pauta visible del rubro en el período`,
+      pattern: `Varios streams hablan de ${temaLabel} — con poca pauta visible del rubro en el período`,
       period,
       confidence: "insight",
       coverage,
       implication:
-        "Patrón de oportunidad comercial: conversación multi-canal sin saturación evidente de sponsors — vale mapear marcas del sector en Marcas.",
+        "Oportunidad comercial: charla en varios canales sin muchas marcas del rubro pautando — vale revisar en Marcas.",
       signals: [
         `Conversación en: ${formatChannelList(top.canales || [])}`,
         `${top.menciones} menciones en programas del período`,
@@ -373,22 +377,26 @@ function buildSearchAnticipationInsights(
   coverage: string
 ): TendenciaInsight[] {
   const insights: TendenciaInsight[] = [];
-  const priority = { adelantado: 0, pre_busqueda: 1 } as const;
+  const priority = {
+    adelantado: 0,
+    pre_busqueda: 1,
+    en_linea: 2,
+    ya_masivo: 3,
+    sin_datos: 4,
+  } as const;
 
   const rows = radar
-    .filter(
-      (r) =>
-        r.tema &&
-        (r.gt_status === "adelantado" || r.gt_status === "pre_busqueda") &&
-        (r.canales?.length || 0) >= 1
-    )
+    .filter((r) => r.tema && r.gt_status && (r.canales?.length || 0) >= 1)
     .sort((a, b) => {
       const pa = priority[a.gt_status as keyof typeof priority] ?? 9;
       const pb = priority[b.gt_status as keyof typeof priority] ?? 9;
-      return pa - pb || (b.menciones || 0) - (a.menciones || 0);
+      return (
+        pa - pb ||
+        (b.trend_score ?? b.menciones ?? 0) - (a.trend_score ?? a.menciones ?? 0)
+      );
     });
 
-  for (const row of rows.slice(0, 3)) {
+  for (const row of rows) {
     const temaLabel = row.tema.charAt(0).toUpperCase() + row.tema.slice(1);
     const channelPhrase = formatChannelList(row.canales || []);
     const slug = CHANNEL_SLUG[row.canales?.[0] || ""] || row.canales?.[0]?.toLowerCase();
@@ -400,7 +408,7 @@ function buildSearchAnticipationInsights(
         pattern: `El vivo anticipó la conversación sobre ${temaLabel} antes de la búsqueda masiva`,
         period,
         confidence: "conversacion",
-        coverage: `${coverage} · validación con búsqueda AR (experimental)`,
+        coverage: `${coverage} · cruzado con búsquedas en Argentina`,
         implication:
           days && days > 0
             ? `Los streams hablaron del tema con ~${days} días de ventaja vs el despegue en búsqueda — útil para pauta contextual temprana.`
@@ -422,7 +430,7 @@ function buildSearchAnticipationInsights(
         pattern: `Conversación sobre ${temaLabel} en ${channelPhrase} sin volumen equivalente en búsqueda`,
         period,
         confidence: "conversacion",
-        coverage: `${coverage} · validación con búsqueda AR (experimental)`,
+        coverage: `${coverage} · cruzado con búsquedas en Argentina`,
         implication:
           "Todavía es conversación de nicho en vivo — no está masificada en búsqueda. Oportunidad para marcas que quieren asociarse antes del pico público.",
         signals: [
@@ -433,6 +441,43 @@ function buildSearchAnticipationInsights(
         action: {
           href: "/marcas",
           label: "Explorar marcas",
+        },
+      });
+    } else if (row.gt_status === "en_linea") {
+      insights.push({
+        id: `gt-linea-${row.tema.replace(/\s+/g, "-")}`,
+        pattern: `Conversación y búsqueda sobre ${temaLabel} van al mismo ritmo`,
+        period,
+        confidence: "conversacion",
+        coverage: `${coverage} · cruzado con búsquedas en Argentina`,
+        implication:
+          "El tema ya está masificado en búsqueda — la conversación en vivo no lo anticipa, pero confirma que es relevante ahora.",
+        signals: [
+          `Conversación en: ${channelPhrase}`,
+          `${row.menciones ?? "—"} menciones en programas`,
+          "Búsqueda Argentina: despegue alineado con el streaming capturado",
+        ],
+        action: {
+          href: slug ? `/canales/${slug}` : "/conversacion",
+          label: "Ver conversación",
+        },
+      });
+    } else if (row.gt_status === "ya_masivo") {
+      insights.push({
+        id: `gt-masivo-${row.tema.replace(/\s+/g, "-")}`,
+        pattern: `La búsqueda sobre ${temaLabel} ya venía caliente antes del streaming capturado`,
+        period,
+        confidence: "conversacion",
+        coverage: `${coverage} · cruzado con búsquedas en Argentina`,
+        implication:
+          "Tema de agenda pública — el vivo lo refleja más que lo descubre. Útil para contextual, no para anticipación.",
+        signals: [
+          `Conversación en: ${channelPhrase}`,
+          "Búsqueda Argentina: interés previo al pico en vivo del período",
+        ],
+        action: {
+          href: slug ? `/canales/${slug}` : "/conversacion",
+          label: "Ver conversación",
         },
       });
     }
@@ -458,7 +503,7 @@ function buildChatDemandInsights(
 
   const insights: TendenciaInsight[] = [];
   const chatCoverage =
-    " · demanda desde chat de audiencia (OLGA/BLENDER; LUZU sin chat en el período)";
+    " · pedidos en el chat (OLGA/BLENDER; LUZU sin chat en el período)";
 
   for (const row of signals.slice(0, 4)) {
     const temaLabel = row.tema.charAt(0).toUpperCase() + row.tema.slice(1);
@@ -474,10 +519,10 @@ function buildChatDemandInsights(
         confidence: "insight",
         coverage: `${coverage}${chatCoverage}`,
         implication:
-          "Demanda transversal en chat — no es conversación del conductor. Útil para marcas del rubro o contenido patrocinado con CTA claro.",
+          "La gente lo pidió en varios streams — no es charla del conductor. Útil para marcas del rubro o contenido patrocinado con link o promo clara.",
         signals: [
-          `${row.n_programas} programas con señal`,
-          `${row.n_signals ?? "—"} mensajes de demanda agregados`,
+          `${row.n_programas} programas con pedidos`,
+          `${row.n_signals ?? "—"} mensajes en el chat`,
           row.ejemplo ? `Ejemplo: “${row.ejemplo.slice(0, 80)}”` : "",
         ].filter(Boolean),
         action: {
@@ -493,10 +538,10 @@ function buildChatDemandInsights(
         confidence: "insight",
         coverage: `${coverage}${chatCoverage}`,
         implication:
-          "Señal de demanda en chat — exploratoria con poco historial. Contrastar con lo que dijeron los conductores en Conversación.",
+          "Pedidos en el chat con poco historial — contrastar con lo que dijeron los conductores en Conversación.",
         signals: [
           `${row.n_programas} programa${row.n_programas === 1 ? "" : "s"} con chat`,
-          `${row.n_signals ?? "—"} señales en el período`,
+          `${row.n_signals ?? "—"} mensajes en el período`,
           row.ejemplo ? `Ejemplo: “${row.ejemplo.slice(0, 80)}”` : "",
         ].filter(Boolean),
         action: {
@@ -541,7 +586,7 @@ function buildCommunityInsights(
       coverage: `${coverage} · solo canales con chat capturado`,
       implication:
         top.chat_quality_label
-          ? `${top.name}: ${top.chat_quality_label.toLowerCase()}. Para activaciones con CTA en chat, el canal importa tanto como los concurrentes.`
+          ? `${top.name}: ${top.chat_quality_label.toLowerCase()}. Para activaciones con link o promo en el chat, el canal importa tanto como los concurrentes.`
           : "El engagement en sala no sigue al volumen de audiencia — negociá formato según objetivo de interacción.",
       signals: withChat.map(
         (a) => `${a.name} ${a.chat_msgs_per_1k_min} msgs/1k concurrentes`
@@ -588,5 +633,5 @@ export function buildTendencias(
 
 export function tendenciasSubline(count: number, meta: MetaDiscovery): string {
   const n = meta.discovery?.channels_covered ?? 3;
-  return `${count} patrón${count === 1 ? "" : "es"} detectado${count === 1 ? "" : "s"} · ${n} canales · exploratorio`;
+  return `${count} patrón${count === 1 ? "" : "es"} detectado${count === 1 ? "" : "s"} · ${n} canales · lectura preliminar`;
 }

@@ -1,0 +1,296 @@
+{
+ "supervisor": {
+  "timezone": "America/Argentina/Buenos_Aires",
+  "start": "04:00",
+  "end": "00:30"
+ },
+ "channels": [
+  {
+   "channel_id": "olga",
+   "timezone": "America/Argentina/Buenos_Aires",
+   "skip_title_patterns": [
+    "REPETICIÓN",
+    "LO MEJOR DE"
+   ],
+   "capture_slots": [
+    {
+     "show": "Grilla diaria Olga",
+     "start": "06:30",
+     "end": "21:30",
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "days_label": "lun–vie"
+    }
+   ]
+  },
+  {
+   "channel_id": "luzu",
+   "timezone": "America/Argentina/Buenos_Aires",
+   "skip_title_patterns": [
+    "Algo de Música",
+    "Edición Especial"
+   ],
+   "capture_slots": [
+    {
+     "show": "Grilla diaria Luzu",
+     "start": "06:50",
+     "end": "20:00",
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "days_label": "lun–vie"
+    },
+    {
+     "show": "PLP",
+     "start": "11:00",
+     "end": "13:00",
+     "days": [
+      5
+     ],
+     "days_label": "sáb"
+    }
+   ]
+  },
+  {
+   "channel_id": "bondi",
+   "timezone": "America/Argentina/Buenos_Aires",
+   "skip_title_patterns": [],
+   "capture_slots": [
+    {
+     "show": "Grilla Bondi",
+     "start": "10:00",
+     "end": "16:30",
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "days_label": "lun–vie"
+    }
+   ]
+  },
+  {
+   "channel_id": "blend",
+   "timezone": "America/Argentina/Buenos_Aires",
+   "skip_title_patterns": [],
+   "capture_slots": [
+    {
+     "show": "Grilla Blender",
+     "start": "17:00",
+     "end": "00:30",
+     "days": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "days_label": "lun–jue"
+    },
+    {
+     "show": "Grilla Blender (vie)",
+     "start": "17:00",
+     "end": "21:00",
+     "days": [
+      4
+     ],
+     "days_label": "fri"
+    },
+    {
+     "show": "Hay algo ahí",
+     "start": "21:00",
+     "end": "23:00",
+     "days": [
+      6
+     ],
+     "days_label": "dom"
+    }
+   ]
+  },
+  {
+   "channel_id": "gelatina",
+   "timezone": "America/Argentina/Buenos_Aires",
+   "skip_title_patterns": [],
+   "capture_slots": [
+    {
+     "show": "Grilla Gelatina",
+     "start": "08:00",
+     "end": "18:00",
+     "days": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "days_label": "lun–jue"
+    },
+    {
+     "show": "Circo Freak",
+     "start": "10:00",
+     "end": "12:00",
+     "days": [
+      4
+     ],
+     "days_label": "fri"
+    }
+   ]
+  },
+  {
+   "channel_id": "urbana",
+   "timezone": "America/Argentina/Buenos_Aires",
+   "skip_title_patterns": [
+    "LO MEJOR DE",
+    "URBANA PLAY MUSIC",
+    "música de tu tiempo",
+    "La música de tu tiempo",
+    "ACÚSTICOS",
+    "RESIDENT"
+   ],
+   "capture_slots": [
+    {
+     "show": "De Acá en Más",
+     "start": "06:00",
+     "end": "09:00",
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "days_label": "lun–vie"
+    },
+    {
+     "show": "Perros de la Calle",
+     "start": "09:00",
+     "end": "13:00",
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "days_label": "lun–vie"
+    },
+    {
+     "show": "Punto Caramelo",
+     "start": "10:00",
+     "end": "13:00",
+     "days": [
+      5
+     ],
+     "days_label": "sáb"
+    },
+    {
+     "show": "Todo Pasa",
+     "start": "13:00",
+     "end": "16:00",
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "days_label": "lun–vie"
+    },
+    {
+     "show": "Vuelta y Media",
+     "start": "16:00",
+     "end": "19:00",
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "days_label": "lun–vie"
+    },
+    {
+     "show": "Olvidate de Todo",
+     "start": "19:00",
+     "end": "22:00",
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "days_label": "lun–vie"
+    },
+    {
+     "show": "Música es Todo",
+     "start": "22:00",
+     "end": "00:00",
+     "days": [
+      2
+     ],
+     "days_label": "wed"
+    },
+    {
+     "show": "Urbana Play Live",
+     "start": "22:00",
+     "end": "00:00",
+     "days": [
+      4
+     ],
+     "days_label": "fri"
+    }
+   ]
+  },
+  {
+   "channel_id": "neura",
+   "timezone": "America/Argentina/Buenos_Aires",
+   "skip_title_patterns": [],
+   "capture_slots": [
+    {
+     "show": "Grilla Neura",
+     "start": "12:00",
+     "end": "22:00",
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "days_label": "lun–vie"
+    }
+   ]
+  },
+  {
+   "channel_id": "vorterix",
+   "timezone": "America/Argentina/Buenos_Aires",
+   "skip_title_patterns": [],
+   "capture_slots": [
+    {
+     "show": "Grilla Vorterix",
+     "start": "08:00",
+     "end": "21:00",
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "days_label": "lun–vie"
+    }
+   ]
+  }
+ ],
+ "exported_at": "2026-06-27T14:06:06.038499+00:00"
+}

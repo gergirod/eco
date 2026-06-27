@@ -122,6 +122,32 @@ export default function RunbookPanel() {
             ))}
           </ul>
         )}
+        {section.table && (
+          <div className="card p-5 overflow-x-auto">
+            <table className="w-full text-[13px]">
+              <thead>
+                <tr className="text-[11px] uppercase tracking-wide text-gray-400 border-b border-[#ececec]">
+                  {section.table.cols.map((c) => (
+                    <th key={c} className="py-2 text-left font-medium pr-3">
+                      {c}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {section.table.rows.map((row, i) => (
+                  <tr key={i} className="border-b border-[#f5f5f5]">
+                    {row.map((cell, j) => (
+                      <td key={j} className="py-2 pr-3 text-gray-600">
+                        {cell}
+                      </td>
+                    ))}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">

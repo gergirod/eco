@@ -5,20 +5,18 @@ import { Suspense, useEffect, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { PageHeader } from "@/components/ui";
 import OpsLogout from "@/components/OpsLogout";
-import RunsPanel from "@/components/backoffice/RunsPanel";
+import CapturaPanel from "@/components/backoffice/CapturaPanel";
 import RunbookPanel from "@/components/backoffice/RunbookPanel";
-import CasosPanel from "@/components/backoffice/CasosPanel";
-import InteligenciaPanel from "@/components/backoffice/InteligenciaPanel";
+import ComercialPanel from "@/components/backoffice/ComercialPanel";
 import DesignPartnersPanel from "@/components/backoffice/DesignPartnersPanel";
 import ResumenPanel from "@/components/backoffice/ResumenPanel";
 
 const TABS = [
-  { id: "resumen", label: "Resumen", sub: "Salud del pipeline y métricas operativas del corpus." },
+  { id: "resumen", label: "Resumen", sub: "Salud del corpus y métricas del pipeline." },
+  { id: "captura", label: "Captura", sub: "Grilla por canal, franjas activas y estado en vivo." },
   { id: "clientes", label: "Clientes", sub: "Design partners: alta, marcas, competidores, acceso y onboarding." },
-  { id: "runs", label: "Runs", sub: "Canales, estado en vivo y disparar el pipeline." },
-  { id: "runbook", label: "Runbook", sub: "Comandos para captura, pipeline y Supabase." },
-  { id: "inteligencia", label: "Inteligencia", sub: "Qué vendemos hoy vs en 90 días — guía para calls." },
-  { id: "casos", label: "Casos de uso", sub: "Preguntas y respuestas por marca, agencia y canal." },
+  { id: "comercial", label: "Comercial", sub: "Pitch, casos de uso, Q&A y referencia por ICP." },
+  { id: "runbook", label: "Runbook", sub: "Comandos para supervisor, pipeline y Supabase." },
 ] as const;
 
 type TabId = (typeof TABS)[number]["id"];
@@ -28,25 +26,33 @@ function BackofficeInner() {
   const router = useRouter();
   const tabParam = params.get("tab");
   const initial: TabId =
-    tabParam === "clientes" ||
-    tabParam === "runs" ||
-    tabParam === "runbook" ||
-    tabParam === "casos" ||
-    tabParam === "inteligencia"
-      ? tabParam
-      : "resumen";
+    tabParam === "captura" || tabParam === "runs"
+      ? "captura"
+      : tabParam === "inteligencia" || tabParam === "casos"
+        ? "comercial"
+        : tabParam === "clientes" || tabParam === "runbook" || tabParam === "comercial"
+          ? tabParam
+          : "resumen";
   const [tab, setTab] = useState<TabId>(initial);
 
   useEffect(() => {
     if (
       tabParam === "resumen" ||
-      tabParam === "clientes" ||
+      tabParam === "captura" ||
       tabParam === "runs" ||
+      tabParam === "clientes" ||
       tabParam === "runbook" ||
+      tabParam === "comercial" ||
       tabParam === "casos" ||
       tabParam === "inteligencia"
     ) {
-      setTab(tabParam);
+      const mapped =
+        tabParam === "runs"
+          ? "captura"
+          : tabParam === "casos" || tabParam === "inteligencia"
+            ? "comercial"
+            : tabParam;
+      setTab(mapped as TabId);
     } else if (!tabParam) {
       setTab("resumen");
     }
@@ -65,7 +71,7 @@ function BackofficeInner() {
       <div className="flex items-start justify-between gap-4 mb-4">
         <PageHeader
           title="Backoffice"
-          sub="Operación interna: resumen, runs, runbook, inteligencia comercial y casos de uso."
+          sub="Operación interna: resumen, captura, clientes, comercial y runbook."
         />
         <div className="flex items-center gap-3 shrink-0">
           <Link
@@ -105,11 +111,10 @@ function BackofficeInner() {
       )}
 
       {tab === "resumen" && <ResumenPanel />}
+      {tab === "captura" && <CapturaPanel />}
       {tab === "clientes" && <DesignPartnersPanel />}
-      {tab === "runs" && <RunsPanel />}
+      {tab === "comercial" && <ComercialPanel />}
       {tab === "runbook" && <RunbookPanel />}
-      {tab === "inteligencia" && <InteligenciaPanel />}
-      {tab === "casos" && <CasosPanel />}
     </div>
   );
 }

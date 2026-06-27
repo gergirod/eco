@@ -14,7 +14,7 @@ const CONFIDENCE_STYLE: Record<
     className: "bg-slate-100 text-slate-700",
   },
   insight: {
-    label: "Insight",
+    label: "Lectura",
     className: "bg-accent-soft text-accent",
   },
 };
@@ -50,8 +50,8 @@ export default function TendenciaCard({ insight }: Props) {
 
       <details className="mb-4 group">
         <summary className="text-[12px] text-gray-500 cursor-pointer hover:text-accent list-none">
-          <span className="group-open:hidden">Ver señales →</span>
-          <span className="hidden group-open:inline">Ocultar señales</span>
+          <span className="group-open:hidden">Ver detalle →</span>
+          <span className="hidden group-open:inline">Ocultar detalle</span>
         </summary>
         <ul className="mt-2 pl-4 text-[12px] text-gray-500 space-y-1 list-disc">
           {insight.signals.map((s, i) => (

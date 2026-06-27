@@ -63,7 +63,8 @@ export const SECTIONS: Section[] = [
   {
     id: "manana",
     title: "Mañana — captura en vivo",
-    intro: "El supervisor pollea /live cada 30s, captura concurrentes (+ chat donde hay), y al terminar cada programa corre ingest → Modal → extract → reportes en background.",
+    intro:
+      "El supervisor pollea /live cada 30s, respeta la grilla (config/schedules/*.yaml) y al terminar cada programa corre ingest → Modal → extract → reportes. Al cerrar un pipeline OK publica export + Supabase.",
     blocks: [
       {
         title: "Pre-flight",
@@ -75,7 +76,15 @@ export const SECTIONS: Section[] = [
       },
       {
         title: "Arrancar los 8 canales",
-        cmds: ["python run_day.py"],
+        cmds: ["./ops/run_supervisor.sh"],
+      },
+      {
+        title: "Reiniciar (matar instancia vieja)",
+        cmds: [
+          "pgrep -fl run_day.py",
+          "pkill -9 -f 'python run_day.py'",
+          "./ops/run_supervisor.sh",
+        ],
       },
       {
         title: "Canales explícitos",
@@ -98,10 +107,50 @@ export const SECTIONS: Section[] = [
     ],
     bullets: [
       "run_day.py activa caffeinate en Mac — no duerme por idle, pero cerrar la tapa sí la duerme.",
-      "Luzu: sin chat en vivo (solo concurrentes).",
-      "El supervisor NO sube a Supabase solo — ver sección Publicar.",
-      "Ctrl+C detiene el supervisor.",
+      "Grillas en config/schedules/ — solo captura talk en franja (no música filler). Ver /backoffice → Captura.",
+      "Lun–vie: grilla completa por canal. Sáb: Luzu 11–13 + Urbana 10–13. Dom: Blender 21–23.",
+      "Luzu: sin chat en YouTube (solo concurrentes).",
+      "Al terminar pipeline OK: export_ui + push_supabase automático (post_stream.publish). Nightly 03:50 AR también.",
+      "Ctrl+C o pkill detiene el supervisor.",
     ],
+  },
+  {
+    id: "grillas",
+    title: "Grillas de captura",
+    intro: "Una entrada por canal en config/schedules/*.yaml. El supervisor ignora live fuera de franja o con título filler (ej. LO MEJOR DE en Urbana).",
+    blocks: [
+      {
+        title: "Editar grilla",
+        cmds: [
+          "vim config/schedules/urbana.yaml",
+          "vim config/channels.yaml  # program_schedule: schedules/urbana.yaml",
+        ],
+      },
+      {
+        title: "Ver en backoffice",
+        cmds: ["open http://localhost:3000/backoffice?tab=captura"],
+      },
+      {
+        title: "Exportar grillas a la UI",
+        cmds: [
+          "python export_ui.py   # genera capture_schedules.json",
+          "python push_supabase.py",
+        ],
+      },
+    ],
+    table: {
+      cols: ["Canal", "Lun–vie", "Finde"],
+      rows: [
+        ["Olga", "06:30–21:30", "—"],
+        ["Luzu", "06:50–20:00", "sáb 11–13"],
+        ["Bondi", "10:00–16:30", "—"],
+        ["Blender", "17:00–00:30", "dom 21–23"],
+        ["Gelatina", "08:00–18:00", "vie 10–12"],
+        ["Urbana", "06:00–22:00 talk", "sáb 10–13"],
+        ["Neura", "12:00–22:00", "—"],
+        ["Vorterix", "08:00–21:00", "—"],
+      ],
+    },
   },
   {
     id: "manual",
@@ -169,7 +218,7 @@ export const SECTIONS: Section[] = [
       },
     ],
     bullets: [
-      "Datasets: channels, brands, products, benchmark, reports, meta, moments, radar, audience.",
+      "Datasets: channels, brands, products, benchmark, reports, meta, moments, radar, audience, chat_demand, capture_schedules.",
       "Si push falla, Vercel usa el snapshot del último deploy.",
     ],
   },
@@ -199,6 +248,9 @@ export const SECTIONS: Section[] = [
 
 export const TROUBLESHOOT: { symptom: string; fix: string }[] = [
   { symptom: "No detecta live", fix: "Probar yt-dlp en /live; revisar channels.yaml" },
+  { symptom: "Captura filler / música", fix: "Revisar config/schedules/ y skip_title_patterns; tab Captura en backoffice" },
+  { symptom: "Cortó vivo a los pocos min", fix: "Glitch yt-dlp — supervisor ahora exige 3 polls off-air; reiniciar si cortó mal" },
+  { symptom: "Supervisor ya corre", fix: "pkill -9 -f 'python run_day.py' luego ./ops/run_supervisor.sh" },
   { symptom: "Sin concurrentes", fix: "No se capturó en vivo — irreversible. Ver data/viewers/{id}.json" },
   { symptom: "extract saltado", fix: "ANTHROPIC_API_KEY en .env" },
   { symptom: "Modal falla", fix: "modal setup; probar un --video-id aislado" },
@@ -214,8 +266,9 @@ export const IRREVERSIBLE = [
   { dato: "Chat en tiempo real", recover: "No si no se capturó" },
 ];
 
-export const DAY_FLOW = `06:00–00:30  python run_day.py
+export const DAY_FLOW = `04:00–00:30  ./ops/run_supervisor.sh
              tail -f data/logs/supervisor.log
+             /backoffice → Captura (grilla + vivo)
 
-Al cerrar:   python export_ui.py
-             python push_supabase.py`;
+Al cerrar:   export automático tras cada pipeline OK
+             nightly 03:50 AR: export_ui + push`;

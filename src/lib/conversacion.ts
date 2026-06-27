@@ -39,12 +39,17 @@ export type ConversacionTopic = {
   highlights: ConversacionHighlight[];
   highlightsTotal: number;
   mergedCluster: boolean;
+  gtStatus?: string | null;
+  gtLeadDays?: number | null;
 };
 
 type RadarRow = {
   tema: string;
   score?: number;
+  trend_score?: number;
   menciones?: number;
+  growth_wow?: number;
+  demand_ratio?: number;
   canales?: string[];
   categorias?: string[];
   cross_comunidad?: boolean;
@@ -55,7 +60,13 @@ type RadarRow = {
   variantes_relacionadas?: string[];
   highlights?: ConversacionHighlight[];
   highlights_total?: number;
+  gt_status?: string | null;
+  gt_lead_days?: number | null;
 };
+
+function rankScore(r: RadarRow): number {
+  return r.trend_score ?? r.score ?? 0;
+}
 
 /** Clusters que se fusionan en el ranking (variantes del mismo eje). */
 const MERGE_CLUSTERS = new Set(["mundial", "series"]);
@@ -100,7 +111,7 @@ function computeMomentum(serie: { date: string; n: number }[]): MomentumInfo {
     return recentSum > 0
       ? {
           kind: "sube",
-          label: "Ganando tracción",
+          label: "Empieza a pegar fuerte",
           hint: `~${recentAvg} menciones por día en los últimos ${recent.length} días con data.`,
         }
       : {
@@ -162,6 +173,8 @@ function rowToTopic(r: RadarRow, mergedCluster = false): Omit<ConversacionTopic,
     highlights: r.highlights ?? [],
     highlightsTotal: r.highlights_total ?? r.highlights?.length ?? 0,
     mergedCluster,
+    gtStatus: r.gt_status ?? null,
+    gtLeadDays: r.gt_lead_days ?? null,
   };
 }
 
@@ -193,13 +206,14 @@ function mergeClusterRows(rows: RadarRow[]): RadarRow[] {
   }
   const merged: RadarRow[] = [...rest];
   for (const [ck, group] of byCluster) {
-    group.sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
+    group.sort((a, b) => rankScore(b) - rankScore(a));
     const lead = group[0];
     const allHighlights = dedupeHighlights(group.flatMap((x) => x.highlights ?? []), 999);
     const combined: RadarRow = {
       ...lead,
       tema: lead.tema,
       score: group.reduce((s, x) => s + (x.score ?? 0), 0),
+      trend_score: group.reduce((s, x) => s + rankScore(x), 0),
       menciones: group.reduce((s, x) => s + (x.menciones ?? 0), 0),
       canales: [...new Set(group.flatMap((x) => x.canales ?? []))],
       cross_comunidad: group.some((x) => x.cross_comunidad),
@@ -231,20 +245,23 @@ export function buildConversacionRanking(
   const { crossOnly = true, limit = 25, mergeClusters = true } = options;
   let rows = radar.filter((r) => r.tema && !r.tema.startsWith("_"));
   if (crossOnly) {
-    rows = rows.filter((r) => r.cross_comunidad);
+    rows = rows.filter(
+      (r) => r.cross_comunidad && (Boolean(r.candidato) || rankScore(r) >= 12)
+    );
   }
   if (mergeClusters) {
     rows = mergeClusterRows(rows);
   }
-  rows.sort((a, b) => (b.score ?? 0) - (a.score ?? 0));
-  const maxScore = rows[0]?.score ?? 1;
+  rows.sort((a, b) => rankScore(b) - rankScore(a));
+  const maxScore = rankScore(rows[0] ?? {}) || 1;
 
   return rows.slice(0, limit).map((r, i) => {
     const base = rowToTopic(r, Boolean(r.cluster && MERGE_CLUSTERS.has(r.cluster)));
+    const rs = rankScore(r);
     return {
       ...base,
       rank: i + 1,
-      scorePct: Math.round(((base.score ?? 0) / maxScore) * 100),
+      scorePct: Math.round((rs / maxScore) * 100),
     };
   });
 }

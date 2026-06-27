@@ -67,7 +67,7 @@ export default function TendenciasPage() {
         <div className="flex flex-wrap gap-2 mb-6 text-[12px] text-gray-500">
           {byConfidence.insight ? (
             <span className="px-2.5 py-1 rounded-full bg-accent-soft/60 text-accent">
-              {byConfidence.insight} insight{byConfidence.insight === 1 ? "" : "s"}
+              {byConfidence.insight} lectura{byConfidence.insight === 1 ? "" : "s"}
             </span>
           ) : null}
           {byConfidence.evidencia ? (
@@ -84,19 +84,19 @@ export default function TendenciasPage() {
       )}
 
       <div className="card p-4 mb-6 bg-gray-50/80 border-[#ececec] text-[12.5px] text-gray-600 leading-relaxed">
-        <b className="text-gray-700">Período corto (~2 semanas).</b> Los patrones son exploratorios.
-        No usamos predicción ni temas como perfiles — solo conclusiones honestas sobre lo capturado.
+        <b className="text-gray-700">Período corto (~2 semanas).</b> Son lecturas preliminares.
+        No predecimos ni armamos perfiles de tema — solo conclusiones honestas sobre lo capturado.
         {gtEnriched === 0 ? (
-          <> La validación con búsqueda AR se actualiza periódicamente.</>
+          <> El cruce con búsquedas en Argentina se actualiza periódicamente.</>
         ) : (
-          <> {gtEnriched} patrón{gtEnriched === 1 ? "" : "es"} con señal de anticipación vs búsqueda.</>
+          <> {gtEnriched} patrón{gtEnriched === 1 ? "" : "es"} donde el vivo llegó antes que Google.</>
         )}
       </div>
 
       {insights.length === 0 ? (
         <div className="card p-8 text-[14px] text-gray-600 leading-relaxed">
           <p className="mb-4">
-            Aún no hay patrones con masa crítica en el export actual. Revisá{" "}
+            Aún no hay patrones con suficiente respaldo en el período. Revisá{" "}
             <Link href="/novedades" className="text-accent font-medium hover:underline">
               Novedades
             </Link>{" "}

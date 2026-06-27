@@ -6,6 +6,20 @@ import type { ConversacionTopic } from "@/lib/conversacion";
 import { CHANNEL_SLUG } from "@/lib/conversacion";
 import { vodLink } from "@/lib/format";
 
+const GT_LABEL: Record<string, string> = {
+  adelantado: "Anticipó en Google",
+  pre_busqueda: "Todavía no en Google",
+  en_linea: "Al ritmo de Google",
+  ya_masivo: "Ya era tema público",
+};
+
+const GT_STYLE: Record<string, string> = {
+  adelantado: "text-violet-800 bg-violet-50 border-violet-200",
+  pre_busqueda: "text-indigo-800 bg-indigo-50 border-indigo-200",
+  en_linea: "text-gray-700 bg-gray-50 border-gray-200",
+  ya_masivo: "text-amber-800 bg-amber-50 border-amber-200",
+};
+
 const MOMENTUM_STYLE: Record<
   ConversacionTopic["momentum"],
   { className: string }
@@ -127,7 +141,22 @@ export default function ConversacionRow({ topic }: Props) {
             })}
             {topic.crossComunidad ? (
               <span className="text-[10px] px-2 py-0.5 rounded-full bg-accent-soft/40 text-accent font-medium">
-                Cross-canal
+                Varios streams
+              </span>
+            ) : null}
+            {topic.gtStatus && GT_LABEL[topic.gtStatus] ? (
+              <span
+                className={`text-[10px] px-2 py-0.5 rounded-full border font-medium ${GT_STYLE[topic.gtStatus] ?? ""}`}
+                title={
+                  topic.gtLeadDays != null && topic.gtLeadDays > 0
+                    ? `Unos ${topic.gtLeadDays} días antes del pico en búsquedas (Argentina)`
+                    : "Comparado con búsquedas en Argentina (Google)"
+                }
+              >
+                {GT_LABEL[topic.gtStatus]}
+                {topic.gtLeadDays != null && topic.gtLeadDays > 0
+                  ? ` · ${topic.gtLeadDays} d`
+                  : ""}
               </span>
             ) : null}
           </div>
@@ -137,7 +166,7 @@ export default function ConversacionRow({ topic }: Props) {
               <div
                 className="h-full rounded-full bg-accent/80 transition-all"
                 style={{ width: `${topic.scorePct}%` }}
-                title={`Intensidad relativa: ${topic.score}`}
+                title={`Qué tan arriba está vs el resto del ranking (${topic.score})`}
               />
             </div>
             {spark.length > 1 ? (

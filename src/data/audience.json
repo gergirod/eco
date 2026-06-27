@@ -147,14 +147,14 @@
  {
   "id": "vorterix",
   "name": "Vorterix",
-  "videos": 4,
-  "avg_concurrent": 6026,
+  "videos": 6,
+  "avg_concurrent": 6700,
   "peak_concurrent": 23656,
   "chat_coverage": 100,
-  "chat_msgs_per_1k_min": 5.6,
+  "chat_msgs_per_1k_min": 5.3,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
-  "chat_noise_score": 0.08,
+  "chat_noise_score": 0.1,
   "room_participation": null,
   "top_programs": [
    {
@@ -163,19 +163,24 @@
     "video_id": "LjEHjrbNNgs"
    },
    {
+    "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+    "peak": 17793,
+    "video_id": "FYdwwoHNrMs"
+   },
+   {
     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
     "peak": 9661,
     "video_id": "3t9P2KFJ4K0"
    },
    {
+    "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
+    "peak": 2952,
+    "video_id": "LE5ICiVWzT8"
+   },
+   {
     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
     "peak": 2513,
     "video_id": "EwFONN3W5cg"
-   },
-   {
-    "title": "🔴 ESTO NO SUCEDIÓ con Hernan Panessi, Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
-    "peak": 1447,
-    "video_id": "IubT1ZyjjEA"
    }
   ],
   "top_programs_by_chat": [
@@ -183,6 +188,11 @@
     "title": "🔴 ESTO NO SUCEDIÓ con Hernan Panessi, Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
     "video_id": "IubT1ZyjjEA",
     "chat_engagement": 9.86
+   },
+   {
+    "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
+    "video_id": "LE5ICiVWzT8",
+    "chat_engagement": 7.64
    },
    {
     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
@@ -195,9 +205,9 @@
     "chat_engagement": 5.5
    },
    {
-    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-    "video_id": "3t9P2KFJ4K0",
-    "chat_engagement": 0.71
+    "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+    "video_id": "FYdwwoHNrMs",
+    "chat_engagement": 1.97
    }
   ]
  },
@@ -231,14 +241,14 @@
  {
   "id": "neura",
   "name": "Neura Media",
-  "videos": 3,
-  "avg_concurrent": 412,
+  "videos": 4,
+  "avg_concurrent": 324,
   "peak_concurrent": 1007,
   "chat_coverage": 100,
-  "chat_msgs_per_1k_min": 16.0,
+  "chat_msgs_per_1k_min": 30.0,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
-  "chat_noise_score": 0.05,
+  "chat_noise_score": 0.07,
   "room_participation": null,
   "top_programs": [
    {
@@ -255,9 +265,19 @@
     "title": "🍿 Plot Twist 👾",
     "peak": 202,
     "video_id": "VRWovoLU0yQ"
+   },
+   {
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "peak": 73,
+    "video_id": "c1LrQSDaXAY"
    }
   ],
   "top_programs_by_chat": [
+   {
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "video_id": "c1LrQSDaXAY",
+    "chat_engagement": 72.12
+   },
    {
     "title": "🍿 Plot Twist 👾",
     "video_id": "VRWovoLU0yQ",

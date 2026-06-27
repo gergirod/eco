@@ -7,7 +7,7 @@
   "avg_concurrent": 81809,
   "brands": 45,
   "mentions": 60,
-  "share_views": 74.2,
+  "share_views": 73.1,
   "n_brands_live": 45,
   "top_brands": [
    {
@@ -200,7 +200,7 @@
   "avg_concurrent": 25824,
   "brands": 55,
   "mentions": 96,
-  "share_views": 20.5,
+  "share_views": 20.1,
   "n_brands_live": 55,
   "top_brands": [
    {
@@ -388,13 +388,13 @@
  {
   "id": "vorterix",
   "name": "Vorterix",
-  "videos": 4,
-  "vod_views": 69454,
-  "avg_concurrent": 6024,
-  "brands": 17,
-  "mentions": 18,
-  "share_views": 2.6,
-  "n_brands_live": 17,
+  "videos": 6,
+  "vod_views": 107661,
+  "avg_concurrent": 6699,
+  "brands": 20,
+  "mentions": 21,
+  "share_views": 4.0,
+  "n_brands_live": 20,
   "top_brands": [
    {
     "slug": "coto",
@@ -425,6 +425,12 @@
     "name": "Gustavo Corbera - La Fuente",
     "mentions": 1,
     "value_usd": 128.0
+   },
+   {
+    "slug": "garnier-fructis",
+    "name": "Garnier Fructis",
+    "mentions": 1,
+    "value_usd": 388.0
    },
    {
     "slug": "la-segunda-seguros",
@@ -491,6 +497,18 @@
     "name": "Tucumán",
     "mentions": 1,
     "value_usd": 2.0
+   },
+   {
+    "slug": "telecentro",
+    "name": "Telecentro",
+    "mentions": 1,
+    "value_usd": 14.0
+   },
+   {
+    "slug": "live-seguros",
+    "name": "Live Seguros",
+    "mentions": 1,
+    "value_usd": 24.0
    },
    {
     "slug": "cafe-imperial",
@@ -574,40 +592,27 @@
   ]
  },
  {
-  "id": "gelatina",
-  "name": "Gelatina",
-  "videos": 1,
-  "vod_views": 5955,
-  "avg_concurrent": 1473,
-  "brands": 1,
-  "mentions": 1,
-  "share_views": 0.2,
-  "n_brands_live": 1,
-  "top_brands": [
-   {
-    "slug": "sastreria-teta-lee",
-    "name": "Sastrería Teta Lee",
-    "mentions": 1,
-    "value_usd": 79.0
-   }
-  ]
- },
- {
   "id": "neura",
   "name": "Neura Media",
-  "videos": 3,
-  "vod_views": 5533,
-  "avg_concurrent": 412,
-  "brands": 7,
-  "mentions": 9,
-  "share_views": 0.2,
-  "n_brands_live": 7,
+  "videos": 5,
+  "vod_views": 7881,
+  "avg_concurrent": 351,
+  "brands": 12,
+  "mentions": 17,
+  "share_views": 0.3,
+  "n_brands_live": 12,
   "top_brands": [
    {
     "slug": "pae",
     "name": "PAE",
-    "mentions": 3,
-    "value_usd": 12.0
+    "mentions": 5,
+    "value_usd": 15.0
+   },
+   {
+    "slug": "ecomod",
+    "name": "Ecomod",
+    "mentions": 2,
+    "value_usd": 14.0
    },
    {
     "slug": "argendata",
@@ -634,16 +639,59 @@
     "value_usd": 12.0
    },
    {
-    "slug": "ecomod",
-    "name": "Ecomod",
-    "mentions": 1,
-    "value_usd": 12.0
-   },
-   {
     "slug": "omni",
     "name": "Omni",
     "mentions": 1,
     "value_usd": 4.0
+   },
+   {
+    "slug": "neura-de-gira",
+    "name": "Neura de Gira",
+    "mentions": 1,
+    "value_usd": 2.0
+   },
+   {
+    "slug": "princess-cruises-discover-crucis",
+    "name": "Princess Cruises / Discover Crucis",
+    "mentions": 1,
+    "value_usd": 2.0
+   },
+   {
+    "slug": "princess",
+    "name": "Princess",
+    "mentions": 1,
+    "value_usd": 3.0
+   },
+   {
+    "slug": "neura-de-gira-princess-cruises",
+    "name": "Neura de Gira / Princess Cruises",
+    "mentions": 1,
+    "value_usd": 2.0
+   },
+   {
+    "slug": "new-bed-travel",
+    "name": "New Bed Travel",
+    "mentions": 1,
+    "value_usd": 2.0
+   }
+  ]
+ },
+ {
+  "id": "gelatina",
+  "name": "Gelatina",
+  "videos": 1,
+  "vod_views": 5955,
+  "avg_concurrent": 1473,
+  "brands": 1,
+  "mentions": 1,
+  "share_views": 0.2,
+  "n_brands_live": 1,
+  "top_brands": [
+   {
+    "slug": "sastreria-teta-lee",
+    "name": "Sastrería Teta Lee",
+    "mentions": 1,
+    "value_usd": 79.0
    }
   ]
  }
