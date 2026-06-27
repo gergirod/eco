@@ -9,6 +9,9 @@ export type ConversacionHighlight = {
   title: string;
   subtema: string;
   contexto: string;
+  date?: string;
+  start_min?: number;
+  t_seconds?: number;
 };
 
 export type ConversacionMomentum = "sube" | "baja" | "estable" | "nuevo";
@@ -364,11 +367,67 @@ export function conversacionSubline(
   return `${countLine} · ${cross} en 2+ canales en esta vista · emisiones que medimos`;
 }
 
+/** @deprecated use channelSlug() — nombres en radar varían (Bondi Live, Neura Media, …). */
 export const CHANNEL_SLUG: Record<string, string> = {
   OLGA: "olga",
   "LUZU TV": "luzu",
   BLENDER: "blend",
   BONDI: "bondi",
+  "Bondi Live": "bondi",
   GELATINA: "gelatina",
   URBANA: "urbana",
+  "Neura Media": "neura",
+  Vorterix: "vorterix",
 };
+
+export function channelSlug(name: string): string | null {
+  if (CHANNEL_SLUG[name]) return CHANNEL_SLUG[name];
+  const n = name.trim().toLowerCase();
+  const hit = Object.entries(CHANNEL_SLUG).find(([k]) => k.toLowerCase() === n);
+  if (hit) return hit[1];
+  if (n.includes("bondi")) return "bondi";
+  if (n.includes("neura")) return "neura";
+  if (n.includes("vorterix")) return "vorterix";
+  if (n.includes("luzu")) return "luzu";
+  if (n.includes("gelatina")) return "gelatina";
+  if (n.includes("blender") || n === "blend") return "blend";
+  if (n.includes("urbana")) return "urbana";
+  if (n.includes("olga")) return "olga";
+  return null;
+}
+
+export function highlightTS(h: ConversacionHighlight): number {
+  if (h.t_seconds != null && h.t_seconds > 0) return h.t_seconds;
+  if (h.start_min != null && h.start_min >= 0) return h.start_min * 60;
+  return 0;
+}
+
+export function highlightProgramHref(h: ConversacionHighlight): string {
+  const t = highlightTS(h);
+  return t > 0 ? `/programas/${h.video_id}?t=${t}` : `/programas/${h.video_id}`;
+}
+
+export function groupHighlightsByChannel(
+  highlights: ConversacionHighlight[],
+  channelOrder: string[]
+): { channel: string; items: ConversacionHighlight[] }[] {
+  const map = new Map<string, ConversacionHighlight[]>();
+  for (const h of highlights) {
+    const list = map.get(h.channel) ?? [];
+    list.push(h);
+    map.set(h.channel, list);
+  }
+  const ordered: { channel: string; items: ConversacionHighlight[] }[] = [];
+  const seen = new Set<string>();
+  for (const ch of channelOrder) {
+    const items = map.get(ch);
+    if (items?.length) {
+      ordered.push({ channel: ch, items });
+      seen.add(ch);
+    }
+  }
+  for (const [ch, items] of map) {
+    if (!seen.has(ch)) ordered.push({ channel: ch, items });
+  }
+  return ordered;
+}

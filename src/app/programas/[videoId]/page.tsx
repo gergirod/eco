@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { useParams } from "next/navigation";
+import { useParams, useSearchParams } from "next/navigation";
 import ProgramTopicsPanel from "@/components/programs/ProgramTopicsPanel";
 import AudienceDemandPanel from "@/components/programs/AudienceDemandPanel";
 import RoomParticipationPanel from "@/components/programs/RoomParticipationPanel";
@@ -24,7 +24,9 @@ import momentsFb from "@/data/moments.json";
 
 export default function ProgramaProfilePage() {
   const params = useParams();
+  const searchParams = useSearchParams();
   const videoId = typeof params.videoId === "string" ? params.videoId : "";
+  const focusSeconds = Math.max(0, Number(searchParams.get("t") || 0) || 0);
 
   const reports = useDataset("reports", reportsFb);
   const channels = useDataset<{ id: string; name: string }[]>("channels", channelsFb);
@@ -151,7 +153,7 @@ export default function ProgramaProfilePage() {
 
           <div className="flex flex-wrap gap-3 mb-8">
             <a
-              href={vodLink(program.video_id)}
+              href={vodLink(program.video_id, focusSeconds)}
               target="_blank"
               rel="noopener noreferrer"
               className="btn btn-primary"
@@ -194,7 +196,7 @@ export default function ProgramaProfilePage() {
       ) : (
         <div className="flex flex-wrap gap-3 mb-8">
           <a
-            href={vodLink(videoId)}
+            href={vodLink(videoId, focusSeconds)}
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-primary"
@@ -204,7 +206,7 @@ export default function ProgramaProfilePage() {
         </div>
       )}
 
-      {topics ? <ProgramTopicsPanel topics={topics} /> : null}
+      {topics ? <ProgramTopicsPanel topics={topics} focusSeconds={focusSeconds} /> : null}
 
       <AudienceDemandPanel moment={moment} />
 

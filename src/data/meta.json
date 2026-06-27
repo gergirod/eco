@@ -1,5 +1,5 @@
 {
- "exported_at": "2026-06-27T15:12:30.540115+00:00",
+ "exported_at": "2026-06-27T15:52:09.897347+00:00",
  "capture_scope": "live_only",
  "capture_sources": [
   "youtube_api",
@@ -16,7 +16,7 @@
  "cpm": 30.0,
  "peso_default": 0.3,
  "live_capture": {
-  "hours_captured": 136.1,
+  "hours_captured": 136.7,
   "streams_captured": 55,
   "channels_captured": 8,
   "capture_days": 6,
@@ -57,7 +57,7 @@
    {
     "id": "luzu",
     "streams": 20,
-    "hours": 39.0,
+    "hours": 39.7,
     "first_capture": "2026-06-23",
     "last_capture": "2026-06-27"
    },

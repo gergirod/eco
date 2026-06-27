@@ -1,15 +1,44 @@
 "use client";
 
+import Link from "next/link";
+import { useEffect, useRef } from "react";
 import type { ProgramTopicsRow } from "@/lib/placement";
 import { categoryLabel } from "@/lib/placement";
+import { fmtHMS } from "@/lib/format";
 
 type Props = {
   topics: ProgramTopicsRow;
+  /** Segundos en el VOD — scroll y resalta el tramo más cercano. */
+  focusSeconds?: number;
 };
 
-export default function ProgramTopicsPanel({ topics }: Props) {
+function minuteToSeconds(minute: string): number | null {
+  const parts = minute.split(":").map((p) => parseInt(p, 10));
+  if (parts.some((n) => Number.isNaN(n))) return null;
+  if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
+  if (parts.length === 2) return parts[0] * 60 + parts[1];
+  return null;
+}
+
+export default function ProgramTopicsPanel({ topics, focusSeconds = 0 }: Props) {
+  const sectionRef = useRef<HTMLElement>(null);
   const hasTemas = topics.top_temas.length > 0;
   const hasCats = topics.categorias.length > 0;
+  const focusIdx =
+    focusSeconds > 0
+      ? topics.samples.findIndex((s) => {
+          if (!s.minute) return false;
+          const sec = minuteToSeconds(s.minute);
+          if (sec == null) return false;
+          return Math.abs(sec - focusSeconds) < 600;
+        })
+      : -1;
+
+  useEffect(() => {
+    if (focusSeconds > 0 && sectionRef.current) {
+      sectionRef.current.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }, [focusSeconds]);
 
   if (!hasTemas && !topics.samples.length) {
     return (
@@ -25,8 +54,13 @@ export default function ProgramTopicsPanel({ topics }: Props) {
   }
 
   return (
-    <section className="mb-8">
+    <section ref={sectionRef} id="charla" className="mb-8 scroll-mt-24">
       <h2 className="text-[15px] font-semibold mb-1">De qué se habló</h2>
+      {focusSeconds > 0 ? (
+        <p className="text-[12.5px] text-accent font-medium mb-2">
+          Te trajimos al tramo ~{fmtHMS(focusSeconds)} de esta emisión.
+        </p>
+      ) : null}
       <p className="text-[13px] text-gray-500 mb-4 max-w-2xl">
         Lo que dijeron los conductores en este vivo — no es lo que escribió la sala ni marcas
         pautando.{" "}
@@ -71,7 +105,10 @@ export default function ProgramTopicsPanel({ topics }: Props) {
           </div>
           <ul className="divide-y divide-[#ececec]">
             {topics.samples.map((s, i) => (
-              <li key={i} className="px-5 py-4">
+              <li
+                key={i}
+                className={`px-5 py-4 ${i === focusIdx ? "bg-accent-soft/30 ring-1 ring-inset ring-accent/20" : ""}`}
+              >
                 <div className="flex flex-wrap items-baseline gap-2 mb-1">
                   <span className="text-[13px] font-medium text-ink">{s.tema}</span>
                   {s.minute ? (
