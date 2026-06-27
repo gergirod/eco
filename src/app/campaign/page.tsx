@@ -7,17 +7,12 @@ import BrandPicker from "@/components/BrandPicker";
 import CampaignHeader from "@/components/CampaignHeader";
 import ActivationsTable from "@/components/ActivationsTable";
 import MomentModal from "@/components/MomentModal";
-import { useDataset } from "@/lib/useDataset";
+import { useCorpus } from "@/lib/useCorpus";
 import { campaignReportKey, formatScopePeriod, listCampaignReports } from "@/lib/campaign";
 import { printCampaignReportPDF } from "@/lib/campaignReport";
-import reportsFb from "@/data/reports.json";
-import channelsFb from "@/data/channels.json";
-import momentsFb from "@/data/moments.json";
 
 function CampaignPageInner() {
-  const reports = useDataset<any>("reports", reportsFb);
-  const channels = useDataset<any[]>("channels", channelsFb);
-  const moments = useDataset<any>("moments", momentsFb);
+  const { reports, channels, moments } = useCorpus(["reports", "channels", "moments"] as const);
   const searchParams = useSearchParams();
   const [openMention, setOpenMention] = useState<any | null>(null);
 

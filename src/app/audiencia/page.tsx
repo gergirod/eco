@@ -2,10 +2,9 @@
 import { PageHeader, Stat, Badge, Bar } from "@/components/ui";
 import { useDataset } from "@/lib/useDataset";
 import { num, compact } from "@/lib/format";
-import audienceFb from "@/data/audience.json";
 
 export default function AudienciaPage() {
-  const audience = useDataset<any[]>("audience", audienceFb);
+  const audience = useDataset<any[]>("audience");
   const maxAvg = Math.max(...audience.map((a) => a.avg_concurrent), 1);
   const totalPeak = Math.max(...audience.map((a) => a.peak_concurrent), 0);
 

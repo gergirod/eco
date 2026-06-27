@@ -437,84 +437,6 @@
   "rubro": "energia"
  },
  {
-  "slug": "dia",
-  "name": "Día",
-  "mentions": 5,
-  "channels": [
-   "luzu",
-   "olga"
-  ],
-  "n_channels": 2,
-  "n_videos": 5,
-  "first_seen": "19/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 8691.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "26/06/2026",
-    "video_id": "3QJmfDvuxIk",
-    "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
-    "minute": "00:46:07",
-    "views": 40199,
-    "conc_at": 28284
-   },
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "23/06/2026",
-    "video_id": "cHMIm1Fnig4",
-    "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
-    "minute": "01:27:50",
-    "views": 373638,
-    "conc_at": 238446
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:48:12",
-    "views": 73490,
-    "conc_at": 43135
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "24/06/2026",
-    "video_id": "kDbkbzy_ASA",
-    "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
-    "minute": "00:57:59",
-    "views": 28305,
-    "conc_at": 21034
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "19/06/2026",
-    "video_id": "XHV2BV9DWMs",
-    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "minute": "01:26:59",
-    "views": 39368,
-    "conc_at": 41092
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 5,
-  "n_programs": 5,
-  "peak_conc_at": 238446,
-  "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 5 activaciones en 5 programas y 2 canales — 5 con evidencia completa y 0 con evidencia parcial.",
-  "evidence_summary": {
-   "verified": 5,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "fintech"
- },
- {
   "slug": "rexona",
   "name": "Rexona",
   "mentions": 5,
@@ -2913,43 +2835,6 @@
   "rubro": "viajes"
  },
  {
-  "slug": "gol-gana",
-  "name": "Gol Gana",
-  "mentions": 1,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 77.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "26/06/2026",
-    "video_id": "9ucd7zkq6P8",
-    "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
-    "minute": "01:04:03",
-    "views": 10522,
-    "conc_at": 7895
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 7895,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "otro"
- },
- {
   "slug": "personal-flow",
   "name": "Personal / Flow",
   "mentions": 1,
@@ -4171,80 +4056,6 @@
   "rubro": "otro"
  },
  {
-  "slug": "patria-y-familia",
-  "name": "Patria y Familia",
-  "mentions": 1,
-  "channels": [
-   "luzu"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 1398.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "26/06/2026",
-    "video_id": "W5dvBDWCWWk",
-    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
-    "minute": "02:32:31",
-    "views": 348552,
-    "conc_at": 192619
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 192619,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "otro"
- },
- {
-  "slug": "pollo-tati-y-agus-garcia",
-  "name": "Pollo Tati y Agus García",
-  "mentions": 1,
-  "channels": [
-   "luzu"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 7555.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "26/06/2026",
-    "video_id": "W5dvBDWCWWk",
-    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
-    "minute": "02:34:14",
-    "views": 348552,
-    "conc_at": 169581
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 169581,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "otro"
- },
- {
   "slug": "quilmes",
   "name": "Quilmes",
   "mentions": 1,
@@ -5318,43 +5129,6 @@
   "rubro": "retail"
  },
  {
-  "slug": "personal",
-  "name": "Personal",
-  "mentions": 1,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "22/06/2026",
-  "last_seen": "22/06/2026",
-  "value_usd": 218.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "22/06/2026",
-    "video_id": "95yJuQx7ol8",
-    "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
-    "minute": "00:13:31",
-    "views": 15613,
-    "conc_at": 7522
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 7522,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "telco"
- },
- {
   "slug": "redoxon",
   "name": "Redoxon",
   "mentions": 1,
@@ -5789,43 +5563,6 @@
   "n_activations": 1,
   "n_programs": 1,
   "peak_conc_at": 3451,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "otro"
- },
- {
-  "slug": "punto-caramelo",
-  "name": "Punto Caramelo",
-  "mentions": 1,
-  "channels": [
-   "urbana-play-104-3-fm"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 34.0,
-  "samples": [
-   {
-    "channel": "urbana-play-104-3-fm",
-    "channel_name": "Urbana Play 104.3 FM",
-    "date": "26/06/2026",
-    "video_id": "U8f_2vIvO7Y",
-    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
-    "minute": "01:45:09",
-    "views": 7678,
-    "conc_at": 3452
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 3452,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {

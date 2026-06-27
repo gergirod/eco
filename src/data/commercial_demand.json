@@ -1,0 +1,858 @@
+{
+ "disclaimer": "Pedidos confirmados de link, precio o dónde comprar — no certifica ventas. Falsos positivos de 'sale'/'cuota' filtrados por heurística + revisión LLM en casos dudosos. LUZU sin chat usable en el período. 4 mensaje(s) cayeron dentro de 5 min después de una PNT verificada.",
+ "summary_line": "Neura Media concentra la mayor demanda comercial filtrada en chat (4 pedidos confirmados, 0.06 por cada mil mirando; 1 dentro de 5 min post-PNT).",
+ "filter": {
+  "llm_used": 35,
+  "llm_rejected": 201,
+  "llm_confirmed": 23,
+  "heuristic_rejected": 0,
+  "confirmed_total": 128
+ },
+ "channels": [
+  {
+   "id": "neura",
+   "name": "Neura Media",
+   "programs_with_chat": 4,
+   "commercial_messages": 4,
+   "chat_messages": 2355,
+   "commercial_pct": 0.2,
+   "commercial_per_1k": 0.06,
+   "post_pnt_messages": 1,
+   "by_tipo": {
+    "pedido_link": 2,
+    "pregunta_precio": 2
+   },
+   "top_examples": [
+    {
+     "text": "cuando tenga la sucursal en bsas hay 15 de descuento para chat de neura vieejooo",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "quiero ir a vivir a ese crucero. Cuánto el alquiler mensual y expensas?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Yayi... BTC está en muy buen precio.",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "id": "blend",
+   "name": "Blender",
+   "programs_with_chat": 4,
+   "commercial_messages": 20,
+   "chat_messages": 8656,
+   "commercial_pct": 0.2,
+   "commercial_per_1k": 0.01,
+   "post_pnt_messages": 0,
+   "by_tipo": {
+    "pregunta_precio": 7,
+    "pedido_link": 13
+   },
+   "top_examples": [
+    {
+     "text": "fah yo trabajé como moderadora de contenido para una app!",
+     "tipo": "pedido_link",
+     "count": 2
+    },
+    {
+     "text": "el conmgelador de precio",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "NO CAMBIARON EL LINK DEL PROGRAMA",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "id": "vorterix",
+   "name": "Vorterix",
+   "programs_with_chat": 4,
+   "commercial_messages": 13,
+   "chat_messages": 20818,
+   "commercial_pct": 0.1,
+   "commercial_per_1k": 0.01,
+   "post_pnt_messages": 0,
+   "by_tipo": {
+    "pregunta_precio": 2,
+    "pedido_link": 11
+   },
+   "top_examples": [
+    {
+     "text": "Cuanto esta el gramo ?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "en el codigo penal estA?",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "menos código el chabon",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "id": "gelatina",
+   "name": "Gelatina",
+   "programs_with_chat": 1,
+   "commercial_messages": 2,
+   "chat_messages": 778,
+   "commercial_pct": 0.3,
+   "commercial_per_1k": 0.01,
+   "post_pnt_messages": 0,
+   "by_tipo": {
+    "pregunta_precio": 2
+   },
+   "top_examples": [
+    {
+     "text": "vamos pepe decime cuanto aumento cuota para incorporar HAA",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "no le bajemos el precio a los estafadores hijos de puta con esto de reirnos no más",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "id": "olga",
+   "name": "Olga",
+   "programs_with_chat": 14,
+   "commercial_messages": 78,
+   "chat_messages": 68210,
+   "commercial_pct": 0.1,
+   "commercial_per_1k": 0.0,
+   "post_pnt_messages": 3,
+   "by_tipo": {
+    "pedido_link": 35,
+    "pregunta_precio": 40,
+    "pregunta_compra": 3
+   },
+   "top_examples": [
+    {
+     "text": "Cuál es la app de cómo saber la música??",
+     "tipo": "pedido_link",
+     "count": 4
+    },
+    {
+     "text": "esta a un precio super accesible!",
+     "tipo": "pregunta_precio",
+     "count": 3
+    },
+    {
+     "text": "necesito un cupon de mercado libre",
+     "tipo": "pedido_link",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "id": "bondi",
+   "name": "Bondi Live",
+   "programs_with_chat": 1,
+   "commercial_messages": 9,
+   "chat_messages": 6240,
+   "commercial_pct": 0.1,
+   "commercial_per_1k": 0.0,
+   "post_pnt_messages": 0,
+   "by_tipo": {
+    "pedido_link": 6,
+    "pregunta_precio": 3
+   },
+   "top_examples": [
+    {
+     "text": "LINK LINK LINK",
+     "tipo": "pedido_link",
+     "count": 2
+    },
+    {
+     "text": "Qué paso con la app de connie??",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "YO TE BANCO PEPE A MI ME PASA CON LAS FRUTAS Y VERDURAS, NO PUEDO ME CUESTA UN MONTON",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "id": "",
+   "name": "",
+   "programs_with_chat": 1,
+   "commercial_messages": 2,
+   "chat_messages": 5736,
+   "commercial_pct": 0.0,
+   "commercial_per_1k": 0.0,
+   "post_pnt_messages": 0,
+   "by_tipo": {
+    "pedido_link": 1,
+    "pregunta_precio": 1
+   },
+   "top_examples": [
+    {
+     "text": "despues tenes descuento en Pedido Ya",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "40 DOLARES TE SALE LA ORIGINAL ACA CRERO",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "programs": [
+  {
+   "video_id": "c1LrQSDaXAY",
+   "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+   "channel": "Neura Media",
+   "channel_id": "neura",
+   "commercial_messages": 1,
+   "commercial_pct": 0.2,
+   "commercial_per_1k": 0.16,
+   "chat_messages": 463,
+   "by_tipo": {
+    "pregunta_precio": 1
+   },
+   "top_examples": [
+    {
+     "text": "quiero ir a vivir a ese crucero. Cuánto el alquiler mensual y expensas?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "XYJRLyO9exg",
+   "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
+   "channel": "Neura Media",
+   "channel_id": "neura",
+   "commercial_messages": 1,
+   "commercial_pct": 0.4,
+   "commercial_per_1k": 0.05,
+   "chat_messages": 235,
+   "by_tipo": {
+    "pregunta_precio": 1
+   },
+   "top_examples": [
+    {
+     "text": "Yayi... BTC está en muy buen precio.",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 1,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": [
+    {
+     "text": "Yayi... BTC está en muy buen precio.",
+     "tipo": "pregunta_precio",
+     "minute": "2:57",
+     "brand": "PAE",
+     "pnt_minute": "00:00:30",
+     "delta_sec": 148,
+     "brand_in_chat": false
+    }
+   ]
+  },
+  {
+   "video_id": "UlE50hJOMJg",
+   "title": "Multiverso Neura",
+   "channel": "Neura Media",
+   "channel_id": "neura",
+   "commercial_messages": 1,
+   "commercial_pct": 0.2,
+   "commercial_per_1k": 0.02,
+   "chat_messages": 456,
+   "by_tipo": {
+    "pedido_link": 1
+   },
+   "top_examples": [
+    {
+     "text": "cuando tenga la sucursal en bsas hay 15 de descuento para chat de neura vieejooo",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "cOui_830fXg",
+   "title": "🚀 SOÑÉ QUE VOLABA con Migue Granados, Lucas Fridman, Vicky Garabal y Charo López | OLGA EN VIVO",
+   "channel": "OLGA",
+   "channel_id": "olga",
+   "commercial_messages": 32,
+   "commercial_pct": 0.5,
+   "commercial_per_1k": 0.01,
+   "chat_messages": 6439,
+   "by_tipo": {
+    "pregunta_precio": 17,
+    "pedido_link": 15
+   },
+   "top_examples": [
+    {
+     "text": "esta a un precio super accesible!",
+     "tipo": "pregunta_precio",
+     "count": 3
+    },
+    {
+     "text": "Hay descuento tipo 3x2?? me interesa para comprar varios, y tener uno en cada habitación",
+     "tipo": "pedido_link",
+     "count": 2
+    },
+    {
+     "text": "cuanto el G?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Estas desarrollando una APP Migue?",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "C6BZb4k8gF0",
+   "title": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
+   "channel": "BLENDER",
+   "channel_id": "blend",
+   "commercial_messages": 8,
+   "commercial_pct": 0.6,
+   "commercial_per_1k": 0.01,
+   "chat_messages": 1344,
+   "by_tipo": {
+    "pregunta_precio": 1,
+    "pedido_link": 7
+   },
+   "top_examples": [
+    {
+     "text": "el conmgelador de precio",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "NO CAMBIARON EL LINK DEL PROGRAMA",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "tas al aire pero sigue el link de que dia",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "están en el link de QUE DIA",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "A_ww0XRZnps",
+   "title": "¿NOS INVADEN O QUÉ?, ODIADOS CON EL ALGORITMO y  LA CRISIS DE LA COLO  | ÚLTIMO AVISO | BLENDER",
+   "channel": "BLENDER",
+   "channel_id": "blend",
+   "commercial_messages": 5,
+   "commercial_pct": 0.3,
+   "commercial_per_1k": 0.01,
+   "chat_messages": 1455,
+   "by_tipo": {
+    "pedido_link": 3,
+    "pregunta_precio": 2
+   },
+   "top_examples": [
+    {
+     "text": "tiraron en link y había 6k de vistas",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "Cambiaron de link nos perdimos todo",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "PODEMOS HABLAR DEL PRECIO DEL GTA 6 LOCO",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "VAMOOS ME GANE UN CUPON",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "EwFONN3W5cg",
+   "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "commercial_messages": 3,
+   "commercial_pct": 0.1,
+   "commercial_per_1k": 0.01,
+   "chat_messages": 2665,
+   "by_tipo": {
+    "pedido_link": 2,
+    "pregunta_precio": 1
+   },
+   "top_examples": [
+    {
+     "text": "en el codigo penal estA?",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "menos código el chabon",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "sale ese Damián Cuck chair?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "tlhTO7YtTJ0",
+   "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
+   "channel": "GELATINA",
+   "channel_id": "gelatina",
+   "commercial_messages": 2,
+   "commercial_pct": 0.3,
+   "commercial_per_1k": 0.01,
+   "chat_messages": 778,
+   "by_tipo": {
+    "pregunta_precio": 2
+   },
+   "top_examples": [
+    {
+     "text": "vamos pepe decime cuanto aumento cuota para incorporar HAA",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "no le bajemos el precio a los estafadores hijos de puta con esto de reirnos no más",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "IubT1ZyjjEA",
+   "title": "🔴 ESTO NO SUCEDIÓ con Hernan Panessi, Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "commercial_messages": 1,
+   "commercial_pct": 0.1,
+   "commercial_per_1k": 0.01,
+   "chat_messages": 962,
+   "by_tipo": {
+    "pregunta_precio": 1
+   },
+   "top_examples": [
+    {
+     "text": "Cuanto esta el gramo ?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "LE5ICiVWzT8",
+   "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "commercial_messages": 1,
+   "commercial_pct": 0.1,
+   "commercial_per_1k": 0.01,
+   "chat_messages": 1421,
+   "by_tipo": {
+    "pedido_link": 1
+   },
+   "top_examples": [
+    {
+     "text": "La Prodeneta uso yo. GRAN APP Desarrollada por una piba muy copada.",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "7ON4ZA5TtHc",
+   "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
+   "channel": "Neura Media",
+   "channel_id": "neura",
+   "commercial_messages": 1,
+   "commercial_pct": 0.1,
+   "commercial_per_1k": 0.01,
+   "chat_messages": 1201,
+   "by_tipo": {
+    "pedido_link": 1
+   },
+   "top_examples": [
+    {
+     "text": "Avisaron del gol y me gane un cupon en PYa, gracias",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "8lOkxIDSd4w",
+   "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+   "channel": "OLGA",
+   "channel_id": "olga",
+   "commercial_messages": 11,
+   "commercial_pct": 0.1,
+   "commercial_per_1k": 0.0,
+   "chat_messages": 18204,
+   "by_tipo": {
+    "pedido_link": 5,
+    "pregunta_precio": 6
+   },
+   "top_examples": [
+    {
+     "text": "necesito un cupon de mercado libre",
+     "tipo": "pedido_link",
+     "count": 3
+    },
+    {
+     "text": "PARA LLEGAR PEDITE UN CABIFY. Y TENES DESCUENTO EN TUS PRIMEROS 4 VIAJES CON EL CODIGO soñeconcabify",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "el álbum del mundial si, la cuota no",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Igual al mío pero pasaba la cuota",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "tAUTd2FsMxA",
+   "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+   "channel": "Bondi Live",
+   "channel_id": "bondi",
+   "commercial_messages": 9,
+   "commercial_pct": 0.1,
+   "commercial_per_1k": 0.0,
+   "chat_messages": 6240,
+   "by_tipo": {
+    "pedido_link": 6,
+    "pregunta_precio": 3
+   },
+   "top_examples": [
+    {
+     "text": "LINK LINK LINK",
+     "tipo": "pedido_link",
+     "count": 2
+    },
+    {
+     "text": "Qué paso con la app de connie??",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "YO TE BANCO PEPE A MI ME PASA CON LAS FRUTAS Y VERDURAS, NO PUEDO ME CUESTA UN MONTON",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "NO Y NO CONIE NO LES BAJES EL PRECIO...",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "LjEHjrbNNgs",
+   "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "commercial_messages": 8,
+   "commercial_pct": 0.1,
+   "commercial_per_1k": 0.0,
+   "chat_messages": 15770,
+   "by_tipo": {
+    "pedido_link": 8
+   },
+   "top_examples": [
+    {
+     "text": "@teffx7 literalmente mande al link que compartieron ayer, pasame uno porfis",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "Pasen link de rapidshare",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "PONGAN EL LINK DEL CANAL ES IMPOSIBLE DE BUSCAR",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "bots pongan link",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "s__pKWUr4MM",
+   "title": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
+   "channel": "OLGA",
+   "channel_id": "olga",
+   "commercial_messages": 7,
+   "commercial_pct": 0.3,
+   "commercial_per_1k": 0.0,
+   "chat_messages": 2391,
+   "by_tipo": {
+    "pedido_link": 4,
+    "pregunta_precio": 3
+   },
+   "top_examples": [
+    {
+     "text": "Cuál es la app de cómo saber la música??",
+     "tipo": "pedido_link",
+     "count": 4
+    },
+    {
+     "text": "Cuanto paga en betano que haya una abducción?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "hace un mes no hay agua caliente en mi edificio por las calderas y subió el precio del gasto común, dicen que es \"por el aumento del uso de agua claiente\" TE EN",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "de 29k a cuanto baja?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  }
+ ],
+ "top_signals": [
+  {
+   "text": "Cuál es la app de cómo saber la música??",
+   "tipo": "pedido_link",
+   "count": 4,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "esta a un precio super accesible!",
+   "tipo": "pregunta_precio",
+   "count": 3,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "necesito un cupon de mercado libre",
+   "tipo": "pedido_link",
+   "count": 3,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "este año sale Teatro Picadilly",
+   "tipo": "pregunta_precio",
+   "count": 2,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "fah yo trabajé como moderadora de contenido para una app!",
+   "tipo": "pedido_link",
+   "count": 2,
+   "n_programas": 1,
+   "canales": [
+    "BLENDER"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "LINK LINK LINK",
+   "tipo": "pedido_link",
+   "count": 2,
+   "n_programas": 1,
+   "canales": [
+    "Bondi Live"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "Hay descuento tipo 3x2?? me interesa para comprar varios, y tener uno en cada habitación",
+   "tipo": "pedido_link",
+   "count": 2,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "Compartan el link así somos 50k",
+   "tipo": "pedido_link",
+   "count": 1,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "pasen data de la app",
+   "tipo": "pedido_link",
+   "count": 1,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "Por Nazca y Avellaneda venden un montón a buen precio",
+   "tipo": "pregunta_precio",
+   "count": 1,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  }
+ ],
+ "pnt_correlations": [
+  {
+   "text": "LIKE AL VIVO Y COMPAETAN EL LINK!!:firecracker::firecracker::firecracker::firecracker::firecracker:",
+   "tipo": "pedido_link",
+   "minute": "6:55",
+   "brand": "Propel Fit Planet",
+   "pnt_minute": "00:06:45",
+   "delta_sec": 10,
+   "brand_in_chat": false,
+   "video_id": "W_HkPNOMeDc",
+   "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+   "channel": "OLGA"
+  },
+  {
+   "text": "Yayi... BTC está en muy buen precio.",
+   "tipo": "pregunta_precio",
+   "minute": "2:57",
+   "brand": "PAE",
+   "pnt_minute": "00:00:30",
+   "delta_sec": 148,
+   "brand_in_chat": false,
+   "video_id": "XYJRLyO9exg",
+   "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
+   "channel": "Neura Media"
+  },
+  {
+   "text": "donde se consigue la campera de migue, en la pagina no esta",
+   "tipo": "pregunta_compra",
+   "minute": "116:42",
+   "brand": "Hellmann's",
+   "pnt_minute": "01:53:57",
+   "delta_sec": 165,
+   "brand_in_chat": false,
+   "video_id": "ptOHcGEdWCk",
+   "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+   "channel": "OLGA"
+  },
+  {
+   "text": "en la reventa pone el precio el que lo vende.. dependen de la demanda.. si pagan eso.. lo van a vender ac ese precio",
+   "tipo": "pregunta_precio",
+   "minute": "70:40",
+   "brand": "Schneider",
+   "pnt_minute": "01:05:55",
+   "delta_sec": 285,
+   "brand_in_chat": false,
+   "video_id": "9ucd7zkq6P8",
+   "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+   "channel": "OLGA"
+  }
+ ],
+ "channels_with_commercial": 7,
+ "period": "2026-06-27T20:53:40.739475+00:00"
+}

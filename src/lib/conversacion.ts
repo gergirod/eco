@@ -390,6 +390,14 @@ export const CHANNEL_SLUG: Record<string, string> = {
   URBANA: "urbana",
   "Neura Media": "neura",
   Vorterix: "vorterix",
+  BorderPeriodismo: "border",
+  "Border Periodismo": "border",
+  "El Cronista": "cronista",
+  "AHORA PLAY": "ahoraplay",
+  "Ahora Play": "ahoraplay",
+  "A U R A": "aura",
+  Aura: "aura",
+  Cenital: "cenital",
 };
 
 export function channelSlug(name: string): string | null {
@@ -400,6 +408,11 @@ export function channelSlug(name: string): string | null {
   if (n.includes("bondi")) return "bondi";
   if (n.includes("neura")) return "neura";
   if (n.includes("vorterix")) return "vorterix";
+  if (n.includes("border")) return "border";
+  if (n.includes("cronista")) return "cronista";
+  if (n.includes("ahora play") || n.includes("ahoraplay")) return "ahoraplay";
+  if (n.includes("aura")) return "aura";
+  if (n.includes("cenital")) return "cenital";
   if (n.includes("luzu")) return "luzu";
   if (n.includes("gelatina")) return "gelatina";
   if (n.includes("blender") || n === "blend") return "blend";

@@ -12,8 +12,8 @@
    "videos_processed": 15,
    "total_vod_views": 538242,
    "avg_concurrent": 25824,
-   "brands_detected": 55,
-   "mentions": 96,
+   "brands_detected": 52,
+   "mentions": 90,
    "last_processed": "26/06/2026"
   },
   "pipeline_status": "activo"
@@ -31,8 +31,8 @@
    "videos_processed": 17,
    "total_vod_views": 2183596,
    "avg_concurrent": 81114,
-   "brands_detected": 47,
-   "mentions": 62,
+   "brands_detected": 44,
+   "mentions": 59,
    "last_processed": "27/06/2026"
   },
   "pipeline_status": "activo"
@@ -155,6 +155,66 @@
    "last_processed": "26/06/2026"
   },
   "pipeline_status": "activo"
+ },
+ {
+  "id": "border",
+  "name": "BorderPeriodismo",
+  "url": "https://www.youtube.com/@border.periodismo",
+  "genre": "Periodismo / actualidad",
+  "subscribers": "218K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": false,
+  "stats": null,
+  "pipeline_status": "configurado"
+ },
+ {
+  "id": "cronista",
+  "name": "El Cronista",
+  "url": "https://www.youtube.com/@Cronista_ar",
+  "genre": "Economía / finanzas",
+  "subscribers": "177K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": false,
+  "stats": null,
+  "pipeline_status": "configurado"
+ },
+ {
+  "id": "ahoraplay",
+  "name": "Ahora Play",
+  "url": "https://www.youtube.com/@Ahora_Play",
+  "genre": "Economía / política",
+  "subscribers": "128K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": false,
+  "stats": null,
+  "pipeline_status": "configurado"
+ },
+ {
+  "id": "aura",
+  "name": "Aura",
+  "url": "https://www.youtube.com/@AuraStreamTN",
+  "genre": "Periodismo / actualidad",
+  "subscribers": "75K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": false,
+  "stats": null,
+  "pipeline_status": "configurado"
+ },
+ {
+  "id": "cenital",
+  "name": "Cenital",
+  "url": "https://www.youtube.com/@Cenitalcom",
+  "genre": "Política / análisis",
+  "subscribers": "202K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": false,
+  "stats": null,
+  "pipeline_status": "configurado"
  },
  {
   "id": "lacasa",

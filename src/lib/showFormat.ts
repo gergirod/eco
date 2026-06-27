@@ -277,6 +277,72 @@ const SHOW_RULES: Record<string, ShowRule[]> = {
       test: /#?\s*paren\s*la\s*mano|paren\s+la\s+mano/i,
     },
   ],
+  border: [
+    { id: "que-miedo", name: "Que Miedo", test: /que\s+miedo/i },
+    { id: "vivan-todo", name: "Vivan Todo", test: /vivan\s+todo/i },
+    {
+      id: "mesa-periodistas",
+      name: "Mesa de Periodistas",
+      test: /mesa\s+de\s+periodistas/i,
+    },
+    {
+      id: "border-sessions",
+      name: "BorderSessions",
+      test: /border\s*sessions/i,
+    },
+  ],
+  cronista: [
+    { id: "pulso-financiero", name: "Pulso Financiero", test: /pulso\s+financiero/i },
+    { id: "cuentas-claras", name: "Cuentas Claras", test: /cuentas\s+claras/i },
+    { id: "sello-argento", name: "Sello Argento", test: /sello\s+argento/i },
+    { id: "nada-personal", name: "Nada Personal", test: /nada\s+personal/i },
+    { id: "lo-que-de", name: "Lo Que Dé", test: /lo\s+que\s+d[eé]/i },
+  ],
+  ahoraplay: [
+    {
+      id: "serrucho",
+      name: "Serrucho Económico",
+      test: /serrucho\s+econ[oó]mico|#serrucho/i,
+    },
+    {
+      id: "maxi-mediodia",
+      name: "Maxi Mediodía",
+      test: /maxi\s*mediod[ií]a|#maximediod[ií]a/i,
+    },
+    {
+      id: "cierre-mercados",
+      name: "Cierre de Mercados",
+      test: /cierre\s+de\s+mercados/i,
+    },
+    {
+      id: "ndts",
+      name: "Nuevo Dinero Talk Show",
+      test: /nuevo\s+dinero\s+talk|#ndts/i,
+    },
+    {
+      id: "ahora-en-jaque",
+      name: "Ahora en Jaque",
+      test: /ahora\s+en\s+jaque/i,
+    },
+  ],
+  aura: [
+    { id: "hoy-como-siempre", name: "Hoy como siempre", test: /hoy\s+como\s+siempre/i },
+    { id: "de-aca", name: "De Acá", test: /\bde\s+ac[aá]\b/i },
+  ],
+  cenital: [
+    {
+      id: "esdlos",
+      name: "El Señor de los Pasillos",
+      test: /el\s+se[nñ]or\s+de\s+los\s+pasillos|esdlos/i,
+    },
+    { id: "540", name: "540°", test: /540\s*[°º]?|540°/i },
+    {
+      id: "efdlm",
+      name: "El Fin de la Metáfora",
+      test: /el\s+fin\s+de\s+la\s+met[aá]fora|efdlm/i,
+    },
+    { id: "mundo-propio", name: "Mundo Propio", test: /mundo\s+propio/i },
+  ],
 };
 
 const OTROS: ShowFormat = { id: "otros", name: "Otros" };

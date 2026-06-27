@@ -5,9 +5,8 @@ import AdvertiserBrowseCard from "@/components/discovery/AdvertiserBrowseCard";
 import CoverageLine from "@/components/CoverageLine";
 import {
   browseAdvertisers,
-  loadDiscoveryDataset,
-  getPlatformCoverage,
 } from "@/lib/discovery";
+import { useDiscoveryDataset, usePlatformCoverage } from "@/lib/use-discovery";
 import { BRIEF_STEPS_MARCA } from "@/lib/design-partners";
 import { partnerBrandLabel, type PartnerRecord } from "@/lib/partners";
 import { useMemo } from "react";
@@ -23,8 +22,8 @@ export default function PartnerMarcasHome({
   competitorSlugs,
   partnerName,
 }: Props) {
-  const dataset = useMemo(() => loadDiscoveryDataset(), []);
-  const coverage = useMemo(() => getPlatformCoverage(dataset), [dataset]);
+  const dataset = useDiscoveryDataset();
+  const coverage = usePlatformCoverage();
 
   const partnerConfig: PartnerRecord = useMemo(
     () => ({

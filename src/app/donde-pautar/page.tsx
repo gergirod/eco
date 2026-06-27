@@ -5,7 +5,6 @@ import { useMemo, useState } from "react";
 import CoverageLine from "@/components/CoverageLine";
 import { ATTENTION_DEFINITION, formatAttentionLiveStats } from "@/lib/coverage";
 import { listChannelBrowseItems } from "@/lib/channelProfile";
-import { getPlatformCoverage, loadDiscoveryDataset } from "@/lib/discovery";
 import { compact } from "@/lib/format";
 import {
   buildRubroGapHints,
@@ -14,9 +13,17 @@ import {
   type ShowOpportunity,
 } from "@/lib/opportunity";
 import type { PlacementExport } from "@/lib/placement";
+import CommercialDemandSection from "@/components/planning/CommercialDemandSection";
 import ChatInsightsSection from "@/components/planning/ChatInsightsSection";
 import ScheduleInsightsSection from "@/components/planning/ScheduleInsightsSection";
-import { applyRubroToInsights, type ChatInsightsExport } from "@/lib/chatInsights";
+import {
+  applyRubroToInsights,
+  type ChatInsightsExport,
+} from "@/lib/chatInsights";
+import {
+  filterCommercialByChannels,
+  type CommercialDemandExport,
+} from "@/lib/commercialDemand";
 import {
   applyRubroToSchedule,
   type ScheduleInsightsExport,
@@ -27,15 +34,20 @@ import {
   PLANNING_RUBRO_OPTIONS,
 } from "@/lib/planningRubro";
 import { rubroLabel } from "@/lib/placement";
-import { useDataset } from "@/lib/useDataset";
-import audienceFb from "@/data/audience.json";
-import benchmarkFb from "@/data/benchmark.json";
-import channelsFb from "@/data/channels.json";
-import momentsFb from "@/data/moments.json";
-import placementFb from "@/data/placement.json";
-import reportsFb from "@/data/reports.json";
-import chatInsightsFb from "@/data/chat_insights.json";
-import scheduleInsightsFb from "@/data/schedule_insights.json";
+import { useCorpus } from "@/lib/useCorpus";
+import { usePlatformCoverage } from "@/lib/use-discovery";
+
+const CORPUS_KEYS = [
+  "audience",
+  "benchmark",
+  "channels",
+  "reports",
+  "moments",
+  "placement",
+  "chat_insights",
+  "commercial_demand",
+  "schedule_insights",
+] as const;
 
 function OpportunityCard({ row }: { row: ShowOpportunity }) {
   return (
@@ -93,18 +105,18 @@ function RubroGapRow({ hint }: { hint: RubroGapHint }) {
 }
 
 export default function DondePautarPage() {
-  const audience = useDataset("audience", audienceFb);
-  const benchmark = useDataset("benchmark", benchmarkFb);
-  const channelsConfig = useDataset("channels", channelsFb);
-  const reports = useDataset("reports", reportsFb);
-  const moments = useDataset("moments", momentsFb);
-  const placement = useDataset("placement", placementFb) as PlacementExport;
-  const chatInsights = useDataset("chat_insights", chatInsightsFb) as ChatInsightsExport;
-  const scheduleInsights = useDataset(
-    "schedule_insights",
-    scheduleInsightsFb
-  ) as ScheduleInsightsExport;
+  const corpus = useCorpus(CORPUS_KEYS);
+  const audience = corpus.audience as unknown[];
+  const benchmark = corpus.benchmark as unknown[];
+  const channelsConfig = corpus.channels as unknown[];
+  const reports = corpus.reports as Record<string, unknown>;
+  const moments = corpus.moments as Record<string, unknown>;
+  const placement = corpus.placement as PlacementExport;
+  const chatInsights = corpus.chat_insights as ChatInsightsExport;
+  const commercialDemand = corpus.commercial_demand as CommercialDemandExport;
+  const scheduleInsights = corpus.schedule_insights as ScheduleInsightsExport;
   const [rubro, setRubro] = useState("");
+  const coverage = usePlatformCoverage();
 
   const rubroChannelIds = useMemo(
     () => channelIdsForRubro(placement, rubro),
@@ -117,12 +129,19 @@ export default function DondePautarPage() {
     [chatInsights, rubroChannelIds]
   );
 
+  const filteredCommercial = useMemo(
+    () =>
+      filterCommercialByChannels(
+        commercialDemand,
+        rubroChannelIds.size ? rubroChannelIds : null
+      ),
+    [commercialDemand, rubroChannelIds]
+  );
+
   const filteredSchedule = useMemo(
     () => applyRubroToSchedule(scheduleInsights, rubroChannelIds),
     [scheduleInsights, rubroChannelIds]
   );
-
-  const coverage = useMemo(() => getPlatformCoverage(loadDiscoveryDataset()), []);
 
   const channelItems = useMemo(
     () =>
@@ -196,6 +215,11 @@ export default function DondePautarPage() {
           </span>
         )}
       </div>
+
+      <CommercialDemandSection
+        report={filteredCommercial}
+        rubroLabel={rubro ? rubroLabel(placement, rubro) : null}
+      />
 
       <ChatInsightsSection
         insights={filteredInsights}

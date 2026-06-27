@@ -23,28 +23,28 @@
    "character_label": "Comunidad activa — chat denso respecto a la audiencia",
    "top_demands": [
     {
-     "text": "Y DE DONDE SALE ESA REGLAMENTACION EN EL SENADO...?????",
+     "text": "que venga grabois a hablar de tolkien jaj",
+     "tipo": "pedido_contenido",
+     "count": 1
+    },
+    {
+     "text": "cuando atacan la ciudad de los africanos... puro bodrio",
+     "tipo": "voto_eleccion",
+     "count": 1
+    },
+    {
+     "text": "la moda es que sale la web novel, de ahi la light novel, de ahi el anime",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "A DIETA ??? @jultarres ??? pesabas 48 Kg dijiste ??? a cuánto vas a bajar ??? UH",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "@PatanPerroloco Deja la payasada. Lo dijo el compañero de Joni Viale que siempre",
+     "text": "mi viejo es fanatico de marvel especificamente del capitan america, al principio",
      "tipo": "otro",
      "count": 1
     },
     {
-     "text": "PATAN NO QUIERO PROBAR SI EM SALE MAL",
+     "text": "hablando de Henry Cavill, cuando carajos sale el trailer de Highlander 2026... !",
      "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "Avisaron del gol y me gane un cupon en PYa, gracias",
-     "tipo": "pedido_link",
      "count": 1
     }
    ]
@@ -175,22 +175,22 @@
      "count": 2
     },
     {
-     "text": "tiraron en link y había 6k de vistas",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "Cambiaron de link nos perdimos todo",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "PODEMOS HABLAR DEL PRECIO DEL GTA 6 LOCO",
+     "text": "sale only",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "Betito sale petecito?",
+     "text": "¿Donde está Moreno? ¿Cuanto falta para que llegue?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "LE CUESTA A LU .. PERO ESTE GUILLE ES!!!",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "el conmgelador de precio",
      "tipo": "pregunta_precio",
      "count": 1
     }
@@ -1145,22 +1145,22 @@
    "cross_canal": false
   },
   {
-   "text": "LLAMEN A FIO",
-   "tipo": "pedido_contenido",
-   "count": 14,
-   "n_programas": 1,
-   "canales": [
-    "Vorterix"
-   ],
-   "cross_canal": false
-  },
-  {
    "text": "LOCO TRAIGAN A CHAROOOOOOOOOOOOOOOOOOOOOOOOOOO",
    "tipo": "pedido_contenido",
    "count": 14,
    "n_programas": 1,
    "canales": [
     "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "LLAMEN A FIO",
+   "tipo": "pedido_contenido",
+   "count": 14,
+   "n_programas": 1,
+   "canales": [
+    "Vorterix"
    ],
    "cross_canal": false
   },
@@ -1223,18 +1223,8 @@
    "cross_canal": false
   },
   {
-   "text": "chicos hablen de Venezuela",
-   "tipo": "pedido_contenido",
-   "count": 3,
-   "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
-   "cross_canal": false
-  },
-  {
-   "text": "No sale un día de SURF??",
-   "tipo": "pregunta_precio",
+   "text": "estoy estudiando medicina viendolos!! manden exitos",
+   "tipo": "pregunta_compra",
    "count": 3,
    "n_programas": 1,
    "canales": [
@@ -1251,11 +1241,21 @@
     "OLGA"
    ],
    "cross_canal": false
+  },
+  {
+   "text": "chicos hablen de Venezuela",
+   "tipo": "pedido_contenido",
+   "count": 3,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
   }
  ],
  "platform_line": "Neura Media es donde más habla la sala (26.04 mensajes por cada mil mirando). Demanda recurrente: «:bird::bird::bird::bird::bird::bird::bird::bird:LOCO TRAIGAN…»",
  "channels_with_chat": 9,
- "period": "2026-06-27T16:59:20.224044+00:00",
+ "period": "2026-06-27T20:53:40.739475+00:00",
  "conductor_moments": [
   {
    "video_id": "JXVQmuDctII",

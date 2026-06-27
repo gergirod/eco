@@ -4,9 +4,6 @@
  */
 
 import type { EvidenceLevel } from "./campaign";
-import brandsBundle from "@/data/brands.json";
-import reportsBundle from "@/data/reports.json";
-import metaBundle from "@/data/meta.json";
 
 // ---------------------------------------------------------------------------
 // Domain types (public — stable frontend contract)
@@ -356,9 +353,15 @@ export function createDiscoveryDataset(
   return dataset;
 }
 
-/** Bundled export JSON (SPR-004 contract). */
-export function loadDiscoveryDataset(): DiscoveryDataset {
-  return createDiscoveryDataset(brandsBundle, reportsBundle, metaBundle);
+export function platformCoverageFromMeta(meta: unknown): DiscoveryPlatformCoverage {
+  return mapPlatformCoverage(meta as ExportMetaRoot);
+}
+
+/** @deprecated Usar `useDiscoveryDataset()` / `createDiscoveryDataset()` con imports explícitos. */
+export function loadDiscoveryDataset(): never {
+  throw new Error(
+    "loadDiscoveryDataset() fue reemplazado por useDiscoveryDataset() o createDiscoveryDataset()"
+  );
 }
 
 // ---------------------------------------------------------------------------
@@ -377,7 +380,7 @@ export function joinBrandReport(
 
 export function getAdvertiserProfile(
   slug: string,
-  dataset: DiscoveryDataset = loadDiscoveryDataset()
+  dataset: DiscoveryDataset
 ): DiscoveryProfile | null {
   const joined = joinBrandReport(slug, dataset);
   if (!joined) return null;
@@ -598,6 +601,10 @@ export function browseAdvertisers(
 
 export function getPlatformCoverage(dataset: DiscoveryDataset): DiscoveryPlatformCoverage {
   return dataset.meta;
+}
+
+export function getPlatformCoverageFromMeta(meta: unknown): DiscoveryPlatformCoverage {
+  return platformCoverageFromMeta(meta);
 }
 
 export function countByTier(dataset: DiscoveryDataset, tier: ConfidenceTier): number {

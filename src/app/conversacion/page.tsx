@@ -4,9 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import ConversacionRow from "@/components/conversacion/ConversacionRow";
 import CoverageLine from "@/components/CoverageLine";
-import { getPlatformCoverage, loadDiscoveryDataset } from "@/lib/discovery";
-import {
-  buildConversacionRanking,
+import { buildConversacionRanking,
   conversacionSubline,
   filterConversacionTopics,
   getConversacionCategories,
@@ -19,9 +17,8 @@ import {
   countRadarGtInteresting,
   countRadarWithGt,
 } from "@/lib/googleTrends";
-import { useDataset } from "@/lib/useDataset";
-import metaFb from "@/data/meta.json";
-import radarFb from "@/data/radar.json";
+import { useCorpus } from "@/lib/useCorpus";
+import { usePlatformCoverage } from "@/lib/use-discovery";
 
 const PAGE_SIZE = 20;
 
@@ -43,9 +40,8 @@ const MOMENTUM_OPTIONS: { id: ConversacionMomentum | ""; label: string }[] = [
 
 export default function ConversacionPage() {
   const [withGoogleTrends, setWithGoogleTrends] = useState(false);
-  const radar = useDataset("radar", radarFb);
-  const meta = useDataset("meta", metaFb);
-  const coverage = useMemo(() => getPlatformCoverage(loadDiscoveryDataset()), []);
+  const { radar, meta } = useCorpus(["radar", "meta"] as const);
+  const coverage = usePlatformCoverage();
   const [crossOnly, setCrossOnly] = useState(true);
   const [search, setSearch] = useState("");
   const [categoria, setCategoria] = useState("");

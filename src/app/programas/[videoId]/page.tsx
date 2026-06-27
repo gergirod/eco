@@ -12,16 +12,12 @@ import { evidenceLabel, evidenceTone } from "@/lib/campaign";
 import { getProgram } from "@/lib/programs";
 import { detectShowFormat } from "@/lib/showFormat";
 import { getProgramTopics } from "@/lib/placement";
-import { useDataset } from "@/lib/useDataset";
-import programTopicsFb from "@/data/program_topics.json";
 import { compact, fmtHMS, num, vodLink } from "@/lib/format";
 import { usdEst } from "@/lib/valuation";
 import { chatEcoLine, chatTableLine, chatToneClass, chatToneDot } from "@/lib/chatReaction";
 import type { RoomParticipation } from "@/lib/roomReaction";
 import { openAudienceReport } from "@/lib/audienceReport";
-import reportsFb from "@/data/reports.json";
-import channelsFb from "@/data/channels.json";
-import momentsFb from "@/data/moments.json";
+import { useCorpus } from "@/lib/useCorpus";
 
 export default function ProgramaProfilePage() {
   const params = useParams();
@@ -29,10 +25,12 @@ export default function ProgramaProfilePage() {
   const videoId = typeof params.videoId === "string" ? params.videoId : "";
   const focusSeconds = Math.max(0, Number(searchParams.get("t") || 0) || 0);
 
-  const reports = useDataset("reports", reportsFb);
-  const channels = useDataset<{ id: string; name: string }[]>("channels", channelsFb);
-  const moments = useDataset<Record<string, Record<string, unknown>>>("moments", momentsFb);
-  const programTopicsExport = useDataset("program_topics", programTopicsFb);
+  const { reports, channels, moments, program_topics: programTopicsExport } = useCorpus([
+    "reports",
+    "channels",
+    "moments",
+    "program_topics",
+  ] as const);
   const [openRow, setOpenRow] = useState<Record<string, unknown> | null>(null);
 
   const topics = useMemo(
@@ -168,7 +166,7 @@ export default function ProgramaProfilePage() {
             <Stat
               label="Pico de atención"
               value={program.peak ? compact(program.peak) : "—"}
-              hint="concurrentes del programa"
+              hint="concurrentes de esta emisión"
             />
             <Stat
               label="Promedio"

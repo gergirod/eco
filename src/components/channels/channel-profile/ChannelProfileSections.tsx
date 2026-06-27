@@ -5,7 +5,15 @@ import { useMemo } from "react";
 import { Badge, Bar, Stat } from "@/components/ui";
 import { evidenceLabel, evidenceTone } from "@/lib/campaign";
 import ProgramListCard from "@/components/programs/ProgramListCard";
-import { ATTENTION_DEFINITION } from "@/lib/coverage";
+import { formatHours } from "@/lib/coverage";
+import {
+  formatCaptureHoursLine,
+  getChannelCaptureHours,
+  getShowCaptureHours,
+  getShowCapturesForChannel,
+  type LiveCaptureStats,
+} from "@/lib/liveCapture";
+import type { ShowFormat } from "@/lib/showFormat";
 import type { ChannelBenchmark, ChannelAudience, ChannelProfile } from "@/lib/channelProfile";
 import { compact, num, vodLink } from "@/lib/format";
 import { PROMINENCE_BAR } from "@/lib/prominence";
@@ -17,7 +25,11 @@ import {
   PlacementShowSnippet,
 } from "@/components/placement/PlacementProfile";
 import { VALUATION_HINT, VALUATION_INFO, usdEst } from "@/lib/valuation";
-import type { ChannelProfileTabId } from "./tabs";
+import CommercialDemandSection from "@/components/planning/CommercialDemandSection";
+import {
+  filterCommercialByChannels,
+  type CommercialDemandExport,
+} from "@/lib/commercialDemand";
 
 type Props = {
   tab: ChannelProfileTabId;
@@ -29,6 +41,8 @@ type Props = {
   /** Filtra emisiones por formato (?show=ndn). */
   showFilter?: string | null;
   placement?: PlacementExport | null;
+  commercialDemand?: CommercialDemandExport | null;
+  liveCapture?: LiveCaptureStats | null;
 };
 
 function SegBar({ parts }: { parts: { label: string; value: number; color: string }[] }) {
@@ -59,13 +73,16 @@ function SegBar({ parts }: { parts: { label: string; value: number; color: strin
 function DescripcionSection({
   profile,
   placement,
+  liveCapture,
 }: {
   profile: ChannelProfile;
   placement?: PlacementExport | null;
+  liveCapture?: LiveCaptureStats | null;
 }) {
   const { config, audience, benchmark } = profile;
   const stats = config.stats;
   const chPlacement = getChannelPlacement(placement, profile.config.id);
+  const channelCapture = getChannelCaptureHours(liveCapture, profile.config.id);
 
   return (
     <div>
@@ -99,6 +116,16 @@ function DescripcionSection({
 
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
         <Stat
+          label="Horas en vivo track"
+          value={channelCapture ? formatHours(channelCapture.hours) : "—"}
+          hint={
+            channelCapture
+              ? `${channelCapture.streams} ${channelCapture.streams === 1 ? "emisión" : "emisiones"} · concurrentes minuto a minuto`
+              : "sin captura live en el período"
+          }
+          info="Tiempo medido con viewers/ al aire (ytdlp_live o youtube_api). No incluye VOD backfill."
+        />
+        <Stat
           label="Emisiones capturadas"
           value={stats?.videos_processed ?? audience?.videos ?? "—"}
           hint="vivos del período"
@@ -127,18 +154,45 @@ function ProgramasSection({
   profile,
   channelId,
   placement,
+  liveCapture,
 }: {
   profile: ChannelProfile;
   channelId: string;
   placement?: PlacementExport | null;
+  liveCapture?: LiveCaptureStats | null;
 }) {
-  const rollups = useMemo(() => rollupsByShow(profile.programs), [profile.programs]);
+  const commercialRollups = useMemo(() => rollupsByShow(profile.programs), [profile.programs]);
+  const showCaptures = useMemo(
+    () => getShowCapturesForChannel(liveCapture, channelId),
+    [liveCapture, channelId]
+  );
 
-  if (!rollups.length) {
+  const mergedShows = useMemo(() => {
+    type Row = { show: ShowFormat; rollup?: (typeof commercialRollups)[0]; capture?: (typeof showCaptures)[0] };
+    const byId = new Map<string, Row>();
+    for (const c of showCaptures) {
+      byId.set(c.show_id, {
+        show: { id: c.show_id, name: c.show_name },
+        capture: c,
+      });
+    }
+    for (const r of commercialRollups) {
+      const existing = byId.get(r.show.id);
+      if (existing) existing.rollup = r;
+      else byId.set(r.show.id, { show: r.show, rollup: r });
+    }
+    return [...byId.values()].sort(
+      (a, b) =>
+        (b.capture?.hours ?? 0) - (a.capture?.hours ?? 0) ||
+        (b.rollup?.mentionCount ?? 0) - (a.rollup?.mentionCount ?? 0) ||
+        (b.rollup?.emissionCount ?? 0) - (a.rollup?.emissionCount ?? 0)
+    );
+  }, [commercialRollups, showCaptures]);
+
+  if (!mergedShows.length) {
     return (
       <p className="text-[14px] text-gray-500">
-        Sin programas con marcas pautando en lo que medimos — cuando aparezcan, los agrupamos por
-        show (NDN, AQN, etc.).
+        Sin programas con captura live ni marcas pautando en lo que medimos.
       </p>
     );
   }
@@ -147,46 +201,59 @@ function ProgramasSection({
     <div>
       <p className="text-[13.5px] text-gray-600 mb-5 max-w-[640px] leading-relaxed">
         Un <b>programa</b> es el show (ej. Nadie Dice Nada). Cada tarjeta agrupa las{" "}
-        <b>emisiones</b> de ese show en las últimas semanas que medimos. Abajo ves qué{" "}
-        <b>tipo de marcas pautaron</b> y los <b>ángulos de la charla</b> (deporte, cultura,
-        famosos, etc. — puede haber varios) — no un titular puntual.
+        <b>emisiones</b> de ese show. <b>Horas track</b> = tiempo en vivo medido minuto a minuto
+        (concurrentes), no duración del VOD.
       </p>
       <div className="grid gap-4 sm:grid-cols-2">
-        {rollups.map((r) => {
-          const showPlacement = getShowPlacement(placement, channelId, r.show.id);
-          const brandNames = [
-            ...new Set(r.emissions.flatMap((e) => e.pnt.map((p) => p.brand_name))),
-          ];
-          const snippetFallback = {
-            brandCount: r.brandSlugs.size,
-            brandNames,
-            peakAttention: r.peakAttention,
-            pautaMentions: showPlacement?.pauta_mentions ?? r.mentionCount,
-          };
+        {mergedShows.map(({ show, rollup, capture }) => {
+          const showPlacement = getShowPlacement(placement, channelId, show.id);
+          const brandNames = rollup
+            ? [...new Set(rollup.emissions.flatMap((e) => e.pnt.map((p) => p.brand_name)))]
+            : [];
+          const snippetFallback = rollup
+            ? {
+                brandCount: rollup.brandSlugs.size,
+                brandNames,
+                peakAttention: rollup.peakAttention,
+                pautaMentions: showPlacement?.pauta_mentions ?? rollup.mentionCount,
+              }
+            : undefined;
+          const captureLine = formatCaptureHoursLine(capture);
           return (
-          <div key={r.show.id} className="card p-5">
-            <h2 className="text-[16px] font-semibold text-ink mb-1">{r.show.name}</h2>
-            <p className="text-[12.5px] text-gray-500 mb-4">
-              {r.emissionCount} {r.emissionCount === 1 ? "emisión" : "emisiones"} ·{" "}
-              {r.mentionCount} apariciones · {r.brandSlugs.size}{" "}
-              {r.brandSlugs.size === 1 ? "marca" : "marcas"}
-            </p>
-            {r.peakAttention > 0 ? (
+          <div key={show.id} className="card p-5">
+            <h2 className="text-[16px] font-semibold text-ink mb-1">{show.name}</h2>
+            {captureLine ? (
+              <p className="text-[12.5px] text-accent font-medium mb-2">{captureLine}</p>
+            ) : null}
+            {rollup ? (
+              <p className="text-[12.5px] text-gray-500 mb-4">
+                {rollup.emissionCount} {rollup.emissionCount === 1 ? "emisión" : "emisiones"} con
+                pauta · {rollup.mentionCount} apariciones · {rollup.brandSlugs.size}{" "}
+                {rollup.brandSlugs.size === 1 ? "marca" : "marcas"}
+              </p>
+            ) : (
+              <p className="text-[12.5px] text-gray-500 mb-4">Captura live sin pauta verificada aún.</p>
+            )}
+            {rollup && rollup.peakAttention > 0 ? (
               <p className="text-[12.5px] text-gray-600 mb-4">
-                Pico de atención: <b>{compact(r.peakAttention)}</b>
+                Pico de atención: <b>{compact(rollup.peakAttention)}</b>
               </p>
             ) : null}
-            <PlacementShowSnippet
-              placement={showPlacement}
-              compact
-              fallback={snippetFallback}
-            />
-            <Link
-              href={`/canales/${channelId}?tab=programas&show=${r.show.id}`}
-              className="text-[13px] text-accent font-medium hover:underline inline-block mt-2"
-            >
-              Ver emisiones →
-            </Link>
+            {rollup && snippetFallback ? (
+              <PlacementShowSnippet
+                placement={showPlacement}
+                compact
+                fallback={snippetFallback}
+              />
+            ) : null}
+            {rollup ? (
+              <Link
+                href={`/canales/${channelId}?tab=programas&show=${show.id}`}
+                className="text-[13px] text-accent font-medium hover:underline inline-block mt-2"
+              >
+                Ver emisiones →
+              </Link>
+            ) : null}
           </div>
           );
         })}
@@ -200,17 +267,24 @@ function EmisionesDrilldown({
   chName,
   showFilter,
   channelId,
+  liveCapture,
 }: {
   profile: ChannelProfile;
   chName: Record<string, string>;
   showFilter?: string | null;
   channelId: string;
+  liveCapture?: LiveCaptureStats | null;
 }) {
   const rollups = useMemo(() => rollupsByShow(profile.programs), [profile.programs]);
   const activeRollup = showFilter
     ? rollups.find((r) => r.show.id === showFilter) || null
     : null;
   const programs = activeRollup ? activeRollup.emissions : profile.programs;
+  const showCapture =
+    showFilter && liveCapture
+      ? getShowCaptureHours(liveCapture, channelId, showFilter)
+      : null;
+  const showCaptureLine = formatCaptureHoursLine(showCapture);
 
   if (!profile.programs.length) {
     return (
@@ -249,6 +323,12 @@ function EmisionesDrilldown({
       <p className="text-[13px] text-gray-500 mb-4">
         {programs.length} {programs.length === 1 ? "emisión" : "emisiones"} de{" "}
         {activeRollup.show.name} en el período.
+        {showCaptureLine ? (
+          <>
+            {" "}
+            · <span className="text-gray-700">{showCaptureLine}</span>
+          </>
+        ) : null}
       </p>
       <div className="flex flex-col gap-3">
         {programs.map((p) => (
@@ -355,8 +435,21 @@ function ActividadSection({ profile }: { profile: ChannelProfile }) {
   );
 }
 
-function AudienciaSection({ profile }: { profile: ChannelProfile }) {
+function AudienciaSection({
+  profile,
+  commercialDemand,
+}: {
+  profile: ChannelProfile;
+  commercialDemand?: CommercialDemandExport | null;
+}) {
   const aud = profile.audience;
+  const channelCommercial = useMemo(() => {
+    if (!commercialDemand?.channels?.length) return null;
+    return filterCommercialByChannels(
+      commercialDemand,
+      new Set([profile.config.id])
+    );
+  }, [commercialDemand, profile.config.id]);
   if (!aud) {
     return (
       <div className="card p-6 max-w-xl">
@@ -442,6 +535,10 @@ function AudienciaSection({ profile }: { profile: ChannelProfile }) {
           </div>
         </div>
       )}
+      {channelCommercial &&
+        (channelCommercial.programs.length > 0 || channelCommercial.channels.length > 0) && (
+          <CommercialDemandSection report={channelCommercial} mode="channel" />
+        )}
     </div>
   );
 }
@@ -636,12 +733,16 @@ export default function ChannelProfileSections({
   chName,
   showFilter,
   placement,
+  commercialDemand,
+  liveCapture,
 }: Props) {
   const channelId = profile.config.id;
 
   switch (tab) {
     case "descripcion":
-      return <DescripcionSection profile={profile} placement={placement} />;
+      return (
+        <DescripcionSection profile={profile} placement={placement} liveCapture={liveCapture} />
+      );
     case "programas":
       if (showFilter) {
         return (
@@ -650,16 +751,24 @@ export default function ChannelProfileSections({
             chName={chName}
             showFilter={showFilter}
             channelId={channelId}
+            liveCapture={liveCapture}
           />
         );
       }
-      return <ProgramasSection profile={profile} channelId={channelId} placement={placement} />;
+      return (
+        <ProgramasSection
+          profile={profile}
+          channelId={channelId}
+          placement={placement}
+          liveCapture={liveCapture}
+        />
+      );
     case "marcas":
       return <MarcasSection profile={profile} placement={placement} />;
     case "actividad":
       return <ActividadSection profile={profile} />;
     case "audiencia":
-      return <AudienciaSection profile={profile} />;
+      return <AudienciaSection profile={profile} commercialDemand={commercialDemand} />;
     case "comparaciones":
       return (
         <ComparacionesSection

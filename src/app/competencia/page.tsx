@@ -5,17 +5,14 @@ import { PageHeader, Bar } from "@/components/ui";
 import BrandPicker from "@/components/BrandPicker";
 import { usdEst } from "@/lib/valuation";
 import ValuationNotice from "@/components/ValuationNotice";
-import { useDataset } from "@/lib/useDataset";
 import { usePartner } from "@/contexts/PartnerContext";
-import brandsFb from "@/data/brands.json";
-import channelsFb from "@/data/channels.json";
+import { useCorpus } from "@/lib/useCorpus";
 
 const PALETTE = ["#2f5fe0", "#e0742f", "#1f9d6b", "#a23bd1", "#d13b5c"];
 
 export default function Competencia() {
   const { isScoped, partner } = usePartner();
-  const BRANDS = useDataset<any[]>("brands", brandsFb);
-  const channels = useDataset<any[]>("channels", channelsFb);
+  const { brands: BRANDS, channels } = useCorpus(["brands", "channels"] as const);
   const CH_NAME: Record<string, string> = useMemo(
     () => Object.fromEntries(channels.map((c: any) => [c.id, c.name])),
     [channels]

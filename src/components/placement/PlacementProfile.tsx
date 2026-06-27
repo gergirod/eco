@@ -199,7 +199,7 @@ function ShowFallbackBlock({ fallback }: { fallback: PlacementShowFallback }) {
           Atención medida · <span className="text-gray-500">poca pauta verificada en el período</span>
         </p>
       ) : null}
-      <p className="text-gray-400">Charla sin procesar — audio pendiente para rubro y temas.</p>
+      <p className="text-gray-400">Rubro y ángulos de charla aún no agregados para este show.</p>
     </div>
   );
 }

@@ -8,11 +8,7 @@ import ValuationNotice from "@/components/ValuationNotice";
 import { compact, num } from "@/lib/format";
 import { formatCaptureDate, formatHours } from "@/lib/coverage";
 import { VALUATION_HINT, VALUATION_INFO, usdEstSum } from "@/lib/valuation";
-import { useDataset } from "@/lib/useDataset";
-import metaFb from "@/data/meta.json";
-import channelsFb from "@/data/channels.json";
-import benchmarkFb from "@/data/benchmark.json";
-import reportsFb from "@/data/reports.json";
+import { useCorpus } from "@/lib/useCorpus";
 
 type LiveCaptureChannel = {
   id: string;
@@ -33,10 +29,12 @@ type LiveCaptureStats = {
 };
 
 export default function ResumenPanel() {
-  const meta: any = useDataset("meta", metaFb);
-  const channels: any[] = useDataset("channels", channelsFb);
-  const benchmark: any[] = useDataset("benchmark", benchmarkFb);
-  const reports: Record<string, any> = useDataset("reports", reportsFb);
+  const { meta, channels, benchmark, reports } = useCorpus([
+    "meta",
+    "channels",
+    "benchmark",
+    "reports",
+  ] as const);
   const liveCapture = meta.live_capture as LiveCaptureStats | undefined;
 
   const channelNames = useMemo(() => {

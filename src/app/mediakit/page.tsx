@@ -1,19 +1,17 @@
 "use client";
 import { useState, useMemo } from "react";
 import { PageHeader, Stat, Badge, Bar } from "@/components/ui";
-import { useDataset } from "@/lib/useDataset";
+import { useCorpus } from "@/lib/useCorpus";
 import { usd, num, compact } from "@/lib/format";
-import channelsFb from "@/data/channels.json";
-import benchmarkFb from "@/data/benchmark.json";
-import audienceFb from "@/data/audience.json";
-import metaFb from "@/data/meta.json";
 
 export default function MediaKitPage() {
-  const channels = useDataset<any[]>("channels", channelsFb);
-  const benchmark = useDataset<any[]>("benchmark", benchmarkFb);
-  const audience = useDataset<any[]>("audience", audienceFb);
-  const meta = useDataset<any>("meta", metaFb);
-  const cpm = meta?.cpm || 30;
+  const { channels, benchmark, audience, meta } = useCorpus([
+    "channels",
+    "benchmark",
+    "audience",
+    "meta",
+  ] as const);
+  const cpm = (meta as { cpm?: number })?.cpm || 30;
 
   const withData = useMemo(() => channels.filter((c) => c.stats), [channels]);
   const [cid, setCid] = useState("olga");

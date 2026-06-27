@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { Badge, Stat } from "@/components/ui";
-import { useDataset } from "@/lib/useDataset";
+import { useCorpus } from "@/lib/useCorpus";
 import {
   type CaptureSchedulesData,
   type ChannelSchedule,
@@ -11,8 +11,6 @@ import {
   shouldCapture,
   nextSlotToday,
 } from "@/lib/captureSchedule";
-import schedulesFb from "@/data/capture_schedules.json";
-import channelsFb from "@/data/channels.json";
 
 type LiveRow = { id: string; name: string; live: boolean | null; title?: string };
 
@@ -82,9 +80,11 @@ function ChannelGrilla({ schedule }: { schedule: ChannelSchedule }) {
 }
 
 export default function CapturaPanel() {
-  const schedules = useDataset<CaptureSchedulesData>("capture_schedules", schedulesFb as CaptureSchedulesData);
-  const channels = useDataset<any[]>("channels", channelsFb);
-  const tz = schedules.supervisor?.timezone || "America/Argentina/Buenos_Aires";
+  const { capture_schedules: schedules, channels } = useCorpus([
+    "capture_schedules",
+    "channels",
+  ] as const);
+  const tz = (schedules as CaptureSchedulesData).supervisor?.timezone || "America/Argentina/Buenos_Aires";
 
   const [live, setLive] = useState<LiveRow[]>([]);
   const [checking, setChecking] = useState(false);
@@ -119,7 +119,8 @@ export default function CapturaPanel() {
 
   const scheduleById = useMemo(() => {
     const m = new Map<string, ChannelSchedule>();
-    for (const s of schedules.channels || []) m.set(s.channel_id, s);
+    const data = schedules as CaptureSchedulesData;
+    for (const s of data.channels || []) m.set(s.channel_id, s);
     return m;
   }, [schedules]);
 
@@ -156,7 +157,8 @@ export default function CapturaPanel() {
             Hora grilla: <strong>{formatNowAR(tz)}</strong> ({tz.replace("America/Argentina/", "")})
           </p>
           <p className="text-[11px] text-gray-400 mt-0.5">
-            Supervisor {schedules.supervisor?.start}–{schedules.supervisor?.end} · poll cada ~30s
+            Supervisor {(schedules as CaptureSchedulesData).supervisor?.start}–
+            {(schedules as CaptureSchedulesData).supervisor?.end} · poll cada ~30s
           </p>
         </div>
         <button type="button" className="btn btn-ghost" onClick={refreshLive} disabled={checking}>

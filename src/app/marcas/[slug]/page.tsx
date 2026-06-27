@@ -19,19 +19,14 @@ import { brandEntityCoverage } from "@/lib/coverage";
 import {
   createDiscoveryDataset,
   getAdvertiserProfile,
-  getPlatformCoverage,
   pickHighlightActivation,
   scopeActivationsToChannel,
   scopeAdvertiserToChannel,
   scopeBrandReportToChannel,
   type ScopedBrandReport,
 } from "@/lib/discovery";
-import { useDataset } from "@/lib/useDataset";
-import brandsFb from "@/data/brands.json";
-import channelsFb from "@/data/channels.json";
-import metaFb from "@/data/meta.json";
-import momentsFb from "@/data/moments.json";
-import reportsFb from "@/data/reports.json";
+import { useCorpus } from "@/lib/useCorpus";
+import { usePlatformCoverage } from "@/lib/use-discovery";
 
 function MarcaProfileInner() {
   const params = useParams();
@@ -39,14 +34,14 @@ function MarcaProfileInner() {
   const router = useRouter();
   const slug = typeof params.slug === "string" ? params.slug : "";
 
-  const reports = useDataset<Record<string, unknown>>("reports", reportsFb as Record<string, unknown>);
-  const channels = useDataset<{ id: string; name: string }[]>("channels", channelsFb as { id: string; name: string }[]);
-  const moments = useDataset<Record<string, Record<string, unknown>>>(
+  const { reports, channels, moments, brands, meta } = useCorpus([
+    "reports",
+    "channels",
     "moments",
-    momentsFb as Record<string, Record<string, unknown>>
-  );
-  const brands = useDataset<unknown>("brands", brandsFb);
-  const meta = useDataset<unknown>("meta", metaFb);
+    "brands",
+    "meta",
+  ] as const);
+  const coverage = usePlatformCoverage();
 
   const [openMention, setOpenMention] = useState<Record<string, unknown> | null>(null);
   const channelScope = (searchParams.get("channel") || "").trim().toLowerCase() || null;
@@ -61,8 +56,6 @@ function MarcaProfileInner() {
     () => createDiscoveryDataset(brands, reports, meta),
     [brands, reports, meta]
   );
-
-  const coverage = useMemo(() => getPlatformCoverage(dataset), [dataset]);
 
   const baseProfile = useMemo(() => getAdvertiserProfile(slug, dataset), [slug, dataset]);
 

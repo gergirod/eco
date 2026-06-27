@@ -1,13 +1,10 @@
 "use client";
 import { useState, useMemo, useEffect } from "react";
 import { PageHeader, Stat, Badge } from "@/components/ui";
-import { useDataset } from "@/lib/useDataset";
 import { num, compact, fmtHMS } from "@/lib/format";
 import { usdEst } from "@/lib/valuation";
 import { prominenceLabel } from "@/lib/prominence";
-import reportsFb from "@/data/reports.json";
-import momentsFb from "@/data/moments.json";
-import channelsFb from "@/data/channels.json";
+import { useCorpus } from "@/lib/useCorpus";
 import { buildProgramsIndex, type Program } from "@/lib/programs";
 import {
   buildPntCertificateHTML,
@@ -20,9 +17,7 @@ function tsLink(videoId: string, seconds: number) {
 }
 
 export default function CertificadoPage() {
-  const reports = useDataset<Record<string, any>>("reports", reportsFb as any);
-  const moments = useDataset<Record<string, any>>("moments", momentsFb as any);
-  const channels = useDataset<any[]>("channels", channelsFb);
+  const { reports, moments, channels } = useCorpus(["reports", "moments", "channels"] as const);
 
   const programs = useMemo(
     () => buildProgramsIndex(reports, moments),

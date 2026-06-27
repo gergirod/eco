@@ -5,30 +5,27 @@ import { useMemo, useState } from "react";
 import TendenciaCard from "@/components/tendencias/TendenciaCard";
 import CoverageLine from "@/components/CoverageLine";
 import GoogleTrendsControl from "@/components/googleTrends/GoogleTrendsControl";
-import { getPlatformCoverage, loadDiscoveryDataset } from "@/lib/discovery";
 import {
   countRadarGtInteresting,
   countRadarWithGt,
   isGoogleTrendsInsight,
 } from "@/lib/googleTrends";
 import { buildTendencias, tendenciasSubline } from "@/lib/tendencias";
-import { useDataset } from "@/lib/useDataset";
-import audienceFb from "@/data/audience.json";
-import benchmarkFb from "@/data/benchmark.json";
-import brandsFb from "@/data/brands.json";
-import metaFb from "@/data/meta.json";
-import radarFb from "@/data/radar.json";
-import chatDemandFb from "@/data/chat_demand.json";
+import { useCorpus } from "@/lib/useCorpus";
+import { usePlatformCoverage } from "@/lib/use-discovery";
 
 export default function TendenciasPage() {
   const [withGoogleTrends, setWithGoogleTrends] = useState(false);
-  const radar = useDataset("radar", radarFb);
-  const benchmark = useDataset("benchmark", benchmarkFb);
-  const audience = useDataset("audience", audienceFb);
-  const brands = useDataset("brands", brandsFb);
-  const meta = useDataset("meta", metaFb);
-  const chatDemand = useDataset("chat_demand", chatDemandFb);
-  const coverage = useMemo(() => getPlatformCoverage(loadDiscoveryDataset()), []);
+  const corpus = useCorpus([
+    "radar",
+    "benchmark",
+    "audience",
+    "brands",
+    "meta",
+    "chat_demand",
+  ] as const);
+  const { radar, benchmark, audience, brands, meta, chat_demand: chatDemand } = corpus;
+  const coverage = usePlatformCoverage();
 
   const insights = useMemo(
     () =>

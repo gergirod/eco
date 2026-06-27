@@ -24,6 +24,11 @@ export const CHANNELS: { id: string; url: string }[] = [
   { id: "urbana", url: "https://www.youtube.com/@UrbanaPlayFM/live" },
   { id: "neura", url: "https://www.youtube.com/@NeuraMedia/live" },
   { id: "vorterix", url: "https://www.youtube.com/@VorterixOficial/live" },
+  { id: "border", url: "https://www.youtube.com/@border.periodismo/live" },
+  { id: "cronista", url: "https://www.youtube.com/@Cronista_ar/live" },
+  { id: "ahoraplay", url: "https://www.youtube.com/@Ahora_Play/live" },
+  { id: "aura", url: "https://www.youtube.com/@AuraStreamTN/live" },
+  { id: "cenital", url: "https://www.youtube.com/@Cenitalcom/live" },
 ];
 
 export const CHECKLIST = [
@@ -149,6 +154,11 @@ export const SECTIONS: Section[] = [
         ["Urbana", "06:00–22:00 talk", "sáb 10–13"],
         ["Neura", "12:00–22:00", "—"],
         ["Vorterix", "08:00–21:00", "—"],
+        ["BorderPeriodismo", "10:00–22:00", "dom 17–21"],
+        ["El Cronista", "11:00–14:30", "mar/mié/vie PM"],
+        ["Ahora Play", "09:00–18:00", "—"],
+        ["Aura", "08:00–12:00", "—"],
+        ["Cenital", "20:00–22:30", "lun / mar / jue"],
       ],
     },
   },
@@ -189,6 +199,47 @@ export const SECTIONS: Section[] = [
     ],
   },
   {
+    id: "iup",
+    title: "IUP — utilidad por emisión",
+    intro:
+      "Score 0–100 por emisión en vivo (video_id), no por show. Solo visible en /backoffice?tab=iup — no en la plataforma comercial.",
+    blocks: [
+      {
+        title: "Fórmula v1",
+        desc: "Cada componente va de 0 a 1; IUP = 100 × suma ponderada.",
+        cmds: [
+          "captura 25% — transcript + topics + viewers live + duración ≥20 min",
+          "audiencia 25% — avg/pico concurrentes (log; sin live = 0)",
+          "conversación 25% — bloques con temas/marcas/demanda + top_temas",
+          "comercial 15% — menciones pauta/orgánico/productos_marcas",
+          "participación 10% — chat msgs/1k/min − penalidad ruido",
+          "formato 5% — show reconocido vs otros",
+        ],
+      },
+      {
+        title: "Tiers",
+        cmds: [
+          "alta ≥70 (captura ok) — radar, marcas, benchmark",
+          "media 45–69 — temas y exploración",
+          "baja 25–44 — revisar franja horaria",
+          "insuficiente <25 o captura incompleta",
+        ],
+      },
+      {
+        title: "Código y export",
+        cmds: [
+          "pipeline/program_utility.py",
+          "webapp/src/data/program_utility.json (export_ui)",
+          "python program_utility.py  # totales + top 5 en terminal",
+        ],
+      },
+    ],
+    bullets: [
+      "Distinto de engagement_index (SPEC-011): IUP es más amplio; engagement solo mide participación.",
+      "Emisiones sin concurrentes en vivo suelen quedar en tier insuficiente o baja en audiencia.",
+    ],
+  },
+  {
     id: "publicar",
     title: "Publicar data en la web",
     intro: "Correr al cierre del día o cuando quieras refrescar la UI.",
@@ -218,7 +269,7 @@ export const SECTIONS: Section[] = [
       },
     ],
     bullets: [
-      "Datasets: channels, brands, products, benchmark, reports, meta, moments, radar, audience, chat_demand, chat_insights, schedule_insights, capture_schedules, placement.",
+      "Datasets: channels, brands, products, benchmark, reports, meta, moments, radar, audience, chat_demand, chat_insights, commercial_demand, schedule_insights, program_utility, capture_schedules, placement.",
       "Si push falla, Vercel usa el snapshot del último deploy.",
     ],
   },

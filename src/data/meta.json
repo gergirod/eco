@@ -1,5 +1,5 @@
 {
- "exported_at": "2026-06-27T16:59:20.224044+00:00",
+ "exported_at": "2026-06-27T20:53:40.739475+00:00",
  "capture_scope": "live_only",
  "capture_sources": [
   "youtube_api",
@@ -8,9 +8,9 @@
  "n_videos": 50,
  "n_topics": 50,
  "n_topics_total": 115,
- "n_brands": 141,
+ "n_brands": 135,
  "n_products": 123,
- "n_pauta_mentions": 214,
+ "n_pauta_mentions": 204,
  "n_moments": 54,
  "n_trends": 120,
  "cpm": 30.0,
@@ -90,6 +90,162 @@
     "last_capture": "2026-06-27"
    }
   ],
+  "by_show": [
+   {
+    "channel_id": "urbana",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 1,
+    "hours": 16.2
+   },
+   {
+    "channel_id": "vorterix",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 5,
+    "hours": 13.2
+   },
+   {
+    "channel_id": "olga",
+    "show_id": "seria-increible",
+    "show_name": "Sería Increíble",
+    "streams": 3,
+    "hours": 11.0
+   },
+   {
+    "channel_id": "luzu",
+    "show_id": "aqn",
+    "show_name": "Antes Que Nadie",
+    "streams": 3,
+    "hours": 10.2
+   },
+   {
+    "channel_id": "olga",
+    "show_id": "sone-volaba",
+    "show_name": "Soñé que Volaba",
+    "streams": 4,
+    "hours": 9.6
+   },
+   {
+    "channel_id": "neura",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 5,
+    "hours": 8.3
+   },
+   {
+    "channel_id": "olga",
+    "show_id": "gol-gana",
+    "show_name": "Gol Gana",
+    "streams": 4,
+    "hours": 8.2
+   },
+   {
+    "channel_id": "luzu",
+    "show_id": "patria",
+    "show_name": "Patria y Familia",
+    "streams": 4,
+    "hours": 7.9
+   },
+   {
+    "channel_id": "luzu",
+    "show_id": "ndn",
+    "show_name": "Nadie Dice Nada",
+    "streams": 3,
+    "hours": 7.2
+   },
+   {
+    "channel_id": "bondi",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 1,
+    "hours": 6.8
+   },
+   {
+    "channel_id": "olga",
+    "show_id": "tdt",
+    "show_name": "TDT",
+    "streams": 3,
+    "hours": 6.2
+   },
+   {
+    "channel_id": "luzu",
+    "show_id": "sfl",
+    "show_name": "Se Fue Larga",
+    "streams": 3,
+    "hours": 5.9
+   },
+   {
+    "channel_id": "olga",
+    "show_id": "tapados",
+    "show_name": "Tapados de Laburo",
+    "streams": 3,
+    "hours": 5.7
+   },
+   {
+    "channel_id": "blend",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 2,
+    "hours": 3.7
+   },
+   {
+    "channel_id": "luzu",
+    "show_id": "fmluzu",
+    "show_name": "FM Luzu",
+    "streams": 3,
+    "hours": 3.2
+   },
+   {
+    "channel_id": "luzu",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 2,
+    "hours": 2.4
+   },
+   {
+    "channel_id": "gelatina",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 1,
+    "hours": 2.3
+   },
+   {
+    "channel_id": "vorterix",
+    "show_id": "no-rusia",
+    "show_name": "No Preguntes por Rusia",
+    "streams": 1,
+    "hours": 2.1
+   },
+   {
+    "channel_id": "blend",
+    "show_id": "que-dia",
+    "show_name": "Qué Día",
+    "streams": 1,
+    "hours": 2.0
+   },
+   {
+    "channel_id": "blend",
+    "show_id": "ultimo-aviso",
+    "show_name": "Último Aviso",
+    "streams": 1,
+    "hours": 1.7
+   },
+   {
+    "channel_id": "luzu",
+    "show_id": "fondo",
+    "show_name": "Los del Fondo",
+    "streams": 1,
+    "hours": 1.5
+   },
+   {
+    "channel_id": "luzu",
+    "show_id": "novela",
+    "show_name": "La Novela",
+    "streams": 1,
+    "hours": 1.5
+   }
+  ],
   "method": "viewers_recorded_at",
   "excludes": [
    "backfill",
@@ -103,8 +259,8 @@
   "last_capture": "2026-06-27",
   "period_days": 9,
   "programs_with_viewers": 50,
-  "high_confidence_advertisers": 16,
+  "high_confidence_advertisers": 15,
   "emerging_confidence_advertisers": 19,
-  "activations_with_verified_evidence": 208
+  "activations_with_verified_evidence": 198
  }
 }

@@ -1,15 +1,17 @@
 import Link from "next/link";
 import { Badge } from "@/components/ui";
 import EntityCoverageLine from "@/components/EntityCoverageLine";
-import { ATTENTION_DEFINITION, channelEntityCoverage, formatAttentionLiveStats } from "@/lib/coverage";
+import { ATTENTION_DEFINITION, channelEntityCoverage, formatAttentionLiveStats, formatCaptureDate } from "@/lib/coverage";
+import { formatCaptureHoursLine, getChannelCaptureHours, type LiveCaptureStats } from "@/lib/liveCapture";
 import { compact } from "@/lib/format";
 import type { ChannelProfile } from "@/lib/channelProfile";
 
 type Props = {
   profile: ChannelProfile;
+  liveCapture?: LiveCaptureStats | null;
 };
 
-export default function ChannelProfileHero({ profile }: Props) {
+export default function ChannelProfileHero({ profile, liveCapture }: Props) {
   const { config, audience, benchmark } = profile;
   const topProgram = audience?.top_programs?.[0];
   const topBrand = benchmark?.top_brands?.[0];
@@ -27,6 +29,8 @@ export default function ChannelProfileHero({ profile }: Props) {
       : `${config.name} — canal configurado, sin captura reciente.`;
 
   const entityCoverage = channelEntityCoverage(profile);
+  const channelCapture = getChannelCaptureHours(liveCapture, profile.config.id);
+  const captureLine = formatCaptureHoursLine(channelCapture);
 
   return (
     <section className="mb-4">
@@ -63,6 +67,19 @@ export default function ChannelProfileHero({ profile }: Props) {
               {config.pipeline_status}
             </Badge>
           )}
+          {captureLine ? (
+            <span>
+              <span className="text-gray-400">Captura live · </span>
+              {captureLine}
+              {channelCapture?.first_capture && channelCapture?.last_capture ? (
+                <span className="text-gray-400">
+                  {" "}
+                  · {formatCaptureDate(channelCapture.first_capture)}–
+                  {formatCaptureDate(channelCapture.last_capture)}
+                </span>
+              ) : null}
+            </span>
+          ) : null}
         </div>
 
         {topProgram && (

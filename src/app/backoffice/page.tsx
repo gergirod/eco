@@ -10,9 +10,11 @@ import RunbookPanel from "@/components/backoffice/RunbookPanel";
 import ComercialPanel from "@/components/backoffice/ComercialPanel";
 import DesignPartnersPanel from "@/components/backoffice/DesignPartnersPanel";
 import ResumenPanel from "@/components/backoffice/ResumenPanel";
+import IupPanel from "@/components/backoffice/IupPanel";
 
 const TABS = [
   { id: "resumen", label: "Resumen", sub: "Salud del corpus y métricas del pipeline." },
+  { id: "iup", label: "IUP", sub: "Utilidad por emisión — interno, no visible para clientes." },
   { id: "captura", label: "Captura", sub: "Grilla por canal, franjas activas y estado en vivo." },
   { id: "clientes", label: "Clientes", sub: "Design partners: alta, marcas, competidores, acceso y onboarding." },
   { id: "comercial", label: "Comercial", sub: "Pitch, casos de uso, Q&A y referencia por ICP." },
@@ -30,7 +32,7 @@ function BackofficeInner() {
       ? "captura"
       : tabParam === "inteligencia" || tabParam === "casos"
         ? "comercial"
-        : tabParam === "clientes" || tabParam === "runbook" || tabParam === "comercial"
+        : tabParam === "clientes" || tabParam === "runbook" || tabParam === "comercial" || tabParam === "iup"
           ? tabParam
           : "resumen";
   const [tab, setTab] = useState<TabId>(initial);
@@ -43,6 +45,7 @@ function BackofficeInner() {
       tabParam === "clientes" ||
       tabParam === "runbook" ||
       tabParam === "comercial" ||
+      tabParam === "iup" ||
       tabParam === "casos" ||
       tabParam === "inteligencia"
     ) {
@@ -111,6 +114,7 @@ function BackofficeInner() {
       )}
 
       {tab === "resumen" && <ResumenPanel />}
+      {tab === "iup" && <IupPanel />}
       {tab === "captura" && <CapturaPanel />}
       {tab === "clientes" && <DesignPartnersPanel />}
       {tab === "comercial" && <ComercialPanel />}

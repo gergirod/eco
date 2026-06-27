@@ -5,21 +5,20 @@ import { Suspense, useEffect, useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import CoverageLine from "@/components/CoverageLine";
 import { ATTENTION_DEFINITION, formatAttentionLiveStats } from "@/lib/coverage";
-import { getPlatformCoverage, loadDiscoveryDataset } from "@/lib/discovery";
 import { listChannelBrowseItems } from "@/lib/channelProfile";
-import { useDataset } from "@/lib/useDataset";
+import { useCorpus } from "@/lib/useCorpus";
+import { usePlatformCoverage } from "@/lib/use-discovery";
 import type { ChannelBrowseItem } from "@/lib/channelProfile";
-import audienceFb from "@/data/audience.json";
-import benchmarkFb from "@/data/benchmark.json";
-import channelsFb from "@/data/channels.json";
 
 function CanalesListInner() {
   const searchParams = useSearchParams();
   const router = useRouter();
-  const audience = useDataset("audience", audienceFb);
-  const benchmark = useDataset("benchmark", benchmarkFb);
-  const channelsConfig = useDataset("channels", channelsFb);
-  const coverage = useMemo(() => getPlatformCoverage(loadDiscoveryDataset()), []);
+  const { audience, benchmark, channels: channelsConfig } = useCorpus([
+    "audience",
+    "benchmark",
+    "channels",
+  ] as const);
+  const coverage = usePlatformCoverage();
 
   const items = useMemo(
     () =>

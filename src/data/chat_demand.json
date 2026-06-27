@@ -1,5 +1,5 @@
 {
- "period": "2026-06-27T16:59:20.224044+00:00",
+ "period": "2026-06-27T20:53:40.739475+00:00",
  "signals": [
   {
    "tema": "Crítica a Azzaro",
@@ -13,17 +13,6 @@
    "ejemplo": "azzaro, te convertiste en lo que juraste destruir"
   },
   {
-   "tema": "Problemas de conexión y cambio de link",
-   "n_programas": 1,
-   "n_signals": 1,
-   "canales": [
-    "BLENDER"
-   ],
-   "cross_canal": false,
-   "tipo": "pedido_link",
-   "ejemplo": "tuvieron que inventar la electricidad para verlos / Cambiaron de link nos perdimos todo"
-  },
-  {
    "tema": "Aumento de cuota/precio de membresía",
    "n_programas": 1,
    "n_signals": 1,
@@ -33,6 +22,17 @@
    "cross_canal": false,
    "tipo": "pregunta_precio",
    "ejemplo": "vamos pepe decime cuanto aumento cuota para incorporar HAA"
+  },
+  {
+   "tema": "Problemas de conexión y cambio de link",
+   "n_programas": 1,
+   "n_signals": 1,
+   "canales": [
+    "BLENDER"
+   ],
+   "cross_canal": false,
+   "tipo": "pedido_link",
+   "ejemplo": "tuvieron que inventar la electricidad para verlos / Cambiaron de link nos perdimos todo"
   }
  ]
 }

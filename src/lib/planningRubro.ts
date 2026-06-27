@@ -15,6 +15,15 @@ export const CHANNEL_NAME_TO_ID: Record<string, string> = {
   "Neura Media": "neura",
   VORTERIX: "vorterix",
   Vorterix: "vorterix",
+  BORDER: "border",
+  BorderPeriodismo: "border",
+  "Border Periodismo": "border",
+  "El Cronista": "cronista",
+  "AHORA PLAY": "ahoraplay",
+  "Ahora Play": "ahoraplay",
+  "A U R A": "aura",
+  Aura: "aura",
+  Cenital: "cenital",
 };
 
 export function channelIdsForRubro(

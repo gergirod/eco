@@ -5,10 +5,10 @@
   "videos": 17,
   "vod_views": 2183596,
   "avg_concurrent": 81114,
-  "brands": 47,
-  "mentions": 62,
+  "brands": 44,
+  "mentions": 59,
   "share_views": 75.2,
-  "n_brands_live": 47,
+  "n_brands_live": 44,
   "top_brands": [
    {
     "slug": "skip",
@@ -99,13 +99,6 @@
     "name": "IOL Inversiones",
     "mentions": 1,
     "value_usd": 6649.0,
-    "rubro": "fintech"
-   },
-   {
-    "slug": "dia",
-    "name": "Día",
-    "mentions": 1,
-    "value_usd": 3934.0,
     "rubro": "fintech"
    },
    {
@@ -207,17 +200,24 @@
     "rubro": "otro"
    },
    {
-    "slug": "patria-y-familia",
-    "name": "Patria y Familia",
+    "slug": "quilmes",
+    "name": "Quilmes",
     "mentions": 1,
-    "value_usd": 1398.0,
+    "value_usd": 2204.0,
+    "rubro": "bebidas"
+   },
+   {
+    "slug": "ariel",
+    "name": "Ariel",
+    "mentions": 1,
+    "value_usd": 2144.0,
     "rubro": "otro"
    },
    {
-    "slug": "pollo-tati-y-agus-garcia",
-    "name": "Pollo Tati y Agus García",
+    "slug": "fenix",
+    "name": "Fénix",
     "mentions": 1,
-    "value_usd": 7555.0,
+    "value_usd": 2121.0,
     "rubro": "otro"
    }
   ]
@@ -228,10 +228,10 @@
   "videos": 15,
   "vod_views": 538242,
   "avg_concurrent": 25824,
-  "brands": 55,
-  "mentions": 96,
+  "brands": 52,
+  "mentions": 90,
   "share_views": 18.5,
-  "n_brands_live": 55,
+  "n_brands_live": 52,
   "top_brands": [
    {
     "slug": "iol-inversiones",
@@ -253,13 +253,6 @@
     "mentions": 6,
     "value_usd": 2483.0,
     "rubro": "alimentos"
-   },
-   {
-    "slug": "dia",
-    "name": "Día",
-    "mentions": 4,
-    "value_usd": 4757.0,
-    "rubro": "fintech"
    },
    {
     "slug": "rexona",
@@ -442,6 +435,13 @@
     "mentions": 1,
     "value_usd": 598.0,
     "rubro": "otro"
+   },
+   {
+    "slug": "pedidosya",
+    "name": "PedidosYa",
+    "mentions": 1,
+    "value_usd": 1255.0,
+    "rubro": "retail"
    }
   ]
  },

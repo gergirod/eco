@@ -1,18 +1,15 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Badge, Stat } from "@/components/ui";
 import { compact, num } from "@/lib/format";
 import { useDataset } from "@/lib/useDataset";
-import channelsFb from "@/data/channels.json";
 
 type LiveMap = Record<string, boolean | null>;
 const STEPS = ["ingest", "transcribe", "extract", "brand_monitor", "report"];
 
 export default function RunsPanel() {
-  const channels = useDataset<any[]>("channels", channelsFb);
-  const [selected, setSelected] = useState<string[]>(
-    channelsFb.filter((c: any) => c.enabled).map((c: any) => c.id)
-  );
+  const channels = useDataset<any[]>("channels");
+  const [selected, setSelected] = useState<string[]>([]);
   const [live, setLive] = useState<LiveMap>({});
   const [checking, setChecking] = useState(false);
   const [checkedAt, setCheckedAt] = useState<string>("");
@@ -21,6 +18,12 @@ export default function RunsPanel() {
     step: 0,
     channels: [],
   });
+
+  useEffect(() => {
+    if (!selected.length && channels.length) {
+      setSelected(channels.filter((c: any) => c.enabled).map((c: any) => c.id));
+    }
+  }, [channels, selected.length]);
 
   const toggle = (id: string) =>
     setSelected((s) => (s.includes(id) ? s.filter((x) => x !== id) : [...s, id]));

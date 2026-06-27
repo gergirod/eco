@@ -3,15 +3,18 @@
  * Usage: cd webapp && npx --yes tsx scripts/verify-discovery-layer.ts
  */
 
+import brands from "../src/data/brands.json";
+import reports from "../src/data/reports.json";
+import meta from "../src/data/meta.json";
 import {
   browseAdvertisers,
+  createDiscoveryDataset,
   getAdvertiserProfile,
   joinBrandReport,
-  loadDiscoveryDataset,
   pickHighlightActivation,
 } from "../src/lib/discovery";
 
-const dataset = loadDiscoveryDataset();
+const dataset = createDiscoveryDataset(brands, reports, meta);
 const slug = "iol-inversiones";
 
 const joined = joinBrandReport(slug, dataset);

@@ -12,21 +12,17 @@ import DiscoveryValueProp from "@/components/discovery/DiscoveryValueProp";
 import { ATTENTION_DEFINITION } from "@/lib/coverage";
 import {
   browseAdvertisers,
-  getPlatformCoverage,
-  loadDiscoveryDataset,
+  type DiscoveryDataset,
 } from "@/lib/discovery";
-import channelsBundle from "@/data/channels.json";
+import { useDiscoveryDataset, usePlatformCoverage } from "@/lib/use-discovery";
+import { useDataset } from "@/lib/useDataset";
 import { useMemo } from "react";
 
 const PREVIEW_COUNT = 9;
 const HEADLINE_BRAND_COUNT = 3;
 const PINNED_PREVIEW_SLUG = "iol-inversiones";
 
-const CH_NAME: Record<string, string> = Object.fromEntries(
-  (channelsBundle as { id: string; name: string }[]).map((c) => [c.id, c.name])
-);
-
-function buildPreviewItems(dataset: ReturnType<typeof loadDiscoveryDataset>) {
+function buildPreviewItems(dataset: DiscoveryDataset) {
   const all = browseAdvertisers(dataset, {
     tiers: ["high_confidence"],
     sort: "peak_conc_at",
@@ -47,13 +43,14 @@ function brandTeaserFromNames(names: string[]): string {
 }
 
 function channelTeaserFromPreview(
-  items: ReturnType<typeof buildPreviewItems>
+  items: ReturnType<typeof buildPreviewItems>,
+  chName: Record<string, string>
 ): string {
   const ids = new Set<string>();
   for (const item of items) {
     item.channels.forEach((c) => ids.add(c));
   }
-  const names = [...ids].map((id) => CH_NAME[id] || id);
+  const names = [...ids].map((id) => chName[id] || id);
   if (!names.length) return "Olga, Luzu y Blender";
   if (names.length === 1) return names[0];
   if (names.length === 2) return `${names[0]} y ${names[1]}`;
@@ -61,8 +58,13 @@ function channelTeaserFromPreview(
 }
 
 function MarcasPublicContent() {
-  const dataset = useMemo(() => loadDiscoveryDataset(), []);
-  const coverage = useMemo(() => getPlatformCoverage(dataset), [dataset]);
+  const dataset = useDiscoveryDataset();
+  const channels = useDataset("channels") as { id: string; name: string }[];
+  const CH_NAME = useMemo(
+    () => Object.fromEntries(channels.map((c) => [c.id, c.name])),
+    [channels]
+  );
+  const coverage = usePlatformCoverage();
   const previewItems = useMemo(() => buildPreviewItems(dataset), [dataset]);
   const previewSlugs = useMemo(() => previewItems.map((item) => item.slug), [previewItems]);
 
@@ -72,12 +74,12 @@ function MarcasPublicContent() {
       return item.name.split(" ")[0];
     });
     const brands = brandTeaserFromNames(shortNames);
-    const channels = channelTeaserFromPreview(previewItems);
+    const channels = channelTeaserFromPreview(previewItems, CH_NAME);
     if (brands) {
       return `${brands} pautaron en ${channels} — con cita y minuto.`;
     }
     return `Marcas con pauta verificable en ${channels}.`;
-  }, [previewItems]);
+  }, [previewItems, CH_NAME]);
 
   return (
     <div className="max-w-6xl pb-8">

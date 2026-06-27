@@ -42,6 +42,14 @@ const CHANNEL_STYLE: Record<string, string> = {
   GELATINA: "bg-pink-50 text-pink-800 border-pink-200",
   "Neura Media": "bg-indigo-50 text-indigo-800 border-indigo-200",
   Vorterix: "bg-red-50 text-red-800 border-red-200",
+  BorderPeriodismo: "bg-teal-50 text-teal-800 border-teal-200",
+  "Border Periodismo": "bg-teal-50 text-teal-800 border-teal-200",
+  "El Cronista": "bg-amber-50 text-amber-900 border-amber-200",
+  "AHORA PLAY": "bg-blue-50 text-blue-900 border-blue-200",
+  "Ahora Play": "bg-blue-50 text-blue-900 border-blue-200",
+  "A U R A": "bg-fuchsia-50 text-fuchsia-900 border-fuchsia-200",
+  Aura: "bg-fuchsia-50 text-fuchsia-900 border-fuchsia-200",
+  Cenital: "bg-purple-50 text-purple-900 border-purple-200",
 };
 
 const INITIAL_SHOWN = 6;

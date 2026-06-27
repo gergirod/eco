@@ -7,20 +7,27 @@ import ChannelProfileHero from "@/components/channels/channel-profile/ChannelPro
 import ChannelProfileSections from "@/components/channels/channel-profile/ChannelProfileSections";
 import ChannelProfileTabBar from "@/components/channels/channel-profile/ChannelProfileTabBar";
 import CoverageLine from "@/components/CoverageLine";
-import { getPlatformCoverage, loadDiscoveryDataset } from "@/lib/discovery";
 import {
   parseChannelProfileTab,
   type ChannelProfileTabId,
 } from "@/components/channels/channel-profile/tabs";
 import { getChannelProfile } from "@/lib/channelProfile";
 import type { PlacementExport } from "@/lib/placement";
-import { useDataset } from "@/lib/useDataset";
-import audienceFb from "@/data/audience.json";
-import benchmarkFb from "@/data/benchmark.json";
-import channelsFb from "@/data/channels.json";
-import momentsFb from "@/data/moments.json";
-import placementFb from "@/data/placement.json";
-import reportsFb from "@/data/reports.json";
+import type { CommercialDemandExport } from "@/lib/commercialDemand";
+import { useCorpus } from "@/lib/useCorpus";
+import { usePlatformCoverage } from "@/lib/use-discovery";
+import { getLiveCapture, type LiveCaptureStats } from "@/lib/liveCapture";
+
+const CORPUS_KEYS = [
+  "channels",
+  "audience",
+  "benchmark",
+  "reports",
+  "moments",
+  "placement",
+  "commercial_demand",
+  "meta",
+] as const;
 
 function CanalProfileInner() {
   const params = useParams();
@@ -28,28 +35,24 @@ function CanalProfileInner() {
   const router = useRouter();
   const channelId = typeof params.id === "string" ? params.id : "";
 
-  const channels = useDataset("channels", channelsFb);
-  const audience = useDataset("audience", audienceFb);
-  const benchmark = useDataset("benchmark", benchmarkFb);
-  const reports = useDataset("reports", reportsFb);
-  const moments = useDataset("moments", momentsFb);
-  const placement = useDataset("placement", placementFb) as PlacementExport;
+  const corpus = useCorpus(CORPUS_KEYS);
+  const channels = corpus.channels as Parameters<typeof getChannelProfile>[1];
+  const audience = corpus.audience as Parameters<typeof getChannelProfile>[2];
+  const benchmark = corpus.benchmark as Parameters<typeof getChannelProfile>[3];
+  const reports = corpus.reports as Parameters<typeof getChannelProfile>[4];
+  const moments = corpus.moments as Parameters<typeof getChannelProfile>[5];
+  const placement = corpus.placement as PlacementExport;
+  const commercialDemand = corpus.commercial_demand as CommercialDemandExport;
+  const meta = corpus.meta as { live_capture?: LiveCaptureStats };
 
-  const coverage = useMemo(() => getPlatformCoverage(loadDiscoveryDataset()), []);
+  const liveCapture = useMemo(() => getLiveCapture(meta), [meta]);
+  const coverage = usePlatformCoverage();
 
   const tab = parseChannelProfileTab(searchParams.get("tab"));
   const showFilter = searchParams.get("show");
 
   const profile = useMemo(
-    () =>
-      getChannelProfile(
-        channelId,
-        channels as Parameters<typeof getChannelProfile>[1],
-        audience as Parameters<typeof getChannelProfile>[2],
-        benchmark as Parameters<typeof getChannelProfile>[3],
-        reports as Parameters<typeof getChannelProfile>[4],
-        moments as Parameters<typeof getChannelProfile>[5]
-      ),
+    () => getChannelProfile(channelId, channels, audience, benchmark, reports, moments),
     [channelId, channels, audience, benchmark, reports, moments]
   );
 
@@ -103,7 +106,7 @@ function CanalProfileInner() {
 
       <CoverageLine coverage={coverage} className="mb-4" />
 
-      <ChannelProfileHero profile={profile} />
+      <ChannelProfileHero profile={profile} liveCapture={liveCapture} />
 
       {!profile.hasCapture && (
         <div className="card p-4 mb-6 text-[13.5px] text-gray-600 bg-amber-50/50 border-amber-100">
@@ -122,6 +125,8 @@ function CanalProfileInner() {
         chName={Object.fromEntries(channels.map((c) => [c.id, c.name]))}
         showFilter={showFilter}
         placement={placement}
+        commercialDemand={commercialDemand}
+        liveCapture={liveCapture}
       />
     </div>
   );

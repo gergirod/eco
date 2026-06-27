@@ -4,15 +4,10 @@ import Link from "next/link";
 import { PageHeader, Badge } from "@/components/ui";
 import { usd, num } from "@/lib/format";
 import { usdEst } from "@/lib/valuation";
-import { useDataset } from "@/lib/useDataset";
-import brandsFb from "@/data/brands.json";
-import productsFb from "@/data/products.json";
-import channelsFb from "@/data/channels.json";
+import { useCorpus } from "@/lib/useCorpus";
 
 export default function Catalogo() {
-  const brands = useDataset<any[]>("brands", brandsFb);
-  const products = useDataset<any[]>("products", productsFb);
-  const channels = useDataset<any[]>("channels", channelsFb);
+  const { brands, products, channels } = useCorpus(["brands", "products", "channels"] as const);
   const CH_NAME: Record<string, string> = useMemo(
     () => Object.fromEntries(channels.map((c: any) => [c.id, c.name])),
     [channels]

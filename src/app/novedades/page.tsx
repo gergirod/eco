@@ -4,26 +4,23 @@ import Link from "next/link";
 import { useMemo } from "react";
 import NovedadCard from "@/components/novedades/NovedadCard";
 import CoverageLine from "@/components/CoverageLine";
-import { getPlatformCoverage, loadDiscoveryDataset } from "@/lib/discovery";
 import { buildNovedades, filterNovedadesForSlugs, novedadesCoverageLine } from "@/lib/novedades";
 import { usePartner } from "@/contexts/PartnerContext";
-import { useDataset } from "@/lib/useDataset";
-import brandsFb from "@/data/brands.json";
-import channelsFb from "@/data/channels.json";
-import metaFb from "@/data/meta.json";
-import reportsFb from "@/data/reports.json";
-import momentsFb from "@/data/moments.json";
+import { useCorpus } from "@/lib/useCorpus";
+import { usePlatformCoverage } from "@/lib/use-discovery";
 
 const WINDOW_DAYS = 7;
 
 export default function NovedadesPage() {
   const { isScoped, partner } = usePartner();
-  const brands = useDataset("brands", brandsFb);
-  const reports = useDataset("reports", reportsFb);
-  const channels = useDataset("channels", channelsFb);
-  const meta = useDataset("meta", metaFb);
-  const moments = useDataset("moments", momentsFb);
-  const coverage = useMemo(() => getPlatformCoverage(loadDiscoveryDataset()), []);
+  const { brands, reports, channels, meta, moments } = useCorpus([
+    "brands",
+    "reports",
+    "channels",
+    "meta",
+    "moments",
+  ] as const);
+  const coverage = usePlatformCoverage();
 
   const allEvents = useMemo(
     () =>

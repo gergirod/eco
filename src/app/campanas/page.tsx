@@ -7,7 +7,7 @@ import BrandPicker from "@/components/BrandPicker";
 import CampaignHeader from "@/components/CampaignHeader";
 import ActivationsTable from "@/components/ActivationsTable";
 import MomentModal from "@/components/MomentModal";
-import { useDataset } from "@/lib/useDataset";
+import { useCorpus } from "@/lib/useCorpus";
 import {
   campaignReportKey,
   findAdvertiserSlugForCampaign,
@@ -15,26 +15,25 @@ import {
   listCampaignReports,
 } from "@/lib/campaign";
 import { printCampaignReportPDF } from "@/lib/campaignReport";
-import reportsFb from "@/data/reports.json";
-import channelsFb from "@/data/channels.json";
-import momentsFb from "@/data/moments.json";
-import brandsFb from "@/data/brands.json";
 
 function CampanasPageInner() {
-  const reports = useDataset<any>("reports", reportsFb);
-  const channels = useDataset<any[]>("channels", channelsFb);
-  const moments = useDataset<any>("moments", momentsFb);
+  const { reports, channels, moments, brands: brandsData } = useCorpus([
+    "reports",
+    "channels",
+    "moments",
+    "brands",
+  ] as const);
   const searchParams = useSearchParams();
   const [openMention, setOpenMention] = useState<any | null>(null);
 
   const chName: Record<string, string> = useMemo(
-    () => Object.fromEntries(channels.map((c: any) => [c.id, c.name])),
+    () => Object.fromEntries((channels as any[]).map((c: any) => [c.id, c.name])),
     [channels]
   );
 
   const brands = useMemo(
-    () => (brandsFb as { slug: string; name: string }[]),
-    []
+    () => brandsData as { slug: string; name: string }[],
+    [brandsData]
   );
 
   const campaigns = useMemo(() => listCampaignReports(reports as Record<string, any>), [reports]);

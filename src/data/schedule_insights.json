@@ -123,14 +123,14 @@
   },
   {
    "channel_id": "olga",
-   "show_id": "otros",
-   "show_name": "Otros",
+   "show_id": "sone-volaba",
+   "show_name": "Soñé que Volaba",
    "emissions": 4,
    "typical_start": "10:16",
    "peak_window": "11–12 hs",
    "best_weekday": "miércoles",
    "avg_peak": 40269,
-   "line": "Otros suele arrancar cerca de las 10:16 y pega fuerte entre 11–12 hs los miércoles."
+   "line": "Soñé que Volaba suele arrancar cerca de las 10:16 y pega fuerte entre 11–12 hs los miércoles."
   },
   {
    "channel_id": "luzu",
@@ -221,5 +221,5 @@
    "line": "Gol Gana suele arrancar cerca de las 16:47 y pega fuerte entre 19–20 hs los lunes."
   }
  ],
- "period": "2026-06-27T16:59:20.224044+00:00"
+ "period": "2026-06-27T20:53:40.739475+00:00"
 }
