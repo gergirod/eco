@@ -212,6 +212,7 @@ export default function ProgramaProfilePage() {
 
       <RoomParticipationPanel
         participation={(moment as { room_participation?: RoomParticipation } | null)?.room_participation}
+        chatTotal={(moment as { chat_total?: number } | null)?.chat_total}
       />
 
       {program && program.pnt.length > 0 ? (

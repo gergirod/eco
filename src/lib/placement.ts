@@ -48,11 +48,19 @@ export type ChannelPlacement = {
   pauta_mentions: number;
 };
 
+export type BrandMixRow = {
+  slug: string;
+  name: string;
+  rubro: string;
+  count: number;
+};
+
 export type ShowPlacement = ChannelPlacement & {
   channel_id: string;
   show_id: string;
   show_name: string;
   emissions: number;
+  brand_mix?: BrandMixRow[];
 };
 
 export type PlacementExport = {

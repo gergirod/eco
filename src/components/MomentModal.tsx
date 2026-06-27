@@ -290,8 +290,20 @@ export default function MomentModal({
               Qué más pasó en la sala
             </div>
             <p className="text-[14px] leading-relaxed text-gray-800">
-              {roomRx.headline || (roomRx.lines || []).join(" ")}
+              {roomRx.headline || (roomRx.lines || []).join(" ") || roomRx.table_line}
             </p>
+            {roomRx.monetization?.paid_events ? (
+              <p className="text-[12.5px] text-gray-600 mt-2">
+                {roomRx.monetization.paid_events} apoyo
+                {roomRx.monetization.paid_events !== 1 ? "s" : ""} en chat en ±5 min de la aparición
+                {roomRx.monetization.total_by_currency &&
+                Object.keys(roomRx.monetization.total_by_currency).length
+                  ? ` (${Object.entries(roomRx.monetization.total_by_currency)
+                      .map(([c, a]) => `${c} ${Math.round(a).toLocaleString("es-AR")}`)
+                      .join(" · ")})`
+                  : ""}
+              </p>
+            ) : null}
             {(roomRx.detail_lines || [])
               .filter((line) => line !== roomRx.headline && !(roomRx.lines || []).includes(line))
               .map((line, i) => (

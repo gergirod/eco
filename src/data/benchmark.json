@@ -2,12 +2,12 @@
  {
   "id": "luzu",
   "name": "Luzu TV",
-  "videos": 16,
-  "vod_views": 2041085,
-  "avg_concurrent": 80571,
+  "videos": 17,
+  "vod_views": 2183596,
+  "avg_concurrent": 81114,
   "brands": 47,
   "mentions": 62,
-  "share_views": 73.9,
+  "share_views": 75.2,
   "n_brands_live": 47,
   "top_brands": [
    {
@@ -15,14 +15,14 @@
     "name": "Skip",
     "mentions": 3,
     "value_usd": 3798.0,
-    "rubro": "otro"
+    "rubro": "higiene"
    },
    {
     "slug": "asiscard",
     "name": "Asiscard",
     "mentions": 3,
     "value_usd": 18007.0,
-    "rubro": "otro"
+    "rubro": "seguros"
    },
    {
     "slug": "mercado-libre",
@@ -36,28 +36,28 @@
     "name": "Natura Aderezos",
     "mentions": 2,
     "value_usd": 3836.0,
-    "rubro": "otro"
+    "rubro": "alimentos"
    },
    {
     "slug": "natura",
     "name": "Natura",
     "mentions": 2,
     "value_usd": 3180.0,
-    "rubro": "otro"
+    "rubro": "alimentos"
    },
    {
     "slug": "wanderlust",
     "name": "Wanderlust",
     "mentions": 2,
     "value_usd": 12313.0,
-    "rubro": "otro"
+    "rubro": "viajes"
    },
    {
     "slug": "canji",
     "name": "Canji",
     "mentions": 2,
     "value_usd": 2964.0,
-    "rubro": "otro"
+    "rubro": "retail"
    },
    {
     "slug": "jorjito",
@@ -92,7 +92,7 @@
     "name": "Coffee House",
     "mentions": 2,
     "value_usd": 3098.0,
-    "rubro": "otro"
+    "rubro": "alimentos"
    },
    {
     "slug": "iol-inversiones",
@@ -230,7 +230,7 @@
   "avg_concurrent": 25824,
   "brands": 55,
   "mentions": 96,
-  "share_views": 19.5,
+  "share_views": 18.5,
   "n_brands_live": 55,
   "top_brands": [
    {
@@ -245,14 +245,14 @@
     "name": "Geniol",
     "mentions": 6,
     "value_usd": 5090.0,
-    "rubro": "otro"
+    "rubro": "salud"
    },
    {
     "slug": "mcdonald-s",
     "name": "McDonald's",
     "mentions": 6,
     "value_usd": 2483.0,
-    "rubro": "otro"
+    "rubro": "alimentos"
    },
    {
     "slug": "dia",
@@ -273,21 +273,21 @@
     "name": "Canon",
     "mentions": 3,
     "value_usd": 3041.0,
-    "rubro": "otro"
+    "rubro": "tecnologia"
    },
    {
     "slug": "cordoba-turismo",
     "name": "Córdoba (Turismo)",
     "mentions": 3,
     "value_usd": 909.0,
-    "rubro": "otro"
+    "rubro": "viajes"
    },
    {
     "slug": "green-life",
     "name": "Green Life",
     "mentions": 3,
     "value_usd": 3470.0,
-    "rubro": "otro"
+    "rubro": "salud"
    },
    {
     "slug": "smirnoff",
@@ -301,21 +301,21 @@
     "name": "Johnnie Walker",
     "mentions": 3,
     "value_usd": 685.0,
-    "rubro": "otro"
+    "rubro": "bebidas"
    },
    {
     "slug": "schneider",
     "name": "Schneider",
     "mentions": 3,
     "value_usd": 528.0,
-    "rubro": "otro"
+    "rubro": "bebidas"
    },
    {
     "slug": "skip",
     "name": "Skip",
     "mentions": 2,
     "value_usd": 1788.0,
-    "rubro": "otro"
+    "rubro": "higiene"
    },
    {
     "slug": "ypf",
@@ -336,14 +336,14 @@
     "name": "Pharma Olga",
     "mentions": 2,
     "value_usd": 1300.0,
-    "rubro": "otro"
+    "rubro": "salud"
    },
    {
     "slug": "swift",
     "name": "Swift",
     "mentions": 2,
     "value_usd": 439.0,
-    "rubro": "otro"
+    "rubro": "alimentos"
    },
    {
     "slug": "cordoba-destino-turistico",
@@ -357,7 +357,7 @@
     "name": "Asiscard",
     "mentions": 1,
     "value_usd": 261.0,
-    "rubro": "otro"
+    "rubro": "seguros"
    },
    {
     "slug": "mercado-libre",
@@ -371,21 +371,21 @@
     "name": "Adidas",
     "mentions": 1,
     "value_usd": 1311.0,
-    "rubro": "otro"
+    "rubro": "retail"
    },
    {
     "slug": "hyundai",
     "name": "Hyundai",
     "mentions": 1,
     "value_usd": 181.0,
-    "rubro": "otro"
+    "rubro": "automotriz"
    },
    {
     "slug": "evaginagel",
     "name": "Evaginagel",
     "mentions": 1,
     "value_usd": 1000.0,
-    "rubro": "otro"
+    "rubro": "salud"
    },
    {
     "slug": "full-guapaletas",
@@ -434,7 +434,7 @@
     "name": "Hellmann's",
     "mentions": 1,
     "value_usd": 827.0,
-    "rubro": "otro"
+    "rubro": "higiene"
    },
    {
     "slug": "marca-comercial-de-condimentos-oregano",
@@ -453,7 +453,7 @@
   "avg_concurrent": 6699,
   "brands": 20,
   "mentions": 21,
-  "share_views": 3.9,
+  "share_views": 3.7,
   "n_brands_live": 20,
   "top_brands": [
    {
@@ -468,21 +468,21 @@
     "name": "Adidas",
     "mentions": 1,
     "value_usd": 97.0,
-    "rubro": "otro"
+    "rubro": "retail"
    },
    {
     "slug": "hyundai",
     "name": "Hyundai",
     "mentions": 1,
     "value_usd": 62.0,
-    "rubro": "otro"
+    "rubro": "automotriz"
    },
    {
     "slug": "kanka",
     "name": "Kanka",
     "mentions": 1,
     "value_usd": 72.0,
-    "rubro": "otro"
+    "rubro": "salud"
    },
    {
     "slug": "gustavo-corbera-la-fuente",
@@ -531,7 +531,7 @@
     "name": "Social Lunch",
     "mentions": 1,
     "value_usd": 49.0,
-    "rubro": "otro"
+    "rubro": "alimentos"
    },
    {
     "slug": "luz-gashi-teatro-fortrix",
@@ -594,7 +594,7 @@
     "name": "Café Imperial",
     "mentions": 1,
     "value_usd": 236.0,
-    "rubro": "otro"
+    "rubro": "retail"
    }
   ]
  },
@@ -606,7 +606,7 @@
   "avg_concurrent": 21251,
   "brands": 0,
   "mentions": 0,
-  "share_views": 1.4,
+  "share_views": 1.3,
   "n_brands_live": 0,
   "top_brands": []
  },
@@ -640,7 +640,7 @@
     "name": "Uber",
     "mentions": 1,
     "value_usd": 23.0,
-    "rubro": "otro"
+    "rubro": "alimentos"
    },
    {
     "slug": "guberpaticerie",

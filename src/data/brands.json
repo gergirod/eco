@@ -192,7 +192,7 @@
    "partial": 1,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "salud"
  },
  {
   "slug": "mcdonald-s",
@@ -279,7 +279,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "alimentos"
  },
  {
   "slug": "skip",
@@ -357,7 +357,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "higiene"
  },
  {
   "slug": "pae",
@@ -658,7 +658,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "seguros"
  },
  {
   "slug": "mercado-libre",
@@ -783,7 +783,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "tecnologia"
  },
  {
   "slug": "cordoba-turismo",
@@ -840,7 +840,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "viajes"
  },
  {
   "slug": "green-life",
@@ -897,7 +897,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "salud"
  },
  {
   "slug": "smirnoff",
@@ -1069,7 +1069,7 @@
    "partial": 1,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "bebidas"
  },
  {
   "slug": "schneider",
@@ -1126,7 +1126,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "bebidas"
  },
  {
   "slug": "coto",
@@ -1221,7 +1221,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "retail"
  },
  {
   "slug": "ecomod",
@@ -1362,7 +1362,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "salud"
  },
  {
   "slug": "swift",
@@ -1409,7 +1409,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "alimentos"
  },
  {
   "slug": "hyundai",
@@ -1457,7 +1457,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "automotriz"
  },
  {
   "slug": "cordoba-destino-turistico",
@@ -1551,7 +1551,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "alimentos"
  },
  {
   "slug": "natura",
@@ -1598,7 +1598,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "alimentos"
  },
  {
   "slug": "wanderlust",
@@ -1645,7 +1645,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "viajes"
  },
  {
   "slug": "canji",
@@ -1692,7 +1692,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "retail"
  },
  {
   "slug": "jorjito",
@@ -1927,7 +1927,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "alimentos"
  },
  {
   "slug": "sinteplast",
@@ -2001,7 +2001,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "salud"
  },
  {
   "slug": "gustavo-corbera-la-fuente",
@@ -2075,7 +2075,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "salud"
  },
  {
   "slug": "full-guapaletas",
@@ -2445,7 +2445,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "higiene"
  },
  {
   "slug": "infinea-turbo-clean",
@@ -2593,7 +2593,7 @@
    "partial": 1,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "retail"
  },
  {
   "slug": "mogul",
@@ -2704,7 +2704,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "bebidas"
  },
  {
   "slug": "omni",
@@ -3518,7 +3518,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "alimentos"
  },
  {
   "slug": "luz-gashi-teatro-fortrix",
@@ -3777,7 +3777,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "retail"
  },
  {
   "slug": "asociacion-argentina-de-salud-mental",
@@ -3814,7 +3814,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "salud"
  },
  {
   "slug": "sancor-salud",
@@ -3851,7 +3851,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "salud"
  },
  {
   "slug": "osde",
@@ -4480,7 +4480,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "retail"
  },
  {
   "slug": "seco",
@@ -4554,7 +4554,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "alimentos"
  },
  {
   "slug": "guberpaticerie",
@@ -4998,7 +4998,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "retail"
  },
  {
   "slug": "hace",
@@ -5257,7 +5257,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "retail"
  },
  {
   "slug": "personal",
@@ -5590,7 +5590,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "alimentos"
  },
  {
   "slug": "cabify",
@@ -5627,7 +5627,7 @@
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "otro"
+  "rubro": "seguros"
  },
  {
   "slug": "picadeli",

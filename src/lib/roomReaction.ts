@@ -26,12 +26,16 @@ export type RoomParticipation = {
   total_votes?: number;
   banner_sessions?: number;
   paid_events?: number;
+  chat_messages?: number;
+  total_by_currency?: Record<string, number>;
   summary_line?: string | null;
   participation_line?: string | null;
   highlights?: {
-    kind: "encuesta" | "mensaje_fijado";
+    kind: "encuesta" | "mensaje_fijado" | "super_chat";
     question?: string;
     text?: string;
+    author?: string;
+    amount_display?: string;
     total_votes?: number;
     duration_s?: number;
     minute?: number;
@@ -55,7 +59,10 @@ export function getRoomReaction(row: RoomRow): RoomReaction | null {
 
 export function roomHasSignal(row: RoomRow): boolean {
   const rx = getRoomReaction(row);
-  return Boolean(rx?.in_window && (rx.lines?.length || rx.headline));
+  if (!rx) return false;
+  if (rx.in_window && (rx.lines?.length || rx.headline)) return true;
+  if ((rx.monetization?.paid_events ?? 0) > 0) return true;
+  return false;
 }
 
 export function roomHeadline(row: RoomRow): string {
@@ -93,6 +100,12 @@ export function fmtDuration(secs: number | undefined): string {
 }
 
 export function highlightLabel(h: NonNullable<RoomParticipation["highlights"]>[number]): string {
+  if (h.kind === "super_chat") {
+    const amt = h.amount_display ? `${h.amount_display} · ` : "";
+    const who = h.author && h.author !== "?" ? `${h.author}: ` : "";
+    const t = h.text || "super chat";
+    return `${amt}${who}${t}`;
+  }
   if (h.kind === "encuesta") {
     const v = h.total_votes ? `${fmtVotes(h.total_votes)} votos` : "encuesta";
     const q = h.question ? `«${h.question.slice(0, 56)}${(h.question.length || 0) > 56 ? "…" : ""}»` : "";

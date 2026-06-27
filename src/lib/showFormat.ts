@@ -20,9 +20,9 @@ const SHOW_RULES: Record<string, ShowRule[]> = {
     { id: "aqn", name: "Antes Que Nadie", test: /#?\s*antes\s*que\s*nadie|antes\s+que\s+nadie/i },
     { id: "sfl", name: "Se Fue Larga", test: /#?\s*se\s*fue\s*larga|se\s+fue\s+larga/i },
     { id: "novela", name: "La Novela", test: /#?\s*la\s*novela|la\s+novela/i },
-    { id: "patria", name: "Patria y Familia", test: /#?\s*patria\s*y\s*familia|patria\s+y\s+familia|#?\s*plp\b/i },
-    { id: "fondo", name: "Los del Fondo", test: /#?\s*los\s*del\s*fondo|los\s+del\s+fondo/i },
-    { id: "fmluzu", name: "FM Luzu", test: /#?\s*fmluzu|\bfm\s+luzu\b/i },
+    { id: "patria", name: "Patria y Familia", test: /#?\s*patria\s*y\s*familia|patria\s+y\s+familia|#?\s*plp\b|#?\s*patrifamilia/i },
+    { id: "fondo", name: "Los del Fondo", test: /#?\s*los\s*del\s*fondo|los\s+del\s+fondo|#?\s*losdelfondo/i },
+    { id: "fmluzu", name: "FM Luzu", test: /#?\s*fmluzu|\bfm\s+luzu\b|#?\s*fmlusu/i },
     { id: "verano", name: "El Show del Verano", test: /#?\s*elshowdelverano|el\s+show\s+del\s+verano/i },
     { id: "flash", name: "Flasheando Secuencia", test: /#?\s*flashandosecuencia|flasheando\s+secuencia/i },
     {

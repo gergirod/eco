@@ -1,7 +1,7 @@
 "use client";
 
-import type { CategoryRow, ChannelPlacement, MixRow, TopicRow } from "@/lib/placement";
-import { categoryLabel } from "@/lib/placement";
+import type { BrandMixRow, CategoryRow, ChannelPlacement, MixRow, ShowPlacement, TopicRow } from "@/lib/placement";
+import { categoryLabel, rubroLabel } from "@/lib/placement";
 
 function MixBar({ rows, empty }: { rows: MixRow[]; empty?: string }) {
   if (!rows.length) {
@@ -114,6 +114,26 @@ export function PlacementChannelCard({
   );
 }
 
+function BrandMixPills({ rows, placement }: { rows: BrandMixRow[]; placement?: ChannelPlacement | null }) {
+  if (!rows.length) return null;
+  return (
+    <div>
+      <p className="mb-1.5">Marcas que pautan acá:</p>
+      <div className="flex flex-wrap gap-1.5">
+        {rows.slice(0, 6).map((b) => (
+          <span
+            key={b.slug}
+            className="text-[11px] px-2 py-0.5 rounded-full bg-gray-50 text-gray-700 border border-gray-100"
+            title={rubroLabel(placement, b.rubro)}
+          >
+            {b.name}
+            <span className="text-gray-400"> · {rubroLabel(placement, b.rubro)}</span>
+          </span>
+        ))}
+      </div>
+    </div>
+  );
+}
 function formatCompactRubro(rows: MixRow[]): { text: string; bold: string; suffix: string } | null {
   if (!rows.length) return null;
 
@@ -148,23 +168,75 @@ function formatCompactRubro(rows: MixRow[]): { text: string; bold: string; suffi
   return null;
 }
 
+export type PlacementShowFallback = {
+  brandCount?: number;
+  brandNames?: string[];
+  peakAttention?: number;
+  pautaMentions?: number;
+};
+
+function ShowFallbackBlock({ fallback }: { fallback: PlacementShowFallback }) {
+  const { brandCount = 0, brandNames = [], peakAttention = 0, pautaMentions = 0 } = fallback;
+  const visibleBrands = brandNames.slice(0, 4);
+
+  return (
+    <div className="text-[12px] text-gray-600 space-y-2 mb-3 leading-relaxed">
+      {brandCount > 0 ? (
+        <p>
+          <b className="text-gray-700">{brandCount}</b>{" "}
+          {brandCount === 1 ? "marca detectada" : "marcas detectadas"}
+          {pautaMentions > 0 ? ` · ${pautaMentions} apariciones de pauta` : ""}
+          {visibleBrands.length > 0 ? (
+            <>
+              {" "}
+              — {visibleBrands.join(", ")}
+              {brandNames.length > visibleBrands.length ? "…" : ""}
+            </>
+          ) : null}
+        </p>
+      ) : peakAttention > 0 && pautaMentions === 0 ? (
+        <p className="text-gray-600">
+          Atención medida · <span className="text-gray-500">poca pauta verificada en el período</span>
+        </p>
+      ) : null}
+      <p className="text-gray-400">Charla sin procesar — audio pendiente para rubro y temas.</p>
+    </div>
+  );
+}
+
 export function PlacementShowSnippet({
   placement,
   compact,
+  fallback,
 }: {
   placement: ChannelPlacement | null;
   compact?: boolean;
+  fallback?: PlacementShowFallback;
 }) {
-  if (!placement) return null;
+  if (!placement) {
+    return fallback ? <ShowFallbackBlock fallback={fallback} /> : null;
+  }
   const topRubro = placement.rubro_mix[0];
   const categorias = categoriesForDisplay(placement.categoria_mix);
-  if (!topRubro && !categorias.length) return null;
+  const brandMix = (placement as ShowPlacement).brand_mix ?? [];
+  if (!topRubro && !categorias.length && !brandMix.length) {
+    return fallback ? <ShowFallbackBlock fallback={fallback} /> : null;
+  }
 
   if (compact) {
     const rubroLine = topRubro ? formatCompactRubro(placement.rubro_mix) : null;
+    const rubroIsWeak = !rubroLine || placement.rubro_mix[0]?.key === "otro";
     return (
       <div className="text-[12px] text-gray-600 space-y-2 mb-3 leading-relaxed">
-        {rubroLine ? (
+        {rubroLine && !rubroIsWeak ? (
+          <p>
+            {rubroLine.text}
+            <b className="text-gray-700">{rubroLine.bold}</b>
+            {rubroLine.suffix}
+          </p>
+        ) : brandMix.length > 0 ? (
+          <BrandMixPills rows={brandMix} placement={placement} />
+        ) : rubroLine ? (
           <p>
             {rubroLine.text}
             <b className="text-gray-700">{rubroLine.bold}</b>

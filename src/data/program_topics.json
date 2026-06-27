@@ -5,8 +5,8 @@
    "channel_id": "luzu",
    "channel": "LUZU TV",
    "title": "#LOSDELFONDO | SORTEAMOS LA CAMISETA DEL PURRETE 10, EL BÓXER DEL MITO NO DA MÁS, ANGELITA LA ROMPIÓ",
-   "show_id": "otros",
-   "show_name": "Otros",
+   "show_id": "fondo",
+   "show_name": "Los del Fondo",
    "top_temas": [
     {
      "tema": "Mundial De Fútbol",
@@ -1555,8 +1555,8 @@
    "channel_id": "luzu",
    "channel": "LUZU TV",
    "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
-   "show_id": "otros",
-   "show_name": "Otros",
+   "show_id": "patria",
+   "show_name": "Patria y Familia",
    "top_temas": [
     {
      "tema": "Mundial De Fútbol",
@@ -2407,8 +2407,8 @@
    "channel_id": "luzu",
    "channel": "LUZU TV",
    "title": "#FMLUZU | CRIS Y LA GURI INSPIRAN A MARGELA + LA COLUMNA DE FLACA SOBRE CABO VERDE",
-   "show_id": "otros",
-   "show_name": "Otros",
+   "show_id": "fmluzu",
+   "show_name": "FM Luzu",
    "top_temas": [
     {
      "tema": "Mundial De Fútbol",
@@ -2821,6 +2821,82 @@
      "categoria": "actividad",
      "contexto": "Anécdotas sobre llevar vino y cerveza a cines, ahora se vende cerveza directamente",
      "minute": "0:30"
+    }
+   ]
+  },
+  "N-Qq1qr42pk": {
+   "video_id": "N-Qq1qr42pk",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "PLP con FLOR JAZMÍN, MOMI GIARDINA, JULI CASTRO, ANGELITA TORRES Y JULI POGGIO 2026-06-27 11:11",
+   "show_id": "patria",
+   "show_name": "Patria y Familia",
+   "top_temas": [
+    {
+     "tema": "Retiro Espiritual Y Meditación",
+     "score": 2
+    },
+    {
+     "tema": "Magia 33 - Centro De Retiros",
+     "score": 2
+    },
+    {
+     "tema": "Crecimiento Personal Y Cambio",
+     "score": 2
+    },
+    {
+     "tema": "Plp - Programa De Streaming",
+     "score": 2
+    },
+    {
+     "tema": "Partido De Fútbol (selección Argentina)",
+     "score": 1
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 5
+    },
+    {
+     "categoria": "lugar",
+     "score": 2
+    },
+    {
+     "categoria": "cultura",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Retiro Espiritual Y Meditación",
+     "categoria": "actividad",
+     "contexto": "Realizaron un retiro en Magia 33 con meditaciones, constelaciones y actividades de bienestar",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Magia 33 - Centro De Retiros",
+     "categoria": "lugar",
+     "contexto": "Centro de retiros en Miami donde realizan meditaciones, masajes y constelaciones",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Crecimiento Personal Y Cambio",
+     "categoria": "cultura",
+     "contexto": "Reflexiones sobre confiar en la voz interior y atravesar cambios con conciencia",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Partido De Fútbol (selección Argentina)",
+     "categoria": "actividad",
+     "contexto": "Invitan a disfrutar el partido con familia y amigos, aliento a Argentina",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Plp - Programa De Streaming",
+     "categoria": "actividad",
+     "contexto": "Mesa de conducción con invitadas especiales, formato de talk-show",
+     "minute": "0:00"
     }
    ]
   },
@@ -4371,8 +4447,8 @@
    "channel_id": "luzu",
    "channel": "LUZU TV",
    "title": "LA NOVELA con CARINA ZAMPINI, DIEGO CASTRO, GABY SCHULTZ Y AGUS BATTIONI | EN VIVO",
-   "show_id": "otros",
-   "show_name": "Otros",
+   "show_id": "novela",
+   "show_name": "La Novela",
    "top_temas": [
     {
      "tema": "Juego De Mentiras En Conversación",
@@ -6217,8 +6293,8 @@
    "channel_id": "luzu",
    "channel": "LUZU TV",
    "title": "#FMLUZU | LA CASTRO SE BAJÓ DE LAS APPS DE CITAS + LE HACEMOS UNA CANCIÓN + MANO A MANO CASTRINI",
-   "show_id": "otros",
-   "show_name": "Otros",
+   "show_id": "fmluzu",
+   "show_name": "FM Luzu",
    "top_temas": [
     {
      "tema": "Relaciones De Pareja Y Compromiso",
@@ -6493,8 +6569,8 @@
    "channel_id": "luzu",
    "channel": "LUZU TV",
    "title": "#PATRIAYFAMILIA l CÁMARA OCULTA A MARCOS GILES Y SE CHAMUYAN A AGUSNETA",
-   "show_id": "otros",
-   "show_name": "Otros",
+   "show_id": "patria",
+   "show_name": "Patria y Familia",
    "top_temas": [
     {
      "tema": "Coreografía Y Baile",

@@ -1,13 +1,13 @@
 {
- "exported_at": "2026-06-27T15:52:09.897347+00:00",
+ "exported_at": "2026-06-27T16:20:49.348619+00:00",
  "capture_scope": "live_only",
  "capture_sources": [
   "youtube_api",
   "ytdlp_live"
  ],
- "n_videos": 48,
- "n_topics": 48,
- "n_topics_total": 113,
+ "n_videos": 49,
+ "n_topics": 49,
+ "n_topics_total": 114,
  "n_brands": 134,
  "n_products": 121,
  "n_pauta_mentions": 205,
@@ -16,7 +16,7 @@
  "cpm": 30.0,
  "peso_default": 0.3,
  "live_capture": {
-  "hours_captured": 136.7,
+  "hours_captured": 136.9,
   "streams_captured": 55,
   "channels_captured": 8,
   "capture_days": 6,
@@ -57,7 +57,7 @@
    {
     "id": "luzu",
     "streams": 20,
-    "hours": 39.7,
+    "hours": 39.8,
     "first_capture": "2026-06-23",
     "last_capture": "2026-06-27"
    },
@@ -102,7 +102,7 @@
   "first_capture": "2026-06-19",
   "last_capture": "2026-06-27",
   "period_days": 9,
-  "programs_with_viewers": 48,
+  "programs_with_viewers": 49,
   "high_confidence_advertisers": 16,
   "emerging_confidence_advertisers": 17,
   "activations_with_verified_evidence": 199

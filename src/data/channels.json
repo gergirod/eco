@@ -28,9 +28,9 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 16,
-   "total_vod_views": 2041085,
-   "avg_concurrent": 80571,
+   "videos_processed": 17,
+   "total_vod_views": 2183596,
+   "avg_concurrent": 81114,
    "brands_detected": 47,
    "mentions": 62,
    "last_processed": "27/06/2026"

@@ -154,6 +154,15 @@ function ProgramasSection({
       <div className="grid gap-4 sm:grid-cols-2">
         {rollups.map((r) => {
           const showPlacement = getShowPlacement(placement, channelId, r.show.id);
+          const brandNames = [
+            ...new Set(r.emissions.flatMap((e) => e.pnt.map((p) => p.brand_name))),
+          ];
+          const snippetFallback = {
+            brandCount: r.brandSlugs.size,
+            brandNames,
+            peakAttention: r.peakAttention,
+            pautaMentions: showPlacement?.pauta_mentions ?? r.mentionCount,
+          };
           return (
           <div key={r.show.id} className="card p-5">
             <h2 className="text-[16px] font-semibold text-ink mb-1">{r.show.name}</h2>
@@ -167,7 +176,11 @@ function ProgramasSection({
                 Pico de atención: <b>{compact(r.peakAttention)}</b>
               </p>
             ) : null}
-            <PlacementShowSnippet placement={showPlacement} compact />
+            <PlacementShowSnippet
+              placement={showPlacement}
+              compact
+              fallback={snippetFallback}
+            />
             <Link
               href={`/canales/${channelId}?tab=programas&show=${r.show.id}`}
               className="text-[13px] text-accent font-medium hover:underline inline-block mt-2"
@@ -415,14 +428,12 @@ function AudienciaSection({ profile }: { profile: ChannelProfile }) {
           <div className="flex flex-col gap-2">
             {aud.top_programs_by_chat.map((p, i) => (
               <div key={i} className="flex items-center justify-between gap-4 text-[13px]">
-                <a
-                  href={vodLink(p.video_id)}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <Link
+                  href={`/programas/${p.video_id}`}
                   className="text-gray-700 hover:text-accent hover:underline truncate"
                 >
                   {p.title || p.video_id}
-                </a>
+                </Link>
                 <span className="tabular-nums text-gray-500 shrink-0">
                   {p.chat_engagement} msgs/1k
                 </span>
