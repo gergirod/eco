@@ -13,13 +13,14 @@ import {
   type ChannelProfileTabId,
 } from "@/components/channels/channel-profile/tabs";
 import { getChannelProfile } from "@/lib/channelProfile";
+import type { PlacementExport } from "@/lib/placement";
 import { useDataset } from "@/lib/useDataset";
 import audienceFb from "@/data/audience.json";
 import benchmarkFb from "@/data/benchmark.json";
 import channelsFb from "@/data/channels.json";
 import momentsFb from "@/data/moments.json";
 import placementFb from "@/data/placement.json";
-import programTopicsFb from "@/data/program_topics.json";
+import reportsFb from "@/data/reports.json";
 
 function CanalProfileInner() {
   const params = useParams();
