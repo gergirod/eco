@@ -123,7 +123,7 @@ function DescripcionSection({
   );
 }
 
-function FormatosSection({
+function ProgramasSection({
   profile,
   channelId,
   placement,
@@ -137,7 +137,7 @@ function FormatosSection({
   if (!rollups.length) {
     return (
       <p className="text-[14px] text-gray-500">
-        Sin formatos con marcas pautando en lo que medimos — cuando aparezcan, los agrupamos por
+        Sin programas con marcas pautando en lo que medimos — cuando aparezcan, los agrupamos por
         show (NDN, AQN, etc.).
       </p>
     );
@@ -146,7 +146,7 @@ function FormatosSection({
   return (
     <div>
       <p className="text-[13.5px] text-gray-600 mb-5 max-w-[640px] leading-relaxed">
-        Un <b>formato</b> es el show (ej. Nadie Dice Nada). Cada tarjeta agrupa las{" "}
+        Un <b>programa</b> es el show (ej. Nadie Dice Nada). Cada tarjeta agrupa las{" "}
         <b>emisiones</b> de ese show en las últimas semanas que medimos. Abajo ves qué{" "}
         <b>tipo de marcas pautaron</b> y los <b>ángulos de la charla</b> (deporte, cultura,
         famosos, etc. — puede haber varios) — no un titular puntual.
@@ -182,7 +182,7 @@ function FormatosSection({
   );
 }
 
-function EmisionesSection({
+function EmisionesDrilldown({
   profile,
   chName,
   showFilter,
@@ -210,72 +210,36 @@ function EmisionesSection({
   if (showFilter && !activeRollup) {
     return (
       <p className="text-[14px] text-gray-500">
-        Sin emisiones para ese formato.{" "}
+        Sin emisiones para ese programa.{" "}
         <Link href={`/canales/${channelId}?tab=programas`} className="text-accent hover:underline">
-          Ver todas las emisiones
+          Ver todos los programas
         </Link>
         .
       </p>
     );
   }
 
-  if (showFilter && activeRollup) {
-    return (
-      <div>
-        <div className="mb-5 flex flex-wrap items-center gap-3">
-          <Link
-            href={`/canales/${channelId}?tab=formatos`}
-            className="text-[13px] text-gray-500 hover:text-accent"
-          >
-            ← Formatos
-          </Link>
-          <span className="text-[13px] text-gray-400">·</span>
-          <span className="text-[14px] font-medium text-ink">{activeRollup.show.name}</span>
-        </div>
-        <p className="text-[13px] text-gray-500 mb-4">
-          {programs.length} {programs.length === 1 ? "emisión" : "emisiones"} de{" "}
-          {activeRollup.show.name} en el período.
-        </p>
-        <div className="flex flex-col gap-3">
-          {programs.map((p) => (
-            <ProgramListCard key={p.video_id} program={p} chName={chName} />
-          ))}
-        </div>
-      </div>
-    );
-  }
+  if (!activeRollup) return null;
 
   return (
     <div>
-      <p className="text-[13.5px] text-gray-600 mb-5 max-w-[640px] leading-relaxed">
-        Cada tarjeta es <b>un vivo de un día</b> (un VOD). Para ver el acumulado por show, andá a{" "}
-        <Link href={`/canales/${channelId}?tab=formatos`} className="text-accent font-medium hover:underline">
-          Formatos
+      <div className="mb-5 flex flex-wrap items-center gap-3">
+        <Link
+          href={`/canales/${channelId}?tab=programas`}
+          className="text-[13px] text-gray-500 hover:text-accent"
+        >
+          ← Programas
         </Link>
-        .
+        <span className="text-[13px] text-gray-400">·</span>
+        <span className="text-[14px] font-medium text-ink">{activeRollup.show.name}</span>
+      </div>
+      <p className="text-[13px] text-gray-500 mb-4">
+        {programs.length} {programs.length === 1 ? "emisión" : "emisiones"} de{" "}
+        {activeRollup.show.name} en el período.
       </p>
-      <div className="flex flex-col gap-8">
-        {rollups.map((r) => (
-          <section key={r.show.id}>
-            <div className="flex flex-wrap items-baseline justify-between gap-2 mb-3">
-              <h2 className="text-[15px] font-semibold">{r.show.name}</h2>
-              <Link
-                href={`/canales/${channelId}?tab=programas&show=${r.show.id}`}
-                className="text-[12.5px] text-accent font-medium hover:underline"
-              >
-                Solo este formato →
-              </Link>
-            </div>
-            <p className="text-[12px] text-gray-400 mb-3">
-              {r.emissionCount} {r.emissionCount === 1 ? "emisión" : "emisiones"} ·{" "}
-              {r.mentionCount} apariciones
-            </p>
-            <div className="flex flex-col gap-3">
-              {r.emissions.map((p) => (
-                <ProgramListCard key={p.video_id} program={p} chName={chName} />
-              ))}
-            </div>
-          </section>
+      <div className="flex flex-col gap-3">
+        {programs.map((p) => (
+          <ProgramListCard key={p.video_id} program={p} chName={chName} />
         ))}
       </div>
     </div>
@@ -667,17 +631,18 @@ export default function ChannelProfileSections({
   switch (tab) {
     case "descripcion":
       return <DescripcionSection profile={profile} placement={placement} />;
-    case "formatos":
-      return <FormatosSection profile={profile} channelId={channelId} placement={placement} />;
     case "programas":
-      return (
-        <EmisionesSection
-          profile={profile}
-          chName={chName}
-          showFilter={showFilter}
-          channelId={channelId}
-        />
-      );
+      if (showFilter) {
+        return (
+          <EmisionesDrilldown
+            profile={profile}
+            chName={chName}
+            showFilter={showFilter}
+            channelId={channelId}
+          />
+        );
+      }
+      return <ProgramasSection profile={profile} channelId={channelId} placement={placement} />;
     case "marcas":
       return <MarcasSection profile={profile} placement={placement} />;
     case "actividad":

@@ -2,8 +2,7 @@
 
 export const CHANNEL_PROFILE_TABS = [
   { id: "descripcion", label: "Descripción" },
-  { id: "formatos", label: "Formatos" },
-  { id: "programas", label: "Emisiones" },
+  { id: "programas", label: "Programas" },
   { id: "marcas", label: "Marcas activas" },
   { id: "actividad", label: "Actividad comercial" },
   { id: "audiencia", label: "Audiencia" },
@@ -14,6 +13,7 @@ export const CHANNEL_PROFILE_TABS = [
 export type ChannelProfileTabId = (typeof CHANNEL_PROFILE_TABS)[number]["id"];
 
 export function parseChannelProfileTab(value: string | null): ChannelProfileTabId {
+  if (value === "formatos") return "programas";
   const found = CHANNEL_PROFILE_TABS.find((t) => t.id === value);
   return found?.id ?? "descripcion";
 }

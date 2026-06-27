@@ -89,8 +89,8 @@ export default function ProgramaProfilePage() {
           {chName[headerChannel] || headerChannelLabel}
         </Link>
         <span className="text-gray-300">/</span>
-        <Link href={`/canales/${headerChannel}?tab=formatos`} className="hover:text-accent">
-          Formatos
+        <Link href={`/canales/${headerChannel}?tab=programas`} className="hover:text-accent">
+          Programas
         </Link>
         <span className="text-gray-300">/</span>
         <Link

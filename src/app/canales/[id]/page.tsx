@@ -56,7 +56,6 @@ function CanalProfileInner() {
   function selectTab(id: ChannelProfileTabId) {
     const params = new URLSearchParams();
     if (id !== "descripcion") params.set("tab", id);
-    if (id === "programas" && showFilter) params.set("show", showFilter);
     const q = params.toString();
     router.replace(q ? `/canales/${channelId}?${q}` : `/canales/${channelId}`, { scroll: false });
   }
