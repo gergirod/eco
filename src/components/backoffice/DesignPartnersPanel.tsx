@@ -1,32 +1,19 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useState } from "react";
-import BrandPortfolioPicker from "@/components/backoffice/BrandPortfolioPicker";
-import ChannelContractPicker from "@/components/backoffice/ChannelContractPicker";
-import PlanPriceField from "@/components/backoffice/PlanPriceField";
-import AccessValidityField from "@/components/backoffice/AccessValidityField";
+import { useCallback, useEffect, useState } from "react";
+import CreatePartnerModal from "@/components/backoffice/CreatePartnerModal";
 import {
   ACCESS_TIMELINE,
   WEEKLY_CHECKLIST,
   brandDisplayName,
-  buildPartnerWelcomeMail,
   BRIEF_STEPS_MARCA,
 } from "@/lib/design-partners";
-import {
-  emptyBrandPair,
-  pairsToPartnerPayload,
-  type BrandPair,
-} from "@/lib/brand-catalog";
-import { PLAN_PRICE_GUIDES } from "@/lib/plan-pricing";
 import { formatAccessExpiry } from "@/lib/partner-invite";
 import {
   ICP_DEFAULT_PLAN,
   ICP_LABELS,
-  PARTNER_ICPS,
   PLAN_LABELS,
-  PLAN_MAX_BRANDS,
-  plansForIcp,
   type PartnerIcp,
   type PartnerPlan,
 } from "@/lib/partners";
@@ -418,39 +405,7 @@ export default function DesignPartnersPanel() {
   const [setupHint, setSetupHint] = useState("");
   const [partners, setPartners] = useState<PartnerApiRow[]>([]);
   const [loadError, setLoadError] = useState("");
-
-  const [formId, setFormId] = useState("");
-  const [formName, setFormName] = useState("");
-  const [formIcp, setFormIcp] = useState<PartnerIcp>("agencia");
-  const [formPlan, setFormPlan] = useState<PartnerPlan>(ICP_DEFAULT_PLAN.agencia);
-  const [formBrandPairs, setFormBrandPairs] = useState<BrandPair[]>([emptyBrandPair()]);
-  const [formChannelId, setFormChannelId] = useState("");
-  const [formBenchmarkIds, setFormBenchmarkIds] = useState<string[]>([]);
-  const [formEmail, setFormEmail] = useState("");
-  const [formPriceArs, setFormPriceArs] = useState(
-    String(PLAN_PRICE_GUIDES[ICP_DEFAULT_PLAN.agencia].arsSuggested)
-  );
-  const [saving, setSaving] = useState(false);
-  const [saveMsg, setSaveMsg] = useState("");
-  const [accessUrl, setAccessUrl] = useState("");
-  const [accessExpiresAt, setAccessExpiresAt] = useState<string | null>(null);
-  const [formAccessMonths, setFormAccessMonths] = useState("1");
-
-  const planOptions = useMemo(() => plansForIcp(formIcp), [formIcp]);
-  const maxBrands = PLAN_MAX_BRANDS[formPlan];
-
-  useEffect(() => {
-    if (!planOptions.includes(formPlan)) {
-      setFormPlan(ICP_DEFAULT_PLAN[formIcp]);
-    }
-  }, [formIcp, formPlan, planOptions]);
-
-  useEffect(() => {
-    setFormBrandPairs((prev) => {
-      if (prev.length <= maxBrands) return prev;
-      return prev.slice(0, maxBrands);
-    });
-  }, [maxBrands]);
+  const [createOpen, setCreateOpen] = useState(false);
 
   const loadPartners = useCallback(async () => {
     setLoadError("");
@@ -532,11 +487,6 @@ export default function DesignPartnersPanel() {
     }
   }
 
-  const parsedAccessMonths = useMemo(() => {
-    const n = parseInt(formAccessMonths, 10);
-    return Number.isFinite(n) && n > 0 ? n : 0;
-  }, [formAccessMonths]);
-
   async function activateAccess(
     id: string,
     months: number
@@ -560,373 +510,147 @@ export default function DesignPartnersPanel() {
     }
   }
 
-  async function savePartner(e: React.FormEvent, opts?: { asDraft?: boolean }) {
-    e.preventDefault();
-    setSaving(true);
-    setSaveMsg("");
-    setAccessUrl("");
-    setAccessExpiresAt(null);
-
-    const isCanal = formIcp === "canal";
-    let brand_slugs: string[] = [];
-    let competitor_by_brand: Record<string, string> = {};
-
-    if (!isCanal) {
-      const missingBrand = formBrandPairs.some((p) => !p.brandSlug);
-      if (missingBrand) {
-        setSaveMsg("Elegí al menos una marca en cada fila.");
-        setSaving(false);
-        return;
-      }
-      const slugs = formBrandPairs.map((p) => p.brandSlug).filter(Boolean);
-      if (new Set(slugs).size !== slugs.length) {
-        setSaveMsg("No podés repetir la misma marca en dos filas.");
-        setSaving(false);
-        return;
-      }
-      const parsed = pairsToPartnerPayload(formBrandPairs);
-      brand_slugs = parsed.brand_slugs;
-      competitor_by_brand = parsed.competitor_by_brand;
-      if (!brand_slugs.length) {
-        setSaveMsg("Agregá al menos una marca del contrato.");
-        setSaving(false);
-        return;
-      }
-    }
-
-    const channel_ids = formChannelId.trim() ? [formChannelId.trim()] : [];
-    const benchmark_channel_ids = formBenchmarkIds;
-
-    if (isCanal && !channel_ids.length) {
-      setSaveMsg("Elegí el canal principal del contrato.");
-      setSaving(false);
-      return;
-    }
-
-    const priceParsed = parseInt(formPriceArs.replace(/\D/g, ""), 10);
-    const price_ars_month =
-      formPriceArs.trim() !== "" && Number.isFinite(priceParsed) && priceParsed >= 0
-        ? priceParsed
-        : undefined;
-
-    const asDraft = opts?.asDraft === true;
-
-    try {
-      const res = await fetch("/api/operacion/partners", {
-        method: "POST",
-        credentials: "same-origin",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          id: formId.trim(),
-          name: formName.trim(),
-          icp: formIcp,
-          plan: formPlan,
-          brand_slugs,
-          competitor_by_brand,
-          channel_ids: isCanal ? channel_ids : undefined,
-          benchmark_channel_ids: isCanal ? benchmark_channel_ids : undefined,
-          contact_email: formEmail.trim() || undefined,
-          access_months: parsedAccessMonths,
-          price_ars_month,
-          contract_started_at: new Date().toISOString().slice(0, 10),
-          active: !asDraft,
-          skip_invite: asDraft,
-        }),
-      });
-      const data = await res.json();
-      if (!res.ok) {
-        setSaveMsg(data.error || "Error al guardar");
-        return;
-      }
-      setSaveMsg(
-        asDraft
-          ? "Borrador guardado. Activá el acceso cuando confirmes el pago."
-          : "Cliente activado. Copiá el mail abajo y mandá el link."
-      );
-      if (data.accessUrl) {
-        setAccessUrl(data.accessUrl);
-        setAccessExpiresAt(data.accessExpiresAt ?? null);
-      } else {
-        setAccessUrl("");
-        setAccessExpiresAt(null);
-      }
-      await loadPartners();
-    } catch {
-      setSaveMsg("Error de red");
-    } finally {
-      setSaving(false);
-    }
-  }
-
-  const mailTemplate = useMemo(() => {
-    if (!formName && !accessUrl) return "";
-    const name = formName || "[Cliente]";
-    const link = accessUrl || "https://[tu-dominio]/acceso/entrar/[link-unico]";
-    if (!accessUrl) return "";
-    return buildPartnerWelcomeMail({
-      name,
-      link,
-      icp: formIcp,
-      accessMonths: parsedAccessMonths || 1,
-    });
-  }, [formName, formIcp, accessUrl, parsedAccessMonths]);
+  const activeCount = partners.filter((p) => p.active).length;
+  const pendingCount = partners.filter((p) => !p.active).length;
+  const storeReady = storeMode === "supabase";
 
   return (
-    <div className="space-y-6 max-w-4xl">
+    <div className="space-y-5 max-w-4xl">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <div>
+          <h2 className="text-[17px] font-semibold">
+            Clientes
+            <span className="text-[14px] font-normal text-gray-500 ml-2">
+              {activeCount} activos · {pendingCount} pendientes
+            </span>
+          </h2>
+          <p className="text-[13px] text-gray-500 mt-0.5">
+            Brief gratis = PDF. Plataforma = día que pagan.
+          </p>
+        </div>
+        <button
+          type="button"
+          className="btn btn-primary"
+          onClick={() => setCreateOpen(true)}
+        >
+          + Nuevo cliente
+        </button>
+      </div>
+
       <div
-        className={`card p-4 text-[13px] ${
+        className={`text-[12px] px-3 py-2 rounded-lg border ${
           storeMode === "supabase"
             ? "bg-green-50 border-green-100 text-green-900"
             : storeMode === "setup_required"
               ? "bg-red-50 border-red-100 text-red-900"
-            : storeMode === "json"
-              ? "bg-amber-50 border-amber-100 text-amber-900"
-              : "bg-gray-50"
+              : storeMode === "json"
+                ? "bg-amber-50 border-amber-100 text-amber-900"
+                : "bg-gray-50 border-[#ececec] text-gray-600"
         }`}
       >
         {storeMode === "loading" && "Cargando configuración…"}
         {storeMode === "supabase" && (
           <>
-            <strong>Supabase activo.</strong> Los clientes se guardan desde este formulario — sin
-            deploy ni editar JSON.
+            <strong>Supabase OK.</strong> Alta desde el botón de arriba.
           </>
         )}
         {storeMode === "setup_required" && (
           <>
-            <strong>Falta crear la tabla en Supabase.</strong> Tenés credenciales en Vercel pero{" "}
-            <code className="text-[11px] bg-white/60 px-1 rounded">eco_partners</code> no existe.
-            <p className="mt-2 leading-relaxed">{setupHint}</p>
+            <strong>Falta la tabla en Supabase.</strong>{" "}
+            <code className="text-[11px] bg-white/60 px-1 rounded">eco_partners</code> no existe.{" "}
+            {setupHint}
           </>
         )}
         {storeMode === "json" && (
           <>
-            <strong>Modo fallback (JSON).</strong> Agregá{" "}
+            <strong>Modo JSON.</strong> Agregá{" "}
             <code className="text-[11px] bg-white/60 px-1 rounded">SUPABASE_SERVICE_ROLE_KEY</code> en
-            Vercel para alta desde acá.
+            Vercel.
           </>
         )}
       </div>
 
-      <div className="card p-5 border-accent/20 bg-accent-soft/30">
-        <h2 className="text-[15px] font-semibold mb-2">¿Cuándo les doy la plataforma?</h2>
-        <p className="text-[13px] text-gray-600 leading-relaxed mb-4">
-          Brief gratis = solo PDF. <strong>Plataforma = día que pagan.</strong>
-        </p>
-        <table className="w-full text-[12.5px]">
-          <thead>
-            <tr className="text-[10px] uppercase tracking-wide text-gray-400 border-b border-[#ececec]">
-              <th className="py-2 text-left">Fase</th>
-              <th className="py-2 text-left w-28">¿Plataforma?</th>
-              <th className="py-2 text-left">Qué hacés</th>
-            </tr>
-          </thead>
-          <tbody>
-            {ACCESS_TIMELINE.map((row) => (
-              <tr key={row.fase} className="border-b border-[#f5f5f5]">
-                <td className="py-2.5 font-medium">{row.fase}</td>
-                <td className="py-2.5">{row.plataforma}</td>
-                <td className="py-2.5 text-gray-600">{row.entregable}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
-      </div>
-
-      <div className="card p-5">
-        <h2 className="text-[15px] font-semibold mb-1">Alta de cliente</h2>
-        <p className="text-[13px] text-gray-500 mb-4">
-          Creá el borrador en la call; activá acceso el día que paguen. El mail lo mandás vos
-          (copiás plantilla + link).
-        </p>
-        <form onSubmit={(e) => e.preventDefault()} className="space-y-3">
-          <div className="grid sm:grid-cols-2 gap-3">
-            <label className="text-[12px] text-gray-600">
-              ID cliente
-              <input
-                value={formId}
-                onChange={(e) => setFormId(e.target.value.replace(/\s+/g, "-").toLowerCase())}
-                className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px]"
-                placeholder="agencia-acme"
-                required
-              />
-            </label>
-            <label className="text-[12px] text-gray-600">
-              Nombre
-              <input
-                value={formName}
-                onChange={(e) => setFormName(e.target.value)}
-                className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px]"
-                required
-              />
-            </label>
-            <label className="text-[12px] text-gray-600">
-              ICP
-              <select
-                value={formIcp}
-                onChange={(e) => setFormIcp(e.target.value as PartnerIcp)}
-                className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px] bg-white"
-              >
-                {PARTNER_ICPS.map((icp) => (
-                  <option key={icp} value={icp}>
-                    {ICP_LABELS[icp]}
-                  </option>
-                ))}
-              </select>
-            </label>
-            <label className="text-[12px] text-gray-600">
-              Plan
-              <select
-                value={formPlan}
-                onChange={(e) => setFormPlan(e.target.value as PartnerPlan)}
-                className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px] bg-white"
-              >
-                {planOptions.map((plan) => (
-                  <option key={plan} value={plan}>
-                    {PLAN_LABELS[plan]}
-                  </option>
-                ))}
-              </select>
-              {formIcp !== "canal" && (
-                <span className="text-[11px] text-gray-400">
-                  Máx. {maxBrands} marca{maxBrands === 1 ? "" : "s"}
-                </span>
-              )}
-            </label>
-
-            {formIcp === "canal" ? (
-              <ChannelContractPicker
-                channelId={formChannelId}
-                benchmarkIds={formBenchmarkIds}
-                onChannelId={setFormChannelId}
-                onBenchmarkIds={setFormBenchmarkIds}
-              />
-            ) : (
-              <BrandPortfolioPicker
-                value={formBrandPairs}
-                onChange={setFormBrandPairs}
-                maxPairs={maxBrands}
-              />
-            )}
-
-            <label className="text-[12px] text-gray-600 sm:col-span-2">
-              Email contacto
-              <input
-                type="email"
-                value={formEmail}
-                onChange={(e) => setFormEmail(e.target.value)}
-                className="mt-1 w-full px-3 py-2 border border-[#ececec] rounded-lg text-[13px]"
-                placeholder="para tu referencia — el link lo mandás vos"
-              />
-            </label>
-            <PlanPriceField
-              plan={formPlan}
-              value={formPriceArs}
-              onChange={setFormPriceArs}
-              clientId={formId.trim() || undefined}
-              clientName={formName.trim() || undefined}
+      {loadError && <p className="text-[13px] text-red-600">{loadError}</p>}
+      {partners.length === 0 ? (
+        <div className="card p-8 text-center">
+          <p className="text-[14px] text-gray-600 mb-3">Todavía no hay clientes cargados.</p>
+          <button type="button" className="btn btn-primary" onClick={() => setCreateOpen(true)}>
+            Crear el primero
+          </button>
+        </div>
+      ) : (
+        <div className="space-y-4">
+          {partners.map((p) => (
+            <PartnerCard
+              key={p.id}
+              partner={p}
+              onRegenerateInvite={regenerateInvite}
+              onExtendAccess={extendAccess}
+              onSetActive={setPartnerActiveStatus}
+              onActivateAccess={activateAccess}
             />
-            <div className="sm:col-span-2">
-              <AccessValidityField value={formAccessMonths} onChange={setFormAccessMonths} />
-            </div>
-          </div>
-          <div className="flex flex-wrap gap-3 pt-1">
-            <button
-              type="button"
-              disabled={saving || storeMode !== "supabase"}
-              onClick={(e) => savePartner(e, { asDraft: true })}
-              className="btn border border-[#ececec] disabled:opacity-50"
-            >
-              {saving ? "Guardando…" : "Guardar borrador"}
-            </button>
-            <button
-              type="button"
-              disabled={saving || storeMode !== "supabase"}
-              onClick={(e) => savePartner(e, { asDraft: false })}
-              className="btn btn-primary disabled:opacity-50"
-            >
-              {saving ? "Guardando…" : "Guardar y activar (ya pagó)"}
-            </button>
-          </div>
-          {saveMsg && <p className="text-[13px] text-gray-700">{saveMsg}</p>}
-          {accessUrl && (
-            <InviteLinkBox
-              url={accessUrl}
-              label="Link para mandar al cliente"
-              expiresAt={accessExpiresAt}
-              months={parsedAccessMonths}
-            />
-          )}
-        </form>
-        <p className="text-[11px] text-gray-400 mt-3">
-          Marcas y canales del corpus ECO · Specs: MARKET-002 · SPEC-010
-        </p>
-      </div>
-
-      <div className="card p-5">
-        <h2 className="text-[15px] font-semibold mb-3">Checklist viernes</h2>
-        <ul className="space-y-2">
-          {WEEKLY_CHECKLIST.map((item) => (
-            <li key={item} className="flex gap-2 text-[13px] text-gray-700">
-              <span className="text-gray-300">□</span>
-              {item}
-            </li>
           ))}
-        </ul>
-        {mailTemplate && (
-          <div className="mt-4 pt-4 border-t border-[#ececec]">
-            <div className="flex justify-between mb-2">
-              <span className="text-[12px] font-medium text-gray-600">Plantilla mail</span>
-              <CopyButton text={mailTemplate} />
-            </div>
-            <pre className="text-[12px] text-gray-600 whitespace-pre-wrap bg-gray-50 rounded-lg p-4">
-              {mailTemplate}
-            </pre>
-          </div>
-        )}
-      </div>
+        </div>
+      )}
 
-      <div>
-        <h2 className="text-[15px] font-semibold mb-3">
-          Clientes ({partners.filter((p) => p.active).length} activos ·{" "}
-          {partners.filter((p) => !p.active).length} pendientes)
-        </h2>
-        {loadError && <p className="text-[13px] text-red-600 mb-3">{loadError}</p>}
-        {partners.length === 0 ? (
-          <p className="text-[13px] text-gray-500 card p-5">Sin clientes todavía.</p>
-        ) : (
-          <div className="space-y-4">
-            {partners.map((p) => (
-              <PartnerCard
-                key={p.id}
-                partner={p}
-                onRegenerateInvite={regenerateInvite}
-                onExtendAccess={extendAccess}
-                onSetActive={setPartnerActiveStatus}
-                onActivateAccess={activateAccess}
-              />
-            ))}
+      <details className="card p-4 text-[13px] text-gray-600">
+        <summary className="font-medium text-gray-800 cursor-pointer select-none">
+          Guía rápida y setup
+        </summary>
+        <div className="mt-4 space-y-4">
+          <table className="w-full text-[12.5px]">
+            <thead>
+              <tr className="text-[10px] uppercase tracking-wide text-gray-400 border-b border-[#ececec]">
+                <th className="py-2 text-left">Fase</th>
+                <th className="py-2 text-left w-28">¿Plataforma?</th>
+                <th className="py-2 text-left">Qué hacés</th>
+              </tr>
+            </thead>
+            <tbody>
+              {ACCESS_TIMELINE.map((row) => (
+                <tr key={row.fase} className="border-b border-[#f5f5f5]">
+                  <td className="py-2.5 font-medium">{row.fase}</td>
+                  <td className="py-2.5">{row.plataforma}</td>
+                  <td className="py-2.5 text-gray-600">{row.entregable}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+          <div>
+            <h3 className="text-[13px] font-semibold text-gray-800 mb-2">Checklist viernes</h3>
+            <ul className="space-y-1.5">
+              {WEEKLY_CHECKLIST.map((item) => (
+                <li key={item} className="flex gap-2">
+                  <span className="text-gray-300">□</span>
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
-        )}
-      </div>
+          <div className="text-[12px] space-y-2 border-t border-[#ececec] pt-3">
+            <p>
+              <strong>Setup (una vez):</strong>{" "}
+              <code className="bg-gray-50 px-1 rounded">webapp/supabase_partners_full_setup.sql</code>
+            </p>
+            <p>
+              <strong>Links viejos:</strong>{" "}
+              <code className="bg-gray-50 px-1 rounded">supabase_partners_invite_token_migration.sql</code>
+            </p>
+            <p>
+              <strong>Vercel:</strong>{" "}
+              <code className="bg-gray-50 px-1 rounded">SUPABASE_SERVICE_ROLE_KEY</code> +{" "}
+              <code className="bg-gray-50 px-1 rounded">ECO_ACCESS_MODE=partners</code>
+            </p>
+          </div>
+        </div>
+      </details>
 
-      <div className="card p-5 bg-gray-50 text-[12px] text-gray-600 space-y-2">
-        <p>
-          <strong>Setup Supabase (una vez):</strong> corré{" "}
-          <code className="bg-white px-1 rounded">webapp/supabase_partners_full_setup.sql</code> en
-          SQL Editor (un solo archivo — crea la tabla completa).
-        </p>
-        <p>
-          <strong>Link copiable en tarjeta:</strong> corré{" "}
-          <code className="bg-white px-1 rounded">supabase_partners_invite_token_migration.sql</code>{" "}
-          si el cliente ya existía; clientes nuevos lo guardan automático. Si falta URL, tocá{" "}
-          <em>Nuevo link</em> una vez.
-        </p>
-        <p>
-          <strong>Vercel:</strong>{" "}
-          <code className="bg-white px-1 rounded">SUPABASE_SERVICE_ROLE_KEY</code> +{" "}
-          <code className="bg-white px-1 rounded">ECO_ACCESS_MODE=partners</code>
-        </p>
-      </div>
+      <CreatePartnerModal
+        open={createOpen}
+        onClose={() => setCreateOpen(false)}
+        storeReady={storeReady}
+        onSaved={loadPartners}
+      />
     </div>
   );
 }
