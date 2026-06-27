@@ -80,12 +80,12 @@ function DescripcionSection({
           {config.subscribers ? <> con <b>{config.subscribers}</b> suscriptores</> : null}
           {audience ? (
             <>
-              . En el período capturado registramos <b>{audience.videos}</b> emisiones con atención
-              medida — promedio <b>{num(audience.avg_concurrent)}</b> concurrentes, pico{" "}
+              . En las últimas emisiones que medimos registramos <b>{audience.videos}</b> vivos con
+              atención medida — promedio <b>{num(audience.avg_concurrent)}</b> mirando, pico{" "}
               <b>{compact(audience.peak_concurrent)}</b>.
             </>
           ) : (
-            ". Sin emisiones con atención medida en el período actual."
+            ". Todavía no hay vivos con atención medida en lo que tenemos hoy."
           )}
           {benchmark && benchmark.brands > 0 ? (
             <>
@@ -137,8 +137,8 @@ function FormatosSection({
   if (!rollups.length) {
     return (
       <p className="text-[14px] text-gray-500">
-        Sin formatos con pauta en el período — cuando haya emisiones con marcas, los agrupamos por
-        nombre del show (NDN, AQN, etc.).
+        Sin formatos con marcas pautando en lo que medimos — cuando aparezcan, los agrupamos por
+        show (NDN, AQN, etc.).
       </p>
     );
   }
@@ -146,8 +146,8 @@ function FormatosSection({
   return (
     <div>
       <p className="text-[13.5px] text-gray-600 mb-5 max-w-[640px] leading-relaxed">
-        Un <b>formato</b> es el show (ej. Nadie Dice Nada). Cada fila abajo agrupa las{" "}
-        <b>emisiones</b> diarias de ese formato en el período capturado.
+        Un <b>formato</b> es el show (ej. Nadie Dice Nada). Cada tarjeta agrupa las{" "}
+        <b>emisiones</b> de ese show en las últimas semanas que medimos.
       </p>
       <div className="grid gap-4 sm:grid-cols-2">
         {rollups.map((r) => {
@@ -162,7 +162,7 @@ function FormatosSection({
             </p>
             {r.peakAttention > 0 ? (
               <p className="text-[12.5px] text-gray-600 mb-4">
-                Pico de atención en el período: <b>{compact(r.peakAttention)}</b>
+                Pico de atención: <b>{compact(r.peakAttention)}</b>
               </p>
             ) : null}
             <PlacementShowSnippet placement={showPlacement} compact />
@@ -291,7 +291,7 @@ function MarcasSection({
   if (!brands.length) {
     return (
       <p className="text-[14px] text-gray-500">
-        Sin marcas con pauta verificada en este canal en el período.
+        Todavía no hay marcas pautando en este canal en lo que medimos.
       </p>
     );
   }

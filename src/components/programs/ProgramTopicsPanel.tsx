@@ -17,7 +17,7 @@ export default function ProgramTopicsPanel({ topics }: Props) {
         <h2 className="text-[15px] font-semibold mb-3">De qué se habló</h2>
         <div className="card p-5 max-w-2xl">
           <p className="text-[14px] text-gray-600 leading-relaxed">
-            Todavía no hay temas extraídos del audio para esta emisión en el export actual.
+            Todavía no tenemos temas de esta emisión — cuando la procesemos, aparecen acá.
           </p>
         </div>
       </section>
@@ -28,10 +28,9 @@ export default function ProgramTopicsPanel({ topics }: Props) {
     <section className="mb-8">
       <h2 className="text-[15px] font-semibold mb-1">De qué se habló</h2>
       <p className="text-[13px] text-gray-500 mb-4 max-w-2xl">
-        Temas del conductor en esta emisión — audio transcrito, no chat ni pauta.{" "}
-        <span className="text-gray-400">
-          Formato: {topics.show_name}
-        </span>
+        Lo que dijeron los conductores en este vivo — no es lo que escribió la sala ni marcas
+        pautando.{" "}
+        <span className="text-gray-400">Show: {topics.show_name}</span>
       </p>
 
       {hasTemas ? (
@@ -43,7 +42,7 @@ export default function ProgramTopicsPanel({ topics }: Props) {
             {topics.top_temas.map((t) => (
               <li key={t.tema} className="flex items-center justify-between gap-3 text-[13px]">
                 <span className="text-gray-800 font-medium">{t.tema}</span>
-                <span className="text-gray-400 tabular-nums shrink-0">{t.score} pts</span>
+                <span className="text-gray-400 tabular-nums shrink-0 text-[12px]">{t.score}</span>
               </li>
             ))}
           </ul>

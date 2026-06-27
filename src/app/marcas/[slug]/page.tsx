@@ -5,6 +5,7 @@ import { Suspense, useEffect, useMemo, useState } from "react";
 import { useParams, useRouter, useSearchParams } from "next/navigation";
 import BrandProfileSections from "@/components/discovery/brand-profile/BrandProfileSections";
 import BrandProfileTabBar from "@/components/discovery/brand-profile/BrandProfileTabBar";
+import CampaignDeliveryBanner from "@/components/discovery/brand-profile/CampaignDeliveryBanner";
 import {
   parseBrandProfileTab,
   type BrandProfileTabId,
@@ -242,6 +243,14 @@ function MarcaProfileInner() {
         campaignSlug={campaignSlug}
         profileSlug={slug}
       />
+
+      {campaignSlug && campaignReport ? (
+        <CampaignDeliveryBanner
+          campaignSlug={campaignSlug}
+          campaignReport={campaignReport}
+          chName={chName}
+        />
+      ) : null}
 
       <BrandProfileTabBar active={tab} onSelect={selectTab} hideTabIds={hideTabIds} />
 

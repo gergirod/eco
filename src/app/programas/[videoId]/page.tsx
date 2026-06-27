@@ -59,7 +59,7 @@ export default function ProgramaProfilePage() {
       <div className="max-w-2xl">
         <h1 className="text-[22px] font-semibold tracking-tight">Programa no encontrado</h1>
         <p className="text-[13.5px] text-gray-500 mt-2">
-          Esta emisión no está en el export actual (sin pauta ni temas de audio).
+          Esta emisión no está en lo que tenemos hoy — sin marcas pautando ni temas de la charla.
         </p>
         <Link href="/canales" className="inline-block mt-5 text-[13px] text-accent font-medium hover:underline">
           ← Volver a canales

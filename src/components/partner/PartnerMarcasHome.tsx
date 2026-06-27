@@ -74,6 +74,22 @@ export default function PartnerMarcasHome({
 
       <CoverageLine coverage={coverage} />
 
+      <div className="mt-6 flex flex-wrap gap-3">
+        {clientBrands[0] && (
+          <Link href={`/marcas/${clientBrands[0].slug}?tab=informes`} className="btn btn-primary text-[13px]">
+            Ver entregas
+          </Link>
+        )}
+        {competitorSlugs.length > 0 && (
+          <Link href="/competencia" className="btn border border-[#ececec] text-[13px]">
+            Comparar con competencia
+          </Link>
+        )}
+        <Link href="/novedades" className="btn border border-[#ececec] text-[13px]">
+          Novedades de la semana
+        </Link>
+      </div>
+
       {missing.length > 0 && (
         <div className="mt-4 p-4 rounded-lg bg-amber-50 border border-amber-100 text-[13px] text-amber-900">
           Sin captura reciente en el período para:{" "}

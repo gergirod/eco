@@ -44,10 +44,10 @@ export default function ProfileEvidenceHero({
   const channelList = advertiser.channels.map((c) => CH_NAME[c] || c).join(", ");
   const entityCoverage = brandEntityCoverage(advertiser);
 
-  const informeHref = profileSlug
-    ? `/marcas/${profileSlug}?tab=informes`
-    : campaignSlug
-      ? `/campanas?slug=${campaignSlug}`
+  const informeHref = campaignSlug
+    ? `/campanas?slug=${campaignSlug}`
+    : profileSlug
+      ? `/marcas/${profileSlug}?tab=informes`
       : null;
 
   const statsLine = (
@@ -122,7 +122,7 @@ export default function ProfileEvidenceHero({
             ) : null}
             {informeHref ? (
               <Link href={informeHref} className="btn btn-primary">
-                Armar informe de entrega
+                {campaignSlug ? "Ver informe de entrega" : "Armar informe de entrega"}
               </Link>
             ) : null}
           </div>
@@ -135,7 +135,7 @@ export default function ProfileEvidenceHero({
           </p>
           {informeHref ? (
             <Link href={informeHref} className="btn btn-primary">
-              Armar informe de entrega
+              {campaignSlug ? "Ver informe de entrega" : "Armar informe de entrega"}
             </Link>
           ) : null}
         </div>

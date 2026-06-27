@@ -1,4 +1,22 @@
-/** Placement — temas por programa y mix de rubros (pauta verificada). */
+/** Perfil de canal/show: temas de charla y tipos de marcas que pautan. */
+
+const RUBRO_DISPLAY: Record<string, string> = {
+  fintech: "Bancos y plata digital",
+  seguros: "Seguros",
+  bebidas: "Bebidas y alcohol",
+  alimentos: "Alimentos",
+  higiene: "Higiene y cuidado personal",
+  telco: "Telefonía e internet",
+  streaming: "Streaming y TV",
+  tecnologia: "Tecnología",
+  automotriz: "Autos",
+  energia: "Energía y nafta",
+  salud: "Salud y farmacias",
+  apuestas: "Apuestas y juegos online",
+  retail: "Tiendas y ecommerce",
+  viajes: "Viajes y turismo",
+  otro: "Otro",
+};
 
 export type ProgramTopicsRow = {
   video_id: string;
@@ -53,7 +71,7 @@ export function rubroLabel(
   rubroId?: string | null
 ): string {
   if (!rubroId) return "—";
-  return placement?.rubro_labels?.[rubroId] || rubroId;
+  return RUBRO_DISPLAY[rubroId] || placement?.rubro_labels?.[rubroId] || rubroId;
 }
 
 export function getProgramTopics(

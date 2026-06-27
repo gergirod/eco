@@ -5,7 +5,8 @@ import { useMemo } from "react";
 import NovedadCard from "@/components/novedades/NovedadCard";
 import CoverageLine from "@/components/CoverageLine";
 import { getPlatformCoverage, loadDiscoveryDataset } from "@/lib/discovery";
-import { buildNovedades, novedadesCoverageLine } from "@/lib/novedades";
+import { buildNovedades, filterNovedadesForSlugs, novedadesCoverageLine } from "@/lib/novedades";
+import { usePartner } from "@/contexts/PartnerContext";
 import { useDataset } from "@/lib/useDataset";
 import brandsFb from "@/data/brands.json";
 import channelsFb from "@/data/channels.json";
@@ -16,6 +17,7 @@ import momentsFb from "@/data/moments.json";
 const WINDOW_DAYS = 7;
 
 export default function NovedadesPage() {
+  const { isScoped, partner } = usePartner();
   const brands = useDataset("brands", brandsFb);
   const reports = useDataset("reports", reportsFb);
   const channels = useDataset("channels", channelsFb);
@@ -23,7 +25,7 @@ export default function NovedadesPage() {
   const moments = useDataset("moments", momentsFb);
   const coverage = useMemo(() => getPlatformCoverage(loadDiscoveryDataset()), []);
 
-  const events = useMemo(
+  const allEvents = useMemo(
     () =>
       buildNovedades(
         brands as Parameters<typeof buildNovedades>[0],
@@ -35,6 +37,16 @@ export default function NovedadesPage() {
       ),
     [brands, reports, channels, meta, moments]
   );
+
+  const events = useMemo(() => {
+    if (!isScoped || !partner) return allEvents;
+    const slugs = [...partner.brand_slugs, ...partner.competitor_slugs];
+    return filterNovedadesForSlugs(
+      allEvents,
+      slugs,
+      reports as Parameters<typeof filterNovedadesForSlugs>[2]
+    );
+  }, [allEvents, isScoped, partner, reports]);
 
   const subline = novedadesCoverageLine(
     events,
@@ -54,8 +66,9 @@ export default function NovedadesPage() {
         ¿Qué pasó recientemente que merece tu atención?
       </h1>
       <p className="text-[14px] text-gray-500 mt-2 max-w-xl">
-        Briefing de eventos del ecosistema — no es histórico ni analítico. Cada ítem es algo que
-        pasó una vez y podés investigar.
+        {isScoped && partner
+          ? "Lo que pasó esta semana con tus marcas y competidores — cada ítem es algo concreto para revisar."
+          : "Briefing de eventos del ecosistema — no es histórico ni analítico. Cada ítem es algo que pasó una vez y podés investigar."}
       </p>
       <CoverageLine coverage={coverage} />
       <p className="text-[12.5px] text-gray-400 mb-6">{subline}</p>

@@ -107,8 +107,9 @@ export default function ConversacionPage() {
         ¿De qué se habla en el streaming?
       </h1>
       <p className="text-[14px] text-gray-500 mt-2 max-w-xl">
-        Ranking de conversación en los programas que monitoreamos — extraído del audio, no de
-        marcas ni pauta. Un tema fuerte acá es señal de contenido, no de publicidad.
+        Ranking de lo que charlan los conductores en los streams que seguimos — no es marcas
+        pautando ni lo que pide la sala. Un tema fuerte acá es señal de contenido, no de
+        publicidad.
       </p>
       <CoverageLine coverage={coverage} />
       <p className="text-[12.5px] text-gray-400 mb-5">{subline}</p>
@@ -246,7 +247,7 @@ export default function ConversacionPage() {
               </>
             ) : (
               <>
-                Aún no hay temas en 2+ canales con suficiente respaldo en el período. Probá{" "}
+                Todavía no hay temas que crucen 2+ canales con buen respaldo. Probá{" "}
                 <button
                   type="button"
                   onClick={() => setCrossOnly(false)}

@@ -3,7 +3,7 @@
  * Sin pipeline ni exports nuevos: solo lectura del bundle actual.
  */
 
-import { formatScopePeriod, isCampaignReport } from "./campaign";
+import { formatScopePeriod, findCampaignSlugForAdvertiser, isCampaignReport } from "./campaign";
 
 import { buildChatNovedades } from "./chatNovedades";
 
@@ -299,4 +299,50 @@ export function novedadesCoverageLine(
     ? new Date(exportedAt).toLocaleDateString("es-AR", { day: "2-digit", month: "2-digit" })
     : "—";
   return `${events.length} evento${events.length === 1 ? "" : "s"} en los últimos ${windowDays} días · datos al ${ref}`;
+}
+
+/** Solo eventos relevantes para marcas del contrato (acceso partner). */
+export function filterNovedadesForSlugs(
+  events: NovedadEvent[],
+  slugs: string[],
+  reports: Record<string, { detail?: ActivationRow[]; channels?: string[] }>
+): NovedadEvent[] {
+  if (!slugs.length) return events;
+  const slugSet = new Set(slugs);
+  const videosForSlugs = new Set<string>();
+  const channelsForSlugs = new Set<string>();
+
+  for (const slug of slugs) {
+    const report = reports[slug];
+    for (const row of report?.detail || []) {
+      if (row.video_id) videosForSlugs.add(row.video_id);
+      if (row.channel) channelsForSlugs.add(row.channel);
+    }
+    for (const ch of report?.channels || []) {
+      channelsForSlugs.add(ch);
+    }
+  }
+
+  return events.filter((e) => {
+    switch (e.action.type) {
+      case "marca":
+        return slugSet.has(e.action.slug);
+      case "informe":
+        return slugs.some((s) => {
+          const report = reports[s];
+          const campaignSlug = findCampaignSlugForAdvertiser(
+            s,
+            (report as { name?: string })?.name || s,
+            reports
+          );
+          return campaignSlug === e.action.campaignSlug;
+        });
+      case "programa":
+        return videosForSlugs.has(e.action.videoId);
+      case "canal":
+        return channelsForSlugs.has(e.action.id);
+      default:
+        return false;
+    }
+  });
 }

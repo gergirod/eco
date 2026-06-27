@@ -202,7 +202,7 @@ export default function ConversacionRow({ topic }: Props) {
             </button>
           ) : (
             <p className="text-[12px] text-gray-400 mt-2">
-              Sin contexto detallado en el export para este tema.
+              Todavía no hay más detalle de este tema en lo que tenemos hoy.
             </p>
           )}
 
@@ -237,14 +237,28 @@ export default function ConversacionRow({ topic }: Props) {
                       <span className="text-[10px] text-gray-400 tabular-nums">#{i + 1}</span>
                     </div>
                     <div className="px-3.5 py-3">
-                      <a
-                        href={vodLink(h.video_id)}
-                        target="_blank"
-                        rel="noopener noreferrer"
+                      <Link
+                        href={`/programas/${h.video_id}`}
                         className="text-[12.5px] font-medium text-ink hover:text-accent leading-snug block mb-2"
                       >
                         {h.title || h.video_id}
-                      </a>
+                      </Link>
+                      <div className="flex flex-wrap gap-3 mb-2">
+                        <Link
+                          href={`/programas/${h.video_id}`}
+                          className="text-[11.5px] text-accent font-medium hover:underline"
+                        >
+                          Ver emisión →
+                        </Link>
+                        <a
+                          href={vodLink(h.video_id)}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-[11.5px] text-gray-400 hover:text-accent"
+                        >
+                          YouTube ↗
+                        </a>
+                      </div>
                       {h.subtema && h.subtema.toLowerCase() !== topic.tema.toLowerCase() ? (
                         <div className="text-[11px] font-medium text-accent/90 mb-2">
                           {titleLabel(h.subtema)}
@@ -276,6 +290,16 @@ export default function ConversacionRow({ topic }: Props) {
               )}
             </div>
           )}
+          {topic.crossComunidad && topic.canales.length > 0 ? (
+            <div className="mt-4 pt-3 border-t border-gray-100">
+              <Link
+                href={`/canales/${CHANNEL_SLUG[topic.canales[0]] || "olga"}?tab=descripcion`}
+                className="text-[12.5px] text-accent font-medium hover:underline"
+              >
+                Ver canales donde charlan →
+              </Link>
+            </div>
+          ) : null}
         </div>
       </div>
     </article>

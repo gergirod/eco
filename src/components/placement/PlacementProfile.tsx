@@ -5,7 +5,7 @@ import { categoryLabel } from "@/lib/placement";
 
 function MixBar({ rows, empty }: { rows: MixRow[]; empty?: string }) {
   if (!rows.length) {
-    return <p className="text-[12.5px] text-gray-400">{empty || "Sin datos en el período."}</p>;
+    return <p className="text-[12.5px] text-gray-400">{empty || "Todavía no hay datos de las últimas emisiones."}</p>;
   }
   return (
     <div className="space-y-2">
@@ -14,7 +14,7 @@ function MixBar({ rows, empty }: { rows: MixRow[]; empty?: string }) {
           <div className="flex justify-between text-[12px] mb-0.5">
             <span className="text-gray-700">{r.label}</span>
             <span className="text-gray-400 tabular-nums">
-              {r.pct}% · {r.count} ap.
+              {r.pct}% · {r.count} {r.count === 1 ? "vez" : "veces"}
             </span>
           </div>
           <div className="h-1.5 rounded-full bg-gray-100 overflow-hidden">
@@ -28,7 +28,7 @@ function MixBar({ rows, empty }: { rows: MixRow[]; empty?: string }) {
 
 function TopicList({ rows, limit = 5 }: { rows: TopicRow[]; limit?: number }) {
   if (!rows.length) {
-    return <p className="text-[12.5px] text-gray-400">Sin temas agregados.</p>;
+    return <p className="text-[12.5px] text-gray-400">Todavía no hay temas para mostrar.</p>;
   }
   return (
     <ul className="space-y-1.5">
@@ -71,24 +71,24 @@ export function PlacementChannelCard({
 
   return (
     <div className="card p-5 mb-5">
-      <h2 className="text-[15px] font-semibold mb-1">Perfil del canal</h2>
+      <h2 className="text-[15px] font-semibold mb-1">¿Te cierra este canal?</h2>
       <p className="text-[13px] text-gray-500 mb-4 max-w-xl leading-relaxed">
-        Qué rubros pautan y de qué se habla en {channelName} en el período capturado — para ver si
-        encaja tu marca.
+        Qué tipo de marcas pautan y de qué charlan en {channelName} en las últimas emisiones que
+        medimos.
       </p>
       <div className="grid gap-6 lg:grid-cols-2">
         <div>
           <h3 className="text-[12px] font-semibold uppercase tracking-wide text-gray-400 mb-3">
-            Pauta por rubro
+            Marcas que pautan, por tipo
           </h3>
           <MixBar
             rows={placement.rubro_mix}
-            empty="Sin pauta verificada en el período."
+            empty="Todavía no vimos marcas pautando acá."
           />
         </div>
         <div>
           <h3 className="text-[12px] font-semibold uppercase tracking-wide text-gray-400 mb-3">
-            Temas en el audio
+            De qué hablan
           </h3>
           <TopicList rows={placement.top_temas} />
           <div className="mt-3">
@@ -117,12 +117,12 @@ export function PlacementShowSnippet({
       <div className="text-[12px] text-gray-600 space-y-1 mb-3 leading-relaxed">
         {topRubro ? (
           <p>
-            Pauta: <b className="text-gray-700">{topRubro.label}</b> ({topRubro.pct}%)
+            Pautan: <b className="text-gray-700">{topRubro.label}</b> ({topRubro.pct}%)
           </p>
         ) : null}
         {topTema ? (
           <p>
-            Charla: <b className="text-gray-700">{topTema.tema}</b>
+            Hablan de: <b className="text-gray-700">{topTema.tema}</b>
           </p>
         ) : null}
       </div>
@@ -133,13 +133,13 @@ export function PlacementShowSnippet({
     <div className="border-t border-[#ececec] pt-3 mt-3 space-y-3">
       {placement.rubro_mix.length > 0 ? (
         <div>
-          <h4 className="text-[11px] uppercase tracking-wide text-gray-400 mb-2">Rubros que pautan</h4>
+          <h4 className="text-[11px] uppercase tracking-wide text-gray-400 mb-2">Tipos de marcas que pautan</h4>
           <MixBar rows={placement.rubro_mix.slice(0, 4)} />
         </div>
       ) : null}
       {placement.top_temas.length > 0 ? (
         <div>
-          <h4 className="text-[11px] uppercase tracking-wide text-gray-400 mb-2">Temas en el audio</h4>
+          <h4 className="text-[11px] uppercase tracking-wide text-gray-400 mb-2">De qué hablan</h4>
           <TopicList rows={placement.top_temas} limit={4} />
         </div>
       ) : null}

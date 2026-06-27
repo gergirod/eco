@@ -153,7 +153,6 @@ export const PARTNER_PUBLIC_PREFIXES = ["/acceso", "/api/partner", "/api/admin"]
 export const PARTNER_BLOCKED_PREFIXES = [
   "/productos",
   "/discover",
-  "/competencia",
   "/marca",
   "/audiencia",
   "/mediakit",

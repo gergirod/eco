@@ -354,14 +354,14 @@ export function conversacionSubline(
   const total = options?.totalAvailable ?? topics.length;
   const showing = options?.showing ?? topics.length;
   if (!total) {
-    return `Sin ${mode} en el período actual (${ch} canales monitoreados).`;
+    return `Todavía no hay ${mode} en lo que medimos hoy (${ch} canales).`;
   }
   const cross = topics.filter((t) => t.crossComunidad).length;
   const countLine =
     showing < total
       ? `Mostrando ${showing} de ${total} ${mode}`
       : `${total} ${mode}`;
-  return `${countLine} · ${cross} en 2+ canales en esta vista · programas capturados`;
+  return `${countLine} · ${cross} en 2+ canales en esta vista · emisiones que medimos`;
 }
 
 export const CHANNEL_SLUG: Record<string, string> = {
