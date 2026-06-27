@@ -147,7 +147,9 @@ function FormatosSection({
     <div>
       <p className="text-[13.5px] text-gray-600 mb-5 max-w-[640px] leading-relaxed">
         Un <b>formato</b> es el show (ej. Nadie Dice Nada). Cada tarjeta agrupa las{" "}
-        <b>emisiones</b> de ese show en las últimas semanas que medimos.
+        <b>emisiones</b> de ese show en las últimas semanas que medimos. Abajo ves qué{" "}
+        <b>tipo de marcas pautaron</b> ahí (bebidas, bancos, etc.) y <b>de qué charlaron</b> en
+        el audio — no es cuánto pautan, sino el mix del período.
       </p>
       <div className="grid gap-4 sm:grid-cols-2">
         {rollups.map((r) => {

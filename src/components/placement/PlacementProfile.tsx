@@ -100,6 +100,40 @@ export function PlacementChannelCard({
   );
 }
 
+function formatCompactRubro(rows: MixRow[]): { text: string; bold: string; suffix: string } | null {
+  if (!rows.length) return null;
+
+  const meaningful = rows.filter((r) => r.key !== "otro");
+  const top = rows[0];
+
+  if (top.key !== "otro") {
+    return {
+      text: "Marcas que más pautan acá: ",
+      bold: top.label,
+      suffix: ` (${top.pct}% de las apariciones de pauta)`,
+    };
+  }
+
+  if (meaningful.length > 0) {
+    const best = meaningful[0];
+    return {
+      text: "Hay marcas de todo — lo más claro es ",
+      bold: best.label,
+      suffix: ` (${best.pct}% de las apariciones)`,
+    };
+  }
+
+  if (top.count > 0) {
+    return {
+      text: "Marcas variadas en este show — ",
+      bold: `${top.count} apariciones`,
+      suffix: " sin un rubro dominante",
+    };
+  }
+
+  return null;
+}
+
 export function PlacementShowSnippet({
   placement,
   compact,
@@ -113,16 +147,19 @@ export function PlacementShowSnippet({
   if (!topRubro && !topTema) return null;
 
   if (compact) {
+    const rubroLine = topRubro ? formatCompactRubro(placement.rubro_mix) : null;
     return (
       <div className="text-[12px] text-gray-600 space-y-1 mb-3 leading-relaxed">
-        {topRubro ? (
+        {rubroLine ? (
           <p>
-            Pautan: <b className="text-gray-700">{topRubro.label}</b> ({topRubro.pct}%)
+            {rubroLine.text}
+            <b className="text-gray-700">{rubroLine.bold}</b>
+            {rubroLine.suffix}
           </p>
         ) : null}
         {topTema ? (
           <p>
-            Hablan de: <b className="text-gray-700">{topTema.tema}</b>
+            Charlan de: <b className="text-gray-700">{topTema.tema}</b>
           </p>
         ) : null}
       </div>

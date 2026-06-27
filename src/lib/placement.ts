@@ -15,7 +15,7 @@ const RUBRO_DISPLAY: Record<string, string> = {
   apuestas: "Apuestas y juegos online",
   retail: "Tiendas y ecommerce",
   viajes: "Viajes y turismo",
-  otro: "Otro",
+  otro: "Varias marcas",
 };
 
 export type ProgramTopicsRow = {
