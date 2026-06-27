@@ -14,6 +14,17 @@ type MomentRow = {
   has_chat?: boolean;
   series?: { m: number; chat?: number }[];
   audience_demand?: { tema: string; tipo?: string; evidencia?: string; n?: number }[];
+  room_participation?: {
+    has_data?: boolean;
+    highlights?: {
+      kind: string;
+      question?: string;
+      text?: string;
+      total_votes?: number;
+      duration_s?: number;
+      minute?: number;
+    }[];
+  };
 };
 
 type ActivationRow = {
@@ -43,6 +54,17 @@ function fmtClock(min: number): string {
   const h = Math.floor(min / 60);
   const m = min % 60;
   return h ? `${h}:${String(m).padStart(2, "0")}` : `${m} min`;
+}
+
+function formatVotes(n: number): string {
+  if (n >= 10000) return `${Math.round(n / 1000)}K`;
+  if (n >= 1000) return `${(n / 1000).toFixed(1).replace(".0", "")}K`;
+  return String(n);
+}
+
+function fmtPinDuration(secs: number): string {
+  const m = Math.round(secs / 60);
+  return m >= 1 ? `${m} min` : `${Math.round(secs)} s`;
 }
 
 function detectChatPeak(mo: MomentRow): { minute: number; spike: number; peak: number } | null {
@@ -128,6 +150,55 @@ export function buildChatNovedades(
           label: "Ver demanda",
         },
       });
+    }
+  }
+
+  for (const [vid, mo] of Object.entries(moments)) {
+    if (!mo.date || !isDateInWindow(mo.date, refTs, windowDays)) continue;
+    const rp = mo.room_participation;
+    if (!rp?.has_data || !rp.highlights?.length) continue;
+    const channelId = vidToChannel[vid] || (mo.channel || "").toLowerCase();
+    const title = shortTitle(mo.title || vid);
+
+    for (const h of rp.highlights.slice(0, 2)) {
+      if (h.kind === "encuesta" && (h.total_votes || 0) >= 2000) {
+        events.push({
+          id: `room-poll-${vid}-${h.minute ?? h.total_votes}`,
+          date: mo.date,
+          dateSort: parseDisplayDate(mo.date),
+          headline: `Encuesta con ${formatVotes(h.total_votes || 0)} votos — ${title}`,
+          why: h.question
+            ? `La audiencia votó en vivo: «${h.question.slice(0, 80)}${(h.question.length || 0) > 80 ? "…" : ""}».`
+            : `Participación masiva en encuesta nativa del programa.`,
+          confidence: "media",
+          category: "chat",
+          action: {
+            type: "programa",
+            channelId,
+            videoId: vid,
+            label: "Ver programa",
+          },
+        });
+      }
+      if (h.kind === "mensaje_fijado" && (h.duration_s || 0) >= 120) {
+        events.push({
+          id: `room-pin-${vid}-${h.minute ?? h.duration_s}`,
+          date: mo.date,
+          dateSort: parseDisplayDate(mo.date),
+          headline: `Mensaje fijado ${fmtPinDuration(h.duration_s || 0)} — ${title}`,
+          why: h.text
+            ? `El canal dejó visible arriba del chat: «${h.text.slice(0, 90)}${(h.text.length || 0) > 90 ? "…" : ""}».`
+            : `Mensaje pinneado visible ${fmtPinDuration(h.duration_s || 0)} en el chat en vivo.`,
+          confidence: "media",
+          category: "chat",
+          action: {
+            type: "programa",
+            channelId,
+            videoId: vid,
+            label: "Ver programa",
+          },
+        });
+      }
     }
   }
 

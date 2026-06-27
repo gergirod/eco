@@ -5,11 +5,13 @@ import { useDataset } from "@/lib/useDataset";
 import { usd, num, compact } from "@/lib/format";
 import channelsFb from "@/data/channels.json";
 import benchmarkFb from "@/data/benchmark.json";
+import audienceFb from "@/data/audience.json";
 import metaFb from "@/data/meta.json";
 
 export default function MediaKitPage() {
   const channels = useDataset<any[]>("channels", channelsFb);
   const benchmark = useDataset<any[]>("benchmark", benchmarkFb);
+  const audience = useDataset<any[]>("audience", audienceFb);
   const meta = useDataset<any>("meta", metaFb);
   const cpm = meta?.cpm || 30;
 
@@ -17,6 +19,8 @@ export default function MediaKitPage() {
   const [cid, setCid] = useState("olga");
   const ch = withData.find((c) => c.id === cid) || withData[0];
   const b = benchmark.find((x) => x.id === ch.id);
+  const aud = audience.find((x) => x.id === ch.id);
+  const roomLine = aud?.room_participation?.participation_line as string | undefined;
   const totalViews = benchmark.reduce((a, x) => a + x.vod_views, 0) || 1;
   const shareV = b ? b.share_views : Math.round((1000 * (ch.stats.total_vod_views || 0)) / totalViews) / 10;
   // CPM defendible: valor de un minuto de PNT = audiencia concurrente / 1000 * CPM
@@ -75,6 +79,15 @@ export default function MediaKitPage() {
           PDF por programa y por marca — prueba de entrega para el comercial del canal.
         </span>
       </div>
+
+      {roomLine && (
+        <div className="card p-4 mb-5 border-l-2 border-l-accent/30">
+          <p className="text-[13.5px] text-gray-800 leading-relaxed">{roomLine}</p>
+          <p className="text-[11px] text-gray-400 mt-2">
+            Encuestas y mensajes fijados medidos en captura en vivo — prueba de comunidad activa para el pitch comercial.
+          </p>
+        </div>
+      )}
 
       <div className="grid grid-cols-[1fr_1fr] gap-5">
         {/* social proof: marcas que ya aparecieron */}

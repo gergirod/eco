@@ -6,6 +6,7 @@ import { Stat, Bar } from "@/components/ui";
 import TopBrandsTable from "@/components/TopBrandsTable";
 import ValuationNotice from "@/components/ValuationNotice";
 import { compact, num } from "@/lib/format";
+import { formatCaptureDate, formatHours } from "@/lib/coverage";
 import { VALUATION_HINT, VALUATION_INFO, usdEstSum } from "@/lib/valuation";
 import { useDataset } from "@/lib/useDataset";
 import metaFb from "@/data/meta.json";
@@ -13,11 +14,41 @@ import channelsFb from "@/data/channels.json";
 import benchmarkFb from "@/data/benchmark.json";
 import reportsFb from "@/data/reports.json";
 
+type LiveCaptureChannel = {
+  id: string;
+  streams: number;
+  hours: number;
+  first_capture?: string;
+  last_capture?: string;
+};
+
+type LiveCaptureStats = {
+  hours_captured: number;
+  streams_captured: number;
+  channels_captured: number;
+  capture_days: number;
+  first_capture: string;
+  last_capture: string;
+  by_channel?: LiveCaptureChannel[];
+};
+
 export default function ResumenPanel() {
   const meta: any = useDataset("meta", metaFb);
   const channels: any[] = useDataset("channels", channelsFb);
   const benchmark: any[] = useDataset("benchmark", benchmarkFb);
   const reports: Record<string, any> = useDataset("reports", reportsFb);
+  const liveCapture = meta.live_capture as LiveCaptureStats | undefined;
+
+  const channelNames = useMemo(() => {
+    const map = new Map(channels.map((c: any) => [c.id, c.name]));
+    return map;
+  }, [channels]);
+
+  const liveCaptureHint = liveCapture?.first_capture
+    ? liveCapture.first_capture === liveCapture.last_capture
+      ? `desde ${formatCaptureDate(liveCapture.first_capture)}`
+      : `${formatCaptureDate(liveCapture.first_capture)} – ${formatCaptureDate(liveCapture.last_capture)}`
+    : "captura minuto a minuto";
 
   const reportList = useMemo(
     () =>
@@ -46,6 +77,39 @@ export default function ResumenPanel() {
 
   return (
     <div>
+      {liveCapture && liveCapture.hours_captured > 0 && (
+        <>
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-3">
+            <Stat
+              label="Horas en vivo capturadas"
+              value={formatHours(liveCapture.hours_captured)}
+              hint={`${liveCapture.streams_captured} streams · ${liveCaptureHint}`}
+            />
+            <Stat
+              label="Canales capturando"
+              value={liveCapture.channels_captured}
+              hint={`${liveCapture.capture_days} ${liveCapture.capture_days === 1 ? "día" : "días"} operando`}
+            />
+            <Stat
+              label="Días con captura"
+              value={liveCapture.capture_days}
+              hint="días con al menos 1 stream medido"
+            />
+            <Stat
+              label="Streams capturados"
+              value={num(liveCapture.streams_captured)}
+              hint="concurrentes minuto a minuto"
+            />
+          </div>
+          <p className="text-[11px] text-gray-400 mb-7 leading-relaxed">
+            KPI de infraestructura: medido desde <code className="text-[10px]">viewers/</code> al
+            aire (<code className="text-[10px]">recorded_at</code>). Excluye backfill histórico y
+            canales fuera del wedge. Re-exportá con{" "}
+            <code className="text-[10px]">python export_ui.py</code> para actualizar.
+          </p>
+        </>
+      )}
+
       <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-7">
         <Stat label="Canales monitoreados" value={withData.length} hint={`${channels.length} en el universo`} />
         <Stat label="VODs procesados" value={num(meta.n_videos)} hint={`${meta.n_topics} en vivo con audiencia`} />
@@ -65,6 +129,31 @@ export default function ResumenPanel() {
       <div className="mb-5">
         <ValuationNotice compact />
       </div>
+
+      {liveCapture && liveCapture.by_channel && liveCapture.by_channel.length > 0 && (
+        <div className="card p-5 mb-5">
+          <h2 className="text-[15px] font-semibold mb-4">Captura en vivo por canal</h2>
+          <div className="flex flex-col gap-3">
+            {[...liveCapture.by_channel]
+              .sort((a, b) => b.hours - a.hours)
+              .map((row) => {
+                const maxH = Math.max(...liveCapture.by_channel!.map((c) => c.hours), 1);
+                return (
+                  <div key={row.id}>
+                    <div className="flex items-center justify-between text-[13px] mb-1">
+                      <span className="font-medium">{channelNames.get(row.id) ?? row.id}</span>
+                      <span className="text-gray-400 tabular-nums">
+                        {formatHours(row.hours)} · {row.streams}{" "}
+                        {row.streams === 1 ? "stream" : "streams"}
+                      </span>
+                    </div>
+                    <Bar value={row.hours} max={maxH} />
+                  </div>
+                );
+              })}
+          </div>
+        </div>
+      )}
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
         <div className="card p-5">

@@ -9,12 +9,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 12,
-   "total_vod_views": 444586,
-   "avg_concurrent": 27993,
-   "brands_detected": 45,
-   "mentions": 74,
-   "last_processed": "25/06/2026"
+   "videos_processed": 15,
+   "total_vod_views": 538242,
+   "avg_concurrent": 25824,
+   "brands_detected": 55,
+   "mentions": 96,
+   "last_processed": "26/06/2026"
   },
   "pipeline_status": "activo"
  },
@@ -28,11 +28,11 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 13,
-   "total_vod_views": 1885145,
-   "avg_concurrent": 89639,
-   "brands_detected": 43,
-   "mentions": 58,
+   "videos_processed": 15,
+   "total_vod_views": 1951618,
+   "avg_concurrent": 81809,
+   "brands_detected": 45,
+   "mentions": 60,
    "last_processed": "26/06/2026"
   },
   "pipeline_status": "activo"
@@ -45,9 +45,16 @@
   "subscribers": "780K",
   "enabled": true,
   "handle_verified": true,
-  "has_data": false,
-  "stats": null,
-  "pipeline_status": "configurado"
+  "has_data": true,
+  "stats": {
+   "videos_processed": 1,
+   "total_vod_views": 37783,
+   "avg_concurrent": 21251,
+   "brands_detected": 0,
+   "mentions": 0,
+   "last_processed": "24/06/2026"
+  },
+  "pipeline_status": "activo"
  },
  {
   "id": "blend",
@@ -97,11 +104,11 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 1,
-   "total_vod_views": 15835,
-   "avg_concurrent": 8776,
-   "brands_detected": 1,
-   "mentions": 1,
+   "videos_processed": 4,
+   "total_vod_views": 69454,
+   "avg_concurrent": 6024,
+   "brands_detected": 17,
+   "mentions": 18,
    "last_processed": "26/06/2026"
   },
   "pipeline_status": "activo"
@@ -138,9 +145,16 @@
   "subscribers": "520K",
   "enabled": true,
   "handle_verified": true,
-  "has_data": false,
-  "stats": null,
-  "pipeline_status": "configurado"
+  "has_data": true,
+  "stats": {
+   "videos_processed": 3,
+   "total_vod_views": 5533,
+   "avg_concurrent": 412,
+   "brands_detected": 7,
+   "mentions": 9,
+   "last_processed": "26/06/2026"
+  },
+  "pipeline_status": "activo"
  },
  {
   "id": "lacasa",

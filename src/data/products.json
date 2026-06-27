@@ -68,6 +68,206 @@
   "kind": "producto"
  },
  {
+  "slug": "boxer-calzoncillos",
+  "name": "Boxer (calzoncillos)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "teZ-nZ63J0I",
+    "title": "#FMLUZU | LA CASTRO SE BAJÓ DE LAS APPS DE CITAS + LE HACEMOS UNA CANCIÓN + MANO A MANO CASTRINI",
+    "minute": "00:50",
+    "views": 15651
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "luzu-plataforma",
+  "name": "Luzu (plataforma)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "teZ-nZ63J0I",
+    "title": "#FMLUZU | LA CASTRO SE BAJÓ DE LAS APPS DE CITAS + LE HACEMOS UNA CANCIÓN + MANO A MANO CASTRINI",
+    "minute": "00:50",
+    "views": 15651
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "mac-restaurante",
+  "name": "Mac (restaurante)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "LjEHjrbNNgs",
+    "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+    "minute": "00:30",
+    "views": 30205
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "quality-center-cordoba",
+  "name": "Quality Center (Córdoba)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "LjEHjrbNNgs",
+    "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+    "minute": "00:30",
+    "views": 30205
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "boca-club-vestido-azul",
+  "name": "Boca (club/vestido azul)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "LjEHjrbNNgs",
+    "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+    "minute": "01:50",
+    "views": 30205
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "friends-serie",
+  "name": "Friends (serie)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "LjEHjrbNNgs",
+    "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+    "minute": "01:50",
+    "views": 30205
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "martin-fierro-premios",
+  "name": "Martín Fierro (premios)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "LjEHjrbNNgs",
+    "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+    "minute": "01:50",
+    "views": 30205
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "matilda-pelicula-marca-de-alfajor",
+  "name": "Matilda (película/marca de alfajor)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "LjEHjrbNNgs",
+    "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+    "minute": "02:10",
+    "views": 30205
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "m-canal-de-tv",
   "name": "M (canal de TV)",
   "mentions": 1,
@@ -418,6 +618,331 @@
   "kind": "producto"
  },
  {
+  "slug": "pae-petroleo",
+  "name": "PAE (Petróleo)",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "7ON4ZA5TtHc",
+    "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
+    "minute": "00:00",
+    "views": 3648
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "juegoselpato-com-ar",
+  "name": "juegoselpato.com.ar",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "7ON4ZA5TtHc",
+    "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
+    "minute": "00:10",
+    "views": 3648
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "lsg-consultora",
+  "name": "LSG (consultora)",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "7ON4ZA5TtHc",
+    "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
+    "minute": "00:30",
+    "views": 3648
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "olga-tienda-merchandising",
+  "name": "Olga (tienda/merchandising)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "26/06/2026",
+    "video_id": "W_HkPNOMeDc",
+    "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+    "minute": "00:50",
+    "views": 42935
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pae-petroleos-argentinos-empresa",
+  "name": "PAE (Petróleos Argentinos Empresa)",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "XYJRLyO9exg",
+    "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
+    "minute": "00:00",
+    "views": 1144
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "neura-canal-plataforma-de-streaming",
+  "name": "Neura (canal/plataforma de streaming)",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "XYJRLyO9exg",
+    "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
+    "minute": "00:50",
+    "views": 1144
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "silver-cuento",
+  "name": "Silver (cuento)",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "XYJRLyO9exg",
+    "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
+    "minute": "00:50",
+    "views": 1144
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "modo",
+  "name": "modo",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "26/06/2026",
+    "video_id": "3QJmfDvuxIk",
+    "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
+    "minute": "00:40",
+    "views": 40199
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "cremas",
+  "name": "cremas",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "26/06/2026",
+    "video_id": "3QJmfDvuxIk",
+    "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
+    "minute": "01:30",
+    "views": 40199
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "maquillaje",
+  "name": "maquillaje",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "26/06/2026",
+    "video_id": "3QJmfDvuxIk",
+    "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
+    "minute": "01:30",
+    "views": 40199
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "dav-fundacion-bellamente",
+  "name": "DAV (Fundación Bellamente)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "26/06/2026",
+    "video_id": "3QJmfDvuxIk",
+    "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
+    "minute": "01:40",
+    "views": 40199
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pae-petroleo-y-gas",
+  "name": "PAE (Petróleo y Gas)",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "VRWovoLU0yQ",
+    "title": "🍿 Plot Twist 👾",
+    "minute": "00:00",
+    "views": 741
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "knife-trilogia-animada",
+  "name": "Knife (trilogía animada)",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "VRWovoLU0yQ",
+    "title": "🍿 Plot Twist 👾",
+    "minute": "02:00",
+    "views": 741
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "nb-new-balance-posiblemente-medias",
   "name": "NB (New Balance - posiblemente medias)",
   "mentions": 1,
@@ -488,6 +1013,106 @@
     "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
     "minute": "01:40",
     "views": 56741
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "yuya-casa-flipper",
+  "name": "Yuya (casa/flipper)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "26/06/2026",
+    "video_id": "9ucd7zkq6P8",
+    "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+    "minute": "00:30",
+    "views": 10522
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "fernet-argentino-e-italiano",
+  "name": "Fernet (argentino e italiano)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "26/06/2026",
+    "video_id": "9ucd7zkq6P8",
+    "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+    "minute": "00:50",
+    "views": 10522
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "twitter-dul",
+  "name": "Twitter (Dul)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "26/06/2026",
+    "video_id": "9ucd7zkq6P8",
+    "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+    "minute": "01:00",
+    "views": 10522
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "schneider-bebida",
+  "name": "Schneider (bebida)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "26/06/2026",
+    "video_id": "9ucd7zkq6P8",
+    "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+    "minute": "01:10",
+    "views": 10522
    }
   ],
   "kind": "producto"
@@ -613,6 +1238,81 @@
     "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
     "minute": "02:00",
     "views": 373638
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "uvas",
+  "name": "uvas",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "EwFONN3W5cg",
+    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+    "minute": "01:30",
+    "views": 20092
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "cafe",
+  "name": "café",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "EwFONN3W5cg",
+    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+    "minute": "01:30",
+    "views": 20092
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "edulcorante",
+  "name": "edulcorante",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "EwFONN3W5cg",
+    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+    "minute": "01:30",
+    "views": 20092
    }
   ],
   "kind": "producto"
@@ -1318,6 +2018,81 @@
   "kind": "producto"
  },
  {
+  "slug": "gaseosa",
+  "name": "gaseosa",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "oB3uH7aQwTU",
+    "title": "SE FUE LARGA con FERBO, DOMI FAENA, TULI ACOSTA, MICA VASQUEZ, BELU NEGRI Y LUCAS LEZIN | EN VIVO",
+    "minute": "00:20",
+    "views": 50822
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "jugo-light",
+  "name": "jugo light",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "oB3uH7aQwTU",
+    "title": "SE FUE LARGA con FERBO, DOMI FAENA, TULI ACOSTA, MICA VASQUEZ, BELU NEGRI Y LUCAS LEZIN | EN VIVO",
+    "minute": "00:20",
+    "views": 50822
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "gaseosa-cero",
+  "name": "gaseosa cero",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "oB3uH7aQwTU",
+    "title": "SE FUE LARGA con FERBO, DOMI FAENA, TULI ACOSTA, MICA VASQUEZ, BELU NEGRI Y LUCAS LEZIN | EN VIVO",
+    "minute": "00:20",
+    "views": 50822
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "antiguascritura-ar",
   "name": "antiguascritura.ar",
   "mentions": 1,
@@ -1388,6 +2163,106 @@
     "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
     "minute": "01:30",
     "views": 118017
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "damajuana",
+  "name": "damajuana",
+  "mentions": 1,
+  "channels": [
+   "bondi"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "bondi",
+    "channel_name": "Bondi Live",
+    "date": "24/06/2026",
+    "video_id": "tAUTd2FsMxA",
+    "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+    "minute": "04:00",
+    "views": 37783
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "carmen-productora-contrato",
+  "name": "Carmen (productora/contrato)",
+  "mentions": 1,
+  "channels": [
+   "bondi"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "bondi",
+    "channel_name": "Bondi Live",
+    "date": "24/06/2026",
+    "video_id": "tAUTd2FsMxA",
+    "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+    "minute": "05:20",
+    "views": 37783
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "colon-teatro",
+  "name": "Colón (teatro)",
+  "mentions": 1,
+  "channels": [
+   "bondi"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "bondi",
+    "channel_name": "Bondi Live",
+    "date": "24/06/2026",
+    "video_id": "tAUTd2FsMxA",
+    "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+    "minute": "05:20",
+    "views": 37783
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pochoclera",
+  "name": "pochoclera",
+  "mentions": 1,
+  "channels": [
+   "bondi"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "24/06/2026",
+  "last_seen": "24/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "bondi",
+    "channel_name": "Bondi Live",
+    "date": "24/06/2026",
+    "video_id": "tAUTd2FsMxA",
+    "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+    "minute": "05:40",
+    "views": 37783
    }
   ],
   "kind": "producto"

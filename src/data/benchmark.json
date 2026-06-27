@@ -2,13 +2,13 @@
  {
   "id": "luzu",
   "name": "Luzu TV",
-  "videos": 13,
-  "vod_views": 1885145,
-  "avg_concurrent": 89639,
-  "brands": 43,
-  "mentions": 58,
-  "share_views": 79.4,
-  "n_brands_live": 43,
+  "videos": 15,
+  "vod_views": 1951618,
+  "avg_concurrent": 81809,
+  "brands": 45,
+  "mentions": 60,
+  "share_views": 74.2,
+  "n_brands_live": 45,
   "top_brands": [
    {
     "slug": "skip",
@@ -89,16 +89,22 @@
     "value_usd": 6649.0
    },
    {
+    "slug": "dia",
+    "name": "Día",
+    "mentions": 1,
+    "value_usd": 3934.0
+   },
+   {
     "slug": "rexona",
     "name": "Rexona",
     "mentions": 1,
     "value_usd": 112.0
    },
    {
-    "slug": "dia",
-    "name": "Día",
+    "slug": "sinteplast",
+    "name": "Sinteplast",
     "mentions": 1,
-    "value_usd": 3934.0
+    "value_usd": 718.0
    },
    {
     "slug": "coca-cola",
@@ -183,31 +189,25 @@
     "name": "Pollo Tati y Agus García",
     "mentions": 1,
     "value_usd": 7555.0
-   },
-   {
-    "slug": "quilmes",
-    "name": "Quilmes",
-    "mentions": 1,
-    "value_usd": 2204.0
    }
   ]
  },
  {
   "id": "olga",
   "name": "Olga",
-  "videos": 12,
-  "vod_views": 444586,
-  "avg_concurrent": 27993,
-  "brands": 45,
-  "mentions": 74,
-  "share_views": 18.7,
-  "n_brands_live": 45,
+  "videos": 15,
+  "vod_views": 538242,
+  "avg_concurrent": 25824,
+  "brands": 55,
+  "mentions": 96,
+  "share_views": 20.5,
+  "n_brands_live": 55,
   "top_brands": [
    {
     "slug": "iol-inversiones",
     "name": "IOL Inversiones",
-    "mentions": 7,
-    "value_usd": 4561.0
+    "mentions": 8,
+    "value_usd": 4810.0
    },
    {
     "slug": "geniol",
@@ -216,22 +216,22 @@
     "value_usd": 5090.0
    },
    {
-    "slug": "rexona",
-    "name": "Rexona",
-    "mentions": 4,
-    "value_usd": 2575.0
-   },
-   {
     "slug": "mcdonald-s",
     "name": "McDonald's",
-    "mentions": 4,
-    "value_usd": 1569.0
+    "mentions": 6,
+    "value_usd": 2483.0
    },
    {
     "slug": "dia",
     "name": "Día",
-    "mentions": 3,
-    "value_usd": 3497.0
+    "mentions": 4,
+    "value_usd": 4757.0
+   },
+   {
+    "slug": "rexona",
+    "name": "Rexona",
+    "mentions": 4,
+    "value_usd": 2575.0
    },
    {
     "slug": "canon",
@@ -252,6 +252,24 @@
     "value_usd": 3470.0
    },
    {
+    "slug": "smirnoff",
+    "name": "Smirnoff",
+    "mentions": 3,
+    "value_usd": 1229.0
+   },
+   {
+    "slug": "johnnie-walker",
+    "name": "Johnnie Walker",
+    "mentions": 3,
+    "value_usd": 685.0
+   },
+   {
+    "slug": "schneider",
+    "name": "Schneider",
+    "mentions": 3,
+    "value_usd": 528.0
+   },
+   {
     "slug": "skip",
     "name": "Skip",
     "mentions": 2,
@@ -264,16 +282,28 @@
     "value_usd": 1271.0
    },
    {
+    "slug": "cordoba",
+    "name": "Córdoba",
+    "mentions": 2,
+    "value_usd": 1586.0
+   },
+   {
     "slug": "pharma-olga",
     "name": "Pharma Olga",
     "mentions": 2,
     "value_usd": 1300.0
    },
    {
-    "slug": "johnnie-walker",
-    "name": "Johnnie Walker",
+    "slug": "swift",
+    "name": "Swift",
     "mentions": 2,
-    "value_usd": 462.0
+    "value_usd": 439.0
+   },
+   {
+    "slug": "cordoba-destino-turistico",
+    "name": "Córdoba (destino turístico)",
+    "mentions": 2,
+    "value_usd": 1435.0
    },
    {
     "slug": "asiscard",
@@ -292,6 +322,12 @@
     "name": "Adidas",
     "mentions": 1,
     "value_usd": 1311.0
+   },
+   {
+    "slug": "hyundai",
+    "name": "Hyundai",
+    "mentions": 1,
+    "value_usd": 181.0
    },
    {
     "slug": "evaginagel",
@@ -318,6 +354,18 @@
     "value_usd": 1441.0
    },
    {
+    "slug": "propel-fit-planet",
+    "name": "Propel Fit Planet",
+    "mentions": 1,
+    "value_usd": 156.0
+   },
+   {
+    "slug": "cbc-hierbas-serranas",
+    "name": "CBC hierbas serranas",
+    "mentions": 1,
+    "value_usd": 652.0
+   },
+   {
     "slug": "swiss-medical",
     "name": "Swiss Medical",
     "mentions": 1,
@@ -330,60 +378,139 @@
     "value_usd": 827.0
    },
    {
-    "slug": "swift",
-    "name": "Swift",
+    "slug": "marca-comercial-de-condimentos-oregano",
+    "name": "Marca comercial de condimentos (orégano)",
     "mentions": 1,
-    "value_usd": 186.0
+    "value_usd": 598.0
+   }
+  ]
+ },
+ {
+  "id": "vorterix",
+  "name": "Vorterix",
+  "videos": 4,
+  "vod_views": 69454,
+  "avg_concurrent": 6024,
+  "brands": 17,
+  "mentions": 18,
+  "share_views": 2.6,
+  "n_brands_live": 17,
+  "top_brands": [
+   {
+    "slug": "coto",
+    "name": "Coto",
+    "mentions": 2,
+    "value_usd": 209.0
+   },
+   {
+    "slug": "adidas",
+    "name": "Adidas",
+    "mentions": 1,
+    "value_usd": 97.0
    },
    {
     "slug": "hyundai",
     "name": "Hyundai",
     "mentions": 1,
-    "value_usd": 181.0
+    "value_usd": 62.0
    },
    {
-    "slug": "cooling-break-schneider",
-    "name": "Cooling Break + Schneider",
+    "slug": "kanka",
+    "name": "Kanka",
     "mentions": 1,
-    "value_usd": 178.0
+    "value_usd": 72.0
    },
    {
-    "slug": "sony",
-    "name": "Sony",
+    "slug": "gustavo-corbera-la-fuente",
+    "name": "Gustavo Corbera - La Fuente",
     "mentions": 1,
-    "value_usd": 1320.0
+    "value_usd": 128.0
    },
    {
-    "slug": "top-line",
-    "name": "Top Line",
+    "slug": "la-segunda-seguros",
+    "name": "La Segunda Seguros",
     "mentions": 1,
-    "value_usd": 868.0
+    "value_usd": 81.0
    },
    {
-    "slug": "asociacion-argentina-de-salud-mental",
-    "name": "Asociación Argentina de Salud Mental",
+    "slug": "baiano-teatro-vorterix",
+    "name": "Baiano - Teatro Vorterix",
     "mentions": 1,
-    "value_usd": 732.0
+    "value_usd": 49.0
    },
    {
-    "slug": "sancor-salud",
-    "name": "Sancor Salud",
+    "slug": "gustavo-cordera-la-fuente",
+    "name": "Gustavo Cordera - La Fuente",
     "mentions": 1,
-    "value_usd": 1216.0
+    "value_usd": 49.0
    },
    {
-    "slug": "osde",
-    "name": "OSDE",
+    "slug": "fiesta-forever-90",
+    "name": "Fiesta Forever 90",
     "mentions": 1,
-    "value_usd": 426.0
+    "value_usd": 49.0
    },
    {
-    "slug": "cordoba",
-    "name": "Córdoba",
+    "slug": "social-lunch",
+    "name": "Social Lunch",
     "mentions": 1,
-    "value_usd": 1023.0
+    "value_usd": 49.0
+   },
+   {
+    "slug": "luz-gashi-teatro-fortrix",
+    "name": "Luz Gashi - Teatro Fortrix",
+    "mentions": 1,
+    "value_usd": 49.0
+   },
+   {
+    "slug": "gillette",
+    "name": "Gillette",
+    "mentions": 1,
+    "value_usd": 46.0
+   },
+   {
+    "slug": "11-40-41-96-60",
+    "name": "11 40 41 96 60",
+    "mentions": 1,
+    "value_usd": 99.0
+   },
+   {
+    "slug": "cremolati",
+    "name": "Cremolati",
+    "mentions": 1,
+    "value_usd": 45.0
+   },
+   {
+    "slug": "food-truck-store",
+    "name": "Food Truck Store",
+    "mentions": 1,
+    "value_usd": 44.0
+   },
+   {
+    "slug": "tucuman",
+    "name": "Tucumán",
+    "mentions": 1,
+    "value_usd": 2.0
+   },
+   {
+    "slug": "cafe-imperial",
+    "name": "Café Imperial",
+    "mentions": 1,
+    "value_usd": 236.0
    }
   ]
+ },
+ {
+  "id": "bondi",
+  "name": "Bondi Live",
+  "videos": 1,
+  "vod_views": 37783,
+  "avg_concurrent": 21251,
+  "brands": 0,
+  "mentions": 0,
+  "share_views": 1.4,
+  "n_brands_live": 0,
+  "top_brands": []
  },
  {
   "id": "blend",
@@ -393,7 +520,7 @@
   "avg_concurrent": 6867,
   "brands": 8,
   "mentions": 8,
-  "share_views": 0.9,
+  "share_views": 0.8,
   "n_brands_live": 8,
   "top_brands": [
    {
@@ -447,25 +574,6 @@
   ]
  },
  {
-  "id": "vorterix",
-  "name": "Vorterix",
-  "videos": 1,
-  "vod_views": 15835,
-  "avg_concurrent": 8776,
-  "brands": 1,
-  "mentions": 1,
-  "share_views": 0.7,
-  "n_brands_live": 1,
-  "top_brands": [
-   {
-    "slug": "cafe-imperial",
-    "name": "Café Imperial",
-    "mentions": 1,
-    "value_usd": 236.0
-   }
-  ]
- },
- {
   "id": "gelatina",
   "name": "Gelatina",
   "videos": 1,
@@ -473,7 +581,7 @@
   "avg_concurrent": 1473,
   "brands": 1,
   "mentions": 1,
-  "share_views": 0.3,
+  "share_views": 0.2,
   "n_brands_live": 1,
   "top_brands": [
    {
@@ -481,6 +589,61 @@
     "name": "Sastrería Teta Lee",
     "mentions": 1,
     "value_usd": 79.0
+   }
+  ]
+ },
+ {
+  "id": "neura",
+  "name": "Neura Media",
+  "videos": 3,
+  "vod_views": 5533,
+  "avg_concurrent": 412,
+  "brands": 7,
+  "mentions": 9,
+  "share_views": 0.2,
+  "n_brands_live": 7,
+  "top_brands": [
+   {
+    "slug": "pae",
+    "name": "PAE",
+    "mentions": 3,
+    "value_usd": 12.0
+   },
+   {
+    "slug": "argendata",
+    "name": "Argendata",
+    "mentions": 1,
+    "value_usd": 8.0
+   },
+   {
+    "slug": "juegos-el-pato",
+    "name": "Juegos El Pato",
+    "mentions": 1,
+    "value_usd": 21.0
+   },
+   {
+    "slug": "infinea-turbo-clean",
+    "name": "Infinea Turbo Clean",
+    "mentions": 1,
+    "value_usd": 12.0
+   },
+   {
+    "slug": "it-consult",
+    "name": "IT Consult",
+    "mentions": 1,
+    "value_usd": 12.0
+   },
+   {
+    "slug": "ecomod",
+    "name": "Ecomod",
+    "mentions": 1,
+    "value_usd": 12.0
+   },
+   {
+    "slug": "omni",
+    "name": "Omni",
+    "mentions": 1,
+    "value_usd": 4.0
    }
   ]
  }

@@ -1,29 +1,110 @@
 {
- "exported_at": "2026-06-26T16:27:39.095344+00:00",
+ "exported_at": "2026-06-27T00:13:17.523109+00:00",
  "capture_scope": "live_only",
  "capture_sources": [
   "youtube_api",
   "ytdlp_live"
  ],
- "n_videos": 31,
- "n_topics": 31,
- "n_topics_total": 96,
- "n_brands": 91,
- "n_products": 79,
- "n_pauta_mentions": 142,
- "n_moments": 28,
+ "n_videos": 43,
+ "n_topics": 43,
+ "n_topics_total": 108,
+ "n_brands": 124,
+ "n_products": 114,
+ "n_pauta_mentions": 192,
+ "n_moments": 39,
  "n_trends": 120,
  "cpm": 30.0,
  "peso_default": 0.3,
+ "live_capture": {
+  "hours_captured": 127.8,
+  "streams_captured": 52,
+  "channels_captured": 8,
+  "capture_days": 6,
+  "first_capture": "2026-06-22",
+  "last_capture": "2026-06-27",
+  "channel_ids": [
+   "blend",
+   "bondi",
+   "gelatina",
+   "luzu",
+   "neura",
+   "olga",
+   "urbana",
+   "vorterix"
+  ],
+  "by_channel": [
+   {
+    "id": "blend",
+    "streams": 4,
+    "hours": 7.5,
+    "first_capture": "2026-06-24",
+    "last_capture": "2026-06-25"
+   },
+   {
+    "id": "bondi",
+    "streams": 1,
+    "hours": 6.8,
+    "first_capture": "2026-06-26",
+    "last_capture": "2026-06-26"
+   },
+   {
+    "id": "gelatina",
+    "streams": 1,
+    "hours": 2.3,
+    "first_capture": "2026-06-26",
+    "last_capture": "2026-06-26"
+   },
+   {
+    "id": "luzu",
+    "streams": 18,
+    "hours": 35.6,
+    "first_capture": "2026-06-23",
+    "last_capture": "2026-06-26"
+   },
+   {
+    "id": "neura",
+    "streams": 4,
+    "hours": 6.0,
+    "first_capture": "2026-06-26",
+    "last_capture": "2026-06-26"
+   },
+   {
+    "id": "olga",
+    "streams": 17,
+    "hours": 40.7,
+    "first_capture": "2026-06-22",
+    "last_capture": "2026-06-26"
+   },
+   {
+    "id": "urbana",
+    "streams": 1,
+    "hours": 15.3,
+    "first_capture": "2026-06-26",
+    "last_capture": "2026-06-26"
+   },
+   {
+    "id": "vorterix",
+    "streams": 6,
+    "hours": 13.4,
+    "first_capture": "2026-06-26",
+    "last_capture": "2026-06-27"
+   }
+  ],
+  "method": "viewers_recorded_at",
+  "excludes": [
+   "backfill",
+   "azz"
+  ]
+ },
  "discovery": {
-  "channels_covered": 5,
-  "hours_captured": 72.3,
+  "channels_covered": 7,
+  "hours_captured": 102.5,
   "first_capture": "2026-06-19",
   "last_capture": "2026-06-26",
   "period_days": 8,
-  "programs_with_viewers": 31,
-  "high_confidence_advertisers": 12,
-  "emerging_confidence_advertisers": 11,
-  "activations_with_verified_evidence": 140
+  "programs_with_viewers": 43,
+  "high_confidence_advertisers": 16,
+  "emerging_confidence_advertisers": 16,
+  "activations_with_verified_evidence": 187
  }
 }

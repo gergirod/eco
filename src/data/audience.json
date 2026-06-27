@@ -2,14 +2,15 @@
  {
   "id": "luzu",
   "name": "Luzu TV",
-  "videos": 12,
-  "avg_concurrent": 95054,
+  "videos": 14,
+  "avg_concurrent": 85891,
   "peak_concurrent": 243607,
   "chat_coverage": 0,
   "chat_msgs_per_1k_min": null,
   "chat_quality_tier": "sin_datos",
   "chat_quality_label": "Sin chat capturado",
   "chat_noise_score": null,
+  "room_participation": null,
   "top_programs": [
    {
     "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
@@ -42,14 +43,15 @@
  {
   "id": "olga",
   "name": "Olga",
-  "videos": 12,
-  "avg_concurrent": 27993,
+  "videos": 15,
+  "avg_concurrent": 25824,
   "peak_concurrent": 49756,
   "chat_coverage": 100,
-  "chat_msgs_per_1k_min": 0.9,
+  "chat_msgs_per_1k_min": 1.0,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
-  "chat_noise_score": 0.17,
+  "chat_noise_score": 0.18,
+  "room_participation": null,
   "top_programs": [
    {
     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
@@ -89,45 +91,19 @@
     "chat_engagement": 2.81
    },
    {
+    "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+    "video_id": "W_HkPNOMeDc",
+    "chat_engagement": 2.56
+   },
+   {
+    "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
+    "video_id": "3QJmfDvuxIk",
+    "chat_engagement": 0.9
+   },
+   {
     "title": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
     "video_id": "s__pKWUr4MM",
     "chat_engagement": 0.81
-   },
-   {
-    "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
-    "video_id": "ptOHcGEdWCk",
-    "chat_engagement": 0.78
-   },
-   {
-    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-    "video_id": "bX7MB2_OI2I",
-    "chat_engagement": 0.74
-   }
-  ]
- },
- {
-  "id": "vorterix",
-  "name": "Vorterix",
-  "videos": 1,
-  "avg_concurrent": 8784,
-  "peak_concurrent": 9661,
-  "chat_coverage": 100,
-  "chat_msgs_per_1k_min": 0.7,
-  "chat_quality_tier": "media",
-  "chat_quality_label": "Comunidad moderada",
-  "chat_noise_score": 0.02,
-  "top_programs": [
-   {
-    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-    "peak": 9661,
-    "video_id": "3t9P2KFJ4K0"
-   }
-  ],
-  "top_programs_by_chat": [
-   {
-    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-    "video_id": "3t9P2KFJ4K0",
-    "chat_engagement": 0.71
    }
   ]
  },
@@ -142,6 +118,7 @@
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
   "chat_noise_score": 0.16,
+  "room_participation": null,
   "top_programs": [
    {
     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
@@ -168,6 +145,63 @@
   ]
  },
  {
+  "id": "vorterix",
+  "name": "Vorterix",
+  "videos": 4,
+  "avg_concurrent": 6026,
+  "peak_concurrent": 23656,
+  "chat_coverage": 100,
+  "chat_msgs_per_1k_min": 5.6,
+  "chat_quality_tier": "alta",
+  "chat_quality_label": "Comunidad activa",
+  "chat_noise_score": 0.08,
+  "room_participation": null,
+  "top_programs": [
+   {
+    "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+    "peak": 23656,
+    "video_id": "LjEHjrbNNgs"
+   },
+   {
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "peak": 9661,
+    "video_id": "3t9P2KFJ4K0"
+   },
+   {
+    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+    "peak": 2513,
+    "video_id": "EwFONN3W5cg"
+   },
+   {
+    "title": "🔴 ESTO NO SUCEDIÓ con Hernan Panessi, Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
+    "peak": 1447,
+    "video_id": "IubT1ZyjjEA"
+   }
+  ],
+  "top_programs_by_chat": [
+   {
+    "title": "🔴 ESTO NO SUCEDIÓ con Hernan Panessi, Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
+    "video_id": "IubT1ZyjjEA",
+    "chat_engagement": 9.86
+   },
+   {
+    "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+    "video_id": "LjEHjrbNNgs",
+    "chat_engagement": 6.38
+   },
+   {
+    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+    "video_id": "EwFONN3W5cg",
+    "chat_engagement": 5.5
+   },
+   {
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "video_id": "3t9P2KFJ4K0",
+    "chat_engagement": 0.71
+   }
+  ]
+ },
+ {
   "id": "gelatina",
   "name": "Gelatina",
   "videos": 1,
@@ -178,6 +212,7 @@
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
   "chat_noise_score": 0.04,
+  "room_participation": null,
   "top_programs": [
    {
     "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
@@ -190,6 +225,53 @@
     "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
     "video_id": "tlhTO7YtTJ0",
     "chat_engagement": 3.72
+   }
+  ]
+ },
+ {
+  "id": "neura",
+  "name": "Neura Media",
+  "videos": 3,
+  "avg_concurrent": 412,
+  "peak_concurrent": 1007,
+  "chat_coverage": 100,
+  "chat_msgs_per_1k_min": 16.0,
+  "chat_quality_tier": "alta",
+  "chat_quality_label": "Comunidad activa",
+  "chat_noise_score": 0.05,
+  "room_participation": null,
+  "top_programs": [
+   {
+    "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
+    "peak": 1007,
+    "video_id": "7ON4ZA5TtHc"
+   },
+   {
+    "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
+    "peak": 429,
+    "video_id": "XYJRLyO9exg"
+   },
+   {
+    "title": "🍿 Plot Twist 👾",
+    "peak": 202,
+    "video_id": "VRWovoLU0yQ"
+   }
+  ],
+  "top_programs_by_chat": [
+   {
+    "title": "🍿 Plot Twist 👾",
+    "video_id": "VRWovoLU0yQ",
+    "chat_engagement": 21.84
+   },
+   {
+    "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
+    "video_id": "7ON4ZA5TtHc",
+    "chat_engagement": 14.02
+   },
+   {
+    "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
+    "video_id": "XYJRLyO9exg",
+    "chat_engagement": 12.15
    }
   ]
  }

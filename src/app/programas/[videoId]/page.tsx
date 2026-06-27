@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useMemo, useState } from "react";
 import { useParams } from "next/navigation";
 import AudienceDemandPanel from "@/components/programs/AudienceDemandPanel";
+import RoomParticipationPanel from "@/components/programs/RoomParticipationPanel";
 import MomentModal from "@/components/MomentModal";
 import { Badge, Stat } from "@/components/ui";
 import { evidenceLabel, evidenceTone } from "@/lib/campaign";
@@ -13,6 +14,7 @@ import { useDataset } from "@/lib/useDataset";
 import { compact, fmtHMS, num, vodLink } from "@/lib/format";
 import { usdEst } from "@/lib/valuation";
 import { chatEcoLine, chatTableLine, chatToneClass, chatToneDot } from "@/lib/chatReaction";
+import type { RoomParticipation } from "@/lib/roomReaction";
 import reportsFb from "@/data/reports.json";
 import channelsFb from "@/data/channels.json";
 import momentsFb from "@/data/moments.json";
@@ -169,6 +171,10 @@ export default function ProgramaProfilePage() {
       )}
 
       <AudienceDemandPanel moment={moment} />
+
+      <RoomParticipationPanel
+        participation={(moment as { room_participation?: RoomParticipation } | null)?.room_participation}
+      />
 
       <section>
         <h2 className="text-[15px] font-semibold mb-3">Apariciones en este programa</h2>

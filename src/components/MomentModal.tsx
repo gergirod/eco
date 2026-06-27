@@ -7,6 +7,7 @@ import { VALUATION_HINT, VALUATION_INFO, usdEst } from "@/lib/valuation";
 import InfoTip from "@/components/InfoTip";
 import { openProgramReport } from "@/lib/programReport";
 import { chatEcoLine, chatHeadline, getChatReaction } from "@/lib/chatReaction";
+import { getRoomReaction, roomHasSignal } from "@/lib/roomReaction";
 
 const TIER_TONE = PROMINENCE_TONE;
 const SENT_TONE: Record<string, "green" | "gray" | "red"> = {
@@ -162,6 +163,8 @@ export default function MomentModal({
 }) {
   const hotMin = Math.floor((mention.t_seconds || 0) / 60);
   const chatRx = useMemo(() => getChatReaction(mention), [mention]);
+  const roomRx = useMemo(() => getRoomReaction(mention), [mention]);
+  const showRoom = roomHasSignal(mention);
   const concAt = useMemo(() => {
     if (!moment) return mention.views;
     const near = moment.series
@@ -280,6 +283,27 @@ export default function MomentModal({
             </div>
           )}
         </div>
+
+        {showRoom && roomRx && (
+          <div className="card px-4 py-3.5 mb-5 border-l-2 border-l-accent/40">
+            <div className="text-[11px] uppercase tracking-wide text-gray-400 mb-1.5">
+              Qué más pasó en la sala
+            </div>
+            <p className="text-[14px] leading-relaxed text-gray-800">
+              {roomRx.headline || (roomRx.lines || []).join(" ")}
+            </p>
+            {(roomRx.detail_lines || [])
+              .filter((line) => line !== roomRx.headline && !(roomRx.lines || []).includes(line))
+              .map((line, i) => (
+                <p key={i} className="text-[12.5px] text-gray-600 mt-2">
+                  {line}
+                </p>
+              ))}
+            {roomRx.disclaimer && (
+              <p className="text-[11px] text-gray-400 mt-2">{roomRx.disclaimer}</p>
+            )}
+          </div>
+        )}
 
         {moment ? (
           <div className="card p-4 mb-4">
