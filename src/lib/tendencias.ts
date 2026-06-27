@@ -4,6 +4,7 @@
  */
 
 import { parseDisplayDate } from "./novedades";
+import { formatChatEngagementShort } from "./coverage";
 
 export type TendenciaConfidence = "evidencia" | "conversacion" | "insight";
 
@@ -592,7 +593,7 @@ function buildCommunityInsights(
           ? `${top.name}: ${top.chat_quality_label.toLowerCase()}. Para activaciones con link o promo en el chat, el canal importa tanto como los concurrentes.`
           : "El engagement en sala no sigue al volumen de audiencia — negociá formato según objetivo de interacción.",
       signals: withChat.map(
-        (a) => `${a.name} ${a.chat_msgs_per_1k_min} msgs/1k concurrentes`
+        (a) => `${a.name}: ${formatChatEngagementShort(a.chat_msgs_per_1k_min ?? null)}`
       ),
       action: {
         href: `/canales/${top.id}?tab=comparaciones`,

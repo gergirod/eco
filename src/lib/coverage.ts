@@ -10,6 +10,37 @@ import type { DiscoveryAdvertiser, DiscoveryPlatformCoverage } from "./discovery
 export const ATTENTION_DEFINITION =
   "Atención = cuánta gente miraba el vivo en cada minuto (concurrentes). Lo medimos durante la emisión, no lo estimamos.";
 
+/** Qué mide la participación en chat (normalizada por audiencia). */
+export const CHAT_ENGAGEMENT_DEFINITION =
+  "Cuántos mensajes escribe la sala por minuto, ajustado por cuánta gente miraba. Sirve para comparar si la audiencia solo mira o también participa — sin favorecer al canal más grande.";
+
+/** Formatea el valor numérico de participación en chat. */
+export function formatChatEngagementValue(value: number | null | undefined): string {
+  if (value == null || !Number.isFinite(value)) return "s/d";
+  return value.toLocaleString("es-AR", { maximumFractionDigits: 2 });
+}
+
+/** Una línea legible: «2,9 mensajes/min por cada 1.000 mirando». */
+export function formatChatEngagementLine(value: number | null | undefined): string {
+  if (value == null || !Number.isFinite(value)) return "sin datos de chat";
+  return `${formatChatEngagementValue(value)} mensajes/min por cada 1.000 mirando`;
+}
+
+/** Versión corta para tablas y badges. */
+export function formatChatEngagementShort(value: number | null | undefined): string {
+  if (value == null || !Number.isFinite(value)) return "s/d";
+  return `${formatChatEngagementValue(value)} msg/min · por 1.000 mirando`;
+}
+
+/** Etiqueta cualitativa opcional (SPEC-009 tiers). */
+export function chatEngagementQualitative(value: number | null | undefined): string | null {
+  if (value == null || !Number.isFinite(value)) return null;
+  if (value >= 2) return "Sala muy activa";
+  if (value >= 0.8) return "Sala activa";
+  if (value >= 0.35) return "Participación moderada";
+  return "Poca participación";
+}
+
 /** Etiquetas unificadas (SPEC-005): pauta en UI, PNT solo backoffice/industria. */
 export const PAUTA_APPEARANCES_LABEL = "Apariciones de pauta";
 export const ATTENTION_COLUMN_LABEL = "Atención";

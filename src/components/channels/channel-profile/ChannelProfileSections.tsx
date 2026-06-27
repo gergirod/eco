@@ -5,7 +5,7 @@ import { useMemo } from "react";
 import { Badge, Bar, Stat } from "@/components/ui";
 import { evidenceLabel, evidenceTone } from "@/lib/campaign";
 import ProgramListCard from "@/components/programs/ProgramListCard";
-import { ATTENTION_DEFINITION, formatHours } from "@/lib/coverage";
+import { ATTENTION_DEFINITION, formatHours, formatChatEngagementLine, formatChatEngagementShort, formatChatEngagementValue, CHAT_ENGAGEMENT_DEFINITION, chatEngagementQualitative } from "@/lib/coverage";
 import {
   formatCaptureHoursLine,
   getChannelCaptureHours,
@@ -473,6 +473,7 @@ function AudienciaSection({
   return (
     <div>
       <p className="text-[13px] text-gray-500 mb-4 max-w-2xl leading-relaxed">{ATTENTION_DEFINITION}</p>
+      <p className="text-[12.5px] text-gray-500 mb-4 max-w-2xl leading-relaxed">{CHAT_ENGAGEMENT_DEFINITION}</p>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
         <Stat label="Atención prom." value={num(aud.avg_concurrent)} hint="concurrentes medidos" />
         <Stat label="Pico de atención" value={compact(aud.peak_concurrent)} hint="un minuto del vivo" />
@@ -482,16 +483,24 @@ function AudienciaSection({
           hint="de programas"
         />
         <Stat
-          label="Comunidad"
-          value={
-            aud.chat_msgs_per_1k_min != null ? `${aud.chat_msgs_per_1k_min} msgs/1k` : "s/d"
+          label="Participación en chat"
+          value={formatChatEngagementValue(aud.chat_msgs_per_1k_min)}
+          hint={
+            aud.chat_msgs_per_1k_min != null
+              ? "mensajes/min · por cada 1.000 mirando"
+              : chatLabel || "sin chat capturado"
           }
-          hint={chatLabel || "msgs / 1k concurrentes"}
+          info={CHAT_ENGAGEMENT_DEFINITION}
         />
       </div>
-      {chatLabel && aud.chat_coverage !== 0 && (
+      {aud.chat_msgs_per_1k_min != null && chatEngagementQualitative(aud.chat_msgs_per_1k_min) && aud.chat_coverage !== 0 ? (
+        <p className="text-[13px] text-gray-600 mb-4 max-w-xl leading-relaxed">
+          {chatEngagementQualitative(aud.chat_msgs_per_1k_min)}
+          {chatLabel ? ` · ${chatLabel}` : ""}.
+        </p>
+      ) : chatLabel && aud.chat_coverage !== 0 ? (
         <p className="text-[13px] text-gray-600 mb-4 max-w-xl leading-relaxed">{chatLabel}.</p>
-      )}
+      ) : null}
       {noiseNote && (
         <p className="text-[12.5px] text-gray-500 mb-4 max-w-xl leading-relaxed">{noiseNote}</p>
       )}
@@ -517,7 +526,8 @@ function AudienciaSection({
       )}
       {aud.top_programs_by_chat && aud.top_programs_by_chat.length > 0 && (
         <div className="card p-5 mt-5">
-          <h2 className="text-[15px] font-semibold mb-3">Top programas por actividad en chat</h2>
+          <h2 className="text-[15px] font-semibold mb-1">Programas donde más escribe la sala</h2>
+          <p className="text-[12px] text-gray-500 mb-3">Mensajes por minuto, ajustados por cuánta gente miraba.</p>
           <div className="flex flex-col gap-2">
             {aud.top_programs_by_chat.map((p, i) => (
               <div key={i} className="flex items-center justify-between gap-4 text-[13px]">
@@ -527,8 +537,8 @@ function AudienciaSection({
                 >
                   {p.title || p.video_id}
                 </Link>
-                <span className="tabular-nums text-gray-500 shrink-0">
-                  {p.chat_engagement} msgs/1k
+                <span className="tabular-nums text-gray-500 shrink-0 text-right max-w-[11rem] leading-snug">
+                  {formatChatEngagementLine(p.chat_engagement)}
                 </span>
               </div>
             ))}
@@ -627,9 +637,10 @@ function ComparacionesSection({
       </div>
       {chatChannels.length >= 2 && (
         <div className="card p-5">
-          <h2 className="text-[15px] font-semibold mb-1">Actividad en chat</h2>
+          <h2 className="text-[15px] font-semibold mb-1">Participación en chat</h2>
           <p className="text-[12px] text-gray-500 mb-4">
-            Solo canales con chat capturado — LUZU sin datos en el período.
+            Mensajes por minuto por cada 1.000 mirando — solo canales con chat capturado (LUZU sin datos
+            en el período).
           </p>
           {chatChannels.map((a) => (
             <div key={a.id} className="mb-3 last:mb-0">
@@ -640,8 +651,8 @@ function ComparacionesSection({
                 >
                   {a.name}
                 </Link>
-                <span className="tabular-nums text-gray-500">
-                  {a.chat_msgs_per_1k_min ?? "—"} msgs/1k
+                <span className="tabular-nums text-gray-500 text-right max-w-[11rem] leading-snug">
+                  {formatChatEngagementShort(a.chat_msgs_per_1k_min ?? null)}
                 </span>
               </div>
               <Bar value={a.chat_msgs_per_1k_min || 0} max={maxChatEng} />

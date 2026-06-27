@@ -2,6 +2,13 @@
 import { PageHeader, Stat, Badge, Bar } from "@/components/ui";
 import { useDataset } from "@/lib/useDataset";
 import { num, compact } from "@/lib/format";
+import {
+  CHAT_ENGAGEMENT_DEFINITION,
+  chatEngagementQualitative,
+  formatChatEngagementLine,
+  formatChatEngagementShort,
+  formatChatEngagementValue,
+} from "@/lib/coverage";
 
 export default function AudienciaPage() {
   const audience = useDataset<any[]>("audience");
@@ -11,19 +18,21 @@ export default function AudienciaPage() {
   return (
     <div>
       <PageHeader
-        title="Audience Quality"
-        sub="Concurrentes reales minuto a minuto. Contexto para defender CPM en el media kit y en los reportes de marca."
+        title="Calidad de audiencia"
+        sub="Concurrentes reales minuto a minuto y cuánto participa la sala en el chat."
       />
+
+      <p className="text-[12.5px] text-gray-500 mb-6 max-w-3xl leading-relaxed">{CHAT_ENGAGEMENT_DEFINITION}</p>
 
       <div className="grid grid-cols-3 gap-3 mb-6">
         <Stat label="Canales con audiencia" value={audience.length} hint="series capturadas" />
         <Stat label="Pico máximo" value={compact(totalPeak)} hint="concurrentes en un minuto" />
         <Stat
-          label="Mejor engagement"
+          label="Más participación en chat"
           value={
             audience.reduce((b, a) => (a.chat_msgs_per_1k_min || 0) > (b.chat_msgs_per_1k_min || 0) ? a : b, audience[0])?.name || "—"
           }
-          hint="chat por 1k concurrentes"
+          hint="mensajes/min por cada 1.000 mirando"
         />
       </div>
 
@@ -36,7 +45,7 @@ export default function AudienciaPage() {
                 <div className="text-[12px] text-gray-400 mt-0.5">{a.videos} programas con audiencia capturada</div>
               </div>
               {a.chat_msgs_per_1k_min != null ? (
-                <Badge tone="green">chat {a.chat_msgs_per_1k_min} / 1k concurrentes</Badge>
+                <Badge tone="green">{formatChatEngagementShort(a.chat_msgs_per_1k_min)}</Badge>
               ) : (
                 <Badge tone="gray">chat no capturado</Badge>
               )}
@@ -58,11 +67,14 @@ export default function AudienciaPage() {
                 <div className="text-[11px] text-gray-400">de los programas</div>
               </div>
               <div>
-                <div className="text-[11px] uppercase tracking-wide text-gray-400">Engagement</div>
+                <div className="text-[11px] uppercase tracking-wide text-gray-400">Participación en chat</div>
                 <div className="text-[19px] font-semibold tabular-nums mt-0.5">
-                  {a.chat_msgs_per_1k_min != null ? a.chat_msgs_per_1k_min : "s/d"}
+                  {formatChatEngagementValue(a.chat_msgs_per_1k_min)}
                 </div>
-                <div className="text-[11px] text-gray-400">msgs/1k/min</div>
+                <div className="text-[11px] text-gray-400">mensajes/min · por 1.000 mirando</div>
+                {chatEngagementQualitative(a.chat_msgs_per_1k_min) ? (
+                  <div className="text-[11px] text-gray-500 mt-1">{chatEngagementQualitative(a.chat_msgs_per_1k_min)}</div>
+                ) : null}
               </div>
             </div>
 
@@ -84,14 +96,40 @@ export default function AudienciaPage() {
                 ))}
               </div>
             </div>
+
+            {a.top_programs_by_chat && a.top_programs_by_chat.length > 0 && (
+              <div className="border-t border-[#f0f0f0] pt-3 mt-3">
+                <div className="text-[12px] font-medium text-gray-500 mb-2">
+                  Programas donde más escribe la sala
+                </div>
+                <div className="flex flex-col gap-1.5">
+                  {a.top_programs_by_chat.map(
+                    (p: { title: string; video_id: string; chat_engagement: number }, i: number) => (
+                      <div key={i} className="flex items-center justify-between gap-4 text-[13px]">
+                        <a
+                          href={`https://www.youtube.com/watch?v=${p.video_id}`}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="text-gray-700 hover:text-accent hover:underline truncate max-w-[560px]"
+                        >
+                          {p.title || p.video_id}
+                        </a>
+                        <span className="tabular-nums text-gray-400 shrink-0 text-right max-w-[11rem] leading-snug">
+                          {formatChatEngagementLine(p.chat_engagement)}
+                        </span>
+                      </div>
+                    )
+                  )}
+                </div>
+              </div>
+            )}
           </div>
         ))}
       </div>
 
       <p className="text-[11px] text-gray-400 mt-4 leading-relaxed max-w-[820px]">
-        Audiencia concurrente medida minuto a minuto durante el vivo. El engagement (mensajes de chat
-        por cada 1.000 concurrentes por minuto) distingue audiencia activa de audiencia pasiva — clave
-        para defender CPM y comparar calidad entre canales, no solo tamaño.
+        {CHAT_ENGAGEMENT_DEFINITION} Así podés comparar calidad de sala entre canales, no solo cuánta
+        gente miraba.
       </p>
     </div>
   );
