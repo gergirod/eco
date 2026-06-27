@@ -1,7 +1,7 @@
 "use client";
 
 import type { CategoryRow, ChannelPlacement, MixRow, TopicRow } from "@/lib/placement";
-import { categoryLabel } from "@/lib/placement";
+import { categoryLabel, formatAnguloCharla } from "@/lib/placement";
 
 function MixBar({ rows, empty }: { rows: MixRow[]; empty?: string }) {
   if (!rows.length) {
@@ -88,12 +88,19 @@ export function PlacementChannelCard({
         </div>
         <div>
           <h3 className="text-[12px] font-semibold uppercase tracking-wide text-gray-400 mb-3">
-            De qué hablan
+            Ángulo de la charla
           </h3>
-          <TopicList rows={placement.top_temas} />
-          <div className="mt-3">
+          {placement.categoria_mix.length > 0 ? (
             <CategoryPills rows={placement.categoria_mix} />
-          </div>
+          ) : (
+            <TopicList rows={placement.top_temas} />
+          )}
+          {placement.categoria_mix.length > 0 && placement.top_temas.length > 0 ? (
+            <div className="mt-3">
+              <p className="text-[11px] text-gray-400 mb-2">Ejemplos concretos que se repiten</p>
+              <TopicList rows={placement.top_temas} limit={3} />
+            </div>
+          ) : null}
         </div>
       </div>
     </div>
@@ -143,8 +150,8 @@ export function PlacementShowSnippet({
 }) {
   if (!placement) return null;
   const topRubro = placement.rubro_mix[0];
-  const topTema = placement.top_temas[0];
-  if (!topRubro && !topTema) return null;
+  const angulo = formatAnguloCharla(placement.categoria_mix);
+  if (!topRubro && !angulo) return null;
 
   if (compact) {
     const rubroLine = topRubro ? formatCompactRubro(placement.rubro_mix) : null;
@@ -157,11 +164,15 @@ export function PlacementShowSnippet({
             {rubroLine.suffix}
           </p>
         ) : null}
-        {topTema ? (
+        {angulo ? (
           <p>
-            Charlan de: <b className="text-gray-700">{topTema.tema}</b>
+            Ángulo de la charla: <b className="text-gray-700">{angulo}</b>
           </p>
-        ) : null}
+        ) : (
+          <p className="text-gray-400">
+            Sin audio procesado para temas en las emisiones que medimos de este show.
+          </p>
+        )}
       </div>
     );
   }
@@ -174,9 +185,15 @@ export function PlacementShowSnippet({
           <MixBar rows={placement.rubro_mix.slice(0, 4)} />
         </div>
       ) : null}
+      {placement.categoria_mix.length > 0 ? (
+        <div>
+          <h4 className="text-[11px] uppercase tracking-wide text-gray-400 mb-2">Ángulo de la charla</h4>
+          <CategoryPills rows={placement.categoria_mix} />
+        </div>
+      ) : null}
       {placement.top_temas.length > 0 ? (
         <div>
-          <h4 className="text-[11px] uppercase tracking-wide text-gray-400 mb-2">De qué hablan</h4>
+          <h4 className="text-[11px] uppercase tracking-wide text-gray-400 mb-2">Ejemplos que se repiten</h4>
           <TopicList rows={placement.top_temas} limit={4} />
         </div>
       ) : null}

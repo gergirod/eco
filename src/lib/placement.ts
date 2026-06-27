@@ -99,16 +99,24 @@ export function getShowPlacement(
 
 export function categoryLabel(cat: string): string {
   const labels: Record<string, string> = {
-    producto: "Producto",
-    lugar: "Lugar",
-    persona: "Persona",
-    actividad: "Actividad",
-    cultura: "Cultura",
+    producto: "Consumo y productos",
+    lugar: "Lugares y viajes",
+    persona: "Gente y famosos",
+    actividad: "Deporte y actividades",
+    cultura: "Cultura y espectáculos",
     tecnologia: "Tecnología",
     salud: "Salud",
-    comida: "Comida",
-    economia: "Economía",
-    otro: "Otro",
+    comida: "Comida y gastronomía",
+    economia: "Economía y plata",
+    otro: "Varios",
   };
   return labels[cat] || cat.charAt(0).toUpperCase() + cat.slice(1);
+}
+
+export function formatAnguloCharla(cats: CategoryRow[], limit = 2): string | null {
+  if (!cats.length) return null;
+  return cats
+    .slice(0, limit)
+    .map((c) => categoryLabel(c.categoria).toLowerCase())
+    .join(" · ");
 }
