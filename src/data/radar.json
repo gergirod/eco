@@ -279,7 +279,7 @@
     "t_seconds": 600
    }
   ],
-  "highlights_total": 285
+  "highlights_total": 290
  },
  {
   "tema": "argentinos exterior",
@@ -556,7 +556,286 @@
     "t_seconds": 4800
    }
   ],
-  "highlights_total": 64
+  "highlights_total": 65
+ },
+ {
+  "tema": "mate",
+  "score": 105.2,
+  "trend_score": 31.77,
+  "menciones": 15,
+  "growth_wow": 1.0,
+  "demand_ratio": 0.0,
+  "demand_signals": 0,
+  "canales": [
+   "BLENDER",
+   "GELATINA",
+   "LUZU TV",
+   "OLGA",
+   "Urbana Play 104.3 FM",
+   "Vorterix"
+  ],
+  "categorias": [
+   "actividad",
+   "comida",
+   "cultura",
+   "producto",
+   "relaciones",
+   "salud",
+   "tecnologia"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "19/06/2026",
+    "n": 14.49283050987087
+   },
+   {
+    "date": "22/06/2026",
+    "n": 5.1069124263037615
+   },
+   {
+    "date": "23/06/2026",
+    "n": 66.81653662127785
+   },
+   {
+    "date": "25/06/2026",
+    "n": 4.827338395242935
+   },
+   {
+    "date": "26/06/2026",
+    "n": 13.965811471426935
+   }
+  ],
+  "gt_status": "ya_masivo",
+  "gt_lead_days": -362,
+  "gt_peak": 100,
+  "cluster": null,
+  "variantes_relacionadas": [],
+  "highlights": [
+   {
+    "channel": "OLGA",
+    "video_id": "LzZD6sPGPu0",
+    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
+    "date": "20260608",
+    "subtema": "Violencia obstétrica y falta de estudios sobre salud materna",
+    "contexto": "Se discute cómo hay pocos estudios sobre complicaciones del embarazo en mujeres, lo que lleva a tratamientos inadecuados como recetar paracetamol para dolores severos",
+    "intensidad": 3,
+    "start_min": 90,
+    "t_seconds": 5400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "bX7MB2_OI2I",
+    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+    "date": "20260623",
+    "subtema": "Menopausia y climaterio",
+    "contexto": "La doctora Pilar Sosa explica que la menopausia son 12 meses seguidos sin menstruación, mientras que climaterio engloba todo lo que pasa antes, durante y después",
+    "intensidad": 3,
+    "start_min": 130,
+    "t_seconds": 7800
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "FXtNa0lTAT4",
+    "title": "#SEFUELARGA l MORE MIÑO QUIERE QUEDAR EN LUZU, TEO TRAE INFORMACIÓN CHILLEDO Y ¿MA/PATERNAMOS?",
+    "date": "20260610",
+    "subtema": "Maternación en relaciones románticas",
+    "contexto": "Discusión extensa sobre cómo las mujeres asumen roles maternales con parejas (cuidados, dinero, tareas domésticas) y cómo eso afecta la relación",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "LzZD6sPGPu0",
+    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
+    "date": "20260608",
+    "subtema": "Narrativa idealizada vs realidad de la maternidad",
+    "contexto": "Se cuestiona el discurso que solo promociona lo hermoso de ser madre mientras oculta el dolor, miedo e incomodidad real del embarazo y puerperio",
+    "intensidad": 3,
+    "start_min": 90,
+    "t_seconds": 5400
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "R41W9i_YWio",
+    "title": "#PATRIAYFAMILIA l ¿CÓMO ESTÁ EL CORAZÓN DE ALBERE? Y SU RELACIÓN CON LA JOAQUI",
+    "date": "20260603",
+    "subtema": "Maternidad y exposición en redes sociales",
+    "contexto": "Álvaro comenta cómo cambió su relación con mostrar su vida después de quedar embarazada, priorizando su bienestar mental y el de su bebé",
+    "intensidad": 3,
+    "start_min": 90,
+    "t_seconds": 5400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "AUtF1mhDL_g",
+    "title": "RECORDAMOS AL INDIO SOLARI | #SeríaIncreíble 5/6",
+    "date": "20260605",
+    "subtema": "Lactancia materna y alimentación del bebé",
+    "contexto": "Discusión extensa sobre lactancia materna, técnicas, duración recomendada (6 meses exclusiva, hasta 2 años o más según OMS) y cuidados.",
+    "intensidad": 3,
+    "start_min": 70,
+    "t_seconds": 4200
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "R41W9i_YWio",
+    "title": "#PATRIAYFAMILIA l ¿CÓMO ESTÁ EL CORAZÓN DE ALBERE? Y SU RELACIÓN CON LA JOAQUI",
+    "date": "20260603",
+    "subtema": "Maternidad joven y presión social",
+    "contexto": "Discute el acoso y críticas recibidas en redes por ser madre joven, desinstalación de Twitter, presión de mantener contenido postparto",
+    "intensidad": 3,
+    "start_min": 100,
+    "t_seconds": 6000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "FXtNa0lTAT4",
+    "title": "#SEFUELARGA l MORE MIÑO QUIERE QUEDAR EN LUZU, TEO TRAE INFORMACIÓN CHILLEDO Y ¿MA/PATERNAMOS?",
+    "date": "20260610",
+    "subtema": "Dinámicas de maternaje en parejas",
+    "contexto": "Discusión sobre cómo las mujeres tienden a maternar a sus parejas, cuidarlos excesivamente y hacerles tareas que podrían hacer solos",
+    "intensidad": 3,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "-Nbzhf61mvU",
+    "title": "#ELSHOWDELVERANO | CON FLOR JAZMIN: MATERNIDAD, TATUAJES Y ANECDOTAS",
+    "date": "20260603",
+    "subtema": "Relación padres-hijos y arrepentimiento maternal",
+    "contexto": "Discusión sobre no caerle bien un hijo propio, experiencias personales de arrepentimiento de maternidad y energías oscuras en niños",
+    "intensidad": 3,
+    "start_min": 20,
+    "t_seconds": 1200
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "ZtZeqX0VL24",
+    "title": "#LOSNOTALENTOS l LLEGAMOS: OCCHIAMIN, EL PAPÁ DE AGUSNETA Y TINELLI NOS MIRAN",
+    "date": "20260604",
+    "subtema": "Mate todo en uno (termo-mate)",
+    "contexto": "Debaten sobre un mate que es termo y mate combinado, analizando su mercado y utilidad para personas en transporte o viajes",
+    "intensidad": 3,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "6COldxwUDK8",
+    "title": "HOY NOS ESTALLAMOS con ANTONIO RÍOS y CHANCHI ESTÉVEZ | #LaGambeta",
+    "date": "20260608",
+    "subtema": "Fútbol amateur y análisis de partidos",
+    "contexto": "Nueva sección 'Siga la Liga' donde analizan videos de fútbol amateur con comentarios técnicos sobre arqueros y defensa",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "GELATINA",
+    "video_id": "tlhTO7YtTJ0",
+    "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
+    "date": "20260626",
+    "subtema": "Técnica de stand-up y prueba de material",
+    "contexto": "Explicación de cómo se prueba material en vivo, errores, silencios incómodos y ajuste en tiempo real frente al público",
+    "intensidad": 3,
+    "start_min": 120,
+    "t_seconds": 7200
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "R41W9i_YWio",
+    "title": "#PATRIAYFAMILIA l ¿CÓMO ESTÁ EL CORAZÓN DE ALBERE? Y SU RELACIÓN CON LA JOAQUI",
+    "date": "20260603",
+    "subtema": "Maternidad y decisión de ser madre",
+    "contexto": "Discusión sobre la indecisión de tener hijos, la edad para ser madre y cómo una no está nunca completamente preparada",
+    "intensidad": 3,
+    "start_min": 110,
+    "t_seconds": 6600
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "LzZD6sPGPu0",
+    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
+    "date": "20260608",
+    "subtema": "maternidad y rutina de sueño con bebé recién nacido",
+    "contexto": "Ori cuenta que su hija de tres meses duerme cinco horas seguidas, la alimenta a las 12:30-1am para que descanse más",
+    "intensidad": 3,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "-Nbzhf61mvU",
+    "title": "#ELSHOWDELVERANO | CON FLOR JAZMIN: MATERNIDAD, TATUAJES Y ANECDOTAS",
+    "date": "20260603",
+    "subtema": "Maternidad y paternidad responsable",
+    "contexto": "Flor reflexiona sobre no romantizar la maternidad, verla como responsabilidad de por vida con incertidumbre",
+    "intensidad": 3,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "E1SnlQyyuRc",
+    "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
+    "date": "20260623",
+    "subtema": "Preparación de mate",
+    "contexto": "Enseñanza completa sobre cómo armar y servir un mate: temperatura del agua, yerba, bombilla, técnica",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "E1SnlQyyuRc",
+    "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
+    "date": "20260623",
+    "subtema": "Preparación y uso del mate",
+    "contexto": "Análisis detallado sobre cómo preparar mate, cambiar yerba, limpiar, y reutilización entre personas",
+    "intensidad": 3,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "2sxqtU8XXTQ",
+    "title": "CLASES DE MODELAJE CON PAULA CHAVES | #TapadosDeLaburo 23/6",
+    "date": "20260623",
+    "subtema": "Mate y cultura del mate",
+    "contexto": "Debate detallado sobre técnicas de tomar mate, yerba uruguaya vs otras, bombilla y forma correcta",
+    "intensidad": 3,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "I_UCBhGYGhg",
+    "title": "#LANOVELA | MANTENER MENTIRAS EN EL TIEMPO Y CARI SE TOMO UN \"TE AMO\" EN LA TAZA DE DIEGO",
+    "date": "20260603",
+    "subtema": "Consumo de té y mate",
+    "contexto": "Debate sobre si alguien estaba tomando té en una taza de Diego, vs si tomaba mate a la mañana",
+    "intensidad": 3,
+    "start_min": 20,
+    "t_seconds": 1200
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "date": "20260625",
+    "subtema": "Embarazo y maternidad",
+    "contexto": "Oyente relata su embarazo prematuro y cómo el programa la acompañó durante reposo absoluto",
+    "intensidad": 3,
+    "start_min": 170,
+    "t_seconds": 10200
+   }
+  ],
+  "highlights_total": 70
  },
  {
   "tema": "batman película",
@@ -1096,284 +1375,6 @@
   "highlights_total": 38
  },
  {
-  "tema": "mate",
-  "score": 104.0,
-  "trend_score": 30.21,
-  "menciones": 14,
-  "growth_wow": 1.0,
-  "demand_ratio": 0.0,
-  "demand_signals": 0,
-  "canales": [
-   "BLENDER",
-   "GELATINA",
-   "LUZU TV",
-   "OLGA",
-   "Vorterix"
-  ],
-  "categorias": [
-   "actividad",
-   "comida",
-   "cultura",
-   "producto",
-   "relaciones",
-   "salud",
-   "tecnologia"
-  ],
-  "cross_comunidad": true,
-  "multi_dia": true,
-  "candidato": true,
-  "serie": [
-   {
-    "date": "19/06/2026",
-    "n": 14.49283050987087
-   },
-   {
-    "date": "22/06/2026",
-    "n": 5.1069124263037615
-   },
-   {
-    "date": "23/06/2026",
-    "n": 66.81653662127785
-   },
-   {
-    "date": "25/06/2026",
-    "n": 4.827338395242935
-   },
-   {
-    "date": "26/06/2026",
-    "n": 12.774501841054395
-   }
-  ],
-  "gt_status": "ya_masivo",
-  "gt_lead_days": -362,
-  "gt_peak": 100,
-  "cluster": null,
-  "variantes_relacionadas": [],
-  "highlights": [
-   {
-    "channel": "OLGA",
-    "video_id": "LzZD6sPGPu0",
-    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
-    "date": "20260608",
-    "subtema": "Violencia obstétrica y falta de estudios sobre salud materna",
-    "contexto": "Se discute cómo hay pocos estudios sobre complicaciones del embarazo en mujeres, lo que lleva a tratamientos inadecuados como recetar paracetamol para dolores severos",
-    "intensidad": 3,
-    "start_min": 90,
-    "t_seconds": 5400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "bX7MB2_OI2I",
-    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-    "date": "20260623",
-    "subtema": "Menopausia y climaterio",
-    "contexto": "La doctora Pilar Sosa explica que la menopausia son 12 meses seguidos sin menstruación, mientras que climaterio engloba todo lo que pasa antes, durante y después",
-    "intensidad": 3,
-    "start_min": 130,
-    "t_seconds": 7800
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "FXtNa0lTAT4",
-    "title": "#SEFUELARGA l MORE MIÑO QUIERE QUEDAR EN LUZU, TEO TRAE INFORMACIÓN CHILLEDO Y ¿MA/PATERNAMOS?",
-    "date": "20260610",
-    "subtema": "Maternación en relaciones románticas",
-    "contexto": "Discusión extensa sobre cómo las mujeres asumen roles maternales con parejas (cuidados, dinero, tareas domésticas) y cómo eso afecta la relación",
-    "intensidad": 3,
-    "start_min": 60,
-    "t_seconds": 3600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "LzZD6sPGPu0",
-    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
-    "date": "20260608",
-    "subtema": "Narrativa idealizada vs realidad de la maternidad",
-    "contexto": "Se cuestiona el discurso que solo promociona lo hermoso de ser madre mientras oculta el dolor, miedo e incomodidad real del embarazo y puerperio",
-    "intensidad": 3,
-    "start_min": 90,
-    "t_seconds": 5400
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "R41W9i_YWio",
-    "title": "#PATRIAYFAMILIA l ¿CÓMO ESTÁ EL CORAZÓN DE ALBERE? Y SU RELACIÓN CON LA JOAQUI",
-    "date": "20260603",
-    "subtema": "Maternidad y exposición en redes sociales",
-    "contexto": "Álvaro comenta cómo cambió su relación con mostrar su vida después de quedar embarazada, priorizando su bienestar mental y el de su bebé",
-    "intensidad": 3,
-    "start_min": 90,
-    "t_seconds": 5400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "AUtF1mhDL_g",
-    "title": "RECORDAMOS AL INDIO SOLARI | #SeríaIncreíble 5/6",
-    "date": "20260605",
-    "subtema": "Lactancia materna y alimentación del bebé",
-    "contexto": "Discusión extensa sobre lactancia materna, técnicas, duración recomendada (6 meses exclusiva, hasta 2 años o más según OMS) y cuidados.",
-    "intensidad": 3,
-    "start_min": 70,
-    "t_seconds": 4200
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "R41W9i_YWio",
-    "title": "#PATRIAYFAMILIA l ¿CÓMO ESTÁ EL CORAZÓN DE ALBERE? Y SU RELACIÓN CON LA JOAQUI",
-    "date": "20260603",
-    "subtema": "Maternidad joven y presión social",
-    "contexto": "Discute el acoso y críticas recibidas en redes por ser madre joven, desinstalación de Twitter, presión de mantener contenido postparto",
-    "intensidad": 3,
-    "start_min": 100,
-    "t_seconds": 6000
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "FXtNa0lTAT4",
-    "title": "#SEFUELARGA l MORE MIÑO QUIERE QUEDAR EN LUZU, TEO TRAE INFORMACIÓN CHILLEDO Y ¿MA/PATERNAMOS?",
-    "date": "20260610",
-    "subtema": "Dinámicas de maternaje en parejas",
-    "contexto": "Discusión sobre cómo las mujeres tienden a maternar a sus parejas, cuidarlos excesivamente y hacerles tareas que podrían hacer solos",
-    "intensidad": 3,
-    "start_min": 50,
-    "t_seconds": 3000
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "-Nbzhf61mvU",
-    "title": "#ELSHOWDELVERANO | CON FLOR JAZMIN: MATERNIDAD, TATUAJES Y ANECDOTAS",
-    "date": "20260603",
-    "subtema": "Relación padres-hijos y arrepentimiento maternal",
-    "contexto": "Discusión sobre no caerle bien un hijo propio, experiencias personales de arrepentimiento de maternidad y energías oscuras en niños",
-    "intensidad": 3,
-    "start_min": 20,
-    "t_seconds": 1200
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "ZtZeqX0VL24",
-    "title": "#LOSNOTALENTOS l LLEGAMOS: OCCHIAMIN, EL PAPÁ DE AGUSNETA Y TINELLI NOS MIRAN",
-    "date": "20260604",
-    "subtema": "Mate todo en uno (termo-mate)",
-    "contexto": "Debaten sobre un mate que es termo y mate combinado, analizando su mercado y utilidad para personas en transporte o viajes",
-    "intensidad": 3,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "6COldxwUDK8",
-    "title": "HOY NOS ESTALLAMOS con ANTONIO RÍOS y CHANCHI ESTÉVEZ | #LaGambeta",
-    "date": "20260608",
-    "subtema": "Fútbol amateur y análisis de partidos",
-    "contexto": "Nueva sección 'Siga la Liga' donde analizan videos de fútbol amateur con comentarios técnicos sobre arqueros y defensa",
-    "intensidad": 3,
-    "start_min": 60,
-    "t_seconds": 3600
-   },
-   {
-    "channel": "GELATINA",
-    "video_id": "tlhTO7YtTJ0",
-    "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
-    "date": "20260626",
-    "subtema": "Técnica de stand-up y prueba de material",
-    "contexto": "Explicación de cómo se prueba material en vivo, errores, silencios incómodos y ajuste en tiempo real frente al público",
-    "intensidad": 3,
-    "start_min": 120,
-    "t_seconds": 7200
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "R41W9i_YWio",
-    "title": "#PATRIAYFAMILIA l ¿CÓMO ESTÁ EL CORAZÓN DE ALBERE? Y SU RELACIÓN CON LA JOAQUI",
-    "date": "20260603",
-    "subtema": "Maternidad y decisión de ser madre",
-    "contexto": "Discusión sobre la indecisión de tener hijos, la edad para ser madre y cómo una no está nunca completamente preparada",
-    "intensidad": 3,
-    "start_min": 110,
-    "t_seconds": 6600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "LzZD6sPGPu0",
-    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
-    "date": "20260608",
-    "subtema": "maternidad y rutina de sueño con bebé recién nacido",
-    "contexto": "Ori cuenta que su hija de tres meses duerme cinco horas seguidas, la alimenta a las 12:30-1am para que descanse más",
-    "intensidad": 3,
-    "start_min": 0,
-    "t_seconds": 0
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "-Nbzhf61mvU",
-    "title": "#ELSHOWDELVERANO | CON FLOR JAZMIN: MATERNIDAD, TATUAJES Y ANECDOTAS",
-    "date": "20260603",
-    "subtema": "Maternidad y paternidad responsable",
-    "contexto": "Flor reflexiona sobre no romantizar la maternidad, verla como responsabilidad de por vida con incertidumbre",
-    "intensidad": 3,
-    "start_min": 50,
-    "t_seconds": 3000
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "E1SnlQyyuRc",
-    "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
-    "date": "20260623",
-    "subtema": "Preparación de mate",
-    "contexto": "Enseñanza completa sobre cómo armar y servir un mate: temperatura del agua, yerba, bombilla, técnica",
-    "intensidad": 3,
-    "start_min": 60,
-    "t_seconds": 3600
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "E1SnlQyyuRc",
-    "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
-    "date": "20260623",
-    "subtema": "Preparación y uso del mate",
-    "contexto": "Análisis detallado sobre cómo preparar mate, cambiar yerba, limpiar, y reutilización entre personas",
-    "intensidad": 3,
-    "start_min": 50,
-    "t_seconds": 3000
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "2sxqtU8XXTQ",
-    "title": "CLASES DE MODELAJE CON PAULA CHAVES | #TapadosDeLaburo 23/6",
-    "date": "20260623",
-    "subtema": "Mate y cultura del mate",
-    "contexto": "Debate detallado sobre técnicas de tomar mate, yerba uruguaya vs otras, bombilla y forma correcta",
-    "intensidad": 3,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "I_UCBhGYGhg",
-    "title": "#LANOVELA | MANTENER MENTIRAS EN EL TIEMPO Y CARI SE TOMO UN \"TE AMO\" EN LA TAZA DE DIEGO",
-    "date": "20260603",
-    "subtema": "Consumo de té y mate",
-    "contexto": "Debate sobre si alguien estaba tomando té en una taza de Diego, vs si tomaba mate a la mañana",
-    "intensidad": 3,
-    "start_min": 20,
-    "t_seconds": 1200
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "mxFu-R3O8TY",
-    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
-    "date": "20260625",
-    "subtema": "Embarazo y maternidad",
-    "contexto": "Oyente relata su embarazo prematuro y cómo el programa la acompañó durante reposo absoluto",
-    "intensidad": 3,
-    "start_min": 170,
-    "t_seconds": 10200
-   }
-  ],
-  "highlights_total": 69
- },
- {
   "tema": "banderazo miami",
   "score": 250.3,
   "trend_score": 29.78,
@@ -1649,7 +1650,7 @@
     "t_seconds": 5400
    }
   ],
-  "highlights_total": 85
+  "highlights_total": 86
  },
  {
   "tema": "beso en vivo",
@@ -1734,6 +1735,17 @@
     "intensidad": 3,
     "start_min": 40,
     "t_seconds": 2400
+   },
+   {
+    "channel": "Urbana Play 104.3 FM",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "date": "20260626",
+    "subtema": "Teatro en vivo - Historias Innecesarias",
+    "contexto": "Damián Cook presenta su proyecto de teatro donde reformula cada función con historias locales distintas, sin repetir contenido",
+    "intensidad": 3,
+    "start_min": 140,
+    "t_seconds": 8400
    },
    {
     "channel": "LUZU TV",
@@ -1910,20 +1922,9 @@
     "intensidad": 3,
     "start_min": 120,
     "t_seconds": 7200
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "AUtF1mhDL_g",
-    "title": "RECORDAMOS AL INDIO SOLARI | #SeríaIncreíble 5/6",
-    "date": "20260605",
-    "subtema": "Conciertos y presentaciones en vivo",
-    "contexto": "Las misas itinerantes, la Barría, Santa Fe, Mendoza. Los últimos conciertos que el indio pudo estar presente estaban llenos de chicos y chicas muy jovencitos.",
-    "intensidad": 2,
-    "start_min": 90,
-    "t_seconds": 5400
    }
   ],
-  "highlights_total": 72
+  "highlights_total": 73
  },
  {
   "tema": "cine animado",
@@ -2368,6 +2369,17 @@
     "t_seconds": 4800
    },
    {
+    "channel": "Urbana Play 104.3 FM",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "date": "20260626",
+    "subtema": "Consumo de carne y asado",
+    "contexto": "El conductor habla sobre volver a comer carne después de dos semanas comiendo pollo, y disfrutar de un asadito",
+    "intensidad": 2,
+    "start_min": 90,
+    "t_seconds": 5400
+   },
+   {
     "channel": "OLGA",
     "video_id": "GgeocOAEm7o",
     "title": "NOE CUSTODIO ES LA MEJOR JUGADORA de “EN UNA ESCENA” | #TapadosDeLaburo 1/6",
@@ -2454,20 +2466,9 @@
     "intensidad": 2,
     "start_min": 40,
     "t_seconds": 2400
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "ZtZeqX0VL24",
-    "title": "#LOSNOTALENTOS l LLEGAMOS: OCCHIAMIN, EL PAPÁ DE AGUSNETA Y TINELLI NOS MIRAN",
-    "date": "20260604",
-    "subtema": "Consumo de datos móviles",
-    "contexto": "Se mencionó que la app consume mucho menos datos que YouTube",
-    "intensidad": 2,
-    "start_min": 60,
-    "t_seconds": 3600
    }
   ],
-  "highlights_total": 27
+  "highlights_total": 28
  },
  {
   "tema": "cine argentino",
@@ -2734,7 +2735,7 @@
     "t_seconds": 5400
    }
   ],
-  "highlights_total": 55
+  "highlights_total": 56
  },
  {
   "tema": "audiencia chile",
@@ -2876,6 +2877,17 @@
     "t_seconds": 3000
    },
    {
+    "channel": "Urbana Play 104.3 FM",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "date": "20260626",
+    "subtema": "Conexión con audiencia de redes sociales",
+    "contexto": "Impacto de Historias Innecesarias en YouTube generando reconocimiento en público tras años de pandemia",
+    "intensidad": 2,
+    "start_min": 140,
+    "t_seconds": 8400
+   },
+   {
     "channel": "Vorterix",
     "video_id": "LjEHjrbNNgs",
     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
@@ -2997,7 +3009,7 @@
     "t_seconds": 6000
    }
   ],
-  "highlights_total": 19
+  "highlights_total": 20
  },
  {
   "tema": "precios apple",
@@ -3558,6 +3570,17 @@
     "t_seconds": 6600
    },
    {
+    "channel": "Urbana Play 104.3 FM",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "date": "20260626",
+    "subtema": "Feria de Café en Barrancas de Belgrano",
+    "contexto": "Feria con cafeterías de la ciudad, música en vivo, opciones saladas y dulces con precios promocionales. 11 y 12 de septiembre",
+    "intensidad": 2,
+    "start_min": 120,
+    "t_seconds": 7200
+   },
+   {
     "channel": "OLGA",
     "video_id": "W_HkPNOMeDc",
     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
@@ -3679,6 +3702,17 @@
     "t_seconds": 2400
    },
    {
+    "channel": "Urbana Play 104.3 FM",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "date": "20260626",
+    "subtema": "Café Kimi de especialidad",
+    "contexto": "Se menciona como sponsor, ubicado en Rabignani 1571, abierto lunes a viernes 8-20 y sábados 9-20",
+    "intensidad": 1,
+    "start_min": 110,
+    "t_seconds": 6600
+   },
+   {
     "channel": "LUZU TV",
     "video_id": "F-agZdGGj4g",
     "title": "#NADIEDICENADA | NO ENTENDEMOS QUÉ PASÓ HOY: PICADAS, MARIPOSAS Y... ¿LAS ABUELAS DEL STREAMING?",
@@ -3721,20 +3755,9 @@
     "intensidad": 1,
     "start_min": 50,
     "t_seconds": 3000
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "RZ3T2ScqCAE",
-    "title": "#ANTESQUENADIE | ¿ALGUIEN TIENE OLOR A PELO? Y EL TRINCHE SE SACA COMO NUNCA ANTES",
-    "date": "20260611",
-    "subtema": "Café con chocolate",
-    "contexto": "Se menciona brevemente como una combinación popular de bebidas",
-    "intensidad": 1,
-    "start_min": 80,
-    "t_seconds": 4800
    }
   ],
-  "highlights_total": 19
+  "highlights_total": 21
  },
  {
   "tema": "regulación transporte",
@@ -6704,6 +6727,17 @@
     "t_seconds": 7200
    },
    {
+    "channel": "Urbana Play 104.3 FM",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "date": "20260626",
+    "subtema": "Uso de IA en producción de contenido",
+    "contexto": "Empleo de inteligencia artificial para filtrar búsquedas de archivos YouTube y optimizar tiempo de investigación",
+    "intensidad": 2,
+    "start_min": 140,
+    "t_seconds": 8400
+   },
+   {
     "channel": "Vorterix",
     "video_id": "FYdwwoHNrMs",
     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
@@ -6814,7 +6848,7 @@
     "t_seconds": 1800
    }
   ],
-  "highlights_total": 17
+  "highlights_total": 18
  },
  {
   "tema": "adopción mascotas",
@@ -8014,7 +8048,7 @@
     "t_seconds": 2400
    }
   ],
-  "highlights_total": 114
+  "highlights_total": 115
  },
  {
   "tema": "baile bodas",
@@ -9056,7 +9090,7 @@
     "t_seconds": 5400
    }
   ],
-  "highlights_total": 265
+  "highlights_total": 266
  },
  {
   "tema": "baños compartidos",
@@ -9695,6 +9729,149 @@
   "highlights_total": 48
  },
  {
+  "tema": "bares juegos de mesa",
+  "score": 19.0,
+  "trend_score": 20.62,
+  "menciones": 6,
+  "growth_wow": 0.529,
+  "demand_ratio": 0.167,
+  "demand_signals": 1,
+  "canales": [
+   "LUZU TV",
+   "Neura Media",
+   "OLGA",
+   "Urbana Play 104.3 FM"
+  ],
+  "categorias": [
+   "actividad",
+   "lugar"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "19/06/2026",
+    "n": 7.495989404208951
+   },
+   {
+    "date": "23/06/2026",
+    "n": 1.0
+   },
+   {
+    "date": "26/06/2026",
+    "n": 10.463736789107777
+   }
+  ],
+  "gt_status": "ya_masivo",
+  "gt_lead_days": -236,
+  "gt_peak": 100,
+  "cluster": null,
+  "variantes_relacionadas": [],
+  "highlights": [
+   {
+    "channel": "Urbana Play 104.3 FM",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "date": "20260626",
+    "subtema": "La Plata Lúdica - Convención de juegos de mesa y rol",
+    "contexto": "Hoy 13 a 19 y mañana 14 a 20 en pasaje Dardo Rocha, zona de prototipos, puestos de editoriales, entrada gratuita",
+    "intensidad": 2,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "XHV2BV9DWMs",
+    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+    "date": "20260619",
+    "subtema": "Juegos de mesa y cartas en previas de partidos",
+    "contexto": "Se conversó sobre juegos de cartas, FIFA y anécdota de jugar Argentina-Alemania el día antes de la final",
+    "intensidad": 2,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "date": "20260626",
+    "subtema": "Bares Speakeasy",
+    "contexto": "Explicación histórica de qué son los bares Speakeasy, nacidos durante la ley seca 1920-1933",
+    "intensidad": 2,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
+    "channel": "Neura Media",
+    "video_id": "XYJRLyO9exg",
+    "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
+    "date": "20260626",
+    "subtema": "Juegos de mesa educativos",
+    "contexto": "Monopoly y Juego de la Vida como herramientas para enseñar conceptos de economía de forma orgánica",
+    "intensidad": 1,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "oB3uH7aQwTU",
+    "title": "SE FUE LARGA con FERBO, DOMI FAENA, TULI ACOSTA, MICA VASQUEZ, BELU NEGRI Y LUCAS LEZIN | EN VIVO",
+    "date": "20260626",
+    "subtema": "Bares con juegos de mesa",
+    "contexto": "Se menciona un bar con juegos de mesa que está de moda, planean ir cuando vuelva un compañero",
+    "intensidad": 1,
+    "start_min": 100,
+    "t_seconds": 6000
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "cv2t2_4ffP8",
+    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
+    "date": "20260604",
+    "subtema": "Juegos retro",
+    "contexto": "Se menciona Winning Eleven y Counter-Strike como juegos a jugar en el evento nocturno",
+    "intensidad": 1,
+    "start_min": 140,
+    "t_seconds": 8400
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "date": "20260626",
+    "subtema": "Juegos de excursión",
+    "contexto": "Recordaron juegos que hacían en Pinamar, incluyendo canciones y seguir temáticas",
+    "intensidad": 1,
+    "start_min": 90,
+    "t_seconds": 5400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "date": "20260623",
+    "subtema": "Juegos de mesa",
+    "contexto": "Sugerencias de regalos para Messi incluyendo Catán y otros juegos",
+    "intensidad": 1,
+    "start_min": 130,
+    "t_seconds": 7800
+   },
+   {
+    "channel": "Urbana Play 104.3 FM",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "date": "20260626",
+    "subtema": "Juegos de mesa",
+    "contexto": "Mención de Scrabble, buraco y chinchón, interés en jugar",
+    "intensidad": 1,
+    "start_min": 30,
+    "t_seconds": 1800
+   }
+  ],
+  "highlights_total": 9
+ },
+ {
   "tema": "alberto fernández",
   "score": 25.7,
   "trend_score": 20.35,
@@ -10105,7 +10282,7 @@
     "t_seconds": 1800
    }
   ],
-  "highlights_total": 25
+  "highlights_total": 24
  },
  {
   "tema": "fútbol internacional",
@@ -12032,7 +12209,106 @@
     "t_seconds": 1800
    }
   ],
-  "highlights_total": 53
+  "highlights_total": 54
+ },
+ {
+  "tema": "dopamina",
+  "score": 8.1,
+  "trend_score": 15.1,
+  "menciones": 2,
+  "growth_wow": 0.0,
+  "demand_ratio": 1.0,
+  "demand_signals": 2,
+  "canales": [
+   "Urbana Play 104.3 FM"
+  ],
+  "categorias": [
+   "salud",
+   "tecnologia"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "26/06/2026",
+    "n": 8.05809571776991
+   }
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null,
+  "cluster": null,
+  "variantes_relacionadas": [],
+  "highlights": [
+   {
+    "channel": "Urbana Play 104.3 FM",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "date": "20260626",
+    "subtema": "Dopamina y neurotransmisores",
+    "contexto": "Explicación científica sobre cómo la dopamina actúa en el sistema de recompensa cerebral y su relación con la expectativa",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "Vorterix",
+    "video_id": "EwFONN3W5cg",
+    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+    "date": "20260626",
+    "subtema": "Dopaminas especial",
+    "contexto": "Programa especial de Las Dopaminas con nueva escenografía y cambios en el estudio",
+    "intensidad": 3,
+    "start_min": 120,
+    "t_seconds": 7200
+   },
+   {
+    "channel": "Vorterix",
+    "video_id": "EwFONN3W5cg",
+    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+    "date": "20260626",
+    "subtema": "Dopaminas (programa/contenido)",
+    "contexto": "Se menciona hacer dopaminas como actividad central del bloque",
+    "intensidad": 3,
+    "start_min": 230,
+    "t_seconds": 13800
+   },
+   {
+    "channel": "Vorterix",
+    "video_id": "EwFONN3W5cg",
+    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+    "date": "20260626",
+    "subtema": "Aniversario de Dopamina",
+    "contexto": "Mencionan que la semana que viene se cumple un año del primer programa de Dopamina y que será una excusa para armar un quilombo",
+    "intensidad": 2,
+    "start_min": 130,
+    "t_seconds": 7800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "2sxqtU8XXTQ",
+    "title": "CLASES DE MODELAJE CON PAULA CHAVES | #TapadosDeLaburo 23/6",
+    "date": "20260623",
+    "subtema": "Dopamina virtual y páginas falsas de compra",
+    "contexto": "Sitios web que simulan carrito de compras para generar sensación de dopamina sin compra real",
+    "intensidad": 2,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "Vorterix",
+    "video_id": "IubT1ZyjjEA",
+    "title": "🔴 ESTO NO SUCEDIÓ con Hernan Panessi, Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
+    "date": "20260626",
+    "subtema": "Estado emocional post-Dopamina",
+    "contexto": "Ezequiel menciona estar 'loquita' después del evento anterior, con mucha energía",
+    "intensidad": 2,
+    "start_min": 10,
+    "t_seconds": 600
+   }
+  ],
+  "highlights_total": 6
  },
  {
   "tema": "educación financiera",
@@ -12902,6 +13178,17 @@
     "t_seconds": 0
    },
    {
+    "channel": "Urbana Play 104.3 FM",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "date": "20260626",
+    "subtema": "Eliminación de Uruguay en Mundiales",
+    "contexto": "Uruguay quedó eliminado en la primera fase debido a fractura en vínculo con Bielsa y problemas internos del plantel",
+    "intensidad": 3,
+    "start_min": 100,
+    "t_seconds": 6000
+   },
+   {
     "channel": "OLGA",
     "video_id": "NKhi31a86K8",
     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
@@ -13067,7 +13354,7 @@
     "t_seconds": 3600
    }
   ],
-  "highlights_total": 17
+  "highlights_total": 18
  },
  {
   "tema": "votación en youtube",
@@ -13143,6 +13430,17 @@
     "t_seconds": 2400
    },
    {
+    "channel": "Urbana Play 104.3 FM",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "date": "20260626",
+    "subtema": "Radiosistas YouTube",
+    "contexto": "Invitación a ver estreno de video en canal Radiosistas de YouTube, mañana",
+    "intensidad": 2,
+    "start_min": 190,
+    "t_seconds": 11400
+   },
+   {
     "channel": "LUZU TV",
     "video_id": "PaeP2ee-rFI",
     "title": "#ELSHOWDELVERANO | PREDECIMOS EL FUTURO Y NO HABLAMOS DE LA TRAYECTORIA DE TORTONESE",
@@ -13154,7 +13452,7 @@
     "t_seconds": 3000
    }
   ],
-  "highlights_total": 5
+  "highlights_total": 6
  },
  {
   "tema": "recomendaciones de lugares para comer",
@@ -14787,115 +15085,6 @@
   "highlights_total": 18
  },
  {
-  "tema": "bares juegos de mesa",
-  "score": 17.9,
-  "trend_score": 14.0,
-  "menciones": 5,
-  "growth_wow": 0.386,
-  "demand_ratio": 0.0,
-  "demand_signals": 0,
-  "canales": [
-   "LUZU TV",
-   "Neura Media",
-   "OLGA"
-  ],
-  "categorias": [
-   "actividad",
-   "lugar"
-  ],
-  "cross_comunidad": true,
-  "multi_dia": true,
-  "candidato": false,
-  "serie": [
-   {
-    "date": "19/06/2026",
-    "n": 7.495989404208951
-   },
-   {
-    "date": "23/06/2026",
-    "n": 1.0
-   },
-   {
-    "date": "26/06/2026",
-    "n": 9.386026620845822
-   }
-  ],
-  "gt_status": null,
-  "gt_lead_days": null,
-  "gt_peak": null,
-  "cluster": null,
-  "variantes_relacionadas": [],
-  "highlights": [
-   {
-    "channel": "OLGA",
-    "video_id": "XHV2BV9DWMs",
-    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "date": "20260619",
-    "subtema": "Juegos de mesa y cartas en previas de partidos",
-    "contexto": "Se conversó sobre juegos de cartas, FIFA y anécdota de jugar Argentina-Alemania el día antes de la final",
-    "intensidad": 2,
-    "start_min": 80,
-    "t_seconds": 4800
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "W5dvBDWCWWk",
-    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
-    "date": "20260626",
-    "subtema": "Bares Speakeasy",
-    "contexto": "Explicación histórica de qué son los bares Speakeasy, nacidos durante la ley seca 1920-1933",
-    "intensidad": 2,
-    "start_min": 80,
-    "t_seconds": 4800
-   },
-   {
-    "channel": "Neura Media",
-    "video_id": "XYJRLyO9exg",
-    "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
-    "date": "20260626",
-    "subtema": "Juegos de mesa educativos",
-    "contexto": "Monopoly y Juego de la Vida como herramientas para enseñar conceptos de economía de forma orgánica",
-    "intensidad": 1,
-    "start_min": 10,
-    "t_seconds": 600
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "oB3uH7aQwTU",
-    "title": "SE FUE LARGA con FERBO, DOMI FAENA, TULI ACOSTA, MICA VASQUEZ, BELU NEGRI Y LUCAS LEZIN | EN VIVO",
-    "date": "20260626",
-    "subtema": "Bares con juegos de mesa",
-    "contexto": "Se menciona un bar con juegos de mesa que está de moda, planean ir cuando vuelva un compañero",
-    "intensidad": 1,
-    "start_min": 100,
-    "t_seconds": 6000
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "W5dvBDWCWWk",
-    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
-    "date": "20260626",
-    "subtema": "Juegos de excursión",
-    "contexto": "Recordaron juegos que hacían en Pinamar, incluyendo canciones y seguir temáticas",
-    "intensidad": 1,
-    "start_min": 90,
-    "t_seconds": 5400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "date": "20260623",
-    "subtema": "Juegos de mesa",
-    "contexto": "Sugerencias de regalos para Messi incluyendo Catán y otros juegos",
-    "intensidad": 1,
-    "start_min": 130,
-    "t_seconds": 7800
-   }
-  ],
-  "highlights_total": 6
- },
- {
   "tema": "alerta desaparición",
   "score": 18.6,
   "trend_score": 13.96,
@@ -15591,6 +15780,64 @@
   "highlights_total": 0
  },
  {
+  "tema": "selección argentina fútbol",
+  "score": 169.8,
+  "trend_score": 12.87,
+  "menciones": 31,
+  "growth_wow": 0.0,
+  "demand_ratio": 0.032,
+  "demand_signals": 1,
+  "canales": [
+   "GELATINA",
+   "LUZU TV",
+   "Neura Media",
+   "OLGA",
+   "Urbana Play 104.3 FM",
+   "Vorterix"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura",
+   "persona"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "19/06/2026",
+    "n": 25.379597905228895
+   },
+   {
+    "date": "22/06/2026",
+    "n": 11.63366684657649
+   },
+   {
+    "date": "23/06/2026",
+    "n": 78.86966690790447
+   },
+   {
+    "date": "24/06/2026",
+    "n": 15.581801739148098
+   },
+   {
+    "date": "25/06/2026",
+    "n": 4.0
+   },
+   {
+    "date": "26/06/2026",
+    "n": 34.35161641304419
+   }
+  ],
+  "gt_status": "ya_masivo",
+  "gt_lead_days": -5,
+  "gt_peak": 100,
+  "cluster": null,
+  "variantes_relacionadas": [],
+  "highlights": [],
+  "highlights_total": 0
+ },
+ {
   "tema": "el eternauta",
   "score": 248.0,
   "trend_score": 12.85,
@@ -15875,7 +16122,7 @@
     "t_seconds": 0
    }
   ],
-  "highlights_total": 139
+  "highlights_total": 140
  },
  {
   "tema": "videojuegos",
@@ -16595,7 +16842,7 @@
     "t_seconds": 4200
    }
   ],
-  "highlights_total": 60
+  "highlights_total": 61
  },
  {
   "tema": "educación",
@@ -17581,63 +17828,6 @@
   "highlights_total": 21
  },
  {
-  "tema": "selección argentina fútbol",
-  "score": 165.2,
-  "trend_score": 11.33,
-  "menciones": 29,
-  "growth_wow": 0.0,
-  "demand_ratio": 0.034,
-  "demand_signals": 1,
-  "canales": [
-   "GELATINA",
-   "LUZU TV",
-   "Neura Media",
-   "OLGA",
-   "Vorterix"
-  ],
-  "categorias": [
-   "actividad",
-   "cultura",
-   "persona"
-  ],
-  "cross_comunidad": true,
-  "multi_dia": true,
-  "candidato": false,
-  "serie": [
-   {
-    "date": "19/06/2026",
-    "n": 25.379597905228895
-   },
-   {
-    "date": "22/06/2026",
-    "n": 11.63366684657649
-   },
-   {
-    "date": "23/06/2026",
-    "n": 78.86966690790447
-   },
-   {
-    "date": "24/06/2026",
-    "n": 15.581801739148098
-   },
-   {
-    "date": "25/06/2026",
-    "n": 4.0
-   },
-   {
-    "date": "26/06/2026",
-    "n": 29.725144038255287
-   }
-  ],
-  "gt_status": "ya_masivo",
-  "gt_lead_days": -5,
-  "gt_peak": 100,
-  "cluster": null,
-  "variantes_relacionadas": [],
-  "highlights": [],
-  "highlights_total": 0
- },
- {
   "tema": "festivales música",
   "score": 81.4,
   "trend_score": 11.1,
@@ -17982,6 +18172,283 @@
    }
   ],
   "highlights_total": 42
+ },
+ {
+  "tema": "clima",
+  "score": 118.0,
+  "trend_score": 10.93,
+  "menciones": 30,
+  "growth_wow": 0.0,
+  "demand_ratio": 0.0,
+  "demand_signals": 0,
+  "canales": [
+   "BLENDER",
+   "LUZU TV",
+   "OLGA",
+   "Urbana Play 104.3 FM",
+   "Vorterix"
+  ],
+  "categorias": [
+   "actividad",
+   "clima",
+   "lugar",
+   "otro",
+   "salud",
+   "tecnologia"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "22/06/2026",
+    "n": 2.737055092322229
+   },
+   {
+    "date": "23/06/2026",
+    "n": 59.13755392943675
+   },
+   {
+    "date": "24/06/2026",
+    "n": 25.936284457113025
+   },
+   {
+    "date": "25/06/2026",
+    "n": 6.0
+   },
+   {
+    "date": "26/06/2026",
+    "n": 24.207755025058255
+   }
+  ],
+  "gt_status": "ya_masivo",
+  "gt_lead_days": -365,
+  "gt_peak": 100,
+  "cluster": null,
+  "variantes_relacionadas": [],
+  "highlights": [
+   {
+    "channel": "OLGA",
+    "video_id": "AUtF1mhDL_g",
+    "title": "RECORDAMOS AL INDIO SOLARI | #SeríaIncreíble 5/6",
+    "date": "20260605",
+    "subtema": "Fenómeno climático 'Super Niño'",
+    "contexto": "Se explica qué es el Super Niño, sus efectos en América Latina (sequías, inundaciones, humedad extrema) y cómo modifica drásticamente los climas desde 1821",
+    "intensidad": 3,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "S1UDpsKkZvE",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+    "date": "20260623",
+    "subtema": "Clima y temperatura",
+    "contexto": "Se menciona repetidamente el frío en Buenos Aires, sensación térmica baja, 4 grados, 0 grados en la reja, día más frío de la semana",
+    "intensidad": 3,
+    "start_min": 20,
+    "t_seconds": 1200
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "ao3cUV0DY6k",
+    "title": "#PATRIAYFAMILIA l FUIMOS A VER A LALI Y VOLVIÓ JULI",
+    "date": "20260608",
+    "subtema": "Ropa adecuada para clima adverso",
+    "contexto": "Discusión sobre no abrigarse correctamente para un evento bajo lluvia, menciones de camperas, pilotines y ropa mojada",
+    "intensidad": 3,
+    "start_min": 70,
+    "t_seconds": 4200
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "AUtF1mhDL_g",
+    "title": "RECORDAMOS AL INDIO SOLARI | #SeríaIncreíble 5/6",
+    "date": "20260605",
+    "subtema": "Récords climáticos y confiabilidad de datos",
+    "contexto": "Se cuestiona la veracidad de afirmaciones sobre 'el día más frío/caluroso de Argentina', métodos de registro histórico y cómo se confirman récords",
+    "intensidad": 2,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "LzZD6sPGPu0",
+    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
+    "date": "20260608",
+    "subtema": "Condiciones climáticas y de juego en Estados Unidos",
+    "contexto": "Temperatura de 35 grados, mal estado del pasto, entrenamientos a las 6 de la tarde por el calor, afecta a jugadores acostumbrados a clima europeo",
+    "intensidad": 2,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "GgeocOAEm7o",
+    "title": "NOE CUSTODIO ES LA MEJOR JUGADORA de “EN UNA ESCENA” | #TapadosDeLaburo 1/6",
+    "date": "20260601",
+    "subtema": "Clima nublado y estado de ánimo",
+    "contexto": "Debate sobre si el clima nublado afecta el humor, falta de vitamina D después de varios días nublados, algunos lo aman otros necesitan sol",
+    "intensidad": 2,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "HV3dxHqU_mw",
+    "title": "APASIONANTE DUELO DE CIUDADES en el MUNDIALITO | #SoñéQueVolaba 8/6",
+    "date": "20260608",
+    "subtema": "Clima y lluvia",
+    "contexto": "Discusión sobre el clima feo del lunes, lluvia que no termina, ropa mojada en el lavarropas, pronóstico de lluvia hasta el jueves",
+    "intensidad": 2,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "BLENDER",
+    "video_id": "A_ww0XRZnps",
+    "title": "¿NOS INVADEN O QUÉ?, ODIADOS CON EL ALGORITMO y  LA CRISIS DE LA COLO  | ÚLTIMO AVISO | BLENDER",
+    "date": "20260624",
+    "subtema": "Deficiencia de vitamina D en climas fríos",
+    "contexto": "Se menciona evacuación escolar por electrificación de paredes en tormenta, falta de luz solar, inyecciones o suplementos",
+    "intensidad": 2,
+    "start_min": 20,
+    "t_seconds": 1200
+   },
+   {
+    "channel": "BLENDER",
+    "video_id": "C6BZb4k8gF0",
+    "title": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
+    "date": "20260624",
+    "subtema": "Interrupciones por clima en partidos",
+    "contexto": "Experiencias con suspensiones por tormentas eléctricas, casos de Francia y partido del mundial de clubes con Boca",
+    "intensidad": 2,
+    "start_min": 90,
+    "t_seconds": 5400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "HV3dxHqU_mw",
+    "title": "APASIONANTE DUELO DE CIUDADES en el MUNDIALITO | #SoñéQueVolaba 8/6",
+    "date": "20260608",
+    "subtema": "clima y lluvia",
+    "contexto": "comentarios sobre el clima gris y lluvioso, metáfora recurrente sobre 'lágrimas de los putos de Almirante'",
+    "intensidad": 2,
+    "start_min": 20,
+    "t_seconds": 1200
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "S1UDpsKkZvE",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+    "date": "20260623",
+    "subtema": "Clima y temperaturas",
+    "contexto": "Temperaturas bajo cero en muchas partes de Argentina, 5 grados en Buenos Aires, menos 3 grados en Jujuy",
+    "intensidad": 2,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "LCHcl21l1CE",
+    "title": "#ANTESQUENADIE | ¿ARMAMOS PAREJAS A CIEGAS? Y JUGUETES TRUCHOS QUE MARCARON NUESTRA INFANCIA",
+    "date": "20260609",
+    "subtema": "Clima y luz solar en Buenos Aires",
+    "contexto": "Discusión sobre días oscuros, falta de sol hace 10 días, expectativa de sol el jueves con el Mundial",
+    "intensidad": 2,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "DOYPp2Pqjvg",
+    "title": "CINE Y FÚTBOL con ARIEL STALTARI | #LaGambeta 1/6",
+    "date": "20260601",
+    "subtema": "Condiciones climáticas en Kansas - tornados y huracanes",
+    "contexto": "Preocupación sobre clima extremo en Kansas, posibles suspensiones de partidos, tornados y ciclones",
+    "intensidad": 2,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "date": "20260625",
+    "subtema": "Gestión del hogar en clima de calor extremo",
+    "contexto": "Rosa comenta sobre cuidar niños en la piscina, hacer comidas frescas y dormir poco por el calor",
+    "intensidad": 2,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "Ovdcl6-B2kc",
+    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "date": "20260623",
+    "subtema": "Clima y temperatura",
+    "contexto": "Discusión sobre el calor en Buenos Aires vs. clima actual, protector solar y bronceado",
+    "intensidad": 2,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "kDbkbzy_ASA",
+    "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
+    "date": "20260624",
+    "subtema": "Clima y calidad de aire",
+    "contexto": "Comentan sobre la temperatura de 38 grados, mala calidad del aire y tormentas en Miami",
+    "intensidad": 2,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "Ovdcl6-B2kc",
+    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "date": "20260623",
+    "subtema": "Clima y preferencias estacionales",
+    "contexto": "Debate sobre verano vs invierno, tolerancia al calor y frío, experiencias en Pinamar",
+    "intensidad": 2,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "ptOHcGEdWCk",
+    "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+    "date": "20260623",
+    "subtema": "Clima y frío en Buenos Aires",
+    "contexto": "Se menciona hace mucho frío, movileros congelados, 4 grados de temperatura",
+    "intensidad": 2,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "LzZD6sPGPu0",
+    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
+    "date": "20260608",
+    "subtema": "Clima y condiciones meteorológicas",
+    "contexto": "Qué clima feo, no hacemos fotosíntesis bien, predicción de lluvia y sol",
+    "intensidad": 2,
+    "start_min": 120,
+    "t_seconds": 7200
+   },
+   {
+    "channel": "Vorterix",
+    "video_id": "3t9P2KFJ4K0",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "date": "20260626",
+    "subtema": "Clima y temperaturas",
+    "contexto": "Sección de clima con temperaturas de múltiples ciudades: Providencia, Mar de las Pampas, Nueva York, Mallorca, Miami, La Boca",
+    "intensidad": 1,
+    "start_min": 80,
+    "t_seconds": 4800
+   }
+  ],
+  "highlights_total": 36
  },
  {
   "tema": "messi",
@@ -18807,280 +19274,262 @@
   "highlights_total": 0
  },
  {
-  "tema": "clima",
-  "score": 116.6,
-  "trend_score": 9.4,
-  "menciones": 29,
+  "tema": "salud mental",
+  "score": 41.0,
+  "trend_score": 9.7,
+  "menciones": 8,
   "growth_wow": 0.0,
   "demand_ratio": 0.0,
   "demand_signals": 0,
   "canales": [
    "BLENDER",
+   "Bondi Live",
    "LUZU TV",
    "OLGA",
-   "Vorterix"
+   "Urbana Play 104.3 FM"
   ],
   "categorias": [
-   "actividad",
-   "clima",
-   "lugar",
-   "otro",
-   "salud",
-   "tecnologia"
+   "cultura",
+   "salud"
   ],
   "cross_comunidad": true,
   "multi_dia": true,
   "candidato": false,
   "serie": [
    {
-    "date": "22/06/2026",
-    "n": 2.737055092322229
-   },
-   {
     "date": "23/06/2026",
-    "n": 59.13755392943675
+    "n": 17.881975334850047
    },
    {
     "date": "24/06/2026",
-    "n": 25.936284457113025
+    "n": 3.548595153111039
    },
    {
     "date": "25/06/2026",
-    "n": 6.0
+    "n": 5.033779391282102
    },
    {
     "date": "26/06/2026",
-    "n": 22.7561568107421
+    "n": 14.520562571659491
    }
   ],
-  "gt_status": "ya_masivo",
-  "gt_lead_days": -365,
-  "gt_peak": 100,
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null,
   "cluster": null,
   "variantes_relacionadas": [],
   "highlights": [
    {
-    "channel": "OLGA",
-    "video_id": "AUtF1mhDL_g",
-    "title": "RECORDAMOS AL INDIO SOLARI | #SeríaIncreíble 5/6",
-    "date": "20260605",
-    "subtema": "Fenómeno climático 'Super Niño'",
-    "contexto": "Se explica qué es el Super Niño, sus efectos en América Latina (sequías, inundaciones, humedad extrema) y cómo modifica drásticamente los climas desde 1821",
+    "channel": "LUZU TV",
+    "video_id": "UtcsB5NsGj8",
+    "title": "#ELSHOWDELVERANO | DÍA DE RITUALES: NOS FROTAMOS EL PEPINO, ENTERRAMOS LA ZANAHORIA Y MUCHO MÁS",
+    "date": "20260609",
+    "subtema": "Huevas de erizo de mar como suplemento de salud",
+    "contexto": "Descubrimiento en el sur sobre regeneración de mitocondrias y telómeros del ADN a través de huevas de erizo",
     "intensidad": 3,
-    "start_min": 0,
-    "t_seconds": 0
+    "start_min": 10,
+    "t_seconds": 600
    },
    {
     "channel": "LUZU TV",
-    "video_id": "S1UDpsKkZvE",
-    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
-    "date": "20260623",
-    "subtema": "Clima y temperatura",
-    "contexto": "Se menciona repetidamente el frío en Buenos Aires, sensación térmica baja, 4 grados, 0 grados en la reja, día más frío de la semana",
+    "video_id": "WCF4oC8GC9o",
+    "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
+    "date": "20260624",
+    "subtema": "Impacto emocional y mental en pandemia",
+    "contexto": "Depresión, ansiedad, claustrofobia, cambios en rutinas y recuperación de actividades post-pandemia",
     "intensidad": 3,
-    "start_min": 20,
-    "t_seconds": 1200
+    "start_min": 30,
+    "t_seconds": 1800
    },
    {
     "channel": "LUZU TV",
-    "video_id": "ao3cUV0DY6k",
-    "title": "#PATRIAYFAMILIA l FUIMOS A VER A LALI Y VOLVIÓ JULI",
-    "date": "20260608",
-    "subtema": "Ropa adecuada para clima adverso",
-    "contexto": "Discusión sobre no abrigarse correctamente para un evento bajo lluvia, menciones de camperas, pilotines y ropa mojada",
-    "intensidad": 3,
-    "start_min": 70,
-    "t_seconds": 4200
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "AUtF1mhDL_g",
-    "title": "RECORDAMOS AL INDIO SOLARI | #SeríaIncreíble 5/6",
-    "date": "20260605",
-    "subtema": "Récords climáticos y confiabilidad de datos",
-    "contexto": "Se cuestiona la veracidad de afirmaciones sobre 'el día más frío/caluroso de Argentina', métodos de registro histórico y cómo se confirman récords",
-    "intensidad": 2,
-    "start_min": 0,
-    "t_seconds": 0
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "LzZD6sPGPu0",
-    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
-    "date": "20260608",
-    "subtema": "Condiciones climáticas y de juego en Estados Unidos",
-    "contexto": "Temperatura de 35 grados, mal estado del pasto, entrenamientos a las 6 de la tarde por el calor, afecta a jugadores acostumbrados a clima europeo",
+    "video_id": "Jf7bO88vnm0",
+    "title": "#ANTESQUENADIE | ¿EL TRINCHE USA COFIA DE SEDA? + EL MEJOR JUEGO DEL STREAMING NACIONAL",
+    "date": "20260604",
+    "subtema": "Gestión del pensamiento intrusivo y control mental",
+    "contexto": "Se discutió cómo Djokovic maneja los pensamientos intrusivos y la diferencia entre el número uno y otros es la velocidad para sacar rápido esa carga mental",
     "intensidad": 2,
     "start_min": 30,
     "t_seconds": 1800
    },
    {
-    "channel": "OLGA",
-    "video_id": "GgeocOAEm7o",
-    "title": "NOE CUSTODIO ES LA MEJOR JUGADORA de “EN UNA ESCENA” | #TapadosDeLaburo 1/6",
-    "date": "20260601",
-    "subtema": "Clima nublado y estado de ánimo",
-    "contexto": "Debate sobre si el clima nublado afecta el humor, falta de vitamina D después de varios días nublados, algunos lo aman otros necesitan sol",
+    "channel": "Urbana Play 104.3 FM",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "date": "20260626",
+    "subtema": "Beneficios del llanto para la salud mental",
+    "contexto": "Según Harvard Health, llorar es importante porque es un mecanismo que permite soltar estrés y dolor emocional, libera oxitocina y endorfina",
     "intensidad": 2,
-    "start_min": 0,
-    "t_seconds": 0
+    "start_min": 170,
+    "t_seconds": 10200
    },
    {
     "channel": "OLGA",
     "video_id": "HV3dxHqU_mw",
     "title": "APASIONANTE DUELO DE CIUDADES en el MUNDIALITO | #SoñéQueVolaba 8/6",
     "date": "20260608",
-    "subtema": "Clima y lluvia",
-    "contexto": "Discusión sobre el clima feo del lunes, lluvia que no termina, ropa mojada en el lavarropas, pronóstico de lluvia hasta el jueves",
-    "intensidad": 2,
-    "start_min": 0,
-    "t_seconds": 0
-   },
-   {
-    "channel": "BLENDER",
-    "video_id": "A_ww0XRZnps",
-    "title": "¿NOS INVADEN O QUÉ?, ODIADOS CON EL ALGORITMO y  LA CRISIS DE LA COLO  | ÚLTIMO AVISO | BLENDER",
-    "date": "20260624",
-    "subtema": "Deficiencia de vitamina D en climas fríos",
-    "contexto": "Se menciona evacuación escolar por electrificación de paredes en tormenta, falta de luz solar, inyecciones o suplementos",
-    "intensidad": 2,
-    "start_min": 20,
-    "t_seconds": 1200
-   },
-   {
-    "channel": "BLENDER",
-    "video_id": "C6BZb4k8gF0",
-    "title": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
-    "date": "20260624",
-    "subtema": "Interrupciones por clima en partidos",
-    "contexto": "Experiencias con suspensiones por tormentas eléctricas, casos de Francia y partido del mundial de clubes con Boca",
+    "subtema": "Fundación '25 firmas' para prevención en salud mental",
+    "contexto": "Se presentó un proyecto dirigido al presidente, jefe de gobierno y gobernadores para priorizar adicciones y prevención en salud mental",
     "intensidad": 2,
     "start_min": 90,
     "t_seconds": 5400
    },
    {
     "channel": "OLGA",
-    "video_id": "HV3dxHqU_mw",
-    "title": "APASIONANTE DUELO DE CIUDADES en el MUNDIALITO | #SoñéQueVolaba 8/6",
-    "date": "20260608",
-    "subtema": "clima y lluvia",
-    "contexto": "comentarios sobre el clima gris y lluvioso, metáfora recurrente sobre 'lágrimas de los putos de Almirante'",
-    "intensidad": 2,
-    "start_min": 20,
-    "t_seconds": 1200
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "S1UDpsKkZvE",
-    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
-    "date": "20260623",
-    "subtema": "Clima y temperaturas",
-    "contexto": "Temperaturas bajo cero en muchas partes de Argentina, 5 grados en Buenos Aires, menos 3 grados en Jujuy",
-    "intensidad": 2,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "LCHcl21l1CE",
-    "title": "#ANTESQUENADIE | ¿ARMAMOS PAREJAS A CIEGAS? Y JUGUETES TRUCHOS QUE MARCARON NUESTRA INFANCIA",
-    "date": "20260609",
-    "subtema": "Clima y luz solar en Buenos Aires",
-    "contexto": "Discusión sobre días oscuros, falta de sol hace 10 días, expectativa de sol el jueves con el Mundial",
-    "intensidad": 2,
-    "start_min": 0,
-    "t_seconds": 0
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "DOYPp2Pqjvg",
-    "title": "CINE Y FÚTBOL con ARIEL STALTARI | #LaGambeta 1/6",
-    "date": "20260601",
-    "subtema": "Condiciones climáticas en Kansas - tornados y huracanes",
-    "contexto": "Preocupación sobre clima extremo en Kansas, posibles suspensiones de partidos, tornados y ciclones",
+    "video_id": "10FOoeUHNy0",
+    "title": "INTENTAMOS DARLE EL SUSTO DE SU VIDA A ORIANA | #SeríaIncreíble 11/6",
+    "date": "20260611",
+    "subtema": "Estado mental de la madre de Agostina",
+    "contexto": "Madre de Agostina internada, diagnosticada con problemas de consumo, sentimientos de culpa por haber presentado a Barrelier a su hija",
     "intensidad": 2,
     "start_min": 10,
     "t_seconds": 600
    },
    {
     "channel": "OLGA",
-    "video_id": "mxFu-R3O8TY",
-    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
-    "date": "20260625",
-    "subtema": "Gestión del hogar en clima de calor extremo",
-    "contexto": "Rosa comenta sobre cuidar niños en la piscina, hacer comidas frescas y dormir poco por el calor",
+    "video_id": "bX7MB2_OI2I",
+    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+    "date": "20260623",
+    "subtema": "Salud cardiovascular femenina",
+    "contexto": "Se destaca que las mujeres en Argentina mueren de enfermedades cardiovasculares y que los sofocos deterioran la salud cardíaca",
+    "intensidad": 2,
+    "start_min": 130,
+    "t_seconds": 7800
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "WCF4oC8GC9o",
+    "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
+    "date": "20260624",
+    "subtema": "Técnicas de relajación y control mental",
+    "contexto": "Discusión sobre caminar sobre carbón, clavos y vidrio, y técnicas de respiración consciente y relajación muscular",
+    "intensidad": 2,
+    "start_min": 70,
+    "t_seconds": 4200
+   },
+   {
+    "channel": "BLENDER",
+    "video_id": "C6BZb4k8gF0",
+    "title": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
+    "date": "20260624",
+    "subtema": "Salud del conductor (voz)",
+    "contexto": "Conductor con ronquera por 8+ horas de aire diario, cambios de temperatura, lluvia en pileta y mala alimentación",
     "intensidad": 2,
     "start_min": 80,
     "t_seconds": 4800
    },
    {
-    "channel": "LUZU TV",
-    "video_id": "Ovdcl6-B2kc",
-    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "date": "20260623",
-    "subtema": "Clima y temperatura",
-    "contexto": "Discusión sobre el calor en Buenos Aires vs. clima actual, protector solar y bronceado",
-    "intensidad": 2,
-    "start_min": 0,
-    "t_seconds": 0
-   },
-   {
     "channel": "OLGA",
-    "video_id": "kDbkbzy_ASA",
-    "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
-    "date": "20260624",
-    "subtema": "Clima y calidad de aire",
-    "contexto": "Comentan sobre la temperatura de 38 grados, mala calidad del aire y tormentas en Miami",
-    "intensidad": 2,
-    "start_min": 0,
-    "t_seconds": 0
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "Ovdcl6-B2kc",
-    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "date": "20260623",
-    "subtema": "Clima y preferencias estacionales",
-    "contexto": "Debate sobre verano vs invierno, tolerancia al calor y frío, experiencias en Pinamar",
-    "intensidad": 2,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "ptOHcGEdWCk",
-    "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
-    "date": "20260623",
-    "subtema": "Clima y frío en Buenos Aires",
-    "contexto": "Se menciona hace mucho frío, movileros congelados, 4 grados de temperatura",
-    "intensidad": 2,
-    "start_min": 0,
-    "t_seconds": 0
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "LzZD6sPGPu0",
-    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
-    "date": "20260608",
-    "subtema": "Clima y condiciones meteorológicas",
-    "contexto": "Qué clima feo, no hacemos fotosíntesis bien, predicción de lluvia y sol",
+    "video_id": "d2xRtbOTSQQ",
+    "title": "UNA BRUJA y ANDI SEMENTI ADIVINAN el FUTURO | #SoñéQueVolaba 2/6",
+    "date": "20260602",
+    "subtema": "Clickbait en noticias de salud",
+    "contexto": "Crítica a titulares engañosos sobre vacunas contra calvicie, melanoma y cáncer que generan falsas esperanzas",
     "intensidad": 2,
     "start_min": 120,
     "t_seconds": 7200
+   },
+   {
+    "channel": "BLENDER",
+    "video_id": "JXVQmuDctII",
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "date": "20260625",
+    "subtema": "Salud mental de moderadores",
+    "contexto": "Estrés postraumático, disociación, pesadillas en trabajadores expuestos a contenido violento y abusivo",
+    "intensidad": 2,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "bX7MB2_OI2I",
+    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+    "date": "20260623",
+    "subtema": "Cambios de humor y niebla mental",
+    "contexto": "María de Los Ángeles confirma que estos síntomas son reales durante la perimenopausia y menopausia",
+    "intensidad": 2,
+    "start_min": 130,
+    "t_seconds": 7800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "HV3dxHqU_mw",
+    "title": "APASIONANTE DUELO DE CIUDADES en el MUNDIALITO | #SoñéQueVolaba 8/6",
+    "date": "20260608",
+    "subtema": "Plans de salud deportivos",
+    "contexto": "Swiss Medical ofrece Sport Plan con chequeos médicos y reintegros en gimnasios para deportistas",
+    "intensidad": 2,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "BLENDER",
+    "video_id": "tcq7UAzc3iw",
+    "title": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
+    "date": "20260624",
+    "subtema": "Estado de salud del conductor",
+    "contexto": "El conductor menciona que viene cansado y con la presión baja, por eso pide café",
+    "intensidad": 2,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "DOYPp2Pqjvg",
+    "title": "CINE Y FÚTBOL con ARIEL STALTARI | #LaGambeta 1/6",
+    "date": "20260601",
+    "subtema": "Estado de salud del conductor",
+    "contexto": "Un conductor está enfermo con cuadro gripal/viral tipo comedia musical, mencionan necesidad de reponerse",
+    "intensidad": 1,
+    "start_min": 20,
+    "t_seconds": 1200
+   },
+   {
+    "channel": "Bondi Live",
+    "video_id": "tAUTd2FsMxA",
+    "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+    "date": "20260624",
+    "subtema": "Paz mental vs dinero",
+    "contexto": "Reflexión sobre que la paz es lo más valioso y que no se debe sacrificar por plata, posición o poder",
+    "intensidad": 1,
+    "start_min": 120,
+    "t_seconds": 7200
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "GLACgh8nuGY",
+    "title": "#SEFUELARGA l JULI POGGIO CONTRA AMANTES, RESPONDE TODO Y FERBO VS FAUSTI BO Y JULI CASTRO",
+    "date": "20260611",
+    "subtema": "Salud mental / Antidepresivos",
+    "contexto": "Mención de haber comenzado con antidepresivos y olvidar tomarlo durante el programa",
+    "intensidad": 1,
+    "start_min": 40,
+    "t_seconds": 2400
    },
    {
     "channel": "Vorterix",
     "video_id": "3t9P2KFJ4K0",
     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
     "date": "20260626",
-    "subtema": "Clima y temperaturas",
-    "contexto": "Sección de clima con temperaturas de múltiples ciudades: Providencia, Mar de las Pampas, Nueva York, Mallorca, Miami, La Boca",
+    "subtema": "Estado de salud del conductor",
+    "contexto": "Conductor menciona tener pecho inflamado y síntomas gripales desde el día anterior",
     "intensidad": 1,
-    "start_min": 80,
-    "t_seconds": 4800
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "ao3cUV0DY6k",
+    "title": "#PATRIAYFAMILIA l FUIMOS A VER A LALI Y VOLVIÓ JULI",
+    "date": "20260608",
+    "subtema": "Salud - neumonía",
+    "contexto": "Mención de casi contraer neumonía por exponerse a lluvia sin abrigarse",
+    "intensidad": 1,
+    "start_min": 70,
+    "t_seconds": 4200
    }
   ],
-  "highlights_total": 35
+  "highlights_total": 19
  },
  {
   "tema": "canciones pop",
@@ -20566,6 +21015,262 @@
   "highlights_total": 1
  },
  {
+  "tema": "asado",
+  "score": 44.4,
+  "trend_score": 8.12,
+  "menciones": 11,
+  "growth_wow": 0.0,
+  "demand_ratio": 0.091,
+  "demand_signals": 1,
+  "canales": [
+   "LUZU TV",
+   "OLGA",
+   "Urbana Play 104.3 FM"
+  ],
+  "categorias": [
+   "actividad",
+   "comida"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "23/06/2026",
+    "n": 7.0439337941418225
+   },
+   {
+    "date": "24/06/2026",
+    "n": 25.076226954756166
+   },
+   {
+    "date": "25/06/2026",
+    "n": 2.0
+   },
+   {
+    "date": "26/06/2026",
+    "n": 10.236082476898769
+   }
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null,
+  "cluster": null,
+  "variantes_relacionadas": [],
+  "highlights": [
+   {
+    "channel": "LUZU TV",
+    "video_id": "Y5xV6ZZE5c4",
+    "title": "#NADIEDICENADA | NUEVAMENTE NO ENTENDEMOS LA COLUMNA DE MOMI Y ¿OCCHIAMIN YA ESTÁ GRANDE?",
+    "date": "20260605",
+    "subtema": "Picadas vs asados",
+    "contexto": "Debate sobre preferencia por picada sobre asado, incluyendo estrategia de Agasti de no servir picada hasta el 80% del asado",
+    "intensidad": 3,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "DOYPp2Pqjvg",
+    "title": "CINE Y FÚTBOL con ARIEL STALTARI | #LaGambeta 1/6",
+    "date": "20260601",
+    "subtema": "Asado y carnes argentinas",
+    "contexto": "Conversación extendida sobre qué preparan para agasajar amigos, molleja, tripa gorda, choto uruguayo, empanadas tucumanas",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "FXtNa0lTAT4",
+    "title": "#SEFUELARGA l MORE MIÑO QUIERE QUEDAR EN LUZU, TEO TRAE INFORMACIÓN CHILLEDO Y ¿MA/PATERNAMOS?",
+    "date": "20260610",
+    "subtema": "Set de asador Hudson",
+    "contexto": "Kit de asado con herramientas que se sortea como premio, especialmente recomendado para el día del padre",
+    "intensidad": 3,
+    "start_min": 100,
+    "t_seconds": 6000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "FXtNa0lTAT4",
+    "title": "#SEFUELARGA l MORE MIÑO QUIERE QUEDAR EN LUZU, TEO TRAE INFORMACIÓN CHILLEDO Y ¿MA/PATERNAMOS?",
+    "date": "20260610",
+    "subtema": "Concurso de preguntas sobre asado",
+    "contexto": "Competencia trivia sobre técnicas, cortes y tradiciones de parrilla argentina con premio del set asador",
+    "intensidad": 3,
+    "start_min": 100,
+    "t_seconds": 6000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "e43Kc2KbppA",
+    "title": "#FMLUZU | CRIS TIRA LOS REGALOS DE SU EX + EL POLLO MASAJEA AL MITO EN VIVO",
+    "date": "20260603",
+    "subtema": "Soltando objetos del pasado",
+    "contexto": "La sección/dinámica del programa consiste en que las personas suelten cosas que les causan dolor emocional, en este caso unos aros",
+    "intensidad": 2,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "GC_Ahymb8Uw",
+    "title": "#ANTESQUENADIE | ¿LLORA JAMAICA? + VIERNES DE ABUELOS E INDIGNACIÓN PORQUE LOS JÓVENES NO CHAPAN",
+    "date": "20260605",
+    "subtema": "Asado familiar",
+    "contexto": "El primo Dani, conocido como gran asador, había planeado hacer un asado el sábado al mediodía para toda la familia en Córdoba",
+    "intensidad": 2,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "3QYSdxUDWHc",
+    "title": "NI UNA MENOS: LA LUCHA QUE TODAVÍA NO TERMINA | #SeríaIncreíble 3/6",
+    "date": "20260603",
+    "subtema": "Ejercicios de escritura y actuación basados en travesuras",
+    "contexto": "Referencia a un taller de escritura donde la instructora Maya les pedía hacer travesuras para escribir sobre ellas",
+    "intensidad": 2,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "date": "20260625",
+    "subtema": "Preparación de lechón asado",
+    "contexto": "Rosa cuenta que comenzó a hacer lechón a las 2 de la mañana, fuego desde las 10 de la noche, toma 5 horas",
+    "intensidad": 2,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "F-agZdGGj4g",
+    "title": "#NADIEDICENADA | NO ENTENDEMOS QUÉ PASÓ HOY: PICADAS, MARIPOSAS Y... ¿LAS ABUELAS DEL STREAMING?",
+    "date": "20260604",
+    "subtema": "Asado",
+    "contexto": "Comparación entre picada y asado, debate sobre si la picada llena o después entra corte de carne",
+    "intensidad": 2,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "7Oo5Hf7f14M",
+    "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "date": "20260624",
+    "subtema": "Asado/BBQ",
+    "contexto": "Están preparando ribs de barbecue con sal gruesa y papas, mostrando el proceso en vivo",
+    "intensidad": 2,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "ptOHcGEdWCk",
+    "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+    "date": "20260623",
+    "subtema": "Asado con Jorjito",
+    "contexto": "Comentario sobre invitar a Jorjito a ver partido el sábado, trae carne y hace el asado",
+    "intensidad": 2,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "W_HkPNOMeDc",
+    "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+    "date": "20260626",
+    "subtema": "Asado en Estados Unidos",
+    "contexto": "Detalle de comida consumida: choris, pan, morcillita, molleja, precios caros",
+    "intensidad": 2,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "Iy38_er_9xI",
+    "title": "#SEFUELARGA l FERBO MUY EXPUESTO, ¿OTRA VEZ FUERA DE UN PLAN? Y ¿EL TE AMO PERDIÓ EL SENTIDO?",
+    "date": "20260603",
+    "subtema": "Asado familiar",
+    "contexto": "Pasó el fin de semana, tenían fotos y videos del asado familiar para contar",
+    "intensidad": 2,
+    "start_min": 90,
+    "t_seconds": 5400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "aXeHcoK3RFw",
+    "title": "EL JUEGO MÁS TIERNO: LOS PERRITOS SON LAVA | #TapadosDeLaburo 9/6",
+    "date": "20260609",
+    "subtema": "Comidas para asado",
+    "contexto": "Se mencionan matambre, pollo, morcilla, chorizo, jamón y queso como opciones para asado",
+    "intensidad": 1,
+    "start_min": 90,
+    "t_seconds": 5400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "6COldxwUDK8",
+    "title": "HOY NOS ESTALLAMOS con ANTONIO RÍOS y CHANCHI ESTÉVEZ | #LaGambeta",
+    "date": "20260608",
+    "subtema": "Asados y comidas en reuniones",
+    "contexto": "Mencionan asados testimoniales, traer carnes, dinámicas de comida en fiestas caseras",
+    "intensidad": 1,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "Urbana Play 104.3 FM",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "date": "20260626",
+    "subtema": "Chimichurri y Asado",
+    "contexto": "Discusión sobre proporción de ajo en chimichurri para asado de 10 personas",
+    "intensidad": 1,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "NKhi31a86K8",
+    "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+    "date": "20260623",
+    "subtema": "Asado y carnes para la previa",
+    "contexto": "Mención de preparar hamburguesas y asado con amigos antes de ver partidos",
+    "intensidad": 1,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "FXtNa0lTAT4",
+    "title": "#SEFUELARGA l MORE MIÑO QUIERE QUEDAR EN LUZU, TEO TRAE INFORMACIÓN CHILLEDO Y ¿MA/PATERNAMOS?",
+    "date": "20260610",
+    "subtema": "Herramientas de asado",
+    "contexto": "Mención de pala y asaderas como herramientas para mover brasas",
+    "intensidad": 1,
+    "start_min": 100,
+    "t_seconds": 6000
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "2IOv_-h3BIo",
+    "title": "¿El MEJOR PROGRAMA del AÑO? NOCHE de DAYTONA, A JUGAR CON HUGO, FIFA y + JUEGUITOS | #SoñéQueVolaba",
+    "date": "20260605",
+    "subtema": "Asado",
+    "contexto": "Comentario sobre las ganas de 'comer asado, pasarla bien'",
+    "intensidad": 1,
+    "start_min": 160,
+    "t_seconds": 9600
+   }
+  ],
+  "highlights_total": 19
+ },
+ {
   "tema": "maternidad",
   "score": 20.6,
   "trend_score": 8.1,
@@ -20930,252 +21635,6 @@
   "highlights_total": 9
  },
  {
-  "tema": "salud mental",
-  "score": 35.2,
-  "trend_score": 7.95,
-  "menciones": 6,
-  "growth_wow": 0.0,
-  "demand_ratio": 0.0,
-  "demand_signals": 0,
-  "canales": [
-   "BLENDER",
-   "Bondi Live",
-   "LUZU TV",
-   "OLGA"
-  ],
-  "categorias": [
-   "cultura",
-   "salud"
-  ],
-  "cross_comunidad": true,
-  "multi_dia": true,
-  "candidato": false,
-  "serie": [
-   {
-    "date": "23/06/2026",
-    "n": 17.881975334850047
-   },
-   {
-    "date": "24/06/2026",
-    "n": 3.548595153111039
-   },
-   {
-    "date": "25/06/2026",
-    "n": 5.033779391282102
-   },
-   {
-    "date": "26/06/2026",
-    "n": 8.758537336623869
-   }
-  ],
-  "gt_status": null,
-  "gt_lead_days": null,
-  "gt_peak": null,
-  "cluster": null,
-  "variantes_relacionadas": [],
-  "highlights": [
-   {
-    "channel": "LUZU TV",
-    "video_id": "UtcsB5NsGj8",
-    "title": "#ELSHOWDELVERANO | DÍA DE RITUALES: NOS FROTAMOS EL PEPINO, ENTERRAMOS LA ZANAHORIA Y MUCHO MÁS",
-    "date": "20260609",
-    "subtema": "Huevas de erizo de mar como suplemento de salud",
-    "contexto": "Descubrimiento en el sur sobre regeneración de mitocondrias y telómeros del ADN a través de huevas de erizo",
-    "intensidad": 3,
-    "start_min": 10,
-    "t_seconds": 600
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "WCF4oC8GC9o",
-    "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
-    "date": "20260624",
-    "subtema": "Impacto emocional y mental en pandemia",
-    "contexto": "Depresión, ansiedad, claustrofobia, cambios en rutinas y recuperación de actividades post-pandemia",
-    "intensidad": 3,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "Jf7bO88vnm0",
-    "title": "#ANTESQUENADIE | ¿EL TRINCHE USA COFIA DE SEDA? + EL MEJOR JUEGO DEL STREAMING NACIONAL",
-    "date": "20260604",
-    "subtema": "Gestión del pensamiento intrusivo y control mental",
-    "contexto": "Se discutió cómo Djokovic maneja los pensamientos intrusivos y la diferencia entre el número uno y otros es la velocidad para sacar rápido esa carga mental",
-    "intensidad": 2,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "HV3dxHqU_mw",
-    "title": "APASIONANTE DUELO DE CIUDADES en el MUNDIALITO | #SoñéQueVolaba 8/6",
-    "date": "20260608",
-    "subtema": "Fundación '25 firmas' para prevención en salud mental",
-    "contexto": "Se presentó un proyecto dirigido al presidente, jefe de gobierno y gobernadores para priorizar adicciones y prevención en salud mental",
-    "intensidad": 2,
-    "start_min": 90,
-    "t_seconds": 5400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "10FOoeUHNy0",
-    "title": "INTENTAMOS DARLE EL SUSTO DE SU VIDA A ORIANA | #SeríaIncreíble 11/6",
-    "date": "20260611",
-    "subtema": "Estado mental de la madre de Agostina",
-    "contexto": "Madre de Agostina internada, diagnosticada con problemas de consumo, sentimientos de culpa por haber presentado a Barrelier a su hija",
-    "intensidad": 2,
-    "start_min": 10,
-    "t_seconds": 600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "bX7MB2_OI2I",
-    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-    "date": "20260623",
-    "subtema": "Salud cardiovascular femenina",
-    "contexto": "Se destaca que las mujeres en Argentina mueren de enfermedades cardiovasculares y que los sofocos deterioran la salud cardíaca",
-    "intensidad": 2,
-    "start_min": 130,
-    "t_seconds": 7800
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "WCF4oC8GC9o",
-    "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
-    "date": "20260624",
-    "subtema": "Técnicas de relajación y control mental",
-    "contexto": "Discusión sobre caminar sobre carbón, clavos y vidrio, y técnicas de respiración consciente y relajación muscular",
-    "intensidad": 2,
-    "start_min": 70,
-    "t_seconds": 4200
-   },
-   {
-    "channel": "BLENDER",
-    "video_id": "C6BZb4k8gF0",
-    "title": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
-    "date": "20260624",
-    "subtema": "Salud del conductor (voz)",
-    "contexto": "Conductor con ronquera por 8+ horas de aire diario, cambios de temperatura, lluvia en pileta y mala alimentación",
-    "intensidad": 2,
-    "start_min": 80,
-    "t_seconds": 4800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "d2xRtbOTSQQ",
-    "title": "UNA BRUJA y ANDI SEMENTI ADIVINAN el FUTURO | #SoñéQueVolaba 2/6",
-    "date": "20260602",
-    "subtema": "Clickbait en noticias de salud",
-    "contexto": "Crítica a titulares engañosos sobre vacunas contra calvicie, melanoma y cáncer que generan falsas esperanzas",
-    "intensidad": 2,
-    "start_min": 120,
-    "t_seconds": 7200
-   },
-   {
-    "channel": "BLENDER",
-    "video_id": "JXVQmuDctII",
-    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-    "date": "20260625",
-    "subtema": "Salud mental de moderadores",
-    "contexto": "Estrés postraumático, disociación, pesadillas en trabajadores expuestos a contenido violento y abusivo",
-    "intensidad": 2,
-    "start_min": 50,
-    "t_seconds": 3000
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "bX7MB2_OI2I",
-    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-    "date": "20260623",
-    "subtema": "Cambios de humor y niebla mental",
-    "contexto": "María de Los Ángeles confirma que estos síntomas son reales durante la perimenopausia y menopausia",
-    "intensidad": 2,
-    "start_min": 130,
-    "t_seconds": 7800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "HV3dxHqU_mw",
-    "title": "APASIONANTE DUELO DE CIUDADES en el MUNDIALITO | #SoñéQueVolaba 8/6",
-    "date": "20260608",
-    "subtema": "Plans de salud deportivos",
-    "contexto": "Swiss Medical ofrece Sport Plan con chequeos médicos y reintegros en gimnasios para deportistas",
-    "intensidad": 2,
-    "start_min": 60,
-    "t_seconds": 3600
-   },
-   {
-    "channel": "BLENDER",
-    "video_id": "tcq7UAzc3iw",
-    "title": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
-    "date": "20260624",
-    "subtema": "Estado de salud del conductor",
-    "contexto": "El conductor menciona que viene cansado y con la presión baja, por eso pide café",
-    "intensidad": 2,
-    "start_min": 10,
-    "t_seconds": 600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "DOYPp2Pqjvg",
-    "title": "CINE Y FÚTBOL con ARIEL STALTARI | #LaGambeta 1/6",
-    "date": "20260601",
-    "subtema": "Estado de salud del conductor",
-    "contexto": "Un conductor está enfermo con cuadro gripal/viral tipo comedia musical, mencionan necesidad de reponerse",
-    "intensidad": 1,
-    "start_min": 20,
-    "t_seconds": 1200
-   },
-   {
-    "channel": "Bondi Live",
-    "video_id": "tAUTd2FsMxA",
-    "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
-    "date": "20260624",
-    "subtema": "Paz mental vs dinero",
-    "contexto": "Reflexión sobre que la paz es lo más valioso y que no se debe sacrificar por plata, posición o poder",
-    "intensidad": 1,
-    "start_min": 120,
-    "t_seconds": 7200
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "GLACgh8nuGY",
-    "title": "#SEFUELARGA l JULI POGGIO CONTRA AMANTES, RESPONDE TODO Y FERBO VS FAUSTI BO Y JULI CASTRO",
-    "date": "20260611",
-    "subtema": "Salud mental / Antidepresivos",
-    "contexto": "Mención de haber comenzado con antidepresivos y olvidar tomarlo durante el programa",
-    "intensidad": 1,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
-    "channel": "Vorterix",
-    "video_id": "3t9P2KFJ4K0",
-    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-    "date": "20260626",
-    "subtema": "Estado de salud del conductor",
-    "contexto": "Conductor menciona tener pecho inflamado y síntomas gripales desde el día anterior",
-    "intensidad": 1,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "ao3cUV0DY6k",
-    "title": "#PATRIAYFAMILIA l FUIMOS A VER A LALI Y VOLVIÓ JULI",
-    "date": "20260608",
-    "subtema": "Salud - neumonía",
-    "contexto": "Mención de casi contraer neumonía por exponerse a lluvia sin abrigarse",
-    "intensidad": 1,
-    "start_min": 70,
-    "t_seconds": 4200
-   }
-  ],
-  "highlights_total": 18
- },
- {
   "tema": "ortodoncia",
   "score": 8.2,
   "trend_score": 7.83,
@@ -21233,122 +21692,5 @@
    }
   ],
   "highlights_total": 2
- },
- {
-  "tema": "banda música vivo",
-  "score": 45.2,
-  "trend_score": 7.29,
-  "menciones": 5,
-  "growth_wow": 0.0,
-  "demand_ratio": 0.2,
-  "demand_signals": 1,
-  "canales": [
-   "LUZU TV",
-   "OLGA"
-  ],
-  "categorias": [
-   "actividad",
-   "cultura"
-  ],
-  "cross_comunidad": true,
-  "multi_dia": true,
-  "candidato": false,
-  "serie": [
-   {
-    "date": "19/06/2026",
-    "n": 22.016560040641945
-   },
-   {
-    "date": "22/06/2026",
-    "n": 2.0
-   },
-   {
-    "date": "23/06/2026",
-    "n": 13.2813425562802
-   },
-   {
-    "date": "24/06/2026",
-    "n": 7.9360174348060735
-   }
-  ],
-  "gt_status": null,
-  "gt_lead_days": null,
-  "gt_peak": null,
-  "cluster": null,
-  "variantes_relacionadas": [],
-  "highlights": [],
-  "highlights_total": 0
- },
- {
-  "tema": "café",
-  "score": 29.7,
-  "trend_score": 7.29,
-  "menciones": 5,
-  "growth_wow": 0.0,
-  "demand_ratio": 0.2,
-  "demand_signals": 1,
-  "canales": [
-   "OLGA",
-   "Vorterix"
-  ],
-  "categorias": [
-   "comida",
-   "lugar",
-   "tecnologia"
-  ],
-  "cross_comunidad": true,
-  "multi_dia": true,
-  "candidato": false,
-  "serie": [
-   {
-    "date": "24/06/2026",
-    "n": 21.652509333900895
-   },
-   {
-    "date": "26/06/2026",
-    "n": 8.056495730461343
-   }
-  ],
-  "gt_status": null,
-  "gt_lead_days": null,
-  "gt_peak": null,
-  "cluster": null,
-  "variantes_relacionadas": [],
-  "highlights": [
-   {
-    "channel": "LUZU TV",
-    "video_id": "GC_Ahymb8Uw",
-    "title": "#ANTESQUENADIE | ¿LLORA JAMAICA? + VIERNES DE ABUELOS E INDIGNACIÓN PORQUE LOS JÓVENES NO CHAPAN",
-    "date": "20260605",
-    "subtema": "Canción 'Ojalá que llueva café'",
-    "contexto": "Se jugó adivinando el título exacto de la canción de Silvio Rodríguez, con debate sobre si era 'Ojalá' u 'Ojalá que llueva café'",
-    "intensidad": 3,
-    "start_min": 100,
-    "t_seconds": 6000
-   },
-   {
-    "channel": "Vorterix",
-    "video_id": "3t9P2KFJ4K0",
-    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-    "date": "20260626",
-    "subtema": "Sistema de bandeja con chip en cafeterías",
-    "contexto": "Explicación de sistema automático en cafetería universitaria que pesa comida y cobra al final mediante QR",
-    "intensidad": 2,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "LCHcl21l1CE",
-    "title": "#ANTESQUENADIE | ¿ARMAMOS PAREJAS A CIEGAS? Y JUGUETES TRUCHOS QUE MARCARON NUESTRA INFANCIA",
-    "date": "20260609",
-    "subtema": "Cafeterías y merenderos",
-    "contexto": "Maxi disfruta ir a merendar y recorrer cafeterías como planes tranquilos",
-    "intensidad": 2,
-    "start_min": 50,
-    "t_seconds": 3000
-   }
-  ],
-  "highlights_total": 3
  }
 ]

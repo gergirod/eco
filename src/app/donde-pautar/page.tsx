@@ -14,6 +14,8 @@ import {
   type ShowOpportunity,
 } from "@/lib/opportunity";
 import type { PlacementExport } from "@/lib/placement";
+import ChatInsightsSection from "@/components/planning/ChatInsightsSection";
+import type { ChatInsightsExport } from "@/lib/chatInsights";
 import { useDataset } from "@/lib/useDataset";
 import audienceFb from "@/data/audience.json";
 import benchmarkFb from "@/data/benchmark.json";
@@ -21,6 +23,7 @@ import channelsFb from "@/data/channels.json";
 import momentsFb from "@/data/moments.json";
 import placementFb from "@/data/placement.json";
 import reportsFb from "@/data/reports.json";
+import chatInsightsFb from "@/data/chat_insights.json";
 
 function OpportunityCard({ row }: { row: ShowOpportunity }) {
   return (
@@ -77,13 +80,14 @@ function RubroGapRow({ hint }: { hint: RubroGapHint }) {
   );
 }
 
-export default function PlanningPage() {
+export default function DondePautarPage() {
   const audience = useDataset("audience", audienceFb);
   const benchmark = useDataset("benchmark", benchmarkFb);
   const channelsConfig = useDataset("channels", channelsFb);
   const reports = useDataset("reports", reportsFb);
   const moments = useDataset("moments", momentsFb);
   const placement = useDataset("placement", placementFb) as PlacementExport;
+  const chatInsights = useDataset("chat_insights", chatInsightsFb) as ChatInsightsExport;
 
   const coverage = useMemo(() => getPlatformCoverage(loadDiscoveryDataset()), []);
 
@@ -135,6 +139,8 @@ export default function PlanningPage() {
         período capturado. {ATTENTION_DEFINITION}
       </p>
       <CoverageLine coverage={coverage} />
+
+      <ChatInsightsSection insights={chatInsights} />
 
       {opportunities.length > 0 && (
         <section className="mt-8">

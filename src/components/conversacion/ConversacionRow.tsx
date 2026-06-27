@@ -11,19 +11,11 @@ import {
 } from "@/lib/conversacion";
 import { fmtHMS, vodLink } from "@/lib/format";
 
-const GT_LABEL: Record<string, string> = {
-  adelantado: "Anticipó en Google",
-  pre_busqueda: "Todavía no en Google",
-  en_linea: "Al ritmo de Google",
-  ya_masivo: "Ya era tema público",
-};
-
-const GT_STYLE: Record<string, string> = {
-  adelantado: "text-violet-800 bg-violet-50 border-violet-200",
-  pre_busqueda: "text-indigo-800 bg-indigo-50 border-indigo-200",
-  en_linea: "text-gray-700 bg-gray-50 border-gray-200",
-  ya_masivo: "text-amber-800 bg-amber-50 border-amber-200",
-};
+import {
+  GT_STATUS_HINT,
+  GT_STATUS_LABEL,
+  isGtStatus,
+} from "@/lib/googleTrends";
 
 const MOMENTUM_STYLE: Record<
   ConversacionTopic["momentum"],
@@ -48,7 +40,7 @@ const CHANNEL_STYLE: Record<string, string> = {
 
 const INITIAL_SHOWN = 6;
 
-type Props = { topic: ConversacionTopic };
+type Props = { topic: ConversacionTopic; showGoogleTrends?: boolean };
 
 function titleLabel(tema: string): string {
   return tema
@@ -129,7 +121,7 @@ function HighlightCard({
   );
 }
 
-export default function ConversacionRow({ topic }: Props) {
+export default function ConversacionRow({ topic, showGoogleTrends = false }: Props) {
   const [open, setOpen] = useState(false);
   const [showAll, setShowAll] = useState(false);
   const mom = MOMENTUM_STYLE[topic.momentum];
@@ -231,22 +223,21 @@ export default function ConversacionRow({ topic }: Props) {
                 Varios streams
               </span>
             ) : null}
-            {topic.gtStatus && GT_LABEL[topic.gtStatus] ? (
-              <span
-                className={`text-[10px] px-2 py-0.5 rounded-full border font-medium ${GT_STYLE[topic.gtStatus] ?? ""}`}
-                title={
-                  topic.gtLeadDays != null && topic.gtLeadDays > 0
-                    ? `Unos ${topic.gtLeadDays} días antes del pico en búsquedas (Argentina)`
-                    : "Comparado con búsquedas en Argentina (Google)"
-                }
-              >
-                {GT_LABEL[topic.gtStatus]}
-                {topic.gtLeadDays != null && topic.gtLeadDays > 0
-                  ? ` · ${topic.gtLeadDays} d`
-                  : ""}
-              </span>
-            ) : null}
           </div>
+
+          {showGoogleTrends && isGtStatus(topic.gtStatus) ? (
+            <div className="rounded-lg border border-violet-200/80 bg-violet-50/50 px-3.5 py-3 mb-3">
+              <p className="text-[12px] font-semibold text-violet-950 mb-1">
+                {GT_STATUS_LABEL[topic.gtStatus]}
+                {topic.gtLeadDays != null && topic.gtLeadDays > 0
+                  ? ` · ~${topic.gtLeadDays} días de ventaja`
+                  : null}
+              </p>
+              <p className="text-[12px] text-gray-700 leading-relaxed">
+                {GT_STATUS_HINT[topic.gtStatus]}
+              </p>
+            </div>
+          ) : null}
 
           <div className="flex items-end gap-3 mb-1">
             <div className="flex-1 h-2 rounded-full bg-gray-100 overflow-hidden max-w-xs">

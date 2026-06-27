@@ -1,0 +1,1259 @@
+{
+ "channels": [
+  {
+   "id": "neura",
+   "name": "Neura Media",
+   "programs_with_chat": 5,
+   "chat_messages": 2771,
+   "msgs_per_1k": 26.04,
+   "noise_score": 0.08,
+   "chat_quality_tier": "alta",
+   "chat_quality_label": "Comunidad activa",
+   "paid_events": 20,
+   "mix": {
+    "emoji_pct": 1.7,
+    "saludo_pct": 1.5,
+    "reaccion_pct": 31.2,
+    "pregunta_pct": 24.9,
+    "demanda_pct": 0.8,
+    "obediencia_pct": 1.4,
+    "apoyo_pct": 0.7,
+    "texto_pct": 37.8
+   },
+   "character_label": "Comunidad activa — chat denso respecto a la audiencia",
+   "top_demands": [
+    {
+     "text": "(no menejo en la ciudad igualmente)",
+     "tipo": "voto_eleccion",
+     "count": 1
+    },
+    {
+     "text": "SALE DEL TIGRE",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "quiero ir a vivir a ese crucero. Cuánto el alquiler mensual y expensas?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "SALE DEL TIGRE?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Muy buen momento cuanto estamos aprendiendo!!",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "id": "vorterix",
+   "name": "Vorterix",
+   "programs_with_chat": 6,
+   "chat_messages": 25081,
+   "msgs_per_1k": 5.34,
+   "noise_score": 0.1,
+   "chat_quality_tier": "alta",
+   "chat_quality_label": "Comunidad activa",
+   "paid_events": 2,
+   "mix": {
+    "emoji_pct": 1.7,
+    "saludo_pct": 0.6,
+    "reaccion_pct": 45.8,
+    "pregunta_pct": 16.6,
+    "demanda_pct": 0.9,
+    "obediencia_pct": 1.1,
+    "apoyo_pct": 0.0,
+    "texto_pct": 33.4
+   },
+   "character_label": "Comunidad activa — chat denso respecto a la audiencia",
+   "top_demands": [
+    {
+     "text": "LLAMEN A FIO",
+     "tipo": "pedido_contenido",
+     "count": 14
+    },
+    {
+     "text": "HABLEN DE LA MEADA DEL CHIQUI A EDUL",
+     "tipo": "pedido_contenido",
+     "count": 9
+    },
+    {
+     "text": "Muchachooos! Hablen del conflicto en Blender!! Llamen a Fio Sargenti!!!",
+     "tipo": "pedido_contenido",
+     "count": 6
+    },
+    {
+     "text": "HABLEN DE OTRA COSA DE FUTBOL HABLO YO EL DUKI",
+     "tipo": "pedido_contenido",
+     "count": 2
+    },
+    {
+     "text": "hablen de blender",
+     "tipo": "pedido_contenido",
+     "count": 2
+    }
+   ]
+  },
+  {
+   "id": "gelatina",
+   "name": "Gelatina",
+   "programs_with_chat": 1,
+   "chat_messages": 778,
+   "msgs_per_1k": 3.72,
+   "noise_score": 0.04,
+   "chat_quality_tier": "media",
+   "chat_quality_label": "Comunidad moderada",
+   "paid_events": 0,
+   "mix": {
+    "emoji_pct": 2.3,
+    "saludo_pct": 2.6,
+    "reaccion_pct": 29.0,
+    "pregunta_pct": 24.6,
+    "demanda_pct": 1.2,
+    "obediencia_pct": 2.2,
+    "apoyo_pct": 0.0,
+    "texto_pct": 38.2
+   },
+   "character_label": "Comunidad activa — chat denso respecto a la audiencia",
+   "top_demands": [
+    {
+     "text": "vamos pepe decime cuanto aumento cuota para incorporar HAA",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "en cualquier momento sale a jugar Bisman",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Este tipo me genera una violencia que me cuesta describir",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "sturze sale segundo hace 2 meses",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "rebor es el primer perjudicado. Hablen de gusto chat. Tomas ya va hablar",
+     "tipo": "pedido_contenido",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "id": "blend",
+   "name": "Blender",
+   "programs_with_chat": 4,
+   "chat_messages": 8656,
+   "msgs_per_1k": 2.59,
+   "noise_score": 0.12,
+   "chat_quality_tier": "alta",
+   "chat_quality_label": "Comunidad activa",
+   "paid_events": 0,
+   "mix": {
+    "emoji_pct": 3.8,
+    "saludo_pct": 0.5,
+    "reaccion_pct": 45.9,
+    "pregunta_pct": 16.1,
+    "demanda_pct": 0.7,
+    "obediencia_pct": 0.2,
+    "apoyo_pct": 0.0,
+    "texto_pct": 32.9
+   },
+   "character_label": "Comunidad activa — chat denso respecto a la audiencia",
+   "top_demands": [
+    {
+     "text": "fah yo trabajé como moderadora de contenido para una app!",
+     "tipo": "pedido_link",
+     "count": 2
+    },
+    {
+     "text": "tiraron en link y había 6k de vistas",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "Cambiaron de link nos perdimos todo",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "PODEMOS HABLAR DEL PRECIO DEL GTA 6 LOCO",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Betito sale petecito?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "id": "urbana_play_104.3_fm",
+   "name": "urbana_play_104.3_fm",
+   "programs_with_chat": 1,
+   "chat_messages": 640,
+   "msgs_per_1k": 1.1,
+   "noise_score": 0.52,
+   "chat_quality_tier": "media",
+   "chat_quality_label": "Comunidad moderada",
+   "paid_events": 0,
+   "mix": {
+    "emoji_pct": 3.8,
+    "saludo_pct": 1.2,
+    "reaccion_pct": 26.7,
+    "pregunta_pct": 23.4,
+    "demanda_pct": 0.0,
+    "obediencia_pct": 0.3,
+    "apoyo_pct": 0.0,
+    "texto_pct": 44.5
+   },
+   "character_label": "Comunidad moderada",
+   "top_demands": []
+  },
+  {
+   "id": "olga",
+   "name": "Olga",
+   "programs_with_chat": 17,
+   "chat_messages": 69197,
+   "msgs_per_1k": 1.09,
+   "noise_score": 0.18,
+   "chat_quality_tier": "alta",
+   "chat_quality_label": "Comunidad activa",
+   "paid_events": 0,
+   "mix": {
+    "emoji_pct": 13.0,
+    "saludo_pct": 0.4,
+    "reaccion_pct": 39.2,
+    "pregunta_pct": 13.3,
+    "demanda_pct": 0.6,
+    "obediencia_pct": 1.0,
+    "apoyo_pct": 0.0,
+    "texto_pct": 32.4
+   },
+   "character_label": "Comunidad moderada",
+   "top_demands": [
+    {
+     "text": ":bird::bird::bird::bird::bird::bird::bird::bird:LOCO TRAIGAN A CHAROOOOOOOOOOOOO",
+     "tipo": "pedido_contenido",
+     "count": 61
+    },
+    {
+     "text": "LOCO TRAIGAN A CHAROOOOOOOOOOOOOOOOOOOOOOOOOOO",
+     "tipo": "pedido_contenido",
+     "count": 14
+    },
+    {
+     "text": "Cuál es la app de cómo saber la música??",
+     "tipo": "pedido_link",
+     "count": 4
+    },
+    {
+     "text": "esta a un precio super accesible!",
+     "tipo": "pregunta_precio",
+     "count": 3
+    },
+    {
+     "text": "HABLEN DE NACHO LEVY, NO SE HAGAN LOS GILES!",
+     "tipo": "pedido_contenido",
+     "count": 3
+    }
+   ]
+  },
+  {
+   "id": "bondi",
+   "name": "Bondi Live",
+   "programs_with_chat": 1,
+   "chat_messages": 6240,
+   "msgs_per_1k": 0.71,
+   "noise_score": 0.27,
+   "chat_quality_tier": "media",
+   "chat_quality_label": "Comunidad moderada",
+   "paid_events": 0,
+   "mix": {
+    "emoji_pct": 1.7,
+    "saludo_pct": 0.6,
+    "reaccion_pct": 37.0,
+    "pregunta_pct": 21.1,
+    "demanda_pct": 0.4,
+    "obediencia_pct": 1.9,
+    "apoyo_pct": 0.0,
+    "texto_pct": 37.3
+   },
+   "character_label": "Comunidad moderada",
+   "top_demands": [
+    {
+     "text": "LINK LINK LINK",
+     "tipo": "pedido_link",
+     "count": 2
+    },
+    {
+     "text": "Qué paso con la app de connie??",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "YO TE BANCO PEPE A MI ME PASA CON LAS FRUTAS Y VERDURAS, NO PUEDO ME CUESTA UN M",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "NO Y NO CONIE NO LES BAJES EL PRECIO...",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "CONNIE QUE PASO CON TU APP Y LA VIOLACION DE PRIVACIDAD DE LOS USUARIOS",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "id": "",
+   "name": "",
+   "programs_with_chat": 1,
+   "chat_messages": 5736,
+   "msgs_per_1k": 0.46,
+   "noise_score": 0.08,
+   "chat_quality_tier": "media",
+   "chat_quality_label": "Comunidad moderada",
+   "paid_events": 0,
+   "mix": {
+    "emoji_pct": 1.9,
+    "saludo_pct": 1.4,
+    "reaccion_pct": 34.6,
+    "pregunta_pct": 22.1,
+    "demanda_pct": 0.8,
+    "obediencia_pct": 0.1,
+    "apoyo_pct": 0.0,
+    "texto_pct": 39.1
+   },
+   "character_label": "Comunidad moderada",
+   "top_demands": [
+    {
+     "text": "hablen de las bombas de E.E.U.U. que son para hacer terremoto o bombas para hace",
+     "tipo": "pedido_contenido",
+     "count": 6
+    },
+    {
+     "text": "QUE VENGA JAIRO",
+     "tipo": "pedido_contenido",
+     "count": 2
+    },
+    {
+     "text": "@FefericaTetuane si no contas algo de vos ( barrio , ciudad , ) no te hablo mas ",
+     "tipo": "voto_eleccion",
+     "count": 1
+    },
+    {
+     "text": "jajaja cuesta levantarse con este frio",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "cuanta gente q solo habla mal de los integrantes de este programa , cuanto tiemp",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "id": "azz",
+   "name": "AZZ",
+   "programs_with_chat": 1,
+   "chat_messages": 97,
+   "msgs_per_1k": 0.31,
+   "noise_score": 0.01,
+   "chat_quality_tier": "baja",
+   "chat_quality_label": "Poca actividad en chat",
+   "paid_events": 0,
+   "mix": {
+    "emoji_pct": 4.1,
+    "saludo_pct": 0.0,
+    "reaccion_pct": 34.0,
+    "pregunta_pct": 21.6,
+    "demanda_pct": 1.0,
+    "obediencia_pct": 1.0,
+    "apoyo_pct": 0.0,
+    "texto_pct": 38.1
+   },
+   "character_label": "Comunidad moderada",
+   "top_demands": [
+    {
+     "text": "saludos desde Juan Lacaze, manden saludos :saluting_face:",
+     "tipo": "pregunta_compra",
+     "count": 1
+    }
+   ]
+  }
+ ],
+ "top_programs": [
+  {
+   "video_id": "c1LrQSDaXAY",
+   "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+   "channel": "Neura Media",
+   "chat_messages": 463,
+   "chat_events": 463,
+   "paid_events": 2,
+   "msgs_per_1k": 72.12,
+   "noise_score": 0.12,
+   "mix": {
+    "emoji_pct": 4.8,
+    "saludo_pct": 3.2,
+    "reaccion_pct": 49.7,
+    "pregunta_pct": 13.0,
+    "demanda_pct": 1.1,
+    "obediencia_pct": 0.6,
+    "apoyo_pct": 0.4,
+    "texto_pct": 27.2
+   },
+   "character_label": "Comunidad conversadora — chat activo más allá de emojis",
+   "top_words": [
+    {
+     "word": "gracias",
+     "count": 17
+    },
+    {
+     "word": "sebastian",
+     "count": 14
+    },
+    {
+     "word": "crucero",
+     "count": 12
+    },
+    {
+     "word": "tengo",
+     "count": 11
+    },
+    {
+     "word": "gano",
+     "count": 9
+    },
+    {
+     "word": "espana",
+     "count": 9
+    }
+   ],
+   "top_demands": [
+    {
+     "text": "(no menejo en la ciudad igualmente)",
+     "tipo": "voto_eleccion",
+     "count": 1
+    },
+    {
+     "text": "SALE DEL TIGRE",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "quiero ir a vivir a ese crucero. Cuánto el alquiler mensual y expensas?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "SALE DEL TIGRE?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Muy buen momento cuanto estamos aprendiendo!!",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "channel_id": "neura"
+  },
+  {
+   "video_id": "VRWovoLU0yQ",
+   "title": "🍿 Plot Twist 👾",
+   "channel": "Neura Media",
+   "chat_messages": 417,
+   "chat_events": 417,
+   "paid_events": 0,
+   "msgs_per_1k": 21.84,
+   "noise_score": 0.02,
+   "mix": {
+    "emoji_pct": 2.2,
+    "saludo_pct": 0.5,
+    "reaccion_pct": 29.7,
+    "pregunta_pct": 29.3,
+    "demanda_pct": 1.2,
+    "obediencia_pct": 0.2,
+    "apoyo_pct": 0.0,
+    "texto_pct": 36.9
+   },
+   "character_label": "Comunidad conversadora — chat activo más allá de emojis",
+   "top_words": [
+    {
+     "word": "face",
+     "count": 25
+    },
+    {
+     "word": "smiling",
+     "count": 25
+    },
+    {
+     "word": "blue",
+     "count": 22
+    },
+    {
+     "word": "mejor",
+     "count": 17
+    },
+    {
+     "word": "pelicula",
+     "count": 17
+    },
+    {
+     "word": "superman",
+     "count": 16
+    }
+   ],
+   "top_demands": [
+    {
+     "text": "que venga grabois a hablar de tolkien jaj",
+     "tipo": "pedido_contenido",
+     "count": 1
+    },
+    {
+     "text": "cuando atacan la ciudad de los africanos... puro bodrio",
+     "tipo": "voto_eleccion",
+     "count": 1
+    },
+    {
+     "text": "la moda es que sale la web novel, de ahi la light novel, de ahi el anime",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "mi viejo es fanatico de marvel especificamente del capitan america, al principio yo era team marvel ",
+     "tipo": "otro",
+     "count": 1
+    },
+    {
+     "text": "hablando de Henry Cavill, cuando carajos sale el trailer de Highlander 2026... !!!!!!!!!!!!",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "channel_id": "neura"
+  },
+  {
+   "video_id": "7ON4ZA5TtHc",
+   "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
+   "channel": "Neura Media",
+   "chat_messages": 1201,
+   "chat_events": 1201,
+   "paid_events": 0,
+   "msgs_per_1k": 14.02,
+   "noise_score": 0.08,
+   "mix": {
+    "emoji_pct": 0.8,
+    "saludo_pct": 1.2,
+    "reaccion_pct": 27.8,
+    "pregunta_pct": 26.1,
+    "demanda_pct": 0.4,
+    "obediencia_pct": 2.2,
+    "apoyo_pct": 0.0,
+    "texto_pct": 41.5
+   },
+   "character_label": "Comunidad conversadora — chat activo más allá de emojis",
+   "top_words": [
+    {
+     "word": "male",
+     "count": 54
+    },
+    {
+     "word": "face",
+     "count": 41
+    },
+    {
+     "word": "adorni",
+     "count": 36
+    },
+    {
+     "word": "jajaja",
+     "count": 28
+    },
+    {
+     "word": "juli",
+     "count": 28
+    },
+    {
+     "word": "tiene",
+     "count": 27
+    }
+   ],
+   "top_demands": [
+    {
+     "text": "Y DE DONDE SALE ESA REGLAMENTACION EN EL SENADO...?????",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "A DIETA ??? @jultarres ??? pesabas 48 Kg dijiste ??? a cuánto vas a bajar ??? UHhh que feo, MUCHA SU",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "@PatanPerroloco Deja la payasada. Lo dijo el compañero de Joni Viale que siempre tira info precisa. ",
+     "tipo": "otro",
+     "count": 1
+    },
+    {
+     "text": "PATAN NO QUIERO PROBAR SI EM SALE MAL",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Avisaron del gol y me gane un cupon en PYa, gracias",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ],
+   "channel_id": "neura"
+  },
+  {
+   "video_id": "XYJRLyO9exg",
+   "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
+   "channel": "Neura Media",
+   "chat_messages": 235,
+   "chat_events": 235,
+   "paid_events": 0,
+   "msgs_per_1k": 12.15,
+   "noise_score": 0.04,
+   "mix": {
+    "emoji_pct": 1.3,
+    "saludo_pct": 1.7,
+    "reaccion_pct": 24.7,
+    "pregunta_pct": 27.7,
+    "demanda_pct": 0.9,
+    "obediencia_pct": 3.4,
+    "apoyo_pct": 0.0,
+    "texto_pct": 40.4
+   },
+   "character_label": "Comunidad conversadora — chat activo más allá de emojis",
+   "top_words": [
+    {
+     "word": "yayi",
+     "count": 27
+    },
+    {
+     "word": "hola",
+     "count": 7
+    },
+    {
+     "word": "like",
+     "count": 7
+    },
+    {
+     "word": "buen",
+     "count": 7
+    },
+    {
+     "word": "tengo",
+     "count": 7
+    },
+    {
+     "word": "bien",
+     "count": 7
+    }
+   ],
+   "top_demands": [
+    {
+     "text": "Yayi... BTC está en muy buen precio.",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "a ver cuanto miedo tengo mmm 16",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "channel_id": "neura"
+  },
+  {
+   "video_id": "UlE50hJOMJg",
+   "title": "Multiverso Neura",
+   "channel": "Neura Media",
+   "chat_messages": 455,
+   "chat_events": 456,
+   "paid_events": 18,
+   "msgs_per_1k": 10.09,
+   "noise_score": 0.12,
+   "mix": {
+    "emoji_pct": 0.9,
+    "saludo_pct": 1.3,
+    "reaccion_pct": 25.9,
+    "pregunta_pct": 28.3,
+    "demanda_pct": 1.1,
+    "obediencia_pct": 0.2,
+    "apoyo_pct": 3.9,
+    "texto_pct": 38.4
+   },
+   "character_label": "Comunidad conversadora — chat activo más allá de emojis",
+   "top_words": [
+    {
+     "word": "adorni",
+     "count": 50
+    },
+    {
+     "word": "espana",
+     "count": 19
+    },
+    {
+     "word": "zangano",
+     "count": 17
+    },
+    {
+     "word": "chdtmdre",
+     "count": 16
+    },
+    {
+     "word": "argentina",
+     "count": 15
+    },
+    {
+     "word": "hola",
+     "count": 15
+    }
+   ],
+   "top_demands": [
+    {
+     "text": "Otto dog esta llorando porque por fin echaron a la piedra de Adorni? cuanto daño hizo el calvo bolud",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "hablen de fubol",
+     "tipo": "pedido_contenido",
+     "count": 1
+    },
+    {
+     "text": "Argentina le sale un cabo verde jaaaaa",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "hablen de adorni así los miran. tienen menos fulbo",
+     "tipo": "pedido_contenido",
+     "count": 1
+    },
+    {
+     "text": "cuando tenga la sucursal en bsas hay 15 de descuento para chat de neura vieejooo",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ],
+   "channel_id": "neura"
+  },
+  {
+   "video_id": "IubT1ZyjjEA",
+   "title": "🔴 ESTO NO SUCEDIÓ con Hernan Panessi, Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
+   "channel": "Vorterix",
+   "chat_messages": 962,
+   "chat_events": 962,
+   "paid_events": 0,
+   "msgs_per_1k": 9.86,
+   "noise_score": 0.03,
+   "mix": {
+    "emoji_pct": 0.8,
+    "saludo_pct": 0.6,
+    "reaccion_pct": 48.6,
+    "pregunta_pct": 18.9,
+    "demanda_pct": 0.7,
+    "obediencia_pct": 0.2,
+    "apoyo_pct": 0.0,
+    "texto_pct": 30.0
+   },
+   "character_label": "Comunidad conversadora — chat activo más allá de emojis",
+   "top_words": [
+    {
+     "word": "noxi",
+     "count": 45
+    },
+    {
+     "word": "messi",
+     "count": 30
+    },
+    {
+     "word": "guille",
+     "count": 19
+    },
+    {
+     "word": "face",
+     "count": 16
+    },
+    {
+     "word": "heart",
+     "count": 15
+    },
+    {
+     "word": "dale",
+     "count": 13
+    }
+   ],
+   "top_demands": [
+    {
+     "text": "LLAMEN A LA COLOOO",
+     "tipo": "pedido_contenido",
+     "count": 1
+    },
+    {
+     "text": "Cuanto esta el gramo ?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "cuanto tiempo",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Odio a la gente que le sale natural :loudly_crying_face::loudly_crying_face:",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Japon sale campeon del universo",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "channel_id": "vorterix"
+  },
+  {
+   "video_id": "LE5ICiVWzT8",
+   "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
+   "channel": "Vorterix",
+   "chat_messages": 1421,
+   "chat_events": 1421,
+   "paid_events": 2,
+   "msgs_per_1k": 7.64,
+   "noise_score": 0.05,
+   "mix": {
+    "emoji_pct": 0.4,
+    "saludo_pct": 1.1,
+    "reaccion_pct": 38.3,
+    "pregunta_pct": 21.7,
+    "demanda_pct": 0.4,
+    "obediencia_pct": 0.7,
+    "apoyo_pct": 0.1,
+    "texto_pct": 37.3
+   },
+   "character_label": "Comunidad conversadora — chat activo más allá de emojis",
+   "top_words": [
+    {
+     "word": "uruguay",
+     "count": 57
+    },
+    {
+     "word": "alexis",
+     "count": 42
+    },
+    {
+     "word": "muslera",
+     "count": 36
+    },
+    {
+     "word": "cabo",
+     "count": 34
+    },
+    {
+     "word": "verde",
+     "count": 33
+    },
+    {
+     "word": "bien",
+     "count": 32
+    }
+   ],
+   "top_demands": [
+    {
+     "text": "sale faloranking hoy?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Traigan sidra break",
+     "tipo": "pedido_contenido",
+     "count": 1
+    },
+    {
+     "text": "La Prodeneta uso yo. GRAN APP Desarrollada por una piba muy copada.",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "PERO A URUGUAY LE CUESTA HACER UN GOL, LE CUESTA JUGAR, LE CUESTA TODO",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "¿CUANTO APUESTAN A UN BIELSA VS VALVERDE A LAS MANOS?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "channel_id": "vorterix"
+  },
+  {
+   "video_id": "LjEHjrbNNgs",
+   "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+   "channel": "Vorterix",
+   "chat_messages": 15770,
+   "chat_events": 15770,
+   "paid_events": 0,
+   "msgs_per_1k": 6.38,
+   "noise_score": 0.19,
+   "mix": {
+    "emoji_pct": 2.1,
+    "saludo_pct": 0.5,
+    "reaccion_pct": 48.2,
+    "pregunta_pct": 15.6,
+    "demanda_pct": 0.9,
+    "obediencia_pct": 1.4,
+    "apoyo_pct": 0.0,
+    "texto_pct": 31.3
+   },
+   "character_label": "Sala con demanda concreta — piden links, precios o contenido",
+   "top_words": [
+    {
+     "word": "guille",
+     "count": 689
+    },
+    {
+     "word": "blender",
+     "count": 444
+    },
+    {
+     "word": "liska",
+     "count": 301
+    },
+    {
+     "word": "warning",
+     "count": 300
+    },
+    {
+     "word": "rollingonthefloorlaughing",
+     "count": 294
+    },
+    {
+     "word": "like",
+     "count": 267
+    }
+   ],
+   "top_demands": [
+    {
+     "text": "LLAMEN A FIO",
+     "tipo": "pedido_contenido",
+     "count": 14
+    },
+    {
+     "text": "Muchachooos! Hablen del conflicto en Blender!! Llamen a Fio Sargenti!!!",
+     "tipo": "pedido_contenido",
+     "count": 6
+    },
+    {
+     "text": "hablen de blender",
+     "tipo": "pedido_contenido",
+     "count": 2
+    },
+    {
+     "text": "TRAIGAN CHAQUEÑOS",
+     "tipo": "pedido_contenido",
+     "count": 2
+    },
+    {
+     "text": "TRAIGAN A MARTINA CIRIO AL 15 DE DAMIÁN",
+     "tipo": "pedido_contenido",
+     "count": 2
+    }
+   ],
+   "channel_id": "vorterix"
+  },
+  {
+   "video_id": "EwFONN3W5cg",
+   "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+   "channel": "Vorterix",
+   "chat_messages": 2665,
+   "chat_events": 2665,
+   "paid_events": 0,
+   "msgs_per_1k": 5.5,
+   "noise_score": 0.09,
+   "mix": {
+    "emoji_pct": 1.0,
+    "saludo_pct": 1.2,
+    "reaccion_pct": 45.0,
+    "pregunta_pct": 19.0,
+    "demanda_pct": 0.6,
+    "obediencia_pct": 0.7,
+    "apoyo_pct": 0.0,
+    "texto_pct": 32.6
+   },
+   "character_label": "Comunidad conversadora — chat activo más allá de emojis",
+   "top_words": [
+    {
+     "word": "colo",
+     "count": 156
+    },
+    {
+     "word": "cami",
+     "count": 86
+    },
+    {
+     "word": "dopaminas",
+     "count": 55
+    },
+    {
+     "word": "hearthands",
+     "count": 47
+    },
+    {
+     "word": "esto",
+     "count": 30
+    },
+    {
+     "word": "vorterix",
+     "count": 30
+    }
+   ],
+   "top_demands": [
+    {
+     "text": "JAAJAJAJAJAJ COMO LE CUESTA",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "HABLEN DE LOS DESPIDOS DE BLENDER. NO QUEREMOS COMPLICES",
+     "tipo": "pedido_contenido",
+     "count": 1
+    },
+    {
+     "text": "pongan una silla más y llamen a Jane",
+     "tipo": "pedido_contenido",
+     "count": 1
+    },
+    {
+     "text": "si la colo no puede que vaya shapi",
+     "tipo": "pedido_contenido",
+     "count": 1
+    },
+    {
+     "text": "LLAMEN A MOLLESI POR QE ROMPO TODO",
+     "tipo": "pedido_contenido",
+     "count": 1
+    }
+   ],
+   "channel_id": "vorterix"
+  },
+  {
+   "video_id": "tlhTO7YtTJ0",
+   "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
+   "channel": "GELATINA",
+   "chat_messages": 778,
+   "chat_events": 778,
+   "paid_events": 0,
+   "msgs_per_1k": 3.72,
+   "noise_score": 0.04,
+   "mix": {
+    "emoji_pct": 2.3,
+    "saludo_pct": 2.6,
+    "reaccion_pct": 29.0,
+    "pregunta_pct": 24.6,
+    "demanda_pct": 1.2,
+    "obediencia_pct": 2.2,
+    "apoyo_pct": 0.0,
+    "texto_pct": 38.2
+   },
+   "character_label": "Comunidad conversadora — chat activo más allá de emojis",
+   "top_words": [
+    {
+     "word": "mati",
+     "count": 59
+    },
+    {
+     "word": "buen",
+     "count": 36
+    },
+    {
+     "word": "face",
+     "count": 33
+    },
+    {
+     "word": "smiling",
+     "count": 29
+    },
+    {
+     "word": "blue",
+     "count": 27
+    },
+    {
+     "word": "hola",
+     "count": 25
+    }
+   ],
+   "top_demands": [
+    {
+     "text": "vamos pepe decime cuanto aumento cuota para incorporar HAA",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "en cualquier momento sale a jugar Bisman",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Este tipo me genera una violencia que me cuesta describir",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "sturze sale segundo hace 2 meses",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "rebor es el primer perjudicado. Hablen de gusto chat. Tomas ya va hablar",
+     "tipo": "pedido_contenido",
+     "count": 1
+    }
+   ],
+   "channel_id": "gelatina"
+  }
+ ],
+ "demand_signals": [
+  {
+   "text": ":bird::bird::bird::bird::bird::bird::bird::bird:LOCO TRAIGAN A CHAROOOOOOOOOOOOOOOOOOOOOOOOOOO:bird:",
+   "tipo": "pedido_contenido",
+   "count": 61,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "LLAMEN A FIO",
+   "tipo": "pedido_contenido",
+   "count": 14,
+   "n_programas": 1,
+   "canales": [
+    "Vorterix"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "LOCO TRAIGAN A CHAROOOOOOOOOOOOOOOOOOOOOOOOOOO",
+   "tipo": "pedido_contenido",
+   "count": 14,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "HABLEN DE LA MEADA DEL CHIQUI A EDUL",
+   "tipo": "pedido_contenido",
+   "count": 9,
+   "n_programas": 1,
+   "canales": [
+    "Vorterix"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "Muchachooos! Hablen del conflicto en Blender!! Llamen a Fio Sargenti!!!",
+   "tipo": "pedido_contenido",
+   "count": 6,
+   "n_programas": 1,
+   "canales": [
+    "Vorterix"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "hablen de las bombas de E.E.U.U. que son para hacer terremoto o bombas para hacer tsunami o maquinas",
+   "tipo": "pedido_contenido",
+   "count": 6,
+   "n_programas": 1,
+   "canales": [],
+   "cross_canal": false
+  },
+  {
+   "text": "Cuál es la app de cómo saber la música??",
+   "tipo": "pedido_link",
+   "count": 4,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "esta a un precio super accesible!",
+   "tipo": "pregunta_precio",
+   "count": 3,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "HABLEN DE NACHO LEVY, NO SE HAGAN LOS GILES!",
+   "tipo": "pedido_contenido",
+   "count": 3,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "necesito un cupon de mercado libre",
+   "tipo": "pedido_link",
+   "count": 3,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "estoy estudiando medicina viendolos!! manden exitos",
+   "tipo": "pregunta_compra",
+   "count": 3,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "chicos hablen de Venezuela",
+   "tipo": "pedido_contenido",
+   "count": 3,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  }
+ ],
+ "platform_line": "Neura Media lidera interacción de sala (26.04 msgs/1k mirando). Demanda recurrente: «:bird::bird::bird::bird::bird::bird::bird::bird:LOCO TRAIGAN…»",
+ "channels_with_chat": 9,
+ "period": "2026-06-27T16:40:24.952706+00:00"
+}

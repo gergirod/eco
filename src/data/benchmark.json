@@ -478,6 +478,13 @@
     "rubro": "automotriz"
    },
    {
+    "slug": "cremolati",
+    "name": "Cremolati",
+    "mentions": 1,
+    "value_usd": 45.0,
+    "rubro": "otro"
+   },
+   {
     "slug": "kanka",
     "name": "Kanka",
     "mentions": 1,
@@ -552,13 +559,6 @@
     "name": "11 40 41 96 60",
     "mentions": 1,
     "value_usd": 99.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "cremolati",
-    "name": "Cremolati",
-    "mentions": 1,
-    "value_usd": 45.0,
     "rubro": "otro"
    },
    {

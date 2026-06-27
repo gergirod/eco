@@ -21,20 +21,30 @@ const CONFIDENCE_STYLE: Record<
 
 type Props = {
   insight: TendenciaInsight;
+  googleTrends?: boolean;
 };
 
-export default function TendenciaCard({ insight }: Props) {
+export default function TendenciaCard({ insight, googleTrends }: Props) {
   const style = CONFIDENCE_STYLE[insight.confidence];
 
   return (
-    <article className="card p-5 sm:p-6">
+    <article
+      className={`card p-5 sm:p-6 ${googleTrends ? "border-violet-200/80 ring-1 ring-violet-100" : ""}`}
+    >
       <div className="flex flex-wrap items-start justify-between gap-3 mb-3">
         <span className="text-[12px] text-gray-400">{insight.period}</span>
-        <span
-          className={`text-[10px] uppercase tracking-wide font-medium px-2 py-0.5 rounded-full ${style.className}`}
-        >
-          {style.label}
-        </span>
+        <div className="flex flex-wrap items-center gap-2">
+          {googleTrends ? (
+            <span className="text-[10px] uppercase tracking-wide font-medium px-2 py-0.5 rounded-full bg-violet-50 text-violet-800">
+              Google Trends · AR
+            </span>
+          ) : null}
+          <span
+            className={`text-[10px] uppercase tracking-wide font-medium px-2 py-0.5 rounded-full ${style.className}`}
+          >
+            {style.label}
+          </span>
+        </div>
       </div>
 
       <h2 className="text-[16px] sm:text-[17px] font-semibold text-ink leading-snug mb-3">

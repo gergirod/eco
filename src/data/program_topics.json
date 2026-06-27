@@ -3326,6 +3326,148 @@
     }
    ]
   },
+  "U8f_2vIvO7Y": {
+   "video_id": "U8f_2vIvO7Y",
+   "channel_id": "urbana-play-104.3-fm",
+   "channel": "Urbana Play 104.3 FM",
+   "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Partido De Argentina",
+     "score": 4
+    },
+    {
+     "tema": "Ciclo De Almuerzos Criollos",
+     "score": 3
+    },
+    {
+     "tema": "Fórmula 1 - Gran Premio De Austria",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño De Franco Colapinto",
+     "score": 3
+    },
+    {
+     "tema": "Dopamine Sites",
+     "score": 3
+    },
+    {
+     "tema": "Dopamina Y Neurotransmisores",
+     "score": 3
+    },
+    {
+     "tema": "Eliminación De Uruguay En Mundiales",
+     "score": 3
+    },
+    {
+     "tema": "Partido Argentina Vs Jordania",
+     "score": 3
+    },
+    {
+     "tema": "Exposición Borges En Centro Cultural Recoleta",
+     "score": 3
+    },
+    {
+     "tema": "Teatro En Vivo - Historias Innecesarias",
+     "score": 3
+    },
+    {
+     "tema": "Historias Locales Y Curiosidades Regionales",
+     "score": 3
+    },
+    {
+     "tema": "Concurso De Sueños",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 54
+    },
+    {
+     "categoria": "cultura",
+     "score": 28
+    },
+    {
+     "categoria": "comida",
+     "score": 16
+    },
+    {
+     "categoria": "lugar",
+     "score": 15
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 13
+    },
+    {
+     "categoria": "salud",
+     "score": 10
+    },
+    {
+     "categoria": "persona",
+     "score": 7
+    },
+    {
+     "categoria": "producto",
+     "score": 7
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Programación De Radio",
+     "categoria": "tecnologia",
+     "contexto": "Menciones de Play Invierno, Ciudad, La Montaña y programas de Urbana Play",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Música En Streaming",
+     "categoria": "actividad",
+     "contexto": "Reproducción de canción 'I'm Only Human' durante el bloque",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Partido De Argentina",
+     "categoria": "actividad",
+     "contexto": "Se menciona que Argentina juega esta noche, discuten si Messi jugará y alineación de jugadores",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Cumpleaños De 15",
+     "categoria": "cultura",
+     "contexto": "Se abre el programa hablando de la mesa dulce de un cumpleaños de 15 a las 10 de la mañana",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Cocina Para Evento",
+     "categoria": "actividad",
+     "contexto": "Gonzalo comenta que será el cocinero porque sus hijas invitaron amigos y amigas a casa",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Mini Tortitas De Ricota",
+     "categoria": "comida",
+     "contexto": "Se describe el desayuno que incluye mini tortitas de ricota con tamaño como una cara",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Programa Punto Caramelo",
+     "categoria": "actividad",
+     "contexto": "Se menciona que es un programa federal con show de tonadas que arranca a esa hora",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Desayunos Y Catering Artesanal",
+     "categoria": "comida",
+     "contexto": "Martín Imante ofrece desayunos de trabajo, festivales y celebraciones especiales con productos 100% artesanales",
+     "minute": "0:30"
+    }
+   ]
+  },
   "UlE50hJOMJg": {
    "video_id": "UlE50hJOMJg",
    "channel_id": "neura",

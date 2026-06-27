@@ -1648,6 +1648,54 @@
   "rubro": "viajes"
  },
  {
+  "slug": "cremolati",
+  "name": "Cremolati",
+  "mentions": 2,
+  "channels": [
+   "urbana-play-104-3-fm",
+   "vorterix"
+  ],
+  "n_channels": 2,
+  "n_videos": 2,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 132.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "EwFONN3W5cg",
+    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+    "minute": "03:46:49",
+    "views": 20092,
+    "conc_at": 1543
+   },
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "03:09:52",
+    "views": 7678,
+    "conc_at": 3009
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 3009,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
   "slug": "canji",
   "name": "Canji",
   "mentions": 2,
@@ -1928,6 +1976,53 @@
    "insufficient": 0
   },
   "rubro": "alimentos"
+ },
+ {
+  "slug": "actron",
+  "name": "Actron",
+  "mentions": 2,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 112.0,
+  "samples": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "00:56:35",
+    "views": 7678,
+    "conc_at": 2616
+   },
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "00:56:43",
+    "views": 7678,
+    "conc_at": 2631
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 1,
+  "peak_conc_at": 2631,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
  },
  {
   "slug": "sinteplast",
@@ -3627,43 +3722,6 @@
   "evidence_summary": {
    "verified": 0,
    "partial": 1,
-   "insufficient": 0
-  },
-  "rubro": "otro"
- },
- {
-  "slug": "cremolati",
-  "name": "Cremolati",
-  "mentions": 1,
-  "channels": [
-   "vorterix"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 45.0,
-  "samples": [
-   {
-    "channel": "vorterix",
-    "channel_name": "Vorterix",
-    "date": "26/06/2026",
-    "video_id": "EwFONN3W5cg",
-    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
-    "minute": "03:46:49",
-    "views": 20092,
-    "conc_at": 1543
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 1543,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
    "insufficient": 0
   },
   "rubro": "otro"
@@ -5657,6 +5715,228 @@
   "n_activations": 1,
   "n_programs": 1,
   "peak_conc_at": 33220,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "martin-imante",
+  "name": "Martín Imante",
+  "mentions": 1,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 77.0,
+  "samples": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "00:30:08",
+    "views": 7678,
+    "conc_at": 1718
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 1718,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "urbana-play",
+  "name": "Urbana Play",
+  "mentions": 1,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 34.0,
+  "samples": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "01:45:06",
+    "views": 7678,
+    "conc_at": 3451
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 3451,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "punto-caramelo",
+  "name": "Punto Caramelo",
+  "mentions": 1,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 34.0,
+  "samples": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "01:45:09",
+    "views": 7678,
+    "conc_at": 3452
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 3452,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "kimi-cafe",
+  "name": "Kimi café",
+  "mentions": 1,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 99.0,
+  "samples": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "01:54:01",
+    "views": 7678,
+    "conc_at": 3432
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 3432,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "biomarket",
+  "name": "Biomarket",
+  "mentions": 1,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 87.0,
+  "samples": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "03:09:29",
+    "views": 7678,
+    "conc_at": 3014
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 3014,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "cremolati-com-ar-las-rojas-empanadas",
+  "name": "cremolati.com.ar / Las Rojas Empanadas",
+  "mentions": 1,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 87.0,
+  "samples": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "03:10:00",
+    "views": 7678,
+    "conc_at": 3007
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 3007,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {

@@ -1,17 +1,17 @@
 {
- "exported_at": "2026-06-27T16:20:49.348619+00:00",
+ "exported_at": "2026-06-27T16:40:24.952706+00:00",
  "capture_scope": "live_only",
  "capture_sources": [
   "youtube_api",
   "ytdlp_live"
  ],
- "n_videos": 49,
- "n_topics": 49,
- "n_topics_total": 114,
- "n_brands": 134,
- "n_products": 121,
- "n_pauta_mentions": 205,
- "n_moments": 43,
+ "n_videos": 50,
+ "n_topics": 50,
+ "n_topics_total": 115,
+ "n_brands": 141,
+ "n_products": 123,
+ "n_pauta_mentions": 214,
+ "n_moments": 54,
  "n_trends": 120,
  "cpm": 30.0,
  "peso_default": 0.3,
@@ -98,13 +98,13 @@
  },
  "discovery": {
   "channels_covered": 7,
-  "hours_captured": 112.2,
+  "hours_captured": 115.5,
   "first_capture": "2026-06-19",
   "last_capture": "2026-06-27",
   "period_days": 9,
-  "programs_with_viewers": 49,
+  "programs_with_viewers": 50,
   "high_confidence_advertisers": 16,
-  "emerging_confidence_advertisers": 17,
-  "activations_with_verified_evidence": 199
+  "emerging_confidence_advertisers": 19,
+  "activations_with_verified_evidence": 208
  }
 }

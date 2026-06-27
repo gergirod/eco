@@ -11,6 +11,7 @@ const nextConfig = {
       { source: "/campaign", destination: "/campanas", permanent: false },
       { source: "/acceso/invitar/:token", destination: "/acceso/entrar/:token", permanent: false },
       { source: "/audiencia", destination: "/canales", permanent: false },
+      { source: "/planning", destination: "/donde-pautar", permanent: false },
     ];
   },
 };

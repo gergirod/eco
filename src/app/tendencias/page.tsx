@@ -1,10 +1,16 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import TendenciaCard from "@/components/tendencias/TendenciaCard";
 import CoverageLine from "@/components/CoverageLine";
+import GoogleTrendsControl from "@/components/googleTrends/GoogleTrendsControl";
 import { getPlatformCoverage, loadDiscoveryDataset } from "@/lib/discovery";
+import {
+  countRadarGtInteresting,
+  countRadarWithGt,
+  isGoogleTrendsInsight,
+} from "@/lib/googleTrends";
 import { buildTendencias, tendenciasSubline } from "@/lib/tendencias";
 import { useDataset } from "@/lib/useDataset";
 import audienceFb from "@/data/audience.json";
@@ -15,6 +21,7 @@ import radarFb from "@/data/radar.json";
 import chatDemandFb from "@/data/chat_demand.json";
 
 export default function TendenciasPage() {
+  const [withGoogleTrends, setWithGoogleTrends] = useState(false);
   const radar = useDataset("radar", radarFb);
   const benchmark = useDataset("benchmark", benchmarkFb);
   const audience = useDataset("audience", audienceFb);
@@ -31,20 +38,26 @@ export default function TendenciasPage() {
         audience as Parameters<typeof buildTendencias>[2],
         brands as Parameters<typeof buildTendencias>[3],
         meta as Parameters<typeof buildTendencias>[4],
-        chatDemand as Parameters<typeof buildTendencias>[5]
+        chatDemand as Parameters<typeof buildTendencias>[5],
+        { includeGoogleTrends: withGoogleTrends }
       ),
-    [radar, benchmark, audience, brands, meta, chatDemand]
+    [radar, benchmark, audience, brands, meta, chatDemand, withGoogleTrends]
   );
+
+  const gtEnriched = useMemo(() => countRadarWithGt(radar as { gt_status?: string | null }[]), [radar]);
+  const gtInteresting = useMemo(
+    () => countRadarGtInteresting(radar as { gt_status?: string | null }[]),
+    [radar]
+  );
+
+  const { gtInsights, otherInsights } = useMemo(() => {
+    const gt = insights.filter((i) => isGoogleTrendsInsight(i.id));
+    const other = insights.filter((i) => !isGoogleTrendsInsight(i.id));
+    return { gtInsights: gt, otherInsights: other };
+  }, [insights]);
 
   const subline = tendenciasSubline(insights.length, meta as Parameters<typeof tendenciasSubline>[1]);
 
-  const gtEnriched = useMemo(
-    () =>
-      (radar as { gt_status?: string | null }[]).filter(
-        (r) => r.gt_status === "adelantado" || r.gt_status === "pre_busqueda"
-      ).length,
-    [radar]
-  );
   const byConfidence = useMemo(() => {
     const m: Record<string, number> = {};
     for (const i of insights) m[i.confidence] = (m[i.confidence] || 0) + 1;
@@ -61,7 +74,14 @@ export default function TendenciasPage() {
         Cada ítem habilita una decisión comercial.
       </p>
       <CoverageLine coverage={coverage} />
-      <p className="text-[12.5px] text-gray-400 mb-6">{subline}</p>
+      <p className="text-[12.5px] text-gray-400 mb-4">{subline}</p>
+
+      <GoogleTrendsControl
+        enabled={withGoogleTrends}
+        onChange={setWithGoogleTrends}
+        enrichedCount={gtEnriched}
+        interestingCount={gtInteresting}
+      />
 
       {insights.length > 0 && (
         <div className="flex flex-wrap gap-2 mb-6 text-[12px] text-gray-500">
@@ -86,11 +106,9 @@ export default function TendenciasPage() {
       <div className="card p-4 mb-6 bg-gray-50/80 border-[#ececec] text-[12.5px] text-gray-600 leading-relaxed">
         <b className="text-gray-700">Período corto (~2 semanas).</b> Son lecturas preliminares.
         No predecimos ni armamos perfiles de tema — solo conclusiones honestas sobre lo capturado.
-        {gtEnriched === 0 ? (
-          <> El cruce con búsquedas en Argentina se actualiza periódicamente.</>
-        ) : (
-          <> {gtEnriched} patrón{gtEnriched === 1 ? "" : "es"} donde el vivo llegó antes que Google.</>
-        )}
+        {withGoogleTrends && gtInsights.length === 0 && gtEnriched > 0 ? (
+          <> Activá la comparación arriba: hay {gtEnriched} temas con cruce, pero ninguno califica para un patrón destacado en esta vista.</>
+        ) : null}
       </div>
 
       {insights.length === 0 ? (
@@ -104,10 +122,36 @@ export default function TendenciasPage() {
           </p>
         </div>
       ) : (
-        <div className="flex flex-col gap-4">
-          {insights.map((insight) => (
-            <TendenciaCard key={insight.id} insight={insight} />
-          ))}
+        <div className="flex flex-col gap-6">
+          {withGoogleTrends && gtInsights.length > 0 ? (
+            <section>
+              <h2 className="text-[15px] font-semibold text-ink mb-1">
+                Cruce con búsquedas en Google
+              </h2>
+              <p className="text-[12.5px] text-gray-500 mb-4 max-w-xl">
+                Patrones donde la charla en vivo se compara con el interés de búsqueda en
+                Argentina (últimos 12 meses).
+              </p>
+              <div className="flex flex-col gap-4">
+                {gtInsights.map((insight) => (
+                  <TendenciaCard key={insight.id} insight={insight} googleTrends />
+                ))}
+              </div>
+            </section>
+          ) : null}
+
+          {otherInsights.length > 0 ? (
+            <section>
+              {withGoogleTrends && gtInsights.length > 0 ? (
+                <h2 className="text-[15px] font-semibold text-ink mb-4">Otros patrones</h2>
+              ) : null}
+              <div className="flex flex-col gap-4">
+                {otherInsights.map((insight) => (
+                  <TendenciaCard key={insight.id} insight={insight} />
+                ))}
+              </div>
+            </section>
+          ) : null}
         </div>
       )}
 

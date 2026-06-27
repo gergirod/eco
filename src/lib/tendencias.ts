@@ -396,7 +396,10 @@ function buildSearchAnticipationInsights(
       );
     });
 
+  const MAX_GT_INSIGHTS = 6;
+
   for (const row of rows) {
+    if (insights.length >= MAX_GT_INSIGHTS) break;
     const temaLabel = row.tema.charAt(0).toUpperCase() + row.tema.slice(1);
     const channelPhrase = formatChannelList(row.canales || []);
     const slug = CHANNEL_SLUG[row.canales?.[0] || ""] || row.canales?.[0]?.toLowerCase();
@@ -605,18 +608,22 @@ export function buildTendencias(
   audience: AudienceRow[],
   brands: { confidence_tier?: string; slug?: string; kind?: string }[],
   meta: MetaDiscovery,
-  chatDemand?: ChatDemandExport | null
+  chatDemand?: ChatDemandExport | null,
+  options?: { includeGoogleTrends?: boolean }
 ): TendenciaInsight[] {
   const period = periodLabel(meta);
   const coverage = coverageFooter(meta);
   const marcaBrands = brands.filter((b) => !b.kind || b.kind === "marca");
+  const includeGoogleTrends = options?.includeGoogleTrends !== false;
 
   const all = [
     ...buildCommercialInsights(benchmark, meta, period, coverage),
     ...buildAudienceInsights(audience, benchmark, meta, period, coverage),
     ...buildChatDemandInsights(chatDemand, meta, period, coverage),
     ...buildCommunityInsights(audience, meta, period, coverage),
-    ...buildSearchAnticipationInsights(radar, period, coverage),
+    ...(includeGoogleTrends
+      ? buildSearchAnticipationInsights(radar, period, coverage)
+      : []),
     ...buildOpportunityInsights(radar, benchmark, meta, period, coverage),
     ...buildEmergingBrandsInsight(marcaBrands, meta, period, coverage),
     ...buildConversationInsights(radar, meta, period, coverage),

@@ -134,10 +134,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -193,10 +193,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -302,10 +302,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -361,10 +361,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -420,10 +420,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -479,10 +479,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -538,10 +538,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -597,10 +597,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -690,10 +690,10 @@
     "motivo": "el chat capturado no llega a este minuto"
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -757,10 +757,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -816,10 +816,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -875,10 +875,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -934,10 +934,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -993,10 +993,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -1052,10 +1052,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -1155,10 +1155,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -1222,10 +1222,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -1285,10 +1285,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -1348,10 +1348,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -1407,10 +1407,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -1466,10 +1466,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -1525,10 +1525,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -1818,10 +1818,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -1877,10 +1877,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -1969,10 +1969,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -2093,10 +2093,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -2152,10 +2152,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -2274,10 +2274,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -2436,10 +2436,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -2499,10 +2499,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -2565,10 +2565,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -2674,10 +2674,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -2768,10 +2768,10 @@
     "motivo": "el chat capturado no llega a este minuto"
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -2828,10 +2828,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -2887,10 +2887,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -2946,10 +2946,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -3055,10 +3055,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -3250,10 +3250,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -3595,10 +3595,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -3738,10 +3738,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -3798,10 +3798,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -3857,10 +3857,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -3916,10 +3916,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -4009,10 +4009,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -4069,10 +4069,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -4128,10 +4128,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -4187,10 +4187,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -4284,10 +4284,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -4344,10 +4344,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -4407,10 +4407,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -4466,10 +4466,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -4563,10 +4563,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -4627,10 +4627,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -4692,10 +4692,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -4751,10 +4751,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -4849,10 +4849,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -4914,10 +4914,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -4973,10 +4973,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -5036,10 +5036,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -5135,10 +5135,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -5195,10 +5195,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -5254,10 +5254,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -5313,10 +5313,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -5406,10 +5406,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -5466,10 +5466,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -5530,10 +5530,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -5589,10 +5589,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -5676,10 +5676,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -5736,10 +5736,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -5795,10 +5795,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -5889,10 +5889,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -5949,10 +5949,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -6008,10 +6008,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -6095,10 +6095,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -6214,10 +6214,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -6313,10 +6313,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -6373,10 +6373,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -6438,10 +6438,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -6531,10 +6531,10 @@
     "motivo": "el chat capturado no llega a este minuto"
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -6597,10 +6597,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -6656,10 +6656,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -6749,10 +6749,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -6809,10 +6809,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -6872,10 +6872,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -6966,10 +6966,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -7026,10 +7026,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -7085,10 +7085,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -7182,10 +7182,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -7242,10 +7242,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -7305,10 +7305,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -7873,6 +7873,213 @@
     "transcript_at_ts": "Totalmente Que es durísimo ¡Amé! ¡Es una verga! ¡Amé! 240.000 personas somos, amigos Siendo las 11.33 de la mañana Me encanta que se abran estas charlas también",
     "evidence": "VERIFIED",
     "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "cremolati": {
+  "name": "Cremolati",
+  "mentions": 2,
+  "kind": "marca",
+  "value_usd": 132.0,
+  "channels": [
+   "urbana-play-104-3-fm",
+   "vorterix"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 2,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 2,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260626",
+    "date": "26/06/2026",
+    "mentions": 2,
+    "value_usd": 132.0
+   }
+  ],
+  "best": {
+   "channel": "urbana-play-104-3-fm",
+   "channel_name": "Urbana Play 104.3 FM",
+   "date": "26/06/2026",
+   "date_iso": "20260626",
+   "video_id": "U8f_2vIvO7Y",
+   "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+   "minute": "03:09:52",
+   "t_seconds": 11392,
+   "precise": true,
+   "views": 7678,
+   "value_usd": 87.0,
+   "quote": "Gracias a Cremolati El verdadero sabor del gelato italiano Natural y artesanal desde siempre Los podés seguir en Instagram Como arroba cremaolati helados",
+   "tier": 2,
+   "tier_label": "Lectura dedicada",
+   "sentiment": "positivo",
+   "conc_at": 3009,
+   "retention_pct": -2.8,
+   "chat_ratio": 1.01,
+   "chat_reaction": {
+    "cobertura": true,
+    "has_chat": true,
+    "chat_ratio": 1.01,
+    "spike_rpm": 3.0,
+    "pre_rpm": 2.0,
+    "post_rpm": 6.0,
+    "eco_marca_post": 0,
+    "eco_line": null,
+    "demanda_post": 0,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "neutral",
+    "table_line": "Chat en línea con el promedio del programa",
+    "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 2.0 msgs/min → después: 6.0 msgs/min.",
+    "detail_lines": [],
+    "ejemplos": [],
+    "motivo": null
+   },
+   "room_reaction": {
+    "has_data": true,
+    "cobertura": true,
+    "in_window": false,
+    "table_line": "Sin participación medible en este tramo",
+    "headline": "",
+    "detail_lines": [],
+    "lines": [],
+    "pins": [],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 3577,
+   "has_chat": true,
+   "anchor_confidence": "exact",
+   "anchor_validated": true,
+   "transcript_at_ts": "En su versión orgánica Los podés seguir en Instagram Como arroba biomarket orgánico Dijiste fría Gracias a Cremolati El verdadero sabor del gelato italiano Natural y artesanal desde siempre Los podés seguir en Instagram Como arroba cremaolati helados Y en cremolati.com.ar",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "EwFONN3W5cg",
+    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+    "minute": "03:46:49",
+    "t_seconds": 13609,
+    "precise": true,
+    "views": 20092,
+    "value_usd": 45.0,
+    "quote": "Voy a agradecer a Cremolati. ¡Ay, sí! Cremolati es el gelato ideal para compartir momentos especiales En la mesa familiar con amigos en parejo disfrutando tu serie favorita. Cremo es tradición, alegría y auténtico gelato italiano con más de 60 sabores, incluyendo opciones aptas para celíacos, veganas y gourmet. Hay un Cremolati para todos. Momentos de calidad, eso es Cremolati. Busca tu local más cercano en www.cremolati.com.ar y en nuestro Instagram y TikTok como arroba cremolati helados.",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 1543,
+    "retention_pct": -18.0,
+    "chat_ratio": 2.77,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 2.77,
+     "spike_rpm": 0.5,
+     "pre_rpm": 56.0,
+     "post_rpm": 25.3,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "up",
+     "table_line": "Chat 2.8× más activo que el promedio del programa",
+     "headline": "Cuando corrió la aparición, el chat estuvo 2.8× más activo que el ritmo normal del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 56.0 msgs/min → después: 25.3 msgs/min.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 2513,
+    "has_chat": true,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "no sé qué y como en vez de decir hola decían oa no me dejaban no me dejaban verlos tu y papi y acá es hola a la chubi papilla hola a la chubi papilla pero para ir a un programa para gente soy bebé este no quiere comer la chubi papilla a mí qué mierda",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   },
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "03:09:52",
+    "t_seconds": 11392,
+    "precise": true,
+    "views": 7678,
+    "value_usd": 87.0,
+    "quote": "Gracias a Cremolati El verdadero sabor del gelato italiano Natural y artesanal desde siempre Los podés seguir en Instagram Como arroba cremaolati helados",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 3009,
+    "retention_pct": -2.8,
+    "chat_ratio": 1.01,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 1.01,
+     "spike_rpm": 3.0,
+     "pre_rpm": 2.0,
+     "post_rpm": 6.0,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "neutral",
+     "table_line": "Chat en línea con el promedio del programa",
+     "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 2.0 msgs/min → después: 6.0 msgs/min.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 3577,
+    "has_chat": true,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "En su versión orgánica Los podés seguir en Instagram Como arroba biomarket orgánico Dijiste fría Gracias a Cremolati El verdadero sabor del gelato italiano Natural y artesanal desde siempre Los podés seguir en Instagram Como arroba cremaolati helados Y en cremolati.com.ar",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
    }
   ]
  },
@@ -8962,6 +9169,212 @@
    }
   ]
  },
+ "actron": {
+  "name": "Actron",
+  "mentions": 2,
+  "kind": "marca",
+  "value_usd": 112.0,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 2,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 0,
+   "neutro": 2,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260626",
+    "date": "26/06/2026",
+    "mentions": 2,
+    "value_usd": 112.0
+   }
+  ],
+  "best": {
+   "channel": "urbana-play-104-3-fm",
+   "channel_name": "Urbana Play 104.3 FM",
+   "date": "26/06/2026",
+   "date_iso": "20260626",
+   "video_id": "U8f_2vIvO7Y",
+   "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+   "minute": "00:56:43",
+   "t_seconds": 3403,
+   "precise": true,
+   "views": 7678,
+   "value_usd": 56.0,
+   "quote": "¿Sabés por qué elijo el nuevo Actron, rápida acción? Porque alivia el dolor el doble de rápido. Y eso es valorar el tiempo. Porque cada segundo cuenta. Actron, rápida acción, nueva fórmula. Ganále al dolor y recuperá tu tiempo.",
+   "tier": 2,
+   "tier_label": "Lectura dedicada",
+   "sentiment": "neutro",
+   "conc_at": 2631,
+   "retention_pct": 5.3,
+   "chat_ratio": 0.67,
+   "chat_reaction": {
+    "cobertura": true,
+    "has_chat": true,
+    "chat_ratio": 0.67,
+    "spike_rpm": 1.1,
+    "pre_rpm": 3.0,
+    "post_rpm": 3.3,
+    "eco_marca_post": 0,
+    "eco_line": null,
+    "demanda_post": 0,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "down",
+    "table_line": "Chat más quieto que el resto del programa (~33%)",
+    "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~33% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 3.0 msgs/min → después: 3.3 msgs/min.",
+    "detail_lines": [],
+    "ejemplos": [],
+    "motivo": null
+   },
+   "room_reaction": {
+    "has_data": true,
+    "cobertura": true,
+    "in_window": false,
+    "table_line": "Sin participación medible en este tramo",
+    "headline": "",
+    "detail_lines": [],
+    "lines": [],
+    "pins": [],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 3577,
+   "has_chat": true,
+   "anchor_confidence": "exact",
+   "anchor_validated": true,
+   "transcript_at_ts": "que alivia el dolor el doble de rápido. Los argentinos más rápidos eligen Actron, rápida acción, nueva fórmula. ¿Sabés por qué elijo el nuevo Actron, rápida acción? Porque alivia el dolor el doble de rápido. Y eso es valorar el tiempo. Porque cada segundo cuenta.",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "00:56:43",
+    "t_seconds": 3403,
+    "precise": true,
+    "views": 7678,
+    "value_usd": 56.0,
+    "quote": "¿Sabés por qué elijo el nuevo Actron, rápida acción? Porque alivia el dolor el doble de rápido. Y eso es valorar el tiempo. Porque cada segundo cuenta. Actron, rápida acción, nueva fórmula. Ganále al dolor y recuperá tu tiempo.",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "neutro",
+    "conc_at": 2631,
+    "retention_pct": 5.3,
+    "chat_ratio": 0.67,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 0.67,
+     "spike_rpm": 1.1,
+     "pre_rpm": 3.0,
+     "post_rpm": 3.3,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "down",
+     "table_line": "Chat más quieto que el resto del programa (~33%)",
+     "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~33% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 3.0 msgs/min → después: 3.3 msgs/min.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 3577,
+    "has_chat": true,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "que alivia el dolor el doble de rápido. Los argentinos más rápidos eligen Actron, rápida acción, nueva fórmula. ¿Sabés por qué elijo el nuevo Actron, rápida acción? Porque alivia el dolor el doble de rápido. Y eso es valorar el tiempo. Porque cada segundo cuenta.",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   },
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "00:56:35",
+    "t_seconds": 3395,
+    "precise": true,
+    "views": 7678,
+    "value_usd": 56.0,
+    "quote": "Y si tenés un dolor que te frena, tenés a Actron, que alivia el dolor el doble de rápido. Los argentinos más rápidos eligen Actron, rápida acción, nueva fórmula.",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "neutro",
+    "conc_at": 2616,
+    "retention_pct": 5.3,
+    "chat_ratio": 0.67,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 0.67,
+     "spike_rpm": 0.8,
+     "pre_rpm": 4.0,
+     "post_rpm": 3.3,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "down",
+     "table_line": "Chat más quieto que el resto del programa (~33%)",
+     "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~33% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 4.0 msgs/min → después: 3.3 msgs/min.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 3577,
+    "has_chat": true,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "en una buena posición de largada el día de mañana. Un beso. Beso para Flor. Y si tenés un dolor que te frena, tenés a Actron, que alivia el dolor el doble de rápido. Los argentinos más rápidos eligen Actron, rápida acción, nueva fórmula.",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
  "sinteplast": {
   "name": "Sinteplast",
   "mentions": 1,
@@ -9160,10 +9573,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -9224,10 +9637,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -9311,10 +9724,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -9371,10 +9784,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -9458,10 +9871,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -9518,10 +9931,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -9611,10 +10024,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -9677,10 +10090,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -9768,10 +10181,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -9832,10 +10245,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -9919,10 +10332,10 @@
     "motivo": "el chat capturado no llega a este minuto"
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -9979,10 +10392,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -10066,10 +10479,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -10126,10 +10539,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -10219,10 +10632,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -10285,10 +10698,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -10379,10 +10792,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -10446,10 +10859,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -10539,10 +10952,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -10605,10 +11018,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -10698,10 +11111,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -10764,10 +11177,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -10855,10 +11268,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -10919,10 +11332,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -11011,10 +11424,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -11076,10 +11489,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -11163,10 +11576,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -11223,10 +11636,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -11310,10 +11723,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -11370,10 +11783,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -11462,10 +11875,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -11527,10 +11940,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -11619,10 +12032,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -11684,10 +12097,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -11778,10 +12191,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -11845,10 +12258,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -11932,10 +12345,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -11992,10 +12405,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -12079,10 +12492,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -12139,10 +12552,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -12226,10 +12639,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -12286,10 +12699,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -12502,10 +12915,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -12562,10 +12975,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -12649,10 +13062,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -12709,10 +13122,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -12796,10 +13209,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -12856,10 +13269,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -12943,10 +13356,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -13003,10 +13416,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -14635,10 +15048,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -14695,10 +15108,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -14782,10 +15195,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -14842,10 +15255,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -14929,10 +15342,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -14989,10 +15402,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -15076,10 +15489,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -15136,10 +15549,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -15223,10 +15636,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -15283,10 +15696,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -15370,10 +15783,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -15430,10 +15843,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -15517,10 +15930,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -15577,10 +15990,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -15671,10 +16084,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -15738,10 +16151,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -15757,153 +16170,6 @@
     "transcript_at_ts": "Necesitás una luz. Me llama la atención. Hay un sillón en el que reposar. ¿Es para dormir la siestita? Es para dormir la siesta. A mí, ¿sabés qué me gustaría un día, Guille? ¿Qué te gustaría? Antes de irme, dormir una siesta en tu programa. O sea, cuando ustedes están al aire.",
     "evidence": "PARTIAL_EVIDENCE",
     "evidence_reason": "Evidencia parcial: anclaje no validado contra el transcript en ese segundo"
-   }
-  ]
- },
- "cremolati": {
-  "name": "Cremolati",
-  "mentions": 1,
-  "kind": "marca",
-  "value_usd": 45.0,
-  "channels": [
-   "vorterix"
-  ],
-  "by_tier": {
-   "1": 0,
-   "2": 1,
-   "3": 0
-  },
-  "by_sentiment": {
-   "positivo": 1,
-   "neutro": 0,
-   "negativo": 0
-  },
-  "series": [
-   {
-    "date_iso": "20260626",
-    "date": "26/06/2026",
-    "mentions": 1,
-    "value_usd": 45.0
-   }
-  ],
-  "best": {
-   "channel": "vorterix",
-   "channel_name": "Vorterix",
-   "date": "26/06/2026",
-   "date_iso": "20260626",
-   "video_id": "EwFONN3W5cg",
-   "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
-   "minute": "03:46:49",
-   "t_seconds": 13609,
-   "precise": true,
-   "views": 20092,
-   "value_usd": 45.0,
-   "quote": "Voy a agradecer a Cremolati. ¡Ay, sí! Cremolati es el gelato ideal para compartir momentos especiales En la mesa familiar con amigos en parejo disfrutando tu serie favorita. Cremo es tradición, alegría y auténtico gelato italiano con más de 60 sabores, incluyendo opciones aptas para celíacos, veganas y gourmet. Hay un Cremolati para todos. Momentos de calidad, eso es Cremolati. Busca tu local más cercano en www.cremolati.com.ar y en nuestro Instagram y TikTok como arroba cremolati helados.",
-   "tier": 2,
-   "tier_label": "Lectura dedicada",
-   "sentiment": "positivo",
-   "conc_at": 1543,
-   "retention_pct": -18.0,
-   "chat_ratio": 2.77,
-   "chat_reaction": {
-    "cobertura": true,
-    "has_chat": true,
-    "chat_ratio": 2.77,
-    "spike_rpm": 0.5,
-    "pre_rpm": 56.0,
-    "post_rpm": 25.3,
-    "eco_marca_post": 0,
-    "eco_line": null,
-    "demanda_post": 0,
-    "pre_s": 120,
-    "post_s": 180,
-    "tone": "up",
-    "table_line": "Chat 2.8× más activo que el promedio del programa",
-    "headline": "Cuando corrió la aparición, el chat estuvo 2.8× más activo que el ritmo normal del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 56.0 msgs/min → después: 25.3 msgs/min.",
-    "detail_lines": [],
-    "ejemplos": [],
-    "motivo": null
-   },
-   "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
-    "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
-    "headline": "",
-    "detail_lines": [],
-    "lines": [],
-    "pins": [],
-    "polls": [],
-    "monetization": null,
-    "disclaimer": null
-   },
-   "program_peak": 2513,
-   "has_chat": true,
-   "anchor_confidence": "fuzzy",
-   "anchor_validated": true,
-   "transcript_at_ts": "no sé qué y como en vez de decir hola decían oa no me dejaban no me dejaban verlos tu y papi y acá es hola a la chubi papilla hola a la chubi papilla pero para ir a un programa para gente soy bebé este no quiere comer la chubi papilla a mí qué mierda",
-   "evidence": "VERIFIED",
-   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
-  },
-  "detail": [
-   {
-    "channel": "vorterix",
-    "channel_name": "Vorterix",
-    "date": "26/06/2026",
-    "date_iso": "20260626",
-    "video_id": "EwFONN3W5cg",
-    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
-    "minute": "03:46:49",
-    "t_seconds": 13609,
-    "precise": true,
-    "views": 20092,
-    "value_usd": 45.0,
-    "quote": "Voy a agradecer a Cremolati. ¡Ay, sí! Cremolati es el gelato ideal para compartir momentos especiales En la mesa familiar con amigos en parejo disfrutando tu serie favorita. Cremo es tradición, alegría y auténtico gelato italiano con más de 60 sabores, incluyendo opciones aptas para celíacos, veganas y gourmet. Hay un Cremolati para todos. Momentos de calidad, eso es Cremolati. Busca tu local más cercano en www.cremolati.com.ar y en nuestro Instagram y TikTok como arroba cremolati helados.",
-    "tier": 2,
-    "tier_label": "Lectura dedicada",
-    "sentiment": "positivo",
-    "conc_at": 1543,
-    "retention_pct": -18.0,
-    "chat_ratio": 2.77,
-    "chat_reaction": {
-     "cobertura": true,
-     "has_chat": true,
-     "chat_ratio": 2.77,
-     "spike_rpm": 0.5,
-     "pre_rpm": 56.0,
-     "post_rpm": 25.3,
-     "eco_marca_post": 0,
-     "eco_line": null,
-     "demanda_post": 0,
-     "pre_s": 120,
-     "post_s": 180,
-     "tone": "up",
-     "table_line": "Chat 2.8× más activo que el promedio del programa",
-     "headline": "Cuando corrió la aparición, el chat estuvo 2.8× más activo que el ritmo normal del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 56.0 msgs/min → después: 25.3 msgs/min.",
-     "detail_lines": [],
-     "ejemplos": [],
-     "motivo": null
-    },
-    "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
-     "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
-     "headline": "",
-     "detail_lines": [],
-     "lines": [],
-     "pins": [],
-     "polls": [],
-     "monetization": null,
-     "disclaimer": null
-    },
-    "program_peak": 2513,
-    "has_chat": true,
-    "anchor_confidence": "fuzzy",
-    "anchor_validated": true,
-    "transcript_at_ts": "no sé qué y como en vez de decir hola decían oa no me dejaban no me dejaban verlos tu y papi y acá es hola a la chubi papilla hola a la chubi papilla pero para ir a un programa para gente soy bebé este no quiere comer la chubi papilla a mí qué mierda",
-    "evidence": "VERIFIED",
-    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
    }
   ]
  },
@@ -15972,10 +16238,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -16032,10 +16298,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -16124,10 +16390,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -16189,10 +16455,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -16281,10 +16547,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -16346,10 +16612,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -16433,10 +16699,10 @@
     "motivo": "el chat capturado no llega a este minuto"
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -16493,10 +16759,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -16587,10 +16853,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -16654,10 +16920,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -16748,10 +17014,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -16815,10 +17081,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -16908,10 +17174,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -16974,10 +17240,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -18222,10 +18488,10 @@
     "motivo": "el chat capturado no llega a este minuto"
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -18282,10 +18548,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -18369,10 +18635,10 @@
     "motivo": "el chat capturado no llega a este minuto"
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -18429,10 +18695,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -18909,10 +19175,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -18975,10 +19241,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -19062,10 +19328,10 @@
     "motivo": "el chat capturado no llega a este minuto"
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -19122,10 +19388,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -19209,10 +19475,10 @@
     "motivo": "el chat capturado no llega a este minuto"
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -19269,10 +19535,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -19356,10 +19622,10 @@
     "motivo": "el chat capturado no llega a este minuto"
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -19416,10 +19682,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -19510,10 +19776,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -19577,10 +19843,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -19671,10 +19937,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -19738,10 +20004,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -19825,10 +20091,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -19885,10 +20151,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -19972,10 +20238,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -20032,10 +20298,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -21151,10 +21417,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -21211,10 +21477,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -21850,10 +22116,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -21910,10 +22176,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -21997,10 +22263,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -22057,10 +22323,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -22144,10 +22410,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -22204,10 +22470,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -22291,10 +22557,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -22351,10 +22617,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -22438,10 +22704,10 @@
     "motivo": "el chat capturado no llega a este minuto"
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -22498,10 +22764,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -22843,10 +23109,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -22903,10 +23169,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -22990,10 +23256,10 @@
     "motivo": null
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -23050,10 +23316,10 @@
      "motivo": null
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -23137,10 +23403,10 @@
     "motivo": "el chat capturado no llega a este minuto"
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -23197,10 +23463,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -23284,10 +23550,10 @@
     "motivo": "el chat capturado no llega a este minuto"
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -23344,10 +23610,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -23431,10 +23697,10 @@
     "motivo": "el chat capturado no llega a este minuto"
    },
    "room_reaction": {
-    "has_data": false,
-    "cobertura": false,
+    "has_data": true,
+    "cobertura": true,
     "in_window": false,
-    "table_line": "Sin datos de participación en vivo",
+    "table_line": "Sin participación medible en este tramo",
     "headline": "",
     "detail_lines": [],
     "lines": [],
@@ -23491,10 +23757,10 @@
      "motivo": "el chat capturado no llega a este minuto"
     },
     "room_reaction": {
-     "has_data": false,
-     "cobertura": false,
+     "has_data": true,
+     "cobertura": true,
      "in_window": false,
-     "table_line": "Sin datos de participación en vivo",
+     "table_line": "Sin participación medible en este tramo",
      "headline": "",
      "detail_lines": [],
      "lines": [],
@@ -23510,6 +23776,920 @@
     "transcript_at_ts": "si querés una olivita no, una olivita, no ibas a pedir me vuelvo loco, hoy juega Argentina y con el equipo de Olga vamos a estar mirándolo acá disfrutando estas picadas increíbles de Picadeli muchas gracias a la gente de Picadeli Que se puso la 10",
     "evidence": "VERIFIED",
     "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "martin-imante": {
+  "name": "Martín Imante",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 77.0,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 0,
+   "3": 1
+  },
+  "by_sentiment": {
+   "positivo": 1,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260626",
+    "date": "26/06/2026",
+    "mentions": 1,
+    "value_usd": 77.0
+   }
+  ],
+  "best": {
+   "channel": "urbana-play-104-3-fm",
+   "channel_name": "Urbana Play 104.3 FM",
+   "date": "26/06/2026",
+   "date_iso": "20260626",
+   "video_id": "U8f_2vIvO7Y",
+   "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+   "minute": "00:30:08",
+   "t_seconds": 1808,
+   "precise": true,
+   "views": 7678,
+   "value_usd": 77.0,
+   "quote": "Que si buscan soluciones gastronómicas que sean personalizadas Martín Imante ofrece desayunos de trabajo, hace festivales, por ejemplo, celebraciones especiales, productos 100% artesanales y de alta calidad con servicio de catering, logística. En Instagram, arroba martin-iman y podés ir a su ventanita en Rusbel5415",
+   "tier": 3,
+   "tier_label": "Con código o promo",
+   "sentiment": "positivo",
+   "conc_at": 1718,
+   "retention_pct": 19.2,
+   "chat_ratio": 1.1,
+   "chat_reaction": {
+    "cobertura": true,
+    "has_chat": true,
+    "chat_ratio": 1.1,
+    "spike_rpm": 8.0,
+    "pre_rpm": 1.0,
+    "post_rpm": 8.0,
+    "eco_marca_post": 0,
+    "eco_line": null,
+    "demanda_post": 0,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "neutral",
+    "table_line": "Chat en línea con el promedio del programa",
+    "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 1.0 msgs/min → después: 8.0 msgs/min.",
+    "detail_lines": [],
+    "ejemplos": [],
+    "motivo": null
+   },
+   "room_reaction": {
+    "has_data": true,
+    "cobertura": true,
+    "in_window": false,
+    "table_line": "Sin participación medible en este tramo",
+    "headline": "",
+    "detail_lines": [],
+    "lines": [],
+    "pins": [],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 3577,
+   "has_chat": true,
+   "anchor_confidence": "exact",
+   "anchor_validated": true,
+   "transcript_at_ts": "Y es individual Martín nos manda granola que es increíble también Entonces le mandamos un beso grande primero Y después les decimos a ustedes Que si buscan soluciones gastronómicas Que sean personalizadas Martín Imante ofrece desayunos de trabajo Hace festivales, por ejemplo, celebraciones especiales",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "00:30:08",
+    "t_seconds": 1808,
+    "precise": true,
+    "views": 7678,
+    "value_usd": 77.0,
+    "quote": "Que si buscan soluciones gastronómicas que sean personalizadas Martín Imante ofrece desayunos de trabajo, hace festivales, por ejemplo, celebraciones especiales, productos 100% artesanales y de alta calidad con servicio de catering, logística. En Instagram, arroba martin-iman y podés ir a su ventanita en Rusbel5415",
+    "tier": 3,
+    "tier_label": "Con código o promo",
+    "sentiment": "positivo",
+    "conc_at": 1718,
+    "retention_pct": 19.2,
+    "chat_ratio": 1.1,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 1.1,
+     "spike_rpm": 8.0,
+     "pre_rpm": 1.0,
+     "post_rpm": 8.0,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "neutral",
+     "table_line": "Chat en línea con el promedio del programa",
+     "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 1.0 msgs/min → después: 8.0 msgs/min.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 3577,
+    "has_chat": true,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "Y es individual Martín nos manda granola que es increíble también Entonces le mandamos un beso grande primero Y después les decimos a ustedes Que si buscan soluciones gastronómicas Que sean personalizadas Martín Imante ofrece desayunos de trabajo Hace festivales, por ejemplo, celebraciones especiales",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "urbana-play": {
+  "name": "Urbana Play",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 34.0,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "by_tier": {
+   "1": 1,
+   "2": 0,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 1,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260626",
+    "date": "26/06/2026",
+    "mentions": 1,
+    "value_usd": 34.0
+   }
+  ],
+  "best": {
+   "channel": "urbana-play-104-3-fm",
+   "channel_name": "Urbana Play 104.3 FM",
+   "date": "26/06/2026",
+   "date_iso": "20260626",
+   "video_id": "U8f_2vIvO7Y",
+   "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+   "minute": "01:45:06",
+   "t_seconds": 6306,
+   "precise": true,
+   "views": 7678,
+   "value_usd": 34.0,
+   "quote": "nosotras estamos hasta la una de la tarde aquí en Urbana Play",
+   "tier": 1,
+   "tier_label": "Al pasar",
+   "sentiment": "positivo",
+   "conc_at": 3451,
+   "retention_pct": 3.4,
+   "chat_ratio": 0.61,
+   "chat_reaction": {
+    "cobertura": true,
+    "has_chat": true,
+    "chat_ratio": 0.61,
+    "spike_rpm": 2.7,
+    "pre_rpm": 1.0,
+    "post_rpm": 2.7,
+    "eco_marca_post": 0,
+    "eco_line": null,
+    "demanda_post": 2,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "down",
+    "table_line": "Chat más quieto que el resto del programa (~39%)",
+    "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~39% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 1.0 msgs/min → después: 2.7 msgs/min.",
+    "detail_lines": [
+     "2 mensajes con señales de demanda (precio, link, código…)."
+    ],
+    "ejemplos": [
+     "como lo quiero a Guido",
+     "como lo quiero a Guido"
+    ],
+    "motivo": null
+   },
+   "room_reaction": {
+    "has_data": true,
+    "cobertura": true,
+    "in_window": false,
+    "table_line": "Sin participación medible en este tramo",
+    "headline": "",
+    "detail_lines": [],
+    "lines": [],
+    "pins": [],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 3577,
+   "has_chat": true,
+   "anchor_confidence": "exact",
+   "anchor_validated": true,
+   "transcript_at_ts": "en esa ciudad. Gracias Guido como siempre un placer escucharte y verte cualquier novedad nos avisás y salís al aire, viste como es el vivo manda, nosotras estamos hasta la una de la tarde aquí en Urbana Play, te mandamos un abrazo grande y vamos a Argentina hoy, Guido.",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "01:45:06",
+    "t_seconds": 6306,
+    "precise": true,
+    "views": 7678,
+    "value_usd": 34.0,
+    "quote": "nosotras estamos hasta la una de la tarde aquí en Urbana Play",
+    "tier": 1,
+    "tier_label": "Al pasar",
+    "sentiment": "positivo",
+    "conc_at": 3451,
+    "retention_pct": 3.4,
+    "chat_ratio": 0.61,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 0.61,
+     "spike_rpm": 2.7,
+     "pre_rpm": 1.0,
+     "post_rpm": 2.7,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 2,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "down",
+     "table_line": "Chat más quieto que el resto del programa (~39%)",
+     "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~39% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 1.0 msgs/min → después: 2.7 msgs/min.",
+     "detail_lines": [
+      "2 mensajes con señales de demanda (precio, link, código…)."
+     ],
+     "ejemplos": [
+      "como lo quiero a Guido",
+      "como lo quiero a Guido"
+     ],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 3577,
+    "has_chat": true,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "en esa ciudad. Gracias Guido como siempre un placer escucharte y verte cualquier novedad nos avisás y salís al aire, viste como es el vivo manda, nosotras estamos hasta la una de la tarde aquí en Urbana Play, te mandamos un abrazo grande y vamos a Argentina hoy, Guido.",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "punto-caramelo": {
+  "name": "Punto Caramelo",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 34.0,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "by_tier": {
+   "1": 1,
+   "2": 0,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 1,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260626",
+    "date": "26/06/2026",
+    "mentions": 1,
+    "value_usd": 34.0
+   }
+  ],
+  "best": {
+   "channel": "urbana-play-104-3-fm",
+   "channel_name": "Urbana Play 104.3 FM",
+   "date": "26/06/2026",
+   "date_iso": "20260626",
+   "video_id": "U8f_2vIvO7Y",
+   "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+   "minute": "01:45:09",
+   "t_seconds": 6309,
+   "precise": true,
+   "views": 7678,
+   "value_usd": 34.0,
+   "quote": "Desayunate con Punto Caramelo",
+   "tier": 1,
+   "tier_label": "Al pasar",
+   "sentiment": "positivo",
+   "conc_at": 3452,
+   "retention_pct": 3.4,
+   "chat_ratio": 0.61,
+   "chat_reaction": {
+    "cobertura": true,
+    "has_chat": true,
+    "chat_ratio": 0.61,
+    "spike_rpm": 2.7,
+    "pre_rpm": 1.0,
+    "post_rpm": 2.7,
+    "eco_marca_post": 0,
+    "eco_line": null,
+    "demanda_post": 2,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "down",
+    "table_line": "Chat más quieto que el resto del programa (~39%)",
+    "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~39% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 1.0 msgs/min → después: 2.7 msgs/min.",
+    "detail_lines": [
+     "2 mensajes con señales de demanda (precio, link, código…)."
+    ],
+    "ejemplos": [
+     "como lo quiero a Guido",
+     "como lo quiero a Guido"
+    ],
+    "motivo": null
+   },
+   "room_reaction": {
+    "has_data": true,
+    "cobertura": true,
+    "in_window": false,
+    "table_line": "Sin participación medible en este tramo",
+    "headline": "",
+    "detail_lines": [],
+    "lines": [],
+    "pins": [],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 3577,
+   "has_chat": true,
+   "anchor_confidence": "fuzzy",
+   "anchor_validated": true,
+   "transcript_at_ts": "como siempre un placer escucharte y verte cualquier novedad nos avisás y salís al aire, viste como es el vivo manda, nosotras estamos hasta la una de la tarde aquí en Urbana Play, te mandamos un abrazo grande y vamos a Argentina hoy, Guido.",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "01:45:09",
+    "t_seconds": 6309,
+    "precise": true,
+    "views": 7678,
+    "value_usd": 34.0,
+    "quote": "Desayunate con Punto Caramelo",
+    "tier": 1,
+    "tier_label": "Al pasar",
+    "sentiment": "positivo",
+    "conc_at": 3452,
+    "retention_pct": 3.4,
+    "chat_ratio": 0.61,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 0.61,
+     "spike_rpm": 2.7,
+     "pre_rpm": 1.0,
+     "post_rpm": 2.7,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 2,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "down",
+     "table_line": "Chat más quieto que el resto del programa (~39%)",
+     "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~39% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 1.0 msgs/min → después: 2.7 msgs/min.",
+     "detail_lines": [
+      "2 mensajes con señales de demanda (precio, link, código…)."
+     ],
+     "ejemplos": [
+      "como lo quiero a Guido",
+      "como lo quiero a Guido"
+     ],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 3577,
+    "has_chat": true,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "como siempre un placer escucharte y verte cualquier novedad nos avisás y salís al aire, viste como es el vivo manda, nosotras estamos hasta la una de la tarde aquí en Urbana Play, te mandamos un abrazo grande y vamos a Argentina hoy, Guido.",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "kimi-cafe": {
+  "name": "Kimi café",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 99.0,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 1,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 1,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260626",
+    "date": "26/06/2026",
+    "mentions": 1,
+    "value_usd": 99.0
+   }
+  ],
+  "best": {
+   "channel": "urbana-play-104-3-fm",
+   "channel_name": "Urbana Play 104.3 FM",
+   "date": "26/06/2026",
+   "date_iso": "20260626",
+   "video_id": "U8f_2vIvO7Y",
+   "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+   "minute": "01:54:01",
+   "t_seconds": 6841,
+   "precise": true,
+   "views": 7678,
+   "value_usd": 99.0,
+   "quote": "el rico café que tomamos es de Kimi, así que pueden venirse si andan por la zona en Rabignani 1571 de lunes a viernes de 8 a 20 y los sábados de 9 a 20, kimicafe.ba, rico café de especialidad para tomar ahí y para llevar",
+   "tier": 2,
+   "tier_label": "Lectura dedicada",
+   "sentiment": "positivo",
+   "conc_at": 3432,
+   "retention_pct": 3.4,
+   "chat_ratio": 1.1,
+   "chat_reaction": {
+    "cobertura": true,
+    "has_chat": true,
+    "chat_ratio": 1.1,
+    "spike_rpm": null,
+    "pre_rpm": 0.0,
+    "post_rpm": 1.3,
+    "eco_marca_post": 0,
+    "eco_line": null,
+    "demanda_post": 0,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "neutral",
+    "table_line": "Chat en línea con el promedio del programa",
+    "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención.",
+    "detail_lines": [],
+    "ejemplos": [],
+    "motivo": null
+   },
+   "room_reaction": {
+    "has_data": true,
+    "cobertura": true,
+    "in_window": false,
+    "table_line": "Sin participación medible en este tramo",
+    "headline": "",
+    "detail_lines": [],
+    "lines": [],
+    "pins": [],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 3577,
+   "has_chat": true,
+   "anchor_confidence": "fuzzy",
+   "anchor_validated": true,
+   "transcript_at_ts": "el Buena Onda. Tengo que levantarle el ánimo a mi hijo de 14 años pobrecito, está sufriendo su primera ruptura de corazón entonces hay que",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "01:54:01",
+    "t_seconds": 6841,
+    "precise": true,
+    "views": 7678,
+    "value_usd": 99.0,
+    "quote": "el rico café que tomamos es de Kimi, así que pueden venirse si andan por la zona en Rabignani 1571 de lunes a viernes de 8 a 20 y los sábados de 9 a 20, kimicafe.ba, rico café de especialidad para tomar ahí y para llevar",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 3432,
+    "retention_pct": 3.4,
+    "chat_ratio": 1.1,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 1.1,
+     "spike_rpm": null,
+     "pre_rpm": 0.0,
+     "post_rpm": 1.3,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "neutral",
+     "table_line": "Chat en línea con el promedio del programa",
+     "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 3577,
+    "has_chat": true,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "el Buena Onda. Tengo que levantarle el ánimo a mi hijo de 14 años pobrecito, está sufriendo su primera ruptura de corazón entonces hay que",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "biomarket": {
+  "name": "Biomarket",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 87.0,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 1,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 1,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260626",
+    "date": "26/06/2026",
+    "mentions": 1,
+    "value_usd": 87.0
+   }
+  ],
+  "best": {
+   "channel": "urbana-play-104-3-fm",
+   "channel_name": "Urbana Play 104.3 FM",
+   "date": "26/06/2026",
+   "date_iso": "20260626",
+   "video_id": "U8f_2vIvO7Y",
+   "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+   "minute": "03:09:29",
+   "t_seconds": 11369,
+   "precise": true,
+   "views": 7678,
+   "value_usd": 87.0,
+   "quote": "le quiero dar las gracias a Biomarket, el primer supermercado orgánico de la ciudad que te espera en sus sucursales de recolete de grano. Podés hacer tu pedido en biomarket.com.ar Y te lo llevan a la puerta de tu casa Todo lo que hay en un supermercado En su versión orgánica Los podés seguir en Instagram Como arroba biomarket orgánico",
+   "tier": 2,
+   "tier_label": "Lectura dedicada",
+   "sentiment": "positivo",
+   "conc_at": 3014,
+   "retention_pct": -2.8,
+   "chat_ratio": 1.01,
+   "chat_reaction": {
+    "cobertura": true,
+    "has_chat": true,
+    "chat_ratio": 1.01,
+    "spike_rpm": null,
+    "pre_rpm": 0.0,
+    "post_rpm": 6.7,
+    "eco_marca_post": 0,
+    "eco_line": null,
+    "demanda_post": 0,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "neutral",
+    "table_line": "Chat en línea con el promedio del programa",
+    "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención.",
+    "detail_lines": [],
+    "ejemplos": [],
+    "motivo": null
+   },
+   "room_reaction": {
+    "has_data": true,
+    "cobertura": true,
+    "in_window": false,
+    "table_line": "Sin participación medible en este tramo",
+    "headline": "",
+    "detail_lines": [],
+    "lines": [],
+    "pins": [],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 3577,
+   "has_chat": true,
+   "anchor_confidence": "fuzzy",
+   "anchor_validated": true,
+   "transcript_at_ts": "¿Cómo la pasaron hoy? Muy bien, ya que estamos con las gracias, le quiero dar las gracias a Biomarket, el primer supermercado orgánico de la ciudad que te espera en sus sucursales de recolete de grano.",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "03:09:29",
+    "t_seconds": 11369,
+    "precise": true,
+    "views": 7678,
+    "value_usd": 87.0,
+    "quote": "le quiero dar las gracias a Biomarket, el primer supermercado orgánico de la ciudad que te espera en sus sucursales de recolete de grano. Podés hacer tu pedido en biomarket.com.ar Y te lo llevan a la puerta de tu casa Todo lo que hay en un supermercado En su versión orgánica Los podés seguir en Instagram Como arroba biomarket orgánico",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 3014,
+    "retention_pct": -2.8,
+    "chat_ratio": 1.01,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 1.01,
+     "spike_rpm": null,
+     "pre_rpm": 0.0,
+     "post_rpm": 6.7,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "neutral",
+     "table_line": "Chat en línea con el promedio del programa",
+     "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 3577,
+    "has_chat": true,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "¿Cómo la pasaron hoy? Muy bien, ya que estamos con las gracias, le quiero dar las gracias a Biomarket, el primer supermercado orgánico de la ciudad que te espera en sus sucursales de recolete de grano.",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "cremolati-com-ar-las-rojas-empanadas": {
+  "name": "cremolati.com.ar / Las Rojas Empanadas",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 87.0,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 1,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 1,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260626",
+    "date": "26/06/2026",
+    "mentions": 1,
+    "value_usd": 87.0
+   }
+  ],
+  "best": {
+   "channel": "urbana-play-104-3-fm",
+   "channel_name": "Urbana Play 104.3 FM",
+   "date": "26/06/2026",
+   "date_iso": "20260626",
+   "video_id": "U8f_2vIvO7Y",
+   "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+   "minute": "03:10:00",
+   "t_seconds": 11400,
+   "precise": true,
+   "views": 7678,
+   "value_usd": 87.0,
+   "quote": "Y en cremolati.com.ar Vamos a almorzar riquísimas empanadas De las rojas verdaderas campeonas tucumanas Que encontrás en Dorrego 1003 en Instagram como lasrojas.empanadas",
+   "tier": 2,
+   "tier_label": "Lectura dedicada",
+   "sentiment": "positivo",
+   "conc_at": 3007,
+   "retention_pct": -1.7,
+   "chat_ratio": 1.01,
+   "chat_reaction": {
+    "cobertura": true,
+    "has_chat": true,
+    "chat_ratio": 1.01,
+    "spike_rpm": 3.0,
+    "pre_rpm": 2.0,
+    "post_rpm": 6.0,
+    "eco_marca_post": 4,
+    "eco_line": "4 mensajes repitieron la marca en el chat tras la aparición",
+    "demanda_post": 0,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "neutral",
+    "table_line": "Chat en línea con el promedio del programa",
+    "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 2.0 msgs/min → después: 6.0 msgs/min.",
+    "detail_lines": [
+     "4 mensajes mencionaron la marca en los 3 min posteriores (eco de comunidad — no es prueba de pauta)."
+    ],
+    "ejemplos": [
+     "empanadas campeonasss",
+     "empanadas campeonasss",
+     "gracias por la compañia caramelas"
+    ],
+    "motivo": null
+   },
+   "room_reaction": {
+    "has_data": true,
+    "cobertura": true,
+    "in_window": false,
+    "table_line": "Sin participación medible en este tramo",
+    "headline": "",
+    "detail_lines": [],
+    "lines": [],
+    "pins": [],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 3577,
+   "has_chat": true,
+   "anchor_confidence": "fuzzy",
+   "anchor_validated": true,
+   "transcript_at_ts": "Gracias a Cremolati El verdadero sabor del gelato italiano Natural y artesanal desde siempre Los podés seguir en Instagram Como arroba cremaolati helados Y en cremolati.com.ar Vamos a almorzar riquísimas empanadas De las rojas verdaderas campeonas tucumanas Que encontrás en Dorrego 1003 en Instagram como lasrojas.empanadas",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "03:10:00",
+    "t_seconds": 11400,
+    "precise": true,
+    "views": 7678,
+    "value_usd": 87.0,
+    "quote": "Y en cremolati.com.ar Vamos a almorzar riquísimas empanadas De las rojas verdaderas campeonas tucumanas Que encontrás en Dorrego 1003 en Instagram como lasrojas.empanadas",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 3007,
+    "retention_pct": -1.7,
+    "chat_ratio": 1.01,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 1.01,
+     "spike_rpm": 3.0,
+     "pre_rpm": 2.0,
+     "post_rpm": 6.0,
+     "eco_marca_post": 4,
+     "eco_line": "4 mensajes repitieron la marca en el chat tras la aparición",
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "neutral",
+     "table_line": "Chat en línea con el promedio del programa",
+     "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 2.0 msgs/min → después: 6.0 msgs/min.",
+     "detail_lines": [
+      "4 mensajes mencionaron la marca en los 3 min posteriores (eco de comunidad — no es prueba de pauta)."
+     ],
+     "ejemplos": [
+      "empanadas campeonasss",
+      "empanadas campeonasss",
+      "gracias por la compañia caramelas"
+     ],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 3577,
+    "has_chat": true,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "Gracias a Cremolati El verdadero sabor del gelato italiano Natural y artesanal desde siempre Los podés seguir en Instagram Como arroba cremaolati helados Y en cremolati.com.ar Vamos a almorzar riquísimas empanadas De las rojas verdaderas campeonas tucumanas Que encontrás en Dorrego 1003 en Instagram como lasrojas.empanadas",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
    }
   ]
  },

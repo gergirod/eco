@@ -3018,6 +3018,56 @@
   "kind": "producto"
  },
  {
+  "slug": "cerveza",
+  "name": "cerveza",
+  "mentions": 1,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "00:20",
+    "views": 7678
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "cremolati-com-ar",
+  "name": "cremolati.com.ar",
+  "mentions": 1,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "03:10",
+    "views": 7678
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "estacion-de-servicio",
   "name": "estación de servicio",
   "mentions": 1,

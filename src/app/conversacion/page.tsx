@@ -14,6 +14,11 @@ import {
   type ConversacionMomentum,
   type ConversacionSort,
 } from "@/lib/conversacion";
+import GoogleTrendsControl from "@/components/googleTrends/GoogleTrendsControl";
+import {
+  countRadarGtInteresting,
+  countRadarWithGt,
+} from "@/lib/googleTrends";
 import { useDataset } from "@/lib/useDataset";
 import metaFb from "@/data/meta.json";
 import radarFb from "@/data/radar.json";
@@ -37,6 +42,7 @@ const MOMENTUM_OPTIONS: { id: ConversacionMomentum | ""; label: string }[] = [
 ];
 
 export default function ConversacionPage() {
+  const [withGoogleTrends, setWithGoogleTrends] = useState(false);
   const radar = useDataset("radar", radarFb);
   const meta = useDataset("meta", metaFb);
   const coverage = useMemo(() => getPlatformCoverage(loadDiscoveryDataset()), []);
@@ -101,6 +107,15 @@ export default function ConversacionPage() {
 
   const filtersActive = Boolean(search.trim() || categoria || momentum);
 
+  const gtEnriched = useMemo(
+    () => countRadarWithGt(radar as { gt_status?: string | null }[]),
+    [radar]
+  );
+  const gtInteresting = useMemo(
+    () => countRadarGtInteresting(radar as { gt_status?: string | null }[]),
+    [radar]
+  );
+
   return (
     <div className="max-w-3xl">
       <h1 className="text-[28px] font-semibold tracking-tight text-ink leading-tight">
@@ -112,7 +127,14 @@ export default function ConversacionPage() {
         publicidad.
       </p>
       <CoverageLine coverage={coverage} />
-      <p className="text-[12.5px] text-gray-400 mb-5">{subline}</p>
+      <p className="text-[12.5px] text-gray-400 mb-4">{subline}</p>
+
+      <GoogleTrendsControl
+        enabled={withGoogleTrends}
+        onChange={setWithGoogleTrends}
+        enrichedCount={gtEnriched}
+        interestingCount={gtInteresting}
+      />
 
       <div className="flex flex-wrap gap-2 mb-4">
         <button
@@ -268,7 +290,11 @@ export default function ConversacionPage() {
         <>
           <div className="flex flex-col gap-3">
             {visible.map((topic) => (
-              <ConversacionRow key={topic.tema} topic={topic} />
+              <ConversacionRow
+                key={topic.tema}
+                topic={topic}
+                showGoogleTrends={withGoogleTrends}
+              />
             ))}
           </div>
 
