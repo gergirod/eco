@@ -4,10 +4,10 @@ import { useDataset } from "@/lib/useDataset";
 import { num, compact } from "@/lib/format";
 import {
   CHAT_ENGAGEMENT_DEFINITION,
-  chatEngagementQualitative,
-  formatChatEngagementLine,
   formatChatEngagementShort,
   formatChatEngagementValue,
+  formatChatParticipationSummary,
+  formatProgramChatParticipation,
 } from "@/lib/coverage";
 
 export default function AudienciaPage() {
@@ -44,17 +44,23 @@ export default function AudienciaPage() {
                 <h2 className="text-[16px] font-semibold">{a.name}</h2>
                 <div className="text-[12px] text-gray-400 mt-0.5">{a.videos} programas con audiencia capturada</div>
               </div>
-              {a.chat_msgs_per_1k_min != null ? (
+              {a.chat_writers_per_1k != null ? (
+                <Badge tone="green">
+                  {a.chat_writers_avg?.toLocaleString("es-AR")} escribieron ·{" "}
+                  {formatChatEngagementValue(a.chat_writers_per_1k)}/1.000 mirando
+                </Badge>
+              ) : a.chat_msgs_per_1k_min != null ? (
                 <Badge tone="green">{formatChatEngagementShort(a.chat_msgs_per_1k_min)}</Badge>
               ) : (
                 <Badge tone="gray">chat no capturado</Badge>
               )}
             </div>
 
-            <div className="grid grid-cols-4 gap-4 mb-4">
+            <div className="grid grid-cols-2 sm:grid-cols-5 gap-4 mb-4">
               <div>
-                <div className="text-[11px] uppercase tracking-wide text-gray-400">Concurrentes prom.</div>
+                <div className="text-[11px] uppercase tracking-wide text-gray-400">Mirando</div>
                 <div className="text-[19px] font-semibold tabular-nums mt-0.5">{num(a.avg_concurrent)}</div>
+                <div className="text-[11px] text-gray-400">concurrentes prom.</div>
                 <div className="mt-1.5"><Bar value={a.avg_concurrent} max={maxAvg} /></div>
               </div>
               <div>
@@ -62,21 +68,43 @@ export default function AudienciaPage() {
                 <div className="text-[19px] font-semibold tabular-nums mt-0.5">{num(a.peak_concurrent)}</div>
               </div>
               <div>
-                <div className="text-[11px] uppercase tracking-wide text-gray-400">Cobertura de chat</div>
+                <div className="text-[11px] uppercase tracking-wide text-gray-400">Cobertura chat</div>
                 <div className="text-[19px] font-semibold tabular-nums mt-0.5">{a.chat_coverage}%</div>
                 <div className="text-[11px] text-gray-400">de los programas</div>
               </div>
               <div>
-                <div className="text-[11px] uppercase tracking-wide text-gray-400">Participación en chat</div>
+                <div className="text-[11px] uppercase tracking-wide text-gray-400">Escribieron</div>
                 <div className="text-[19px] font-semibold tabular-nums mt-0.5">
-                  {formatChatEngagementValue(a.chat_msgs_per_1k_min)}
+                  {a.chat_writers_avg != null ? a.chat_writers_avg.toLocaleString("es-AR") : "s/d"}
                 </div>
-                <div className="text-[11px] text-gray-400">mensajes/min · por 1.000 mirando</div>
-                {chatEngagementQualitative(a.chat_msgs_per_1k_min) ? (
-                  <div className="text-[11px] text-gray-500 mt-1">{chatEngagementQualitative(a.chat_msgs_per_1k_min)}</div>
-                ) : null}
+                <div className="text-[11px] text-gray-400">cuentas/emisión con chat</div>
+              </div>
+              <div>
+                <div className="text-[11px] uppercase tracking-wide text-gray-400">Relación</div>
+                <div className="text-[19px] font-semibold tabular-nums mt-0.5">
+                  {a.chat_writers_per_1k != null
+                    ? formatChatEngagementValue(a.chat_writers_per_1k)
+                    : "s/d"}
+                </div>
+                <div className="text-[11px] text-gray-400">escribieron por 1.000 mirando</div>
               </div>
             </div>
+
+            {formatChatParticipationSummary({
+              avgWatching: a.chat_avg_concurrent ?? a.avg_concurrent,
+              avgWriters: a.chat_writers_avg,
+              writersPer1k: a.chat_writers_per_1k,
+              msgsPerMinPer1k: a.chat_msgs_per_1k_min,
+            }) && a.chat_coverage !== 0 ? (
+              <p className="text-[12.5px] text-gray-600 mb-4 leading-relaxed">
+                {formatChatParticipationSummary({
+                  avgWatching: a.chat_avg_concurrent ?? a.avg_concurrent,
+                  avgWriters: a.chat_writers_avg,
+                  writersPer1k: a.chat_writers_per_1k,
+                  msgsPerMinPer1k: a.chat_msgs_per_1k_min,
+                })}
+              </p>
+            ) : null}
 
             <div className="border-t border-[#f0f0f0] pt-3">
               <div className="text-[12px] font-medium text-gray-500 mb-2">Top programas por pico</div>
@@ -103,9 +131,10 @@ export default function AudienciaPage() {
                   Programas donde más escribe la sala
                 </div>
                 <div className="flex flex-col gap-1.5">
-                  {a.top_programs_by_chat.map(
-                    (p: { title: string; video_id: string; chat_engagement: number }, i: number) => (
-                      <div key={i} className="flex items-center justify-between gap-4 text-[13px]">
+                  {a.top_programs_by_chat.map((p, i: number) => {
+                    const chatLine = formatProgramChatParticipation(p);
+                    return (
+                      <div key={i} className="flex items-start justify-between gap-4 text-[13px]">
                         <a
                           href={`https://www.youtube.com/watch?v=${p.video_id}`}
                           target="_blank"
@@ -114,12 +143,15 @@ export default function AudienciaPage() {
                         >
                           {p.title || p.video_id}
                         </a>
-                        <span className="tabular-nums text-gray-400 shrink-0 text-right max-w-[11rem] leading-snug">
-                          {formatChatEngagementLine(p.chat_engagement)}
-                        </span>
+                        <div className="tabular-nums text-gray-400 shrink-0 text-right max-w-[14rem] leading-snug">
+                          <div>{chatLine.primary}</div>
+                          {chatLine.secondary ? (
+                            <div className="text-[11.5px] text-gray-400 mt-0.5">{chatLine.secondary}</div>
+                          ) : null}
+                        </div>
                       </div>
-                    )
-                  )}
+                    );
+                  })}
                 </div>
               </div>
             )}

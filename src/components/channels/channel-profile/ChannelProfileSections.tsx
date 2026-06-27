@@ -5,7 +5,7 @@ import { useMemo } from "react";
 import { Badge, Bar, Stat } from "@/components/ui";
 import { evidenceLabel, evidenceTone } from "@/lib/campaign";
 import ProgramListCard from "@/components/programs/ProgramListCard";
-import { ATTENTION_DEFINITION, formatHours, formatChatEngagementLine, formatChatEngagementShort, formatChatEngagementValue, CHAT_ENGAGEMENT_DEFINITION, chatEngagementQualitative } from "@/lib/coverage";
+import { ATTENTION_DEFINITION, formatHours, formatChatEngagementLine, formatChatEngagementShort, formatChatEngagementValue, CHAT_ENGAGEMENT_DEFINITION, chatEngagementQualitative, formatChatParticipationSummary, formatProgramChatParticipation } from "@/lib/coverage";
 import {
   formatCaptureHoursLine,
   getChannelCaptureHours,
@@ -470,10 +470,27 @@ function AudienciaSection({
       ? "Mucho mensaje repetido en la sala — la señal de demanda puede estar diluida."
       : null;
 
+  const participationSummary = formatChatParticipationSummary({
+    avgWatching: aud.chat_avg_concurrent ?? aud.avg_concurrent,
+    avgWriters: aud.chat_writers_avg,
+    writersPer1k: aud.chat_writers_per_1k,
+    msgsPerMinPer1k: aud.chat_msgs_per_1k_min,
+  });
+
   return (
     <div>
       <p className="text-[13px] text-gray-500 mb-4 max-w-2xl leading-relaxed">{ATTENTION_DEFINITION}</p>
       <p className="text-[12.5px] text-gray-500 mb-4 max-w-2xl leading-relaxed">{CHAT_ENGAGEMENT_DEFINITION}</p>
+      {participationSummary && aud.chat_coverage !== 0 ? (
+        <div className="card p-5 mb-5 max-w-2xl">
+          <h2 className="text-[15px] font-semibold mb-2">Mirando vs escribiendo</h2>
+          <p className="text-[13.5px] text-gray-700 leading-relaxed">{participationSummary}</p>
+          <p className="text-[12px] text-gray-500 mt-2 leading-relaxed">
+            «Mirando» = concurrentes medidos minuto a minuto. «Escribieron» = cuentas distintas con al
+            menos un mensaje en el chat del vivo.
+          </p>
+        </div>
+      ) : null}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-5">
         <Stat label="Atención prom." value={num(aud.avg_concurrent)} hint="concurrentes medidos" />
         <Stat label="Pico de atención" value={compact(aud.peak_concurrent)} hint="un minuto del vivo" />
@@ -484,11 +501,17 @@ function AudienciaSection({
         />
         <Stat
           label="Participación en chat"
-          value={formatChatEngagementValue(aud.chat_msgs_per_1k_min)}
+          value={
+            aud.chat_writers_per_1k != null
+              ? formatChatEngagementValue(aud.chat_writers_per_1k)
+              : formatChatEngagementValue(aud.chat_msgs_per_1k_min)
+          }
           hint={
-            aud.chat_msgs_per_1k_min != null
-              ? "mensajes/min · por cada 1.000 mirando"
-              : chatLabel || "sin chat capturado"
+            aud.chat_writers_per_1k != null
+              ? "escribieron por cada 1.000 mirando"
+              : aud.chat_msgs_per_1k_min != null
+                ? "mensajes/min · por cada 1.000 mirando"
+                : chatLabel || "sin chat capturado"
           }
           info={CHAT_ENGAGEMENT_DEFINITION}
         />
@@ -529,19 +552,25 @@ function AudienciaSection({
           <h2 className="text-[15px] font-semibold mb-1">Programas donde más escribe la sala</h2>
           <p className="text-[12px] text-gray-500 mb-3">Mensajes por minuto, ajustados por cuánta gente miraba.</p>
           <div className="flex flex-col gap-2">
-            {aud.top_programs_by_chat.map((p, i) => (
-              <div key={i} className="flex items-center justify-between gap-4 text-[13px]">
+            {aud.top_programs_by_chat.map((p, i) => {
+              const chatLine = formatProgramChatParticipation(p);
+              return (
+              <div key={i} className="flex items-start justify-between gap-4 text-[13px] py-1">
                 <Link
                   href={`/programas/${p.video_id}`}
-                  className="text-gray-700 hover:text-accent hover:underline truncate"
+                  className="text-gray-700 hover:text-accent hover:underline truncate min-w-0"
                 >
                   {p.title || p.video_id}
                 </Link>
-                <span className="tabular-nums text-gray-500 shrink-0 text-right max-w-[11rem] leading-snug">
-                  {formatChatEngagementLine(p.chat_engagement)}
-                </span>
+                <div className="tabular-nums text-gray-500 shrink-0 text-right max-w-[14rem] leading-snug">
+                  <div>{chatLine.primary}</div>
+                  {chatLine.secondary ? (
+                    <div className="text-[11.5px] text-gray-400 mt-0.5">{chatLine.secondary}</div>
+                  ) : null}
+                </div>
               </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       )}
@@ -568,7 +597,7 @@ function ComparacionesSection({
   const maxAvg = Math.max(...allBenchmark.map((b) => b.avg_concurrent || 0), 1);
   const chatChannels = allAudience.filter((a) => (a.chat_coverage || 0) > 0);
   const maxChatEng = Math.max(
-    ...chatChannels.map((a) => a.chat_msgs_per_1k_min || 0),
+    ...chatChannels.map((a) => a.chat_writers_per_1k ?? a.chat_msgs_per_1k_min ?? 0),
     1
   );
 
@@ -639,23 +668,38 @@ function ComparacionesSection({
         <div className="card p-5">
           <h2 className="text-[15px] font-semibold mb-1">Participación en chat</h2>
           <p className="text-[12px] text-gray-500 mb-4">
-            Mensajes por minuto por cada 1.000 mirando — solo canales con chat capturado (LUZU sin datos
-            en el período).
+            Cuántos miraban vs cuántos escribieron (por cada 1.000 mirando) — solo canales con chat
+            capturado.
           </p>
           {chatChannels.map((a) => (
             <div key={a.id} className="mb-3 last:mb-0">
-              <div className="flex justify-between text-[13px] mb-1">
+              <div className="flex justify-between text-[13px] mb-1 gap-3">
                 <Link
                   href={`/canales/${a.id}?tab=audiencia`}
                   className={a.id === currentId ? "font-semibold text-accent" : "hover:text-accent"}
                 >
                   {a.name}
                 </Link>
-                <span className="tabular-nums text-gray-500 text-right max-w-[11rem] leading-snug">
-                  {formatChatEngagementShort(a.chat_msgs_per_1k_min ?? null)}
-                </span>
+                <div className="tabular-nums text-gray-500 text-right shrink-0 leading-snug">
+                  <div>{compact(a.chat_avg_concurrent ?? a.avg_concurrent)} mirando</div>
+                  {a.chat_writers_avg ? (
+                    <div className="text-[11.5px] text-gray-400">
+                      {a.chat_writers_avg.toLocaleString("es-AR")} escribieron/emisión
+                      {a.chat_writers_per_1k != null
+                        ? ` · ${formatChatEngagementValue(a.chat_writers_per_1k)}/1.000`
+                        : ""}
+                    </div>
+                  ) : (
+                    <div className="text-[11.5px] text-gray-400">
+                      {formatChatEngagementShort(a.chat_msgs_per_1k_min ?? null)}
+                    </div>
+                  )}
+                </div>
               </div>
-              <Bar value={a.chat_msgs_per_1k_min || 0} max={maxChatEng} />
+              <Bar
+                value={a.chat_writers_per_1k ?? a.chat_msgs_per_1k_min ?? 0}
+                max={maxChatEng}
+              />
               {a.chat_quality_label && (
                 <div className="text-[11px] text-gray-400 mt-0.5">{a.chat_quality_label}</div>
               )}

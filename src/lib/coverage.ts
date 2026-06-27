@@ -12,7 +12,63 @@ export const ATTENTION_DEFINITION =
 
 /** Qué mide la participación en chat (normalizada por audiencia). */
 export const CHAT_ENGAGEMENT_DEFINITION =
-  "Cuántos mensajes escribe la sala por minuto, ajustado por cuánta gente miraba. Sirve para comparar si la audiencia solo mira o también participa — sin favorecer al canal más grande.";
+  "Medimos cuánta gente miraba el vivo y cuántas cuentas distintas escribieron en el chat. «Por cada 1.000 mirando» compara canales sin favorecer al más grande. El ritmo de mensajes/min es otra señal: una misma persona puede mandar muchos mensajes.";
+
+export type ChatParticipationStats = {
+  avgWatching?: number | null;
+  avgWriters?: number | null;
+  writersPer1k?: number | null;
+  msgsPerMinPer1k?: number | null;
+};
+
+export type ProgramChatParticipation = {
+  avg_concurrent?: number | null;
+  chat_writers?: number | null;
+  chat_writers_per_1k?: number | null;
+  chat_engagement?: number | null;
+};
+
+/** Resumen canal: mirando · escribieron · relación. */
+export function formatChatParticipationSummary(stats: ChatParticipationStats): string | null {
+  const watching = stats.avgWatching;
+  if (watching == null || watching <= 0) return null;
+  const parts = [`${compact(watching)} mirando de promedio`];
+  if (stats.avgWriters != null && stats.avgWriters > 0) {
+    parts.push(
+      `${stats.avgWriters.toLocaleString("es-AR")} escribieron en el chat por emisión`
+    );
+    if (stats.writersPer1k != null) {
+      parts.push(
+        `${formatChatEngagementValue(stats.writersPer1k)} escribieron por cada 1.000 mirando`
+      );
+    }
+  }
+  if (stats.msgsPerMinPer1k != null) {
+    parts.push(formatChatEngagementLine(stats.msgsPerMinPer1k));
+  }
+  return parts.join(" · ");
+}
+
+/** Dos líneas para filas de programa: mirando/escribieron + relación. */
+export function formatProgramChatParticipation(p: ProgramChatParticipation): {
+  primary: string;
+  secondary: string | null;
+} {
+  const primaryParts = [
+    p.avg_concurrent ? `${compact(p.avg_concurrent)} mirando` : null,
+    p.chat_writers ? `${p.chat_writers.toLocaleString("es-AR")} escribieron` : null,
+  ].filter(Boolean);
+  const secondaryParts = [
+    p.chat_writers_per_1k != null
+      ? `${formatChatEngagementValue(p.chat_writers_per_1k)} escribieron por cada 1.000 mirando`
+      : null,
+    p.chat_engagement != null ? formatChatEngagementLine(p.chat_engagement) : null,
+  ].filter(Boolean);
+  return {
+    primary: primaryParts.join(" · ") || "sin datos",
+    secondary: secondaryParts.length ? secondaryParts.join(" · ") : null,
+  };
+}
 
 /** Formatea el valor numérico de participación en chat. */
 export function formatChatEngagementValue(value: number | null | undefined): string {

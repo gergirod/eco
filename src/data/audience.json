@@ -7,6 +7,9 @@
   "peak_concurrent": 243607,
   "chat_coverage": 0,
   "chat_msgs_per_1k_min": null,
+  "chat_writers_avg": null,
+  "chat_avg_concurrent": null,
+  "chat_writers_per_1k": null,
   "chat_quality_tier": "sin_datos",
   "chat_quality_label": "Sin chat capturado",
   "chat_noise_score": null,
@@ -48,6 +51,9 @@
   "peak_concurrent": 49756,
   "chat_coverage": 100,
   "chat_msgs_per_1k_min": 1.1,
+  "chat_writers_avg": 833,
+  "chat_avg_concurrent": 26013,
+  "chat_writers_per_1k": 32.0,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
   "chat_noise_score": 0.18,
@@ -90,27 +96,47 @@
    {
     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
     "video_id": "8lOkxIDSd4w",
-    "chat_engagement": 2.93
+    "chat_engagement": 2.93,
+    "avg_concurrent": 37260,
+    "chat_writers": 2710,
+    "chat_messages": 18204,
+    "chat_writers_per_1k": 72.7
    },
    {
     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
     "video_id": "kDbkbzy_ASA",
-    "chat_engagement": 2.81
+    "chat_engagement": 2.81,
+    "avg_concurrent": 19304,
+    "chat_writers": 899,
+    "chat_messages": 5972,
+    "chat_writers_per_1k": 46.6
    },
    {
     "title": "🧨 CASA TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
     "video_id": "O6sOwvMbRBU",
-    "chat_engagement": 2.62
+    "chat_engagement": 2.62,
+    "avg_concurrent": 18163,
+    "chat_writers": 883,
+    "chat_messages": 5711,
+    "chat_writers_per_1k": 48.6
    },
    {
     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
     "video_id": "W_HkPNOMeDc",
-    "chat_engagement": 2.56
+    "chat_engagement": 2.56,
+    "avg_concurrent": 17540,
+    "chat_writers": 718,
+    "chat_messages": 6608,
+    "chat_writers_per_1k": 40.9
    },
    {
     "title": "🚀 SOÑÉ QUE VOLABA con Migue Granados, Lucas Fridman, Vicky Garabal y Charo López | OLGA EN VIVO",
     "video_id": "cOui_830fXg",
-    "chat_engagement": 1.39
+    "chat_engagement": 1.39,
+    "avg_concurrent": 36685,
+    "chat_writers": 1527,
+    "chat_messages": 6439,
+    "chat_writers_per_1k": 41.6
    }
   ]
  },
@@ -122,6 +148,9 @@
   "peak_concurrent": 37120,
   "chat_coverage": 100,
   "chat_msgs_per_1k_min": 0.7,
+  "chat_writers_avg": 760,
+  "chat_avg_concurrent": 21251,
+  "chat_writers_per_1k": 35.8,
   "chat_quality_tier": "media",
   "chat_quality_label": "Comunidad moderada",
   "chat_noise_score": 0.27,
@@ -144,7 +173,11 @@
    {
     "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
     "video_id": "tAUTd2FsMxA",
-    "chat_engagement": 0.71
+    "chat_engagement": 0.71,
+    "avg_concurrent": 21251,
+    "chat_writers": 760,
+    "chat_messages": 6240,
+    "chat_writers_per_1k": 35.8
    }
   ]
  },
@@ -156,6 +189,9 @@
   "peak_concurrent": 23232,
   "chat_coverage": 100,
   "chat_msgs_per_1k_min": 0.5,
+  "chat_writers_avg": 490,
+  "chat_avg_concurrent": 12990,
+  "chat_writers_per_1k": 37.7,
   "chat_quality_tier": "media",
   "chat_quality_label": "Comunidad moderada",
   "chat_noise_score": 0.08,
@@ -178,7 +214,11 @@
    {
     "title": "",
     "video_id": "8XGdbbwUjEQ",
-    "chat_engagement": 0.46
+    "chat_engagement": 0.46,
+    "avg_concurrent": 12990,
+    "chat_writers": 490,
+    "chat_messages": 5736,
+    "chat_writers_per_1k": 37.7
    }
   ]
  },
@@ -190,6 +230,9 @@
   "peak_concurrent": 13819,
   "chat_coverage": 100,
   "chat_msgs_per_1k_min": 2.6,
+  "chat_writers_avg": 302,
+  "chat_avg_concurrent": 6867,
+  "chat_writers_per_1k": 44.0,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
   "chat_noise_score": 0.12,
@@ -227,22 +270,38 @@
    {
     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
     "video_id": "JXVQmuDctII",
-    "chat_engagement": 3.53
+    "chat_engagement": 3.53,
+    "avg_concurrent": 10149,
+    "chat_writers": 705,
+    "chat_messages": 4624,
+    "chat_writers_per_1k": 69.5
    },
    {
     "title": "¿NOS INVADEN O QUÉ?, ODIADOS CON EL ALGORITMO y  LA CRISIS DE LA COLO  | ÚLTIMO AVISO | BLENDER",
     "video_id": "A_ww0XRZnps",
-    "chat_engagement": 3.22
+    "chat_engagement": 3.22,
+    "avg_concurrent": 4301,
+    "chat_writers": 197,
+    "chat_messages": 1455,
+    "chat_writers_per_1k": 45.8
    },
    {
     "title": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
     "video_id": "C6BZb4k8gF0",
-    "chat_engagement": 1.87
+    "chat_engagement": 1.87,
+    "avg_concurrent": 5808,
+    "chat_writers": 192,
+    "chat_messages": 1344,
+    "chat_writers_per_1k": 33.1
    },
    {
     "title": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
     "video_id": "tcq7UAzc3iw",
-    "chat_engagement": 1.74
+    "chat_engagement": 1.74,
+    "avg_concurrent": 7212,
+    "chat_writers": 116,
+    "chat_messages": 1233,
+    "chat_writers_per_1k": 16.1
    }
   ]
  },
@@ -254,6 +313,9 @@
   "peak_concurrent": 23656,
   "chat_coverage": 100,
   "chat_msgs_per_1k_min": 5.3,
+  "chat_writers_avg": 678,
+  "chat_avg_concurrent": 6700,
+  "chat_writers_per_1k": 101.2,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
   "chat_noise_score": 0.1,
@@ -296,27 +358,47 @@
    {
     "title": "🔴 ESTO NO SUCEDIÓ con Hernan Panessi, Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
     "video_id": "IubT1ZyjjEA",
-    "chat_engagement": 9.86
+    "chat_engagement": 9.86,
+    "avg_concurrent": 813,
+    "chat_writers": 154,
+    "chat_messages": 962,
+    "chat_writers_per_1k": 189.4
    },
    {
     "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
     "video_id": "LE5ICiVWzT8",
-    "chat_engagement": 7.64
+    "chat_engagement": 7.64,
+    "avg_concurrent": 1500,
+    "chat_writers": 159,
+    "chat_messages": 1421,
+    "chat_writers_per_1k": 106.0
    },
    {
     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
     "video_id": "LjEHjrbNNgs",
-    "chat_engagement": 6.38
+    "chat_engagement": 6.38,
+    "avg_concurrent": 12420,
+    "chat_writers": 2058,
+    "chat_messages": 15770,
+    "chat_writers_per_1k": 165.7
    },
    {
     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
     "video_id": "EwFONN3W5cg",
-    "chat_engagement": 5.5
+    "chat_engagement": 5.5,
+    "avg_concurrent": 2090,
+    "chat_writers": 517,
+    "chat_messages": 2665,
+    "chat_writers_per_1k": 247.4
    },
    {
     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
     "video_id": "FYdwwoHNrMs",
-    "chat_engagement": 1.97
+    "chat_engagement": 1.97,
+    "avg_concurrent": 14595,
+    "chat_writers": 918,
+    "chat_messages": 3482,
+    "chat_writers_per_1k": 62.9
    }
   ]
  },
@@ -328,6 +410,9 @@
   "peak_concurrent": 4416,
   "chat_coverage": 100,
   "chat_msgs_per_1k_min": 0.3,
+  "chat_writers_avg": 48,
+  "chat_avg_concurrent": 4174,
+  "chat_writers_per_1k": 11.5,
   "chat_quality_tier": "baja",
   "chat_quality_label": "Poca actividad en chat",
   "chat_noise_score": 0.01,
@@ -350,7 +435,11 @@
    {
     "title": "✅URUGUAY VS CABO VERDE EN VIVO - MUNDIAL 2026 por AZZ 2026-06-21 17:07",
     "video_id": "qS_EOgSrk6w",
-    "chat_engagement": 0.31
+    "chat_engagement": 0.31,
+    "avg_concurrent": 4174,
+    "chat_writers": 48,
+    "chat_messages": 97,
+    "chat_writers_per_1k": 11.5
    }
   ]
  },
@@ -362,6 +451,9 @@
   "peak_concurrent": 3577,
   "chat_coverage": 100,
   "chat_msgs_per_1k_min": 1.1,
+  "chat_writers_avg": 42,
+  "chat_avg_concurrent": 3007,
+  "chat_writers_per_1k": 14.0,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
   "chat_noise_score": 0.52,
@@ -384,7 +476,11 @@
    {
     "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
     "video_id": "U8f_2vIvO7Y",
-    "chat_engagement": 1.1
+    "chat_engagement": 1.1,
+    "avg_concurrent": 3007,
+    "chat_writers": 42,
+    "chat_messages": 640,
+    "chat_writers_per_1k": 14.0
    }
   ]
  },
@@ -396,6 +492,9 @@
   "peak_concurrent": 1941,
   "chat_coverage": 100,
   "chat_msgs_per_1k_min": 3.7,
+  "chat_writers_avg": 219,
+  "chat_avg_concurrent": 1473,
+  "chat_writers_per_1k": 148.7,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
   "chat_noise_score": 0.04,
@@ -418,7 +517,11 @@
    {
     "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
     "video_id": "tlhTO7YtTJ0",
-    "chat_engagement": 3.72
+    "chat_engagement": 3.72,
+    "avg_concurrent": 1473,
+    "chat_writers": 219,
+    "chat_messages": 778,
+    "chat_writers_per_1k": 148.7
    }
   ]
  },
@@ -430,6 +533,9 @@
   "peak_concurrent": 1007,
   "chat_coverage": 100,
   "chat_msgs_per_1k_min": 26.0,
+  "chat_writers_avg": 73,
+  "chat_avg_concurrent": 351,
+  "chat_writers_per_1k": 208.0,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
   "chat_noise_score": 0.08,
@@ -472,27 +578,47 @@
    {
     "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
     "video_id": "c1LrQSDaXAY",
-    "chat_engagement": 72.12
+    "chat_engagement": 72.12,
+    "avg_concurrent": 60,
+    "chat_writers": 21,
+    "chat_messages": 463,
+    "chat_writers_per_1k": 350.0
    },
    {
     "title": "🍿 Plot Twist 👾",
     "video_id": "VRWovoLU0yQ",
-    "chat_engagement": 21.84
+    "chat_engagement": 21.84,
+    "avg_concurrent": 154,
+    "chat_writers": 38,
+    "chat_messages": 417,
+    "chat_writers_per_1k": 246.8
    },
    {
     "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
     "video_id": "7ON4ZA5TtHc",
-    "chat_engagement": 14.02
+    "chat_engagement": 14.02,
+    "avg_concurrent": 772,
+    "chat_writers": 182,
+    "chat_messages": 1201,
+    "chat_writers_per_1k": 235.8
    },
    {
     "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
     "video_id": "XYJRLyO9exg",
-    "chat_engagement": 12.15
+    "chat_engagement": 12.15,
+    "avg_concurrent": 312,
+    "chat_writers": 52,
+    "chat_messages": 235,
+    "chat_writers_per_1k": 166.7
    },
    {
     "title": "Multiverso Neura",
     "video_id": "UlE50hJOMJg",
-    "chat_engagement": 10.09
+    "chat_engagement": 10.09,
+    "avg_concurrent": 461,
+    "chat_writers": 74,
+    "chat_messages": 456,
+    "chat_writers_per_1k": 160.5
    }
   ]
  }

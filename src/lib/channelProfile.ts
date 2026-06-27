@@ -32,11 +32,22 @@ export type ChannelAudience = {
   peak_concurrent: number;
   chat_coverage?: number;
   chat_msgs_per_1k_min?: number | null;
+  chat_writers_avg?: number | null;
+  chat_avg_concurrent?: number | null;
+  chat_writers_per_1k?: number | null;
   chat_quality_tier?: string;
   chat_quality_label?: string;
   chat_noise_score?: number | null;
   top_programs?: { title: string; peak: number; video_id: string }[];
-  top_programs_by_chat?: { title: string; video_id: string; chat_engagement: number }[];
+  top_programs_by_chat?: {
+    title: string;
+    video_id: string;
+    chat_engagement: number;
+    avg_concurrent?: number;
+    chat_writers?: number;
+    chat_messages?: number;
+    chat_writers_per_1k?: number | null;
+  }[];
 };
 
 export type ChannelBrandRef = {
