@@ -5,6 +5,7 @@
 
 import type { NovedadEvent } from "./novedades";
 import { isDateInWindow, parseDisplayDate } from "./novedades";
+import { CHAT_DISCLAIMER } from "./evidenceLane";
 
 type MomentRow = {
   video_id?: string;
@@ -96,6 +97,7 @@ export function buildChatNovedades(
   const events: NovedadEvent[] = [];
   const seenPeak = new Set<string>();
   const seenDemand = new Set<string>();
+  const seenCommentary = new Set<string>();
   const vidToChannel: Record<string, string> = {};
   for (const report of Object.values(reports)) {
     if (report.kind && report.kind !== "marca") continue;
@@ -148,6 +150,31 @@ export function buildChatNovedades(
           channelId,
           videoId: vid,
           label: "Ver demanda",
+        },
+      });
+    }
+
+    const commentary = (mo.audience_demand || []).filter(
+      (d) => d.tema && (!d.tipo || !STRONG_DEMAND.has(d.tipo))
+    );
+    if (commentary.length && !seenCommentary.has(vid)) {
+      seenCommentary.add(vid);
+      const top = commentary.sort((a, b) => (b.n || 1) - (a.n || 1))[0];
+      const title = shortTitle(mo.title || vid);
+      const channelId = vidToChannel[vid] || (mo.channel || "").toLowerCase();
+      events.push({
+        id: `chat-comment-${vid}`,
+        date: mo.date,
+        dateSort: parseDisplayDate(mo.date),
+        headline: `La sala comentó: ${top.tema}`,
+        why: `Mensajes en chat en ${title} — “${(top.evidencia || "").slice(0, 90)}${(top.evidencia?.length || 0) > 90 ? "…" : ""}”. ${CHAT_DISCLAIMER}`,
+        confidence: "baja",
+        category: "chat",
+        action: {
+          type: "programa",
+          channelId,
+          videoId: vid,
+          label: "Ver programa",
         },
       });
     }

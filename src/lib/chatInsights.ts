@@ -50,11 +50,25 @@ export type ProgramChatInsight = {
   top_demands: { text: string; tipo: string; count: number }[];
 };
 
+export type ConductorMoment = {
+  video_id: string;
+  title: string;
+  channel: string;
+  kind?: string;
+  minute?: number;
+  quote?: string;
+  ratio?: number;
+  label?: string;
+  pre_rpm?: number;
+  post_rpm?: number;
+};
+
 export type ChatInsightsExport = {
   period?: string;
   channels: ChannelChatInsight[];
   top_programs: ProgramChatInsight[];
   demand_signals: ChatDemandSignal[];
+  conductor_moments?: ConductorMoment[];
   platform_line?: string | null;
   channels_with_chat?: number;
 };
@@ -76,7 +90,7 @@ export function mixSummary(mix: ChatMix | undefined): string {
   if (!mix) return "";
   const parts: string[] = [];
   if ((mix.demanda_pct ?? 0) >= 5) parts.push(`${mix.demanda_pct}% pide algo concreto`);
-  if ((mix.obediencia_pct ?? 0) >= 4) parts.push(`${mix.obediencia_pct}% reacciona al conductor`);
+  if ((mix.obediencia_pct ?? 0) >= 4) parts.push(`${mix.obediencia_pct}% responde al conductor`);
   if ((mix.emoji_pct ?? 0) >= 35) parts.push(`${mix.emoji_pct}% emoji`);
   if ((mix.pregunta_pct ?? 0) >= 8) parts.push(`${mix.pregunta_pct}% preguntas`);
   if ((mix.texto_pct ?? 0) >= 25) parts.push(`${mix.texto_pct}% conversación`);
@@ -87,4 +101,29 @@ export function canShowCrossChannelInsights(data: ChatInsightsExport | null | un
   if (!data?.channels?.length) return false;
   const withChat = data.channels.filter((c) => (c.msgs_per_1k ?? 0) > 0 || c.chat_messages > 0);
   return withChat.length >= 2;
+}
+
+export function applyRubroToInsights(
+  data: ChatInsightsExport,
+  allowedChannelIds: Set<string> | null,
+  channelNameToId: Record<string, string>
+): ChatInsightsExport {
+  if (!allowedChannelIds?.size) return data;
+
+  const resolveId = (name: string) =>
+    channelNameToId[name] || channelNameToId[name.toUpperCase()] || name.toLowerCase();
+
+  return {
+    ...data,
+    channels: data.channels.filter((c) => allowedChannelIds.has(c.id)),
+    top_programs: data.top_programs.filter((p) =>
+      allowedChannelIds.has(p.channel_id || resolveId(p.channel))
+    ),
+    demand_signals: data.demand_signals.filter((d) =>
+      d.canales.some((ch) => allowedChannelIds.has(resolveId(ch)))
+    ),
+    conductor_moments: (data.conductor_moments || []).filter((m) =>
+      allowedChannelIds.has(resolveId(m.channel))
+    ),
+  };
 }

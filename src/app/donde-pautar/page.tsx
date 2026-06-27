@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import CoverageLine from "@/components/CoverageLine";
 import { ATTENTION_DEFINITION, formatAttentionLiveStats } from "@/lib/coverage";
 import { listChannelBrowseItems } from "@/lib/channelProfile";
@@ -15,7 +15,18 @@ import {
 } from "@/lib/opportunity";
 import type { PlacementExport } from "@/lib/placement";
 import ChatInsightsSection from "@/components/planning/ChatInsightsSection";
-import type { ChatInsightsExport } from "@/lib/chatInsights";
+import ScheduleInsightsSection from "@/components/planning/ScheduleInsightsSection";
+import { applyRubroToInsights, type ChatInsightsExport } from "@/lib/chatInsights";
+import {
+  applyRubroToSchedule,
+  type ScheduleInsightsExport,
+} from "@/lib/scheduleInsights";
+import {
+  CHANNEL_NAME_TO_ID,
+  channelIdsForRubro,
+  PLANNING_RUBRO_OPTIONS,
+} from "@/lib/planningRubro";
+import { rubroLabel } from "@/lib/placement";
 import { useDataset } from "@/lib/useDataset";
 import audienceFb from "@/data/audience.json";
 import benchmarkFb from "@/data/benchmark.json";
@@ -24,6 +35,7 @@ import momentsFb from "@/data/moments.json";
 import placementFb from "@/data/placement.json";
 import reportsFb from "@/data/reports.json";
 import chatInsightsFb from "@/data/chat_insights.json";
+import scheduleInsightsFb from "@/data/schedule_insights.json";
 
 function OpportunityCard({ row }: { row: ShowOpportunity }) {
   return (
@@ -88,6 +100,27 @@ export default function DondePautarPage() {
   const moments = useDataset("moments", momentsFb);
   const placement = useDataset("placement", placementFb) as PlacementExport;
   const chatInsights = useDataset("chat_insights", chatInsightsFb) as ChatInsightsExport;
+  const scheduleInsights = useDataset(
+    "schedule_insights",
+    scheduleInsightsFb
+  ) as ScheduleInsightsExport;
+  const [rubro, setRubro] = useState("");
+
+  const rubroChannelIds = useMemo(
+    () => channelIdsForRubro(placement, rubro),
+    [placement, rubro]
+  );
+
+  const filteredInsights = useMemo(
+    () =>
+      applyRubroToInsights(chatInsights, rubroChannelIds, CHANNEL_NAME_TO_ID),
+    [chatInsights, rubroChannelIds]
+  );
+
+  const filteredSchedule = useMemo(
+    () => applyRubroToSchedule(scheduleInsights, rubroChannelIds),
+    [scheduleInsights, rubroChannelIds]
+  );
 
   const coverage = useMemo(() => getPlatformCoverage(loadDiscoveryDataset()), []);
 
@@ -109,9 +142,10 @@ export default function DondePautarPage() {
         reports as Parameters<typeof buildShowOpportunities>[2],
         moments as Parameters<typeof buildShowOpportunities>[3],
         placement,
-        8
+        8,
+        rubro || null
       ),
-    [channelsConfig, audience, reports, moments, placement]
+    [channelsConfig, audience, reports, moments, placement, rubro]
   );
 
   const rubroGaps = useMemo(
@@ -123,8 +157,8 @@ export default function DondePautarPage() {
         moments as Parameters<typeof buildRubroGapHints>[3],
         placement,
         5
-      ),
-    [channelsConfig, audience, reports, moments, placement]
+      ).filter((h) => !rubro || h.rubroKey === rubro),
+    [channelsConfig, audience, reports, moments, placement, rubro]
   );
 
   const topChannels = channelItems.slice(0, 5);
@@ -135,18 +169,49 @@ export default function DondePautarPage() {
         ¿Dónde conviene pautar con la atención que ya medimos?
       </h1>
       <p className="text-[14px] text-gray-500 mt-2 max-w-xl leading-relaxed">
-        Lectura rápida para armar un plan: slots con alta atención y poca densidad de pauta en el
-        período capturado. {ATTENTION_DEFINITION}
+        Lectura rápida para armar un plan: programas con mucha gente mirando y poca pauta en lo que
+        medimos. {ATTENTION_DEFINITION}
       </p>
       <CoverageLine coverage={coverage} />
 
-      <ChatInsightsSection insights={chatInsights} />
+      <div className="mt-6 flex flex-wrap items-center gap-3">
+        <label htmlFor="planning-rubro" className="text-[13px] text-gray-600">
+          Rubro objetivo
+        </label>
+        <select
+          id="planning-rubro"
+          value={rubro}
+          onChange={(e) => setRubro(e.target.value)}
+          className="text-[13px] border border-gray-200 rounded-lg px-3 py-2 bg-white text-ink min-w-[200px]"
+        >
+          {PLANNING_RUBRO_OPTIONS.map((o) => (
+            <option key={o.id || "all"} value={o.id}>
+              {o.label}
+            </option>
+          ))}
+        </select>
+        {rubro && (
+          <span className="text-[12px] text-gray-400">
+            Salas y huecos donde pauta {rubroLabel(placement, rubro).toLowerCase()}
+          </span>
+        )}
+      </div>
+
+      <ChatInsightsSection
+        insights={filteredInsights}
+        rubroLabel={rubro ? rubroLabel(placement, rubro) : null}
+      />
+
+      <ScheduleInsightsSection
+        insights={filteredSchedule}
+        rubroLabel={rubro ? rubroLabel(placement, rubro) : null}
+      />
 
       {opportunities.length > 0 && (
         <section className="mt-8">
           <div className="flex items-baseline justify-between gap-4 mb-4">
-            <h2 className="text-[15px] font-semibold text-ink">Alta atención, poca pauta</h2>
-            <span className="text-[12px] text-gray-400">{opportunities.length} slots</span>
+            <h2 className="text-[15px] font-semibold text-ink">Mucha gente mirando, poca pauta</h2>
+            <span className="text-[12px] text-gray-400">{opportunities.length} programas</span>
           </div>
           <div className="flex flex-col gap-3">
             {opportunities.map((row) => (
@@ -160,8 +225,8 @@ export default function DondePautarPage() {
         <section className="mt-10 card p-5">
           <h2 className="text-[15px] font-semibold text-ink mb-1">Huecos por rubro</h2>
           <p className="text-[13px] text-gray-500 mb-4 max-w-xl leading-relaxed">
-            Shows con atención fuerte donde un rubro que domina el canal casi no aparece — útil para
-            proponer un vertical concreto en una call.
+            Shows con buena audiencia donde un rubro que domina el canal casi no aparece — útil para
+            proponer un vertical concreto en una reunión.
           </p>
           <div>
             {rubroGaps.map((hint) => (
@@ -203,8 +268,8 @@ export default function DondePautarPage() {
       <section className="mt-10 card p-5 bg-gray-50/80 border-gray-100">
         <h2 className="text-[14px] font-semibold text-ink mb-2">¿Importa el ángulo de contenido?</h2>
         <p className="text-[13px] text-gray-600 leading-relaxed mb-3 max-w-xl">
-          Para validar fit creativo antes de proponer un slot, cruzá con los temas que se repiten en
-          la charla del período.
+          Para ver si el ángulo de la charla cierra antes de proponer un programa, cruzá con los
+          temas que se repiten en el período.
         </p>
         <Link href="/conversacion" className="text-[13px] text-accent font-medium hover:underline">
           Ver Conversación →
@@ -212,9 +277,9 @@ export default function DondePautarPage() {
       </section>
 
       <p className="text-[11px] text-gray-400 mt-8 leading-relaxed max-w-xl">
-        Lectura preliminar sobre el corpus capturado — no es recomendación de compra ni predicción
-        de performance. La densidad de pauta usa apariciones verificadas en audio; shows sin
-        procesamiento pueden mostrar atención sin rubro/temas aún.
+        Lectura preliminar sobre lo que medimos — no es recomendación de compra ni predicción de
+        resultados. La pauta cuenta apariciones verificadas en audio; algunos programas pueden
+        mostrar audiencia sin rubro o temas todavía.
       </p>
     </div>
   );

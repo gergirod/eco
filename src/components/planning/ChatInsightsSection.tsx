@@ -8,13 +8,14 @@ import {
   type ChannelChatInsight,
   type ChatDemandSignal,
   type ChatInsightsExport,
+  type ConductorMoment,
   type ProgramChatInsight,
 } from "@/lib/chatInsights";
 
 function MixBar({ mix, label }: { mix: ChannelChatInsight["mix"]; label: string }) {
   const items = [
     { key: "demanda_pct", color: "bg-accent", label: "Pide algo" },
-    { key: "obediencia_pct", color: "bg-green-500", label: "Obedece al conductor" },
+    { key: "obediencia_pct", color: "bg-green-500", label: "Responde al conductor" },
     { key: "pregunta_pct", color: "bg-sky-500", label: "Pregunta" },
     { key: "emoji_pct", color: "bg-gray-300", label: "Emoji" },
     { key: "reaccion_pct", color: "bg-gray-200", label: "Reacción corta" },
@@ -57,7 +58,7 @@ function ChannelRow({ ch }: { ch: ChannelChatInsight }) {
           <p className="text-[12.5px] text-gray-500 mt-2">
             {ch.msgs_per_1k != null ? (
               <>
-                <b className="text-ink">{ch.msgs_per_1k}</b> msgs / 1k mirando
+                <b className="text-ink">{ch.msgs_per_1k}</b> mensajes por cada mil mirando
               </>
             ) : (
               <>{ch.chat_messages.toLocaleString("es-AR")} mensajes</>
@@ -82,7 +83,6 @@ function ChannelRow({ ch }: { ch: ChannelChatInsight }) {
 }
 
 function ProgramRow({ p }: { p: ProgramChatInsight }) {
-  const cid = p.channel_id || p.channel.toLowerCase();
   return (
     <Link
       href={`/programas/${p.video_id}`}
@@ -91,8 +91,10 @@ function ProgramRow({ p }: { p: ProgramChatInsight }) {
       <p className="text-[12px] text-gray-400">{p.channel}</p>
       <p className="text-[13.5px] text-gray-800 font-medium leading-snug line-clamp-2">{p.title}</p>
       <p className="text-[12px] text-gray-500 mt-1">
-        {p.msgs_per_1k != null ? `${p.msgs_per_1k} msgs/1k` : `${p.chat_messages} msgs`} ·{" "}
-        {p.character_label.toLowerCase()}
+        {p.msgs_per_1k != null
+          ? `${p.msgs_per_1k} mensajes por mil mirando`
+          : `${p.chat_messages} mensajes`}{" "}
+        · {p.character_label.toLowerCase()}
       </p>
     </Link>
   );
@@ -107,7 +109,7 @@ function DemandRow({ d }: { d: ChatDemandSignal }) {
         </span>
         {d.cross_canal && (
           <span className="text-[10px] px-1.5 py-0.5 rounded-full bg-gray-100 text-gray-500">
-            cross-canal
+            en varios canales
           </span>
         )}
         <span className="text-[11px] text-gray-400 tabular-nums">×{d.count}</span>
@@ -121,48 +123,109 @@ function DemandRow({ d }: { d: ChatDemandSignal }) {
   );
 }
 
+function conductorKindLabel(kind?: string): string {
+  if (kind === "like") return "pedido de like";
+  if (kind === "voto") return "voto / elección";
+  if (kind === "codigo") return "código o link";
+  return kind || "pedido en vivo";
+}
+
+function ConductorRow({ m }: { m: ConductorMoment }) {
+  return (
+    <Link
+      href={`/programas/${m.video_id}`}
+      className="block py-3 border-b border-gray-100 last:border-0 hover:bg-gray-50/60 -mx-2 px-2 rounded transition-colors"
+    >
+      <p className="text-[12px] text-gray-400">
+        {m.channel} · min {m.minute ?? "—"} · {conductorKindLabel(m.kind)}
+      </p>
+      <p className="text-[13.5px] text-gray-800 font-medium mt-0.5">{m.label}</p>
+      <p className="text-[12px] text-gray-500 mt-1 italic line-clamp-2">«{m.quote}»</p>
+      {m.ratio != null && m.pre_rpm != null && m.post_rpm != null && (
+        <p className="text-[11px] text-gray-400 mt-1">
+          Antes {m.pre_rpm} → después {m.post_rpm} mensajes por minuto
+          {m.ratio >= 1.12 ? ` (${m.ratio}× más activo)` : ""}
+        </p>
+      )}
+    </Link>
+  );
+}
+
 type Props = {
   insights: ChatInsightsExport | null;
+  rubroLabel?: string | null;
 };
 
-export default function ChatInsightsSection({ insights }: Props) {
+export default function ChatInsightsSection({ insights, rubroLabel }: Props) {
   if (!insights || !canShowCrossChannelInsights(insights)) return null;
 
   const channels = insights.channels.filter((c) => c.chat_messages > 0);
-  const demands = insights.demand_signals.filter((d) => d.count >= 2 || d.tipo !== "otro").slice(0, 8);
+  const demands = insights.demand_signals
+    .filter((d) => d.count >= 2 || d.tipo !== "otro")
+    .slice(0, 8);
+  const conductor = (insights.conductor_moments || []).slice(0, 6);
 
   return (
     <>
-      <section className="mt-10">
+      {rubroLabel && (
+        <p className="text-[12.5px] text-accent font-medium mt-6 mb-1">
+          Filtrado por rubro: {rubroLabel}
+        </p>
+      )}
+
+      <section className="mt-8">
         <div className="mb-4">
           <h2 className="text-[15px] font-semibold text-ink">¿Dónde interactúa más la sala?</h2>
           <p className="text-[13px] text-gray-500 mt-1 max-w-xl leading-relaxed">
-            Ranking cross-canal por densidad de chat — no es lo mismo que concurrentes. Solo canales
-            con chat capturado; Luzu y otros sin chat no entran.
+            Quién habla más en el chat por cada mil mirando — no es lo mismo que cuántos
+            concurrentes hay. Solo entran canales con chat capturado; Luzu y otros sin chat quedan
+            afuera.
           </p>
-          {insights.platform_line && (
+          {insights.platform_line && !rubroLabel && (
             <p className="text-[13px] text-gray-700 mt-2 max-w-xl leading-relaxed">
               {insights.platform_line}
             </p>
           )}
         </div>
-        <div className="flex flex-col gap-3">
-          {channels.map((ch) => (
-            <ChannelRow key={ch.id} ch={ch} />
-          ))}
-        </div>
+        {channels.length > 0 ? (
+          <div className="flex flex-col gap-3">
+            {channels.map((ch) => (
+              <ChannelRow key={ch.id} ch={ch} />
+            ))}
+          </div>
+        ) : (
+          <p className="text-[13px] text-gray-500">Sin canales con chat para este rubro.</p>
+        )}
       </section>
+
+      {conductor.length > 0 && (
+        <section className="mt-10 card p-5">
+          <h2 className="text-[15px] font-semibold text-ink mb-1">
+            ¿La sala le hace caso al conductor?
+          </h2>
+          <p className="text-[13px] text-gray-500 mb-4 max-w-xl leading-relaxed">
+            Cuando el conductor pide algo en el audio (like, voto, código), miramos si el chat se
+            acelera en los minutos siguientes. En TV lineal esto no se veía.
+          </p>
+          <div>
+            {conductor.map((m, i) => (
+              <ConductorRow key={`${m.video_id}-${m.minute}-${i}`} m={m} />
+            ))}
+          </div>
+        </section>
+      )}
 
       {demands.length > 0 && (
         <section className="mt-10 card p-5">
           <h2 className="text-[15px] font-semibold text-ink mb-1">Qué pide la gente en vivo</h2>
           <p className="text-[13px] text-gray-500 mb-4 max-w-xl leading-relaxed">
-            Demanda detectada en el chat — links, precios, invitados, votos. Esto no existía en TV
-            lineal: es la voz de la audiencia en el minuto del vivo, no estimación post-hoc.
+            Lo que la gente pidió o repitió en el chat — links, precios, invitados, votos.
           </p>
-          <div>{demands.map((d, i) => (
-            <DemandRow key={`${d.text}-${i}`} d={d} />
-          ))}</div>
+          <div>
+            {demands.map((d, i) => (
+              <DemandRow key={`${d.text}-${i}`} d={d} />
+            ))}
+          </div>
         </section>
       )}
 
@@ -170,8 +233,7 @@ export default function ChatInsightsSection({ insights }: Props) {
         <section className="mt-10 card p-5">
           <h2 className="text-[15px] font-semibold text-ink mb-1">Emisiones con sala más activa</h2>
           <p className="text-[13px] text-gray-500 mb-3 max-w-xl">
-            Shows donde la comunidad más habla por cada mil mirando — útil para marcas que buscan
-            participación, no solo reach.
+            Shows donde la comunidad más habla por cada mil mirando.
           </p>
           <div>
             {insights.top_programs.slice(0, 6).map((p) => (
@@ -182,8 +244,8 @@ export default function ChatInsightsSection({ insights }: Props) {
       )}
 
       <p className="text-[11px] text-gray-400 mt-4 max-w-xl leading-relaxed">
-        El mix de chat clasifica mensajes en emoji, reacción, pregunta, demanda concreta y respuesta
-        al conductor (likes/votos). No incluye el botón 👍 de YouTube — solo lo que la gente escribe.
+        Medimos si el chat se mueve después de un pedido del conductor, comparado con lo que pasaba
+        antes. No incluye el botón 👍 de YouTube.
       </p>
     </>
   );

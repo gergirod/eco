@@ -218,7 +218,7 @@ export const SECTIONS: Section[] = [
       },
     ],
     bullets: [
-      "Datasets: channels, brands, products, benchmark, reports, meta, moments, radar, audience, chat_demand, capture_schedules.",
+      "Datasets: channels, brands, products, benchmark, reports, meta, moments, radar, audience, chat_demand, chat_insights, schedule_insights, capture_schedules, placement.",
       "Si push falla, Vercel usa el snapshot del último deploy.",
     ],
   },

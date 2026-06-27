@@ -1,7 +1,5 @@
-/**
- * Conversación — ranking de temas en streaming (SPEC-008: no es Tendencias ni Novedades).
- * Fuente: radar.json (pipeline/radar.py sobre topics/) + highlights en export_ui.
- */
+import type { ChatSignals, EvidenceLane } from "./evidenceLane";
+import { isEvidenceLane } from "./evidenceLane";
 
 export type ConversacionHighlight = {
   channel: string;
@@ -46,6 +44,9 @@ export type ConversacionTopic = {
   mergedCluster: boolean;
   gtStatus?: string | null;
   gtLeadDays?: number | null;
+  evidenceLane: EvidenceLane;
+  audioPrograms: number;
+  chatSignals: ChatSignals;
 };
 
 type RadarRow = {
@@ -67,6 +68,9 @@ type RadarRow = {
   highlights_total?: number;
   gt_status?: string | null;
   gt_lead_days?: number | null;
+  evidence_lane?: EvidenceLane | string | null;
+  audio_programs?: number;
+  chat_signals?: ChatSignals;
 };
 
 function rankScore(r: RadarRow): number {
@@ -182,6 +186,14 @@ function rowToTopic(r: RadarRow, mergedCluster = false): Omit<ConversacionTopic,
     mergedCluster,
     gtStatus: r.gt_status ?? null,
     gtLeadDays: r.gt_lead_days ?? null,
+    evidenceLane: isEvidenceLane(r.evidence_lane) ? r.evidence_lane : "audio",
+    audioPrograms: r.audio_programs ?? 0,
+    chatSignals: r.chat_signals ?? {
+      n_msgs: 0,
+      n_authors: 0,
+      programs: [],
+      chat_only_programs: [],
+    },
   };
 }
 

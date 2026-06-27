@@ -12,6 +12,12 @@ import {
 import { fmtHMS, vodLink } from "@/lib/format";
 
 import {
+  CHAT_DISCLAIMER,
+  EVIDENCE_LANE_HINT,
+  EVIDENCE_LANE_LABEL,
+  isEvidenceLane,
+} from "@/lib/evidenceLane";
+import {
   GT_STATUS_HINT,
   GT_STATUS_LABEL,
   isGtStatus,
@@ -138,6 +144,14 @@ export default function ConversacionRow({ topic, showGoogleTrends = false }: Pro
     : topic.highlights.slice(0, INITIAL_SHOWN);
   const hiddenCount = topic.highlights.length - visibleHighlights.length;
   const exampleCount = Math.min(topic.highlights.length, topic.highlightsTotal);
+  const lane = topic.evidenceLane;
+  const laneStyle =
+    lane === "corroborated"
+      ? "border-sky-200 bg-sky-50/70"
+      : lane === "chat"
+        ? "border-amber-200 bg-amber-50/60"
+        : "border-gray-200 bg-gray-50/60";
+  const chatOnly = topic.chatSignals.chat_only_programs ?? [];
 
   function expandDetail() {
     setOpen(true);
@@ -172,6 +186,38 @@ export default function ConversacionRow({ topic, showGoogleTrends = false }: Pro
           <p className="text-[11.5px] text-gray-500 mb-2 leading-relaxed max-w-xl">
             {topic.momentumHint}
           </p>
+
+          {(lane === "corroborated" ||
+            lane === "chat" ||
+            chatOnly.length > 0 ||
+            topic.chatSignals.n_authors >= 2) &&
+          isEvidenceLane(lane) ? (
+            <div className={`rounded-lg border px-3.5 py-2.5 mb-3 ${laneStyle}`}>
+              <p className="text-[12px] font-semibold text-ink mb-0.5">
+                {EVIDENCE_LANE_LABEL[lane]}
+                {topic.chatSignals.n_authors > 0
+                  ? ` · ${topic.chatSignals.n_authors} personas en chat`
+                  : null}
+              </p>
+              <p className="text-[11.5px] text-gray-600 leading-relaxed">
+                {EVIDENCE_LANE_HINT[lane]}
+              </p>
+              {chatOnly.length > 0 ? (
+                <ul className="mt-2 space-y-1 text-[11px] text-gray-500">
+                  {chatOnly.slice(0, 3).map((p) => (
+                    <li key={p.video_id}>
+                      <span className="font-medium text-gray-700">{p.channel}</span>
+                      {`: ${p.n_authors} autores, ${p.n_msgs} msgs`}
+                      {p.ejemplo ? ` — «${p.ejemplo.slice(0, 72)}…»` : null}
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
+              {lane !== "audio" ? (
+                <p className="text-[10.5px] text-gray-400 mt-2 italic">{CHAT_DISCLAIMER}</p>
+              ) : null}
+            </div>
+          ) : null}
 
           <div className="flex flex-wrap items-center gap-x-3 gap-y-1 text-[12px] text-gray-500 mb-1">
             <span title="Bloques de 10 min del programa donde apareció el tema">

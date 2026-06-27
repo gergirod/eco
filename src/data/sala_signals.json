@@ -1,0 +1,787 @@
+{
+ "signals": [
+  {
+   "tema": "cuatia · curuzu",
+   "evidence_lane": "chat",
+   "n_msgs": 67,
+   "n_authors": 66,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 67,
+     "n_authors": 66,
+     "ejemplo": "CURUZU CUATIA"
+    }
+   ],
+   "ejemplo": "CURUZU CUATIA"
+  },
+  {
+   "tema": "liska · tirate",
+   "evidence_lane": "chat",
+   "n_msgs": 45,
+   "n_authors": 45,
+   "n_programas": 1,
+   "canales": [
+    "Vorterix"
+   ],
+   "programs": [
+    {
+     "video_id": "LjEHjrbNNgs",
+     "channel": "Vorterix",
+     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+     "n_msgs": 45,
+     "n_authors": 45,
+     "ejemplo": "LISKA TIRATE"
+    }
+   ],
+   "ejemplo": "LISKA TIRATE"
+  },
+  {
+   "tema": "2027 · confio",
+   "evidence_lane": "chat",
+   "n_msgs": 42,
+   "n_authors": 41,
+   "n_programas": 2,
+   "canales": [
+    "Vorterix"
+   ],
+   "programs": [
+    {
+     "video_id": "EwFONN3W5cg",
+     "channel": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "n_msgs": 4,
+     "n_authors": 3,
+     "ejemplo": "CONFIO 2027"
+    },
+    {
+     "video_id": "LjEHjrbNNgs",
+     "channel": "Vorterix",
+     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+     "n_msgs": 38,
+     "n_authors": 38,
+     "ejemplo": "conFIO 2027"
+    }
+   ],
+   "ejemplo": "CONFIO 2027"
+  },
+  {
+   "tema": "charo · fija",
+   "evidence_lane": "chat",
+   "n_msgs": 39,
+   "n_authors": 39,
+   "n_programas": 3,
+   "canales": [
+    "?",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "XHV2BV9DWMs",
+     "channel": "OLGA",
+     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+     "n_msgs": 11,
+     "n_authors": 11,
+     "ejemplo": "CHARO FIJA"
+    },
+    {
+     "video_id": "cOui_830fXg",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 24,
+     "n_authors": 24,
+     "ejemplo": "CHARO FIJA"
+    },
+    {
+     "video_id": "ptOHcGEdWCk",
+     "channel": "OLGA",
+     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "Charo fija"
+    }
+   ],
+   "ejemplo": "CHARO FIJA"
+  },
+  {
+   "tema": "like · vivooo",
+   "evidence_lane": "chat",
+   "n_msgs": 34,
+   "n_authors": 34,
+   "n_programas": 5,
+   "canales": [
+    "?",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "like al vivooo"
+    },
+    {
+     "video_id": "O6sOwvMbRBU",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "Like al vivooo"
+    },
+    {
+     "video_id": "W_HkPNOMeDc",
+     "channel": "OLGA",
+     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+     "n_msgs": 11,
+     "n_authors": 11,
+     "ejemplo": "like al vivooo"
+    },
+    {
+     "video_id": "bX7MB2_OI2I",
+     "channel": "OLGA",
+     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "LIKE AL VIVOOO"
+    },
+    {
+     "video_id": "kDbkbzy_ASA",
+     "channel": "OLGA",
+     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
+     "n_msgs": 15,
+     "n_authors": 15,
+     "ejemplo": "LIKE AL VIVOOO"
+    }
+   ],
+   "ejemplo": "like al vivooo"
+  },
+  {
+   "tema": "grabado · lamentablemente",
+   "evidence_lane": "chat",
+   "n_msgs": 32,
+   "n_authors": 32,
+   "n_programas": 2,
+   "canales": [
+    "Vorterix"
+   ],
+   "programs": [
+    {
+     "video_id": "EwFONN3W5cg",
+     "channel": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "lamentablemente grabado"
+    },
+    {
+     "video_id": "FYdwwoHNrMs",
+     "channel": "Vorterix",
+     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+     "n_msgs": 28,
+     "n_authors": 28,
+     "ejemplo": "lamentablemente grabado"
+    }
+   ],
+   "ejemplo": "lamentablemente grabado"
+  },
+  {
+   "tema": "migue · razon · tiene",
+   "evidence_lane": "chat",
+   "n_msgs": 30,
+   "n_authors": 30,
+   "n_programas": 3,
+   "canales": [
+    "?",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": "MIGUE TIENE RAZÓN"
+    },
+    {
+     "video_id": "cOui_830fXg",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 19,
+     "n_authors": 19,
+     "ejemplo": "MIGUE TIENE RAZÓN"
+    },
+    {
+     "video_id": "ptOHcGEdWCk",
+     "channel": "OLGA",
+     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "Tiene razon migue"
+    }
+   ],
+   "ejemplo": "MIGUE TIENE RAZÓN"
+  },
+  {
+   "tema": ":yellow_heart::red_heart::blue_heart: · cuatia · curuzu",
+   "evidence_lane": "chat",
+   "n_msgs": 28,
+   "n_authors": 28,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 28,
+     "n_authors": 28,
+     "ejemplo": "Curuzú Cuatiá :yellow_heart::red_heart::blue_heart:"
+    }
+   ],
+   "ejemplo": "Curuzú Cuatiá :yellow_heart::red_heart::blue_heart:"
+  },
+  {
+   "tema": "like · vivoooo",
+   "evidence_lane": "chat",
+   "n_msgs": 27,
+   "n_authors": 27,
+   "n_programas": 4,
+   "canales": [
+    "?",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "LIKE AL VIVOOOO"
+    },
+    {
+     "video_id": "O6sOwvMbRBU",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 5,
+     "ejemplo": "like al vivoooo"
+    },
+    {
+     "video_id": "W_HkPNOMeDc",
+     "channel": "OLGA",
+     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": "LIKE AL VIVOOOO"
+    },
+    {
+     "video_id": "kDbkbzy_ASA",
+     "channel": "OLGA",
+     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
+     "n_msgs": 12,
+     "n_authors": 12,
+     "ejemplo": "LIKE AL VIVOOOO"
+    }
+   ],
+   "ejemplo": "LIKE AL VIVOOOO"
+  },
+  {
+   "tema": "like · vivooooo",
+   "evidence_lane": "chat",
+   "n_msgs": 26,
+   "n_authors": 26,
+   "n_programas": 4,
+   "canales": [
+    "?",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "O6sOwvMbRBU",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "LIKE AL VIVOOOOO"
+    },
+    {
+     "video_id": "W_HkPNOMeDc",
+     "channel": "OLGA",
+     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": "LIKE AL VIVOOOOO"
+    },
+    {
+     "video_id": "bX7MB2_OI2I",
+     "channel": "OLGA",
+     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Like al vivooooo"
+    },
+    {
+     "video_id": "kDbkbzy_ASA",
+     "channel": "OLGA",
+     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
+     "n_msgs": 12,
+     "n_authors": 12,
+     "ejemplo": "LIKE AL VIVOOOOO"
+    }
+   ],
+   "ejemplo": "LIKE AL VIVOOOOO"
+  },
+  {
+   "tema": "curuzu · vamos",
+   "evidence_lane": "chat",
+   "n_msgs": 24,
+   "n_authors": 24,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 24,
+     "n_authors": 24,
+     "ejemplo": "vamos Curuzu"
+    }
+   ],
+   "ejemplo": "vamos Curuzu"
+  },
+  {
+   "tema": "amo · camila",
+   "evidence_lane": "chat",
+   "n_msgs": 20,
+   "n_authors": 20,
+   "n_programas": 4,
+   "canales": [
+    "?",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "O6sOwvMbRBU",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 9,
+     "n_authors": 9,
+     "ejemplo": "TE AMO CAMILA"
+    },
+    {
+     "video_id": "W_HkPNOMeDc",
+     "channel": "OLGA",
+     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "Te amo Camila"
+    },
+    {
+     "video_id": "kDbkbzy_ASA",
+     "channel": "OLGA",
+     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "camila te amo"
+    },
+    {
+     "video_id": "s__pKWUr4MM",
+     "channel": "OLGA",
+     "title": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "Te amo camila"
+    }
+   ],
+   "ejemplo": "TE AMO CAMILA"
+  },
+  {
+   "tema": "fijos · leo · vero",
+   "evidence_lane": "chat",
+   "n_msgs": 19,
+   "n_authors": 18,
+   "n_programas": 3,
+   "canales": [
+    "?",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "bX7MB2_OI2I",
+     "channel": "OLGA",
+     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Vero y Leo fijos"
+    },
+    {
+     "video_id": "cOui_830fXg",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 2,
+     "ejemplo": "Leo y vero fijos"
+    },
+    {
+     "video_id": "mxFu-R3O8TY",
+     "channel": "OLGA",
+     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+     "n_msgs": 14,
+     "n_authors": 14,
+     "ejemplo": "Leo y vero fijos"
+    }
+   ],
+   "ejemplo": "Vero y Leo fijos"
+  },
+  {
+   "tema": "like · pongan",
+   "evidence_lane": "chat",
+   "n_msgs": 17,
+   "n_authors": 16,
+   "n_programas": 3,
+   "canales": [
+    "Bondi Live",
+    "GELATINA",
+    "Vorterix"
+   ],
+   "programs": [
+    {
+     "video_id": "LjEHjrbNNgs",
+     "channel": "Vorterix",
+     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+     "n_msgs": 13,
+     "n_authors": 12,
+     "ejemplo": "PONGAN LIKE"
+    },
+    {
+     "video_id": "tAUTd2FsMxA",
+     "channel": "Bondi Live",
+     "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "pongan LIKE"
+    },
+    {
+     "video_id": "tlhTO7YtTJ0",
+     "channel": "GELATINA",
+     "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "PONGAN LIKE"
+    }
+   ],
+   "ejemplo": "PONGAN LIKE"
+  },
+  {
+   "tema": "cuatia · curuzu · vamos",
+   "evidence_lane": "chat",
+   "n_msgs": 16,
+   "n_authors": 16,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 16,
+     "n_authors": 16,
+     "ejemplo": "vamos Curuzú cuatia"
+    }
+   ],
+   "ejemplo": "vamos Curuzú cuatia"
+  },
+  {
+   "tema": "like · vivoo",
+   "evidence_lane": "chat",
+   "n_msgs": 14,
+   "n_authors": 14,
+   "n_programas": 3,
+   "canales": [
+    "?",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "O6sOwvMbRBU",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "LIKE AL VIVOO"
+    },
+    {
+     "video_id": "W_HkPNOMeDc",
+     "channel": "OLGA",
+     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "LIKE AL VIVOO"
+    },
+    {
+     "video_id": "kDbkbzy_ASA",
+     "channel": "OLGA",
+     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
+     "n_msgs": 7,
+     "n_authors": 7,
+     "ejemplo": "LIKE AL VIVOO"
+    }
+   ],
+   "ejemplo": "LIKE AL VIVOO"
+  },
+  {
+   "tema": "bueno · muy",
+   "evidence_lane": "chat",
+   "n_msgs": 15,
+   "n_authors": 13,
+   "n_programas": 6,
+   "canales": [
+    "?",
+    "BLENDER",
+    "Bondi Live",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "muy bueno"
+    },
+    {
+     "video_id": "JXVQmuDctII",
+     "channel": "BLENDER",
+     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "muy bueno"
+    },
+    {
+     "video_id": "cOui_830fXg",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "muy bueno"
+    },
+    {
+     "video_id": "ptOHcGEdWCk",
+     "channel": "OLGA",
+     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+     "n_msgs": 3,
+     "n_authors": 2,
+     "ejemplo": "muy bueno"
+    },
+    {
+     "video_id": "tAUTd2FsMxA",
+     "channel": "Bondi Live",
+     "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "ES MUY BUENO"
+    }
+   ],
+   "ejemplo": "muy bueno"
+  },
+  {
+   "tema": "mal · vote",
+   "evidence_lane": "chat",
+   "n_msgs": 13,
+   "n_authors": 13,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 13,
+     "n_authors": 13,
+     "ejemplo": "VOTÉ MAL"
+    }
+   ],
+   "ejemplo": "VOTÉ MAL"
+  },
+  {
+   "tema": "aguante · curuzu",
+   "evidence_lane": "chat",
+   "n_msgs": 13,
+   "n_authors": 12,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 13,
+     "n_authors": 12,
+     "ejemplo": "Aguante Curuzú"
+    }
+   ],
+   "ejemplo": "Aguante Curuzú"
+  },
+  {
+   "tema": "like · vivoooooo",
+   "evidence_lane": "chat",
+   "n_msgs": 11,
+   "n_authors": 11,
+   "n_programas": 3,
+   "canales": [
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "W_HkPNOMeDc",
+     "channel": "OLGA",
+     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "LIKE AL VIVOOOOOO"
+    },
+    {
+     "video_id": "kDbkbzy_ASA",
+     "channel": "OLGA",
+     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
+     "n_msgs": 6,
+     "n_authors": 6,
+     "ejemplo": "like al vivoooooo"
+    },
+    {
+     "video_id": "ptOHcGEdWCk",
+     "channel": "OLGA",
+     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "like al vivoooooo"
+    }
+   ],
+   "ejemplo": "LIKE AL VIVOOOOOO"
+  },
+  {
+   "tema": "bien · escucha",
+   "evidence_lane": "chat",
+   "n_msgs": 11,
+   "n_authors": 11,
+   "n_programas": 2,
+   "canales": [
+    "?",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "O6sOwvMbRBU",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 6,
+     "n_authors": 6,
+     "ejemplo": "se escucha bien"
+    },
+    {
+     "video_id": "kDbkbzy_ASA",
+     "channel": "OLGA",
+     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
+     "n_msgs": 5,
+     "n_authors": 5,
+     "ejemplo": "se escucha bien"
+    }
+   ],
+   "ejemplo": "se escucha bien"
+  },
+  {
+   "tema": "estoy · llorando",
+   "evidence_lane": "chat",
+   "n_msgs": 11,
+   "n_authors": 11,
+   "n_programas": 2,
+   "canales": [
+    "?",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "O6sOwvMbRBU",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "ESTOY LLORANDO"
+    },
+    {
+     "video_id": "bX7MB2_OI2I",
+     "channel": "OLGA",
+     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": "ya estoy llorando"
+    }
+   ],
+   "ejemplo": "ESTOY LLORANDO"
+  },
+  {
+   "tema": "rosario · vamos",
+   "evidence_lane": "chat",
+   "n_msgs": 11,
+   "n_authors": 11,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 11,
+     "n_authors": 11,
+     "ejemplo": "vamos Rosario"
+    }
+   ],
+   "ejemplo": "vamos Rosario"
+  },
+  {
+   "tema": ":yellow_heart::red_heart::blue_heart: · curuzu",
+   "evidence_lane": "chat",
+   "n_msgs": 11,
+   "n_authors": 11,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 11,
+     "n_authors": 11,
+     "ejemplo": "Curuzú :yellow_heart::red_heart::blue_heart:"
+    }
+   ],
+   "ejemplo": "Curuzú :yellow_heart::red_heart::blue_heart:"
+  }
+ ]
+}

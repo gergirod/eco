@@ -77,12 +77,12 @@ function buildPeakByShow(
 
 function gapLabel(pautaMentions: number, pautaPerEmission: number): string {
   if (pautaMentions === 0) {
-    return "Alta atención · sin pauta verificada en el período";
+    return "Mucha gente mirando · sin pauta verificada en el período";
   }
   if (pautaPerEmission < 2) {
-    return "Alta atención · poca densidad de pauta";
+    return "Mucha gente mirando · pocas marcas en el aire";
   }
-  return "Atención sólida · pauta moderada";
+  return "Buena audiencia · pauta moderada";
 }
 
 export function buildShowOpportunities(
@@ -91,7 +91,8 @@ export function buildShowOpportunities(
   reports: Record<string, { name: string; detail?: Record<string, unknown>[] }>,
   moments: Record<string, Record<string, unknown>>,
   placement: PlacementExport | null,
-  limit = 10
+  limit = 10,
+  rubroKey?: string | null
 ): ShowOpportunity[] {
   if (!placement?.shows) return [];
 
@@ -137,6 +138,15 @@ export function buildShowOpportunities(
 
   return rows
     .filter((r) => r.pautaPerEmission < 4 || r.pautaMentions === 0)
+    .filter((r) => {
+      if (!rubroKey || !placement) return true;
+      const chPl = getChannelPlacement(placement, r.channelId);
+      const chHas = chPl?.rubro_mix?.some((x) => x.key === rubroKey && x.count > 0);
+      const showPl = getShowPlacement(placement, r.channelId, r.showId);
+      const showHas = showPl?.rubro_mix?.some((x) => x.key === rubroKey && x.count > 0);
+      const showEmpty = !showPl?.rubro_mix?.length;
+      return Boolean(chHas && (showEmpty || !showHas));
+    })
     .sort((a, b) => b.score - a.score || b.peakAttention - a.peakAttention)
     .slice(0, limit);
 }

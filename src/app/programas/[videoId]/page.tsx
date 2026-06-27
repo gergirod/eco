@@ -18,6 +18,7 @@ import { compact, fmtHMS, num, vodLink } from "@/lib/format";
 import { usdEst } from "@/lib/valuation";
 import { chatEcoLine, chatTableLine, chatToneClass, chatToneDot } from "@/lib/chatReaction";
 import type { RoomParticipation } from "@/lib/roomReaction";
+import { openAudienceReport } from "@/lib/audienceReport";
 import reportsFb from "@/data/reports.json";
 import channelsFb from "@/data/channels.json";
 import momentsFb from "@/data/moments.json";
@@ -79,6 +80,33 @@ export default function ProgramaProfilePage() {
   const topBrand = program
     ? [...program.pnt].sort((a, b) => (b.conc_at || 0) - (a.conc_at || 0))[0]
     : undefined;
+
+  const hasSalaReport = Boolean(
+    moment &&
+      ((moment as { chat_total?: number }).chat_total ||
+        (moment as { audience_demand?: unknown[] }).audience_demand?.length ||
+        (moment as { room_participation?: unknown }).room_participation ||
+        (moment as { conductor_response?: unknown }).conductor_response)
+  );
+
+  function exportSalaReport() {
+    if (!moment) return;
+    const m = moment as Record<string, unknown>;
+    openAudienceReport({
+      video_id: videoId,
+      title: headerTitle,
+      channel_name: chName[headerChannel] || headerChannelLabel,
+      date: headerDate || undefined,
+      chat_total: m.chat_total as number | undefined,
+      peak: program?.peak,
+      avg: program?.avg,
+      audience_demand: m.audience_demand as Parameters<typeof openAudienceReport>[0]["audience_demand"],
+      room_participation: m.room_participation as RoomParticipation | null | undefined,
+      conductor_response: m.conductor_response as Parameters<
+        typeof openAudienceReport
+      >[0]["conductor_response"],
+    });
+  }
 
   return (
     <div className="max-w-4xl pb-10">
@@ -214,6 +242,18 @@ export default function ProgramaProfilePage() {
         participation={(moment as { room_participation?: RoomParticipation } | null)?.room_participation}
         chatTotal={(moment as { chat_total?: number } | null)?.chat_total}
       />
+
+      {hasSalaReport && (
+        <div className="mb-8">
+          <button type="button" onClick={exportSalaReport} className="btn border border-[#ececec]">
+            Exportar informe de sala
+          </button>
+          <p className="text-[11px] text-gray-400 mt-2 max-w-xl">
+            Qué pidió la gente, cómo participó la sala y si respondió al conductor — listo para
+            mandar a la agencia (imprimí o guardá como PDF).
+          </p>
+        </div>
+      )}
 
       {program && program.pnt.length > 0 ? (
       <section>

@@ -240,6 +240,16 @@ export default function ConversacionPage() {
           ves lecturas de mercado (cambios, oportunidades, patrones combinados).
         </p>
         <p>
+          <b className="text-gray-700">Evidencia.</b> El ranking mide la{" "}
+          <b className="text-gray-700">charla del conductor</b> (audio). Si la sala comentó algo
+          en chat sin que lo tomen al micrófono, lo marcamos como{" "}
+          <b className="text-gray-700">señal de sala</b> — no verificamos noticias. En{" "}
+          <Link href="/novedades" className="text-accent font-medium hover:underline">
+            Novedades
+          </Link>{" "}
+          ves esos comentarios con disclaimer.
+        </p>
+        <p>
           <b className="text-gray-700">Esto no es Marcas.</b> Las marcas con pauta verificada viven
           en{" "}
           <Link href="/marcas" className="text-accent font-medium hover:underline">

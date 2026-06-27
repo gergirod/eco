@@ -18,8 +18,7 @@ export default function AudienceDemandPanel({ moment }: Props) {
         <h2 className="text-[15px] font-semibold mb-3">Lo que pidió la audiencia</h2>
         <div className="card p-5 max-w-2xl">
           <p className="text-[14px] text-gray-600 leading-relaxed">
-            Sin chat capturado en este programa — no podemos extraer demanda de la audiencia
-            (YouTube no disponible en este canal o emisión sin replay de chat).
+            Sin chat capturado en este programa — no podemos ver qué pidió la gente en la sala.
           </p>
         </div>
       </section>
@@ -32,9 +31,8 @@ export default function AudienceDemandPanel({ moment }: Props) {
         <h2 className="text-[15px] font-semibold mb-3">Lo que pidió la audiencia</h2>
         <div className="card p-5 max-w-2xl">
           <p className="text-[14px] text-gray-600 leading-relaxed">
-            Hay chat en este programa, pero no detectamos pedidos o señales de demanda claras en la
-            ventana analizada — la conversación fue mayormente reacción general, no solicitudes
-            concretas.
+            Hay chat, pero no vimos pedidos claros — la conversación fue más reacción general que
+            “pasame el link” o “llamen a fulano”.
           </p>
         </div>
       </section>

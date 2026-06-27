@@ -23,28 +23,28 @@
    "character_label": "Comunidad activa — chat denso respecto a la audiencia",
    "top_demands": [
     {
-     "text": "(no menejo en la ciudad igualmente)",
-     "tipo": "voto_eleccion",
-     "count": 1
-    },
-    {
-     "text": "SALE DEL TIGRE",
+     "text": "Y DE DONDE SALE ESA REGLAMENTACION EN EL SENADO...?????",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "quiero ir a vivir a ese crucero. Cuánto el alquiler mensual y expensas?",
+     "text": "A DIETA ??? @jultarres ??? pesabas 48 Kg dijiste ??? a cuánto vas a bajar ??? UH",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "SALE DEL TIGRE?",
+     "text": "@PatanPerroloco Deja la payasada. Lo dijo el compañero de Joni Viale que siempre",
+     "tipo": "otro",
+     "count": 1
+    },
+    {
+     "text": "PATAN NO QUIERO PROBAR SI EM SALE MAL",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "Muy buen momento cuanto estamos aprendiendo!!",
-     "tipo": "pregunta_precio",
+     "text": "Avisaron del gol y me gane un cupon en PYa, gracias",
+     "tipo": "pedido_link",
      "count": 1
     }
    ]
@@ -87,12 +87,12 @@
      "count": 6
     },
     {
-     "text": "HABLEN DE OTRA COSA DE FUTBOL HABLO YO EL DUKI",
+     "text": "hablen de blender",
      "tipo": "pedido_contenido",
      "count": 2
     },
     {
-     "text": "hablen de blender",
+     "text": "TRAIGAN CHAQUEÑOS",
      "tipo": "pedido_contenido",
      "count": 2
     }
@@ -1223,26 +1223,6 @@
    "cross_canal": false
   },
   {
-   "text": "necesito un cupon de mercado libre",
-   "tipo": "pedido_link",
-   "count": 3,
-   "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
-   "cross_canal": false
-  },
-  {
-   "text": "estoy estudiando medicina viendolos!! manden exitos",
-   "tipo": "pregunta_compra",
-   "count": 3,
-   "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
-   "cross_canal": false
-  },
-  {
    "text": "chicos hablen de Venezuela",
    "tipo": "pedido_contenido",
    "count": 3,
@@ -1251,9 +1231,211 @@
     "OLGA"
    ],
    "cross_canal": false
+  },
+  {
+   "text": "No sale un día de SURF??",
+   "tipo": "pregunta_precio",
+   "count": 3,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "necesito un cupon de mercado libre",
+   "tipo": "pedido_link",
+   "count": 3,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
   }
  ],
- "platform_line": "Neura Media lidera interacción de sala (26.04 msgs/1k mirando). Demanda recurrente: «:bird::bird::bird::bird::bird::bird::bird::bird:LOCO TRAIGAN…»",
+ "platform_line": "Neura Media es donde más habla la sala (26.04 mensajes por cada mil mirando). Demanda recurrente: «:bird::bird::bird::bird::bird::bird::bird::bird:LOCO TRAIGAN…»",
  "channels_with_chat": 9,
- "period": "2026-06-27T16:40:24.952706+00:00"
+ "period": "2026-06-27T16:59:20.224044+00:00",
+ "conductor_moments": [
+  {
+   "video_id": "JXVQmuDctII",
+   "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+   "channel": "BLENDER",
+   "kind": "codigo",
+   "minute": 0,
+   "quote": "Cargá tu código que sí o sí ganás.",
+   "ratio": 80.0,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.0,
+   "post_rpm": 4.0
+  },
+  {
+   "video_id": "U8f_2vIvO7Y",
+   "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+   "channel": "Urbana Play 104.3 FM",
+   "kind": "like",
+   "minute": 28,
+   "quote": "Me gusta eso, eh",
+   "ratio": 53.33,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.0,
+   "post_rpm": 2.67
+  },
+  {
+   "video_id": "95yJuQx7ol8",
+   "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+   "channel": "OLGA",
+   "kind": "like",
+   "minute": 71,
+   "quote": "López. Yo estoy un Flaco López. A mí me gusta",
+   "ratio": 33.33,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.0,
+   "post_rpm": 1.67
+  },
+  {
+   "video_id": "U8f_2vIvO7Y",
+   "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+   "channel": "Urbana Play 104.3 FM",
+   "kind": "like",
+   "minute": 36,
+   "quote": "Me encanta, es lindo, me gusta verlo",
+   "ratio": 26.67,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.0,
+   "post_rpm": 1.33
+  },
+  {
+   "video_id": "JqkhC1EnyTQ",
+   "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+   "channel": "OLGA",
+   "kind": "codigo",
+   "minute": 40,
+   "quote": "Y atentos a este dato también, con el código NATIJ guiondelmedioMBA",
+   "ratio": 20.0,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.0,
+   "post_rpm": 1.0
+  },
+  {
+   "video_id": "NKhi31a86K8",
+   "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+   "channel": "OLGA",
+   "kind": "like",
+   "minute": 121,
+   "quote": "Me gusta tener el efectivo",
+   "ratio": 13.33,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.0,
+   "post_rpm": 0.67
+  },
+  {
+   "video_id": "EwFONN3W5cg",
+   "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+   "channel": "Vorterix",
+   "kind": "like",
+   "minute": 69,
+   "quote": "Entonces me da un toque, porque me gusta el olor.",
+   "ratio": 13.33,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.0,
+   "post_rpm": 0.67
+  },
+  {
+   "video_id": "95yJuQx7ol8",
+   "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+   "channel": "OLGA",
+   "kind": "like",
+   "minute": 86,
+   "quote": "No, con el calor que hace acá no, pero me gusta, me gusta la bicicleta, me gusta.",
+   "ratio": 6.67,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.0,
+   "post_rpm": 0.33
+  },
+  {
+   "video_id": "JqkhC1EnyTQ",
+   "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+   "channel": "OLGA",
+   "kind": "like",
+   "minute": 7,
+   "quote": "Son arriesgados, eso me gusta",
+   "ratio": 6.0,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.33,
+   "post_rpm": 2.0
+  },
+  {
+   "video_id": "IubT1ZyjjEA",
+   "title": "🔴 ESTO NO SUCEDIÓ con Hernan Panessi, Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
+   "channel": "Vorterix",
+   "kind": "like",
+   "minute": 55,
+   "quote": "a mí me encanta. Me gusta más",
+   "ratio": 5.71,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 3.5,
+   "post_rpm": 20.0
+  },
+  {
+   "video_id": "9ucd7zkq6P8",
+   "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+   "channel": "OLGA",
+   "kind": "like",
+   "minute": 87,
+   "quote": "Me gusta ese tema",
+   "ratio": 4.0,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.33,
+   "post_rpm": 1.33
+  },
+  {
+   "video_id": "s__pKWUr4MM",
+   "title": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
+   "channel": "OLGA",
+   "kind": "suscrib",
+   "minute": 69,
+   "quote": "Me iban a aparecer ciertas notificaciones",
+   "ratio": 3.96,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 16.33,
+   "post_rpm": 64.67
+  },
+  {
+   "video_id": "ptOHcGEdWCk",
+   "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+   "channel": "OLGA",
+   "kind": "like",
+   "minute": 40,
+   "quote": "Muy frío, muy frío, como me gusta decir a mí.",
+   "ratio": 3.69,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 7.5,
+   "post_rpm": 27.67
+  },
+  {
+   "video_id": "JqkhC1EnyTQ",
+   "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+   "channel": "OLGA",
+   "kind": "like",
+   "minute": 95,
+   "quote": "no me gusta a mí",
+   "ratio": 3.5,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.67,
+   "post_rpm": 2.33
+  },
+  {
+   "video_id": "C6BZb4k8gF0",
+   "title": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
+   "channel": "BLENDER",
+   "kind": "like",
+   "minute": 118,
+   "quote": "Me gusta que esté en internet, así que acá",
+   "ratio": 3.15,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 9.0,
+   "post_rpm": 28.33
+  }
+ ]
 }
