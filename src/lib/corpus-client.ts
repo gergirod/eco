@@ -16,6 +16,8 @@ let remoteFresh: boolean | null = null;
 let freshnessPromise: Promise<boolean> | null = null;
 
 const cache = new Map<string, unknown>();
+/** Claves cuyo payload ya se resolvió (remote, lazy chunk o sync bundled). */
+const resolved = new Set<string>();
 const localFallback = new Map<string, unknown>();
 const listeners = new Map<string, Set<Listener>>();
 
@@ -24,13 +26,14 @@ let batchScheduled = false;
 
 function notify(key: string, value: unknown) {
   cache.set(key, value);
+  resolved.add(key);
   listeners.get(key)?.forEach((fn) => fn(value));
 }
 
 function subscribe(key: string, listener: Listener): () => void {
   if (!listeners.has(key)) listeners.set(key, new Set());
   listeners.get(key)!.add(listener);
-  if (cache.has(key)) listener(cache.get(key));
+  if (resolved.has(key) && cache.has(key)) listener(cache.get(key));
   return () => listeners.get(key)?.delete(listener);
 }
 
@@ -55,7 +58,6 @@ async function shouldUseRemote(): Promise<boolean> {
         return false;
       }
 
-      cache.set("meta", remoteMeta);
       notify("meta", remoteMeta);
 
       const remoteTs = Date.parse(remoteMeta.exported_at || "") || 0;
@@ -88,9 +90,10 @@ function flushBatch() {
 
   void (async () => {
     const useRemote = await shouldUseRemote();
+    const pending = keys.filter((k) => !resolved.has(k));
+
     if (!useRemote) {
-      for (const key of keys) {
-        if (cache.has(key)) continue;
+      for (const key of pending) {
         const fb =
           localFallback.get(key) ??
           (await loadCorpusFallback(key).catch(() => getInitialFallback(key)));
@@ -99,10 +102,10 @@ function flushBatch() {
       return;
     }
 
-    const missing = keys.filter((k) => k !== "meta" && !cache.has(k));
-    if (missing.length) {
-      const fetched = await fetchDatasets(missing);
-      for (const key of missing) {
+    const toFetch = pending.filter((k) => k !== "meta");
+    if (toFetch.length) {
+      const fetched = await fetchDatasets(toFetch);
+      for (const key of toFetch) {
         const value =
           fetched[key] ??
           localFallback.get(key) ??
@@ -111,13 +114,12 @@ function flushBatch() {
       }
     }
 
-    for (const key of keys) {
-      if (!cache.has(key)) {
-        const fb =
-          localFallback.get(key) ??
-          (await loadCorpusFallback(key).catch(() => getInitialFallback(key)));
-        notify(key, fb);
-      }
+    for (const key of pending) {
+      if (resolved.has(key)) continue;
+      const fb =
+        localFallback.get(key) ??
+        (await loadCorpusFallback(key).catch(() => getInitialFallback(key)));
+      notify(key, fb);
     }
   })();
 }
@@ -125,9 +127,17 @@ function flushBatch() {
 function requestKeys(keys: string[], explicitFallback?: unknown) {
   for (const key of keys) {
     if (explicitFallback !== undefined) setLocalFallback(key, explicitFallback);
-    if (!cache.has(key)) {
-      const initial = getInitialFallback(key, explicitFallback);
-      cache.set(key, initial);
+    // Pre-cache solo fallbacks síncronos con data real (meta, channels…). Los lazy
+    // (brands, reports…) no van al cache hasta notify — evita quedar en [] forever.
+    if (!resolved.has(key)) {
+      const sync = getSyncFallback(key);
+      if (sync !== undefined) {
+        cache.set(key, sync);
+        resolved.add(key);
+      } else if (explicitFallback !== undefined) {
+        cache.set(key, explicitFallback);
+        resolved.add(key);
+      }
     }
     pendingKeys.add(key);
   }
@@ -151,6 +161,7 @@ export const corpusClient = {
   requestKeys,
   primeLocalFallbacks,
   getCached<T>(key: string, fallback?: T): T {
-    return (cache.get(key) ?? getInitialFallback(key, fallback)) as T;
+    if (resolved.has(key) && cache.has(key)) return cache.get(key) as T;
+    return (fallback ?? getInitialFallback(key)) as T;
   },
 };
