@@ -104,7 +104,8 @@
    "verified": 9,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "fintech"
  },
  {
   "slug": "geniol",
@@ -190,7 +191,8 @@
    "verified": 5,
    "partial": 1,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "mcdonald-s",
@@ -276,7 +278,8 @@
    "verified": 6,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "skip",
@@ -353,7 +356,8 @@
    "verified": 5,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "pae",
@@ -429,7 +433,8 @@
    "verified": 4,
    "partial": 1,
    "insufficient": 0
-  }
+  },
+  "rubro": "energia"
  },
  {
   "slug": "dia",
@@ -506,7 +511,8 @@
    "verified": 5,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "fintech"
  },
  {
   "slug": "rexona",
@@ -583,7 +589,8 @@
    "verified": 5,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "higiene"
  },
  {
   "slug": "asiscard",
@@ -650,7 +657,8 @@
    "verified": 4,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "mercado-libre",
@@ -717,7 +725,8 @@
    "verified": 4,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "retail"
  },
  {
   "slug": "canon",
@@ -773,7 +782,8 @@
    "verified": 3,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "cordoba-turismo",
@@ -829,7 +839,8 @@
    "verified": 3,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "green-life",
@@ -885,7 +896,8 @@
    "verified": 3,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "smirnoff",
@@ -941,7 +953,8 @@
    "verified": 2,
    "partial": 1,
    "insufficient": 0
-  }
+  },
+  "rubro": "bebidas"
  },
  {
   "slug": "ypf",
@@ -998,7 +1011,8 @@
    "verified": 3,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "energia"
  },
  {
   "slug": "johnnie-walker",
@@ -1054,7 +1068,8 @@
    "verified": 2,
    "partial": 1,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "schneider",
@@ -1110,7 +1125,8 @@
    "verified": 3,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "coto",
@@ -1156,7 +1172,8 @@
    "verified": 2,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "fintech"
  },
  {
   "slug": "adidas",
@@ -1203,7 +1220,8 @@
    "verified": 2,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "ecomod",
@@ -1249,7 +1267,8 @@
    "verified": 2,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "cordoba",
@@ -1295,7 +1314,8 @@
    "verified": 2,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "pharma-olga",
@@ -1341,7 +1361,8 @@
    "verified": 2,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "swift",
@@ -1387,7 +1408,8 @@
    "verified": 2,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "hyundai",
@@ -1434,7 +1456,8 @@
    "verified": 2,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "cordoba-destino-turistico",
@@ -1480,7 +1503,8 @@
    "verified": 2,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "natura-aderezos",
@@ -1526,7 +1550,8 @@
    "verified": 2,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "natura",
@@ -1572,7 +1597,8 @@
    "verified": 2,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "wanderlust",
@@ -1618,7 +1644,8 @@
    "verified": 2,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "canji",
@@ -1664,7 +1691,8 @@
    "verified": 2,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "jorjito",
@@ -1710,7 +1738,8 @@
    "verified": 2,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "seguros"
  },
  {
   "slug": "banco-macro",
@@ -1756,7 +1785,8 @@
    "verified": 2,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "fintech"
  },
  {
   "slug": "remax",
@@ -1802,7 +1832,8 @@
    "verified": 2,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "mercado-pago",
@@ -1848,7 +1879,8 @@
    "verified": 2,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "fintech"
  },
  {
   "slug": "coffee-house",
@@ -1894,7 +1926,8 @@
    "verified": 2,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "sinteplast",
@@ -1930,7 +1963,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "kanka",
@@ -1966,7 +2000,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "gustavo-corbera-la-fuente",
@@ -2002,7 +2037,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "telco"
  },
  {
   "slug": "evaginagel",
@@ -2038,7 +2074,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "full-guapaletas",
@@ -2074,7 +2111,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "espn3-disney",
@@ -2110,7 +2148,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "streaming"
  },
  {
   "slug": "la-roche-posay",
@@ -2146,7 +2185,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "argendata",
@@ -2182,7 +2222,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "juegos-el-pato",
@@ -2218,7 +2259,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "garnier-fructis",
@@ -2254,7 +2296,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "propel-fit-planet",
@@ -2290,7 +2333,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "cbc-hierbas-serranas",
@@ -2326,7 +2370,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "swiss-medical",
@@ -2362,7 +2407,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "salud"
  },
  {
   "slug": "hellmann-s",
@@ -2398,7 +2444,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "infinea-turbo-clean",
@@ -2434,7 +2481,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "it-consult",
@@ -2470,7 +2518,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "seguros"
  },
  {
   "slug": "marca-comercial-de-condimentos-oregano",
@@ -2506,7 +2555,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "pedidosya",
@@ -2542,7 +2592,8 @@
    "verified": 0,
    "partial": 1,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "mogul",
@@ -2578,7 +2629,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "samsung-galaxy-s26",
@@ -2614,7 +2666,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "tecnologia"
  },
  {
   "slug": "cooling-break-schneider",
@@ -2650,7 +2703,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "omni",
@@ -2686,7 +2740,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "coca-cola",
@@ -2722,7 +2777,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "bebidas"
  },
  {
   "slug": "aerolineas-argentina",
@@ -2758,7 +2814,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "viajes"
  },
  {
   "slug": "gol-gana",
@@ -2794,7 +2851,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "personal-flow",
@@ -2830,7 +2888,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "telco"
  },
  {
   "slug": "supergirl-dc-studios",
@@ -2866,7 +2925,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "neura-de-gira",
@@ -2902,7 +2962,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "princess-cruises-discover-crucis",
@@ -2938,7 +2999,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "princess",
@@ -2974,7 +3036,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "neura-de-gira-princess-cruises",
@@ -3010,7 +3073,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "new-bed-travel",
@@ -3046,7 +3110,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "natier",
@@ -3082,7 +3147,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "sovestar",
@@ -3118,7 +3184,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "hisense",
@@ -3154,7 +3221,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "lays",
@@ -3190,7 +3258,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "miquelo-ultra",
@@ -3226,7 +3295,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "airbnb",
@@ -3262,7 +3332,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "la-segunda-seguros",
@@ -3298,7 +3369,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "seguros"
  },
  {
   "slug": "baiano-teatro-vorterix",
@@ -3334,7 +3406,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "gustavo-cordera-la-fuente",
@@ -3370,7 +3443,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "fiesta-forever-90",
@@ -3406,7 +3480,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "social-lunch",
@@ -3442,7 +3517,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "luz-gashi-teatro-fortrix",
@@ -3478,7 +3554,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "gillette",
@@ -3514,7 +3591,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "higiene"
  },
  {
   "slug": "11-40-41-96-60",
@@ -3550,7 +3628,8 @@
    "verified": 0,
    "partial": 1,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "cremolati",
@@ -3586,7 +3665,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "food-truck-store",
@@ -3622,7 +3702,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "sony",
@@ -3658,7 +3739,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "top-line",
@@ -3694,7 +3776,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "asociacion-argentina-de-salud-mental",
@@ -3730,7 +3813,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "sancor-salud",
@@ -3766,7 +3850,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "osde",
@@ -3802,7 +3887,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "salud"
  },
  {
   "slug": "la-roche-posay-anthelios-uvmune",
@@ -3838,7 +3924,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "alma-marcela-gozo",
@@ -3874,7 +3961,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "nivea-milk-nutritiva",
@@ -3910,7 +3998,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "higiene"
  },
  {
   "slug": "nivea",
@@ -3946,7 +4035,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "higiene"
  },
  {
   "slug": "cymes",
@@ -3982,7 +4072,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "pringles",
@@ -4018,7 +4109,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "patria-y-familia",
@@ -4054,7 +4146,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "pollo-tati-y-agus-garcia",
@@ -4090,7 +4183,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "quilmes",
@@ -4126,7 +4220,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "bebidas"
  },
  {
   "slug": "ariel",
@@ -4162,7 +4257,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "home-by-hudson",
@@ -4198,7 +4294,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "galicia-visa-master",
@@ -4234,7 +4331,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "fintech"
  },
  {
   "slug": "fenix",
@@ -4270,7 +4368,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "l-oreal-paris",
@@ -4306,7 +4405,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "viv-glycolic-crystal",
@@ -4342,7 +4442,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "evacare-gino",
@@ -4378,7 +4479,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "seco",
@@ -4414,7 +4516,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "uber",
@@ -4450,7 +4553,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "guberpaticerie",
@@ -4486,7 +4590,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "escorial",
@@ -4522,7 +4627,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "hoy-cerdo",
@@ -4558,7 +4664,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "guacamoles-eventos",
@@ -4594,7 +4701,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "buenos-aires-ciudad",
@@ -4630,7 +4738,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "la-roche-posay-antelios",
@@ -4666,7 +4775,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "banco-patagonia-club-patagonia",
@@ -4702,7 +4812,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "fintech"
  },
  {
   "slug": "suave-star",
@@ -4738,7 +4849,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "camiseta-del-purrete-10",
@@ -4774,7 +4886,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "haussler",
@@ -4810,7 +4923,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "fintech"
  },
  {
   "slug": "pestanela",
@@ -4846,7 +4960,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "mostaza",
@@ -4882,7 +4997,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "hace",
@@ -4918,7 +5034,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "tucuman",
@@ -4954,7 +5071,82 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "jorjito-club-jorjito",
+  "name": "Jorjito - Club Jorjito",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "27/06/2026",
+  "last_seen": "27/06/2026",
+  "value_usd": 2026.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "27/06/2026",
+    "video_id": "bBf-XfM_Q_c",
+    "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+    "minute": "01:26:32",
+    "views": 89467,
+    "conc_at": 61398
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 61398,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "seguros"
+ },
+ {
+  "slug": "cultura-positiva",
+  "name": "Cultura Positiva",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "27/06/2026",
+  "last_seen": "27/06/2026",
+  "value_usd": 1317.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "27/06/2026",
+    "video_id": "bBf-XfM_Q_c",
+    "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+    "minute": "02:08:50",
+    "views": 89467,
+    "conc_at": 61398
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 61398,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
  },
  {
   "slug": "telecentro",
@@ -4990,7 +5182,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "live-seguros",
@@ -5026,7 +5219,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "seguros"
  },
  {
   "slug": "cafe-imperial",
@@ -5062,7 +5256,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "personal",
@@ -5098,7 +5293,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "telco"
  },
  {
   "slug": "redoxon",
@@ -5134,7 +5330,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "aerolineas-argentinas",
@@ -5170,7 +5367,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "viajes"
  },
  {
   "slug": "didi",
@@ -5206,7 +5404,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "marroc-de-belfort-felford",
@@ -5242,7 +5441,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "coto-digital",
@@ -5278,7 +5478,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "retail"
  },
  {
   "slug": "nadir-argentina",
@@ -5314,7 +5515,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "sastreria-teta-lee",
@@ -5350,7 +5552,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "geniori-plushie-geniol",
@@ -5386,7 +5589,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "cabify",
@@ -5422,7 +5626,8 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  },
  {
   "slug": "picadeli",
@@ -5458,6 +5663,7 @@
    "verified": 1,
    "partial": 0,
    "insufficient": 0
-  }
+  },
+  "rubro": "otro"
  }
 ]

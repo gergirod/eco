@@ -1,23 +1,23 @@
 {
- "exported_at": "2026-06-27T14:06:06.038499+00:00",
+ "exported_at": "2026-06-27T15:12:30.540115+00:00",
  "capture_scope": "live_only",
  "capture_sources": [
   "youtube_api",
   "ytdlp_live"
  ],
- "n_videos": 47,
- "n_topics": 47,
- "n_topics_total": 112,
- "n_brands": 132,
- "n_products": 120,
- "n_pauta_mentions": 203,
- "n_moments": 42,
+ "n_videos": 48,
+ "n_topics": 48,
+ "n_topics_total": 113,
+ "n_brands": 134,
+ "n_products": 121,
+ "n_pauta_mentions": 205,
+ "n_moments": 43,
  "n_trends": 120,
  "cpm": 30.0,
  "peso_default": 0.3,
  "live_capture": {
-  "hours_captured": 132.7,
-  "streams_captured": 53,
+  "hours_captured": 136.1,
+  "streams_captured": 55,
   "channels_captured": 8,
   "capture_days": 6,
   "first_capture": "2026-06-22",
@@ -56,10 +56,10 @@
    },
    {
     "id": "luzu",
-    "streams": 18,
-    "hours": 35.6,
+    "streams": 20,
+    "hours": 39.0,
     "first_capture": "2026-06-23",
-    "last_capture": "2026-06-26"
+    "last_capture": "2026-06-27"
    },
    {
     "id": "neura",
@@ -98,13 +98,13 @@
  },
  "discovery": {
   "channels_covered": 7,
-  "hours_captured": 110.0,
+  "hours_captured": 112.2,
   "first_capture": "2026-06-19",
-  "last_capture": "2026-06-26",
-  "period_days": 8,
-  "programs_with_viewers": 47,
+  "last_capture": "2026-06-27",
+  "period_days": 9,
+  "programs_with_viewers": 48,
   "high_confidence_advertisers": 16,
   "emerging_confidence_advertisers": 17,
-  "activations_with_verified_evidence": 197
+  "activations_with_verified_evidence": 199
  }
 }

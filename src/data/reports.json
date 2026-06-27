@@ -21233,6 +21233,264 @@
    }
   ]
  },
+ "jorjito-club-jorjito": {
+  "name": "Jorjito - Club Jorjito",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 2026.0,
+  "channels": [
+   "luzu"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 0,
+   "3": 1
+  },
+  "by_sentiment": {
+   "positivo": 0,
+   "neutro": 1,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260627",
+    "date": "27/06/2026",
+    "mentions": 1,
+    "value_usd": 2026.0
+   }
+  ],
+  "best": {
+   "channel": "luzu",
+   "channel_name": "LUZU TV",
+   "date": "27/06/2026",
+   "date_iso": "20260627",
+   "video_id": "bBf-XfM_Q_c",
+   "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+   "minute": "01:26:32",
+   "t_seconds": 5192,
+   "precise": true,
+   "views": 89467,
+   "value_usd": 2026.0,
+   "quote": "Si pensás igual, tenemos una noticia Ya eras del Club Jorjito y no lo sabías ¿Qué es Club Jorjito? La tienda online para todos los fanáticos de la marca Donde seguro vas a encontrar algo Para mostrar con orgullo tu amor por Jorjito Sumate y obtené un descuento del 10% en tu primera compra Usando el código LUSU10",
+   "tier": 3,
+   "tier_label": "Con código o promo",
+   "sentiment": "neutro",
+   "conc_at": 61398,
+   "retention_pct": null,
+   "chat_ratio": null,
+   "chat_reaction": {
+    "cobertura": false,
+    "has_chat": false,
+    "chat_ratio": null,
+    "tone": "none",
+    "table_line": "Sin chat capturado",
+    "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+    "detail_lines": [],
+    "ejemplos": []
+   },
+   "room_reaction": {
+    "has_data": false,
+    "cobertura": false,
+    "in_window": false,
+    "table_line": "Sin datos de participación en vivo",
+    "headline": "",
+    "detail_lines": [],
+    "lines": [],
+    "pins": [],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 62559,
+   "has_chat": false,
+   "anchor_confidence": "fuzzy",
+   "anchor_validated": true,
+   "transcript_at_ts": "Son dos Martín Fierro de la moda, te imagino. Y una planta. La planta da como a cuidadoso. ¿Volvió a tuitear o no?",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "27/06/2026",
+    "date_iso": "20260627",
+    "video_id": "bBf-XfM_Q_c",
+    "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+    "minute": "01:26:32",
+    "t_seconds": 5192,
+    "precise": true,
+    "views": 89467,
+    "value_usd": 2026.0,
+    "quote": "Si pensás igual, tenemos una noticia Ya eras del Club Jorjito y no lo sabías ¿Qué es Club Jorjito? La tienda online para todos los fanáticos de la marca Donde seguro vas a encontrar algo Para mostrar con orgullo tu amor por Jorjito Sumate y obtené un descuento del 10% en tu primera compra Usando el código LUSU10",
+    "tier": 3,
+    "tier_label": "Con código o promo",
+    "sentiment": "neutro",
+    "conc_at": 61398,
+    "retention_pct": null,
+    "chat_ratio": null,
+    "chat_reaction": {
+     "cobertura": false,
+     "has_chat": false,
+     "chat_ratio": null,
+     "tone": "none",
+     "table_line": "Sin chat capturado",
+     "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+     "detail_lines": [],
+     "ejemplos": []
+    },
+    "room_reaction": {
+     "has_data": false,
+     "cobertura": false,
+     "in_window": false,
+     "table_line": "Sin datos de participación en vivo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 62559,
+    "has_chat": false,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "Son dos Martín Fierro de la moda, te imagino. Y una planta. La planta da como a cuidadoso. ¿Volvió a tuitear o no?",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "cultura-positiva": {
+  "name": "Cultura Positiva",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 1317.0,
+  "channels": [
+   "luzu"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 1,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 0,
+   "neutro": 1,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260627",
+    "date": "27/06/2026",
+    "mentions": 1,
+    "value_usd": 1317.0
+   }
+  ],
+  "best": {
+   "channel": "luzu",
+   "channel_name": "LUZU TV",
+   "date": "27/06/2026",
+   "date_iso": "20260627",
+   "video_id": "bBf-XfM_Q_c",
+   "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+   "minute": "02:08:50",
+   "t_seconds": 7730,
+   "precise": true,
+   "views": 89467,
+   "value_usd": 1317.0,
+   "quote": "Un saludo en honor al Pollo Álvarez porque a él le gusta mucho leer él sigue una cuenta que se llama Cultura Positiva en Instagram Cultura Positiva todos los días publica una frase",
+   "tier": 2,
+   "tier_label": "Lectura dedicada",
+   "sentiment": "neutro",
+   "conc_at": 61398,
+   "retention_pct": null,
+   "chat_ratio": null,
+   "chat_reaction": {
+    "cobertura": false,
+    "has_chat": false,
+    "chat_ratio": null,
+    "tone": "none",
+    "table_line": "Sin chat capturado",
+    "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+    "detail_lines": [],
+    "ejemplos": []
+   },
+   "room_reaction": {
+    "has_data": false,
+    "cobertura": false,
+    "in_window": false,
+    "table_line": "Sin datos de participación en vivo",
+    "headline": "",
+    "detail_lines": [],
+    "lines": [],
+    "pins": [],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 62559,
+   "has_chat": false,
+   "anchor_confidence": "exact",
+   "anchor_validated": true,
+   "transcript_at_ts": "La no táctica Estamos terminando ¿Ya terminamos? ¿Cómo ya terminamos? Un saludo en honor al Pollo Álvarez Porque a él le gusta mucho leer Él sigue una cuenta que se llama Cultura Positiva en Instagram",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "27/06/2026",
+    "date_iso": "20260627",
+    "video_id": "bBf-XfM_Q_c",
+    "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+    "minute": "02:08:50",
+    "t_seconds": 7730,
+    "precise": true,
+    "views": 89467,
+    "value_usd": 1317.0,
+    "quote": "Un saludo en honor al Pollo Álvarez porque a él le gusta mucho leer él sigue una cuenta que se llama Cultura Positiva en Instagram Cultura Positiva todos los días publica una frase",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "neutro",
+    "conc_at": 61398,
+    "retention_pct": null,
+    "chat_ratio": null,
+    "chat_reaction": {
+     "cobertura": false,
+     "has_chat": false,
+     "chat_ratio": null,
+     "tone": "none",
+     "table_line": "Sin chat capturado",
+     "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+     "detail_lines": [],
+     "ejemplos": []
+    },
+    "room_reaction": {
+     "has_data": false,
+     "cobertura": false,
+     "in_window": false,
+     "table_line": "Sin datos de participación en vivo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 62559,
+    "has_chat": false,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "La no táctica Estamos terminando ¿Ya terminamos? ¿Cómo ya terminamos? Un saludo en honor al Pollo Álvarez Porque a él le gusta mucho leer Él sigue una cuenta que se llama Cultura Positiva en Instagram",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
  "telecentro": {
   "name": "Telecentro",
   "mentions": 1,

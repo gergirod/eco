@@ -24,6 +24,8 @@ export type ConversacionTopic = {
   tema: string;
   temaLabel: string;
   score: number;
+  trendScore: number;
+  growthWow: number;
   scorePct: number;
   menciones: number;
   canales: string[];
@@ -159,6 +161,8 @@ function rowToTopic(r: RadarRow, mergedCluster = false): Omit<ConversacionTopic,
     tema: r.tema,
     temaLabel: label,
     score: r.score ?? 0,
+    trendScore: rankScore(r),
+    growthWow: r.growth_wow ?? 0,
     menciones: r.menciones ?? 0,
     canales: r.canales ?? [],
     crossComunidad: Boolean(r.cross_comunidad),
@@ -238,11 +242,83 @@ type MetaShape = {
   discovery?: { channels_covered?: number; last_capture?: string };
 };
 
+export type ConversacionSort =
+  | "relevancia"
+  | "menciones"
+  | "canales"
+  | "crecimiento"
+  | "az";
+
+export function getConversacionCategories(topics: ConversacionTopic[]): string[] {
+  const cats = new Set<string>();
+  for (const t of topics) {
+    if (t.categoria) cats.add(t.categoria);
+  }
+  return [...cats].sort((a, b) => a.localeCompare(b, "es"));
+}
+
+export function filterConversacionTopics(
+  topics: ConversacionTopic[],
+  filters: {
+    search?: string;
+    categoria?: string;
+    momentum?: ConversacionMomentum | "";
+  } = {}
+): ConversacionTopic[] {
+  const needle = filters.search?.trim().toLowerCase() ?? "";
+  return topics.filter((t) => {
+    if (filters.categoria && t.categoria !== filters.categoria) return false;
+    if (filters.momentum && t.momentum !== filters.momentum) return false;
+    if (!needle) return true;
+    const hay =
+      t.tema.toLowerCase().includes(needle) ||
+      t.temaLabel.toLowerCase().includes(needle) ||
+      (t.categoria?.toLowerCase().includes(needle) ?? false) ||
+      t.canales.some((c) => c.toLowerCase().includes(needle)) ||
+      t.variantesRelacionadas.some((v) => v.toLowerCase().includes(needle));
+    return hay;
+  });
+}
+
+function sortMetric(t: ConversacionTopic, sort: ConversacionSort): number {
+  switch (sort) {
+    case "menciones":
+      return t.menciones;
+    case "canales":
+      return t.canales.length;
+    case "crecimiento":
+      return t.growthWow;
+    default:
+      return t.trendScore;
+  }
+}
+
+export function sortConversacionTopics(
+  topics: ConversacionTopic[],
+  sort: ConversacionSort
+): ConversacionTopic[] {
+  const sorted = [...topics];
+  if (sort === "az") {
+    sorted.sort((a, b) => a.temaLabel.localeCompare(b.temaLabel, "es"));
+  } else {
+    sorted.sort((a, b) => sortMetric(b, sort) - sortMetric(a, sort));
+  }
+  const maxMetric = sortMetric(sorted[0] ?? { trendScore: 1 } as ConversacionTopic, sort) || 1;
+  return sorted.map((t, i) => ({
+    ...t,
+    rank: i + 1,
+    scorePct:
+      sort === "az"
+        ? t.scorePct
+        : Math.round((sortMetric(t, sort) / maxMetric) * 100),
+  }));
+}
+
 export function buildConversacionRanking(
   radar: RadarRow[],
   options: { crossOnly?: boolean; limit?: number; mergeClusters?: boolean } = {}
 ): ConversacionTopic[] {
-  const { crossOnly = true, limit = 25, mergeClusters = true } = options;
+  const { crossOnly = true, limit, mergeClusters = true } = options;
   let rows = radar.filter((r) => r.tema && !r.tema.startsWith("_"));
   if (crossOnly) {
     rows = rows.filter(
@@ -254,8 +330,9 @@ export function buildConversacionRanking(
   }
   rows.sort((a, b) => rankScore(b) - rankScore(a));
   const maxScore = rankScore(rows[0] ?? {}) || 1;
+  const capped = limit && limit > 0 ? rows.slice(0, limit) : rows;
 
-  return rows.slice(0, limit).map((r, i) => {
+  return capped.map((r, i) => {
     const base = rowToTopic(r, Boolean(r.cluster && MERGE_CLUSTERS.has(r.cluster)));
     const rs = rankScore(r);
     return {
@@ -269,15 +346,22 @@ export function buildConversacionRanking(
 export function conversacionSubline(
   topics: ConversacionTopic[],
   crossOnly: boolean,
-  meta: MetaShape
+  meta: MetaShape,
+  options?: { totalAvailable?: number; showing?: number }
 ): string {
   const ch = meta.discovery?.channels_covered ?? 0;
   const mode = crossOnly ? "temas en 2+ canales" : "temas detectados";
-  if (!topics.length) {
+  const total = options?.totalAvailable ?? topics.length;
+  const showing = options?.showing ?? topics.length;
+  if (!total) {
     return `Sin ${mode} en el período actual (${ch} canales monitoreados).`;
   }
   const cross = topics.filter((t) => t.crossComunidad).length;
-  return `${topics.length} ${mode} · ${cross} en 2+ canales en esta vista · programas capturados`;
+  const countLine =
+    showing < total
+      ? `Mostrando ${showing} de ${total} ${mode}`
+      : `${total} ${mode}`;
+  return `${countLine} · ${cross} en 2+ canales en esta vista · programas capturados`;
 }
 
 export const CHANNEL_SLUG: Record<string, string> = {

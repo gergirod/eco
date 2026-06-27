@@ -2568,6 +2568,31 @@
   "kind": "producto"
  },
  {
+  "slug": "winter-pista-de-patinaje",
+  "name": "Winter (pista de patinaje)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "27/06/2026",
+  "last_seen": "27/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "27/06/2026",
+    "video_id": "bBf-XfM_Q_c",
+    "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+    "minute": "00:40",
+    "views": 89467
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "balance-sociedad-de-bolsa",
   "name": "Balance (sociedad de bolsa)",
   "mentions": 1,

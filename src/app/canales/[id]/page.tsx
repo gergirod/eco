@@ -18,7 +18,8 @@ import audienceFb from "@/data/audience.json";
 import benchmarkFb from "@/data/benchmark.json";
 import channelsFb from "@/data/channels.json";
 import momentsFb from "@/data/moments.json";
-import reportsFb from "@/data/reports.json";
+import placementFb from "@/data/placement.json";
+import programTopicsFb from "@/data/program_topics.json";
 
 function CanalProfileInner() {
   const params = useParams();
@@ -31,6 +32,7 @@ function CanalProfileInner() {
   const benchmark = useDataset("benchmark", benchmarkFb);
   const reports = useDataset("reports", reportsFb);
   const moments = useDataset("moments", momentsFb);
+  const placement = useDataset("placement", placementFb) as PlacementExport;
 
   const coverage = useMemo(() => getPlatformCoverage(loadDiscoveryDataset()), []);
 
@@ -119,6 +121,7 @@ function CanalProfileInner() {
         allAudience={audience as Parameters<typeof ChannelProfileSections>[0]["allAudience"]}
         chName={Object.fromEntries(channels.map((c) => [c.id, c.name]))}
         showFilter={showFilter}
+        placement={placement}
       />
     </div>
   );

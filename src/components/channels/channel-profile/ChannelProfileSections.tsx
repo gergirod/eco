@@ -10,6 +10,12 @@ import type { ChannelBenchmark, ChannelAudience, ChannelProfile } from "@/lib/ch
 import { compact, num, vodLink } from "@/lib/format";
 import { PROMINENCE_BAR } from "@/lib/prominence";
 import { rollupsByShow } from "@/lib/showFormat";
+import type { PlacementExport } from "@/lib/placement";
+import { getChannelPlacement, getShowPlacement, rubroLabel } from "@/lib/placement";
+import {
+  PlacementChannelCard,
+  PlacementShowSnippet,
+} from "@/components/placement/PlacementProfile";
 import { VALUATION_HINT, VALUATION_INFO, usdEst } from "@/lib/valuation";
 import type { ChannelProfileTabId } from "./tabs";
 
@@ -22,6 +28,7 @@ type Props = {
   onOpenActivation?: (row: ChannelProfile["activations"][0]) => void;
   /** Filtra emisiones por formato (?show=ndn). */
   showFilter?: string | null;
+  placement?: PlacementExport | null;
 };
 
 function SegBar({ parts }: { parts: { label: string; value: number; color: string }[] }) {
@@ -49,12 +56,20 @@ function SegBar({ parts }: { parts: { label: string; value: number; color: strin
   );
 }
 
-function DescripcionSection({ profile }: { profile: ChannelProfile }) {
+function DescripcionSection({
+  profile,
+  placement,
+}: {
+  profile: ChannelProfile;
+  placement?: PlacementExport | null;
+}) {
   const { config, audience, benchmark } = profile;
   const stats = config.stats;
+  const chPlacement = getChannelPlacement(placement, profile.config.id);
 
   return (
     <div>
+      <PlacementChannelCard placement={chPlacement} channelName={config.name} />
       <div className="card p-5 mb-5">
         <div className="text-[11px] uppercase tracking-wide text-accent font-medium mb-2">
           Qué sabemos sobre este canal
@@ -111,9 +126,11 @@ function DescripcionSection({ profile }: { profile: ChannelProfile }) {
 function FormatosSection({
   profile,
   channelId,
+  placement,
 }: {
   profile: ChannelProfile;
   channelId: string;
+  placement?: PlacementExport | null;
 }) {
   const rollups = useMemo(() => rollupsByShow(profile.programs), [profile.programs]);
 
@@ -133,7 +150,9 @@ function FormatosSection({
         <b>emisiones</b> diarias de ese formato en el período capturado.
       </p>
       <div className="grid gap-4 sm:grid-cols-2">
-        {rollups.map((r) => (
+        {rollups.map((r) => {
+          const showPlacement = getShowPlacement(placement, channelId, r.show.id);
+          return (
           <div key={r.show.id} className="card p-5">
             <h2 className="text-[16px] font-semibold text-ink mb-1">{r.show.name}</h2>
             <p className="text-[12.5px] text-gray-500 mb-4">
@@ -146,14 +165,16 @@ function FormatosSection({
                 Pico de atención en el período: <b>{compact(r.peakAttention)}</b>
               </p>
             ) : null}
+            <PlacementShowSnippet placement={showPlacement} compact />
             <Link
               href={`/canales/${channelId}?tab=programas&show=${r.show.id}`}
-              className="text-[13px] text-accent font-medium hover:underline"
+              className="text-[13px] text-accent font-medium hover:underline inline-block mt-2"
             >
               Ver emisiones →
             </Link>
           </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );
@@ -259,7 +280,13 @@ function EmisionesSection({
   );
 }
 
-function MarcasSection({ profile }: { profile: ChannelProfile }) {
+function MarcasSection({
+  profile,
+  placement,
+}: {
+  profile: ChannelProfile;
+  placement?: PlacementExport | null;
+}) {
   const brands = profile.benchmark?.top_brands || [];
   if (!brands.length) {
     return (
@@ -277,14 +304,21 @@ function MarcasSection({ profile }: { profile: ChannelProfile }) {
       <div className="flex flex-col gap-4">
         {brands.map((b) => (
           <div key={b.slug}>
-            <div className="flex justify-between text-[13px] mb-1">
-              <Link
-                href={`/marcas/${b.slug}?channel=${profile.config.id}`}
-                className="font-medium text-accent hover:underline"
-              >
-                {b.name}
-              </Link>
-              <span className="text-gray-400 tabular-nums">{b.mentions} apariciones</span>
+            <div className="flex justify-between text-[13px] mb-1 gap-2">
+              <div className="min-w-0">
+                <Link
+                  href={`/marcas/${b.slug}?channel=${profile.config.id}`}
+                  className="font-medium text-accent hover:underline"
+                >
+                  {b.name}
+                </Link>
+                {"rubro" in b && b.rubro ? (
+                  <span className="text-[11px] text-gray-400 ml-2">
+                    {rubroLabel(placement, b.rubro)}
+                  </span>
+                ) : null}
+              </div>
+              <span className="text-gray-400 tabular-nums shrink-0">{b.mentions} apariciones</span>
             </div>
             <Bar value={b.mentions} max={maxM} />
             {b.value_usd != null && (
@@ -624,14 +658,15 @@ export default function ChannelProfileSections({
   allAudience,
   chName,
   showFilter,
+  placement,
 }: Props) {
   const channelId = profile.config.id;
 
   switch (tab) {
     case "descripcion":
-      return <DescripcionSection profile={profile} />;
+      return <DescripcionSection profile={profile} placement={placement} />;
     case "formatos":
-      return <FormatosSection profile={profile} channelId={channelId} />;
+      return <FormatosSection profile={profile} channelId={channelId} placement={placement} />;
     case "programas":
       return (
         <EmisionesSection
@@ -642,7 +677,7 @@ export default function ChannelProfileSections({
         />
       );
     case "marcas":
-      return <MarcasSection profile={profile} />;
+      return <MarcasSection profile={profile} placement={placement} />;
     case "actividad":
       return <ActividadSection profile={profile} />;
     case "audiencia":

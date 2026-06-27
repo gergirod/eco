@@ -44,6 +44,7 @@ export type ChannelBrandRef = {
   name: string;
   mentions: number;
   value_usd?: number;
+  rubro?: string;
 };
 
 export type ChannelBenchmark = {

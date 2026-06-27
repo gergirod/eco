@@ -239,7 +239,7 @@
     "intensidad": 3
    }
   ],
-  "highlights_total": 282
+  "highlights_total": 285
  },
  {
   "tema": "argentinos exterior",
@@ -1409,7 +1409,7 @@
     "intensidad": 2
    }
   ],
-  "highlights_total": 84
+  "highlights_total": 85
  },
  {
   "tema": "beso en vivo",
@@ -1643,7 +1643,7 @@
     "intensidad": 2
    }
   ],
-  "highlights_total": 70
+  "highlights_total": 72
  },
  {
   "tema": "cine animado",
@@ -3160,6 +3160,15 @@
    },
    {
     "channel": "LUZU TV",
+    "video_id": "bBf-XfM_Q_c",
+    "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+    "date": "20260627",
+    "subtema": "Café Martínez - mención de lugar",
+    "contexto": "Referencia casual a Café Martínez para tomar cortado y media luna",
+    "intensidad": 1
+   },
+   {
+    "channel": "LUZU TV",
     "video_id": "7Oo5Hf7f14M",
     "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
     "date": "20260624",
@@ -3177,7 +3186,7 @@
     "intensidad": 1
    }
   ],
-  "highlights_total": 18
+  "highlights_total": 19
  },
  {
   "tema": "regulación transporte",
@@ -6833,7 +6842,7 @@
     "intensidad": 3
    }
   ],
-  "highlights_total": 108
+  "highlights_total": 114
  },
  {
   "tema": "baile bodas",
@@ -7231,9 +7240,18 @@
     "subtema": "Teatro y trabajo artístico",
     "contexto": "Mención de hacer teatro dos veces, jubilación en lugar con shows, renuencia a trabajar",
     "intensidad": 1
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "bBf-XfM_Q_c",
+    "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+    "date": "20260627",
+    "subtema": "Patinaje artístico",
+    "contexto": "Experiencia corta de dos meses con patín artístico, comparación con patín de carrera",
+    "intensidad": 1
    }
   ],
-  "highlights_total": 10
+  "highlights_total": 11
  },
  {
   "tema": "altura factor deportivo",
@@ -7728,7 +7746,7 @@
     "intensidad": 3
    }
   ],
-  "highlights_total": 263
+  "highlights_total": 264
  },
  {
   "tema": "baños compartidos",
@@ -7934,6 +7952,15 @@
     "intensidad": 2
    },
    {
+    "channel": "LUZU TV",
+    "video_id": "bBf-XfM_Q_c",
+    "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+    "date": "20260627",
+    "subtema": "Personajes Toy Story favoritos",
+    "contexto": "Debate sobre cuál es el personaje favorito, menciones de Jessy, Slinky, Forky, el dinosaurio",
+    "intensidad": 2
+   },
+   {
     "channel": "OLGA",
     "video_id": "N9oqgzallLk",
     "title": "HOMERO IMITACIONES SE SALE DE CONTROL | #SoñéQueVolaba 11/6",
@@ -8024,7 +8051,7 @@
     "intensidad": 1
    }
   ],
-  "highlights_total": 19
+  "highlights_total": 20
  },
  {
   "tema": "viajes",
@@ -8238,6 +8265,15 @@
     "intensidad": 2
    },
    {
+    "channel": "LUZU TV",
+    "video_id": "bBf-XfM_Q_c",
+    "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+    "date": "20260627",
+    "subtema": "Viajes por amor",
+    "contexto": "Discuten sobre viajar a España para conocer a alguien y se comparte anécdota de viaje sorpresa a un ex",
+    "intensidad": 2
+   },
+   {
     "channel": "Neura Media",
     "video_id": "c1LrQSDaXAY",
     "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
@@ -8254,18 +8290,9 @@
     "subtema": "Viajes y destinos",
     "contexto": "Conversación sobre tips de viajero, pasaporte, seguros de viaje y recomendación de no repetir ciudades",
     "intensidad": 2
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "Ir6p9x-GQ_I",
-    "title": "#LOSDELFONDO | AGUSNETA SE BAJA DE LOS SHIPS, TODO SOBRE EL MUNDIAL, FÚTBOL SOPLADO GAGA",
-    "date": "20260609",
-    "subtema": "Preparación de valijas para viajes",
-    "contexto": "Conversación sobre hacer maletas con anticipación vs. último momento, específicamente para el Mundial",
-    "intensidad": 2
    }
   ],
-  "highlights_total": 46
+  "highlights_total": 48
  },
  {
   "tema": "alberto fernández",
@@ -9165,7 +9192,7 @@
     "intensidad": 3
    }
   ],
-  "highlights_total": 189
+  "highlights_total": 190
  },
  {
   "tema": "crisis venezuela",
@@ -10076,6 +10103,226 @@
   "highlights_total": 4
  },
  {
+  "tema": "música argentina",
+  "score": 25.2,
+  "trend_score": 15.53,
+  "menciones": 4,
+  "growth_wow": 0.621,
+  "demand_ratio": 0.0,
+  "demand_signals": 0,
+  "canales": [
+   "LUZU TV"
+  ],
+  "categorias": [
+   "cultura"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "23/06/2026",
+    "n": 9.629175936887494
+   },
+   {
+    "date": "24/06/2026",
+    "n": 10.610121656430248
+   },
+   {
+    "date": "27/06/2026",
+    "n": 5.0
+   }
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null,
+  "cluster": null,
+  "variantes_relacionadas": [],
+  "highlights": [
+   {
+    "channel": "OLGA",
+    "video_id": "7KuEaYSYRj8",
+    "title": "ÍDOLO POPULAR: DESPEDIMOS al INDIO con USTEDES | #SoñéQueVolaba 5/6",
+    "date": "20260605",
+    "subtema": "Música como fenómeno unificador social",
+    "contexto": "Discusión sobre cómo la música atraviesa transversalmente a una sociedad entera, sin importar clase social, comparado con figuras como Maradona",
+    "intensidad": 3
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "XHV2BV9DWMs",
+    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+    "date": "20260619",
+    "subtema": "Impacto emocional de la música en personas",
+    "contexto": "Discusión sobre cómo las canciones salvan vidas y generan momentos significativos, con ejemplos de personas en situaciones de salud difíciles",
+    "intensidad": 3
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "7KuEaYSYRj8",
+    "title": "ÍDOLO POPULAR: DESPEDIMOS al INDIO con USTEDES | #SoñéQueVolaba 5/6",
+    "date": "20260605",
+    "subtema": "Música como acompañamiento terapéutico",
+    "contexto": "Se discute cómo la música del Indio acompaña a la gente en momentos de duelo, dolor emocional y tristeza, funcionando como terapia",
+    "intensidad": 3
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "LzZD6sPGPu0",
+    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
+    "date": "20260608",
+    "subtema": "Coherencia y autenticidad en la música",
+    "contexto": "Reflexión sobre cómo los artistas hoy hacen todo por números y marketing en lugar de por convicción propia y satisfacción personal",
+    "intensidad": 3
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "7KuEaYSYRj8",
+    "title": "ÍDOLO POPULAR: DESPEDIMOS al INDIO con USTEDES | #SoñéQueVolaba 5/6",
+    "date": "20260605",
+    "subtema": "Música y obra del Indio Solari",
+    "contexto": "Discusión profunda sobre el impacto emocional y social de la música del Indio Solari, su legado y cómo unifica a la sociedad",
+    "intensidad": 3
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "MTBXBVW5wHE",
+    "title": "#PATRIAYFAMILIA l NUEVAS DRAGAS Y LLORAMOS DE LA EMOCIÓN",
+    "date": "20260605",
+    "subtema": "Música drag y espectáculos drag",
+    "contexto": "Se habla de la organización de un día drag y proyectos de espectáculos como 'Abra Cadabra' y 'Eufórica'",
+    "intensidad": 3
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "teZ-nZ63J0I",
+    "title": "#FMLUZU | LA CASTRO SE BAJÓ DE LAS APPS DE CITAS + LE HACEMOS UNA CANCIÓN + MANO A MANO CASTRINI",
+    "date": "20260626",
+    "subtema": "Música de boliche",
+    "contexto": "Se discute sobre temas de boliche, cuarteto y la importancia de poder cantar la canción en la pista",
+    "intensidad": 3
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "83HBNm_5Yvo",
+    "title": "¿BAÑARSE DE DÍA O DE NOCHE? | #TapadosDeLaburo 8/6",
+    "date": "20260608",
+    "subtema": "Segundo álbum de música",
+    "contexto": "Artista invitada presenta su segundo álbum lanzado hace menos de dos semanas con 12 canciones",
+    "intensidad": 3
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "yp1SuqSXmxA",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
+    "date": "20260622",
+    "subtema": "Música mundialista",
+    "contexto": "Se juega adivinando canciones que se estrenaron en años de Mundiales de fútbol",
+    "intensidad": 3
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "bX7MB2_OI2I",
+    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+    "date": "20260623",
+    "subtema": "Música y performance",
+    "contexto": "Maxi canta una canción emotiva sobre la vida y momentos memorables",
+    "intensidad": 3
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "AUtF1mhDL_g",
+    "title": "RECORDAMOS AL INDIO SOLARI | #SeríaIncreíble 5/6",
+    "date": "20260605",
+    "subtema": "Lírica y poesía en la música rock",
+    "contexto": "Se logró con una pluma totalmente incisiva, con un elemento muy importante que es el misterio. El indio no escribía de una manera literal, sino que siempre tenía una manera oblicua de plantear situaciones.",
+    "intensidad": 2
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "AUtF1mhDL_g",
+    "title": "RECORDAMOS AL INDIO SOLARI | #SeríaIncreíble 5/6",
+    "date": "20260605",
+    "subtema": "Vinculación entre música y memoria personal",
+    "contexto": "El lazo que tiene con las relaciones humanas la música. Cuando escucho al indio me acuerdo de. Es como que siempre te va a ligar a una memoria, a una memoria placentera, linda.",
+    "intensidad": 2
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "Iy38_er_9xI",
+    "title": "#SEFUELARGA l FERBO MUY EXPUESTO, ¿OTRA VEZ FUERA DE UN PLAN? Y ¿EL TE AMO PERDIÓ EL SENTIDO?",
+    "date": "20260603",
+    "subtema": "música durante encuentros sexuales",
+    "contexto": "discusión sobre playlists para sexo, canciones que interrumpen momentos, 'Blue Vibes' y referencias a música irónica como 'Movimiento Naranja'",
+    "intensidad": 2
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "LzZD6sPGPu0",
+    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
+    "date": "20260608",
+    "subtema": "Autogestión e independencia en la música",
+    "contexto": "El Indio y Los Fundamentalistas del Aire Acondicionado como referentes de no transmitir en TV, no sumarse a festivales, tocar solo de noche",
+    "intensidad": 2
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "7KuEaYSYRj8",
+    "title": "ÍDOLO POPULAR: DESPEDIMOS al INDIO con USTEDES | #SoñéQueVolaba 5/6",
+    "date": "20260605",
+    "subtema": "Transmisión intergeneracional de la música",
+    "contexto": "Historias de padres que introdujeron a sus hijos en Los Redondos e El Indio, incluyendo hija de 14 años que descubrió la música",
+    "intensidad": 2
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "HxSfByGpEe0",
+    "title": "HACÉ REÍR A LA MESA y GANAS $50.000 | #TapadosDeLaburo 5/6",
+    "date": "20260605",
+    "subtema": "Música como sanadora y eterna",
+    "contexto": "Se reflexiona sobre cómo la música del Indio impacta emocionalmente y permanece para siempre a través de distintos formatos",
+    "intensidad": 2
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "_nXe8cJmDFk",
+    "title": "FESTEJAMOS EL PRE CUMPLE DE EVE | #MiPrimoEsAsí 11/6",
+    "date": "20260611",
+    "subtema": "Música electrónica independiente de Mar de Plata",
+    "contexto": "Artista Tri-A presenta su canción 'Gauchito Gil' hecha con 30 artistas de Mar de Plata, formato completamente independiente",
+    "intensidad": 2
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "YsVvw9XAMjE",
+    "title": "ABRAN LAS JULIANAS | #MiPrimoEsAsí 4/6",
+    "date": "20260604",
+    "subtema": "Fusión de audio e imagen en la música moderna",
+    "contexto": "Se reflexiona sobre cómo la digitalidad ha fusionado audio e imagen de manera natural en la creación musical contemporánea",
+    "intensidad": 2
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "yp1SuqSXmxA",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
+    "date": "20260622",
+    "subtema": "Música y coreografías",
+    "contexto": "Aprenden y hacen coreografías en vivo de canciones como 'Anita' y 'Confundido', menciones de programas musicales antiguos",
+    "intensidad": 2
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "7KuEaYSYRj8",
+    "title": "ÍDOLO POPULAR: DESPEDIMOS al INDIO con USTEDES | #SoñéQueVolaba 5/6",
+    "date": "20260605",
+    "subtema": "impacto emocional de la música en las personas",
+    "contexto": "Se reflexiona sobre cómo los artistas que calan hondo permanecen en las personas como si fueran amigos que te acompañan",
+    "intensidad": 2
+   }
+  ],
+  "highlights_total": 53
+ },
+ {
   "tema": "educación financiera",
   "score": 3.0,
   "trend_score": 15.1,
@@ -10433,6 +10680,15 @@
     "intensidad": 2
    },
    {
+    "channel": "LUZU TV",
+    "video_id": "bBf-XfM_Q_c",
+    "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+    "date": "20260627",
+    "subtema": "Historial deportivo de Tati",
+    "contexto": "Se menciona que Tati hizo hockey, voley, danza contemporánea, tap y gimnasia artística durante su infancia.",
+    "intensidad": 2
+   },
+   {
     "channel": "OLGA",
     "video_id": "q_clAienUJw",
     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
@@ -10469,38 +10725,7 @@
     "intensidad": 1
    }
   ],
-  "highlights_total": 10
- },
- {
-  "tema": "viajes internacional",
-  "score": 10.5,
-  "trend_score": 14.69,
-  "menciones": 1,
-  "growth_wow": 0.0,
-  "demand_ratio": 1.0,
-  "demand_signals": 1,
-  "canales": [
-   "LUZU TV"
-  ],
-  "categorias": [
-   "lugar"
-  ],
-  "cross_comunidad": false,
-  "multi_dia": false,
-  "candidato": false,
-  "serie": [
-   {
-    "date": "26/06/2026",
-    "n": 10.533262867819133
-   }
-  ],
-  "gt_status": null,
-  "gt_lead_days": null,
-  "gt_peak": null,
-  "cluster": null,
-  "variantes_relacionadas": [],
-  "highlights": [],
-  "highlights_total": 0
+  "highlights_total": 11
  },
  {
   "tema": "retorno de saturno",
@@ -11463,7 +11688,7 @@
     "intensidad": 2
    }
   ],
-  "highlights_total": 27
+  "highlights_total": 28
  },
  {
   "tema": "proyecto blue beam",
@@ -11641,6 +11866,15 @@
    },
    {
     "channel": "LUZU TV",
+    "video_id": "bBf-XfM_Q_c",
+    "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+    "date": "20260627",
+    "subtema": "Toy Story - análisis de películas",
+    "contexto": "Discusión detallada sobre las 5 películas de Toy Story, argumentos, personajes y escenas memorables",
+    "intensidad": 3
+   },
+   {
+    "channel": "LUZU TV",
     "video_id": "b5MhH0NHJUo",
     "title": "#ANTESQUENADIE | ¿ESTÁ MAL COIMEAR A UN DT POR LA FELICIDAD DE TU HIJO? + EL CASO DE WALTER BULACIO",
     "date": "20260610",
@@ -11755,18 +11989,9 @@
     "subtema": "películas de Kenia (cineasta argentino)",
     "contexto": "mencionan tres películas: Escape del Mañana, Historias de nuestras vidas y Pizza Birra y Faso",
     "intensidad": 2
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "7Oo5Hf7f14M",
-    "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "date": "20260624",
-    "subtema": "Películas de horror en la infancia",
-    "contexto": "Ver Scary Movie a los 10-11 años generó trauma, necesitaba a la madre vigilando en el baño",
-    "intensidad": 2
    }
   ],
-  "highlights_total": 30
+  "highlights_total": 31
  },
  {
   "tema": "significado de yolo",
@@ -13146,156 +13371,6 @@
   "highlights_total": 2
  },
  {
-  "tema": "redes sociales",
-  "score": 27.7,
-  "trend_score": 13.64,
-  "menciones": 5,
-  "growth_wow": 0.367,
-  "demand_ratio": 0.0,
-  "demand_signals": 0,
-  "canales": [
-   "BLENDER",
-   "LUZU TV",
-   "OLGA"
-  ],
-  "categorias": [
-   "tecnologia"
-  ],
-  "cross_comunidad": true,
-  "multi_dia": true,
-  "candidato": false,
-  "serie": [
-   {
-    "date": "23/06/2026",
-    "n": 11.703751024982873
-   },
-   {
-    "date": "24/06/2026",
-    "n": 9.862897114113638
-   },
-   {
-    "date": "26/06/2026",
-    "n": 6.141576417893924
-   }
-  ],
-  "gt_status": null,
-  "gt_lead_days": null,
-  "gt_peak": null,
-  "cluster": null,
-  "variantes_relacionadas": [],
-  "highlights": [
-   {
-    "channel": "OLGA",
-    "video_id": "cv2t2_4ffP8",
-    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
-    "date": "20260604",
-    "subtema": "Capacidad de razonamiento sistémico sobre problemas sociales",
-    "contexto": "Crítica a quienes ven solo síntomas sin entender causas. Ejemplo: mujeres que dejaron trabajo 10 años para criar hijos enfrentan barreras laborales al reinsertarse.",
-    "intensidad": 3
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "Y7TeotcndjQ",
-    "title": "COINCIDO O DEBATO: ¿SE PERDONA TODO POR SER DE OTRA ÉPOCA? | #TapadosDeLaburo 2/6",
-    "date": "20260602",
-    "subtema": "Presentación de parejas en círculos sociales",
-    "contexto": "Discusión sobre si hay que avisar y presentar formalmente a una pareja antes de incluirla en juntadas privadas con amigos cercanos",
-    "intensidad": 3
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "OZwUR5pR7cA",
-    "title": "#PATRIAYFAMILIA l CAMI ES SHAKIRA Y AGUSNETA SE PONE LAS LOLAS",
-    "date": "20260609",
-    "subtema": "dinámicas sociales en la secundaria",
-    "contexto": "discusión extensa sobre grupos populares vs marginados, bullying, y mecanismos de supervivencia en la escuela",
-    "intensidad": 3
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "CGxGXCw8BVE",
-    "title": "#PATRIAYFAMILIA l OCCHIATO NOS DA LA NOTICIA ESPERADA Y BAD GYAL EN VIVO",
-    "date": "20260610",
-    "subtema": "Reposteos y expectativas sociales",
-    "contexto": "Conflicto entre amigos por no repostear historias, presión social de validar contenido de otros",
-    "intensidad": 3
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "VphQnT79K00",
-    "title": "LAS MUJERES Y EL FÚTBOL: LOS ESPACIOS CONQUISTADOS EN EL DEPORTE | #GolGana 3/6",
-    "date": "20260603",
-    "subtema": "Expectativas sociales sobre comportamiento de jugadores post-derrota",
-    "contexto": "Crítica a la hipocresía de los hinchas que exigen que jugadores no muestren vida normal después de perder, ejemplo de Troglio y Arjona",
-    "intensidad": 2
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "LzZD6sPGPu0",
-    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
-    "date": "20260608",
-    "subtema": "Dinámicas sociales incómodas",
-    "contexto": "Conversación sobre qué tan divertido es presenciar peleas entre otros, especialmente en diferentes contextos sociales",
-    "intensidad": 2
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "HV3dxHqU_mw",
-    "title": "APASIONANTE DUELO DE CIUDADES en el MUNDIALITO | #SoñéQueVolaba 8/6",
-    "date": "20260608",
-    "subtema": "trending de TikTok/redes sociales con canción de Calle 13",
-    "contexto": "trend donde usuarios suben fotos con amigos junto a fragmentos de la canción sobre la muerte de Christopher",
-    "intensidad": 2
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "cv2t2_4ffP8",
-    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
-    "date": "20260604",
-    "subtema": "Construcciones sociales sobre capacidades domésticas",
-    "contexto": "Reflexión sobre cómo la educación construye o no las capacidades en hombres y mujeres para tareas del hogar",
-    "intensidad": 2
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "Ovdcl6-B2kc",
-    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "date": "20260623",
-    "subtema": "Relaciones personales y encuentros sociales",
-    "contexto": "Discusión sobre conocer amigos de pareja, invitación a ver partido, nerviosismo por juntadas",
-    "intensidad": 2
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "cv2t2_4ffP8",
-    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
-    "date": "20260604",
-    "subtema": "Rivalidad interprovincial y grietas sociales",
-    "contexto": "Se discute cómo evitar generar rivalidad y grietas más en Argentina, que ya está dividida",
-    "intensidad": 2
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "OMoimQeA_Ec",
-    "title": "#FMLUZU | PALPITAMOS LA PREVIA DEL MUNDIAL + LA GURI CHAPA EN VIVO",
-    "date": "20260610",
-    "subtema": "Fiestas y eventos sociales",
-    "contexto": "Se organiza fiesta el sábado en Saldías con reggaetón y pop",
-    "intensidad": 2
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "S1UDpsKkZvE",
-    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
-    "date": "20260623",
-    "subtema": "Dinámicas sociales en reuniones",
-    "contexto": "Se discute cómo los anfitriones de una mesa comparten con amigos de amigos, como en un cumpleaños nuevo",
-    "intensidad": 1
-   }
-  ],
-  "highlights_total": 12
- },
- {
   "tema": "apuestas",
   "score": 34.0,
   "trend_score": 12.93,
@@ -13584,7 +13659,7 @@
     "intensidad": 3
    }
   ],
-  "highlights_total": 137
+  "highlights_total": 139
  },
  {
   "tema": "videojuegos",
@@ -14163,6 +14238,15 @@
     "intensidad": 3
    },
    {
+    "channel": "LUZU TV",
+    "video_id": "bBf-XfM_Q_c",
+    "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+    "date": "20260627",
+    "subtema": "Momentos telenovela en la vida real",
+    "contexto": "Discusión sobre los momentos más dramáticos y románticos que han vivido, comparándolos con telenovelas",
+    "intensidad": 3
+   },
+   {
     "channel": "OLGA",
     "video_id": "W_HkPNOMeDc",
     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
@@ -14197,18 +14281,9 @@
     "subtema": "Inseguridades personales y vida social",
     "contexto": "Conversación sobre inseguridades del turro, atractivo físico, dificultad de exponerse en espacios públicos como playas, búsqueda de diversión sin compromiso",
     "intensidad": 2
-   },
-   {
-    "channel": "Neura Media",
-    "video_id": "XYJRLyO9exg",
-    "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
-    "date": "20260626",
-    "subtema": "Seguro de vida y protección personal",
-    "contexto": "Solo el 3% de la población en Argentina tiene seguro de vida planificado; importancia de protegerse como mayor patrimonio antes de invertir",
-    "intensidad": 2
    }
   ],
-  "highlights_total": 59
+  "highlights_total": 60
  },
  {
   "tema": "educación",
@@ -14488,7 +14563,7 @@
     "intensidad": 2
    }
   ],
-  "highlights_total": 29
+  "highlights_total": 30
  },
  {
   "tema": "atlas fútbol",
@@ -14594,15 +14669,6 @@
    },
    {
     "channel": "LUZU TV",
-    "video_id": "WCF4oC8GC9o",
-    "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
-    "date": "20260624",
-    "subtema": "Bad Bunny música",
-    "contexto": "Bromearon sobre que Presti es hater de Bad Bunny, mientras que escuchaban la canción en todo lado durante el viaje",
-    "intensidad": 2
-   },
-   {
-    "channel": "LUZU TV",
     "video_id": "Ovdcl6-B2kc",
     "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
     "date": "20260623",
@@ -14620,7 +14686,7 @@
     "intensidad": 2
    }
   ],
-  "highlights_total": 4
+  "highlights_total": 3
  },
  {
   "tema": "accesorios moda",
@@ -15191,183 +15257,12 @@
     "video_id": "7KuEaYSYRj8",
     "title": "ÍDOLO POPULAR: DESPEDIMOS al INDIO con USTEDES | #SoñéQueVolaba 5/6",
     "date": "20260605",
-    "subtema": "Música como fenómeno unificador social",
-    "contexto": "Discusión sobre cómo la música atraviesa transversalmente a una sociedad entera, sin importar clase social, comparado con figuras como Maradona",
-    "intensidad": 3
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "XHV2BV9DWMs",
-    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "date": "20260619",
-    "subtema": "Impacto emocional de la música en personas",
-    "contexto": "Discusión sobre cómo las canciones salvan vidas y generan momentos significativos, con ejemplos de personas en situaciones de salud difíciles",
-    "intensidad": 3
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "7KuEaYSYRj8",
-    "title": "ÍDOLO POPULAR: DESPEDIMOS al INDIO con USTEDES | #SoñéQueVolaba 5/6",
-    "date": "20260605",
-    "subtema": "Música como acompañamiento terapéutico",
-    "contexto": "Se discute cómo la música del Indio acompaña a la gente en momentos de duelo, dolor emocional y tristeza, funcionando como terapia",
-    "intensidad": 3
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "LzZD6sPGPu0",
-    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
-    "date": "20260608",
-    "subtema": "Coherencia y autenticidad en la música",
-    "contexto": "Reflexión sobre cómo los artistas hoy hacen todo por números y marketing en lugar de por convicción propia y satisfacción personal",
-    "intensidad": 3
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "7KuEaYSYRj8",
-    "title": "ÍDOLO POPULAR: DESPEDIMOS al INDIO con USTEDES | #SoñéQueVolaba 5/6",
-    "date": "20260605",
-    "subtema": "Música y obra del Indio Solari",
-    "contexto": "Discusión profunda sobre el impacto emocional y social de la música del Indio Solari, su legado y cómo unifica a la sociedad",
-    "intensidad": 3
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "MTBXBVW5wHE",
-    "title": "#PATRIAYFAMILIA l NUEVAS DRAGAS Y LLORAMOS DE LA EMOCIÓN",
-    "date": "20260605",
-    "subtema": "Música drag y espectáculos drag",
-    "contexto": "Se habla de la organización de un día drag y proyectos de espectáculos como 'Abra Cadabra' y 'Eufórica'",
-    "intensidad": 3
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "7KuEaYSYRj8",
-    "title": "ÍDOLO POPULAR: DESPEDIMOS al INDIO con USTEDES | #SoñéQueVolaba 5/6",
-    "date": "20260605",
     "subtema": "Mercantilización de festivales y espacios culturales",
     "contexto": "Crítica sobre cómo festivales como Cosquín y Coquín perdieron su carácter underground al mainstream",
     "intensidad": 3
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "teZ-nZ63J0I",
-    "title": "#FMLUZU | LA CASTRO SE BAJÓ DE LAS APPS DE CITAS + LE HACEMOS UNA CANCIÓN + MANO A MANO CASTRINI",
-    "date": "20260626",
-    "subtema": "Música de boliche",
-    "contexto": "Se discute sobre temas de boliche, cuarteto y la importancia de poder cantar la canción en la pista",
-    "intensidad": 3
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "83HBNm_5Yvo",
-    "title": "¿BAÑARSE DE DÍA O DE NOCHE? | #TapadosDeLaburo 8/6",
-    "date": "20260608",
-    "subtema": "Segundo álbum de música",
-    "contexto": "Artista invitada presenta su segundo álbum lanzado hace menos de dos semanas con 12 canciones",
-    "intensidad": 3
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "yp1SuqSXmxA",
-    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
-    "date": "20260622",
-    "subtema": "Música mundialista",
-    "contexto": "Se juega adivinando canciones que se estrenaron en años de Mundiales de fútbol",
-    "intensidad": 3
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "bX7MB2_OI2I",
-    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-    "date": "20260623",
-    "subtema": "Música y performance",
-    "contexto": "Maxi canta una canción emotiva sobre la vida y momentos memorables",
-    "intensidad": 3
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "AUtF1mhDL_g",
-    "title": "RECORDAMOS AL INDIO SOLARI | #SeríaIncreíble 5/6",
-    "date": "20260605",
-    "subtema": "Lírica y poesía en la música rock",
-    "contexto": "Se logró con una pluma totalmente incisiva, con un elemento muy importante que es el misterio. El indio no escribía de una manera literal, sino que siempre tenía una manera oblicua de plantear situaciones.",
-    "intensidad": 2
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "AUtF1mhDL_g",
-    "title": "RECORDAMOS AL INDIO SOLARI | #SeríaIncreíble 5/6",
-    "date": "20260605",
-    "subtema": "Vinculación entre música y memoria personal",
-    "contexto": "El lazo que tiene con las relaciones humanas la música. Cuando escucho al indio me acuerdo de. Es como que siempre te va a ligar a una memoria, a una memoria placentera, linda.",
-    "intensidad": 2
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "Iy38_er_9xI",
-    "title": "#SEFUELARGA l FERBO MUY EXPUESTO, ¿OTRA VEZ FUERA DE UN PLAN? Y ¿EL TE AMO PERDIÓ EL SENTIDO?",
-    "date": "20260603",
-    "subtema": "música durante encuentros sexuales",
-    "contexto": "discusión sobre playlists para sexo, canciones que interrumpen momentos, 'Blue Vibes' y referencias a música irónica como 'Movimiento Naranja'",
-    "intensidad": 2
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "LzZD6sPGPu0",
-    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
-    "date": "20260608",
-    "subtema": "Autogestión e independencia en la música",
-    "contexto": "El Indio y Los Fundamentalistas del Aire Acondicionado como referentes de no transmitir en TV, no sumarse a festivales, tocar solo de noche",
-    "intensidad": 2
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "7KuEaYSYRj8",
-    "title": "ÍDOLO POPULAR: DESPEDIMOS al INDIO con USTEDES | #SoñéQueVolaba 5/6",
-    "date": "20260605",
-    "subtema": "Transmisión intergeneracional de la música",
-    "contexto": "Historias de padres que introdujeron a sus hijos en Los Redondos e El Indio, incluyendo hija de 14 años que descubrió la música",
-    "intensidad": 2
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "HxSfByGpEe0",
-    "title": "HACÉ REÍR A LA MESA y GANAS $50.000 | #TapadosDeLaburo 5/6",
-    "date": "20260605",
-    "subtema": "Música como sanadora y eterna",
-    "contexto": "Se reflexiona sobre cómo la música del Indio impacta emocionalmente y permanece para siempre a través de distintos formatos",
-    "intensidad": 2
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "_nXe8cJmDFk",
-    "title": "FESTEJAMOS EL PRE CUMPLE DE EVE | #MiPrimoEsAsí 11/6",
-    "date": "20260611",
-    "subtema": "Música electrónica independiente de Mar de Plata",
-    "contexto": "Artista Tri-A presenta su canción 'Gauchito Gil' hecha con 30 artistas de Mar de Plata, formato completamente independiente",
-    "intensidad": 2
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "YsVvw9XAMjE",
-    "title": "ABRAN LAS JULIANAS | #MiPrimoEsAsí 4/6",
-    "date": "20260604",
-    "subtema": "Fusión de audio e imagen en la música moderna",
-    "contexto": "Se reflexiona sobre cómo la digitalidad ha fusionado audio e imagen de manera natural en la creación musical contemporánea",
-    "intensidad": 2
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "yp1SuqSXmxA",
-    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
-    "date": "20260622",
-    "subtema": "Música y coreografías",
-    "contexto": "Aprenden y hacen coreografías en vivo de canciones como 'Anita' y 'Confundido', menciones de programas musicales antiguos",
-    "intensidad": 2
    }
   ],
-  "highlights_total": 52
+  "highlights_total": 1
  },
  {
   "tema": "alineación selección",
@@ -15606,7 +15501,7 @@
     "intensidad": 2
    }
   ],
-  "highlights_total": 41
+  "highlights_total": 42
  },
  {
   "tema": "messi",
@@ -15846,7 +15741,7 @@
     "intensidad": 3
    }
   ],
-  "highlights_total": 104
+  "highlights_total": 105
  },
  {
   "tema": "ejercicio y salud",
@@ -16843,6 +16738,41 @@
   "highlights_total": 3
  },
  {
+  "tema": "viajes internacional",
+  "score": 12.5,
+  "trend_score": 8.85,
+  "menciones": 2,
+  "growth_wow": 0.0,
+  "demand_ratio": 0.5,
+  "demand_signals": 1,
+  "canales": [
+   "LUZU TV"
+  ],
+  "categorias": [
+   "lugar"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "26/06/2026",
+    "n": 10.533262867819133
+   },
+   {
+    "date": "27/06/2026",
+    "n": 2.0
+   }
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null,
+  "cluster": null,
+  "variantes_relacionadas": [],
+  "highlights": [],
+  "highlights_total": 0
+ },
+ {
   "tema": "viajes regional",
   "score": 10.4,
   "trend_score": 8.85,
@@ -17605,7 +17535,7 @@
     "intensidad": 3
    }
   ],
-  "highlights_total": 56
+  "highlights_total": 57
  },
  {
   "tema": "caso jessica sirio",
@@ -17744,6 +17674,70 @@
    }
   ],
   "highlights_total": 10
+ },
+ {
+  "tema": "destinos argentina",
+  "score": 75.6,
+  "trend_score": 8.12,
+  "menciones": 11,
+  "growth_wow": 0.0,
+  "demand_ratio": 0.091,
+  "demand_signals": 1,
+  "canales": [
+   "LUZU TV",
+   "Neura Media",
+   "OLGA"
+  ],
+  "categorias": [
+   "actividad",
+   "lugar"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "19/06/2026",
+    "n": 35.686445951248686
+   },
+   {
+    "date": "23/06/2026",
+    "n": 26.15335729600193
+   },
+   {
+    "date": "24/06/2026",
+    "n": 3.0263827127527496
+   },
+   {
+    "date": "25/06/2026",
+    "n": 7.760517646245443
+   },
+   {
+    "date": "26/06/2026",
+    "n": 1.0
+   },
+   {
+    "date": "27/06/2026",
+    "n": 2.0
+   }
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null,
+  "cluster": null,
+  "variantes_relacionadas": [],
+  "highlights": [
+   {
+    "channel": "OLGA",
+    "video_id": "8lOkxIDSd4w",
+    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+    "date": "20260623",
+    "subtema": "Destinos de viaje para contenido",
+    "contexto": "Debate entre ir a España, Tokio o Caribe para hacer contenido; mencionan que España tiene público, Tokio tiene cultura y playas, pero prefieren Caribe",
+    "intensidad": 3
+   }
+  ],
+  "highlights_total": 1
  },
  {
   "tema": "maternidad",
@@ -17906,6 +17900,15 @@
     "intensidad": 2
    },
    {
+    "channel": "LUZU TV",
+    "video_id": "bBf-XfM_Q_c",
+    "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+    "date": "20260627",
+    "subtema": "Análisis de perfil e identidad de Monolizo",
+    "contexto": "Analizan fotos, tatuajes, ubicación geográfica y detalles del perfil de Monolizo en redes sociales",
+    "intensidad": 2
+   },
+   {
     "channel": "OLGA",
     "video_id": "8lOkxIDSd4w",
     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
@@ -17924,7 +17927,7 @@
     "intensidad": 1
    }
   ],
-  "highlights_total": 11
+  "highlights_total": 12
  },
  {
   "tema": "interpelación adorni",
@@ -18433,232 +18436,5 @@
    }
   ],
   "highlights_total": 3
- },
- {
-  "tema": "programas tv",
-  "score": 72.0,
-  "trend_score": 7.21,
-  "menciones": 14,
-  "growth_wow": 0.0,
-  "demand_ratio": 0.0,
-  "demand_signals": 0,
-  "canales": [
-   "LUZU TV",
-   "OLGA",
-   "Vorterix"
-  ],
-  "categorias": [
-   "actividad",
-   "cultura",
-   "lugar",
-   "otro",
-   "producto",
-   "tecnologia"
-  ],
-  "cross_comunidad": true,
-  "multi_dia": true,
-  "candidato": false,
-  "serie": [
-   {
-    "date": "23/06/2026",
-    "n": 44.434722432055615
-   },
-   {
-    "date": "24/06/2026",
-    "n": 5.110937236720364
-   },
-   {
-    "date": "26/06/2026",
-    "n": 22.487514187373925
-   }
-  ],
-  "gt_status": null,
-  "gt_lead_days": null,
-  "gt_peak": null,
-  "cluster": null,
-  "variantes_relacionadas": [],
-  "highlights": [
-   {
-    "channel": "OLGA",
-    "video_id": "J4eYe8ph_8M",
-    "title": "GASTÓN EDUL CUENTA TODO SOBRE LA SELECCIÓN EN KANSAS | #SeríaIncreíble 2/6",
-    "date": "20260602",
-    "subtema": "programas infantiles de televisión",
-    "contexto": "Recordaron y debatieron sobre shows clásicos como La Pequeña Lulú, Las Tres Mellizas, Teletubbies, Franklin la Tortuga, Caillou, Sabrina la Bruja Adolescente y Tortugas Ninjas",
-    "intensidad": 3
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "XyXIVC9Ej0s",
-    "title": "#NADIEDICENADA | ¿EL FUTBOL ES COMO UN PROGRAMA DE CHIMENTOS? Y JOAQUIN PENSÓ QUE LE IBAN A ROBAR",
-    "date": "20260609",
-    "subtema": "Series de TV - Kidding",
-    "contexto": "Serie con Jim Carrey sobre un conductor de programa infantil que enfrenta el duelo por la muerte de su hijo, dirigida por Michel Gondry",
-    "intensidad": 3
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "ao3cUV0DY6k",
-    "title": "#PATRIAYFAMILIA l FUIMOS A VER A LALI Y VOLVIÓ JULI",
-    "date": "20260608",
-    "subtema": "rol de productor/a en programas de televisión",
-    "contexto": "Se debatió sobre las cualidades de una buena productora, su disponibilidad 24/7 y capacidad de resolver problemas constantemente",
-    "intensidad": 3
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "Ovdcl6-B2kc",
-    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "date": "20260623",
-    "subtema": "Openings de series de TV",
-    "contexto": "Ranking de intros más icónicas de series (Stranger Things, Game of Thrones, The Office, Friends, Simpsons, Breaking Bad, etc.)",
-    "intensidad": 3
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "Ovdcl6-B2kc",
-    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "date": "20260623",
-    "subtema": "Ranking de series de TV",
-    "contexto": "Debate sobre el top 10 de series, posicionando Game of Thrones, Friends, How I Met Your Mother, The Office y Los Simpsons",
-    "intensidad": 3
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "XyXIVC9Ej0s",
-    "title": "#NADIEDICENADA | ¿EL FUTBOL ES COMO UN PROGRAMA DE CHIMENTOS? Y JOAQUIN PENSÓ QUE LE IBAN A ROBAR",
-    "date": "20260609",
-    "subtema": "Series de TV - The Good Place",
-    "contexto": "Recomendación de serie de comedia sobre personas que mueren y se despiertan en el paraíso, con temas de filosofía y karma",
-    "intensidad": 3
-   },
-   {
-    "channel": "Vorterix",
-    "video_id": "LjEHjrbNNgs",
-    "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-    "date": "20260626",
-    "subtema": "Despidos y reestructuración en canal de TV",
-    "contexto": "Se echaron personas que trabajaban desde hace años, mandaron guardias de seguridad, fue violento y repentino",
-    "intensidad": 3
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "J4eYe8ph_8M",
-    "title": "GASTÓN EDUL CUENTA TODO SOBRE LA SELECCIÓN EN KANSAS | #SeríaIncreíble 2/6",
-    "date": "20260602",
-    "subtema": "Proyecto de serie de TV con cast del programa",
-    "contexto": "Propusieron hacer una serie propia con los participantes del programa, buscando escritora como Caro Aguirre",
-    "intensidad": 3
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "R41W9i_YWio",
-    "title": "#PATRIAYFAMILIA l ¿CÓMO ESTÁ EL CORAZÓN DE ALBERE? Y SU RELACIÓN CON LA JOAQUI",
-    "date": "20260603",
-    "subtema": "Preparación y producción de programas televisivos",
-    "contexto": "Explicación del trabajo detrás de escenas, reuniones de 20 minutos, maquilladores, coordinación de horarios",
-    "intensidad": 3
-   },
-   {
-    "channel": "Vorterix",
-    "video_id": "LjEHjrbNNgs",
-    "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-    "date": "20260626",
-    "subtema": "Programas de TV años 2000",
-    "contexto": "Se discuten sketches de 'Mandá a producción' y 'Los Simuladores' de 2002",
-    "intensidad": 3
-   },
-   {
-    "channel": "Vorterix",
-    "video_id": "LjEHjrbNNgs",
-    "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-    "date": "20260626",
-    "subtema": "Juego de trivia TV clásica",
-    "contexto": "Conductores juegan a identificar sketches y episodios de series",
-    "intensidad": 3
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "GC_Ahymb8Uw",
-    "title": "#ANTESQUENADIE | ¿LLORA JAMAICA? + VIERNES DE ABUELOS E INDIGNACIÓN PORQUE LOS JÓVENES NO CHAPAN",
-    "date": "20260605",
-    "subtema": "Besos en ficciones y series de TV",
-    "contexto": "Comparación entre cómo se filman besos en series como 'Off Campus' y 'Elite', con coaches de intimidad que regulan el uso de lengua",
-    "intensidad": 2
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "GC_Ahymb8Uw",
-    "title": "#ANTESQUENADIE | ¿LLORA JAMAICA? + VIERNES DE ABUELOS E INDIGNACIÓN PORQUE LOS JÓVENES NO CHAPAN",
-    "date": "20260605",
-    "subtema": "Series juveniles argentinas de TV (Casi ángeles, Patito Feo, Chiquititas)",
-    "contexto": "Análisis de cómo los besos en las telenovelas influyeron en la generación y comparación con contenido actual en plataformas",
-    "intensidad": 2
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "IZNfx1Rc9go",
-    "title": "EL EXTRAÑO CASO TIM PAYNE: DE DESCONOCIDO A FIGURA | #TapadosDeLaburo 29/5",
-    "date": "20260529",
-    "subtema": "Programas de radio/streaming matutinos",
-    "contexto": "Toto comenta que hace un programa a la mañana y que le cuesta levantarse a las 6:45, describe el sufrimiento de madrugar",
-    "intensidad": 2
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "date": "20260623",
-    "subtema": "Pia Show - Programa de TV",
-    "contexto": "Se presenta el programa y se menciona la historia del set, incluyendo un almohadón que ha estado guardado más de 10 años",
-    "intensidad": 2
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "d2xRtbOTSQQ",
-    "title": "UNA BRUJA y ANDI SEMENTI ADIVINAN el FUTURO | #SoñéQueVolaba 2/6",
-    "date": "20260602",
-    "subtema": "Conducción de programas de TV",
-    "contexto": "Se mencionó que el Gordo Fútbol condujo el programa en ausencia de otra persona, comparándolo con otros conductores",
-    "intensidad": 2
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "OYdkMTk3Xds",
-    "title": "EXPERTOS ANALIZAN EL LENGUAJE NO VERBAL DE NAHIR GALARZA | #SeríaIncreíble 10/6",
-    "date": "20260610",
-    "subtema": "Programa de TV Infama",
-    "contexto": "Discusión sobre momentos icónicos del programa Infama, su importancia en la televisión argentina y legado cultural",
-    "intensidad": 2
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "OYdkMTk3Xds",
-    "title": "EXPERTOS ANALIZAN EL LENGUAJE NO VERBAL DE NAHIR GALARZA | #SeríaIncreíble 10/6",
-    "date": "20260610",
-    "subtema": "Dinámicas de atención en programas de TV",
-    "contexto": "Se analiza cómo los invitados compiten por atención, referenciando sketch de Jorge Porcel Jr. en programa de Monty",
-    "intensidad": 2
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "DOYPp2Pqjvg",
-    "title": "CINE Y FÚTBOL con ARIEL STALTARI | #LaGambeta 1/6",
-    "date": "20260601",
-    "subtema": "Programas de televisión codificada",
-    "contexto": "Anécdotas sobre ver canales de adultos codificados en la infancia, comparación con la calidad del programa actual",
-    "intensidad": 2
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "bX7MB2_OI2I",
-    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-    "date": "20260623",
-    "subtema": "Marionetas y títeres en TV",
-    "contexto": "Discusión sobre la efectividad de usar muñecos/personajes en programas de televisión con audiencias adultas",
-    "intensidad": 2
-   }
-  ],
-  "highlights_total": 35
  }
 ]

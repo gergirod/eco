@@ -1,0 +1,6776 @@
+{
+ "by_video": {
+  "2E9MjxyDU9o": {
+   "video_id": "2E9MjxyDU9o",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "#LOSDELFONDO | SORTEAMOS LA CAMISETA DEL PURRETE 10, EL BÓXER DEL MITO NO DA MÁS, ANGELITA LA ROMPIÓ",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 6
+    },
+    {
+     "tema": "Expresión De Afecto Y Emociones",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño De Messi En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Fixture Argentina Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Sorteo De Camiseta Del Burrete 10",
+     "score": 3
+    },
+    {
+     "tema": "El Pollo Sobresaliente En Vivo",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol - Inglaterra Vs Escocia",
+     "score": 3
+    },
+    {
+     "tema": "Sorteo De Camiseta Del Purrete",
+     "score": 3
+    },
+    {
+     "tema": "Ausencia Y Reencuentro En El Programa",
+     "score": 2
+    },
+    {
+     "tema": "Partido De Argentina",
+     "score": 2
+    },
+    {
+     "tema": "Diferencias Generacionales",
+     "score": 2
+    },
+    {
+     "tema": "Récords Históricos De Goles En Mundiales",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 57
+    },
+    {
+     "categoria": "cultura",
+     "score": 16
+    },
+    {
+     "categoria": "otro",
+     "score": 10
+    },
+    {
+     "categoria": "persona",
+     "score": 6
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 5
+    },
+    {
+     "categoria": "producto",
+     "score": 4
+    },
+    {
+     "categoria": "lugar",
+     "score": 3
+    },
+    {
+     "categoria": "salud",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Ausencia Y Reencuentro En El Programa",
+     "categoria": "actividad",
+     "contexto": "El Purre estuvo ausente viajando a París y mandaba contenido desde allá, ahora regresa al programa",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Expresión De Afecto Y Emociones",
+     "categoria": "cultura",
+     "contexto": "Debate sobre demostrar sentimientos, cambio generacional en cómo expresar cariño entre amigos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Partido De Argentina",
+     "categoria": "actividad",
+     "contexto": "Se menciona el partido de Argentina de ayer, con tensión en el penal",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Viaje A París",
+     "categoria": "lugar",
+     "contexto": "El Purre viajó a París después del partido del USU, mandó contenido desde la Torre Eiffel",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Diferencias Generacionales",
+     "categoria": "cultura",
+     "contexto": "Conductor de 53 años vs Purre de 29, cambios en la sociedad respecto a expresar emociones",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Desempeño De Messi En El Mundial",
+     "categoria": "actividad",
+     "contexto": "Se discuten los récords rotos por Messi en el partido contra Austria, su recuperación psicológica después de errar un penal",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Récords Históricos De Goles En Mundiales",
+     "categoria": "otro",
+     "contexto": "Se menciona el récord de Fontaine con 13 goles en un solo Mundial y la posibilidad de que Messi lo supere",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Capacidad Física Y Futuro De Messi",
+     "categoria": "salud",
+     "contexto": "Debate sobre si Messi puede jugar uno o dos mundiales más a los 39 años",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "2sxqtU8XXTQ": {
+   "video_id": "2sxqtU8XXTQ",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "CLASES DE MODELAJE CON PAULA CHAVES | #TapadosDeLaburo 23/6",
+   "show_id": "tapados",
+   "show_name": "Tapados de Laburo",
+   "top_temas": [
+    {
+     "tema": "Cansancio De La Vida Adulta",
+     "score": 3
+    },
+    {
+     "tema": "Dinámicas Entre Hermanos",
+     "score": 3
+    },
+    {
+     "tema": "Tatuajes",
+     "score": 3
+    },
+    {
+     "tema": "Tatuajes Y Modificaciones Corporales",
+     "score": 3
+    },
+    {
+     "tema": "Mate Y Cultura Del Mate",
+     "score": 3
+    },
+    {
+     "tema": "Fotografia Y Posing",
+     "score": 3
+    },
+    {
+     "tema": "Pantalón De Peluchito",
+     "score": 3
+    },
+    {
+     "tema": "Ghosting Y Ruptura Amorosa",
+     "score": 3
+    },
+    {
+     "tema": "Relación Triangular Con Denise",
+     "score": 3
+    },
+    {
+     "tema": "Relación Lisandro-emilia",
+     "score": 3
+    },
+    {
+     "tema": "Ghosting Y Relaciones De Amigos",
+     "score": 3
+    },
+    {
+     "tema": "Triángulo Amoroso En Grupo De Amigos",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 40
+    },
+    {
+     "categoria": "cultura",
+     "score": 35
+    },
+    {
+     "categoria": "otro",
+     "score": 11
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 9
+    },
+    {
+     "categoria": "salud",
+     "score": 6
+    },
+    {
+     "categoria": "persona",
+     "score": 6
+    },
+    {
+     "categoria": "comida",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Traslados Y Tráfico En Amba",
+     "categoria": "actividad",
+     "contexto": "Charla sobre viajes largos en transporte público y auto desde zona norte, tráfico en 9 de Julio, experiencias de demoras",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Relaciones A Distancia",
+     "categoria": "cultura",
+     "contexto": "Anécdota de un amigo con novia en Bernal desde San Isidro, 5 años de relación usando bondi y tren",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Independiente (fútbol)",
+     "categoria": "cultura",
+     "contexto": "Menciona que alguien es hincha del rojo, Independiente, con tono de broma sobre la identidad del club",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cansancio De La Vida Adulta",
+     "categoria": "salud",
+     "contexto": "Conductor expresa estar harto de responsabilidades adultas, menciona desbordes emocionales de hijos y falta de energía para sostener",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Protestas Y Manifestaciones (8m)",
+     "categoria": "cultura",
+     "contexto": "Anécdota sobre quedar atrapado 6 horas en marcha del 8M, imposibilidad de moverse",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Presentación De Lauti Desde Inglaterra",
+     "categoria": "persona",
+     "contexto": "Presenta a nuevo invitado que viajó desde Avellaneda-Quilmes, tardó 50 minutos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Dinámicas Entre Hermanos",
+     "categoria": "cultura",
+     "contexto": "Discusión sobre cómo ser hijo mayor, menor o único afecta la personalidad y crianza",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Tatuajes",
+     "categoria": "cultura",
+     "contexto": "Extenso debate sobre diseños, significados, arrepentimientos y técnicas de tatuajes",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "3QJmfDvuxIk": {
+   "video_id": "3QJmfDvuxIk",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
+   "show_id": "tapados",
+   "show_name": "Tapados de Laburo",
+   "top_temas": [
+    {
+     "tema": "Limpieza Energética Con Huevo",
+     "score": 6
+    },
+    {
+     "tema": "Auto Remolcado Por Estacionamiento Indebido",
+     "score": 3
+    },
+    {
+     "tema": "Limpieza Espiritual Con Huevo",
+     "score": 3
+    },
+    {
+     "tema": "Limpieza Energética Con Pepino",
+     "score": 3
+    },
+    {
+     "tema": "Terremoto En Venezuela",
+     "score": 3
+    },
+    {
+     "tema": "Concurso De Fans De Paula Chávez",
+     "score": 3
+    },
+    {
+     "tema": "Juego Versus/trivia",
+     "score": 3
+    },
+    {
+     "tema": "Autoestima Y Deporte En Niñas",
+     "score": 3
+    },
+    {
+     "tema": "Presión Estética En Deportistas Mujeres",
+     "score": 3
+    },
+    {
+     "tema": "Discriminación Por Cuerpo En Equipos Escolares",
+     "score": 3
+    },
+    {
+     "tema": "Manicura Acrílica",
+     "score": 2
+    },
+    {
+     "tema": "Trabajo De Repartición De Condimentos",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 40
+    },
+    {
+     "categoria": "actividad",
+     "score": 27
+    },
+    {
+     "categoria": "salud",
+     "score": 22
+    },
+    {
+     "categoria": "otro",
+     "score": 6
+    },
+    {
+     "categoria": "persona",
+     "score": 5
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 5
+    },
+    {
+     "categoria": "producto",
+     "score": 3
+    },
+    {
+     "categoria": "lugar",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Manicura Acrílica",
+     "categoria": "actividad",
+     "contexto": "Valen se hizo las uñas acrílicas, inspirado en Selemosca",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Trabajo De Repartición De Condimentos",
+     "categoria": "actividad",
+     "contexto": "Paula, Pedro y Valen van a repartir orégano y condimentos por barrios porteños de Buenos Aires de 11 a 19hs",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ausencia De Mika Suárez",
+     "categoria": "persona",
+     "contexto": "Mika Suárez se siente mal y no asiste al programa de viernes, pero viene el lunes",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Partido De Uruguay Vs España",
+     "categoria": "actividad",
+     "contexto": "Se menciona que hoy juega Uruguay contra España, es un partido importante para el Mundial",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Encuentro Con Santi Talledo",
+     "categoria": "persona",
+     "contexto": "Valen va a comer con Santi Talledo en lugar de ver el partido de Uruguay",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Partido Francia Vs Noruega-haaland Vs Mbappé",
+     "categoria": "actividad",
+     "contexto": "Menciona un partido a las 4 de la tarde entre Francia y Noruega, con Haaland vs Mbappé",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ecuador Derrota A Alemania",
+     "categoria": "actividad",
+     "contexto": "Se comenta que Ecuador le ganó a Alemania en el Mundial",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Nostalgia Por Zap Y Televisión Antigua",
+     "categoria": "cultura",
+     "contexto": "Se recuerdan programas como Zap conducido por Polino, y se menciona a Fabián Jules cantando 'Chica latina'",
+     "minute": "0:00"
+    }
+   ]
+  },
+  "3t9P2KFJ4K0": {
+   "video_id": "3t9P2KFJ4K0",
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+   "show_id": "no-rusia",
+   "show_name": "No Preguntes por Rusia",
+   "top_temas": [
+    {
+     "tema": "Conjuntivitis Y Salud Ocular",
+     "score": 3
+    },
+    {
+     "tema": "Crisis En Venezuela",
+     "score": 3
+    },
+    {
+     "tema": "Ayuda Internacional A Venezuela",
+     "score": 3
+    },
+    {
+     "tema": "Terremoto En Venezuela",
+     "score": 3
+    },
+    {
+     "tema": "Ley De Financiamiento Universitario",
+     "score": 3
+    },
+    {
+     "tema": "Financiamiento Universitario Y Sentencia De La Corte",
+     "score": 3
+    },
+    {
+     "tema": "Club Kids De Nueva York",
+     "score": 3
+    },
+    {
+     "tema": "Trasplante De Riñones En Gemelas",
+     "score": 3
+    },
+    {
+     "tema": "Transmisión Radial Y Plataformas",
+     "score": 2
+    },
+    {
+     "tema": "Contacto Con Audiencia",
+     "score": 2
+    },
+    {
+     "tema": "Problemas Oculares Y Lentes De Contacto",
+     "score": 2
+    },
+    {
+     "tema": "Barcelona Y Vida En Europa",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "tecnologia",
+     "score": 19
+    },
+    {
+     "categoria": "otro",
+     "score": 18
+    },
+    {
+     "categoria": "salud",
+     "score": 14
+    },
+    {
+     "categoria": "actividad",
+     "score": 14
+    },
+    {
+     "categoria": "lugar",
+     "score": 9
+    },
+    {
+     "categoria": "cultura",
+     "score": 9
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Transmisión Radial Y Plataformas",
+     "categoria": "tecnologia",
+     "contexto": "Mencionan que transmiten por 92.1 FM, YouTube y acuerdos con la plataforma",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Conjuntivitis Y Salud Ocular",
+     "categoria": "salud",
+     "contexto": "Extenso debate sobre síntomas de conjuntivitis en un ojo, tratamientos y consulta con especialista",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Clima De Argentina",
+     "categoria": "lugar",
+     "contexto": "Mencionan temperatura de 13,5 grados en Buenos Aires y bellezas naturales del país",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Contacto Con Audiencia",
+     "categoria": "actividad",
+     "contexto": "Invitan a la audiencia a mandar WhatsApp y mensajes, prometen leerlos en el programa",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Problemas Oculares Y Lentes De Contacto",
+     "categoria": "salud",
+     "contexto": "Discusión sobre irritación ocular, lesiones por lentes de contacto y melanoma ocular",
+     "minute": "0:30"
+    },
+    {
+     "tema": "Barcelona Y Vida En Europa",
+     "categoria": "lugar",
+     "contexto": "Entrevista a Cristian que vive en Barcelona, visita a Plaza del Rey cerca de la Catedral",
+     "minute": "0:30"
+    },
+    {
+     "tema": "Experiencia Laboral Como Profesor De Educación Física",
+     "categoria": "actividad",
+     "contexto": "Cristian trabaja dando clases en un gimnasio en Barcelona",
+     "minute": "0:30"
+    },
+    {
+     "tema": "Migración Y Ciudadanía Italiana",
+     "categoria": "otro",
+     "contexto": "Cristian obtuvo ciudadanía italiana tras vivir en Italia",
+     "minute": "0:30"
+    }
+   ]
+  },
+  "7ON4ZA5TtHc": {
+   "video_id": "7ON4ZA5TtHc",
+   "channel_id": "neura",
+   "channel": "Neura Media",
+   "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Candidatura Presidencial 2027",
+     "score": 3
+    },
+    {
+     "tema": "Inflación Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Sistema Impositivo Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Salarios En El Senado",
+     "score": 3
+    },
+    {
+     "tema": "Tasas De Interés Y Política Monetaria De La Fed",
+     "score": 3
+    },
+    {
+     "tema": "Riesgo País De Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Financiamiento Del Gobierno Argentino",
+     "score": 3
+    },
+    {
+     "tema": "Inflación Y Poder Adquisitivo",
+     "score": 3
+    },
+    {
+     "tema": "Política Monetaria Y Crédito",
+     "score": 3
+    },
+    {
+     "tema": "Elecciones 2027 E Incertidumbre Electoral",
+     "score": 3
+    },
+    {
+     "tema": "Vacaciones De Malena",
+     "score": 2
+    },
+    {
+     "tema": "Juego De Mesa Remar En Dulce De Leche",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "economia",
+     "score": 30
+    },
+    {
+     "categoria": "politica",
+     "score": 12
+    },
+    {
+     "categoria": "cultura",
+     "score": 10
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 9
+    },
+    {
+     "categoria": "actividad",
+     "score": 3
+    },
+    {
+     "categoria": "otro",
+     "score": 2
+    },
+    {
+     "categoria": "producto",
+     "score": 2
+    },
+    {
+     "categoria": "lugar",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Vacaciones De Malena",
+     "categoria": "actividad",
+     "contexto": "Malena anuncia que se toma vacaciones la semana siguiente y se irá del programa por varios días",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Política Argentina - Adorni",
+     "categoria": "cultura",
+     "contexto": "El chat menciona información sobre Adorni y posibles cambios en el gobierno",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Seguridad Pública",
+     "categoria": "otro",
+     "contexto": "Mención en chat sobre robos en Punta Alta tras visita de Kicillof",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Economía Y Rigi",
+     "categoria": "cultura",
+     "contexto": "Referencia en chat sobre aprobación de RIGI y críticas sobre corrupción",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Fútbol - Copa Del Mundo",
+     "categoria": "actividad",
+     "contexto": "Chat comenta sobre partidos de Francia, Senegal, Ghana y Noruega",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Dinámica De Amistad Y Límites",
+     "categoria": "otro",
+     "contexto": "Discusión sobre si atender o no llamadas de una amiga, establecer límites",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Juego De Mesa Remar En Dulce De Leche",
+     "categoria": "producto",
+     "contexto": "Presentación de un juego de mesa argentino que simula la vida en Argentina con crisis, inflación, impuestos",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Agenda Presidencial Y Viajes",
+     "categoria": "politica",
+     "contexto": "Cambios en los viajes del presidente por partidos de la selección argentina",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "7Oo5Hf7f14M": {
+   "video_id": "7Oo5Hf7f14M",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+   "show_id": "sfl",
+   "show_name": "Se Fue Larga",
+   "top_temas": [
+    {
+     "tema": "Ático Misterioso",
+     "score": 3
+    },
+    {
+     "tema": "Desafío En El Ático",
+     "score": 3
+    },
+    {
+     "tema": "Promoción Mercado Libre Fechas Dobles",
+     "score": 3
+    },
+    {
+     "tema": "Juego De La Copa (ouija)",
+     "score": 3
+    },
+    {
+     "tema": "Animales E Insectos",
+     "score": 3
+    },
+    {
+     "tema": "Fobias Específicas",
+     "score": 3
+    },
+    {
+     "tema": "Extraterrestres Y Vida Alienígena",
+     "score": 3
+    },
+    {
+     "tema": "Infancia Traumática Con Fuego",
+     "score": 3
+    },
+    {
+     "tema": "Ranking De Nostalgia Retro",
+     "score": 3
+    },
+    {
+     "tema": "Blackberry",
+     "score": 3
+    },
+    {
+     "tema": "Blockbuster",
+     "score": 3
+    },
+    {
+     "tema": "Cartoon Network - Series Clásicas",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 34
+    },
+    {
+     "categoria": "actividad",
+     "score": 26
+    },
+    {
+     "categoria": "otro",
+     "score": 18
+    },
+    {
+     "categoria": "salud",
+     "score": 18
+    },
+    {
+     "categoria": "lugar",
+     "score": 15
+    },
+    {
+     "categoria": "comida",
+     "score": 13
+    },
+    {
+     "categoria": "producto",
+     "score": 13
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 10
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Cumpleaños Y Relaciones Personales",
+     "categoria": "otro",
+     "contexto": "Se menciona que dos ex parejas (el facho y el bailarín) cumplen años el 24 de noviembre",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Asado/bbq",
+     "categoria": "comida",
+     "contexto": "Están preparando ribs de barbecue con sal gruesa y papas, mostrando el proceso en vivo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Macanchís",
+     "categoria": "comida",
+     "contexto": "Se menciona el consumo de macanchís, dice que pidió de un lugar y que son muy americanos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Contenido De Viaje/familia",
+     "categoria": "otro",
+     "contexto": "Están en una casa con la familia, mostrando el lugar y actividades cotidianas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Programa Televisivo Con Invitado",
+     "categoria": "otro",
+     "contexto": "Mencionan que viene Santi Talledo al programa, referencia a chileístas y argentinos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "House Tour Y Pileta",
+     "categoria": "lugar",
+     "contexto": "Invitan a ver la pileta y hacer un house tour de la casa",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Carne En Barra (biff)",
+     "categoria": "comida",
+     "contexto": "Muestran y prueban un producto de carne en barra de un youtuber, debaten si es carne real o gomita",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Otakus",
+     "categoria": "cultura",
+     "contexto": "Bromean sobre que uno de los conductores es otaku, mencionan llantos y comportamientos otaku",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "8lOkxIDSd4w": {
+   "video_id": "8lOkxIDSd4w",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Naturaleza Humana: Bondad Vs Maldad",
+     "score": 6
+    },
+    {
+     "tema": "Mundialito De Ciudades",
+     "score": 6
+    },
+    {
+     "tema": "Billy Elliot - Musical",
+     "score": 5
+    },
+    {
+     "tema": "Envidia Y Resentimiento Social",
+     "score": 3
+    },
+    {
+     "tema": "Cambio Social Y Revolución",
+     "score": 3
+    },
+    {
+     "tema": "Bondad Vs Maldad En El Mundo",
+     "score": 3
+    },
+    {
+     "tema": "Predicción De Invasión Alienígena En Partido Brasil-escocia",
+     "score": 3
+    },
+    {
+     "tema": "Rituales Y Brujería En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Selección De Curaçao - Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Cultura Y Vibra Caribeña",
+     "score": 3
+    },
+    {
+     "tema": "Destinos De Viaje Para Contenido",
+     "score": 3
+    },
+    {
+     "tema": "Curaçao Como Destino De Viaje",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 78
+    },
+    {
+     "categoria": "actividad",
+     "score": 45
+    },
+    {
+     "categoria": "lugar",
+     "score": 34
+    },
+    {
+     "categoria": "persona",
+     "score": 8
+    },
+    {
+     "categoria": "producto",
+     "score": 7
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 5
+    },
+    {
+     "categoria": "comida",
+     "score": 4
+    },
+    {
+     "categoria": "salud",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Naturaleza Humana: Bondad Vs Maldad",
+     "categoria": "cultura",
+     "contexto": "Debate central del programa sobre si el mundo es fundamentalmente bueno o malo, con argumentos sobre resentimiento, solidaridad y empatía",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Redes Sociales Y Hate Speech",
+     "categoria": "tecnologia",
+     "contexto": "Mención de liberación de puertas del hate, racismo y xenofobia en redes, particularmente en comentarios sobre eventos deportivos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Desigualdad Económica",
+     "categoria": "cultura",
+     "contexto": "Referencia a que los ricos son cada vez más ricos y los pobres más pobres, sin que nadie parezca preocuparse",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Música Como Conexión Humana",
+     "categoria": "cultura",
+     "contexto": "Mención de música (Gilda, Mona Jiménez) como forma de conexión emocional y solidaridad entre personas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Café Vs Drogas Ilegales",
+     "categoria": "comida",
+     "contexto": "Debate sobre una marca de café que supuestamente dejó de hacer su producto para vender sustancias ilegales",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Biblia Y Pecado Original",
+     "categoria": "cultura",
+     "contexto": "Referencia al Génesis y la desobediencia de Adán como primer acto de maldad en la humanidad",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Campeonato Mundial Deportivo",
+     "categoria": "actividad",
+     "contexto": "Mención de un mundial con celebración pero también racismo en los comentarios de redes sociales",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Naturaleza Humana: Bondad Vs Maldad",
+     "categoria": "cultura",
+     "contexto": "Debate sobre si el mundo es fundamentalmente malo o si hay cosas buenas que lo sostienen",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "95yJuQx7ol8": {
+   "video_id": "95yJuQx7ol8",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+   "show_id": "gol-gana",
+   "show_name": "Gol Gana",
+   "top_temas": [
+    {
+     "tema": "Análisis Partido Argentina Vs Austria",
+     "score": 3
+    },
+    {
+     "tema": "Rendimiento De Messi",
+     "score": 3
+    },
+    {
+     "tema": "Récords Goleadores De Messi En Copas Del Mundo",
+     "score": 3
+    },
+    {
+     "tema": "Comparación Messi Vs Mbappé",
+     "score": 3
+    },
+    {
+     "tema": "Habilidad Excepcional De Messi",
+     "score": 3
+    },
+    {
+     "tema": "Partidos De Messi En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Messi",
+     "score": 3
+    },
+    {
+     "tema": "Relaciones Familiares Y Emocionales",
+     "score": 3
+    },
+    {
+     "tema": "Estrategia De Rotación De Messi",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño De La Selección Argentina En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Messi Y Su Aporte Al Equipo",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 52
+    },
+    {
+     "categoria": "persona",
+     "score": 27
+    },
+    {
+     "categoria": "deporte",
+     "score": 15
+    },
+    {
+     "categoria": "lugar",
+     "score": 14
+    },
+    {
+     "categoria": "cultura",
+     "score": 13
+    },
+    {
+     "categoria": "otro",
+     "score": 6
+    },
+    {
+     "categoria": "comida",
+     "score": 1
+    },
+    {
+     "categoria": "producto",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Análisis Partido Argentina Vs Austria",
+     "categoria": "actividad",
+     "contexto": "Debate detallado sobre el desempeño de Argentina en el partido, dificultades enfrentadas y estrategia",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Rendimiento De Messi",
+     "categoria": "persona",
+     "contexto": "Discusión sobre el rol diferencial de Messi, sus goles consecutivos en el Mundial y su impacto emocional en el equipo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Desempeño De Jugadores Individuales",
+     "categoria": "actividad",
+     "contexto": "Análisis de Enzo, Julián Álvarez, Lautaro, Molina, De Paul, Montiel, Gualmada y otros jugadores",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Penal Errado De Messi",
+     "categoria": "actividad",
+     "contexto": "Debate sobre el impacto emocional y deportivo del penal fallado por Messi en el partido",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Estrategia Defensiva De Austria",
+     "categoria": "actividad",
+     "contexto": "Análisis de cómo Austria se plantó defensivamente, su juego físico vs técnico de Argentina",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Identidad De Juego Bajo Scaloni",
+     "categoria": "actividad",
+     "contexto": "Mención del rol de Scaloni en dar identidad al equipo y adaptación táctica según presencia de Messi",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Récords Goleadores De Messi En Copas Del Mundo",
+     "categoria": "deporte",
+     "contexto": "Messi superó a Pelé con 18 goles en Copas del Mundo en su tercer mundial",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Comparación Messi Vs Mbappé",
+     "categoria": "deporte",
+     "contexto": "Análisis de cuántos mundiales le quedan a Mbappé para alcanzar a Messi",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "9ucd7zkq6P8": {
+   "video_id": "9ucd7zkq6P8",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+   "show_id": "gol-gana",
+   "show_name": "Gol Gana",
+   "top_temas": [
+    {
+     "tema": "Banderazo En Dallas",
+     "score": 4
+    },
+    {
+     "tema": "Lesión De Codo Y Recuperación Post Operatoria",
+     "score": 3
+    },
+    {
+     "tema": "Final De Carrera En El Tenis Profesional",
+     "score": 3
+    },
+    {
+     "tema": "Lesiones Y Retiro Del Tenis",
+     "score": 3
+    },
+    {
+     "tema": "Ranking Atp Y Presión Competitiva",
+     "score": 3
+    },
+    {
+     "tema": "Mentalidad Y Psicología Deportiva",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol Argentino - Mundiales Y Eliminatorias",
+     "score": 3
+    },
+    {
+     "tema": "Tenistas Profesionales Y Comparaciones",
+     "score": 3
+    },
+    {
+     "tema": "Formato De Torneos De Tenis",
+     "score": 3
+    },
+    {
+     "tema": "Entradas Para Miami (partido)",
+     "score": 3
+    },
+    {
+     "tema": "Mundial Qatar 2022 - Acceso A Entradas",
+     "score": 3
+    },
+    {
+     "tema": "Viajes Sin Entrada Al Mundial",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 90
+    },
+    {
+     "categoria": "cultura",
+     "score": 23
+    },
+    {
+     "categoria": "persona",
+     "score": 11
+    },
+    {
+     "categoria": "salud",
+     "score": 10
+    },
+    {
+     "categoria": "otro",
+     "score": 7
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 6
+    },
+    {
+     "categoria": "lugar",
+     "score": 6
+    },
+    {
+     "categoria": "comida",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Viaje De Fede Coria Por Torneos Internacionales",
+     "categoria": "actividad",
+     "contexto": "Fede comenta que estuvo en Wimbledon, viaja a Alemania y Bélgica para seguir torneos de tenis",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Lesión De Codo Y Recuperación Post Operatoria",
+     "categoria": "salud",
+     "contexto": "Fede sufrió una operación de codo (codo de golfista) en febrero/agosto y está intentando volver a jugar",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Wifi En Vuelos Para Ver Partidos",
+     "categoria": "tecnologia",
+     "contexto": "Se debate sobre contratar WiFi en aviones (35 dólares) para ver partidos de fútbol durante los viajes",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Selección Argentina En Copa América",
+     "categoria": "actividad",
+     "contexto": "Se menciona que Fede vio partidos de Argentina vs Argelia, Austria y Jordania en diferentes lugares",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Final De Carrera En El Tenis Profesional",
+     "categoria": "actividad",
+     "contexto": "Fede reflexiona sobre el final de su carrera a los 34 años y cómo transita este momento con lesiones acumuladas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Paternidad Próxima",
+     "categoria": "otro",
+     "contexto": "Fede menciona que va a ser padre en un mes y que es una emoción fuerte junto a todo lo demás",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ranking Protegido En Tenis",
+     "categoria": "actividad",
+     "contexto": "Se explica el sistema de ranking protegido que permite jugar 9 torneos para recuperar posición tras lesión",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Lesiones Y Retiro Del Tenis",
+     "categoria": "salud",
+     "contexto": "Discusión sobre osteocondritis en tobillo, lesiones musculares y cómo aceleraron la decisión de retiro",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "A_ww0XRZnps": {
+   "video_id": "A_ww0XRZnps",
+   "channel_id": "blend",
+   "channel": "BLENDER",
+   "title": "¿NOS INVADEN O QUÉ?, ODIADOS CON EL ALGORITMO y  LA CRISIS DE LA COLO  | ÚLTIMO AVISO | BLENDER",
+   "show_id": "ultimo-aviso",
+   "show_name": "Último Aviso",
+   "top_temas": [
+    {
+     "tema": "Partido De Fútbol Brasil",
+     "score": 3
+    },
+    {
+     "tema": "Anécdotas Escolares Y Educación",
+     "score": 3
+    },
+    {
+     "tema": "Composición Musical Y Proceso Creativo",
+     "score": 3
+    },
+    {
+     "tema": "Influencias Artísticas",
+     "score": 3
+    },
+    {
+     "tema": "Composición Y Armonía Musical",
+     "score": 3
+    },
+    {
+     "tema": "Covers Y Homenajes A Rock Nacional",
+     "score": 3
+    },
+    {
+     "tema": "Crisis De Saturno (astrología)",
+     "score": 3
+    },
+    {
+     "tema": "Artistas En Crisis De Saturno",
+     "score": 3
+    },
+    {
+     "tema": "Problemas Técnicos De Transmisión",
+     "score": 2
+    },
+    {
+     "tema": "Partido Brasil Vs Escocia",
+     "score": 2
+    },
+    {
+     "tema": "Significado De 'blessed' En Redes Sociales",
+     "score": 2
+    },
+    {
+     "tema": "Experiencia Médica Y Medicación",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 29
+    },
+    {
+     "categoria": "actividad",
+     "score": 26
+    },
+    {
+     "categoria": "persona",
+     "score": 14
+    },
+    {
+     "categoria": "salud",
+     "score": 6
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 5
+    },
+    {
+     "categoria": "lugar",
+     "score": 4
+    },
+    {
+     "categoria": "otro",
+     "score": 3
+    },
+    {
+     "categoria": "producto",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Problemas Técnicos De Transmisión",
+     "categoria": "tecnologia",
+     "contexto": "No tiene luz, están usando toda la luz de la cuadra, problemas con el link del stream",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Partido Brasil Vs Escocia",
+     "categoria": "actividad",
+     "contexto": "Comentan el partido en vivo, gol de Brasil a los 7 minutos con Vinicius",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Significado De 'blessed' En Redes Sociales",
+     "categoria": "cultura",
+     "contexto": "Discuten cómo cambió el uso de 'blessed' en Twitter, antes era para personas fallecidas, ahora lo usan traperos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Historias Sobre Higiene Personal",
+     "categoria": "otro",
+     "contexto": "Anécdotas sobre rastas, mochilas sucias, viajes y problemas digestivos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Experiencia Médica Y Medicación",
+     "categoria": "salud",
+     "contexto": "Historia sobre procedimiento ginecológico, opioides y problemas intestinales crónicos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Aliens Y Profecías",
+     "categoria": "otro",
+     "contexto": "Broma recurrente sobre aliens invadiendo durante el partido de Brasil-Escocia",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Anécdota De Emergencia Sanitaria",
+     "categoria": "salud",
+     "contexto": "Relato sobre necesidad urgente de ir al baño en lugar público mientras estaba bajo efectos de drogas",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Partido De Fútbol Brasil",
+     "categoria": "actividad",
+     "contexto": "Transmisión en vivo de partido de Brasil, análisis de jugadores como Neymar y Vinicius",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "C6BZb4k8gF0": {
+   "video_id": "C6BZb4k8gF0",
+   "channel_id": "blend",
+   "channel": "BLENDER",
+   "title": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
+   "show_id": "que-dia",
+   "show_name": "Qué Día",
+   "top_temas": [
+    {
+     "tema": "Cumpleaños De Messi",
+     "score": 8
+    },
+    {
+     "tema": "Precios De Entradas Al Mundial",
+     "score": 5
+    },
+    {
+     "tema": "Causa Propofol - Procesamiento De Boveri Y Lanusse",
+     "score": 3
+    },
+    {
+     "tema": "Líderes Y Personalidad De Messi",
+     "score": 3
+    },
+    {
+     "tema": "Boicot Al Fútbol Por Cuestiones Políticas Y Derechos Humanos",
+     "score": 3
+    },
+    {
+     "tema": "Comercialización Y Corrupción En La Fifa",
+     "score": 3
+    },
+    {
+     "tema": "Rol Político De Futbolistas",
+     "score": 3
+    },
+    {
+     "tema": "Censura Y Disciplinamiento Mediático",
+     "score": 3
+    },
+    {
+     "tema": "Nacionalismo Vs Globalización",
+     "score": 3
+    },
+    {
+     "tema": "Política Económica Y Aranceles",
+     "score": 3
+    },
+    {
+     "tema": "Peronismo Y Doctrina Política",
+     "score": 3
+    },
+    {
+     "tema": "Alberto Fernández Y Gestión Fallida",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 41
+    },
+    {
+     "categoria": "persona",
+     "score": 28
+    },
+    {
+     "categoria": "otro",
+     "score": 20
+    },
+    {
+     "categoria": "cultura",
+     "score": 16
+    },
+    {
+     "categoria": "lugar",
+     "score": 8
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 8
+    },
+    {
+     "categoria": "salud",
+     "score": 4
+    },
+    {
+     "categoria": "educacion",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Causa Propofol - Procesamiento De Boveri Y Lanusse",
+     "categoria": "otro",
+     "contexto": "Se confirmó el procesamiento de Hernán Boveri y Delfina Lanusse por defraudación y consumo de Propofol. Boveri debe pagar 70 millones de pesos de embargo, Lanusse 30 millones.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Acarreo De Autos - Costo Y Regulación",
+     "categoria": "actividad",
+     "contexto": "Discusión sobre el precio del acarreo de vehículos en Buenos Aires, menciona que el año pasado costaba arriba de 100 mil pesos.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Transporte Público - Subte",
+     "categoria": "lugar",
+     "contexto": "Mención casual del subte como medio de transporte alternativo al no tener el auto disponible.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cumpleaños De Messi",
+     "categoria": "persona",
+     "contexto": "Se menciona que es día especial por cumpleaños de Messi y que fue masivo en redes sociales con gente cantando a las 10 de la mañana.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Viralización En Redes Sociales",
+     "categoria": "tecnologia",
+     "contexto": "Reflexión sobre cómo la mayoría de las cosas ahora se viralizan por redes sociales y si no está en redes es como que no existe.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Estacionamiento Irregular",
+     "categoria": "actividad",
+     "contexto": "Debate sobre dejar el auto estacionado en lugar prohibido y el riesgo de que lo acarreen.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cumpleaños De Messi",
+     "categoria": "persona",
+     "contexto": "Se discute por qué el cumpleaños 39 de Messi tuvo tanta repercusión, con propuestas de cantar feliz cumpleaños a las 10 de la mañana y noche",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Líderes Y Personalidad De Messi",
+     "categoria": "persona",
+     "contexto": "Se analiza cómo Messi cambió su personalidad en el equipo, pasando de no intervenir en el vestuario a ser un líder respetado",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "E1SnlQyyuRc": {
+   "video_id": "E1SnlQyyuRc",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 7
+    },
+    {
+     "tema": "Motivos De Separación",
+     "score": 5
+    },
+    {
+     "tema": "Preparación De Mate",
+     "score": 5
+    },
+    {
+     "tema": "Red Flags En Relaciones",
+     "score": 4
+    },
+    {
+     "tema": "Crianza Sin Pantallas",
+     "score": 3
+    },
+    {
+     "tema": "Separación Y Exclusividad",
+     "score": 3
+    },
+    {
+     "tema": "Paul (predictor De Resultados)",
+     "score": 3
+    },
+    {
+     "tema": "Diseño Y Confección De Ropa",
+     "score": 3
+    },
+    {
+     "tema": "Historia De Amor En Supermercado",
+     "score": 3
+    },
+    {
+     "tema": "Cumbia Y Música En Vivo",
+     "score": 3
+    },
+    {
+     "tema": "Preparación Y Uso Del Mate",
+     "score": 3
+    },
+    {
+     "tema": "Limpieza De Manchas",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 59
+    },
+    {
+     "categoria": "otro",
+     "score": 30
+    },
+    {
+     "categoria": "comida",
+     "score": 17
+    },
+    {
+     "categoria": "cultura",
+     "score": 16
+    },
+    {
+     "categoria": "persona",
+     "score": 12
+    },
+    {
+     "categoria": "relaciones",
+     "score": 5
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 5
+    },
+    {
+     "categoria": "salud",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Crianza Sin Pantallas",
+     "categoria": "actividad",
+     "contexto": "Dani cuenta que sus hijas vieron pantalla por primera vez en 2 años y medio durante el partido de Messi",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "categoria": "actividad",
+     "contexto": "Las niñas vieron el partido de Argentina con Messi y quedaron hipnotizadas, pidiendo repetidamente ver más",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Reacciones De Las Niñas A Messi",
+     "categoria": "otro",
+     "contexto": "Las hijas gritaban 'Messi, Messi' y lloraban pidiendo que prendieran la tele de vuelta",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Reglas Del Fútbol",
+     "categoria": "actividad",
+     "contexto": "Discusión detallada sobre tiros libres directos e indirectos, goles de córner y córners olímpicos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Shakira En El Partido",
+     "categoria": "cultura",
+     "contexto": "Mencionan que Shakira aparecía constantemente en pantalla durante el partido y gritaban más por ella que por los goles",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Filosofía De Vida",
+     "categoria": "otro",
+     "contexto": "Reflexión sobre vivir el presente, aprovechar momentos únicos como el Mundial, referencia a Mahatma Gandhi",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Separación Y Exclusividad",
+     "categoria": "relaciones",
+     "contexto": "Discusión sobre un comunicado de separación cuando nunca anunciaron estar juntos, debate sobre exclusividad vs libertad",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Exposición De Vida Privada En Redes",
+     "categoria": "tecnologia",
+     "contexto": "Debate sobre si es correcto exponerse públicamente en vivos y redes sociales con detalles personales",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "EwFONN3W5cg": {
+   "video_id": "EwFONN3W5cg",
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Asesinato De Jfk",
+     "score": 8
+    },
+    {
+     "tema": "Teorías Conspiranoicas",
+     "score": 3
+    },
+    {
+     "tema": "Evento Adidas Con Temática Tango",
+     "score": 3
+    },
+    {
+     "tema": "Cumplimiento De Pronósticos En Evento",
+     "score": 3
+    },
+    {
+     "tema": "Cumpleaños De Lionel Messi",
+     "score": 3
+    },
+    {
+     "tema": "Partido Argentina-austria",
+     "score": 3
+    },
+    {
+     "tema": "Partido Argentina Vs Austria",
+     "score": 3
+    },
+    {
+     "tema": "Comida Italiana Y Pastas",
+     "score": 3
+    },
+    {
+     "tema": "Dopaminas Especial",
+     "score": 3
+    },
+    {
+     "tema": "Despidos En Blender",
+     "score": 3
+    },
+    {
+     "tema": "Solidaridad Laboral",
+     "score": 3
+    },
+    {
+     "tema": "Confesión De Amor A Una Amiga",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 46
+    },
+    {
+     "categoria": "otro",
+     "score": 33
+    },
+    {
+     "categoria": "cultura",
+     "score": 29
+    },
+    {
+     "categoria": "lugar",
+     "score": 17
+    },
+    {
+     "categoria": "persona",
+     "score": 14
+    },
+    {
+     "categoria": "relaciones",
+     "score": 9
+    },
+    {
+     "categoria": "comida",
+     "score": 7
+    },
+    {
+     "categoria": "historia",
+     "score": 6
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Trucos De Magia",
+     "categoria": "actividad",
+     "contexto": "Se describe un protocolo de truco con cartas, mezclado, firmado y manipulación con la boca",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Plataformas De Streaming",
+     "categoria": "tecnologia",
+     "contexto": "Se menciona Olga, Luzu, Vorterix como canales y plataformas de streaming",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Barrios De Lujo En Dallas",
+     "categoria": "lugar",
+     "contexto": "Se describe recorrido por Douglas Avenue y comparación con barrios como San Isidro, Vicente López y Barrio Norte de Argentina",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Desigualdad Económica En Dallas",
+     "categoria": "otro",
+     "contexto": "Se mencionan señales de pobreza en algunas zonas, contraste con mansiones y vehículos de lujo como Silverado Chevrolet",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Asesinato De Jfk",
+     "categoria": "cultura",
+     "contexto": "Debate sobre dónde estaba posicionado el camarógrafo en el video del asesinato, película JFK, ubicación en Dallas",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Política Estadounidense",
+     "categoria": "cultura",
+     "contexto": "Menciones de Kennedy, Clinton, Obama como presidentes demócratas y referencias a sus vidas personales",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Preparación De Comida",
+     "categoria": "comida",
+     "contexto": "Luquita comenta que está haciendo un risotto para cocinar en DER y para el almuerzo",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Asesinato De Jfk",
+     "categoria": "historia",
+     "contexto": "Análisis detallado de la bala y trayectoria del asesinato de Kennedy, recreación de los hechos",
+     "minute": "0:20"
+    }
+   ]
+  },
+  "FYdwwoHNrMs": {
+   "video_id": "FYdwwoHNrMs",
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Copa Del Mundo - Cruces De 16avos",
+     "score": 3
+    },
+    {
+     "tema": "Clasificación De Uruguay",
+     "score": 3
+    },
+    {
+     "tema": "Estrategia Y Unidad En Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Mundial De Fútbol - Cruces Eliminatorios",
+     "score": 3
+    },
+    {
+     "tema": "Marcelo Bielsa Y Conflicto En Selección Uruguay",
+     "score": 3
+    },
+    {
+     "tema": "Partido Uruguay Vs España (mundial)",
+     "score": 3
+    },
+    {
+     "tema": "Paletas Y Helados",
+     "score": 3
+    },
+    {
+     "tema": "Alejandro Garnacho",
+     "score": 3
+    },
+    {
+     "tema": "Mundial De Fútbol Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Análisis De Grupos Mundialistas",
+     "score": 3
+    },
+    {
+     "tema": "Rendimiento De Selecciones En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Gianni Infantino Y La Fifa",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 50
+    },
+    {
+     "categoria": "persona",
+     "score": 28
+    },
+    {
+     "categoria": "cultura",
+     "score": 20
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 8
+    },
+    {
+     "categoria": "salud",
+     "score": 5
+    },
+    {
+     "categoria": "comida",
+     "score": 4
+    },
+    {
+     "categoria": "otro",
+     "score": 3
+    },
+    {
+     "categoria": "producto",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Copa Del Mundo - Cruces De 16avos",
+     "categoria": "actividad",
+     "contexto": "Se confirman los cruces de octavos de final: Brasil-Japón, Holanda-Marruecos, Sudáfrica-Canadá, Estados Unidos-Bosnia",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Predicciones De Partidos",
+     "categoria": "actividad",
+     "contexto": "Los conductores hacen predicciones sobre resultados de Brasil-Japón, Holanda-Marruecos y otros cruces",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Clasificación De Uruguay",
+     "categoria": "actividad",
+     "contexto": "Análisis sobre la necesidad de Uruguay de ganar contra España, con menos de 3 puntos quedan eliminados",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Candidatura Estados Unidos Para Mundial 2038",
+     "categoria": "actividad",
+     "contexto": "Se menciona reportaje de BBC sobre intención de Estados Unidos de ser sede del Mundial 2038 con 64 países",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Jorge Sampaoli Y Becacece",
+     "categoria": "persona",
+     "contexto": "Se habla sobre viralización de video de Becacece como técnico, su relación con Sampaoli y ambos en Talleres",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Ecuador En Mundiales",
+     "categoria": "actividad",
+     "contexto": "Se comenta que el triunfo de Ecuador es el más importante en la historia de sus mundiales",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Estrategia Y Unidad En Fútbol",
+     "categoria": "actividad",
+     "contexto": "Comparación con el sueño de Bolívar y San Martín, énfasis en 'la unidad es clave' como mensaje para Ecuador Unido",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Desempeño De Técnicos Argentinos",
+     "categoria": "persona",
+     "contexto": "Valoración de conferencias de Beca y Alfaro, comparación de estilos y presencia",
+     "minute": "0:20"
+    }
+   ]
+  },
+  "IubT1ZyjjEA": {
+   "video_id": "IubT1ZyjjEA",
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "title": "🔴 ESTO NO SUCEDIÓ con Hernan Panessi, Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Frío Extremo En Buenos Aires",
+     "score": 3
+    },
+    {
+     "tema": "Secuestro Y Escape",
+     "score": 3
+    },
+    {
+     "tema": "Experiencia Cercana A La Muerte",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol Argentino Y Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Leo Messi - Archivo Histórico",
+     "score": 3
+    },
+    {
+     "tema": "Canciones De Messi",
+     "score": 3
+    },
+    {
+     "tema": "Despidos En Blender",
+     "score": 3
+    },
+    {
+     "tema": "Fenómeno Del Super Niño",
+     "score": 2
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 2
+    },
+    {
+     "tema": "Estado Emocional Post-dopamina",
+     "score": 2
+    },
+    {
+     "tema": "Política - Milei",
+     "score": 2
+    },
+    {
+     "tema": "Situación Económica General",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 18
+    },
+    {
+     "categoria": "actividad",
+     "score": 13
+    },
+    {
+     "categoria": "otro",
+     "score": 11
+    },
+    {
+     "categoria": "persona",
+     "score": 5
+    },
+    {
+     "categoria": "producto",
+     "score": 5
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 4
+    },
+    {
+     "categoria": "clima",
+     "score": 3
+    },
+    {
+     "categoria": "salud",
+     "score": 3
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Frío Extremo En Buenos Aires",
+     "categoria": "clima",
+     "contexto": "Comentarios repetidos sobre el frío en la capital porteña, cómo afecta a la gente en la calle",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Fenómeno Del Super Niño",
+     "categoria": "tecnologia",
+     "contexto": "Se menciona que viene el Super Niño, una ola polar fuerte que golpeará Argentina",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "categoria": "actividad",
+     "contexto": "Se pregunta a la gente sobre su seguimiento del mundial, horarios de partidos",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Estado Emocional Post-dopamina",
+     "categoria": "cultura",
+     "contexto": "Ezequiel menciona estar 'loquita' después del evento anterior, con mucha energía",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Política - Milei",
+     "categoria": "persona",
+     "contexto": "Mención de Milei aceptando peleas mano a mano, comparación con otros políticos",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Situación Económica General",
+     "categoria": "otro",
+     "contexto": "Natalia menciona deseo de que 'mejoren algunas cosas para todos', mejora económica",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Secuestro Y Escape",
+     "categoria": "otro",
+     "contexto": "Una invitada relata que fue secuestrada por cuatro tipos en Misiones cuando viajaba con su hija, logró escapar parando un auto en la ruta",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Experiencia Cercana A La Muerte",
+     "categoria": "salud",
+     "contexto": "La invitada sufrió un paro cardíaco durante una operación quirúrgica y describe visiones de personas fallecidas",
+     "minute": "0:20"
+    }
+   ]
+  },
+  "JXVQmuDctII": {
+   "video_id": "JXVQmuDctII",
+   "channel_id": "blend",
+   "channel": "BLENDER",
+   "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Paternidad Y Relación Padres-hijos",
+     "score": 3
+    },
+    {
+     "tema": "Sin-eaters (comedores De Pecados)",
+     "score": 3
+    },
+    {
+     "tema": "Comedores De Pecados (ritual Histórico)",
+     "score": 3
+    },
+    {
+     "tema": "Moderadores De Contenido Digital",
+     "score": 3
+    },
+    {
+     "tema": "Explotación Laboral En Big Tech",
+     "score": 3
+    },
+    {
+     "tema": "Selección Argentina Y Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Efectos Especiales De Cine",
+     "score": 3
+    },
+    {
+     "tema": "Cine De Horror Y Gore",
+     "score": 3
+    },
+    {
+     "tema": "Efectos Visuales Y Cine Digital",
+     "score": 3
+    },
+    {
+     "tema": "Cine De Terror Y Horror",
+     "score": 3
+    },
+    {
+     "tema": "Moldeo De Dedos Con Alginato Dental",
+     "score": 3
+    },
+    {
+     "tema": "Efectos Especiales Y Moldeado",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 42
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 30
+    },
+    {
+     "categoria": "actividad",
+     "score": 17
+    },
+    {
+     "categoria": "otro",
+     "score": 11
+    },
+    {
+     "categoria": "producto",
+     "score": 8
+    },
+    {
+     "categoria": "salud",
+     "score": 7
+    },
+    {
+     "categoria": "persona",
+     "score": 6
+    },
+    {
+     "categoria": "comida",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Videoclip Perturbador De Artista",
+     "categoria": "cultura",
+     "contexto": "Discusión sobre un video donde una artista baila con cuchillos en contexto zombie, comparado con películas de George Romero",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cumpleaños De Juanita",
+     "categoria": "otro",
+     "contexto": "Aclaración sobre la edad de Juanita, tiene 26 años y cumplirá 27",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Fútbol - Marruecos Vs Haití",
+     "categoria": "actividad",
+     "contexto": "Mención de partido de fútbol a 93 minutos, con predicción astrológica cuestionada",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Neymar - Últimos Días",
+     "categoria": "persona",
+     "contexto": "Comentario sobre Neymar y una predicción astrológica confundida",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Tomás Rebord - Análisis Político",
+     "categoria": "persona",
+     "contexto": "Mención repetida de Tomás Rebord por sus análisis sesudos y opiniones sensacionales",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Música Trap/reggaeton Turro",
+     "categoria": "cultura",
+     "contexto": "Reproducción de canción trap con contenido callejero, genera reacción mixta en audiencia",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Lanzamiento De Cd De Los Borbotones",
+     "categoria": "producto",
+     "contexto": "Conductor menciona que una disquería se ofrece a editar un compact disc de la banda con años de material acumulado",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Olivia Rodrigo Y Colaboración Con Robert Smith",
+     "categoria": "cultura",
+     "contexto": "Conductor comenta que fue a una disquería buscando el último álbum de Olivia Rodrigo que tiene un feat con Robert Smith de The Cure",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "JqkhC1EnyTQ": {
+   "video_id": "JqkhC1EnyTQ",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+   "show_id": "gol-gana",
+   "show_name": "Gol Gana",
+   "top_temas": [
+    {
+     "tema": "Selección Colombia - Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Juanfer Quintero - Posición Titular Vs Suplente",
+     "score": 3
+    },
+    {
+     "tema": "Juanfer Quintero - Rol De Suplente",
+     "score": 3
+    },
+    {
+     "tema": "Selección Argentina En Copa Del Mundo",
+     "score": 3
+    },
+    {
+     "tema": "Debate Sobre Kutcher Romero Como Central",
+     "score": 3
+    },
+    {
+     "tema": "Capitanía De La Selección Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Selección Argentina - Copa América",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño De Selecciones En Mundiales",
+     "score": 3
+    },
+    {
+     "tema": "Récord De Scaloni Con La Selección",
+     "score": 3
+    },
+    {
+     "tema": "Cumpleaños De Messi En Concentraciones",
+     "score": 3
+    },
+    {
+     "tema": "Mundiales Y Desempeño De Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Cumpleaños De Messi",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 59
+    },
+    {
+     "categoria": "persona",
+     "score": 23
+    },
+    {
+     "categoria": "cultura",
+     "score": 8
+    },
+    {
+     "categoria": "otro",
+     "score": 8
+    },
+    {
+     "categoria": "lugar",
+     "score": 5
+    },
+    {
+     "categoria": "comida",
+     "score": 5
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 2
+    },
+    {
+     "categoria": "producto",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Selección Colombia - Mundial",
+     "categoria": "actividad",
+     "contexto": "Análisis de Colombia como posible revelación del Mundial, su rendimiento y posibilidades en octavos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Juanfer Quintero - Posición Titular Vs Suplente",
+     "categoria": "persona",
+     "contexto": "Debate sobre por qué Quintero es suplente en todos los equipos y si debería ser titular",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Juan Román Riquelme - Cumpleaños",
+     "categoria": "persona",
+     "contexto": "Mención de cumpleaños de Riquelme y análisis de su carrera como jugador",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Luis Díaz - Selección Colombia",
+     "categoria": "persona",
+     "contexto": "Se menciona como pieza clave del equipo colombiano, del cual dependen mucho",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Marcelo Gallardo - Técnico River",
+     "categoria": "persona",
+     "contexto": "Discusión sobre decisiones tácticas de Gallardo respecto a Quintero",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Juanfer Quintero - Rol De Suplente",
+     "categoria": "persona",
+     "contexto": "Debate sobre por qué Juanfer es utilizado como suplente si es tan buen jugador, análisis de su rendimiento como titular vs ingresante",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Evolución Del Fútbol Moderno",
+     "categoria": "actividad",
+     "contexto": "Comparación entre fútbol antiguo (enganche, menos carrera) vs actual (más corridas, menos espacio, mayor fricción)",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Selección Argentina En Copa Del Mundo",
+     "categoria": "actividad",
+     "contexto": "Análisis del desempeño de Argentina en el torneo, comparación con Qatar 2022, evaluación de fluidez y candidatura",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "KoYLJOd9qyo": {
+   "video_id": "KoYLJOd9qyo",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "#FMLUZU | CRIS Y LA GURI INSPIRAN A MARGELA + LA COLUMNA DE FLACA SOBRE CABO VERDE",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Selección Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Fixtures De Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Retorno De Saturno",
+     "score": 3
+    },
+    {
+     "tema": "Cambios De Vida Después De Los 30",
+     "score": 3
+    },
+    {
+     "tema": "Cuidado De Plantas De Interior",
+     "score": 3
+    },
+    {
+     "tema": "Cambios De Hábitos Al Cumplir 30",
+     "score": 3
+    },
+    {
+     "tema": "Selección Cabo Verde Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Señales De Envejecimiento (30+)",
+     "score": 3
+    },
+    {
+     "tema": "Efemeluso Al Atardecer",
+     "score": 2
+    },
+    {
+     "tema": "Team Pain",
+     "score": 2
+    },
+    {
+     "tema": "Columna De La Flaca",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 24
+    },
+    {
+     "categoria": "cultura",
+     "score": 24
+    },
+    {
+     "categoria": "persona",
+     "score": 8
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 8
+    },
+    {
+     "categoria": "salud",
+     "score": 8
+    },
+    {
+     "categoria": "otro",
+     "score": 7
+    },
+    {
+     "categoria": "lugar",
+     "score": 5
+    },
+    {
+     "categoria": "comida",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Mundial De Fútbol",
+     "categoria": "actividad",
+     "contexto": "Se habla sobre equipos del Mundial, enfrentamientos posibles de Argentina y análisis de partidos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Selección Argentina",
+     "categoria": "persona",
+     "contexto": "Análisis del desempeño de Argentina en el Mundial, comparación con otros países",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Efemeluso Al Atardecer",
+     "categoria": "lugar",
+     "contexto": "Presentación del nuevo programa diario de la tarde con más música",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Team Pain",
+     "categoria": "persona",
+     "contexto": "Creador argentino que está siendo fichado por equipos de Paraguay, Olimpia",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Columna De La Flaca",
+     "categoria": "actividad",
+     "contexto": "Columna sobre el Mundial y un equipo que probablemente enfrente Argentina",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Portugal Vs Uzbekistán",
+     "categoria": "actividad",
+     "contexto": "Resultado del partido: Portugal ganó 5-0 con goles de Cristiano Ronaldo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Fixtures De Mundial",
+     "categoria": "actividad",
+     "contexto": "Discusión sobre llenar fixtures impresos vs digitales durante los mundiales de fútbol",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Nostalgia Y Coleccionismo",
+     "categoria": "cultura",
+     "contexto": "Conversación sobre guardar recuerdos de mundiales, álbumes y objetos de valor sentimental",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "LE5ICiVWzT8": {
+   "video_id": "LE5ICiVWzT8",
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Análisis De Grupos Del Mundial De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Arquero Muslera - Errores En Defensa",
+     "score": 3
+    },
+    {
+     "tema": "Técnica De Besar",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño De Muslera",
+     "score": 3
+    },
+    {
+     "tema": "Partido Uruguay Vs España",
+     "score": 3
+    },
+    {
+     "tema": "Calidad Del Partido Paraguay Vs Australia",
+     "score": 3
+    },
+    {
+     "tema": "Copa Mundial 2022 - España Vs Uruguay",
+     "score": 3
+    },
+    {
+     "tema": "Rendimiento De Túnez Con Expulsión",
+     "score": 2
+    },
+    {
+     "tema": "René Harbar - Periodista Del Mundial",
+     "score": 2
+    },
+    {
+     "tema": "Performance De Senegal",
+     "score": 2
+    },
+    {
+     "tema": "Alex Baena Y Críticas En Selección España",
+     "score": 2
+    },
+    {
+     "tema": "Fútbol Uruguay Vs España",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 26
+    },
+    {
+     "categoria": "persona",
+     "score": 23
+    },
+    {
+     "categoria": "cultura",
+     "score": 8
+    },
+    {
+     "categoria": "otro",
+     "score": 6
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 2
+    },
+    {
+     "categoria": "producto",
+     "score": 1
+    },
+    {
+     "categoria": "lugar",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Análisis De Grupos Del Mundial De Fútbol",
+     "categoria": "actividad",
+     "contexto": "Se analiza el desempeño de equipos como Paraguay, Turquía, Canadá, España, Uruguay, Bélgica, Irán, Holanda, Suecia y Túnez en fase de grupos",
+     "minute": "0:40"
+    },
+    {
+     "tema": "Rendimiento De Túnez Con Expulsión",
+     "categoria": "actividad",
+     "contexto": "Se discute el partido de Túnez donde entraron con 9 jugadores en el segundo tiempo y luego aparece otro, generando confusión",
+     "minute": "0:40"
+    },
+    {
+     "tema": "René Harbar - Periodista Del Mundial",
+     "categoria": "persona",
+     "contexto": "Se menciona que René Harbar quedó en la mejor apoya del Chad y se bromea sobre que no hicieron publicidad con él a pesar de su desempeño",
+     "minute": "0:40"
+    },
+    {
+     "tema": "Performance De Senegal",
+     "categoria": "actividad",
+     "contexto": "Se analiza que Senegal ganó 5 a 0 contra un equipo con inferioridad y se convirtió en contendiente serio con 3 puntos",
+     "minute": "0:40"
+    },
+    {
+     "tema": "Arquero Muslera - Errores En Defensa",
+     "categoria": "persona",
+     "contexto": "Se critican fuertemente los errores de Muslera en el partido de Uruguay, llamándolo arquerito por los goles que cometió",
+     "minute": "0:40"
+    },
+    {
+     "tema": "Alex Baena Y Críticas En Selección España",
+     "categoria": "persona",
+     "contexto": "Se menciona que Alex Baena anotó gol pero es criticado en la selección, con Emolera echándole la culpa",
+     "minute": "0:40"
+    },
+    {
+     "tema": "Pelota Del Mundial - Trionda",
+     "categoria": "producto",
+     "contexto": "Se comenta que la pelota oficial del mundial es hermosa y muy linda, distraiendo a los arqueros",
+     "minute": "0:40"
+    },
+    {
+     "tema": "Periodista Diego Lucero - Récord Histórico",
+     "categoria": "persona",
+     "contexto": "Se menciona que Diego Lucero, periodista fallecido en 1994, cubrió 16 mundiales desde Uruguay 1930 hasta Estados Unidos 1994",
+     "minute": "0:40"
+    }
+   ]
+  },
+  "LjEHjrbNNgs": {
+   "video_id": "LjEHjrbNNgs",
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Cumpleaños De Anacleta",
+     "score": 4
+    },
+    {
+     "tema": "Cuarteto De Nos",
+     "score": 4
+    },
+    {
+     "tema": "Mundial De Fútbol - Resultados Y Clasificaciones",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño De Selecciones Nacionales",
+     "score": 3
+    },
+    {
+     "tema": "Despidos Y Reestructuración En Canal De Tv",
+     "score": 3
+    },
+    {
+     "tema": "Solidaridad Laboral Y Reclamo De Reincorporación",
+     "score": 3
+    },
+    {
+     "tema": "Crisis/conflicto En Canal De Streaming",
+     "score": 3
+    },
+    {
+     "tema": "Gta Vi",
+     "score": 3
+    },
+    {
+     "tema": "Videojuegos Retro",
+     "score": 3
+    },
+    {
+     "tema": "Teatro Y Unipersonal",
+     "score": 3
+    },
+    {
+     "tema": "Cinefilia Y Películas",
+     "score": 3
+    },
+    {
+     "tema": "Programas De Tv Años 2000",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 42
+    },
+    {
+     "categoria": "actividad",
+     "score": 41
+    },
+    {
+     "categoria": "persona",
+     "score": 16
+    },
+    {
+     "categoria": "lugar",
+     "score": 13
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 12
+    },
+    {
+     "categoria": "otro",
+     "score": 10
+    },
+    {
+     "categoria": "comida",
+     "score": 5
+    },
+    {
+     "categoria": "producto",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Terremoto En Venezuela",
+     "categoria": "lugar",
+     "contexto": "Discusión sobre el terremoto en Venezuela y su relación con la salida de Maduro del país",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Situación Política Venezuela-maduro",
+     "categoria": "persona",
+     "contexto": "Comentarios sobre Maduro como dictador y su gestión, con menciones a Delcy",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Cumpleaños De Anacleta",
+     "categoria": "actividad",
+     "contexto": "Planificación de festejo de cumpleaños a las 21:30 con comida, vouchers y silla para invitados",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Engagement En Stream",
+     "categoria": "tecnologia",
+     "contexto": "Mencionan 1300 likes en 5 minutos y alcanzan 5000 likes como objetivo",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Equipo De Producción",
+     "categoria": "otro",
+     "contexto": "Se menciona al Team Vortex: Spink, Tebo, José Mir, Darío, La Cueva",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Saludo Paraguayo",
+     "categoria": "cultura",
+     "contexto": "Explicación de un chiste sobre el saludo paraguayo vs austriaco e irlandés en eventos sociales",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Cine Y Películas",
+     "categoria": "cultura",
+     "contexto": "Se discute sobre películas vistas en cines, incluyendo Freddy vs Jason, Lista de Schindler, y películas de Spielberg",
+     "minute": "0:30"
+    },
+    {
+     "tema": "Consumo De Alcohol En Cines",
+     "categoria": "actividad",
+     "contexto": "Anécdotas sobre llevar vino y cerveza a cines, ahora se vende cerveza directamente",
+     "minute": "0:30"
+    }
+   ]
+  },
+  "NKhi31a86K8": {
+   "video_id": "NKhi31a86K8",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+   "show_id": "gol-gana",
+   "show_name": "Gol Gana",
+   "top_temas": [
+    {
+     "tema": "Copa América 2024 - Clasificación Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Análisis De Uruguay En Mundiales",
+     "score": 3
+    },
+    {
+     "tema": "Inclusión De Suárez En Selección Uruguay",
+     "score": 3
+    },
+    {
+     "tema": "Liderazgo Y Autoridad De Bielsa",
+     "score": 3
+    },
+    {
+     "tema": "Conflicto Suárez-bielsa En Copa América",
+     "score": 3
+    },
+    {
+     "tema": "Vigencia De Suárez Como Jugador",
+     "score": 3
+    },
+    {
+     "tema": "Participación De Messi En Partido Contra Jordania",
+     "score": 3
+    },
+    {
+     "tema": "Rendimiento De Messi En El Mundial Actual",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño De Messi En Partido Reciente",
+     "score": 3
+    },
+    {
+     "tema": "Partido Inglaterra Vs Ghana",
+     "score": 3
+    },
+    {
+     "tema": "Copa Del Mundo - Selección Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Lesión De Cuti Romero",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 68
+    },
+    {
+     "categoria": "persona",
+     "score": 21
+    },
+    {
+     "categoria": "cultura",
+     "score": 11
+    },
+    {
+     "categoria": "salud",
+     "score": 7
+    },
+    {
+     "categoria": "lugar",
+     "score": 4
+    },
+    {
+     "categoria": "otro",
+     "score": 4
+    },
+    {
+     "categoria": "producto",
+     "score": 4
+    },
+    {
+     "categoria": "comida",
+     "score": 3
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Copa América 2024 - Clasificación Argentina",
+     "categoria": "actividad",
+     "contexto": "Argentina se aseguró un lugar en octavos de final y jugaría en Miami el 3 de julio contra Cabo Verde o España",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Análisis De Uruguay En Mundiales",
+     "categoria": "actividad",
+     "contexto": "Debate sobre la decadencia de Uruguay como potencia futbolística, sin ganar un mundial desde 1950 y necesitando repechaje",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Debate Portugal, Brasil, España En Copa América",
+     "categoria": "actividad",
+     "contexto": "Análisis de otros equipos: Portugal tuvo dificultades, Brasil no le ganó a Marruecos, España podría no clasificar primera",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Luis Suárez Y Su Participación En El Mundial",
+     "categoria": "persona",
+     "contexto": "Debate sobre si Suárez debería ir al mundial, comparándolo con Messi; estadística que Uruguay ganó solo un partido sin Suárez desde 1990",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Condiciones De Trabajo Para Contenido En Usa",
+     "categoria": "actividad",
+     "contexto": "Los conductores mencionan que los echan de lugares mientras hacen contenido al aire libre en Estados Unidos, paradójicamente en el país de la libertad",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Calor Extremo En Dallas",
+     "categoria": "lugar",
+     "contexto": "33 grados a la sombra, dificulta hacer contenido al aire libre",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Inclusión De Suárez En Selección Uruguay",
+     "categoria": "actividad",
+     "contexto": "Debate sobre si Bielsa debe convocar a Luis Suárez para los partidos contra España y si puede jugar 10-15 minutos",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Liderazgo Y Autoridad De Bielsa",
+     "categoria": "persona",
+     "contexto": "Discusión sobre si Bielsa perdió autoridad en el plantel y responsabilidad en situación actual de Uruguay",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "Ovdcl6-B2kc": {
+   "video_id": "Ovdcl6-B2kc",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+   "show_id": "sfl",
+   "show_name": "Se Fue Larga",
+   "top_temas": [
+    {
+     "tema": "Timidez Y Ansiedad Social",
+     "score": 6
+    },
+    {
+     "tema": "Fútbol Callejero",
+     "score": 3
+    },
+    {
+     "tema": "Partido De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Hipervigilancia",
+     "score": 3
+    },
+    {
+     "tema": "Timidez Social E Interacción Personal",
+     "score": 3
+    },
+    {
+     "tema": "Ansiedad Social Y Vergüenza En Espacios Públicos",
+     "score": 3
+    },
+    {
+     "tema": "Rankings De Openings De Series",
+     "score": 3
+    },
+    {
+     "tema": "Openings De Series De Tv",
+     "score": 3
+    },
+    {
+     "tema": "Friends",
+     "score": 3
+    },
+    {
+     "tema": "Ranking De Series De Tv",
+     "score": 3
+    },
+    {
+     "tema": "Fifa World Cup 2026",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 43
+    },
+    {
+     "categoria": "salud",
+     "score": 32
+    },
+    {
+     "categoria": "actividad",
+     "score": 31
+    },
+    {
+     "categoria": "otro",
+     "score": 13
+    },
+    {
+     "categoria": "persona",
+     "score": 8
+    },
+    {
+     "categoria": "lugar",
+     "score": 6
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 5
+    },
+    {
+     "categoria": "comida",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Clima Y Temperatura",
+     "categoria": "otro",
+     "contexto": "Discusión sobre el calor en Buenos Aires vs. clima actual, protector solar y bronceado",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Anécdota De Remolque",
+     "categoria": "otro",
+     "contexto": "Gasto inesperado por estacionar camioneta en lugar no permitido y tener que pagar remolque",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Actividades Recreativas",
+     "categoria": "actividad",
+     "contexto": "Mención de ir a la pileta después de un partido",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Fútbol Callejero",
+     "categoria": "actividad",
+     "contexto": "Conductores jugando fútbol con niños en la calle, mostrando trucos de Messi",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Messi Vs Cristiano Ronaldo",
+     "categoria": "persona",
+     "contexto": "Comparación entre los dos jugadores, preferencia por Messi",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Bebidas Argentinas Vs Mexicanas",
+     "categoria": "comida",
+     "contexto": "Conversación sobre Fernet, tequila y mezcal entre argentinos y mexicano",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Guido Keller",
+     "categoria": "persona",
+     "contexto": "Comparan al niño mexicano con Guido Keller por su similitud física",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Equipos De Fútbol Argentinos",
+     "categoria": "persona",
+     "contexto": "Menciones de Huracán, Boca, Monterrey y jugadores como Tagliafico",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "S1UDpsKkZvE": {
+   "video_id": "S1UDpsKkZvE",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+   "show_id": "aqn",
+   "show_name": "Antes Que Nadie",
+   "top_temas": [
+    {
+     "tema": "Cumpleaños De Lionel Messi",
+     "score": 7
+    },
+    {
+     "tema": "Rutina De Gimnasio Para Principiantes",
+     "score": 3
+    },
+    {
+     "tema": "Rutina De Entrenamiento Full Body",
+     "score": 3
+    },
+    {
+     "tema": "Técnica De Ejercicios De Pesas",
+     "score": 3
+    },
+    {
+     "tema": "Clima Y Temperatura",
+     "score": 3
+    },
+    {
+     "tema": "Cumpleaños De Celebridades",
+     "score": 3
+    },
+    {
+     "tema": "Posible Cruce Cristiano Ronaldo Vs Messi En Cuartos",
+     "score": 3
+    },
+    {
+     "tema": "Hábito De Fumar",
+     "score": 3
+    },
+    {
+     "tema": "Educación Religiosa Y Colegios Católicos",
+     "score": 3
+    },
+    {
+     "tema": "Experiencias Escolares De Género Segregado",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol Y Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Bullying Infantil",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 74
+    },
+    {
+     "categoria": "cultura",
+     "score": 62
+    },
+    {
+     "categoria": "otro",
+     "score": 48
+    },
+    {
+     "categoria": "persona",
+     "score": 40
+    },
+    {
+     "categoria": "salud",
+     "score": 18
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 14
+    },
+    {
+     "categoria": "comida",
+     "score": 6
+    },
+    {
+     "categoria": "clima",
+     "score": 3
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Rutina De Gimnasio Para Principiantes",
+     "categoria": "actividad",
+     "contexto": "Presentación de rutina especial para quienes nunca fueron al gym, con ejercicios básicos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Movilidad Y Activación Física",
+     "categoria": "actividad",
+     "contexto": "Énfasis en hacer movilidad y activación antes de iniciar los ejercicios principales",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Entrenamiento En Circuito",
+     "categoria": "actividad",
+     "contexto": "Explicación de beneficios del entrenamiento en circuito para optimizar tiempo y trabajar fuerza con sistema cardiovascular",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mate En El Gimnasio",
+     "categoria": "comida",
+     "contexto": "Defensa del consumo de mate durante el entrenamiento, comentario sobre cafeína y compañía",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Banco Plano Y Activación Escapular",
+     "categoria": "actividad",
+     "contexto": "Instrucción sobre ejercicio de pecho con énfasis en cuidar el hombro",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Hip Thrust Con Banda Elástica",
+     "categoria": "actividad",
+     "contexto": "Ejercicio para glúteos usando banda elástica sobre las rodillas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ejercicios Con Mancuerna",
+     "categoria": "actividad",
+     "contexto": "Flexión de bíceps con mancuerna de 10 kilos como último ejercicio del circuito",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Rutina De Entrenamiento Full Body",
+     "categoria": "actividad",
+     "contexto": "Se desarrolla una rutina de ejercicios completa con pecho, hip thrust, bíceps, espalda, tríceps, cuadríceps y hombros",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "UlE50hJOMJg": {
+   "video_id": "UlE50hJOMJg",
+   "channel_id": "neura",
+   "channel": "Neura Media",
+   "title": "Multiverso Neura",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Mundial 1986 En México",
+     "score": 3
+    },
+    {
+     "tema": "Rival En 16avos De Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Análisis Táctico Uruguay Vs España",
+     "score": 3
+    },
+    {
+     "tema": "Dinámica De Grupos Y Clasificación",
+     "score": 3
+    },
+    {
+     "tema": "Partido Argentina Vs Arabia Saudita",
+     "score": 3
+    },
+    {
+     "tema": "Situación De Messi En El Equipo",
+     "score": 3
+    },
+    {
+     "tema": "Alineación Argentina Vs Jordania",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Corrupción Política Y Casos Judiciales",
+     "score": 3
+    },
+    {
+     "tema": "Justicia E Impunidad",
+     "score": 3
+    },
+    {
+     "tema": "Doble Vara Política",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño De Arqueros En Mundiales",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 41
+    },
+    {
+     "categoria": "persona",
+     "score": 13
+    },
+    {
+     "categoria": "cultura",
+     "score": 10
+    },
+    {
+     "categoria": "política",
+     "score": 9
+    },
+    {
+     "categoria": "otro",
+     "score": 3
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 2
+    },
+    {
+     "categoria": "economia",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Experiencia En Mundiales",
+     "categoria": "actividad",
+     "contexto": "Enrique ha visto 18 mundiales, desde Pelé en 1958 hasta hoy, incluyendo Argentina 78 y 86",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Mundial 1986 En México",
+     "categoria": "actividad",
+     "contexto": "Se menciona el Azteca 86 como momento icónico que le hubiera gustado vivir, con Diego Maradona",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Adaptabilidad Táctica De La Selección",
+     "categoria": "actividad",
+     "contexto": "Se destaca que el equipo se adapta a situaciones, defiende, sale al contragolpe según el partido",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Madurez Del Grupo Actual Vs Qatar",
+     "categoria": "actividad",
+     "contexto": "El grupo tiene más campeones del mundo y experiencia que en el mundial anterior",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Entrenamientos Intensos",
+     "categoria": "actividad",
+     "contexto": "Los entrenamientos mantienen a los jugadores en forma física y mental sin necesidad de jugar todos los minutos",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Rival En 16avos De Argentina",
+     "categoria": "actividad",
+     "contexto": "Predicciones sobre si será Uruguay, España, Arabia Saudita o Cabo Verde según resultados de la última fecha",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Situación De Uruguay",
+     "categoria": "actividad",
+     "contexto": "Uruguay está al borde de la eliminación; si pierde hoy queda fuera, empate probablemente no le sirve",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Análisis Táctico Uruguay Vs España",
+     "categoria": "actividad",
+     "contexto": "Discusión sobre formaciones, cambios de alineación y estrategias de ambos equipos",
+     "minute": "0:30"
+    }
+   ]
+  },
+  "VRWovoLU0yQ": {
+   "video_id": "VRWovoLU0yQ",
+   "channel_id": "neura",
+   "channel": "Neura Media",
+   "title": "🍿 Plot Twist 👾",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "El Señor De Los Anillos - Extensión De Películas",
+     "score": 3
+    },
+    {
+     "tema": "Star Wars - Trilogía Clásica Vs Precuelas Vs Secuelas",
+     "score": 3
+    },
+    {
+     "tema": "Anime De Los 80s",
+     "score": 3
+    },
+    {
+     "tema": "Vampire Hunter D",
+     "score": 3
+    },
+    {
+     "tema": "Experiencias En El Cine",
+     "score": 3
+    },
+    {
+     "tema": "Cómics Y Superhéroes Dc Vs Marvel",
+     "score": 3
+    },
+    {
+     "tema": "Cambio De Nombres Artísticos En Actores",
+     "score": 3
+    },
+    {
+     "tema": "Proyecto Batman: The Brave And The Bold",
+     "score": 3
+    },
+    {
+     "tema": "Festival De Series Románticas En Los Ángeles",
+     "score": 2
+    },
+    {
+     "tema": "Off Campus (serie)",
+     "score": 2
+    },
+    {
+     "tema": "Doble Vara De Género",
+     "score": 2
+    },
+    {
+     "tema": "Cine Moderno - Duración Excesiva",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 39
+    },
+    {
+     "categoria": "persona",
+     "score": 22
+    },
+    {
+     "categoria": "producto",
+     "score": 6
+    },
+    {
+     "categoria": "actividad",
+     "score": 5
+    },
+    {
+     "categoria": "otro",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Ausencia De Conductora",
+     "categoria": "otro",
+     "contexto": "Mencionan que hoy están menos porque tienen una viajera, el programa es más masculino",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Apariencia Física Y Color De Pelo",
+     "categoria": "otro",
+     "contexto": "Discuten sobre cómo se ven en cámara, el flequillo, y cómo el chat siempre comenta sobre el pelo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Festival De Series Románticas En Los Ángeles",
+     "categoria": "cultura",
+     "contexto": "La conductora ausente está cubriendo un evento/festival de series románticas en Los Ángeles",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Off Campus (serie)",
+     "categoria": "cultura",
+     "contexto": "Mencionan que la conductora es muy fan y ha hablado muchas veces sobre Off Campus",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Doble Vara De Género",
+     "categoria": "cultura",
+     "contexto": "Reflexionan sobre cómo sería visto que hombres asistan a un festival de contenido romántico vs mujeres",
+     "minute": "0:00"
+    },
+    {
+     "tema": "El Señor De Los Anillos - Extensión De Películas",
+     "categoria": "cultura",
+     "contexto": "Discusión sobre si LOTR tendría que haber sido dos películas en lugar de trilogía, crítica a la extensión de las películas modernas",
+     "minute": "0:40"
+    },
+    {
+     "tema": "Cine Moderno - Duración Excesiva",
+     "categoria": "cultura",
+     "contexto": "Comparación entre películas de 90 minutos de los 90 vs películas de 2.5-3 horas actuales, crítica a escenas innecesarias",
+     "minute": "0:40"
+    },
+    {
+     "tema": "Andy Serkis - Captura De Movimiento",
+     "categoria": "persona",
+     "contexto": "Análisis de la carrera de Andy Serkis, su rol revolucionario en Gollum, César del Planeta de los Simios y Snoke",
+     "minute": "0:40"
+    }
+   ]
+  },
+  "W5dvBDWCWWk": {
+   "video_id": "W5dvBDWCWWk",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+   "show_id": "ndn",
+   "show_name": "Nadie Dice Nada",
+   "top_temas": [
+    {
+     "tema": "Voleibol",
+     "score": 8
+    },
+    {
+     "tema": "Fútbol - Mundial Y Selección",
+     "score": 3
+    },
+    {
+     "tema": "Limpieza Y Orden De Habitaciones",
+     "score": 3
+    },
+    {
+     "tema": "Baños Compartidos",
+     "score": 3
+    },
+    {
+     "tema": "Orden Y Desorden En La Casa Compartida",
+     "score": 3
+    },
+    {
+     "tema": "Salida Nocturna A Bares",
+     "score": 3
+    },
+    {
+     "tema": "Viaje A Miami",
+     "score": 3
+    },
+    {
+     "tema": "Peregrinación En Vivo",
+     "score": 3
+    },
+    {
+     "tema": "Argentina Vs Polonia",
+     "score": 3
+    },
+    {
+     "tema": "Partido De Vóley",
+     "score": 3
+    },
+    {
+     "tema": "Muerte De Sergio Carelli Guruta Jones",
+     "score": 3
+    },
+    {
+     "tema": "Desorden En La Casa",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 59
+    },
+    {
+     "categoria": "lugar",
+     "score": 27
+    },
+    {
+     "categoria": "otro",
+     "score": 22
+    },
+    {
+     "categoria": "cultura",
+     "score": 11
+    },
+    {
+     "categoria": "salud",
+     "score": 9
+    },
+    {
+     "categoria": "persona",
+     "score": 9
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 6
+    },
+    {
+     "categoria": "producto",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Desorden En La Casa",
+     "categoria": "otro",
+     "contexto": "Los conductores hablan sobre el desorden en sus cuartos y la casa, con anécdotas sobre ropa tirada y cosas perdidas",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Estado Emocional Y Humor",
+     "categoria": "salud",
+     "contexto": "Se menciona estar premenstrual, cambios de humor, estabilidad emocional entre los conductores",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Dinámica Familiar Y Relaciones",
+     "categoria": "otro",
+     "contexto": "Se habla sobre la relación entre los conductores, momentos de ternura y comportamientos de Nico",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Salidas Y Horarios",
+     "categoria": "actividad",
+     "contexto": "Discusión sobre salidas nocturnas y horarios para volver a casa",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Ropa Y Accesorios",
+     "categoria": "otro",
+     "contexto": "Crítica jocosa sobre prendas de vestir, cambio de remeras, pérdida de accesorios",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Viaje A Miami Y México",
+     "categoria": "lugar",
+     "contexto": "Mencionan que es la última semana del viaje, que se van a México, y que ayer estuvieron en Miami pero no recorrieron nada",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Bar Hopping",
+     "categoria": "actividad",
+     "contexto": "Realizaron una noche de bar hopping visitando 3 bares distintos, salió un vlog al respecto que van a reaccionar",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Ronda De Chismes",
+     "categoria": "actividad",
+     "contexto": "Charla sobre cómo las rondas de chismes se estiran y terminan durmiendo menos horas, discuten sobre qué contar y qué no en el grupo",
+     "minute": "0:20"
+    }
+   ]
+  },
+  "WCF4oC8GC9o": {
+   "video_id": "WCF4oC8GC9o",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
+   "show_id": "ndn",
+   "show_name": "Nadie Dice Nada",
+   "top_temas": [
+    {
+     "tema": "Pandemia Covid-19",
+     "score": 6
+    },
+    {
+     "tema": "Cumpleaños De Marcos",
+     "score": 5
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 5
+    },
+    {
+     "tema": "Ronda De Chismes",
+     "score": 3
+    },
+    {
+     "tema": "Venta De Máscaras Caseras",
+     "score": 3
+    },
+    {
+     "tema": "Impacto Emocional Y Mental En Pandemia",
+     "score": 3
+    },
+    {
+     "tema": "El Pulpo - Historia Del Proyecto",
+     "score": 3
+    },
+    {
+     "tema": "Origen Del Apodo Pulpo",
+     "score": 3
+    },
+    {
+     "tema": "Brujería Y Rituales",
+     "score": 3
+    },
+    {
+     "tema": "Messi Y Su Legado Deportivo",
+     "score": 3
+    },
+    {
+     "tema": "Bociña - Arquero De Cabo Verde",
+     "score": 3
+    },
+    {
+     "tema": "Cumpleaños En Restaurante Español",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 52
+    },
+    {
+     "categoria": "cultura",
+     "score": 42
+    },
+    {
+     "categoria": "persona",
+     "score": 22
+    },
+    {
+     "categoria": "salud",
+     "score": 21
+    },
+    {
+     "categoria": "otro",
+     "score": 14
+    },
+    {
+     "categoria": "producto",
+     "score": 13
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 10
+    },
+    {
+     "categoria": "lugar",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Cumpleaños De Celebridades",
+     "categoria": "cultura",
+     "contexto": "Se mencionan los cumpleaños de Leo Messi, Juan Román Riquelme y Marquitos Giles en la fecha",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ropa Y Estilo",
+     "categoria": "producto",
+     "contexto": "Conversación sobre las chombas que usa Ticho, colores y cambios de atuendo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Dinámica Del Programa En Vivo",
+     "categoria": "actividad",
+     "contexto": "Charla sobre lo que ocurre en el set que no se puede mostrar en stream",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cumpleaños De Marcos",
+     "categoria": "persona",
+     "contexto": "El cumpleañero recibió los 30 con nosotros ayer, lo queremos muchísimo",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Ronda De Chismes",
+     "categoria": "actividad",
+     "contexto": "Me gusta la ronda de chismes que se genera antes de dormir, vamos a marchar por la ronda de chismes",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Cápsula De Ropa",
+     "categoria": "producto",
+     "contexto": "La tuya que no salió, se probó la reina de todo y se llevó dos cosas",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Programa Plp",
+     "categoria": "actividad",
+     "contexto": "Porque el sábado hacemos PLP",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Programa Especial Con Nico Y Marcos",
+     "categoria": "actividad",
+     "contexto": "Quizás el domingo prendemos con Nico y Marcos, hacemos un programa de chabones",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "W_HkPNOMeDc": {
+   "video_id": "W_HkPNOMeDc",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+   "show_id": "tdt",
+   "show_name": "TDT",
+   "top_temas": [
+    {
+     "tema": "Viaje A Miami",
+     "score": 5
+    },
+    {
+     "tema": "Trotel Flip Challenge",
+     "score": 3
+    },
+    {
+     "tema": "Migración A Miami",
+     "score": 3
+    },
+    {
+     "tema": "Viaje A Miami/misiones",
+     "score": 3
+    },
+    {
+     "tema": "Top 3 Placeres De La Vida",
+     "score": 3
+    },
+    {
+     "tema": "Sargazo En Miami Beach",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol Y Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Mcdonald's Estados Unidos",
+     "score": 3
+    },
+    {
+     "tema": "Mcdonald's Experiencia De Menú",
+     "score": 3
+    },
+    {
+     "tema": "Argentinos En El Exterior",
+     "score": 3
+    },
+    {
+     "tema": "Cobertura De Partidos De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Viaje A Miami / Normandy Isles",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "lugar",
+     "score": 41
+    },
+    {
+     "categoria": "actividad",
+     "score": 34
+    },
+    {
+     "categoria": "comida",
+     "score": 29
+    },
+    {
+     "categoria": "otro",
+     "score": 18
+    },
+    {
+     "categoria": "cultura",
+     "score": 16
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 10
+    },
+    {
+     "categoria": "persona",
+     "score": 7
+    },
+    {
+     "categoria": "salud",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Viaje A Miami / Normandy Isles",
+     "categoria": "lugar",
+     "contexto": "Los conductores están en Normandy Isles, Miami, explorando el barrio donde alguien vivió su 'sueño americano'",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Trotel Flip Challenge",
+     "categoria": "actividad",
+     "contexto": "Inventan un challenge nuevo con botellas de agua a 31 grados, lo hacen varias veces durante el segmento",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Copa Del Mundo / Fútbol",
+     "categoria": "cultura",
+     "contexto": "Mencionan que hoy juegan Colombia vs Portugal y Uruguay vs España para ver si Uruguay sigue en la Copa",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cancha De Básquet En Miami",
+     "categoria": "lugar",
+     "contexto": "Están en una cancha de básquet, mencionan muchos partidos que se han jugado ahí, hay argentinos y americanos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Café Helado (ice Flat White)",
+     "categoria": "comida",
+     "contexto": "Martina propone detener el programa porque quiere su café frío, el conductor dice que no logran conseguir sus deseos en Miami",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Calor Extremo En Miami",
+     "categoria": "otro",
+     "contexto": "Hacen énfasis repetido en el calor insoportable, 31 grados, Martina se deshidrata de reír",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Básquet Callejero",
+     "categoria": "actividad",
+     "contexto": "Grupo de argentinos pide que les enseñen a jugar basketball en la calle",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Deporte Y Salud Mental",
+     "categoria": "salud",
+     "contexto": "Se menciona que el deporte ayuda a la salud mental de las personas",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "XHV2BV9DWMs": {
+   "video_id": "XHV2BV9DWMs",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Mundialito De Ciudades",
+     "score": 6
+    },
+    {
+     "tema": "Médano De Oro, San Juan",
+     "score": 5
+    },
+    {
+     "tema": "Posadas, Misiones",
+     "score": 5
+    },
+    {
+     "tema": "Selección Argentina De Fútbol",
+     "score": 4
+    },
+    {
+     "tema": "Paternidad Y Crianza De Bebés",
+     "score": 3
+    },
+    {
+     "tema": "Consumo De Carne Y Ética Animal",
+     "score": 3
+    },
+    {
+     "tema": "Pedal De Sustain Para Humanos",
+     "score": 3
+    },
+    {
+     "tema": "Ausencia De Charo En El Programa",
+     "score": 3
+    },
+    {
+     "tema": "Mundial De Fútbol 2022",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño De Messi En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Higiene Y Limpieza De Japón En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Trash Talk Y Discriminación En El Fútbol",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 63
+    },
+    {
+     "categoria": "actividad",
+     "score": 61
+    },
+    {
+     "categoria": "lugar",
+     "score": 21
+    },
+    {
+     "categoria": "comida",
+     "score": 13
+    },
+    {
+     "categoria": "persona",
+     "score": 13
+    },
+    {
+     "categoria": "producto",
+     "score": 9
+    },
+    {
+     "categoria": "salud",
+     "score": 7
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 6
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Selección Argentina De Fútbol",
+     "categoria": "actividad",
+     "contexto": "Hoy juega la selección argentina, genera expectativa de que sea feriado encubierto",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Paternidad Y Crianza De Bebés",
+     "categoria": "cultura",
+     "contexto": "Varios conductores celebran Día del Padre, hablan de dormir con bebés, lactancia y cuidados",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Consumo De Carne Y Ética Animal",
+     "categoria": "cultura",
+     "contexto": "Debate sobre matar vacas, documentales como Cowspiracy, diferencias entre carnes y pescado",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cocción De Carnes En Air Fryer",
+     "categoria": "comida",
+     "contexto": "Se menciona cocinar ojo de bife en air fryer a 100 grados durante dos horas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Dejar De Fumar",
+     "categoria": "salud",
+     "contexto": "Se regalan libros para dejar de fumar, se habla de ganas de dejar el hábito",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Geografía De Bosnia Y Herzegovina",
+     "categoria": "lugar",
+     "contexto": "Análisis del mapa de Bosnia, Croacia y el mar Adriático",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mundialito De Ciudades",
+     "categoria": "actividad",
+     "contexto": "Competencia entre ciudades argentinas (Médano de Oro/San Juan vs Posadas/Misiones, Mar del Plata vs La Quiaca). Discuten formato, sedes, sorteos y final.",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Pedal De Sustain Para Humanos",
+     "categoria": "producto",
+     "contexto": "Se muestra y prueba un dispositivo de audio modificado para conectar en la nuca y alterar la voz con efectos de sustain, delay y otros filtros.",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "XYJRLyO9exg": {
+   "video_id": "XYJRLyO9exg",
+   "channel_id": "neura",
+   "channel": "Neura Media",
+   "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Educación Financiera",
+     "score": 6
+    },
+    {
+     "tema": "Bitcoin Y Criptomonedas",
+     "score": 5
+    },
+    {
+     "tema": "Educación Financiera Infantil",
+     "score": 3
+    },
+    {
+     "tema": "Cultura Del Dinero En Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Educación Financiera Integral",
+     "score": 3
+    },
+    {
+     "tema": "Ludopatía En Jóvenes",
+     "score": 2
+    },
+    {
+     "tema": "Ahorro E Inversión Infantil",
+     "score": 2
+    },
+    {
+     "tema": "Decisiones Financieras Responsables",
+     "score": 2
+    },
+    {
+     "tema": "Cuenta Comitente Para Menores",
+     "score": 2
+    },
+    {
+     "tema": "Apuestas Y Billeteras Virtuales En Menores",
+     "score": 2
+    },
+    {
+     "tema": "Ley De Educación Financiera Obligatoria",
+     "score": 2
+    },
+    {
+     "tema": "Tabú Sobre Hablar De Dinero",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "educacion",
+     "score": 18
+    },
+    {
+     "categoria": "salud",
+     "score": 10
+    },
+    {
+     "categoria": "actividad",
+     "score": 10
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 9
+    },
+    {
+     "categoria": "cultura",
+     "score": 9
+    },
+    {
+     "categoria": "producto",
+     "score": 8
+    },
+    {
+     "categoria": "politica",
+     "score": 2
+    },
+    {
+     "categoria": "otro",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Educación Financiera",
+     "categoria": "educacion",
+     "contexto": "Discusión sobre la importancia de educación financiera en Argentina, su ausencia en el sistema educativo y propuesta de ley para enseñanza desde sala de 5 años",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Bitcoin Y Criptomonedas",
+     "categoria": "tecnologia",
+     "contexto": "Análisis del precio actual de Bitcoin (59 mil dólares), índice del miedo en pánico extremo, y la importancia de investigar antes de invertir",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ludopatía En Jóvenes",
+     "categoria": "salud",
+     "contexto": "Mención del avance de ludopatía en adolescentes como problema relacionado con la falta de educación financiera",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ahorro E Inversión Infantil",
+     "categoria": "educacion",
+     "contexto": "Sistema de tres frascos (ahorro, disfrute, donar) para enseñar gestión del dinero a niños desde los 5 años",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Decisiones Financieras Responsables",
+     "categoria": "actividad",
+     "contexto": "Énfasis en tomar decisiones conscientes sin caer en falsas promesas y la importancia del 'do your own research'",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mensualidad Infantil",
+     "categoria": "otro",
+     "contexto": "Debate sobre cuándo y cómo dar mensualidad a los hijos para que aprendan a administrar dinero",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Educación Financiera Infantil",
+     "categoria": "educacion",
+     "contexto": "Debate sobre a qué edad enseñar a los niños sobre dinero, empezando desde los 5 años con conceptos de ahorro, disfrute y donación",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Cultura Del Dinero En Argentina",
+     "categoria": "cultura",
+     "contexto": "Argentina tiene educación financiera promedio de 8-12 años mentalmente, pensamiento bimonetario (pesos y dólar), falta de confianza en la moneda",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "bBf-XfM_Q_c": {
+   "video_id": "bBf-XfM_Q_c",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Relaciones A Distancia",
+     "score": 5
+    },
+    {
+     "tema": "Toy Story - Análisis De Películas",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol - Partido De Argentina Vs Jordania",
+     "score": 3
+    },
+    {
+     "tema": "Acrobacias Y Gimnasia Deportiva",
+     "score": 3
+    },
+    {
+     "tema": "Música Argentina Representativa",
+     "score": 3
+    },
+    {
+     "tema": "Cacho Castaña",
+     "score": 3
+    },
+    {
+     "tema": "Telenovelas Argentinas",
+     "score": 3
+    },
+    {
+     "tema": "Nail Art Y Esmaltes",
+     "score": 3
+    },
+    {
+     "tema": "Búsqueda Y Contacto Con Monolizo",
+     "score": 3
+    },
+    {
+     "tema": "Conocer Gente Nueva Post-separación",
+     "score": 3
+    },
+    {
+     "tema": "Momentos Telenovela En La Vida Real",
+     "score": 3
+    },
+    {
+     "tema": "Enamoramientos De Infancia Y Adolescencia",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 49
+    },
+    {
+     "categoria": "cultura",
+     "score": 44
+    },
+    {
+     "categoria": "otro",
+     "score": 19
+    },
+    {
+     "categoria": "persona",
+     "score": 15
+    },
+    {
+     "categoria": "lugar",
+     "score": 12
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 11
+    },
+    {
+     "categoria": "comida",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Ruptura Amorosa",
+     "categoria": "otro",
+     "contexto": "Se habla de una relación que terminó y de despedida",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Evento O Transmisión En Vivo",
+     "categoria": "actividad",
+     "contexto": "Se menciona 'Juvia Quiroz' y un evento donde se baila",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Gira Musical De Rocío Quiroz",
+     "categoria": "actividad",
+     "contexto": "Rocío Quiroz anuncia fechas de gira por todo el país: Mendoza, San Juan, sur, norte, Santiago del Estero, Tucumán, interior de Buenos Aires y Mar del Plata",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Cumbia Quiroz",
+     "categoria": "cultura",
+     "contexto": "Se menciona la banda Cumbia Quiroz y su música, con canción 'Así amor'",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Streaming Los Jueves",
+     "categoria": "tecnologia",
+     "contexto": "Rocío menciona que hacen streaming los días jueves con información de presentaciones",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Partido De La Selección",
+     "categoria": "actividad",
+     "contexto": "Conductor menciona que hoy juega la selección y es el primer partido que puede ver con su familia",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Viaje A Mar Del Plata",
+     "categoria": "lugar",
+     "contexto": "Conductor tiene plan de ir a Mar del Plata en sábado para ver partido con familia, luego cine el domingo",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Toy Story",
+     "categoria": "cultura",
+     "contexto": "Conductores discuten sobre la película Toy Story, sus películas, personajes y spoilers de la trama",
+     "minute": "0:20"
+    }
+   ]
+  },
+  "bQfYZ3sfUYc": {
+   "video_id": "bQfYZ3sfUYc",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "LA NOVELA con CARINA ZAMPINI, DIEGO CASTRO, GABY SCHULTZ Y AGUS BATTIONI | EN VIVO",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Juego De Mentiras En Conversación",
+     "score": 3
+    },
+    {
+     "tema": "Copa Del Mundo Qatar 2022",
+     "score": 3
+    },
+    {
+     "tema": "Copa América / Mundial De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Música En Vivo Y Fogón",
+     "score": 3
+    },
+    {
+     "tema": "Presentaciones En Vivo",
+     "score": 3
+    },
+    {
+     "tema": "Cambio De Look De Gabriel Schultz",
+     "score": 2
+    },
+    {
+     "tema": "Fanatismo Por Franquicias (star Wars, Batman, Argentina Junior)",
+     "score": 2
+    },
+    {
+     "tema": "Sandwichería De Aedo",
+     "score": 2
+    },
+    {
+     "tema": "Problemas De Estacionamiento En Luzu",
+     "score": 2
+    },
+    {
+     "tema": "Problemas Con Ascensor",
+     "score": 2
+    },
+    {
+     "tema": "Turnos Médicos",
+     "score": 2
+    },
+    {
+     "tema": "Dinámicas Entre Compañeros De Trabajo",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 36
+    },
+    {
+     "categoria": "cultura",
+     "score": 20
+    },
+    {
+     "categoria": "lugar",
+     "score": 12
+    },
+    {
+     "categoria": "persona",
+     "score": 8
+    },
+    {
+     "categoria": "otro",
+     "score": 7
+    },
+    {
+     "categoria": "salud",
+     "score": 6
+    },
+    {
+     "categoria": "musica",
+     "score": 6
+    },
+    {
+     "categoria": "comida",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Cambio De Look De Gabriel Schultz",
+     "categoria": "persona",
+     "contexto": "Discusión sobre el corte de pelo corto y la campera con parches de Star Wars que usa Gaby",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Fanatismo Por Franquicias (star Wars, Batman, Argentina Junior)",
+     "categoria": "cultura",
+     "contexto": "Gaby explica que compró la campera de Star Wars porque es fan, se menciona también Batman y Argentina Junior",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Sandwichería De Aedo",
+     "categoria": "lugar",
+     "contexto": "Se comenta sobre una sandwichería que hace sándwiches de miga especiales, Karina le regala sándwiches a Toby",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Problemas De Estacionamiento En Luzu",
+     "categoria": "lugar",
+     "contexto": "Se discute la dificultad para estacionar en el edificio de Luzu en Cabildo, Mili cuenta que estuvo 40 minutos buscando estacionamiento",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Buenas Noticias Del Día",
+     "categoria": "otro",
+     "contexto": "Sección donde comparten eventos positivos: Toby recibe sándwiches, Mili encuentra estacionamiento rápido",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Problemas Con Ascensor",
+     "categoria": "lugar",
+     "contexto": "El conductor cuenta que el ascensor de su casa hacía ruido y fue reparado por un técnico",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Turnos Médicos",
+     "categoria": "salud",
+     "contexto": "Carina tuvo un turno médico a las 13:15 y llegó a tiempo, fue su buena noticia del día",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Dinámicas Entre Compañeros De Trabajo",
+     "categoria": "otro",
+     "contexto": "Discusión sobre regalos entre conductores y comportamiento en el programa",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "bX7MB2_OI2I": {
+   "video_id": "bX7MB2_OI2I",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+   "show_id": "seria-increible",
+   "show_name": "Sería Increíble",
+   "top_temas": [
+    {
+     "tema": "Relación Padre-hijo",
+     "score": 5
+    },
+    {
+     "tema": "Nudismo",
+     "score": 5
+    },
+    {
+     "tema": "Sequedad Vaginal",
+     "score": 5
+    },
+    {
+     "tema": "Roles De Género En Tareas Domésticas",
+     "score": 3
+    },
+    {
+     "tema": "Educación Sexual Y Generaciones",
+     "score": 3
+    },
+    {
+     "tema": "Juicio Maradona - Caso De Mala Praxis Médica",
+     "score": 3
+    },
+    {
+     "tema": "Declaraciones De Luque Y Estrategia Defensiva",
+     "score": 3
+    },
+    {
+     "tema": "Comunicación Padre-hijo",
+     "score": 3
+    },
+    {
+     "tema": "Interna Gobierno - Bullrich Vs Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Crisis Política Adorni-bullrich",
+     "score": 3
+    },
+    {
+     "tema": "Interpelación A Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Teoría Ovnis Partido Brasil-escocia",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 49
+    },
+    {
+     "categoria": "actividad",
+     "score": 47
+    },
+    {
+     "categoria": "persona",
+     "score": 41
+    },
+    {
+     "categoria": "salud",
+     "score": 32
+    },
+    {
+     "categoria": "otro",
+     "score": 29
+    },
+    {
+     "categoria": "comida",
+     "score": 6
+    },
+    {
+     "categoria": "lugar",
+     "score": 6
+    },
+    {
+     "categoria": "politica",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Roles De Género En Tareas Domésticas",
+     "categoria": "cultura",
+     "contexto": "Discusión sobre quién lava los platos, responsabilidades del hombre en casa, generación de hombres 'inútiles'",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Comida De Soltero / Vida Independiente",
+     "categoria": "comida",
+     "contexto": "Debate sobre patita de pollo, empanadas, atún de lata, churrasco, puré; la alimentación del soltero que no sabe cocinar",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Cambios Físicos Con La Edad",
+     "categoria": "salud",
+     "contexto": "Ruidos del cuerpo, pérdida de postura, encorvamiento, cambios en la columna y equilibrio con el paso de los años",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Educación Sexual Y Generaciones",
+     "categoria": "cultura",
+     "contexto": "Falta de diálogo sobre sexo entre padres e hijos, temores homofóbicos de padres grandes, importancia de educación sexual en colegios",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Relación Padre-hijo",
+     "categoria": "otro",
+     "contexto": "Dinámicas familiares, generaciones distintas (clase 75 vs clase 32), falta de comunicación en temas sensibles",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Relación Padre-hijo",
+     "categoria": "otro",
+     "contexto": "Discusión sobre la torpeza de los padres para comunicarse con sus hijos, especialmente sobre temas delicados como sexo",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Libro Sobre Viaje Del Padre",
+     "categoria": "producto",
+     "contexto": "Menciona que saca un libro en agosto sobre un viaje de su papá donde explora la torpeza de los padres",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Incomodidad Generacional",
+     "categoria": "cultura",
+     "contexto": "Hijos que corrigen a padres por cambios de época, padres que se vuelven insoportables o incómodos",
+     "minute": "0:20"
+    }
+   ]
+  },
+  "c1LrQSDaXAY": {
+   "video_id": "c1LrQSDaXAY",
+   "channel_id": "neura",
+   "channel": "Neura Media",
+   "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Premio Sorpresa Del Programa",
+     "score": 3
+    },
+    {
+     "tema": "Viajes En Grupo Y Conflictos",
+     "score": 3
+    },
+    {
+     "tema": "Viajes Y Turismo",
+     "score": 3
+    },
+    {
+     "tema": "Crucero Por El Caribe",
+     "score": 3
+    },
+    {
+     "tema": "Actividades Que Benefician El Cerebro",
+     "score": 3
+    },
+    {
+     "tema": "Viajar Y Turismo",
+     "score": 3
+    },
+    {
+     "tema": "Turismo Wellness",
+     "score": 3
+    },
+    {
+     "tema": "Turismo Wellness En Cruceros",
+     "score": 3
+    },
+    {
+     "tema": "Viaje Como Experiencia Transformadora",
+     "score": 3
+    },
+    {
+     "tema": "Leyes Y Tradiciones Raras Por País",
+     "score": 3
+    },
+    {
+     "tema": "Crucero Caribe Princess",
+     "score": 3
+    },
+    {
+     "tema": "Viaje A La Luna",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 43
+    },
+    {
+     "categoria": "cultura",
+     "score": 18
+    },
+    {
+     "categoria": "lugar",
+     "score": 11
+    },
+    {
+     "categoria": "producto",
+     "score": 8
+    },
+    {
+     "categoria": "salud",
+     "score": 7
+    },
+    {
+     "categoria": "comida",
+     "score": 4
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 3
+    },
+    {
+     "categoria": "servicio",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Premio Sorpresa Del Programa",
+     "categoria": "actividad",
+     "contexto": "Los conductores anuncian un premio importante pero misterioso que será revelado más adelante en el programa",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Viaje A La Luna",
+     "categoria": "actividad",
+     "contexto": "Se especula en el chat si el premio es un viaje a la luna, los conductores lo desmienten pero reconocen estar 'cerca'",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Televisión De Los 90",
+     "categoria": "cultura",
+     "contexto": "Se hace referencia nostálgica a los premios y sorteos de la época de Susana Jiménez",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Viajes En Grupo Y Conflictos",
+     "categoria": "actividad",
+     "contexto": "Discusión sobre cómo siempre hay alguien que arruina los viajes en grupo, ya sea por no ir, quedarse dormido o tener intereses diferentes",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Documentación Para Viajar",
+     "categoria": "actividad",
+     "contexto": "Se aconseja a Chiche que se haga el pasaporte y visa, destacando que es fundamental para viajar",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Anécdota De Dormida Durante Viaje",
+     "categoria": "actividad",
+     "contexto": "Relato sobre cuando la conductora se quedó dormida en una pensión en San Bernardo mientras estaba de viaje, preocupando a su familia",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Desacuerdos De Intereses En Viajes",
+     "categoria": "actividad",
+     "contexto": "Mención a Alejandro Guati y Carly Jiménez que viajaron juntos pero tenían intereses diferentes: uno quería playa, otro shopping",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Seguridad Vial En Buenos Aires",
+     "categoria": "lugar",
+     "contexto": "Viral de turistas asustados en un taxi en Avenida Libertador, relacionado con cambios de carril según horarios",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "cHMIm1Fnig4": {
+   "video_id": "cHMIm1Fnig4",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+   "show_id": "ndn",
+   "show_name": "Nadie Dice Nada",
+   "top_temas": [
+    {
+     "tema": "Partido De Argentina",
+     "score": 5
+    },
+    {
+     "tema": "Viaje A Partido De Selección",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño De Messi En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Dinámicas De Parejas Y Relaciones",
+     "score": 3
+    },
+    {
+     "tema": "Autoevaluación En Roles De Vida",
+     "score": 3
+    },
+    {
+     "tema": "Constelaciones Familiares",
+     "score": 3
+    },
+    {
+     "tema": "Relación Padres-hijos",
+     "score": 3
+    },
+    {
+     "tema": "Culpa Por Ganar Más Dinero Que Los Padres",
+     "score": 3
+    },
+    {
+     "tema": "Lealtades Inconscientes Y Patrones Familiares",
+     "score": 3
+    },
+    {
+     "tema": "Relación Padres E Hijos",
+     "score": 3
+    },
+    {
+     "tema": "Validación Parental En El Éxito",
+     "score": 3
+    },
+    {
+     "tema": "Copa Del Mundo / Fútbol",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 48
+    },
+    {
+     "categoria": "cultura",
+     "score": 33
+    },
+    {
+     "categoria": "lugar",
+     "score": 26
+    },
+    {
+     "categoria": "otro",
+     "score": 18
+    },
+    {
+     "categoria": "psicologia",
+     "score": 15
+    },
+    {
+     "categoria": "comida",
+     "score": 10
+    },
+    {
+     "categoria": "persona",
+     "score": 8
+    },
+    {
+     "categoria": "salud",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Viaje En Avión",
+     "categoria": "actividad",
+     "contexto": "Anécdota sobre dormir en el avión, comportamiento de pasajeros, experiencia del viaje",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Cuidado Facial E Hidratación",
+     "categoria": "salud",
+     "contexto": "Se menciona que usaron pants hidratantes antes del programa para desinflamar el rostro",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Rutina De Higiene Personal",
+     "categoria": "otro",
+     "contexto": "Charla sobre no bañarse, interrupciones por sesiones de maquillaje, rutinas matutinas",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Compras Y Shopping",
+     "categoria": "actividad",
+     "contexto": "Fueron de shopping con Mami y Juli Castro, compraron remeras iguales para las conductoras",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Proyecto De Lentes/colección",
+     "categoria": "producto",
+     "contexto": "Se menciona un proyecto de lentes (Moma Glace) que se cayó, pero lo hace más exclusivo",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Viaje A Partido De Selección",
+     "categoria": "actividad",
+     "contexto": "Viajaron el Mito, el Pulpo, Zafo y el conductor a ver el partido de la selección ayer",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Dinámica Del Equipo Luzu",
+     "categoria": "otro",
+     "contexto": "Charla sobre la relación entre los miembros del equipo, bullying al Pulpo durante el viaje",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Errores Organizativos Del Viaje",
+     "categoria": "actividad",
+     "contexto": "El Pulpo se equivocó con los horarios de Dallas, mezcló zonas horarias",
+     "minute": "0:20"
+    }
+   ]
+  },
+  "fnvj0iK5yDI": {
+   "video_id": "fnvj0iK5yDI",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+   "show_id": "aqn",
+   "show_name": "Antes Que Nadie",
+   "top_temas": [
+    {
+     "tema": "Flamenco Español",
+     "score": 3
+    },
+    {
+     "tema": "Entrenamiento Físico Y Movilidad",
+     "score": 3
+    },
+    {
+     "tema": "Danza Y Baile",
+     "score": 3
+    },
+    {
+     "tema": "Clase De Danza/perreo",
+     "score": 3
+    },
+    {
+     "tema": "Técnica De Movimiento Corporal",
+     "score": 3
+    },
+    {
+     "tema": "Terremoto En Venezuela",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol - Partido De Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Partidos De Fútbol - Torneos Internacionales",
+     "score": 3
+    },
+    {
+     "tema": "Uruguay Vs España",
+     "score": 3
+    },
+    {
+     "tema": "Cortes De Pelo Y Estilos",
+     "score": 3
+    },
+    {
+     "tema": "Crossdressing En Millenials",
+     "score": 3
+    },
+    {
+     "tema": "Relaciones En El Co-work",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 92
+    },
+    {
+     "categoria": "cultura",
+     "score": 73
+    },
+    {
+     "categoria": "persona",
+     "score": 20
+    },
+    {
+     "categoria": "otro",
+     "score": 15
+    },
+    {
+     "categoria": "salud",
+     "score": 12
+    },
+    {
+     "categoria": "lugar",
+     "score": 11
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 6
+    },
+    {
+     "categoria": "producto",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Flamenco Español",
+     "categoria": "cultura",
+     "contexto": "El programa dedica un segmento especial a enseñar flamenco como danza española, trabajando presencia, actitud y conexión con la música",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Entrenamiento Físico Y Movilidad",
+     "categoria": "actividad",
+     "contexto": "Se realizan ejercicios de movilidad articular, flexibilidad y coordinación para mejorar calidad de vida",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Danza Y Baile",
+     "categoria": "actividad",
+     "contexto": "Se combina el baile flamenco con entrenamiento cardiovascular y movimiento corporal",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Hábitos De Vida Saludable",
+     "categoria": "salud",
+     "contexto": "Se menciona mejorar flexibilidad, fuerza, movilidad y cambiar hábitos mediante la actividad física",
+     "minute": "0:00"
+    },
+    {
+     "tema": "España Como Tema Cultural",
+     "categoria": "lugar",
+     "contexto": "Se enfatiza múltiples veces España como destino y tema del especial mundial del programa",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Clase De Danza/perreo",
+     "categoria": "actividad",
+     "contexto": "Se enseña técnica de movimiento de brazos, caderas y pasos de danza social",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Técnica De Movimiento Corporal",
+     "categoria": "actividad",
+     "contexto": "Explicación detallada de posición de codos, muñecas, pisada y cadera",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Presencia Escénica",
+     "categoria": "actividad",
+     "contexto": "Se menciona la importancia de la presencia y actitud al bailar",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "kDbkbzy_ASA": {
+   "video_id": "kDbkbzy_ASA",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
+   "show_id": "tdt",
+   "show_name": "TDT",
+   "top_temas": [
+    {
+     "tema": "Café Cubano",
+     "score": 5
+    },
+    {
+     "tema": "Viaje A Estados Unidos",
+     "score": 4
+    },
+    {
+     "tema": "Viaje A Miami",
+     "score": 3
+    },
+    {
+     "tema": "Partido Brasil Vs Escocia",
+     "score": 3
+    },
+    {
+     "tema": "Encuentro Con Influencer Cami",
+     "score": 3
+    },
+    {
+     "tema": "Robots Delivery (leslie)",
+     "score": 3
+    },
+    {
+     "tema": "Cultura General Argentina Entre Turistas",
+     "score": 3
+    },
+    {
+     "tema": "Copa Del Mundo / Mundial De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Desayuno Americano Vs Argentino",
+     "score": 3
+    },
+    {
+     "tema": "Clima Y Calidad De Aire",
+     "score": 2
+    },
+    {
+     "tema": "Tecnología Autónoma En Miami",
+     "score": 2
+    },
+    {
+     "tema": "Ausencia De Camila",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "comida",
+     "score": 24
+    },
+    {
+     "categoria": "actividad",
+     "score": 20
+    },
+    {
+     "categoria": "lugar",
+     "score": 19
+    },
+    {
+     "categoria": "cultura",
+     "score": 14
+    },
+    {
+     "categoria": "otro",
+     "score": 11
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 8
+    },
+    {
+     "categoria": "persona",
+     "score": 5
+    },
+    {
+     "categoria": "salud",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Viaje A Miami",
+     "categoria": "lugar",
+     "contexto": "Los conductores están en Miami, South Beach, recorriendo el barrio y explorando la ciudad",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Clima Y Calidad De Aire",
+     "categoria": "otro",
+     "contexto": "Comentan sobre la temperatura de 38 grados, mala calidad del aire y tormentas en Miami",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Partido Brasil Vs Escocia",
+     "categoria": "actividad",
+     "contexto": "Van a cubrir el partido entre Brasil y Escocia, con énfasis en los aficionados escoceses en Ocean Drive",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Gimnasio En South Beach",
+     "categoria": "lugar",
+     "contexto": "Visitaron un gimnasio en el barrio, lo describen como buenísimo, con aire acondicionado y poca gente",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Tecnología Autónoma En Miami",
+     "categoria": "tecnologia",
+     "contexto": "Mencionan carros que llevan comida automáticamente y taxis autónomos con cámaras",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ausencia De Camila",
+     "categoria": "persona",
+     "contexto": "Camila no apareció en el programa por el calor, la están buscando como broma",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Partido Brasil-escocia",
+     "categoria": "actividad",
+     "contexto": "Abridor del programa, expectativa por el partido mundialista en Miami, predicción de resultado 1-0",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Clima Mundialista En Miami",
+     "categoria": "lugar",
+     "contexto": "Descripción del ambiente en la ciudad con escoceses y brazucas, ubicación del fanfest de Escocia en Ocean Drive",
+     "minute": "0:20"
+    }
+   ]
+  },
+  "mxFu-R3O8TY": {
+   "video_id": "mxFu-R3O8TY",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+   "show_id": "seria-increible",
+   "show_name": "Sería Increíble",
+   "top_temas": [
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 9
+    },
+    {
+     "tema": "Terremoto En Venezuela",
+     "score": 5
+    },
+    {
+     "tema": "Crisis En Venezuela",
+     "score": 5
+    },
+    {
+     "tema": "Financiamiento Universitario",
+     "score": 4
+    },
+    {
+     "tema": "Femicidio De Agostina - Caso Barrelier",
+     "score": 3
+    },
+    {
+     "tema": "Caso De Feminicidio Y Descuartizamiento",
+     "score": 3
+    },
+    {
+     "tema": "Viuda Negra - Homicidio En Zona Sur",
+     "score": 3
+    },
+    {
+     "tema": "Caso Menem - Muerte Del Socio Contador",
+     "score": 3
+    },
+    {
+     "tema": "Sesión Fallida En El Senado",
+     "score": 3
+    },
+    {
+     "tema": "Caso Adorni Y Corrupción",
+     "score": 3
+    },
+    {
+     "tema": "Viajes Presidenciales De Milei",
+     "score": 3
+    },
+    {
+     "tema": "Ley De Financiamiento Universitario",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 74
+    },
+    {
+     "categoria": "actividad",
+     "score": 51
+    },
+    {
+     "categoria": "otro",
+     "score": 45
+    },
+    {
+     "categoria": "salud",
+     "score": 20
+    },
+    {
+     "categoria": "persona",
+     "score": 16
+    },
+    {
+     "categoria": "lugar",
+     "score": 14
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 7
+    },
+    {
+     "categoria": "comida",
+     "score": 6
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Ventanas Y Voyeurismo Urbano",
+     "categoria": "actividad",
+     "contexto": "Conversación sobre mirar por ventanas de edificios y ver qué sucede adentro, imaginarse historias",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Vida En Departamentos",
+     "categoria": "lugar",
+     "contexto": "Experiencia de vivir en departamento con vista a otros y observar múltiples escenas simultáneamente",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Terremoto En Venezuela",
+     "categoria": "otro",
+     "contexto": "Noticia sobre dos sismos simultáneos en Venezuela, respuesta solidaria internacional con envío de ayuda",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Terremotos Gemelos",
+     "categoria": "tecnologia",
+     "contexto": "Explicación técnica de dos terremotos de magnitudes 7.2 y 7.5 que son distintos pero simultáneos, no réplica uno del otro",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Los Sopranos (serie)",
+     "categoria": "cultura",
+     "contexto": "Referencia al personaje que se bronceaba en la esquina de la carnicería en la serie",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Crisis En Venezuela",
+     "categoria": "lugar",
+     "contexto": "Destrucción en Chacao, edificios colapsados, 235 muertos y 4.300 heridos reportados",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Apoyo A Venezolanos En Argentina",
+     "categoria": "salud",
+     "contexto": "Recursos de contención psicológica para emigrantes sin comunicación con familias afectadas",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Cambio De Look Del Operador",
+     "categoria": "otro",
+     "contexto": "Diego Vallejos se tiñó el pelo y se hizo mechas, comparaciones con Beatles y Rolinga",
+     "minute": "0:20"
+    }
+   ]
+  },
+  "oB3uH7aQwTU": {
+   "video_id": "oB3uH7aQwTU",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "SE FUE LARGA con FERBO, DOMI FAENA, TULI ACOSTA, MICA VASQUEZ, BELU NEGRI Y LUCAS LEZIN | EN VIVO",
+   "show_id": "sfl",
+   "show_name": "Se Fue Larga",
+   "top_temas": [
+    {
+     "tema": "Parque Temático Titán",
+     "score": 3
+    },
+    {
+     "tema": "Montañas Rusas",
+     "score": 3
+    },
+    {
+     "tema": "Six Flags Dallas",
+     "score": 3
+    },
+    {
+     "tema": "Resaca Y Consumo De Alcohol",
+     "score": 3
+    },
+    {
+     "tema": "Relaciones Interculturales",
+     "score": 3
+    },
+    {
+     "tema": "Relaciones Abiertas",
+     "score": 3
+    },
+    {
+     "tema": "Relaciones Y Encuentros Casuales",
+     "score": 3
+    },
+    {
+     "tema": "Infidelidad Y Traición",
+     "score": 3
+    },
+    {
+     "tema": "Confesiones De Audiencia",
+     "score": 3
+    },
+    {
+     "tema": "Experiencias Lésbicas Y Orientación Sexual",
+     "score": 3
+    },
+    {
+     "tema": "Relaciones Y Confesiones De Audiencia",
+     "score": 3
+    },
+    {
+     "tema": "Lanzamiento De Canción 'the End'",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 42
+    },
+    {
+     "categoria": "lugar",
+     "score": 27
+    },
+    {
+     "categoria": "cultura",
+     "score": 27
+    },
+    {
+     "categoria": "otro",
+     "score": 19
+    },
+    {
+     "categoria": "salud",
+     "score": 13
+    },
+    {
+     "categoria": "producto",
+     "score": 7
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 4
+    },
+    {
+     "categoria": "persona",
+     "score": 3
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Parque Temático Titán",
+     "categoria": "lugar",
+     "contexto": "Visitan y recorren el parque Titán en Dallas, suben a montañas rusas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Montañas Rusas",
+     "categoria": "actividad",
+     "contexto": "Suben a varias atracciones del parque, describen la experiencia y el miedo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Clima/temperatura",
+     "categoria": "otro",
+     "contexto": "Mencionan 33 grados en Dallas y el calor intenso",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Souvenirs/tienda De Regalos",
+     "categoria": "producto",
+     "contexto": "Compran sombreros temáticos en forma de frutas en la tienda del parque",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Compras Y Regalos De Maquillaje",
+     "categoria": "producto",
+     "contexto": "Están viendo regalos de maquillaje y comentan que terminan comprando cosas que ven",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Gorros Y Accesorios De Moda",
+     "categoria": "producto",
+     "contexto": "Debaten el precio de gorros, comparando con marcas de lujo como Gucci",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Six Flags Dallas",
+     "categoria": "lugar",
+     "contexto": "Están recorriendo Six Flags en Dallas, probando montañas rusas y atracciones",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Fast Pass En Parques De Diversiones",
+     "categoria": "producto",
+     "contexto": "Mencionan el costo del fast pass para evitar colas, dicen que cuesta 30 dólares",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "ptOHcGEdWCk": {
+   "video_id": "ptOHcGEdWCk",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Sketch De Beltrán Brother (rapero De Bienes Raíces)",
+     "score": 3
+    },
+    {
+     "tema": "Selección Argentina - Mentalidad Psicológica",
+     "score": 3
+    },
+    {
+     "tema": "Messi - Récords Guinness World Records",
+     "score": 3
+    },
+    {
+     "tema": "Scaloni - Dirección Técnica",
+     "score": 3
+    },
+    {
+     "tema": "Soltería Y Búsqueda De Amor",
+     "score": 3
+    },
+    {
+     "tema": "Audios De Seducción Fallidos",
+     "score": 3
+    },
+    {
+     "tema": "Dinámicas De Conquista Y Romance",
+     "score": 3
+    },
+    {
+     "tema": "Conquista Y Seducción Masculina",
+     "score": 3
+    },
+    {
+     "tema": "Comportamiento Tóxico En Redes/chat",
+     "score": 3
+    },
+    {
+     "tema": "Área 51 Y Ovnis",
+     "score": 3
+    },
+    {
+     "tema": "Situaciones Incómodas Personales",
+     "score": 3
+    },
+    {
+     "tema": "Mundialito De Ciudades",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 32
+    },
+    {
+     "categoria": "cultura",
+     "score": 18
+    },
+    {
+     "categoria": "persona",
+     "score": 12
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 11
+    },
+    {
+     "categoria": "lugar",
+     "score": 9
+    },
+    {
+     "categoria": "salud",
+     "score": 7
+    },
+    {
+     "categoria": "otro",
+     "score": 6
+    },
+    {
+     "categoria": "producto",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Turismo En Córdoba",
+     "categoria": "lugar",
+     "contexto": "Córdoba presentada como capital de escapadas, sierra office, deporte, naturaleza",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Clima Y Frío En Buenos Aires",
+     "categoria": "otro",
+     "contexto": "Se menciona hace mucho frío, movileros congelados, 4 grados de temperatura",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Película Nueve Reinas",
+     "categoria": "cultura",
+     "contexto": "Discusión sobre escenas de la película, mención de documental Nueve Auras",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Música Y Nora Jones",
+     "categoria": "cultura",
+     "contexto": "Se pide música tipo Sunrise de Nora Jones, se menciona último disco de Fito",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Minicomponentes Telefunken",
+     "categoria": "tecnologia",
+     "contexto": "Anécdota sobre minicomponente redondo azul llamado 'la bolita' que se vendió muchísimo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Juego Random Power",
+     "categoria": "actividad",
+     "contexto": "Mencionan juego llamado Random Power donde hay que decir frases con 'aura'",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Sketch De Beltrán Brother (rapero De Bienes Raíces)",
+     "categoria": "cultura",
+     "contexto": "Crean un personaje de rapero que habla sobre desarrollos inmobiliarios y demolición de villas, con crítica política satírica",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Partido De La Selección Argentina",
+     "categoria": "actividad",
+     "contexto": "Vieron el partido en vivo en Olga, Lucas no se sentó en todo el partido, prohibieron gritar goles de Messi",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "q_clAienUJw": {
+   "video_id": "q_clAienUJw",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+   "show_id": "seria-increible",
+   "show_name": "Sería Increíble",
+   "top_temas": [
+    {
+     "tema": "Cumpleaños De Messi",
+     "score": 5
+    },
+    {
+     "tema": "Impuestos Y Deudas",
+     "score": 3
+    },
+    {
+     "tema": "Récord Histórico De Messi En Mundiales",
+     "score": 3
+    },
+    {
+     "tema": "Legado Y Carrera De Messi",
+     "score": 3
+    },
+    {
+     "tema": "Festejo Del Mundial 86 Y Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Messi Como Símbolo De Unidad Nacional",
+     "score": 3
+    },
+    {
+     "tema": "Messi Y Su Impacto Global",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol En Bangladesh",
+     "score": 3
+    },
+    {
+     "tema": "Caso Agostina Vega",
+     "score": 3
+    },
+    {
+     "tema": "Violencia Sexual Y Femicidio",
+     "score": 3
+    },
+    {
+     "tema": "Encubrimiento Criminal",
+     "score": 3
+    },
+    {
+     "tema": "Violencia De Género Y Femicidios",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "persona",
+     "score": 57
+    },
+    {
+     "categoria": "actividad",
+     "score": 48
+    },
+    {
+     "categoria": "otro",
+     "score": 42
+    },
+    {
+     "categoria": "cultura",
+     "score": 35
+    },
+    {
+     "categoria": "producto",
+     "score": 19
+    },
+    {
+     "categoria": "salud",
+     "score": 15
+    },
+    {
+     "categoria": "lugar",
+     "score": 14
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 11
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Temperatura Y Clima",
+     "categoria": "otro",
+     "contexto": "Se menciona que hace 10 grados en el auto y es el día más frío del año que viene",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Lugar Terrible Lunes",
+     "categoria": "lugar",
+     "contexto": "Se menciona que hay dos carros de policía en Terrible Lunes y está lleno después del triunfo de la selección",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Triunfo De La Selección",
+     "categoria": "cultura",
+     "contexto": "Se habla del último gol y la celebración después del triunfo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Película Drácula",
+     "categoria": "cultura",
+     "contexto": "Se menciona haber ido a ver a Drácula anoche",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Impuestos Y Deudas",
+     "categoria": "otro",
+     "contexto": "Se discute sobre impuestos que no bajaron, deudas de familias argentinas y problemas financieros",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Hipódromo De San Isidro",
+     "categoria": "lugar",
+     "contexto": "Se relata una anécdota sobre el estacionamiento del hipódromo de San Isidro",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Moraleja Sobre Acompañamiento Emocional",
+     "categoria": "otro",
+     "contexto": "Se habla de estar cansados y deprimidos pero acompañar a la audiencia",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Récord Histórico De Messi En Mundiales",
+     "categoria": "deporte",
+     "contexto": "Messi se convierte en máximo goleador de la historia de los mundiales con 18 tantos, superando a Klose",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "s__pKWUr4MM": {
+   "video_id": "s__pKWUr4MM",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
+   "show_id": "tapados",
+   "show_name": "Tapados de Laburo",
+   "top_temas": [
+    {
+     "tema": "Rescate Y Adopción De Rosy (perrita)",
+     "score": 3
+    },
+    {
+     "tema": "Cumpleaños De Miga (mascota)",
+     "score": 3
+    },
+    {
+     "tema": "Cumpleaños De Mascota (miga)",
+     "score": 3
+    },
+    {
+     "tema": "Adopción De Mascotas",
+     "score": 3
+    },
+    {
+     "tema": "Abducción Alienígena",
+     "score": 3
+    },
+    {
+     "tema": "Corte De Luz Edesur",
+     "score": 3
+    },
+    {
+     "tema": "Audiencia De Chile",
+     "score": 3
+    },
+    {
+     "tema": "Funcionamiento Técnico Del Programa",
+     "score": 3
+    },
+    {
+     "tema": "Rescate Y Adopción De Galgos",
+     "score": 3
+    },
+    {
+     "tema": "Explotación De Galgos",
+     "score": 3
+    },
+    {
+     "tema": "Resiliencia Y Superación",
+     "score": 2
+    },
+    {
+     "tema": "Personalidad De Mascotas",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 21
+    },
+    {
+     "categoria": "otro",
+     "score": 14
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 13
+    },
+    {
+     "categoria": "cultura",
+     "score": 11
+    },
+    {
+     "categoria": "salud",
+     "score": 3
+    },
+    {
+     "categoria": "producto",
+     "score": 2
+    },
+    {
+     "categoria": "comida",
+     "score": 2
+    },
+    {
+     "categoria": "lugar",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Rescate Y Adopción De Rosy (perrita)",
+     "categoria": "otro",
+     "contexto": "Relato detallado de cómo encontraron a Rosy pelada en una estación de servicio en Córdoba y la trajeron a casa",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cumpleaños De Miga (mascota)",
+     "categoria": "otro",
+     "contexto": "Celebración del primer año (estimado) de vida de Miga, con sorpresas y programa especial",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Sarna En Mascotas Y Humanos",
+     "categoria": "salud",
+     "contexto": "Discusión sobre la sarna de Rosy cuando fue rescatada y el contagio a humanos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Viaje A Córdoba",
+     "categoria": "lugar",
+     "contexto": "Mención de mudanza desde Córdoba con toda la casa dinamitada de valijas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Resiliencia Y Superación",
+     "categoria": "cultura",
+     "contexto": "Reflexión sobre volver a levantarse ante golpes y luchar por los sueños",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Personalidad De Mascotas",
+     "categoria": "otro",
+     "contexto": "Descripción de Rosy como una señora mayor atrapada en cuerpo pequeño, con diferentes intentos de ser charrasa o salchicha",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cumpleaños De Mascota (miga)",
+     "categoria": "actividad",
+     "contexto": "Celebración del primer año de vida de la perrita Miga adoptada, con torta y regalos",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Adopción De Mascotas",
+     "categoria": "actividad",
+     "contexto": "Conversación sobre el proceso de adopción, vencer miedos y la conexión emocional con las mascotas adoptadas",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "tAUTd2FsMxA": {
+   "video_id": "tAUTd2FsMxA",
+   "channel_id": "bondi",
+   "channel": "Bondi Live",
+   "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Preferencias Alimenticias Y Gustos Personales",
+     "score": 3
+    },
+    {
+     "tema": "Caso Jessica Sirio - Videos Comprometentes",
+     "score": 3
+    },
+    {
+     "tema": "Declaración Judicial De Diego Suárez",
+     "score": 3
+    },
+    {
+     "tema": "Elías Pichirilo - Investigación Y Rol",
+     "score": 3
+    },
+    {
+     "tema": "Cámara Oculta De Pichirilo A Persona Famosa",
+     "score": 3
+    },
+    {
+     "tema": "Extorsión Y Dinero Ilícito",
+     "score": 3
+    },
+    {
+     "tema": "Jessica Sirio Y Videos Comprometedores",
+     "score": 3
+    },
+    {
+     "tema": "Investigación De Corrupción Política",
+     "score": 3
+    },
+    {
+     "tema": "Caso Jessica Sirio Y Pichirilo",
+     "score": 3
+    },
+    {
+     "tema": "Dinero Y Dólares En Video Comprometedor",
+     "score": 3
+    },
+    {
+     "tema": "Selectividad Alimentaria Psicológica",
+     "score": 3
+    },
+    {
+     "tema": "Terremoto En Venezuela",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "persona",
+     "score": 49
+    },
+    {
+     "categoria": "actividad",
+     "score": 38
+    },
+    {
+     "categoria": "otro",
+     "score": 33
+    },
+    {
+     "categoria": "cultura",
+     "score": 31
+    },
+    {
+     "categoria": "salud",
+     "score": 20
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 10
+    },
+    {
+     "categoria": "lugar",
+     "score": 7
+    },
+    {
+     "categoria": "comida",
+     "score": 6
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Fin De Largo",
+     "categoria": "actividad",
+     "contexto": "En dos semanas hay fin de largo, se menciona como buena noticia para todos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ejército De La Mañana",
+     "categoria": "otro",
+     "contexto": "Nombre del programa o sección que se está transmitiendo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Sueño Y Descanso",
+     "categoria": "salud",
+     "contexto": "La conductora comenta que se nota que durmió poco/mal",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Consumo De Alcohol",
+     "categoria": "salud",
+     "contexto": "Menciona que tomó vino en la cena y que le pegó porque no está consumiendo casi alcohol",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Vida Social Y Cenas",
+     "categoria": "actividad",
+     "contexto": "Salida a cenar con amigos (Pepe y Ángel)",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Preferencias Alimenticias Y Gustos Personales",
+     "categoria": "comida",
+     "contexto": "Debate extenso sobre qué alimentos no les gustan a los conductores: helado, mate, tomate, café. Pampita no toma alcohol.",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Cena Con Chisme De Gran Hermano",
+     "categoria": "cultura",
+     "contexto": "Se menciona ida y vuelta entre Janina La Torre y Cris Vanadía durante cena, conflicto inesperado en vivo",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Nuevo Programa Anunciado",
+     "categoria": "actividad",
+     "contexto": "Se menciona que hay cambios en septiembre y una propuesta concreta, audiencia pide confirmación",
+     "minute": "0:20"
+    }
+   ]
+  },
+  "tcq7UAzc3iw": {
+   "video_id": "tcq7UAzc3iw",
+   "channel_id": "blend",
+   "channel": "BLENDER",
+   "title": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Humor Y Chistes",
+     "score": 6
+    },
+    {
+     "tema": "Cumpleaños De Lionel Messi",
+     "score": 3
+    },
+    {
+     "tema": "Mundial De Fútbol / Selección Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Remo Vikingo",
+     "score": 3
+    },
+    {
+     "tema": "Acrobacias Y Circo",
+     "score": 3
+    },
+    {
+     "tema": "Humor Y Chistes En Vivo",
+     "score": 3
+    },
+    {
+     "tema": "Humor Sexual",
+     "score": 3
+    },
+    {
+     "tema": "Silencio Comprado A Influencers",
+     "score": 3
+    },
+    {
+     "tema": "Nuevo Presidente De Colombia",
+     "score": 3
+    },
+    {
+     "tema": "Taller De Monstruos",
+     "score": 2
+    },
+    {
+     "tema": "Cierre Musical",
+     "score": 2
+    },
+    {
+     "tema": "Envejecimiento Y Reflexión Existencial",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 27
+    },
+    {
+     "categoria": "actividad",
+     "score": 22
+    },
+    {
+     "categoria": "persona",
+     "score": 17
+    },
+    {
+     "categoria": "salud",
+     "score": 7
+    },
+    {
+     "categoria": "comida",
+     "score": 5
+    },
+    {
+     "categoria": "otro",
+     "score": 5
+    },
+    {
+     "categoria": "lugar",
+     "score": 4
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Carne De Cerdo Y Recetas",
+     "categoria": "comida",
+     "contexto": "Se menciona carne de cerdo y C.O., compartiendo recetas y tips nutricionales en redes sociales",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Taller De Monstruos",
+     "categoria": "actividad",
+     "contexto": "Los conductores agradecen a los invitados por haber participado en el taller de monstruos del programa",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cierre Musical",
+     "categoria": "cultura",
+     "contexto": "Se anuncia un cierre musical con canción del 'Nono Pro' sobre envejecimiento",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Envejecimiento Y Reflexión Existencial",
+     "categoria": "otro",
+     "contexto": "Canción de cierre trata sobre el paso del tiempo y envejecimiento: 'Me estoy viniendo viejo'",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Estado De Salud Del Conductor",
+     "categoria": "salud",
+     "contexto": "El conductor menciona que viene cansado y con la presión baja, por eso pide café",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Café",
+     "categoria": "comida",
+     "contexto": "Le piden a Cata un café porque tiene la presión baja, pregunta si lo quiere con azúcar",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Cine",
+     "categoria": "actividad",
+     "contexto": "Se menciona que la semana pasada estuvieron en el cine y que hay pochoclo esta noche",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Conexión Remota/5g",
+     "categoria": "tecnologia",
+     "contexto": "Comentan que la conexión se está cortando en 5G durante la llamada con José María Listón",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "teZ-nZ63J0I": {
+   "video_id": "teZ-nZ63J0I",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "#FMLUZU | LA CASTRO SE BAJÓ DE LAS APPS DE CITAS + LE HACEMOS UNA CANCIÓN + MANO A MANO CASTRINI",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Relaciones De Pareja Y Compromiso",
+     "score": 3
+    },
+    {
+     "tema": "Soledad Vs Vida En Pareja",
+     "score": 3
+    },
+    {
+     "tema": "Relaciones Y Autoconocimiento",
+     "score": 3
+    },
+    {
+     "tema": "Partido De Argentina - Octavos De Final",
+     "score": 3
+    },
+    {
+     "tema": "Equilibrio Trabajo-vida Personal",
+     "score": 3
+    },
+    {
+     "tema": "Relaciones De Pareja Con Horarios Incompatibles",
+     "score": 3
+    },
+    {
+     "tema": "Sacrificio Personal Vs. Sueños Profesionales",
+     "score": 3
+    },
+    {
+     "tema": "Perseguir Sueños Vs Estabilidad Laboral",
+     "score": 3
+    },
+    {
+     "tema": "Transición Del Mundo Corporativo Al Artístico",
+     "score": 3
+    },
+    {
+     "tema": "Amistad Y Contención Emocional",
+     "score": 3
+    },
+    {
+     "tema": "Música De Boliche",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol - Selección Argentina",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 33
+    },
+    {
+     "categoria": "actividad",
+     "score": 26
+    },
+    {
+     "categoria": "otro",
+     "score": 10
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 5
+    },
+    {
+     "categoria": "educacion",
+     "score": 1
+    },
+    {
+     "categoria": "lugar",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Relaciones De Pareja Y Compromiso",
+     "categoria": "cultura",
+     "contexto": "Debate sobre si las relaciones deben ser para toda la vida, diferencias entre teoría y práctica en el amor, gestión de vínculos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Soledad Vs Vida En Pareja",
+     "categoria": "cultura",
+     "contexto": "Conversación sobre ventajas y desventajas de estar solo versus estar en pareja, negociación de tranquilidad",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Fútbol - Selección Argentina",
+     "categoria": "actividad",
+     "contexto": "Mañana juega Argentina, también menciona Uruguay vs España a las 9 y Cabo Verde vs Arabia Saudita",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Series De Tv - Off Campus",
+     "categoria": "tecnologia",
+     "contexto": "Comentarios sobre la serie Off Campus para ver el viernes por la noche, crítica sobre los guiones",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Aplicaciones De Citas",
+     "categoria": "tecnologia",
+     "contexto": "Diego menciona que abandonó las apps de citas hace unos meses, tenía su nombre y foto",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Emocionalidad En Relaciones",
+     "categoria": "cultura",
+     "contexto": "Diego habla sobre ser muy pasional, ilusionarse y desilusionarse con intensidad, inseguridades",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Relaciones Y Autoconocimiento",
+     "categoria": "otro",
+     "contexto": "Debate sobre la importancia de estar bien con uno mismo para tener relaciones sanas",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Comunicación Y Escucha Activa",
+     "categoria": "otro",
+     "contexto": "Se habla de la importancia de la escucha activa y encontrar puntos en común con otros",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "tlhTO7YtTJ0": {
+   "video_id": "tlhTO7YtTJ0",
+   "channel_id": "gelatina",
+   "channel": "GELATINA",
+   "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Apuestas Deportivas Y Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Caso Adorni - Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Informalidad Laboral En Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Precarización Del Empleo",
+     "score": 3
+    },
+    {
+     "tema": "Salarios Y Recuperación Económica",
+     "score": 3
+    },
+    {
+     "tema": "Conflicto Universitario Y Sentencia De La Corte",
+     "score": 3
+    },
+    {
+     "tema": "Ludopatía En Adolescentes",
+     "score": 3
+    },
+    {
+     "tema": "Apuestas Deportivas Online",
+     "score": 3
+    },
+    {
+     "tema": "Apuestas Online Y Ludopatía En Adolescentes",
+     "score": 3
+    },
+    {
+     "tema": "Bombardeo Publicitario De Casas De Apuestas",
+     "score": 3
+    },
+    {
+     "tema": "Deuda Por Apuestas En Familias Argentinas",
+     "score": 3
+    },
+    {
+     "tema": "Proyecto De Ley Regulatorio De Apuestas",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "salud",
+     "score": 27
+    },
+    {
+     "categoria": "cultura",
+     "score": 25
+    },
+    {
+     "categoria": "actividad",
+     "score": 23
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 13
+    },
+    {
+     "categoria": "persona",
+     "score": 9
+    },
+    {
+     "categoria": "economia",
+     "score": 7
+    },
+    {
+     "categoria": "politica",
+     "score": 7
+    },
+    {
+     "categoria": "otro",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Apuestas Deportivas Y Mundial",
+     "categoria": "actividad",
+     "contexto": "Estamos atravesando el mundial de las apuestas, informe especial sobre este tema",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Problema Social En Adolescentes",
+     "categoria": "salud",
+     "contexto": "Hay un problema social del que se está hablando poco y que afecta principalmente a los adolescentes",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Selección Argentina Vs Jordania",
+     "categoria": "actividad",
+     "contexto": "Seba Gándara desde Estados Unidos en la previa del partido de mañana de la selección, juega este sábado con Jordania",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Caso Adorni - Jefe De Gabinete",
+     "categoria": "persona",
+     "contexto": "Debate sobre si Adorni debería seguir siendo jefe de gabinete, sesión fallida en el Senado para tratarlo, Milei lo sostiene",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Informalidad Laboral En Argentina",
+     "categoria": "salud",
+     "contexto": "Récord histórico de informalidad al 44,2%, casi 10 millones de trabajadores sin aportes jubilatorios ni cobertura de salud",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Escándalo Sirio-insaurralde",
+     "categoria": "persona",
+     "contexto": "Publicación de videos de Jessica Sirio mostrando fajos de dólares, supuestamente grabados con fines extorsivos en contexto de divorcio",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Cambio De Vocero En Casa Rosada",
+     "categoria": "persona",
+     "contexto": "Manuela Dorni deja de ser vocero, reemplazada por alguien supuestamente más amable con la pauta",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Vajilla Presidencial",
+     "categoria": "otro",
+     "contexto": "Casa Rosada ordena renovar la vajilla presidencial desde la Secretaría General de Presidencia, a cargo de Carina",
+     "minute": "0:20"
+    }
+   ]
+  },
+  "wpLDMAyU_fA": {
+   "video_id": "wpLDMAyU_fA",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "#PATRIAYFAMILIA l CÁMARA OCULTA A MARCOS GILES Y SE CHAMUYAN A AGUSNETA",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Coreografía Y Baile",
+     "score": 3
+    },
+    {
+     "tema": "Función De Repost En Instagram",
+     "score": 3
+    },
+    {
+     "tema": "Relación Uriana Y Churrero",
+     "score": 3
+    },
+    {
+     "tema": "Cámara Oculta A Marquito Giles",
+     "score": 3
+    },
+    {
+     "tema": "Drama Uriana Y El Churrero",
+     "score": 3
+    },
+    {
+     "tema": "Acusaciones De Contenido Armado",
+     "score": 3
+    },
+    {
+     "tema": "Conflicto Y Ruptura Profesional",
+     "score": 3
+    },
+    {
+     "tema": "Difamación Y Reputación En Redes",
+     "score": 3
+    },
+    {
+     "tema": "Conflicto Laureana Y Domi",
+     "score": 3
+    },
+    {
+     "tema": "Dinámicas De Grupo Y Triángulos Amorosos",
+     "score": 3
+    },
+    {
+     "tema": "Llamadas Al Programa Para Levantar A Agusneta",
+     "score": 3
+    },
+    {
+     "tema": "Dating Show / Encuentros",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 63
+    },
+    {
+     "categoria": "actividad",
+     "score": 36
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 23
+    },
+    {
+     "categoria": "persona",
+     "score": 17
+    },
+    {
+     "categoria": "otro",
+     "score": 6
+    },
+    {
+     "categoria": "salud",
+     "score": 3
+    },
+    {
+     "categoria": "producto",
+     "score": 2
+    },
+    {
+     "categoria": "lugar",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Coreografía Y Baile",
+     "categoria": "actividad",
+     "contexto": "Discusión sobre aprendizaje de coreografía, memoria muscular y desempeño de participantes en baile",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cumpleaños De Lionel Messi",
+     "categoria": "persona",
+     "contexto": "Se menciona que hoy 24 de junio es el día más argentino del año porque nació Messi y hay campaña para cantarle feliz cumpleaños",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Llegada De Anita Al Programa",
+     "categoria": "persona",
+     "contexto": "Se espera la llegada de Anita al estudio, con bromas sobre cómo llegará",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Anécdota De Pinamar",
+     "categoria": "lugar",
+     "contexto": "Se recuerda cuando Cami llegó tarde desde Pinamar y le hicieron un móvil siguiendo su ingreso al estudio",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ídolos Del Fútbol Argentino",
+     "categoria": "cultura",
+     "contexto": "Discusión sobre Messi, Fangio, Riquelme, Palermo, Maradona como figuras relevantes de Argentina",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Riquelme Vs Palermo En Boca",
+     "categoria": "cultura",
+     "contexto": "Debate sobre quién es más ídolo de Boca Juniors, rivalidad histórica entre grupos del vestuario",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Aniversarios De Fallecidos",
+     "categoria": "cultura",
+     "contexto": "Conmemoración de Carlos Gardel y Rodrigo Bueno, reflexión sobre generaciones",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Función De Repost En Instagram",
+     "categoria": "tecnologia",
+     "contexto": "Discusión sobre el botón de repost, accidentes al repostear contenido, sensibilidad del botón",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "yp1SuqSXmxA": {
+   "video_id": "yp1SuqSXmxA",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
+   "show_id": "aqn",
+   "show_name": "Antes Que Nadie",
+   "top_temas": [
+    {
+     "tema": "Tango Argentino",
+     "score": 3
+    },
+    {
+     "tema": "Clase De Tango",
+     "score": 3
+    },
+    {
+     "tema": "Rupturas Y Relaciones",
+     "score": 3
+    },
+    {
+     "tema": "Mundial 2026",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol Y Selección Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Cumpleaños De Messi",
+     "score": 3
+    },
+    {
+     "tema": "Síndrome De Rancho Y Fomo",
+     "score": 3
+    },
+    {
+     "tema": "Dinámica De Amistades Y Relaciones",
+     "score": 3
+    },
+    {
+     "tema": "Toy Story (película)",
+     "score": 3
+    },
+    {
+     "tema": "Grupo De Whatsapp Miami",
+     "score": 3
+    },
+    {
+     "tema": "Copa América / Partido De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Juego De Adivinanzas De Futbolistas",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 65
+    },
+    {
+     "categoria": "actividad",
+     "score": 60
+    },
+    {
+     "categoria": "otro",
+     "score": 20
+    },
+    {
+     "categoria": "salud",
+     "score": 17
+    },
+    {
+     "categoria": "lugar",
+     "score": 15
+    },
+    {
+     "categoria": "comida",
+     "score": 12
+    },
+    {
+     "categoria": "persona",
+     "score": 10
+    },
+    {
+     "categoria": "relaciones",
+     "score": 7
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Tango Argentino",
+     "categoria": "cultura",
+     "contexto": "Se presenta a bailarines de tango que explican la historia y evolución del tango, desde sus orígenes en suburbios y burdeles hasta su reconocimiento como patrimonio cultural en 2009",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Actividad Física Y Bienestar",
+     "categoria": "actividad",
+     "contexto": "El programa promete mejorar flexibilidad, movilidad y fuerza a través de actividades que incluyen baile",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "categoria": "cultura",
+     "contexto": "Mención del mundial y referencias a Argentina en el contexto del programa especial",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Historia Del Tango",
+     "categoria": "cultura",
+     "contexto": "Explicación detallada sobre los orígenes del tango entre hombres, su evolución en Francia y su retorno a Argentina",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Clase De Tango",
+     "categoria": "actividad",
+     "contexto": "Enseñanza de pasos básicos de tango con 8 movimientos, abrazo y técnica",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Suplementación Nutricional",
+     "categoria": "salud",
+     "contexto": "Mención de la importancia de suplementarse cuando se entrena, presentación de marca Natier",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Zapatos De Tango",
+     "categoria": "producto",
+     "contexto": "Mención de zapatos de tango hechos en Argentina, para 15 años y casamientos",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Música En Vivo",
+     "categoria": "cultura",
+     "contexto": "Énfasis en la importancia de la música de fondo para bailar tango correctamente",
+     "minute": "0:10"
+    }
+   ]
+  }
+ }
+}

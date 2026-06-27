@@ -2,193 +2,223 @@
  {
   "id": "luzu",
   "name": "Luzu TV",
-  "videos": 15,
-  "vod_views": 1951618,
-  "avg_concurrent": 81809,
-  "brands": 45,
-  "mentions": 60,
-  "share_views": 73.1,
-  "n_brands_live": 45,
+  "videos": 16,
+  "vod_views": 2041085,
+  "avg_concurrent": 80571,
+  "brands": 47,
+  "mentions": 62,
+  "share_views": 73.9,
+  "n_brands_live": 47,
   "top_brands": [
    {
     "slug": "skip",
     "name": "Skip",
     "mentions": 3,
-    "value_usd": 3798.0
+    "value_usd": 3798.0,
+    "rubro": "otro"
    },
    {
     "slug": "asiscard",
     "name": "Asiscard",
     "mentions": 3,
-    "value_usd": 18007.0
+    "value_usd": 18007.0,
+    "rubro": "otro"
    },
    {
     "slug": "mercado-libre",
     "name": "Mercado Libre",
     "mentions": 3,
-    "value_usd": 6108.0
+    "value_usd": 6108.0,
+    "rubro": "retail"
    },
    {
     "slug": "natura-aderezos",
     "name": "Natura Aderezos",
     "mentions": 2,
-    "value_usd": 3836.0
+    "value_usd": 3836.0,
+    "rubro": "otro"
    },
    {
     "slug": "natura",
     "name": "Natura",
     "mentions": 2,
-    "value_usd": 3180.0
+    "value_usd": 3180.0,
+    "rubro": "otro"
    },
    {
     "slug": "wanderlust",
     "name": "Wanderlust",
     "mentions": 2,
-    "value_usd": 12313.0
+    "value_usd": 12313.0,
+    "rubro": "otro"
    },
    {
     "slug": "canji",
     "name": "Canji",
     "mentions": 2,
-    "value_usd": 2964.0
+    "value_usd": 2964.0,
+    "rubro": "otro"
    },
    {
     "slug": "jorjito",
     "name": "Jorjito",
     "mentions": 2,
-    "value_usd": 4751.0
+    "value_usd": 4751.0,
+    "rubro": "seguros"
    },
    {
     "slug": "banco-macro",
     "name": "Banco Macro",
     "mentions": 2,
-    "value_usd": 2907.0
+    "value_usd": 2907.0,
+    "rubro": "fintech"
    },
    {
     "slug": "remax",
     "name": "Remax",
     "mentions": 2,
-    "value_usd": 3331.0
+    "value_usd": 3331.0,
+    "rubro": "otro"
    },
    {
     "slug": "mercado-pago",
     "name": "Mercado Pago",
     "mentions": 2,
-    "value_usd": 4883.0
+    "value_usd": 4883.0,
+    "rubro": "fintech"
    },
    {
     "slug": "coffee-house",
     "name": "Coffee House",
     "mentions": 2,
-    "value_usd": 3098.0
+    "value_usd": 3098.0,
+    "rubro": "otro"
    },
    {
     "slug": "iol-inversiones",
     "name": "IOL Inversiones",
     "mentions": 1,
-    "value_usd": 6649.0
+    "value_usd": 6649.0,
+    "rubro": "fintech"
    },
    {
     "slug": "dia",
     "name": "Día",
     "mentions": 1,
-    "value_usd": 3934.0
+    "value_usd": 3934.0,
+    "rubro": "fintech"
    },
    {
     "slug": "rexona",
     "name": "Rexona",
     "mentions": 1,
-    "value_usd": 112.0
+    "value_usd": 112.0,
+    "rubro": "higiene"
    },
    {
     "slug": "sinteplast",
     "name": "Sinteplast",
     "mentions": 1,
-    "value_usd": 718.0
+    "value_usd": 718.0,
+    "rubro": "otro"
    },
    {
     "slug": "coca-cola",
     "name": "Coca-Cola",
     "mentions": 1,
-    "value_usd": 820.0
+    "value_usd": 820.0,
+    "rubro": "bebidas"
    },
    {
     "slug": "natier",
     "name": "Natier",
     "mentions": 1,
-    "value_usd": 649.0
+    "value_usd": 649.0,
+    "rubro": "otro"
    },
    {
     "slug": "sovestar",
     "name": "Sovestar",
     "mentions": 1,
-    "value_usd": 3983.0
+    "value_usd": 3983.0,
+    "rubro": "otro"
    },
    {
     "slug": "hisense",
     "name": "Hisense",
     "mentions": 1,
-    "value_usd": 4118.0
+    "value_usd": 4118.0,
+    "rubro": "otro"
    },
    {
     "slug": "lays",
     "name": "Lays",
     "mentions": 1,
-    "value_usd": 7005.0
+    "value_usd": 7005.0,
+    "rubro": "otro"
    },
    {
     "slug": "miquelo-ultra",
     "name": "Miquelo Ultra",
     "mentions": 1,
-    "value_usd": 6877.0
+    "value_usd": 6877.0,
+    "rubro": "otro"
    },
    {
     "slug": "airbnb",
     "name": "Airbnb",
     "mentions": 1,
-    "value_usd": 6801.0
+    "value_usd": 6801.0,
+    "rubro": "otro"
    },
    {
     "slug": "alma-marcela-gozo",
     "name": "Alma Marcela Gozo",
     "mentions": 1,
-    "value_usd": 1562.0
+    "value_usd": 1562.0,
+    "rubro": "otro"
    },
    {
     "slug": "nivea-milk-nutritiva",
     "name": "Nivea Milk Nutritiva",
     "mentions": 1,
-    "value_usd": 5719.0
+    "value_usd": 5719.0,
+    "rubro": "higiene"
    },
    {
     "slug": "nivea",
     "name": "Nivea",
     "mentions": 1,
-    "value_usd": 5722.0
+    "value_usd": 5722.0,
+    "rubro": "higiene"
    },
    {
     "slug": "cymes",
     "name": "Cymes",
     "mentions": 1,
-    "value_usd": 9444.0
+    "value_usd": 9444.0,
+    "rubro": "otro"
    },
    {
     "slug": "pringles",
     "name": "Pringles",
     "mentions": 1,
-    "value_usd": 6285.0
+    "value_usd": 6285.0,
+    "rubro": "otro"
    },
    {
     "slug": "patria-y-familia",
     "name": "Patria y Familia",
     "mentions": 1,
-    "value_usd": 1398.0
+    "value_usd": 1398.0,
+    "rubro": "otro"
    },
    {
     "slug": "pollo-tati-y-agus-garcia",
     "name": "Pollo Tati y Agus García",
     "mentions": 1,
-    "value_usd": 7555.0
+    "value_usd": 7555.0,
+    "rubro": "otro"
    }
   ]
  },
@@ -200,188 +230,218 @@
   "avg_concurrent": 25824,
   "brands": 55,
   "mentions": 96,
-  "share_views": 20.1,
+  "share_views": 19.5,
   "n_brands_live": 55,
   "top_brands": [
    {
     "slug": "iol-inversiones",
     "name": "IOL Inversiones",
     "mentions": 8,
-    "value_usd": 4810.0
+    "value_usd": 4810.0,
+    "rubro": "fintech"
    },
    {
     "slug": "geniol",
     "name": "Geniol",
     "mentions": 6,
-    "value_usd": 5090.0
+    "value_usd": 5090.0,
+    "rubro": "otro"
    },
    {
     "slug": "mcdonald-s",
     "name": "McDonald's",
     "mentions": 6,
-    "value_usd": 2483.0
+    "value_usd": 2483.0,
+    "rubro": "otro"
    },
    {
     "slug": "dia",
     "name": "Día",
     "mentions": 4,
-    "value_usd": 4757.0
+    "value_usd": 4757.0,
+    "rubro": "fintech"
    },
    {
     "slug": "rexona",
     "name": "Rexona",
     "mentions": 4,
-    "value_usd": 2575.0
+    "value_usd": 2575.0,
+    "rubro": "higiene"
    },
    {
     "slug": "canon",
     "name": "Canon",
     "mentions": 3,
-    "value_usd": 3041.0
+    "value_usd": 3041.0,
+    "rubro": "otro"
    },
    {
     "slug": "cordoba-turismo",
     "name": "Córdoba (Turismo)",
     "mentions": 3,
-    "value_usd": 909.0
+    "value_usd": 909.0,
+    "rubro": "otro"
    },
    {
     "slug": "green-life",
     "name": "Green Life",
     "mentions": 3,
-    "value_usd": 3470.0
+    "value_usd": 3470.0,
+    "rubro": "otro"
    },
    {
     "slug": "smirnoff",
     "name": "Smirnoff",
     "mentions": 3,
-    "value_usd": 1229.0
+    "value_usd": 1229.0,
+    "rubro": "bebidas"
    },
    {
     "slug": "johnnie-walker",
     "name": "Johnnie Walker",
     "mentions": 3,
-    "value_usd": 685.0
+    "value_usd": 685.0,
+    "rubro": "otro"
    },
    {
     "slug": "schneider",
     "name": "Schneider",
     "mentions": 3,
-    "value_usd": 528.0
+    "value_usd": 528.0,
+    "rubro": "otro"
    },
    {
     "slug": "skip",
     "name": "Skip",
     "mentions": 2,
-    "value_usd": 1788.0
+    "value_usd": 1788.0,
+    "rubro": "otro"
    },
    {
     "slug": "ypf",
     "name": "YPF",
     "mentions": 2,
-    "value_usd": 1271.0
+    "value_usd": 1271.0,
+    "rubro": "energia"
    },
    {
     "slug": "cordoba",
     "name": "Córdoba",
     "mentions": 2,
-    "value_usd": 1586.0
+    "value_usd": 1586.0,
+    "rubro": "otro"
    },
    {
     "slug": "pharma-olga",
     "name": "Pharma Olga",
     "mentions": 2,
-    "value_usd": 1300.0
+    "value_usd": 1300.0,
+    "rubro": "otro"
    },
    {
     "slug": "swift",
     "name": "Swift",
     "mentions": 2,
-    "value_usd": 439.0
+    "value_usd": 439.0,
+    "rubro": "otro"
    },
    {
     "slug": "cordoba-destino-turistico",
     "name": "Córdoba (destino turístico)",
     "mentions": 2,
-    "value_usd": 1435.0
+    "value_usd": 1435.0,
+    "rubro": "otro"
    },
    {
     "slug": "asiscard",
     "name": "Asiscard",
     "mentions": 1,
-    "value_usd": 261.0
+    "value_usd": 261.0,
+    "rubro": "otro"
    },
    {
     "slug": "mercado-libre",
     "name": "Mercado Libre",
     "mentions": 1,
-    "value_usd": 1897.0
+    "value_usd": 1897.0,
+    "rubro": "retail"
    },
    {
     "slug": "adidas",
     "name": "Adidas",
     "mentions": 1,
-    "value_usd": 1311.0
+    "value_usd": 1311.0,
+    "rubro": "otro"
    },
    {
     "slug": "hyundai",
     "name": "Hyundai",
     "mentions": 1,
-    "value_usd": 181.0
+    "value_usd": 181.0,
+    "rubro": "otro"
    },
    {
     "slug": "evaginagel",
     "name": "Evaginagel",
     "mentions": 1,
-    "value_usd": 1000.0
+    "value_usd": 1000.0,
+    "rubro": "otro"
    },
    {
     "slug": "full-guapaletas",
     "name": "Full Guapaletas",
     "mentions": 1,
-    "value_usd": 458.0
+    "value_usd": 458.0,
+    "rubro": "otro"
    },
    {
     "slug": "espn3-disney",
     "name": "ESPN3 / Disney+",
     "mentions": 1,
-    "value_usd": 409.0
+    "value_usd": 409.0,
+    "rubro": "streaming"
    },
    {
     "slug": "la-roche-posay",
     "name": "La Roche-Posay",
     "mentions": 1,
-    "value_usd": 1441.0
+    "value_usd": 1441.0,
+    "rubro": "otro"
    },
    {
     "slug": "propel-fit-planet",
     "name": "Propel Fit Planet",
     "mentions": 1,
-    "value_usd": 156.0
+    "value_usd": 156.0,
+    "rubro": "otro"
    },
    {
     "slug": "cbc-hierbas-serranas",
     "name": "CBC hierbas serranas",
     "mentions": 1,
-    "value_usd": 652.0
+    "value_usd": 652.0,
+    "rubro": "otro"
    },
    {
     "slug": "swiss-medical",
     "name": "Swiss Medical",
     "mentions": 1,
-    "value_usd": 1175.0
+    "value_usd": 1175.0,
+    "rubro": "salud"
    },
    {
     "slug": "hellmann-s",
     "name": "Hellmann's",
     "mentions": 1,
-    "value_usd": 827.0
+    "value_usd": 827.0,
+    "rubro": "otro"
    },
    {
     "slug": "marca-comercial-de-condimentos-oregano",
     "name": "Marca comercial de condimentos (orégano)",
     "mentions": 1,
-    "value_usd": 598.0
+    "value_usd": 598.0,
+    "rubro": "otro"
    }
   ]
  },
@@ -393,128 +453,148 @@
   "avg_concurrent": 6699,
   "brands": 20,
   "mentions": 21,
-  "share_views": 4.0,
+  "share_views": 3.9,
   "n_brands_live": 20,
   "top_brands": [
    {
     "slug": "coto",
     "name": "Coto",
     "mentions": 2,
-    "value_usd": 209.0
+    "value_usd": 209.0,
+    "rubro": "fintech"
    },
    {
     "slug": "adidas",
     "name": "Adidas",
     "mentions": 1,
-    "value_usd": 97.0
+    "value_usd": 97.0,
+    "rubro": "otro"
    },
    {
     "slug": "hyundai",
     "name": "Hyundai",
     "mentions": 1,
-    "value_usd": 62.0
+    "value_usd": 62.0,
+    "rubro": "otro"
    },
    {
     "slug": "kanka",
     "name": "Kanka",
     "mentions": 1,
-    "value_usd": 72.0
+    "value_usd": 72.0,
+    "rubro": "otro"
    },
    {
     "slug": "gustavo-corbera-la-fuente",
     "name": "Gustavo Corbera - La Fuente",
     "mentions": 1,
-    "value_usd": 128.0
+    "value_usd": 128.0,
+    "rubro": "telco"
    },
    {
     "slug": "garnier-fructis",
     "name": "Garnier Fructis",
     "mentions": 1,
-    "value_usd": 388.0
+    "value_usd": 388.0,
+    "rubro": "otro"
    },
    {
     "slug": "la-segunda-seguros",
     "name": "La Segunda Seguros",
     "mentions": 1,
-    "value_usd": 81.0
+    "value_usd": 81.0,
+    "rubro": "seguros"
    },
    {
     "slug": "baiano-teatro-vorterix",
     "name": "Baiano - Teatro Vorterix",
     "mentions": 1,
-    "value_usd": 49.0
+    "value_usd": 49.0,
+    "rubro": "otro"
    },
    {
     "slug": "gustavo-cordera-la-fuente",
     "name": "Gustavo Cordera - La Fuente",
     "mentions": 1,
-    "value_usd": 49.0
+    "value_usd": 49.0,
+    "rubro": "otro"
    },
    {
     "slug": "fiesta-forever-90",
     "name": "Fiesta Forever 90",
     "mentions": 1,
-    "value_usd": 49.0
+    "value_usd": 49.0,
+    "rubro": "otro"
    },
    {
     "slug": "social-lunch",
     "name": "Social Lunch",
     "mentions": 1,
-    "value_usd": 49.0
+    "value_usd": 49.0,
+    "rubro": "otro"
    },
    {
     "slug": "luz-gashi-teatro-fortrix",
     "name": "Luz Gashi - Teatro Fortrix",
     "mentions": 1,
-    "value_usd": 49.0
+    "value_usd": 49.0,
+    "rubro": "otro"
    },
    {
     "slug": "gillette",
     "name": "Gillette",
     "mentions": 1,
-    "value_usd": 46.0
+    "value_usd": 46.0,
+    "rubro": "higiene"
    },
    {
     "slug": "11-40-41-96-60",
     "name": "11 40 41 96 60",
     "mentions": 1,
-    "value_usd": 99.0
+    "value_usd": 99.0,
+    "rubro": "otro"
    },
    {
     "slug": "cremolati",
     "name": "Cremolati",
     "mentions": 1,
-    "value_usd": 45.0
+    "value_usd": 45.0,
+    "rubro": "otro"
    },
    {
     "slug": "food-truck-store",
     "name": "Food Truck Store",
     "mentions": 1,
-    "value_usd": 44.0
+    "value_usd": 44.0,
+    "rubro": "otro"
    },
    {
     "slug": "tucuman",
     "name": "Tucumán",
     "mentions": 1,
-    "value_usd": 2.0
+    "value_usd": 2.0,
+    "rubro": "otro"
    },
    {
     "slug": "telecentro",
     "name": "Telecentro",
     "mentions": 1,
-    "value_usd": 14.0
+    "value_usd": 14.0,
+    "rubro": "otro"
    },
    {
     "slug": "live-seguros",
     "name": "Live Seguros",
     "mentions": 1,
-    "value_usd": 24.0
+    "value_usd": 24.0,
+    "rubro": "seguros"
    },
    {
     "slug": "cafe-imperial",
     "name": "Café Imperial",
     "mentions": 1,
-    "value_usd": 236.0
+    "value_usd": 236.0,
+    "rubro": "otro"
    }
   ]
  },
@@ -545,49 +625,57 @@
     "slug": "ypf",
     "name": "YPF",
     "mentions": 1,
-    "value_usd": 239.0
+    "value_usd": 239.0,
+    "rubro": "energia"
    },
    {
     "slug": "seco",
     "name": "Seco",
     "mentions": 1,
-    "value_usd": 23.0
+    "value_usd": 23.0,
+    "rubro": "otro"
    },
    {
     "slug": "uber",
     "name": "Uber",
     "mentions": 1,
-    "value_usd": 23.0
+    "value_usd": 23.0,
+    "rubro": "otro"
    },
    {
     "slug": "guberpaticerie",
     "name": "guberpaticerie",
     "mentions": 1,
-    "value_usd": 23.0
+    "value_usd": 23.0,
+    "rubro": "otro"
    },
    {
     "slug": "escorial",
     "name": "Escorial",
     "mentions": 1,
-    "value_usd": 246.0
+    "value_usd": 246.0,
+    "rubro": "otro"
    },
    {
     "slug": "hoy-cerdo",
     "name": "Hoy Cerdo",
     "mentions": 1,
-    "value_usd": 275.0
+    "value_usd": 275.0,
+    "rubro": "otro"
    },
    {
     "slug": "guacamoles-eventos",
     "name": "Guacamoles Eventos",
     "mentions": 1,
-    "value_usd": 207.0
+    "value_usd": 207.0,
+    "rubro": "otro"
    },
    {
     "slug": "buenos-aires-ciudad",
     "name": "Buenos Aires ciudad",
     "mentions": 1,
-    "value_usd": 153.0
+    "value_usd": 153.0,
+    "rubro": "otro"
    }
   ]
  },
@@ -606,73 +694,85 @@
     "slug": "pae",
     "name": "PAE",
     "mentions": 5,
-    "value_usd": 15.0
+    "value_usd": 15.0,
+    "rubro": "energia"
    },
    {
     "slug": "ecomod",
     "name": "Ecomod",
     "mentions": 2,
-    "value_usd": 14.0
+    "value_usd": 14.0,
+    "rubro": "otro"
    },
    {
     "slug": "argendata",
     "name": "Argendata",
     "mentions": 1,
-    "value_usd": 8.0
+    "value_usd": 8.0,
+    "rubro": "otro"
    },
    {
     "slug": "juegos-el-pato",
     "name": "Juegos El Pato",
     "mentions": 1,
-    "value_usd": 21.0
+    "value_usd": 21.0,
+    "rubro": "otro"
    },
    {
     "slug": "infinea-turbo-clean",
     "name": "Infinea Turbo Clean",
     "mentions": 1,
-    "value_usd": 12.0
+    "value_usd": 12.0,
+    "rubro": "otro"
    },
    {
     "slug": "it-consult",
     "name": "IT Consult",
     "mentions": 1,
-    "value_usd": 12.0
+    "value_usd": 12.0,
+    "rubro": "seguros"
    },
    {
     "slug": "omni",
     "name": "Omni",
     "mentions": 1,
-    "value_usd": 4.0
+    "value_usd": 4.0,
+    "rubro": "otro"
    },
    {
     "slug": "neura-de-gira",
     "name": "Neura de Gira",
     "mentions": 1,
-    "value_usd": 2.0
+    "value_usd": 2.0,
+    "rubro": "otro"
    },
    {
     "slug": "princess-cruises-discover-crucis",
     "name": "Princess Cruises / Discover Crucis",
     "mentions": 1,
-    "value_usd": 2.0
+    "value_usd": 2.0,
+    "rubro": "otro"
    },
    {
     "slug": "princess",
     "name": "Princess",
     "mentions": 1,
-    "value_usd": 3.0
+    "value_usd": 3.0,
+    "rubro": "otro"
    },
    {
     "slug": "neura-de-gira-princess-cruises",
     "name": "Neura de Gira / Princess Cruises",
     "mentions": 1,
-    "value_usd": 2.0
+    "value_usd": 2.0,
+    "rubro": "otro"
    },
    {
     "slug": "new-bed-travel",
     "name": "New Bed Travel",
     "mentions": 1,
-    "value_usd": 2.0
+    "value_usd": 2.0,
+    "rubro": "otro"
    }
   ]
  },
@@ -691,7 +791,8 @@
     "slug": "sastreria-teta-lee",
     "name": "Sastrería Teta Lee",
     "mentions": 1,
-    "value_usd": 79.0
+    "value_usd": 79.0,
+    "rubro": "otro"
    }
   ]
  }
