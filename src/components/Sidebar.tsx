@@ -3,7 +3,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import metaFb from "@/data/meta.json";
 import { usePartner } from "@/contexts/PartnerContext";
-import { NAV_INTERNAL, getNavModules, isNavActive, type NavModule } from "@/lib/nav";
+import { NAV_INTERNAL, NAV_MODULES, isNavActive, type NavModule } from "@/lib/nav";
 
 function fmtExport(iso: string) {
   try {
@@ -54,11 +54,6 @@ export default function Sidebar() {
   const exported = fmtExport((metaFb as { exported_at?: string }).exported_at || "");
   const onLogin = path === "/acceso";
   const onBackoffice = path.startsWith("/backoffice");
-
-  const navModules = getNavModules({
-    showCompetencia:
-      !isScoped || Boolean(partner && partner.competitor_slugs.length > 0),
-  });
 
   if (onLogin) {
     return (
@@ -122,7 +117,7 @@ export default function Sidebar() {
       )}
 
       <nav className="flex flex-col gap-0.5">
-        {navModules.map((n) => (
+        {NAV_MODULES.map((n) => (
           <NavLink key={n.href} item={n} active={isNavActive(path, n)} />
         ))}
       </nav>
