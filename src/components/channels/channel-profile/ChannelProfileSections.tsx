@@ -5,7 +5,7 @@ import { useMemo } from "react";
 import { Badge, Bar, Stat } from "@/components/ui";
 import { evidenceLabel, evidenceTone } from "@/lib/campaign";
 import ProgramListCard from "@/components/programs/ProgramListCard";
-import { formatHours } from "@/lib/coverage";
+import { ATTENTION_DEFINITION, formatHours } from "@/lib/coverage";
 import {
   formatCaptureHoursLine,
   getChannelCaptureHours,
