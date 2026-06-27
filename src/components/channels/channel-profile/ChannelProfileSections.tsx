@@ -148,9 +148,8 @@ function FormatosSection({
       <p className="text-[13.5px] text-gray-600 mb-5 max-w-[640px] leading-relaxed">
         Un <b>formato</b> es el show (ej. Nadie Dice Nada). Cada tarjeta agrupa las{" "}
         <b>emisiones</b> de ese show en las últimas semanas que medimos. Abajo ves qué{" "}
-        <b>tipo de marcas pautaron</b> y el <b>ángulo general de la charla</b> (deporte, cultura,
-        famosos, etc.) — no un titular puntual. Si falta el ángulo, todavía no procesamos el audio
-        de esas emisiones.
+        <b>tipo de marcas pautaron</b> y los <b>ángulos de la charla</b> (deporte, cultura,
+        famosos, etc. — puede haber varios) — no un titular puntual.
       </p>
       <div className="grid gap-4 sm:grid-cols-2">
         {rollups.map((r) => {

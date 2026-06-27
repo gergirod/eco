@@ -112,11 +112,3 @@ export function categoryLabel(cat: string): string {
   };
   return labels[cat] || cat.charAt(0).toUpperCase() + cat.slice(1);
 }
-
-export function formatAnguloCharla(cats: CategoryRow[], limit = 2): string | null {
-  if (!cats.length) return null;
-  return cats
-    .slice(0, limit)
-    .map((c) => categoryLabel(c.categoria).toLowerCase())
-    .join(" · ");
-}

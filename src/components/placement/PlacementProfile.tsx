@@ -1,7 +1,7 @@
 "use client";
 
 import type { CategoryRow, ChannelPlacement, MixRow, TopicRow } from "@/lib/placement";
-import { categoryLabel, formatAnguloCharla } from "@/lib/placement";
+import { categoryLabel } from "@/lib/placement";
 
 function MixBar({ rows, empty }: { rows: MixRow[]; empty?: string }) {
   if (!rows.length) {
@@ -42,11 +42,18 @@ function TopicList({ rows, limit = 5 }: { rows: TopicRow[]; limit?: number }) {
   );
 }
 
-function CategoryPills({ rows }: { rows: CategoryRow[] }) {
-  if (!rows.length) return null;
+function categoriesForDisplay(rows: CategoryRow[], limit = 5): CategoryRow[] {
+  const meaningful = rows.filter((c) => c.categoria !== "otro");
+  const pool = meaningful.length ? meaningful : rows;
+  return pool.slice(0, limit);
+}
+
+function CategoryPills({ rows, limit = 5 }: { rows: CategoryRow[]; limit?: number }) {
+  const visible = categoriesForDisplay(rows, limit);
+  if (!visible.length) return null;
   return (
     <div className="flex flex-wrap gap-1.5">
-      {rows.slice(0, 5).map((c) => (
+      {visible.map((c) => (
         <span
           key={c.categoria}
           className="text-[11px] px-2 py-0.5 rounded-full bg-gray-50 text-gray-600 border border-gray-100"
@@ -88,7 +95,7 @@ export function PlacementChannelCard({
         </div>
         <div>
           <h3 className="text-[12px] font-semibold uppercase tracking-wide text-gray-400 mb-3">
-            Ángulo de la charla
+            Ángulos de la charla
           </h3>
           {placement.categoria_mix.length > 0 ? (
             <CategoryPills rows={placement.categoria_mix} />
@@ -150,13 +157,13 @@ export function PlacementShowSnippet({
 }) {
   if (!placement) return null;
   const topRubro = placement.rubro_mix[0];
-  const angulo = formatAnguloCharla(placement.categoria_mix);
-  if (!topRubro && !angulo) return null;
+  const categorias = categoriesForDisplay(placement.categoria_mix);
+  if (!topRubro && !categorias.length) return null;
 
   if (compact) {
     const rubroLine = topRubro ? formatCompactRubro(placement.rubro_mix) : null;
     return (
-      <div className="text-[12px] text-gray-600 space-y-1 mb-3 leading-relaxed">
+      <div className="text-[12px] text-gray-600 space-y-2 mb-3 leading-relaxed">
         {rubroLine ? (
           <p>
             {rubroLine.text}
@@ -164,10 +171,13 @@ export function PlacementShowSnippet({
             {rubroLine.suffix}
           </p>
         ) : null}
-        {angulo ? (
-          <p>
-            Ángulo de la charla: <b className="text-gray-700">{angulo}</b>
-          </p>
+        {categorias.length > 0 ? (
+          <div>
+            <p className="mb-1.5">
+              {categorias.length === 1 ? "Ángulo de la charla:" : "Ángulos de la charla:"}
+            </p>
+            <CategoryPills rows={placement.categoria_mix} limit={5} />
+          </div>
         ) : (
           <p className="text-gray-400">
             Sin audio procesado para temas en las emisiones que medimos de este show.
@@ -187,7 +197,7 @@ export function PlacementShowSnippet({
       ) : null}
       {placement.categoria_mix.length > 0 ? (
         <div>
-          <h4 className="text-[11px] uppercase tracking-wide text-gray-400 mb-2">Ángulo de la charla</h4>
+          <h4 className="text-[11px] uppercase tracking-wide text-gray-400 mb-2">Ángulos de la charla</h4>
           <CategoryPills rows={placement.categoria_mix} />
         </div>
       ) : null}
