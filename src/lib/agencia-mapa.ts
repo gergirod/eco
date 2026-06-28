@@ -12,6 +12,7 @@ import {
   type PlacementExport,
 } from "@/lib/placement";
 import { detectShowFormat, rollupsByShow } from "@/lib/showFormat";
+import type { ScheduleInsightsExport } from "@/lib/scheduleInsights";
 
 type Activation = {
   channel?: string;
@@ -52,6 +53,8 @@ export type ProgramMapRow = {
   pautaMentions: number;
   gapLabel: string | null;
   score: number;
+  peakWindow: string | null;
+  scheduleLine: string | null;
 };
 
 function activations(report: ReportRow | null): Activation[] {
@@ -173,7 +176,8 @@ export function buildProgramMap(
   moments: Record<string, Record<string, unknown>>,
   placement: PlacementExport | null,
   rubroKey: string | null,
-  limit = 24
+  limit = 24,
+  schedule?: ScheduleInsightsExport | null
 ): ProgramMapRow[] {
   if (!placement?.shows) return [];
 
@@ -193,6 +197,10 @@ export function buildProgramMap(
     buildRubroGapHints(channels, audience as never, reports as never, moments, placement, 30)
       .filter((h) => !rubroKey || h.rubroKey === rubroKey)
       .map((h) => `${h.channelId.toLowerCase()}:${h.showId}`)
+  );
+
+  const scheduleByKey = Object.fromEntries(
+    (schedule?.shows ?? []).map((s) => [`${s.channel_id}:${s.show_id}`, s])
   );
 
   const rows: ProgramMapRow[] = [];
@@ -220,6 +228,7 @@ export function buildProgramMap(
       null;
     const opp = oppById[key];
     const pauta = showPl.pauta_mentions ?? 0;
+    const sched = scheduleByKey[`${channelId}:${showPl.show_id}`];
     const score =
       opp?.score ??
       (rubroAbsent && peak >= 15_000 ? peak / Math.max(pauta, 0.5) : peak / Math.max(pauta + 1, 1));
@@ -238,6 +247,8 @@ export function buildProgramMap(
       pautaMentions: pauta,
       gapLabel: opp?.gapLabel ?? (gapKeys.has(key) ? "Rubro fuerte en el canal, ausente acá" : null),
       score,
+      peakWindow: sched?.peak_window ?? null,
+      scheduleLine: sched?.line ?? null,
     });
   }
 

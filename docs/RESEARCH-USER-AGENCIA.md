@@ -205,9 +205,9 @@ Prefieren **honestidad visible** a promesas rotas:
 | *"Pasame algo para el cliente"* | ¿Rindió la placa? | Copiar para WhatsApp |
 | *"Salió en el peor momento"* | ¿Rindió la placa? | Badge "Salió flojo" + gauge pico |
 | *"No vuelvan a pautar ahí"* | ¿Rindió / ¿Dónde? | Action card "No repetir" |
-| *"¿Qué hace la competencia?"* | ¿Dónde pautar? | Ranking rubro + card rival |
-| *"¿Dónde meto la plata?"* | ¿Dónde pautar? | Programas top + canales |
-| *"¿Quién ganó?"* | ¿Quién ganó? | 2 cards + barra share |
+| *"¿Qué hace la competencia?"* | ¿Dónde pautar? | Ranking rubro + bloque rival colapsado |
+| *"¿Dónde meto la plata?"* | ¿Dónde pautar? | Canales (pico hero) → programas (slot + placas rubro) |
+| *"¿Quién ganó?"* | ¿Dónde pautar? (colapsado) | Compare vs rival — no pantalla aparte |
 | *"¿Y para nuestra marca?"* | Elegir marca | Selector al inicio |
 
 ---
@@ -266,9 +266,21 @@ Prefieren **honestidad visible** a promesas rotas:
 3. **Copiar > exportar > explorar** — orden de botones.
 4. **Cliente primero, rival colapsado** — siempre.
 5. **Una marca en foco** — barra "Mirando ahora".
-6. **Story rail** — placa → mercado → rival (opcional).
+6. **Story rail** — placa → mercado (rival opcional dentro de mercado, colapsado).
 7. **Límites visibles** — semana, sin chat, post-programa.
 8. **Cero onboarding** — elegir marca y listo.
+
+### TL;DR — ¿Dónde conviene pautar?
+
+Orden de lectura (de arriba a abajo):
+
+1. **¿Dónde está la gente mirando?** — Cards por canal con **pico mirando** como número hero, promedio, chat sí/no, placas del rubro en ese canal, programa más fuerte del canal.
+2. **¿En qué programas conviene entrar?** — Por programa: pico, franja horaria, quién pautó en el rubro, gap si hay oportunidad.
+3. **Quién pauta / copy / horarios** — Intel de rubro (competencia, demanda comercial, timing).
+4. **¿Qué hacemos con [marca]?** — Action cards para la cuenta.
+5. **¿Cómo venimos vs [rival]?** — `<details>` colapsado; solo si eligieron rival al inicio.
+
+Regla: **canal ≠ programa**. El account ve primero escala (Luzu/Olga), después el slot concreto donde conviene entrar.
 
 → Detalle de componentes, layout y copy en [`SPEC-AGENCIA-UX-UI.md`](./SPEC-AGENCIA-UX-UI.md)
 

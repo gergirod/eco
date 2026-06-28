@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
-import AgenciaCorpusChannels from "@/components/agencia/AgenciaCorpusChannels";
+import AgenciaCanalesAudiencia from "@/components/agencia/AgenciaCanalesAudiencia";
+import AgenciaVsRivalBlock from "@/components/agencia/AgenciaVsRivalBlock";
 import AgenciaDemandaView from "@/components/agencia/AgenciaDemandaView";
 import AgenciaDondeCliente from "@/components/agencia/AgenciaDondeCliente";
 import AgenciaDondeTabs from "@/components/agencia/AgenciaDondeTabs";
@@ -15,6 +16,7 @@ import { AGENCIA_BASE } from "@/lib/agencia-demo";
 import { buildDondeRubroPack } from "@/lib/agencia-donde";
 import { buildProgramMap, portfolioRubroOptions } from "@/lib/agencia-mapa";
 import { buildRubroIntel } from "@/lib/agencia-rubro-intel";
+import { buildChannelAudienceRows } from "@/lib/agencia-audiencia";
 import { buildCorpusChannelMatrix } from "@/lib/corpus-channels";
 import { rubroDisplay } from "@/lib/agencia-product";
 import { rubroLabel } from "@/lib/placement";
@@ -25,6 +27,7 @@ import type { PlacementExport } from "@/lib/placement";
 import type { CommercialDemandExport } from "@/lib/commercialDemand";
 import type { ChatInsightsExport } from "@/lib/chatInsights";
 import type { ScheduleInsightsExport } from "@/lib/scheduleInsights";
+import type { SalaSignalsExport } from "@/lib/sala-signals";
 
 export default function AgenciaDondePage() {
   const { activePair, activeSlug, loading, hasRival, config } = useActiveBrand();
@@ -41,6 +44,7 @@ export default function AgenciaDondePage() {
     schedule_insights,
     commercial_demand,
     chat_insights,
+    sala_signals,
     brands,
   } = useCorpus([
     "reports",
@@ -52,6 +56,7 @@ export default function AgenciaDondePage() {
     "schedule_insights",
     "commercial_demand",
     "chat_insights",
+    "sala_signals",
     "brands",
   ] as const);
 
@@ -88,6 +93,17 @@ export default function AgenciaDondePage() {
     [meta, channels, brands]
   );
 
+  const channelAudience = useMemo(
+    () =>
+      buildChannelAudienceRows(
+        audience as never,
+        corpusRows,
+        placementExport,
+        rubro || null
+      ),
+    [audience, corpusRows, placementExport, rubro]
+  );
+
   const programs = useMemo(
     () =>
       buildProgramMap(
@@ -97,9 +113,10 @@ export default function AgenciaDondePage() {
         moments as never,
         placementExport,
         rubro || null,
-        8
+        8,
+        schedule_insights as ScheduleInsightsExport
       ),
-    [channels, audience, reportsMap, moments, placementExport, rubro]
+    [channels, audience, reportsMap, moments, placementExport, rubro, schedule_insights]
   );
 
   const pack = useMemo(() => {
@@ -134,7 +151,8 @@ export default function AgenciaDondePage() {
       commercial_demand as CommercialDemandExport,
       chat_insights as ChatInsightsExport,
       clientSlugs,
-      competitorSlugs
+      competitorSlugs,
+      sala_signals as SalaSignalsExport
     );
   }, [
     rubro,
@@ -144,6 +162,7 @@ export default function AgenciaDondePage() {
     schedule_insights,
     commercial_demand,
     chat_insights,
+    sala_signals,
   ]);
 
   const activeRubroLabel = rubro ? rubroLabel(placementExport, rubro) : "tu rubro";
@@ -187,34 +206,43 @@ export default function AgenciaDondePage() {
       <div className="mt-8 space-y-10">
         {tab === "pautar" && rubroIntelPack && (
           <>
-            <AgenciaQuestionBlock question="¿Dónde está la gente mirando?">
-              <AgenciaCorpusChannels
-                rows={corpusRows}
-                meta={meta as never}
-                highlightIds={brandChannels.length ? brandChannels : undefined}
-                title="8 canales que medimos esta semana"
-              />
-              {brandChannels.length > 0 && (
-                <p className="text-[12px] text-gray-500 mt-3">
-                  Resaltados: canales donde ya apareció {brandName}.
-                </p>
-              )}
-            </AgenciaQuestionBlock>
-
-            <AgenciaRubroPautarView pack={rubroIntelPack} />
+            {channelAudience.length > 0 && (
+              <AgenciaQuestionBlock question="¿Dónde está la gente mirando?">
+                <AgenciaCanalesAudiencia
+                  rows={channelAudience}
+                  highlightIds={brandChannels.length ? brandChannels : undefined}
+                  rubroLabel={activeRubroLabel}
+                />
+                {brandChannels.length > 0 && (
+                  <p className="text-[12px] text-gray-500 mt-3">
+                    Resaltados: canales donde ya apareció {brandName}.
+                  </p>
+                )}
+              </AgenciaQuestionBlock>
+            )}
 
             {programs.length > 0 && (
               <AgenciaQuestionBlock
                 question={`¿En qué programas conviene entrar en ${activeRubroLabel.toLowerCase()}?`}
               >
-                <AgenciaProgramasTop programs={programs} limit={5} />
+                <AgenciaProgramasTop
+                  programs={programs}
+                  limit={5}
+                  rubroLabel={activeRubroLabel}
+                />
               </AgenciaQuestionBlock>
             )}
+
+            <AgenciaRubroPautarView pack={rubroIntelPack} />
 
             {pack && (
               <AgenciaQuestionBlock question={`¿Qué hacemos con ${brandName}?`}>
                 <AgenciaDondeCliente pack={pack} />
               </AgenciaQuestionBlock>
+            )}
+
+            {hasRival && activePair && (
+              <AgenciaVsRivalBlock pair={activePair} brandName={brandName} />
             )}
           </>
         )}
@@ -234,11 +262,6 @@ export default function AgenciaDondePage() {
           <Link href={AGENCIA_BASE} className="text-accent hover:underline">
             ← ¿Rindió la placa?
           </Link>
-          {hasRival && (
-            <Link href={`${AGENCIA_BASE}/pulso`} className="text-accent hover:underline">
-              ¿Quién ganó miradas? →
-            </Link>
-          )}
         </div>
       </footer>
     </div>

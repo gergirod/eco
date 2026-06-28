@@ -53,10 +53,93 @@ type ActivationRow = {
     table_line?: string;
     tone?: string;
     has_chat?: boolean;
+    cobertura?: boolean;
+    ejemplos?: string[];
+    eco_line?: string | null;
   };
 };
 
 const VALLE_THRESHOLD = 40;
+
+const CHAT_UNMEASURABLE = [
+  "Sin chat capturado",
+  "Chat no cubre",
+  "no podemos medir",
+  "reacción no medible",
+  "Sin chat en",
+];
+
+function activationsForReport(report: ReportRow | undefined): ActivationRow[] {
+  if (!report) return [];
+  if (report.detail?.length) return report.detail.filter((a) => a.video_id);
+  if (report.best?.video_id) return [report.best];
+  return [];
+}
+
+/** Texto corto de reacción de sala para card y WhatsApp. */
+export function formatChatForActivation(
+  act: ActivationRow,
+  channelLabel: string
+): {
+  tableLine: string;
+  tone: string;
+  measurable: boolean;
+  ejemplos: string[];
+  copyLine: string;
+} {
+  const cr = act.chat_reaction;
+  const ch = (channelLabel || act.channel_name || act.channel || "").toLowerCase();
+  const isLuzu = ch.includes("luzu");
+
+  if (isLuzu || !cr) {
+    const line = isLuzu
+      ? "En Luzu no capturamos chat — el dato es cuánta gente miraba."
+      : "Sin chat en este minuto.";
+    return {
+      tableLine: line,
+      tone: "none",
+      measurable: false,
+      ejemplos: [],
+      copyLine: isLuzu ? "Sin chat en Luzu (solo concurrentes)." : line,
+    };
+  }
+
+  const table = cr.table_line?.trim() || "";
+  const headline = cr.headline?.trim() || "";
+  const unmeasurable =
+    !cr.has_chat ||
+    cr.cobertura === false ||
+    CHAT_UNMEASURABLE.some((s) => table.includes(s) || headline.includes(s));
+
+  if (unmeasurable) {
+    const line =
+      table ||
+      headline.slice(0, 140) ||
+      "Chat no alcanza este minuto — reacción no medible.";
+    return {
+      tableLine: line,
+      tone: cr.tone || "none",
+      measurable: false,
+      ejemplos: [],
+      copyLine: line.slice(0, 120),
+    };
+  }
+
+  const ejemplos = (cr.ejemplos ?? []).filter(Boolean).slice(0, 3);
+  let copyLine = table || headline.slice(0, 100);
+  if (cr.eco_line) copyLine += ` · ${cr.eco_line}`;
+  else if (ejemplos[0] && cr.tone === "up") {
+    copyLine += ` · «${ejemplos[0].slice(0, 55)}${ejemplos[0].length > 55 ? "…" : ""}»`;
+  }
+
+  return {
+    tableLine: table || headline.slice(0, 160),
+    tone: cr.tone || "none",
+    measurable: true,
+    ejemplos,
+    copyLine,
+  };
+}
 
 function peakPctAct(act: ActivationRow): number | null {
   const c = act.conc_at;
@@ -105,6 +188,11 @@ export type AgenciaAlert = {
   videoId: string;
   tSeconds: number;
   evidence: string;
+  chatTableLine: string;
+  chatTone: string;
+  chatMeasurable: boolean;
+  chatEjemplos: string[];
+  chatCopyLine: string;
 };
 
 export type RubroShareRow = {
@@ -150,49 +238,61 @@ export function buildAgenciaAlerts(
   const alerts: AgenciaAlert[] = [];
   const seen = new Set<string>();
 
-  function pushAlert(slug: string) {
-    if (seen.has(slug)) return;
-    seen.add(slug);
-    const report = reports[slug];
-    const best = report?.best;
-    if (!best?.video_id) return;
+  function pushActivation(slug: string, act: ActivationRow) {
+    if (!act.video_id) return;
+    const id = `${slug}-${act.video_id}-${act.t_seconds ?? 0}`;
+    if (seen.has(id)) return;
+    seen.add(id);
 
-    const peak = best.program_peak ?? null;
-    const conc = best.conc_at ?? null;
+    const report = reports[slug];
+    const channel = act.channel_name || act.channel || "";
+    const peak = act.program_peak ?? null;
+    const conc = act.conc_at ?? null;
     const peakPct =
       peak && conc && peak > 0 ? Math.round((conc / peak) * 100) : null;
+    const chat = formatChatForActivation(act, channel);
 
     alerts.push({
-      id: `${slug}-${best.video_id}`,
+      id,
       brandSlug: slug,
       brandName: report?.name || slug,
-      channel: best.channel_name || best.channel || "",
-      program: best.title?.trim() || "",
-      date: best.date || "",
-      headline: `${report?.name || slug} · ${best.channel_name || "streaming"}${isValley(best) ? " · ⚠️ salió flojo" : ""}`,
+      channel,
+      program: act.title?.trim() || "",
+      date: act.date || "",
+      headline: `${report?.name || slug} · ${channel || "streaming"}${isValley(act) ? " · ⚠️ salió flojo" : ""}`,
       body: [
         conc ? `${compact(conc)} mirando cuando dijeron la marca` : null,
-        best.tier_label ? best.tier_label : null,
+        act.tier_label ? act.tier_label : null,
         peakPct != null ? `${peakPct}% del mejor momento del programa` : null,
-        best.sentiment ? `tono ${best.sentiment}` : null,
-        best.retention_pct != null ? `retención ${best.retention_pct}%` : null,
-        best.chat_reaction?.table_line ? best.chat_reaction.table_line.slice(0, 60) : null,
+        act.sentiment ? `tono ${act.sentiment}` : null,
+        chat.measurable ? chat.tableLine : null,
       ]
         .filter(Boolean)
         .join(" · "),
-      tierLabel: best.tier_label || "Mención en pantalla",
-      quote: best.quote?.trim() || "",
+      tierLabel: act.tier_label || "Mención en pantalla",
+      quote: act.quote?.trim() || "",
       concAt: conc,
       programPeak: peak,
-      videoId: best.video_id,
-      tSeconds: best.t_seconds ?? 0,
-      evidence: best.evidence || "PARTIAL",
+      videoId: act.video_id,
+      tSeconds: act.t_seconds ?? 0,
+      evidence: act.evidence || "PARTIAL",
+      chatTableLine: chat.tableLine,
+      chatTone: chat.tone,
+      chatMeasurable: chat.measurable,
+      chatEjemplos: chat.ejemplos,
+      chatCopyLine: chat.copyLine,
     });
   }
 
   for (const pair of pairs) {
-    pushAlert(pair.slug);
-    if (pair.competitorSlug) pushAlert(pair.competitorSlug);
+    for (const act of activationsForReport(reports[pair.slug])) {
+      pushActivation(pair.slug, act);
+    }
+    if (pair.competitorSlug) {
+      for (const act of activationsForReport(reports[pair.competitorSlug])) {
+        pushActivation(pair.competitorSlug, act);
+      }
+    }
   }
 
   return alerts.sort((a, b) => (b.concAt ?? 0) - (a.concAt ?? 0));

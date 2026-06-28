@@ -22,6 +22,13 @@ export default function AgenciaAlertCard({ alert, role = "cliente" }: Props) {
 
   const metaLine = [alert.brandName, alert.channel, alert.program].filter(Boolean).join(" · ");
 
+  const chatStyles =
+    alert.chatTone === "up"
+      ? "border-green-200 bg-green-50/60"
+      : alert.chatTone === "down"
+        ? "border-amber-200 bg-amber-50/50"
+        : "border-[#ececec] bg-white/80";
+
   return (
     <article className="rounded-2xl border border-[#dcf8c6] bg-[#f0fff4] overflow-hidden">
       <div className="px-4 py-2.5 bg-[#075e54] text-white flex items-center justify-between gap-2">
@@ -44,6 +51,21 @@ export default function AgenciaAlertCard({ alert, role = "cliente" }: Props) {
             &ldquo;{alert.quote}&rdquo;
           </p>
         )}
+        <div className={`mt-3 rounded-lg border px-3 py-2.5 ${chatStyles}`}>
+          <p className="text-[10px] uppercase tracking-wide text-gray-500 font-medium mb-1">
+            La sala
+          </p>
+          <p className="text-[13px] text-gray-800 leading-relaxed">{alert.chatTableLine}</p>
+          {alert.chatEjemplos.length > 0 && (
+            <ul className="mt-2 space-y-1">
+              {alert.chatEjemplos.slice(0, 2).map((ej) => (
+                <li key={ej} className="text-[12px] text-gray-600 italic truncate">
+                  «{ej}»
+                </li>
+              ))}
+            </ul>
+          )}
+        </div>
         <div className="flex flex-wrap gap-2 text-[11px] mt-3 mb-4">
           {salioFlojo && (
             <span className="px-2 py-0.5 rounded-full bg-amber-100 text-amber-900 font-medium">

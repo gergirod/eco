@@ -159,6 +159,7 @@ export function guardPushPreview(alert: AgenciaAlert): string {
     alert.concAt
       ? `${compact(alert.concAt)} mirando`
       : "Placa detectada en stream.",
+    alert.chatCopyLine ? `Sala: ${alert.chatCopyLine}` : null,
     alert.quote ? `"${alert.quote.slice(0, 140)}${alert.quote.length > 140 ? "…" : ""}"` : null,
     alert.videoId ? vodLink(alert.videoId, alert.tSeconds) : null,
   ].filter(Boolean);

@@ -15,6 +15,7 @@ import {
   applyRubroToSchedule,
   type ScheduleInsightsExport,
 } from "@/lib/scheduleInsights";
+import { filterSalaSignals, type SalaSignalCard, type SalaSignalsExport } from "@/lib/sala-signals";
 
 type Activation = {
   channel?: string;
@@ -73,6 +74,8 @@ export type RubroIntelPack = {
   showLines: { line: string; avgPeak: number; channelId: string; showId: string }[];
   commercialSignals: string[];
   chatLine: string | null;
+  /** Temas que explotaron en chat (sala agregada) */
+  salaSignals: SalaSignalCard[];
   /** Canales del rubro donde no hay chat — ej. Luzu */
   channelsWithoutChat: string[];
   clientSlugs: string[];
@@ -99,7 +102,8 @@ export function buildRubroIntel(
   commercial: CommercialDemandExport | null,
   chat: ChatInsightsExport | null,
   clientSlugs: string[],
-  competitorSlugs: string[]
+  competitorSlugs: string[],
+  salaSignalsExport?: SalaSignalsExport | null
 ): RubroIntelPack | null {
   if (!rubroKey || !placement?.brand_rubros) return null;
 
@@ -217,6 +221,7 @@ export function buildRubroIntel(
     showLines,
     commercialSignals: commercialSignals.slice(0, 5),
     chatLine: filteredChat.platform_line ?? null,
+    salaSignals: filterSalaSignals(salaSignalsExport, channelIds, 6),
     channelsWithoutChat,
     clientSlugs,
     hasCompetitor: competitorSlugs.some((s) =>
@@ -234,7 +239,8 @@ export function buildPortfolioRubroIntel(
   commercial: CommercialDemandExport | null,
   chat: ChatInsightsExport | null,
   clientSlugs: string[],
-  competitorSlugs: string[]
+  competitorSlugs: string[],
+  salaSignalsExport?: SalaSignalsExport | null
 ): RubroIntelPack[] {
   const seen = new Set<string>();
   const packs: RubroIntelPack[] = [];
@@ -249,7 +255,8 @@ export function buildPortfolioRubroIntel(
       commercial,
       chat,
       clientSlugs,
-      competitorSlugs
+      competitorSlugs,
+      salaSignalsExport
     );
     if (pack) packs.push(pack);
   }
