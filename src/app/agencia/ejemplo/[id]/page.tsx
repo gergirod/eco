@@ -16,7 +16,7 @@ export default function AgenciaEjemploDetailPage() {
       <div className="card p-8 text-center">
         <p className="text-[14px] text-gray-600 mb-4">Ejemplo no encontrado.</p>
         <Link href={`${AGENCIA_BASE}/ejemplo`} className="text-accent hover:underline">
-          Ver los 4 ejemplos
+          Ver los 6 ejemplos
         </Link>
       </div>
     );

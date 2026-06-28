@@ -2,7 +2,7 @@
 
 **Regla:** preguntá **pasado y comportamiento**. Nunca *“¿te gustaría…?”* ni *“¿pagarías…?”*
 
-**Demo:** https://eco.knownfy.ai/agencia/ejemplo (alias `/agencia/demo`)
+**Demo:** `/agencia/demo` en tu deploy ECO · local: `http://localhost:3000/agencia/demo`
 
 ---
 

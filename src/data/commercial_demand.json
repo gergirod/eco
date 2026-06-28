@@ -34,8 +34,8 @@
      "count": 1
     },
     {
-     "text": "Yayi... BTC está en muy buen precio.",
-     "tipo": "pregunta_precio",
+     "text": "Avisaron del gol y me gane un cupon en PYa, gracias",
+     "tipo": "pedido_link",
      "count": 1
     }
    ]
@@ -50,8 +50,8 @@
    "commercial_per_1k": 0.01,
    "post_pnt_messages": 0,
    "by_tipo": {
-    "pregunta_precio": 7,
-    "pedido_link": 13
+    "pedido_link": 13,
+    "pregunta_precio": 7
    },
    "top_examples": [
     {
@@ -60,12 +60,12 @@
      "count": 2
     },
     {
-     "text": "el conmgelador de precio",
-     "tipo": "pregunta_precio",
+     "text": "tiraron en link y había 6k de vistas",
+     "tipo": "pedido_link",
      "count": 1
     },
     {
-     "text": "NO CAMBIARON EL LINK DEL PROGRAMA",
+     "text": "Cambiaron de link nos perdimos todo",
      "tipo": "pedido_link",
      "count": 1
     }
@@ -91,12 +91,12 @@
      "count": 1
     },
     {
-     "text": "en el codigo penal estA?",
+     "text": "@teffx7 literalmente mande al link que compartieron ayer, pasame uno porfis",
      "tipo": "pedido_link",
      "count": 1
     },
     {
-     "text": "menos código el chabon",
+     "text": "Pasen link de rapidshare",
      "tipo": "pedido_link",
      "count": 1
     }
@@ -130,16 +130,16 @@
   {
    "id": "olga",
    "name": "Olga",
-   "programs_with_chat": 14,
+   "programs_with_chat": 13,
    "commercial_messages": 78,
-   "chat_messages": 68210,
+   "chat_messages": 65812,
    "commercial_pct": 0.1,
    "commercial_per_1k": 0.0,
    "post_pnt_messages": 3,
    "by_tipo": {
     "pedido_link": 35,
-    "pregunta_precio": 40,
-    "pregunta_compra": 3
+    "pregunta_precio": 41,
+    "pregunta_compra": 2
    },
    "top_examples": [
     {
@@ -500,29 +500,6 @@
    "pnt_examples": []
   },
   {
-   "video_id": "LE5ICiVWzT8",
-   "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
-   "channel": "Vorterix",
-   "channel_id": "vorterix",
-   "commercial_messages": 1,
-   "commercial_pct": 0.1,
-   "commercial_per_1k": 0.01,
-   "chat_messages": 1421,
-   "by_tipo": {
-    "pedido_link": 1
-   },
-   "top_examples": [
-    {
-     "text": "La Prodeneta uso yo. GRAN APP Desarrollada por una piba muy copada.",
-     "tipo": "pedido_link",
-     "count": 1
-    }
-   ],
-   "post_pnt_messages": 0,
-   "pnt_brand_aligned": 0,
-   "pnt_examples": []
-  },
-  {
    "video_id": "7ON4ZA5TtHc",
    "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
    "channel": "Neura Media",
@@ -546,17 +523,40 @@
    "pnt_examples": []
   },
   {
+   "video_id": "LE5ICiVWzT8",
+   "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "commercial_messages": 1,
+   "commercial_pct": 0.1,
+   "commercial_per_1k": 0.01,
+   "chat_messages": 1421,
+   "by_tipo": {
+    "pedido_link": 1
+   },
+   "top_examples": [
+    {
+     "text": "La Prodeneta uso yo. GRAN APP Desarrollada por una piba muy copada.",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
    "video_id": "8lOkxIDSd4w",
    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
    "channel": "OLGA",
    "channel_id": "olga",
-   "commercial_messages": 11,
+   "commercial_messages": 12,
    "commercial_pct": 0.1,
    "commercial_per_1k": 0.0,
    "chat_messages": 18204,
    "by_tipo": {
-    "pedido_link": 5,
-    "pregunta_precio": 6
+    "pregunta_precio": 7,
+    "pedido_link": 5
    },
    "top_examples": [
     {
@@ -565,17 +565,17 @@
      "count": 3
     },
     {
+     "text": "SALE SORTEO??",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
      "text": "PARA LLEGAR PEDITE UN CABIFY. Y TENES DESCUENTO EN TUS PRIMEROS 4 VIAJES CON EL CODIGO soñeconcabify",
      "tipo": "pedido_link",
      "count": 1
     },
     {
      "text": "el álbum del mundial si, la cuota no",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "Igual al mío pero pasaba la cuota",
      "tipo": "pregunta_precio",
      "count": 1
     }
@@ -733,8 +733,8 @@
    "cross_canal": false
   },
   {
-   "text": "este año sale Teatro Picadilly",
-   "tipo": "pregunta_precio",
+   "text": "Hay descuento tipo 3x2?? me interesa para comprar varios, y tener uno en cada habitación",
+   "tipo": "pedido_link",
    "count": 2,
    "n_programas": 1,
    "canales": [
@@ -753,6 +753,16 @@
    "cross_canal": false
   },
   {
+   "text": "este año sale Teatro Picadilly",
+   "tipo": "pregunta_precio",
+   "count": 2,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
    "text": "LINK LINK LINK",
    "tipo": "pedido_link",
    "count": 2,
@@ -763,42 +773,32 @@
    "cross_canal": false
   },
   {
-   "text": "Hay descuento tipo 3x2?? me interesa para comprar varios, y tener uno en cada habitación",
-   "tipo": "pedido_link",
-   "count": 2,
-   "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
-   "cross_canal": false
-  },
-  {
-   "text": "Compartan el link así somos 50k",
+   "text": "cuando tenga la sucursal en bsas hay 15 de descuento para chat de neura vieejooo",
    "tipo": "pedido_link",
    "count": 1,
    "n_programas": 1,
    "canales": [
-    "OLGA"
+    "Neura Media"
    ],
    "cross_canal": false
   },
   {
-   "text": "pasen data de la app",
+   "text": "tiraron en link y había 6k de vistas",
    "tipo": "pedido_link",
    "count": 1,
    "n_programas": 1,
    "canales": [
-    "OLGA"
+    "BLENDER"
    ],
    "cross_canal": false
   },
   {
-   "text": "Por Nazca y Avellaneda venden un montón a buen precio",
-   "tipo": "pregunta_precio",
+   "text": "Cambiaron de link nos perdimos todo",
+   "tipo": "pedido_link",
    "count": 1,
    "n_programas": 1,
    "canales": [
-    "OLGA"
+    "BLENDER"
    ],
    "cross_canal": false
   }
@@ -854,5 +854,5 @@
   }
  ],
  "channels_with_commercial": 7,
- "period": "2026-06-27T20:53:40.739475+00:00"
+ "period": "2026-06-28T11:41:18.759516+00:00"
 }

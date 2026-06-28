@@ -4,9 +4,11 @@ import Link from "next/link";
 import { useMemo } from "react";
 import AgenciaAlertCard from "@/components/agencia/AgenciaAlertCard";
 import AgenciaBrandRoleBadge from "@/components/agencia/AgenciaBrandRoleBadge";
+import AgenciaCorpusChannels from "@/components/agencia/AgenciaCorpusChannels";
 import AgenciaFeaturedMoment from "@/components/agencia/AgenciaFeaturedMoment";
 import AgenciaPairShowcase from "@/components/agencia/AgenciaPairShowcase";
 import AgenciaSlotExplorer from "@/components/agencia/AgenciaSlotExplorer";
+import { buildCorpusChannelMatrix } from "@/lib/corpus-channels";
 import { AGENCIA_BASE } from "@/lib/agencia-demo";
 import { buildBrandSlots } from "@/lib/agencia-donde";
 import type { ShowcaseConfig } from "@/lib/agencia-showcase";
@@ -60,19 +62,36 @@ export default function AgenciaShowcaseView({ showcase }: Props) {
     [showcase, brands, reports]
   );
 
-  const opportunities = useMemo(
-    () =>
-      buildShowOpportunities(
-        channels as never,
-        audience as never,
-        reportsMap,
-        moments as never,
-        placement as PlacementExport,
-        4,
-        showcase.rubro
-      ),
-    [channels, audience, reports, moments, placement, showcase.rubro]
+  const corpusRows = useMemo(
+    () => buildCorpusChannelMatrix(meta as never, channels as never, brands as never),
+    [meta, channels, brands]
   );
+
+  const opportunities = useMemo(() => {
+    const rubroOpps = buildShowOpportunities(
+      channels as never,
+      audience as never,
+      reportsMap,
+      moments as never,
+      placement as PlacementExport,
+      4,
+      showcase.rubro
+    );
+    const allOpps = buildShowOpportunities(
+      channels as never,
+      audience as never,
+      reportsMap,
+      moments as never,
+      placement as PlacementExport,
+      12,
+      null
+    );
+    const channelSet = new Set(showcase.channelIds);
+    const crossChannel = allOpps.filter(
+      (o) => channelSet.has(o.channelId) && !rubroOpps.some((r) => r.id === o.id)
+    );
+    return [...rubroOpps, ...crossChannel].slice(0, 6);
+  }, [channels, audience, reports, moments, placement, showcase.rubro, showcase.channelIds]);
 
   const clientSlots = useMemo(
     () => buildBrandSlots(showcase.clientSlug, client, "cliente"),
@@ -109,13 +128,35 @@ export default function AgenciaShowcaseView({ showcase }: Props) {
             </li>
           ))}
         </ul>
-        <p className="text-[11px] text-gray-400 mt-4">
+        <div className="flex flex-wrap gap-1.5 mt-4">
+          {showcase.channelIds.map((ch) => {
+            const row = corpusRows.find((r) => r.id === ch);
+            return (
+              <span
+                key={ch}
+                className="text-[10px] font-medium px-2 py-0.5 rounded-full bg-white/80 border border-accent/20 text-accent"
+              >
+                {row?.name ?? ch}
+              </span>
+            );
+          })}
+        </div>
+        <p className="text-[11px] text-gray-400 mt-3">
           Corpus{" "}
           {(meta as { exported_at?: string }).exported_at
             ? new Date((meta as { exported_at: string }).exported_at).toLocaleString("es-AR")
             : "—"}
         </p>
       </div>
+
+      <section className="mb-10">
+        <AgenciaCorpusChannels
+          rows={corpusRows}
+          meta={meta as never}
+          highlightIds={showcase.channelIds}
+          title="Canales de este demo vs corpus completo"
+        />
+      </section>
 
       <section className="mb-12">
         <p className="text-[10px] uppercase tracking-wide text-gray-400 font-medium mb-1">Paso 1</p>
@@ -187,8 +228,8 @@ export default function AgenciaShowcaseView({ showcase }: Props) {
           title={`Tocá cada aparición · ${showcase.clientName}`}
         />
         {opportunities.length > 0 && (
-          <div className="grid gap-2">
-            {opportunities.slice(0, 2).map((o) => (
+          <div className="grid gap-2 mt-4">
+            {opportunities.map((o) => (
               <div key={o.id} className="card p-3 text-[12.5px] text-gray-600">
                 <strong className="text-ink">{o.showName}</strong> · {o.channelName} · pico{" "}
                 {compact(o.peakAttention)} · {o.gapLabel}

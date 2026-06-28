@@ -19,17 +19,17 @@ export default function AgenciaDemoBanner({ agencyName }: Props) {
           <p className="text-[13.5px] text-gray-600 mt-2 leading-relaxed">
             Mostrá el flujo con un caso real del corpus:{" "}
             <Link href={`${AGENCIA_BASE}/ejemplo`} className="text-accent font-semibold hover:underline">
-              4 ejemplos reales
+              6 ejemplos · corpus completo
             </Link>{" "}
-            (IOL, Wanderlust, Skip, Geniol) — elegí el rubro de la call.
+            (IOL, YPF/PAE, Hyundai, Skip, Wanderlust, Geniol) — Olga, Luzu, Blender, Neura, Vorterix.
           </p>
         </div>
         <div className="flex flex-col gap-2 shrink-0">
           <Link href={`${AGENCIA_BASE}/ejemplo`} className="btn btn-primary text-[12px] py-2">
             Demo IOL vs MP →
           </Link>
-          <Link href={`${AGENCIA_BASE}/marcas/wanderlust`} className="btn border border-[#ececec] bg-white text-[12px] py-2 text-center">
-            Wow Wanderlust 237k
+          <Link href={`${AGENCIA_BASE}/ejemplo/ypf-pae`} className="btn border border-[#ececec] bg-white text-[12px] py-2 text-center">
+            YPF Blender + Neura →
           </Link>
         </div>
       </div>

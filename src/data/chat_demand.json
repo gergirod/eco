@@ -1,5 +1,5 @@
 {
- "period": "2026-06-27T20:53:40.739475+00:00",
+ "period": "2026-06-28T11:41:18.759516+00:00",
  "signals": [
   {
    "tema": "Crítica a Azzaro",
@@ -10,18 +10,7 @@
    ],
    "cross_canal": false,
    "tipo": "otro",
-   "ejemplo": "azzaro, te convertiste en lo que juraste destruir"
-  },
-  {
-   "tema": "Aumento de cuota/precio de membresía",
-   "n_programas": 1,
-   "n_signals": 1,
-   "canales": [
-    "GELATINA"
-   ],
-   "cross_canal": false,
-   "tipo": "pregunta_precio",
-   "ejemplo": "vamos pepe decime cuanto aumento cuota para incorporar HAA"
+   "ejemplo": "basta de azzaro"
   },
   {
    "tema": "Problemas de conexión y cambio de link",
@@ -33,6 +22,17 @@
    "cross_canal": false,
    "tipo": "pedido_link",
    "ejemplo": "tuvieron que inventar la electricidad para verlos / Cambiaron de link nos perdimos todo"
+  },
+  {
+   "tema": "Aumento de cuota/precio de membresía",
+   "n_programas": 1,
+   "n_signals": 1,
+   "canales": [
+    "GELATINA"
+   ],
+   "cross_canal": false,
+   "tipo": "pregunta_precio",
+   "ejemplo": "vamos pepe decime cuanto aumento cuota para incorporar HAA"
   }
  ]
 }

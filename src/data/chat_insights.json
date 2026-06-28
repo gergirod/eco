@@ -23,28 +23,28 @@
    "character_label": "Comunidad activa — chat denso respecto a la audiencia",
    "top_demands": [
     {
-     "text": "que venga grabois a hablar de tolkien jaj",
+     "text": "Otto dog esta llorando porque por fin echaron a la piedra de Adorni? cuanto daño",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "hablen de fubol",
      "tipo": "pedido_contenido",
      "count": 1
     },
     {
-     "text": "cuando atacan la ciudad de los africanos... puro bodrio",
-     "tipo": "voto_eleccion",
-     "count": 1
-    },
-    {
-     "text": "la moda es que sale la web novel, de ahi la light novel, de ahi el anime",
+     "text": "Argentina le sale un cabo verde jaaaaa",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "mi viejo es fanatico de marvel especificamente del capitan america, al principio",
-     "tipo": "otro",
+     "text": "hablen de adorni así los miran. tienen menos fulbo",
+     "tipo": "pedido_contenido",
      "count": 1
     },
     {
-     "text": "hablando de Henry Cavill, cuando carajos sale el trailer de Highlander 2026... !",
-     "tipo": "pregunta_precio",
+     "text": "cuando tenga la sucursal en bsas hay 15 de descuento para chat de neura vieejooo",
+     "tipo": "pedido_link",
      "count": 1
     }
    ]
@@ -175,22 +175,22 @@
      "count": 2
     },
     {
-     "text": "sale only",
+     "text": "tiraron en link y había 6k de vistas",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "Cambiaron de link nos perdimos todo",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "PODEMOS HABLAR DEL PRECIO DEL GTA 6 LOCO",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "¿Donde está Moreno? ¿Cuanto falta para que llegue?",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "LE CUESTA A LU .. PERO ESTE GUILLE ES!!!",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "el conmgelador de precio",
+     "text": "Betito sale petecito?",
      "tipo": "pregunta_precio",
      "count": 1
     }
@@ -257,13 +257,13 @@
      "count": 4
     },
     {
-     "text": "esta a un precio super accesible!",
-     "tipo": "pregunta_precio",
+     "text": "estoy estudiando medicina viendolos!! manden exitos",
+     "tipo": "pregunta_compra",
      "count": 3
     },
     {
-     "text": "HABLEN DE NACHO LEVY, NO SE HAGAN LOS GILES!",
-     "tipo": "pedido_contenido",
+     "text": "esta a un precio super accesible!",
+     "tipo": "pregunta_precio",
      "count": 3
     }
    ]
@@ -1145,22 +1145,22 @@
    "cross_canal": false
   },
   {
-   "text": "LOCO TRAIGAN A CHAROOOOOOOOOOOOOOOOOOOOOOOOOOO",
-   "tipo": "pedido_contenido",
-   "count": 14,
-   "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
-   "cross_canal": false
-  },
-  {
    "text": "LLAMEN A FIO",
    "tipo": "pedido_contenido",
    "count": 14,
    "n_programas": 1,
    "canales": [
     "Vorterix"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "LOCO TRAIGAN A CHAROOOOOOOOOOOOOOOOOOOOOOOOOOO",
+   "tipo": "pedido_contenido",
+   "count": 14,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
    ],
    "cross_canal": false
   },
@@ -1203,6 +1203,16 @@
    "cross_canal": false
   },
   {
+   "text": "estoy estudiando medicina viendolos!! manden exitos",
+   "tipo": "pregunta_compra",
+   "count": 3,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
    "text": "esta a un precio super accesible!",
    "tipo": "pregunta_precio",
    "count": 3,
@@ -1215,16 +1225,6 @@
   {
    "text": "HABLEN DE NACHO LEVY, NO SE HAGAN LOS GILES!",
    "tipo": "pedido_contenido",
-   "count": 3,
-   "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
-   "cross_canal": false
-  },
-  {
-   "text": "estoy estudiando medicina viendolos!! manden exitos",
-   "tipo": "pregunta_compra",
    "count": 3,
    "n_programas": 1,
    "canales": [
@@ -1255,7 +1255,7 @@
  ],
  "platform_line": "Neura Media es donde más habla la sala (26.04 mensajes por cada mil mirando). Demanda recurrente: «:bird::bird::bird::bird::bird::bird::bird::bird:LOCO TRAIGAN…»",
  "channels_with_chat": 9,
- "period": "2026-06-27T20:53:40.739475+00:00",
+ "period": "2026-06-28T11:41:18.759516+00:00",
  "conductor_moments": [
   {
    "video_id": "JXVQmuDctII",
@@ -1318,24 +1318,24 @@
    "post_rpm": 1.0
   },
   {
-   "video_id": "NKhi31a86K8",
-   "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
-   "channel": "OLGA",
-   "kind": "like",
-   "minute": 121,
-   "quote": "Me gusta tener el efectivo",
-   "ratio": 13.33,
-   "label": "La sala respondió — chat más activo tras el pedido",
-   "pre_rpm": 0.0,
-   "post_rpm": 0.67
-  },
-  {
    "video_id": "EwFONN3W5cg",
    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
    "channel": "Vorterix",
    "kind": "like",
    "minute": 69,
    "quote": "Entonces me da un toque, porque me gusta el olor.",
+   "ratio": 13.33,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.0,
+   "post_rpm": 0.67
+  },
+  {
+   "video_id": "NKhi31a86K8",
+   "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+   "channel": "OLGA",
+   "kind": "like",
+   "minute": 121,
+   "quote": "Me gusta tener el efectivo",
    "ratio": 13.33,
    "label": "La sala respondió — chat más activo tras el pedido",
    "pre_rpm": 0.0,

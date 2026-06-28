@@ -6,16 +6,20 @@
 
 ## Links (copiar y mandar)
 
-| Qué | URL |
-|-----|-----|
-| **Hub — 4 ejemplos** | https://eco.knownfy.ai/agencia/ejemplo · alias `/agencia/demo` |
-| Fintech (recomendado call) | https://eco.knownfy.ai/agencia/ejemplo/iol-mercado-pago |
-| Viajes wow 237k | https://eco.knownfy.ai/agencia/ejemplo/wanderlust-aerolineas |
-| Higiene CPG | https://eco.knownfy.ai/agencia/ejemplo/skip-rexona |
-| Salud / OTC | https://eco.knownfy.ai/agencia/ejemplo/geniol-green-life |
-| Producto demo Media Norte | https://eco.knownfy.ai/agencia |
+**Prod:** armá la URL con tu deploy de ECO (`NEXT_PUBLIC_APP_URL` en Vercel — **no** knownfy.ai; es otro producto).
 
-Local: `http://localhost:3000/agencia/ejemplo`
+| Qué | Ruta (appendé a tu dominio ECO) |
+|-----|----------------------------------|
+| **Hub — 6 ejemplos · corpus completo** | `/agencia/demo` (alias de `/agencia/ejemplo`) |
+| Fintech (recomendado call) | `/agencia/demo/iol-mercado-pago` |
+| Energía · Blender + Neura | `/agencia/demo/ypf-pae` |
+| Vorterix + Olga | `/agencia/demo/hyundai-adidas` |
+| Viajes wow 237k | `/agencia/demo/wanderlust-aerolineas` |
+| Higiene CPG | `/agencia/demo/skip-rexona` |
+| Salud / OTC | `/agencia/demo/geniol-green-life` |
+| Producto demo Media Norte | `/agencia` |
+
+**Local:** `http://localhost:3000/agencia/demo`
 
 ---
 
@@ -67,8 +71,8 @@ Local: `http://localhost:3000/agencia/ejemplo`
 
 ## Guión call (7 min)
 
-1. **Hub** `/agencia/ejemplo` — *"Elegí el rubro parecido al tuyo"*
-2. **IOL/MP** — alerta → **Copiar WhatsApp** → gauge
+1. **Hub** `/agencia/ejemplo` — matriz **8 canales** + *"Elegí rubro o escala vs nicho"*
+2. **IOL/MP** o **YPF/PAE** (si quieren ver Blender/Neura) — alerta → **Copiar WhatsApp** → gauge
 3. **Explorador slots** — tocar NDN vs Olga
 4. **Rivales** — toggle lado a lado
 5. Cierre: *"Cuando paguen, cambiamos IOL por tu marca — mismo producto."*

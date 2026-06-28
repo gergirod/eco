@@ -1,5 +1,5 @@
 {
- "exported_at": "2026-06-27T20:53:40.739475+00:00",
+ "exported_at": "2026-06-28T11:41:18.759516+00:00",
  "signals": [
   {
    "tema": "cuatia · curuzu",
@@ -196,8 +196,8 @@
   {
    "tema": "migue · razon · tiene",
    "evidence_lane": "chat",
-   "n_msgs": 31,
-   "n_authors": 31,
+   "n_msgs": 30,
+   "n_authors": 30,
    "n_programas": 3,
    "canales": [
     "?",
@@ -216,8 +216,8 @@
      "video_id": "cOui_830fXg",
      "channel": "?",
      "title": "",
-     "n_msgs": 20,
-     "n_authors": 20,
+     "n_msgs": 19,
+     "n_authors": 19,
      "ejemplo": "MIGUE TIENE RAZÓN"
     },
     {
@@ -366,44 +366,6 @@
    "ejemplo": "vamos Curuzu"
   },
   {
-   "tema": "fijos · leo · vero",
-   "evidence_lane": "chat",
-   "n_msgs": 21,
-   "n_authors": 20,
-   "n_programas": 3,
-   "canales": [
-    "?",
-    "OLGA"
-   ],
-   "programs": [
-    {
-     "video_id": "bX7MB2_OI2I",
-     "channel": "OLGA",
-     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-     "n_msgs": 3,
-     "n_authors": 3,
-     "ejemplo": "Vero y Leo fijos"
-    },
-    {
-     "video_id": "cOui_830fXg",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 3,
-     "n_authors": 2,
-     "ejemplo": "Leo y vero fijos"
-    },
-    {
-     "video_id": "mxFu-R3O8TY",
-     "channel": "OLGA",
-     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
-     "n_msgs": 15,
-     "n_authors": 15,
-     "ejemplo": "Leo y vero fijos"
-    }
-   ],
-   "ejemplo": "Vero y Leo fijos"
-  },
-  {
    "tema": "amo · camila",
    "evidence_lane": "chat",
    "n_msgs": 20,
@@ -448,6 +410,44 @@
     }
    ],
    "ejemplo": "TE AMO CAMILA"
+  },
+  {
+   "tema": "fijos · leo · vero",
+   "evidence_lane": "chat",
+   "n_msgs": 19,
+   "n_authors": 18,
+   "n_programas": 3,
+   "canales": [
+    "?",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "bX7MB2_OI2I",
+     "channel": "OLGA",
+     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Vero y Leo fijos"
+    },
+    {
+     "video_id": "cOui_830fXg",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 2,
+     "ejemplo": "Leo y vero fijos"
+    },
+    {
+     "video_id": "mxFu-R3O8TY",
+     "channel": "OLGA",
+     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+     "n_msgs": 14,
+     "n_authors": 14,
+     "ejemplo": "Leo y vero fijos"
+    }
+   ],
+   "ejemplo": "Vero y Leo fijos"
   },
   {
    "tema": "like · pongan",
