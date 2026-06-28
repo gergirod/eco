@@ -1,5 +1,9 @@
 /**
- * Demos design partner — casos reales del corpus completo (8 canales).
+ * Demos design partner — pares reales del corpus (misma categoría de producto).
+ *
+ * Audit jun 2026: Skip (lavado) y Rexona (desodorante) comparten rubro "higiene"
+ * en placement pero NO son competidores directos. Green Life es alimentos (mix tartas),
+ * no OTC — no usar vs Geniol.
  */
 
 import type { AgenciaBrandPair } from "@/lib/agencia-demo";
@@ -24,21 +28,59 @@ export const SHOWCASES: ShowcaseConfig[] = [
   {
     id: "iol-mercado-pago",
     title: "IOL vs Mercado Pago",
-    subtitle: "Fintech · Olga + Luzu",
+    subtitle: "Fintech · demo default · broker vs billetera",
     rubro: "fintech",
     clientSlug: "iol-inversiones",
     clientName: "IOL Inversiones",
     competitorSlug: "mercado-pago",
     competitorName: "Mercado Pago",
-    hook: "9 vs 2 PNT · 229k en NDN · chat en Olga",
+    hook: "9 vs 2 placas · 229 mil en NDN · banco vs billetera",
     channelIds: ["olga", "luzu"],
     why: [
-      "9 PNT verificadas IOL vs 2 MP — competencia directa en fintech",
-      "IOL en Luzu (229k) y Olga con chat — MP solo Luzu",
-      "Share de atención medible — argumento para el viernes",
-      "El par más profundo del corpus en talk masivo",
+      "Broker vs billetera — competencia directa, no rubro inventado",
+      "9 placas IOL vs 2 MP — el par más completo que tenemos",
+      "IOL en Luzu (229k) y Olga — MP en Luzu",
+      "Empezá acá si no sabés qué demo elegir",
     ],
     pairs: [{ slug: "iol-inversiones", rubro: "fintech", competitorSlug: "mercado-pago" }],
+  },
+  {
+    id: "mercado-pago-banco-macro",
+    title: "Mercado Pago vs Banco Macro",
+    subtitle: "Fintech · guerra pareja 2 vs 2 en Luzu",
+    rubro: "fintech",
+    clientSlug: "mercado-pago",
+    clientName: "Mercado Pago",
+    competitorSlug: "banco-macro",
+    competitorName: "Banco Macro",
+    hook: "2 vs 2 placas · ambos en Luzu · billetera vs banco",
+    channelIds: ["luzu"],
+    why: [
+      "2 vs 2 — la pelea fintech más simétrica del corpus",
+      "Ambos solo en Luzu — comparación justa, mismo público",
+      "~85k MP vs ~73k Macro en el minuto de la PNT",
+      "Ideal si el prospect maneja bancos o wallets",
+    ],
+    pairs: [{ slug: "mercado-pago", rubro: "fintech", competitorSlug: "banco-macro" }],
+  },
+  {
+    id: "smirnoff-schneider",
+    title: "Smirnoff vs Schneider",
+    subtitle: "Bebidas · alcohol 3 vs 3 en Olga",
+    rubro: "bebidas",
+    clientSlug: "smirnoff",
+    clientName: "Smirnoff",
+    competitorSlug: "schneider",
+    competitorName: "Schneider",
+    hook: "3 vs 3 placas · alcohol · todo Olga",
+    channelIds: ["olga"],
+    why: [
+      "3 vs 3 — competencia real en bebidas/alcohol",
+      "Mismo canal (Olga) — comparación limpia",
+      "CPG bebidas: fácil de entender en cualquier agencia",
+      "Reemplaza pares “higiene” mal clasificados (Skip ≠ Rexona)",
+    ],
+    pairs: [{ slug: "smirnoff", rubro: "bebidas", competitorSlug: "schneider" }],
   },
   {
     id: "ypf-pae",
@@ -53,49 +95,11 @@ export const SHOWCASES: ShowcaseConfig[] = [
     channelIds: ["blend", "olga", "neura"],
     why: [
       "YPF en Blender y Olga — PAE solo en Neura: escala vs audiencia B2B directa",
-      "Mismo rubro energía — comparación cross-canal, no solo talk",
+      "Mismo rubro energía — competidores reales del sector",
       "Blender ~7k avg vs Olga ~26k: más barato, público más acotado",
       "Neura con chat — lectura dedicada PAE verificable",
     ],
     pairs: [{ slug: "ypf", rubro: "energia", competitorSlug: "pae" }],
-  },
-  {
-    id: "hyundai-adidas",
-    title: "Hyundai vs Adidas",
-    subtitle: "Vorterix + Olga · rock y charla",
-    rubro: "automotriz",
-    clientSlug: "hyundai",
-    clientName: "Hyundai",
-    competitorSlug: "adidas",
-    competitorName: "Adidas",
-    hook: "8k Olga · 7k Vorterix · mismo fin de semana, públicos distintos",
-    channelIds: ["olga", "vorterix"],
-    why: [
-      "Hyundai y Adidas aparecen en Olga y Vorterix — no es solo Luzu/Olga",
-      "Vorterix = rock/cultura · audiencia distinta al talk tradicional",
-      "Tier 3 con código en Olga — promo verificable al segundo",
-      "Ideal para mostrar Dónde en canal alternativo al bloque matutino",
-    ],
-    pairs: [{ slug: "hyundai", rubro: "automotriz", competitorSlug: "adidas" }],
-  },
-  {
-    id: "skip-rexona",
-    title: "Skip vs Rexona",
-    subtitle: "Higiene · Olga + Luzu",
-    rubro: "higiene",
-    clientSlug: "skip",
-    clientName: "Skip",
-    competitorSlug: "rexona",
-    competitorName: "Rexona",
-    hook: "5 vs 5 PNT · mismo rubro, misma semana",
-    channelIds: ["olga", "luzu"],
-    why: [
-      "5 PNT cada uno — la competencia más equilibrada del período",
-      "Ambos en Luzu y Olga — comparación justa de share",
-      "Skip 75k en Antes Que Nadie — Rexona 42k en Olga",
-      "Perfecto para CPG / higiene personal",
-    ],
-    pairs: [{ slug: "skip", rubro: "higiene", competitorSlug: "rexona" }],
   },
   {
     id: "wanderlust-aerolineas",
@@ -106,42 +110,51 @@ export const SHOWCASES: ShowcaseConfig[] = [
     clientName: "Wanderlust",
     competitorSlug: "aerolineas-argentinas",
     competitorName: "Aerolíneas Argentinas",
-    hook: "237k mirando en NDN · valijas vs aerolínea",
+    hook: "237 mil mirando en NDN · valijas vs aerolínea",
     channelIds: ["luzu", "olga"],
     why: [
       "237.826 concurrentes en el minuto de la PNT — número que vende solo",
-      "Lectura dedicada Tier 2 — copy de valijas verificable",
+      "Valijas vs aerolínea — competencia real en viajes",
       "Rival en Olga con chat capturado — comparación cross-canal",
       "El techo de escala del corpus en un solo slot",
     ],
     pairs: [{ slug: "wanderlust", rubro: "viajes", competitorSlug: "aerolineas-argentinas" }],
   },
   {
-    id: "geniol-green-life",
-    title: "Geniol vs Green Life",
-    subtitle: "Salud / OTC · Olga profundo",
+    id: "geniol",
+    title: "Geniol",
+    subtitle: "OTC / analgésicos · Olga profundo (sin par simétrico)",
     rubro: "salud",
     clientSlug: "geniol",
     clientName: "Geniol",
     competitorSlug: "green-life",
     competitorName: "Green Life",
-    hook: "6 vs 3 PNT · Sería Increíble · copy de dolor verificable",
+    hook: "6 placas · Sería Increíble · analgésico en Olga",
     channelIds: ["olga"],
     why: [
-      "6 PNT Geniol vs 3 Green Life — competencia real en salud/OTC",
-      "Todo en Olga (Sería Increíble) — comparación justa en un solo canal",
-      "Lectura dedicada con copy largo — buen ejemplo de Tier 2",
-      "Ideal para agencia con cliente farmacéutico o OTC",
+      "6 PNT — el caso OTC más profundo del corpus",
+      "Lectura dedicada Tier 2 con copy largo — farmacia en vivo",
+      "Green Life en el export es alimentos (mix tartas), no rival OTC — usar solo la ficha Geniol",
+      "Para agencia pharma: mostrar profundidad, no share vs Green Life",
     ],
     pairs: [{ slug: "geniol", rubro: "salud", competitorSlug: "green-life" }],
   },
 ];
 
+/** Demo recomendada por defecto */
+export const DEFAULT_SHOWCASE_ID = "iol-mercado-pago";
+
 /** Canales del corpus que aparecen en al menos un demo */
 export const SHOWCASE_CHANNEL_IDS = [...new Set(SHOWCASES.flatMap((s) => s.channelIds))];
 
 export function getShowcase(id: string): ShowcaseConfig | undefined {
-  return SHOWCASES.find((s) => s.id === id);
+  const legacy: Record<string, string> = {
+    "skip-rexona": "iol-mercado-pago",
+    "geniol-green-life": "geniol",
+    "hyundai-adidas": "mercado-pago-banco-macro",
+  };
+  const resolved = legacy[id] ?? id;
+  return SHOWCASES.find((s) => s.id === resolved);
 }
 
 /** @deprecated use getShowcase('iol-mercado-pago') */

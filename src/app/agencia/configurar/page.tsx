@@ -10,7 +10,7 @@ import {
   pairsToPartnerPayload,
   type BrandPair,
 } from "@/lib/brand-catalog";
-import { saveLocalAgenciaSetup } from "@/lib/agencia-setup-storage";
+import { saveLocalAgenciaSetup, notifyAgenciaSetupChanged } from "@/lib/agencia-setup-storage";
 import { PLAN_MAX_BRANDS, normalizePartnerPlan, type PartnerPlan } from "@/lib/partners";
 import { useAgenciaConfig } from "@/lib/use-agencia-config";
 import { usePartner } from "@/contexts/PartnerContext";
@@ -91,8 +91,10 @@ export default function AgenciaConfigurarPage() {
           brandSlugs: payload.brand_slugs,
           competitorSlugs,
           pairs: setupPairs,
+          activeBrandSlug: payload.brand_slugs[0],
           savedAt: new Date().toISOString(),
         });
+        notifyAgenciaSetupChanged();
       }
       router.push(AGENCIA_BASE);
       router.refresh();
@@ -113,8 +115,8 @@ export default function AgenciaConfigurarPage() {
         Configurá tu monitoreo
       </h1>
       <p className="text-[14px] text-gray-500 mt-2 leading-relaxed">
-        Elegí las marcas de tus clientes y un competidor por marca. Después ves alertas,
-        competencia y evidencia solo de esto.
+        Elegí las marcas de tus clientes. El competidor es opcional — solo si querés comparar share
+        en pulso.
       </p>
 
       <form onSubmit={onSubmit} className="mt-8 space-y-6">

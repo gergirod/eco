@@ -1,6 +1,6 @@
 # Demo design partner — listo para mostrar
 
-**Producto:** Guard + Dónde + Rivales · sin reporte · sin agente fake.
+**Producto:** Alertas + Dónde + Rivales · sin PDF · sin robot que inventa.
 
 ---
 
@@ -11,12 +11,12 @@
 | Qué | Ruta (appendé a tu dominio ECO) |
 |-----|----------------------------------|
 | **Hub — 6 ejemplos · corpus completo** | `/agencia/demo` (alias de `/agencia/ejemplo`) |
-| Fintech (recomendado call) | `/agencia/demo/iol-mercado-pago` |
+| Fintech (default) | `/agencia/demo/iol-mercado-pago` |
+| Fintech simétrico 2 vs 2 | `/agencia/demo/mercado-pago-banco-macro` |
+| Bebidas / alcohol | `/agencia/demo/smirnoff-schneider` |
 | Energía · Blender + Neura | `/agencia/demo/ypf-pae` |
-| Vorterix + Olga | `/agencia/demo/hyundai-adidas` |
 | Viajes wow 237k | `/agencia/demo/wanderlust-aerolineas` |
-| Higiene CPG | `/agencia/demo/skip-rexona` |
-| Salud / OTC | `/agencia/demo/geniol-green-life` |
+| OTC profundo (Geniol) | `/agencia/demo/geniol` |
 | Producto demo Media Norte | `/agencia` |
 
 **Local:** `http://localhost:3000/agencia/demo`
@@ -46,9 +46,9 @@
 
 | Pregunta real | Dónde en la demo | Acción interactiva |
 |---------------|------------------|---------------------|
-| ¿Corrió la PNT? | Guard → alertas | Copiar para WhatsApp |
-| ¿Cuántos miraban? | Alerta + gauge pico/valle | Barra verde/roja |
-| ¿Valió la pena o fue valle? | Gauge &lt;40% = no repetir | Explicar zona ámbar |
+| ¿Salió la placa? | Alertas → copiar WhatsApp |
+| ¿Cuántos miraban? | Alerta + barra verde/ámbar |
+| ¿Rindió o salió flojo? | Barra bajo 40% = no repetir |
 | ¿Qué hizo Mercado Pago? | Rivales → toggle competidor | Lado a lado |
 | ¿Dónde pongo la placa la semana que viene? | Dónde → explorador slots | Tocar cada PNT |
 | ¿Qué copy usaron? | Slot explorer → cita | Link al segundo |

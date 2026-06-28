@@ -24,7 +24,7 @@ export default function AgenciaCorpusChannels({
   rows,
   meta,
   highlightIds = [],
-  title = "8 canales en el corpus",
+  title = "8 canales que medimos",
 }: Props) {
   const highlight = new Set(highlightIds);
 
@@ -38,9 +38,8 @@ export default function AgenciaCorpusChannels({
       </div>
       <p className="text-[12.5px] text-gray-500 mb-4 leading-relaxed">{corpusChannelSummary(rows, meta)}</p>
       <p className="text-[12px] text-gray-600 mb-4 leading-relaxed">
-        Olga y Luzu concentran la mayoría de PNT — pero Blender, Neura y Vorterix tienen audiencia más
-        acotada y a veces más barata por contacto. ECO te deja comparar escala vs nicho con el mismo
-        minuto verificado.
+        Olga y Luzu tienen casi todas las placas — Blender, Neura y Vorterix tienen menos gente pero
+        a veces convienen más por el tipo de público.
       </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
         {rows.map((row) => {

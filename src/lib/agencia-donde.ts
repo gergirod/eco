@@ -135,6 +135,6 @@ export function buildDondeRubroPack(
 }
 
 export function slotSummary(slot: BrandSlot): string {
-  const pct = slot.peakPct != null ? `${slot.peakPct}% del pico` : "sin benchmark pico";
+  const pct = slot.peakPct != null ? `${slot.peakPct}% del mejor momento` : "sin dato de audiencia";
   return `${compact(slot.concAt)} mirando · ${slot.tierLabel} · ${pct}`;
 }

@@ -55,10 +55,10 @@ export default function AgenciaEjemploHubPage() {
       <p className="text-[10px] uppercase tracking-widest text-accent font-semibold mb-2">
         Design partner
       </p>
-      <h1 className="text-[28px] font-semibold tracking-tight text-ink">6 ejemplos · corpus completo</h1>
+      <h1 className="text-[28px] font-semibold tracking-tight text-ink">6 ejemplos con marcas reales</h1>
       <p className="text-[14px] text-gray-500 mt-2 leading-relaxed max-w-xl">
-        No solo Olga y Luzu: cada demo es un par marca + competidor con canales reales del export —
-        escala masiva y nichos directos (Blender, Neura, Vorterix).
+        Pares que compiten de verdad — bancos, bebidas, energía. Elegí el que se parezca al cliente
+        de la call.
       </p>
 
       <div className="mt-8">
@@ -76,6 +76,9 @@ export default function AgenciaEjemploHubPage() {
               <div>
                 <span className="text-[10px] uppercase tracking-wide text-gray-400">
                   Ejemplo {i + 1} · {c.rubro}
+                  {c.id === "iol-mercado-pago" && (
+                    <span className="ml-2 text-accent font-semibold">· empezá acá</span>
+                  )}
                 </span>
                 <h2 className="text-[18px] font-semibold text-ink group-hover:text-accent transition-colors mt-1">
                   {c.title}
@@ -102,8 +105,8 @@ export default function AgenciaEjemploHubPage() {
               </div>
             </div>
             <p className="text-[12px] text-gray-500 mt-3">
-              <span className="text-accent font-medium">{c.clientPnt} PNT</span> tu marca ·{" "}
-              <span className="text-amber-800 font-medium">{c.competitorPnt} PNT</span> rival
+              <span className="text-accent font-medium">{c.clientPnt} placas</span> tu marca ·{" "}
+              <span className="text-amber-800 font-medium">{c.competitorPnt} placas</span> rival
             </p>
           </Link>
         ))}
@@ -111,14 +114,13 @@ export default function AgenciaEjemploHubPage() {
 
       <div className="mt-10 card p-5 bg-gray-50 text-[13px] text-gray-600 leading-relaxed space-y-2">
         <p>
-          <strong className="text-ink">Cuál elegir:</strong> fintech → IOL/MP · energía cross-canal →
-          YPF/PAE · rock/cultura → Hyundai/Adidas · CPG → Skip/Rexona · viajes wow → Wanderlust ·
-          OTC → Geniol/Green Life.
+          <strong className="text-ink">Si no sabés cuál:</strong> IOL vs Mercado Pago — fintech real,
+          el par más profundo. CPG bebidas → Smirnoff/Schneider · bancos simétrico → MP/Macro ·
+          energía → YPF/PAE · viajes wow → Wanderlust · OTC profundo → Geniol (sin rival parejo).
         </p>
-        <p>
-          <strong className="text-ink">Escala vs nicho:</strong> si el cliente busca volumen, empezá
-          por IOL o Wanderlust. Si busca audiencia más directa y slot más barato, YPF en Blender o PAE
-          en Neura.
+        <p className="text-[12px] text-amber-800/90">
+          Skip y Rexona comparten rubro en el export pero son categorías distintas (lavado vs
+          desodorante) — no usarlos como demo de competencia.
         </p>
       </div>
     </div>

@@ -61,11 +61,11 @@ export default function AgenciaRivalCompare({ rows, clientSlug, competitorSlug }
                       isClient ? "text-accent" : "text-amber-700"
                     }`}
                   >
-                    {isClient ? "Tu marca" : "Competidor"}
+                    {isClient ? "Tu marca" : "Rival"}
                   </span>
                 </span>
                 <span className="text-gray-400 tabular-nums">
-                  {row.sharePct.toFixed(0)}% · {row.mentions} PNT
+                  {row.sharePct.toFixed(0)}% · {row.mentions} {row.mentions === 1 ? "placa" : "placas"}
                 </span>
               </div>
               <div className="h-3 rounded-full bg-gray-100 overflow-hidden">
@@ -84,8 +84,8 @@ export default function AgenciaRivalCompare({ rows, clientSlug, competitorSlug }
       {mode === "ambos" && client && rival && (
         <p className="text-[12px] text-gray-500 mt-4">
           {client.sharePct > rival.sharePct
-            ? `${client.name} concentra más atención en el rubro esta semana.`
-            : `${rival.name} va adelante en exposición estimada.`}
+            ? `${client.name} se llevó más miradas en el rubro esta semana.`
+            : `${rival.name} va ganando en cantidad de apariciones.`}
         </p>
       )}
     </div>

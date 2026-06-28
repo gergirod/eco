@@ -3,153 +3,179 @@
 import Link from "next/link";
 import { useMemo } from "react";
 import AgenciaAlertCard from "@/components/agencia/AgenciaAlertCard";
-import AgenciaFeaturedMoment from "@/components/agencia/AgenciaFeaturedMoment";
 import AgenciaGuardStatus from "@/components/agencia/AgenciaGuardStatus";
-import AgenciaProductHero from "@/components/agencia/AgenciaProductHero";
+import AgenciaPageHeader from "@/components/agencia/AgenciaPageHeader";
+import AgenciaQuestionBlock from "@/components/agencia/AgenciaQuestionBlock";
 import { AGENCIA_BASE } from "@/lib/agencia-demo";
-import { brandDisplayName } from "@/lib/agencia-roles";
 import { buildGuardStatus } from "@/lib/agencia-guard";
 import { buildBrandSlots } from "@/lib/agencia-donde";
-import { useAgenciaConfig } from "@/lib/use-agencia-config";
+import { useActiveBrand } from "@/lib/use-active-brand";
 import { buildAgenciaAlerts } from "@/lib/agencia-product";
 import { compact, vodLink } from "@/lib/format";
 import { useCorpus } from "@/lib/useCorpus";
 
 export default function AgenciaGuardPage() {
-  const { config, loading } = useAgenciaConfig();
-  const { brands, reports, meta } = useCorpus(["brands", "reports", "meta"] as const);
-
-  const names = useMemo(
-    () =>
-      Object.fromEntries(
-        (brands as { slug: string; name: string }[]).map((b) => [b.slug, b.name])
-      ),
-    [brands]
-  );
+  const { activePair, activeSlug, loading, hasRival } = useActiveBrand();
+  const { reports, meta, brands } = useCorpus(["reports", "meta", "brands"] as const);
 
   const reportsMap = reports as Record<string, never>;
+
+  const brandName = useMemo(() => {
+    const row = (brands as { slug: string; name: string }[]).find((b) => b.slug === activeSlug);
+    return row?.name ?? activeSlug ?? "tu cliente";
+  }, [brands, activeSlug]);
 
   const guardStatus = useMemo(
     () =>
       buildGuardStatus(
-        config.pairs,
-        config.brandSlugs,
-        config.competitorSlugs,
+        activePair ? [activePair] : [],
+        activeSlug ? [activeSlug] : [],
+        activePair?.competitorSlug ? [activePair.competitorSlug] : [],
         reportsMap,
         (meta as { exported_at?: string }).exported_at
       ),
-    [config, reports, meta]
+    [activePair, activeSlug, reports, meta]
   );
 
-  const alerts = useMemo(
-    () => buildAgenciaAlerts(config.pairs, reportsMap),
-    [config.pairs, reports]
-  );
+  const clientAlerts = useMemo(() => {
+    if (!activePair) return [];
+    const all = buildAgenciaAlerts([activePair], reportsMap);
+    return all.filter((a) => a.brandSlug === activePair.slug);
+  }, [activePair, reports]);
 
-  const valleyWarnings = useMemo(
-    () =>
-      config.brandSlugs.flatMap((slug) =>
-        buildBrandSlots(slug, reportsMap[slug] as never, "cliente").filter((s) => s.isValley)
-      ),
-    [config.brandSlugs, reports]
-  );
+  const topAlert = clientAlerts[0] ?? null;
 
-  const wanderlustBest = (reportsMap["wanderlust"] as { best?: never })?.best;
-  const wanderlustComp = config.pairs.find((p) => p.slug === "wanderlust")?.competitorSlug;
+  const rivalAlerts = useMemo(() => {
+    if (!activePair?.competitorSlug) return [];
+    const all = buildAgenciaAlerts([activePair], reportsMap);
+    return all.filter((a) => a.brandSlug === activePair.competitorSlug);
+  }, [activePair, reports]);
+
+  const valleyWarnings = useMemo(() => {
+    if (!activeSlug) return [];
+    return buildBrandSlots(activeSlug, reportsMap[activeSlug] as never, "cliente").filter(
+      (s) => s.isValley
+    );
+  }, [activeSlug, reports]);
 
   if (loading) {
     return <div className="text-[13px] text-gray-400 py-8">Cargando…</div>;
   }
 
+  if (!activePair) {
+    return (
+      <div className="card p-8 text-center max-w-md mx-auto">
+        <p className="text-[14px] text-gray-600 mb-4">Todavía no elegiste ninguna marca.</p>
+        <Link href={`${AGENCIA_BASE}/elegir`} className="btn btn-primary text-[13px]">
+          Elegir marca →
+        </Link>
+      </div>
+    );
+  }
+
   return (
-    <div className="pb-10">
-      <AgenciaProductHero isPreview={config.isPreview} agencyName={config.name} />
+    <div className="pb-12 max-w-2xl">
+      <AgenciaPageHeader
+        question="¿Rindió la placa?"
+        when={`Cuando salió ${brandName} en stream — cuánta gente miraba y el link al video.`}
+      />
 
-      <section className="mt-6">
-        <AgenciaGuardStatus status={guardStatus} />
-      </section>
+      <p className="text-[13px] text-gray-600 mb-6 px-4 py-3 rounded-xl bg-gray-50 border border-gray-100">
+        Seenka confirma que salió. Acá ves cuánta gente miraba en ese segundo — listo para reenviar
+        al cliente.
+      </p>
 
-      <section className="mt-10">
-        <div className="flex flex-wrap items-end justify-between gap-2 mb-4">
-          <div>
-            <h2 className="text-[12px] uppercase tracking-wide text-gray-400 font-medium">
-              Alertas · cuando sale tu PNT
-            </h2>
-            <p className="text-[13px] text-gray-500 mt-1">
-              Push por WhatsApp con concurrentes al segundo. Esto es ECO Guard.
-            </p>
-          </div>
-        </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
-          {alerts.map((alert) => (
-            <AgenciaAlertCard
-              key={alert.id}
-              alert={alert}
-              role={config.brandSlugs.includes(alert.brandSlug) ? "cliente" : "competidor"}
-            />
-          ))}
-        </div>
-      </section>
+      <AgenciaGuardStatus status={guardStatus} brandName={brandName} />
 
-      {valleyWarnings.length > 0 && (
-        <section className="mt-8 card p-5 border-amber-200 bg-amber-50/50">
-          <h2 className="text-[13px] font-semibold text-amber-900 mb-2">
-            ⚠️ No repetir estos slots
-          </h2>
-          <p className="text-[13px] text-amber-900/80 mb-3">
-            Salieron en valle (&lt;40% del pico del programa) — no gastar de nuevo acá sin negociar
-            otro formato.
+      {topAlert?.concAt ? (
+        <div className="mt-6 rounded-xl border border-[#ececec] bg-white px-5 py-4">
+          <p className="text-[10px] uppercase tracking-wide text-gray-400 font-medium mb-1">
+            Mejor placa de la semana
           </p>
-          <ul className="space-y-2 text-[13px] text-amber-950">
-            {valleyWarnings.map((s, i) => (
-              <li key={`${s.videoId}-${i}`}>
-                <strong>{s.brandName}</strong> · {s.channelName} · {compact(s.concAt)} mirando (
-                {s.peakPct}% pico)
-                {s.videoId && (
-                  <>
-                    {" "}
-                    ·{" "}
-                    <a
-                      href={vodLink(s.videoId, s.tSeconds)}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="underline"
-                    >
-                      evidencia
-                    </a>
-                  </>
-                )}
-              </li>
-            ))}
-          </ul>
-        </section>
-      )}
+          <p className="text-[28px] font-bold tabular-nums text-ink leading-none">
+            {compact(topAlert.concAt)}
+            <span className="text-[13px] font-normal text-gray-500 ml-2">mirando</span>
+          </p>
+          <p className="text-[13px] text-gray-500 mt-1">
+            {topAlert.channel}
+            {topAlert.program ? ` · ${topAlert.program}` : ""}
+          </p>
+        </div>
+      ) : null}
 
-      {wanderlustBest && config.isPreview && (
-        <section className="mt-12">
-          <h2 className="text-[12px] uppercase tracking-wide text-gray-400 font-medium mb-3">
-            Evidencia · ejemplo Wanderlust
-          </h2>
-          <AgenciaFeaturedMoment
-            brandName="Wanderlust"
-            brandSlug="wanderlust"
-            competitorName={
-              wanderlustComp ? brandDisplayName(wanderlustComp, names) : undefined
-            }
-            competitorSlug={wanderlustComp ?? undefined}
-            best={wanderlustBest}
-          />
-        </section>
-      )}
+      <div className="mt-10 space-y-8">
+        <AgenciaQuestionBlock question="¿Cuánta gente miraba cuando salió?">
+          {clientAlerts.length === 0 ? (
+            <div className="space-y-4">
+              <p className="text-[14px] text-gray-500">
+                Todavía no detectamos placas de {brandName} esta semana.
+              </p>
+              <Link href={`${AGENCIA_BASE}/donde`} className="text-[13px] text-accent hover:underline">
+                Ver el mercado del rubro →
+              </Link>
+            </div>
+          ) : (
+            <div className="space-y-4">
+              {clientAlerts.map((alert) => (
+                <AgenciaAlertCard key={alert.id} alert={alert} role="cliente" />
+              ))}
+            </div>
+          )}
+        </AgenciaQuestionBlock>
 
-      <section className="mt-10 flex flex-wrap gap-3">
+        {hasRival && rivalAlerts.length > 0 && (
+          <details className="group">
+            <summary className="text-[14px] text-gray-500 cursor-pointer hover:text-ink list-none flex items-center gap-2">
+              <span className="group-open:rotate-90 transition">▸</span>
+              También salió el rival ({rivalAlerts.length})
+            </summary>
+            <div className="mt-4 space-y-4 pl-4">
+              {rivalAlerts.map((alert) => (
+                <AgenciaAlertCard key={alert.id} alert={alert} role="competidor" />
+              ))}
+            </div>
+          </details>
+        )}
+
+        {valleyWarnings.length > 0 && (
+          <AgenciaQuestionBlock question="¿Dónde no conviene volver a pautar?">
+            <ul className="space-y-2">
+              {valleyWarnings.slice(0, 3).map((s, i) => (
+                <li
+                  key={`${s.videoId}-${i}`}
+                  className="rounded-xl border border-amber-200 bg-amber-50/50 px-4 py-3 text-[14px] text-gray-800"
+                >
+                  <strong>{s.brandName}</strong> · {s.channelName}
+                  {s.program ? ` · ${s.program}` : ""} · solo {compact(s.concAt)} mirando
+                  {s.videoId && (
+                    <>
+                      {" "}
+                      ·{" "}
+                      <a
+                        href={vodLink(s.videoId, s.tSeconds)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-accent hover:underline"
+                      >
+                        ver ↗
+                      </a>
+                    </>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </AgenciaQuestionBlock>
+        )}
+      </div>
+
+      <footer className="mt-14 pt-8 border-t border-gray-100">
+        <p className="text-[13px] text-gray-500 mb-4">
+          Placa confirmada → mirá dónde conviene la próxima.
+        </p>
         <Link href={`${AGENCIA_BASE}/donde`} className="btn btn-primary text-[13px]">
-          Dónde pautar la próxima
+          ¿Dónde pautar? →
         </Link>
-        <Link href={`${AGENCIA_BASE}/pulso`} className="btn border border-[#ececec] text-[13px]">
-          Rivales
-        </Link>
-      </section>
+      </footer>
     </div>
   );
 }

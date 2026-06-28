@@ -22,7 +22,7 @@ export default function AgenciaCopyPush({ alert }: { alert: AgenciaAlert }) {
     <button
       type="button"
       onClick={copy}
-      className="btn border border-[#dcf8c6] bg-white text-[13px] py-2 text-green-800 hover:bg-[#f0fff4]"
+      className="btn w-full sm:w-auto border-0 bg-[#075e54] text-white text-[13px] py-2.5 hover:bg-[#064e45] font-medium"
     >
       {copied ? "Copiado ✓" : "Copiar para WhatsApp"}
     </button>

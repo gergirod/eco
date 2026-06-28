@@ -129,7 +129,7 @@ export function corpusChannelSummary(rows: CorpusChannelRow[], meta: MetaRoot): 
   const niche = rows.filter((r) => r.positioning === "nicho");
   const hours = meta.live_capture?.hours_captured ?? 0;
   const days = meta.live_capture?.capture_days ?? 0;
-  return `${rows.length} canales · ${Math.round(hours)}h en ${days} días · escala (${scale.map((r) => r.name).join(", ")}) vs nicho directo (${niche.map((r) => r.name).join(", ")})`;
+  return `${rows.length} canales · ${Math.round(hours)} horas de stream en ${days} días · masivos (${scale.map((r) => r.name).join(", ")}) vs más chicos (${niche.map((r) => r.name).join(", ")})`;
 }
 
 export function formatChannelBadge(row: CorpusChannelRow): string {

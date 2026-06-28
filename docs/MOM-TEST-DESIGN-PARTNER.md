@@ -94,11 +94,12 @@
 
 | Mencionan | Abrís |
 |-----------|--------|
-| Banco / fintech | `/agencia/ejemplo/iol-mercado-pago` |
-| Viajes | `/agencia/ejemplo/wanderlust-aerolineas` |
-| CPG / higiene | `/agencia/ejemplo/skip-rexona` |
-| Farmacia / OTC | `/agencia/ejemplo/geniol-green-life` |
-| No saben | `/agencia/ejemplo` |
+| Banco / fintech | `/agencia/demo/iol-mercado-pago` |
+| Wallet vs banco | `/agencia/demo/mercado-pago-banco-macro` |
+| Bebidas / alcohol | `/agencia/demo/smirnoff-schneider` |
+| Viajes | `/agencia/demo/wanderlust-aerolineas` |
+| Farmacia / OTC | `/agencia/demo/geniol` |
+| No saben | `/agencia/demo/iol-mercado-pago` |
 
 ---
 

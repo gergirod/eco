@@ -43,7 +43,7 @@ export default function AgenciaRubroPulse({ rubroLabel, rows, highlightSlugs }: 
                   ) : null}
                 </span>
                 <span className="text-gray-400 tabular-nums">
-                  {row.sharePct.toFixed(0)}% · {row.mentions} PNT
+                  {row.sharePct.toFixed(0)}% · {row.mentions} placas
                 </span>
               </div>
               <div className="h-2 rounded-full bg-gray-100 overflow-hidden">

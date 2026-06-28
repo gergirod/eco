@@ -1,7 +1,6 @@
 "use client";
 
 import { useMemo, useEffect, useState } from "react";
-import { AGENCIA_DEMO } from "@/lib/agencia-demo";
 import type { AgenciaBrandPair } from "@/lib/agencia-demo";
 import { loadLocalAgenciaSetup } from "@/lib/agencia-setup-storage";
 import { usePartner } from "@/contexts/PartnerContext";
@@ -40,7 +39,11 @@ export function useAgenciaConfig(): { loading: boolean; config: AgenciaConfig } 
   useEffect(() => {
     const onStorage = () => setLocalVersion((v) => v + 1);
     window.addEventListener("storage", onStorage);
-    return () => window.removeEventListener("storage", onStorage);
+    window.addEventListener("eco-agencia-setup", onStorage);
+    return () => {
+      window.removeEventListener("storage", onStorage);
+      window.removeEventListener("eco-agencia-setup", onStorage);
+    };
   }, []);
 
   const config = useMemo((): AgenciaConfig => {
@@ -76,12 +79,12 @@ export function useAgenciaConfig(): { loading: boolean; config: AgenciaConfig } 
     }
 
     return {
-      id: AGENCIA_DEMO.id,
-      name: AGENCIA_DEMO.name,
-      brandSlugs: [...AGENCIA_DEMO.brandSlugs],
-      competitorSlugs: [...AGENCIA_DEMO.competitorSlugs],
-      pairs: [...AGENCIA_DEMO.pairs],
-      rubros: [...AGENCIA_DEMO.rubros],
+      id: "preview-empty",
+      name: "Mi agencia",
+      brandSlugs: [],
+      competitorSlugs: [],
+      pairs: [],
+      rubros: [],
       isPreview: true,
     };
   }, [isScoped, partner, localVersion]);

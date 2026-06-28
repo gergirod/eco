@@ -56,7 +56,7 @@ export default function AgenciaMapaCorpus({
           <div>
             <h2 className="text-[16px] font-semibold text-ink">Competencia en streaming</h2>
             <p className="text-[13px] text-gray-500 mt-1">
-              Marcas con PNT verificada en el corpus — dónde aparecen y en qué programas.
+              Marcas que salieron en pantalla esta semana — en qué canal y en qué programa.
             </p>
           </div>
           <span className="text-[12px] text-gray-400 shrink-0">{competitors.length} marcas</span>
@@ -70,7 +70,7 @@ export default function AgenciaMapaCorpus({
                 <thead>
                   <tr className="border-b border-gray-100 bg-gray-50/80 text-[10px] uppercase tracking-wide text-gray-400">
                     <th className="px-4 py-2.5 font-medium">Marca</th>
-                    <th className="px-4 py-2.5 font-medium">PNT</th>
+                    <th className="px-4 py-2.5 font-medium">Placas</th>
                     <th className="px-4 py-2.5 font-medium">Canales</th>
                     <th className="px-4 py-2.5 font-medium hidden sm:table-cell">Programas</th>
                     <th className="px-4 py-2.5 font-medium text-right">Pico</th>
@@ -110,10 +110,9 @@ export default function AgenciaMapaCorpus({
       <section>
         <div className="flex items-baseline justify-between gap-3 mb-4">
           <div>
-            <h2 className="text-[16px] font-semibold text-ink">Programas · temas · oportunidad</h2>
+            <h2 className="text-[16px] font-semibold text-ink">Programas · de qué hablan · dónde entrar</h2>
             <p className="text-[13px] text-gray-500 mt-1">
-              De qué se habla en cada show, qué marcas del rubro ya pautan, y dónde hay hueco con
-              audiencia.
+              Cada programa con cuánta gente miraba, qué temas tocan y qué marcas ya están.
             </p>
           </div>
           <span className="text-[12px] text-gray-400 shrink-0">{programs.length} programas</span>
@@ -155,7 +154,7 @@ export default function AgenciaMapaCorpus({
               )}
               {row.rubroAbsent && rubro && (
                 <span className="inline-block mt-2 text-[10px] uppercase tracking-wide font-semibold text-accent bg-white/80 px-2 py-0.5 rounded border border-accent/20">
-                  Oportunidad · rubro ausente
+                  Oportunidad · tu rubro casi no aparece
                 </span>
               )}
             </article>

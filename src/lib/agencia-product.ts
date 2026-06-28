@@ -94,9 +94,11 @@ export type AgenciaAlert = {
   brandSlug: string;
   brandName: string;
   channel: string;
+  program: string;
   date: string;
   headline: string;
   body: string;
+  quote: string;
   tierLabel: string;
   concAt: number | null;
   programPeak: number | null;
@@ -146,11 +148,14 @@ export function buildAgenciaAlerts(
   reports: Record<string, ReportRow>
 ): AgenciaAlert[] {
   const alerts: AgenciaAlert[] = [];
+  const seen = new Set<string>();
 
-  for (const pair of pairs) {
-    const report = reports[pair.slug];
+  function pushAlert(slug: string) {
+    if (seen.has(slug)) return;
+    seen.add(slug);
+    const report = reports[slug];
     const best = report?.best;
-    if (!best?.video_id) continue;
+    if (!best?.video_id) return;
 
     const peak = best.program_peak ?? null;
     const conc = best.conc_at ?? null;
@@ -158,29 +163,36 @@ export function buildAgenciaAlerts(
       peak && conc && peak > 0 ? Math.round((conc / peak) * 100) : null;
 
     alerts.push({
-      id: `${pair.slug}-${best.video_id}`,
-      brandSlug: pair.slug,
-      brandName: report?.name || pair.slug,
+      id: `${slug}-${best.video_id}`,
+      brandSlug: slug,
+      brandName: report?.name || slug,
       channel: best.channel_name || best.channel || "",
+      program: best.title?.trim() || "",
       date: best.date || "",
-      headline: `${report?.name || pair.slug} · ${best.channel_name || "streaming"}${isValley(best) ? " · ⚠️ VALLE" : ""}`,
+      headline: `${report?.name || slug} · ${best.channel_name || "streaming"}${isValley(best) ? " · ⚠️ salió flojo" : ""}`,
       body: [
-        conc ? `${compact(conc)} mirando en el minuto de la PNT` : null,
+        conc ? `${compact(conc)} mirando cuando dijeron la marca` : null,
         best.tier_label ? best.tier_label : null,
-        peakPct != null ? `${peakPct}% del pico del programa` : null,
+        peakPct != null ? `${peakPct}% del mejor momento del programa` : null,
         best.sentiment ? `tono ${best.sentiment}` : null,
         best.retention_pct != null ? `retención ${best.retention_pct}%` : null,
         best.chat_reaction?.table_line ? best.chat_reaction.table_line.slice(0, 60) : null,
       ]
         .filter(Boolean)
         .join(" · "),
-      tierLabel: best.tier_label || `Tier ${best.tier ?? "?"}`,
+      tierLabel: best.tier_label || "Mención en pantalla",
+      quote: best.quote?.trim() || "",
       concAt: conc,
       programPeak: peak,
       videoId: best.video_id,
       tSeconds: best.t_seconds ?? 0,
       evidence: best.evidence || "PARTIAL",
     });
+  }
+
+  for (const pair of pairs) {
+    pushAlert(pair.slug);
+    if (pair.competitorSlug) pushAlert(pair.competitorSlug);
   }
 
   return alerts.sort((a, b) => (b.concAt ?? 0) - (a.concAt ?? 0));

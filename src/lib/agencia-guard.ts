@@ -3,7 +3,7 @@
  */
 
 import type { AgenciaBrandPair } from "@/lib/agencia-demo";
-import { compact } from "@/lib/format";
+import { compact, vodLink } from "@/lib/format";
 import type { AgenciaAlert } from "@/lib/agencia-product";
 
 type ReportRow = {
@@ -151,6 +151,16 @@ export function askAnswerFromBriefing(
 }
 
 export function guardPushPreview(alert: AgenciaAlert): string {
-  const parts = [alert.headline, alert.body].filter(Boolean);
-  return parts.join(" · ");
+  const header = [alert.brandName, alert.channel, alert.program, alert.date]
+    .filter(Boolean)
+    .join(" · ");
+  const lines = [
+    header,
+    alert.concAt
+      ? `${compact(alert.concAt)} mirando`
+      : "Placa detectada en stream.",
+    alert.quote ? `"${alert.quote.slice(0, 140)}${alert.quote.length > 140 ? "…" : ""}"` : null,
+    alert.videoId ? vodLink(alert.videoId, alert.tSeconds) : null,
+  ].filter(Boolean);
+  return lines.join("\n");
 }

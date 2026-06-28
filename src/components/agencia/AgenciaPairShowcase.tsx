@@ -58,11 +58,17 @@ function MiniBrandCard({
     >
       <div className="flex items-center justify-between gap-2 mb-3">
         <AgenciaBrandRoleBadge role={role} />
-        <span className="text-[11px] text-gray-400 tabular-nums">{report?.mentions ?? 0} PNT</span>
+        <span className="text-[11px] text-gray-400 tabular-nums">{report?.mentions ?? 0} placas</span>
       </div>
       <h3 className="text-[16px] font-semibold text-ink mb-1">
         {report?.name || brandDisplayName(slug, names)}
       </h3>
+      {(report?.value_usd ?? 0) > 0 && (
+        <p className="text-[11px] text-gray-400 mb-2">
+          Referencia de exposición · USD{" "}
+          {Math.round(report!.value_usd!).toLocaleString("es-AR")}
+        </p>
+      )}
       {best ? (
         <>
           <p className="text-[12px] text-gray-500 mb-2">
@@ -117,7 +123,9 @@ export default function AgenciaPairShowcase({
     <section className="space-y-4">
       <div className="flex items-center gap-2">
         <h2 className="text-[14px] font-semibold text-ink">{rubroDisplay(pair.rubro)}</h2>
-        <span className="text-[11px] text-gray-400">· tu marca vs competidor</span>
+        <span className="text-[11px] text-gray-400">
+          · {compSlug ? "tu marca vs competidor" : "panorama del rubro"}
+        </span>
       </div>
 
       <div className="flex flex-col sm:flex-row gap-3 items-stretch">
@@ -139,7 +147,8 @@ export default function AgenciaPairShowcase({
 
       {rubroRows.length > 0 && compSlug && (
         <div className="card p-5">
-          <h3 className="text-[13px] font-semibold mb-3">Share de atención — explorá</h3>
+          <h3 className="text-[13px] font-semibold mb-1">Quién se llevó más miradas</h3>
+          <p className="text-[12px] text-gray-500 mb-4">En el rubro esta semana — con link al video.</p>
           <AgenciaRivalCompare
             rows={rubroRows}
             clientSlug={pair.slug}

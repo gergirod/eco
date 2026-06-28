@@ -2,15 +2,15 @@
 
 import Link from "next/link";
 import { useMemo } from "react";
+import AgenciaPageHeader from "@/components/agencia/AgenciaPageHeader";
 import AgenciaPairShowcase from "@/components/agencia/AgenciaPairShowcase";
 import { AGENCIA_BASE } from "@/lib/agencia-demo";
-import { useAgenciaConfig } from "@/lib/use-agencia-config";
+import { useActiveBrand } from "@/lib/use-active-brand";
 import { buildRubroShare, markCompetitorsInRubro } from "@/lib/agencia-product";
 import { useCorpus } from "@/lib/useCorpus";
 
-/** Rivales — share de atención, sin narrativa inventada. */
 export default function AgenciaRivalesPage() {
-  const { config } = useAgenciaConfig();
+  const { activePair, activeSlug, loading, hasRival } = useActiveBrand();
   const { brands, reports } = useCorpus(["brands", "reports"] as const);
 
   const names = useMemo(
@@ -21,60 +21,100 @@ export default function AgenciaRivalesPage() {
     [brands]
   );
 
+  const brandName = names[activeSlug ?? ""] ?? activeSlug ?? "tu cliente";
+
   const reportsMap = reports as Record<string, never>;
 
-  const pairShowcases = useMemo(
-    () =>
-      config.pairs.map((pair) => {
-        const compSlug = pair.competitorSlug;
-        const rubroRows = markCompetitorsInRubro(
-          buildRubroShare(pair.rubro, brands as never[], reportsMap, [
-            pair.slug,
-            ...(compSlug ? [compSlug] : []),
-          ]),
-          compSlug ? [compSlug] : config.competitorSlugs
-        );
-        return {
-          pair,
-          clientReport: reportsMap[pair.slug] as never,
-          competitorReport: compSlug ? (reportsMap[compSlug] as never) : null,
-          rubroRows,
-        };
-      }),
-    [config.pairs, config.competitorSlugs, brands, reports]
-  );
+  const showcase = useMemo(() => {
+    if (!activePair?.competitorSlug) return null;
+    const compSlug = activePair.competitorSlug;
+    const rubroRows = markCompetitorsInRubro(
+      buildRubroShare(activePair.rubro, brands as never[], reportsMap, [
+        activePair.slug,
+        compSlug,
+      ]),
+      [compSlug]
+    );
+    return {
+      pair: activePair,
+      clientReport: reportsMap[activePair.slug] as never,
+      competitorReport: reportsMap[compSlug] as never,
+      rubroRows,
+    };
+  }, [activePair, brands, reports]);
+
+  if (loading) {
+    return <div className="text-[13px] text-gray-400 py-8">Cargando…</div>;
+  }
+
+  if (!activePair) {
+    return (
+      <div className="card p-8 text-center max-w-md mx-auto">
+        <p className="text-[14px] text-gray-600 mb-4">Elegí una marca primero.</p>
+        <Link href={`${AGENCIA_BASE}/elegir`} className="btn btn-primary text-[13px]">
+          Elegir marca →
+        </Link>
+      </div>
+    );
+  }
+
+  if (!hasRival) {
+    return (
+      <div className="pb-12 max-w-2xl">
+        <AgenciaPageHeader
+          question="¿Quién ganó más miradas?"
+          when="Comparación cliente vs rival — solo si configuraste uno."
+        />
+        <div className="rounded-xl border border-[#ececec] bg-gray-50 px-5 py-5 text-[14px] text-gray-700 leading-relaxed">
+          <p>
+            Para {brandName} no hay rival cargado. Podés seguir con placas y mercado sin comparar
+            share.
+          </p>
+          <p className="mt-3">
+            Si querés la pelea de miradas,{" "}
+            <Link href={`${AGENCIA_BASE}/elegir`} className="text-accent font-medium hover:underline">
+              elegí un rival
+            </Link>{" "}
+            (opcional).
+          </p>
+        </div>
+        <footer className="mt-14 pt-8 border-t border-gray-100 flex flex-wrap gap-4 text-[13px]">
+          <Link href={`${AGENCIA_BASE}/donde`} className="text-accent hover:underline">
+            ← ¿Dónde pautar?
+          </Link>
+          <Link href={AGENCIA_BASE} className="text-accent hover:underline">
+            ¿Rindió la placa?
+          </Link>
+        </footer>
+      </div>
+    );
+  }
 
   return (
-    <div className="pb-10 max-w-3xl">
-      <p className="text-[10px] uppercase tracking-widest text-accent font-semibold mb-2">Rivales</p>
-      <h1 className="text-[26px] font-semibold tracking-tight text-ink">Qué hace la competencia</h1>
-      <p className="text-[14px] text-gray-500 mt-2 leading-relaxed">
-        Share de atención estimada en streaming — no apariciones Seenka. Para la reunión del viernes y
-        para el pitch.
-      </p>
+    <div className="pb-12 max-w-2xl">
+      <AgenciaPageHeader
+        question="¿Quién ganó más miradas?"
+        when={`${brandName} vs el rival — share del rubro esta semana.`}
+      />
 
-      <div className="mt-8 space-y-10">
-        {pairShowcases.map((showcase) => (
-          <AgenciaPairShowcase
-            key={showcase.pair.slug}
-            pair={showcase.pair}
-            clientReport={showcase.clientReport}
-            competitorReport={showcase.competitorReport}
-            rubroRows={showcase.rubroRows}
-            names={names}
-          />
-        ))}
-      </div>
+      {showcase && (
+        <AgenciaPairShowcase
+          pair={showcase.pair}
+          clientReport={showcase.clientReport}
+          competitorReport={showcase.competitorReport}
+          rubroRows={showcase.rubroRows}
+          names={names}
+        />
+      )}
 
-      <p className="text-[12px] text-gray-400 mt-8">
+      <footer className="mt-14 pt-8 border-t border-gray-100 flex flex-wrap gap-4 text-[13px]">
         <Link href={`${AGENCIA_BASE}/donde`} className="text-accent hover:underline">
-          Dónde pautar →
+          ← ¿Dónde pautar?
         </Link>
-        {" · "}
         <Link href={AGENCIA_BASE} className="text-accent hover:underline">
-          Guard
+          ¿Rindió la placa?
         </Link>
-      </p>
+      </footer>
     </div>
   );
 }

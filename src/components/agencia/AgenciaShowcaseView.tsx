@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { useMemo } from "react";
 import AgenciaAlertCard from "@/components/agencia/AgenciaAlertCard";
 import AgenciaBrandRoleBadge from "@/components/agencia/AgenciaBrandRoleBadge";
@@ -10,6 +11,7 @@ import AgenciaPairShowcase from "@/components/agencia/AgenciaPairShowcase";
 import AgenciaSlotExplorer from "@/components/agencia/AgenciaSlotExplorer";
 import { buildCorpusChannelMatrix } from "@/lib/corpus-channels";
 import { AGENCIA_BASE } from "@/lib/agencia-demo";
+import { saveBrandChoice } from "@/lib/save-brand-choice";
 import { buildBrandSlots } from "@/lib/agencia-donde";
 import type { ShowcaseConfig } from "@/lib/agencia-showcase";
 import { buildAgenciaAlerts, buildRubroShare, markCompetitorsInRubro } from "@/lib/agencia-product";
@@ -31,6 +33,7 @@ type Props = {
 };
 
 export default function AgenciaShowcaseView({ showcase }: Props) {
+  const router = useRouter();
   const { brands, reports, channels, audience, moments, placement, meta } = useCorpus([
     "brands",
     "reports",
@@ -154,15 +157,15 @@ export default function AgenciaShowcaseView({ showcase }: Props) {
           rows={corpusRows}
           meta={meta as never}
           highlightIds={showcase.channelIds}
-          title="Canales de este demo vs corpus completo"
+          title="Canales de este demo vs lo que medimos"
         />
       </section>
 
       <section className="mb-12">
         <p className="text-[10px] uppercase tracking-wide text-gray-400 font-medium mb-1">Paso 1</p>
-        <h2 className="text-[18px] font-semibold text-ink mb-2">ECO Guard — alertas</h2>
+        <h2 className="text-[18px] font-semibold text-ink mb-2">Alertas · ¿salió la placa?</h2>
         <p className="text-[13px] text-gray-500 mb-5">
-          Push con concurrentes al segundo — tu marca y el rival.
+          El mensaje que te mandaríamos por WhatsApp — con cuánta gente miraba en ese momento.
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
           {alerts.map((alert) => (
@@ -195,12 +198,12 @@ export default function AgenciaShowcaseView({ showcase }: Props) {
             <AgenciaBrandRoleBadge role="cliente" className="mb-2" />
             <p className="text-[17px] font-semibold">{showcase.clientName}</p>
             <p className="text-[13px] text-gray-600 mt-2 tabular-nums">
-              {client?.mentions ?? 0} PNT · USD{" "}
+              {client?.mentions ?? 0} {client?.mentions === 1 ? "placa" : "placas"} · USD{" "}
               {Math.round(client?.value_usd ?? 0).toLocaleString("es-AR")}
             </p>
             {clientShare && (
               <p className="text-[13px] font-medium text-accent mt-2">
-                {clientShare.sharePct.toFixed(0)}% share atención
+                {clientShare.sharePct.toFixed(0)}% de las miradas del rubro
               </p>
             )}
           </div>
@@ -208,12 +211,12 @@ export default function AgenciaShowcaseView({ showcase }: Props) {
             <AgenciaBrandRoleBadge role="competidor" className="mb-2" />
             <p className="text-[17px] font-semibold">{showcase.competitorName}</p>
             <p className="text-[13px] text-gray-600 mt-2 tabular-nums">
-              {competitor?.mentions ?? 0} PNT · USD{" "}
+              {competitor?.mentions ?? 0} {competitor?.mentions === 1 ? "placa" : "placas"} · USD{" "}
               {Math.round(competitor?.value_usd ?? 0).toLocaleString("es-AR")}
             </p>
             {competitorShare && (
               <p className="text-[13px] font-medium text-amber-900 mt-2">
-                {competitorShare.sharePct.toFixed(0)}% share atención
+                {competitorShare.sharePct.toFixed(0)}% de las miradas del rubro
               </p>
             )}
           </div>
@@ -222,7 +225,7 @@ export default function AgenciaShowcaseView({ showcase }: Props) {
 
       <section className="mb-12">
         <p className="text-[10px] uppercase tracking-wide text-gray-400 font-medium mb-1">Paso 3</p>
-        <h2 className="text-[18px] font-semibold text-ink mb-4">Dónde pautar · explorá slots</h2>
+        <h2 className="text-[18px] font-semibold text-ink mb-4">Dónde pautar · tocá cada aparición</h2>
         <AgenciaSlotExplorer
           slots={[...clientSlots, ...competitorSlots]}
           title={`Tocá cada aparición · ${showcase.clientName}`}
@@ -251,12 +254,23 @@ export default function AgenciaShowcaseView({ showcase }: Props) {
       </section>
 
       <div className="flex flex-wrap gap-3">
+        <button
+          type="button"
+          onClick={() => {
+            const pair = showcase.pairs[0];
+            saveBrandChoice(pair.slug, pair.competitorSlug);
+            router.push(AGENCIA_BASE);
+          }}
+          className="btn btn-primary text-[13px]"
+        >
+          Usar {showcase.clientName} en la máquina →
+        </button>
         <Link href={`${AGENCIA_BASE}/ejemplo`} className="btn border border-[#ececec] text-[13px]">
           ← Todos los ejemplos
         </Link>
         <Link
           href={`${AGENCIA_BASE}/marcas/${showcase.clientSlug}`}
-          className="btn btn-primary text-[13px]"
+          className="btn border border-[#ececec] text-[13px]"
         >
           Ficha {showcase.clientName}
         </Link>

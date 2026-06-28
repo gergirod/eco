@@ -15,7 +15,7 @@ type Props = {
   title?: string;
 };
 
-export default function AgenciaSlotExplorer({ slots, title = "Explorá tus slots" }: Props) {
+export default function AgenciaSlotExplorer({ slots, title = "Tocá cada aparición" }: Props) {
   const [activeId, setActiveId] = useState(0);
   const sorted = useMemo(
     () => [...slots].sort((a, b) => b.concAt - a.concAt),

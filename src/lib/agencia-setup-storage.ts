@@ -9,6 +9,8 @@ export type LocalAgenciaSetup = {
   brandSlugs: string[];
   competitorSlugs: string[];
   pairs: AgenciaBrandPair[];
+  /** Marca en foco en la UI — una pregunta a la vez */
+  activeBrandSlug?: string;
   savedAt: string;
 };
 
@@ -33,4 +35,9 @@ export function saveLocalAgenciaSetup(setup: LocalAgenciaSetup): void {
 export function clearLocalAgenciaSetup(): void {
   if (typeof window === "undefined") return;
   localStorage.removeItem(KEY);
+}
+
+export function notifyAgenciaSetupChanged(): void {
+  if (typeof window === "undefined") return;
+  window.dispatchEvent(new Event("eco-agencia-setup"));
 }

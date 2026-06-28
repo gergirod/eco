@@ -7,7 +7,13 @@ import { loadLocalAgenciaSetup } from "@/lib/agencia-setup-storage";
 import { useAgenciaConfig } from "@/lib/use-agencia-config";
 import { usePartner } from "@/contexts/PartnerContext";
 
-/** Redirige a configurar si el partner aún no eligió marcas. */
+const OPEN_PATHS = ["/configurar", "/elegir", "/ejemplo", "/demo", "/marcas"];
+
+function isOpenPath(path: string): boolean {
+  return OPEN_PATHS.some((p) => path.startsWith(`${AGENCIA_BASE}${p}`));
+}
+
+/** Sin marca elegida → /elegir. Partner sin marcas → /configurar. */
 export default function AgenciaSetupGuard({ children }: { children: React.ReactNode }) {
   const router = useRouter();
   const path = usePathname();
@@ -16,18 +22,24 @@ export default function AgenciaSetupGuard({ children }: { children: React.ReactN
 
   useEffect(() => {
     if (loading) return;
-    if (path.startsWith(`${AGENCIA_BASE}/configurar`)) return;
+    if (isOpenPath(path)) return;
 
     const hasLocal = Boolean(loadLocalAgenciaSetup()?.brandSlugs.length);
-    const needsSetup =
-      !config.isPreview &&
-      ((isScoped && partner && !partner.brand_slugs.length) ||
-        (!isScoped && !hasLocal && path.startsWith(AGENCIA_BASE)));
 
-    if (needsSetup) {
+    if (isScoped && partner && !partner.brand_slugs.length) {
+      router.replace(`${AGENCIA_BASE}/configurar`);
+      return;
+    }
+
+    if (!isScoped && config.isPreview && !hasLocal) {
+      router.replace(`${AGENCIA_BASE}/elegir`);
+      return;
+    }
+
+    if (!isScoped && !config.isPreview && !hasLocal && config.brandSlugs.length === 0) {
       router.replace(`${AGENCIA_BASE}/configurar`);
     }
-  }, [loading, path, isScoped, partner, config.isPreview, router]);
+  }, [loading, path, isScoped, partner, config.isPreview, config.brandSlugs.length, router]);
 
   return <>{children}</>;
 }
