@@ -10,7 +10,7 @@ import { useAgenciaConfig } from "@/lib/use-agencia-config";
 import { useCorpus } from "@/lib/useCorpus";
 
 const NAV = [
-  { href: `${AGENCIA_BASE}/ejemplo`, label: "Demo", icon: "★" },
+  { href: `${AGENCIA_BASE}/demo`, label: "Demo", icon: "★" },
   { href: AGENCIA_BASE, label: "Guard", icon: "◉", exact: true },
   { href: `${AGENCIA_BASE}/donde`, label: "Dónde", icon: "◈" },
   { href: `${AGENCIA_BASE}/pulso`, label: "Rivales", icon: "⚖" },

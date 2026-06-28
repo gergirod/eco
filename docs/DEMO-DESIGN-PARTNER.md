@@ -8,7 +8,7 @@
 
 | Qué | URL |
 |-----|-----|
-| **Hub — 4 ejemplos** | https://eco.knownfy.ai/agencia/ejemplo |
+| **Hub — 4 ejemplos** | https://eco.knownfy.ai/agencia/ejemplo · alias `/agencia/demo` |
 | Fintech (recomendado call) | https://eco.knownfy.ai/agencia/ejemplo/iol-mercado-pago |
 | Viajes wow 237k | https://eco.knownfy.ai/agencia/ejemplo/wanderlust-aerolineas |
 | Higiene CPG | https://eco.knownfy.ai/agencia/ejemplo/skip-rexona |
