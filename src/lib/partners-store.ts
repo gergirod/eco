@@ -174,6 +174,8 @@ export type UpsertPartnerInput = {
   contract_started_at?: string;
   /** true = guardar sin link (borrador hasta que paguen) */
   skip_invite?: boolean;
+  /** true = alta sin marcas — el cliente las elige en /agencia/configurar */
+  self_setup?: boolean;
 };
 
 export type UpsertPartnerResult = {
@@ -352,7 +354,10 @@ export async function upsertPartner(input: UpsertPartnerInput): Promise<UpsertPa
     contract_started_at: input.contract_started_at,
   };
 
-  const err = validatePartnerContract(record);
+  const err =
+    input.self_setup && !record.brand_slugs.length
+      ? null
+      : validatePartnerContract(record);
   if (err) return { ok: false, error: err };
 
   const existing = await getPartnerById(input.id);
@@ -411,6 +416,51 @@ export async function upsertPartner(input: UpsertPartnerInput): Promise<UpsertPa
     return { ok: false, error: `Supabase error ${status}` };
   }
   return { ok: true, inviteToken };
+}
+
+export async function updatePartnerPortfolio(
+  partnerId: string,
+  brand_slugs: string[],
+  competitor_by_brand: Record<string, string>
+): Promise<{ ok: boolean; error?: string; partner?: PartnerRecord }> {
+  const { enabled } = supabaseServiceConfig();
+  if (!enabled) {
+    return { ok: false, error: "Configuración en la nube no disponible en este entorno." };
+  }
+
+  const existing = await getPartnerById(partnerId);
+  if (!existing || existing.active === false) {
+    return { ok: false, error: "Cuenta no encontrada o inactiva." };
+  }
+
+  const competitor_slugs = [...new Set(Object.values(competitor_by_brand))];
+  const record: PartnerRecord = {
+    ...existing,
+    brand_slugs,
+    competitor_slugs,
+    competitor_by_brand: Object.keys(competitor_by_brand).length
+      ? competitor_by_brand
+      : undefined,
+  };
+
+  const err = validatePartnerContract(record);
+  if (err) return { ok: false, error: err };
+
+  const { ok, status } = await patchPartnerRow(partnerId, {
+    brand_slugs,
+    competitor_slugs,
+    competitor_by_brand,
+  });
+  if (!ok) {
+    if (status === 404) return { ok: false, error: SUPABASE_PARTNERS_SETUP_HINT };
+    return { ok: false, error: `No pudimos guardar (${status}).` };
+  }
+
+  const updated = await getPartnerById(partnerId);
+  if (!updated) return { ok: true };
+  const { password_hash: _, invite_token_hash: __, invite_expires_at: ___, ...rest } =
+    updated;
+  return { ok: true, partner: rest };
 }
 
 export async function partnersStoreStatus(): Promise<{

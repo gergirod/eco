@@ -7,28 +7,29 @@ const CONFIDENCE_LABEL = {
   media: "Confianza media",
 } as const;
 
-function actionHref(event: NovedadEvent): string {
+function actionHref(event: NovedadEvent, basePath = ""): string {
   const { action } = event;
   switch (action.type) {
     case "marca":
-      return `/marcas/${action.slug}`;
+      return `${basePath}/marcas/${action.slug}`;
     case "canal":
-      return `/canales/${action.id}`;
+      return `${basePath}/canales/${action.id}`;
     case "programa":
-      return `/programas/${action.videoId}`;
+      return `${basePath}/programas/${action.videoId}`;
     case "informe":
-      return `/campanas?slug=${action.campaignSlug}`;
+      return `${basePath}/campanas?slug=${action.campaignSlug}`;
     default:
-      return "/novedades";
+      return `${basePath}/novedades`;
   }
 }
 
 type Props = {
   event: NovedadEvent;
+  hrefPrefix?: string;
 };
 
-export default function NovedadCard({ event }: Props) {
-  const href = actionHref(event);
+export default function NovedadCard({ event, hrefPrefix = "" }: Props) {
+  const href = actionHref(event, hrefPrefix);
   const externalProgram =
     event.action.type === "programa" ? vodLink(event.action.videoId) : null;
 

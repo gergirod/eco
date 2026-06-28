@@ -22,12 +22,15 @@ type AdvertiserBrowseCardProps = {
   item: DiscoveryBrowseItem;
   variant?: "featured" | "default";
   badge?: string;
+  /** Prefijo de ruta (ej. /agencia) para links internos */
+  hrefPrefix?: string;
 };
 
 export default function AdvertiserBrowseCard({
   item,
   variant = "default",
   badge,
+  hrefPrefix = "",
 }: AdvertiserBrowseCardProps) {
   const peak =
     item.peakConcurrentViewers != null && item.peakConcurrentViewers > 0
@@ -84,7 +87,7 @@ export default function AdvertiserBrowseCard({
       </p>
 
       <Link
-        href={`/marcas/${item.slug}`}
+        href={`${hrefPrefix}/marcas/${item.slug}`}
         className={`font-medium text-accent hover:underline mt-auto ${
           isFeatured ? "text-[14px]" : "text-[13px]"
         }`}

@@ -101,14 +101,19 @@ export async function middleware(req: NextRequest) {
   }
 
   if (isPartnerBlockedPath(pathname)) {
-    return NextResponse.redirect(new URL("/marcas", req.url));
+    const partner = await getPartnerById(session.id);
+    const dest = partner ? partnerLandingPath(partner) : "/agencia";
+    return NextResponse.redirect(new URL(dest, req.url));
   }
 
   const marcaSlug = marcasSlugFromPath(pathname);
   if (marcaSlug) {
     const partner = await getPartnerById(session.id);
     if (partner && !partnerCanViewSlug(partner, marcaSlug)) {
-      return NextResponse.redirect(new URL("/marcas?err=scope", req.url));
+      const dest = partnerLandingPath(partner);
+      const url = new URL(dest, req.url);
+      url.searchParams.set("err", "scope");
+      return NextResponse.redirect(url);
     }
   }
 

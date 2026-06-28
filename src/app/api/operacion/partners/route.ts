@@ -70,9 +70,10 @@ export async function POST(req: Request) {
   }
 
   const icp = body.icp || "agencia";
-  if (icp !== "canal" && !body.brand_slugs?.length) {
+  const selfSetup = body.self_setup === true;
+  if (icp !== "canal" && !body.brand_slugs?.length && !selfSetup) {
     return NextResponse.json(
-      { ok: false, error: "brand_slugs son obligatorios para agencia/marca" },
+      { ok: false, error: "brand_slugs son obligatorios (o activá «setup lo hace el cliente»)" },
       { status: 400 }
     );
   }

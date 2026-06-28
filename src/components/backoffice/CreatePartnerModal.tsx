@@ -85,6 +85,7 @@ function defaultFormState() {
     formEmail: "",
     formPriceArs: String(PLAN_PRICE_GUIDES[ICP_DEFAULT_PLAN.agencia].arsSuggested),
     formAccessMonths: "1",
+    formSelfSetup: false,
   };
 }
 
@@ -116,6 +117,7 @@ export default function CreatePartnerModal({
     formEmail,
     formPriceArs,
     formAccessMonths,
+    formSelfSetup,
   } = form;
 
   const planOptions = useMemo(() => plansForIcp(formIcp), [formIcp]);
@@ -183,8 +185,8 @@ export default function CreatePartnerModal({
       const parsed = pairsToPartnerPayload(formBrandPairs);
       brand_slugs = parsed.brand_slugs;
       competitor_by_brand = parsed.competitor_by_brand;
-      if (!brand_slugs.length) {
-        setSaveMsg("Agregá al menos una marca del contrato.");
+      if (!brand_slugs.length && !formSelfSetup) {
+        setSaveMsg("Agregá al menos una marca del contrato, o marcá «Setup lo hace el cliente».");
         setSaving(false);
         return;
       }
@@ -227,6 +229,7 @@ export default function CreatePartnerModal({
           contract_started_at: new Date().toISOString().slice(0, 10),
           active: !asDraft,
           skip_invite: asDraft,
+          self_setup: formSelfSetup && !brand_slugs.length,
         }),
       });
       const data = await res.json();
@@ -352,6 +355,23 @@ export default function CreatePartnerModal({
                 </span>
               )}
             </label>
+
+            <div className="sm:col-span-2">
+              <label className="flex items-start gap-2 text-[13px] text-gray-600 cursor-pointer">
+                <input
+                  type="checkbox"
+                  checked={formSelfSetup}
+                  onChange={(e) =>
+                    setForm((f) => ({ ...f, formSelfSetup: e.target.checked }))
+                  }
+                  className="mt-1"
+                />
+                <span>
+                  <strong>Setup lo hace el cliente</strong> — sin marcas al alta. Entra al link y
+                  elige sus marcas en /agencia/configurar.
+                </span>
+              </label>
+            </div>
 
             {formIcp === "canal" ? (
               <ChannelContractPicker

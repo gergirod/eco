@@ -15,6 +15,8 @@ export type PartnerView = {
   name: string;
   brand_slugs: string[];
   competitor_slugs: string[];
+  competitor_by_brand?: Record<string, string>;
+  plan?: PartnerRecord["plan"];
 };
 
 type PartnerContextValue = {

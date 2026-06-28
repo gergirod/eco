@@ -16,6 +16,13 @@ const NAV_MODULES: NavModule[] = [
   { href: "/tendencias", label: "Tendencias", icon: "↗" },
 ];
 
+/** Design partner agencia — 3 pantallas (SPEC PRODUCTO-DESIGN-PARTNER-AGENCIA) */
+const NAV_PARTNER_AGENCIA: NavModule[] = [
+  { href: "/marcas", label: "Inicio", icon: "◆" },
+  { href: "/competencia", label: "Competencia", icon: "⚖" },
+  { href: "/novedades", label: "Novedades", icon: "◇" },
+];
+
 /** Rutas legacy redirigen vía next.config. Operación interna: /backoffice */
 const NAV_INTERNAL = [{ href: "/backoffice", label: "Operación", icon: "⚙" }] as const;
 
@@ -27,5 +34,5 @@ function isNavActive(path: string, item: NavModule): boolean {
   return false;
 }
 
-export { NAV_MODULES, NAV_INTERNAL, isNavActive };
+export { NAV_MODULES, NAV_PARTNER_AGENCIA, NAV_INTERNAL, isNavActive };
 export type { NavModule };

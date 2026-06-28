@@ -88,38 +88,39 @@ export const ACCESS_TIMELINE = [
   {
     fase: "1. Call / interés",
     plataforma: "No",
-    entregable: "Nada todavía — anotá marcas y competidores (1 comp. por marca).",
+    entregable: "ECO anota marcas + WhatsApp del contacto.",
   },
   {
     fase: "2. Gancho (post-call)",
     plataforma: "No",
-    entregable: "Demo del brief — podés crear borrador en backoffice (sin acceso).",
+    entregable: "WhatsApp con evidencia real de SU marca (link al segundo) — no PDF.",
   },
   {
     fase: "3. Cierran design partner (pagan)",
     plataforma: "Sí — mismo día",
-    entregable: "Activar acceso → copiás mail + link y se lo mandás al cliente.",
+    entregable: "Link scoped (Inicio · Competencia · Novedades) + WhatsApp de bienvenida.",
   },
   {
-    fase: "4. Cada viernes",
-    plataforma: "Ya tienen acceso",
-    entregable: "El cliente: Marca → Informes → Descargar resumen PDF. Vos no enviás nada.",
+    fase: "4. Recurrente",
+    plataforma: "Cuando necesitan prueba",
+    entregable: "Push WhatsApp por activación + pulso semanal. App = evidencia, no reportes.",
   },
 ] as const;
 
 export const WEEKLY_CHECKLIST = [
   "Verificar pipeline al día (Resumen → último run)",
-  "Confirmar marcas del partner con datos frescos en el corpus",
-  "El brief lo genera el cliente desde su espacio — no enviar PDFs manualmente",
-  "Opcional: ping si llevan >7 días sin entrar a la plataforma",
+  "Push WhatsApp pulso semanal por marca (2–3 líneas + link si aplica)",
+  "Alerta manual post-PNT hasta campaign_alert.py",
+  "Responder preguntas por WhatsApp/mail (Preguntale v1)",
 ] as const;
 
-/** Pasos que el cliente sigue en la plataforma (marca / agencia). */
+/** Lo que el cliente hace en la app (agencia boutique). */
 export const BRIEF_STEPS_MARCA = [
   "Entrá con tu link de acceso",
-  "Elegí una de tus marcas en el menú lateral (o desde Inicio)",
-  'Abrí la pestaña "Informes"',
-  'Clic en "Descargar resumen PDF" → Imprimir → Guardar como PDF',
+  "Inicio → elegí tu marca",
+  "Abrí la activación → link al segundo en YouTube",
+  "Competencia → compará atención vs tu rival",
+  "Preguntale → hacé una pregunta del briefing",
 ] as const;
 
 /** Pasos para ICP canal. */
@@ -137,10 +138,10 @@ export function briefMailBlock(icp: PartnerIcp): string {
   const steps = briefStepsForIcp(icp);
   const intro =
     icp === "canal"
-      ? "Desde la plataforma accedés a tu canal, certificados, novedades y tendencias del mercado cuando lo necesites."
-      : "Desde la plataforma generás tu brief semanal en PDF cuando lo necesites: marcas, competidores y evidencia minuto a minuto.";
+      ? "Desde la plataforma accedés a tu canal, certificados y benchmark del mercado."
+      : "Desde la plataforma ves tus marcas, competencia y novedades — con evidencia al segundo. Las alertas te llegan por WhatsApp.";
   const howTo = steps.map((s, i) => `${i + 1}. ${s}`).join("\n");
-  return `${intro}\n\nCómo hacerlo:\n${howTo}`;
+  return `${intro}\n\nCómo usarlo:\n${howTo}`;
 }
 
 export function buildPartnerWelcomeMail(opts: {
@@ -148,6 +149,7 @@ export function buildPartnerWelcomeMail(opts: {
   link: string;
   icp: PartnerIcp;
   accessMonths: number;
+  selfSetup?: boolean;
 }): string {
   const validity =
     opts.accessMonths > 0
@@ -155,20 +157,23 @@ export function buildPartnerWelcomeMail(opts: {
       : "El link no vence (hasta que lo revoques manualmente).";
   const scopeLine =
     opts.icp === "canal"
-      ? "Ves tu canal, benchmark del mercado, certificados, novedades y tendencias."
-      : "Ves tus marcas y competidores del contrato, más el mercado de streaming (canales, programas, novedades y tendencias).";
+      ? "Ves tu canal, benchmark del mercado y certificados."
+      : "Ves tus marcas y competencia en /agencia — Inicio, Competencia, Novedades y Preguntale. Las alertas van por WhatsApp.";
+  const setupLine = opts.selfSetup
+    ? "\nPrimero vas a elegir tus marcas y competidores (2 minutos) — después ya tenés tu cuenta.\n"
+    : "";
   return `Hola,
 
-Tu espacio en ECO Intelligence está listo.
+Tu espacio ECO está listo.
 
-Entrá acá (un click, sin contraseña):
+Entrá acá (un click):
 ${opts.link}
-
+${setupLine}
 Solo funciona para ${opts.name} — ${scopeLine}
 ${validity}
 
 ${briefMailBlock(opts.icp)}
 
 —
-ECO Intelligence`;
+ECO`;
 }

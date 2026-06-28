@@ -63,11 +63,11 @@ export default function PartnerMarcasHome({
     <div className="max-w-6xl pb-8">
       <div className="mb-6">
         <h1 className="text-[22px] font-semibold tracking-tight text-ink">
-          Tus marcas monitoreadas
+          Tu cuenta en streaming
         </h1>
         <p className="text-[14px] text-gray-500 mt-2 max-w-2xl leading-relaxed">
-          Perfiles con pauta verificada, orgánico y evidencia al minuto. Canales, novedades y
-          tendencias del ecosistema están disponibles en el menú como contexto de mercado.
+          Últimas activaciones verificadas, evidencia al segundo y estado vs competencia.
+          Las alertas urgentes te llegan por WhatsApp — acá está la prueba cuando la necesitás.
         </p>
       </div>
 
@@ -75,17 +75,17 @@ export default function PartnerMarcasHome({
 
       <div className="mt-6 flex flex-wrap gap-3">
         {clientBrands[0] && (
-          <Link href={`/marcas/${clientBrands[0].slug}?tab=informes`} className="btn btn-primary text-[13px]">
-            Ver entregas
+          <Link href={`/marcas/${clientBrands[0].slug}`} className="btn btn-primary text-[13px]">
+            Ver evidencia
           </Link>
         )}
         {competitorSlugs.length > 0 && (
           <Link href="/competencia" className="btn border border-[#ececec] text-[13px]">
-            Comparar con competencia
+            Competencia
           </Link>
         )}
         <Link href="/novedades" className="btn border border-[#ececec] text-[13px]">
-          Novedades de la semana
+          Novedades
         </Link>
       </div>
 

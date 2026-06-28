@@ -13,6 +13,7 @@ export type PartnerSession = {
   plan: PartnerRecord["plan"];
   brand_slugs: string[];
   competitor_slugs: string[];
+  competitor_by_brand?: Record<string, string>;
   channel_ids?: string[];
   benchmark_channel_ids?: string[];
 };
@@ -26,6 +27,7 @@ export function partnerToSession(partner: PartnerRecord): PartnerSession {
     plan: normalizePartnerPlan(partner.plan, icp),
     brand_slugs: partner.brand_slugs,
     competitor_slugs: partnerCompetitorSlugs(partner),
+    competitor_by_brand: partner.competitor_by_brand,
     channel_ids: partner.channel_ids,
     benchmark_channel_ids: partner.benchmark_channel_ids,
   };
@@ -36,6 +38,9 @@ export function partnerLandingPath(
   partner: Pick<PartnerRecord, "icp" | "brand_slugs" | "channel_ids">
 ): string {
   const icp = normalizePartnerIcp(partner.icp);
+  if (icp === "agencia") {
+    return partner.brand_slugs?.length ? "/agencia" : "/agencia/configurar";
+  }
   if (icp === "canal" && partner.channel_ids?.[0]) {
     return `/canales/${partner.channel_ids[0]}`;
   }
@@ -158,6 +163,13 @@ export const PARTNER_BLOCKED_PREFIXES = [
   "/mediakit",
   "/certificado",
   "/operacion",
+  "/canales",
+  "/conversacion",
+  "/tendencias",
+  "/donde-pautar",
+  "/campanas",
+  "/campaign",
+  "/marcas",
 ] as const;
 
 export function isPartnerPublicPath(pathname: string): boolean {
@@ -175,5 +187,7 @@ export function isPartnerBlockedPath(pathname: string): boolean {
 
 export function marcasSlugFromPath(pathname: string): string | null {
   const m = pathname.match(/^\/marcas\/([^/]+)/);
-  return m?.[1] ?? null;
+  if (m?.[1]) return m[1];
+  const ag = pathname.match(/^\/agencia\/marcas\/([^/]+)/);
+  return ag?.[1] ?? null;
 }
