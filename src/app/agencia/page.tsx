@@ -5,10 +5,12 @@ import { useMemo } from "react";
 import AgenciaAlertCard from "@/components/agencia/AgenciaAlertCard";
 import AgenciaGuardStatus from "@/components/agencia/AgenciaGuardStatus";
 import AgenciaPageHeader from "@/components/agencia/AgenciaPageHeader";
+import AgenciaPlanTeaser from "@/components/agencia/AgenciaPlanTeaser";
 import AgenciaQuestionBlock from "@/components/agencia/AgenciaQuestionBlock";
 import { AGENCIA_BASE } from "@/lib/agencia-demo";
 import { buildGuardStatus } from "@/lib/agencia-guard";
 import { buildBrandSlots } from "@/lib/agencia-donde";
+import { buildAgenciaPlanTeaser } from "@/lib/agencia-plan";
 import { useActiveBrand } from "@/lib/use-active-brand";
 import { buildAgenciaAlerts } from "@/lib/agencia-product";
 import { compact, vodLink } from "@/lib/format";
@@ -16,7 +18,7 @@ import { useCorpus } from "@/lib/useCorpus";
 
 export default function AgenciaGuardPage() {
   const { activePair, activeSlug, loading, hasRival } = useActiveBrand();
-  const { reports, meta, brands } = useCorpus(["reports", "meta", "brands"] as const);
+  const { reports, meta, brands, brand_history } = useCorpus(["reports", "meta", "brands", "brand_history"] as const);
 
   const reportsMap = reports as Record<string, never>;
 
@@ -58,6 +60,18 @@ export default function AgenciaGuardPage() {
     );
   }, [activeSlug, reports]);
 
+  const planTeaser = useMemo(() => {
+    if (!activeSlug) return null;
+    return buildAgenciaPlanTeaser({
+      brandSlug: activeSlug,
+      brandName,
+      periodActivations: clientAlerts.length,
+      bestConc: topAlert?.concAt ?? null,
+      valleyCount: valleyWarnings.length,
+      brandHistory: brand_history as never,
+    });
+  }, [activeSlug, brandName, clientAlerts.length, topAlert, valleyWarnings.length, brand_history]);
+
   if (loading) {
     return <div className="text-[13px] text-gray-400 py-8">Cargando…</div>;
   }
@@ -86,6 +100,12 @@ export default function AgenciaGuardPage() {
       </p>
 
       <AgenciaGuardStatus status={guardStatus} brandName={brandName} />
+
+      {planTeaser && (
+        <div className="mt-6">
+          <AgenciaPlanTeaser brandName={brandName} line={planTeaser} />
+        </div>
+      )}
 
       {topAlert?.concAt ? (
         <div className="mt-6 rounded-xl border border-[#ececec] bg-white px-5 py-4">

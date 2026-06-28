@@ -31,6 +31,7 @@ const LAZY: Record<string, () => Promise<unknown>> = {
   schedule_insights: () => import("@/data/schedule_insights.json").then((m) => m.default),
   capture_schedules: () => import("@/data/capture_schedules.json").then((m) => m.default),
   sala_signals: () => import("@/data/sala_signals.json").then((m) => m.default),
+  brand_history: () => import("@/data/brand_history.json").then((m) => m.default),
 };
 
 export const CORPUS_EMPTY: Record<string, unknown> = {
@@ -52,6 +53,7 @@ export const CORPUS_EMPTY: Record<string, unknown> = {
   schedule_insights: {},
   capture_schedules: {},
   sala_signals: { signals: [] },
+  brand_history: { brands: {} },
 };
 
 const lazyCache = new Map<string, Promise<unknown>>();

@@ -1,0 +1,4955 @@
+{
+ "updated_at": "2026-06-28T11:41:18.759516+00:00",
+ "brands": {
+  "iol-inversiones": {
+   "name": "IOL Inversiones",
+   "first_seen": "23/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+     "video_id": "9ucd7zkq6P8",
+     "t_seconds": 2692,
+     "conc_at": 7543,
+     "program_peak": 7909,
+     "retention_pct": -0.7,
+     "tier_label": "Con código o promo",
+     "value_usd": 249.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "25/06/2026",
+     "date_iso": "20260625",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+     "video_id": "mxFu-R3O8TY",
+     "t_seconds": 5275,
+     "conc_at": 34141,
+     "program_peak": 48991,
+     "retention_pct": null,
+     "tier_label": "Con código o promo",
+     "value_usd": 1521.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
+     "video_id": "WCF4oC8GC9o",
+     "t_seconds": 6554,
+     "conc_at": 229621,
+     "program_peak": 233997,
+     "retention_pct": -0.5,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 6649.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+     "video_id": "JqkhC1EnyTQ",
+     "t_seconds": 4581,
+     "conc_at": 7880,
+     "program_peak": 8762,
+     "retention_pct": -1.2,
+     "tier_label": "Con código o promo",
+     "value_usd": 260.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+     "video_id": "NKhi31a86K8",
+     "t_seconds": 7343,
+     "conc_at": 7707,
+     "program_peak": 9988,
+     "retention_pct": -1.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 223.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+     "video_id": "NKhi31a86K8",
+     "t_seconds": 7245,
+     "conc_at": 7808,
+     "program_peak": 9988,
+     "retention_pct": -1.9,
+     "tier_label": "Con código o promo",
+     "value_usd": 348.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+     "video_id": "NKhi31a86K8",
+     "t_seconds": 7220,
+     "conc_at": 7800,
+     "program_peak": 9988,
+     "retention_pct": -1.9,
+     "tier_label": "Con código o promo",
+     "value_usd": 347.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+     "video_id": "q_clAienUJw",
+     "t_seconds": 3914,
+     "conc_at": 42582,
+     "program_peak": 49257,
+     "retention_pct": null,
+     "tier_label": "Con código o promo",
+     "value_usd": 1405.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+     "video_id": "q_clAienUJw",
+     "t_seconds": 3302,
+     "conc_at": 42582,
+     "program_peak": 49257,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 457.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 9,
+     "value_usd": 11459.0
+    }
+   ]
+  },
+  "geniol": {
+   "name": "Geniol",
+   "first_seen": "19/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "video_id": "8lOkxIDSd4w",
+     "t_seconds": 9433,
+     "conc_at": 36111,
+     "program_peak": 40233,
+     "retention_pct": 0.4,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 775.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+     "video_id": "q_clAienUJw",
+     "t_seconds": 8549,
+     "conc_at": 42582,
+     "program_peak": 49257,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1233.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+     "video_id": "q_clAienUJw",
+     "t_seconds": 8304,
+     "conc_at": 42582,
+     "program_peak": 49257,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1233.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+     "video_id": "q_clAienUJw",
+     "t_seconds": 7433,
+     "conc_at": 42582,
+     "program_peak": 49257,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1233.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+     "video_id": "NKhi31a86K8",
+     "t_seconds": 2651,
+     "conc_at": 8930,
+     "program_peak": 9988,
+     "retention_pct": -3.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 259.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "19/06/2026",
+     "date_iso": "20260619",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+     "video_id": "XHV2BV9DWMs",
+     "t_seconds": 7154,
+     "conc_at": 36405,
+     "program_peak": 41988,
+     "retention_pct": -2.5,
+     "tier_label": "Al pasar",
+     "value_usd": 357.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 6,
+     "value_usd": 5090.0
+    }
+   ]
+  },
+  "mcdonald-s": {
+   "name": "McDonald's",
+   "first_seen": "22/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+     "video_id": "W_HkPNOMeDc",
+     "t_seconds": 6612,
+     "conc_at": 15609,
+     "program_peak": 20711,
+     "retention_pct": -1.5,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 452.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+     "video_id": "W_HkPNOMeDc",
+     "t_seconds": 6298,
+     "conc_at": 15940,
+     "program_peak": 20711,
+     "retention_pct": -2.3,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 462.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
+     "video_id": "kDbkbzy_ASA",
+     "t_seconds": 5720,
+     "conc_at": 18141,
+     "program_peak": 21399,
+     "retention_pct": -2.0,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 525.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "22/06/2026",
+     "date_iso": "20260622",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+     "video_id": "95yJuQx7ol8",
+     "t_seconds": 7098,
+     "conc_at": 15160,
+     "program_peak": 15217,
+     "retention_pct": -1.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 439.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "22/06/2026",
+     "date_iso": "20260622",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+     "video_id": "95yJuQx7ol8",
+     "t_seconds": 3611,
+     "conc_at": 12342,
+     "program_peak": 15217,
+     "retention_pct": 1.7,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 357.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "22/06/2026",
+     "date_iso": "20260622",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+     "video_id": "95yJuQx7ol8",
+     "t_seconds": 3104,
+     "conc_at": 11568,
+     "program_peak": 15217,
+     "retention_pct": 1.9,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 248.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 6,
+     "value_usd": 2483.0
+    }
+   ]
+  },
+  "skip": {
+   "name": "Skip",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+     "video_id": "S1UDpsKkZvE",
+     "t_seconds": 8021,
+     "conc_at": 75531,
+     "program_peak": 125418,
+     "retention_pct": 3.9,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 2187.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+     "video_id": "S1UDpsKkZvE",
+     "t_seconds": 7972,
+     "conc_at": 75108,
+     "program_peak": 125418,
+     "retention_pct": 3.7,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 806.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+     "video_id": "S1UDpsKkZvE",
+     "t_seconds": 7967,
+     "conc_at": 75061,
+     "program_peak": 125418,
+     "retention_pct": 3.7,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 805.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "video_id": "bX7MB2_OI2I",
+     "t_seconds": 7032,
+     "conc_at": 30199,
+     "program_peak": 49756,
+     "retention_pct": 3.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 648.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "video_id": "8lOkxIDSd4w",
+     "t_seconds": 5215,
+     "conc_at": 39363,
+     "program_peak": 40233,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1140.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 5,
+     "value_usd": 5586.0
+    }
+   ]
+  },
+  "pae": {
+   "name": "PAE",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+     "video_id": "c1LrQSDaXAY",
+     "t_seconds": 6296,
+     "conc_at": 56,
+     "program_peak": 73,
+     "retention_pct": -5.6,
+     "tier_label": "Con código o promo",
+     "value_usd": 2.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
+     "video_id": "7ON4ZA5TtHc",
+     "t_seconds": 492,
+     "conc_at": 369,
+     "program_peak": 1007,
+     "retention_pct": 38.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 8.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "🍿 Plot Twist 👾",
+     "video_id": "VRWovoLU0yQ",
+     "t_seconds": 478,
+     "conc_at": 173,
+     "program_peak": 202,
+     "retention_pct": -3.9,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 4.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+     "video_id": "c1LrQSDaXAY",
+     "t_seconds": 345,
+     "conc_at": 51,
+     "program_peak": 73,
+     "retention_pct": 26.1,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
+     "video_id": "XYJRLyO9exg",
+     "t_seconds": 30,
+     "conc_at": 23,
+     "program_peak": 429,
+     "retention_pct": 342.9,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 0.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 5,
+     "value_usd": 15.0
+    }
+   ]
+  },
+  "rexona": {
+   "name": "Rexona",
+   "first_seen": "23/06/2026",
+   "last_seen": "24/06/2026",
+   "activations": [
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+     "video_id": "JqkhC1EnyTQ",
+     "t_seconds": 6263,
+     "conc_at": 7798,
+     "program_peak": 8762,
+     "retention_pct": -0.8,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 226.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+     "video_id": "JqkhC1EnyTQ",
+     "t_seconds": 6241,
+     "conc_at": 7806,
+     "program_peak": 8762,
+     "retention_pct": -0.8,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 226.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+     "video_id": "JqkhC1EnyTQ",
+     "t_seconds": 6210,
+     "conc_at": 7812,
+     "program_peak": 8762,
+     "retention_pct": -0.8,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 226.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "LA NOVELA con CARINA ZAMPINI, DIEGO CASTRO, GABY SCHULTZ Y AGUS BATTIONI | EN VIVO",
+     "video_id": "bQfYZ3sfUYc",
+     "t_seconds": 3255,
+     "conc_at": 15365,
+     "program_peak": 20980,
+     "retention_pct": -1.8,
+     "tier_label": "Al pasar",
+     "value_usd": 112.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+     "video_id": "q_clAienUJw",
+     "t_seconds": 8285,
+     "conc_at": 42582,
+     "program_peak": 49257,
+     "retention_pct": null,
+     "tier_label": "Con código o promo",
+     "value_usd": 1897.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 5,
+     "value_usd": 2687.0
+    }
+   ]
+  },
+  "asiscard": {
+   "name": "Asiscard",
+   "first_seen": "23/06/2026",
+   "last_seen": "24/06/2026",
+   "activations": [
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
+     "video_id": "WCF4oC8GC9o",
+     "t_seconds": 5108,
+     "conc_at": 232910,
+     "program_peak": 233997,
+     "retention_pct": 0.0,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 4996.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+     "video_id": "NKhi31a86K8",
+     "t_seconds": 6667,
+     "conc_at": 7907,
+     "program_peak": 9988,
+     "retention_pct": -1.0,
+     "tier_label": "Con código o promo",
+     "value_usd": 261.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+     "video_id": "cHMIm1Fnig4",
+     "t_seconds": 2841,
+     "conc_at": 219633,
+     "program_peak": 243607,
+     "retention_pct": 2.4,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 6360.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+     "video_id": "cHMIm1Fnig4",
+     "t_seconds": 2000,
+     "conc_at": 201537,
+     "program_peak": 243607,
+     "retention_pct": 3.2,
+     "tier_label": "Con código o promo",
+     "value_usd": 6651.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 4,
+     "value_usd": 18268.0
+    }
+   ]
+  },
+  "mercado-libre": {
+   "name": "Mercado Libre",
+   "first_seen": "23/06/2026",
+   "last_seen": "24/06/2026",
+   "activations": [
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+     "video_id": "7Oo5Hf7f14M",
+     "t_seconds": 1862,
+     "conc_at": 49461,
+     "program_peak": 51686,
+     "retention_pct": 1.0,
+     "tier_label": "Con código o promo",
+     "value_usd": 2203.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+     "video_id": "7Oo5Hf7f14M",
+     "t_seconds": 1802,
+     "conc_at": 49510,
+     "program_peak": 51686,
+     "retention_pct": 0.8,
+     "tier_label": "Con código o promo",
+     "value_usd": 2206.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+     "video_id": "q_clAienUJw",
+     "t_seconds": 8820,
+     "conc_at": 42582,
+     "program_peak": 49257,
+     "retention_pct": null,
+     "tier_label": "Con código o promo",
+     "value_usd": 1897.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+     "video_id": "Ovdcl6-B2kc",
+     "t_seconds": 5804,
+     "conc_at": 38135,
+     "program_peak": 40357,
+     "retention_pct": -0.7,
+     "tier_label": "Con código o promo",
+     "value_usd": 1699.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 4,
+     "value_usd": 8005.0
+    }
+   ]
+  },
+  "canon": {
+   "name": "Canon",
+   "first_seen": "23/06/2026",
+   "last_seen": "25/06/2026",
+   "activations": [
+    {
+     "date": "25/06/2026",
+     "date_iso": "20260625",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+     "video_id": "mxFu-R3O8TY",
+     "t_seconds": 3600,
+     "conc_at": 34141,
+     "program_peak": 48991,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 732.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "video_id": "8lOkxIDSd4w",
+     "t_seconds": 4973,
+     "conc_at": 39595,
+     "program_peak": 40233,
+     "retention_pct": -0.2,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1147.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "video_id": "8lOkxIDSd4w",
+     "t_seconds": 4478,
+     "conc_at": 40121,
+     "program_peak": 40233,
+     "retention_pct": -0.9,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1162.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 3,
+     "value_usd": 3041.0
+    }
+   ]
+  },
+  "cordoba-turismo": {
+   "name": "Córdoba (Turismo)",
+   "first_seen": "23/06/2026",
+   "last_seen": "24/06/2026",
+   "activations": [
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
+     "video_id": "s__pKWUr4MM",
+     "t_seconds": 0,
+     "conc_at": 11663,
+     "program_peak": 29428,
+     "retention_pct": 54.4,
+     "tier_label": "Al pasar",
+     "value_usd": 85.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "video_id": "8lOkxIDSd4w",
+     "t_seconds": 9832,
+     "conc_at": 34885,
+     "program_peak": 40233,
+     "retention_pct": -3.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 748.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+     "video_id": "ptOHcGEdWCk",
+     "t_seconds": 0,
+     "conc_at": 3532,
+     "program_peak": 40599,
+     "retention_pct": 765.7,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 76.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 3,
+     "value_usd": 909.0
+    }
+   ]
+  },
+  "green-life": {
+   "name": "Green Life",
+   "first_seen": "23/06/2026",
+   "last_seen": "25/06/2026",
+   "activations": [
+    {
+     "date": "25/06/2026",
+     "date_iso": "20260625",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+     "video_id": "mxFu-R3O8TY",
+     "t_seconds": 7943,
+     "conc_at": 34141,
+     "program_peak": 48991,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 989.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "video_id": "bX7MB2_OI2I",
+     "t_seconds": 9353,
+     "conc_at": 38007,
+     "program_peak": 49756,
+     "retention_pct": 3.4,
+     "tier_label": "Con código o promo",
+     "value_usd": 1693.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "video_id": "bX7MB2_OI2I",
+     "t_seconds": 9092,
+     "conc_at": 36717,
+     "program_peak": 49756,
+     "retention_pct": 4.4,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 788.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 3,
+     "value_usd": 3470.0
+    }
+   ]
+  },
+  "smirnoff": {
+   "name": "Smirnoff",
+   "first_seen": "24/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+     "video_id": "W_HkPNOMeDc",
+     "t_seconds": 6069,
+     "conc_at": 16294,
+     "program_peak": 20711,
+     "retention_pct": -2.5,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 472.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+     "video_id": "W_HkPNOMeDc",
+     "t_seconds": 5924,
+     "conc_at": 16518,
+     "program_peak": 20711,
+     "retention_pct": -2.5,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 354.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
+     "video_id": "kDbkbzy_ASA",
+     "t_seconds": 5155,
+     "conc_at": 18770,
+     "program_peak": 21399,
+     "retention_pct": -1.2,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 403.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 3,
+     "value_usd": 1229.0
+    }
+   ]
+  },
+  "ypf": {
+   "name": "YPF",
+   "first_seen": "23/06/2026",
+   "last_seen": "25/06/2026",
+   "activations": [
+    {
+     "date": "25/06/2026",
+     "date_iso": "20260625",
+     "channel": "blend",
+     "channel_name": "BLENDER",
+     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+     "video_id": "JXVQmuDctII",
+     "t_seconds": 3952,
+     "conc_at": 11160,
+     "program_peak": 13819,
+     "retention_pct": -3.7,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 239.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+     "video_id": "q_clAienUJw",
+     "t_seconds": 9507,
+     "conc_at": 42582,
+     "program_peak": 49257,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 457.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+     "video_id": "ptOHcGEdWCk",
+     "t_seconds": 7606,
+     "conc_at": 37961,
+     "program_peak": 40599,
+     "retention_pct": -1.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 814.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 3,
+     "value_usd": 1510.0
+    }
+   ]
+  },
+  "johnnie-walker": {
+   "name": "Johnnie Walker",
+   "first_seen": "23/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+     "video_id": "9ucd7zkq6P8",
+     "t_seconds": 1999,
+     "conc_at": 7688,
+     "program_peak": 7909,
+     "retention_pct": -1.0,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 223.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+     "video_id": "JqkhC1EnyTQ",
+     "t_seconds": 7845,
+     "conc_at": 7487,
+     "program_peak": 8762,
+     "retention_pct": -2.9,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 217.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+     "video_id": "NKhi31a86K8",
+     "t_seconds": 4858,
+     "conc_at": 8466,
+     "program_peak": 9988,
+     "retention_pct": 1.3,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 245.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 3,
+     "value_usd": 685.0
+    }
+   ]
+  },
+  "schneider": {
+   "name": "Schneider",
+   "first_seen": "22/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+     "video_id": "9ucd7zkq6P8",
+     "t_seconds": 4731,
+     "conc_at": 7850,
+     "program_peak": 7909,
+     "retention_pct": -1.0,
+     "tier_label": "Al pasar",
+     "value_usd": 57.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+     "video_id": "9ucd7zkq6P8",
+     "t_seconds": 3955,
+     "conc_at": 7778,
+     "program_peak": 7909,
+     "retention_pct": -1.5,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 167.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "22/06/2026",
+     "date_iso": "20260622",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+     "video_id": "95yJuQx7ol8",
+     "t_seconds": 5167,
+     "conc_at": 14160,
+     "program_peak": 15217,
+     "retention_pct": 2.0,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 304.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 3,
+     "value_usd": 528.0
+    }
+   ]
+  },
+  "coto": {
+   "name": "Coto",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+     "video_id": "LjEHjrbNNgs",
+     "t_seconds": 11786,
+     "conc_at": 6000,
+     "program_peak": 23656,
+     "retention_pct": -4.5,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 129.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "video_id": "EwFONN3W5cg",
+     "t_seconds": 3763,
+     "conc_at": 2435,
+     "program_peak": 2513,
+     "retention_pct": -8.8,
+     "tier_label": "Con código o promo",
+     "value_usd": 80.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 209.0
+    }
+   ]
+  },
+  "adidas": {
+   "name": "Adidas",
+   "first_seen": "23/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "video_id": "EwFONN3W5cg",
+     "t_seconds": 4349,
+     "conc_at": 2176,
+     "program_peak": 2513,
+     "retention_pct": 0.6,
+     "tier_label": "Con código o promo",
+     "value_usd": 97.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "video_id": "8lOkxIDSd4w",
+     "t_seconds": 3973,
+     "conc_at": 39723,
+     "program_peak": 40233,
+     "retention_pct": 0.3,
+     "tier_label": "Con código o promo",
+     "value_usd": 1311.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 1408.0
+    }
+   ]
+  },
+  "ecomod": {
+   "name": "Ecomod",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+     "video_id": "c1LrQSDaXAY",
+     "t_seconds": 6320,
+     "conc_at": 56,
+     "program_peak": 73,
+     "retention_pct": -5.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 2.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
+     "video_id": "XYJRLyO9exg",
+     "t_seconds": 3630,
+     "conc_at": 401,
+     "program_peak": 429,
+     "retention_pct": -13.9,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 12.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 14.0
+    }
+   ]
+  },
+  "cordoba": {
+   "name": "Córdoba",
+   "first_seen": "25/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
+     "video_id": "3QJmfDvuxIk",
+     "t_seconds": 6903,
+     "conc_at": 26229,
+     "program_peak": 28741,
+     "retention_pct": -7.4,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 563.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "25/06/2026",
+     "date_iso": "20260625",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+     "video_id": "mxFu-R3O8TY",
+     "t_seconds": 13381,
+     "conc_at": 47695,
+     "program_peak": 48991,
+     "retention_pct": -3.7,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1023.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 1586.0
+    }
+   ]
+  },
+  "pharma-olga": {
+   "name": "Pharma Olga",
+   "first_seen": "19/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+     "video_id": "NKhi31a86K8",
+     "t_seconds": 2706,
+     "conc_at": 8837,
+     "program_peak": 9988,
+     "retention_pct": -2.3,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 256.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "19/06/2026",
+     "date_iso": "20260619",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+     "video_id": "XHV2BV9DWMs",
+     "t_seconds": 7224,
+     "conc_at": 36067,
+     "program_peak": 41988,
+     "retention_pct": -2.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1044.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 1300.0
+    }
+   ]
+  },
+  "swift": {
+   "name": "Swift",
+   "first_seen": "23/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+     "video_id": "9ucd7zkq6P8",
+     "t_seconds": 5554,
+     "conc_at": 7653,
+     "program_peak": 7909,
+     "retention_pct": -0.2,
+     "tier_label": "Con código o promo",
+     "value_usd": 253.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+     "video_id": "NKhi31a86K8",
+     "t_seconds": 3381,
+     "conc_at": 8661,
+     "program_peak": 9988,
+     "retention_pct": -1.4,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 186.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 439.0
+    }
+   ]
+  },
+  "hyundai": {
+   "name": "Hyundai",
+   "first_seen": "23/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "video_id": "EwFONN3W5cg",
+     "t_seconds": 4439,
+     "conc_at": 2156,
+     "program_peak": 2513,
+     "retention_pct": -1.0,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 62.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+     "video_id": "NKhi31a86K8",
+     "t_seconds": 5075,
+     "conc_at": 8458,
+     "program_peak": 9988,
+     "retention_pct": -8.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 181.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 243.0
+    }
+   ]
+  },
+  "cordoba-destino-turistico": {
+   "name": "Córdoba (destino turístico)",
+   "first_seen": "23/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+     "video_id": "9ucd7zkq6P8",
+     "t_seconds": 13,
+     "conc_at": 1241,
+     "program_peak": 7909,
+     "retention_pct": 200.5,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 27.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+     "video_id": "q_clAienUJw",
+     "t_seconds": 13063,
+     "conc_at": 48622,
+     "program_peak": 49257,
+     "retention_pct": -2.2,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1408.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 1435.0
+    }
+   ]
+  },
+  "natura-aderezos": {
+   "name": "Natura Aderezos",
+   "first_seen": "22/06/2026",
+   "last_seen": "22/06/2026",
+   "activations": [
+    {
+     "date": "22/06/2026",
+     "date_iso": "20260622",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
+     "video_id": "yp1SuqSXmxA",
+     "t_seconds": 7120,
+     "conc_at": 89404,
+     "program_peak": 125483,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1918.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "22/06/2026",
+     "date_iso": "20260622",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
+     "video_id": "yp1SuqSXmxA",
+     "t_seconds": 7098,
+     "conc_at": 89404,
+     "program_peak": 125483,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1918.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 3836.0
+    }
+   ]
+  },
+  "natura": {
+   "name": "Natura",
+   "first_seen": "22/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#LOSDELFONDO | SORTEAMOS LA CAMISETA DEL PURRETE 10, EL BÓXER DEL MITO NO DA MÁS, ANGELITA LA ROMPIÓ",
+     "video_id": "2E9MjxyDU9o",
+     "t_seconds": 5045,
+     "conc_at": 20400,
+     "program_peak": 27372,
+     "retention_pct": -6.4,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 591.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "22/06/2026",
+     "date_iso": "20260622",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
+     "video_id": "yp1SuqSXmxA",
+     "t_seconds": 7640,
+     "conc_at": 89404,
+     "program_peak": 125483,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 2589.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 3180.0
+    }
+   ]
+  },
+  "wanderlust": {
+   "name": "Wanderlust",
+   "first_seen": "23/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+     "video_id": "W5dvBDWCWWk",
+     "t_seconds": 2451,
+     "conc_at": 187365,
+     "program_peak": 217174,
+     "retention_pct": 3.1,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 5426.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+     "video_id": "cHMIm1Fnig4",
+     "t_seconds": 5057,
+     "conc_at": 237826,
+     "program_peak": 243607,
+     "retention_pct": 0.1,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 6887.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 12313.0
+    }
+   ]
+  },
+  "cremolati": {
+   "name": "Cremolati",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "video_id": "EwFONN3W5cg",
+     "t_seconds": 13609,
+     "conc_at": 1543,
+     "program_peak": 2513,
+     "retention_pct": -18.0,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 45.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "urbana-play-104-3-fm",
+     "channel_name": "Urbana Play 104.3 FM",
+     "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+     "video_id": "U8f_2vIvO7Y",
+     "t_seconds": 11392,
+     "conc_at": 3009,
+     "program_peak": 3577,
+     "retention_pct": -2.8,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 87.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 132.0
+    }
+   ]
+  },
+  "canji": {
+   "name": "Canji",
+   "first_seen": "24/06/2026",
+   "last_seen": "24/06/2026",
+   "activations": [
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+     "video_id": "7Oo5Hf7f14M",
+     "t_seconds": 4707,
+     "conc_at": 51168,
+     "program_peak": 51686,
+     "retention_pct": -0.5,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1482.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+     "video_id": "7Oo5Hf7f14M",
+     "t_seconds": 4697,
+     "conc_at": 51167,
+     "program_peak": 51686,
+     "retention_pct": -0.5,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1482.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 2964.0
+    }
+   ]
+  },
+  "jorjito": {
+   "name": "Jorjito",
+   "first_seen": "24/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+     "video_id": "fnvj0iK5yDI",
+     "t_seconds": 8717,
+     "conc_at": 79055,
+     "program_peak": 112423,
+     "retention_pct": 2.6,
+     "tier_label": "Con código o promo",
+     "value_usd": 2609.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+     "video_id": "7Oo5Hf7f14M",
+     "t_seconds": 6504,
+     "conc_at": 48084,
+     "program_peak": 51686,
+     "retention_pct": -1.1,
+     "tier_label": "Con código o promo",
+     "value_usd": 2142.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 4751.0
+    }
+   ]
+  },
+  "banco-macro": {
+   "name": "Banco Macro",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+     "video_id": "fnvj0iK5yDI",
+     "t_seconds": 7910,
+     "conc_at": 73241,
+     "program_peak": 112423,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 786.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+     "video_id": "fnvj0iK5yDI",
+     "t_seconds": 7676,
+     "conc_at": 73241,
+     "program_peak": 112423,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 2121.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 2907.0
+    }
+   ]
+  },
+  "remax": {
+   "name": "Remax",
+   "first_seen": "23/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+     "video_id": "fnvj0iK5yDI",
+     "t_seconds": 9650,
+     "conc_at": 85045,
+     "program_peak": 112423,
+     "retention_pct": 1.2,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1824.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+     "video_id": "S1UDpsKkZvE",
+     "t_seconds": 7441,
+     "conc_at": 70258,
+     "program_peak": 125418,
+     "retention_pct": 3.3,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1507.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 3331.0
+    }
+   ]
+  },
+  "mercado-pago": {
+   "name": "Mercado Pago",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+     "video_id": "S1UDpsKkZvE",
+     "t_seconds": 9676,
+     "conc_at": 83666,
+     "program_peak": 125418,
+     "retention_pct": 0.2,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 2423.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+     "video_id": "S1UDpsKkZvE",
+     "t_seconds": 9423,
+     "conc_at": 84937,
+     "program_peak": 125418,
+     "retention_pct": 0.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 2460.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 4883.0
+    }
+   ]
+  },
+  "coffee-house": {
+   "name": "Coffee House",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+     "video_id": "S1UDpsKkZvE",
+     "t_seconds": 10601,
+     "conc_at": 94155,
+     "program_peak": 125418,
+     "retention_pct": 4.9,
+     "tier_label": "Con código o promo",
+     "value_usd": 1554.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+     "video_id": "S1UDpsKkZvE",
+     "t_seconds": 10556,
+     "conc_at": 93564,
+     "program_peak": 125418,
+     "retention_pct": 4.5,
+     "tier_label": "Con código o promo",
+     "value_usd": 1544.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 3098.0
+    }
+   ]
+  },
+  "actron": {
+   "name": "Actron",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "urbana-play-104-3-fm",
+     "channel_name": "Urbana Play 104.3 FM",
+     "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+     "video_id": "U8f_2vIvO7Y",
+     "t_seconds": 3403,
+     "conc_at": 2631,
+     "program_peak": 3577,
+     "retention_pct": 5.3,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 56.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "urbana-play-104-3-fm",
+     "channel_name": "Urbana Play 104.3 FM",
+     "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+     "video_id": "U8f_2vIvO7Y",
+     "t_seconds": 3395,
+     "conc_at": 2616,
+     "program_peak": 3577,
+     "retention_pct": 5.3,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 56.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 2,
+     "value_usd": 112.0
+    }
+   ]
+  },
+  "sinteplast": {
+   "name": "Sinteplast",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#FMLUZU | LA CASTRO SE BAJÓ DE LAS APPS DE CITAS + LE HACEMOS UNA CANCIÓN + MANO A MANO CASTRINI",
+     "video_id": "teZ-nZ63J0I",
+     "t_seconds": 2458,
+     "conc_at": 24794,
+     "program_peak": 26047,
+     "retention_pct": -1.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 718.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 718.0
+    }
+   ]
+  },
+  "kanka": {
+   "name": "Kanka",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+     "video_id": "LjEHjrbNNgs",
+     "t_seconds": 11269,
+     "conc_at": 7345,
+     "program_peak": 23656,
+     "retention_pct": -5.5,
+     "tier_label": "Al pasar",
+     "value_usd": 72.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 72.0
+    }
+   ]
+  },
+  "gustavo-corbera-la-fuente": {
+   "name": "Gustavo Corbera - La Fuente",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+     "video_id": "LjEHjrbNNgs",
+     "t_seconds": 11809,
+     "conc_at": 5964,
+     "program_peak": 23656,
+     "retention_pct": -4.5,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 128.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 128.0
+    }
+   ]
+  },
+  "evaginagel": {
+   "name": "Evaginagel",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "video_id": "bX7MB2_OI2I",
+     "t_seconds": 8506,
+     "conc_at": 34534,
+     "program_peak": 49756,
+     "retention_pct": 2.0,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1000.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 1000.0
+    }
+   ]
+  },
+  "full-guapaletas": {
+   "name": "Full Guapaletas",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "video_id": "bX7MB2_OI2I",
+     "t_seconds": 10413,
+     "conc_at": 42709,
+     "program_peak": 49756,
+     "retention_pct": 2.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 458.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 458.0
+    }
+   ]
+  },
+  "espn3-disney": {
+   "name": "ESPN3 / Disney+",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "video_id": "bX7MB2_OI2I",
+     "t_seconds": 10218,
+     "conc_at": 41772,
+     "program_peak": 49756,
+     "retention_pct": 3.7,
+     "tier_label": "Al pasar",
+     "value_usd": 409.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 409.0
+    }
+   ]
+  },
+  "la-roche-posay": {
+   "name": "La Roche-Posay",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "video_id": "bX7MB2_OI2I",
+     "t_seconds": 13295,
+     "conc_at": 49756,
+     "program_peak": 49756,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1441.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 1441.0
+    }
+   ]
+  },
+  "argendata": {
+   "name": "Argendata",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
+     "video_id": "7ON4ZA5TtHc",
+     "t_seconds": 492,
+     "conc_at": 369,
+     "program_peak": 1007,
+     "retention_pct": 38.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 8.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 8.0
+    }
+   ]
+  },
+  "juegos-el-pato": {
+   "name": "Juegos El Pato",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
+     "video_id": "7ON4ZA5TtHc",
+     "t_seconds": 709,
+     "conc_at": 462,
+     "program_peak": 1007,
+     "retention_pct": 33.7,
+     "tier_label": "Con código o promo",
+     "value_usd": 21.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 21.0
+    }
+   ]
+  },
+  "garnier-fructis": {
+   "name": "Garnier Fructis",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+     "video_id": "FYdwwoHNrMs",
+     "t_seconds": 1416,
+     "conc_at": 13399,
+     "program_peak": 17793,
+     "retention_pct": 10.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 388.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 388.0
+    }
+   ]
+  },
+  "propel-fit-planet": {
+   "name": "Propel Fit Planet",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+     "video_id": "W_HkPNOMeDc",
+     "t_seconds": 405,
+     "conc_at": 15898,
+     "program_peak": 20711,
+     "retention_pct": 10.9,
+     "tier_label": "Al pasar",
+     "value_usd": 156.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 156.0
+    }
+   ]
+  },
+  "cbc-hierbas-serranas": {
+   "name": "CBC hierbas serranas",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+     "video_id": "W_HkPNOMeDc",
+     "t_seconds": 7697,
+     "conc_at": 14639,
+     "program_peak": 20711,
+     "retention_pct": -1.9,
+     "tier_label": "Con código o promo",
+     "value_usd": 652.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 652.0
+    }
+   ]
+  },
+  "swiss-medical": {
+   "name": "Swiss Medical",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+     "video_id": "ptOHcGEdWCk",
+     "t_seconds": 4626,
+     "conc_at": 40582,
+     "program_peak": 40599,
+     "retention_pct": -0.2,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1175.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 1175.0
+    }
+   ]
+  },
+  "hellmann-s": {
+   "name": "Hellmann's",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+     "video_id": "ptOHcGEdWCk",
+     "t_seconds": 6837,
+     "conc_at": 38560,
+     "program_peak": 40599,
+     "retention_pct": -0.8,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 827.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 827.0
+    }
+   ]
+  },
+  "infinea-turbo-clean": {
+   "name": "Infinea Turbo Clean",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
+     "video_id": "XYJRLyO9exg",
+     "t_seconds": 3603,
+     "conc_at": 403,
+     "program_peak": 429,
+     "retention_pct": -13.9,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 12.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 12.0
+    }
+   ]
+  },
+  "it-consult": {
+   "name": "IT Consult",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
+     "video_id": "XYJRLyO9exg",
+     "t_seconds": 3615,
+     "conc_at": 405,
+     "program_peak": 429,
+     "retention_pct": -13.9,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 12.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 12.0
+    }
+   ]
+  },
+  "marca-comercial-de-condimentos-oregano": {
+   "name": "Marca comercial de condimentos (orégano)",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
+     "video_id": "3QJmfDvuxIk",
+     "t_seconds": 344,
+     "conc_at": 20665,
+     "program_peak": 28741,
+     "retention_pct": 18.5,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 598.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 598.0
+    }
+   ]
+  },
+  "pedidosya": {
+   "name": "PedidosYa",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
+     "video_id": "3QJmfDvuxIk",
+     "t_seconds": 4641,
+     "conc_at": 28173,
+     "program_peak": 28741,
+     "retention_pct": -1.2,
+     "tier_label": "Con código o promo",
+     "value_usd": 1255.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 1255.0
+    }
+   ]
+  },
+  "mogul": {
+   "name": "Mogul",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
+     "video_id": "3QJmfDvuxIk",
+     "t_seconds": 4243,
+     "conc_at": 28428,
+     "program_peak": 28741,
+     "retention_pct": -0.0,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 823.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 823.0
+    }
+   ]
+  },
+  "samsung-galaxy-s26": {
+   "name": "Samsung Galaxy S26",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
+     "video_id": "3QJmfDvuxIk",
+     "t_seconds": 6435,
+     "conc_at": 27347,
+     "program_peak": 28741,
+     "retention_pct": -2.8,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 792.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 792.0
+    }
+   ]
+  },
+  "cooling-break-schneider": {
+   "name": "Cooling Break + Schneider",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+     "video_id": "NKhi31a86K8",
+     "t_seconds": 5648,
+     "conc_at": 8288,
+     "program_peak": 9988,
+     "retention_pct": -1.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 178.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 178.0
+    }
+   ]
+  },
+  "omni": {
+   "name": "Omni",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "🍿 Plot Twist 👾",
+     "video_id": "VRWovoLU0yQ",
+     "t_seconds": 3889,
+     "conc_at": 139,
+     "program_peak": 202,
+     "retention_pct": 8.2,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 4.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 4.0
+    }
+   ]
+  },
+  "coca-cola": {
+   "name": "Coca-Cola",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+     "video_id": "Ovdcl6-B2kc",
+     "t_seconds": 6302,
+     "conc_at": 38222,
+     "program_peak": 40357,
+     "retention_pct": -0.5,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 820.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 820.0
+    }
+   ]
+  },
+  "aerolineas-argentina": {
+   "name": "Aerolíneas Argentina",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+     "video_id": "9ucd7zkq6P8",
+     "t_seconds": 1165,
+     "conc_at": 7553,
+     "program_peak": 7909,
+     "retention_pct": 5.2,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 219.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 219.0
+    }
+   ]
+  },
+  "personal-flow": {
+   "name": "Personal / Flow",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+     "video_id": "9ucd7zkq6P8",
+     "t_seconds": 5202,
+     "conc_at": 7769,
+     "program_peak": 7909,
+     "retention_pct": -1.1,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 167.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 167.0
+    }
+   ]
+  },
+  "supergirl-dc-studios": {
+   "name": "Supergirl - DC Studios",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+     "video_id": "9ucd7zkq6P8",
+     "t_seconds": 5858,
+     "conc_at": 7589,
+     "program_peak": 7909,
+     "retention_pct": -1.4,
+     "tier_label": "Con código o promo",
+     "value_usd": 250.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 250.0
+    }
+   ]
+  },
+  "neura-de-gira": {
+   "name": "Neura de Gira",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+     "video_id": "c1LrQSDaXAY",
+     "t_seconds": 2056,
+     "conc_at": 62,
+     "program_peak": 73,
+     "retention_pct": -4.9,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 2.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    }
+   ]
+  },
+  "princess-cruises-discover-crucis": {
+   "name": "Princess Cruises / Discover Crucis",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+     "video_id": "c1LrQSDaXAY",
+     "t_seconds": 2138,
+     "conc_at": 62,
+     "program_peak": 73,
+     "retention_pct": -3.2,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 2.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    }
+   ]
+  },
+  "princess": {
+   "name": "Princess",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+     "video_id": "c1LrQSDaXAY",
+     "t_seconds": 5164,
+     "conc_at": 60,
+     "program_peak": 73,
+     "retention_pct": 1.6,
+     "tier_label": "Con código o promo",
+     "value_usd": 3.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 3.0
+    }
+   ]
+  },
+  "neura-de-gira-princess-cruises": {
+   "name": "Neura de Gira / Princess Cruises",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+     "video_id": "c1LrQSDaXAY",
+     "t_seconds": 6250,
+     "conc_at": 52,
+     "program_peak": 73,
+     "retention_pct": -5.6,
+     "tier_label": "Con código o promo",
+     "value_usd": 2.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    }
+   ]
+  },
+  "new-bed-travel": {
+   "name": "New Bed Travel",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+     "video_id": "c1LrQSDaXAY",
+     "t_seconds": 6311,
+     "conc_at": 57,
+     "program_peak": 73,
+     "retention_pct": -5.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 2.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    }
+   ]
+  },
+  "natier": {
+   "name": "Natier",
+   "first_seen": "22/06/2026",
+   "last_seen": "22/06/2026",
+   "activations": [
+    {
+     "date": "22/06/2026",
+     "date_iso": "20260622",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
+     "video_id": "yp1SuqSXmxA",
+     "t_seconds": 828,
+     "conc_at": 89404,
+     "program_peak": 125483,
+     "retention_pct": null,
+     "tier_label": "Al pasar",
+     "value_usd": 649.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 649.0
+    }
+   ]
+  },
+  "sovestar": {
+   "name": "Sovestar",
+   "first_seen": "22/06/2026",
+   "last_seen": "22/06/2026",
+   "activations": [
+    {
+     "date": "22/06/2026",
+     "date_iso": "20260622",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
+     "video_id": "yp1SuqSXmxA",
+     "t_seconds": 4085,
+     "conc_at": 89404,
+     "program_peak": 125483,
+     "retention_pct": null,
+     "tier_label": "Con código o promo",
+     "value_usd": 3983.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 3983.0
+    }
+   ]
+  },
+  "hisense": {
+   "name": "Hisense",
+   "first_seen": "22/06/2026",
+   "last_seen": "22/06/2026",
+   "activations": [
+    {
+     "date": "22/06/2026",
+     "date_iso": "20260622",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
+     "video_id": "yp1SuqSXmxA",
+     "t_seconds": 10166,
+     "conc_at": 92441,
+     "program_peak": 125483,
+     "retention_pct": 4.1,
+     "tier_label": "Con código o promo",
+     "value_usd": 4118.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 4118.0
+    }
+   ]
+  },
+  "lays": {
+   "name": "Lays",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+     "video_id": "cHMIm1Fnig4",
+     "t_seconds": 6864,
+     "conc_at": 241892,
+     "program_peak": 243607,
+     "retention_pct": -1.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 7005.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 7005.0
+    }
+   ]
+  },
+  "miquelo-ultra": {
+   "name": "Miquelo Ultra",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+     "video_id": "cHMIm1Fnig4",
+     "t_seconds": 7565,
+     "conc_at": 237472,
+     "program_peak": 243607,
+     "retention_pct": -0.7,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 6877.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 6877.0
+    }
+   ]
+  },
+  "airbnb": {
+   "name": "Airbnb",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+     "video_id": "cHMIm1Fnig4",
+     "t_seconds": 7923,
+     "conc_at": 234874,
+     "program_peak": 243607,
+     "retention_pct": -1.3,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 6801.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 6801.0
+    }
+   ]
+  },
+  "la-segunda-seguros": {
+   "name": "La Segunda Seguros",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "video_id": "EwFONN3W5cg",
+     "t_seconds": 3816,
+     "conc_at": 2440,
+     "program_peak": 2513,
+     "retention_pct": -6.0,
+     "tier_label": "Con código o promo",
+     "value_usd": 81.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 81.0
+    }
+   ]
+  },
+  "baiano-teatro-vorterix": {
+   "name": "Baiano - Teatro Vorterix",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "video_id": "EwFONN3W5cg",
+     "t_seconds": 3929,
+     "conc_at": 2294,
+     "program_peak": 2513,
+     "retention_pct": -9.2,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 49.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 49.0
+    }
+   ]
+  },
+  "gustavo-cordera-la-fuente": {
+   "name": "Gustavo Cordera - La Fuente",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "video_id": "EwFONN3W5cg",
+     "t_seconds": 3974,
+     "conc_at": 2282,
+     "program_peak": 2513,
+     "retention_pct": -4.8,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 49.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 49.0
+    }
+   ]
+  },
+  "fiesta-forever-90": {
+   "name": "Fiesta Forever 90",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "video_id": "EwFONN3W5cg",
+     "t_seconds": 4006,
+     "conc_at": 2288,
+     "program_peak": 2513,
+     "retention_pct": -4.8,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 49.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 49.0
+    }
+   ]
+  },
+  "social-lunch": {
+   "name": "Social Lunch",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "video_id": "EwFONN3W5cg",
+     "t_seconds": 4003,
+     "conc_at": 2287,
+     "program_peak": 2513,
+     "retention_pct": -4.8,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 49.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 49.0
+    }
+   ]
+  },
+  "luz-gashi-teatro-fortrix": {
+   "name": "Luz Gashi - Teatro Fortrix",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "video_id": "EwFONN3W5cg",
+     "t_seconds": 4045,
+     "conc_at": 2274,
+     "program_peak": 2513,
+     "retention_pct": -5.7,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 49.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 49.0
+    }
+   ]
+  },
+  "gillette": {
+   "name": "Gillette",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "video_id": "EwFONN3W5cg",
+     "t_seconds": 4231,
+     "conc_at": 2148,
+     "program_peak": 2513,
+     "retention_pct": -2.8,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 46.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 46.0
+    }
+   ]
+  },
+  "11-40-41-96-60": {
+   "name": "11 40 41 96 60",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "video_id": "EwFONN3W5cg",
+     "t_seconds": 7424,
+     "conc_at": 2221,
+     "program_peak": 2513,
+     "retention_pct": -1.0,
+     "tier_label": "Con código o promo",
+     "value_usd": 99.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 99.0
+    }
+   ]
+  },
+  "food-truck-store": {
+   "name": "Food Truck Store",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "video_id": "EwFONN3W5cg",
+     "t_seconds": 13702,
+     "conc_at": 1534,
+     "program_peak": 2513,
+     "retention_pct": -27.2,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 44.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 44.0
+    }
+   ]
+  },
+  "sony": {
+   "name": "Sony",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "CLASES DE MODELAJE CON PAULA CHAVES | #TapadosDeLaburo 23/6",
+     "video_id": "2sxqtU8XXTQ",
+     "t_seconds": 1909,
+     "conc_at": 29636,
+     "program_peak": 30339,
+     "retention_pct": -0.4,
+     "tier_label": "Con código o promo",
+     "value_usd": 1320.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 1320.0
+    }
+   ]
+  },
+  "top-line": {
+   "name": "Top Line",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "CLASES DE MODELAJE CON PAULA CHAVES | #TapadosDeLaburo 23/6",
+     "video_id": "2sxqtU8XXTQ",
+     "t_seconds": 2659,
+     "conc_at": 29973,
+     "program_peak": 30339,
+     "retention_pct": 0.1,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 868.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 868.0
+    }
+   ]
+  },
+  "asociacion-argentina-de-salud-mental": {
+   "name": "Asociación Argentina de Salud Mental",
+   "first_seen": "25/06/2026",
+   "last_seen": "25/06/2026",
+   "activations": [
+    {
+     "date": "25/06/2026",
+     "date_iso": "20260625",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+     "video_id": "mxFu-R3O8TY",
+     "t_seconds": 1312,
+     "conc_at": 34141,
+     "program_peak": 48991,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 732.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 732.0
+    }
+   ]
+  },
+  "sancor-salud": {
+   "name": "Sancor Salud",
+   "first_seen": "25/06/2026",
+   "last_seen": "25/06/2026",
+   "activations": [
+    {
+     "date": "25/06/2026",
+     "date_iso": "20260625",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+     "video_id": "mxFu-R3O8TY",
+     "t_seconds": 10789,
+     "conc_at": 41984,
+     "program_peak": 48991,
+     "retention_pct": 2.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1216.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 1216.0
+    }
+   ]
+  },
+  "osde": {
+   "name": "OSDE",
+   "first_seen": "25/06/2026",
+   "last_seen": "25/06/2026",
+   "activations": [
+    {
+     "date": "25/06/2026",
+     "date_iso": "20260625",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+     "video_id": "mxFu-R3O8TY",
+     "t_seconds": 11254,
+     "conc_at": 43493,
+     "program_peak": 48991,
+     "retention_pct": 2.5,
+     "tier_label": "Al pasar",
+     "value_usd": 426.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 426.0
+    }
+   ]
+  },
+  "la-roche-posay-anthelios-uvmune": {
+   "name": "La Roche-Posay Anthelios Uvmune",
+   "first_seen": "25/06/2026",
+   "last_seen": "25/06/2026",
+   "activations": [
+    {
+     "date": "25/06/2026",
+     "date_iso": "20260625",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+     "video_id": "mxFu-R3O8TY",
+     "t_seconds": 13373,
+     "conc_at": 47716,
+     "program_peak": 48991,
+     "retention_pct": -4.0,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1024.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 1024.0
+    }
+   ]
+  },
+  "alma-marcela-gozo": {
+   "name": "Alma Marcela Gozo",
+   "first_seen": "24/06/2026",
+   "last_seen": "24/06/2026",
+   "activations": [
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#PATRIAYFAMILIA l CÁMARA OCULTA A MARCOS GILES Y SE CHAMUYAN A AGUSNETA",
+     "video_id": "wpLDMAyU_fA",
+     "t_seconds": 4252,
+     "conc_at": 72806,
+     "program_peak": 113888,
+     "retention_pct": -2.8,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1562.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 1562.0
+    }
+   ]
+  },
+  "nivea-milk-nutritiva": {
+   "name": "Nivea Milk Nutritiva",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+     "video_id": "W5dvBDWCWWk",
+     "t_seconds": 2991,
+     "conc_at": 197502,
+     "program_peak": 217174,
+     "retention_pct": 2.8,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 5719.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 5719.0
+    }
+   ]
+  },
+  "nivea": {
+   "name": "Nivea",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+     "video_id": "W5dvBDWCWWk",
+     "t_seconds": 3000,
+     "conc_at": 197614,
+     "program_peak": 217174,
+     "retention_pct": 2.9,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 5722.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 5722.0
+    }
+   ]
+  },
+  "cymes": {
+   "name": "Cymes",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+     "video_id": "W5dvBDWCWWk",
+     "t_seconds": 3880,
+     "conc_at": 211985,
+     "program_peak": 217174,
+     "retention_pct": 0.5,
+     "tier_label": "Con código o promo",
+     "value_usd": 9444.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 9444.0
+    }
+   ]
+  },
+  "pringles": {
+   "name": "Pringles",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+     "video_id": "W5dvBDWCWWk",
+     "t_seconds": 5369,
+     "conc_at": 217027,
+     "program_peak": 217174,
+     "retention_pct": 0.1,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 6285.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 6285.0
+    }
+   ]
+  },
+  "quilmes": {
+   "name": "Quilmes",
+   "first_seen": "24/06/2026",
+   "last_seen": "24/06/2026",
+   "activations": [
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+     "video_id": "7Oo5Hf7f14M",
+     "t_seconds": 1825,
+     "conc_at": 49474,
+     "program_peak": 51686,
+     "retention_pct": 0.8,
+     "tier_label": "Con código o promo",
+     "value_usd": 2204.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 2204.0
+    }
+   ]
+  },
+  "ariel": {
+   "name": "Ariel",
+   "first_seen": "24/06/2026",
+   "last_seen": "24/06/2026",
+   "activations": [
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+     "video_id": "7Oo5Hf7f14M",
+     "t_seconds": 6477,
+     "conc_at": 48122,
+     "program_peak": 51686,
+     "retention_pct": -1.1,
+     "tier_label": "Con código o promo",
+     "value_usd": 2144.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 2144.0
+    }
+   ]
+  },
+  "home-by-hudson": {
+   "name": "Home by Hudson",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+     "video_id": "q_clAienUJw",
+     "t_seconds": 5145,
+     "conc_at": 42582,
+     "program_peak": 49257,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1233.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 1233.0
+    }
+   ]
+  },
+  "galicia-visa-master": {
+   "name": "Galicia, Visa, Master",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+     "video_id": "q_clAienUJw",
+     "t_seconds": 5122,
+     "conc_at": 42582,
+     "program_peak": 49257,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 913.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 913.0
+    }
+   ]
+  },
+  "fenix": {
+   "name": "Fénix",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+     "video_id": "fnvj0iK5yDI",
+     "t_seconds": 511,
+     "conc_at": 73241,
+     "program_peak": 112423,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 2121.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 2121.0
+    }
+   ]
+  },
+  "l-oreal-paris": {
+   "name": "L'Oréal Paris",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+     "video_id": "fnvj0iK5yDI",
+     "t_seconds": 7194,
+     "conc_at": 73241,
+     "program_peak": 112423,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 2121.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 2121.0
+    }
+   ]
+  },
+  "viv-glycolic-crystal": {
+   "name": "VIV Glycolic Crystal",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+     "video_id": "fnvj0iK5yDI",
+     "t_seconds": 11334,
+     "conc_at": 100904,
+     "program_peak": 112423,
+     "retention_pct": 3.7,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 2164.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 2164.0
+    }
+   ]
+  },
+  "evacare-gino": {
+   "name": "Evacare Gino",
+   "first_seen": "24/06/2026",
+   "last_seen": "24/06/2026",
+   "activations": [
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
+     "video_id": "kDbkbzy_ASA",
+     "t_seconds": 3754,
+     "conc_at": 20862,
+     "program_peak": 21399,
+     "retention_pct": -1.0,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 604.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 604.0
+    }
+   ]
+  },
+  "seco": {
+   "name": "Seco",
+   "first_seen": "25/06/2026",
+   "last_seen": "25/06/2026",
+   "activations": [
+    {
+     "date": "25/06/2026",
+     "date_iso": "20260625",
+     "channel": "blend",
+     "channel_name": "BLENDER",
+     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+     "video_id": "JXVQmuDctII",
+     "t_seconds": 44,
+     "conc_at": 511,
+     "program_peak": 13819,
+     "retention_pct": 284.9,
+     "tier_label": "Con código o promo",
+     "value_usd": 23.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 23.0
+    }
+   ]
+  },
+  "uber": {
+   "name": "Uber",
+   "first_seen": "25/06/2026",
+   "last_seen": "25/06/2026",
+   "activations": [
+    {
+     "date": "25/06/2026",
+     "date_iso": "20260625",
+     "channel": "blend",
+     "channel_name": "BLENDER",
+     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+     "video_id": "JXVQmuDctII",
+     "t_seconds": 22,
+     "conc_at": 511,
+     "program_peak": 13819,
+     "retention_pct": 284.9,
+     "tier_label": "Con código o promo",
+     "value_usd": 23.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 23.0
+    }
+   ]
+  },
+  "guberpaticerie": {
+   "name": "guberpaticerie",
+   "first_seen": "25/06/2026",
+   "last_seen": "25/06/2026",
+   "activations": [
+    {
+     "date": "25/06/2026",
+     "date_iso": "20260625",
+     "channel": "blend",
+     "channel_name": "BLENDER",
+     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+     "video_id": "JXVQmuDctII",
+     "t_seconds": 66,
+     "conc_at": 511,
+     "program_peak": 13819,
+     "retention_pct": 462.0,
+     "tier_label": "Con código o promo",
+     "value_usd": 23.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 23.0
+    }
+   ]
+  },
+  "escorial": {
+   "name": "Escorial",
+   "first_seen": "25/06/2026",
+   "last_seen": "25/06/2026",
+   "activations": [
+    {
+     "date": "25/06/2026",
+     "date_iso": "20260625",
+     "channel": "blend",
+     "channel_name": "BLENDER",
+     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+     "video_id": "JXVQmuDctII",
+     "t_seconds": 3600,
+     "conc_at": 11469,
+     "program_peak": 13819,
+     "retention_pct": -0.4,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 246.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 246.0
+    }
+   ]
+  },
+  "hoy-cerdo": {
+   "name": "Hoy Cerdo",
+   "first_seen": "25/06/2026",
+   "last_seen": "25/06/2026",
+   "activations": [
+    {
+     "date": "25/06/2026",
+     "date_iso": "20260625",
+     "channel": "blend",
+     "channel_name": "BLENDER",
+     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+     "video_id": "JXVQmuDctII",
+     "t_seconds": 7215,
+     "conc_at": 9503,
+     "program_peak": 13819,
+     "retention_pct": -23.8,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 275.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 275.0
+    }
+   ]
+  },
+  "guacamoles-eventos": {
+   "name": "Guacamoles Eventos",
+   "first_seen": "24/06/2026",
+   "last_seen": "24/06/2026",
+   "activations": [
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "blend",
+     "channel_name": "BLENDER",
+     "title": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
+     "video_id": "tcq7UAzc3iw",
+     "t_seconds": 5736,
+     "conc_at": 7145,
+     "program_peak": 7565,
+     "retention_pct": -0.8,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 207.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 207.0
+    }
+   ]
+  },
+  "buenos-aires-ciudad": {
+   "name": "Buenos Aires ciudad",
+   "first_seen": "24/06/2026",
+   "last_seen": "24/06/2026",
+   "activations": [
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "blend",
+     "channel_name": "BLENDER",
+     "title": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
+     "video_id": "tcq7UAzc3iw",
+     "t_seconds": 5824,
+     "conc_at": 7133,
+     "program_peak": 7565,
+     "retention_pct": -0.1,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 153.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 153.0
+    }
+   ]
+  },
+  "la-roche-posay-antelios": {
+   "name": "La Roche-Posay Antelios",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+     "video_id": "S1UDpsKkZvE",
+     "t_seconds": 11325,
+     "conc_at": 104153,
+     "program_peak": 125418,
+     "retention_pct": 4.7,
+     "tier_label": "Con código o promo",
+     "value_usd": 4640.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 4640.0
+    }
+   ]
+  },
+  "banco-patagonia-club-patagonia": {
+   "name": "Banco Patagonia / Club Patagonia",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+     "video_id": "S1UDpsKkZvE",
+     "t_seconds": 11603,
+     "conc_at": 108253,
+     "program_peak": 125418,
+     "retention_pct": 6.5,
+     "tier_label": "Con código o promo",
+     "value_usd": 4823.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 4823.0
+    }
+   ]
+  },
+  "suave-star": {
+   "name": "Suave Star",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "SE FUE LARGA con FERBO, DOMI FAENA, TULI ACOSTA, MICA VASQUEZ, BELU NEGRI Y LUCAS LEZIN | EN VIVO",
+     "video_id": "oB3uH7aQwTU",
+     "t_seconds": 3994,
+     "conc_at": 39802,
+     "program_peak": 43797,
+     "retention_pct": -1.5,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1153.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 1153.0
+    }
+   ]
+  },
+  "camiseta-del-purrete-10": {
+   "name": "Camiseta del Purrete 10",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#LOSDELFONDO | SORTEAMOS LA CAMISETA DEL PURRETE 10, EL BÓXER DEL MITO NO DA MÁS, ANGELITA LA ROMPIÓ",
+     "video_id": "2E9MjxyDU9o",
+     "t_seconds": 3526,
+     "conc_at": 19487,
+     "program_peak": 27372,
+     "retention_pct": 2.5,
+     "tier_label": "Con código o promo",
+     "value_usd": 868.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 868.0
+    }
+   ]
+  },
+  "haussler": {
+   "name": "Haussler",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#LOSDELFONDO | SORTEAMOS LA CAMISETA DEL PURRETE 10, EL BÓXER DEL MITO NO DA MÁS, ANGELITA LA ROMPIÓ",
+     "video_id": "2E9MjxyDU9o",
+     "t_seconds": 5106,
+     "conc_at": 19926,
+     "program_peak": 27372,
+     "retention_pct": -6.3,
+     "tier_label": "Con código o promo",
+     "value_usd": 888.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 888.0
+    }
+   ]
+  },
+  "pestanela": {
+   "name": "Pestañela",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
+     "video_id": "E1SnlQyyuRc",
+     "t_seconds": 566,
+     "conc_at": 110968,
+     "program_peak": 114637,
+     "retention_pct": -3.4,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 2380.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 2380.0
+    }
+   ]
+  },
+  "mostaza": {
+   "name": "Mostaza",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
+     "video_id": "E1SnlQyyuRc",
+     "t_seconds": 2886,
+     "conc_at": 80544,
+     "program_peak": 114637,
+     "retention_pct": -4.0,
+     "tier_label": "Con código o promo",
+     "value_usd": 3588.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 3588.0
+    }
+   ]
+  },
+  "hace": {
+   "name": "Hace",
+   "first_seen": "23/06/2026",
+   "last_seen": "23/06/2026",
+   "activations": [
+    {
+     "date": "23/06/2026",
+     "date_iso": "20260623",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
+     "video_id": "E1SnlQyyuRc",
+     "t_seconds": 5556,
+     "conc_at": 61735,
+     "program_peak": 114637,
+     "retention_pct": -2.7,
+     "tier_label": "Con código o promo",
+     "value_usd": 2037.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 2037.0
+    }
+   ]
+  },
+  "tucuman": {
+   "name": "Tucumán",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 ESTO NO SUCEDIÓ con Hernan Panessi, Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
+     "video_id": "IubT1ZyjjEA",
+     "t_seconds": 1639,
+     "conc_at": 679,
+     "program_peak": 1447,
+     "retention_pct": 4.3,
+     "tier_label": "Al pasar",
+     "value_usd": 2.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    }
+   ]
+  },
+  "jorjito-club-jorjito": {
+   "name": "Jorjito - Club Jorjito",
+   "first_seen": "27/06/2026",
+   "last_seen": "27/06/2026",
+   "activations": [
+    {
+     "date": "27/06/2026",
+     "date_iso": "20260627",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+     "video_id": "bBf-XfM_Q_c",
+     "t_seconds": 5192,
+     "conc_at": 61398,
+     "program_peak": 62559,
+     "retention_pct": null,
+     "tier_label": "Con código o promo",
+     "value_usd": 2026.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 2026.0
+    }
+   ]
+  },
+  "cultura-positiva": {
+   "name": "Cultura Positiva",
+   "first_seen": "27/06/2026",
+   "last_seen": "27/06/2026",
+   "activations": [
+    {
+     "date": "27/06/2026",
+     "date_iso": "20260627",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+     "video_id": "bBf-XfM_Q_c",
+     "t_seconds": 7730,
+     "conc_at": 61398,
+     "program_peak": 62559,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1317.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 1317.0
+    }
+   ]
+  },
+  "telecentro": {
+   "name": "Telecentro",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
+     "video_id": "LE5ICiVWzT8",
+     "t_seconds": 3636,
+     "conc_at": 1417,
+     "program_peak": 2952,
+     "retention_pct": -22.2,
+     "tier_label": "Al pasar",
+     "value_usd": 14.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 14.0
+    }
+   ]
+  },
+  "live-seguros": {
+   "name": "Live Seguros",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
+     "video_id": "LE5ICiVWzT8",
+     "t_seconds": 3731,
+     "conc_at": 1134,
+     "program_peak": 2952,
+     "retention_pct": -0.4,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 24.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 24.0
+    }
+   ]
+  },
+  "cafe-imperial": {
+   "name": "Café Imperial",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+     "video_id": "3t9P2KFJ4K0",
+     "t_seconds": 4803,
+     "conc_at": 8141,
+     "program_peak": 9661,
+     "retention_pct": -2.4,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 236.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 236.0
+    }
+   ]
+  },
+  "redoxon": {
+   "name": "Redoxon",
+   "first_seen": "22/06/2026",
+   "last_seen": "22/06/2026",
+   "activations": [
+    {
+     "date": "22/06/2026",
+     "date_iso": "20260622",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+     "video_id": "95yJuQx7ol8",
+     "t_seconds": 3348,
+     "conc_at": 11806,
+     "program_peak": 15217,
+     "retention_pct": 5.1,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 342.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 342.0
+    }
+   ]
+  },
+  "aerolineas-argentinas": {
+   "name": "Aerolíneas Argentinas",
+   "first_seen": "22/06/2026",
+   "last_seen": "22/06/2026",
+   "activations": [
+    {
+     "date": "22/06/2026",
+     "date_iso": "20260622",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+     "video_id": "95yJuQx7ol8",
+     "t_seconds": 3514,
+     "conc_at": 12213,
+     "program_peak": 15217,
+     "retention_pct": 3.9,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 354.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 354.0
+    }
+   ]
+  },
+  "didi": {
+   "name": "Didi",
+   "first_seen": "22/06/2026",
+   "last_seen": "22/06/2026",
+   "activations": [
+    {
+     "date": "22/06/2026",
+     "date_iso": "20260622",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+     "video_id": "95yJuQx7ol8",
+     "t_seconds": 6851,
+     "conc_at": 15217,
+     "program_peak": 15217,
+     "retention_pct": -0.2,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 441.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 441.0
+    }
+   ]
+  },
+  "marroc-de-belfort-felford": {
+   "name": "Marroc de Belfort / Felford",
+   "first_seen": "24/06/2026",
+   "last_seen": "24/06/2026",
+   "activations": [
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
+     "video_id": "WCF4oC8GC9o",
+     "t_seconds": 5169,
+     "conc_at": 232945,
+     "program_peak": 233997,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 6746.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 6746.0
+    }
+   ]
+  },
+  "coto-digital": {
+   "name": "Coto Digital",
+   "first_seen": "24/06/2026",
+   "last_seen": "24/06/2026",
+   "activations": [
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
+     "video_id": "WCF4oC8GC9o",
+     "t_seconds": 6114,
+     "conc_at": 233938,
+     "program_peak": 233997,
+     "retention_pct": -0.9,
+     "tier_label": "Con código o promo",
+     "value_usd": 10422.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 10422.0
+    }
+   ]
+  },
+  "nadir-argentina": {
+   "name": "Nadir Argentina",
+   "first_seen": "24/06/2026",
+   "last_seen": "24/06/2026",
+   "activations": [
+    {
+     "date": "24/06/2026",
+     "date_iso": "20260624",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+     "video_id": "JqkhC1EnyTQ",
+     "t_seconds": 3221,
+     "conc_at": 8150,
+     "program_peak": 8762,
+     "retention_pct": -1.8,
+     "tier_label": "Con código o promo",
+     "value_usd": 269.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 269.0
+    }
+   ]
+  },
+  "sastreria-teta-lee": {
+   "name": "Sastrería Teta Lee",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "gelatina",
+     "channel_name": "GELATINA",
+     "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
+     "video_id": "tlhTO7YtTJ0",
+     "t_seconds": 8349,
+     "conc_at": 1771,
+     "program_peak": 1941,
+     "retention_pct": -8.1,
+     "tier_label": "Con código o promo",
+     "value_usd": 79.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 79.0
+    }
+   ]
+  },
+  "geniori-plushie-geniol": {
+   "name": "Geniori Plushie / Geniol",
+   "first_seen": "19/06/2026",
+   "last_seen": "19/06/2026",
+   "activations": [
+    {
+     "date": "19/06/2026",
+     "date_iso": "20260619",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+     "video_id": "XHV2BV9DWMs",
+     "t_seconds": 7202,
+     "conc_at": 36173,
+     "program_peak": 41988,
+     "retention_pct": -2.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 1047.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 1047.0
+    }
+   ]
+  },
+  "cabify": {
+   "name": "Cabify",
+   "first_seen": "19/06/2026",
+   "last_seen": "19/06/2026",
+   "activations": [
+    {
+     "date": "19/06/2026",
+     "date_iso": "20260619",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+     "video_id": "XHV2BV9DWMs",
+     "t_seconds": 8345,
+     "conc_at": 33357,
+     "program_peak": 41988,
+     "retention_pct": -1.8,
+     "tier_label": "Con código o promo",
+     "value_usd": 1486.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 1486.0
+    }
+   ]
+  },
+  "picadeli": {
+   "name": "Picadeli",
+   "first_seen": "19/06/2026",
+   "last_seen": "19/06/2026",
+   "activations": [
+    {
+     "date": "19/06/2026",
+     "date_iso": "20260619",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+     "video_id": "XHV2BV9DWMs",
+     "t_seconds": 8400,
+     "conc_at": 33220,
+     "program_peak": 41988,
+     "retention_pct": -1.9,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 962.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 962.0
+    }
+   ]
+  },
+  "martin-imante": {
+   "name": "Martín Imante",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "urbana-play-104-3-fm",
+     "channel_name": "Urbana Play 104.3 FM",
+     "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+     "video_id": "U8f_2vIvO7Y",
+     "t_seconds": 1808,
+     "conc_at": 1718,
+     "program_peak": 3577,
+     "retention_pct": 19.2,
+     "tier_label": "Con código o promo",
+     "value_usd": 77.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 77.0
+    }
+   ]
+  },
+  "urbana-play": {
+   "name": "Urbana Play",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "urbana-play-104-3-fm",
+     "channel_name": "Urbana Play 104.3 FM",
+     "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+     "video_id": "U8f_2vIvO7Y",
+     "t_seconds": 6306,
+     "conc_at": 3451,
+     "program_peak": 3577,
+     "retention_pct": 3.4,
+     "tier_label": "Al pasar",
+     "value_usd": 34.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 34.0
+    }
+   ]
+  },
+  "kimi-cafe": {
+   "name": "Kimi café",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "urbana-play-104-3-fm",
+     "channel_name": "Urbana Play 104.3 FM",
+     "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+     "video_id": "U8f_2vIvO7Y",
+     "t_seconds": 6841,
+     "conc_at": 3432,
+     "program_peak": 3577,
+     "retention_pct": 3.4,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 99.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 99.0
+    }
+   ]
+  },
+  "biomarket": {
+   "name": "Biomarket",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "urbana-play-104-3-fm",
+     "channel_name": "Urbana Play 104.3 FM",
+     "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+     "video_id": "U8f_2vIvO7Y",
+     "t_seconds": 11369,
+     "conc_at": 3014,
+     "program_peak": 3577,
+     "retention_pct": -2.8,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 87.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 87.0
+    }
+   ]
+  },
+  "cremolati-com-ar-las-rojas-empanadas": {
+   "name": "cremolati.com.ar / Las Rojas Empanadas",
+   "first_seen": "26/06/2026",
+   "last_seen": "26/06/2026",
+   "activations": [
+    {
+     "date": "26/06/2026",
+     "date_iso": "20260626",
+     "channel": "urbana-play-104-3-fm",
+     "channel_name": "Urbana Play 104.3 FM",
+     "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+     "video_id": "U8f_2vIvO7Y",
+     "t_seconds": 11400,
+     "conc_at": 3007,
+     "program_peak": 3577,
+     "retention_pct": -1.7,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 87.0,
+     "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-06-28T11:41:18.759516+00:00",
+     "mentions": 1,
+     "value_usd": 87.0
+    }
+   ]
+  }
+ }
+}

@@ -3,9 +3,9 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import AgenciaCanalesAudiencia from "@/components/agencia/AgenciaCanalesAudiencia";
+import AgenciaPlanMarca from "@/components/agencia/AgenciaPlanMarca";
 import AgenciaVsRivalBlock from "@/components/agencia/AgenciaVsRivalBlock";
 import AgenciaDemandaView from "@/components/agencia/AgenciaDemandaView";
-import AgenciaDondeCliente from "@/components/agencia/AgenciaDondeCliente";
 import AgenciaDondeTabs from "@/components/agencia/AgenciaDondeTabs";
 import AgenciaPageHeader from "@/components/agencia/AgenciaPageHeader";
 import AgenciaProgramasTop from "@/components/agencia/AgenciaProgramasTop";
@@ -13,6 +13,7 @@ import AgenciaQuestionBlock from "@/components/agencia/AgenciaQuestionBlock";
 import AgenciaRubroPicker from "@/components/agencia/AgenciaRubroPicker";
 import AgenciaRubroPautarView from "@/components/agencia/AgenciaRubroPautarView";
 import { AGENCIA_BASE } from "@/lib/agencia-demo";
+import { buildAgenciaPlanPack } from "@/lib/agencia-plan";
 import { buildDondeRubroPack } from "@/lib/agencia-donde";
 import { buildProgramMap, portfolioRubroOptions } from "@/lib/agencia-mapa";
 import { buildRubroIntel } from "@/lib/agencia-rubro-intel";
@@ -46,6 +47,7 @@ export default function AgenciaDondePage() {
     chat_insights,
     sala_signals,
     brands,
+    brand_history,
   } = useCorpus([
     "reports",
     "channels",
@@ -58,6 +60,7 @@ export default function AgenciaDondePage() {
     "chat_insights",
     "sala_signals",
     "brands",
+    "brand_history",
   ] as const);
 
   const reportsMap = reports as Record<string, never>;
@@ -166,6 +169,40 @@ export default function AgenciaDondePage() {
   ]);
 
   const activeRubroLabel = rubro ? rubroLabel(placementExport, rubro) : "tu rubro";
+
+  const brandRow = useMemo(() => {
+    return (brands as { slug: string; first_seen?: string; last_seen?: string; n_activations?: number; channels?: string[] }[]).find(
+      (b) => b.slug === activeSlug
+    );
+  }, [brands, activeSlug]);
+
+  const planPack = useMemo(() => {
+    if (!activePair || !pack) return null;
+    return buildAgenciaPlanPack({
+      pair: activePair,
+      brandName,
+      rubroLabel: activeRubroLabel,
+      dondePack: pack,
+      channelAudience,
+      programs,
+      audience: audience as never,
+      brandRow,
+      brandHistory: brand_history as never,
+      meta: meta as never,
+    });
+  }, [
+    activePair,
+    pack,
+    brandName,
+    activeRubroLabel,
+    channelAudience,
+    programs,
+    audience,
+    brandRow,
+    brand_history,
+    meta,
+  ]);
+
   const exportedAt = (meta as { exported_at?: string }).exported_at;
 
   if (loading) {
@@ -206,6 +243,12 @@ export default function AgenciaDondePage() {
       <div className="mt-8 space-y-10">
         {tab === "pautar" && rubroIntelPack && (
           <>
+            {planPack && (
+              <AgenciaQuestionBlock question={`¿Qué hacemos con ${brandName}?`}>
+                <AgenciaPlanMarca pack={planPack} />
+              </AgenciaQuestionBlock>
+            )}
+
             {channelAudience.length > 0 && (
               <AgenciaQuestionBlock question="¿Dónde está la gente mirando?">
                 <AgenciaCanalesAudiencia
@@ -234,12 +277,6 @@ export default function AgenciaDondePage() {
             )}
 
             <AgenciaRubroPautarView pack={rubroIntelPack} />
-
-            {pack && (
-              <AgenciaQuestionBlock question={`¿Qué hacemos con ${brandName}?`}>
-                <AgenciaDondeCliente pack={pack} />
-              </AgenciaQuestionBlock>
-            )}
 
             {hasRival && activePair && (
               <AgenciaVsRivalBlock pair={activePair} brandName={brandName} />
