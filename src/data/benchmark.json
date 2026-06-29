@@ -2,14 +2,21 @@
  {
   "id": "luzu",
   "name": "Luzu TV",
-  "videos": 17,
-  "vod_views": 2183596,
-  "avg_concurrent": 81114,
-  "brands": 44,
-  "mentions": 59,
-  "share_views": 75.2,
-  "n_brands_live": 44,
+  "videos": 18,
+  "vod_views": 2329903,
+  "avg_concurrent": 79738,
+  "brands": 51,
+  "mentions": 68,
+  "share_views": 73.7,
+  "n_brands_live": 51,
   "top_brands": [
+   {
+    "slug": "mercado-libre",
+    "name": "Mercado Libre",
+    "mentions": 4,
+    "value_usd": 7285.0,
+    "rubro": "retail"
+   },
    {
     "slug": "skip",
     "name": "Skip",
@@ -25,11 +32,11 @@
     "rubro": "seguros"
    },
    {
-    "slug": "mercado-libre",
-    "name": "Mercado Libre",
-    "mentions": 3,
-    "value_usd": 6108.0,
-    "rubro": "retail"
+    "slug": "viv-glycolic-crystal",
+    "name": "VIV Glycolic Crystal",
+    "mentions": 2,
+    "value_usd": 3636.0,
+    "rubro": "otro"
    },
    {
     "slug": "natura-aderezos",
@@ -116,6 +123,55 @@
     "rubro": "otro"
    },
    {
+    "slug": "michelob-ultra",
+    "name": "Michelob Ultra",
+    "mentions": 1,
+    "value_usd": 56.0,
+    "rubro": "bebidas"
+   },
+   {
+    "slug": "universidad-de-moron",
+    "name": "Universidad de Morón",
+    "mentions": 1,
+    "value_usd": 1230.0,
+    "rubro": "otro"
+   },
+   {
+    "slug": "macro",
+    "name": "Macro",
+    "mentions": 1,
+    "value_usd": 2813.0,
+    "rubro": "fintech"
+   },
+   {
+    "slug": "entrada1-com",
+    "name": "Entrada1.com",
+    "mentions": 1,
+    "value_usd": 1306.0,
+    "rubro": "otro"
+   },
+   {
+    "slug": "samsung-galaxy-watch-samsung-health",
+    "name": "Samsung / Galaxy Watch / Samsung Health",
+    "mentions": 1,
+    "value_usd": 2195.0,
+    "rubro": "tecnologia"
+   },
+   {
+    "slug": "yumi",
+    "name": "Yumi",
+    "mentions": 1,
+    "value_usd": 2313.0,
+    "rubro": "otro"
+   },
+   {
+    "slug": "teatro-broadway-rosario",
+    "name": "Teatro Broadway Rosario",
+    "mentions": 1,
+    "value_usd": 1581.0,
+    "rubro": "otro"
+   },
+   {
     "slug": "coca-cola",
     "name": "Coca-Cola",
     "mentions": 1,
@@ -163,81 +219,25 @@
     "mentions": 1,
     "value_usd": 6801.0,
     "rubro": "otro"
-   },
-   {
-    "slug": "alma-marcela-gozo",
-    "name": "Alma Marcela Gozo",
-    "mentions": 1,
-    "value_usd": 1562.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "nivea-milk-nutritiva",
-    "name": "Nivea Milk Nutritiva",
-    "mentions": 1,
-    "value_usd": 5719.0,
-    "rubro": "higiene"
-   },
-   {
-    "slug": "nivea",
-    "name": "Nivea",
-    "mentions": 1,
-    "value_usd": 5722.0,
-    "rubro": "higiene"
-   },
-   {
-    "slug": "cymes",
-    "name": "Cymes",
-    "mentions": 1,
-    "value_usd": 9444.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "pringles",
-    "name": "Pringles",
-    "mentions": 1,
-    "value_usd": 6285.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "quilmes",
-    "name": "Quilmes",
-    "mentions": 1,
-    "value_usd": 2204.0,
-    "rubro": "bebidas"
-   },
-   {
-    "slug": "ariel",
-    "name": "Ariel",
-    "mentions": 1,
-    "value_usd": 2144.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "fenix",
-    "name": "Fénix",
-    "mentions": 1,
-    "value_usd": 2121.0,
-    "rubro": "otro"
    }
   ]
  },
  {
   "id": "olga",
   "name": "Olga",
-  "videos": 15,
-  "vod_views": 538242,
-  "avg_concurrent": 25824,
-  "brands": 52,
-  "mentions": 90,
-  "share_views": 18.5,
-  "n_brands_live": 52,
+  "videos": 16,
+  "vod_views": 612267,
+  "avg_concurrent": 25924,
+  "brands": 54,
+  "mentions": 95,
+  "share_views": 19.4,
+  "n_brands_live": 54,
   "top_brands": [
    {
     "slug": "iol-inversiones",
     "name": "IOL Inversiones",
-    "mentions": 8,
-    "value_usd": 4810.0,
+    "mentions": 10,
+    "value_usd": 7820.0,
     "rubro": "fintech"
    },
    {
@@ -346,11 +346,11 @@
     "rubro": "otro"
    },
    {
-    "slug": "asiscard",
-    "name": "Asiscard",
-    "mentions": 1,
-    "value_usd": 261.0,
-    "rubro": "seguros"
+    "slug": "alicante-mix-parrilla",
+    "name": "Alicante Mix parrilla",
+    "mentions": 2,
+    "value_usd": 1237.0,
+    "rubro": "otro"
    },
    {
     "slug": "mercado-libre",
@@ -358,6 +358,13 @@
     "mentions": 1,
     "value_usd": 1897.0,
     "rubro": "retail"
+   },
+   {
+    "slug": "asiscard",
+    "name": "Asiscard",
+    "mentions": 1,
+    "value_usd": 261.0,
+    "rubro": "seguros"
    },
    {
     "slug": "adidas",
@@ -435,27 +442,27 @@
     "mentions": 1,
     "value_usd": 598.0,
     "rubro": "otro"
-   },
-   {
-    "slug": "pedidosya",
-    "name": "PedidosYa",
-    "mentions": 1,
-    "value_usd": 1255.0,
-    "rubro": "retail"
    }
   ]
  },
  {
   "id": "vorterix",
   "name": "Vorterix",
-  "videos": 6,
-  "vod_views": 107661,
-  "avg_concurrent": 6699,
-  "brands": 20,
-  "mentions": 21,
-  "share_views": 3.7,
-  "n_brands_live": 20,
+  "videos": 7,
+  "vod_views": 126176,
+  "avg_concurrent": 6831,
+  "brands": 21,
+  "mentions": 23,
+  "share_views": 4.0,
+  "n_brands_live": 21,
   "top_brands": [
+   {
+    "slug": "cremolati",
+    "name": "Cremolati",
+    "mentions": 2,
+    "value_usd": 311.0,
+    "rubro": "otro"
+   },
    {
     "slug": "coto",
     "name": "Coto",
@@ -478,13 +485,6 @@
     "rubro": "automotriz"
    },
    {
-    "slug": "cremolati",
-    "name": "Cremolati",
-    "mentions": 1,
-    "value_usd": 45.0,
-    "rubro": "otro"
-   },
-   {
     "slug": "kanka",
     "name": "Kanka",
     "mentions": 1,
@@ -497,6 +497,13 @@
     "mentions": 1,
     "value_usd": 128.0,
     "rubro": "telco"
+   },
+   {
+    "slug": "b-play",
+    "name": "B-Play",
+    "mentions": 1,
+    "value_usd": 190.0,
+    "rubro": "otro"
    },
    {
     "slug": "garnier-fructis",
@@ -606,7 +613,7 @@
   "avg_concurrent": 21251,
   "brands": 0,
   "mentions": 0,
-  "share_views": 1.3,
+  "share_views": 1.2,
   "n_brands_live": 0,
   "top_brands": []
  },
@@ -618,7 +625,7 @@
   "avg_concurrent": 6867,
   "brands": 8,
   "mentions": 8,
-  "share_views": 0.8,
+  "share_views": 0.7,
   "n_brands_live": 8,
   "top_brands": [
    {
@@ -680,6 +687,40 @@
   ]
  },
  {
+  "id": "gelatina",
+  "name": "Gelatina",
+  "videos": 2,
+  "vod_views": 13768,
+  "avg_concurrent": 1554,
+  "brands": 3,
+  "mentions": 3,
+  "share_views": 0.4,
+  "n_brands_live": 3,
+  "top_brands": [
+   {
+    "slug": "seco",
+    "name": "Seco",
+    "mentions": 1,
+    "value_usd": 61.0,
+    "rubro": "otro"
+   },
+   {
+    "slug": "ada-cafe",
+    "name": "Ada Café",
+    "mentions": 1,
+    "value_usd": 74.0,
+    "rubro": "otro"
+   },
+   {
+    "slug": "sastreria-teta-lee",
+    "name": "Sastrería Teta Lee",
+    "mentions": 1,
+    "value_usd": 79.0,
+    "rubro": "otro"
+   }
+  ]
+ },
+ {
   "id": "neura",
   "name": "Neura Media",
   "videos": 5,
@@ -687,7 +728,7 @@
   "avg_concurrent": 351,
   "brands": 12,
   "mentions": 17,
-  "share_views": 0.3,
+  "share_views": 0.2,
   "n_brands_live": 12,
   "top_brands": [
    {
@@ -777,21 +818,72 @@
   ]
  },
  {
-  "id": "gelatina",
-  "name": "Gelatina",
+  "id": "ahoraplay",
+  "name": "Ahora Play",
+  "videos": 2,
+  "vod_views": 4256,
+  "avg_concurrent": 606,
+  "brands": 2,
+  "mentions": 2,
+  "share_views": 0.1,
+  "n_brands_live": 2,
+  "top_brands": [
+   {
+    "slug": "clave-bursatil-de-asesores",
+    "name": "Clave Bursátil de Asesores",
+    "mentions": 1,
+    "value_usd": 13.0,
+    "rubro": "otro"
+   },
+   {
+    "slug": "legislatura-de-la-ciudad-autonoma-de-buenos-aires",
+    "name": "Legislatura de la Ciudad Autónoma de Buenos Aires",
+    "mentions": 1,
+    "value_usd": 28.0,
+    "rubro": "otro"
+   }
+  ]
+ },
+ {
+  "id": "border",
+  "name": "BorderPeriodismo",
   "videos": 1,
-  "vod_views": 5955,
-  "avg_concurrent": 1473,
+  "vod_views": 2107,
+  "avg_concurrent": 2028,
+  "brands": 0,
+  "mentions": 0,
+  "share_views": 0.1,
+  "n_brands_live": 0,
+  "top_brands": []
+ },
+ {
+  "id": "cronista",
+  "name": "El Cronista",
+  "videos": 1,
+  "vod_views": 2023,
+  "avg_concurrent": 1632,
+  "brands": 0,
+  "mentions": 0,
+  "share_views": 0.1,
+  "n_brands_live": 0,
+  "top_brands": []
+ },
+ {
+  "id": "aura",
+  "name": "Aura",
+  "videos": 2,
+  "vod_views": 1624,
+  "avg_concurrent": 333,
   "brands": 1,
   "mentions": 1,
-  "share_views": 0.2,
+  "share_views": 0.1,
   "n_brands_live": 1,
   "top_brands": [
    {
-    "slug": "sastreria-teta-lee",
-    "name": "Sastrería Teta Lee",
+    "slug": "youtube-aura-stream-tn",
+    "name": "YouTube / Aura Stream TN",
     "mentions": 1,
-    "value_usd": 79.0,
+    "value_usd": 7.0,
     "rubro": "otro"
    }
   ]

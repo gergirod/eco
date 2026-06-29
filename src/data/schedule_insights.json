@@ -1,42 +1,42 @@
 {
- "programs_analyzed": 56,
- "platform_line": "La atención más fuerte concentra entre las 12–13 hs (promedio 107.305 mirando en 4 emisiones).",
+ "programs_analyzed": 75,
+ "platform_line": "La atención más fuerte concentra entre las 11–12 hs (promedio 79.947 mirando en 15 emisiones).",
  "best_hours": [
-  {
-   "hour": 12,
-   "label": "12–13 hs",
-   "avg_peak": 107305,
-   "n": 4
-  },
   {
    "hour": 11,
    "label": "11–12 hs",
-   "avg_peak": 92898,
-   "n": 10
+   "avg_peak": 79947,
+   "n": 15
+  },
+  {
+   "hour": 12,
+   "label": "12–13 hs",
+   "avg_peak": 72884,
+   "n": 6
   },
   {
    "hour": 10,
    "label": "10–11 hs",
-   "avg_peak": 78512,
-   "n": 7
+   "avg_peak": 55758,
+   "n": 13
   },
   {
    "hour": 14,
    "label": "14–15 hs",
-   "avg_peak": 33338,
-   "n": 4
-  },
-  {
-   "hour": 13,
-   "label": "13–14 hs",
-   "avg_peak": 24678,
-   "n": 4
+   "avg_peak": 26773,
+   "n": 5
   },
   {
    "hour": 15,
    "label": "15–16 hs",
    "avg_peak": 23556,
    "n": 4
+  },
+  {
+   "hour": 16,
+   "label": "16–17 hs",
+   "avg_peak": 18017,
+   "n": 2
   }
  ],
  "best_weekdays": [
@@ -70,23 +70,23 @@
    "channel_id": "luzu",
    "show_id": "ndn",
    "show_name": "Nadie Dice Nada",
-   "emissions": 3,
-   "typical_start": "10:09",
+   "emissions": 4,
+   "typical_start": "10:12",
    "peak_window": "11–12 hs",
    "best_weekday": "viernes",
-   "avg_peak": 231592,
-   "line": "Nadie Dice Nada suele arrancar cerca de las 10:09 y pega fuerte entre 11–12 hs los viernes."
+   "avg_peak": 229660,
+   "line": "Nadie Dice Nada suele arrancar cerca de las 10:12 y pega fuerte entre 11–12 hs los viernes."
   },
   {
    "channel_id": "luzu",
    "show_id": "aqn",
    "show_name": "Antes Que Nadie",
-   "emissions": 3,
-   "typical_start": "6:45",
+   "emissions": 4,
+   "typical_start": "6:44",
    "peak_window": "10–11 hs",
    "best_weekday": "miércoles",
-   "avg_peak": 121108,
-   "line": "Antes Que Nadie suele arrancar cerca de las 6:45 y pega fuerte entre 10–11 hs los miércoles."
+   "avg_peak": 122859,
+   "line": "Antes Que Nadie suele arrancar cerca de las 6:44 y pega fuerte entre 10–11 hs los miércoles."
   },
   {
    "channel_id": "luzu",
@@ -103,12 +103,12 @@
    "channel_id": "olga",
    "show_id": "seria-increible",
    "show_name": "Sería Increíble",
-   "emissions": 3,
-   "typical_start": "6:35",
+   "emissions": 4,
+   "typical_start": "6:37",
    "peak_window": "10–11 hs",
-   "best_weekday": "miércoles",
-   "avg_peak": 49334,
-   "line": "Sería Increíble suele arrancar cerca de las 6:35 y pega fuerte entre 10–11 hs los miércoles."
+   "best_weekday": "lunes",
+   "avg_peak": 47286,
+   "line": "Sería Increíble suele arrancar cerca de las 6:37 y pega fuerte entre 10–11 hs los lunes."
   },
   {
    "channel_id": "luzu",
@@ -125,12 +125,12 @@
    "channel_id": "olga",
    "show_id": "sone-volaba",
    "show_name": "Soñé que Volaba",
-   "emissions": 4,
-   "typical_start": "10:16",
+   "emissions": 5,
+   "typical_start": "10:15",
    "peak_window": "11–12 hs",
-   "best_weekday": "miércoles",
-   "avg_peak": 40269,
-   "line": "Soñé que Volaba suele arrancar cerca de las 10:16 y pega fuerte entre 11–12 hs los miércoles."
+   "best_weekday": "lunes",
+   "avg_peak": 39192,
+   "line": "Soñé que Volaba suele arrancar cerca de las 10:15 y pega fuerte entre 11–12 hs los lunes."
   },
   {
    "channel_id": "luzu",
@@ -158,12 +158,12 @@
    "channel_id": "olga",
    "show_id": "tapados",
    "show_name": "Tapados de Laburo",
-   "emissions": 3,
-   "typical_start": "12:41",
+   "emissions": 4,
+   "typical_start": "12:37",
    "peak_window": "13–14 hs",
    "best_weekday": "martes",
-   "avg_peak": 29502,
-   "line": "Tapados de Laburo suele arrancar cerca de las 12:41 y pega fuerte entre 13–14 hs los martes."
+   "avg_peak": 29705,
+   "line": "Tapados de Laburo suele arrancar cerca de las 12:37 y pega fuerte entre 13–14 hs los martes."
   },
   {
    "channel_id": "luzu",
@@ -221,5 +221,5 @@
    "line": "Gol Gana suele arrancar cerca de las 16:47 y pega fuerte entre 19–20 hs los lunes."
   }
  ],
- "period": "2026-06-28T11:41:18.759516+00:00"
+ "period": "2026-06-29T17:09:05.599166+00:00"
 }

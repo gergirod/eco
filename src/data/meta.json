@@ -1,30 +1,34 @@
 {
- "exported_at": "2026-06-28T11:41:18.759516+00:00",
+ "exported_at": "2026-06-29T17:09:05.599166+00:00",
  "capture_scope": "live_only",
  "capture_sources": [
   "youtube_api",
   "ytdlp_live"
  ],
- "n_videos": 50,
- "n_topics": 50,
- "n_topics_total": 115,
- "n_brands": 135,
- "n_products": 123,
- "n_pauta_mentions": 204,
- "n_moments": 54,
+ "n_videos": 60,
+ "n_topics": 60,
+ "n_topics_total": 125,
+ "n_brands": 149,
+ "n_products": 152,
+ "n_pauta_mentions": 225,
+ "n_moments": 76,
  "n_trends": 120,
  "cpm": 30.0,
  "peso_default": 0.3,
  "live_capture": {
-  "hours_captured": 136.9,
-  "streams_captured": 55,
-  "channels_captured": 8,
-  "capture_days": 6,
+  "hours_captured": 174.4,
+  "streams_captured": 74,
+  "channels_captured": 12,
+  "capture_days": 7,
   "first_capture": "2026-06-22",
-  "last_capture": "2026-06-27",
+  "last_capture": "2026-06-29",
   "channel_ids": [
+   "ahoraplay",
+   "aura",
    "blend",
    "bondi",
+   "border",
+   "cronista",
    "gelatina",
    "luzu",
    "neura",
@@ -33,6 +37,20 @@
    "vorterix"
   ],
   "by_channel": [
+   {
+    "id": "ahoraplay",
+    "streams": 3,
+    "hours": 4.5,
+    "first_capture": "2026-06-29",
+    "last_capture": "2026-06-29"
+   },
+   {
+    "id": "aura",
+    "streams": 2,
+    "hours": 4.1,
+    "first_capture": "2026-06-29",
+    "last_capture": "2026-06-29"
+   },
    {
     "id": "blend",
     "streams": 4,
@@ -48,32 +66,46 @@
     "last_capture": "2026-06-26"
    },
    {
-    "id": "gelatina",
+    "id": "border",
     "streams": 1,
     "hours": 2.3,
+    "first_capture": "2026-06-29",
+    "last_capture": "2026-06-29"
+   },
+   {
+    "id": "cronista",
+    "streams": 1,
+    "hours": 1.3,
+    "first_capture": "2026-06-29",
+    "last_capture": "2026-06-29"
+   },
+   {
+    "id": "gelatina",
+    "streams": 4,
+    "hours": 7.7,
     "first_capture": "2026-06-26",
-    "last_capture": "2026-06-26"
+    "last_capture": "2026-06-29"
    },
    {
     "id": "luzu",
-    "streams": 20,
-    "hours": 39.8,
+    "streams": 22,
+    "hours": 46.1,
     "first_capture": "2026-06-23",
-    "last_capture": "2026-06-27"
+    "last_capture": "2026-06-29"
    },
    {
     "id": "neura",
-    "streams": 5,
-    "hours": 8.3,
+    "streams": 6,
+    "hours": 8.5,
     "first_capture": "2026-06-26",
-    "last_capture": "2026-06-27"
+    "last_capture": "2026-06-29"
    },
    {
     "id": "olga",
-    "streams": 17,
-    "hours": 40.7,
+    "streams": 20,
+    "hours": 48.2,
     "first_capture": "2026-06-22",
-    "last_capture": "2026-06-26"
+    "last_capture": "2026-06-29"
    },
    {
     "id": "urbana",
@@ -84,13 +116,20 @@
    },
    {
     "id": "vorterix",
-    "streams": 6,
-    "hours": 15.2,
+    "streams": 9,
+    "hours": 21.5,
     "first_capture": "2026-06-26",
-    "last_capture": "2026-06-27"
+    "last_capture": "2026-06-29"
    }
   ],
   "by_show": [
+   {
+    "channel_id": "vorterix",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 7,
+    "hours": 17.4
+   },
    {
     "channel_id": "urbana",
     "show_id": "otros",
@@ -99,39 +138,39 @@
     "hours": 16.2
    },
    {
-    "channel_id": "vorterix",
-    "show_id": "otros",
-    "show_name": "Otros",
-    "streams": 5,
-    "hours": 13.2
-   },
-   {
     "channel_id": "olga",
     "show_id": "seria-increible",
     "show_name": "Sería Increíble",
-    "streams": 3,
-    "hours": 11.0
+    "streams": 4,
+    "hours": 14.5
    },
    {
     "channel_id": "luzu",
     "show_id": "aqn",
     "show_name": "Antes Que Nadie",
-    "streams": 3,
-    "hours": 10.2
+    "streams": 4,
+    "hours": 13.7
    },
    {
     "channel_id": "olga",
     "show_id": "sone-volaba",
     "show_name": "Soñé que Volaba",
+    "streams": 5,
+    "hours": 11.9
+   },
+   {
+    "channel_id": "luzu",
+    "show_id": "ndn",
+    "show_name": "Nadie Dice Nada",
     "streams": 4,
-    "hours": 9.6
+    "hours": 9.9
    },
    {
     "channel_id": "neura",
     "show_id": "otros",
     "show_name": "Otros",
-    "streams": 5,
-    "hours": 8.3
+    "streams": 6,
+    "hours": 8.5
    },
    {
     "channel_id": "olga",
@@ -148,11 +187,18 @@
     "hours": 7.9
    },
    {
-    "channel_id": "luzu",
-    "show_id": "ndn",
-    "show_name": "Nadie Dice Nada",
-    "streams": 3,
-    "hours": 7.2
+    "channel_id": "gelatina",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 4,
+    "hours": 7.7
+   },
+   {
+    "channel_id": "olga",
+    "show_id": "tapados",
+    "show_name": "Tapados de Laburo",
+    "streams": 4,
+    "hours": 7.3
    },
    {
     "channel_id": "bondi",
@@ -176,11 +222,11 @@
     "hours": 5.9
    },
    {
-    "channel_id": "olga",
-    "show_id": "tapados",
-    "show_name": "Tapados de Laburo",
-    "streams": 3,
-    "hours": 5.7
+    "channel_id": "vorterix",
+    "show_id": "no-rusia",
+    "show_name": "No Preguntes por Rusia",
+    "streams": 2,
+    "hours": 4.1
    },
    {
     "channel_id": "blend",
@@ -204,18 +250,18 @@
     "hours": 2.4
    },
    {
-    "channel_id": "gelatina",
+    "channel_id": "border",
     "show_id": "otros",
     "show_name": "Otros",
     "streams": 1,
     "hours": 2.3
    },
    {
-    "channel_id": "vorterix",
-    "show_id": "no-rusia",
-    "show_name": "No Preguntes por Rusia",
+    "channel_id": "aura",
+    "show_id": "hoy-como-siempre",
+    "show_name": "Hoy como siempre",
     "streams": 1,
-    "hours": 2.1
+    "hours": 2.2
    },
    {
     "channel_id": "blend",
@@ -223,6 +269,20 @@
     "show_name": "Qué Día",
     "streams": 1,
     "hours": 2.0
+   },
+   {
+    "channel_id": "ahoraplay",
+    "show_id": "serrucho",
+    "show_name": "Serrucho Económico",
+    "streams": 1,
+    "hours": 2.0
+   },
+   {
+    "channel_id": "aura",
+    "show_id": "de-aca",
+    "show_name": "De Acá",
+    "streams": 1,
+    "hours": 1.9
    },
    {
     "channel_id": "blend",
@@ -244,6 +304,27 @@
     "show_name": "La Novela",
     "streams": 1,
     "hours": 1.5
+   },
+   {
+    "channel_id": "ahoraplay",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 1,
+    "hours": 1.4
+   },
+   {
+    "channel_id": "cronista",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 1,
+    "hours": 1.3
+   },
+   {
+    "channel_id": "ahoraplay",
+    "show_id": "maxi-mediodia",
+    "show_name": "Maxi Mediodía",
+    "streams": 1,
+    "hours": 1.1
    }
   ],
   "method": "viewers_recorded_at",
@@ -253,14 +334,14 @@
   ]
  },
  "discovery": {
-  "channels_covered": 7,
-  "hours_captured": 115.5,
+  "channels_covered": 11,
+  "hours_captured": 138.3,
   "first_capture": "2026-06-19",
-  "last_capture": "2026-06-27",
-  "period_days": 9,
-  "programs_with_viewers": 50,
-  "high_confidence_advertisers": 15,
-  "emerging_confidence_advertisers": 19,
-  "activations_with_verified_evidence": 198
+  "last_capture": "2026-06-29",
+  "period_days": 11,
+  "programs_with_viewers": 60,
+  "high_confidence_advertisers": 16,
+  "emerging_confidence_advertisers": 21,
+  "activations_with_verified_evidence": 219
  }
 }

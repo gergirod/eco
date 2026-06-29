@@ -309,6 +309,64 @@
    }
   },
   {
+   "video_id": "cEWsZ9vbiCg",
+   "channel": "LUZU TV",
+   "channel_id": "luzu",
+   "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+   "date": "20260629",
+   "iup": 95,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 1.0,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.0,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 56341,
+     "peak_concurrent": 128115
+    },
+    "conversation": {
+     "blocks": 22,
+     "blocks_with_signal": 22,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 76,
+     "sponsored": 10,
+     "organic": 59,
+     "productos_marcas": 47
+    },
+    "participation": {
+     "chat_engagement": null,
+     "chat_noise": null,
+     "note": "sin chat"
+    },
+    "format": {
+     "show_id": "aqn",
+     "show_name": "Antes Que Nadie"
+    },
+    "capture_minutes": 205.38833333333332
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "cHMIm1Fnig4",
    "channel": "LUZU TV",
    "channel_id": "luzu",
@@ -1179,6 +1237,64 @@
    }
   },
   {
+   "video_id": "NHt6oqHZYd0",
+   "channel": "GELATINA",
+   "channel_id": "gelatina",
+   "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
+   "date": "20260629",
+   "iup": 91,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.499,
+    "conversation": 0.954,
+    "commercial": 1.0,
+    "participation": 0.964,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 5585,
+     "peak_concurrent": 7467
+    },
+    "conversation": {
+     "blocks": 12,
+     "blocks_with_signal": 11,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 22,
+     "sponsored": 0,
+     "organic": 25,
+     "productos_marcas": 17
+    },
+    "participation": {
+     "chat_engagement": 4.05,
+     "chat_noise": 0.09,
+     "chat_total": 3012
+    },
+    "format": {
+     "show_id": "tugo",
+     "show_name": "TUGO"
+    },
+    "capture_minutes": 127.76500000000001
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "2E9MjxyDU9o",
    "channel": "LUZU TV",
    "channel_id": "luzu",
@@ -1284,6 +1400,64 @@
      "show_name": "Tapados de Laburo"
     },
     "capture_minutes": 120.35333333333332
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "3CPnLRc7h2w",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+   "date": "20260629",
+   "iup": 90,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.568,
+    "conversation": 0.873,
+    "commercial": 1.0,
+    "participation": 0.86,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 7624,
+     "peak_concurrent": 10245
+    },
+    "conversation": {
+     "blocks": 13,
+     "blocks_with_signal": 10,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 43,
+     "sponsored": 3,
+     "organic": 28,
+     "productos_marcas": 35
+    },
+    "participation": {
+     "chat_engagement": 2.7,
+     "chat_noise": 0.1,
+     "chat_total": 2536
+    },
+    "format": {
+     "show_id": "no-rusia",
+     "show_name": "No Preguntes por Rusia"
+    },
+    "capture_minutes": 113.10333333333332
    },
    "weights": {
     "capture": 0.25,
@@ -1574,6 +1748,64 @@
      "show_name": "Otros"
     },
     "capture_minutes": 195.66666666666666
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "WNe6QLgDfyM",
+   "channel": "OLGA",
+   "channel_id": "olga",
+   "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+   "date": "20260629",
+   "iup": 88,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.881,
+    "conversation": 0.775,
+    "commercial": 1.0,
+    "participation": 0.189,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 27417,
+     "peak_concurrent": 41141
+    },
+    "conversation": {
+     "blocks": 22,
+     "blocks_with_signal": 13,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 37,
+     "sponsored": 5,
+     "organic": 28,
+     "productos_marcas": 22
+    },
+    "participation": {
+     "chat_engagement": 0.71,
+     "chat_noise": 0.12,
+     "chat_total": 4231
+    },
+    "format": {
+     "show_id": "seria-increible",
+     "show_name": "Sería Increíble"
+    },
+    "capture_minutes": 214.52333333333334
    },
    "weights": {
     "capture": 0.25,
@@ -2397,6 +2629,122 @@
    }
   },
   {
+   "video_id": "vlNZMMmBbLw",
+   "channel": "GELATINA",
+   "channel_id": "gelatina",
+   "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+   "date": "20260629",
+   "iup": 79,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.271,
+    "conversation": 0.931,
+    "commercial": 1.0,
+    "participation": 0.429,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 1635,
+     "peak_concurrent": 2653
+    },
+    "conversation": {
+     "blocks": 16,
+     "blocks_with_signal": 14,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 28,
+     "sponsored": 4,
+     "organic": 28,
+     "productos_marcas": 19
+    },
+    "participation": {
+     "chat_engagement": 1.31,
+     "chat_noise": 0.02,
+     "chat_total": 327
+    },
+    "format": {
+     "show_id": "demasiada-presion",
+     "show_name": "Demasiada Presión"
+    },
+    "capture_minutes": 140.09499999999997
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "CP5OqzXez-g",
+   "channel": "BorderPeriodismo",
+   "channel_id": "border",
+   "title": "EL TAPON DE ADORNI y el NUEVO SANTILLI | VIVAN TODO en VIVO con OLIVÁN",
+   "date": "20260629",
+   "iup": 77,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.284,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.03,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 2028,
+     "peak_concurrent": 2127
+    },
+    "conversation": {
+     "blocks": 14,
+     "blocks_with_signal": 14,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 45,
+     "sponsored": 0,
+     "organic": 40,
+     "productos_marcas": 35
+    },
+    "participation": {
+     "chat_engagement": 0.09,
+     "chat_noise": 0.0,
+     "chat_total": 25
+    },
+    "format": {
+     "show_id": "vivan-todo",
+     "show_name": "Vivan Todo"
+    },
+    "capture_minutes": 79.79666666666667
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "N-Qq1qr42pk",
    "channel": "LUZU TV",
    "channel_id": "luzu",
@@ -2455,6 +2803,64 @@
    }
   },
   {
+   "video_id": "NZnTfvrPb0E",
+   "channel": " A U R A ",
+   "channel_id": "aura",
+   "title": "🟠 ¿CÓMO QUEDARON LOS CRUCES DEL  MUNDIAL 2026? l HOY COMO SIEMPRE",
+   "date": "20260626",
+   "iup": 77,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.067,
+    "conversation": 0.961,
+    "commercial": 1.0,
+    "participation": 0.62,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 266,
+     "peak_concurrent": 396
+    },
+    "conversation": {
+     "blocks": 14,
+     "blocks_with_signal": 13,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 47,
+     "sponsored": 3,
+     "organic": 29,
+     "productos_marcas": 29
+    },
+    "participation": {
+     "chat_engagement": 57.02,
+     "chat_noise": 0.95,
+     "chat_total": 2002
+    },
+    "format": {
+     "show_id": "hoy-como-siempre",
+     "show_name": "Hoy como siempre"
+    },
+    "capture_minutes": 126.89
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "tlhTO7YtTJ0",
    "channel": "GELATINA",
    "channel_id": "gelatina",
@@ -2502,6 +2908,64 @@
      "show_name": "Otros"
     },
     "capture_minutes": 140.07000000000002
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "HTm_q34CwyM",
+   "channel": "AHORA PLAY",
+   "channel_id": "ahoraplay",
+   "title": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
+   "date": "20260629",
+   "iup": 76,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.141,
+    "conversation": 0.831,
+    "commercial": 1.0,
+    "participation": 0.684,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 700,
+     "peak_concurrent": 847
+    },
+    "conversation": {
+     "blocks": 13,
+     "blocks_with_signal": 9,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 20,
+     "sponsored": 0,
+     "organic": 16,
+     "productos_marcas": 12
+    },
+    "participation": {
+     "chat_engagement": 40.42,
+     "chat_noise": 0.79,
+     "chat_total": 3480
+    },
+    "format": {
+     "show_id": "serrucho",
+     "show_name": "Serrucho Económico"
+    },
+    "capture_minutes": 120.71333333333334
    },
    "weights": {
     "capture": 0.25,
@@ -2629,6 +3093,64 @@
    }
   },
   {
+   "video_id": "AUSgxGQirlM",
+   "channel": " A U R A ",
+   "channel_id": "aura",
+   "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+   "date": "20260626",
+   "iup": 74,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.088,
+    "conversation": 0.954,
+    "commercial": 1.0,
+    "participation": 0.62,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 400,
+     "peak_concurrent": 447
+    },
+    "conversation": {
+     "blocks": 12,
+     "blocks_with_signal": 11,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 41,
+     "sponsored": 0,
+     "organic": 29,
+     "productos_marcas": 38
+    },
+    "participation": {
+     "chat_engagement": 48.52,
+     "chat_noise": 0.95,
+     "chat_total": 2193
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 109.80666666666666
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "U8f_2vIvO7Y",
    "channel": "Urbana Play 104.3 FM",
    "channel_id": "urbana play 104.3 fm",
@@ -2745,6 +3267,64 @@
    }
   },
   {
+   "video_id": "btHFJgjSlls",
+   "channel": "AHORA PLAY",
+   "channel_id": "ahoraplay",
+   "title": "SEGUNDO SEMESTRE FINANCIERO: VELOCIDAD CRUCERO | Martín Genero #MercadoFresh",
+   "date": "20260629",
+   "iup": 74,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.111,
+    "conversation": 0.878,
+    "commercial": 1.0,
+    "participation": 0.723,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 513,
+     "peak_concurrent": 622
+    },
+    "conversation": {
+     "blocks": 9,
+     "blocks_with_signal": 7,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 57,
+     "sponsored": 2,
+     "organic": 19,
+     "productos_marcas": 51
+    },
+    "participation": {
+     "chat_engagement": 2.18,
+     "chat_noise": 0.01,
+     "chat_total": 95
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 82.95166666666667
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "7ON4ZA5TtHc",
    "channel": "Neura Media",
    "channel_id": "neura",
@@ -2850,6 +3430,64 @@
      "show_name": "Otros"
     },
     "capture_minutes": 118.635
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "Yp0sVPQV8Dk",
+   "channel": "El Cronista",
+   "channel_id": "cronista",
+   "title": "¿El RIESGO PAÍS puede caer a 200 puntos? El dato de Yayi Morales que lo CAMBIA TODO",
+   "date": "20260629",
+   "iup": 73,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.257,
+    "conversation": 0.863,
+    "commercial": 1.0,
+    "participation": 0.353,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 1632,
+     "peak_concurrent": 2027
+    },
+    "conversation": {
+     "blocks": 8,
+     "blocks_with_signal": 6,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 38,
+     "sponsored": 0,
+     "organic": 15,
+     "productos_marcas": 33
+    },
+    "participation": {
+     "chat_engagement": 1.07,
+     "chat_noise": 0.01,
+     "chat_total": 136
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 75.435
    },
    "weights": {
     "capture": 0.25,
@@ -6764,6 +7402,24 @@
    "tier_insuficiente": 0
   },
   {
+   "channel_id": "gelatina",
+   "channel": "GELATINA",
+   "programs": 3,
+   "iup_avg": 82.3,
+   "iup_median": 79,
+   "tier_alta": 3,
+   "tier_insuficiente": 0
+  },
+  {
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "programs": 7,
+   "iup_avg": 82.1,
+   "iup_median": 82,
+   "tier_alta": 7,
+   "tier_insuficiente": 0
+  },
+  {
    "channel_id": "bondi",
    "channel": "Bondi Live",
    "programs": 1,
@@ -6773,21 +7429,30 @@
    "tier_insuficiente": 0
   },
   {
-   "channel_id": "vorterix",
-   "channel": "Vorterix",
-   "programs": 6,
-   "iup_avg": 80.8,
-   "iup_median": 82,
-   "tier_alta": 6,
-   "tier_insuficiente": 0
-  },
-  {
-   "channel_id": "gelatina",
-   "channel": "GELATINA",
+   "channel_id": "border",
+   "channel": "BorderPeriodismo",
    "programs": 1,
    "iup_avg": 77.0,
    "iup_median": 77,
    "tier_alta": 1,
+   "tier_insuficiente": 0
+  },
+  {
+   "channel_id": "aura",
+   "channel": " A U R A ",
+   "programs": 2,
+   "iup_avg": 75.5,
+   "iup_median": 77,
+   "tier_alta": 2,
+   "tier_insuficiente": 0
+  },
+  {
+   "channel_id": "ahoraplay",
+   "channel": "AHORA PLAY",
+   "programs": 2,
+   "iup_avg": 75.0,
+   "iup_median": 76,
+   "tier_alta": 2,
    "tier_insuficiente": 0
   },
   {
@@ -6796,6 +7461,15 @@
    "programs": 1,
    "iup_avg": 74.0,
    "iup_median": 74,
+   "tier_alta": 1,
+   "tier_insuficiente": 0
+  },
+  {
+   "channel_id": "cronista",
+   "channel": "El Cronista",
+   "programs": 1,
+   "iup_avg": 73.0,
+   "iup_median": 73,
    "tier_alta": 1,
    "tier_insuficiente": 0
   },
@@ -6811,25 +7485,25 @@
   {
    "channel_id": "luzu",
    "channel": "LUZU TV",
-   "programs": 49,
-   "iup_avg": 71.3,
+   "programs": 50,
+   "iup_avg": 71.8,
    "iup_median": 61,
-   "tier_alta": 17,
+   "tier_alta": 18,
    "tier_insuficiente": 0
   },
   {
    "channel_id": "olga",
    "channel": "OLGA",
-   "programs": 48,
-   "iup_avg": 70.2,
+   "programs": 49,
+   "iup_avg": 70.5,
    "iup_median": 61,
-   "tier_alta": 16,
+   "tier_alta": 17,
    "tier_insuficiente": 0
   }
  ],
  "totals": {
-  "programs": 115,
-  "tier_alta": 51,
+  "programs": 126,
+  "tier_alta": 62,
   "tier_media": 64,
   "tier_baja": 0,
   "tier_insuficiente": 0

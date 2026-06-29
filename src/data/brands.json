@@ -2,16 +2,16 @@
  {
   "slug": "iol-inversiones",
   "name": "IOL Inversiones",
-  "mentions": 9,
+  "mentions": 11,
   "channels": [
    "luzu",
    "olga"
   ],
   "n_channels": 2,
-  "n_videos": 6,
+  "n_videos": 7,
   "first_seen": "23/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 11459.0,
+  "last_seen": "29/06/2026",
+  "value_usd": 14469.0,
   "samples": [
    {
     "channel": "olga",
@@ -56,6 +56,26 @@
    {
     "channel": "olga",
     "channel_name": "OLGA",
+    "date": "29/06/2026",
+    "video_id": "WNe6QLgDfyM",
+    "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+    "minute": "02:26:50",
+    "views": 74025,
+    "conc_at": 33725
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/06/2026",
+    "video_id": "WNe6QLgDfyM",
+    "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+    "minute": "02:27:18",
+    "views": 74025,
+    "conc_at": 33845
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
     "date": "25/06/2026",
     "video_id": "mxFu-R3O8TY",
     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
@@ -72,36 +92,16 @@
     "minute": "00:55:02",
     "views": 73490,
     "conc_at": 42582
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "01:05:14",
-    "views": 73490,
-    "conc_at": 42582
-   },
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "24/06/2026",
-    "video_id": "WCF4oC8GC9o",
-    "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
-    "minute": "01:49:14",
-    "views": 335199,
-    "conc_at": 229621
    }
   ],
   "kind": "marca",
-  "n_activations": 9,
-  "n_programs": 6,
+  "n_activations": 11,
+  "n_programs": 7,
   "peak_conc_at": 229621,
   "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 9 activaciones en 6 programas y 2 canales — 9 con evidencia completa y 0 con evidencia parcial.",
+  "confidence_reason": "Evidencia densa en streaming: 11 activaciones en 7 programas y 2 canales — 11 con evidencia completa y 0 con evidencia parcial.",
   "evidence_summary": {
-   "verified": 9,
+   "verified": 11,
    "partial": 0,
    "insufficient": 0
   },
@@ -280,6 +280,84 @@
    "insufficient": 0
   },
   "rubro": "alimentos"
+ },
+ {
+  "slug": "mercado-libre",
+  "name": "Mercado Libre",
+  "mentions": 5,
+  "channels": [
+   "luzu",
+   "olga"
+  ],
+  "n_channels": 2,
+  "n_videos": 4,
+  "first_seen": "23/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 9182.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "cEWsZ9vbiCg",
+    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+    "minute": "01:42:11",
+    "views": 146307,
+    "conc_at": 54888
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "Ovdcl6-B2kc",
+    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "minute": "01:36:44",
+    "views": 56741,
+    "conc_at": 38135
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "24/06/2026",
+    "video_id": "7Oo5Hf7f14M",
+    "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "minute": "00:30:02",
+    "views": 70980,
+    "conc_at": 49510
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "24/06/2026",
+    "video_id": "7Oo5Hf7f14M",
+    "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "minute": "00:31:02",
+    "views": 70980,
+    "conc_at": 49461
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "02:27:00",
+    "views": 73490,
+    "conc_at": 42582
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 5,
+  "n_programs": 4,
+  "peak_conc_at": 54888,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 5 activaciones en 4 programas y 2 canales — 5 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 5,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "retail"
  },
  {
   "slug": "skip",
@@ -583,72 +661,62 @@
   "rubro": "seguros"
  },
  {
-  "slug": "mercado-libre",
-  "name": "Mercado Libre",
-  "mentions": 4,
+  "slug": "cremolati",
+  "name": "Cremolati",
+  "mentions": 3,
   "channels": [
-   "luzu",
-   "olga"
+   "urbana-play-104-3-fm",
+   "vorterix"
   ],
   "n_channels": 2,
   "n_videos": 3,
-  "first_seen": "23/06/2026",
-  "last_seen": "24/06/2026",
-  "value_usd": 8005.0,
+  "first_seen": "26/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 398.0,
   "samples": [
    {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "23/06/2026",
-    "video_id": "Ovdcl6-B2kc",
-    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "minute": "01:36:44",
-    "views": 56741,
-    "conc_at": 38135
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "3CPnLRc7h2w",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "minute": "01:23:05",
+    "views": 18515,
+    "conc_at": 9180
    },
    {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "24/06/2026",
-    "video_id": "7Oo5Hf7f14M",
-    "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "minute": "00:30:02",
-    "views": 70980,
-    "conc_at": 49510
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "EwFONN3W5cg",
+    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+    "minute": "03:46:49",
+    "views": 20092,
+    "conc_at": 1543
    },
    {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "24/06/2026",
-    "video_id": "7Oo5Hf7f14M",
-    "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "minute": "00:31:02",
-    "views": 70980,
-    "conc_at": 49461
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:27:00",
-    "views": 73490,
-    "conc_at": 42582
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "03:09:52",
+    "views": 7678,
+    "conc_at": 3009
    }
   ],
   "kind": "marca",
-  "n_activations": 4,
+  "n_activations": 3,
   "n_programs": 3,
-  "peak_conc_at": 49510,
+  "peak_conc_at": 9180,
   "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 4 activaciones en 3 programas y 2 canales — 4 con evidencia completa y 0 con evidencia parcial.",
+  "confidence_reason": "Evidencia densa en streaming: 3 activaciones en 3 programas y 2 canales — 3 con evidencia completa y 0 con evidencia parcial.",
   "evidence_summary": {
-   "verified": 4,
+   "verified": 3,
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "retail"
+  "rubro": "otro"
  },
  {
   "slug": "canon",
@@ -1049,6 +1117,53 @@
    "insufficient": 0
   },
   "rubro": "bebidas"
+ },
+ {
+  "slug": "viv-glycolic-crystal",
+  "name": "VIV Glycolic Crystal",
+  "mentions": 2,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "26/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 3636.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "cEWsZ9vbiCg",
+    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+    "minute": "02:04:59",
+    "views": 146307,
+    "conc_at": 68608
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "fnvj0iK5yDI",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+    "minute": "03:08:54",
+    "views": 122068,
+    "conc_at": 100904
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 100904,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
  },
  {
   "slug": "coto",
@@ -1570,44 +1685,43 @@
   "rubro": "viajes"
  },
  {
-  "slug": "cremolati",
-  "name": "Cremolati",
+  "slug": "alicante-mix-parrilla",
+  "name": "Alicante Mix parrilla",
   "mentions": 2,
   "channels": [
-   "urbana-play-104-3-fm",
-   "vorterix"
+   "olga"
   ],
-  "n_channels": 2,
-  "n_videos": 2,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 132.0,
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 1237.0,
   "samples": [
    {
-    "channel": "vorterix",
-    "channel_name": "Vorterix",
-    "date": "26/06/2026",
-    "video_id": "EwFONN3W5cg",
-    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
-    "minute": "03:46:49",
-    "views": 20092,
-    "conc_at": 1543
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/06/2026",
+    "video_id": "WNe6QLgDfyM",
+    "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+    "minute": "02:10:40",
+    "views": 74025,
+    "conc_at": 31909
    },
    {
-    "channel": "urbana-play-104-3-fm",
-    "channel_name": "Urbana Play 104.3 FM",
-    "date": "26/06/2026",
-    "video_id": "U8f_2vIvO7Y",
-    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
-    "minute": "03:09:52",
-    "views": 7678,
-    "conc_at": 3009
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/06/2026",
+    "video_id": "WNe6QLgDfyM",
+    "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+    "minute": "02:10:46",
+    "views": 74025,
+    "conc_at": 31909
    }
   ],
   "kind": "marca",
   "n_activations": 2,
-  "n_programs": 2,
-  "peak_conc_at": 3009,
+  "n_programs": 1,
+  "peak_conc_at": 31909,
   "confidence_tier": "emerging_confidence",
   "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
   "evidence_summary": {
@@ -1806,6 +1920,54 @@
   "rubro": "otro"
  },
  {
+  "slug": "seco",
+  "name": "Seco",
+  "mentions": 2,
+  "channels": [
+   "blend",
+   "gelatina"
+  ],
+  "n_channels": 2,
+  "n_videos": 2,
+  "first_seen": "25/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 84.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "25/06/2026",
+    "video_id": "JXVQmuDctII",
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "minute": "00:00:44",
+    "views": 9779,
+    "conc_at": 511
+   },
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "29/06/2026",
+    "video_id": "vlNZMMmBbLw",
+    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+    "minute": "01:31:49",
+    "views": 7813,
+    "conc_at": 1835
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 1835,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
   "slug": "mercado-pago",
   "name": "Mercado Pago",
   "mentions": 2,
@@ -1984,6 +2146,339 @@
   "rubro": "otro"
  },
  {
+  "slug": "michelob-ultra",
+  "name": "Michelob Ultra",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 56.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "cEWsZ9vbiCg",
+    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+    "minute": "00:14:39",
+    "views": 146307,
+    "conc_at": 1921
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 1921,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "bebidas"
+ },
+ {
+  "slug": "universidad-de-moron",
+  "name": "Universidad de Morón",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 1230.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "cEWsZ9vbiCg",
+    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+    "minute": "00:55:15",
+    "views": 146307,
+    "conc_at": 27614
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 27614,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "macro",
+  "name": "Macro",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 2813.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "cEWsZ9vbiCg",
+    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+    "minute": "01:55:20",
+    "views": 146307,
+    "conc_at": 63149
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 63149,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "fintech"
+ },
+ {
+  "slug": "entrada1-com",
+  "name": "Entrada1.com",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 1306.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "cEWsZ9vbiCg",
+    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+    "minute": "01:51:26",
+    "views": 146307,
+    "conc_at": 60888
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 60888,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "samsung-galaxy-watch-samsung-health",
+  "name": "Samsung / Galaxy Watch / Samsung Health",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 2195.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "cEWsZ9vbiCg",
+    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+    "minute": "02:18:11",
+    "views": 146307,
+    "conc_at": 75790
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 75790,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "tecnologia"
+ },
+ {
+  "slug": "yumi",
+  "name": "Yumi",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 2313.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "cEWsZ9vbiCg",
+    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+    "minute": "02:36:46",
+    "views": 146307,
+    "conc_at": 79863
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 79863,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "teatro-broadway-rosario",
+  "name": "Teatro Broadway Rosario",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 1581.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "cEWsZ9vbiCg",
+    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+    "minute": "03:04:53",
+    "views": 146307,
+    "conc_at": 95819
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 95819,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "clave-bursatil-de-asesores",
+  "name": "Clave Bursátil de Asesores",
+  "mentions": 1,
+  "channels": [
+   "ahoraplay"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 13.0,
+  "samples": [
+   {
+    "channel": "ahoraplay",
+    "channel_name": "AHORA PLAY",
+    "date": "29/06/2026",
+    "video_id": "btHFJgjSlls",
+    "title": "SEGUNDO SEMESTRE FINANCIERO: VELOCIDAD CRUCERO | Martín Genero #MercadoFresh",
+    "minute": "01:21:18",
+    "views": 1589,
+    "conc_at": 617
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 617,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "legislatura-de-la-ciudad-autonoma-de-buenos-aires",
+  "name": "Legislatura de la Ciudad Autónoma de Buenos Aires",
+  "mentions": 1,
+  "channels": [
+   "ahoraplay"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 28.0,
+  "samples": [
+   {
+    "channel": "ahoraplay",
+    "channel_name": "AHORA PLAY",
+    "date": "29/06/2026",
+    "video_id": "btHFJgjSlls",
+    "title": "SEGUNDO SEMESTRE FINANCIERO: VELOCIDAD CRUCERO | Martín Genero #MercadoFresh",
+    "minute": "01:22:34",
+    "views": 1589,
+    "conc_at": 621
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 621,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
   "slug": "kanka",
   "name": "Kanka",
   "mentions": 1,
@@ -2056,6 +2551,80 @@
    "insufficient": 0
   },
   "rubro": "telco"
+ },
+ {
+  "slug": "b-play",
+  "name": "B-Play",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 190.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "3CPnLRc7h2w",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "minute": "02:02:23",
+    "views": 18515,
+    "conc_at": 8853
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 8853,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "youtube-aura-stream-tn",
+  "name": "YouTube / Aura Stream TN",
+  "mentions": 1,
+  "channels": [
+   "aura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 7.0,
+  "samples": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "26/06/2026",
+    "video_id": "NZnTfvrPb0E",
+    "title": "🟠 ¿CÓMO QUEDARON LOS CRUCES DEL  MUNDIAL 2026? l HOY COMO SIEMPRE",
+    "minute": "01:26:22",
+    "views": 841,
+    "conc_at": 308
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 308,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
  },
  {
   "slug": "evaginagel",
@@ -3723,6 +4292,43 @@
   "rubro": "retail"
  },
  {
+  "slug": "block",
+  "name": "Block",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 365.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/06/2026",
+    "video_id": "WNe6QLgDfyM",
+    "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+    "minute": "02:29:40",
+    "views": 74025,
+    "conc_at": 34029
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 34029,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
   "slug": "asociacion-argentina-de-salud-mental",
   "name": "Asociación Argentina de Salud Mental",
   "mentions": 1,
@@ -4278,43 +4884,6 @@
   "rubro": "otro"
  },
  {
-  "slug": "viv-glycolic-crystal",
-  "name": "VIV Glycolic Crystal",
-  "mentions": 1,
-  "channels": [
-   "luzu"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 2164.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "26/06/2026",
-    "video_id": "fnvj0iK5yDI",
-    "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
-    "minute": "03:08:54",
-    "views": 122068,
-    "conc_at": 100904
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 100904,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "otro"
- },
- {
   "slug": "evacare-gino",
   "name": "Evacare Gino",
   "mentions": 1,
@@ -4350,43 +4919,6 @@
    "insufficient": 0
   },
   "rubro": "retail"
- },
- {
-  "slug": "seco",
-  "name": "Seco",
-  "mentions": 1,
-  "channels": [
-   "blend"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "25/06/2026",
-  "last_seen": "25/06/2026",
-  "value_usd": 23.0,
-  "samples": [
-   {
-    "channel": "blend",
-    "channel_name": "BLENDER",
-    "date": "25/06/2026",
-    "video_id": "JXVQmuDctII",
-    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-    "minute": "00:00:44",
-    "views": 9779,
-    "conc_at": 511
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 511,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "otro"
  },
  {
   "slug": "uber",
@@ -5341,6 +5873,43 @@
   "n_activations": 1,
   "n_programs": 1,
   "peak_conc_at": 8150,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "ada-cafe",
+  "name": "Ada Café",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 74.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "29/06/2026",
+    "video_id": "vlNZMMmBbLw",
+    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+    "minute": "02:28:54",
+    "views": 7813,
+    "conc_at": 2567
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 2567,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {

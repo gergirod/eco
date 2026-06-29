@@ -82,6 +82,10 @@ const POSITIONING: Record<string, { kind: CorpusChannelRow["positioning"]; note:
     kind: "nicho",
     note: "Rock / cultura · Hyundai, Coto, Adidas — público distinto a talk",
   },
+  aura: {
+    kind: "nicho",
+    note: "Periodismo TN · chat activo · escala chica, comunidad fuerte",
+  },
 };
 
 function brandCountForChannel(channelId: string, brands: BrandRow[]): number {

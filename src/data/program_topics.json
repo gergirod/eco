@@ -280,6 +280,148 @@
     }
    ]
   },
+  "3CPnLRc7h2w": {
+   "video_id": "3CPnLRc7h2w",
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+   "show_id": "no-rusia",
+   "show_name": "No Preguntes por Rusia",
+   "top_temas": [
+    {
+     "tema": "Carrera De Medicina",
+     "score": 4
+    },
+    {
+     "tema": "Muertes Y Tragedias Recientes",
+     "score": 3
+    },
+    {
+     "tema": "Presentación De Tema Musical Propio",
+     "score": 3
+    },
+    {
+     "tema": "Inseguridad Sobre Calidad Vocal",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Caso Judicial Ryan Méndez - Capitán Cabo Verde",
+     "score": 3
+    },
+    {
+     "tema": "Denuncias De Abuso Sexual En Futbolistas",
+     "score": 3
+    },
+    {
+     "tema": "Ola De Calor En Europa",
+     "score": 3
+    },
+    {
+     "tema": "Mito Urbano Joe Cocker En Buenos Aires",
+     "score": 3
+    },
+    {
+     "tema": "Técnico De Corea Del Sur Eliminado Del Mundial 2026",
+     "score": 3
+    },
+    {
+     "tema": "Depilación Láser Y Definitiva",
+     "score": 3
+    },
+    {
+     "tema": "Láser En Dermatología Y Cosmetología",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 20
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 16
+    },
+    {
+     "categoria": "salud",
+     "score": 16
+    },
+    {
+     "categoria": "persona",
+     "score": 11
+    },
+    {
+     "categoria": "actividad",
+     "score": 10
+    },
+    {
+     "categoria": "otro",
+     "score": 9
+    },
+    {
+     "categoria": "lugar",
+     "score": 7
+    },
+    {
+     "categoria": "educacion",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Álbum De Gustavo Cortera",
+     "categoria": "cultura",
+     "contexto": "Gustavo Cortera presenta La Fuente, su nuevo álbum con diez canciones nacidas en la intimidad del hogar",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Vorterix",
+     "categoria": "lugar",
+     "contexto": "Se menciona Vorterix como parte del contexto histórico del programa, siendo Sidegast parte de ello en 2012",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Muertes Y Tragedias Recientes",
+     "categoria": "cultura",
+     "contexto": "Se menciona la muerte de Ernestina Páez como 'un golpe horrendo' y se reflexiona sobre tragedias frecuentes en los medios",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Paranoia Y Supersticiones",
+     "categoria": "otro",
+     "contexto": "El conductor cuenta que se asustó cuando un Uber con chofer llamado Nicolás lo subió, relacionándolo con muertes",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Controversia Flor Peña",
+     "categoria": "persona",
+     "contexto": "Se menciona que Flor Peña 'inventó' una tragedia y ahora quiere hacer juicio, llamándola 'cara dura'",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Curso De Streaming",
+     "categoria": "tecnologia",
+     "contexto": "Se anuncia un curso sobre 'la magia del streaming' con clases avanzadas sobre videoconferencia con Meet",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Producción Musical En Vivo",
+     "categoria": "actividad",
+     "contexto": "Un conductor estrena una versión en castellano de 'Lovely Day', un tema soul funk de los 70",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Clima Frío En Buenos Aires",
+     "categoria": "lugar",
+     "contexto": "Se comenta que está fresco/frío en Buenos Aires, 'como para vida cambios'",
+     "minute": "0:20"
+    }
+   ]
+  },
   "3QJmfDvuxIk": {
    "video_id": "3QJmfDvuxIk",
    "channel_id": "olga",
@@ -1266,6 +1408,148 @@
     }
    ]
   },
+  "AUSgxGQirlM": {
+   "video_id": "AUSgxGQirlM",
+   "channel_id": "aura",
+   "channel": " A U R A ",
+   "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Cumpleaños De Florencia",
+     "score": 3
+    },
+    {
+     "tema": "Desafío De Comer Alfajores",
+     "score": 3
+    },
+    {
+     "tema": "Respuesta De Mensajes Y Comunicación",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Diego Santilli Y Cambios En El Gobierno",
+     "score": 3
+    },
+    {
+     "tema": "Boda Taylor Swift Y Travis Kelce",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño De Messi En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Divulgación Científica En Redes Sociales",
+     "score": 3
+    },
+    {
+     "tema": "Aprendizaje Y Miedo Al Error",
+     "score": 3
+    },
+    {
+     "tema": "Códigos Qr - Funcionamiento Y Redundancia",
+     "score": 3
+    },
+    {
+     "tema": "Códigos De Barras Vs Qr",
+     "score": 3
+    },
+    {
+     "tema": "Códigos De Barras Y Matemática",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "tecnologia",
+     "score": 32
+    },
+    {
+     "categoria": "persona",
+     "score": 26
+    },
+    {
+     "categoria": "cultura",
+     "score": 24
+    },
+    {
+     "categoria": "actividad",
+     "score": 22
+    },
+    {
+     "categoria": "producto",
+     "score": 16
+    },
+    {
+     "categoria": "otro",
+     "score": 9
+    },
+    {
+     "categoria": "lugar",
+     "score": 6
+    },
+    {
+     "categoria": "educacion",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Cumpleaños De Florencia",
+     "categoria": "cultura",
+     "contexto": "Se celebra el cumpleaños de Flor con saludos y regalos en vivo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Desafío De Comer Alfajores",
+     "categoria": "actividad",
+     "contexto": "Los conductores realizan un desafío de meter alfajores enteros en la boca",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Falta De Respuesta De Mensajes",
+     "categoria": "cultura",
+     "contexto": "Florencia no respondió mensajes privados, genera broma sobre estar ocupada",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Anécdota De Vuelo Casi Perdido",
+     "categoria": "otro",
+     "contexto": "Flor casi no llega al vuelo de regreso por estar comiendo en casa de su madre",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Unboxing De Regalo Sorpresa",
+     "categoria": "actividad",
+     "contexto": "Tomás Barco trae un paquete con golosinas y dulces para abrir en vivo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Respuesta De Mensajes Y Comunicación",
+     "categoria": "tecnologia",
+     "contexto": "Debate sobre cómo los conductores responden mensajes, si contestan rápido o se toman tiempo para pensar",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Cumpleaños De Flor",
+     "categoria": "otro",
+     "contexto": "Celebración del cumpleaños de una conductora con llamadas y saludos en vivo",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Renuncia De Adorni",
+     "categoria": "persona",
+     "contexto": "Noticia política sobre la salida del jefe de gabinete por investigación de enriquecimiento ilícito",
+     "minute": "0:10"
+    }
+   ]
+  },
   "A_ww0XRZnps": {
    "video_id": "A_ww0XRZnps",
    "channel_id": "blend",
@@ -1546,6 +1830,148 @@
      "tema": "Líderes Y Personalidad De Messi",
      "categoria": "persona",
      "contexto": "Se analiza cómo Messi cambió su personalidad en el equipo, pasando de no intervenir en el vestuario a ser un líder respetado",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "CP5OqzXez-g": {
+   "video_id": "CP5OqzXez-g",
+   "channel_id": "border",
+   "channel": "BorderPeriodismo",
+   "title": "EL TAPON DE ADORNI y el NUEVO SANTILLI | VIVAN TODO en VIVO con OLIVÁN",
+   "show_id": "vivan-todo",
+   "show_name": "Vivan Todo",
+   "top_temas": [
+    {
+     "tema": "Terremoto En Venezuela",
+     "score": 6
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 5
+    },
+    {
+     "tema": "Fallecimiento De Ernestina Páez",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Ministro Y Crisis Política",
+     "score": 3
+    },
+    {
+     "tema": "Designación De Diego Santilli Como Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Rol Y Poder De Mauricio Macri En El Gobierno",
+     "score": 3
+    },
+    {
+     "tema": "Transición Política - Adorni A Santilli",
+     "score": 3
+    },
+    {
+     "tema": "Reforma Electoral",
+     "score": 3
+    },
+    {
+     "tema": "Liderazgo De Javier Milei",
+     "score": 3
+    },
+    {
+     "tema": "Interno Pro - Dinámicas Entre Milei, Macri Y Bullrich",
+     "score": 3
+    },
+    {
+     "tema": "Fórmula Presidencial 2025",
+     "score": 3
+    },
+    {
+     "tema": "Daños Y Víctimas En La Guaira Y Caracas",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "política",
+     "score": 53
+    },
+    {
+     "categoria": "actividad",
+     "score": 39
+    },
+    {
+     "categoria": "persona",
+     "score": 24
+    },
+    {
+     "categoria": "otro",
+     "score": 22
+    },
+    {
+     "categoria": "lugar",
+     "score": 13
+    },
+    {
+     "categoria": "cultura",
+     "score": 12
+    },
+    {
+     "categoria": "salud",
+     "score": 9
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 6
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Fallecimiento De Ernestina Páez",
+     "categoria": "persona",
+     "contexto": "Accidente de tren en San Isidro, conductora y actriz falleció el viernes",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Asunción De Diego Santilli Como Jefe De Gabinete",
+     "categoria": "actividad",
+     "contexto": "Santilli asume tras renuncia de Manuela Dorni, cuarto ocupante del cargo en era Milei",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "categoria": "actividad",
+     "contexto": "Adorni renuncia entre controversia sobre explicación de su blanco",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Copa Del Mundo Eliminatoria",
+     "categoria": "actividad",
+     "contexto": "Comenzó etapa eliminatoria, Argentina se enfrenta a Cabo Verde el viernes",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Tragedia En Venezuela",
+     "categoria": "lugar",
+     "contexto": "Protestas en Guarida contra régimen, sistema de salud con problemas, seis argentinos fallecidos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "categoria": "persona",
+     "contexto": "Análisis detallado de la renuncia del vocero presidencial, sus declaraciones y las circunstancias políticas",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Gestión De Comunicación En Casa Rosada",
+     "categoria": "actividad",
+     "contexto": "Crítica a cómo Adorni manejaba la comunicación con periodistas, selectividad y canales por WhatsApp",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Manejo Del Poder Y Ética Pública",
+     "categoria": "cultura",
+     "contexto": "Reflexión sobre la necesidad de discreción y humildad cuando se accede a cargos de poder",
      "minute": "0:10"
     }
    ]
@@ -1973,6 +2399,148 @@
      "categoria": "persona",
      "contexto": "Valoración de conferencias de Beca y Alfaro, comparación de estilos y presencia",
      "minute": "0:20"
+    }
+   ]
+  },
+  "HTm_q34CwyM": {
+   "video_id": "HTm_q34CwyM",
+   "channel_id": "ahoraplay",
+   "channel": "AHORA PLAY",
+   "title": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
+   "show_id": "serrucho",
+   "show_name": "Serrucho Económico",
+   "top_temas": [
+    {
+     "tema": "Renuncia De Adorni",
+     "score": 7
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 6
+    },
+    {
+     "tema": "Designación De Diego Santilli Como Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Reinicio De La Gestión Milei",
+     "score": 3
+    },
+    {
+     "tema": "Sospechas De Corrupción En El Gobierno",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Adorni Y Cambio De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Capacidad Política De Milei",
+     "score": 3
+    },
+    {
+     "tema": "Conflictos Internos Del Gobierno",
+     "score": 3
+    },
+    {
+     "tema": "Recuperación Económica Macro",
+     "score": 3
+    },
+    {
+     "tema": "Rol De Karina Milei En Decisiones Políticas",
+     "score": 3
+    },
+    {
+     "tema": "Incorporación De Santilli Como Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Alianza Pro - Libertad Avanza",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "persona",
+     "score": 25
+    },
+    {
+     "categoria": "política",
+     "score": 18
+    },
+    {
+     "categoria": "economia",
+     "score": 15
+    },
+    {
+     "categoria": "otro",
+     "score": 15
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 14
+    },
+    {
+     "categoria": "cultura",
+     "score": 10
+    },
+    {
+     "categoria": "actividad",
+     "score": 7
+    },
+    {
+     "categoria": "producto",
+     "score": 7
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "categoria": "persona",
+     "contexto": "Manuel Adorni renunció como portavoz del presidente Milei después de 107 días, marcando un punto de inflexión en la gestión.",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Designación De Diego Santilli Como Jefe De Gabinete",
+     "categoria": "persona",
+     "contexto": "Diego Santilli asume como nuevo Jefe de Gabinete, fusionando el Ministerio del Interior con la Jefatura de Gabinete.",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Reinicio De La Gestión Milei",
+     "categoria": "actividad",
+     "contexto": "El gobierno decide reiniciar la gestión tras 107 días de crisis política y dificultades en el Congreso para avanzar con medidas.",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Tema Dólar",
+     "categoria": "economia",
+     "contexto": "Se menciona que Batistón trae información sobre el tema dólar para discutir con Paula y Batista.",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Condiciones Climáticas",
+     "categoria": "otro",
+     "contexto": "Mencionan temperaturas de menos 5 grados y frío desde febrero hasta noviembre en Argentina.",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Crisis Política Y Mentiras De Adorni",
+     "categoria": "actividad",
+     "contexto": "Se analiza cómo Adorni manejó mal la vocería, hizo mentiras en conferencias de prensa y faltó el respeto a jubilados y personas con discapacidad.",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "categoria": "persona",
+     "contexto": "Análisis de la salida del jefe de gabinete, su permanencia de ~120 días y comparación con casos históricos de corrupción",
+     "minute": "0:40"
+    },
+    {
+     "tema": "Sospechas De Corrupción En El Gobierno",
+     "categoria": "política",
+     "contexto": "Discusión sobre el manejo de fondos de Adorni, origen del dinero y comparación con el caso López",
+     "minute": "0:40"
     }
    ]
   },
@@ -3042,6 +3610,148 @@
     }
    ]
   },
+  "NZnTfvrPb0E": {
+   "video_id": "NZnTfvrPb0E",
+   "channel_id": "aura",
+   "channel": " A U R A ",
+   "title": "🟠 ¿CÓMO QUEDARON LOS CRUCES DEL  MUNDIAL 2026? l HOY COMO SIEMPRE",
+   "show_id": "hoy-como-siempre",
+   "show_name": "Hoy como siempre",
+   "top_temas": [
+    {
+     "tema": "Partido Argentina Vs Jordania",
+     "score": 5
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Enriquecimiento Ilícito De Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Cambio De Jefe De Gabinete - Santilli Reemplaza A Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Selección Argentina En Qatar",
+     "score": 3
+    },
+    {
+     "tema": "Maradona 1986 - Final Del Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Muerte De Ernestina Páez",
+     "score": 3
+    },
+    {
+     "tema": "Salud Mental Y Consumo Problemático",
+     "score": 3
+    },
+    {
+     "tema": "Adicciones Diversas",
+     "score": 3
+    },
+    {
+     "tema": "Falta De Comunicación Emocional",
+     "score": 3
+    },
+    {
+     "tema": "Salud Mental Y Depresión",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 58
+    },
+    {
+     "categoria": "actividad",
+     "score": 39
+    },
+    {
+     "categoria": "salud",
+     "score": 31
+    },
+    {
+     "categoria": "persona",
+     "score": 13
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 11
+    },
+    {
+     "categoria": "otro",
+     "score": 7
+    },
+    {
+     "categoria": "lugar",
+     "score": 7
+    },
+    {
+     "categoria": "comida",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Fin De Semana De Conductores",
+     "categoria": "actividad",
+     "contexto": "Los conductores relatan cómo pasaron el fin de semana: asados, picadas, ver partidos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Partido Argentina Vs Jordania",
+     "categoria": "cultura",
+     "contexto": "Se discute el partido del sábado donde Argentina ganó 3-1, análisis de jugadas y preocupación por el exitismo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "categoria": "cultura",
+     "contexto": "Análisis de la fase de grupos, próximo rival Cabo Verde, preocupaciones sobre confianza excesiva",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Denuncia Contra Capitán De Cabo Verde",
+     "categoria": "otro",
+     "contexto": "Se menciona denuncia por violación contra el capitán de Cabo Verde que está siendo investigada por la FIFA",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Documental En Aura Stream",
+     "categoria": "tecnologia",
+     "contexto": "Se estrena contenido de no ficción y documental periodístico sobre un caso de investigación",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Costillar Y Asado De Maxi",
+     "categoria": "comida",
+     "contexto": "Se comenta que Maxi compró costillar de 10 kilos para la reunión del fin de semana",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "categoria": "persona",
+     "contexto": "Manuel Adorni renuncia como jefe de gabinete tras escándalo por sus ahorros y causas judiciales",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Enriquecimiento Ilícito De Adorni",
+     "categoria": "salud",
+     "contexto": "Adorni investigado por gastos de 980 mil dólares en dos años y medio, incluyendo departamentos y casa",
+     "minute": "0:20"
+    }
+   ]
+  },
   "Ovdcl6-B2kc": {
    "video_id": "Ovdcl6-B2kc",
    "channel_id": "luzu",
@@ -4020,6 +4730,148 @@
     }
    ]
   },
+  "WNe6QLgDfyM": {
+   "video_id": "WNe6QLgDfyM",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+   "show_id": "seria-increible",
+   "show_name": "Sería Increíble",
+   "top_temas": [
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 6
+    },
+    {
+     "tema": "Comunicación En Parejas",
+     "score": 3
+    },
+    {
+     "tema": "Muerte De Ernestina Herrera De Noble",
+     "score": 3
+    },
+    {
+     "tema": "Cobertura Mediática Y Morbo",
+     "score": 3
+    },
+    {
+     "tema": "Ética Y Responsabilidad En Medios",
+     "score": 3
+    },
+    {
+     "tema": "Corrupción En Gobierno Argentino",
+     "score": 3
+    },
+    {
+     "tema": "Disputa Humorística Sobre Robo De Prendas",
+     "score": 3
+    },
+    {
+     "tema": "Pescadores Desaparecidos En El Río De La Plata",
+     "score": 3
+    },
+    {
+     "tema": "Desastre Humanitario Venezuela",
+     "score": 3
+    },
+    {
+     "tema": "Evaluación De Performance De Baile",
+     "score": 3
+    },
+    {
+     "tema": "Conflicto Personal Entre Amigos",
+     "score": 3
+    },
+    {
+     "tema": "Caso Ernestina Páez",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 41
+    },
+    {
+     "categoria": "otro",
+     "score": 38
+    },
+    {
+     "categoria": "cultura",
+     "score": 19
+    },
+    {
+     "categoria": "persona",
+     "score": 17
+    },
+    {
+     "categoria": "política",
+     "score": 16
+    },
+    {
+     "categoria": "salud",
+     "score": 13
+    },
+    {
+     "categoria": "lugar",
+     "score": 12
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 6
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Comunicación En Parejas",
+     "categoria": "relaciones",
+     "contexto": "Discusión sobre por qué las personas no contestan mensajes y cómo afecta las relaciones",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Rutinas Matutinas",
+     "categoria": "actividad",
+     "contexto": "Debate sobre cómo la gente convive por las mañanas y la dificultad de interactuar al despertar",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Horarios De Transmisión",
+     "categoria": "tecnologia",
+     "contexto": "Conductor menciona que es un horario difícil y que a la mañana no le gusta que le hablen",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Salud - Dolores De Cabeza",
+     "categoria": "salud",
+     "contexto": "Menciona virus circulante y malestar generalizado que afecta a múltiples personas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Luna Llena",
+     "categoria": "cultura",
+     "contexto": "Comentario sobre una hermosa luna llena y cómo la gente no la ve por estar en el teléfono",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Chistes De Yayo",
+     "categoria": "otro",
+     "contexto": "Mención de que los choferes preguntan por los chistes de Yayo, considerados muy graciosos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Muerte De Ernestina Herrera De Noble",
+     "categoria": "persona",
+     "contexto": "Discusión sobre la trágica muerte de Ernestina, personaje público querido, y cómo los medios cubrieron el accidente de tránsito",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Cobertura Mediática Y Morbo",
+     "categoria": "cultura",
+     "contexto": "Crítica al loop infinito de videos del accidente en medios, falta de filtro ético, carroñerismo televisivo",
+     "minute": "0:10"
+    }
+   ]
+  },
   "W_HkPNOMeDc": {
    "video_id": "W_HkPNOMeDc",
    "channel_id": "olga",
@@ -4446,6 +5298,144 @@
     }
    ]
   },
+  "Yp0sVPQV8Dk": {
+   "video_id": "Yp0sVPQV8Dk",
+   "channel_id": "cronista",
+   "channel": "El Cronista",
+   "title": "¿El RIESGO PAÍS puede caer a 200 puntos? El dato de Yayi Morales que lo CAMBIA TODO",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Morosidad Bancaria",
+     "score": 4
+    },
+    {
+     "tema": "Upgrades De Deuda Soberana",
+     "score": 3
+    },
+    {
+     "tema": "Salida Al Mercado De Deuda",
+     "score": 3
+    },
+    {
+     "tema": "Bonos Argentinos (curva Soberana)",
+     "score": 3
+    },
+    {
+     "tema": "Tipo De Cambio Y Mercado De Divisas",
+     "score": 3
+    },
+    {
+     "tema": "Política Del Banco Central",
+     "score": 3
+    },
+    {
+     "tema": "Mercado De Créditos Y Depósitos Bancarios",
+     "score": 3
+    },
+    {
+     "tema": "Dólar Y Tipo De Cambio",
+     "score": 3
+    },
+    {
+     "tema": "Exportaciones De Energía (vaca Muerta)",
+     "score": 3
+    },
+    {
+     "tema": "Política Económica Y Tipo De Cambio",
+     "score": 3
+    },
+    {
+     "tema": "Bonos Argentinos (gd38, Ae38, Ad38)",
+     "score": 3
+    },
+    {
+     "tema": "Rigi (régimen De Incentivo Para Grandes Inversiones)",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "otro",
+     "score": 38
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 14
+    },
+    {
+     "categoria": "actividad",
+     "score": 10
+    },
+    {
+     "categoria": "economia",
+     "score": 9
+    },
+    {
+     "categoria": "producto",
+     "score": 6
+    },
+    {
+     "categoria": "cultura",
+     "score": 3
+    },
+    {
+     "categoria": "comida",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Rigi Y Super Rigi",
+     "categoria": "producto",
+     "contexto": "Se va a hablar sobre el Rigi, el Super Rigi y el Rimi, con datos de proyectos aprobados, empleos y inversiones",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cambios En El Gobierno",
+     "categoria": "otro",
+     "contexto": "Nuevo jefe de gabinete Diego Santilli, se fue Manuel Adorni, impacto en economía y finanzas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mercados Y Riesgo País",
+     "categoria": "tecnologia",
+     "contexto": "Riesgo país cae 9 puntos a 428 unidades, bonos al alza, mercados en apertura",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Bitcoin Y Criptomonedas",
+     "categoria": "tecnologia",
+     "contexto": "Yashi sigue Bitcoin, análisis de ciclos y big picture del activo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Fútbol: Colombia Vs Argentina",
+     "categoria": "actividad",
+     "contexto": "Santiago comenta partido difícil de Colombia el fin de semana, posible cruce con Argentina",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Wall Street Y Adrs",
+     "categoria": "tecnologia",
+     "contexto": "Apertura al alza en NYSE, Tesla, Amazon, Meta y Google suben, ADRs argentinos con subas de hasta 4,6%",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Upgrades De Deuda Soberana",
+     "categoria": "tecnologia",
+     "contexto": "Discusión sobre los upgrades de Fitch, S&P y esperado de Moody's, impacto en bonos y acciones",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Salida Al Mercado De Deuda",
+     "categoria": "otro",
+     "contexto": "Gobierno demorando emisión soberana, comparación con tasas de Ecuador, Colombia, Bolivia",
+     "minute": "0:20"
+    }
+   ]
+  },
   "bBf-XfM_Q_c": {
    "video_id": "bBf-XfM_Q_c",
    "channel_id": "luzu",
@@ -4868,6 +5858,144 @@
     }
    ]
   },
+  "btHFJgjSlls": {
+   "video_id": "btHFJgjSlls",
+   "channel_id": "ahoraplay",
+   "channel": "AHORA PLAY",
+   "title": "SEGUNDO SEMESTRE FINANCIERO: VELOCIDAD CRUCERO | Martín Genero #MercadoFresh",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Riesgo País Argentino",
+     "score": 5
+    },
+    {
+     "tema": "Cotización De Acciones Ypf",
+     "score": 3
+    },
+    {
+     "tema": "Precios De Commodities (petróleo Y Soja)",
+     "score": 3
+    },
+    {
+     "tema": "Volatilidad De Commodities Agrícolas",
+     "score": 3
+    },
+    {
+     "tema": "Tipo De Cambio Y Dólar",
+     "score": 3
+    },
+    {
+     "tema": "Intervención Del Banco Central",
+     "score": 3
+    },
+    {
+     "tema": "Mercado De Futuros Y Coberturas Cambiarias",
+     "score": 3
+    },
+    {
+     "tema": "Política Monetaria Y Reservas Del Banco Central",
+     "score": 3
+    },
+    {
+     "tema": "Volatilidad Cambiaria 2024",
+     "score": 3
+    },
+    {
+     "tema": "Elecciones De Medio Término En Estados Unidos 3 De Noviembre",
+     "score": 3
+    },
+    {
+     "tema": "Calificaciones De Riesgo Soberano Argentino",
+     "score": 3
+    },
+    {
+     "tema": "Riesgo País De Argentina",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "producto",
+     "score": 36
+    },
+    {
+     "categoria": "otro",
+     "score": 33
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 31
+    },
+    {
+     "categoria": "actividad",
+     "score": 6
+    },
+    {
+     "categoria": "cultura",
+     "score": 3
+    },
+    {
+     "categoria": "comida",
+     "score": 2
+    },
+    {
+     "categoria": "persona",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Cotización De Acciones Ypf",
+     "categoria": "producto",
+     "contexto": "YPF subió 30% en lo que va del año y alcanzó un nuevo máximo histórico ajustando por dividendos, con tendencia alcista clara",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Desempeño Del Merval",
+     "categoria": "producto",
+     "contexto": "Merval está planchadito con 1,4% de suba en lo que va del año, en contexto de otros mercados emergentes subiendo 23%",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Tasas De Interés De Corto Plazo",
+     "categoria": "tecnologia",
+     "contexto": "Tasa de caución comenzó volátil en enero, se estabilizó en febrero en torno al 20%, con cuentas remuneradas en 12,3%",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Riesgo País Argentino",
+     "categoria": "producto",
+     "contexto": "Cayó 21% en el primer semestre, alcanzando mínimo de 429 puntos, el más bajo desde 2018",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Tipo De Cambio Dólar",
+     "categoria": "producto",
+     "contexto": "Subió 0,8% en lo que va del año, con baja de 8% en abril que fue llamativa por factores transitorios excepcionales",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Precios De Commodities (petróleo Y Soja)",
+     "categoria": "producto",
+     "contexto": "Petróleo subió 90% hasta abril-mayo y está 16% arriba en el año; soja subió 17% con picos en abril-mayo, ahora 8% arriba con tendencia alcista",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Balanza De Pagos Y Cuenta Corriente",
+     "categoria": "producto",
+     "contexto": "Abril y mayo tuvieron cuenta corriente positiva excepcional con superávit de 1300 y 1900 millones de dólares respectivamente",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Política Monetaria Restrictiva",
+     "categoria": "actividad",
+     "contexto": "Gobierno aplicó apretón monetario, suba de encajes y liberación de tasa de interés que generó alta volatilidad y afectó mora en préstamos bancarios",
+     "minute": "0:20"
+    }
+   ]
+  },
   "c1LrQSDaXAY": {
    "video_id": "c1LrQSDaXAY",
    "channel_id": "neura",
@@ -5006,6 +6134,148 @@
      "tema": "Seguridad Vial En Buenos Aires",
      "categoria": "lugar",
      "contexto": "Viral de turistas asustados en un taxi en Avenida Libertador, relacionado con cambios de carril según horarios",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "cEWsZ9vbiCg": {
+   "video_id": "cEWsZ9vbiCg",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+   "show_id": "aqn",
+   "show_name": "Antes Que Nadie",
+   "top_temas": [
+    {
+     "tema": "Clima Y Temperatura",
+     "score": 4
+    },
+    {
+     "tema": "Entrenamiento Y Fitness",
+     "score": 3
+    },
+    {
+     "tema": "Running Y Ejercicio",
+     "score": 3
+    },
+    {
+     "tema": "Terremoto En Venezuela",
+     "score": 3
+    },
+    {
+     "tema": "Previa Y Salida Nocturna",
+     "score": 3
+    },
+    {
+     "tema": "Rock Nacional",
+     "score": 3
+    },
+    {
+     "tema": "Trabajos Grupales En La Facultad",
+     "score": 3
+    },
+    {
+     "tema": "Relaciones Y Fidelidad",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol - Copa Del Mundo",
+     "score": 3
+    },
+    {
+     "tema": "Mundial De Fútbol 2024 Usa",
+     "score": 3
+    },
+    {
+     "tema": "Viaje A Cannes Lions",
+     "score": 3
+    },
+    {
+     "tema": "Franco Colapinto",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 93
+    },
+    {
+     "categoria": "cultura",
+     "score": 49
+    },
+    {
+     "categoria": "otro",
+     "score": 32
+    },
+    {
+     "categoria": "persona",
+     "score": 24
+    },
+    {
+     "categoria": "lugar",
+     "score": 15
+    },
+    {
+     "categoria": "salud",
+     "score": 11
+    },
+    {
+     "categoria": "producto",
+     "score": 9
+    },
+    {
+     "categoria": "comida",
+     "score": 6
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Entrenamiento Y Fitness",
+     "categoria": "actividad",
+     "contexto": "Programa de activación física con rutina de movilidad y cardio 30x30x30 para mejorar hábitos y flexibilidad",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Carrera Y Running",
+     "categoria": "actividad",
+     "contexto": "Se menciona varias veces la importancia de aprender a correr, rutina diseñada para iniciar en la carrera",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Movilidad Articular",
+     "categoria": "salud",
+     "contexto": "Ejercicios de abducción de caderas y movilidad de rodillas para lubricar articulaciones",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cardio Progresivo",
+     "categoria": "actividad",
+     "contexto": "Trabajo cardiovascular despacito con caminata activa de 30 segundos, trote 30 segundos, ritmo aumentado 30 segundos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Lesiones Deportivas",
+     "categoria": "salud",
+     "contexto": "Lucho menciona tener ligamento roto en la rodilla y adapta los ejercicios",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Running Y Ejercicio",
+     "categoria": "actividad",
+     "contexto": "Realizan una rutina de running 30-30-30 (trote, caminata, pausa) en Miami con el Pollo Álvarez",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Cambios De Hábitos Saludables",
+     "categoria": "salud",
+     "contexto": "Discusión sobre incorporar hábitos positivos y conciencia en la rutina diaria",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Anécdota De Doble De Riesgo En Comerciales",
+     "categoria": "cultura",
+     "contexto": "El Pollo cuenta sobre su trabajo como doble de riesgo en comerciales, incluyendo tirarse de cabeza en un bowling",
      "minute": "0:10"
     }
    ]
@@ -6703,6 +7973,148 @@
      "categoria": "otro",
      "contexto": "Casa Rosada ordena renovar la vajilla presidencial desde la Secretaría General de Presidencia, a cargo de Carina",
      "minute": "0:20"
+    }
+   ]
+  },
+  "vlNZMMmBbLw": {
+   "video_id": "vlNZMMmBbLw",
+   "channel_id": "gelatina",
+   "channel": "GELATINA",
+   "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+   "show_id": "demasiada-presion",
+   "show_name": "Demasiada Presión",
+   "top_temas": [
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 15
+    },
+    {
+     "tema": "Muerte De Ernestina Páez",
+     "score": 4
+    },
+    {
+     "tema": "Selección Argentina Vs Jordania",
+     "score": 3
+    },
+    {
+     "tema": "Caso Judicial Adorni - Enriquecimiento Ilícito",
+     "score": 3
+    },
+    {
+     "tema": "Diego Santilli Nuevo Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Reorganización Del Gobierno De Milei",
+     "score": 3
+    },
+    {
+     "tema": "Agenda Parlamentaria Y Congreso",
+     "score": 3
+    },
+    {
+     "tema": "Terremotos En Venezuela",
+     "score": 3
+    },
+    {
+     "tema": "Crisis De Desbordes Cloacales En Mendoza",
+     "score": 3
+    },
+    {
+     "tema": "Contaminación De Frutas Y Verduras",
+     "score": 3
+    },
+    {
+     "tema": "Designación De Diego Santilli",
+     "score": 3
+    },
+    {
+     "tema": "Crisis De La Selección Uruguaya Con Bielsa",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "persona",
+     "score": 47
+    },
+    {
+     "categoria": "actividad",
+     "score": 35
+    },
+    {
+     "categoria": "otro",
+     "score": 26
+    },
+    {
+     "categoria": "política",
+     "score": 24
+    },
+    {
+     "categoria": "cultura",
+     "score": 16
+    },
+    {
+     "categoria": "salud",
+     "score": 7
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 7
+    },
+    {
+     "categoria": "lugar",
+     "score": 6
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Salud Mental Y Recaídas",
+     "categoria": "salud",
+     "contexto": "tuve otra recaída y dejé de contestarla a mis amigos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cultura De La Cancelación",
+     "categoria": "cultura",
+     "contexto": "llegaba la cultura de la cancelación, nuestros amigos empezaban a aglobarse más",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Tilcala",
+     "categoria": "lugar",
+     "contexto": "Las calles de Tilcala, yo intentaba escapar",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Clima Y Temperatura En Buenos Aires",
+     "categoria": "lugar",
+     "contexto": "Se está haciendo de día en Buenos Aires, nublado, 4-8°C de mínima y 15°C de máxima",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Ñoquis Caseros",
+     "categoria": "comida",
+     "contexto": "Discusión sobre si ponen platita el día 29, cómo se preparan los ñoquis (amasados, con tenedor o cortaditos)",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Selección Argentina Vs Jordania",
+     "categoria": "actividad",
+     "contexto": "Argentina ganó ante Jordania en fase de grupos con puntaje ideal. Próximo partido contra Cabo Verde el viernes a las 7 de la tarde",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Selección De Cabo Verde",
+     "categoria": "cultura",
+     "contexto": "Equipo que reclutó jugadores de LinkedIn, residentes en el exterior con familiares en Cabo Verde. Se habla portugués en Cabo Verde",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Cesaria Évora",
+     "categoria": "persona",
+     "contexto": "Cantante caboverdiana de importancia cultural mencionada en relación al país",
+     "minute": "0:10"
     }
    ]
   },

@@ -68,6 +68,81 @@
   "kind": "producto"
  },
  {
+  "slug": "argentina-gob-ar",
+  "name": "argentina.gob.ar",
+  "mentions": 1,
+  "channels": [
+   "cronista"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "cronista",
+    "channel_name": "El Cronista",
+    "date": "29/06/2026",
+    "video_id": "Yp0sVPQV8Dk",
+    "title": "¿El RIESGO PAÍS puede caer a 200 puntos? El dato de Yayi Morales que lo CAMBIA TODO",
+    "minute": "00:50",
+    "views": 2023
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "jabon-blanco",
+  "name": "jabón blanco",
+  "mentions": 1,
+  "channels": [
+   "cronista"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "cronista",
+    "channel_name": "El Cronista",
+    "date": "29/06/2026",
+    "video_id": "Yp0sVPQV8Dk",
+    "title": "¿El RIESGO PAÍS puede caer a 200 puntos? El dato de Yayi Morales que lo CAMBIA TODO",
+    "minute": "01:10",
+    "views": 2023
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "detergente-bebe",
+  "name": "detergente bebé",
+  "mentions": 1,
+  "channels": [
+   "cronista"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "cronista",
+    "channel_name": "El Cronista",
+    "date": "29/06/2026",
+    "video_id": "Yp0sVPQV8Dk",
+    "title": "¿El RIESGO PAÍS puede caer a 200 puntos? El dato de Yayi Morales que lo CAMBIA TODO",
+    "minute": "01:10",
+    "views": 2023
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "boxer-calzoncillos",
   "name": "Boxer (calzoncillos)",
   "mentions": 1,
@@ -113,6 +188,56 @@
     "title": "#FMLUZU | LA CASTRO SE BAJÓ DE LAS APPS DE CITAS + LE HACEMOS UNA CANCIÓN + MANO A MANO CASTRINI",
     "minute": "00:50",
     "views": 15651
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "movistar-arena-mencionado-implicitamente-en-contexto",
+  "name": "Movistar Arena (mencionado implícitamente en contexto)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "cEWsZ9vbiCg",
+    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+    "minute": "01:10",
+    "views": 146307
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "yumi-gomitas",
+  "name": "Yumi (gomitas)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "cEWsZ9vbiCg",
+    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+    "minute": "02:30",
+    "views": 146307
    }
   ],
   "kind": "producto"
@@ -263,6 +388,431 @@
     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
     "minute": "02:10",
     "views": 30205
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "la-fuente-album",
+  "name": "La Fuente (álbum)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "3CPnLRc7h2w",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "minute": "00:00",
+    "views": 18515
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "lovely-day-tema-musical",
+  "name": "Lovely Day (tema musical)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "3CPnLRc7h2w",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "minute": "00:20",
+    "views": 18515
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "maquina-de-depilacion-laser",
+  "name": "máquina de depilación láser",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "3CPnLRc7h2w",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "minute": "01:40",
+    "views": 18515
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "neo-robot-domestico",
+  "name": "Neo (robot doméstico)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "3CPnLRc7h2w",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "minute": "01:50",
+    "views": 18515
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "allacces-com",
+  "name": "allacces.com",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "3CPnLRc7h2w",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "minute": "02:00",
+    "views": 18515
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "kempes-estadio",
+  "name": "Kempes (estadio)",
+  "mentions": 1,
+  "channels": [
+   "aura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "26/06/2026",
+    "video_id": "NZnTfvrPb0E",
+    "title": "🟠 ¿CÓMO QUEDARON LOS CRUCES DEL  MUNDIAL 2026? l HOY COMO SIEMPRE",
+    "minute": "02:10",
+    "views": 841
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "ricky-martin-mencion-indirecta",
+  "name": "Ricky Martin (mención indirecta)",
+  "mentions": 1,
+  "channels": [
+   "aura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "26/06/2026",
+    "video_id": "AUSgxGQirlM",
+    "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+    "minute": "00:10",
+    "views": 783
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "veritas-canal-educativo",
+  "name": "Veritas (canal educativo)",
+  "mentions": 1,
+  "channels": [
+   "aura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "26/06/2026",
+    "video_id": "AUSgxGQirlM",
+    "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+    "minute": "01:00",
+    "views": 783
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "remera-matematica-3-1416",
+  "name": "remera matemática 3.1416",
+  "mentions": 1,
+  "channels": [
+   "aura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "26/06/2026",
+    "video_id": "AUSgxGQirlM",
+    "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+    "minute": "01:40",
+    "views": 783
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "botas",
+  "name": "botas",
+  "mentions": 1,
+  "channels": [
+   "aura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "26/06/2026",
+    "video_id": "AUSgxGQirlM",
+    "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+    "minute": "01:40",
+    "views": 783
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "moccasines",
+  "name": "moccasines",
+  "mentions": 1,
+  "channels": [
+   "aura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "26/06/2026",
+    "video_id": "AUSgxGQirlM",
+    "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+    "minute": "01:40",
+    "views": 783
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "jeans",
+  "name": "jeans",
+  "mentions": 1,
+  "channels": [
+   "aura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "26/06/2026",
+    "video_id": "AUSgxGQirlM",
+    "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+    "minute": "01:40",
+    "views": 783
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "cinturon",
+  "name": "cinturón",
+  "mentions": 1,
+  "channels": [
+   "aura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "26/06/2026",
+    "video_id": "AUSgxGQirlM",
+    "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+    "minute": "01:40",
+    "views": 783
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pantalon-sastrero",
+  "name": "pantalón sastrero",
+  "mentions": 1,
+  "channels": [
+   "aura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "26/06/2026",
+    "video_id": "AUSgxGQirlM",
+    "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+    "minute": "01:40",
+    "views": 783
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "chomba",
+  "name": "chomba",
+  "mentions": 1,
+  "channels": [
+   "aura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "26/06/2026",
+    "video_id": "AUSgxGQirlM",
+    "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+    "minute": "01:40",
+    "views": 783
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "smartwatch",
+  "name": "smartwatch",
+  "mentions": 1,
+  "channels": [
+   "aura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "26/06/2026",
+    "video_id": "AUSgxGQirlM",
+    "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+    "minute": "01:40",
+    "views": 783
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "reloj-metalico",
+  "name": "reloj metálico",
+  "mentions": 1,
+  "channels": [
+   "aura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "26/06/2026",
+  "last_seen": "26/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "26/06/2026",
+    "video_id": "AUSgxGQirlM",
+    "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+    "minute": "01:40",
+    "views": 783
    }
   ],
   "kind": "producto"
@@ -1568,6 +2118,56 @@
   "kind": "producto"
  },
  {
+  "slug": "block-chocolate-con-mani",
+  "name": "Block (chocolate con maní)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/06/2026",
+    "video_id": "WNe6QLgDfyM",
+    "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+    "minute": "02:20",
+    "views": 74025
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "caracol-cadena-de-tv-colombiana",
+  "name": "Caracol (cadena de TV colombiana)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/06/2026",
+    "video_id": "WNe6QLgDfyM",
+    "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+    "minute": "03:00",
+    "views": 74025
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "canon-colchones",
   "name": "Canon (colchones)",
   "mentions": 1,
@@ -1968,6 +2568,56 @@
   "kind": "producto"
  },
  {
+  "slug": "bima-plataforma",
+  "name": "BIMA (plataforma)",
+  "mentions": 1,
+  "channels": [
+   "ahoraplay"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "ahoraplay",
+    "channel_name": "AHORA PLAY",
+    "date": "29/06/2026",
+    "video_id": "HTm_q34CwyM",
+    "title": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
+    "minute": "01:40",
+    "views": 2667
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "vatican-sistema-de-trading",
+  "name": "Vaticán (sistema de trading)",
+  "mentions": 1,
+  "channels": [
+   "ahoraplay"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "ahoraplay",
+    "channel_name": "AHORA PLAY",
+    "date": "29/06/2026",
+    "video_id": "HTm_q34CwyM",
+    "title": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
+    "minute": "01:50",
+    "views": 2667
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "guberpaticerie",
   "name": "guberpaticerie",
   "mentions": 1,
@@ -2238,6 +2888,56 @@
     "title": "SE FUE LARGA con FERBO, DOMI FAENA, TULI ACOSTA, MICA VASQUEZ, BELU NEGRI Y LUCAS LEZIN | EN VIVO",
     "minute": "00:20",
     "views": 50822
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "border-merchandising",
+  "name": "Border (merchandising)",
+  "mentions": 1,
+  "channels": [
+   "border"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "border",
+    "channel_name": "BorderPeriodismo",
+    "date": "29/06/2026",
+    "video_id": "CP5OqzXez-g",
+    "title": "EL TAPON DE ADORNI y el NUEVO SANTILLI | VIVAN TODO en VIVO con OLIVÁN",
+    "minute": "01:10",
+    "views": 2107
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "paneles-solares",
+  "name": "paneles solares",
+  "mentions": 1,
+  "channels": [
+   "border"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "border",
+    "channel_name": "BorderPeriodismo",
+    "date": "29/06/2026",
+    "video_id": "CP5OqzXez-g",
+    "title": "EL TAPON DE ADORNI y el NUEVO SANTILLI | VIVAN TODO en VIVO con OLIVÁN",
+    "minute": "02:00",
+    "views": 2107
    }
   ],
   "kind": "producto"
@@ -2863,6 +3563,31 @@
     "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
     "minute": "01:10",
     "views": 12997
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "x-twitter",
+  "name": "X (Twitter)",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "29/06/2026",
+    "video_id": "vlNZMMmBbLw",
+    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+    "minute": "01:00",
+    "views": 7813
    }
   ],
   "kind": "producto"

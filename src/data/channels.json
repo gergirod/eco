@@ -9,12 +9,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 15,
-   "total_vod_views": 538242,
-   "avg_concurrent": 25824,
-   "brands_detected": 52,
-   "mentions": 90,
-   "last_processed": "26/06/2026"
+   "videos_processed": 16,
+   "total_vod_views": 612267,
+   "avg_concurrent": 25924,
+   "brands_detected": 54,
+   "mentions": 95,
+   "last_processed": "29/06/2026"
   },
   "pipeline_status": "activo"
  },
@@ -28,12 +28,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 17,
-   "total_vod_views": 2183596,
-   "avg_concurrent": 81114,
-   "brands_detected": 44,
-   "mentions": 59,
-   "last_processed": "27/06/2026"
+   "videos_processed": 18,
+   "total_vod_views": 2329903,
+   "avg_concurrent": 79738,
+   "brands_detected": 51,
+   "mentions": 68,
+   "last_processed": "29/06/2026"
   },
   "pipeline_status": "activo"
  },
@@ -85,12 +85,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 1,
-   "total_vod_views": 5955,
-   "avg_concurrent": 1473,
-   "brands_detected": 1,
-   "mentions": 1,
-   "last_processed": "26/06/2026"
+   "videos_processed": 2,
+   "total_vod_views": 13768,
+   "avg_concurrent": 1554,
+   "brands_detected": 3,
+   "mentions": 3,
+   "last_processed": "29/06/2026"
   },
   "pipeline_status": "activo"
  },
@@ -104,12 +104,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 6,
-   "total_vod_views": 107661,
-   "avg_concurrent": 6699,
-   "brands_detected": 20,
-   "mentions": 21,
-   "last_processed": "26/06/2026"
+   "videos_processed": 7,
+   "total_vod_views": 126176,
+   "avg_concurrent": 6831,
+   "brands_detected": 21,
+   "mentions": 23,
+   "last_processed": "29/06/2026"
   },
   "pipeline_status": "activo"
  },
@@ -164,9 +164,16 @@
   "subscribers": "218K",
   "enabled": true,
   "handle_verified": true,
-  "has_data": false,
-  "stats": null,
-  "pipeline_status": "configurado"
+  "has_data": true,
+  "stats": {
+   "videos_processed": 1,
+   "total_vod_views": 2107,
+   "avg_concurrent": 2028,
+   "brands_detected": 0,
+   "mentions": 0,
+   "last_processed": "29/06/2026"
+  },
+  "pipeline_status": "activo"
  },
  {
   "id": "cronista",
@@ -176,9 +183,16 @@
   "subscribers": "177K",
   "enabled": true,
   "handle_verified": true,
-  "has_data": false,
-  "stats": null,
-  "pipeline_status": "configurado"
+  "has_data": true,
+  "stats": {
+   "videos_processed": 1,
+   "total_vod_views": 2023,
+   "avg_concurrent": 1632,
+   "brands_detected": 0,
+   "mentions": 0,
+   "last_processed": "29/06/2026"
+  },
+  "pipeline_status": "activo"
  },
  {
   "id": "ahoraplay",
@@ -188,9 +202,16 @@
   "subscribers": "128K",
   "enabled": true,
   "handle_verified": true,
-  "has_data": false,
-  "stats": null,
-  "pipeline_status": "configurado"
+  "has_data": true,
+  "stats": {
+   "videos_processed": 2,
+   "total_vod_views": 4256,
+   "avg_concurrent": 606,
+   "brands_detected": 2,
+   "mentions": 2,
+   "last_processed": "29/06/2026"
+  },
+  "pipeline_status": "activo"
  },
  {
   "id": "aura",
@@ -200,9 +221,16 @@
   "subscribers": "75K",
   "enabled": true,
   "handle_verified": true,
-  "has_data": false,
-  "stats": null,
-  "pipeline_status": "configurado"
+  "has_data": true,
+  "stats": {
+   "videos_processed": 2,
+   "total_vod_views": 1624,
+   "avg_concurrent": 333,
+   "brands_detected": 1,
+   "mentions": 1,
+   "last_processed": "26/06/2026"
+  },
+  "pipeline_status": "activo"
  },
  {
   "id": "cenital",
