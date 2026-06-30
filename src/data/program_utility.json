@@ -2571,6 +2571,64 @@
    }
   },
   {
+   "video_id": "3AxUr1Maqu8",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
+   "date": "20260630",
+   "iup": 82,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.295,
+    "conversation": 0.908,
+    "commercial": 1.0,
+    "participation": 0.992,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 1936,
+     "peak_concurrent": 2846
+    },
+    "conversation": {
+     "blocks": 12,
+     "blocks_with_signal": 10,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 38,
+     "sponsored": 1,
+     "organic": 33,
+     "productos_marcas": 25
+    },
+    "participation": {
+     "chat_engagement": 7.9,
+     "chat_noise": 0.02,
+     "chat_total": 321
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 17.663333333333338
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "3t9P2KFJ4K0",
    "channel": "Vorterix",
    "channel_id": "vorterix",
@@ -2618,6 +2676,64 @@
      "show_name": "No Preguntes por Rusia"
     },
     "capture_minutes": 51.43500000000001
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "Iii3dqMJvwQ",
+   "channel": "BLENDER",
+   "channel_id": "blend",
+   "title": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
+   "date": "20260629",
+   "iup": 82,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.486,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.0,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 5685,
+     "peak_concurrent": 5969
+    },
+    "conversation": {
+     "blocks": 12,
+     "blocks_with_signal": 12,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 23,
+     "sponsored": 0,
+     "organic": 27,
+     "productos_marcas": 10
+    },
+    "participation": {
+     "chat_engagement": null,
+     "chat_noise": null,
+     "note": "sin chat"
+    },
+    "format": {
+     "show_id": "que-dia",
+     "show_name": "Qué Día"
+    },
+    "capture_minutes": 13.771666666666667
    },
    "weights": {
     "capture": 0.25,
@@ -8151,10 +8267,10 @@
   {
    "channel_id": "blend",
    "channel": "BLENDER",
-   "programs": 5,
-   "iup_avg": 84.6,
+   "programs": 6,
+   "iup_avg": 84.2,
    "iup_median": 85,
-   "tier_alta": 5,
+   "tier_alta": 6,
    "tier_insuficiente": 0
   },
   {
@@ -8169,10 +8285,10 @@
   {
    "channel_id": "vorterix",
    "channel": "Vorterix",
-   "programs": 10,
+   "programs": 11,
    "iup_avg": 81.6,
    "iup_median": 82,
-   "tier_alta": 10,
+   "tier_alta": 11,
    "tier_insuficiente": 0
   },
   {
@@ -8267,8 +8383,8 @@
   }
  ],
  "totals": {
-  "programs": 139,
-  "tier_alta": 72,
+  "programs": 141,
+  "tier_alta": 74,
   "tier_media": 67,
   "tier_baja": 0,
   "tier_insuficiente": 0

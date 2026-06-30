@@ -7,7 +7,7 @@
   "avg_concurrent": 86154,
   "brands": 59,
   "mentions": 83,
-  "share_views": 74.7,
+  "share_views": 73.5,
   "n_brands_live": 59,
   "top_brands": [
    {
@@ -230,7 +230,7 @@
   "avg_concurrent": 25109,
   "brands": 57,
   "mentions": 109,
-  "share_views": 17.7,
+  "share_views": 17.4,
   "n_brands_live": 57,
   "top_brands": [
    {
@@ -448,13 +448,13 @@
  {
   "id": "vorterix",
   "name": "Vorterix",
-  "videos": 10,
-  "vod_views": 171386,
-  "avg_concurrent": 5755,
-  "brands": 30,
-  "mentions": 35,
-  "share_views": 4.5,
-  "n_brands_live": 30,
+  "videos": 11,
+  "vod_views": 203351,
+  "avg_concurrent": 5408,
+  "brands": 31,
+  "mentions": 36,
+  "share_views": 5.2,
+  "n_brands_live": 31,
   "top_brands": [
    {
     "slug": "cremolati",
@@ -518,6 +518,13 @@
     "mentions": 1,
     "value_usd": 128.0,
     "rubro": "telco"
+   },
+   {
+    "slug": "sarkis",
+    "name": "Sarkis",
+    "mentions": 1,
+    "value_usd": 82.0,
+    "rubro": "alimentos"
    },
    {
     "slug": "garnier-fructis",
@@ -658,37 +665,18 @@
     "mentions": 1,
     "value_usd": 24.0,
     "rubro": "seguros"
-   },
-   {
-    "slug": "cafe-imperial",
-    "name": "Café Imperial",
-    "mentions": 1,
-    "value_usd": 236.0,
-    "rubro": "retail"
    }
   ]
  },
  {
-  "id": "bondi",
-  "name": "Bondi Live",
-  "videos": 1,
-  "vod_views": 37783,
-  "avg_concurrent": 21251,
-  "brands": 0,
-  "mentions": 0,
-  "share_views": 1.0,
-  "n_brands_live": 0,
-  "top_brands": []
- },
- {
   "id": "blend",
   "name": "Blender",
-  "videos": 5,
-  "vod_views": 28048,
-  "avg_concurrent": 6552,
+  "videos": 6,
+  "vod_views": 60713,
+  "avg_concurrent": 6408,
   "brands": 9,
   "mentions": 9,
-  "share_views": 0.7,
+  "share_views": 1.6,
   "n_brands_live": 9,
   "top_brands": [
    {
@@ -755,6 +743,18 @@
     "rubro": "otro"
    }
   ]
+ },
+ {
+  "id": "bondi",
+  "name": "Bondi Live",
+  "videos": 1,
+  "vod_views": 37783,
+  "avg_concurrent": 21251,
+  "brands": 0,
+  "mentions": 0,
+  "share_views": 1.0,
+  "n_brands_live": 0,
+  "top_brands": []
  },
  {
   "id": "gelatina",

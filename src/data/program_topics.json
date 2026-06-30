@@ -564,6 +564,144 @@
     }
    ]
   },
+  "3AxUr1Maqu8": {
+   "video_id": "3AxUr1Maqu8",
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Paraguay Eliminó A Alemania En Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño De Brasil En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Análisis Táctico Y De Mediocampo",
+     "score": 3
+    },
+    {
+     "tema": "Problemas Técnicos De Transmisión",
+     "score": 3
+    },
+    {
+     "tema": "Selección Argentina - Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Cobertura De Selección Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Selección Argentina - Rendimiento En Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Copa Mundial De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Selección Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Partido Austria Vs Argelia",
+     "score": 3
+    },
+    {
+     "tema": "Análisis Del Fútbol Defensivo Alemán",
+     "score": 2
+    },
+    {
+     "tema": "Desempeño De Jugadores Argentinos En El Mundial",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 60
+    },
+    {
+     "categoria": "persona",
+     "score": 16
+    },
+    {
+     "categoria": "cultura",
+     "score": 13
+    },
+    {
+     "categoria": "comida",
+     "score": 6
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 5
+    },
+    {
+     "categoria": "lugar",
+     "score": 4
+    },
+    {
+     "categoria": "otro",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Paraguay Eliminó A Alemania En Mundial",
+     "categoria": "actividad",
+     "contexto": "nuestros hermanos paraguayos han eliminado a Alemania en 16 avos de final",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Análisis Del Fútbol Defensivo Alemán",
+     "categoria": "actividad",
+     "contexto": "crítica al estilo de juego circular y defensivo de Alemania en el partido",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Desempeño De Jugadores Argentinos En El Mundial",
+     "categoria": "actividad",
+     "contexto": "comparación entre jugadores de élite europea y jugadores de San Lorenzo, Lanús, River",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Galarza - Desempeño Ante Alemania",
+     "categoria": "persona",
+     "contexto": "análisis detallado de cómo Galarza jugó contra Kimmich, Mecha y otros jugadores alemanes",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Var Y Arbitraje En El Partido",
+     "categoria": "actividad",
+     "contexto": "discusión sobre gol anulado a Alemania y faltas no sancionadas con VAR",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ángel Di María - Renovación Con Su Equipo",
+     "categoria": "persona",
+     "contexto": "mención al renovar Di María, aunque conductor cree que se va",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Convicción De Alemania Como Potencia Mundial",
+     "categoria": "actividad",
+     "contexto": "análisis de cómo Alemania perdió su convicción de ganador tras errores",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Desempeño De Brasil En El Mundial",
+     "categoria": "actividad",
+     "contexto": "Análisis detallado del partido Brasil vs Japón, tácticas y rendimiento del equipo brasileño",
+     "minute": "0:30"
+    }
+   ]
+  },
   "3CPnLRc7h2w": {
    "video_id": "3CPnLRc7h2w",
    "channel_id": "vorterix",
@@ -2825,6 +2963,148 @@
      "categoria": "política",
      "contexto": "Discusión sobre el manejo de fondos de Adorni, origen del dinero y comparación con el caso López",
      "minute": "0:40"
+    }
+   ]
+  },
+  "Iii3dqMJvwQ": {
+   "video_id": "Iii3dqMJvwQ",
+   "channel_id": "blend",
+   "channel": "BLENDER",
+   "title": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
+   "show_id": "que-dia",
+   "show_name": "Qué Día",
+   "top_temas": [
+    {
+     "tema": "Renuncia De Adorni",
+     "score": 6
+    },
+    {
+     "tema": "Despidos En Blender",
+     "score": 3
+    },
+    {
+     "tema": "Caso Insaurralde-sirio",
+     "score": 3
+    },
+    {
+     "tema": "Causa Judicial Sobre Dinero Ilícito",
+     "score": 3
+    },
+    {
+     "tema": "Corrupción Y Uso De Fondos Públicos",
+     "score": 3
+    },
+    {
+     "tema": "Caso Judicial Adorni - Enriquecimiento Ilícito",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Adorni Y Cambio De Vocería",
+     "score": 3
+    },
+    {
+     "tema": "Influencia De Macri En El Gobierno De Milei",
+     "score": 3
+    },
+    {
+     "tema": "Estrategia Económica Y 'ilusión Económica'",
+     "score": 3
+    },
+    {
+     "tema": "Interna Gobierno Milei-villaruel",
+     "score": 3
+    },
+    {
+     "tema": "Salida De Manuel Adorni",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 43
+    },
+    {
+     "categoria": "persona",
+     "score": 36
+    },
+    {
+     "categoria": "política",
+     "score": 27
+    },
+    {
+     "categoria": "otro",
+     "score": 26
+    },
+    {
+     "categoria": "cultura",
+     "score": 8
+    },
+    {
+     "categoria": "lugar",
+     "score": 6
+    },
+    {
+     "categoria": "economía",
+     "score": 3
+    },
+    {
+     "categoria": "comida",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Despidos En Blender",
+     "categoria": "otro",
+     "contexto": "Conductores expresan solidaridad con compañeros despedidos de la empresa, critican las formas y piden reincorporación",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Caso Insaurralde-sirio",
+     "categoria": "otro",
+     "contexto": "Investigación por enriquecimiento ilícito, lavado de activos y video de dólares en vestidor; rechazo del juez a detención",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Decisiones Políticas E Ideológicas En Empresas",
+     "categoria": "otro",
+     "contexto": "Hugo plantea que los despidos responden a motivaciones políticas e ideológicas, no económicas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Impacto Emocional En Equipos De Trabajo",
+     "categoria": "otro",
+     "contexto": "Conductores hablan sobre el dolor de perder compañeros y cómo afecta el ambiente laboral",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Causa Judicial Sobre Dinero Ilícito",
+     "categoria": "otro",
+     "contexto": "Discusión sobre una causa prácticamente cerrada por tres años donde recién pusieron fecha para pericia contable el 17 de julio tras aparecer video nuevo del dinero",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Renuncia De Adorni",
+     "categoria": "persona",
+     "contexto": "Renuncia del funcionario que se filtró el sábado a media mañana, descrita como casi una autoincriminación en su carta",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Nombramiento De Diego Santilli",
+     "categoria": "persona",
+     "contexto": "Javier Milei anuncia que Diego Santilli es el elegido para ocupar el lugar de jefe de gabinete tras renuncia de Adorni",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Conflicto Laboral En Ecosistema De Streams",
+     "categoria": "actividad",
+     "contexto": "Se menciona situación de trabajadores con reclamo por ajuste de salario y aumento por IPC cada tres meses que estaba atrasado",
+     "minute": "0:10"
     }
    ]
   },

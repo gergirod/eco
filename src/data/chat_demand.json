@@ -1,5 +1,5 @@
 {
- "period": "2026-06-30T09:05:55.209699+00:00",
+ "period": "2026-06-30T13:34:28.849121+00:00",
  "signals": [
   {
    "tema": "Energía y entusiasmo general",
@@ -11,7 +11,7 @@
    ],
    "cross_canal": true,
    "tipo": "otro",
-   "ejemplo": "daaaaaleeeeeeeeeeeeeeee / ARRANCA EL SHOOOWWWWW / TEMAZXOOOOOO"
+   "ejemplo": "VAMOOO, DALE, con toda, dale que arrancxaaa"
   },
   {
    "tema": "Crítica a Azzaro",
@@ -23,6 +23,17 @@
    "cross_canal": false,
    "tipo": "otro",
    "ejemplo": "basta de azzaro"
+  },
+  {
+   "tema": "ASAD bursátil en zona sur",
+   "n_programas": 1,
+   "n_signals": 1,
+   "canales": [
+    "AHORA PLAY"
+   ],
+   "cross_canal": false,
+   "tipo": "pregunta_precio",
+   "ejemplo": "Martín, cuando sale un \"ASAD bursatil\" en zona sur?"
   },
   {
    "tema": "Aumento de cuota/precio de membresía",
@@ -45,17 +56,6 @@
    "cross_canal": false,
    "tipo": "pedido_link",
    "ejemplo": "tuvieron que inventar la electricidad para verlos / Cambiaron de link nos perdimos todo"
-  },
-  {
-   "tema": "ASAD bursátil en zona sur",
-   "n_programas": 1,
-   "n_signals": 1,
-   "canales": [
-    "AHORA PLAY"
-   ],
-   "cross_canal": false,
-   "tipo": "pregunta_precio",
-   "ejemplo": "Martín, cuando sale un \"ASAD bursatil\" en zona sur?"
   },
   {
    "tema": "Solicitud de likes",

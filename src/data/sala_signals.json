@@ -1,5 +1,5 @@
 {
- "exported_at": "2026-06-30T09:05:55.209699+00:00",
+ "exported_at": "2026-06-30T13:34:28.849121+00:00",
  "signals": [
   {
    "tema": "cuatia · curuzu",
@@ -176,9 +176,9 @@
   {
    "tema": "like · vivoooo",
    "evidence_lane": "chat",
-   "n_msgs": 33,
-   "n_authors": 32,
-   "n_programas": 6,
+   "n_msgs": 39,
+   "n_authors": 37,
+   "n_programas": 8,
    "canales": [
     "?",
     "OLGA"
@@ -201,6 +201,14 @@
      "ejemplo": "Like al VIVOOOO"
     },
     {
+     "video_id": "Lm6Db-SEA0M",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "LIKE AL VIVOOOO"
+    },
+    {
      "video_id": "O6sOwvMbRBU",
      "channel": "?",
      "title": "",
@@ -215,17 +223,65 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "Like al vivoooo"
-    },
-    {
-     "video_id": "W_HkPNOMeDc",
-     "channel": "OLGA",
-     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
-     "n_msgs": 8,
-     "n_authors": 8,
-     "ejemplo": "LIKE AL VIVOOOO"
     }
    ],
    "ejemplo": "LIKE AL VIVOOOO"
+  },
+  {
+   "tema": "buen · dia",
+   "evidence_lane": "chat",
+   "n_msgs": 33,
+   "n_authors": 33,
+   "n_programas": 8,
+   "canales": [
+    "?",
+    "GELATINA",
+    "OLGA",
+    "Vorterix"
+   ],
+   "programs": [
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "buen dia"
+    },
+    {
+     "video_id": "3CPnLRc7h2w",
+     "channel": "Vorterix",
+     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+     "n_msgs": 7,
+     "n_authors": 7,
+     "ejemplo": "buen día"
+    },
+    {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "buen día"
+    },
+    {
+     "video_id": "WNe6QLgDfyM",
+     "channel": "OLGA",
+     "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Buen día"
+    },
+    {
+     "video_id": "bX7MB2_OI2I",
+     "channel": "OLGA",
+     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "buen día"
+    }
+   ],
+   "ejemplo": "buen dia"
   },
   {
    "tema": "grabado · lamentablemente",
@@ -255,44 +311,6 @@
     }
    ],
    "ejemplo": "lamentablemente grabado"
-  },
-  {
-   "tema": "migue · razon · tiene",
-   "evidence_lane": "chat",
-   "n_msgs": 31,
-   "n_authors": 31,
-   "n_programas": 3,
-   "canales": [
-    "?",
-    "OLGA"
-   ],
-   "programs": [
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 8,
-     "n_authors": 8,
-     "ejemplo": "MIGUE TIENE RAZÓN"
-    },
-    {
-     "video_id": "cOui_830fXg",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 20,
-     "n_authors": 20,
-     "ejemplo": "MIGUE TIENE RAZÓN"
-    },
-    {
-     "video_id": "ptOHcGEdWCk",
-     "channel": "OLGA",
-     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
-     "n_msgs": 3,
-     "n_authors": 3,
-     "ejemplo": "Tiene razon migue"
-    }
-   ],
-   "ejemplo": "MIGUE TIENE RAZÓN"
   },
   {
    "tema": "like · vivooooo",
@@ -347,6 +365,44 @@
     }
    ],
    "ejemplo": "LIKE AL VIVOOOOO"
+  },
+  {
+   "tema": "migue · razon · tiene",
+   "evidence_lane": "chat",
+   "n_msgs": 30,
+   "n_authors": 30,
+   "n_programas": 3,
+   "canales": [
+    "?",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": "MIGUE TIENE RAZÓN"
+    },
+    {
+     "video_id": "cOui_830fXg",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 19,
+     "n_authors": 19,
+     "ejemplo": "MIGUE TIENE RAZÓN"
+    },
+    {
+     "video_id": "ptOHcGEdWCk",
+     "channel": "OLGA",
+     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "Tiene razon migue"
+    }
+   ],
+   "ejemplo": "MIGUE TIENE RAZÓN"
   },
   {
    "tema": "brenas · chaco",
@@ -501,44 +557,6 @@
    "ejemplo": "PONGAN LIKE"
   },
   {
-   "tema": "fijos · leo · vero",
-   "evidence_lane": "chat",
-   "n_msgs": 21,
-   "n_authors": 20,
-   "n_programas": 3,
-   "canales": [
-    "?",
-    "OLGA"
-   ],
-   "programs": [
-    {
-     "video_id": "bX7MB2_OI2I",
-     "channel": "OLGA",
-     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-     "n_msgs": 3,
-     "n_authors": 3,
-     "ejemplo": "Vero y Leo fijos"
-    },
-    {
-     "video_id": "cOui_830fXg",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 3,
-     "n_authors": 2,
-     "ejemplo": "Leo y vero fijos"
-    },
-    {
-     "video_id": "mxFu-R3O8TY",
-     "channel": "OLGA",
-     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
-     "n_msgs": 15,
-     "n_authors": 15,
-     "ejemplo": "Leo y vero fijos"
-    }
-   ],
-   "ejemplo": "Vero y Leo fijos"
-  },
-  {
    "tema": "amo · camila",
    "evidence_lane": "chat",
    "n_msgs": 20,
@@ -585,60 +603,42 @@
    "ejemplo": "TE AMO CAMILA"
   },
   {
-   "tema": "buen · dia",
+   "tema": "fijos · leo · vero",
    "evidence_lane": "chat",
-   "n_msgs": 18,
+   "n_msgs": 19,
    "n_authors": 18,
-   "n_programas": 5,
+   "n_programas": 3,
    "canales": [
     "?",
-    "GELATINA",
-    "OLGA",
-    "Vorterix"
+    "OLGA"
    ],
    "programs": [
-    {
-     "video_id": "3CPnLRc7h2w",
-     "channel": "Vorterix",
-     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-     "n_msgs": 7,
-     "n_authors": 7,
-     "ejemplo": "buen día"
-    },
-    {
-     "video_id": "WNe6QLgDfyM",
-     "channel": "OLGA",
-     "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "Buen día"
-    },
     {
      "video_id": "bX7MB2_OI2I",
      "channel": "OLGA",
      "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "buen día"
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Vero y Leo fijos"
     },
     {
-     "video_id": "bYaixTloEdo",
+     "video_id": "cOui_830fXg",
      "channel": "?",
      "title": "",
      "n_msgs": 3,
-     "n_authors": 3,
-     "ejemplo": "buen dia"
+     "n_authors": 2,
+     "ejemplo": "Leo y vero fijos"
     },
     {
-     "video_id": "vlNZMMmBbLw",
-     "channel": "GELATINA",
-     "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "Buen dia"
+     "video_id": "mxFu-R3O8TY",
+     "channel": "OLGA",
+     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+     "n_msgs": 14,
+     "n_authors": 14,
+     "ejemplo": "Leo y vero fijos"
     }
    ],
-   "ejemplo": "buen día"
+   "ejemplo": "Vero y Leo fijos"
   },
   {
    "tema": "bueno · muy",
@@ -698,6 +698,56 @@
    "ejemplo": "MUY BUENO"
   },
   {
+   "tema": "devolve · saquito",
+   "evidence_lane": "chat",
+   "n_msgs": 17,
+   "n_authors": 17,
+   "n_programas": 2,
+   "canales": [
+    "?"
+   ],
+   "programs": [
+    {
+     "video_id": "bYaixTloEdo",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 15,
+     "n_authors": 15,
+     "ejemplo": "DEVOLVE EL SAQUITO"
+    },
+    {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "devolve el saquito !"
+    }
+   ],
+   "ejemplo": "DEVOLVE EL SAQUITO"
+  },
+  {
+   "tema": "cuatia · curuzu · vamos",
+   "evidence_lane": "chat",
+   "n_msgs": 17,
+   "n_authors": 17,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 17,
+     "n_authors": 17,
+     "ejemplo": "vamos Curuzú cuatia"
+    }
+   ],
+   "ejemplo": "vamos Curuzú cuatia"
+  },
+  {
    "tema": ":blue_heart::green_heart::blue_heart::green_heart: · brenas",
    "evidence_lane": "chat",
    "n_msgs": 16,
@@ -719,27 +769,6 @@
    "ejemplo": "las Breñas :blue_heart::green_heart::blue_heart::green_heart:"
   },
   {
-   "tema": "cuatia · curuzu · vamos",
-   "evidence_lane": "chat",
-   "n_msgs": 16,
-   "n_authors": 16,
-   "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
-   "programs": [
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 16,
-     "n_authors": 16,
-     "ejemplo": "vamos Curuzú cuatia"
-    }
-   ],
-   "ejemplo": "vamos Curuzú cuatia"
-  },
-  {
    "tema": ":blue_heart::green_heart: · brenas",
    "evidence_lane": "chat",
    "n_msgs": 15,
@@ -759,27 +788,6 @@
     }
    ],
    "ejemplo": "las Breñas :blue_heart::green_heart:"
-  },
-  {
-   "tema": "devolve · saquito",
-   "evidence_lane": "chat",
-   "n_msgs": 15,
-   "n_authors": 15,
-   "n_programas": 1,
-   "canales": [
-    "?"
-   ],
-   "programs": [
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 15,
-     "n_authors": 15,
-     "ejemplo": "DEVOLVE EL SAQUITO"
-    }
-   ],
-   "ejemplo": "DEVOLVE EL SAQUITO"
   },
   {
    "tema": "like · vivoo",

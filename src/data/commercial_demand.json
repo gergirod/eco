@@ -2,11 +2,11 @@
  "disclaimer": "Pedidos confirmados de link, precio o dónde comprar — no certifica ventas. Falsos positivos de 'sale'/'cuota' filtrados por heurística + revisión LLM en casos dudosos. LUZU sin chat usable en el período. 5 mensaje(s) cayeron dentro de 5 min después de una PNT verificada.",
  "summary_line": "Neura Media concentra la mayor demanda comercial filtrada en chat (4 pedidos confirmados, 0.06 por cada mil mirando; 1 dentro de 5 min post-PNT).",
  "filter": {
-  "llm_used": 55,
-  "llm_rejected": 336,
-  "llm_confirmed": 30,
+  "llm_used": 64,
+  "llm_rejected": 397,
+  "llm_confirmed": 35,
   "heuristic_rejected": 0,
-  "confirmed_total": 201
+  "confirmed_total": 253
  },
  "channels": [
   {
@@ -24,18 +24,18 @@
    },
    "top_examples": [
     {
-     "text": "Avisaron del gol y me gane un cupon en PYa, gracias",
+     "text": "cuando tenga la sucursal en bsas hay 15 de descuento para chat de neura vieejooo",
      "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "quiero ir a vivir a ese crucero. Cuánto el alquiler mensual y expensas?",
-     "tipo": "pregunta_precio",
      "count": 1
     },
     {
      "text": "Yayi... BTC está en muy buen precio.",
      "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Avisaron del gol y me gane un cupon en PYa, gracias",
+     "tipo": "pedido_link",
      "count": 1
     }
    ]
@@ -98,48 +98,17 @@
    ]
   },
   {
-   "id": "vorterix",
-   "name": "Vorterix",
-   "programs_with_chat": 7,
-   "commercial_messages": 30,
-   "chat_messages": 32968,
-   "commercial_pct": 0.1,
+   "id": "",
+   "name": "",
+   "programs_with_chat": 13,
+   "commercial_messages": 56,
+   "chat_messages": 26876,
+   "commercial_pct": 0.2,
    "commercial_per_1k": 0.02,
    "post_pnt_messages": 0,
    "by_tipo": {
-    "pedido_link": 24,
-    "pregunta_precio": 6
-   },
-   "top_examples": [
-    {
-     "text": "PASA EL LINK GUICHE",
-     "tipo": "pedido_link",
-     "count": 2
-    },
-    {
-     "text": "en el codigo penal estA?",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "menos código el chabon",
-     "tipo": "pedido_link",
-     "count": 1
-    }
-   ]
-  },
-  {
-   "id": "",
-   "name": "",
-   "programs_with_chat": 8,
-   "commercial_messages": 30,
-   "chat_messages": 21793,
-   "commercial_pct": 0.1,
-   "commercial_per_1k": 0.01,
-   "post_pnt_messages": 0,
-   "by_tipo": {
-    "pedido_link": 12,
-    "pregunta_precio": 16,
+    "pregunta_precio": 39,
+    "pedido_link": 15,
     "pregunta_compra": 2
    },
    "top_examples": [
@@ -149,13 +118,44 @@
      "count": 2
     },
     {
-     "text": "COMPARTAN EL LINK!!! :firecracker::firecracker::firecracker::firecracker::firecracker:",
-     "tipo": "pedido_link",
+     "text": "Sale ese cypher del Armenio? @SomosGelatina",
+     "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "que cami haga la lista de cuánto chapo",
+     "text": "A cuanto esta es DOLAR ?",
      "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "id": "vorterix",
+   "name": "Vorterix",
+   "programs_with_chat": 8,
+   "commercial_messages": 33,
+   "chat_messages": 34812,
+   "commercial_pct": 0.1,
+   "commercial_per_1k": 0.02,
+   "post_pnt_messages": 0,
+   "by_tipo": {
+    "pregunta_precio": 9,
+    "pedido_link": 24
+   },
+   "top_examples": [
+    {
+     "text": "PASA EL LINK GUICHE",
+     "tipo": "pedido_link",
+     "count": 2
+    },
+    {
+     "text": "Cuanto esta el gramo ?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "LA APP DE VORTERIX MARIO. VORTERIX LA NUEVA MTV.",
+     "tipo": "pedido_link",
      "count": 1
     }
    ]
@@ -164,14 +164,14 @@
    "id": "blend",
    "name": "Blender",
    "programs_with_chat": 4,
-   "commercial_messages": 21,
+   "commercial_messages": 20,
    "chat_messages": 8656,
    "commercial_pct": 0.2,
    "commercial_per_1k": 0.01,
    "post_pnt_messages": 0,
    "by_tipo": {
-    "pregunta_precio": 8,
-    "pedido_link": 13
+    "pedido_link": 13,
+    "pregunta_precio": 7
    },
    "top_examples": [
     {
@@ -180,12 +180,12 @@
      "count": 2
     },
     {
-     "text": "jaja pero queria original a precio trucho",
-     "tipo": "pregunta_precio",
+     "text": "es un código propio",
+     "tipo": "pedido_link",
      "count": 1
     },
     {
-     "text": "che sale ese cs ?",
+     "text": "jaja pero queria original a precio trucho",
      "tipo": "pregunta_precio",
      "count": 1
     }
@@ -201,24 +201,24 @@
    "commercial_per_1k": 0.01,
    "post_pnt_messages": 0,
    "by_tipo": {
-    "pregunta_precio": 2,
     "pedido_link": 2,
-    "pregunta_compra": 1
+    "pregunta_compra": 1,
+    "pregunta_precio": 2
    },
    "top_examples": [
     {
-     "text": "vamos pepe decime cuanto aumento cuota para incorporar HAA",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "no le bajemos el precio a los estafadores hijos de puta con esto de reirnos no más",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
      "text": "está ahí abajo el link",
      "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "LINK FIJADO LOLA",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "MAS CIPAYO NO SE CONSIGUE",
+     "tipo": "pregunta_compra",
      "count": 1
     }
    ]
@@ -247,14 +247,14 @@
    "id": "olga",
    "name": "Olga",
    "programs_with_chat": 16,
-   "commercial_messages": 90,
-   "chat_messages": 76136,
+   "commercial_messages": 114,
+   "chat_messages": 78538,
    "commercial_pct": 0.1,
    "commercial_per_1k": 0.0,
    "post_pnt_messages": 3,
    "by_tipo": {
     "pedido_link": 44,
-    "pregunta_precio": 43,
+    "pregunta_precio": 67,
     "pregunta_compra": 3
    },
    "top_examples": [
@@ -360,6 +360,44 @@
  ],
  "programs": [
   {
+   "video_id": "3jZ7O8XoQyY",
+   "title": "",
+   "channel": "",
+   "channel_id": "",
+   "commercial_messages": 11,
+   "commercial_pct": 3.7,
+   "commercial_per_1k": 0.18,
+   "chat_messages": 300,
+   "by_tipo": {
+    "pregunta_precio": 11
+   },
+   "top_examples": [
+    {
+     "text": "A cuanto esta es DOLAR ?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "SI BAJA EL RUESGO,SUBEN BONOS ENTONCES EL INVERSIONISTA EXTRANJERO VENDE AL MEJOR PRECIO Y SE MARCHO,COMO DICE LA CANCION?:hand-pink-waving::hand-pink-waving::h",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "por favor este gobierno es peor peor que alberto fernandez ademas nos estafa en todo. Ejemplo precio combustible",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "la apertura de importaciones de bajó ningún precio al consumo, solo aumento ganancias de unos pocos",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
    "video_id": "c1LrQSDaXAY",
    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
    "channel": "Neura Media",
@@ -384,7 +422,7 @@
   },
   {
    "video_id": "3AxUr1Maqu8",
-   "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO 2026-06-29 19:10",
+   "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
    "channel": "Vorterix",
    "channel_id": "vorterix",
    "commercial_messages": 5,
@@ -523,16 +561,39 @@
    "pnt_examples": []
   },
   {
+   "video_id": "mNBPDZhUOf8",
+   "title": "",
+   "channel": "",
+   "channel_id": "",
+   "commercial_messages": 1,
+   "commercial_pct": 0.4,
+   "commercial_per_1k": 0.04,
+   "chat_messages": 246,
+   "by_tipo": {
+    "pregunta_precio": 1
+   },
+   "top_examples": [
+    {
+     "text": "Sale ese cypher del Armenio? @SomosGelatina",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
    "video_id": "qLQFv3bGuhA",
    "title": "",
    "channel": "",
    "channel_id": "",
-   "commercial_messages": 5,
-   "commercial_pct": 0.7,
+   "commercial_messages": 6,
+   "commercial_pct": 0.8,
    "commercial_per_1k": 0.03,
    "chat_messages": 729,
    "by_tipo": {
-    "pregunta_precio": 5
+    "pregunta_precio": 6
    },
    "top_examples": [
     {
@@ -772,45 +833,6 @@
    "pnt_examples": []
   },
   {
-   "video_id": "JXVQmuDctII",
-   "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-   "channel": "BLENDER",
-   "channel_id": "blend",
-   "commercial_messages": 7,
-   "commercial_pct": 0.2,
-   "commercial_per_1k": 0.01,
-   "chat_messages": 4624,
-   "by_tipo": {
-    "pregunta_precio": 5,
-    "pedido_link": 2
-   },
-   "top_examples": [
-    {
-     "text": "fah yo trabajé como moderadora de contenido para una app!",
-     "tipo": "pedido_link",
-     "count": 2
-    },
-    {
-     "text": "jaja pero queria original a precio trucho",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "che sale ese cs ?",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "a plata de hoy cuanto es?",
-     "tipo": "pregunta_precio",
-     "count": 1
-    }
-   ],
-   "post_pnt_messages": 0,
-   "pnt_brand_aligned": 0,
-   "pnt_examples": []
-  },
-  {
    "video_id": "A_ww0XRZnps",
    "title": "¿NOS INVADEN O QUÉ?, ODIADOS CON EL ALGORITMO y  LA CRISIS DE LA COLO  | ÚLTIMO AVISO | BLENDER",
    "channel": "BLENDER",
@@ -842,40 +864,6 @@
     {
      "text": "VAMOOS ME GANE UN CUPON",
      "tipo": "pedido_link",
-     "count": 1
-    }
-   ],
-   "post_pnt_messages": 0,
-   "pnt_brand_aligned": 0,
-   "pnt_examples": []
-  },
-  {
-   "video_id": "EwFONN3W5cg",
-   "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
-   "channel": "Vorterix",
-   "channel_id": "vorterix",
-   "commercial_messages": 3,
-   "commercial_pct": 0.1,
-   "commercial_per_1k": 0.01,
-   "chat_messages": 2665,
-   "by_tipo": {
-    "pedido_link": 2,
-    "pregunta_precio": 1
-   },
-   "top_examples": [
-    {
-     "text": "en el codigo penal estA?",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "menos código el chabon",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "sale ese Damián Cuck chair?",
-     "tipo": "pregunta_precio",
      "count": 1
     }
    ],
@@ -916,6 +904,16 @@
    "cross_canal": false
   },
   {
+   "text": "fah yo trabajé como moderadora de contenido para una app!",
+   "tipo": "pedido_link",
+   "count": 2,
+   "n_programas": 1,
+   "canales": [
+    "BLENDER"
+   ],
+   "cross_canal": false
+  },
+  {
    "text": "LINK LINK LINK",
    "tipo": "pedido_link",
    "count": 2,
@@ -926,7 +924,7 @@
    "cross_canal": false
   },
   {
-   "text": "este año sale Teatro Picadilly",
+   "text": "EL PADRE DE MI HIJA RENUNCIO AL TRABAJAO PARA QUE NO LE RETENGAN UN PORCENTAJE DEL SUELDO PARA LA CUOTA ALIMENTARIA",
    "tipo": "pregunta_precio",
    "count": 2,
    "n_programas": 1,
@@ -936,12 +934,22 @@
    "cross_canal": false
   },
   {
-   "text": "fah yo trabajé como moderadora de contenido para una app!",
-   "tipo": "pedido_link",
+   "text": "EL PADRE DE MI HIJA RENUNCIO AL TRABAJO PARA QUE NO LE RETENGAN UN PORCENTAJE DEL SUELDO PARA LA CUOTA ALIMENTARIA",
+   "tipo": "pregunta_precio",
    "count": 2,
    "n_programas": 1,
    "canales": [
-    "BLENDER"
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "este año sale Teatro Picadilly",
+   "tipo": "pregunta_precio",
+   "count": 2,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
    ],
    "cross_canal": false
   },
@@ -960,26 +968,6 @@
    "n_programas": 1,
    "canales": [
     "OLGA"
-   ],
-   "cross_canal": false
-  },
-  {
-   "text": "PASA EL LINK GUICHE",
-   "tipo": "pedido_link",
-   "count": 2,
-   "n_programas": 1,
-   "canales": [
-    "Vorterix"
-   ],
-   "cross_canal": false
-  },
-  {
-   "text": "Qué paso con la app de connie??",
-   "tipo": "pedido_link",
-   "count": 1,
-   "n_programas": 1,
-   "canales": [
-    "Bondi Live"
    ],
    "cross_canal": false
   }
@@ -1047,5 +1035,5 @@
   }
  ],
  "channels_with_commercial": 12,
- "period": "2026-06-30T09:05:55.209699+00:00"
+ "period": "2026-06-30T13:34:28.849121+00:00"
 }

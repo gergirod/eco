@@ -277,6 +277,56 @@
   "kind": "producto"
  },
  {
+  "slug": "new-soul-boys-indumentaria-de-rosario",
+  "name": "New Soul Boys (indumentaria de Rosario)",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "29/06/2026",
+    "video_id": "Iii3dqMJvwQ",
+    "title": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
+    "minute": "01:40",
+    "views": 32665
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "arsenal-club-de-futbol",
+  "name": "Arsenal (club de fútbol)",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "29/06/2026",
+    "video_id": "Iii3dqMJvwQ",
+    "title": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
+    "minute": "01:40",
+    "views": 32665
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "mac-restaurante",
   "name": "Mac (restaurante)",
   "mentions": 1,
@@ -872,6 +922,56 @@
     "title": "¿NOS INVADEN O QUÉ?, ODIADOS CON EL ALGORITMO y  LA CRISIS DE LA COLO  | ÚLTIMO AVISO | BLENDER",
     "minute": "00:20",
     "views": 3784
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "red-blend-vino",
+  "name": "Red Blend (vino)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "3AxUr1Maqu8",
+    "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
+    "minute": "00:40",
+    "views": 31965
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "malbec-vino",
+  "name": "Malbec (vino)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "3AxUr1Maqu8",
+    "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
+    "minute": "00:40",
+    "views": 31965
    }
   ],
   "kind": "producto"

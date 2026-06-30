@@ -1,23 +1,23 @@
 {
- "exported_at": "2026-06-30T09:05:55.209699+00:00",
+ "exported_at": "2026-06-30T13:34:28.849121+00:00",
  "capture_scope": "live_only",
  "capture_sources": [
   "youtube_api",
   "ytdlp_live"
  ],
- "n_videos": 72,
- "n_topics": 72,
- "n_topics_total": 139,
- "n_brands": 173,
- "n_products": 172,
- "n_pauta_mentions": 282,
- "n_moments": 91,
+ "n_videos": 74,
+ "n_topics": 74,
+ "n_topics_total": 141,
+ "n_brands": 174,
+ "n_products": 176,
+ "n_pauta_mentions": 283,
+ "n_moments": 101,
  "n_trends": 120,
  "cpm": 30.0,
  "peso_default": 0.3,
  "live_capture": {
-  "hours_captured": 187.4,
-  "streams_captured": 85,
+  "hours_captured": 194.9,
+  "streams_captured": 91,
   "channels_captured": 13,
   "capture_days": 8,
   "first_capture": "2026-06-22",
@@ -54,8 +54,8 @@
    },
    {
     "id": "blend",
-    "streams": 5,
-    "hours": 9.0,
+    "streams": 6,
+    "hours": 9.4,
     "first_capture": "2026-06-24",
     "last_capture": "2026-06-30"
    },
@@ -96,10 +96,10 @@
    },
    {
     "id": "luzu",
-    "streams": 22,
-    "hours": 46.1,
+    "streams": 23,
+    "hours": 46.3,
     "first_capture": "2026-06-23",
-    "last_capture": "2026-06-29"
+    "last_capture": "2026-06-30"
    },
    {
     "id": "neura",
@@ -110,10 +110,10 @@
    },
    {
     "id": "olga",
-    "streams": 22,
-    "hours": 49.3,
+    "streams": 24,
+    "hours": 53.3,
     "first_capture": "2026-06-22",
-    "last_capture": "2026-06-29"
+    "last_capture": "2026-06-30"
    },
    {
     "id": "urbana",
@@ -124,10 +124,10 @@
    },
    {
     "id": "vorterix",
-    "streams": 12,
-    "hours": 24.8,
+    "streams": 14,
+    "hours": 27.7,
     "first_capture": "2026-06-26",
-    "last_capture": "2026-06-29"
+    "last_capture": "2026-06-30"
    }
   ],
   "by_show": [
@@ -135,8 +135,15 @@
     "channel_id": "vorterix",
     "show_id": "otros",
     "show_name": "Otros",
-    "streams": 10,
-    "hours": 20.7
+    "streams": 11,
+    "hours": 21.3
+   },
+   {
+    "channel_id": "olga",
+    "show_id": "seria-increible",
+    "show_name": "Sería Increíble",
+    "streams": 5,
+    "hours": 18.0
    },
    {
     "channel_id": "urbana",
@@ -144,13 +151,6 @@
     "show_name": "Otros",
     "streams": 1,
     "hours": 16.2
-   },
-   {
-    "channel_id": "olga",
-    "show_id": "seria-increible",
-    "show_name": "Sería Increíble",
-    "streams": 4,
-    "hours": 14.5
    },
    {
     "channel_id": "luzu",
@@ -170,15 +170,15 @@
     "channel_id": "olga",
     "show_id": "sone-volaba",
     "show_name": "Soñé que Volaba",
-    "streams": 5,
-    "hours": 11.9
+    "streams": 6,
+    "hours": 12.3
    },
    {
     "channel_id": "luzu",
     "show_id": "ndn",
     "show_name": "Nadie Dice Nada",
-    "streams": 4,
-    "hours": 9.9
+    "streams": 5,
+    "hours": 10.1
    },
    {
     "channel_id": "olga",
@@ -223,6 +223,13 @@
     "hours": 6.8
    },
    {
+    "channel_id": "vorterix",
+    "show_id": "no-rusia",
+    "show_name": "No Preguntes por Rusia",
+    "streams": 3,
+    "hours": 6.3
+   },
+   {
     "channel_id": "luzu",
     "show_id": "sfl",
     "show_name": "Se Fue Larga",
@@ -237,18 +244,18 @@
     "hours": 5.2
    },
    {
-    "channel_id": "vorterix",
-    "show_id": "no-rusia",
-    "show_name": "No Preguntes por Rusia",
-    "streams": 2,
-    "hours": 4.1
-   },
-   {
     "channel_id": "luzu",
     "show_id": "fmluzu",
     "show_name": "FM Luzu",
     "streams": 3,
     "hours": 3.2
+   },
+   {
+    "channel_id": "blend",
+    "show_id": "que-dia",
+    "show_name": "Qué Día",
+    "streams": 2,
+    "hours": 2.4
    },
    {
     "channel_id": "luzu",
@@ -277,13 +284,6 @@
     "show_name": "Maxi Mediodía",
     "streams": 1,
     "hours": 2.1
-   },
-   {
-    "channel_id": "blend",
-    "show_id": "que-dia",
-    "show_name": "Qué Día",
-    "streams": 1,
-    "hours": 2.0
    },
    {
     "channel_id": "ahoraplay",
@@ -350,13 +350,13 @@
  },
  "discovery": {
   "channels_covered": 12,
-  "hours_captured": 158.5,
+  "hours_captured": 162.3,
   "first_capture": "2026-06-19",
   "last_capture": "2026-06-30",
   "period_days": 12,
-  "programs_with_viewers": 72,
+  "programs_with_viewers": 74,
   "high_confidence_advertisers": 21,
   "emerging_confidence_advertisers": 28,
-  "activations_with_verified_evidence": 275
+  "activations_with_verified_evidence": 276
  }
 }

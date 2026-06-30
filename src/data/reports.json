@@ -15323,6 +15323,153 @@
    }
   ]
  },
+ "sarkis": {
+  "name": "Sarkis",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 82.0,
+  "channels": [
+   "vorterix"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 1,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 1,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260630",
+    "date": "30/06/2026",
+    "mentions": 1,
+    "value_usd": 82.0
+   }
+  ],
+  "best": {
+   "channel": "vorterix",
+   "channel_name": "Vorterix",
+   "date": "30/06/2026",
+   "date_iso": "20260630",
+   "video_id": "3AxUr1Maqu8",
+   "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
+   "minute": "01:26:17",
+   "t_seconds": 5177,
+   "precise": true,
+   "views": 31965,
+   "value_usd": 82.0,
+   "quote": "Sarkis es un restaurante de comida armenia y árabe Que está hace más de 40 años en Villa Crespo Compartiendo con vos la receta Para que conozcas la comida de Medio Oriente Los pueden seguir en Instagram Como arroba restaurante Sarkis",
+   "tier": 2,
+   "tier_label": "Lectura dedicada",
+   "sentiment": "positivo",
+   "conc_at": 2846,
+   "retention_pct": null,
+   "chat_ratio": 0.0,
+   "chat_reaction": {
+    "cobertura": false,
+    "has_chat": true,
+    "chat_ratio": 0.0,
+    "spike_rpm": null,
+    "pre_rpm": null,
+    "post_rpm": null,
+    "eco_marca_post": 0,
+    "eco_line": null,
+    "demanda_post": 0,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "none",
+    "table_line": "Chat no cubre este minuto",
+    "headline": "El chat capturado no alcanza el minuto de esta aparición — reacción no medible.",
+    "detail_lines": [],
+    "ejemplos": [],
+    "motivo": "el chat capturado no llega a este minuto"
+   },
+   "room_reaction": {
+    "has_data": true,
+    "cobertura": true,
+    "in_window": false,
+    "table_line": "Sin participación medible en este tramo",
+    "headline": "",
+    "detail_lines": [],
+    "lines": [],
+    "pins": [],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 2846,
+   "has_chat": true,
+   "anchor_confidence": "exact",
+   "anchor_validated": true,
+   "transcript_at_ts": "Bueno, vamos a terminar este primer bloque. ¿Por qué? Porque mirá las cosas que nos han llegado. Encima tenemos comida, boludo. Sarkis es un restaurante de comida armenia y árabe Que está hace más de 40 años en Villa Crespo Compartiendo con vos la receta Para que conozcas la comida de Medio Oriente",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "date_iso": "20260630",
+    "video_id": "3AxUr1Maqu8",
+    "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
+    "minute": "01:26:17",
+    "t_seconds": 5177,
+    "precise": true,
+    "views": 31965,
+    "value_usd": 82.0,
+    "quote": "Sarkis es un restaurante de comida armenia y árabe Que está hace más de 40 años en Villa Crespo Compartiendo con vos la receta Para que conozcas la comida de Medio Oriente Los pueden seguir en Instagram Como arroba restaurante Sarkis",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 2846,
+    "retention_pct": null,
+    "chat_ratio": 0.0,
+    "chat_reaction": {
+     "cobertura": false,
+     "has_chat": true,
+     "chat_ratio": 0.0,
+     "spike_rpm": null,
+     "pre_rpm": null,
+     "post_rpm": null,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "none",
+     "table_line": "Chat no cubre este minuto",
+     "headline": "El chat capturado no alcanza el minuto de esta aparición — reacción no medible.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": "el chat capturado no llega a este minuto"
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 2846,
+    "has_chat": true,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "Bueno, vamos a terminar este primer bloque. ¿Por qué? Porque mirá las cosas que nos han llegado. Encima tenemos comida, boludo. Sarkis es un restaurante de comida armenia y árabe Que está hace más de 40 años en Villa Crespo Compartiendo con vos la receta Para que conozcas la comida de Medio Oriente",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
  "evaginagel": {
   "name": "Evaginagel",
   "mentions": 1,

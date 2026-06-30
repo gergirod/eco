@@ -3337,6 +3337,43 @@
   "rubro": "otro"
  },
  {
+  "slug": "sarkis",
+  "name": "Sarkis",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 82.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "3AxUr1Maqu8",
+    "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
+    "minute": "01:26:17",
+    "views": 31965,
+    "conc_at": 2846
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 2846,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "alimentos"
+ },
+ {
   "slug": "evaginagel",
   "name": "Evaginagel",
   "mentions": 1,

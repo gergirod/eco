@@ -151,6 +151,17 @@
     "t_seconds": 5400
    },
    {
+    "channel": "BLENDER",
+    "video_id": "Iii3dqMJvwQ",
+    "title": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
+    "date": "20260629",
+    "subtema": "Renuncia de Adorni y cambio de vocería",
+    "contexto": "Se discute la renuncia del jefe de gabinete Adorni y cómo el nuevo vocero intenta diferenciarse con un tono menos confrontacional",
+    "intensidad": 3,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
     "channel": "Vorterix",
     "video_id": "3CPnLRc7h2w",
     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
@@ -261,34 +272,23 @@
     "t_seconds": 3000
    },
    {
-    "channel": "GELATINA",
-    "video_id": "vlNZMMmBbLw",
-    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+    "channel": "BLENDER",
+    "video_id": "Iii3dqMJvwQ",
+    "title": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
     "date": "20260629",
-    "subtema": "Renuncia de Adorni y designación de Santilli",
-    "contexto": "Se discute la renuncia del portavoz Adorni tras 100 días y el nombramiento de Diego Santilli como jefe de gabinete",
-    "intensidad": 3,
-    "start_min": 110,
-    "t_seconds": 6600
-   },
-   {
-    "channel": "GELATINA",
-    "video_id": "NHt6oqHZYd0",
-    "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
-    "date": "20260629",
-    "subtema": "Renuncia de Manuel Adorni",
-    "contexto": "Análisis de la renuncia del portavoz presidencial Adorni tras acusaciones y mentiras evidentes durante su gestión",
+    "subtema": "Renuncia de Adorni",
+    "contexto": "Renuncia del funcionario que se filtró el sábado a media mañana, descrita como casi una autoincriminación en su carta",
     "intensidad": 3,
     "start_min": 10,
     "t_seconds": 600
    }
   ],
-  "highlights_total": 77,
+  "highlights_total": 85,
   "evidence_lane": "corroborated",
-  "audio_programs": 25,
+  "audio_programs": 26,
   "chat_signals": {
-   "n_msgs": 735,
-   "n_authors": 520,
+   "n_msgs": 801,
+   "n_authors": 562,
    "programs": [
     {
      "video_id": "0_ua1dXLT5o",
@@ -339,20 +339,20 @@
      "ejemplo": "falta por lo de adorni fantibioooo"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 43,
+     "n_authors": 33,
+     "ejemplo": "seeeee re honesto Adorni ja"
+    },
+    {
      "video_id": "HTm_q34CwyM",
      "channel": "AHORA PLAY",
      "title": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
      "n_msgs": 43,
      "n_authors": 29,
      "ejemplo": "buen día Serrucho y Paula, excelente semana! -- datito de color: última foto de Adorni QUEMANDO a Cornejo fue acá en Mendoza inaugurando el QUEMADO, 1er proyect"
-    },
-    {
-     "video_id": "WNe6QLgDfyM",
-     "channel": "OLGA",
-     "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
-     "n_msgs": 32,
-     "n_authors": 26,
-     "ejemplo": "soberbio... pedante...para tener miedo ADORNI Y COMPAÑIA"
     }
    ],
    "chat_only_programs": [
@@ -379,6 +379,14 @@
      "n_msgs": 59,
      "n_authors": 38,
      "ejemplo": "falta por lo de adorni fantibioooo"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 43,
+     "n_authors": 33,
+     "ejemplo": "seeeee re honesto Adorni ja"
     }
    ]
   }
@@ -668,8 +676,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 31,
   "chat_signals": {
-   "n_msgs": 170,
-   "n_authors": 135,
+   "n_msgs": 180,
+   "n_authors": 144,
    "programs": [
     {
      "video_id": "8XGdbbwUjEQ",
@@ -728,12 +736,12 @@
      "ejemplo": "Apoyo a venezuela"
     },
     {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 5,
-     "n_authors": 4,
-     "ejemplo": "Julio en Venezuela"
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 6,
+     "n_authors": 6,
+     "ejemplo": "Venezuela"
     }
    ],
    "chat_only_programs": [
@@ -770,12 +778,12 @@
      "ejemplo": "Apoyo a venezuela"
     },
     {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 5,
-     "n_authors": 4,
-     "ejemplo": "Julio en Venezuela"
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 6,
+     "n_authors": 6,
+     "ejemplo": "Venezuela"
     }
    ]
   }
@@ -1055,13 +1063,21 @@
     "t_seconds": 3000
    }
   ],
-  "highlights_total": 73,
+  "highlights_total": 74,
   "evidence_lane": "corroborated",
-  "audio_programs": 51,
+  "audio_programs": 52,
   "chat_signals": {
-   "n_msgs": 85,
-   "n_authors": 74,
+   "n_msgs": 103,
+   "n_authors": 89,
    "programs": [
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 10,
+     "n_authors": 7,
+     "ejemplo": "si viven acá son argentinos o qc vuelvan"
+    },
     {
      "video_id": "bYaixTloEdo",
      "channel": "?",
@@ -1117,17 +1133,17 @@
      "n_msgs": 5,
      "n_authors": 5,
      "ejemplo": "ARGENTINA NO ESTA EN CONDICIONES DE AYUDAR A NADIE. PRIMERO QUE SE OCUPEN DE LOS ARGENTINOS QUE NO TIENEN TRABAJO"
-    },
-    {
-     "video_id": "EPCfCkglZWA",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 5,
-     "n_authors": 4,
-     "ejemplo": "si los kirchneristas no hubieran destruido a los empresarios argentinos con impuestos y regulaciones absurdas, serian imparables"
     }
    ],
    "chat_only_programs": [
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 10,
+     "n_authors": 7,
+     "ejemplo": "si viven acá son argentinos o qc vuelvan"
+    },
     {
      "video_id": "bYaixTloEdo",
      "channel": "?",
@@ -1159,14 +1175,6 @@
      "n_msgs": 6,
      "n_authors": 6,
      "ejemplo": "Acomodó la barrera de argentinos"
-    },
-    {
-     "video_id": "qLQFv3bGuhA",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 7,
-     "n_authors": 5,
-     "ejemplo": "Los argentinos compran xq saben que esto se va a pique"
     }
    ]
   }
@@ -1240,6 +1248,17 @@
     "date": "20260629",
     "subtema": "Influencia del PRO en el gobierno de Milei",
     "contexto": "Debate sobre si la presencia de ministros con trayectoria PRO representa un takeover del gobierno de Milei por parte de Mauricio Macri",
+    "intensidad": 3,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "BLENDER",
+    "video_id": "Iii3dqMJvwQ",
+    "title": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
+    "date": "20260629",
+    "subtema": "Influencia de Macri en el gobierno de Milei",
+    "contexto": "Análisis de cómo Macri ha infiltrado al gobierno con sus hombres (Caputo, Bullrich, Santilli) manteniendo control sin ruptura formal",
     "intensidad": 3,
     "start_min": 40,
     "t_seconds": 2400
@@ -1419,25 +1438,14 @@
     "intensidad": 3,
     "start_min": 30,
     "t_seconds": 1800
-   },
-   {
-    "channel": "Vorterix",
-    "video_id": "JNLpggdieek",
-    "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-    "date": "20260629",
-    "subtema": "Designación de Diego Santilli como jefe de gabinete",
-    "contexto": "Análisis de por qué Santilli fue elegido para el cargo y su relación con Milei y Macri",
-    "intensidad": 3,
-    "start_min": 100,
-    "t_seconds": 6000
    }
   ],
-  "highlights_total": 48,
+  "highlights_total": 51,
   "evidence_lane": "corroborated",
-  "audio_programs": 17,
+  "audio_programs": 18,
   "chat_signals": {
-   "n_msgs": 510,
-   "n_authors": 369,
+   "n_msgs": 548,
+   "n_authors": 388,
    "programs": [
     {
      "video_id": "qLQFv3bGuhA",
@@ -1829,8 +1837,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 18,
   "chat_signals": {
-   "n_msgs": 81,
-   "n_authors": 77,
+   "n_msgs": 91,
+   "n_authors": 86,
    "programs": [
     {
      "video_id": "cOui_830fXg",
@@ -1889,12 +1897,12 @@
      "ejemplo": "ig del chivo del mate"
     },
     {
-     "video_id": "8XGdbbwUjEQ",
+     "video_id": "1KdxLdm_3K0",
      "channel": "?",
      "title": "",
      "n_msgs": 3,
      "n_authors": 3,
-     "ejemplo": "Mate cocido y pan"
+     "ejemplo": "pablin ponete a tomar mate o algo y no escribas por escribir"
     }
    ],
    "chat_only_programs": [
@@ -2209,8 +2217,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 31,
   "chat_signals": {
-   "n_msgs": 70,
-   "n_authors": 60,
+   "n_msgs": 71,
+   "n_authors": 61,
    "programs": [
     {
      "video_id": "O6sOwvMbRBU",
@@ -2590,12 +2598,12 @@
     "t_seconds": 3000
    }
   ],
-  "highlights_total": 71,
+  "highlights_total": 73,
   "evidence_lane": "corroborated",
-  "audio_programs": 39,
+  "audio_programs": 40,
   "chat_signals": {
-   "n_msgs": 123,
-   "n_authors": 100,
+   "n_msgs": 128,
+   "n_authors": 105,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -2867,8 +2875,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 9,
   "chat_signals": {
-   "n_msgs": 78,
-   "n_authors": 59,
+   "n_msgs": 79,
+   "n_authors": 60,
    "programs": [
     {
      "video_id": "WOYbd42V47w",
@@ -3245,12 +3253,12 @@
     "t_seconds": 5400
    }
   ],
-  "highlights_total": 122,
+  "highlights_total": 123,
   "evidence_lane": "corroborated",
-  "audio_programs": 67,
+  "audio_programs": 68,
   "chat_signals": {
-   "n_msgs": 164,
-   "n_authors": 141,
+   "n_msgs": 175,
+   "n_authors": 151,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -3625,12 +3633,12 @@
     "t_seconds": 0
    }
   ],
-  "highlights_total": 104,
+  "highlights_total": 108,
   "evidence_lane": "corroborated",
-  "audio_programs": 36,
+  "audio_programs": 38,
   "chat_signals": {
-   "n_msgs": 221,
-   "n_authors": 179,
+   "n_msgs": 237,
+   "n_authors": 191,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -3689,12 +3697,12 @@
      "ejemplo": "JAJAJAJAJJAJAJAJAJA EN VIVO DESDE MIAMI"
     },
     {
-     "video_id": "IB9cCJT0-_M",
+     "video_id": "fam8EedmGow",
      "channel": "?",
      "title": "",
-     "n_msgs": 7,
-     "n_authors": 7,
-     "ejemplo": "Miami le sienta excelente a todooos :heart_suit::heart_suit::heart_suit::heart_suit::heart_suit::heart_suit::heart_suit:"
+     "n_msgs": 9,
+     "n_authors": 9,
+     "ejemplo": "SE FUÉ A MIAMI CON TU SAQUITO VERNACII"
     }
    ],
    "chat_only_programs": [
@@ -3723,12 +3731,12 @@
      "ejemplo": "bahh a playa miami en sta rosa de calamuchita"
     },
     {
-     "video_id": "IB9cCJT0-_M",
+     "video_id": "fam8EedmGow",
      "channel": "?",
      "title": "",
-     "n_msgs": 7,
-     "n_authors": 7,
-     "ejemplo": "Miami le sienta excelente a todooos :heart_suit::heart_suit::heart_suit::heart_suit::heart_suit::heart_suit::heart_suit:"
+     "n_msgs": 9,
+     "n_authors": 9,
+     "ejemplo": "SE FUÉ A MIAMI CON TU SAQUITO VERNACII"
     }
    ]
   }
@@ -4009,8 +4017,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 58,
   "chat_signals": {
-   "n_msgs": 650,
-   "n_authors": 470,
+   "n_msgs": 677,
+   "n_authors": 490,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -4387,12 +4395,12 @@
     "t_seconds": 600
    }
   ],
-  "highlights_total": 343,
+  "highlights_total": 355,
   "evidence_lane": "corroborated",
-  "audio_programs": 112,
+  "audio_programs": 114,
   "chat_signals": {
-   "n_msgs": 514,
-   "n_authors": 395,
+   "n_msgs": 578,
+   "n_authors": 442,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -4409,6 +4417,14 @@
      "n_msgs": 43,
      "n_authors": 30,
      "ejemplo": "que venga a la argentina a manejar el coso ese... 3 cuadras dura"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 25,
+     "n_authors": 21,
+     "ejemplo": "tenemos una historia común, sé que en Argentina hubo otras olas migratorias europeas posteriores, pero igual en Brasil, en Uruguay, en Colom ia y en México"
     },
     {
      "video_id": "FYdwwoHNrMs",
@@ -4449,14 +4465,6 @@
      "n_msgs": 19,
      "n_authors": 15,
      "ejemplo": "Y SE SUMA QUE EN LA SEMANA COMPARÓ A MESSI CON MBAPPE POR LA POLITICA"
-    },
-    {
-     "video_id": "WNe6QLgDfyM",
-     "channel": "OLGA",
-     "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
-     "n_msgs": 16,
-     "n_authors": 15,
-     "ejemplo": "buen dia,se necesita dadores de sangre HOSPITAL MARIE CURIE oncologia, aveces Patricias Argentina 150 de 8 a 11hs.cama 209 peñaloza."
     }
    ],
    "chat_only_programs": [
@@ -4475,6 +4483,14 @@
      "n_msgs": 43,
      "n_authors": 30,
      "ejemplo": "que venga a la argentina a manejar el coso ese... 3 cuadras dura"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 25,
+     "n_authors": 21,
+     "ejemplo": "tenemos una historia común, sé que en Argentina hubo otras olas migratorias europeas posteriores, pero igual en Brasil, en Uruguay, en Colom ia y en México"
     },
     {
      "video_id": "WOYbd42V47w",
@@ -4681,6 +4697,17 @@
     "t_seconds": 2400
    },
    {
+    "channel": "BLENDER",
+    "video_id": "Iii3dqMJvwQ",
+    "title": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
+    "date": "20260629",
+    "subtema": "Marcelo Bielsa y Selección Uruguay",
+    "contexto": "Análisis crítico sobre el rendimiento de Uruguay con Bielsa, conferencia de prensa prevista y posible salida del técnico",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
     "channel": "OLGA",
     "video_id": "Fp5-hk5vL8U",
     "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
@@ -4734,25 +4761,14 @@
     "intensidad": 3,
     "start_min": 90,
     "t_seconds": 5400
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "RZ3T2ScqCAE",
-    "title": "#ANTESQUENADIE | ¿ALGUIEN TIENE OLOR A PELO? Y EL TRINCHE SE SACA COMO NUNCA ANTES",
-    "date": "20260611",
-    "subtema": "contactos de emergencia y criterios de selección",
-    "contexto": "Debate sobre a quién poner como contacto de emergencia en viajes y cómo reaccionan ante situaciones graves",
-    "intensidad": 3,
-    "start_min": 30,
-    "t_seconds": 1800
    }
   ],
-  "highlights_total": 66,
+  "highlights_total": 71,
   "evidence_lane": "corroborated",
-  "audio_programs": 113,
+  "audio_programs": 115,
   "chat_signals": {
-   "n_msgs": 493,
-   "n_authors": 383,
+   "n_msgs": 558,
+   "n_authors": 430,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -4787,6 +4803,14 @@
      "ejemplo": "SI, SI.. ARGENTINA DONDE GANAN VOTACIONES Y NADIE SE HACE CARGO LO QUE VOTA.. HSDPS"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 26,
+     "n_authors": 21,
+     "ejemplo": "tenemos una historia común, sé que en Argentina hubo otras olas migratorias europeas posteriores, pero igual en Brasil, en Uruguay, en Colom ia y en México"
+    },
+    {
      "video_id": "NHt6oqHZYd0",
      "channel": "GELATINA",
      "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
@@ -4809,14 +4833,6 @@
      "n_msgs": 17,
      "n_authors": 13,
      "ejemplo": "En solo Argentina te mandas cagadas en tu trabajo, te echan con justificación y que reclamas?? Ridículo"
-    },
-    {
-     "video_id": "bX7MB2_OI2I",
-     "channel": "OLGA",
-     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-     "n_msgs": 14,
-     "n_authors": 12,
-     "ejemplo": "Saludos de Italia udineeeee :heart_suit: vamooos argentina"
     }
    ],
    "chat_only_programs": [
@@ -4835,6 +4851,14 @@
      "n_msgs": 33,
      "n_authors": 25,
      "ejemplo": "que venga a la argentina a manejar el coso ese... 3 cuadras dura"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 26,
+     "n_authors": 21,
+     "ejemplo": "tenemos una historia común, sé que en Argentina hubo otras olas migratorias europeas posteriores, pero igual en Brasil, en Uruguay, en Colom ia y en México"
     },
     {
      "video_id": "WOYbd42V47w",
@@ -4905,8 +4929,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 23,
   "chat_signals": {
-   "n_msgs": 71,
-   "n_authors": 63,
+   "n_msgs": 73,
+   "n_authors": 65,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -5282,8 +5306,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 28,
   "chat_signals": {
-   "n_msgs": 56,
-   "n_authors": 52,
+   "n_msgs": 62,
+   "n_authors": 58,
    "programs": [
     {
      "video_id": "e3av_6yqgHg",
@@ -5300,6 +5324,14 @@
      "n_msgs": 13,
      "n_authors": 12,
      "ejemplo": "quieren que tanto pesos y dolares vayan al consumo y no llega se van a quedar sin oxígeno"
+    },
+    {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "Estamos en una economia bipolar, por un lado esta lleno de autos chinos 0km en la calle, lleno de propiedades en venta, pero el consumo esta congelado, y los se"
     },
     {
      "video_id": "EPCfCkglZWA",
@@ -5340,14 +5372,6 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "cambia un montón, si está bajo el efecto del alcohol ya no es un accidente"
-    },
-    {
-     "video_id": "tAUTd2FsMxA",
-     "channel": "Bondi Live",
-     "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "LA MORE Y EL CONSUMO"
     }
    ],
    "chat_only_programs": [
@@ -5358,6 +5382,14 @@
      "n_msgs": 13,
      "n_authors": 12,
      "ejemplo": "quieren que tanto pesos y dolares vayan al consumo y no llega se van a quedar sin oxígeno"
+    },
+    {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "Estamos en una economia bipolar, por un lado esta lleno de autos chinos 0km en la calle, lleno de propiedades en venta, pero el consumo esta congelado, y los se"
     },
     {
      "video_id": "EPCfCkglZWA",
@@ -5382,14 +5414,6 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "el consumo de otros el mío no aumenta baja,,,:face-orange-frowning:"
-    },
-    {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "anacleta, te hace mal este consumo"
     }
    ]
   }
@@ -5665,12 +5689,12 @@
     "t_seconds": 1800
    }
   ],
-  "highlights_total": 323,
+  "highlights_total": 334,
   "evidence_lane": "corroborated",
-  "audio_programs": 116,
+  "audio_programs": 118,
   "chat_signals": {
-   "n_msgs": 293,
-   "n_authors": 245,
+   "n_msgs": 330,
+   "n_authors": 276,
    "programs": [
     {
      "video_id": "IB9cCJT0-_M",
@@ -5713,6 +5737,14 @@
      "ejemplo": "Noly fue a Canadá por lo del futbol"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 15,
+     "n_authors": 12,
+     "ejemplo": "aguante el futbol local"
+    },
+    {
      "video_id": "FYdwwoHNrMs",
      "channel": "Vorterix",
      "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
@@ -5727,14 +5759,6 @@
      "n_msgs": 12,
      "n_authors": 11,
      "ejemplo": "migue tiene menos futbol que una chancleta pero tiene razon"
-    },
-    {
-     "video_id": "LjEHjrbNNgs",
-     "channel": "Vorterix",
-     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-     "n_msgs": 11,
-     "n_authors": 11,
-     "ejemplo": "Es el peso del stream argentino en tus hombros guille"
     }
    ],
    "chat_only_programs": [
@@ -5761,6 +5785,14 @@
      "n_msgs": 17,
      "n_authors": 13,
      "ejemplo": "Bielsa es Argentino"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 15,
+     "n_authors": 12,
+     "ejemplo": "aguante el futbol local"
     }
    ]
   }
@@ -6029,8 +6061,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 19,
   "chat_signals": {
-   "n_msgs": 53,
-   "n_authors": 40,
+   "n_msgs": 63,
+   "n_authors": 47,
    "programs": [
     {
      "video_id": "EPCfCkglZWA",
@@ -6047,6 +6079,14 @@
      "n_msgs": 10,
      "n_authors": 6,
      "ejemplo": "Hoy mercado fresco estuvo piola"
+    },
+    {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 9,
+     "n_authors": 6,
+     "ejemplo": "mercado salvaje"
     },
     {
      "video_id": "7ON4ZA5TtHc",
@@ -6087,14 +6127,6 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "jajajaja te amo adam sandler de mercado libre"
-    },
-    {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "mercado pete y petefe deberían ser marcas registradas"
     }
    ],
    "chat_only_programs": [
@@ -6115,6 +6147,14 @@
      "ejemplo": "Hoy mercado fresco estuvo piola"
     },
     {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 9,
+     "n_authors": 6,
+     "ejemplo": "mercado salvaje"
+    },
+    {
      "video_id": "7ON4ZA5TtHc",
      "channel": "Neura Media",
      "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
@@ -6129,14 +6169,6 @@
      "n_msgs": 4,
      "n_authors": 2,
      "ejemplo": "el libre mercado de los ricos"
-    },
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 4,
-     "n_authors": 2,
-     "ejemplo": "* entra publicidad de Mercado Pago *"
     }
    ]
   }
@@ -6417,8 +6449,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 18,
   "chat_signals": {
-   "n_msgs": 114,
-   "n_authors": 95,
+   "n_msgs": 123,
+   "n_authors": 102,
    "programs": [
     {
      "video_id": "s__pKWUr4MM",
@@ -6794,8 +6826,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 19,
   "chat_signals": {
-   "n_msgs": 26,
-   "n_authors": 23,
+   "n_msgs": 33,
+   "n_authors": 29,
    "programs": [
     {
      "video_id": "EPCfCkglZWA",
@@ -6806,12 +6838,28 @@
      "ejemplo": "no quiere bajar los precios nomas"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 2,
+     "ejemplo": "ayer aumentó la lista de precios de Paragüay!! jajaja"
+    },
+    {
      "video_id": "8XGdbbwUjEQ",
      "channel": "?",
      "title": "",
      "n_msgs": 3,
      "n_authors": 2,
      "ejemplo": "pah si,ahí sube siempre. aquí se mantiene meses los precios de comestibles y todo"
+    },
+    {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "si liberas los precios y después decís arréglense así te va.. mal"
     },
     {
      "video_id": "WNe6QLgDfyM",
@@ -6839,27 +6887,11 @@
     },
     {
      "video_id": "3AxUr1Maqu8",
-     "channel": "?",
-     "title": "",
+     "channel": "Vorterix",
+     "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "me confirman que mañana bajan los precios del metro cuadrado de reboque"
-    },
-    {
-     "video_id": "3t9P2KFJ4K0",
-     "channel": "Vorterix",
-     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "jejeje cuántas acciones de apple tendrá Marito?"
-    },
-    {
-     "video_id": "7ON4ZA5TtHc",
-     "channel": "Neura Media",
-     "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "No puedo terminar de entender como es la inversion en bonos, por que tiene precios volatiles como acciones? Si baja gano menos y si sube gano mas?"
     }
    ],
    "chat_only_programs": [
@@ -6872,6 +6904,14 @@
      "ejemplo": "no quiere bajar los precios nomas"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 2,
+     "ejemplo": "ayer aumentó la lista de precios de Paragüay!! jajaja"
+    },
+    {
      "video_id": "8XGdbbwUjEQ",
      "channel": "?",
      "title": "",
@@ -6880,28 +6920,20 @@
      "ejemplo": "pah si,ahí sube siempre. aquí se mantiene meses los precios de comestibles y todo"
     },
     {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "si liberas los precios y después decís arréglense así te va.. mal"
+    },
+    {
      "video_id": "WNe6QLgDfyM",
      "channel": "OLGA",
      "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "el argentino está acostumbrado a querer ser millonario en dos días, no hay controles sobre los precios alimenticio, en alquileres y demás"
-    },
-    {
-     "video_id": "qLQFv3bGuhA",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "tasa negativa en pesos pierden por más que tengan muchísimos pesos los precios le están ganando"
-    },
-    {
-     "video_id": "0_ua1dXLT5o",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "aca hay un local que rebaja prendas de ropa con precios de otras cosas mas baratas. Entonces a veces se cambian a propósito las etiquetas y te llevas algo mas b"
     }
    ]
   }
@@ -7174,7 +7206,7 @@
   "evidence_lane": "corroborated",
   "audio_programs": 14,
   "chat_signals": {
-   "n_msgs": 11,
+   "n_msgs": 12,
    "n_authors": 9,
    "programs": [
     {
@@ -7208,6 +7240,14 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "con el mundial te das cuenta la maldad que hay... llega hasta el millón y millones y millones y millones en estadios qué nos sirve para un c*** mientras hay chi"
+    },
+    {
+     "video_id": "zpbJ8ju9xmk",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "Palo Santo Atmósfera Mística"
     }
    ],
    "chat_only_programs": [
@@ -7234,6 +7274,14 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "con el mundial te das cuenta la maldad que hay... llega hasta el millón y millones y millones y millones en estadios qué nos sirve para un c*** mientras hay chi"
+    },
+    {
+     "video_id": "zpbJ8ju9xmk",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "Palo Santo Atmósfera Mística"
     }
    ]
   }
@@ -7503,8 +7551,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 15,
   "chat_signals": {
-   "n_msgs": 123,
-   "n_authors": 99,
+   "n_msgs": 133,
+   "n_authors": 107,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -7529,6 +7577,14 @@
      "n_msgs": 18,
      "n_authors": 15,
      "ejemplo": "la combinación cafe con jugo e naranja"
+    },
+    {
+     "video_id": "zpbJ8ju9xmk",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 8,
+     "n_authors": 6,
+     "ejemplo": "doc cafe"
     },
     {
      "video_id": "bYaixTloEdo",
@@ -7561,14 +7617,6 @@
      "n_msgs": 4,
      "n_authors": 4,
      "ejemplo": "que vuelva el café porteño"
-    },
-    {
-     "video_id": "tAUTd2FsMxA",
-     "channel": "Bondi Live",
-     "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
-     "n_msgs": 3,
-     "n_authors": 3,
-     "ejemplo": "EL CAFÉ SI ES UN DELITO"
     }
    ],
    "chat_only_programs": [
@@ -7579,6 +7627,14 @@
      "n_msgs": 32,
      "n_authors": 20,
      "ejemplo": "La pelicula es que la importación de café está regulada a favor de las grandes marcas de café"
+    },
+    {
+     "video_id": "zpbJ8ju9xmk",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 8,
+     "n_authors": 6,
+     "ejemplo": "doc cafe"
     },
     {
      "video_id": "bYaixTloEdo",
@@ -7603,14 +7659,6 @@
      "n_msgs": 4,
      "n_authors": 4,
      "ejemplo": "que vuelva el café porteño"
-    },
-    {
-     "video_id": "tAUTd2FsMxA",
-     "channel": "Bondi Live",
-     "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
-     "n_msgs": 3,
-     "n_authors": 3,
-     "ejemplo": "EL CAFÉ SI ES UN DELITO"
     }
    ]
   }
@@ -7882,8 +7930,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 18,
   "chat_signals": {
-   "n_msgs": 7,
-   "n_authors": 6,
+   "n_msgs": 9,
+   "n_authors": 8,
    "programs": [
     {
      "video_id": "e3av_6yqgHg",
@@ -7894,6 +7942,14 @@
      "ejemplo": "que mal que está el transporte público"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "quieren alentar el uso del transporte público y cada vez es más caro y malo los servicios"
+    },
+    {
      "video_id": "8XGdbbwUjEQ",
      "channel": "?",
      "title": "",
@@ -7932,10 +7988,26 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "terrbile transporte de san martin tenia"
+    },
+    {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "SIII, EL TRANSPORTE ESTA CARO."
     }
    ],
    "chat_only_programs": [
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "quieren alentar el uso del transporte público y cada vez es más caro y malo los servicios"
+    },
+    {
      "video_id": "8XGdbbwUjEQ",
      "channel": "?",
      "title": "",
@@ -7966,14 +8038,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "BARCO ES EL MEJOR MEDIO DE TRANSPORTE PARA LLEVAR GUITA Y FALOPA SIN TENER PROBLEMAS CON LA LEY"
-    },
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "terrbile transporte de san martin tenia"
     }
    ]
   }
@@ -8248,8 +8312,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 22,
   "chat_signals": {
-   "n_msgs": 33,
-   "n_authors": 31,
+   "n_msgs": 35,
+   "n_authors": 32,
    "programs": [
     {
      "video_id": "IsK6-fLD-VQ",
@@ -8300,20 +8364,20 @@
      "ejemplo": "opinion de viejo choto grabar TODO el concierto"
     },
     {
+     "video_id": "zpbJ8ju9xmk",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 1,
+     "ejemplo": "Es LALI"
+    },
+    {
      "video_id": "O6sOwvMbRBU",
      "channel": "?",
      "title": "",
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "muy Lali Camí jaja"
-    },
-    {
-     "video_id": "WOYbd42V47w",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "4 entradas para ir a ver a lali o un viaje al crucero por todo europa"
     }
    ],
    "chat_only_programs": [
@@ -8571,8 +8635,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 17,
   "chat_signals": {
-   "n_msgs": 173,
-   "n_authors": 145,
+   "n_msgs": 185,
+   "n_authors": 155,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -9302,8 +9366,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 21,
   "chat_signals": {
-   "n_msgs": 7,
-   "n_authors": 7,
+   "n_msgs": 8,
+   "n_authors": 8,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -9352,6 +9416,14 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "TENGO 56 MIDO 1. 92 HAGO DEPORTES Y TENGO UN BUEN PASAR QUIES ESTA SOLTERA"
+    },
+    {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "los cumpleaños, los días de paseos, los deportes qué son carísimos. la ropa, porque crecen y todo le queda chico, la comida y buena nutrición"
     }
    ],
    "chat_only_programs": [
@@ -9553,9 +9625,25 @@
   "evidence_lane": "corroborated",
   "audio_programs": 12,
   "chat_signals": {
-   "n_msgs": 29,
-   "n_authors": 27,
+   "n_msgs": 53,
+   "n_authors": 47,
    "programs": [
+    {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 16,
+     "n_authors": 12,
+     "ejemplo": "Estamos en una economia bipolar, por un lado esta lleno de autos chinos 0km en la calle, lleno de propiedades en venta, pero el consumo esta congelado, y los se"
+    },
+    {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 5,
+     "ejemplo": "todo depende de en qué cuidad te encontras... en Argentina, si, una :pile_of_poo::pile_of_poo::pile_of_poo:Pero en Japón no estimulan los autos precisamente."
+    },
     {
      "video_id": "0_ua1dXLT5o",
      "channel": "?",
@@ -9603,25 +9691,25 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "SIEMPRE CON EIO Y TOTO QUE SON UN LUJO DONDE JUEGUEN"
-    },
-    {
-     "video_id": "FYdwwoHNrMs",
-     "channel": "Vorterix",
-     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
-     "n_msgs": 3,
-     "n_authors": 1,
-     "ejemplo": "A LUCAS LE HICIERON TANTO BULLYING CON EL CORTE DE PELO QUE DECIDIO PARECER EL TRIPLE DE BOLUDO CON LAS PEORAS GORRAS JAMAS VISTAS DURANTE UN AÑO. Y SE DA EL LU"
-    },
-    {
-     "video_id": "0emroxvypsw",
-     "channel": "Vorterix",
-     "title": "🔴 PAREN LA MANO MUNDIAL: VLOG ESTRENO DESDE EEUU | VORTERIX EN VIVO",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Y SIN DAN EL LUJO QUE QUERER COBRARNOS UNA SUSBCR"
     }
    ],
    "chat_only_programs": [
+    {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 16,
+     "n_authors": 12,
+     "ejemplo": "Estamos en una economia bipolar, por un lado esta lleno de autos chinos 0km en la calle, lleno de propiedades en venta, pero el consumo esta congelado, y los se"
+    },
+    {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 5,
+     "ejemplo": "todo depende de en qué cuidad te encontras... en Argentina, si, una :pile_of_poo::pile_of_poo::pile_of_poo:Pero en Japón no estimulan los autos precisamente."
+    },
     {
      "video_id": "0_ua1dXLT5o",
      "channel": "?",
@@ -9645,22 +9733,6 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "SE PARECE AL VENDEDOR DE AUTOS DE LOS SIMPSONS"
-    },
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "honestamente, no los envidio. El lujo vulgar esta ahi."
-    },
-    {
-     "video_id": "kDbkbzy_ASA",
-     "channel": "OLGA",
-     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "por qué hay autos sin patente"
     }
    ]
   }
@@ -9931,8 +10003,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 19,
   "chat_signals": {
-   "n_msgs": 37,
-   "n_authors": 35,
+   "n_msgs": 39,
+   "n_authors": 37,
    "programs": [
     {
      "video_id": "e3av_6yqgHg",
@@ -10296,13 +10368,21 @@
     "t_seconds": 4200
    }
   ],
-  "highlights_total": 60,
+  "highlights_total": 61,
   "evidence_lane": "corroborated",
-  "audio_programs": 35,
+  "audio_programs": 36,
   "chat_signals": {
-   "n_msgs": 31,
-   "n_authors": 25,
+   "n_msgs": 64,
+   "n_authors": 57,
    "programs": [
+    {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 32,
+     "n_authors": 31,
+     "ejemplo": "no es que no tienen idea, no les importa. es violencia economica hacia la madre"
+    },
     {
      "video_id": "JNLpggdieek",
      "channel": "Vorterix",
@@ -10358,17 +10438,17 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "SABEN LO QUE PASO CON EL DESVIO DE VISUALIZACIONES DE CARAJO A BLENDER, FUE LO QUE GENERÓ LA CALENTURA DEL GORDO DAN"
-    },
-    {
-     "video_id": "qLQFv3bGuhA",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 3,
-     "n_authors": 1,
-     "ejemplo": "#SaleChorroEntraOffShore Queremos el análisis desapasionado de Martin Genero que es nuestra Lilia Lemoine"
     }
    ],
    "chat_only_programs": [
+    {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 32,
+     "n_authors": 31,
+     "ejemplo": "no es que no tienen idea, no les importa. es violencia economica hacia la madre"
+    },
     {
      "video_id": "JNLpggdieek",
      "channel": "Vorterix",
@@ -10400,14 +10480,6 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "DOMA LA VIOLENCIA INTRA FAMILEAR"
-    },
-    {
-     "video_id": "qLQFv3bGuhA",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 3,
-     "n_authors": 1,
-     "ejemplo": "#SaleChorroEntraOffShore Queremos el análisis desapasionado de Martin Genero que es nuestra Lilia Lemoine"
     }
    ]
   }
@@ -10825,10 +10897,10 @@
   ],
   "highlights_total": 14,
   "evidence_lane": "corroborated",
-  "audio_programs": 11,
+  "audio_programs": 12,
   "chat_signals": {
-   "n_msgs": 16,
-   "n_authors": 14,
+   "n_msgs": 17,
+   "n_authors": 15,
    "programs": [
     {
      "video_id": "0_ua1dXLT5o",
@@ -11370,8 +11442,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 9,
   "chat_signals": {
-   "n_msgs": 51,
-   "n_authors": 45,
+   "n_msgs": 53,
+   "n_authors": 46,
    "programs": [
     {
      "video_id": "0_ua1dXLT5o",
@@ -11714,6 +11786,17 @@
     "t_seconds": 6600
    },
    {
+    "channel": "BLENDER",
+    "video_id": "Iii3dqMJvwQ",
+    "title": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
+    "date": "20260629",
+    "subtema": "Lautaro Martínez - transferencias",
+    "contexto": "Se menciona que Barcelona y Real Madrid lo están buscando durante el Mundial, situación que lo distrae",
+    "intensidad": 2,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
     "channel": "LUZU TV",
     "video_id": "fnvj0iK5yDI",
     "title": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
@@ -11734,6 +11817,17 @@
     "intensidad": 2,
     "start_min": 50,
     "t_seconds": 3000
+   },
+   {
+    "channel": "BLENDER",
+    "video_id": "Iii3dqMJvwQ",
+    "title": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
+    "date": "20260629",
+    "subtema": "Lautaro Martínez como titular",
+    "contexto": "Análisis de su gol en el Mundial y posición como titular vs Julián Álvarez",
+    "intensidad": 2,
+    "start_min": 90,
+    "t_seconds": 5400
    },
    {
     "channel": " A U R A ",
@@ -11758,12 +11852,12 @@
     "t_seconds": 3600
    }
   ],
-  "highlights_total": 13,
+  "highlights_total": 15,
   "evidence_lane": "corroborated",
-  "audio_programs": 14,
+  "audio_programs": 15,
   "chat_signals": {
-   "n_msgs": 53,
-   "n_authors": 46,
+   "n_msgs": 56,
+   "n_authors": 49,
    "programs": [
     {
      "video_id": "2sxqtU8XXTQ",
@@ -11822,12 +11916,12 @@
      "ejemplo": "lautaro es de bahia tambien"
     },
     {
-     "video_id": "0_ua1dXLT5o",
+     "video_id": "-FYveSXX_NA",
      "channel": "?",
      "title": "",
      "n_msgs": 1,
      "n_authors": 1,
-     "ejemplo": "@mariaaaaa-d6d Licha Martínez es compa"
+     "ejemplo": "en italia aman a lautaro y a Messi"
     }
    ],
    "chat_only_programs": [
@@ -12013,6 +12107,17 @@
     "t_seconds": 7800
    },
    {
+    "channel": "Vorterix",
+    "video_id": "3AxUr1Maqu8",
+    "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
+    "date": "20260630",
+    "subtema": "Gastronomía en eventos",
+    "contexto": "Anécdota sobre comer en lugares no autorizados, tartar, pulpo en eventos del Mundial",
+    "intensidad": 1,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
     "channel": "BLENDER",
     "video_id": "gbs55KwjTeA",
     "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
@@ -12046,9 +12151,9 @@
     "t_seconds": 1800
    }
   ],
-  "highlights_total": 12,
+  "highlights_total": 13,
   "evidence_lane": "audio",
-  "audio_programs": 9,
+  "audio_programs": 11,
   "chat_signals": {
    "n_msgs": 0,
    "n_authors": 0,
@@ -12638,8 +12743,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 15,
   "chat_signals": {
-   "n_msgs": 324,
-   "n_authors": 285,
+   "n_msgs": 368,
+   "n_authors": 321,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -12690,20 +12795,20 @@
      "ejemplo": "la gran vuelta de la meads a Lucas"
     },
     {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 11,
+     "n_authors": 9,
+     "ejemplo": "una gran mayoría de nosotros estamos viviendo gracias a unas madres que nos cargaron al hombro"
+    },
+    {
      "video_id": "8lOkxIDSd4w",
      "channel": "OLGA",
      "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
      "n_msgs": 10,
      "n_authors": 9,
      "ejemplo": "MI HERMANO MURIO LUQUI"
-    },
-    {
-     "video_id": "tlhTO7YtTJ0",
-     "channel": "GELATINA",
-     "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
-     "n_msgs": 10,
-     "n_authors": 9,
-     "ejemplo": "que gran trabajo Mati y equipo"
     }
    ],
    "chat_only_programs": [
@@ -12906,8 +13011,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 9,
   "chat_signals": {
-   "n_msgs": 21,
-   "n_authors": 19,
+   "n_msgs": 23,
+   "n_authors": 21,
    "programs": [
     {
      "video_id": "JNLpggdieek",
@@ -12950,6 +13055,14 @@
      "ejemplo": "q comentario d poco deporte lucqui jajaja"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "POR ALGO CAYE PERDIO TANTA GUTIA, POR CREER QUE SABIA DE DEPORTE"
+    },
+    {
      "video_id": "8lOkxIDSd4w",
      "channel": "OLGA",
      "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
@@ -12964,14 +13077,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "jjajajajaa pick del deporte"
-    },
-    {
-     "video_id": "LjEHjrbNNgs",
-     "channel": "Vorterix",
-     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "el caudillo del deporte :clapping_hands::clapping_hands::clapping_hands::clapping_hands::clapping_hands:"
     }
    ],
    "chat_only_programs": [
@@ -13008,12 +13113,12 @@
      "ejemplo": "q comentario d poco deporte lucqui jajaja"
     },
     {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
      "n_msgs": 1,
      "n_authors": 1,
-     "ejemplo": "Se jugaron 20 MUNDIALES, nunca lo hicieron. ES OTRO DEPORTE ESTEEEE"
+     "ejemplo": "POR ALGO CAYE PERDIO TANTA GUTIA, POR CREER QUE SABIA DE DEPORTE"
     }
    ]
   }
@@ -13515,8 +13620,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 33,
   "chat_signals": {
-   "n_msgs": 75,
-   "n_authors": 68,
+   "n_msgs": 92,
+   "n_authors": 82,
    "programs": [
     {
      "video_id": "3CPnLRc7h2w",
@@ -13541,6 +13646,14 @@
      "n_msgs": 6,
      "n_authors": 6,
      "ejemplo": "@MarianaGiordano-j4j en la rock and pop ?"
+    },
+    {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 7,
+     "n_authors": 5,
+     "ejemplo": "lo último del rock argentino"
     },
     {
      "video_id": "JXVQmuDctII",
@@ -13573,14 +13686,6 @@
      "n_msgs": 5,
      "n_authors": 4,
      "ejemplo": "@Zhoram deja de tomar cafe la virginia toma nacional cabrales"
-    },
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "ROCK Y FULBO"
     }
    ],
    "chat_only_programs": [
@@ -13601,6 +13706,14 @@
      "ejemplo": "@MarianaGiordano-j4j en la rock and pop ?"
     },
     {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 7,
+     "n_authors": 5,
+     "ejemplo": "lo último del rock argentino"
+    },
+    {
      "video_id": "LjEHjrbNNgs",
      "channel": "Vorterix",
      "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
@@ -13615,14 +13728,6 @@
      "n_msgs": 5,
      "n_authors": 4,
      "ejemplo": "@Zhoram deja de tomar cafe la virginia toma nacional cabrales"
-    },
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "ROCK Y FULBO"
     }
    ]
   }
@@ -13890,7 +13995,7 @@
   ],
   "highlights_total": 24,
   "evidence_lane": "corroborated",
-  "audio_programs": 27,
+  "audio_programs": 28,
   "chat_signals": {
    "n_msgs": 5,
    "n_authors": 3,
@@ -14442,12 +14547,12 @@
     "t_seconds": 4800
    }
   ],
-  "highlights_total": 135,
+  "highlights_total": 137,
   "evidence_lane": "corroborated",
-  "audio_programs": 68,
+  "audio_programs": 70,
   "chat_signals": {
-   "n_msgs": 45,
-   "n_authors": 40,
+   "n_msgs": 49,
+   "n_authors": 43,
    "programs": [
     {
      "video_id": "IB9cCJT0-_M",
@@ -14482,6 +14587,14 @@
      "ejemplo": "La unica forma de escapar de la supuesta mediocridad es pegarla en redes"
     },
     {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 2,
+     "ejemplo": "En los 80/90 no había redes sociales y cuando hice juicio por alimentos, los jefes y tíos le aconsejaron renunciar, así que con 21 años y 2 hijas muy pequeñas, "
+    },
+    {
      "video_id": "W_HkPNOMeDc",
      "channel": "OLGA",
      "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
@@ -14504,14 +14617,6 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "@natigolas xq mostraron un video con la última torre terminada. Esta en las redes el video"
-    },
-    {
-     "video_id": "3t9P2KFJ4K0",
-     "channel": "Vorterix",
-     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-     "n_msgs": 2,
-     "n_authors": 1,
-     "ejemplo": "CRITICAR AL MUNDIAL, MARITO, NO NOS TOMES POR GI LES, PARECES NANCY PAZOS... QUE TENES EL TERMOMETRO MUNDIALISTA EN EL OR TO ? MIRA LAS REDES ..."
     }
    ],
    "chat_only_programs": [
@@ -14548,12 +14653,12 @@
      "ejemplo": "La unica forma de escapar de la supuesta mediocridad es pegarla en redes"
     },
     {
-     "video_id": "ptOHcGEdWCk",
-     "channel": "OLGA",
-     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
-     "n_msgs": 2,
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
      "n_authors": 2,
-     "ejemplo": "QUÉ NOSTALGIA extraño Redes"
+     "ejemplo": "En los 80/90 no había redes sociales y cuando hice juicio por alimentos, los jefes y tíos le aconsejaron renunciar, así que con 21 años y 2 hijas muy pequeñas, "
     }
    ]
   }
@@ -14658,8 +14763,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 5,
   "chat_signals": {
-   "n_msgs": 28,
-   "n_authors": 22,
+   "n_msgs": 32,
+   "n_authors": 26,
    "programs": [
     {
      "video_id": "XYJRLyO9exg",
@@ -14969,8 +15074,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 14,
   "chat_signals": {
-   "n_msgs": 38,
-   "n_authors": 34,
+   "n_msgs": 40,
+   "n_authors": 35,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -15013,6 +15118,14 @@
      "ejemplo": "un baile para julio"
     },
     {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "que baile noly eio"
+    },
+    {
      "video_id": "LE5ICiVWzT8",
      "channel": "Vorterix",
      "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
@@ -15027,14 +15140,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "El baile que le está pegando Japón..."
-    },
-    {
-     "video_id": "8XGdbbwUjEQ",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "el baile de la boetlla esta haciendo"
     }
    ],
    "chat_only_programs": [
@@ -15063,20 +15168,20 @@
      "ejemplo": "nos van a dar un baile hoy"
     },
     {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "que baile noly eio"
+    },
+    {
      "video_id": "LE5ICiVWzT8",
      "channel": "Vorterix",
      "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
      "n_msgs": 3,
      "n_authors": 1,
      "ejemplo": "Francia a media máquina fue un baile igual."
-    },
-    {
-     "video_id": "0_ua1dXLT5o",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "El baile que le está pegando Japón..."
     }
    ]
   }
@@ -15211,8 +15316,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 6,
   "chat_signals": {
-   "n_msgs": 37,
-   "n_authors": 35,
+   "n_msgs": 43,
+   "n_authors": 41,
    "programs": [
     {
      "video_id": "ptOHcGEdWCk",
@@ -15231,6 +15336,14 @@
      "ejemplo": "PONGANLE ONDA A LOS AUDIOS PORFA"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 5,
+     "ejemplo": "hasta en los audios habla como pelotttt"
+    },
+    {
      "video_id": "JNLpggdieek",
      "channel": "Vorterix",
      "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
@@ -15269,18 +15382,18 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "MANDEN AUDIOS CON CHISTES"
-    },
-    {
-     "video_id": "04q2g0UfdyA",
-     "channel": "Neura Media",
-     "title": "Multiverso Neura",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "hablen de los audios de adorni"
     }
    ],
    "chat_only_programs": [
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 5,
+     "ejemplo": "hasta en los audios habla como pelotttt"
+    },
+    {
      "video_id": "JNLpggdieek",
      "channel": "Vorterix",
      "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
@@ -15311,14 +15424,6 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "SINONIMANDO AUDIOS VIRALES"
-    },
-    {
-     "video_id": "tcq7UAzc3iw",
-     "channel": "BLENDER",
-     "title": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "MANDEN AUDIOS CON CHISTES"
     }
    ]
   }
@@ -15428,9 +15533,17 @@
   "evidence_lane": "corroborated",
   "audio_programs": 6,
   "chat_signals": {
-   "n_msgs": 28,
-   "n_authors": 25,
+   "n_msgs": 36,
+   "n_authors": 33,
    "programs": [
+    {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": "HABLA COMO COLAPINTO"
+    },
     {
      "video_id": "04q2g0UfdyA",
      "channel": "Neura Media",
@@ -15486,17 +15599,17 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "Franco no sigue cobrando.... ahhh"
-    },
-    {
-     "video_id": "A_ww0XRZnps",
-     "channel": "BLENDER",
-     "title": "¿NOS INVADEN O QUÉ?, ODIADOS CON EL ALGORITMO y  LA CRISIS DE LA COLO  | ÚLTIMO AVISO | BLENDER",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "kami franco"
     }
    ],
    "chat_only_programs": [
+    {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": "HABLA COMO COLAPINTO"
+    },
     {
      "video_id": "04q2g0UfdyA",
      "channel": "Neura Media",
@@ -15528,14 +15641,6 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "ES IGUALA FRANCO SU PAPA"
-    },
-    {
-     "video_id": "LjEHjrbNNgs",
-     "channel": "Vorterix",
-     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "habla de colapinto pabloooooooo"
     }
    ]
   }
@@ -15978,23 +16083,23 @@
     "t_seconds": 3600
    },
    {
-    "channel": "OLGA",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "date": "20260623",
-    "subtema": "Periodismo deportivo",
-    "contexto": "Mención de formación en Universidad Maimoni de Periodismo Deportivo",
+    "channel": "Vorterix",
+    "video_id": "3AxUr1Maqu8",
+    "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
+    "date": "20260630",
+    "subtema": "Cobertura de evento deportivo",
+    "contexto": "Periodista Fernando de Santa Fe cubriendo evento, mencionan viáticos del Litoral",
     "intensidad": 1,
-    "start_min": 210,
-    "t_seconds": 12600
+    "start_min": 70,
+    "t_seconds": 4200
    }
   ],
-  "highlights_total": 20,
+  "highlights_total": 21,
   "evidence_lane": "corroborated",
-  "audio_programs": 18,
+  "audio_programs": 19,
   "chat_signals": {
-   "n_msgs": 36,
-   "n_authors": 35,
+   "n_msgs": 39,
+   "n_authors": 38,
    "programs": [
     {
      "video_id": "q_clAienUJw",
@@ -16177,8 +16282,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 5,
   "chat_signals": {
-   "n_msgs": 5,
-   "n_authors": 5,
+   "n_msgs": 6,
+   "n_authors": 6,
    "programs": [
     {
      "video_id": "bX7MB2_OI2I",
@@ -16187,6 +16292,14 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "NO FALLA ESTA FORMULA LOZANO+MONTERO"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "jamoncito, y porqué se te cerró el OGT y no cambiaste la fórmula de la inflación? porque sabes que mentis tanto como robás... a dos manos!!!"
     },
     {
      "video_id": "C6BZb4k8gF0",
@@ -16221,6 +16334,14 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "NO FALLA ESTA FORMULA LOZANO+MONTERO"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "jamoncito, y porqué se te cerró el OGT y no cambiaste la fórmula de la inflación? porque sabes que mentis tanto como robás... a dos manos!!!"
     },
     {
      "video_id": "C6BZb4k8gF0",
@@ -16333,8 +16454,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 23,
   "chat_signals": {
-   "n_msgs": 101,
-   "n_authors": 82,
+   "n_msgs": 119,
+   "n_authors": 97,
    "programs": [
     {
      "video_id": "qLQFv3bGuhA",
@@ -16361,6 +16482,14 @@
      "ejemplo": "libre"
     },
     {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 9,
+     "n_authors": 6,
+     "ejemplo": "mercado salvaje"
+    },
+    {
      "video_id": "8XGdbbwUjEQ",
      "channel": "?",
      "title": "",
@@ -16385,20 +16514,12 @@
      "ejemplo": "los mandó a otras tierras porque quería el nido solo y tener su cueva de macho libre con jueguito de pinball"
     },
     {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
      "n_msgs": 4,
      "n_authors": 4,
-     "ejemplo": "Piedra libre Liska"
-    },
-    {
-     "video_id": "7ON4ZA5TtHc",
-     "channel": "Neura Media",
-     "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
-     "n_msgs": 5,
-     "n_authors": 3,
-     "ejemplo": "Mercado cayendo? Oportunidad de compra, siempre que cumpla con sus estrategias!!!"
+     "ejemplo": "mi Futbol Libre"
     }
    ],
    "chat_only_programs": [
@@ -16427,20 +16548,20 @@
      "ejemplo": "libre"
     },
     {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 9,
+     "n_authors": 6,
+     "ejemplo": "mercado salvaje"
+    },
+    {
      "video_id": "8XGdbbwUjEQ",
      "channel": "?",
      "title": "",
      "n_msgs": 7,
      "n_authors": 5,
      "ejemplo": "cuanta gente q solo habla mal de los integrantes de este programa , cuanto tiempo libre tienen.. vayan a veo otra cosa viejo"
-    },
-    {
-     "video_id": "LjEHjrbNNgs",
-     "channel": "Vorterix",
-     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-     "n_msgs": 5,
-     "n_authors": 5,
-     "ejemplo": "PIEDRA LIBRE PARA NAVAJA QUE SE INYECTO MARIJUANA"
     }
    ]
   }
@@ -16765,12 +16886,12 @@
     "t_seconds": 4200
    }
   ],
-  "highlights_total": 84,
+  "highlights_total": 85,
   "evidence_lane": "corroborated",
-  "audio_programs": 59,
+  "audio_programs": 60,
   "chat_signals": {
-   "n_msgs": 114,
-   "n_authors": 90,
+   "n_msgs": 122,
+   "n_authors": 96,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -16989,9 +17110,17 @@
   "evidence_lane": "corroborated",
   "audio_programs": 6,
   "chat_signals": {
-   "n_msgs": 10,
-   "n_authors": 9,
+   "n_msgs": 14,
+   "n_authors": 13,
    "programs": [
+    {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "ES BAD BUNNY"
+    },
     {
      "video_id": "O6sOwvMbRBU",
      "channel": "?",
@@ -17023,6 +17152,14 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "porque pienso que lo de bad bunny en river fue hace 20 años? todo pasa tan rápido"
+    },
+    {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "bugs bunny estaria contento"
     },
     {
      "video_id": "bYaixTloEdo",
@@ -17043,6 +17180,14 @@
    ],
    "chat_only_programs": [
     {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "ES BAD BUNNY"
+    },
+    {
      "video_id": "O6sOwvMbRBU",
      "channel": "?",
      "title": "",
@@ -17073,14 +17218,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "porque pienso que lo de bad bunny en river fue hace 20 años? todo pasa tan rápido"
-    },
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Los veo así y suena bastante bunny de fondo BE BE BE BE BE BBBBB"
     }
    ]
   }
@@ -17166,10 +17303,10 @@
   ],
   "highlights_total": 4,
   "evidence_lane": "corroborated",
-  "audio_programs": 75,
+  "audio_programs": 77,
   "chat_signals": {
-   "n_msgs": 345,
-   "n_authors": 280,
+   "n_msgs": 374,
+   "n_authors": 304,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -17228,12 +17365,12 @@
      "ejemplo": "MARTI EN MIAMI VIVE CALLE Y POCHÉ, POR FAVOOOOR NECESITO UQE SSE MEZCLEN MIS MULTIVERSOS"
     },
     {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 9,
-     "n_authors": 9,
-     "ejemplo": "Todos degenerados yo argentino"
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 10,
+     "n_authors": 10,
+     "ejemplo": "SE FUÉ A MIAMI CON TU SAQUITO VERNACII"
     }
    ],
    "chat_only_programs": [
@@ -17260,6 +17397,14 @@
      "n_msgs": 18,
      "n_authors": 14,
      "ejemplo": "MARTI EN MIAMI VIVE CALLE Y POCHÉ, POR FAVOOOOR NECESITO UQE SSE MEZCLEN MIS MULTIVERSOS"
+    },
+    {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 10,
+     "n_authors": 10,
+     "ejemplo": "SE FUÉ A MIAMI CON TU SAQUITO VERNACII"
     }
    ]
   }
@@ -17423,8 +17568,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 16,
   "chat_signals": {
-   "n_msgs": 15,
-   "n_authors": 14,
+   "n_msgs": 19,
+   "n_authors": 17,
    "programs": [
     {
      "video_id": "04q2g0UfdyA",
@@ -17435,6 +17580,14 @@
      "ejemplo": "Cómo no va a estar mal la construcción si todos los Paraguayos están en el mundial"
     },
     {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Los que nos dedicamos a la construcción estamos hechos trizas!"
+    },
+    {
      "video_id": "HTm_q34CwyM",
      "channel": "AHORA PLAY",
      "title": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
@@ -17465,6 +17618,14 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "de la construcción"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "HOY LAS OBRAS EN CONSTRUCCION ESTAN TODAS DE FERIADO"
     },
     {
      "video_id": "8lOkxIDSd4w",
@@ -17473,25 +17634,17 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "la de meter objetos de construcción qué ni sabés el nombre es buena. cómo el peroque"
-    },
-    {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "ay, no es una construcción social"
-    },
-    {
-     "video_id": "NHt6oqHZYd0",
-     "channel": "GELATINA",
-     "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "MACRI BLANCO = BUENO / MACRI NEGRO = MALO. VAN POR UNA CONSTRUCCION NARRATIVA DIRECTA/INDIRECTA"
     }
    ],
    "chat_only_programs": [
+    {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Los que nos dedicamos a la construcción estamos hechos trizas!"
+    },
     {
      "video_id": "HTm_q34CwyM",
      "channel": "AHORA PLAY",
@@ -17523,14 +17676,6 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "de la construcción"
-    },
-    {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "ay, no es una construcción social"
     }
    ]
   }
@@ -17849,10 +17994,10 @@
   ],
   "highlights_total": 11,
   "evidence_lane": "corroborated",
-  "audio_programs": 20,
+  "audio_programs": 21,
   "chat_signals": {
-   "n_msgs": 132,
-   "n_authors": 93,
+   "n_msgs": 141,
+   "n_authors": 97,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -18271,8 +18416,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 19,
   "chat_signals": {
-   "n_msgs": 17,
-   "n_authors": 13,
+   "n_msgs": 18,
+   "n_authors": 14,
    "programs": [
     {
      "video_id": "3QJmfDvuxIk",
@@ -18331,12 +18476,12 @@
      "ejemplo": "los personajes del mundial"
     },
     {
-     "video_id": "XHV2BV9DWMs",
-     "channel": "OLGA",
-     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+     "video_id": "FQ2cHqcRZbQ",
+     "channel": "?",
+     "title": "",
      "n_msgs": 1,
      "n_authors": 1,
-     "ejemplo": "COMO QUE RECIEN DESCUBREN ESA PEDALERA DE VOCES!!??? SIEMPRE CORDOBECES LOS PERSONAJES Y TENIAN ESO AHI BOOO jajajajajjjajaj"
+     "ejemplo": "Pero no te llevas una impresión errónea mirando las redes? Todos son medio personajes ahí."
     }
    ],
    "chat_only_programs": [
@@ -18642,8 +18787,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 19,
   "chat_signals": {
-   "n_msgs": 2,
-   "n_authors": 2,
+   "n_msgs": 3,
+   "n_authors": 3,
    "programs": [
     {
      "video_id": "8XGdbbwUjEQ",
@@ -18652,6 +18797,14 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "horrible,al menos la de Uruguay parece de entrenamiento esas camisetas Maxi"
+    },
+    {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": ":diamond_suit: Saber hacerlo implica entrenamiento"
     },
     {
      "video_id": "kDbkbzy_ASA",
@@ -18670,6 +18823,14 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "horrible,al menos la de Uruguay parece de entrenamiento esas camisetas Maxi"
+    },
+    {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": ":diamond_suit: Saber hacerlo implica entrenamiento"
     },
     {
      "video_id": "kDbkbzy_ASA",
@@ -18948,8 +19109,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 25,
   "chat_signals": {
-   "n_msgs": 172,
-   "n_authors": 144,
+   "n_msgs": 180,
+   "n_authors": 150,
    "programs": [
     {
      "video_id": "EwFONN3W5cg",
@@ -19349,12 +19510,12 @@
     "t_seconds": 6000
    }
   ],
-  "highlights_total": 212,
+  "highlights_total": 217,
   "evidence_lane": "corroborated",
-  "audio_programs": 109,
+  "audio_programs": 111,
   "chat_signals": {
-   "n_msgs": 428,
-   "n_authors": 342,
+   "n_msgs": 464,
+   "n_authors": 369,
    "programs": [
     {
      "video_id": "8XGdbbwUjEQ",
@@ -19405,20 +19566,20 @@
      "ejemplo": "El álbum del mundial que le da Pau es sobre plantas"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 19,
+     "n_authors": 14,
+     "ejemplo": "Javier lo digo por lo que le paso a Boca con Pavon, casi pagaban 20 palos y Angelici decidió no venderlo porque pensaba que en el mundial de rusia la rompía y a"
+    },
+    {
      "video_id": "FYdwwoHNrMs",
      "channel": "Vorterix",
      "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
      "n_msgs": 14,
      "n_authors": 13,
      "ejemplo": "los neuros al especial mundial 90"
-    },
-    {
-     "video_id": "NHt6oqHZYd0",
-     "channel": "GELATINA",
-     "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
-     "n_msgs": 13,
-     "n_authors": 13,
-     "ejemplo": "asistencia de Sofi"
     }
    ],
    "chat_only_programs": [
@@ -19437,6 +19598,14 @@
      "n_msgs": 35,
      "n_authors": 25,
      "ejemplo": "lo bombearon todo el mundial a Iran"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 19,
+     "n_authors": 14,
+     "ejemplo": "Javier lo digo por lo que le paso a Boca con Pavon, casi pagaban 20 palos y Angelici decidió no venderlo porque pensaba que en el mundial de rusia la rompía y a"
     }
    ]
   }
@@ -19586,8 +19755,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 7,
   "chat_signals": {
-   "n_msgs": 53,
-   "n_authors": 49,
+   "n_msgs": 61,
+   "n_authors": 55,
    "programs": [
     {
      "video_id": "tAUTd2FsMxA",
@@ -19638,20 +19807,20 @@
      "ejemplo": "Te extrañamos Alberto"
     },
     {
+     "video_id": "zpbJ8ju9xmk",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "ese que habla de astronomia es ALBERTO ROJO jejeje DOCTOR EN FISICA NUCLEAR"
+    },
+    {
      "video_id": "C6BZb4k8gF0",
      "channel": "BLENDER",
      "title": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "nunca mas un socialdemócrata por favor , basta d kicillof alberto santoro guzman"
-    },
-    {
-     "video_id": "WNe6QLgDfyM",
-     "channel": "OLGA",
-     "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "de los peores gobiernos y eso que Fernandez tuvo pandemia y tuvimos a Macri"
     }
    ],
    "chat_only_programs": [
@@ -19881,10 +20050,10 @@
   ],
   "highlights_total": 12,
   "evidence_lane": "corroborated",
-  "audio_programs": 70,
+  "audio_programs": 72,
   "chat_signals": {
-   "n_msgs": 37,
-   "n_authors": 32,
+   "n_msgs": 42,
+   "n_authors": 36,
    "programs": [
     {
      "video_id": "0_ua1dXLT5o",
@@ -19909,6 +20078,14 @@
      "n_msgs": 3,
      "n_authors": 2,
      "ejemplo": "La unica forma de escapar de la supuesta mediocridad es pegarla en redes"
+    },
+    {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 2,
+     "ejemplo": "En los 80/90 no había redes sociales y cuando hice juicio por alimentos, los jefes y tíos le aconsejaron renunciar, así que con 21 años y 2 hijas muy pequeñas, "
     },
     {
      "video_id": "bX7MB2_OI2I",
@@ -19941,14 +20118,6 @@
      "n_msgs": 2,
      "n_authors": 1,
      "ejemplo": "CRITICAR AL MUNDIAL, MARITO, NO NOS TOMES POR GI LES, PARECES NANCY PAZOS... QUE TENES EL TERMOMETRO MUNDIALISTA EN EL OR TO ? MIRA LAS REDES ..."
-    },
-    {
-     "video_id": "U8f_2vIvO7Y",
-     "channel": "Urbana Play 104.3 FM",
-     "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
-     "n_msgs": 2,
-     "n_authors": 1,
-     "ejemplo": "en redes sociales imaginate"
     }
    ],
    "chat_only_programs": [
@@ -19977,20 +20146,20 @@
      "ejemplo": "La unica forma de escapar de la supuesta mediocridad es pegarla en redes"
     },
     {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 2,
+     "ejemplo": "En los 80/90 no había redes sociales y cuando hice juicio por alimentos, los jefes y tíos le aconsejaron renunciar, así que con 21 años y 2 hijas muy pequeñas, "
+    },
+    {
      "video_id": "bX7MB2_OI2I",
      "channel": "OLGA",
      "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "gente del programa...... lo que hace Lumumba.... es mantener viva la imagen y el nombre de un referente de los derechos humanos y sociales del Congo.... en los "
-    },
-    {
-     "video_id": "ptOHcGEdWCk",
-     "channel": "OLGA",
-     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "QUÉ NOSTALGIA extraño Redes"
     }
    ]
   }
@@ -20580,8 +20749,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 23,
   "chat_signals": {
-   "n_msgs": 21,
-   "n_authors": 19,
+   "n_msgs": 24,
+   "n_authors": 22,
    "programs": [
     {
      "video_id": "XYJRLyO9exg",
@@ -20624,6 +20793,14 @@
      "ejemplo": "buena ocasión para recordar la importancia de la EDUCACION VIAL!!!"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "la educacion y el conocimiento es un pilar real"
+    },
+    {
      "video_id": "3CPnLRc7h2w",
      "channel": "Vorterix",
      "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
@@ -20632,20 +20809,12 @@
      "ejemplo": "NO A LAS MALAS PALABTAS. DONDE ESTA LA EDUCACIÓN QUE PREGONAS"
     },
     {
-     "video_id": "8XGdbbwUjEQ",
+     "video_id": "3jZ7O8XoQyY",
      "channel": "?",
      "title": "",
      "n_msgs": 1,
      "n_authors": 1,
-     "ejemplo": "Estoy a favor de la gratitud de la educación pública"
-    },
-    {
-     "video_id": "A_ww0XRZnps",
-     "channel": "BLENDER",
-     "title": "¿NOS INVADEN O QUÉ?, ODIADOS CON EL ALGORITMO y  LA CRISIS DE LA COLO  | ÚLTIMO AVISO | BLENDER",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Son de clase de educacion fisica"
+     "ejemplo": "China es el futuro porque planifica la educación universitaria de sus jóvenes"
     }
    ],
    "chat_only_programs": [
@@ -20674,20 +20843,20 @@
      "ejemplo": "buena ocasión para recordar la importancia de la EDUCACION VIAL!!!"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "la educacion y el conocimiento es un pilar real"
+    },
+    {
      "video_id": "3CPnLRc7h2w",
      "channel": "Vorterix",
      "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "NO A LAS MALAS PALABTAS. DONDE ESTA LA EDUCACIÓN QUE PREGONAS"
-    },
-    {
-     "video_id": "8XGdbbwUjEQ",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Estoy a favor de la gratitud de la educación pública"
     }
    ]
   }
@@ -20820,10 +20989,10 @@
   ],
   "highlights_total": 7,
   "evidence_lane": "corroborated",
-  "audio_programs": 72,
+  "audio_programs": 74,
   "chat_signals": {
-   "n_msgs": 45,
-   "n_authors": 40,
+   "n_msgs": 50,
+   "n_authors": 44,
    "programs": [
     {
      "video_id": "e3av_6yqgHg",
@@ -20858,6 +21027,14 @@
      "ejemplo": "La unica forma de escapar de la supuesta mediocridad es pegarla en redes"
     },
     {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 2,
+     "ejemplo": "En los 80/90 no había redes sociales y cuando hice juicio por alimentos, los jefes y tíos le aconsejaron renunciar, así que con 21 años y 2 hijas muy pequeñas, "
+    },
+    {
      "video_id": "bX7MB2_OI2I",
      "channel": "OLGA",
      "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
@@ -20880,14 +21057,6 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "@natigolas xq mostraron un video con la última torre terminada. Esta en las redes el video"
-    },
-    {
-     "video_id": "tlhTO7YtTJ0",
-     "channel": "GELATINA",
-     "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "y si, es una adiccion eso.."
     }
    ],
    "chat_only_programs": [
@@ -20916,20 +21085,20 @@
      "ejemplo": "La unica forma de escapar de la supuesta mediocridad es pegarla en redes"
     },
     {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 2,
+     "ejemplo": "En los 80/90 no había redes sociales y cuando hice juicio por alimentos, los jefes y tíos le aconsejaron renunciar, así que con 21 años y 2 hijas muy pequeñas, "
+    },
+    {
      "video_id": "bX7MB2_OI2I",
      "channel": "OLGA",
      "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "gente del programa...... lo que hace Lumumba.... es mantener viva la imagen y el nombre de un referente de los derechos humanos y sociales del Congo.... en los "
-    },
-    {
-     "video_id": "ptOHcGEdWCk",
-     "channel": "OLGA",
-     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "QUÉ NOSTALGIA extraño Redes"
     }
    ]
   }
@@ -21210,8 +21379,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 21,
   "chat_signals": {
-   "n_msgs": 11,
-   "n_authors": 10,
+   "n_msgs": 13,
+   "n_authors": 12,
    "programs": [
     {
      "video_id": "JNLpggdieek",
@@ -21246,6 +21415,14 @@
      "ejemplo": "No tomo torrado, es abuso la diferencia"
     },
     {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "muy sexual esa maquina"
+    },
+    {
      "video_id": "NHt6oqHZYd0",
      "channel": "GELATINA",
      "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
@@ -21268,14 +21445,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "la educación sexual es y fué MUY diferente entre varones y entre mujeres. por éso las MUJERES tienen otra responsabilidad y otra mentalidad.."
-    },
-    {
-     "video_id": "e3av_6yqgHg",
-     "channel": "OLGA",
-     "title": "NOS SOMETEMOS AL CASCO DE LA VERDAD | #SoñéQueVolaba 29/6",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "exacto, el abuso no es tu responsabilidad"
     }
    ],
    "chat_only_programs": [
@@ -21304,20 +21473,20 @@
      "ejemplo": "No tomo torrado, es abuso la diferencia"
     },
     {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "muy sexual esa maquina"
+    },
+    {
      "video_id": "NHt6oqHZYd0",
      "channel": "GELATINA",
      "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "Che que saben de la denuncia de abuso al futbolista de Cabo verde?"
-    },
-    {
-     "video_id": "WOYbd42V47w",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "La trabajadora sexual"
     }
    ]
   }
@@ -21467,8 +21636,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 7,
   "chat_signals": {
-   "n_msgs": 68,
-   "n_authors": 57,
+   "n_msgs": 74,
+   "n_authors": 63,
    "programs": [
     {
      "video_id": "IsK6-fLD-VQ",
@@ -21753,9 +21922,17 @@
   "evidence_lane": "corroborated",
   "audio_programs": 6,
   "chat_signals": {
-   "n_msgs": 12,
-   "n_authors": 12,
+   "n_msgs": 21,
+   "n_authors": 21,
    "programs": [
+    {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": "HABLA COMO COLAPINTO"
+    },
     {
      "video_id": "04q2g0UfdyA",
      "channel": "Neura Media",
@@ -21771,6 +21948,14 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "NO FALLA ESTA FORMULA LOZANO+MONTERO"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "jamoncito, y porqué se te cerró el OGT y no cambiaste la fórmula de la inflación? porque sabes que mentis tanto como robás... a dos manos!!!"
     },
     {
      "video_id": "C6BZb4k8gF0",
@@ -21803,25 +21988,17 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "habla de colapinto pabloooooooo"
-    },
-    {
-     "video_id": "UlE50hJOMJg",
-     "channel": "Neura Media",
-     "title": "Multiverso Neura",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "PODRIAMOS HABLAR UN POQUITO DE COLAPINTO"
-    },
-    {
-     "video_id": "qLQFv3bGuhA",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Axel-Natalia De La Sota va a ser la fórmula"
     }
    ],
    "chat_only_programs": [
+    {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": "HABLA COMO COLAPINTO"
+    },
     {
      "video_id": "04q2g0UfdyA",
      "channel": "Neura Media",
@@ -21839,28 +22016,20 @@
      "ejemplo": "NO FALLA ESTA FORMULA LOZANO+MONTERO"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "jamoncito, y porqué se te cerró el OGT y no cambiaste la fórmula de la inflación? porque sabes que mentis tanto como robás... a dos manos!!!"
+    },
+    {
      "video_id": "C6BZb4k8gF0",
      "channel": "BLENDER",
      "title": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "Pichetto - Villarruel la formula de Moreno. A los botess"
-    },
-    {
-     "video_id": "IubT1ZyjjEA",
-     "channel": "Vorterix",
-     "title": "🔴 ESTO NO SUCEDIÓ con Hernan Panessi, Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "y bueno colapinto le pasa igual"
-    },
-    {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "el miedo de nancy pazos colapinto presidente esta tmb es un sorete"
     }
    ]
   }
@@ -21931,10 +22100,10 @@
   "highlights": [],
   "highlights_total": 0,
   "evidence_lane": "corroborated",
-  "audio_programs": 108,
+  "audio_programs": 110,
   "chat_signals": {
-   "n_msgs": 411,
-   "n_authors": 317,
+   "n_msgs": 470,
+   "n_authors": 361,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -21951,6 +22120,14 @@
      "n_msgs": 33,
      "n_authors": 25,
      "ejemplo": "que venga a la argentina a manejar el coso ese... 3 cuadras dura"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 23,
+     "n_authors": 19,
+     "ejemplo": "tenemos una historia común, sé que en Argentina hubo otras olas migratorias europeas posteriores, pero igual en Brasil, en Uruguay, en Colom ia y en México"
     },
     {
      "video_id": "FYdwwoHNrMs",
@@ -21977,28 +22154,20 @@
      "ejemplo": "Argentina vs Cabo verde en unos dias"
     },
     {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 13,
+     "n_authors": 11,
+     "ejemplo": "saludos serrocheres, estuve en Argentina , por Dios el super, 4 veces más que en España en los mismos productos :grimacing_face::grimacing_face:"
+    },
+    {
      "video_id": "JNLpggdieek",
      "channel": "Vorterix",
      "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
      "n_msgs": 12,
      "n_authors": 11,
      "ejemplo": "ADORNI NO LLEGÓ A LOS MEJORES MESES DE ARGENTINA"
-    },
-    {
-     "video_id": "kDbkbzy_ASA",
-     "channel": "OLGA",
-     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
-     "n_msgs": 11,
-     "n_authors": 11,
-     "ejemplo": "cami se volvió a argentina"
-    },
-    {
-     "video_id": "7ON4ZA5TtHc",
-     "channel": "Neura Media",
-     "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
-     "n_msgs": 15,
-     "n_authors": 10,
-     "ejemplo": "Es sobrevivir en Argentina"
     }
    ],
    "chat_only_programs": [
@@ -22019,12 +22188,28 @@
      "ejemplo": "que venga a la argentina a manejar el coso ese... 3 cuadras dura"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 23,
+     "n_authors": 19,
+     "ejemplo": "tenemos una historia común, sé que en Argentina hubo otras olas migratorias europeas posteriores, pero igual en Brasil, en Uruguay, en Colom ia y en México"
+    },
+    {
      "video_id": "NHt6oqHZYd0",
      "channel": "GELATINA",
      "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
      "n_msgs": 16,
      "n_authors": 14,
      "ejemplo": "Argentina vs Cabo verde en unos dias"
+    },
+    {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 13,
+     "n_authors": 11,
+     "ejemplo": "saludos serrocheres, estuve en Argentina , por Dios el super, 4 veces más que en España en los mismos productos :grimacing_face::grimacing_face:"
     }
    ]
   }
@@ -22107,6 +22292,17 @@
     "intensidad": 3,
     "start_min": 100,
     "t_seconds": 6000
+   },
+   {
+    "channel": "BLENDER",
+    "video_id": "Iii3dqMJvwQ",
+    "title": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
+    "date": "20260629",
+    "subtema": "Corrupción y uso de fondos públicos",
+    "contexto": "Debate sobre si Adorni utilizó dinero público para enriquecerse ilícitamente",
+    "intensidad": 3,
+    "start_min": 20,
+    "t_seconds": 1200
    },
    {
     "channel": "LUZU TV",
@@ -22274,13 +22470,21 @@
     "t_seconds": 3600
    }
   ],
-  "highlights_total": 19,
+  "highlights_total": 20,
   "evidence_lane": "corroborated",
-  "audio_programs": 15,
+  "audio_programs": 16,
   "chat_signals": {
-   "n_msgs": 16,
-   "n_authors": 16,
+   "n_msgs": 21,
+   "n_authors": 20,
    "programs": [
+    {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "18 meses virtuosos y creo que la inversión también cayó?"
+    },
     {
      "video_id": "DMOHJbfdIlY",
      "channel": "?",
@@ -22306,6 +22510,14 @@
      "ejemplo": "Entiendo que no hay un etf del merval por la calificación de Argentina. Eso no permite que fondos extranjeros inviertan porque su estatuto no lo permite"
     },
     {
+     "video_id": "-FYveSXX_NA",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "no tengo mas que una billetera virtual.. necesito mi 1 inversion"
+    },
+    {
      "video_id": "3CPnLRc7h2w",
      "channel": "Vorterix",
      "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
@@ -22328,25 +22540,17 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "Estan complicados porque no existio la inversion para ser mas productivos, total tenian el negocio asegurado, ahora se la comen doblada y en silencio"
-    },
-    {
-     "video_id": "LjEHjrbNNgs",
-     "channel": "Vorterix",
-     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "los fondos son asi"
-    },
-    {
-     "video_id": "XYJRLyO9exg",
-     "channel": "Neura Media",
-     "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "desde que se metieron los grandes fondos a tocar BTC y usarlo como palanca, BTC dejo de tener valor per se!!"
     }
    ],
    "chat_only_programs": [
+    {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "18 meses virtuosos y creo que la inversión también cayó?"
+    },
     {
      "video_id": "DMOHJbfdIlY",
      "channel": "?",
@@ -22356,6 +22560,14 @@
      "ejemplo": "QUIEN BANCA este STREAMING de MIERDA? NOSOTROS con los FONDOS RESERVADOS de la SIDE"
     },
     {
+     "video_id": "-FYveSXX_NA",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "no tengo mas que una billetera virtual.. necesito mi 1 inversion"
+    },
+    {
      "video_id": "3CPnLRc7h2w",
      "channel": "Vorterix",
      "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
@@ -22370,22 +22582,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "si sos laburante la Topper negras eran una inversión"
-    },
-    {
-     "video_id": "EPCfCkglZWA",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Estan complicados porque no existio la inversion para ser mas productivos, total tenian el negocio asegurado, ahora se la comen doblada y en silencio"
-    },
-    {
-     "video_id": "LjEHjrbNNgs",
-     "channel": "Vorterix",
-     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "los fondos son asi"
     }
    ]
   }
@@ -22655,8 +22851,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 23,
   "chat_signals": {
-   "n_msgs": 5,
-   "n_authors": 4,
+   "n_msgs": 7,
+   "n_authors": 5,
    "programs": [
     {
      "video_id": "kDbkbzy_ASA",
@@ -22675,6 +22871,22 @@
      "ejemplo": "@novenoshogun3023 gracias por el dato no sabia no banco a ningun partido y me molesta que nos mientan descaradamente los libertarios ni siquiera siguen los indi"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "No llegaron en 3 años las inversiones diosssssss"
+    },
+    {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "LAS INVERSIONES NO LLEGANPORQUE EL PAIS SIGUE SIENDO STAND ALONE TERMINADA LA ULTIMA REVISION MOTIVO RESTRICCIONES CAMBIARIAS CONTROLES DE CAPITALES SE ACABA LA"
+    },
+    {
      "video_id": "Yp0sVPQV8Dk",
      "channel": "El Cronista",
      "title": "¿El RIESGO PAÍS puede caer a 200 puntos? El dato de Yayi Morales que lo CAMBIA TODO",
@@ -22691,6 +22903,22 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "hagan envíos internacionales chicos no sean malos"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "No llegaron en 3 años las inversiones diosssssss"
+    },
+    {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "LAS INVERSIONES NO LLEGANPORQUE EL PAIS SIGUE SIENDO STAND ALONE TERMINADA LA ULTIMA REVISION MOTIVO RESTRICCIONES CAMBIARIAS CONTROLES DE CAPITALES SE ACABA LA"
     },
     {
      "video_id": "Yp0sVPQV8Dk",
@@ -22740,10 +22968,10 @@
   "highlights": [],
   "highlights_total": 0,
   "evidence_lane": "corroborated",
-  "audio_programs": 36,
+  "audio_programs": 38,
   "chat_signals": {
-   "n_msgs": 219,
-   "n_authors": 177,
+   "n_msgs": 235,
+   "n_authors": 189,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -22802,12 +23030,12 @@
      "ejemplo": "JAJAJAJAJJAJAJAJAJA EN VIVO DESDE MIAMI"
     },
     {
-     "video_id": "IB9cCJT0-_M",
+     "video_id": "fam8EedmGow",
      "channel": "?",
      "title": "",
-     "n_msgs": 7,
-     "n_authors": 7,
-     "ejemplo": "Miami le sienta excelente a todooos :heart_suit::heart_suit::heart_suit::heart_suit::heart_suit::heart_suit::heart_suit:"
+     "n_msgs": 9,
+     "n_authors": 9,
+     "ejemplo": "SE FUÉ A MIAMI CON TU SAQUITO VERNACII"
     }
    ],
    "chat_only_programs": [
@@ -22836,12 +23064,12 @@
      "ejemplo": "bahh a playa miami en sta rosa de calamuchita"
     },
     {
-     "video_id": "IB9cCJT0-_M",
+     "video_id": "fam8EedmGow",
      "channel": "?",
      "title": "",
-     "n_msgs": 7,
-     "n_authors": 7,
-     "ejemplo": "Miami le sienta excelente a todooos :heart_suit::heart_suit::heart_suit::heart_suit::heart_suit::heart_suit::heart_suit:"
+     "n_msgs": 9,
+     "n_authors": 9,
+     "ejemplo": "SE FUÉ A MIAMI CON TU SAQUITO VERNACII"
     }
    ]
   }
@@ -23084,8 +23312,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 17,
   "chat_signals": {
-   "n_msgs": 9,
-   "n_authors": 7,
+   "n_msgs": 10,
+   "n_authors": 8,
    "programs": [
     {
      "video_id": "EPCfCkglZWA",
@@ -23128,6 +23356,14 @@
      "ejemplo": "OTRO DÍA ESCUCHANDO COMO LEEN FOLLETOS DE AGENCIA DE TURISMO"
     },
     {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "no hay como el cambio y el sonido en EL GRAN TURISMO ,QUE APRENDI A MANEJAR :face-blue-smiling::face-blue-smiling::hand-pink-waving:Y EN EL CLASIC TIENE MAS POW"
+    },
+    {
      "video_id": "JNLpggdieek",
      "channel": "Vorterix",
      "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
@@ -23160,6 +23396,14 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "vayan a la puna catamarqueña... los paisajes son de otro planeta, increibles...lastima que el turismo no esta desarrollado, poca promocion, mucho boca en boca"
+    },
+    {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "no hay como el cambio y el sonido en EL GRAN TURISMO ,QUE APRENDI A MANEJAR :face-blue-smiling::face-blue-smiling::hand-pink-waving:Y EN EL CLASIC TIENE MAS POW"
     },
     {
      "video_id": "JNLpggdieek",
@@ -23393,6 +23637,17 @@
     "t_seconds": 6000
    },
    {
+    "channel": "Vorterix",
+    "video_id": "3AxUr1Maqu8",
+    "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
+    "date": "20260630",
+    "subtema": "Camellos y viajes a Jordania",
+    "contexto": "Anécdota sobre personas que vendieron un camello para ir al mundial, debate sobre precios de camellos",
+    "intensidad": 2,
+    "start_min": 90,
+    "t_seconds": 5400
+   },
+   {
     "channel": "LUZU TV",
     "video_id": "Ir6p9x-GQ_I",
     "title": "#LOSDELFONDO | AGUSNETA SE BAJA DE LOS SHIPS, TODO SOBRE EL MUNDIAL, FÚTBOL SOPLADO GAGA",
@@ -23446,25 +23701,14 @@
     "intensidad": 2,
     "start_min": 60,
     "t_seconds": 3600
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "YmGen45CUIY",
-    "title": "#FMLUZU | LA GURISA PERDIÓ SU TARJETA DE CRÉDITO + PROPUESTA DE CASAMIENTO EN VIVO",
-    "date": "20260605",
-    "subtema": "viajes y mudanza a España",
-    "contexto": "pareja de Mar del Plata que se mudó a España como aventura, viven en Barcelona hace casi 2 años",
-    "intensidad": 2,
-    "start_min": 30,
-    "t_seconds": 1800
    }
   ],
-  "highlights_total": 41,
+  "highlights_total": 42,
   "evidence_lane": "corroborated",
-  "audio_programs": 40,
+  "audio_programs": 41,
   "chat_signals": {
-   "n_msgs": 15,
-   "n_authors": 14,
+   "n_msgs": 16,
+   "n_authors": 15,
    "programs": [
     {
      "video_id": "c1LrQSDaXAY",
@@ -23489,6 +23733,14 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "Milei tenía dos viajes comprometibord para esta semana"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "SE ACABARON LOS VIAJES AL SUR, COMO ERA LADORNI ?"
     },
     {
      "video_id": "3CPnLRc7h2w",
@@ -23521,14 +23773,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "pasa que allá la \"reventa\" es legal.. y muchas empresas de viajes se hicieron de entradas para vender viajes. más los locales y los que pone el dueño del estadi"
-    },
-    {
-     "video_id": "DMOHJbfdIlY",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "NO ES LO MISMO UN PAR DE ZAPATOS QUE CASA, DEPRTAMENTO, VIAJES ETC,ETC"
     }
    ],
    "chat_only_programs": [
@@ -23549,20 +23793,20 @@
      "ejemplo": "Milei tenía dos viajes comprometibord para esta semana"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "SE ACABARON LOS VIAJES AL SUR, COMO ERA LADORNI ?"
+    },
+    {
      "video_id": "8lOkxIDSd4w",
      "channel": "OLGA",
      "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "PARA LLEGAR PEDITE UN CABIFY. Y TENES DESCUENTO EN TUS PRIMEROS 4 VIAJES CON EL CODIGO soñeconcabify"
-    },
-    {
-     "video_id": "DMOHJbfdIlY",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "NO ES LO MISMO UN PAR DE ZAPATOS QUE CASA, DEPRTAMENTO, VIAJES ETC,ETC"
     }
    ]
   }
@@ -23827,10 +24071,10 @@
   ],
   "highlights_total": 54,
   "evidence_lane": "corroborated",
-  "audio_programs": 115,
+  "audio_programs": 117,
   "chat_signals": {
-   "n_msgs": 544,
-   "n_authors": 420,
+   "n_msgs": 623,
+   "n_authors": 480,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -23865,6 +24109,14 @@
      "ejemplo": "MUSICA DE TRAILER DE PELICULA"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 25,
+     "n_authors": 21,
+     "ejemplo": "tenemos una historia común, sé que en Argentina hubo otras olas migratorias europeas posteriores, pero igual en Brasil, en Uruguay, en Colom ia y en México"
+    },
+    {
      "video_id": "FYdwwoHNrMs",
      "channel": "Vorterix",
      "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
@@ -23881,20 +24133,12 @@
      "ejemplo": "buen dia,se necesita dadores de sangre HOSPITAL MARIE CURIE oncologia, aveces Patricias Argentina 150 de 8 a 11hs.cama 209 peñaloza."
     },
     {
-     "video_id": "7RVM6DWq-3c",
+     "video_id": "FFy6eNzi-dQ",
      "channel": "?",
      "title": "",
-     "n_msgs": 16,
+     "n_msgs": 19,
      "n_authors": 15,
-     "ejemplo": "parece musica sin copyright"
-    },
-    {
-     "video_id": "0_ua1dXLT5o",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 15,
-     "n_authors": 15,
-     "ejemplo": "QUE ES ESTA MUSICA DE IGLESIA EVANGELISTA?"
+     "ejemplo": "buen día saludos desde Caleta Olivia Santa cruz argentina"
     }
    ],
    "chat_only_programs": [
@@ -23923,20 +24167,20 @@
      "ejemplo": "Pergolini los hecho a todos ahora solo pasan musica celta"
     },
     {
-     "video_id": "7RVM6DWq-3c",
+     "video_id": "1KdxLdm_3K0",
      "channel": "?",
      "title": "",
-     "n_msgs": 16,
-     "n_authors": 15,
-     "ejemplo": "parece musica sin copyright"
+     "n_msgs": 25,
+     "n_authors": 21,
+     "ejemplo": "tenemos una historia común, sé que en Argentina hubo otras olas migratorias europeas posteriores, pero igual en Brasil, en Uruguay, en Colom ia y en México"
     },
     {
-     "video_id": "0_ua1dXLT5o",
+     "video_id": "FFy6eNzi-dQ",
      "channel": "?",
      "title": "",
-     "n_msgs": 15,
+     "n_msgs": 19,
      "n_authors": 15,
-     "ejemplo": "QUE ES ESTA MUSICA DE IGLESIA EVANGELISTA?"
+     "ejemplo": "buen día saludos desde Caleta Olivia Santa cruz argentina"
     }
    ]
   }
@@ -24212,14 +24456,25 @@
     "intensidad": 2,
     "start_min": 80,
     "t_seconds": 4800
+   },
+   {
+    "channel": "Vorterix",
+    "video_id": "3AxUr1Maqu8",
+    "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
+    "date": "20260630",
+    "subtema": "VAR y arbitraje en el partido",
+    "contexto": "discusión sobre gol anulado a Alemania y faltas no sancionadas con VAR",
+    "intensidad": 2,
+    "start_min": 0,
+    "t_seconds": 0
    }
   ],
-  "highlights_total": 2,
+  "highlights_total": 3,
   "evidence_lane": "corroborated",
-  "audio_programs": 18,
+  "audio_programs": 19,
   "chat_signals": {
-   "n_msgs": 21,
-   "n_authors": 20,
+   "n_msgs": 23,
+   "n_authors": 22,
    "programs": [
     {
      "video_id": "q_clAienUJw",
@@ -24254,6 +24509,14 @@
      "ejemplo": "hay un tal fernando velazquez un triste periodista deportivo de bariloche rio negro"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "@OficinaO-bx7ki ENTONCES QUE NO HABLE DE FUTBOL, TENIENDO A UN EXCELENTE PERIODISTA DEPORTIVO COMO ES GUIDO"
+    },
+    {
      "video_id": "FYdwwoHNrMs",
      "channel": "Vorterix",
      "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
@@ -24276,14 +24539,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "ES UN PERIODISTA DEPORTIVO ESPAÑOL"
-    },
-    {
-     "video_id": "UlE50hJOMJg",
-     "channel": "Neura Media",
-     "title": "Multiverso Neura",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "ese estilo Martín arevalo destruyo al periodismo deportivo"
     }
    ],
    "chat_only_programs": [
@@ -24296,6 +24551,14 @@
      "ejemplo": "hay un tal fernando velazquez un triste periodista deportivo de bariloche rio negro"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "@OficinaO-bx7ki ENTONCES QUE NO HABLE DE FUTBOL, TENIENDO A UN EXCELENTE PERIODISTA DEPORTIVO COMO ES GUIDO"
+    },
+    {
      "video_id": "FYdwwoHNrMs",
      "channel": "Vorterix",
      "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
@@ -24318,14 +24581,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "ES UN PERIODISTA DEPORTIVO ESPAÑOL"
-    },
-    {
-     "video_id": "UlE50hJOMJg",
-     "channel": "Neura Media",
-     "title": "Multiverso Neura",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "ese estilo Martín arevalo destruyo al periodismo deportivo"
     }
    ]
   }
@@ -24584,8 +24839,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 63,
   "chat_signals": {
-   "n_msgs": 95,
-   "n_authors": 85,
+   "n_msgs": 101,
+   "n_authors": 90,
    "programs": [
     {
      "video_id": "O6sOwvMbRBU",
@@ -24930,6 +25185,17 @@
     "t_seconds": 6000
    },
    {
+    "channel": "BLENDER",
+    "video_id": "Iii3dqMJvwQ",
+    "title": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
+    "date": "20260629",
+    "subtema": "Conflicto Bielsa-Plantel Uruguay",
+    "contexto": "Debate sobre si Bielsa fue saboteado por el vestuario uruguayo en el Mundial, con menciones de Cáceres defendiendo al técnico",
+    "intensidad": 3,
+    "start_min": 70,
+    "t_seconds": 4200
+   },
+   {
     "channel": "AHORA PLAY",
     "video_id": "btHFJgjSlls",
     "title": "SEGUNDO SEMESTRE FINANCIERO: VELOCIDAD CRUCERO | Martín Genero #MercadoFresh",
@@ -25093,25 +25359,14 @@
     "intensidad": 3,
     "start_min": 130,
     "t_seconds": 7800
-   },
-   {
-    "channel": "Bondi Live",
-    "video_id": "tAUTd2FsMxA",
-    "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
-    "date": "20260624",
-    "subtema": "Conflicto Jimena La Torre y otros conductores",
-    "contexto": "Discusión sobre credibilidad y currículum de Jimena La Torre, comparaciones con otras figuras",
-    "intensidad": 3,
-    "start_min": 210,
-    "t_seconds": 12600
    }
   ],
-  "highlights_total": 40,
+  "highlights_total": 43,
   "evidence_lane": "corroborated",
-  "audio_programs": 29,
+  "audio_programs": 31,
   "chat_signals": {
-   "n_msgs": 50,
-   "n_authors": 40,
+   "n_msgs": 53,
+   "n_authors": 43,
    "programs": [
     {
      "video_id": "FYdwwoHNrMs",
@@ -25162,20 +25417,20 @@
      "ejemplo": "Muchachooos! Hablen del conflicto en Blender!! Llamen a Fio Sargenti!!!"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "Vamo a levanta una tapia cómo festejo y honor por el pase de Paraguay"
+    },
+    {
      "video_id": "8XGdbbwUjEQ",
      "channel": "?",
      "title": "",
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "las llevo el chiqui tapia jajajaa"
-    },
-    {
-     "video_id": "IB9cCJT0-_M",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Chat que les pasa están debatiendo nada es grave jajajajjaja tienen dos puntos de vista diferentes y punto nadie está haciendo conflicto ni nada"
     }
    ],
    "chat_only_programs": [
@@ -25204,20 +25459,20 @@
      "ejemplo": "WANDA Y TAPIA"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "Vamo a levanta una tapia cómo festejo y honor por el pase de Paraguay"
+    },
+    {
      "video_id": "8XGdbbwUjEQ",
      "channel": "?",
      "title": "",
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "las llevo el chiqui tapia jajajaa"
-    },
-    {
-     "video_id": "IB9cCJT0-_M",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Chat que les pasa están debatiendo nada es grave jajajajjaja tienen dos puntos de vista diferentes y punto nadie está haciendo conflicto ni nada"
     }
    ]
   }
@@ -25476,8 +25731,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 28,
   "chat_signals": {
-   "n_msgs": 47,
-   "n_authors": 44,
+   "n_msgs": 51,
+   "n_authors": 47,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -25520,6 +25775,14 @@
      "ejemplo": "aún así los papás son intensos"
     },
     {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 4,
+     "n_authors": 3,
+     "ejemplo": "MIS SOBRINOS SUELAN CON AMOR SER PAPÁS"
+    },
+    {
      "video_id": "04q2g0UfdyA",
      "channel": "Neura Media",
      "title": "Multiverso Neura",
@@ -25534,14 +25797,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "HAY Q CARGAR 13 BOLSAS DE PAPAS"
-    },
-    {
-     "video_id": "K7fW2gf3B5U",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Big Mac, porción de papas grande, y coca común"
     }
    ],
    "chat_only_programs": [
@@ -25578,12 +25833,12 @@
      "ejemplo": "aún así los papás son intensos"
     },
     {
-     "video_id": "04q2g0UfdyA",
-     "channel": "Neura Media",
-     "title": "Multiverso Neura",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "@dalimenu TE CHORIASTE LAS PAPAS DEL VERDULERO, DEVOLVE LAS CHAUCHAS, TE MANOTEASTE LAS ZANAHORIAS...."
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 4,
+     "n_authors": 3,
+     "ejemplo": "MIS SOBRINOS SUELAN CON AMOR SER PAPÁS"
     }
    ]
   }
@@ -25772,6 +26027,17 @@
     "t_seconds": 1800
    },
    {
+    "channel": "BLENDER",
+    "video_id": "Iii3dqMJvwQ",
+    "title": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
+    "date": "20260629",
+    "subtema": "Manipulación mediática en Uruguay",
+    "contexto": "Crítica a streamings y programas periodísticos uruguayos por exagerar conflictos internos para visualizaciones",
+    "intensidad": 2,
+    "start_min": 70,
+    "t_seconds": 4200
+   },
+   {
     "channel": "Vorterix",
     "video_id": "LE5ICiVWzT8",
     "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
@@ -25794,6 +26060,17 @@
     "t_seconds": 0
    },
    {
+    "channel": "Vorterix",
+    "video_id": "3AxUr1Maqu8",
+    "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
+    "date": "20260630",
+    "subtema": "Llegada de Bielsa a Uruguay",
+    "contexto": "Se comenta sobre la llegada del técnico Marcelo Bielsa a Uruguay con videos de su arribo al aeropuerto",
+    "intensidad": 2,
+    "start_min": 100,
+    "t_seconds": 6000
+   },
+   {
     "channel": "Neura Media",
     "video_id": "UlE50hJOMJg",
     "title": "Multiverso Neura",
@@ -25814,36 +26091,14 @@
     "intensidad": 2,
     "start_min": 30,
     "t_seconds": 1800
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "b3xixpLLqjY",
-    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
-    "date": "20260606",
-    "subtema": "Uruguay y localidades del interior",
-    "contexto": "Se habla sobre Uruguay, Montevideo y el pueblo de Libertad en San José con 15.000 habitantes",
-    "intensidad": 2,
-    "start_min": 70,
-    "t_seconds": 4200
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "3QJmfDvuxIk",
-    "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
-    "date": "20260626",
-    "subtema": "Partido de Uruguay vs España",
-    "contexto": "Se menciona que hoy juega Uruguay contra España, es un partido importante para el Mundial",
-    "intensidad": 2,
-    "start_min": 0,
-    "t_seconds": 0
    }
   ],
-  "highlights_total": 23,
+  "highlights_total": 25,
   "evidence_lane": "corroborated",
-  "audio_programs": 24,
+  "audio_programs": 26,
   "chat_signals": {
-   "n_msgs": 315,
-   "n_authors": 218,
+   "n_msgs": 322,
+   "n_authors": 225,
    "programs": [
     {
      "video_id": "LE5ICiVWzT8",
@@ -26087,8 +26342,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 13,
   "chat_signals": {
-   "n_msgs": 59,
-   "n_authors": 53,
+   "n_msgs": 60,
+   "n_authors": 54,
    "programs": [
     {
      "video_id": "8lOkxIDSd4w",
@@ -26341,10 +26596,10 @@
   ],
   "highlights_total": 10,
   "evidence_lane": "corroborated",
-  "audio_programs": 10,
+  "audio_programs": 11,
   "chat_signals": {
-   "n_msgs": 126,
-   "n_authors": 116,
+   "n_msgs": 142,
+   "n_authors": 131,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -26387,28 +26642,28 @@
      "ejemplo": "que hermosa cara tenes un brillo diferente hoy no!!]??? ahh naa vengo de comer pizza"
     },
     {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 8,
+     "n_authors": 7,
+     "ejemplo": "SE HICIERON RICOS LOS LUGARES SICOLOGÍA CON LO DE VENEZ"
+    },
+    {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 6,
+     "n_authors": 6,
+     "ejemplo": "son lugares para laburar nomas, hace la diferencia economica y tomarse el palo"
+    },
+    {
      "video_id": "kDbkbzy_ASA",
      "channel": "OLGA",
      "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
      "n_msgs": 6,
      "n_authors": 6,
      "ejemplo": "no ponen sombra para que entres a los lugares y consumas"
-    },
-    {
-     "video_id": "tAUTd2FsMxA",
-     "channel": "Bondi Live",
-     "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
-     "n_msgs": 6,
-     "n_authors": 6,
-     "ejemplo": "A MI ME PAS CON EL CHOCOLATE, NO PUEDO COMER MAS DE UN MORDISCO, EMPALAGA MUCHO"
-    },
-    {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 5,
-     "n_authors": 5,
-     "ejemplo": "quiero ir a esos lugares !!!!"
     }
    ],
    "chat_only_programs": [
@@ -26445,12 +26700,12 @@
      "ejemplo": "que hermosa cara tenes un brillo diferente hoy no!!]??? ahh naa vengo de comer pizza"
     },
     {
-     "video_id": "kDbkbzy_ASA",
-     "channel": "OLGA",
-     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
-     "n_msgs": 6,
-     "n_authors": 6,
-     "ejemplo": "no ponen sombra para que entres a los lugares y consumas"
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 8,
+     "n_authors": 7,
+     "ejemplo": "SE HICIERON RICOS LOS LUGARES SICOLOGÍA CON LO DE VENEZ"
     }
    ]
   }
@@ -26971,8 +27226,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 39,
   "chat_signals": {
-   "n_msgs": 25,
-   "n_authors": 22,
+   "n_msgs": 29,
+   "n_authors": 26,
    "programs": [
     {
      "video_id": "WOYbd42V47w",
@@ -26999,12 +27254,28 @@
      "ejemplo": "el HOYO que tiene cami no puede ser ella estaba destinada vivir esta experiencia"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "@lectus1013 hola, buen día. Mantienen viva la esperanza para que valga la pena el esfuerzo, el sacrificio y eso les da tiempo para robar todo lo que pueden. Ten"
+    },
+    {
      "video_id": "HTm_q34CwyM",
      "channel": "AHORA PLAY",
      "title": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "Yo lo entiendo a Serrucho, \"no es que no importa nada\"... es que la experiencia SE OLVIDAN PARA SIEMPRE... NADIE va a rascar y nadie va a investigar. Eso es lo "
+    },
+    {
+     "video_id": "-FYveSXX_NA",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "Una experiencia diferente seria acompañar a un periodista a cubrirlo, ves el show y después hasta miras un poco que pasa atrás, planazo."
     },
     {
      "video_id": "8XGdbbwUjEQ",
@@ -27021,22 +27292,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "moreno tiene toda la experiencia para presidente"
-    },
-    {
-     "video_id": "DMOHJbfdIlY",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Ahora tenemos a Santilli Super Casta. \"Que se vaya la casta\". Nos olvidamos que no queriamos casta. Santilli va a ser mas habil en esconder sus cagadas años de "
-    },
-    {
-     "video_id": "FYdwwoHNrMs",
-     "channel": "Vorterix",
-     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "experiencia muchachos"
     }
    ],
    "chat_only_programs": [
@@ -27065,20 +27320,20 @@
      "ejemplo": "el HOYO que tiene cami no puede ser ella estaba destinada vivir esta experiencia"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "@lectus1013 hola, buen día. Mantienen viva la esperanza para que valga la pena el esfuerzo, el sacrificio y eso les da tiempo para robar todo lo que pueden. Ten"
+    },
+    {
      "video_id": "HTm_q34CwyM",
      "channel": "AHORA PLAY",
      "title": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "Yo lo entiendo a Serrucho, \"no es que no importa nada\"... es que la experiencia SE OLVIDAN PARA SIEMPRE... NADIE va a rascar y nadie va a investigar. Eso es lo "
-    },
-    {
-     "video_id": "8XGdbbwUjEQ",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "hay que escuchar la historia de vida y experiencia antes de juzgar le como piensa."
     }
    ]
   }
@@ -27223,6 +27478,17 @@
     "t_seconds": 600
    },
    {
+    "channel": "Vorterix",
+    "video_id": "3AxUr1Maqu8",
+    "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
+    "date": "20260630",
+    "subtema": "Proyecto de campeonato",
+    "contexto": "Se menciona la oportunidad de presentar un proyecto de campeonato a Claudio Tapia",
+    "intensidad": 1,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
     "channel": "OLGA",
     "video_id": "s__pKWUr4MM",
     "title": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
@@ -27234,12 +27500,12 @@
     "t_seconds": 3600
    }
   ],
-  "highlights_total": 11,
+  "highlights_total": 12,
   "evidence_lane": "corroborated",
-  "audio_programs": 15,
+  "audio_programs": 16,
   "chat_signals": {
-   "n_msgs": 66,
-   "n_authors": 52,
+   "n_msgs": 68,
+   "n_authors": 54,
    "programs": [
     {
      "video_id": "8lOkxIDSd4w",
@@ -27604,8 +27870,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 34,
   "chat_signals": {
-   "n_msgs": 60,
-   "n_authors": 48,
+   "n_msgs": 61,
+   "n_authors": 49,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -28255,8 +28521,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 5,
   "chat_signals": {
-   "n_msgs": 9,
-   "n_authors": 9,
+   "n_msgs": 11,
+   "n_authors": 11,
    "programs": [
     {
      "video_id": "0_ua1dXLT5o",
@@ -28265,6 +28531,14 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "En la jerga de internet y redes sociales, \"six seven\" (o 6-7) no tiene un significado literal o fijo. Suele utilizarse como una forma de decir \"más o menos\", \"r"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "jajajajajajaa walter creo que no sabes el significado de latino, eso incluye occidente hermano, imperio romano etc"
     },
     {
      "video_id": "A_ww0XRZnps",
@@ -28313,14 +28587,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "Si Adorni puede hacer YOLO con los ahorros de toda su vida en BTC yo tambien!"
-    },
-    {
-     "video_id": "bX7MB2_OI2I",
-     "channel": "OLGA",
-     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "ta bien es el significado explicito al ángulo eio"
     }
    ],
    "chat_only_programs": [
@@ -28331,6 +28597,14 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "En la jerga de internet y redes sociales, \"six seven\" (o 6-7) no tiene un significado literal o fijo. Suele utilizarse como una forma de decir \"más o menos\", \"r"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "jajajajajajaa walter creo que no sabes el significado de latino, eso incluye occidente hermano, imperio romano etc"
     },
     {
      "video_id": "EwFONN3W5cg",
@@ -28355,14 +28629,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "YOLO VEO"
-    },
-    {
-     "video_id": "LjEHjrbNNgs",
-     "channel": "Vorterix",
-     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "visto lo de blender ahora tiene otro significado"
     }
    ]
   }
@@ -28419,6 +28685,17 @@
     "t_seconds": 600
    },
    {
+    "channel": "BLENDER",
+    "video_id": "Iii3dqMJvwQ",
+    "title": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
+    "date": "20260629",
+    "subtema": "Despidos en Blender",
+    "contexto": "Conductores expresan solidaridad con compañeros despedidos de la empresa, critican las formas y piden reincorporación",
+    "intensidad": 3,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
     "channel": "GELATINA",
     "video_id": "vlNZMMmBbLw",
     "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
@@ -28463,12 +28740,12 @@
     "t_seconds": 0
    }
   ],
-  "highlights_total": 6,
+  "highlights_total": 7,
   "evidence_lane": "corroborated",
-  "audio_programs": 5,
+  "audio_programs": 6,
   "chat_signals": {
-   "n_msgs": 447,
-   "n_authors": 333,
+   "n_msgs": 452,
+   "n_authors": 336,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -28635,8 +28912,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 2,
   "chat_signals": {
-   "n_msgs": 16,
-   "n_authors": 13,
+   "n_msgs": 18,
+   "n_authors": 14,
    "programs": [
     {
      "video_id": "8XGdbbwUjEQ",
@@ -28661,6 +28938,14 @@
      "n_msgs": 2,
      "n_authors": 1,
      "ejemplo": "pero si tenía la documentación por que no las presento en el momento?"
+    },
+    {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 1,
+     "ejemplo": "PISO HISTORICO DE VIAJAR COMO EL ORTO Y CARISIMO"
     },
     {
      "video_id": "0_ua1dXLT5o",
@@ -28693,14 +28978,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "AHI ESTÁ,LA CONFIRMACIÓN DE QUE ESTA GRABADO...PORQUE TENIAN QUE VIAJAR A MIAMI..."
-    },
-    {
-     "video_id": "JXVQmuDctII",
-     "channel": "BLENDER",
-     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "hora de mal viajar"
     }
    ],
    "chat_only_programs": [
@@ -28721,6 +28998,14 @@
      "ejemplo": "pero si tenía la documentación por que no las presento en el momento?"
     },
     {
+     "video_id": "fam8EedmGow",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 1,
+     "ejemplo": "PISO HISTORICO DE VIAJAR COMO EL ORTO Y CARISIMO"
+    },
+    {
      "video_id": "0_ua1dXLT5o",
      "channel": "?",
      "title": "",
@@ -28735,14 +29020,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "PAULA TE VI VIAJAR EN COLONIA EXPRESSSS !!!!"
-    },
-    {
-     "video_id": "EPCfCkglZWA",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "EL REPRESENTANTE DE LAS PATAGONIAS DEBEN DE VIAJAR A FRANCIA A LA NUEVA ARGENTINA WEEK"
     }
    ]
   }
@@ -28925,7 +29202,7 @@
   "evidence_lane": "corroborated",
   "audio_programs": 26,
   "chat_signals": {
-   "n_msgs": 56,
+   "n_msgs": 58,
    "n_authors": 50,
    "programs": [
     {
@@ -29747,8 +30024,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 35,
   "chat_signals": {
-   "n_msgs": 63,
-   "n_authors": 51,
+   "n_msgs": 64,
+   "n_authors": 52,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -29923,10 +30200,10 @@
   "highlights": [],
   "highlights_total": 0,
   "evidence_lane": "corroborated",
-  "audio_programs": 108,
+  "audio_programs": 110,
   "chat_signals": {
-   "n_msgs": 204,
-   "n_authors": 173,
+   "n_msgs": 232,
+   "n_authors": 197,
    "programs": [
     {
      "video_id": "IB9cCJT0-_M",
@@ -29961,6 +30238,14 @@
      "ejemplo": "a veces (muchas) María me sorprende bastante con las preguntas q hace con respecto al fútbol :soccer_ball: :face_with_rolling_eyes::grinning_squinting_face:"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 13,
+     "n_authors": 10,
+     "ejemplo": "aguante el futbol local"
+    },
+    {
      "video_id": "FYdwwoHNrMs",
      "channel": "Vorterix",
      "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
@@ -29983,14 +30268,6 @@
      "n_msgs": 9,
      "n_authors": 8,
      "ejemplo": "migue tiene menos futbol que una chancleta pero tiene razon"
-    },
-    {
-     "video_id": "q_clAienUJw",
-     "channel": "OLGA",
-     "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-     "n_msgs": 8,
-     "n_authors": 8,
-     "ejemplo": "no hablen de futbol tendrían que desayunar los dos"
     }
    ],
    "chat_only_programs": [
@@ -30009,6 +30286,14 @@
      "n_msgs": 12,
      "n_authors": 11,
      "ejemplo": "a veces (muchas) María me sorprende bastante con las preguntas q hace con respecto al fútbol :soccer_ball: :face_with_rolling_eyes::grinning_squinting_face:"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 13,
+     "n_authors": 10,
+     "ejemplo": "aguante el futbol local"
     },
     {
      "video_id": "WOYbd42V47w",
@@ -30086,8 +30371,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 21,
   "chat_signals": {
-   "n_msgs": 25,
-   "n_authors": 25,
+   "n_msgs": 26,
+   "n_authors": 26,
    "programs": [
     {
      "video_id": "8lOkxIDSd4w",
@@ -30122,6 +30407,14 @@
      "ejemplo": "A qué hora es la votación ?? Del Mundialito de ciudades ??"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "tenemos una historia común, sé que en Argentina hubo otras olas migratorias europeas posteriores, pero igual en Brasil, en Uruguay, en Colom ia y en México"
+    },
+    {
      "video_id": "3t9P2KFJ4K0",
      "channel": "Vorterix",
      "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
@@ -30144,14 +30437,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "hay ciudades más lindas que paris"
-    },
-    {
-     "video_id": "s__pKWUr4MM",
-     "channel": "OLGA",
-     "title": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Quiero vital por el Mundialito de ciudades"
     }
    ],
    "chat_only_programs": [
@@ -30162,6 +30447,14 @@
      "n_msgs": 3,
      "n_authors": 3,
      "ejemplo": "es un buen dasafio para el mundialito de ciudades"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "tenemos una historia común, sé que en Argentina hubo otras olas migratorias europeas posteriores, pero igual en Brasil, en Uruguay, en Colom ia y en México"
     },
     {
      "video_id": "3t9P2KFJ4K0",
@@ -30178,14 +30471,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "Mas pensamiento d Argentina y menos pensamiento progre funcionalal globalismo d escuelas europeas"
-    },
-    {
-     "video_id": "s__pKWUr4MM",
-     "channel": "OLGA",
-     "title": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Quiero vital por el Mundialito de ciudades"
     }
    ]
   }
@@ -30402,10 +30687,10 @@
   ],
   "highlights_total": 13,
   "evidence_lane": "corroborated",
-  "audio_programs": 121,
+  "audio_programs": 123,
   "chat_signals": {
-   "n_msgs": 640,
-   "n_authors": 507,
+   "n_msgs": 705,
+   "n_authors": 555,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -30784,8 +31069,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 32,
   "chat_signals": {
-   "n_msgs": 17,
-   "n_authors": 17,
+   "n_msgs": 21,
+   "n_authors": 21,
    "programs": [
     {
      "video_id": "3CPnLRc7h2w",
@@ -30794,6 +31079,14 @@
      "n_msgs": 3,
      "n_authors": 3,
      "ejemplo": "hay que ser guapo para acampar con ese clima"
+    },
+    {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "vamos con LA APERTURA DEL CLIMA DE MARIOOOO"
     },
     {
      "video_id": "3t9P2KFJ4K0",
@@ -30812,6 +31105,14 @@
      "ejemplo": "buen día tutti, acá el clima bien, el ánimo también, arrancando la semana. que sea buena para todes!"
     },
     {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "Pregunta: El campo crece por mayor productividad o porque el clima se dió bien?"
+    },
+    {
      "video_id": "8XGdbbwUjEQ",
      "channel": "?",
      "title": "",
@@ -30834,26 +31135,26 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "hermoso clima laboral amooor"
-    },
-    {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "KINKI PUB EXCELENTE CLIMA LABORAL"
-    },
-    {
-     "video_id": "JXVQmuDctII",
-     "channel": "BLENDER",
-     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "excelente clima laboral"
     }
    ],
    "chat_only_programs": [
     {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "vamos con LA APERTURA DEL CLIMA DE MARIOOOO"
+    },
+    {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "Pregunta: El campo crece por mayor productividad o porque el clima se dió bien?"
+    },
+    {
      "video_id": "8XGdbbwUjEQ",
      "channel": "?",
      "title": "",
@@ -30876,22 +31177,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "hermoso clima laboral amooor"
-    },
-    {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "KINKI PUB EXCELENTE CLIMA LABORAL"
-    },
-    {
-     "video_id": "JXVQmuDctII",
-     "channel": "BLENDER",
-     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "excelente clima laboral"
     }
    ]
   }
@@ -30958,10 +31243,10 @@
   "highlights": [],
   "highlights_total": 0,
   "evidence_lane": "corroborated",
-  "audio_programs": 131,
+  "audio_programs": 133,
   "chat_signals": {
-   "n_msgs": 689,
-   "n_authors": 527,
+   "n_msgs": 782,
+   "n_authors": 595,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -30978,6 +31263,14 @@
      "n_msgs": 40,
      "n_authors": 32,
      "ejemplo": "COMPLETAMENTE GRABADO, LOS MUCHACHOS ESTAN EN ARGENTINA EN ESTOS MOMENTOS"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 39,
+     "n_authors": 30,
+     "ejemplo": "tenemos una historia común, sé que en Argentina hubo otras olas migratorias europeas posteriores, pero igual en Brasil, en Uruguay, en Colom ia y en México"
     },
     {
      "video_id": "8XGdbbwUjEQ",
@@ -31018,14 +31311,6 @@
      "n_msgs": 27,
      "n_authors": 22,
      "ejemplo": "Saludos de Italia udineeeee :heart_suit: vamooos argentina"
-    },
-    {
-     "video_id": "WOYbd42V47w",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 28,
-     "n_authors": 19,
-     "ejemplo": "En solo Argentina te mandas cagadas en tu trabajo, te echan con justificación y que reclamas?? Ridículo"
     }
    ],
    "chat_only_programs": [
@@ -31036,6 +31321,14 @@
      "n_msgs": 58,
      "n_authors": 45,
      "ejemplo": "cobarde presento La renuncia cuando se jugaba el partido de Argentina"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 39,
+     "n_authors": 30,
+     "ejemplo": "tenemos una historia común, sé que en Argentina hubo otras olas migratorias europeas posteriores, pero igual en Brasil, en Uruguay, en Colom ia y en México"
     },
     {
      "video_id": "8XGdbbwUjEQ",
@@ -31052,14 +31345,6 @@
      "n_msgs": 26,
      "n_authors": 24,
      "ejemplo": "el perreo es asi en todos lados menos en argentina"
-    },
-    {
-     "video_id": "WOYbd42V47w",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 28,
-     "n_authors": 19,
-     "ejemplo": "En solo Argentina te mandas cagadas en tu trabajo, te echan con justificación y que reclamas?? Ridículo"
     }
    ]
   }
@@ -31110,8 +31395,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 11,
   "chat_signals": {
-   "n_msgs": 28,
-   "n_authors": 27,
+   "n_msgs": 30,
+   "n_authors": 29,
    "programs": [
     {
      "video_id": "e3av_6yqgHg",
@@ -31154,6 +31439,14 @@
      "ejemplo": "hagan sus apuestas si son mayores de 18"
     },
     {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "desde que dejó las apuestas es otro jajaja"
+    },
+    {
      "video_id": "JNLpggdieek",
      "channel": "Vorterix",
      "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
@@ -31168,14 +31461,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "HABLARON DE COMO APUESTAS"
-    },
-    {
-     "video_id": "NHt6oqHZYd0",
-     "channel": "GELATINA",
-     "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "el mundial de las apuestas"
     }
    ],
    "chat_only_programs": [
@@ -31196,6 +31481,14 @@
      "ejemplo": "hagan sus apuestas si son mayores de 18"
     },
     {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "desde que dejó las apuestas es otro jajaja"
+    },
+    {
      "video_id": "JNLpggdieek",
      "channel": "Vorterix",
      "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
@@ -31210,14 +31503,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "HABLARON DE COMO APUESTAS"
-    },
-    {
-     "video_id": "NHt6oqHZYd0",
-     "channel": "GELATINA",
-     "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "el mundial de las apuestas"
     }
    ]
   }
@@ -31614,8 +31899,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 37,
   "chat_signals": {
-   "n_msgs": 28,
-   "n_authors": 27,
+   "n_msgs": 33,
+   "n_authors": 31,
    "programs": [
     {
      "video_id": "8XGdbbwUjEQ",
@@ -31632,6 +31917,14 @@
      "n_msgs": 3,
      "n_authors": 3,
      "ejemplo": "salud Cayón..."
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 2,
+     "ejemplo": "salud mental.....se encarga lilia lemoine no se preocupen"
     },
     {
      "video_id": "0_ua1dXLT5o",
@@ -31672,14 +31965,6 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "Una mujer que habla correctamente de la ley de salud mental, de lo que es una adicción y el padecimiento que produce"
-    },
-    {
-     "video_id": "bX7MB2_OI2I",
-     "channel": "OLGA",
-     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "a Paulo lo asesoro sokolinski .la salud de nuestros hijos año 1980"
     }
    ],
    "chat_only_programs": [
@@ -31700,6 +31985,14 @@
      "ejemplo": "salud Cayón..."
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 2,
+     "ejemplo": "salud mental.....se encarga lilia lemoine no se preocupen"
+    },
+    {
      "video_id": "0_ua1dXLT5o",
      "channel": "?",
      "title": "",
@@ -31714,14 +32007,6 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "salud Migue"
-    },
-    {
-     "video_id": "LE5ICiVWzT8",
-     "channel": "Vorterix",
-     "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "a un discapatiado mental directamente"
     }
    ]
   }
@@ -31820,8 +32105,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 6,
   "chat_signals": {
-   "n_msgs": 21,
-   "n_authors": 19,
+   "n_msgs": 22,
+   "n_authors": 20,
    "programs": [
     {
      "video_id": "XHV2BV9DWMs",
@@ -32218,8 +32503,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 53,
   "chat_signals": {
-   "n_msgs": 346,
-   "n_authors": 287,
+   "n_msgs": 387,
+   "n_authors": 323,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -32379,8 +32664,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 22,
   "chat_signals": {
-   "n_msgs": 19,
-   "n_authors": 17,
+   "n_msgs": 22,
+   "n_authors": 20,
    "programs": [
     {
      "video_id": "XYJRLyO9exg",
@@ -32415,6 +32700,14 @@
      "ejemplo": "buena ocasión para recordar la importancia de la EDUCACION VIAL!!!"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "la educacion y el conocimiento es un pilar real"
+    },
+    {
      "video_id": "3CPnLRc7h2w",
      "channel": "Vorterix",
      "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
@@ -32423,28 +32716,20 @@
      "ejemplo": "NO A LAS MALAS PALABTAS. DONDE ESTA LA EDUCACIÓN QUE PREGONAS"
     },
     {
+     "video_id": "3jZ7O8XoQyY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "China es el futuro porque planifica la educación universitaria de sus jóvenes"
+    },
+    {
      "video_id": "8XGdbbwUjEQ",
      "channel": "?",
      "title": "",
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "Estoy a favor de la gratitud de la educación pública"
-    },
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "según muchos filósofos nacemos malos y la educación y las leyes nos regulan, nada más"
-    },
-    {
-     "video_id": "A_ww0XRZnps",
-     "channel": "BLENDER",
-     "title": "¿NOS INVADEN O QUÉ?, ODIADOS CON EL ALGORITMO y  LA CRISIS DE LA COLO  | ÚLTIMO AVISO | BLENDER",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Son de clase de educacion fisica"
     }
    ],
    "chat_only_programs": [
@@ -32465,6 +32750,14 @@
      "ejemplo": "buena ocasión para recordar la importancia de la EDUCACION VIAL!!!"
     },
     {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "la educacion y el conocimiento es un pilar real"
+    },
+    {
      "video_id": "3CPnLRc7h2w",
      "channel": "Vorterix",
      "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
@@ -32473,20 +32766,12 @@
      "ejemplo": "NO A LAS MALAS PALABTAS. DONDE ESTA LA EDUCACIÓN QUE PREGONAS"
     },
     {
-     "video_id": "8XGdbbwUjEQ",
+     "video_id": "3jZ7O8XoQyY",
      "channel": "?",
      "title": "",
      "n_msgs": 1,
      "n_authors": 1,
-     "ejemplo": "Estoy a favor de la gratitud de la educación pública"
-    },
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "según muchos filósofos nacemos malos y la educación y las leyes nos regulan, nada más"
+     "ejemplo": "China es el futuro porque planifica la educación universitaria de sus jóvenes"
     }
    ]
   }
@@ -32766,8 +33051,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 37,
   "chat_signals": {
-   "n_msgs": 10,
-   "n_authors": 10,
+   "n_msgs": 11,
+   "n_authors": 11,
    "programs": [
     {
      "video_id": "bX7MB2_OI2I",
@@ -32808,6 +33093,14 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "la educacion financiera deberia estar en todos los programas educativos !! esencial que de chicos aprendan sobre finanzas personales"
+    },
+    {
+     "video_id": "pL9wgMQaBp4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "Buen dia Flor Halfor y equipo.Toda crisis,deja paso a un comienzo, qué según los qué saben,llegan a un nuevo propósito despejando las angustias de los paraisos "
     }
    ],
    "chat_only_programs": [
@@ -32842,6 +33135,14 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "la educacion financiera deberia estar en todos los programas educativos !! esencial que de chicos aprendan sobre finanzas personales"
+    },
+    {
+     "video_id": "pL9wgMQaBp4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "Buen dia Flor Halfor y equipo.Toda crisis,deja paso a un comienzo, qué según los qué saben,llegan a un nuevo propósito despejando las angustias de los paraisos "
     }
    ]
   }
@@ -33133,8 +33434,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 48,
   "chat_signals": {
-   "n_msgs": 193,
-   "n_authors": 161,
+   "n_msgs": 205,
+   "n_authors": 169,
    "programs": [
     {
      "video_id": "IubT1ZyjjEA",
@@ -33491,11 +33792,11 @@
    }
   ],
   "highlights_total": 18,
-  "evidence_lane": "audio",
+  "evidence_lane": "corroborated",
   "audio_programs": 15,
   "chat_signals": {
-   "n_msgs": 2,
-   "n_authors": 1,
+   "n_msgs": 3,
+   "n_authors": 2,
    "programs": [
     {
      "video_id": "e3av_6yqgHg",
@@ -33504,6 +33805,14 @@
      "n_msgs": 2,
      "n_authors": 1,
      "ejemplo": "Columnita de videojuegos con Adorni migue"
+    },
+    {
+     "video_id": "-FYveSXX_NA",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "A mi me pasó al revés que a Eddie, cunado se transformo en numeritos me fue mas fácil porque se transformo en lo que veía en videojuegos y administraba desde ch"
     }
    ],
    "chat_only_programs": [
@@ -33514,6 +33823,14 @@
      "n_msgs": 2,
      "n_authors": 1,
      "ejemplo": "Columnita de videojuegos con Adorni migue"
+    },
+    {
+     "video_id": "-FYveSXX_NA",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "A mi me pasó al revés que a Eddie, cunado se transformo en numeritos me fue mas fácil porque se transformo en lo que veía en videojuegos y administraba desde ch"
     }
    ]
   }
@@ -33793,10 +34110,10 @@
   ],
   "highlights_total": 29,
   "evidence_lane": "corroborated",
-  "audio_programs": 35,
+  "audio_programs": 36,
   "chat_signals": {
-   "n_msgs": 51,
-   "n_authors": 47,
+   "n_msgs": 56,
+   "n_authors": 52,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -33855,12 +34172,12 @@
      "ejemplo": "Creo que Flor Peña no es consciente de los daños colaterales que le puede traer si activa el juicio a nivel opinion publica y aceptacion del publico que consume"
     },
     {
-     "video_id": "qLQFv3bGuhA",
+     "video_id": "fam8EedmGow",
      "channel": "?",
      "title": "",
      "n_msgs": 2,
      "n_authors": 2,
-     "ejemplo": "El plan sigue IDÉNTICO, superávit fiscal y comercial , baja d inflación, dólar normal, incremento de inversiones, privatizaciones, descenso de impuestos naciona"
+     "ejemplo": "no tenés ni tiempo ni plata para hacer todo ese trámite porque también sale plata. porque para hacerlo de forma pública no puedes ir a trabajar porque tenés que"
     }
    ],
    "chat_only_programs": [
