@@ -1,6 +1,18 @@
 {
- "period": "2026-06-29T17:09:05.599166+00:00",
+ "period": "2026-06-30T00:06:50.557712+00:00",
  "signals": [
+  {
+   "tema": "Energía y entusiasmo general",
+   "n_programas": 2,
+   "n_signals": 2,
+   "canales": [
+    "BLENDER",
+    "OLGA"
+   ],
+   "cross_canal": true,
+   "tipo": "otro",
+   "ejemplo": "VAMOOO, DALE, con toda, dale que arrancxaaa"
+  },
   {
    "tema": "Crítica a Azzaro",
    "n_programas": 2,
@@ -10,7 +22,18 @@
    ],
    "cross_canal": false,
    "tipo": "otro",
-   "ejemplo": "azzaro, te convertiste en lo que juraste destruir"
+   "ejemplo": "basta de azzaro"
+  },
+  {
+   "tema": "Aumento de cuota/precio de membresía",
+   "n_programas": 1,
+   "n_signals": 1,
+   "canales": [
+    "GELATINA"
+   ],
+   "cross_canal": false,
+   "tipo": "pregunta_precio",
+   "ejemplo": "vamos pepe decime cuanto aumento cuota para incorporar HAA"
   },
   {
    "tema": "ASAD bursátil en zona sur",
@@ -24,6 +47,17 @@
    "ejemplo": "Martín, cuando sale un \"ASAD bursatil\" en zona sur?"
   },
   {
+   "tema": "Solicitud de likes",
+   "n_programas": 1,
+   "n_signals": 1,
+   "canales": [
+    "Vorterix"
+   ],
+   "cross_canal": false,
+   "tipo": "pregunta_precio",
+   "ejemplo": "qué flojos con los likes. Dale viejo, que les cuesta, aprieten la manito"
+  },
+  {
    "tema": "Problemas de conexión y cambio de link",
    "n_programas": 1,
    "n_signals": 1,
@@ -33,17 +67,6 @@
    "cross_canal": false,
    "tipo": "pedido_link",
    "ejemplo": "tuvieron que inventar la electricidad para verlos / Cambiaron de link nos perdimos todo"
-  },
-  {
-   "tema": "Aumento de cuota/precio de membresía",
-   "n_programas": 1,
-   "n_signals": 1,
-   "canales": [
-    "GELATINA"
-   ],
-   "cross_canal": false,
-   "tipo": "pregunta_precio",
-   "ejemplo": "vamos pepe decime cuanto aumento cuota para incorporar HAA"
   }
  ]
 }

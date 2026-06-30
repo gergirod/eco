@@ -11,9 +11,11 @@ import ComercialPanel from "@/components/backoffice/ComercialPanel";
 import DesignPartnersPanel from "@/components/backoffice/DesignPartnersPanel";
 import ResumenPanel from "@/components/backoffice/ResumenPanel";
 import IupPanel from "@/components/backoffice/IupPanel";
+import DemandaPanel from "@/components/backoffice/DemandaPanel";
 
 const TABS = [
   { id: "resumen", label: "Resumen", sub: "Salud del corpus y métricas del pipeline." },
+  { id: "demanda", label: "Demanda", sub: "Pedidos de compra en chat — % y tendencia por canal." },
   { id: "iup", label: "IUP", sub: "Utilidad por emisión — interno, no visible para clientes." },
   { id: "captura", label: "Captura", sub: "Grilla por canal, franjas activas y estado en vivo." },
   { id: "clientes", label: "Clientes", sub: "Design partners: alta, marcas, competidores, acceso y onboarding." },
@@ -32,7 +34,7 @@ function BackofficeInner() {
       ? "captura"
       : tabParam === "inteligencia" || tabParam === "casos"
         ? "comercial"
-        : tabParam === "clientes" || tabParam === "runbook" || tabParam === "comercial" || tabParam === "iup"
+        : tabParam === "clientes" || tabParam === "runbook" || tabParam === "comercial" || tabParam === "iup" || tabParam === "demanda"
           ? tabParam
           : "resumen";
   const [tab, setTab] = useState<TabId>(initial);
@@ -46,6 +48,7 @@ function BackofficeInner() {
       tabParam === "runbook" ||
       tabParam === "comercial" ||
       tabParam === "iup" ||
+      tabParam === "demanda" ||
       tabParam === "casos" ||
       tabParam === "inteligencia"
     ) {
@@ -114,6 +117,7 @@ function BackofficeInner() {
       )}
 
       {tab === "resumen" && <ResumenPanel />}
+      {tab === "demanda" && <DemandaPanel />}
       {tab === "iup" && <IupPanel />}
       {tab === "captura" && <CapturaPanel />}
       {tab === "clientes" && <DesignPartnersPanel />}

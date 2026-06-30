@@ -1,12 +1,12 @@
 {
- "disclaimer": "Pedidos confirmados de link, precio o dónde comprar — no certifica ventas. Falsos positivos de 'sale'/'cuota' filtrados por heurística. LUZU sin chat usable en el período. 5 mensaje(s) cayeron dentro de 5 min después de una PNT verificada.",
+ "disclaimer": "Pedidos confirmados de link, precio o dónde comprar — no certifica ventas. Falsos positivos de 'sale'/'cuota' filtrados por heurística + revisión LLM en casos dudosos. LUZU sin chat usable en el período. 5 mensaje(s) cayeron dentro de 5 min después de una PNT verificada.",
  "summary_line": "Neura Media concentra la mayor demanda comercial filtrada en chat (4 pedidos confirmados, 0.06 por cada mil mirando; 1 dentro de 5 min post-PNT).",
  "filter": {
-  "llm_used": false,
-  "llm_rejected": 0,
-  "llm_confirmed": 0,
+  "llm_used": 55,
+  "llm_rejected": 335,
+  "llm_confirmed": 29,
   "heuristic_rejected": 0,
-  "confirmed_total": 155
+  "confirmed_total": 200
  },
  "channels": [
   {
@@ -29,8 +29,8 @@
      "count": 1
     },
     {
-     "text": "Yayi... BTC está en muy buen precio.",
-     "tipo": "pregunta_precio",
+     "text": "cuando tenga la sucursal en bsas hay 15 de descuento para chat de neura vieejooo",
+     "tipo": "pedido_link",
      "count": 1
     },
     {
@@ -55,17 +55,17 @@
    },
    "top_examples": [
     {
-     "text": "CICLO DE LAS MEMORIAS 3 AÑOS ALCISTA Y DESPUÉS CAEN AUMENTA EL PRECIO CAE LA DEMANDA, CAE LA BURBUJA DEL PRECIO",
+     "text": "Milei ofrece milanesas otra ves con el precio de la carne otro gasto:face-blue-smiling:",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "DICP: corte cupón",
-     "tipo": "pedido_link",
+     "text": "Si rajan a Adorni y otros políticos de YPF, seguro pueden bajar precio las naftas...",
+     "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "Milei ofrece milanesas otra ves con el precio de la carne otro gasto:face-blue-smiling:",
+     "text": "batista pero hay letras para todos??? todos compran a ese precio? o para comprar en el secundario lo compras mas caro y despues vendes barato",
      "tipo": "pregunta_precio",
      "count": 1
     }
@@ -75,15 +75,21 @@
    "id": "aura",
    "name": "Aura",
    "programs_with_chat": 1,
-   "commercial_messages": 1,
+   "commercial_messages": 2,
    "chat_messages": 2193,
-   "commercial_pct": 0.0,
-   "commercial_per_1k": 0.02,
+   "commercial_pct": 0.1,
+   "commercial_per_1k": 0.04,
    "post_pnt_messages": 0,
    "by_tipo": {
+    "pregunta_compra": 1,
     "pedido_link": 1
    },
    "top_examples": [
+    {
+     "text": "MANDEN SUS AUDIOS: 11 7080 4460 :sparkles:",
+     "tipo": "pregunta_compra",
+     "count": 1
+    },
     {
      "text": "779 es el codigo de argentina despues 750 → México.789–790 → Brasil.690–699 → China.500–509 → Reino Unido. y asi",
      "tipo": "pedido_link",
@@ -94,25 +100,25 @@
   {
    "id": "",
    "name": "",
-   "programs_with_chat": 8,
-   "commercial_messages": 28,
-   "chat_messages": 26808,
+   "programs_with_chat": 10,
+   "commercial_messages": 38,
+   "chat_messages": 27581,
    "commercial_pct": 0.1,
-   "commercial_per_1k": 0.01,
+   "commercial_per_1k": 0.02,
    "post_pnt_messages": 0,
    "by_tipo": {
-    "pregunta_precio": 6,
-    "pedido_link": 20,
+    "pregunta_precio": 21,
+    "pedido_link": 15,
     "pregunta_compra": 2
    },
    "top_examples": [
     {
-     "text": "PASA EL LINK GUICHE",
-     "tipo": "pedido_link",
+     "text": "yo le compre una bandeja pasa vinilos a mi marido, sale 500 lucas",
+     "tipo": "pregunta_precio",
      "count": 2
     },
     {
-     "text": "1670 en diciembre? que barato! todo lo que no les logre sacar a 1400 se los voy a sacar todos ahora en 1500 y tambien lo hare a 1600. A cualquier precio abajo d",
+     "text": "Deci cuanto es el PBI del país y no te cierra nunca crecer como se creció .",
      "tipo": "pregunta_precio",
      "count": 1
     },
@@ -124,17 +130,48 @@
    ]
   },
   {
+   "id": "vorterix",
+   "name": "Vorterix",
+   "programs_with_chat": 6,
+   "commercial_messages": 25,
+   "chat_messages": 32647,
+   "commercial_pct": 0.1,
+   "commercial_per_1k": 0.01,
+   "post_pnt_messages": 0,
+   "by_tipo": {
+    "pedido_link": 23,
+    "pregunta_precio": 2
+   },
+   "top_examples": [
+    {
+     "text": "PASA EL LINK GUICHE",
+     "tipo": "pedido_link",
+     "count": 2
+    },
+    {
+     "text": "LA APP DE VORTERIX MARIO. VORTERIX LA NUEVA MTV.",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "en el codigo penal estA?",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ]
+  },
+  {
    "id": "blend",
    "name": "Blender",
    "programs_with_chat": 4,
-   "commercial_messages": 18,
+   "commercial_messages": 20,
    "chat_messages": 8656,
    "commercial_pct": 0.2,
    "commercial_per_1k": 0.01,
    "post_pnt_messages": 0,
    "by_tipo": {
     "pedido_link": 13,
-    "pregunta_precio": 5
+    "pregunta_precio": 7
    },
    "top_examples": [
     {
@@ -143,13 +180,13 @@
      "count": 2
     },
     {
-     "text": "tiraron en link y había 6k de vistas",
+     "text": "es un código propio",
      "tipo": "pedido_link",
      "count": 1
     },
     {
-     "text": "Cambiaron de link nos perdimos todo",
-     "tipo": "pedido_link",
+     "text": "el conmgelador de precio",
+     "tipo": "pregunta_precio",
      "count": 1
     }
    ]
@@ -164,24 +201,24 @@
    "commercial_per_1k": 0.01,
    "post_pnt_messages": 0,
    "by_tipo": {
+    "pregunta_precio": 2,
     "pedido_link": 2,
-    "pregunta_compra": 1,
-    "pregunta_precio": 2
+    "pregunta_compra": 1
    },
    "top_examples": [
     {
+     "text": "vamos pepe decime cuanto aumento cuota para incorporar HAA",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "no le bajemos el precio a los estafadores hijos de puta con esto de reirnos no más",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
      "text": "está ahí abajo el link",
      "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "LINK FIJADO LOLA",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "MAS CIPAYO NO SE CONSIGUE",
-     "tipo": "pregunta_compra",
      "count": 1
     }
    ]
@@ -210,15 +247,15 @@
    "id": "olga",
    "name": "Olga",
    "programs_with_chat": 15,
-   "commercial_messages": 71,
+   "commercial_messages": 90,
    "chat_messages": 73738,
    "commercial_pct": 0.1,
    "commercial_per_1k": 0.0,
    "post_pnt_messages": 3,
    "by_tipo": {
     "pedido_link": 44,
-    "pregunta_compra": 2,
-    "pregunta_precio": 25
+    "pregunta_precio": 43,
+    "pregunta_compra": 3
    },
    "top_examples": [
     {
@@ -235,36 +272,6 @@
      "text": "esta a un precio super accesible!",
      "tipo": "pregunta_precio",
      "count": 3
-    }
-   ]
-  },
-  {
-   "id": "vorterix",
-   "name": "Vorterix",
-   "programs_with_chat": 4,
-   "commercial_messages": 12,
-   "chat_messages": 22392,
-   "commercial_pct": 0.1,
-   "commercial_per_1k": 0.0,
-   "post_pnt_messages": 0,
-   "by_tipo": {
-    "pedido_link": 12
-   },
-   "top_examples": [
-    {
-     "text": "LA APP DE VORTERIX MARIO. VORTERIX LA NUEVA MTV.",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "La Prodeneta uso yo. GRAN APP Desarrollada por una piba muy copada.",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "en el codigo penal estA?",
-     "tipo": "pedido_link",
-     "count": 1
     }
    ]
   },
@@ -345,6 +352,45 @@
    "pnt_examples": []
   },
   {
+   "video_id": "3AxUr1Maqu8",
+   "title": "",
+   "channel": "",
+   "channel_id": "",
+   "commercial_messages": 5,
+   "commercial_pct": 1.6,
+   "commercial_per_1k": 0.12,
+   "chat_messages": 321,
+   "by_tipo": {
+    "pregunta_precio": 4,
+    "pedido_link": 1
+   },
+   "top_examples": [
+    {
+     "text": "hoy baja de precio el 25",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "lo bueno que sube el precio galarza fonda gallis",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "de cuanto es la cláusula del perro galarza?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "MAÑANA 50% DE DESCUENTO EN ARMADO DE PAREDES",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
    "video_id": "btHFJgjSlls",
    "title": "SEGUNDO SEMESTRE FINANCIERO: VELOCIDAD CRUCERO | Martín Genero #MercadoFresh",
    "channel": "AHORA PLAY",
@@ -415,6 +461,73 @@
      "brand_in_chat": false
     }
    ]
+  },
+  {
+   "video_id": "AUSgxGQirlM",
+   "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+   "channel": " A U R A ",
+   "channel_id": "aura",
+   "commercial_messages": 2,
+   "commercial_pct": 0.1,
+   "commercial_per_1k": 0.04,
+   "chat_messages": 2193,
+   "by_tipo": {
+    "pregunta_compra": 1,
+    "pedido_link": 1
+   },
+   "top_examples": [
+    {
+     "text": "MANDEN SUS AUDIOS: 11 7080 4460 :sparkles:",
+     "tipo": "pregunta_compra",
+     "count": 1
+    },
+    {
+     "text": "779 es el codigo de argentina despues 750 → México.789–790 → Brasil.690–699 → China.500–509 → Reino Unido. y asi",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "qLQFv3bGuhA",
+   "title": "",
+   "channel": "",
+   "channel_id": "",
+   "commercial_messages": 5,
+   "commercial_pct": 0.7,
+   "commercial_per_1k": 0.03,
+   "chat_messages": 729,
+   "by_tipo": {
+    "pregunta_precio": 5
+   },
+   "top_examples": [
+    {
+     "text": "a Cuanto seria el acomodo, 1700 o 1900?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "1670 en diciembre? que barato! todo lo que no les logre sacar a 1400 se los voy a sacar todos ahora en 1500 y tambien lo hare a 1600. A cualquier precio abajo d",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "POLITICOS QUE SE ESCAPEN A EUROPA.... LE VAMOS A PONER PRECIO A SUS CABEZAS....",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Maxi. Cada cuota de los préstamos paga 21% de IVA. El gobierno \"liberal\" podría quitar el 21% sobre las cuotas. ¿Qué VALOR AGREGADO tiene un préstamo personal? ",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
   },
   {
    "video_id": "HTm_q34CwyM",
@@ -512,40 +625,17 @@
    "pnt_examples": []
   },
   {
-   "video_id": "AUSgxGQirlM",
-   "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
-   "channel": " A U R A ",
-   "channel_id": "aura",
-   "commercial_messages": 1,
-   "commercial_pct": 0.0,
-   "commercial_per_1k": 0.02,
-   "chat_messages": 2193,
-   "by_tipo": {
-    "pedido_link": 1
-   },
-   "top_examples": [
-    {
-     "text": "779 es el codigo de argentina despues 750 → México.789–790 → Brasil.690–699 → China.500–509 → Reino Unido. y asi",
-     "tipo": "pedido_link",
-     "count": 1
-    }
-   ],
-   "post_pnt_messages": 0,
-   "pnt_brand_aligned": 0,
-   "pnt_examples": []
-  },
-  {
    "video_id": "cOui_830fXg",
    "title": "🚀 SOÑÉ QUE VOLABA con Migue Granados, Lucas Fridman, Vicky Garabal y Charo López | OLGA EN VIVO",
    "channel": "OLGA",
    "channel_id": "olga",
-   "commercial_messages": 27,
-   "commercial_pct": 0.4,
+   "commercial_messages": 32,
+   "commercial_pct": 0.5,
    "commercial_per_1k": 0.01,
    "chat_messages": 6439,
    "by_tipo": {
-    "pedido_link": 15,
-    "pregunta_precio": 12
+    "pregunta_precio": 17,
+    "pedido_link": 15
    },
    "top_examples": [
     {
@@ -559,12 +649,12 @@
      "count": 2
     },
     {
-     "text": "Estas desarrollando una APP Migue?",
-     "tipo": "pedido_link",
+     "text": "cuanto el G?",
+     "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "che buen descuento",
+     "text": "Estas desarrollando una APP Migue?",
      "tipo": "pedido_link",
      "count": 1
     }
@@ -575,9 +665,9 @@
   },
   {
    "video_id": "JNLpggdieek",
-   "title": "",
-   "channel": "",
-   "channel_id": "",
+   "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
    "commercial_messages": 11,
    "commercial_pct": 0.1,
    "commercial_per_1k": 0.01,
@@ -655,13 +745,13 @@
    "title": "¿NOS INVADEN O QUÉ?, ODIADOS CON EL ALGORITMO y  LA CRISIS DE LA COLO  | ÚLTIMO AVISO | BLENDER",
    "channel": "BLENDER",
    "channel_id": "blend",
-   "commercial_messages": 4,
+   "commercial_messages": 5,
    "commercial_pct": 0.3,
    "commercial_per_1k": 0.01,
    "chat_messages": 1455,
    "by_tipo": {
     "pedido_link": 3,
-    "pregunta_precio": 1
+    "pregunta_precio": 2
    },
    "top_examples": [
     {
@@ -690,6 +780,40 @@
    "pnt_examples": []
   },
   {
+   "video_id": "EwFONN3W5cg",
+   "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "commercial_messages": 3,
+   "commercial_pct": 0.1,
+   "commercial_per_1k": 0.01,
+   "chat_messages": 2665,
+   "by_tipo": {
+    "pedido_link": 2,
+    "pregunta_precio": 1
+   },
+   "top_examples": [
+    {
+     "text": "en el codigo penal estA?",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "menos código el chabon",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "sale ese Damián Cuck chair?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
    "video_id": "tlhTO7YtTJ0",
    "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
    "channel": "GELATINA",
@@ -710,75 +834,6 @@
     {
      "text": "no le bajemos el precio a los estafadores hijos de puta con esto de reirnos no más",
      "tipo": "pregunta_precio",
-     "count": 1
-    }
-   ],
-   "post_pnt_messages": 0,
-   "pnt_brand_aligned": 0,
-   "pnt_examples": []
-  },
-  {
-   "video_id": "qLQFv3bGuhA",
-   "title": "",
-   "channel": "",
-   "channel_id": "",
-   "commercial_messages": 1,
-   "commercial_pct": 0.3,
-   "commercial_per_1k": 0.01,
-   "chat_messages": 346,
-   "by_tipo": {
-    "pregunta_precio": 1
-   },
-   "top_examples": [
-    {
-     "text": "1670 en diciembre? que barato! todo lo que no les logre sacar a 1400 se los voy a sacar todos ahora en 1500 y tambien lo hare a 1600. A cualquier precio abajo d",
-     "tipo": "pregunta_precio",
-     "count": 1
-    }
-   ],
-   "post_pnt_messages": 0,
-   "pnt_brand_aligned": 0,
-   "pnt_examples": []
-  },
-  {
-   "video_id": "LE5ICiVWzT8",
-   "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
-   "channel": "Vorterix",
-   "channel_id": "vorterix",
-   "commercial_messages": 1,
-   "commercial_pct": 0.1,
-   "commercial_per_1k": 0.01,
-   "chat_messages": 1421,
-   "by_tipo": {
-    "pedido_link": 1
-   },
-   "top_examples": [
-    {
-     "text": "La Prodeneta uso yo. GRAN APP Desarrollada por una piba muy copada.",
-     "tipo": "pedido_link",
-     "count": 1
-    }
-   ],
-   "post_pnt_messages": 0,
-   "pnt_brand_aligned": 0,
-   "pnt_examples": []
-  },
-  {
-   "video_id": "7ON4ZA5TtHc",
-   "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
-   "channel": "Neura Media",
-   "channel_id": "neura",
-   "commercial_messages": 1,
-   "commercial_pct": 0.1,
-   "commercial_per_1k": 0.01,
-   "chat_messages": 1201,
-   "by_tipo": {
-    "pedido_link": 1
-   },
-   "top_examples": [
-    {
-     "text": "Avisaron del gol y me gane un cupon en PYa, gracias",
-     "tipo": "pedido_link",
      "count": 1
     }
    ],
@@ -819,14 +874,6 @@
    "cross_canal": false
   },
   {
-   "text": "PASA EL LINK GUICHE",
-   "tipo": "pedido_link",
-   "count": 2,
-   "n_programas": 1,
-   "canales": [],
-   "cross_canal": false
-  },
-  {
    "text": "LINK LINK LINK",
    "tipo": "pedido_link",
    "count": 2,
@@ -837,12 +884,30 @@
    "cross_canal": false
   },
   {
-   "text": "Hay descuento tipo 3x2?? me interesa para comprar varios, y tener uno en cada habitación",
-   "tipo": "pedido_link",
+   "text": "yo le compre una bandeja pasa vinilos a mi marido, sale 500 lucas",
+   "tipo": "pregunta_precio",
+   "count": 2,
+   "n_programas": 1,
+   "canales": [],
+   "cross_canal": false
+  },
+  {
+   "text": "este año sale Teatro Picadilly",
+   "tipo": "pregunta_precio",
    "count": 2,
    "n_programas": 1,
    "canales": [
     "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "PASA EL LINK GUICHE",
+   "tipo": "pedido_link",
+   "count": 2,
+   "n_programas": 1,
+   "canales": [
+    "Vorterix"
    ],
    "cross_canal": false
   },
@@ -857,9 +922,9 @@
    "cross_canal": false
   },
   {
-   "text": "ESTOY HACIENDO UNA APP",
+   "text": "Hay descuento tipo 3x2?? me interesa para comprar varios, y tener uno en cada habitación",
    "tipo": "pedido_link",
-   "count": 1,
+   "count": 2,
    "n_programas": 1,
    "canales": [
     "OLGA"
@@ -867,22 +932,12 @@
    "cross_canal": false
   },
   {
-   "text": "pergo hizo una app de gente tarzan",
+   "text": "LA APP DE VORTERIX MARIO. VORTERIX LA NUEVA MTV.",
    "tipo": "pedido_link",
    "count": 1,
    "n_programas": 1,
    "canales": [
-    "OLGA"
-   ],
-   "cross_canal": false
-  },
-  {
-   "text": "HICE UNA APP PARA CONSEGUIRLE ZAPATILLAS A ESTOS MUCHACHOS",
-   "tipo": "pedido_link",
-   "count": 1,
-   "n_programas": 1,
-   "canales": [
-    "OLGA"
+    "Vorterix"
    ],
    "cross_canal": false
   }
@@ -950,5 +1005,5 @@
   }
  ],
  "channels_with_commercial": 11,
- "period": "2026-06-29T17:09:05.599166+00:00"
+ "period": "2026-06-30T00:06:50.557712+00:00"
 }

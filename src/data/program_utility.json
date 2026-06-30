@@ -483,6 +483,64 @@
    }
   },
   {
+   "video_id": "jEEahJU8_jg",
+   "channel": "LUZU TV",
+   "channel_id": "luzu",
+   "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
+   "date": "20260629",
+   "iup": 95,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 1.0,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.0,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 201636,
+     "peak_concurrent": 223864
+    },
+    "conversation": {
+     "blocks": 17,
+     "blocks_with_signal": 17,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 65,
+     "sponsored": 15,
+     "organic": 44,
+     "productos_marcas": 47
+    },
+    "participation": {
+     "chat_engagement": null,
+     "chat_noise": null,
+     "note": "sin chat"
+    },
+    "format": {
+     "show_id": "ndn",
+     "show_name": "Nadie Dice Nada"
+    },
+    "capture_minutes": 158.81666666666666
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "wpLDMAyU_fA",
    "channel": "LUZU TV",
    "channel_id": "luzu",
@@ -1759,6 +1817,64 @@
    }
   },
   {
+   "video_id": "e3av_6yqgHg",
+   "channel": "OLGA",
+   "channel_id": "olga",
+   "title": "NOS SOMETEMOS AL CASCO DE LA VERDAD | #SoñéQueVolaba 29/6",
+   "date": "20260629",
+   "iup": 89,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.901,
+    "conversation": 0.764,
+    "commercial": 1.0,
+    "participation": 0.211,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 32950,
+     "peak_concurrent": 34884
+    },
+    "conversation": {
+     "blocks": 14,
+     "blocks_with_signal": 8,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 25,
+     "sponsored": 2,
+     "organic": 15,
+     "productos_marcas": 19
+    },
+    "participation": {
+     "chat_engagement": 0.8,
+     "chat_noise": 0.14,
+     "chat_total": 3695
+    },
+    "format": {
+     "show_id": "sone-volaba",
+     "show_name": "Soñé que Volaba"
+    },
+    "capture_minutes": 136.15166666666667
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "WNe6QLgDfyM",
    "channel": "OLGA",
    "channel_id": "olga",
@@ -1922,6 +2038,64 @@
      "show_name": "Otros"
     },
     "capture_minutes": 117.68333333333334
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "JNLpggdieek",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+   "date": "20260629",
+   "iup": 87,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.565,
+    "conversation": 0.871,
+    "commercial": 1.0,
+    "participation": 0.944,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 7883,
+     "peak_concurrent": 9003
+    },
+    "conversation": {
+     "blocks": 17,
+     "blocks_with_signal": 13,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 50,
+     "sponsored": 3,
+     "organic": 37,
+     "productos_marcas": 35
+    },
+    "participation": {
+     "chat_engagement": 6.34,
+     "chat_noise": 0.14,
+     "chat_total": 9293
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 181.95833333333334
    },
    "weights": {
     "capture": 0.25,
@@ -2687,6 +2861,64 @@
    }
   },
   {
+   "video_id": "0emroxvypsw",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "title": "🔴 PAREN LA MANO MUNDIAL: VLOG ESTRENO DESDE EEUU | VORTERIX EN VIVO",
+   "date": "20260629",
+   "iup": 78,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.235,
+    "conversation": 0.835,
+    "commercial": 1.0,
+    "participation": 0.972,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 1391,
+     "peak_concurrent": 1860
+    },
+    "conversation": {
+     "blocks": 10,
+     "blocks_with_signal": 7,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 23,
+     "sponsored": 2,
+     "organic": 12,
+     "productos_marcas": 21
+    },
+    "participation": {
+     "chat_engagement": 3.12,
+     "chat_noise": 0.07,
+     "chat_total": 442
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 85.15833333333333
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "CP5OqzXez-g",
    "channel": "BorderPeriodismo",
    "channel_id": "border",
@@ -2861,6 +3093,64 @@
    }
   },
   {
+   "video_id": "WCdVYizlDYA",
+   "channel": "OLGA",
+   "channel_id": "olga",
+   "title": "⚽️ GOLGANA con AZZ: Flavio Azzaro, Chute D'attellis, Benito, Sangre y Mouche | OLGA EN VIVO 2026-06-29 14:53",
+   "date": "20260629",
+   "iup": 77,
+   "tier": "alta",
+   "components": {
+    "capture": 0.85,
+    "audience": 0.421,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.04,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": false
+    },
+    "audience": {
+     "avg_concurrent": 4230,
+     "peak_concurrent": 4230
+    },
+    "conversation": {
+     "blocks": 11,
+     "blocks_with_signal": 11,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 42,
+     "sponsored": 12,
+     "organic": 31,
+     "productos_marcas": 28
+    },
+    "participation": {
+     "chat_engagement": 0.12,
+     "chat_noise": null,
+     "chat_total": 4
+    },
+    "format": {
+     "show_id": "gol-gana",
+     "show_name": "Gol Gana"
+    },
+    "capture_minutes": null
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "tlhTO7YtTJ0",
    "channel": "GELATINA",
    "channel_id": "gelatina",
@@ -2966,6 +3256,64 @@
      "show_name": "Serrucho Económico"
     },
     "capture_minutes": 120.71333333333334
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "wKDizbT6vaU",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "title": "🔴 ESTO NO SUCEDIÓ con Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
+   "date": "20260629",
+   "iup": 76,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.104,
+    "conversation": 0.863,
+    "commercial": 1.0,
+    "participation": 1.0,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 466,
+     "peak_concurrent": 592
+    },
+    "conversation": {
+     "blocks": 12,
+     "blocks_with_signal": 9,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 55,
+     "sponsored": 7,
+     "organic": 29,
+     "productos_marcas": 52
+    },
+    "participation": {
+     "chat_engagement": 9.72,
+     "chat_noise": 0.0,
+     "chat_total": 77
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 13.754999999999999
    },
    "weights": {
     "capture": 0.25,
@@ -3557,6 +3905,64 @@
    }
   },
   {
+   "video_id": "ir7lhQ1Rmsw",
+   "channel": "Neura Media",
+   "channel_id": "neura",
+   "title": "Cuando mis hijos tengan mi edad: Claudio Zuchovicki",
+   "date": "20260629",
+   "iup": 72,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.068,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.397,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 295,
+     "peak_concurrent": 333
+    },
+    "conversation": {
+     "blocks": 6,
+     "blocks_with_signal": 6,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 27,
+     "sponsored": 9,
+     "organic": 12,
+     "productos_marcas": 26
+    },
+    "participation": {
+     "chat_engagement": 1.19,
+     "chat_noise": 0.0,
+     "chat_total": 20
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 44.58166666666667
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "VRWovoLU0yQ",
    "channel": "Neura Media",
    "channel_id": "neura",
@@ -3604,6 +4010,64 @@
      "show_name": "Otros"
     },
     "capture_minutes": 121.74000000000001
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "Mu8yxSKxqGQ",
+   "channel": "Neura Media",
+   "channel_id": "neura",
+   "title": "After Market: Julián Yosovitch",
+   "date": "20260629",
+   "iup": 67,
+   "tier": "media",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.077,
+    "conversation": 0.921,
+    "commercial": 1.0,
+    "participation": 0.037,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 354,
+     "peak_concurrent": 354
+    },
+    "conversation": {
+     "blocks": 7,
+     "blocks_with_signal": 6,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 13,
+     "sponsored": 5,
+     "organic": 7,
+     "productos_marcas": 7
+    },
+    "participation": {
+     "chat_engagement": 0.11,
+     "chat_noise": null,
+     "chat_total": 1
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": null
    },
    "weights": {
     "capture": 0.25,
@@ -4133,6 +4597,65 @@
     "format": {
      "show_id": "seria-increible",
      "show_name": "Sería Increíble"
+    },
+    "capture_minutes": null
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "A_FNmV3Lf1o",
+   "channel": "LUZU TV",
+   "channel_id": "luzu",
+   "title": "#LANOVELA | LAS MEJORES PAREJAS QUE DESCUBRIO JUARIU Y LA EXPERIENCIA DE AGUS EN EL MUNDIAL",
+   "date": "20260629",
+   "iup": 61,
+   "tier": "media",
+   "components": {
+    "capture": 0.65,
+    "audience": 0.0,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.0,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": false,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": null,
+     "peak_concurrent": null,
+     "note": "sin concurrentes en vivo"
+    },
+    "conversation": {
+     "blocks": 9,
+     "blocks_with_signal": 9,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 18,
+     "sponsored": 1,
+     "organic": 21,
+     "productos_marcas": 13
+    },
+    "participation": {
+     "chat_engagement": null,
+     "chat_noise": null,
+     "note": "sin chat"
+    },
+    "format": {
+     "show_id": "novela",
+     "show_name": "La Novela"
     },
     "capture_minutes": null
    },
@@ -7037,6 +7560,65 @@
    }
   },
   {
+   "video_id": "Q5JgzXlS5Vg",
+   "channel": "LUZU TV",
+   "channel_id": "luzu",
+   "title": "FM LUZU AL ATARDECER con CRIS VANADÍA | EN VIVO 2026-06-29 14:45",
+   "date": "20260629",
+   "iup": 58,
+   "tier": "media",
+   "components": {
+    "capture": 0.5,
+    "audience": 0.0,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.0,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": false,
+     "duration_ok": false
+    },
+    "audience": {
+     "avg_concurrent": null,
+     "peak_concurrent": null,
+     "note": "sin concurrentes en vivo"
+    },
+    "conversation": {
+     "blocks": 6,
+     "blocks_with_signal": 6,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 27,
+     "sponsored": 1,
+     "organic": 19,
+     "productos_marcas": 14
+    },
+    "participation": {
+     "chat_engagement": null,
+     "chat_noise": null,
+     "note": "sin chat"
+    },
+    "format": {
+     "show_id": "fmluzu",
+     "show_name": "FM Luzu"
+    },
+    "capture_minutes": null
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "UtcsB5NsGj8",
    "channel": "LUZU TV",
    "channel_id": "luzu",
@@ -7413,10 +7995,10 @@
   {
    "channel_id": "vorterix",
    "channel": "Vorterix",
-   "programs": 7,
-   "iup_avg": 82.1,
+   "programs": 10,
+   "iup_avg": 81.6,
    "iup_median": 82,
-   "tier_alta": 7,
+   "tier_alta": 10,
    "tier_insuficiente": 0
   },
   {
@@ -7476,35 +8058,35 @@
   {
    "channel_id": "neura",
    "channel": "Neura Media",
-   "programs": 5,
-   "iup_avg": 73.0,
+   "programs": 7,
+   "iup_avg": 72.0,
    "iup_median": 73,
-   "tier_alta": 5,
+   "tier_alta": 6,
    "tier_insuficiente": 0
   },
   {
    "channel_id": "luzu",
    "channel": "LUZU TV",
-   "programs": 50,
-   "iup_avg": 71.8,
+   "programs": 53,
+   "iup_avg": 71.7,
    "iup_median": 61,
-   "tier_alta": 18,
+   "tier_alta": 19,
    "tier_insuficiente": 0
   },
   {
    "channel_id": "olga",
    "channel": "OLGA",
-   "programs": 49,
-   "iup_avg": 70.5,
+   "programs": 51,
+   "iup_avg": 71.0,
    "iup_median": 61,
-   "tier_alta": 17,
+   "tier_alta": 19,
    "tier_insuficiente": 0
   }
  ],
  "totals": {
-  "programs": 126,
-  "tier_alta": 62,
-  "tier_media": 64,
+  "programs": 136,
+  "tier_alta": 69,
+  "tier_media": 67,
   "tier_baja": 0,
   "tier_insuficiente": 0
  }

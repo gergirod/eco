@@ -1618,6 +1618,31 @@
   "kind": "producto"
  },
  {
+  "slug": "play-playstation",
+  "name": "Play (PlayStation)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "wKDizbT6vaU",
+    "title": "🔴 ESTO NO SUCEDIÓ con Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
+    "minute": "00:50",
+    "views": 1890
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "yuya-casa-flipper",
   "name": "Yuya (casa/flipper)",
   "mentions": 1,
@@ -2318,6 +2343,56 @@
   "kind": "producto"
  },
  {
+  "slug": "jessica-sirio-marca-de-calzoncillos",
+  "name": "Jessica Sirio (marca de calzoncillos)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "JNLpggdieek",
+    "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+    "minute": "01:20",
+    "views": 29488
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "lafamiliaverde-com",
+  "name": "lafamiliaverde.com",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "JNLpggdieek",
+    "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+    "minute": "01:40",
+    "views": 29488
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "macanchis",
   "name": "macanchís",
   "mentions": 1,
@@ -2818,6 +2893,56 @@
   "kind": "producto"
  },
  {
+  "slug": "inter-club-de-futbol",
+  "name": "Inter (club de fútbol)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/06/2026",
+    "video_id": "WCdVYizlDYA",
+    "title": "⚽️ GOLGANA con AZZ: Flavio Azzaro, Chute D'attellis, Benito, Sangre y Mouche | OLGA EN VIVO 2026-06-29 14:53",
+    "minute": "00:20",
+    "views": 6962
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "mercedes-estadio-de-atlanta",
+  "name": "Mercedes (estadio de Atlanta)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/06/2026",
+    "video_id": "WCdVYizlDYA",
+    "title": "⚽️ GOLGANA con AZZ: Flavio Azzaro, Chute D'attellis, Benito, Sangre y Mouche | OLGA EN VIVO 2026-06-29 14:53",
+    "minute": "01:20",
+    "views": 6962
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "gaseosa",
   "name": "gaseosa",
   "mentions": 1,
@@ -3268,6 +3393,81 @@
   "kind": "producto"
  },
  {
+  "slug": "la-bestia-negra-perfume",
+  "name": "La Bestia Negra (perfume)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "0emroxvypsw",
+    "title": "🔴 PAREN LA MANO MUNDIAL: VLOG ESTRENO DESDE EEUU | VORTERIX EN VIVO",
+    "minute": "00:20",
+    "views": 13832
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "madden-arena",
+  "name": "Madden (arena)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "0emroxvypsw",
+    "title": "🔴 PAREN LA MANO MUNDIAL: VLOG ESTRENO DESDE EEUU | VORTERIX EN VIVO",
+    "minute": "00:20",
+    "views": 13832
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "ramoncito-monchito-local-de-compras",
+  "name": "Ramoncito/Monchito (local de compras)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "0emroxvypsw",
+    "title": "🔴 PAREN LA MANO MUNDIAL: VLOG ESTRENO DESDE EEUU | VORTERIX EN VIVO",
+    "minute": "00:40",
+    "views": 13832
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "winter-pista-de-patinaje",
   "name": "Winter (pista de patinaje)",
   "mentions": 1,
@@ -3293,6 +3493,31 @@
   "kind": "producto"
  },
  {
+  "slug": "estaciones-de-servicio",
+  "name": "estaciones de servicio",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "29/06/2026",
+    "video_id": "Mu8yxSKxqGQ",
+    "title": "After Market: Julián Yosovitch",
+    "minute": "00:50",
+    "views": 1102
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "balance-sociedad-de-bolsa",
   "name": "Balance (sociedad de bolsa)",
   "mentions": 1,
@@ -3313,6 +3538,181 @@
     "title": "LA NOVELA con CARINA ZAMPINI, DIEGO CASTRO, GABY SCHULTZ Y AGUS BATTIONI | EN VIVO",
     "minute": "00:40",
     "views": 15393
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "chelsea-equipo-jugador",
+  "name": "Chelsea (equipo/jugador)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "jEEahJU8_jg",
+    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
+    "minute": "00:30",
+    "views": 533713
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "wanderlust-mochila-equipaje",
+  "name": "Wanderlust (mochila/equipaje)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "jEEahJU8_jg",
+    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
+    "minute": "01:10",
+    "views": 533713
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "gh-gran-hermano",
+  "name": "GH (Gran Hermano)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "jEEahJU8_jg",
+    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
+    "minute": "01:40",
+    "views": 533713
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "kanye-west-fade",
+  "name": "Kanye West (Fade)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "jEEahJU8_jg",
+    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
+    "minute": "02:00",
+    "views": 533713
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "wynwood-locales-de-disenadores",
+  "name": "Wynwood (locales de diseñadores)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "jEEahJU8_jg",
+    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
+    "minute": "02:10",
+    "views": 533713
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "fridaking-concept",
+  "name": "fridaking.concept",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "jEEahJU8_jg",
+    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
+    "minute": "02:20",
+    "views": 533713
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "sarmiento-tren",
+  "name": "Sarmiento (tren)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "jEEahJU8_jg",
+    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
+    "minute": "02:30",
+    "views": 533713
    }
   ],
   "kind": "producto"
@@ -3738,6 +4138,56 @@
     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
     "minute": "02:30",
     "views": 39368
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "madrid-tienda",
+  "name": "Madrid (tienda)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/06/2026",
+    "video_id": "e3av_6yqgHg",
+    "title": "NOS SOMETEMOS AL CASCO DE LA VERDAD | #SoñéQueVolaba 29/6",
+    "minute": "00:10",
+    "views": 60610
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "blue-programa-numero-telefonico",
+  "name": "Blue (programa/número telefónico)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/06/2026",
+    "video_id": "e3av_6yqgHg",
+    "title": "NOS SOMETEMOS AL CASCO DE LA VERDAD | #SoñéQueVolaba 29/6",
+    "minute": "00:40",
+    "views": 60610
    }
   ],
   "kind": "producto"

@@ -9,11 +9,11 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 16,
-   "total_vod_views": 612267,
-   "avg_concurrent": 25924,
-   "brands_detected": 54,
-   "mentions": 95,
+   "videos_processed": 18,
+   "total_vod_views": 679839,
+   "avg_concurrent": 25109,
+   "brands_detected": 57,
+   "mentions": 109,
    "last_processed": "29/06/2026"
   },
   "pipeline_status": "activo"
@@ -28,11 +28,11 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 18,
-   "total_vod_views": 2329903,
-   "avg_concurrent": 79738,
-   "brands_detected": 51,
-   "mentions": 68,
+   "videos_processed": 19,
+   "total_vod_views": 2863616,
+   "avg_concurrent": 86154,
+   "brands_detected": 59,
+   "mentions": 83,
    "last_processed": "29/06/2026"
   },
   "pipeline_status": "activo"
@@ -85,9 +85,9 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 2,
-   "total_vod_views": 13768,
-   "avg_concurrent": 1554,
+   "videos_processed": 3,
+   "total_vod_views": 25794,
+   "avg_concurrent": 2897,
    "brands_detected": 3,
    "mentions": 3,
    "last_processed": "29/06/2026"
@@ -104,11 +104,11 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 7,
-   "total_vod_views": 126176,
-   "avg_concurrent": 6831,
-   "brands_detected": 21,
-   "mentions": 23,
+   "videos_processed": 10,
+   "total_vod_views": 171386,
+   "avg_concurrent": 5755,
+   "brands_detected": 30,
+   "mentions": 35,
    "last_processed": "29/06/2026"
   },
   "pipeline_status": "activo"
@@ -147,12 +147,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 5,
-   "total_vod_views": 7881,
-   "avg_concurrent": 351,
-   "brands_detected": 12,
-   "mentions": 17,
-   "last_processed": "26/06/2026"
+   "videos_processed": 7,
+   "total_vod_views": 9601,
+   "avg_concurrent": 344,
+   "brands_detected": 18,
+   "mentions": 31,
+   "last_processed": "29/06/2026"
   },
   "pipeline_status": "activo"
  },

@@ -1,5 +1,5 @@
 {
- "programs_analyzed": 75,
+ "programs_analyzed": 84,
  "platform_line": "La atención más fuerte concentra entre las 11–12 hs (promedio 79.947 mirando en 15 emisiones).",
  "best_hours": [
   {
@@ -23,20 +23,20 @@
   {
    "hour": 14,
    "label": "14–15 hs",
-   "avg_peak": 26773,
+   "avg_peak": 30244,
    "n": 5
   },
   {
    "hour": 15,
    "label": "15–16 hs",
-   "avg_peak": 23556,
-   "n": 4
+   "avg_peak": 19111,
+   "n": 5
   },
   {
-   "hour": 16,
-   "label": "16–17 hs",
-   "avg_peak": 18017,
-   "n": 2
+   "hour": 13,
+   "label": "13–14 hs",
+   "avg_peak": 17963,
+   "n": 8
   }
  ],
  "best_weekdays": [
@@ -191,12 +191,12 @@
    "channel_id": "olga",
    "show_id": "tdt",
    "show_name": "TDT",
-   "emissions": 3,
-   "typical_start": "14:38",
-   "peak_window": "15–16 hs",
-   "best_weekday": "martes",
-   "avg_peak": 20627,
-   "line": "TDT suele arrancar cerca de las 14:38 y pega fuerte entre 15–16 hs los martes."
+   "emissions": 4,
+   "typical_start": "14:37",
+   "peak_window": "14–15 hs",
+   "best_weekday": "lunes",
+   "avg_peak": 19937,
+   "line": "TDT suele arrancar cerca de las 14:37 y pega fuerte entre 14–15 hs los lunes."
   },
   {
    "channel_id": "blend",
@@ -210,16 +210,16 @@
    "line": "Otros suele arrancar cerca de las 21:54 y pega fuerte entre 21–22 hs los miércoles."
   },
   {
-   "channel_id": "olga",
-   "show_id": "gol-gana",
-   "show_name": "Gol Gana",
-   "emissions": 4,
-   "typical_start": "16:47",
-   "peak_window": "19–20 hs",
+   "channel_id": "vorterix",
+   "show_id": "no-rusia",
+   "show_name": "No Preguntes por Rusia",
+   "emissions": 2,
+   "typical_start": "7:48",
+   "peak_window": "9–10 hs",
    "best_weekday": "lunes",
-   "avg_peak": 10469,
-   "line": "Gol Gana suele arrancar cerca de las 16:47 y pega fuerte entre 19–20 hs los lunes."
+   "avg_peak": 9953,
+   "line": "No Preguntes por Rusia suele arrancar cerca de las 7:48 y pega fuerte entre 9–10 hs los lunes."
   }
  ],
- "period": "2026-06-29T17:09:05.599166+00:00"
+ "period": "2026-06-30T00:06:50.557712+00:00"
 }

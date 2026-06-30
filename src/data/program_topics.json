@@ -1,5 +1,147 @@
 {
  "by_video": {
+  "0emroxvypsw": {
+   "video_id": "0emroxvypsw",
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "title": "🔴 PAREN LA MANO MUNDIAL: VLOG ESTRENO DESDE EEUU | VORTERIX EN VIVO",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Compras En Tienda Guest",
+     "score": 3
+    },
+    {
+     "tema": "Prendas De Vestir Y Ofertas",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol Recreativo",
+     "score": 3
+    },
+    {
+     "tema": "Perfumes Y Fragancias",
+     "score": 3
+    },
+    {
+     "tema": "Análisis De Fixture De Torneo (posibles Emparejamientos)",
+     "score": 3
+    },
+    {
+     "tema": "Partido De Fútbol - Argentina Vs Jordania",
+     "score": 3
+    },
+    {
+     "tema": "Zapatillas Nike Y Adidas",
+     "score": 2
+    },
+    {
+     "tema": "Entrenamiento Y Fitness",
+     "score": 2
+    },
+    {
+     "tema": "Fútbol",
+     "score": 2
+    },
+    {
+     "tema": "Ropa Deportiva (camisetas, Casacas)",
+     "score": 2
+    },
+    {
+     "tema": "Comparaciones Con Futbolistas",
+     "score": 2
+    },
+    {
+     "tema": "Relación Personal Entre Conductores",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 30
+    },
+    {
+     "categoria": "producto",
+     "score": 17
+    },
+    {
+     "categoria": "persona",
+     "score": 6
+    },
+    {
+     "categoria": "cultura",
+     "score": 5
+    },
+    {
+     "categoria": "lugar",
+     "score": 3
+    },
+    {
+     "categoria": "salud",
+     "score": 3
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 3
+    },
+    {
+     "categoria": "otro",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Compras En Tienda Guest",
+     "categoria": "lugar",
+     "contexto": "Recorrido por tienda Guest buscando prendas con promociones, compra uno y segundo con descuento",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Prendas De Vestir Y Ofertas",
+     "categoria": "producto",
+     "contexto": "Búsqueda de camperas, sabanas, toallas, remeras Calvin Klein, medias, calzoncillos, boxers con descuentos del 30-60%",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Zapatillas Nike Y Adidas",
+     "categoria": "producto",
+     "contexto": "Intención de comprar zapatillas para entrenar, mención de etapa de entrenamiento para fin de año",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Entrenamiento Y Fitness",
+     "categoria": "actividad",
+     "contexto": "Conductor menciona que llega a Buenos Aires y debe empezar entrenamiento, objetivo de 78 kilos cortado para fin de año",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Perfumes Y Colonias",
+     "categoria": "producto",
+     "contexto": "Mención de buscar perfumes de marcas árabes en la tienda",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Fútbol",
+     "categoria": "actividad",
+     "contexto": "Segmento final con partido de fútbol, menciona Lucas Rodríguez con teca del Real Madrid, Devene y otros jugadores",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Fútbol Recreativo",
+     "categoria": "actividad",
+     "contexto": "Organización de un partidito de fútbol con amigos en un lugar con cancha, pantalla para ver partidos",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Ropa Deportiva (camisetas, Casacas)",
+     "categoria": "producto",
+     "contexto": "Mención de casaca de regalo de Blondel, timbos de Adidas, camisetas de Leopoldo Liu",
+     "minute": "0:20"
+    }
+   ]
+  },
   "2E9MjxyDU9o": {
    "video_id": "2E9MjxyDU9o",
    "channel_id": "luzu",
@@ -2686,6 +2828,148 @@
     }
    ]
   },
+  "JNLpggdieek": {
+   "video_id": "JNLpggdieek",
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Muertes De Personajes Públicos Y Exposición Mediática",
+     "score": 3
+    },
+    {
+     "tema": "Fiesta Swinger / Poliamor",
+     "score": 3
+    },
+    {
+     "tema": "Hombre De Máscara De Látex",
+     "score": 3
+    },
+    {
+     "tema": "Orgías Y Experiencias Sexuales Grupales",
+     "score": 3
+    },
+    {
+     "tema": "Contenido Sexual Y Erotismo",
+     "score": 3
+    },
+    {
+     "tema": "Damián Cook Y Su Contenido",
+     "score": 3
+    },
+    {
+     "tema": "Copa Del Mundo - Fase De Grupos",
+     "score": 3
+    },
+    {
+     "tema": "Partidos De Hoy - Brasil, Alemania, Países Bajos",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Manolo Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Nombramiento De Diego Santilli",
+     "score": 3
+    },
+    {
+     "tema": "Designación De Diego Santilli Como Jefe De Gabinete",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 32
+    },
+    {
+     "categoria": "cultura",
+     "score": 26
+    },
+    {
+     "categoria": "persona",
+     "score": 25
+    },
+    {
+     "categoria": "otro",
+     "score": 17
+    },
+    {
+     "categoria": "política",
+     "score": 17
+    },
+    {
+     "categoria": "lugar",
+     "score": 15
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 6
+    },
+    {
+     "categoria": "salud",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Salud Y Resaca",
+     "categoria": "salud",
+     "contexto": "El conductor menciona estar resfriado con tos desde el sábado y habla sobre cuánto dura una resaca",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Fútbol Argentino",
+     "categoria": "actividad",
+     "contexto": "Menciona haber visto un partido de fútbol y que ganaron",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Clickbait Y Noticias En Redes Sociales",
+     "categoria": "tecnologia",
+     "contexto": "Crítica sobre cómo medios como Clarín usan clickbait en Facebook con noticias de muertes sin información real en comentarios",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Muertes De Personajes Públicos Y Exposición Mediática",
+     "categoria": "cultura",
+     "contexto": "Discusión sobre cómo las redes reproducen videos de muertes en loop, mencionando a Natina Pais y un caso de Brasil",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cumpleaños En Bar Sadomasoquista",
+     "categoria": "lugar",
+     "contexto": "Anécdota detallada sobre el cumpleaños de Anacleta Babelgan en un bar con temática sadomasoquista donde había personas con máscaras de látex",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Enganche De Audiencia Y Engagement En Youtube",
+     "categoria": "tecnologia",
+     "contexto": "Solicitud reiterada de likes en YouTube durante la transmisión en vivo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Fiesta Swinger / Poliamor",
+     "categoria": "actividad",
+     "contexto": "Relato detallado sobre asistencia a una fiesta de intercambio de parejas donde se cruzan con personas enmascaradas",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Hombre De Máscara De Látex",
+     "categoria": "persona",
+     "contexto": "Personaje misterioso que llega a la fiesta enmascarado, genera tensión y momentos incómodos en la conversación",
+     "minute": "0:10"
+    }
+   ]
+  },
   "JXVQmuDctII": {
    "video_id": "JXVQmuDctII",
    "channel_id": "blend",
@@ -3392,6 +3676,148 @@
     }
    ]
   },
+  "Mu8yxSKxqGQ": {
+   "video_id": "Mu8yxSKxqGQ",
+   "channel_id": "neura",
+   "channel": "Neura Media",
+   "title": "After Market: Julián Yosovitch",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Política Monetaria Y Tasas De Interés",
+     "score": 6
+    },
+    {
+     "tema": "Tipo De Cambio Y Volatilidad Del Dólar",
+     "score": 3
+    },
+    {
+     "tema": "Política Monetaria De La Reserva Federal",
+     "score": 3
+    },
+    {
+     "tema": "Inflación Y Política Económica",
+     "score": 3
+    },
+    {
+     "tema": "Pobreza Y Bienestar Social",
+     "score": 3
+    },
+    {
+     "tema": "Empleo Y Mercado Laboral",
+     "score": 3
+    },
+    {
+     "tema": "Salarios Y Poder Adquisitivo",
+     "score": 3
+    },
+    {
+     "tema": "Reservas Internacionales Del Banco Central",
+     "score": 3
+    },
+    {
+     "tema": "Política Fiscal Y Ajuste Del Gobierno",
+     "score": 3
+    },
+    {
+     "tema": "Inflación Y Mecanismos De Baja",
+     "score": 3
+    },
+    {
+     "tema": "Estabilidad Cambiaria Y Tipo De Cambio",
+     "score": 3
+    },
+    {
+     "tema": "Estabilidad Cambiaria Y Fundamentals Económicos",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "economia",
+     "score": 38
+    },
+    {
+     "categoria": "otro",
+     "score": 35
+    },
+    {
+     "categoria": "salud",
+     "score": 5
+    },
+    {
+     "categoria": "actividad",
+     "score": 5
+    },
+    {
+     "categoria": "producto",
+     "score": 4
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 3
+    },
+    {
+     "categoria": "cultura",
+     "score": 2
+    },
+    {
+     "categoria": "politica",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Tipo De Cambio Y Volatilidad Del Dólar",
+     "categoria": "tecnologia",
+     "contexto": "Se analiza la suba del dólar en Argentina sin volatilidad, impulsada por factores externos y política monetaria en EE.UU.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Política Monetaria De La Reserva Federal",
+     "categoria": "otro",
+     "contexto": "Impacto de las decisiones de la Fed sobre tasas de interés y dólar a nivel mundial",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Expectativas De Inflación",
+     "categoria": "economia",
+     "contexto": "Se mantiene desinflación y anclaje de expectativas nominales a pesar de la suba del dólar",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Patrimonio Y Reservas Del Banco Central",
+     "categoria": "otro",
+     "contexto": "Mejora sustancial del patrimonio del BC por compra de reservas y eliminación de remunerados",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Carry Trade En Argentina",
+     "categoria": "otro",
+     "contexto": "Los operadores deben monitorear variables locales y globales para decisiones de inversión",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Equilibrio Fiscal Del Gobierno",
+     "categoria": "otro",
+     "contexto": "Se menciona el mantenimiento del equilibrio fiscal como factor de estabilidad",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Inflación Y Política Económica",
+     "categoria": "otro",
+     "contexto": "Análisis de la baja de inflación en el gobierno actual comparado con la gestión anterior",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Pobreza Y Bienestar Social",
+     "categoria": "salud",
+     "contexto": "Se menciona que bajó la pobreza según números, pero hay grupos que no sienten mejora en bienestar",
+     "minute": "0:20"
+    }
+   ]
+  },
   "N-Qq1qr42pk": {
    "video_id": "N-Qq1qr42pk",
    "channel_id": "luzu",
@@ -3465,6 +3891,148 @@
      "categoria": "actividad",
      "contexto": "Mesa de conducción con invitadas especiales, formato de talk-show",
      "minute": "0:00"
+    }
+   ]
+  },
+  "NHt6oqHZYd0": {
+   "video_id": "NHt6oqHZYd0",
+   "channel_id": "gelatina",
+   "channel": "GELATINA",
+   "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
+   "show_id": "tugo",
+   "show_name": "TUGO",
+   "top_temas": [
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 12
+    },
+    {
+     "tema": "Renuncia De Adorni",
+     "score": 9
+    },
+    {
+     "tema": "Ley De Inviolabilidad De La Propiedad Privada",
+     "score": 6
+    },
+    {
+     "tema": "Gastos Y Lujos De Funcionarios Públicos",
+     "score": 3
+    },
+    {
+     "tema": "Política Interna Del Gobierno Milei",
+     "score": 3
+    },
+    {
+     "tema": "Dólar Y Estabilidad Macroeconómica",
+     "score": 3
+    },
+    {
+     "tema": "Ley De Recursos Naturales",
+     "score": 3
+    },
+    {
+     "tema": "Conflicto Irán-israel-estados Unidos",
+     "score": 3
+    },
+    {
+     "tema": "Viajes Y Gastos Suntuosos De Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Cambio De Jefe De Gabinete - Santilli Reemplaza A Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Alianza Pro Y La Libertad Avanza",
+     "score": 3
+    },
+    {
+     "tema": "Credibilidad De Periodismo Vs. Gobierno",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "persona",
+     "score": 37
+    },
+    {
+     "categoria": "política",
+     "score": 30
+    },
+    {
+     "categoria": "otro",
+     "score": 24
+    },
+    {
+     "categoria": "actividad",
+     "score": 24
+    },
+    {
+     "categoria": "politica",
+     "score": 20
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 9
+    },
+    {
+     "categoria": "lugar",
+     "score": 6
+    },
+    {
+     "categoria": "cultura",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "categoria": "persona",
+     "contexto": "Adorni renuncia como jefe de gabinete de ministros tras moción de censura e interpelación. Se analiza su carta de renuncia y las contradicciones en sus argumentos.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Gastos Y Lujos De Funcionarios Públicos",
+     "categoria": "otro",
+     "contexto": "Se detallan gastos suntuosos de Adorni: cambio de departamentos, casa en country, sábanas y colchones por 8 millones, tarjetas de crédito para videojuegos, viajes en avión presidencial.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Viajes De Adorni",
+     "categoria": "otro",
+     "contexto": "Se cuestiona los múltiples viajes de Adorni: Punta del Este, Aruba, Yao Yao en Bariloche. Adorni se defiende diciendo que inventaron un viaje a Brasil que nunca existió.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Diego Santilli Nuevo Jefe De Gabinete",
+     "categoria": "persona",
+     "contexto": "Diego Santilli asume la jefatura de gabinete, reemplazando a Adorni. Se analiza su rol anterior como ministro del Interior y su cercanía al PRO.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Rol De Karina Milei En Decisiones De Gobierno",
+     "categoria": "persona",
+     "contexto": "Se señala que la decisión de cambio en jefatura de gabinete la tomó Karina Milei mientras Javier Milei estaba de viaje, evidenciando su poder en la administración.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Homenaje A Ernestina Páez",
+     "categoria": "persona",
+     "contexto": "El conductor dedica el programa a Ernestina Páez, querida amiga que falleció. Fue su primer contacto importante en medios de comunicación.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "categoria": "persona",
+     "contexto": "Análisis de la renuncia del portavoz presidencial Adorni tras acusaciones y mentiras evidentes durante su gestión",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Política Interna Del Gobierno Milei",
+     "categoria": "actividad",
+     "contexto": "Cambios en el gabinete, llegada de Santilli, tensiones entre libertarianismo y pragmatismo político",
+     "minute": "0:10"
     }
    ]
   },
@@ -4726,6 +5294,148 @@
      "tema": "Programa Especial Con Nico Y Marcos",
      "categoria": "actividad",
      "contexto": "Quizás el domingo prendemos con Nico y Marcos, hacemos un programa de chabones",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "WCdVYizlDYA": {
+   "video_id": "WCdVYizlDYA",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "⚽️ GOLGANA con AZZ: Flavio Azzaro, Chute D'attellis, Benito, Sangre y Mouche | OLGA EN VIVO 2026-06-29 14:53",
+   "show_id": "gol-gana",
+   "show_name": "Gol Gana",
+   "top_temas": [
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 6
+    },
+    {
+     "tema": "Rivalidad Argentina Vs Brasil En Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Análisis De Partidos De Argentina En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Posición De Lateral Derecho Y Palacios",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol - Copa América / Torneo Internacional",
+     "score": 3
+    },
+    {
+     "tema": "Selección Argentina - Jugadores Y Alineación",
+     "score": 3
+    },
+    {
+     "tema": "Crisis Del Fútbol Actual",
+     "score": 3
+    },
+    {
+     "tema": "Marcelo Bielsa Y Su Situación Actual",
+     "score": 3
+    },
+    {
+     "tema": "Viajes A Estados Unidos",
+     "score": 3
+    },
+    {
+     "tema": "Entradas Para Partidos",
+     "score": 3
+    },
+    {
+     "tema": "Messi",
+     "score": 3
+    },
+    {
+     "tema": "Análisis De Goles En El Mundial",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 69
+    },
+    {
+     "categoria": "persona",
+     "score": 32
+    },
+    {
+     "categoria": "cultura",
+     "score": 24
+    },
+    {
+     "categoria": "lugar",
+     "score": 9
+    },
+    {
+     "categoria": "salud",
+     "score": 4
+    },
+    {
+     "categoria": "otro",
+     "score": 3
+    },
+    {
+     "categoria": "producto",
+     "score": 3
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Rivalidad Argentina Vs Brasil En Fútbol",
+     "categoria": "cultura",
+     "contexto": "Debate sobre si es odio genuino o contexto de competencia; diferencia entre sentimientos hacia selección vs clubes brasileños",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Selección De Colombia En Mundial",
+     "categoria": "cultura",
+     "contexto": "Análisis de Colombia como equipo revelación, cambio de mentalidad vs su histórico juego ofensivo sin presión ganadora",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ranking De Selecciones Que Quieren Que Pierda Argentina",
+     "categoria": "cultura",
+     "contexto": "Uruguay, Colombia y Francia como principales candidatos a festejar caída de Argentina; análisis de motivaciones de cada una",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Diferencias Brasil Vs Chile En Sudamérica",
+     "categoria": "cultura",
+     "contexto": "Comparación de nivel competitivo; Chile como rival histórico vs Brasil como potencia; mención de Uruguay como más grande que Chile",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Rivalidad Argentina Vs Uruguay",
+     "categoria": "cultura",
+     "contexto": "Contexto histórico de inferioridad uruguaya; deseo de venganza tras quedar eliminados antes que Argentina",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Comportamiento De Brasileños En Cancha Vs Vacaciones",
+     "categoria": "cultura",
+     "contexto": "Contraste entre agresividad en estadios vs amabilidad en contextos sociales/playa",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Análisis De Partidos De Argentina En El Mundial",
+     "categoria": "actividad",
+     "contexto": "Debate sobre el rendimiento de Argentina contra Jordania y análisis táctico del equipo",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Posición De Lateral Derecho Y Palacios",
+     "categoria": "actividad",
+     "contexto": "Discusión sobre si Palacios puede jugar de 4 (lateral) y comparación con otros defensores",
      "minute": "0:10"
     }
    ]
@@ -6422,6 +7132,148 @@
     }
    ]
   },
+  "e3av_6yqgHg": {
+   "video_id": "e3av_6yqgHg",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "NOS SOMETEMOS AL CASCO DE LA VERDAD | #SoñéQueVolaba 29/6",
+   "show_id": "sone-volaba",
+   "show_name": "Soñé que Volaba",
+   "top_temas": [
+    {
+     "tema": "Relaciones Personales Y Amistad",
+     "score": 3
+    },
+    {
+     "tema": "Ausencia A Programa Por Enfermedad",
+     "score": 3
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Polémica De Offside En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Japón Vs Brasil - Octavos De Final",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Regulación De Apuestas Deportivas Online",
+     "score": 3
+    },
+    {
+     "tema": "Adicción Al Juego Y Ludopatía",
+     "score": 3
+    },
+    {
+     "tema": "Jabón Para Ciclos Cortos De Lavado",
+     "score": 3
+    },
+    {
+     "tema": "Juguetes Y Objetos Infantiles",
+     "score": 2
+    },
+    {
+     "tema": "Detección De Mentiras",
+     "score": 2
+    },
+    {
+     "tema": "Viaje Al Mediterráneo",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 37
+    },
+    {
+     "categoria": "otro",
+     "score": 13
+    },
+    {
+     "categoria": "cultura",
+     "score": 13
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 9
+    },
+    {
+     "categoria": "persona",
+     "score": 9
+    },
+    {
+     "categoria": "salud",
+     "score": 8
+    },
+    {
+     "categoria": "producto",
+     "score": 5
+    },
+    {
+     "categoria": "comida",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Juguetes Y Objetos Infantiles",
+     "categoria": "producto",
+     "contexto": "Discusión sobre una nave espacial de juguete rota, recuerdos de infancia sin dinero",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Relaciones Personales Y Amistad",
+     "categoria": "otro",
+     "contexto": "Conflicto entre amigos sobre mentiras repetidas, falta de creencia mutua, distanciamiento",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Detección De Mentiras",
+     "categoria": "tecnologia",
+     "contexto": "Broma sobre un 'casco de la verdad' inspirado en Chiche Hellblum para verificar si alguien miente",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Fútbol - Selección Argentina",
+     "categoria": "actividad",
+     "contexto": "Mención de ver partido de la selección el sábado como prueba de veracidad",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ausencia A Programa Por Enfermedad",
+     "categoria": "salud",
+     "contexto": "Confrontan a Lucas sobre no venir al programa diciendo que estaba enfermo con fiebre, pero luego sale a la luz que estuvo en una fiesta con dos señores y muñecas inflables",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Viaje Al Mediterráneo",
+     "categoria": "actividad",
+     "contexto": "Lucas llevó paté para rescatados, comió anchoas, compró regalo en Madrid en una tienda Catlón",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Máquina De La Verdad / Casco De La Verdad",
+     "categoria": "tecnologia",
+     "contexto": "Referencia al programa 'No hay dos sin tres' con Chiche Helblum y Pacho donde llevaban inventos como el casco de la verdad",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Muerte De Ernestina Pais",
+     "categoria": "cultura",
+     "contexto": "Mencionan la muerte de la actriz Ernestina Pais durante el fin de semana",
+     "minute": "0:10"
+    }
+   ]
+  },
   "fnvj0iK5yDI": {
    "video_id": "fnvj0iK5yDI",
    "channel_id": "luzu",
@@ -6560,6 +7412,290 @@
      "tema": "Presencia Escénica",
      "categoria": "actividad",
      "contexto": "Se menciona la importancia de la presencia y actitud al bailar",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "ir7lhQ1Rmsw": {
+   "video_id": "ir7lhQ1Rmsw",
+   "channel_id": "neura",
+   "channel": "Neura Media",
+   "title": "Cuando mis hijos tengan mi edad: Claudio Zuchovicki",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Devaluación Y Fortaleza Del Dólar",
+     "score": 3
+    },
+    {
+     "tema": "Mercados Financieros Internacionales",
+     "score": 3
+    },
+    {
+     "tema": "Precios De Combustibles Y Su Impacto En Consumo",
+     "score": 3
+    },
+    {
+     "tema": "Valuación De Activos Y Modelos Financieros Tradicionales",
+     "score": 3
+    },
+    {
+     "tema": "Emae Y Actividad Económica",
+     "score": 3
+    },
+    {
+     "tema": "Mercado Inmobiliario Y Real Estate",
+     "score": 3
+    },
+    {
+     "tema": "Volatilidad Del Mercado Inmobiliario",
+     "score": 3
+    },
+    {
+     "tema": "Evaluación De Activos Inmobiliarios",
+     "score": 3
+    },
+    {
+     "tema": "Estrategia Económica Y Desarrollo Indirecto",
+     "score": 3
+    },
+    {
+     "tema": "Historia Económica Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Guido De Itela - Figura Histórica",
+     "score": 3
+    },
+    {
+     "tema": "Planes De Refinanciación Para Morosos",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "tecnologia",
+     "score": 20
+    },
+    {
+     "categoria": "producto",
+     "score": 17
+    },
+    {
+     "categoria": "cultura",
+     "score": 16
+    },
+    {
+     "categoria": "otro",
+     "score": 12
+    },
+    {
+     "categoria": "actividad",
+     "score": 6
+    },
+    {
+     "categoria": "economia",
+     "score": 5
+    },
+    {
+     "categoria": "comida",
+     "score": 3
+    },
+    {
+     "categoria": "salud",
+     "score": 3
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Devaluación Y Fortaleza Del Dólar",
+     "categoria": "tecnologia",
+     "contexto": "Análisis de cómo el dólar débil mundial hace dos semanas causaba valorización de otros activos, versus la última semana donde señales de suba de tasas en EE.UU. fortalecen el dólar",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mercados Financieros Internacionales",
+     "categoria": "tecnologia",
+     "contexto": "Explicación de cómo el flujo mataba el fundamento y la importancia de leer el contexto global para entender movimientos de bolsa, criptomonedas y commodities",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Tasas De Interés En Estados Unidos",
+     "categoria": "tecnologia",
+     "contexto": "Análisis de cómo la suba de la tasa nominal del Tesoro estadounidense impacta en los mercados globales, mientras la tasa real está bajando",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Carry Trade",
+     "categoria": "tecnologia",
+     "contexto": "Referencia a ajustes en operaciones de carry trade en Argentina contra dólar, yen y euro tras períodos de máxima rentabilidad",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Precios De Combustible",
+     "categoria": "comida",
+     "contexto": "Discusión sobre si bajará la nafta en Argentina e impacto de caída de precios internacionales, con mención a buffer de precios previo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Contexto Económico Argentino",
+     "categoria": "otro",
+     "contexto": "Reflexión sobre cómo el contexto macroeconómico global impacta en Argentina, riesgo país y movimientos de mercados locales",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Datos Macroeconómicos",
+     "categoria": "tecnologia",
+     "contexto": "Mención de inflación interanual en Estados Unidos pasando de 2.8 a 4 por ciento y su relevancia para análisis de tasas reales",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Precios De Combustibles Y Su Impacto En Consumo",
+     "categoria": "economia",
+     "contexto": "Análisis sobre si la baja de combustibles en EE.UU. se transmite al consumidor y cómo afecta el gasto disponible",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "jEEahJU8_jg": {
+   "video_id": "jEEahJU8_jg",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
+   "show_id": "ndn",
+   "show_name": "Nadie Dice Nada",
+   "top_temas": [
+    {
+     "tema": "Wynwood Miami",
+     "score": 6
+    },
+    {
+     "tema": "Flashmob En Shopping",
+     "score": 3
+    },
+    {
+     "tema": "Partido De Argentina En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Experiencia En Estadio Nfl",
+     "score": 3
+    },
+    {
+     "tema": "Encuentro Con Michael Ivery",
+     "score": 3
+    },
+    {
+     "tema": "Hincha Argentino Recupera Billetera",
+     "score": 3
+    },
+    {
+     "tema": "Viaje A Dallas Para Partido De Selección",
+     "score": 3
+    },
+    {
+     "tema": "Viaje A Estados Unidos",
+     "score": 3
+    },
+    {
+     "tema": "Acai Bowl",
+     "score": 3
+    },
+    {
+     "tema": "Viaje A Dallas Para Ver Partido",
+     "score": 3
+    },
+    {
+     "tema": "Restaurante 'danza De Las Carnes'",
+     "score": 3
+    },
+    {
+     "tema": "Partido Argentina Vs Jordania",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 83
+    },
+    {
+     "categoria": "cultura",
+     "score": 30
+    },
+    {
+     "categoria": "lugar",
+     "score": 20
+    },
+    {
+     "categoria": "producto",
+     "score": 13
+    },
+    {
+     "categoria": "comida",
+     "score": 12
+    },
+    {
+     "categoria": "otro",
+     "score": 11
+    },
+    {
+     "categoria": "persona",
+     "score": 11
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 8
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Vacaciones",
+     "categoria": "actividad",
+     "contexto": "Hablan sobre las vacaciones que se están volando, mencionar que tienen 15 días después para recuperarse",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Kill Bill (película)",
+     "categoria": "cultura",
+     "contexto": "Referencia a la película de Tarantino, comparación con una escena de la película con sangre",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ropa/moda",
+     "categoria": "producto",
+     "contexto": "Mención de etiquetas de ropa recién comprada, pregunta sobre precio de fábrica en locales",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Teatro/actuación",
+     "categoria": "cultura",
+     "contexto": "Comentario sobre que alguien tiene tablas de actuación, referencia a estar disfrazado en el programa",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ropa Nueva (shorts)",
+     "categoria": "producto",
+     "contexto": "Flor anuncia que se compró dos shorts nuevos y ya no usa el mismo pantaloncito de hace meses",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Encuesta Sobre 'la Nave' Vs Otras Dinámicas",
+     "categoria": "actividad",
+     "contexto": "Se debate cambiar la consigna 'la nave' por un trencito o maniquí challenge. Van a hacer una encuesta en Instagram",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Maniquí Challenge",
+     "categoria": "cultura",
+     "contexto": "Se propone hacer un maniquí challenge como alternativa a 'la nave', aunque reconocen que pasó de moda",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Flashmob",
+     "categoria": "cultura",
+     "contexto": "Se discute sobre flashmobs, su definición, diferencia con Harlem Shake, y anécdotas personales de realizar flashmobs en salones de fiestas",
      "minute": "0:10"
     }
    ]
@@ -8115,6 +9251,144 @@
      "categoria": "persona",
      "contexto": "Cantante caboverdiana de importancia cultural mencionada en relación al país",
      "minute": "0:10"
+    }
+   ]
+  },
+  "wKDizbT6vaU": {
+   "video_id": "wKDizbT6vaU",
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "title": "🔴 ESTO NO SUCEDIÓ con Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Tendencia Six Seven En Tiktok",
+     "score": 3
+    },
+    {
+     "tema": "Outfit Y Moda",
+     "score": 3
+    },
+    {
+     "tema": "Toy Story Y Contenido Adulto",
+     "score": 3
+    },
+    {
+     "tema": "Tiktoks Virales Y Caídas",
+     "score": 3
+    },
+    {
+     "tema": "Paraguay En Mundial - Análisis De Video Viral",
+     "score": 3
+    },
+    {
+     "tema": "Series De Tv Y Narrativa",
+     "score": 3
+    },
+    {
+     "tema": "Trauma Familiar Y Psicología",
+     "score": 3
+    },
+    {
+     "tema": "What We Do In The Shadows",
+     "score": 3
+    },
+    {
+     "tema": "Examen De Panadería",
+     "score": 3
+    },
+    {
+     "tema": "Examen Oral De Abogacía",
+     "score": 2
+    },
+    {
+     "tema": "Cultura Japonesa",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 41
+    },
+    {
+     "categoria": "actividad",
+     "score": 18
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 16
+    },
+    {
+     "categoria": "salud",
+     "score": 14
+    },
+    {
+     "categoria": "otro",
+     "score": 6
+    },
+    {
+     "categoria": "comida",
+     "score": 4
+    },
+    {
+     "categoria": "lugar",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Mundial De Fútbol",
+     "categoria": "actividad",
+     "contexto": "Discusión sobre partidos Brasil-Japón, resultados y eliminaciones en el torneo",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Examen Oral De Abogacía",
+     "categoria": "actividad",
+     "contexto": "Guillermina rindió examen oral de 3 horas sobre derecho con preguntas sobre competencias provinciales vs estatales",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Cultura Japonesa",
+     "categoria": "cultura",
+     "contexto": "Apreciación por Japón, anime (One Piece, Goku, Pikachu), comportamiento de la población después de la derrota",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Viaje En Taxi",
+     "categoria": "otro",
+     "contexto": "Anécdota sobre un taxista tilteado por el recorrido complicado desde el programa hasta el domicilio",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Lenguaje Ofensivo En La Producción",
+     "categoria": "otro",
+     "contexto": "Mención de que la producción (especialmente Raquel) dice una palabra inapropiada frecuentemente",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Problemas De Sueño Y Descanso",
+     "categoria": "salud",
+     "contexto": "Conversación sobre acumular cansancio y dormir 14 horas corrido",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Tendencia Six Seven En Tiktok",
+     "categoria": "tecnologia",
+     "contexto": "Discusión sobre videos virales de Six Seven (números) con narrativas y alegorías",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Resúmenes De Películas En Tiktok",
+     "categoria": "tecnologia",
+     "contexto": "Ver películas completas resumidas en reels de 10 minutos, generadas por IA",
+     "minute": "0:20"
     }
    ]
   },

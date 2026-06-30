@@ -17,651 +17,180 @@
   "otro": "Otro"
  },
  "brand_rubros": {
-  "jorjito": "seguros",
-  "propel-fit-planet": "otro",
-  "cordoba-destino-turistico": "otro",
-  "cbc-hierbas-serranas": "otro",
-  "viv-glycolic-crystal": "otro",
-  "samsung-galaxy-watch-samsung-health": "tecnologia",
-  "omni": "otro",
-  "haussler": "fintech",
-  "entrada1-com": "otro",
-  "hellmann-s": "higiene",
-  "live-seguros": "seguros",
-  "food-truck-store": "otro",
-  "sastreria-teta-lee": "otro",
-  "cabify": "seguros",
-  "mogul": "otro",
-  "natier": "otro",
   "supergirl-dc-studios": "otro",
-  "aerolineas-argentina": "viajes",
-  "ecomod": "otro",
-  "buenos-aires-ciudad": "otro",
-  "mcdonald-s": "alimentos",
-  "telecentro": "otro",
-  "la-roche-posay-anthelios-uvmune": "otro",
-  "la-segunda-seguros": "seguros",
-  "quilmes": "bebidas",
-  "legislatura-de-la-ciudad-autonoma-de-buenos-aires": "otro",
-  "luz-gashi-teatro-fortrix": "otro",
-  "johnnie-walker": "bebidas",
-  "youtube-aura-stream-tn": "otro",
-  "natura": "alimentos",
-  "gillette": "higiene",
-  "sinteplast": "otro",
-  "marca-comercial-de-condimentos-oregano": "otro",
-  "b-play": "otro",
-  "banco-patagonia-club-patagonia": "fintech",
-  "alicante-mix-parrilla": "otro",
-  "geniol": "salud",
-  "aerolineas-argentinas": "viajes",
   "galicia-visa-master": "fintech",
-  "cordoba-turismo": "viajes",
-  "jorjito-club-jorjito": "seguros",
-  "osde": "salud",
-  "clave-bursatil-de-asesores": "otro",
-  "ada-cafe": "otro",
-  "pae": "energia",
-  "espn3-disney": "streaming",
-  "pedidosya": "retail",
-  "schneider": "bebidas",
-  "baiano-teatro-vorterix": "otro",
-  "evacare-gino": "retail",
-  "green-life": "salud",
-  "canon": "tecnologia",
-  "redoxon": "otro",
-  "suave-star": "otro",
-  "teatro-broadway-rosario": "otro",
-  "actron": "otro",
-  "macro": "fintech",
-  "miquelo-ultra": "otro",
-  "hisense": "otro",
-  "cremolati-com-ar-las-rojas-empanadas": "otro",
-  "guberpaticerie": "otro",
-  "banco-macro": "fintech",
-  "didi": "otro",
-  "cultura-positiva": "otro",
-  "canji": "retail",
-  "smirnoff": "bebidas",
-  "home-by-hudson": "otro",
-  "mostaza": "retail",
-  "michelob-ultra": "bebidas",
-  "cooling-break-schneider": "bebidas",
-  "marroc-de-belfort-felford": "otro",
-  "airbnb": "otro",
-  "natura-aderezos": "alimentos",
-  "neura-de-gira": "otro",
-  "ariel": "otro",
-  "princess": "otro",
-  "princess-cruises-discover-crucis": "otro",
-  "tucuman": "otro",
-  "11-40-41-96-60": "otro",
-  "top-line": "retail",
-  "iol-inversiones": "fintech",
-  "fiesta-forever-90": "otro",
-  "alma-marcela-gozo": "otro",
-  "martin-imante": "otro",
-  "camiseta-del-purrete-10": "otro",
-  "asiscard": "seguros",
-  "la-roche-posay-antelios": "otro",
-  "neura-de-gira-princess-cruises": "otro",
-  "cafe-imperial": "retail",
-  "kimi-cafe": "otro",
-  "block": "otro",
-  "urbana-play": "otro",
-  "guacamoles-eventos": "otro",
-  "sancor-salud": "salud",
-  "biomarket": "otro",
-  "coffee-house": "alimentos",
   "yumi": "otro",
-  "pringles": "otro",
-  "nivea-milk-nutritiva": "higiene",
-  "personal-flow": "telco",
-  "it-consult": "seguros",
-  "gustavo-cordera-la-fuente": "otro",
-  "wanderlust": "viajes",
-  "social-lunch": "alimentos",
-  "geniori-plushie-geniol": "alimentos",
-  "samsung-galaxy-s26": "tecnologia",
-  "la-roche-posay": "otro",
-  "ypf": "energia",
-  "asociacion-argentina-de-salud-mental": "salud",
-  "gustavo-corbera-la-fuente": "telco",
-  "hyundai": "automotriz",
-  "pestanela": "otro",
-  "coto": "fintech",
-  "universidad-de-moron": "otro",
-  "full-guapaletas": "otro",
-  "swiss-medical": "salud",
-  "sony": "otro",
-  "coca-cola": "bebidas",
-  "garnier-fructis": "otro",
-  "juegos-el-pato": "otro",
-  "pharma-olga": "salud",
-  "mercado-pago": "fintech",
-  "cymes": "otro",
-  "evaginagel": "salud",
-  "fenix": "otro",
-  "coto-digital": "retail",
-  "picadeli": "otro",
-  "argendata": "otro",
-  "lays": "otro",
-  "seco": "otro",
-  "nivea": "higiene",
-  "uber": "alimentos",
-  "nadir-argentina": "otro",
-  "hoy-cerdo": "otro",
-  "l-oreal-paris": "otro",
-  "adidas": "retail",
-  "hace": "otro",
-  "kanka": "salud",
-  "cordoba": "otro",
-  "infinea-turbo-clean": "otro",
-  "escorial": "otro",
-  "sovestar": "otro",
-  "cremolati": "otro",
+  "azz": "otro",
+  "legislatura-de-la-ciudad-autonoma-de-buenos-aires": "otro",
   "rexona": "higiene",
-  "remax": "otro",
-  "skip": "higiene",
-  "mercado-libre": "retail",
+  "cremolati-com-ar-las-rojas-empanadas": "otro",
+  "coto-digital": "retail",
+  "coca-cola": "bebidas",
+  "sinteplast": "otro",
+  "urbana-play": "otro",
+  "hellmann-s": "higiene",
+  "jorjito-club-jorjito": "seguros",
+  "cultura-positiva": "otro",
+  "biomarket": "otro",
+  "fenix": "otro",
+  "sovestar": "otro",
+  "evaginagel": "salud",
+  "iol-inversiones": "fintech",
+  "nivea": "higiene",
+  "redoxon": "otro",
   "new-bed-travel": "otro",
-  "swift": "alimentos"
+  "aerolineas-argentinas": "viajes",
+  "pharma-olga": "salud",
+  "asiscard": "seguros",
+  "remax": "otro",
+  "swiss-medical": "salud",
+  "asociacion-argentina-de-salud-mental": "salud",
+  "luz-gashi-teatro-fortrix": "otro",
+  "fiesta-forever-90": "otro",
+  "b-play": "otro",
+  "princess-cruises-discover-crucis": "otro",
+  "marroc-de-belfort-felford": "otro",
+  "youtube-aura-stream-tn": "otro",
+  "cordoba-destino-turistico": "otro",
+  "martin-imante": "otro",
+  "gam": "otro",
+  "michelob-ultra": "bebidas",
+  "cabify": "seguros",
+  "personal-flow": "telco",
+  "argendata": "otro",
+  "natura": "alimentos",
+  "lays": "otro",
+  "teatro-vorterix-back-to-the-80-s": "otro",
+  "samsung-galaxy-watch-samsung-health": "tecnologia",
+  "nivea-milk-nutritiva": "higiene",
+  "cordoba-turismo": "viajes",
+  "banco-macro": "fintech",
+  "fiambre-190": "otro",
+  "espn3-disney": "streaming",
+  "adidas": "retail",
+  "mcdonald-s": "alimentos",
+  "swift": "alimentos",
+  "alma-marcela-gozo": "otro",
+  "la-roche-posay-anthelios-uvmune": "otro",
+  "johnnie-walker": "bebidas",
+  "buenos-aires-ciudad": "otro",
+  "quilmes": "bebidas",
+  "kimi-cafe": "otro",
+  "alicante-mix-parrilla": "otro",
+  "ypf": "energia",
+  "coto": "fintech",
+  "it-consult": "seguros",
+  "suave-star": "otro",
+  "mundialista-copa-del-mundo": "otro",
+  "hyundai": "automotriz",
+  "seco": "otro",
+  "tomos-pae": "energia",
+  "entrada1-com": "otro",
+  "naranja-x": "fintech",
+  "la-roche-posay": "otro",
+  "gillette": "higiene",
+  "canji": "retail",
+  "cremolati": "otro",
+  "skip": "higiene",
+  "juegos-el-pato": "otro",
+  "miquelo-ultra": "otro",
+  "supermercados-dia": "retail",
+  "food-truck-store": "otro",
+  "bariloche": "otro",
+  "mercado-libre": "retail",
+  "social-lunch": "alimentos",
+  "bayano-teatro-vorterix": "otro",
+  "neura-de-gira": "otro",
+  "silver-cloud-advisors": "fintech",
+  "ariel": "otro",
+  "guberpaticerie": "otro",
+  "princess": "otro",
+  "full-guapaletas": "otro",
+  "pae": "energia",
+  "teatro-broadway-rosario": "otro",
+  "gustavo-cordera-la-fuente": "otro",
+  "osde-flux": "salud",
+  "haussler": "fintech",
+  "picadeli": "otro",
+  "pedidosya": "retail",
+  "top-line": "retail",
+  "block": "otro",
+  "sancor-salud": "salud",
+  "zed": "otro",
+  "marca-comercial-de-condimentos-oregano": "otro",
+  "mostaza": "retail",
+  "garnier-fructis": "otro",
+  "airbnb": "otro",
+  "mikeloultra": "otro",
+  "propel-fit-planet": "otro",
+  "tucuman": "otro",
+  "la-segunda-seguros": "seguros",
+  "cooling-break-schneider": "bebidas",
+  "samsung-galaxy-s26": "tecnologia",
+  "hace": "otro",
+  "cafe-imperial": "retail",
+  "canon": "tecnologia",
+  "pestanela": "otro",
+  "uber": "alimentos",
+  "infinia-turbo-clean": "otro",
+  "escorial": "otro",
+  "schneider": "bebidas",
+  "gustavo-cortera-la-fuente": "otro",
+  "la-roche-posay-antelios": "otro",
+  "sastreria-teta-lee": "otro",
+  "l-oreal-paris": "otro",
+  "coffee-house": "alimentos",
+  "live-seguros": "seguros",
+  "universidad-de-moron": "otro",
+  "ecomod": "otro",
+  "pedidos-ya": "retail",
+  "jorjito": "seguros",
+  "green-life": "salud",
+  "un-dia-con-mauricio": "retail",
+  "cordoba": "otro",
+  "home-by-hudson": "otro",
+  "baiano-teatro-vorterix": "otro",
+  "sony": "otro",
+  "macro": "fintech",
+  "gustavo-corbera-la-fuente": "telco",
+  "ada-cafe": "otro",
+  "guacamoles-eventos": "otro",
+  "wanderlust": "viajes",
+  "didi": "otro",
+  "geniol": "salud",
+  "osde": "salud",
+  "viv-glycolic-crystal": "otro",
+  "aerolineas-argentina": "viajes",
+  "shell": "energia",
+  "cbc-hierbas-serranas": "otro",
+  "mogul": "otro",
+  "nadir-argentina": "otro",
+  "oslava": "bebidas",
+  "omni": "otro",
+  "turbobet": "seguros",
+  "pringles": "otro",
+  "kanka": "salud",
+  "evacare-gino": "retail",
+  "mercado-pago": "fintech",
+  "smirnoff": "bebidas",
+  "banco-patagonia-club-patagonia": "fintech",
+  "telecentro": "otro",
+  "clave-bursatil-de-asesores": "otro",
+  "geniori-plushie-geniol": "alimentos",
+  "camiseta-del-purrete-10": "otro",
+  "natier": "otro",
+  "hoy-cerdo": "otro",
+  "hisense": "otro",
+  "quicktrade": "otro",
+  "kruppers": "otro",
+  "cymes": "otro",
+  "neura-de-gira-princess-cruises": "otro",
+  "infinea-turbo-clean": "otro",
+  "11-40-41-96-60": "otro",
+  "actron": "otro",
+  "natura-aderezos": "alimentos"
  },
  "channels": {
-  "urbana-play-104-3-fm": {
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 8,
-     "pct": 100
-    }
-   ],
-   "top_temas": [],
-   "categoria_mix": [],
-   "pauta_mentions": 8
-  },
-  "urbana-play-104.3-fm": {
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 8,
-     "pct": 100
-    }
-   ],
-   "top_temas": [
-    {
-     "tema": "Partido De Argentina",
-     "score": 4
-    },
-    {
-     "tema": "Ciclo De Almuerzos Criollos",
-     "score": 3
-    },
-    {
-     "tema": "Fórmula 1 - Gran Premio De Austria",
-     "score": 3
-    },
-    {
-     "tema": "Desempeño De Franco Colapinto",
-     "score": 3
-    },
-    {
-     "tema": "Dopamine Sites",
-     "score": 3
-    },
-    {
-     "tema": "Dopamina Y Neurotransmisores",
-     "score": 3
-    },
-    {
-     "tema": "Eliminación De Uruguay En Mundiales",
-     "score": 3
-    },
-    {
-     "tema": "Partido Argentina Vs Jordania",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 54
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 28
-    },
-    {
-     "categoria": "comida",
-     "label": "Comida",
-     "score": 16
-    },
-    {
-     "categoria": "lugar",
-     "label": "Lugar",
-     "score": 15
-    },
-    {
-     "categoria": "tecnologia",
-     "label": "Tecnologia",
-     "score": 13
-    },
-    {
-     "categoria": "salud",
-     "label": "Salud",
-     "score": 10
-    }
-   ],
-   "pauta_mentions": 8
-  },
-  "olga": {
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 116,
-     "pct": 50
-    },
-    {
-     "key": "salud",
-     "label": "Salud y farmacias",
-     "count": 21,
-     "pct": 9
-    },
-    {
-     "key": "retail",
-     "label": "Tiendas y ecommerce",
-     "count": 18,
-     "pct": 8
-    },
-    {
-     "key": "fintech",
-     "label": "Bancos y plata digital",
-     "count": 18,
-     "pct": 8
-    },
-    {
-     "key": "alimentos",
-     "label": "Alimentos",
-     "count": 13,
-     "pct": 6
-    },
-    {
-     "key": "higiene",
-     "label": "Higiene y cuidado personal",
-     "count": 12,
-     "pct": 5
-    },
-    {
-     "key": "bebidas",
-     "label": "Bebidas y alcohol",
-     "count": 10,
-     "pct": 4
-    },
-    {
-     "key": "viajes",
-     "label": "Viajes y turismo",
-     "count": 6,
-     "pct": 3
-    }
-   ],
-   "top_temas": [
-    {
-     "tema": "Mundialito De Ciudades",
-     "score": 15
-    },
-    {
-     "tema": "Mundial De Fútbol",
-     "score": 12
-    },
-    {
-     "tema": "Terremoto En Venezuela",
-     "score": 8
-    },
-    {
-     "tema": "Cumpleaños De Messi",
-     "score": 8
-    },
-    {
-     "tema": "Viaje A Miami",
-     "score": 8
-    },
-    {
-     "tema": "Limpieza Energética Con Huevo",
-     "score": 6
-    },
-    {
-     "tema": "Naturaleza Humana: Bondad Vs Maldad",
-     "score": 6
-    },
-    {
-     "tema": "Renuncia De Manuel Adorni",
-     "score": 6
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 736
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 507
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 269
-    },
-    {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 245
-    },
-    {
-     "categoria": "lugar",
-     "label": "Lugar",
-     "score": 202
-    },
-    {
-     "categoria": "salud",
-     "label": "Salud",
-     "score": 153
-    }
-   ],
-   "pauta_mentions": 232
-  },
-  "luzu": {
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 123,
-     "pct": 65
-    },
-    {
-     "key": "retail",
-     "label": "Tiendas y ecommerce",
-     "count": 12,
-     "pct": 6
-    },
-    {
-     "key": "fintech",
-     "label": "Bancos y plata digital",
-     "count": 12,
-     "pct": 6
-    },
-    {
-     "key": "higiene",
-     "label": "Higiene y cuidado personal",
-     "count": 10,
-     "pct": 5
-    },
-    {
-     "key": "seguros",
-     "label": "Seguros",
-     "count": 9,
-     "pct": 5
-    },
-    {
-     "key": "alimentos",
-     "label": "Alimentos",
-     "count": 8,
-     "pct": 4
-    },
-    {
-     "key": "bebidas",
-     "label": "Bebidas y alcohol",
-     "count": 4,
-     "pct": 2
-    },
-    {
-     "key": "tecnologia",
-     "label": "Tecnología",
-     "count": 4,
-     "pct": 2
-    }
-   ],
-   "top_temas": [
-    {
-     "tema": "Mundial De Fútbol",
-     "score": 24
-    },
-    {
-     "tema": "Voleibol",
-     "score": 8
-    },
-    {
-     "tema": "Partido De Argentina",
-     "score": 7
-    },
-    {
-     "tema": "Cumpleaños De Lionel Messi",
-     "score": 7
-    },
-    {
-     "tema": "Clima Y Temperatura",
-     "score": 7
-    },
-    {
-     "tema": "Desempeño De Messi En El Mundial",
-     "score": 6
-    },
-    {
-     "tema": "Timidez Y Ansiedad Social",
-     "score": 6
-    },
-    {
-     "tema": "Pandemia Covid-19",
-     "score": 6
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 869
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 657
-    },
-    {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 308
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 210
-    },
-    {
-     "categoria": "lugar",
-     "label": "Lugar",
-     "score": 183
-    },
-    {
-     "categoria": "salud",
-     "label": "Salud",
-     "score": 180
-    }
-   ],
-   "pauta_mentions": 189
-  },
-  "neura": {
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 11,
-     "pct": 65
-    },
-    {
-     "key": "energia",
-     "label": "Energía y nafta",
-     "count": 5,
-     "pct": 29
-    },
-    {
-     "key": "seguros",
-     "label": "Seguros",
-     "count": 1,
-     "pct": 6
-    }
-   ],
-   "top_temas": [
-    {
-     "tema": "Educación Financiera",
-     "score": 6
-    },
-    {
-     "tema": "Bitcoin Y Criptomonedas",
-     "score": 5
-    },
-    {
-     "tema": "Candidatura Presidencial 2027",
-     "score": 3
-    },
-    {
-     "tema": "Inflación Argentina",
-     "score": 3
-    },
-    {
-     "tema": "Sistema Impositivo Argentina",
-     "score": 3
-    },
-    {
-     "tema": "Salarios En El Senado",
-     "score": 3
-    },
-    {
-     "tema": "Tasas De Interés Y Política Monetaria De La Fed",
-     "score": 3
-    },
-    {
-     "tema": "Riesgo País De Argentina",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 102
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 86
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 35
-    },
-    {
-     "categoria": "economia",
-     "label": "Economia",
-     "score": 31
-    },
-    {
-     "categoria": "producto",
-     "label": "Producto",
-     "score": 24
-    },
-    {
-     "categoria": "tecnologia",
-     "label": "Tecnologia",
-     "score": 23
-    }
-   ],
-   "pauta_mentions": 17
-  },
-  "gelatina": {
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 3,
-     "pct": 100
-    }
-   ],
-   "top_temas": [
-    {
-     "tema": "Renuncia De Manuel Adorni",
-     "score": 15
-    },
-    {
-     "tema": "Muerte De Ernestina Páez",
-     "score": 4
-    },
-    {
-     "tema": "Apuestas Deportivas Y Mundial",
-     "score": 3
-    },
-    {
-     "tema": "Caso Adorni - Jefe De Gabinete",
-     "score": 3
-    },
-    {
-     "tema": "Informalidad Laboral En Argentina",
-     "score": 3
-    },
-    {
-     "tema": "Precarización Del Empleo",
-     "score": 3
-    },
-    {
-     "tema": "Salarios Y Recuperación Económica",
-     "score": 3
-    },
-    {
-     "tema": "Conflicto Universitario Y Sentencia De La Corte",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 58
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 56
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 41
-    },
-    {
-     "categoria": "salud",
-     "label": "Salud",
-     "score": 34
-    },
-    {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 30
-    },
-    {
-     "categoria": "política",
-     "label": "Política",
-     "score": 24
-    }
-   ],
-   "pauta_mentions": 3
-  },
   "border": {
    "rubro_mix": [],
    "top_temas": [
@@ -731,83 +260,6 @@
     }
    ],
    "pauta_mentions": 0
-  },
-  "ahoraplay": {
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 2,
-     "pct": 100
-    }
-   ],
-   "top_temas": [
-    {
-     "tema": "Renuncia De Adorni",
-     "score": 7
-    },
-    {
-     "tema": "Renuncia De Manuel Adorni",
-     "score": 6
-    },
-    {
-     "tema": "Riesgo País Argentino",
-     "score": 5
-    },
-    {
-     "tema": "Designación De Diego Santilli Como Jefe De Gabinete",
-     "score": 3
-    },
-    {
-     "tema": "Reinicio De La Gestión Milei",
-     "score": 3
-    },
-    {
-     "tema": "Sospechas De Corrupción En El Gobierno",
-     "score": 3
-    },
-    {
-     "tema": "Renuncia De Adorni Y Cambio De Gabinete",
-     "score": 3
-    },
-    {
-     "tema": "Capacidad Política De Milei",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 48
-    },
-    {
-     "categoria": "tecnologia",
-     "label": "Tecnologia",
-     "score": 45
-    },
-    {
-     "categoria": "producto",
-     "label": "Producto",
-     "score": 43
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 27
-    },
-    {
-     "categoria": "política",
-     "label": "Política",
-     "score": 18
-    },
-    {
-     "categoria": "economia",
-     "label": "Economia",
-     "score": 15
-    }
-   ],
-   "pauta_mentions": 2
   },
   "aura": {
    "rubro_mix": [
@@ -886,194 +338,82 @@
    ],
    "pauta_mentions": 1
   },
-  "cronista": {
-   "rubro_mix": [],
-   "top_temas": [
-    {
-     "tema": "Morosidad Bancaria",
-     "score": 4
-    },
-    {
-     "tema": "Upgrades De Deuda Soberana",
-     "score": 3
-    },
-    {
-     "tema": "Salida Al Mercado De Deuda",
-     "score": 3
-    },
-    {
-     "tema": "Bonos Argentinos (curva Soberana)",
-     "score": 3
-    },
-    {
-     "tema": "Tipo De Cambio Y Mercado De Divisas",
-     "score": 3
-    },
-    {
-     "tema": "Política Del Banco Central",
-     "score": 3
-    },
-    {
-     "tema": "Mercado De Créditos Y Depósitos Bancarios",
-     "score": 3
-    },
-    {
-     "tema": "Dólar Y Tipo De Cambio",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 38
-    },
-    {
-     "categoria": "tecnologia",
-     "label": "Tecnologia",
-     "score": 14
-    },
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 10
-    },
-    {
-     "categoria": "economia",
-     "label": "Economia",
-     "score": 9
-    },
-    {
-     "categoria": "producto",
-     "label": "Producto",
-     "score": 6
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 3
-    }
-   ],
-   "pauta_mentions": 0
-  },
-  "vorterix": {
+  "ahoraplay": {
    "rubro_mix": [
     {
      "key": "otro",
      "label": "Otro",
-     "count": 12,
-     "pct": 52
-    },
-    {
-     "key": "fintech",
-     "label": "Bancos y plata digital",
      "count": 2,
-     "pct": 9
-    },
-    {
-     "key": "retail",
-     "label": "Tiendas y ecommerce",
-     "count": 2,
-     "pct": 9
-    },
-    {
-     "key": "seguros",
-     "label": "Seguros",
-     "count": 2,
-     "pct": 9
-    },
-    {
-     "key": "salud",
-     "label": "Salud y farmacias",
-     "count": 1,
-     "pct": 4
-    },
-    {
-     "key": "telco",
-     "label": "Telefonía e internet",
-     "count": 1,
-     "pct": 4
-    },
-    {
-     "key": "automotriz",
-     "label": "Autos",
-     "count": 1,
-     "pct": 4
-    },
-    {
-     "key": "alimentos",
-     "label": "Alimentos",
-     "count": 1,
-     "pct": 4
+     "pct": 100
     }
    ],
    "top_temas": [
     {
-     "tema": "Asesinato De Jfk",
-     "score": 8
+     "tema": "Renuncia De Adorni",
+     "score": 7
     },
     {
-     "tema": "Despidos En Blender",
+     "tema": "Renuncia De Manuel Adorni",
      "score": 6
     },
     {
-     "tema": "Carrera De Medicina",
-     "score": 4
+     "tema": "Riesgo País Argentino",
+     "score": 5
     },
     {
-     "tema": "Cumpleaños De Anacleta",
-     "score": 4
-    },
-    {
-     "tema": "Cuarteto De Nos",
-     "score": 4
-    },
-    {
-     "tema": "Muertes Y Tragedias Recientes",
+     "tema": "Designación De Diego Santilli Como Jefe De Gabinete",
      "score": 3
     },
     {
-     "tema": "Presentación De Tema Musical Propio",
+     "tema": "Reinicio De La Gestión Milei",
      "score": 3
     },
     {
-     "tema": "Inseguridad Sobre Calidad Vocal",
+     "tema": "Sospechas De Corrupción En El Gobierno",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Adorni Y Cambio De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Capacidad Política De Milei",
      "score": 3
     }
    ],
    "categoria_mix": [
     {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 200
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 146
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 97
-    },
-    {
      "categoria": "otro",
      "label": "Otro",
-     "score": 90
+     "score": 48
     },
     {
      "categoria": "tecnologia",
      "label": "Tecnologia",
-     "score": 61
+     "score": 45
     },
     {
-     "categoria": "lugar",
-     "label": "Lugar",
-     "score": 47
+     "categoria": "producto",
+     "label": "Producto",
+     "score": 43
+    },
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 27
+    },
+    {
+     "categoria": "política",
+     "label": "Política",
+     "score": 18
+    },
+    {
+     "categoria": "economia",
+     "label": "Economia",
+     "score": 15
     }
    ],
-   "pauta_mentions": 23
+   "pauta_mentions": 2
   },
   "blend": {
    "rubro_mix": [
@@ -1164,6 +504,618 @@
    ],
    "pauta_mentions": 8
   },
+  "gelatina": {
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 3,
+     "pct": 100
+    }
+   ],
+   "top_temas": [
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 27
+    },
+    {
+     "tema": "Renuncia De Adorni",
+     "score": 9
+    },
+    {
+     "tema": "Ley De Inviolabilidad De La Propiedad Privada",
+     "score": 6
+    },
+    {
+     "tema": "Muerte De Ernestina Páez",
+     "score": 4
+    },
+    {
+     "tema": "Gastos Y Lujos De Funcionarios Públicos",
+     "score": 3
+    },
+    {
+     "tema": "Política Interna Del Gobierno Milei",
+     "score": 3
+    },
+    {
+     "tema": "Dólar Y Estabilidad Macroeconómica",
+     "score": 3
+    },
+    {
+     "tema": "Ley De Recursos Naturales",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 93
+    },
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 82
+    },
+    {
+     "categoria": "política",
+     "label": "Política",
+     "score": 54
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 54
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 46
+    },
+    {
+     "categoria": "salud",
+     "label": "Salud",
+     "score": 34
+    }
+   ],
+   "pauta_mentions": 3
+  },
+  "vorterix": {
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 17,
+     "pct": 49
+    },
+    {
+     "key": "fintech",
+     "label": "Bancos y plata digital",
+     "count": 4,
+     "pct": 11
+    },
+    {
+     "key": "retail",
+     "label": "Tiendas y ecommerce",
+     "count": 4,
+     "pct": 11
+    },
+    {
+     "key": "salud",
+     "label": "Salud y farmacias",
+     "count": 2,
+     "pct": 6
+    },
+    {
+     "key": "alimentos",
+     "label": "Alimentos",
+     "count": 2,
+     "pct": 6
+    },
+    {
+     "key": "seguros",
+     "label": "Seguros",
+     "count": 2,
+     "pct": 6
+    },
+    {
+     "key": "telco",
+     "label": "Telefonía e internet",
+     "count": 1,
+     "pct": 3
+    },
+    {
+     "key": "automotriz",
+     "label": "Autos",
+     "count": 1,
+     "pct": 3
+    }
+   ],
+   "top_temas": [
+    {
+     "tema": "Asesinato De Jfk",
+     "score": 8
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 6
+    },
+    {
+     "tema": "Despidos En Blender",
+     "score": 6
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 5
+    },
+    {
+     "tema": "Carrera De Medicina",
+     "score": 4
+    },
+    {
+     "tema": "Cumpleaños De Anacleta",
+     "score": 4
+    },
+    {
+     "tema": "Cuarteto De Nos",
+     "score": 4
+    },
+    {
+     "tema": "Compras En Tienda Guest",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 280
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 218
+    },
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 128
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 115
+    },
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 86
+    },
+    {
+     "categoria": "lugar",
+     "label": "Lugar",
+     "score": 66
+    }
+   ],
+   "pauta_mentions": 35
+  },
+  "urbana-play-104.3-fm": {
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 8,
+     "pct": 100
+    }
+   ],
+   "top_temas": [
+    {
+     "tema": "Partido De Argentina",
+     "score": 4
+    },
+    {
+     "tema": "Ciclo De Almuerzos Criollos",
+     "score": 3
+    },
+    {
+     "tema": "Fórmula 1 - Gran Premio De Austria",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño De Franco Colapinto",
+     "score": 3
+    },
+    {
+     "tema": "Dopamine Sites",
+     "score": 3
+    },
+    {
+     "tema": "Dopamina Y Neurotransmisores",
+     "score": 3
+    },
+    {
+     "tema": "Eliminación De Uruguay En Mundiales",
+     "score": 3
+    },
+    {
+     "tema": "Partido Argentina Vs Jordania",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 54
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 28
+    },
+    {
+     "categoria": "comida",
+     "label": "Comida",
+     "score": 16
+    },
+    {
+     "categoria": "lugar",
+     "label": "Lugar",
+     "score": 15
+    },
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 13
+    },
+    {
+     "categoria": "salud",
+     "label": "Salud",
+     "score": 10
+    }
+   ],
+   "pauta_mentions": 8
+  },
+  "neura": {
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 17,
+     "pct": 57
+    },
+    {
+     "key": "energia",
+     "label": "Energía y nafta",
+     "count": 8,
+     "pct": 27
+    },
+    {
+     "key": "seguros",
+     "label": "Seguros",
+     "count": 2,
+     "pct": 7
+    },
+    {
+     "key": "fintech",
+     "label": "Bancos y plata digital",
+     "count": 2,
+     "pct": 7
+    },
+    {
+     "key": "alimentos",
+     "label": "Alimentos",
+     "count": 1,
+     "pct": 3
+    }
+   ],
+   "top_temas": [
+    {
+     "tema": "Política Monetaria Y Tasas De Interés",
+     "score": 6
+    },
+    {
+     "tema": "Educación Financiera",
+     "score": 6
+    },
+    {
+     "tema": "Bitcoin Y Criptomonedas",
+     "score": 5
+    },
+    {
+     "tema": "Candidatura Presidencial 2027",
+     "score": 3
+    },
+    {
+     "tema": "Inflación Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Sistema Impositivo Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Salarios En El Senado",
+     "score": 3
+    },
+    {
+     "tema": "Tasas De Interés Y Política Monetaria De La Fed",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 113
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 104
+    },
+    {
+     "categoria": "economia",
+     "label": "Economia",
+     "score": 74
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 55
+    },
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 46
+    },
+    {
+     "categoria": "producto",
+     "label": "Producto",
+     "score": 45
+    }
+   ],
+   "pauta_mentions": 30
+  },
+  "luzu": {
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 132,
+     "pct": 64
+    },
+    {
+     "key": "retail",
+     "label": "Tiendas y ecommerce",
+     "count": 17,
+     "pct": 8
+    },
+    {
+     "key": "fintech",
+     "label": "Bancos y plata digital",
+     "count": 13,
+     "pct": 6
+    },
+    {
+     "key": "higiene",
+     "label": "Higiene y cuidado personal",
+     "count": 10,
+     "pct": 5
+    },
+    {
+     "key": "seguros",
+     "label": "Seguros",
+     "count": 9,
+     "pct": 4
+    },
+    {
+     "key": "alimentos",
+     "label": "Alimentos",
+     "count": 8,
+     "pct": 4
+    },
+    {
+     "key": "bebidas",
+     "label": "Bebidas y alcohol",
+     "count": 4,
+     "pct": 2
+    },
+    {
+     "key": "tecnologia",
+     "label": "Tecnología",
+     "count": 4,
+     "pct": 2
+    }
+   ],
+   "top_temas": [
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 24
+    },
+    {
+     "tema": "Voleibol",
+     "score": 8
+    },
+    {
+     "tema": "Partido De Argentina",
+     "score": 7
+    },
+    {
+     "tema": "Cumpleaños De Lionel Messi",
+     "score": 7
+    },
+    {
+     "tema": "Clima Y Temperatura",
+     "score": 7
+    },
+    {
+     "tema": "Desempeño De Messi En El Mundial",
+     "score": 6
+    },
+    {
+     "tema": "Timidez Y Ansiedad Social",
+     "score": 6
+    },
+    {
+     "tema": "Pandemia Covid-19",
+     "score": 6
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 952
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 687
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 319
+    },
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 221
+    },
+    {
+     "categoria": "lugar",
+     "label": "Lugar",
+     "score": 203
+    },
+    {
+     "categoria": "salud",
+     "label": "Salud",
+     "score": 180
+    }
+   ],
+   "pauta_mentions": 206
+  },
+  "olga": {
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 118,
+     "pct": 48
+    },
+    {
+     "key": "salud",
+     "label": "Salud y farmacias",
+     "count": 22,
+     "pct": 9
+    },
+    {
+     "key": "fintech",
+     "label": "Bancos y plata digital",
+     "count": 19,
+     "pct": 8
+    },
+    {
+     "key": "retail",
+     "label": "Tiendas y ecommerce",
+     "count": 18,
+     "pct": 7
+    },
+    {
+     "key": "alimentos",
+     "label": "Alimentos",
+     "count": 17,
+     "pct": 7
+    },
+    {
+     "key": "higiene",
+     "label": "Higiene y cuidado personal",
+     "count": 13,
+     "pct": 5
+    },
+    {
+     "key": "bebidas",
+     "label": "Bebidas y alcohol",
+     "count": 12,
+     "pct": 5
+    },
+    {
+     "key": "viajes",
+     "label": "Viajes y turismo",
+     "count": 8,
+     "pct": 3
+    }
+   ],
+   "top_temas": [
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 21
+    },
+    {
+     "tema": "Mundialito De Ciudades",
+     "score": 15
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 9
+    },
+    {
+     "tema": "Terremoto En Venezuela",
+     "score": 8
+    },
+    {
+     "tema": "Cumpleaños De Messi",
+     "score": 8
+    },
+    {
+     "tema": "Viaje A Miami",
+     "score": 8
+    },
+    {
+     "tema": "Limpieza Energética Con Huevo",
+     "score": 6
+    },
+    {
+     "tema": "Naturaleza Humana: Bondad Vs Maldad",
+     "score": 6
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 842
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 544
+    },
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 310
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 261
+    },
+    {
+     "categoria": "lugar",
+     "label": "Lugar",
+     "score": 211
+    },
+    {
+     "categoria": "salud",
+     "label": "Salud",
+     "score": 165
+    }
+   ],
+   "pauta_mentions": 246
+  },
   "bondi": {
    "rubro_mix": [],
    "top_temas": [
@@ -1233,325 +1185,92 @@
     }
    ],
    "pauta_mentions": 0
+  },
+  "urbana-play-104-3-fm": {
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 8,
+     "pct": 100
+    }
+   ],
+   "top_temas": [],
+   "categoria_mix": [],
+   "pauta_mentions": 8
+  },
+  "cronista": {
+   "rubro_mix": [],
+   "top_temas": [
+    {
+     "tema": "Morosidad Bancaria",
+     "score": 4
+    },
+    {
+     "tema": "Upgrades De Deuda Soberana",
+     "score": 3
+    },
+    {
+     "tema": "Salida Al Mercado De Deuda",
+     "score": 3
+    },
+    {
+     "tema": "Bonos Argentinos (curva Soberana)",
+     "score": 3
+    },
+    {
+     "tema": "Tipo De Cambio Y Mercado De Divisas",
+     "score": 3
+    },
+    {
+     "tema": "Política Del Banco Central",
+     "score": 3
+    },
+    {
+     "tema": "Mercado De Créditos Y Depósitos Bancarios",
+     "score": 3
+    },
+    {
+     "tema": "Dólar Y Tipo De Cambio",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 38
+    },
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 14
+    },
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 10
+    },
+    {
+     "categoria": "economia",
+     "label": "Economia",
+     "score": 9
+    },
+    {
+     "categoria": "producto",
+     "label": "Producto",
+     "score": 6
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 3
+    }
+   ],
+   "pauta_mentions": 0
   }
  },
  "shows": {
-  "luzu:novela": {
-   "channel_id": "luzu",
-   "show_id": "novela",
-   "show_name": "La Novela",
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 6,
-     "pct": 86
-    },
-    {
-     "key": "higiene",
-     "label": "Higiene y cuidado personal",
-     "count": 1,
-     "pct": 14
-    }
-   ],
-   "top_temas": [
-    {
-     "tema": "Juego De Mentiras En Conversación",
-     "score": 3
-    },
-    {
-     "tema": "Copa Del Mundo Qatar 2022",
-     "score": 3
-    },
-    {
-     "tema": "Copa América / Mundial De Fútbol",
-     "score": 3
-    },
-    {
-     "tema": "Música En Vivo Y Fogón",
-     "score": 3
-    },
-    {
-     "tema": "Presentaciones En Vivo",
-     "score": 3
-    },
-    {
-     "tema": "Cambio De Look De Gabriel Schultz",
-     "score": 2
-    },
-    {
-     "tema": "Fanatismo Por Franquicias (star Wars, Batman, Argentina Junior)",
-     "score": 2
-    },
-    {
-     "tema": "Sandwichería De Aedo",
-     "score": 2
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 36
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 20
-    },
-    {
-     "categoria": "lugar",
-     "label": "Lugar",
-     "score": 12
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 8
-    },
-    {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 7
-    },
-    {
-     "categoria": "salud",
-     "label": "Salud",
-     "score": 6
-    }
-   ],
-   "pauta_mentions": 7,
-   "brand_mix": [
-    {
-     "slug": "rexona",
-     "name": "Rexona",
-     "rubro": "higiene",
-     "count": 1
-    },
-    {
-     "slug": "propuestas-de-coreografia-y-disparadores",
-     "name": "Propuestas De Coreografia Y Disparadores",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "la-morocha-de-lucra",
-     "name": "La Morocha De Lucra",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "app-store",
-     "name": "App Store",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "app-del-usu",
-     "name": "App Del Usu",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "parodontax",
-     "name": "Parodontax",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "carmelo-pasteleria",
-     "name": "Carmelo Pasteleria",
-     "rubro": "otro",
-     "count": 1
-    }
-   ],
-   "emissions": 3
-  },
-  "luzu:aqn": {
-   "channel_id": "luzu",
-   "show_id": "aqn",
-   "show_name": "Antes Que Nadie",
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 40,
-     "pct": 59
-    },
-    {
-     "key": "fintech",
-     "label": "Bancos y plata digital",
-     "count": 7,
-     "pct": 10
-    },
-    {
-     "key": "alimentos",
-     "label": "Alimentos",
-     "count": 7,
-     "pct": 10
-    },
-    {
-     "key": "higiene",
-     "label": "Higiene y cuidado personal",
-     "count": 4,
-     "pct": 6
-    },
-    {
-     "key": "bebidas",
-     "label": "Bebidas y alcohol",
-     "count": 2,
-     "pct": 3
-    },
-    {
-     "key": "retail",
-     "label": "Tiendas y ecommerce",
-     "count": 2,
-     "pct": 3
-    },
-    {
-     "key": "tecnologia",
-     "label": "Tecnología",
-     "count": 2,
-     "pct": 3
-    },
-    {
-     "key": "streaming",
-     "label": "Streaming y TV",
-     "count": 2,
-     "pct": 3
-    }
-   ],
-   "top_temas": [
-    {
-     "tema": "Cumpleaños De Lionel Messi",
-     "score": 7
-    },
-    {
-     "tema": "Clima Y Temperatura",
-     "score": 7
-    },
-    {
-     "tema": "Terremoto En Venezuela",
-     "score": 6
-    },
-    {
-     "tema": "Rutina De Gimnasio Para Principiantes",
-     "score": 3
-    },
-    {
-     "tema": "Rutina De Entrenamiento Full Body",
-     "score": 3
-    },
-    {
-     "tema": "Técnica De Ejercicios De Pesas",
-     "score": 3
-    },
-    {
-     "tema": "Cumpleaños De Celebridades",
-     "score": 3
-    },
-    {
-     "tema": "Posible Cruce Cristiano Ronaldo Vs Messi En Cuartos",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 319
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 249
-    },
-    {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 115
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 94
-    },
-    {
-     "categoria": "salud",
-     "label": "Salud",
-     "score": 58
-    },
-    {
-     "categoria": "lugar",
-     "label": "Lugar",
-     "score": 41
-    }
-   ],
-   "pauta_mentions": 68,
-   "brand_mix": [
-    {
-     "slug": "skip",
-     "name": "Skip",
-     "rubro": "higiene",
-     "count": 4
-    },
-    {
-     "slug": "mercado-pago",
-     "name": "Mercado Pago",
-     "rubro": "fintech",
-     "count": 3
-    },
-    {
-     "slug": "mercado-libre",
-     "name": "Mercado Libre",
-     "rubro": "retail",
-     "count": 2
-    },
-    {
-     "slug": "viv-glycolic-crystal",
-     "name": "VIV Glycolic Crystal",
-     "rubro": "otro",
-     "count": 2
-    },
-    {
-     "slug": "natura-aderezos",
-     "name": "Natura Aderezos",
-     "rubro": "alimentos",
-     "count": 2
-    },
-    {
-     "slug": "banco-macro",
-     "name": "Banco Macro",
-     "rubro": "fintech",
-     "count": 2
-    },
-    {
-     "slug": "remax",
-     "name": "Remax",
-     "rubro": "otro",
-     "count": 2
-    },
-    {
-     "slug": "coffee-house",
-     "name": "Coffee House",
-     "rubro": "alimentos",
-     "count": 2
-    },
-    {
-     "slug": "penetrit",
-     "name": "Penetrit",
-     "rubro": "otro",
-     "count": 2
-    },
-    {
-     "slug": "salon-berlin",
-     "name": "Salon Berlin",
-     "rubro": "otro",
-     "count": 2
-    }
-   ],
-   "emissions": 9
-  },
   "luzu:ndn": {
    "channel_id": "luzu",
    "show_id": "ndn",
@@ -1560,50 +1279,50 @@
     {
      "key": "otro",
      "label": "Otro",
-     "count": 28,
-     "pct": 64
+     "count": 35,
+     "pct": 59
+    },
+    {
+     "key": "retail",
+     "label": "Tiendas y ecommerce",
+     "count": 8,
+     "pct": 14
     },
     {
      "key": "seguros",
      "label": "Seguros",
      "count": 4,
-     "pct": 9
-    },
-    {
-     "key": "retail",
-     "label": "Tiendas y ecommerce",
-     "count": 3,
      "pct": 7
     },
     {
      "key": "higiene",
      "label": "Higiene y cuidado personal",
      "count": 3,
-     "pct": 7
-    },
-    {
-     "key": "viajes",
-     "label": "Viajes y turismo",
-     "count": 2,
-     "pct": 5
-    },
-    {
-     "key": "tecnologia",
-     "label": "Tecnología",
-     "count": 2,
      "pct": 5
     },
     {
      "key": "fintech",
      "label": "Bancos y plata digital",
-     "count": 1,
-     "pct": 2
+     "count": 2,
+     "pct": 3
     },
     {
-     "key": "streaming",
-     "label": "Streaming y TV",
-     "count": 1,
-     "pct": 2
+     "key": "viajes",
+     "label": "Viajes y turismo",
+     "count": 2,
+     "pct": 3
+    },
+    {
+     "key": "energia",
+     "label": "Energía y nafta",
+     "count": 2,
+     "pct": 3
+    },
+    {
+     "key": "tecnologia",
+     "label": "Tecnología",
+     "count": 2,
+     "pct": 3
     }
    ],
    "top_temas": [
@@ -1613,6 +1332,10 @@
     },
     {
      "tema": "Pandemia Covid-19",
+     "score": 6
+    },
+    {
+     "tema": "Wynwood Miami",
      "score": 6
     },
     {
@@ -1634,37 +1357,33 @@
     {
      "tema": "Limpieza Y Orden De Habitaciones",
      "score": 3
-    },
-    {
-     "tema": "Baños Compartidos",
-     "score": 3
     }
    ],
    "categoria_mix": [
     {
      "categoria": "actividad",
      "label": "Actividad",
-     "score": 159
+     "score": 242
     },
     {
      "categoria": "cultura",
      "label": "Cultura",
-     "score": 86
+     "score": 116
     },
     {
      "categoria": "lugar",
      "label": "Lugar",
-     "score": 58
+     "score": 78
     },
     {
      "categoria": "otro",
      "label": "Otro",
-     "score": 54
+     "score": 65
     },
     {
      "categoria": "persona",
      "label": "Persona",
-     "score": 39
+     "score": 50
     },
     {
      "categoria": "salud",
@@ -1672,12 +1391,18 @@
      "score": 35
     }
    ],
-   "pauta_mentions": 44,
+   "pauta_mentions": 59,
    "brand_mix": [
     {
      "slug": "asiscard",
      "name": "Asiscard",
      "rubro": "seguros",
+     "count": 3
+    },
+    {
+     "slug": "mostaza",
+     "name": "Mostaza",
+     "rubro": "retail",
      "count": 3
     },
     {
@@ -1687,9 +1412,27 @@
      "count": 2
     },
     {
+     "slug": "airbnb",
+     "name": "Airbnb",
+     "rubro": "otro",
+     "count": 2
+    },
+    {
      "slug": "nivea-milk-nutritiva",
      "name": "Nivea Milk Nutritiva",
      "rubro": "higiene",
+     "count": 2
+    },
+    {
+     "slug": "shell",
+     "name": "Shell",
+     "rubro": "energia",
+     "count": 2
+    },
+    {
+     "slug": "gam",
+     "name": "GAM",
+     "rubro": "otro",
      "count": 2
     },
     {
@@ -1709,549 +1452,9 @@
      "name": "Rita Speciality Coffee",
      "rubro": "otro",
      "count": 2
-    },
-    {
-     "slug": "mercado-libre",
-     "name": "Mercado Libre",
-     "rubro": "retail",
-     "count": 1
-    },
-    {
-     "slug": "iol-inversiones",
-     "name": "IOL Inversiones",
-     "rubro": "fintech",
-     "count": 1
-    },
-    {
-     "slug": "lays",
-     "name": "Lays",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "miquelo-ultra",
-     "name": "Miquelo Ultra",
-     "rubro": "otro",
-     "count": 1
     }
    ],
-   "emissions": 7
-  },
-  "border:vivan-todo": {
-   "channel_id": "border",
-   "show_id": "vivan-todo",
-   "show_name": "Vivan Todo",
-   "rubro_mix": [],
-   "top_temas": [
-    {
-     "tema": "Terremoto En Venezuela",
-     "score": 6
-    },
-    {
-     "tema": "Renuncia De Manuel Adorni",
-     "score": 5
-    },
-    {
-     "tema": "Fallecimiento De Ernestina Páez",
-     "score": 3
-    },
-    {
-     "tema": "Renuncia De Ministro Y Crisis Política",
-     "score": 3
-    },
-    {
-     "tema": "Designación De Diego Santilli Como Jefe De Gabinete",
-     "score": 3
-    },
-    {
-     "tema": "Rol Y Poder De Mauricio Macri En El Gobierno",
-     "score": 3
-    },
-    {
-     "tema": "Transición Política - Adorni A Santilli",
-     "score": 3
-    },
-    {
-     "tema": "Reforma Electoral",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "política",
-     "label": "Política",
-     "score": 53
-    },
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 39
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 24
-    },
-    {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 22
-    },
-    {
-     "categoria": "lugar",
-     "label": "Lugar",
-     "score": 13
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 12
-    }
-   ],
-   "pauta_mentions": 0,
-   "brand_mix": [],
-   "emissions": 1
-  },
-  "vorterix:no-rusia": {
-   "channel_id": "vorterix",
-   "show_id": "no-rusia",
-   "show_name": "No Preguntes por Rusia",
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 2,
-     "pct": 67
-    },
-    {
-     "key": "retail",
-     "label": "Tiendas y ecommerce",
-     "count": 1,
-     "pct": 33
-    }
-   ],
-   "top_temas": [
-    {
-     "tema": "Carrera De Medicina",
-     "score": 4
-    },
-    {
-     "tema": "Muertes Y Tragedias Recientes",
-     "score": 3
-    },
-    {
-     "tema": "Presentación De Tema Musical Propio",
-     "score": 3
-    },
-    {
-     "tema": "Inseguridad Sobre Calidad Vocal",
-     "score": 3
-    },
-    {
-     "tema": "Renuncia De Manuel Adorni",
-     "score": 3
-    },
-    {
-     "tema": "Caso Judicial Ryan Méndez - Capitán Cabo Verde",
-     "score": 3
-    },
-    {
-     "tema": "Denuncias De Abuso Sexual En Futbolistas",
-     "score": 3
-    },
-    {
-     "tema": "Ola De Calor En Europa",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "tecnologia",
-     "label": "Tecnologia",
-     "score": 35
-    },
-    {
-     "categoria": "salud",
-     "label": "Salud",
-     "score": 30
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 29
-    },
-    {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 27
-    },
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 24
-    },
-    {
-     "categoria": "lugar",
-     "label": "Lugar",
-     "score": 16
-    }
-   ],
-   "pauta_mentions": 3,
-   "brand_mix": [
-    {
-     "slug": "cremolati",
-     "name": "Cremolati",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "b-play",
-     "name": "B-Play",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "cafe-imperial",
-     "name": "Café Imperial",
-     "rubro": "retail",
-     "count": 1
-    }
-   ],
-   "emissions": 2
-  },
-  "luzu:patria": {
-   "channel_id": "luzu",
-   "show_id": "patria",
-   "show_name": "Patria y Familia",
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 14,
-     "pct": 93
-    },
-    {
-     "key": "retail",
-     "label": "Tiendas y ecommerce",
-     "count": 1,
-     "pct": 7
-    }
-   ],
-   "top_temas": [
-    {
-     "tema": "Mundial De Fútbol",
-     "score": 7
-    },
-    {
-     "tema": "Motivos De Separación",
-     "score": 5
-    },
-    {
-     "tema": "Preparación De Mate",
-     "score": 5
-    },
-    {
-     "tema": "Red Flags En Relaciones",
-     "score": 4
-    },
-    {
-     "tema": "Crianza Sin Pantallas",
-     "score": 3
-    },
-    {
-     "tema": "Separación Y Exclusividad",
-     "score": 3
-    },
-    {
-     "tema": "Paul (predictor De Resultados)",
-     "score": 3
-    },
-    {
-     "tema": "Diseño Y Confección De Ropa",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 100
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 81
-    },
-    {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 36
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 29
-    },
-    {
-     "categoria": "tecnologia",
-     "label": "Tecnologia",
-     "score": 28
-    },
-    {
-     "categoria": "comida",
-     "label": "Comida",
-     "score": 17
-    }
-   ],
-   "pauta_mentions": 15,
-   "brand_mix": [
-    {
-     "slug": "alma-marcela-gozo",
-     "name": "Alma Marcela Gozo",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "pestanela",
-     "name": "Pestañela",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "mostaza",
-     "name": "Mostaza",
-     "rubro": "retail",
-     "count": 1
-    },
-    {
-     "slug": "hace",
-     "name": "Hace",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "yelmo-linea-harry-potter",
-     "name": "Yelmo Linea Harry Potter",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "canecalon",
-     "name": "Canecalon",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "alter-ego",
-     "name": "Alter Ego",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "estudio-vito",
-     "name": "Estudio Vito",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "fondo-raices-24-7",
-     "name": "Fondo Raices 24 7",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "king",
-     "name": "King",
-     "rubro": "otro",
-     "count": 1
-    }
-   ],
-   "emissions": 7
-  },
-  "olga:sone-volaba": {
-   "channel_id": "olga",
-   "show_id": "sone-volaba",
-   "show_name": "Soñé que Volaba",
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 37,
-     "pct": 63
-    },
-    {
-     "key": "salud",
-     "label": "Salud y farmacias",
-     "count": 5,
-     "pct": 8
-    },
-    {
-     "key": "higiene",
-     "label": "Higiene y cuidado personal",
-     "count": 4,
-     "pct": 7
-    },
-    {
-     "key": "viajes",
-     "label": "Viajes y turismo",
-     "count": 3,
-     "pct": 5
-    },
-    {
-     "key": "retail",
-     "label": "Tiendas y ecommerce",
-     "count": 2,
-     "pct": 3
-    },
-    {
-     "key": "tecnologia",
-     "label": "Tecnología",
-     "count": 2,
-     "pct": 3
-    },
-    {
-     "key": "fintech",
-     "label": "Bancos y plata digital",
-     "count": 2,
-     "pct": 3
-    },
-    {
-     "key": "seguros",
-     "label": "Seguros",
-     "count": 2,
-     "pct": 3
-    }
-   ],
-   "top_temas": [
-    {
-     "tema": "Mundialito De Ciudades",
-     "score": 15
-    },
-    {
-     "tema": "Naturaleza Humana: Bondad Vs Maldad",
-     "score": 6
-    },
-    {
-     "tema": "Billy Elliot - Musical",
-     "score": 5
-    },
-    {
-     "tema": "Médano De Oro, San Juan",
-     "score": 5
-    },
-    {
-     "tema": "Posadas, Misiones",
-     "score": 5
-    },
-    {
-     "tema": "Selección Argentina De Fútbol",
-     "score": 4
-    },
-    {
-     "tema": "Envidia Y Resentimiento Social",
-     "score": 3
-    },
-    {
-     "tema": "Cambio Social Y Revolución",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 159
-    },
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 138
-    },
-    {
-     "categoria": "lugar",
-     "label": "Lugar",
-     "score": 64
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 33
-    },
-    {
-     "categoria": "tecnologia",
-     "label": "Tecnologia",
-     "score": 22
-    },
-    {
-     "categoria": "salud",
-     "label": "Salud",
-     "score": 18
-    }
-   ],
-   "pauta_mentions": 59,
-   "brand_mix": [
-    {
-     "slug": "hellmann-s",
-     "name": "Hellmann's",
-     "rubro": "higiene",
-     "count": 3
-    },
-    {
-     "slug": "los-redondos",
-     "name": "Los Redondos",
-     "rubro": "otro",
-     "count": 3
-    },
-    {
-     "slug": "cinear",
-     "name": "Cinear",
-     "rubro": "otro",
-     "count": 3
-    },
-    {
-     "slug": "canon",
-     "name": "Canon",
-     "rubro": "tecnologia",
-     "count": 2
-    },
-    {
-     "slug": "geniol",
-     "name": "Geniol",
-     "rubro": "salud",
-     "count": 2
-    },
-    {
-     "slug": "cordoba-turismo",
-     "name": "Córdoba (Turismo)",
-     "rubro": "viajes",
-     "count": 2
-    },
-    {
-     "slug": "swiss-medical",
-     "name": "Swiss Medical",
-     "rubro": "salud",
-     "count": 2
-    },
-    {
-     "slug": "mercado-pago",
-     "name": "Mercado Pago",
-     "rubro": "fintech",
-     "count": 2
-    },
-    {
-     "slug": "cabify",
-     "name": "Cabify",
-     "rubro": "seguros",
-     "count": 2
-    },
-    {
-     "slug": "lucas-substein",
-     "name": "Lucas Substein",
-     "rubro": "otro",
-     "count": 2
-    }
-   ],
-   "emissions": 10
+   "emissions": 8
   },
   "ahoraplay:otros": {
    "channel_id": "ahoraplay",
@@ -2347,590 +1550,6 @@
     }
    ],
    "emissions": 1
-  },
-  "luzu:fondo": {
-   "channel_id": "luzu",
-   "show_id": "fondo",
-   "show_name": "Los del Fondo",
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 4,
-     "pct": 67
-    },
-    {
-     "key": "alimentos",
-     "label": "Alimentos",
-     "count": 1,
-     "pct": 17
-    },
-    {
-     "key": "fintech",
-     "label": "Bancos y plata digital",
-     "count": 1,
-     "pct": 17
-    }
-   ],
-   "top_temas": [
-    {
-     "tema": "Mundial De Fútbol",
-     "score": 6
-    },
-    {
-     "tema": "Expresión De Afecto Y Emociones",
-     "score": 3
-    },
-    {
-     "tema": "Desempeño De Messi En El Mundial",
-     "score": 3
-    },
-    {
-     "tema": "Fixture Argentina Mundial",
-     "score": 3
-    },
-    {
-     "tema": "Sorteo De Camiseta Del Burrete 10",
-     "score": 3
-    },
-    {
-     "tema": "El Pollo Sobresaliente En Vivo",
-     "score": 3
-    },
-    {
-     "tema": "Fútbol - Inglaterra Vs Escocia",
-     "score": 3
-    },
-    {
-     "tema": "Sorteo De Camiseta Del Purrete",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 57
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 16
-    },
-    {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 10
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 6
-    },
-    {
-     "categoria": "tecnologia",
-     "label": "Tecnologia",
-     "score": 5
-    },
-    {
-     "categoria": "producto",
-     "label": "Producto",
-     "score": 4
-    }
-   ],
-   "pauta_mentions": 6,
-   "brand_mix": [
-    {
-     "slug": "natura",
-     "name": "Natura",
-     "rubro": "alimentos",
-     "count": 1
-    },
-    {
-     "slug": "camiseta-del-purrete-10",
-     "name": "Camiseta del Purrete 10",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "haussler",
-     "name": "Haussler",
-     "rubro": "fintech",
-     "count": 1
-    },
-    {
-     "slug": "mcingolazo",
-     "name": "Mcingolazo",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "zorro",
-     "name": "Zorro",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "eventis-producciones",
-     "name": "Eventis Producciones",
-     "rubro": "otro",
-     "count": 1
-    }
-   ],
-   "emissions": 2
-  },
-  "luzu:fmluzu": {
-   "channel_id": "luzu",
-   "show_id": "fmluzu",
-   "show_name": "FM Luzu",
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 4,
-     "pct": 80
-    },
-    {
-     "key": "telco",
-     "label": "Telefonía e internet",
-     "count": 1,
-     "pct": 20
-    }
-   ],
-   "top_temas": [
-    {
-     "tema": "Mundial De Fútbol",
-     "score": 3
-    },
-    {
-     "tema": "Selección Argentina",
-     "score": 3
-    },
-    {
-     "tema": "Fixtures De Mundial",
-     "score": 3
-    },
-    {
-     "tema": "Retorno De Saturno",
-     "score": 3
-    },
-    {
-     "tema": "Cambios De Vida Después De Los 30",
-     "score": 3
-    },
-    {
-     "tema": "Cuidado De Plantas De Interior",
-     "score": 3
-    },
-    {
-     "tema": "Cambios De Hábitos Al Cumplir 30",
-     "score": 3
-    },
-    {
-     "tema": "Selección Cabo Verde Mundial",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 57
-    },
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 50
-    },
-    {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 17
-    },
-    {
-     "categoria": "tecnologia",
-     "label": "Tecnologia",
-     "score": 13
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 8
-    },
-    {
-     "categoria": "salud",
-     "label": "Salud",
-     "score": 8
-    }
-   ],
-   "pauta_mentions": 5,
-   "brand_mix": [
-    {
-     "slug": "garnier",
-     "name": "Garnier",
-     "rubro": "otro",
-     "count": 2
-    },
-    {
-     "slug": "sinteplast",
-     "name": "Sinteplast",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "guerrin",
-     "name": "Guerrin",
-     "rubro": "telco",
-     "count": 1
-    },
-    {
-     "slug": "primavera-sound",
-     "name": "Primavera Sound",
-     "rubro": "otro",
-     "count": 1
-    }
-   ],
-   "emissions": 4
-  },
-  "neura:otros": {
-   "channel_id": "neura",
-   "show_id": "otros",
-   "show_name": "Otros",
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 11,
-     "pct": 65
-    },
-    {
-     "key": "energia",
-     "label": "Energía y nafta",
-     "count": 5,
-     "pct": 29
-    },
-    {
-     "key": "seguros",
-     "label": "Seguros",
-     "count": 1,
-     "pct": 6
-    }
-   ],
-   "top_temas": [
-    {
-     "tema": "Educación Financiera",
-     "score": 6
-    },
-    {
-     "tema": "Bitcoin Y Criptomonedas",
-     "score": 5
-    },
-    {
-     "tema": "Candidatura Presidencial 2027",
-     "score": 3
-    },
-    {
-     "tema": "Inflación Argentina",
-     "score": 3
-    },
-    {
-     "tema": "Sistema Impositivo Argentina",
-     "score": 3
-    },
-    {
-     "tema": "Salarios En El Senado",
-     "score": 3
-    },
-    {
-     "tema": "Tasas De Interés Y Política Monetaria De La Fed",
-     "score": 3
-    },
-    {
-     "tema": "Riesgo País De Argentina",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 102
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 86
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 35
-    },
-    {
-     "categoria": "economia",
-     "label": "Economia",
-     "score": 31
-    },
-    {
-     "categoria": "producto",
-     "label": "Producto",
-     "score": 24
-    },
-    {
-     "categoria": "tecnologia",
-     "label": "Tecnologia",
-     "score": 23
-    }
-   ],
-   "pauta_mentions": 17,
-   "brand_mix": [
-    {
-     "slug": "pae",
-     "name": "PAE",
-     "rubro": "energia",
-     "count": 5
-    },
-    {
-     "slug": "ecomod",
-     "name": "Ecomod",
-     "rubro": "otro",
-     "count": 2
-    },
-    {
-     "slug": "argendata",
-     "name": "Argendata",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "juegos-el-pato",
-     "name": "Juegos El Pato",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "infinea-turbo-clean",
-     "name": "Infinea Turbo Clean",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "it-consult",
-     "name": "IT Consult",
-     "rubro": "seguros",
-     "count": 1
-    },
-    {
-     "slug": "omni",
-     "name": "Omni",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "neura-de-gira",
-     "name": "Neura de Gira",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "princess-cruises-discover-crucis",
-     "name": "Princess Cruises / Discover Crucis",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "princess",
-     "name": "Princess",
-     "rubro": "otro",
-     "count": 1
-    }
-   ],
-   "emissions": 5
-  },
-  "olga:seria-increible": {
-   "channel_id": "olga",
-   "show_id": "seria-increible",
-   "show_name": "Sería Increíble",
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 20,
-     "pct": 34
-    },
-    {
-     "key": "salud",
-     "label": "Salud y farmacias",
-     "count": 13,
-     "pct": 22
-    },
-    {
-     "key": "fintech",
-     "label": "Bancos y plata digital",
-     "count": 8,
-     "pct": 14
-    },
-    {
-     "key": "retail",
-     "label": "Tiendas y ecommerce",
-     "count": 5,
-     "pct": 8
-    },
-    {
-     "key": "higiene",
-     "label": "Higiene y cuidado personal",
-     "count": 4,
-     "pct": 7
-    },
-    {
-     "key": "alimentos",
-     "label": "Alimentos",
-     "count": 3,
-     "pct": 5
-    },
-    {
-     "key": "telco",
-     "label": "Telefonía e internet",
-     "count": 2,
-     "pct": 3
-    },
-    {
-     "key": "tecnologia",
-     "label": "Tecnología",
-     "count": 1,
-     "pct": 2
-    }
-   ],
-   "top_temas": [
-    {
-     "tema": "Mundial De Fútbol",
-     "score": 9
-    },
-    {
-     "tema": "Renuncia De Manuel Adorni",
-     "score": 6
-    },
-    {
-     "tema": "Relación Padre-hijo",
-     "score": 5
-    },
-    {
-     "tema": "Nudismo",
-     "score": 5
-    },
-    {
-     "tema": "Sequedad Vaginal",
-     "score": 5
-    },
-    {
-     "tema": "Terremoto En Venezuela",
-     "score": 5
-    },
-    {
-     "tema": "Crisis En Venezuela",
-     "score": 5
-    },
-    {
-     "tema": "Cumpleaños De Messi",
-     "score": 5
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 187
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 177
-    },
-    {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 154
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 131
-    },
-    {
-     "categoria": "salud",
-     "label": "Salud",
-     "score": 80
-    },
-    {
-     "categoria": "lugar",
-     "label": "Lugar",
-     "score": 46
-    }
-   ],
-   "pauta_mentions": 59,
-   "brand_mix": [
-    {
-     "slug": "green-life",
-     "name": "Green Life",
-     "rubro": "salud",
-     "count": 5
-    },
-    {
-     "slug": "iol-inversiones",
-     "name": "IOL Inversiones",
-     "rubro": "fintech",
-     "count": 5
-    },
-    {
-     "slug": "geniol",
-     "name": "Geniol",
-     "rubro": "salud",
-     "count": 4
-    },
-    {
-     "slug": "skip",
-     "name": "Skip",
-     "rubro": "higiene",
-     "count": 2
-    },
-    {
-     "slug": "swift",
-     "name": "Swift",
-     "rubro": "alimentos",
-     "count": 2
-    },
-    {
-     "slug": "alicante-mix-parrilla",
-     "name": "Alicante Mix parrilla",
-     "rubro": "otro",
-     "count": 2
-    },
-    {
-     "slug": "home-by-hudson",
-     "name": "Home by Hudson",
-     "rubro": "otro",
-     "count": 2
-    },
-    {
-     "slug": "pinza-bayoneta",
-     "name": "Pinza Bayoneta",
-     "rubro": "telco",
-     "count": 2
-    },
-    {
-     "slug": "los-redondos",
-     "name": "Los Redondos",
-     "rubro": "otro",
-     "count": 2
-    },
-    {
-     "slug": "evacuer-capsula",
-     "name": "Evacuer Capsula",
-     "rubro": "retail",
-     "count": 2
-    }
-   ],
-   "emissions": 11
   },
   "luzu:otros": {
    "channel_id": "luzu",
@@ -3099,81 +1718,6 @@
    ],
    "emissions": 8
   },
-  "blend:que-dia": {
-   "channel_id": "blend",
-   "show_id": "que-dia",
-   "show_name": "Qué Día",
-   "rubro_mix": [],
-   "top_temas": [
-    {
-     "tema": "Cumpleaños De Messi",
-     "score": 8
-    },
-    {
-     "tema": "Precios De Entradas Al Mundial",
-     "score": 5
-    },
-    {
-     "tema": "Causa Propofol - Procesamiento De Boveri Y Lanusse",
-     "score": 3
-    },
-    {
-     "tema": "Líderes Y Personalidad De Messi",
-     "score": 3
-    },
-    {
-     "tema": "Boicot Al Fútbol Por Cuestiones Políticas Y Derechos Humanos",
-     "score": 3
-    },
-    {
-     "tema": "Comercialización Y Corrupción En La Fifa",
-     "score": 3
-    },
-    {
-     "tema": "Rol Político De Futbolistas",
-     "score": 3
-    },
-    {
-     "tema": "Censura Y Disciplinamiento Mediático",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 41
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 28
-    },
-    {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 20
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 16
-    },
-    {
-     "categoria": "lugar",
-     "label": "Lugar",
-     "score": 8
-    },
-    {
-     "categoria": "tecnologia",
-     "label": "Tecnologia",
-     "score": 8
-    }
-   ],
-   "pauta_mentions": 0,
-   "brand_mix": [],
-   "emissions": 1
-  },
   "gelatina:otros": {
    "channel_id": "gelatina",
    "show_id": "otros",
@@ -3263,91 +1807,404 @@
    ],
    "emissions": 1
   },
-  "olga:gol-gana": {
-   "channel_id": "olga",
-   "show_id": "gol-gana",
-   "show_name": "Gol Gana",
+  "blend:otros": {
+   "channel_id": "blend",
+   "show_id": "otros",
+   "show_name": "Otros",
    "rubro_mix": [
     {
      "key": "otro",
      "label": "Otro",
-     "count": 8,
-     "pct": 21
-    },
-    {
-     "key": "bebidas",
-     "label": "Bebidas y alcohol",
-     "count": 7,
-     "pct": 18
-    },
-    {
-     "key": "fintech",
-     "label": "Bancos y plata digital",
      "count": 6,
-     "pct": 15
+     "pct": 75
+    },
+    {
+     "key": "energia",
+     "label": "Energía y nafta",
+     "count": 1,
+     "pct": 12
     },
     {
      "key": "alimentos",
      "label": "Alimentos",
-     "count": 5,
-     "pct": 13
+     "count": 1,
+     "pct": 12
+    }
+   ],
+   "top_temas": [
+    {
+     "tema": "Humor Y Chistes",
+     "score": 6
     },
     {
-     "key": "salud",
-     "label": "Salud y farmacias",
-     "count": 3,
-     "pct": 8
+     "tema": "Paternidad Y Relación Padres-hijos",
+     "score": 3
+    },
+    {
+     "tema": "Sin-eaters (comedores De Pecados)",
+     "score": 3
+    },
+    {
+     "tema": "Comedores De Pecados (ritual Histórico)",
+     "score": 3
+    },
+    {
+     "tema": "Moderadores De Contenido Digital",
+     "score": 3
+    },
+    {
+     "tema": "Explotación Laboral En Big Tech",
+     "score": 3
+    },
+    {
+     "tema": "Selección Argentina Y Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Efectos Especiales De Cine",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 69
+    },
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 39
+    },
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 32
+    },
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 23
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 16
+    },
+    {
+     "categoria": "salud",
+     "label": "Salud",
+     "score": 14
+    }
+   ],
+   "pauta_mentions": 8,
+   "brand_mix": [
+    {
+     "slug": "ypf",
+     "name": "YPF",
+     "rubro": "energia",
+     "count": 1
+    },
+    {
+     "slug": "seco",
+     "name": "Seco",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "uber",
+     "name": "Uber",
+     "rubro": "alimentos",
+     "count": 1
+    },
+    {
+     "slug": "guberpaticerie",
+     "name": "guberpaticerie",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "escorial",
+     "name": "Escorial",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "hoy-cerdo",
+     "name": "Hoy Cerdo",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "guacamoles-eventos",
+     "name": "Guacamoles Eventos",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "buenos-aires-ciudad",
+     "name": "Buenos Aires ciudad",
+     "rubro": "otro",
+     "count": 1
+    }
+   ],
+   "emissions": 2
+  },
+  "gelatina:demasiada-presion": {
+   "channel_id": "gelatina",
+   "show_id": "demasiada-presion",
+   "show_name": "Demasiada Presión",
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 2,
+     "pct": 100
+    }
+   ],
+   "top_temas": [
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 15
+    },
+    {
+     "tema": "Muerte De Ernestina Páez",
+     "score": 4
+    },
+    {
+     "tema": "Selección Argentina Vs Jordania",
+     "score": 3
+    },
+    {
+     "tema": "Caso Judicial Adorni - Enriquecimiento Ilícito",
+     "score": 3
+    },
+    {
+     "tema": "Diego Santilli Nuevo Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Reorganización Del Gobierno De Milei",
+     "score": 3
+    },
+    {
+     "tema": "Agenda Parlamentaria Y Congreso",
+     "score": 3
+    },
+    {
+     "tema": "Terremotos En Venezuela",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 47
+    },
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 35
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 26
+    },
+    {
+     "categoria": "política",
+     "label": "Política",
+     "score": 24
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 16
+    },
+    {
+     "categoria": "salud",
+     "label": "Salud",
+     "score": 7
+    }
+   ],
+   "pauta_mentions": 2,
+   "brand_mix": [
+    {
+     "slug": "seco",
+     "name": "Seco",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "ada-cafe",
+     "name": "Ada Café",
+     "rubro": "otro",
+     "count": 1
+    }
+   ],
+   "emissions": 1
+  },
+  "aura:otros": {
+   "channel_id": "aura",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "rubro_mix": [],
+   "top_temas": [
+    {
+     "tema": "Cumpleaños De Florencia",
+     "score": 3
+    },
+    {
+     "tema": "Desafío De Comer Alfajores",
+     "score": 3
+    },
+    {
+     "tema": "Respuesta De Mensajes Y Comunicación",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Diego Santilli Y Cambios En El Gobierno",
+     "score": 3
+    },
+    {
+     "tema": "Boda Taylor Swift Y Travis Kelce",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño De Messi En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Divulgación Científica En Redes Sociales",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 32
+    },
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 26
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 24
+    },
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 22
+    },
+    {
+     "categoria": "producto",
+     "label": "Producto",
+     "score": 16
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 9
+    }
+   ],
+   "pauta_mentions": 0,
+   "brand_mix": [],
+   "emissions": 1
+  },
+  "olga:sone-volaba": {
+   "channel_id": "olga",
+   "show_id": "sone-volaba",
+   "show_name": "Soñé que Volaba",
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 37,
+     "pct": 61
     },
     {
      "key": "higiene",
      "label": "Higiene y cuidado personal",
-     "count": 3,
+     "count": 5,
      "pct": 8
+    },
+    {
+     "key": "salud",
+     "label": "Salud y farmacias",
+     "count": 5,
+     "pct": 8
+    },
+    {
+     "key": "viajes",
+     "label": "Viajes y turismo",
+     "count": 4,
+     "pct": 7
+    },
+    {
+     "key": "retail",
+     "label": "Tiendas y ecommerce",
+     "count": 2,
+     "pct": 3
+    },
+    {
+     "key": "tecnologia",
+     "label": "Tecnología",
+     "count": 2,
+     "pct": 3
+    },
+    {
+     "key": "fintech",
+     "label": "Bancos y plata digital",
+     "count": 2,
+     "pct": 3
     },
     {
      "key": "seguros",
      "label": "Seguros",
      "count": 2,
-     "pct": 5
-    },
-    {
-     "key": "viajes",
-     "label": "Viajes y turismo",
-     "count": 2,
-     "pct": 5
+     "pct": 3
     }
    ],
    "top_temas": [
     {
-     "tema": "Banderazo En Dallas",
+     "tema": "Mundialito De Ciudades",
+     "score": 15
+    },
+    {
+     "tema": "Naturaleza Humana: Bondad Vs Maldad",
+     "score": 6
+    },
+    {
+     "tema": "Billy Elliot - Musical",
+     "score": 5
+    },
+    {
+     "tema": "Médano De Oro, San Juan",
+     "score": 5
+    },
+    {
+     "tema": "Posadas, Misiones",
+     "score": 5
+    },
+    {
+     "tema": "Selección Argentina De Fútbol",
      "score": 4
     },
     {
-     "tema": "Análisis Partido Argentina Vs Austria",
+     "tema": "Envidia Y Resentimiento Social",
      "score": 3
     },
     {
-     "tema": "Rendimiento De Messi",
-     "score": 3
-    },
-    {
-     "tema": "Récords Goleadores De Messi En Copas Del Mundo",
-     "score": 3
-    },
-    {
-     "tema": "Comparación Messi Vs Mbappé",
-     "score": 3
-    },
-    {
-     "tema": "Habilidad Excepcional De Messi",
-     "score": 3
-    },
-    {
-     "tema": "Partidos De Messi En El Mundial",
-     "score": 3
-    },
-    {
-     "tema": "Mundial De Fútbol",
+     "tema": "Cambio Social Y Revolución",
      "score": 3
     }
    ],
@@ -3355,65 +2212,71 @@
     {
      "categoria": "actividad",
      "label": "Actividad",
-     "score": 269
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 82
+     "score": 175
     },
     {
      "categoria": "cultura",
      "label": "Cultura",
-     "score": 55
+     "score": 172
     },
     {
      "categoria": "lugar",
      "label": "Lugar",
-     "score": 29
+     "score": 64
     },
     {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 25
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 42
+    },
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 31
     },
     {
      "categoria": "salud",
      "label": "Salud",
-     "score": 17
+     "score": 26
     }
    ],
-   "pauta_mentions": 39,
+   "pauta_mentions": 61,
    "brand_mix": [
     {
-     "slug": "iol-inversiones",
-     "name": "IOL Inversiones",
-     "rubro": "fintech",
-     "count": 5
-    },
-    {
-     "slug": "mcdonald-s",
-     "name": "McDonald's",
-     "rubro": "alimentos",
+     "slug": "cordoba-turismo",
+     "name": "Córdoba (Turismo)",
+     "rubro": "viajes",
      "count": 3
     },
     {
-     "slug": "johnnie-walker",
-     "name": "Johnnie Walker",
-     "rubro": "bebidas",
-     "count": 3
-    },
-    {
-     "slug": "schneider",
-     "name": "Schneider",
-     "rubro": "bebidas",
-     "count": 3
-    },
-    {
-     "slug": "rexona",
-     "name": "Rexona",
+     "slug": "hellmann-s",
+     "name": "Hellmann's",
      "rubro": "higiene",
      "count": 3
+    },
+    {
+     "slug": "los-redondos",
+     "name": "Los Redondos",
+     "rubro": "otro",
+     "count": 3
+    },
+    {
+     "slug": "cinear",
+     "name": "Cinear",
+     "rubro": "otro",
+     "count": 3
+    },
+    {
+     "slug": "canon",
+     "name": "Canon",
+     "rubro": "tecnologia",
+     "count": 2
+    },
+    {
+     "slug": "skip",
+     "name": "Skip",
+     "rubro": "higiene",
+     "count": 2
     },
     {
      "slug": "geniol",
@@ -3422,194 +2285,85 @@
      "count": 2
     },
     {
-     "slug": "swift",
-     "name": "Swift",
-     "rubro": "alimentos",
-     "count": 2
-    },
-    {
-     "slug": "afa-studio",
-     "name": "Afa Studio",
-     "rubro": "otro",
-     "count": 2
-    },
-    {
-     "slug": "pharma-olga",
-     "name": "Pharma Olga",
+     "slug": "swiss-medical",
+     "name": "Swiss Medical",
      "rubro": "salud",
-     "count": 1
+     "count": 2
     },
     {
-     "slug": "hyundai",
-     "name": "Hyundai",
-     "rubro": "automotriz",
-     "count": 1
+     "slug": "mercado-pago",
+     "name": "Mercado Pago",
+     "rubro": "fintech",
+     "count": 2
+    },
+    {
+     "slug": "cabify",
+     "name": "Cabify",
+     "rubro": "seguros",
+     "count": 2
     }
    ],
-   "emissions": 7
+   "emissions": 11
   },
-  "aura:hoy-como-siempre": {
-   "channel_id": "aura",
-   "show_id": "hoy-como-siempre",
-   "show_name": "Hoy como siempre",
+  "urbana-play-104-3-fm:otros": {
+   "channel_id": "urbana-play-104-3-fm",
+   "show_id": "otros",
+   "show_name": "Otros",
    "rubro_mix": [
     {
      "key": "otro",
      "label": "Otro",
-     "count": 1,
+     "count": 8,
      "pct": 100
     }
    ],
-   "top_temas": [
-    {
-     "tema": "Partido Argentina Vs Jordania",
-     "score": 5
-    },
-    {
-     "tema": "Mundial De Fútbol",
-     "score": 3
-    },
-    {
-     "tema": "Renuncia De Manuel Adorni",
-     "score": 3
-    },
-    {
-     "tema": "Enriquecimiento Ilícito De Adorni",
-     "score": 3
-    },
-    {
-     "tema": "Cambio De Jefe De Gabinete - Santilli Reemplaza A Adorni",
-     "score": 3
-    },
-    {
-     "tema": "Selección Argentina En Qatar",
-     "score": 3
-    },
-    {
-     "tema": "Maradona 1986 - Final Del Mundial",
-     "score": 3
-    },
-    {
-     "tema": "Muerte De Ernestina Páez",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 58
-    },
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 39
-    },
-    {
-     "categoria": "salud",
-     "label": "Salud",
-     "score": 31
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 13
-    },
-    {
-     "categoria": "tecnologia",
-     "label": "Tecnologia",
-     "score": 11
-    },
-    {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 7
-    }
-   ],
-   "pauta_mentions": 1,
+   "top_temas": [],
+   "categoria_mix": [],
+   "pauta_mentions": 8,
    "brand_mix": [
     {
-     "slug": "youtube-aura-stream-tn",
-     "name": "YouTube / Aura Stream TN",
+     "slug": "actron",
+     "name": "Actron",
+     "rubro": "otro",
+     "count": 2
+    },
+    {
+     "slug": "cremolati",
+     "name": "Cremolati",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "martin-imante",
+     "name": "Martín Imante",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "urbana-play",
+     "name": "Urbana Play",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "kimi-cafe",
+     "name": "Kimi café",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "biomarket",
+     "name": "Biomarket",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "cremolati-com-ar-las-rojas-empanadas",
+     "name": "cremolati.com.ar / Las Rojas Empanadas",
      "rubro": "otro",
      "count": 1
     }
    ],
-   "emissions": 1
-  },
-  "blend:ultimo-aviso": {
-   "channel_id": "blend",
-   "show_id": "ultimo-aviso",
-   "show_name": "Último Aviso",
-   "rubro_mix": [],
-   "top_temas": [
-    {
-     "tema": "Partido De Fútbol Brasil",
-     "score": 3
-    },
-    {
-     "tema": "Anécdotas Escolares Y Educación",
-     "score": 3
-    },
-    {
-     "tema": "Composición Musical Y Proceso Creativo",
-     "score": 3
-    },
-    {
-     "tema": "Influencias Artísticas",
-     "score": 3
-    },
-    {
-     "tema": "Composición Y Armonía Musical",
-     "score": 3
-    },
-    {
-     "tema": "Covers Y Homenajes A Rock Nacional",
-     "score": 3
-    },
-    {
-     "tema": "Crisis De Saturno (astrología)",
-     "score": 3
-    },
-    {
-     "tema": "Artistas En Crisis De Saturno",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 29
-    },
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 26
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 14
-    },
-    {
-     "categoria": "salud",
-     "label": "Salud",
-     "score": 6
-    },
-    {
-     "categoria": "tecnologia",
-     "label": "Tecnologia",
-     "score": 5
-    },
-    {
-     "categoria": "lugar",
-     "label": "Lugar",
-     "score": 4
-    }
-   ],
-   "pauta_mentions": 0,
-   "brand_mix": [],
    "emissions": 1
   },
   "bondi:otros": {
@@ -3686,6 +2440,173 @@
    "pauta_mentions": 0,
    "brand_mix": [],
    "emissions": 1
+  },
+  "olga:tdt": {
+   "channel_id": "olga",
+   "show_id": "tdt",
+   "show_name": "TDT",
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 15,
+     "pct": 58
+    },
+    {
+     "key": "alimentos",
+     "label": "Alimentos",
+     "count": 4,
+     "pct": 15
+    },
+    {
+     "key": "retail",
+     "label": "Tiendas y ecommerce",
+     "count": 3,
+     "pct": 12
+    },
+    {
+     "key": "bebidas",
+     "label": "Bebidas y alcohol",
+     "count": 3,
+     "pct": 12
+    },
+    {
+     "key": "seguros",
+     "label": "Seguros",
+     "count": 1,
+     "pct": 4
+    }
+   ],
+   "top_temas": [
+    {
+     "tema": "Viaje A Miami",
+     "score": 8
+    },
+    {
+     "tema": "Café Cubano",
+     "score": 5
+    },
+    {
+     "tema": "Viaje A Estados Unidos",
+     "score": 4
+    },
+    {
+     "tema": "Trotel Flip Challenge",
+     "score": 3
+    },
+    {
+     "tema": "Migración A Miami",
+     "score": 3
+    },
+    {
+     "tema": "Viaje A Miami/misiones",
+     "score": 3
+    },
+    {
+     "tema": "Top 3 Placeres De La Vida",
+     "score": 3
+    },
+    {
+     "tema": "Sargazo En Miami Beach",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "lugar",
+     "label": "Lugar",
+     "score": 60
+    },
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 54
+    },
+    {
+     "categoria": "comida",
+     "label": "Comida",
+     "score": 53
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 30
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 29
+    },
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 18
+    }
+   ],
+   "pauta_mentions": 26,
+   "brand_mix": [
+    {
+     "slug": "mcdonald-s",
+     "name": "McDonald's",
+     "rubro": "alimentos",
+     "count": 4
+    },
+    {
+     "slug": "smirnoff",
+     "name": "Smirnoff",
+     "rubro": "bebidas",
+     "count": 3
+    },
+    {
+     "slug": "mercado-libre",
+     "name": "Mercado Libre",
+     "rubro": "retail",
+     "count": 2
+    },
+    {
+     "slug": "alfaguara",
+     "name": "Alfaguara",
+     "rubro": "otro",
+     "count": 2
+    },
+    {
+     "slug": "propel-fit-planet",
+     "name": "Propel Fit Planet",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "cbc-hierbas-serranas",
+     "name": "CBC hierbas serranas",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "evacare-gino",
+     "name": "Evacare Gino",
+     "rubro": "retail",
+     "count": 1
+    },
+    {
+     "slug": "parodontax",
+     "name": "Parodontax",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "cambio-de-discurso-social-sobre-violencia-sexual",
+     "name": "Cambio De Discurso Social Sobre Violencia Sexual",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "participacion-en-marchas-de-protesta",
+     "name": "Participacion En Marchas De Protesta",
+     "rubro": "otro",
+     "count": 1
+    }
+   ],
+   "emissions": 5
   },
   "luzu:sfl": {
    "channel_id": "luzu",
@@ -4033,160 +2954,50 @@
    ],
    "emissions": 10
   },
-  "gelatina:demasiada-presion": {
-   "channel_id": "gelatina",
-   "show_id": "demasiada-presion",
-   "show_name": "Demasiada Presión",
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 2,
-     "pct": 100
-    }
-   ],
-   "top_temas": [
-    {
-     "tema": "Renuncia De Manuel Adorni",
-     "score": 15
-    },
-    {
-     "tema": "Muerte De Ernestina Páez",
-     "score": 4
-    },
-    {
-     "tema": "Selección Argentina Vs Jordania",
-     "score": 3
-    },
-    {
-     "tema": "Caso Judicial Adorni - Enriquecimiento Ilícito",
-     "score": 3
-    },
-    {
-     "tema": "Diego Santilli Nuevo Jefe De Gabinete",
-     "score": 3
-    },
-    {
-     "tema": "Reorganización Del Gobierno De Milei",
-     "score": 3
-    },
-    {
-     "tema": "Agenda Parlamentaria Y Congreso",
-     "score": 3
-    },
-    {
-     "tema": "Terremotos En Venezuela",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 47
-    },
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 35
-    },
-    {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 26
-    },
-    {
-     "categoria": "política",
-     "label": "Política",
-     "score": 24
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 16
-    },
-    {
-     "categoria": "salud",
-     "label": "Salud",
-     "score": 7
-    }
-   ],
-   "pauta_mentions": 2,
-   "brand_mix": [
-    {
-     "slug": "seco",
-     "name": "Seco",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "ada-cafe",
-     "name": "Ada Café",
-     "rubro": "otro",
-     "count": 1
-    }
-   ],
-   "emissions": 1
-  },
-  "ahoraplay:serrucho": {
-   "channel_id": "ahoraplay",
-   "show_id": "serrucho",
-   "show_name": "Serrucho Económico",
+  "cronista:otros": {
+   "channel_id": "cronista",
+   "show_id": "otros",
+   "show_name": "Otros",
    "rubro_mix": [],
    "top_temas": [
     {
-     "tema": "Renuncia De Adorni",
-     "score": 7
+     "tema": "Morosidad Bancaria",
+     "score": 4
     },
     {
-     "tema": "Renuncia De Manuel Adorni",
-     "score": 6
-    },
-    {
-     "tema": "Designación De Diego Santilli Como Jefe De Gabinete",
+     "tema": "Upgrades De Deuda Soberana",
      "score": 3
     },
     {
-     "tema": "Reinicio De La Gestión Milei",
+     "tema": "Salida Al Mercado De Deuda",
      "score": 3
     },
     {
-     "tema": "Sospechas De Corrupción En El Gobierno",
+     "tema": "Bonos Argentinos (curva Soberana)",
      "score": 3
     },
     {
-     "tema": "Renuncia De Adorni Y Cambio De Gabinete",
+     "tema": "Tipo De Cambio Y Mercado De Divisas",
      "score": 3
     },
     {
-     "tema": "Capacidad Política De Milei",
+     "tema": "Política Del Banco Central",
      "score": 3
     },
     {
-     "tema": "Conflictos Internos Del Gobierno",
+     "tema": "Mercado De Créditos Y Depósitos Bancarios",
+     "score": 3
+    },
+    {
+     "tema": "Dólar Y Tipo De Cambio",
      "score": 3
     }
    ],
    "categoria_mix": [
     {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 25
-    },
-    {
-     "categoria": "política",
-     "label": "Política",
-     "score": 18
-    },
-    {
-     "categoria": "economia",
-     "label": "Economia",
-     "score": 15
-    },
-    {
      "categoria": "otro",
      "label": "Otro",
-     "score": 15
+     "score": 38
     },
     {
      "categoria": "tecnologia",
@@ -4194,159 +3005,150 @@
      "score": 14
     },
     {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 10
+    },
+    {
+     "categoria": "economia",
+     "label": "Economia",
+     "score": 9
+    },
+    {
+     "categoria": "producto",
+     "label": "Producto",
+     "score": 6
+    },
+    {
      "categoria": "cultura",
      "label": "Cultura",
-     "score": 10
+     "score": 3
     }
    ],
    "pauta_mentions": 0,
    "brand_mix": [],
    "emissions": 1
   },
-  "olga:tdt": {
-   "channel_id": "olga",
-   "show_id": "tdt",
-   "show_name": "TDT",
+  "luzu:novela": {
+   "channel_id": "luzu",
+   "show_id": "novela",
+   "show_name": "La Novela",
    "rubro_mix": [
     {
      "key": "otro",
      "label": "Otro",
-     "count": 15,
-     "pct": 58
+     "count": 7,
+     "pct": 88
     },
     {
-     "key": "alimentos",
-     "label": "Alimentos",
-     "count": 4,
-     "pct": 15
-    },
-    {
-     "key": "retail",
-     "label": "Tiendas y ecommerce",
-     "count": 3,
-     "pct": 12
-    },
-    {
-     "key": "bebidas",
-     "label": "Bebidas y alcohol",
-     "count": 3,
-     "pct": 12
-    },
-    {
-     "key": "seguros",
-     "label": "Seguros",
+     "key": "higiene",
+     "label": "Higiene y cuidado personal",
      "count": 1,
-     "pct": 4
+     "pct": 12
     }
    ],
    "top_temas": [
     {
-     "tema": "Viaje A Miami",
-     "score": 8
-    },
-    {
-     "tema": "Café Cubano",
-     "score": 5
-    },
-    {
-     "tema": "Viaje A Estados Unidos",
-     "score": 4
-    },
-    {
-     "tema": "Trotel Flip Challenge",
+     "tema": "Juego De Mentiras En Conversación",
      "score": 3
     },
     {
-     "tema": "Migración A Miami",
+     "tema": "Copa Del Mundo Qatar 2022",
      "score": 3
     },
     {
-     "tema": "Viaje A Miami/misiones",
+     "tema": "Copa América / Mundial De Fútbol",
      "score": 3
     },
     {
-     "tema": "Top 3 Placeres De La Vida",
+     "tema": "Música En Vivo Y Fogón",
      "score": 3
     },
     {
-     "tema": "Sargazo En Miami Beach",
+     "tema": "Presentaciones En Vivo",
      "score": 3
+    },
+    {
+     "tema": "Cambio De Look De Gabriel Schultz",
+     "score": 2
+    },
+    {
+     "tema": "Fanatismo Por Franquicias (star Wars, Batman, Argentina Junior)",
+     "score": 2
+    },
+    {
+     "tema": "Sandwichería De Aedo",
+     "score": 2
     }
    ],
    "categoria_mix": [
     {
-     "categoria": "lugar",
-     "label": "Lugar",
-     "score": 60
-    },
-    {
      "categoria": "actividad",
      "label": "Actividad",
-     "score": 54
-    },
-    {
-     "categoria": "comida",
-     "label": "Comida",
-     "score": 53
+     "score": 36
     },
     {
      "categoria": "cultura",
      "label": "Cultura",
-     "score": 30
+     "score": 20
+    },
+    {
+     "categoria": "lugar",
+     "label": "Lugar",
+     "score": 12
+    },
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 8
     },
     {
      "categoria": "otro",
      "label": "Otro",
-     "score": 29
+     "score": 7
     },
     {
-     "categoria": "tecnologia",
-     "label": "Tecnologia",
-     "score": 18
+     "categoria": "salud",
+     "label": "Salud",
+     "score": 6
     }
    ],
-   "pauta_mentions": 26,
+   "pauta_mentions": 8,
    "brand_mix": [
     {
-     "slug": "mcdonald-s",
-     "name": "McDonald's",
-     "rubro": "alimentos",
-     "count": 4
+     "slug": "rexona",
+     "name": "Rexona",
+     "rubro": "higiene",
+     "count": 1
     },
     {
-     "slug": "smirnoff",
-     "name": "Smirnoff",
-     "rubro": "bebidas",
-     "count": 3
-    },
-    {
-     "slug": "mercado-libre",
-     "name": "Mercado Libre",
-     "rubro": "retail",
-     "count": 2
-    },
-    {
-     "slug": "alfaguara",
-     "name": "Alfaguara",
-     "rubro": "otro",
-     "count": 2
-    },
-    {
-     "slug": "propel-fit-planet",
-     "name": "Propel Fit Planet",
+     "slug": "asia-tienda",
+     "name": "Asia Tienda",
      "rubro": "otro",
      "count": 1
     },
     {
-     "slug": "cbc-hierbas-serranas",
-     "name": "CBC hierbas serranas",
+     "slug": "propuestas-de-coreografia-y-disparadores",
+     "name": "Propuestas De Coreografia Y Disparadores",
      "rubro": "otro",
      "count": 1
     },
     {
-     "slug": "evacare-gino",
-     "name": "Evacare Gino",
-     "rubro": "retail",
+     "slug": "la-morocha-de-lucra",
+     "name": "La Morocha De Lucra",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "app-store",
+     "name": "App Store",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "app-del-usu",
+     "name": "App Del Usu",
+     "rubro": "otro",
      "count": 1
     },
     {
@@ -4356,19 +3158,198 @@
      "count": 1
     },
     {
-     "slug": "cambio-de-discurso-social-sobre-violencia-sexual",
-     "name": "Cambio De Discurso Social Sobre Violencia Sexual",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "participacion-en-marchas-de-protesta",
-     "name": "Participacion En Marchas De Protesta",
+     "slug": "carmelo-pasteleria",
+     "name": "Carmelo Pasteleria",
      "rubro": "otro",
      "count": 1
     }
    ],
-   "emissions": 5
+   "emissions": 4
+  },
+  "olga:gol-gana": {
+   "channel_id": "olga",
+   "show_id": "gol-gana",
+   "show_name": "Gol Gana",
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 10,
+     "pct": 20
+    },
+    {
+     "key": "alimentos",
+     "label": "Alimentos",
+     "count": 9,
+     "pct": 18
+    },
+    {
+     "key": "bebidas",
+     "label": "Bebidas y alcohol",
+     "count": 9,
+     "pct": 18
+    },
+    {
+     "key": "fintech",
+     "label": "Bancos y plata digital",
+     "count": 7,
+     "pct": 14
+    },
+    {
+     "key": "salud",
+     "label": "Salud y farmacias",
+     "count": 4,
+     "pct": 8
+    },
+    {
+     "key": "seguros",
+     "label": "Seguros",
+     "count": 3,
+     "pct": 6
+    },
+    {
+     "key": "viajes",
+     "label": "Viajes y turismo",
+     "count": 3,
+     "pct": 6
+    },
+    {
+     "key": "higiene",
+     "label": "Higiene y cuidado personal",
+     "count": 3,
+     "pct": 6
+    }
+   ],
+   "top_temas": [
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 9
+    },
+    {
+     "tema": "Messi",
+     "score": 6
+    },
+    {
+     "tema": "Banderazo En Dallas",
+     "score": 4
+    },
+    {
+     "tema": "Análisis Partido Argentina Vs Austria",
+     "score": 3
+    },
+    {
+     "tema": "Rendimiento De Messi",
+     "score": 3
+    },
+    {
+     "tema": "Récords Goleadores De Messi En Copas Del Mundo",
+     "score": 3
+    },
+    {
+     "tema": "Comparación Messi Vs Mbappé",
+     "score": 3
+    },
+    {
+     "tema": "Habilidad Excepcional De Messi",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 338
+    },
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 114
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 79
+    },
+    {
+     "categoria": "lugar",
+     "label": "Lugar",
+     "score": 38
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 28
+    },
+    {
+     "categoria": "salud",
+     "label": "Salud",
+     "score": 21
+    }
+   ],
+   "pauta_mentions": 51,
+   "brand_mix": [
+    {
+     "slug": "mcdonald-s",
+     "name": "McDonald's",
+     "rubro": "alimentos",
+     "count": 7
+    },
+    {
+     "slug": "iol-inversiones",
+     "name": "IOL Inversiones",
+     "rubro": "fintech",
+     "count": 6
+    },
+    {
+     "slug": "johnnie-walker",
+     "name": "Johnnie Walker",
+     "rubro": "bebidas",
+     "count": 5
+    },
+    {
+     "slug": "schneider",
+     "name": "Schneider",
+     "rubro": "bebidas",
+     "count": 3
+    },
+    {
+     "slug": "rexona",
+     "name": "Rexona",
+     "rubro": "higiene",
+     "count": 3
+    },
+    {
+     "slug": "geniol",
+     "name": "Geniol",
+     "rubro": "salud",
+     "count": 2
+    },
+    {
+     "slug": "swift",
+     "name": "Swift",
+     "rubro": "alimentos",
+     "count": 2
+    },
+    {
+     "slug": "aerolineas-argentinas",
+     "name": "Aerolíneas Argentinas",
+     "rubro": "viajes",
+     "count": 2
+    },
+    {
+     "slug": "afa-studio",
+     "name": "Afa Studio",
+     "rubro": "otro",
+     "count": 2
+    },
+    {
+     "slug": "pharma-olga",
+     "name": "Pharma Olga",
+     "rubro": "salud",
+     "count": 1
+    }
+   ],
+   "emissions": 8
   },
   "urbana-play-104.3-fm:otros": {
    "channel_id": "urbana-play-104.3-fm",
@@ -4495,284 +3476,190 @@
    ],
    "emissions": 1
   },
-  "urbana-play-104-3-fm:otros": {
-   "channel_id": "urbana-play-104-3-fm",
-   "show_id": "otros",
-   "show_name": "Otros",
+  "luzu:aqn": {
+   "channel_id": "luzu",
+   "show_id": "aqn",
+   "show_name": "Antes Que Nadie",
    "rubro_mix": [
     {
      "key": "otro",
      "label": "Otro",
-     "count": 8,
-     "pct": 100
-    }
-   ],
-   "top_temas": [],
-   "categoria_mix": [],
-   "pauta_mentions": 8,
-   "brand_mix": [
-    {
-     "slug": "actron",
-     "name": "Actron",
-     "rubro": "otro",
-     "count": 2
+     "count": 40,
+     "pct": 59
     },
     {
-     "slug": "cremolati",
-     "name": "Cremolati",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "martin-imante",
-     "name": "Martín Imante",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "urbana-play",
-     "name": "Urbana Play",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "kimi-cafe",
-     "name": "Kimi café",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "biomarket",
-     "name": "Biomarket",
-     "rubro": "otro",
-     "count": 1
-    },
-    {
-     "slug": "cremolati-com-ar-las-rojas-empanadas",
-     "name": "cremolati.com.ar / Las Rojas Empanadas",
-     "rubro": "otro",
-     "count": 1
-    }
-   ],
-   "emissions": 1
-  },
-  "cronista:otros": {
-   "channel_id": "cronista",
-   "show_id": "otros",
-   "show_name": "Otros",
-   "rubro_mix": [],
-   "top_temas": [
-    {
-     "tema": "Morosidad Bancaria",
-     "score": 4
-    },
-    {
-     "tema": "Upgrades De Deuda Soberana",
-     "score": 3
-    },
-    {
-     "tema": "Salida Al Mercado De Deuda",
-     "score": 3
-    },
-    {
-     "tema": "Bonos Argentinos (curva Soberana)",
-     "score": 3
-    },
-    {
-     "tema": "Tipo De Cambio Y Mercado De Divisas",
-     "score": 3
-    },
-    {
-     "tema": "Política Del Banco Central",
-     "score": 3
-    },
-    {
-     "tema": "Mercado De Créditos Y Depósitos Bancarios",
-     "score": 3
-    },
-    {
-     "tema": "Dólar Y Tipo De Cambio",
-     "score": 3
-    }
-   ],
-   "categoria_mix": [
-    {
-     "categoria": "otro",
-     "label": "Otro",
-     "score": 38
-    },
-    {
-     "categoria": "tecnologia",
-     "label": "Tecnologia",
-     "score": 14
-    },
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 10
-    },
-    {
-     "categoria": "economia",
-     "label": "Economia",
-     "score": 9
-    },
-    {
-     "categoria": "producto",
-     "label": "Producto",
-     "score": 6
-    },
-    {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 3
-    }
-   ],
-   "pauta_mentions": 0,
-   "brand_mix": [],
-   "emissions": 1
-  },
-  "blend:otros": {
-   "channel_id": "blend",
-   "show_id": "otros",
-   "show_name": "Otros",
-   "rubro_mix": [
-    {
-     "key": "otro",
-     "label": "Otro",
-     "count": 6,
-     "pct": 75
-    },
-    {
-     "key": "energia",
-     "label": "Energía y nafta",
-     "count": 1,
-     "pct": 12
+     "key": "fintech",
+     "label": "Bancos y plata digital",
+     "count": 7,
+     "pct": 10
     },
     {
      "key": "alimentos",
      "label": "Alimentos",
-     "count": 1,
-     "pct": 12
+     "count": 7,
+     "pct": 10
+    },
+    {
+     "key": "higiene",
+     "label": "Higiene y cuidado personal",
+     "count": 4,
+     "pct": 6
+    },
+    {
+     "key": "bebidas",
+     "label": "Bebidas y alcohol",
+     "count": 2,
+     "pct": 3
+    },
+    {
+     "key": "retail",
+     "label": "Tiendas y ecommerce",
+     "count": 2,
+     "pct": 3
+    },
+    {
+     "key": "tecnologia",
+     "label": "Tecnología",
+     "count": 2,
+     "pct": 3
+    },
+    {
+     "key": "streaming",
+     "label": "Streaming y TV",
+     "count": 2,
+     "pct": 3
     }
    ],
    "top_temas": [
     {
-     "tema": "Humor Y Chistes",
+     "tema": "Cumpleaños De Lionel Messi",
+     "score": 7
+    },
+    {
+     "tema": "Clima Y Temperatura",
+     "score": 7
+    },
+    {
+     "tema": "Terremoto En Venezuela",
      "score": 6
     },
     {
-     "tema": "Paternidad Y Relación Padres-hijos",
+     "tema": "Rutina De Gimnasio Para Principiantes",
      "score": 3
     },
     {
-     "tema": "Sin-eaters (comedores De Pecados)",
+     "tema": "Rutina De Entrenamiento Full Body",
      "score": 3
     },
     {
-     "tema": "Comedores De Pecados (ritual Histórico)",
+     "tema": "Técnica De Ejercicios De Pesas",
      "score": 3
     },
     {
-     "tema": "Moderadores De Contenido Digital",
+     "tema": "Cumpleaños De Celebridades",
      "score": 3
     },
     {
-     "tema": "Explotación Laboral En Big Tech",
-     "score": 3
-    },
-    {
-     "tema": "Selección Argentina Y Mundial",
-     "score": 3
-    },
-    {
-     "tema": "Efectos Especiales De Cine",
+     "tema": "Posible Cruce Cristiano Ronaldo Vs Messi En Cuartos",
      "score": 3
     }
    ],
    "categoria_mix": [
     {
-     "categoria": "cultura",
-     "label": "Cultura",
-     "score": 69
-    },
-    {
      "categoria": "actividad",
      "label": "Actividad",
-     "score": 39
+     "score": 319
     },
     {
-     "categoria": "tecnologia",
-     "label": "Tecnologia",
-     "score": 32
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 23
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 249
     },
     {
      "categoria": "otro",
      "label": "Otro",
-     "score": 16
+     "score": 115
+    },
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 94
     },
     {
      "categoria": "salud",
      "label": "Salud",
-     "score": 14
+     "score": 58
+    },
+    {
+     "categoria": "lugar",
+     "label": "Lugar",
+     "score": 41
     }
    ],
-   "pauta_mentions": 8,
+   "pauta_mentions": 68,
    "brand_mix": [
     {
-     "slug": "ypf",
-     "name": "YPF",
-     "rubro": "energia",
-     "count": 1
+     "slug": "skip",
+     "name": "Skip",
+     "rubro": "higiene",
+     "count": 4
     },
     {
-     "slug": "seco",
-     "name": "Seco",
+     "slug": "mercado-pago",
+     "name": "Mercado Pago",
+     "rubro": "fintech",
+     "count": 3
+    },
+    {
+     "slug": "mercado-libre",
+     "name": "Mercado Libre",
+     "rubro": "retail",
+     "count": 2
+    },
+    {
+     "slug": "viv-glycolic-crystal",
+     "name": "VIV Glycolic Crystal",
      "rubro": "otro",
-     "count": 1
+     "count": 2
     },
     {
-     "slug": "uber",
-     "name": "Uber",
+     "slug": "natura-aderezos",
+     "name": "Natura Aderezos",
      "rubro": "alimentos",
-     "count": 1
+     "count": 2
     },
     {
-     "slug": "guberpaticerie",
-     "name": "guberpaticerie",
-     "rubro": "otro",
-     "count": 1
+     "slug": "banco-macro",
+     "name": "Banco Macro",
+     "rubro": "fintech",
+     "count": 2
     },
     {
-     "slug": "escorial",
-     "name": "Escorial",
+     "slug": "remax",
+     "name": "Remax",
      "rubro": "otro",
-     "count": 1
+     "count": 2
     },
     {
-     "slug": "hoy-cerdo",
-     "name": "Hoy Cerdo",
-     "rubro": "otro",
-     "count": 1
+     "slug": "coffee-house",
+     "name": "Coffee House",
+     "rubro": "alimentos",
+     "count": 2
     },
     {
-     "slug": "guacamoles-eventos",
-     "name": "Guacamoles Eventos",
+     "slug": "penetrit",
+     "name": "Penetrit",
      "rubro": "otro",
-     "count": 1
+     "count": 2
     },
     {
-     "slug": "buenos-aires-ciudad",
-     "name": "Buenos Aires ciudad",
+     "slug": "salon-berlin",
+     "name": "Salon Berlin",
      "rubro": "otro",
-     "count": 1
+     "count": 2
     }
    ],
-   "emissions": 2
+   "emissions": 9
   },
   "vorterix:otros": {
    "channel_id": "vorterix",
@@ -4782,50 +3669,50 @@
     {
      "key": "otro",
      "label": "Otro",
-     "count": 10,
-     "pct": 50
+     "count": 15,
+     "pct": 47
     },
     {
      "key": "fintech",
      "label": "Bancos y plata digital",
+     "count": 4,
+     "pct": 12
+    },
+    {
+     "key": "retail",
+     "label": "Tiendas y ecommerce",
+     "count": 3,
+     "pct": 9
+    },
+    {
+     "key": "salud",
+     "label": "Salud y farmacias",
      "count": 2,
-     "pct": 10
+     "pct": 6
+    },
+    {
+     "key": "alimentos",
+     "label": "Alimentos",
+     "count": 2,
+     "pct": 6
     },
     {
      "key": "seguros",
      "label": "Seguros",
      "count": 2,
-     "pct": 10
-    },
-    {
-     "key": "salud",
-     "label": "Salud y farmacias",
-     "count": 1,
-     "pct": 5
+     "pct": 6
     },
     {
      "key": "telco",
      "label": "Telefonía e internet",
      "count": 1,
-     "pct": 5
-    },
-    {
-     "key": "retail",
-     "label": "Tiendas y ecommerce",
-     "count": 1,
-     "pct": 5
+     "pct": 3
     },
     {
      "key": "automotriz",
      "label": "Autos",
      "count": 1,
-     "pct": 5
-    },
-    {
-     "key": "alimentos",
-     "label": "Alimentos",
-     "count": 1,
-     "pct": 5
+     "pct": 3
     }
    ],
    "top_temas": [
@@ -4838,6 +3725,10 @@
      "score": 6
     },
     {
+     "tema": "Mundial De Fútbol",
+     "score": 5
+    },
+    {
      "tema": "Cumpleaños De Anacleta",
      "score": 4
     },
@@ -4846,19 +3737,15 @@
      "score": 4
     },
     {
-     "tema": "Teorías Conspiranoicas",
+     "tema": "Compras En Tienda Guest",
      "score": 3
     },
     {
-     "tema": "Evento Adidas Con Temática Tango",
+     "tema": "Prendas De Vestir Y Ofertas",
      "score": 3
     },
     {
-     "tema": "Cumplimiento De Pronósticos En Evento",
-     "score": 3
-    },
-    {
-     "tema": "Cumpleaños De Lionel Messi",
+     "tema": "Fútbol Recreativo",
      "score": 3
     }
    ],
@@ -4866,39 +3753,51 @@
     {
      "categoria": "actividad",
      "label": "Actividad",
-     "score": 176
+     "score": 256
     },
     {
      "categoria": "cultura",
      "label": "Cultura",
-     "score": 117
+     "score": 189
     },
     {
      "categoria": "persona",
      "label": "Persona",
-     "score": 86
+     "score": 117
     },
     {
      "categoria": "otro",
      "label": "Otro",
-     "score": 63
-    },
-    {
-     "categoria": "lugar",
-     "label": "Lugar",
-     "score": 31
+     "score": 88
     },
     {
      "categoria": "tecnologia",
      "label": "Tecnologia",
-     "score": 26
+     "score": 51
+    },
+    {
+     "categoria": "lugar",
+     "label": "Lugar",
+     "score": 50
     }
    ],
-   "pauta_mentions": 20,
+   "pauta_mentions": 32,
    "brand_mix": [
     {
      "slug": "coto",
      "name": "Coto",
+     "rubro": "fintech",
+     "count": 2
+    },
+    {
+     "slug": "social-lunch",
+     "name": "Social Lunch",
+     "rubro": "alimentos",
+     "count": 2
+    },
+    {
+     "slug": "naranja-x",
+     "name": "Naranja X",
      "rubro": "fintech",
      "count": 2
     },
@@ -4921,6 +3820,12 @@
      "count": 1
     },
     {
+     "slug": "b-play",
+     "name": "B-Play",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
      "slug": "adidas",
      "name": "Adidas",
      "rubro": "retail",
@@ -4937,27 +3842,869 @@
      "name": "Hyundai",
      "rubro": "automotriz",
      "count": 1
+    }
+   ],
+   "emissions": 8
+  },
+  "border:vivan-todo": {
+   "channel_id": "border",
+   "show_id": "vivan-todo",
+   "show_name": "Vivan Todo",
+   "rubro_mix": [],
+   "top_temas": [
+    {
+     "tema": "Terremoto En Venezuela",
+     "score": 6
     },
     {
-     "slug": "la-segunda-seguros",
-     "name": "La Segunda Seguros",
-     "rubro": "seguros",
-     "count": 1
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 5
     },
     {
-     "slug": "baiano-teatro-vorterix",
-     "name": "Baiano - Teatro Vorterix",
+     "tema": "Fallecimiento De Ernestina Páez",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Ministro Y Crisis Política",
+     "score": 3
+    },
+    {
+     "tema": "Designación De Diego Santilli Como Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Rol Y Poder De Mauricio Macri En El Gobierno",
+     "score": 3
+    },
+    {
+     "tema": "Transición Política - Adorni A Santilli",
+     "score": 3
+    },
+    {
+     "tema": "Reforma Electoral",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "política",
+     "label": "Política",
+     "score": 53
+    },
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 39
+    },
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 24
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 22
+    },
+    {
+     "categoria": "lugar",
+     "label": "Lugar",
+     "score": 13
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 12
+    }
+   ],
+   "pauta_mentions": 0,
+   "brand_mix": [],
+   "emissions": 1
+  },
+  "blend:que-dia": {
+   "channel_id": "blend",
+   "show_id": "que-dia",
+   "show_name": "Qué Día",
+   "rubro_mix": [],
+   "top_temas": [
+    {
+     "tema": "Cumpleaños De Messi",
+     "score": 8
+    },
+    {
+     "tema": "Precios De Entradas Al Mundial",
+     "score": 5
+    },
+    {
+     "tema": "Causa Propofol - Procesamiento De Boveri Y Lanusse",
+     "score": 3
+    },
+    {
+     "tema": "Líderes Y Personalidad De Messi",
+     "score": 3
+    },
+    {
+     "tema": "Boicot Al Fútbol Por Cuestiones Políticas Y Derechos Humanos",
+     "score": 3
+    },
+    {
+     "tema": "Comercialización Y Corrupción En La Fifa",
+     "score": 3
+    },
+    {
+     "tema": "Rol Político De Futbolistas",
+     "score": 3
+    },
+    {
+     "tema": "Censura Y Disciplinamiento Mediático",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 41
+    },
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 28
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 20
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 16
+    },
+    {
+     "categoria": "lugar",
+     "label": "Lugar",
+     "score": 8
+    },
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 8
+    }
+   ],
+   "pauta_mentions": 0,
+   "brand_mix": [],
+   "emissions": 1
+  },
+  "gelatina:tugo": {
+   "channel_id": "gelatina",
+   "show_id": "tugo",
+   "show_name": "TUGO",
+   "rubro_mix": [],
+   "top_temas": [
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 12
+    },
+    {
+     "tema": "Renuncia De Adorni",
+     "score": 9
+    },
+    {
+     "tema": "Ley De Inviolabilidad De La Propiedad Privada",
+     "score": 6
+    },
+    {
+     "tema": "Gastos Y Lujos De Funcionarios Públicos",
+     "score": 3
+    },
+    {
+     "tema": "Política Interna Del Gobierno Milei",
+     "score": 3
+    },
+    {
+     "tema": "Dólar Y Estabilidad Macroeconómica",
+     "score": 3
+    },
+    {
+     "tema": "Ley De Recursos Naturales",
+     "score": 3
+    },
+    {
+     "tema": "Conflicto Irán-israel-estados Unidos",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 37
+    },
+    {
+     "categoria": "política",
+     "label": "Política",
+     "score": 30
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 24
+    },
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 24
+    },
+    {
+     "categoria": "politica",
+     "label": "Politica",
+     "score": 20
+    },
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 9
+    }
+   ],
+   "pauta_mentions": 0,
+   "brand_mix": [],
+   "emissions": 1
+  },
+  "luzu:fmluzu": {
+   "channel_id": "luzu",
+   "show_id": "fmluzu",
+   "show_name": "FM Luzu",
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 5,
+     "pct": 83
+    },
+    {
+     "key": "telco",
+     "label": "Telefonía e internet",
+     "count": 1,
+     "pct": 17
+    }
+   ],
+   "top_temas": [
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Selección Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Fixtures De Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Retorno De Saturno",
+     "score": 3
+    },
+    {
+     "tema": "Cambios De Vida Después De Los 30",
+     "score": 3
+    },
+    {
+     "tema": "Cuidado De Plantas De Interior",
+     "score": 3
+    },
+    {
+     "tema": "Cambios De Hábitos Al Cumplir 30",
+     "score": 3
+    },
+    {
+     "tema": "Selección Cabo Verde Mundial",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 57
+    },
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 50
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 17
+    },
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 13
+    },
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 8
+    },
+    {
+     "categoria": "salud",
+     "label": "Salud",
+     "score": 8
+    }
+   ],
+   "pauta_mentions": 6,
+   "brand_mix": [
+    {
+     "slug": "garnier",
+     "name": "Garnier",
+     "rubro": "otro",
+     "count": 2
+    },
+    {
+     "slug": "sinteplast",
+     "name": "Sinteplast",
      "rubro": "otro",
      "count": 1
     },
     {
-     "slug": "gustavo-cordera-la-fuente",
-     "name": "Gustavo Cordera - La Fuente",
+     "slug": "hace",
+     "name": "Hace",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "guerrin",
+     "name": "Guerrin",
+     "rubro": "telco",
+     "count": 1
+    },
+    {
+     "slug": "primavera-sound",
+     "name": "Primavera Sound",
      "rubro": "otro",
      "count": 1
     }
    ],
    "emissions": 5
+  },
+  "luzu:patria": {
+   "channel_id": "luzu",
+   "show_id": "patria",
+   "show_name": "Patria y Familia",
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 14,
+     "pct": 93
+    },
+    {
+     "key": "retail",
+     "label": "Tiendas y ecommerce",
+     "count": 1,
+     "pct": 7
+    }
+   ],
+   "top_temas": [
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 7
+    },
+    {
+     "tema": "Motivos De Separación",
+     "score": 5
+    },
+    {
+     "tema": "Preparación De Mate",
+     "score": 5
+    },
+    {
+     "tema": "Red Flags En Relaciones",
+     "score": 4
+    },
+    {
+     "tema": "Crianza Sin Pantallas",
+     "score": 3
+    },
+    {
+     "tema": "Separación Y Exclusividad",
+     "score": 3
+    },
+    {
+     "tema": "Paul (predictor De Resultados)",
+     "score": 3
+    },
+    {
+     "tema": "Diseño Y Confección De Ropa",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 100
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 81
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 36
+    },
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 29
+    },
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 28
+    },
+    {
+     "categoria": "comida",
+     "label": "Comida",
+     "score": 17
+    }
+   ],
+   "pauta_mentions": 15,
+   "brand_mix": [
+    {
+     "slug": "alma-marcela-gozo",
+     "name": "Alma Marcela Gozo",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "pestanela",
+     "name": "Pestañela",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "mostaza",
+     "name": "Mostaza",
+     "rubro": "retail",
+     "count": 1
+    },
+    {
+     "slug": "hace",
+     "name": "Hace",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "yelmo-linea-harry-potter",
+     "name": "Yelmo Linea Harry Potter",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "canecalon",
+     "name": "Canecalon",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "alter-ego",
+     "name": "Alter Ego",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "estudio-vito",
+     "name": "Estudio Vito",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "fondo-raices-24-7",
+     "name": "Fondo Raices 24 7",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "king",
+     "name": "King",
+     "rubro": "otro",
+     "count": 1
+    }
+   ],
+   "emissions": 7
+  },
+  "ahoraplay:serrucho": {
+   "channel_id": "ahoraplay",
+   "show_id": "serrucho",
+   "show_name": "Serrucho Económico",
+   "rubro_mix": [],
+   "top_temas": [
+    {
+     "tema": "Renuncia De Adorni",
+     "score": 7
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 6
+    },
+    {
+     "tema": "Designación De Diego Santilli Como Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Reinicio De La Gestión Milei",
+     "score": 3
+    },
+    {
+     "tema": "Sospechas De Corrupción En El Gobierno",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Adorni Y Cambio De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Capacidad Política De Milei",
+     "score": 3
+    },
+    {
+     "tema": "Conflictos Internos Del Gobierno",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 25
+    },
+    {
+     "categoria": "política",
+     "label": "Política",
+     "score": 18
+    },
+    {
+     "categoria": "economia",
+     "label": "Economia",
+     "score": 15
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 15
+    },
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 14
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 10
+    }
+   ],
+   "pauta_mentions": 0,
+   "brand_mix": [],
+   "emissions": 1
+  },
+  "olga:seria-increible": {
+   "channel_id": "olga",
+   "show_id": "seria-increible",
+   "show_name": "Sería Increíble",
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 20,
+     "pct": 34
+    },
+    {
+     "key": "salud",
+     "label": "Salud y farmacias",
+     "count": 13,
+     "pct": 22
+    },
+    {
+     "key": "fintech",
+     "label": "Bancos y plata digital",
+     "count": 8,
+     "pct": 14
+    },
+    {
+     "key": "retail",
+     "label": "Tiendas y ecommerce",
+     "count": 5,
+     "pct": 8
+    },
+    {
+     "key": "higiene",
+     "label": "Higiene y cuidado personal",
+     "count": 4,
+     "pct": 7
+    },
+    {
+     "key": "alimentos",
+     "label": "Alimentos",
+     "count": 3,
+     "pct": 5
+    },
+    {
+     "key": "telco",
+     "label": "Telefonía e internet",
+     "count": 2,
+     "pct": 3
+    },
+    {
+     "key": "tecnologia",
+     "label": "Tecnología",
+     "count": 1,
+     "pct": 2
+    }
+   ],
+   "top_temas": [
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 9
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 6
+    },
+    {
+     "tema": "Relación Padre-hijo",
+     "score": 5
+    },
+    {
+     "tema": "Nudismo",
+     "score": 5
+    },
+    {
+     "tema": "Sequedad Vaginal",
+     "score": 5
+    },
+    {
+     "tema": "Terremoto En Venezuela",
+     "score": 5
+    },
+    {
+     "tema": "Crisis En Venezuela",
+     "score": 5
+    },
+    {
+     "tema": "Cumpleaños De Messi",
+     "score": 5
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 187
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 177
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 154
+    },
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 131
+    },
+    {
+     "categoria": "salud",
+     "label": "Salud",
+     "score": 80
+    },
+    {
+     "categoria": "lugar",
+     "label": "Lugar",
+     "score": 46
+    }
+   ],
+   "pauta_mentions": 59,
+   "brand_mix": [
+    {
+     "slug": "green-life",
+     "name": "Green Life",
+     "rubro": "salud",
+     "count": 5
+    },
+    {
+     "slug": "iol-inversiones",
+     "name": "IOL Inversiones",
+     "rubro": "fintech",
+     "count": 5
+    },
+    {
+     "slug": "geniol",
+     "name": "Geniol",
+     "rubro": "salud",
+     "count": 4
+    },
+    {
+     "slug": "skip",
+     "name": "Skip",
+     "rubro": "higiene",
+     "count": 2
+    },
+    {
+     "slug": "swift",
+     "name": "Swift",
+     "rubro": "alimentos",
+     "count": 2
+    },
+    {
+     "slug": "alicante-mix-parrilla",
+     "name": "Alicante Mix parrilla",
+     "rubro": "otro",
+     "count": 2
+    },
+    {
+     "slug": "home-by-hudson",
+     "name": "Home by Hudson",
+     "rubro": "otro",
+     "count": 2
+    },
+    {
+     "slug": "pinza-bayoneta",
+     "name": "Pinza Bayoneta",
+     "rubro": "telco",
+     "count": 2
+    },
+    {
+     "slug": "los-redondos",
+     "name": "Los Redondos",
+     "rubro": "otro",
+     "count": 2
+    },
+    {
+     "slug": "evacuer-capsula",
+     "name": "Evacuer Capsula",
+     "rubro": "retail",
+     "count": 2
+    }
+   ],
+   "emissions": 11
+  },
+  "vorterix:no-rusia": {
+   "channel_id": "vorterix",
+   "show_id": "no-rusia",
+   "show_name": "No Preguntes por Rusia",
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 2,
+     "pct": 67
+    },
+    {
+     "key": "retail",
+     "label": "Tiendas y ecommerce",
+     "count": 1,
+     "pct": 33
+    }
+   ],
+   "top_temas": [
+    {
+     "tema": "Carrera De Medicina",
+     "score": 4
+    },
+    {
+     "tema": "Muertes Y Tragedias Recientes",
+     "score": 3
+    },
+    {
+     "tema": "Presentación De Tema Musical Propio",
+     "score": 3
+    },
+    {
+     "tema": "Inseguridad Sobre Calidad Vocal",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Caso Judicial Ryan Méndez - Capitán Cabo Verde",
+     "score": 3
+    },
+    {
+     "tema": "Denuncias De Abuso Sexual En Futbolistas",
+     "score": 3
+    },
+    {
+     "tema": "Ola De Calor En Europa",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 35
+    },
+    {
+     "categoria": "salud",
+     "label": "Salud",
+     "score": 30
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 29
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 27
+    },
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 24
+    },
+    {
+     "categoria": "lugar",
+     "label": "Lugar",
+     "score": 16
+    }
+   ],
+   "pauta_mentions": 3,
+   "brand_mix": [
+    {
+     "slug": "cremolati",
+     "name": "Cremolati",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "b-play",
+     "name": "B-Play",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "cafe-imperial",
+     "name": "Café Imperial",
+     "rubro": "retail",
+     "count": 1
+    }
+   ],
+   "emissions": 2
   },
   "olga:otros": {
    "channel_id": "olga",
@@ -5032,34 +4779,126 @@
    ],
    "emissions": 3
   },
-  "aura:otros": {
+  "aura:hoy-como-siempre": {
    "channel_id": "aura",
-   "show_id": "otros",
-   "show_name": "Otros",
-   "rubro_mix": [],
+   "show_id": "hoy-como-siempre",
+   "show_name": "Hoy como siempre",
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 1,
+     "pct": 100
+    }
+   ],
    "top_temas": [
     {
-     "tema": "Cumpleaños De Florencia",
+     "tema": "Partido Argentina Vs Jordania",
+     "score": 5
+    },
+    {
+     "tema": "Mundial De Fútbol",
      "score": 3
     },
     {
-     "tema": "Desafío De Comer Alfajores",
+     "tema": "Renuncia De Manuel Adorni",
      "score": 3
     },
     {
-     "tema": "Respuesta De Mensajes Y Comunicación",
+     "tema": "Enriquecimiento Ilícito De Adorni",
      "score": 3
     },
     {
-     "tema": "Renuncia De Adorni",
+     "tema": "Cambio De Jefe De Gabinete - Santilli Reemplaza A Adorni",
      "score": 3
     },
     {
-     "tema": "Diego Santilli Y Cambios En El Gobierno",
+     "tema": "Selección Argentina En Qatar",
      "score": 3
     },
     {
-     "tema": "Boda Taylor Swift Y Travis Kelce",
+     "tema": "Maradona 1986 - Final Del Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Muerte De Ernestina Páez",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 58
+    },
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 39
+    },
+    {
+     "categoria": "salud",
+     "label": "Salud",
+     "score": 31
+    },
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 13
+    },
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 11
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 7
+    }
+   ],
+   "pauta_mentions": 1,
+   "brand_mix": [
+    {
+     "slug": "youtube-aura-stream-tn",
+     "name": "YouTube / Aura Stream TN",
+     "rubro": "otro",
+     "count": 1
+    }
+   ],
+   "emissions": 1
+  },
+  "luzu:fondo": {
+   "channel_id": "luzu",
+   "show_id": "fondo",
+   "show_name": "Los del Fondo",
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 4,
+     "pct": 67
+    },
+    {
+     "key": "alimentos",
+     "label": "Alimentos",
+     "count": 1,
+     "pct": 17
+    },
+    {
+     "key": "fintech",
+     "label": "Bancos y plata digital",
+     "count": 1,
+     "pct": 17
+    }
+   ],
+   "top_temas": [
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 6
+    },
+    {
+     "tema": "Expresión De Afecto Y Emociones",
      "score": 3
     },
     {
@@ -5067,40 +4906,335 @@
      "score": 3
     },
     {
-     "tema": "Divulgación Científica En Redes Sociales",
+     "tema": "Fixture Argentina Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Sorteo De Camiseta Del Burrete 10",
+     "score": 3
+    },
+    {
+     "tema": "El Pollo Sobresaliente En Vivo",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol - Inglaterra Vs Escocia",
+     "score": 3
+    },
+    {
+     "tema": "Sorteo De Camiseta Del Purrete",
      "score": 3
     }
    ],
    "categoria_mix": [
     {
-     "categoria": "tecnologia",
-     "label": "Tecnologia",
-     "score": 32
-    },
-    {
-     "categoria": "persona",
-     "label": "Persona",
-     "score": 26
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 57
     },
     {
      "categoria": "cultura",
      "label": "Cultura",
-     "score": 24
-    },
-    {
-     "categoria": "actividad",
-     "label": "Actividad",
-     "score": 22
-    },
-    {
-     "categoria": "producto",
-     "label": "Producto",
      "score": 16
     },
     {
      "categoria": "otro",
      "label": "Otro",
-     "score": 9
+     "score": 10
+    },
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 6
+    },
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 5
+    },
+    {
+     "categoria": "producto",
+     "label": "Producto",
+     "score": 4
+    }
+   ],
+   "pauta_mentions": 6,
+   "brand_mix": [
+    {
+     "slug": "natura",
+     "name": "Natura",
+     "rubro": "alimentos",
+     "count": 1
+    },
+    {
+     "slug": "camiseta-del-purrete-10",
+     "name": "Camiseta del Purrete 10",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "haussler",
+     "name": "Haussler",
+     "rubro": "fintech",
+     "count": 1
+    },
+    {
+     "slug": "mcingolazo",
+     "name": "Mcingolazo",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "zorro",
+     "name": "Zorro",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "eventis-producciones",
+     "name": "Eventis Producciones",
+     "rubro": "otro",
+     "count": 1
+    }
+   ],
+   "emissions": 2
+  },
+  "neura:otros": {
+   "channel_id": "neura",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "rubro_mix": [
+    {
+     "key": "otro",
+     "label": "Otro",
+     "count": 17,
+     "pct": 57
+    },
+    {
+     "key": "energia",
+     "label": "Energía y nafta",
+     "count": 8,
+     "pct": 27
+    },
+    {
+     "key": "seguros",
+     "label": "Seguros",
+     "count": 2,
+     "pct": 7
+    },
+    {
+     "key": "fintech",
+     "label": "Bancos y plata digital",
+     "count": 2,
+     "pct": 7
+    },
+    {
+     "key": "alimentos",
+     "label": "Alimentos",
+     "count": 1,
+     "pct": 3
+    }
+   ],
+   "top_temas": [
+    {
+     "tema": "Política Monetaria Y Tasas De Interés",
+     "score": 6
+    },
+    {
+     "tema": "Educación Financiera",
+     "score": 6
+    },
+    {
+     "tema": "Bitcoin Y Criptomonedas",
+     "score": 5
+    },
+    {
+     "tema": "Candidatura Presidencial 2027",
+     "score": 3
+    },
+    {
+     "tema": "Inflación Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Sistema Impositivo Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Salarios En El Senado",
+     "score": 3
+    },
+    {
+     "tema": "Tasas De Interés Y Política Monetaria De La Fed",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 113
+    },
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 104
+    },
+    {
+     "categoria": "economia",
+     "label": "Economia",
+     "score": 74
+    },
+    {
+     "categoria": "otro",
+     "label": "Otro",
+     "score": 55
+    },
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 46
+    },
+    {
+     "categoria": "producto",
+     "label": "Producto",
+     "score": 45
+    }
+   ],
+   "pauta_mentions": 30,
+   "brand_mix": [
+    {
+     "slug": "pae",
+     "name": "PAE",
+     "rubro": "energia",
+     "count": 6
+    },
+    {
+     "slug": "ecomod",
+     "name": "Ecomod",
+     "rubro": "otro",
+     "count": 5
+    },
+    {
+     "slug": "it-consult",
+     "name": "IT Consult",
+     "rubro": "seguros",
+     "count": 2
+    },
+    {
+     "slug": "silver-cloud-advisors",
+     "name": "Silver Cloud Advisors",
+     "rubro": "fintech",
+     "count": 2
+    },
+    {
+     "slug": "infinia-turbo-clean",
+     "name": "Infinia Turbo Clean",
+     "rubro": "otro",
+     "count": 2
+    },
+    {
+     "slug": "argendata",
+     "name": "Argendata",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "juegos-el-pato",
+     "name": "Juegos El Pato",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "ypf",
+     "name": "YPF",
+     "rubro": "energia",
+     "count": 1
+    },
+    {
+     "slug": "infinea-turbo-clean",
+     "name": "Infinea Turbo Clean",
+     "rubro": "otro",
+     "count": 1
+    },
+    {
+     "slug": "quicktrade",
+     "name": "QuickTrade",
+     "rubro": "otro",
+     "count": 1
+    }
+   ],
+   "emissions": 7
+  },
+  "blend:ultimo-aviso": {
+   "channel_id": "blend",
+   "show_id": "ultimo-aviso",
+   "show_name": "Último Aviso",
+   "rubro_mix": [],
+   "top_temas": [
+    {
+     "tema": "Partido De Fútbol Brasil",
+     "score": 3
+    },
+    {
+     "tema": "Anécdotas Escolares Y Educación",
+     "score": 3
+    },
+    {
+     "tema": "Composición Musical Y Proceso Creativo",
+     "score": 3
+    },
+    {
+     "tema": "Influencias Artísticas",
+     "score": 3
+    },
+    {
+     "tema": "Composición Y Armonía Musical",
+     "score": 3
+    },
+    {
+     "tema": "Covers Y Homenajes A Rock Nacional",
+     "score": 3
+    },
+    {
+     "tema": "Crisis De Saturno (astrología)",
+     "score": 3
+    },
+    {
+     "tema": "Artistas En Crisis De Saturno",
+     "score": 3
+    }
+   ],
+   "categoria_mix": [
+    {
+     "categoria": "cultura",
+     "label": "Cultura",
+     "score": 29
+    },
+    {
+     "categoria": "actividad",
+     "label": "Actividad",
+     "score": 26
+    },
+    {
+     "categoria": "persona",
+     "label": "Persona",
+     "score": 14
+    },
+    {
+     "categoria": "salud",
+     "label": "Salud",
+     "score": 6
+    },
+    {
+     "categoria": "tecnologia",
+     "label": "Tecnologia",
+     "score": 5
+    },
+    {
+     "categoria": "lugar",
+     "label": "Lugar",
+     "score": 4
     }
    ],
    "pauta_mentions": 0,

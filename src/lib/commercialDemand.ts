@@ -76,6 +76,32 @@ export type CommercialDemandExport = {
   channels_with_commercial?: number;
 };
 
+export type CommercialDemandChannelSnapshot = {
+  id: string;
+  name: string;
+  commercial_messages: number;
+  chat_messages: number;
+  commercial_pct?: number | null;
+  commercial_per_1k?: number | null;
+  post_pnt_messages?: number;
+};
+
+export type CommercialDemandSnapshot = {
+  exported_at: string;
+  confirmed_total: number;
+  chat_messages: number;
+  commercial_pct?: number | null;
+  commercial_per_1k?: number | null;
+  channels_with_commercial?: number;
+  post_pnt_total?: number;
+  channels: CommercialDemandChannelSnapshot[];
+};
+
+export type CommercialDemandHistoryExport = {
+  updated_at?: string;
+  snapshots: CommercialDemandSnapshot[];
+};
+
 const TIPO_LABEL: Record<string, string> = {
   pedido_link: "Pide link / código",
   pregunta_precio: "Consulta precio",

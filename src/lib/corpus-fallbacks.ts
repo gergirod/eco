@@ -28,6 +28,8 @@ const LAZY: Record<string, () => Promise<unknown>> = {
   chat_demand: () => import("@/data/chat_demand.json").then((m) => m.default),
   chat_insights: () => import("@/data/chat_insights.json").then((m) => m.default),
   commercial_demand: () => import("@/data/commercial_demand.json").then((m) => m.default),
+  commercial_demand_history: () =>
+    import("@/data/commercial_demand_history.json").then((m) => m.default),
   schedule_insights: () => import("@/data/schedule_insights.json").then((m) => m.default),
   capture_schedules: () => import("@/data/capture_schedules.json").then((m) => m.default),
   sala_signals: () => import("@/data/sala_signals.json").then((m) => m.default),
@@ -50,6 +52,7 @@ export const CORPUS_EMPTY: Record<string, unknown> = {
   chat_demand: {},
   chat_insights: {},
   commercial_demand: {},
+  commercial_demand_history: { snapshots: [] },
   schedule_insights: {},
   capture_schedules: {},
   sala_signals: { signals: [] },
