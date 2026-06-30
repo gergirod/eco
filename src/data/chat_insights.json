@@ -96,47 +96,47 @@
   {
    "id": "neura",
    "name": "Neura Media",
-   "programs_with_chat": 7,
-   "chat_messages": 2792,
-   "msgs_per_1k": 18.79,
-   "noise_score": 0.06,
+   "programs_with_chat": 8,
+   "chat_messages": 3503,
+   "msgs_per_1k": 18.0,
+   "noise_score": 0.07,
    "chat_quality_tier": "alta",
    "chat_quality_label": "Comunidad activa",
-   "paid_events": 20,
+   "paid_events": 28,
    "mix": {
-    "emoji_pct": 1.7,
-    "saludo_pct": 1.5,
-    "reaccion_pct": 31.2,
-    "pregunta_pct": 24.8,
-    "demanda_pct": 0.8,
-    "obediencia_pct": 1.4,
-    "apoyo_pct": 0.7,
-    "texto_pct": 37.9
+    "emoji_pct": 1.4,
+    "saludo_pct": 1.4,
+    "reaccion_pct": 30.0,
+    "pregunta_pct": 25.4,
+    "demanda_pct": 0.9,
+    "obediencia_pct": 1.2,
+    "apoyo_pct": 0.8,
+    "texto_pct": 39.0
    },
    "character_label": "Comunidad activa — chat denso respecto a la audiencia",
    "top_demands": [
     {
-     "text": "que venga grabois a hablar de tolkien jaj",
+     "text": "Flaco no sé si esta programado, pero hablen de Mbappe bajando línea a toda la se",
      "tipo": "pedido_contenido",
-     "count": 1
+     "count": 3
     },
     {
-     "text": "cuando atacan la ciudad de los africanos... puro bodrio",
-     "tipo": "voto_eleccion",
-     "count": 1
-    },
-    {
-     "text": "la moda es que sale la web novel, de ahi la light novel, de ahi el anime",
+     "text": "Y DE DONDE SALE ESA REGLAMENTACION EN EL SENADO...?????",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "mi viejo es fanatico de marvel especificamente del capitan america, al principio",
+     "text": "A DIETA ??? @jultarres ??? pesabas 48 Kg dijiste ??? a cuánto vas a bajar ??? UH",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "@PatanPerroloco Deja la payasada. Lo dijo el compañero de Joni Viale que siempre",
      "tipo": "otro",
      "count": 1
     },
     {
-     "text": "hablando de Henry Cavill, cuando carajos sale el trailer de Highlander 2026... !",
+     "text": "PATAN NO QUIERO PROBAR SI EM SALE MAL",
      "tipo": "pregunta_precio",
      "count": 1
     }
@@ -145,22 +145,22 @@
   {
    "id": "",
    "name": "",
-   "programs_with_chat": 14,
-   "chat_messages": 29081,
-   "msgs_per_1k": 7.66,
+   "programs_with_chat": 13,
+   "chat_messages": 22777,
+   "msgs_per_1k": 7.49,
    "noise_score": 0.16,
    "chat_quality_tier": "alta",
    "chat_quality_label": "Comunidad activa",
-   "paid_events": 42,
+   "paid_events": 34,
    "mix": {
-    "emoji_pct": 2.7,
-    "saludo_pct": 1.0,
-    "reaccion_pct": 32.8,
-    "pregunta_pct": 23.0,
+    "emoji_pct": 3.1,
+    "saludo_pct": 0.9,
+    "reaccion_pct": 34.7,
+    "pregunta_pct": 22.8,
     "demanda_pct": 0.9,
     "obediencia_pct": 0.6,
-    "apoyo_pct": 0.1,
-    "texto_pct": 38.9
+    "apoyo_pct": 0.2,
+    "texto_pct": 36.8
    },
    "character_label": "Comunidad activa — chat denso respecto a la audiencia",
    "top_demands": [
@@ -185,7 +185,7 @@
      "count": 4
     },
     {
-     "text": "Flaco no sé si esta programado, pero hablen de Mbappe bajando línea a toda la se",
+     "text": "llamen a chivin",
      "tipo": "pedido_contenido",
      "count": 3
     }
@@ -234,7 +234,7 @@
      "count": 4
     },
     {
-     "text": "HABLEN DE OTRA COSA DE FUTBOL HABLO YO EL DUKI",
+     "text": "hablen de blender",
      "tipo": "pedido_contenido",
      "count": 2
     }
@@ -317,23 +317,23 @@
      "count": 2
     },
     {
-     "text": "tiraron en link y había 6k de vistas",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "Cambiaron de link nos perdimos todo",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "PODEMOS HABLAR DEL PRECIO DEL GTA 6 LOCO",
+     "text": "jaja pero queria original a precio trucho",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "Betito sale petecito?",
-     "tipo": "pregunta_precio",
+     "text": "queremos que venga bien bien",
+     "tipo": "pedido_contenido",
+     "count": 1
+    },
+    {
+     "text": "manden mensajes respetuosos sobre el 9/11",
+     "tipo": "pregunta_compra",
+     "count": 1
+    },
+    {
+     "text": "Gonal, que venga",
+     "tipo": "pedido_contenido",
      "count": 1
     }
    ]
@@ -366,29 +366,6 @@
      "count": 1
     }
    ]
-  },
-  {
-   "id": "urbana_play_104.3_fm",
-   "name": "urbana_play_104.3_fm",
-   "programs_with_chat": 1,
-   "chat_messages": 640,
-   "msgs_per_1k": 1.1,
-   "noise_score": 0.52,
-   "chat_quality_tier": "media",
-   "chat_quality_label": "Comunidad moderada",
-   "paid_events": 0,
-   "mix": {
-    "emoji_pct": 3.8,
-    "saludo_pct": 1.2,
-    "reaccion_pct": 26.7,
-    "pregunta_pct": 23.4,
-    "demanda_pct": 0.0,
-    "obediencia_pct": 0.3,
-    "apoyo_pct": 0.0,
-    "texto_pct": 44.5
-   },
-   "character_label": "Comunidad moderada",
-   "top_demands": []
   },
   {
    "id": "cronista",
@@ -470,6 +447,55 @@
      "text": "Cuál es la app de cómo saber la música??",
      "tipo": "pedido_link",
      "count": 4
+    }
+   ]
+  },
+  {
+   "id": "urbana_play_104.3_fm",
+   "name": "urbana_play_104.3_fm",
+   "programs_with_chat": 2,
+   "chat_messages": 6294,
+   "msgs_per_1k": 0.76,
+   "noise_score": 0.32,
+   "chat_quality_tier": "media",
+   "chat_quality_label": "Comunidad moderada",
+   "paid_events": 0,
+   "mix": {
+    "emoji_pct": 1.7,
+    "saludo_pct": 1.4,
+    "reaccion_pct": 26.3,
+    "pregunta_pct": 23.2,
+    "demanda_pct": 0.6,
+    "obediencia_pct": 0.3,
+    "apoyo_pct": 0.0,
+    "texto_pct": 46.6
+   },
+   "character_label": "Comunidad moderada",
+   "top_demands": [
+    {
+     "text": "sale el ladrón de Adorno y entra el colorado, otro ladrón con cuántas propiedade",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "3:50 Am Saludos hermanos Argentinos , son unos chingones, saludos desde aquí ciu",
+     "tipo": "otro",
+     "count": 1
+    },
+    {
+     "text": "sale duchaja?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "ahora sale tweet del Presidente sobre el tema del saquito",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "sale el editorial de la mechera",
+     "tipo": "pregunta_precio",
+     "count": 1
     }
    ]
   },
@@ -1120,8 +1146,8 @@
   },
   {
    "video_id": "04q2g0UfdyA",
-   "title": "",
-   "channel": "",
+   "title": "Multiverso Neura",
+   "channel": "Neura Media",
    "chat_messages": 711,
    "chat_events": 711,
    "paid_events": 8,
@@ -1191,7 +1217,7 @@
      "count": 1
     }
    ],
-   "channel_id": ""
+   "channel_id": "neura"
   },
   {
    "video_id": "XYJRLyO9exg",
@@ -1324,14 +1350,6 @@
    "cross_canal": false
   },
   {
-   "text": "hablen de las bombas de E.E.U.U. que son para hacer terremoto o bombas para hacer tsunami o maquinas",
-   "tipo": "pedido_contenido",
-   "count": 6,
-   "n_programas": 1,
-   "canales": [],
-   "cross_canal": false
-  },
-  {
    "text": "CHICOS Q BIEN LE SALE DIOS",
    "tipo": "pregunta_precio",
    "count": 6,
@@ -1342,13 +1360,11 @@
    "cross_canal": false
   },
   {
-   "text": "Cuál es la app de cómo saber la música??",
-   "tipo": "pedido_link",
-   "count": 4,
+   "text": "hablen de las bombas de E.E.U.U. que son para hacer terremoto o bombas para hacer tsunami o maquinas",
+   "tipo": "pedido_contenido",
+   "count": 6,
    "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
+   "canales": [],
    "cross_canal": false
   },
   {
@@ -1366,11 +1382,21 @@
    "n_programas": 1,
    "canales": [],
    "cross_canal": false
+  },
+  {
+   "text": "Cuál es la app de cómo saber la música??",
+   "tipo": "pedido_link",
+   "count": 4,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
   }
  ],
  "platform_line": "Aura es donde más habla la sala (52.77 mensajes por cada mil mirando). Demanda recurrente: «:bird::bird::bird::bird::bird::bird::bird::bird:LOCO TRAIGAN…»",
  "channels_with_chat": 14,
- "period": "2026-06-30T00:55:41.241856+00:00",
+ "period": "2026-06-30T09:05:55.209699+00:00",
  "conductor_moments": [
   {
    "video_id": "NHt6oqHZYd0",
@@ -1457,24 +1483,24 @@
    "post_rpm": 1.0
   },
   {
-   "video_id": "AUSgxGQirlM",
-   "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
-   "channel": " A U R A ",
-   "kind": "codigo",
-   "minute": 82,
-   "quote": "Bueno, esto es porque el código QR, dentro de sus miles de bits,",
+   "video_id": "EwFONN3W5cg",
+   "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+   "channel": "Vorterix",
+   "kind": "like",
+   "minute": 69,
+   "quote": "Entonces me da un toque, porque me gusta el olor.",
    "ratio": 13.33,
    "label": "La sala respondió — chat más activo tras el pedido",
    "pre_rpm": 0.0,
    "post_rpm": 0.67
   },
   {
-   "video_id": "NKhi31a86K8",
-   "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
-   "channel": "OLGA",
-   "kind": "like",
-   "minute": 121,
-   "quote": "Me gusta tener el efectivo",
+   "video_id": "AUSgxGQirlM",
+   "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+   "channel": " A U R A ",
+   "kind": "codigo",
+   "minute": 82,
+   "quote": "Bueno, esto es porque el código QR, dentro de sus miles de bits,",
    "ratio": 13.33,
    "label": "La sala respondió — chat más activo tras el pedido",
    "pre_rpm": 0.0,
@@ -1493,12 +1519,12 @@
    "post_rpm": 0.67
   },
   {
-   "video_id": "EwFONN3W5cg",
-   "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
-   "channel": "Vorterix",
+   "video_id": "NKhi31a86K8",
+   "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+   "channel": "OLGA",
    "kind": "like",
-   "minute": 69,
-   "quote": "Entonces me da un toque, porque me gusta el olor.",
+   "minute": 121,
+   "quote": "Me gusta tener el efectivo",
    "ratio": 13.33,
    "label": "La sala respondió — chat más activo tras el pedido",
    "pre_rpm": 0.0,
@@ -1517,6 +1543,18 @@
    "post_rpm": 2.33
   },
   {
+   "video_id": "CP5OqzXez-g",
+   "title": "EL TAPON DE ADORNI y el NUEVO SANTILLI | VIVAN TODO en VIVO con OLIVÁN",
+   "channel": "BorderPeriodismo",
+   "kind": "like",
+   "minute": 74,
+   "quote": "Yo uso gorro, yo uso gorro, me gusta, así que, lógicamente que no da muchas veces para el aire, por supuesto, por más que sea el streaming.",
+   "ratio": 6.67,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.0,
+   "post_rpm": 0.33
+  },
+  {
    "video_id": "NZnTfvrPb0E",
    "title": "🟠 ¿CÓMO QUEDARON LOS CRUCES DEL  MUNDIAL 2026? l HOY COMO SIEMPRE",
    "channel": " A U R A ",
@@ -1529,24 +1567,12 @@
    "post_rpm": 0.33
   },
   {
-   "video_id": "AUSgxGQirlM",
-   "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
-   "channel": " A U R A ",
+   "video_id": "95yJuQx7ol8",
+   "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+   "channel": "OLGA",
    "kind": "like",
-   "minute": 52,
-   "quote": "Me gusta esta charla, Flor, así que vea, no sé si sentarme o que no,",
-   "ratio": 6.67,
-   "label": "La sala respondió — chat más activo tras el pedido",
-   "pre_rpm": 0.0,
-   "post_rpm": 0.33
-  },
-  {
-   "video_id": "CP5OqzXez-g",
-   "title": "EL TAPON DE ADORNI y el NUEVO SANTILLI | VIVAN TODO en VIVO con OLIVÁN",
-   "channel": "BorderPeriodismo",
-   "kind": "like",
-   "minute": 74,
-   "quote": "Yo uso gorro, yo uso gorro, me gusta, así que, lógicamente que no da muchas veces para el aire, por supuesto, por más que sea el streaming.",
+   "minute": 86,
+   "quote": "No, con el calor que hace acá no, pero me gusta, me gusta la bicicleta, me gusta.",
    "ratio": 6.67,
    "label": "La sala respondió — chat más activo tras el pedido",
    "pre_rpm": 0.0,

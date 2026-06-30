@@ -66,12 +66,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 4,
-   "total_vod_views": 22065,
-   "avg_concurrent": 6867,
-   "brands_detected": 8,
-   "mentions": 8,
-   "last_processed": "25/06/2026"
+   "videos_processed": 5,
+   "total_vod_views": 28048,
+   "avg_concurrent": 6552,
+   "brands_detected": 9,
+   "mentions": 9,
+   "last_processed": "30/06/2026"
   },
   "pipeline_status": "activo"
  },
@@ -147,11 +147,11 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 7,
-   "total_vod_views": 9601,
-   "avg_concurrent": 344,
+   "videos_processed": 8,
+   "total_vod_views": 11845,
+   "avg_concurrent": 365,
    "brands_detected": 18,
-   "mentions": 31,
+   "mentions": 32,
    "last_processed": "29/06/2026"
   },
   "pipeline_status": "activo"

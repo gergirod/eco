@@ -1,5 +1,147 @@
 {
  "by_video": {
+  "04q2g0UfdyA": {
+   "video_id": "04q2g0UfdyA",
+   "channel_id": "neura",
+   "channel": "Neura Media",
+   "title": "Multiverso Neura",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Política Argentina - Crisis De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol - Partido Paraguay Vs Alemania",
+     "score": 3
+    },
+    {
+     "tema": "Reestructuración Del Gobierno Argentino",
+     "score": 3
+    },
+    {
+     "tema": "Partido Paraguay Vs Alemania - Penales",
+     "score": 3
+    },
+    {
+     "tema": "Penales Copa América",
+     "score": 3
+    },
+    {
+     "tema": "Selección Paraguay",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia Y Sueldo De Adorni En Ypf",
+     "score": 3
+    },
+    {
+     "tema": "Naturaleza Legal De Ypf (pública Vs Privada)",
+     "score": 3
+    },
+    {
+     "tema": "Campañas Políticas En San Isidro",
+     "score": 2
+    },
+    {
+     "tema": "Robo/delito Sin Investigación",
+     "score": 2
+    },
+    {
+     "tema": "Desempeño De Jugador En Mundial",
+     "score": 2
+    },
+    {
+     "tema": "Sistema De Penales En Fútbol",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 16
+    },
+    {
+     "categoria": "persona",
+     "score": 10
+    },
+    {
+     "categoria": "politica",
+     "score": 5
+    },
+    {
+     "categoria": "política",
+     "score": 5
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 3
+    },
+    {
+     "categoria": "otro",
+     "score": 3
+    },
+    {
+     "categoria": "comida",
+     "score": 2
+    },
+    {
+     "categoria": "cultura",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Política Argentina - Crisis De Gabinete",
+     "categoria": "politica",
+     "contexto": "Se menciona a Insaurralde, Sirio y Adorni sueltos, y Adorni dejando fueros. Se habla de nuevo jefe de gabinete",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Fútbol - Partido Paraguay Vs Alemania",
+     "categoria": "actividad",
+     "contexto": "Se comenta en vivo el partido entre Paraguay y Alemania, con análisis de jugabilidad y posibles cruces",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Eliminación De Japón Del Torneo",
+     "categoria": "actividad",
+     "contexto": "Se menciona la eliminación de Japón que había lesionado a los conductores",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Campañas Políticas En San Isidro",
+     "categoria": "politica",
+     "contexto": "Se menciona campaña en San Isidro y temas electorales locales",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Reestructuración Del Gobierno Argentino",
+     "categoria": "política",
+     "contexto": "Agustín se va a fusionar en la jefatura de gabinete con el ministerio, se reduce el gasto del Estado",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Partido Paraguay Vs Alemania - Penales",
+     "categoria": "actividad",
+     "contexto": "Primera definición por penales en 16avos de final, análisis de tiros y arqueros",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Robo/delito Sin Investigación",
+     "categoria": "política",
+     "contexto": "Discusión sobre si un robo es político o delictivo, justicia lenta para actuar",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Desempeño De Jugador En Mundial",
+     "categoria": "actividad",
+     "contexto": "Elogio a Friobani Lopecho, contexto de tres procesos mundialistas",
+     "minute": "0:10"
+    }
+   ]
+  },
   "0emroxvypsw": {
    "video_id": "0emroxvypsw",
    "channel_id": "vorterix",
@@ -7546,6 +7688,144 @@
      "tema": "Presencia Escénica",
      "categoria": "actividad",
      "contexto": "Se menciona la importancia de la presencia y actitud al bailar",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "gbs55KwjTeA": {
+   "video_id": "gbs55KwjTeA",
+   "channel_id": "blend",
+   "channel": "BLENDER",
+   "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Despidos En Blender",
+     "score": 6
+    },
+    {
+     "tema": "Solidaridad Laboral",
+     "score": 3
+    },
+    {
+     "tema": "Paraguay Elimina A Alemania En Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Mundial De Fútbol 1986",
+     "score": 3
+    },
+    {
+     "tema": "Performance De Diego Maradona",
+     "score": 3
+    },
+    {
+     "tema": "Imitaciones De Personajes Públicos",
+     "score": 3
+    },
+    {
+     "tema": "Trabajo Como Imitador En Eventos",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Caso Judicial Adorni-tabar",
+     "score": 3
+    },
+    {
+     "tema": "Continuidad Del Programa",
+     "score": 2
+    },
+    {
+     "tema": "Situación Incómoda Del Conductor",
+     "score": 2
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 29
+    },
+    {
+     "categoria": "cultura",
+     "score": 28
+    },
+    {
+     "categoria": "persona",
+     "score": 17
+    },
+    {
+     "categoria": "otro",
+     "score": 13
+    },
+    {
+     "categoria": "lugar",
+     "score": 8
+    },
+    {
+     "categoria": "política",
+     "score": 8
+    },
+    {
+     "categoria": "comida",
+     "score": 3
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Despidos En Blender",
+     "categoria": "otro",
+     "contexto": "Se despidió a 10 trabajadores de la empresa Blender sin contexto claro. Los conductores exigen reincorporación y diálogo.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Solidaridad Laboral",
+     "categoria": "otro",
+     "contexto": "Los conductores expresan solidaridad con los trabajadores despedidos y reconocen el dolor de perder una fuente laboral.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Continuidad Del Programa",
+     "categoria": "actividad",
+     "contexto": "Se plantea la tensión entre hacer el programa (para no dejar sin trabajo a más de 100 personas) y la incomodidad moral por los despidos.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Situación Incómoda Del Conductor",
+     "categoria": "otro",
+     "contexto": "El conductor principal está en Miami con delay, en modo internacional, lo que agrava la incomodidad de hablar del tema.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Historia De Blender",
+     "categoria": "actividad",
+     "contexto": "Se menciona que Blender nació como proyecto hace tres años y se convirtió en uno de los principales streamings de Argentina.",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Despidos En Blender",
+     "categoria": "otro",
+     "contexto": "Discusión sobre el despido de 10 trabajadores de la productora, con énfasis en la falta de diálogo y solidaridad laboral",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "categoria": "actividad",
+     "contexto": "Análisis de partidos, penales, desempeño de arqueros y técnicos en el torneo",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Entrevista A Goyco (arquero)",
+     "categoria": "persona",
+     "contexto": "Visita sorpresa de un arquero al programa en Tatore para charla improvisada",
      "minute": "0:10"
     }
    ]

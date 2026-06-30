@@ -217,15 +217,15 @@
  {
   "slug": "pae",
   "name": "PAE",
-  "mentions": 7,
+  "mentions": 8,
   "channels": [
    "neura"
   ],
   "n_channels": 1,
-  "n_videos": 5,
+  "n_videos": 6,
   "first_seen": "26/06/2026",
   "last_seen": "29/06/2026",
-  "value_usd": 29.0,
+  "value_usd": 32.0,
   "samples": [
    {
     "channel": "neura",
@@ -296,16 +296,26 @@
     "minute": "01:44:56",
     "views": 419,
     "conc_at": 56
+   },
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "29/06/2026",
+    "video_id": "04q2g0UfdyA",
+    "title": "Multiverso Neura",
+    "minute": "00:06:29",
+    "views": 2244,
+    "conc_at": 143
    }
   ],
   "kind": "marca",
-  "n_activations": 7,
-  "n_programs": 5,
+  "n_activations": 8,
+  "n_programs": 6,
   "peak_conc_at": 369,
   "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 7 activaciones en 5 programas y 1 canales — 6 con evidencia completa y 1 con evidencia parcial.",
+  "confidence_reason": "Evidencia densa en streaming: 8 activaciones en 6 programas y 1 canales — 7 con evidencia completa y 1 con evidencia parcial.",
   "evidence_summary": {
-   "verified": 6,
+   "verified": 7,
    "partial": 1,
    "insufficient": 0
   },
@@ -3539,6 +3549,43 @@
   "n_activations": 1,
   "n_programs": 1,
   "peak_conc_at": 462,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "la-pascana",
+  "name": "La Pascana",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 239.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "30/06/2026",
+    "video_id": "gbs55KwjTeA",
+    "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+    "minute": "01:23:48",
+    "views": 5983,
+    "conc_at": 5369
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 5369,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {

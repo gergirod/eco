@@ -1,5 +1,39 @@
 [
  {
+  "slug": "pae-petroleo-y-gas",
+  "name": "PAE (Petróleo y Gas)",
+  "mentions": 2,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "26/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "26/06/2026",
+    "video_id": "VRWovoLU0yQ",
+    "title": "🍿 Plot Twist 👾",
+    "minute": "00:00",
+    "views": 741
+   },
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "29/06/2026",
+    "video_id": "04q2g0UfdyA",
+    "title": "Multiverso Neura",
+    "minute": "00:00",
+    "views": 2244
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "olga-programa",
   "name": "Olga (programa)",
   "mentions": 2,
@@ -1243,6 +1277,31 @@
   "kind": "producto"
  },
  {
+  "slug": "picante-fiesta",
+  "name": "Picante (fiesta)",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "30/06/2026",
+    "video_id": "gbs55KwjTeA",
+    "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+    "minute": "00:30",
+    "views": 5983
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "tarahui-yerba",
   "name": "Tarahui (yerba)",
   "mentions": 1,
@@ -1488,31 +1547,6 @@
     "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
     "minute": "01:40",
     "views": 40199
-   }
-  ],
-  "kind": "producto"
- },
- {
-  "slug": "pae-petroleo-y-gas",
-  "name": "PAE (Petróleo y Gas)",
-  "mentions": 1,
-  "channels": [
-   "neura"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 0.0,
-  "samples": [
-   {
-    "channel": "neura",
-    "channel_name": "Neura Media",
-    "date": "26/06/2026",
-    "video_id": "VRWovoLU0yQ",
-    "title": "🍿 Plot Twist 👾",
-    "minute": "00:00",
-    "views": 741
    }
   ],
   "kind": "producto"

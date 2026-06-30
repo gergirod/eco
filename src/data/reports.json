@@ -1519,20 +1519,20 @@
  },
  "pae": {
   "name": "PAE",
-  "mentions": 7,
+  "mentions": 8,
   "kind": "marca",
-  "value_usd": 29.0,
+  "value_usd": 32.0,
   "channels": [
    "neura"
   ],
   "by_tier": {
    "1": 0,
-   "2": 6,
+   "2": 7,
    "3": 1
   },
   "by_sentiment": {
    "positivo": 2,
-   "neutro": 5,
+   "neutro": 6,
    "negativo": 0
   },
   "series": [
@@ -1545,8 +1545,8 @@
    {
     "date_iso": "20260629",
     "date": "29/06/2026",
-    "mentions": 2,
-    "value_usd": 14.0
+    "mentions": 3,
+    "value_usd": 17.0
    }
   ],
   "best": {
@@ -1665,6 +1665,65 @@
     "anchor_confidence": "exact",
     "anchor_validated": true,
     "transcript_at_ts": "Maximiza el rendimiento de sus inversiones Con la experiencia de Silver Cloud Advisors. Somos PAE, Líder Global de Energía. Ofrecemos productos y servicios a la industria y estaciones de servicio. Nuestra producción de petróleo y gas abastece al mercado local y al de exportación.",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   },
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "29/06/2026",
+    "date_iso": "20260629",
+    "video_id": "04q2g0UfdyA",
+    "title": "Multiverso Neura",
+    "minute": "00:06:29",
+    "t_seconds": 389,
+    "precise": true,
+    "views": 2244,
+    "value_usd": 3.0,
+    "quote": "Somos PAE, Líder Global de Energía. Ofrecemos productos y servicios a la industria y estaciones de servicio. Nuestra producción de petróleo y gas abastece al mercado local y al de exportación. Energía para la industria.",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "neutro",
+    "conc_at": 143,
+    "retention_pct": 41.2,
+    "chat_ratio": 0.3,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 0.3,
+     "spike_rpm": 1.5,
+     "pre_rpm": 1.5,
+     "post_rpm": 2.3,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "down",
+     "table_line": "Chat más quieto que el resto del programa (~70%)",
+     "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~70% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 1.5 msgs/min → después: 2.3 msgs/min.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 721,
+    "has_chat": true,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "Somos PAE, Líder Global de Energía. Ofrecemos productos y servicios a la industria y estaciones de servicio. Nuestra producción de petróleo y gas abastece al mercado local y al de exportación.",
     "evidence": "VERIFIED",
     "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
    },
@@ -16173,6 +16232,135 @@
     "anchor_confidence": "exact",
     "anchor_validated": true,
     "transcript_at_ts": "Si te gusta el humor ácido, es el juego para vos. Reite con tus amigos mientras tratás de cuidar tu plata y no caer en la indigencia. Búscalo en nuestra tienda, juegoselpato.com.ar. Tenemos envío gratis a todo el país y 10% de descuento si pagás con transferencia.",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "la-pascana": {
+  "name": "La Pascana",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 239.0,
+  "channels": [
+   "blend"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 0,
+   "3": 1
+  },
+  "by_sentiment": {
+   "positivo": 1,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260630",
+    "date": "30/06/2026",
+    "mentions": 1,
+    "value_usd": 239.0
+   }
+  ],
+  "best": {
+   "channel": "blend",
+   "channel_name": "BLENDER",
+   "date": "30/06/2026",
+   "date_iso": "20260630",
+   "video_id": "gbs55KwjTeA",
+   "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+   "minute": "01:23:48",
+   "t_seconds": 5028,
+   "precise": true,
+   "views": 5983,
+   "value_usd": 239.0,
+   "quote": "agradecemos a La Pascana La Pisa La Piedra Su horno de ladrillo y las pastas caseras Son su marca No te pierdas el locro del 9 de julio Vayan encargándolo Ya podés encargarlo al 47790433 O visitarlos en Paraguay 5100 en Palermo Si van de parte nuestra de Vann, tienen un 15% off",
+   "tier": 3,
+   "tier_label": "Con código o promo",
+   "sentiment": "positivo",
+   "conc_at": 5369,
+   "retention_pct": -0.4,
+   "chat_ratio": null,
+   "chat_reaction": {
+    "cobertura": false,
+    "has_chat": false,
+    "chat_ratio": null,
+    "tone": "none",
+    "table_line": "Sin chat capturado",
+    "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+    "detail_lines": [],
+    "ejemplos": []
+   },
+   "room_reaction": {
+    "has_data": false,
+    "cobertura": false,
+    "in_window": false,
+    "table_line": "Sin datos de participación en vivo",
+    "headline": "",
+    "detail_lines": [],
+    "lines": [],
+    "pins": [],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 5750,
+   "has_chat": false,
+   "anchor_confidence": "exact",
+   "anchor_validated": true,
+   "transcript_at_ts": "Igual pará, faltan cuatro minutos Quedás Sí señor, señor Y también agradecemos a La Pascana La Pisa La Piedra Su horno de ladrillo y las pastas caseras Son su marca No te pierdas el locro del 9 de julio",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "30/06/2026",
+    "date_iso": "20260630",
+    "video_id": "gbs55KwjTeA",
+    "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+    "minute": "01:23:48",
+    "t_seconds": 5028,
+    "precise": true,
+    "views": 5983,
+    "value_usd": 239.0,
+    "quote": "agradecemos a La Pascana La Pisa La Piedra Su horno de ladrillo y las pastas caseras Son su marca No te pierdas el locro del 9 de julio Vayan encargándolo Ya podés encargarlo al 47790433 O visitarlos en Paraguay 5100 en Palermo Si van de parte nuestra de Vann, tienen un 15% off",
+    "tier": 3,
+    "tier_label": "Con código o promo",
+    "sentiment": "positivo",
+    "conc_at": 5369,
+    "retention_pct": -0.4,
+    "chat_ratio": null,
+    "chat_reaction": {
+     "cobertura": false,
+     "has_chat": false,
+     "chat_ratio": null,
+     "tone": "none",
+     "table_line": "Sin chat capturado",
+     "headline": "No hay chat capturado para este programa — no podemos medir reacción de la sala.",
+     "detail_lines": [],
+     "ejemplos": []
+    },
+    "room_reaction": {
+     "has_data": false,
+     "cobertura": false,
+     "in_window": false,
+     "table_line": "Sin datos de participación en vivo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 5750,
+    "has_chat": false,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "Igual pará, faltan cuatro minutos Quedás Sí señor, señor Y también agradecemos a La Pascana La Pisa La Piedra Su horno de ladrillo y las pastas caseras Son su marca No te pierdas el locro del 9 de julio",
     "evidence": "VERIFIED",
     "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
    }

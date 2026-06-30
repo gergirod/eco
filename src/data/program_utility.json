@@ -2861,6 +2861,64 @@
    }
   },
   {
+   "video_id": "gbs55KwjTeA",
+   "channel": "BLENDER",
+   "channel_id": "blend",
+   "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+   "date": "20260630",
+   "iup": 79,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.473,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.0,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 5294,
+     "peak_concurrent": 5750
+    },
+    "conversation": {
+     "blocks": 9,
+     "blocks_with_signal": 9,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 24,
+     "sponsored": 1,
+     "organic": 21,
+     "productos_marcas": 20
+    },
+    "participation": {
+     "chat_engagement": null,
+     "chat_noise": null,
+     "note": "sin chat"
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 86.65166666666666
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "vlNZMMmBbLw",
    "channel": "GELATINA",
    "channel_id": "gelatina",
@@ -4010,6 +4068,64 @@
      "show_name": "Otros"
     },
     "capture_minutes": 44.58166666666667
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "04q2g0UfdyA",
+   "channel": "Neura Media",
+   "channel_id": "neura",
+   "title": "Multiverso Neura",
+   "date": "20260629",
+   "iup": 71,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.115,
+    "conversation": 0.65,
+    "commercial": 1.0,
+    "participation": 0.968,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 515,
+     "peak_concurrent": 721
+    },
+    "conversation": {
+     "blocks": 11,
+     "blocks_with_signal": 4,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 14,
+     "sponsored": 1,
+     "organic": 14,
+     "productos_marcas": 12
+    },
+    "participation": {
+     "chat_engagement": 12.44,
+     "chat_noise": 0.08,
+     "chat_total": 711
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 109.93333333333334
    },
    "weights": {
     "capture": 0.25,
@@ -8035,10 +8151,10 @@
   {
    "channel_id": "blend",
    "channel": "BLENDER",
-   "programs": 4,
-   "iup_avg": 86.0,
-   "iup_median": 86,
-   "tier_alta": 4,
+   "programs": 5,
+   "iup_avg": 84.6,
+   "iup_median": 85,
+   "tier_alta": 5,
    "tier_insuficiente": 0
   },
   {
@@ -8125,10 +8241,10 @@
   {
    "channel_id": "neura",
    "channel": "Neura Media",
-   "programs": 7,
-   "iup_avg": 72.0,
+   "programs": 8,
+   "iup_avg": 71.9,
    "iup_median": 73,
-   "tier_alta": 6,
+   "tier_alta": 7,
    "tier_insuficiente": 0
   },
   {
@@ -8151,8 +8267,8 @@
   }
  ],
  "totals": {
-  "programs": 137,
-  "tier_alta": 70,
+  "programs": 139,
+  "tier_alta": 72,
   "tier_media": 67,
   "tier_baja": 0,
   "tier_insuficiente": 0

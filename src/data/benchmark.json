@@ -7,7 +7,7 @@
   "avg_concurrent": 86154,
   "brands": 59,
   "mentions": 83,
-  "share_views": 74.9,
+  "share_views": 74.7,
   "n_brands_live": 59,
   "top_brands": [
    {
@@ -230,7 +230,7 @@
   "avg_concurrent": 25109,
   "brands": 57,
   "mentions": 109,
-  "share_views": 17.8,
+  "share_views": 17.7,
   "n_brands_live": 57,
   "top_brands": [
    {
@@ -681,49 +681,15 @@
   "top_brands": []
  },
  {
-  "id": "gelatina",
-  "name": "Gelatina",
-  "videos": 3,
-  "vod_views": 25794,
-  "avg_concurrent": 2897,
-  "brands": 3,
-  "mentions": 3,
-  "share_views": 0.7,
-  "n_brands_live": 3,
-  "top_brands": [
-   {
-    "slug": "seco",
-    "name": "Seco",
-    "mentions": 1,
-    "value_usd": 61.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "ada-cafe",
-    "name": "Ada Café",
-    "mentions": 1,
-    "value_usd": 74.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "sastreria-teta-lee",
-    "name": "Sastrería Teta Lee",
-    "mentions": 1,
-    "value_usd": 79.0,
-    "rubro": "otro"
-   }
-  ]
- },
- {
   "id": "blend",
   "name": "Blender",
-  "videos": 4,
-  "vod_views": 22065,
-  "avg_concurrent": 6867,
-  "brands": 8,
-  "mentions": 8,
-  "share_views": 0.6,
-  "n_brands_live": 8,
+  "videos": 5,
+  "vod_views": 28048,
+  "avg_concurrent": 6552,
+  "brands": 9,
+  "mentions": 9,
+  "share_views": 0.7,
+  "n_brands_live": 9,
   "top_brands": [
    {
     "slug": "ypf",
@@ -737,6 +703,13 @@
     "name": "Seco",
     "mentions": 1,
     "value_usd": 23.0,
+    "rubro": "otro"
+   },
+   {
+    "slug": "la-pascana",
+    "name": "La Pascana",
+    "mentions": 1,
+    "value_usd": 239.0,
     "rubro": "otro"
    },
    {
@@ -784,21 +757,55 @@
   ]
  },
  {
+  "id": "gelatina",
+  "name": "Gelatina",
+  "videos": 3,
+  "vod_views": 25794,
+  "avg_concurrent": 2897,
+  "brands": 3,
+  "mentions": 3,
+  "share_views": 0.7,
+  "n_brands_live": 3,
+  "top_brands": [
+   {
+    "slug": "seco",
+    "name": "Seco",
+    "mentions": 1,
+    "value_usd": 61.0,
+    "rubro": "otro"
+   },
+   {
+    "slug": "ada-cafe",
+    "name": "Ada Café",
+    "mentions": 1,
+    "value_usd": 74.0,
+    "rubro": "otro"
+   },
+   {
+    "slug": "sastreria-teta-lee",
+    "name": "Sastrería Teta Lee",
+    "mentions": 1,
+    "value_usd": 79.0,
+    "rubro": "otro"
+   }
+  ]
+ },
+ {
   "id": "neura",
   "name": "Neura Media",
-  "videos": 7,
-  "vod_views": 9601,
-  "avg_concurrent": 344,
+  "videos": 8,
+  "vod_views": 11845,
+  "avg_concurrent": 365,
   "brands": 18,
-  "mentions": 31,
+  "mentions": 32,
   "share_views": 0.3,
   "n_brands_live": 18,
   "top_brands": [
    {
     "slug": "pae",
     "name": "PAE",
-    "mentions": 7,
-    "value_usd": 29.0,
+    "mentions": 8,
+    "value_usd": 32.0,
     "rubro": "energia"
    },
    {

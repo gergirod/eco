@@ -1,15 +1,16 @@
 [
  {
   "tema": "interpelación adorni",
-  "score": 118.0,
-  "trend_score": 36.83,
-  "menciones": 27,
+  "score": 123.6,
+  "trend_score": 38.37,
+  "menciones": 28,
   "growth_wow": 1.0,
   "demand_ratio": 0.0,
   "demand_signals": 0,
   "canales": [
    " A U R A ",
    "AHORA PLAY",
+   "BLENDER",
    "BorderPeriodismo",
    "Cenital",
    "GELATINA",
@@ -49,6 +50,10 @@
    {
     "date": "29/06/2026",
     "n": 86.42192187941939
+   },
+   {
+    "date": "30/06/2026",
+    "n": 5.578565863411689
    }
   ],
   "gt_status": "ya_masivo",
@@ -278,9 +283,9 @@
     "t_seconds": 600
    }
   ],
-  "highlights_total": 74,
+  "highlights_total": 77,
   "evidence_lane": "corroborated",
-  "audio_programs": 23,
+  "audio_programs": 25,
   "chat_signals": {
    "n_msgs": 735,
    "n_authors": 520,
@@ -604,6 +609,17 @@
     "t_seconds": 7200
    },
    {
+    "channel": "Neura Media",
+    "video_id": "04q2g0UfdyA",
+    "title": "Multiverso Neura",
+    "date": "20260629",
+    "subtema": "Política Argentina - Crisis de Gabinete",
+    "contexto": "Se menciona a Insaurralde, Sirio y Adorni sueltos, y Adorni dejando fueros. Se habla de nuevo jefe de gabinete",
+    "intensidad": 3,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
     "channel": "BorderPeriodismo",
     "video_id": "CP5OqzXez-g",
     "title": "EL TAPON DE ADORNI y el NUEVO SANTILLI | VIVAN TODO en VIVO con OLIVÁN",
@@ -646,24 +662,13 @@
     "intensidad": 3,
     "start_min": 100,
     "t_seconds": 6000
-   },
-   {
-    "channel": "GELATINA",
-    "video_id": "vlNZMMmBbLw",
-    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
-    "date": "20260629",
-    "subtema": "Terremotos en Venezuela",
-    "contexto": "1.450 muertes confirmadas, 3.000+ heridos, 70.000 personas sin localizar; tareas de rescate en La Guaira",
-    "intensidad": 3,
-    "start_min": 30,
-    "t_seconds": 1800
    }
   ],
-  "highlights_total": 57,
+  "highlights_total": 58,
   "evidence_lane": "corroborated",
-  "audio_programs": 30,
+  "audio_programs": 31,
   "chat_signals": {
-   "n_msgs": 169,
+   "n_msgs": 170,
    "n_authors": 135,
    "programs": [
     {
@@ -771,397 +776,6 @@
      "n_msgs": 5,
      "n_authors": 4,
      "ejemplo": "Julio en Venezuela"
-    }
-   ]
-  }
- },
- {
-  "tema": "viajes",
-  "score": 237.0,
-  "trend_score": 32.96,
-  "menciones": 36,
-  "growth_wow": 1.0,
-  "demand_ratio": 0.028,
-  "demand_signals": 1,
-  "canales": [
-   "BLENDER",
-   "Bondi Live",
-   "LUZU TV",
-   "Neura Media",
-   "OLGA",
-   "Vorterix"
-  ],
-  "categorias": [
-   "actividad",
-   "cultura",
-   "lugar",
-   "producto",
-   "salud"
-  ],
-  "cross_comunidad": true,
-  "multi_dia": true,
-  "candidato": true,
-  "serie": [
-   {
-    "date": "19/06/2026",
-    "n": 3.517708827297516
-   },
-   {
-    "date": "22/06/2026",
-    "n": 9.03609942427705
-   },
-   {
-    "date": "23/06/2026",
-    "n": 64.38443820354664
-   },
-   {
-    "date": "24/06/2026",
-    "n": 37.684354803673386
-   },
-   {
-    "date": "25/06/2026",
-    "n": 3.0
-   },
-   {
-    "date": "26/06/2026",
-    "n": 71.79520689958927
-   },
-   {
-    "date": "29/06/2026",
-    "n": 47.596871856675115
-   }
-  ],
-  "gt_status": "ya_masivo",
-  "gt_lead_days": -362,
-  "gt_peak": 100,
-  "cluster": null,
-  "variantes_relacionadas": [],
-  "highlights": [
-   {
-    "channel": "LUZU TV",
-    "video_id": "aeyaHqA4ByI",
-    "title": "#NADIEDICENADA | ¿FLOR SE INDIGNÓ CON UNA OYENTE? Y TODOS NOS PREPARAMOS PARA MIAMI Y EL MUNDIAL",
-    "date": "20260611",
-    "subtema": "Viajes y experiencias de vida en el extranjero",
-    "contexto": "Conversación extensa sobre fantasía de vivir afuera, vivir un año en Cabo Verde o lugares random, y cómo los viajes abren perspectiva y cambian la vida",
-    "intensidad": 3,
-    "start_min": 70,
-    "t_seconds": 4200
-   },
-   {
-    "channel": "Neura Media",
-    "video_id": "c1LrQSDaXAY",
-    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
-    "date": "20260626",
-    "subtema": "Viajes en grupo y conflictos",
-    "contexto": "Discusión sobre cómo siempre hay alguien que arruina los viajes en grupo, ya sea por no ir, quedarse dormido o tener intereses diferentes",
-    "intensidad": 3,
-    "start_min": 10,
-    "t_seconds": 600
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "YmGen45CUIY",
-    "title": "#FMLUZU | LA GURISA PERDIÓ SU TARJETA DE CRÉDITO + PROPUESTA DE CASAMIENTO EN VIVO",
-    "date": "20260605",
-    "subtema": "Viajes a Barcelona",
-    "contexto": "El programa está transmitiendo en vivo desde Barcelona, recorriendo lugares como el Arco del Triunfo y el Barrio Gótico",
-    "intensidad": 3,
-    "start_min": 10,
-    "t_seconds": 600
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "EnqUXeV9YYg",
-    "title": "#FMLUZU | OCCHIATO INVESTIGA SOBRE EL TRIO CRUISA + EL ANUNCIO DE GUIDO CO + LLAMAMOS A CHIQUI TAPIA",
-    "date": "20260609",
-    "subtema": "celos y relaciones a distancia por viajes",
-    "contexto": "Se analiza cómo los viajes generan distancia, celos y dinámicas complicadas en parejas, con ejemplo de More preocupada",
-    "intensidad": 3,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "Neura Media",
-    "video_id": "c1LrQSDaXAY",
-    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
-    "date": "20260626",
-    "subtema": "Viajes y turismo",
-    "contexto": "Conversación sobre experiencias de viaje a Wellington, Nueva Zelanda, y cómo los viajes pueden unir o separar parejas",
-    "intensidad": 3,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "LDTi8tvhNSc",
-    "title": "CÓMO SE PREPARA ARGENTINA DE CARA AL MUNDIAL | #GolGana 8/6",
-    "date": "20260608",
-    "subtema": "Cultura de viajes de hinchas argentinos",
-    "contexto": "Se discute cómo los argentinos viajan distancias largas para seguir a sus equipos, diferente a la cultura europea",
-    "intensidad": 3,
-    "start_min": 10,
-    "t_seconds": 600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "9ucd7zkq6P8",
-    "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
-    "date": "20260626",
-    "subtema": "Viajes sin entrada al Mundial",
-    "contexto": "Discusión sobre argentinos que viajan a ver el partido sin tener entrada, esperando conseguirla en el lugar",
-    "intensidad": 3,
-    "start_min": 60,
-    "t_seconds": 3600
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "EnqUXeV9YYg",
-    "title": "#FMLUZU | OCCHIATO INVESTIGA SOBRE EL TRIO CRUISA + EL ANUNCIO DE GUIDO CO + LLAMAMOS A CHIQUI TAPIA",
-    "date": "20260609",
-    "subtema": "viajes internacionales del programa",
-    "contexto": "El equipo de FM Luzu viaja a diferentes ciudades: Madrid, Barcelona, Colombia, y ahora Bogotá con Fito Páez",
-    "intensidad": 3,
-    "start_min": 20,
-    "t_seconds": 1200
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "mxFu-R3O8TY",
-    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
-    "date": "20260625",
-    "subtema": "Viajes presidenciales de Milei",
-    "contexto": "Crítica a los 40 viajes al exterior de Javier Milei, 126 días fuera del país, 16 países visitados",
-    "intensidad": 3,
-    "start_min": 60,
-    "t_seconds": 3600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "WCdVYizlDYA",
-    "title": "⚽️ GOLGANA con AZZ: Flavio Azzaro, Chute D'attellis, Benito, Sangre y Mouche | OLGA EN VIVO 2026-06-29 14:53",
-    "date": "20260629",
-    "subtema": "Viajes a Estados Unidos",
-    "contexto": "Múltiples historias de hinchas que viajaron desde Argentina a Estados Unidos para ver el Mundial",
-    "intensidad": 3,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "Jf7bO88vnm0",
-    "title": "#ANTESQUENADIE | ¿EL TRINCHE USA COFIA DE SEDA? + EL MEJOR JUEGO DEL STREAMING NACIONAL",
-    "date": "20260604",
-    "subtema": "Viajes familiares internacionales",
-    "contexto": "Los suegros ahorran dinero para viajar a México una semana a visitar a su hija y conocer al nieto, generando conflicto con el cuñado.",
-    "intensidad": 2,
-    "start_min": 80,
-    "t_seconds": 4800
-   },
-   {
-    "channel": "Neura Media",
-    "video_id": "c1LrQSDaXAY",
-    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
-    "date": "20260626",
-    "subtema": "Desacuerdos de intereses en viajes",
-    "contexto": "Mención a Alejandro Guati y Carly Jiménez que viajaron juntos pero tenían intereses diferentes: uno quería playa, otro shopping",
-    "intensidad": 2,
-    "start_min": 10,
-    "t_seconds": 600
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "Ir6p9x-GQ_I",
-    "title": "#LOSDELFONDO | AGUSNETA SE BAJA DE LOS SHIPS, TODO SOBRE EL MUNDIAL, FÚTBOL SOPLADO GAGA",
-    "date": "20260609",
-    "subtema": "Corte de cabello y acondicionamiento para viajes",
-    "contexto": "Uno de los conductores se cortó el pelo antes del viaje al Mundial y comentan sobre el tiempo de acomodamiento del cabello",
-    "intensidad": 2,
-    "start_min": 50,
-    "t_seconds": 3000
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "bQfYZ3sfUYc",
-    "title": "LA NOVELA con CARINA ZAMPINI, DIEGO CASTRO, GABY SCHULTZ Y AGUS BATTIONI | EN VIVO",
-    "date": "20260624",
-    "subtema": "Viajes y turismo en Dallas",
-    "contexto": "Conversación sobre costos de hospedaje, hoteles en diferentes zonas de Dallas, y experiencias de turistas argentinos",
-    "intensidad": 2,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "LzZD6sPGPu0",
-    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
-    "date": "20260608",
-    "subtema": "experiencia de viajes en avión con bebés",
-    "contexto": "Discusión sobre lo traumático que es para bebés viajar en avión, propuesta de crear secciones separadas para bebés",
-    "intensidad": 2,
-    "start_min": 0,
-    "t_seconds": 0
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "PaeP2ee-rFI",
-    "title": "#ELSHOWDELVERANO | PREDECIMOS EL FUTURO Y NO HABLAMOS DE LA TRAYECTORIA DE TORTONESE",
-    "date": "20260604",
-    "subtema": "Viajes internacionales",
-    "contexto": "Se mencionan viajes a Madrid, Roma, Praga, Amsterdam, Egipto y Holanda donde ocurrieron anécdotas con el equipo",
-    "intensidad": 2,
-    "start_min": 10,
-    "t_seconds": 600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "Y7TeotcndjQ",
-    "title": "COINCIDO O DEBATO: ¿SE PERDONA TODO POR SER DE OTRA ÉPOCA? | #TapadosDeLaburo 2/6",
-    "date": "20260602",
-    "subtema": "viajes de egresados a Bariloche en relaciones de pareja",
-    "contexto": "Debate sobre si es necesario terminar una relación para ir de viaje de egresados, vs. cortar relaciones tóxicas",
-    "intensidad": 2,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "Vorterix",
-    "video_id": "3CPnLRc7h2w",
-    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-    "date": "20260629",
-    "subtema": "Viajes en avión de alta velocidad",
-    "contexto": "Discusión sobre aviones a 600-900 km/h, tiempos de viaje a ciudades argentinas como Mar del Plata y Rosario",
-    "intensidad": 2,
-    "start_min": 90,
-    "t_seconds": 5400
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "GLACgh8nuGY",
-    "title": "#SEFUELARGA l JULI POGGIO CONTRA AMANTES, RESPONDE TODO Y FERBO VS FAUSTI BO Y JULI CASTRO",
-    "date": "20260611",
-    "subtema": "Viajes de quinceañeras",
-    "contexto": "Se menciona a Fausti yendo de Cordy (viaje de Cordoba) a Disney, y contraste con otros que fueron de quince",
-    "intensidad": 2,
-    "start_min": 50,
-    "t_seconds": 3000
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "XHV2BV9DWMs",
-    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "date": "20260619",
-    "subtema": "Turismo y viajes por Argentina",
-    "contexto": "Menciones a visitar y conocer diferentes lugares del país, planes de transmitir desde distintas ciudades",
-    "intensidad": 2,
-    "start_min": 150,
-    "t_seconds": 9000
-   }
-  ],
-  "highlights_total": 61,
-  "evidence_lane": "corroborated",
-  "audio_programs": 40,
-  "chat_signals": {
-   "n_msgs": 15,
-   "n_authors": 14,
-   "programs": [
-    {
-     "video_id": "c1LrQSDaXAY",
-     "channel": "Neura Media",
-     "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "COMO SE PUEDE COMPRAR LOS VIAJES"
-    },
-    {
-     "video_id": "EPCfCkglZWA",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 2,
-     "n_authors": 1,
-     "ejemplo": "si evadió, a mi, partiucularmente, no me importa, lo que me interesa es que no haya usado el Estado para favorecer a nadie. Ya vimos que empresarios le pagaron "
-    },
-    {
-     "video_id": "0_ua1dXLT5o",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Milei tenía dos viajes comprometibord para esta semana"
-    },
-    {
-     "video_id": "3CPnLRc7h2w",
-     "channel": "Vorterix",
-     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "viajes conciertos"
-    },
-    {
-     "video_id": "7ON4ZA5TtHc",
-     "channel": "Neura Media",
-     "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "CONTRA JORDANIA SE LO PUEDE PERDER SI YA ESTAMOS CLASIFICADOS QUE NO GASTE EN VIAJES AL PEDO JEJ"
-    },
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "PARA LLEGAR PEDITE UN CABIFY. Y TENES DESCUENTO EN TUS PRIMEROS 4 VIAJES CON EL CODIGO soñeconcabify"
-    },
-    {
-     "video_id": "9ucd7zkq6P8",
-     "channel": "OLGA",
-     "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "pasa que allá la \"reventa\" es legal.. y muchas empresas de viajes se hicieron de entradas para vender viajes. más los locales y los que pone el dueño del estadi"
-    },
-    {
-     "video_id": "DMOHJbfdIlY",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "NO ES LO MISMO UN PAR DE ZAPATOS QUE CASA, DEPRTAMENTO, VIAJES ETC,ETC"
-    }
-   ],
-   "chat_only_programs": [
-    {
-     "video_id": "EPCfCkglZWA",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 2,
-     "n_authors": 1,
-     "ejemplo": "si evadió, a mi, partiucularmente, no me importa, lo que me interesa es que no haya usado el Estado para favorecer a nadie. Ya vimos que empresarios le pagaron "
-    },
-    {
-     "video_id": "0_ua1dXLT5o",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Milei tenía dos viajes comprometibord para esta semana"
-    },
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "PARA LLEGAR PEDITE UN CABIFY. Y TENES DESCUENTO EN TUS PRIMEROS 4 VIAJES CON EL CODIGO soñeconcabify"
-    },
-    {
-     "video_id": "DMOHJbfdIlY",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "NO ES LO MISMO UN PAR DE ZAPATOS QUE CASA, DEPRTAMENTO, VIAJES ETC,ETC"
     }
    ]
   }
@@ -1321,6 +935,17 @@
    },
    {
     "channel": "OLGA",
+    "video_id": "LDTi8tvhNSc",
+    "title": "CÓMO SE PREPARA ARGENTINA DE CARA AL MUNDIAL | #GolGana 8/6",
+    "date": "20260608",
+    "subtema": "Cultura de viajes de hinchas argentinos",
+    "contexto": "Se discute cómo los argentinos viajan distancias largas para seguir a sus equipos, diferente a la cultura europea",
+    "intensidad": 3,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
+    "channel": "OLGA",
     "video_id": "Vmo-2tGYPYg",
     "title": "CHISMES QUE JAMÁS LE CONTASTE A NADIE | #TDT 4/6",
     "date": "20260604",
@@ -1428,20 +1053,9 @@
     "intensidad": 3,
     "start_min": 50,
     "t_seconds": 3000
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "OYdkMTk3Xds",
-    "title": "EXPERTOS ANALIZAN EL LENGUAJE NO VERBAL DE NAHIR GALARZA | #SeríaIncreíble 10/6",
-    "date": "20260610",
-    "subtema": "programas de radio clásicos argentinos",
-    "contexto": "Menciones a Roberto Petinato, Ari Paluch, Radio Disney, Radio Panda y sus canciones icónicas",
-    "intensidad": 3,
-    "start_min": 20,
-    "t_seconds": 1200
    }
   ],
-  "highlights_total": 71,
+  "highlights_total": 73,
   "evidence_lane": "corroborated",
   "audio_programs": 51,
   "chat_signals": {
@@ -1785,6 +1399,17 @@
     "t_seconds": 3600
    },
    {
+    "channel": "OLGA",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "date": "20260625",
+    "subtema": "Viajes presidenciales de Milei",
+    "contexto": "Crítica a los 40 viajes al exterior de Javier Milei, 126 días fuera del país, 16 países visitados",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
     "channel": "Cenital",
     "video_id": "TR97_gAGOWE",
     "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
@@ -1805,22 +1430,11 @@
     "intensidad": 3,
     "start_min": 100,
     "t_seconds": 6000
-   },
-   {
-    "channel": "GELATINA",
-    "video_id": "NHt6oqHZYd0",
-    "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
-    "date": "20260629",
-    "subtema": "Rol de Karina Milei en decisiones de gobierno",
-    "contexto": "Se señala que la decisión de cambio en jefatura de gabinete la tomó Karina Milei mientras Javier Milei estaba de viaje, evidenciando su poder en la administración.",
-    "intensidad": 2,
-    "start_min": 0,
-    "t_seconds": 0
    }
   ],
-  "highlights_total": 47,
+  "highlights_total": 48,
   "evidence_lane": "corroborated",
-  "audio_programs": 16,
+  "audio_programs": 17,
   "chat_signals": {
    "n_msgs": 510,
    "n_authors": 369,
@@ -2470,6 +2084,17 @@
     "t_seconds": 1800
    },
    {
+    "channel": "BLENDER",
+    "video_id": "gbs55KwjTeA",
+    "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+    "date": "20260630",
+    "subtema": "Película Héroes",
+    "contexto": "Se estrenó en diciembre de 1986 y tiene un momento final emotivo sobre Maradona con locución de Ernesto Fritz y voz de Valeria Lynch",
+    "intensidad": 2,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
     "channel": "LUZU TV",
     "video_id": "GLACgh8nuGY",
     "title": "#SEFUELARGA l JULI POGGIO CONTRA AMANTES, RESPONDE TODO Y FERBO VS FAUSTI BO Y JULI CASTRO",
@@ -2578,22 +2203,11 @@
     "intensidad": 2,
     "start_min": 120,
     "t_seconds": 7200
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "b5MhH0NHJUo",
-    "title": "#ANTESQUENADIE | ¿ESTÁ MAL COIMEAR A UN DT POR LA FELICIDAD DE TU HIJO? + EL CASO DE WALTER BULACIO",
-    "date": "20260610",
-    "subtema": "Película 'El Día de la Revelación' de Steven Spielberg",
-    "contexto": "Se reprodujo un trailer del film que se estrena el 11 de junio, sobre extraterrestres",
-    "intensidad": 2,
-    "start_min": 40,
-    "t_seconds": 2400
    }
   ],
-  "highlights_total": 37,
+  "highlights_total": 38,
   "evidence_lane": "corroborated",
-  "audio_programs": 30,
+  "audio_programs": 31,
   "chat_signals": {
    "n_msgs": 70,
    "n_authors": 60,
@@ -2976,9 +2590,9 @@
     "t_seconds": 3000
    }
   ],
-  "highlights_total": 68,
+  "highlights_total": 71,
   "evidence_lane": "corroborated",
-  "audio_programs": 37,
+  "audio_programs": 39,
   "chat_signals": {
    "n_msgs": 123,
    "n_authors": 100,
@@ -3631,9 +3245,9 @@
     "t_seconds": 5400
    }
   ],
-  "highlights_total": 121,
+  "highlights_total": 122,
   "evidence_lane": "corroborated",
-  "audio_programs": 66,
+  "audio_programs": 67,
   "chat_signals": {
    "n_msgs": 164,
    "n_authors": 141,
@@ -3956,6 +3570,17 @@
     "t_seconds": 3000
    },
    {
+    "channel": "BLENDER",
+    "video_id": "gbs55KwjTeA",
+    "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+    "date": "20260630",
+    "subtema": "Restaurante en Miami - South Beach",
+    "contexto": "Martita está en un restaurante top de Miami en South Beach, Carbón, donde vienen celebridades, gasto de 2000 dólares para 6 personas",
+    "intensidad": 2,
+    "start_min": 20,
+    "t_seconds": 1200
+   },
+   {
     "channel": "LUZU TV",
     "video_id": "W5dvBDWCWWk",
     "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
@@ -3998,22 +3623,11 @@
     "intensidad": 2,
     "start_min": 0,
     "t_seconds": 0
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "2E9MjxyDU9o",
-    "title": "#LOSDELFONDO | SORTEAMOS LA CAMISETA DEL PURRETE 10, EL BÓXER DEL MITO NO DA MÁS, ANGELITA LA ROMPIÓ",
-    "date": "20260623",
-    "subtema": "Móvil desde Miami",
-    "contexto": "Se elogian y comentan detalles del móvil realizado, con entrevistas a jugadores y presencia del conductor 'Pollo'",
-    "intensidad": 2,
-    "start_min": 80,
-    "t_seconds": 4800
    }
   ],
-  "highlights_total": 97,
+  "highlights_total": 104,
   "evidence_lane": "corroborated",
-  "audio_programs": 35,
+  "audio_programs": 36,
   "chat_signals": {
    "n_msgs": 221,
    "n_authors": 179,
@@ -4508,40 +4122,46 @@
   }
  },
  {
-  "tema": "selección argentina",
-  "score": 73.3,
-  "trend_score": 28.77,
-  "menciones": 15,
+  "tema": "política argentina",
+  "score": 93.0,
+  "trend_score": 29.04,
+  "menciones": 20,
   "growth_wow": 1.0,
   "demand_ratio": 0.0,
   "demand_signals": 0,
   "canales": [
-   "GELATINA",
+   " A U R A ",
    "LUZU TV",
-   "OLGA",
-   "Vorterix"
+   "Neura Media",
+   "OLGA"
   ],
   "categorias": [
    "actividad",
    "cultura",
-   "lugar",
-   "persona"
+   "otro",
+   "persona",
+   "politica",
+   "política"
   ],
   "cross_comunidad": true,
   "multi_dia": true,
   "candidato": true,
   "serie": [
    {
-    "date": "27/06/2026",
-    "n": 15.077787412660927
+    "date": "25/06/2026",
+    "n": 2.0
+   },
+   {
+    "date": "26/06/2026",
+    "n": 3.5
    },
    {
     "date": "29/06/2026",
-    "n": 58.25278522898523
+    "n": 87.49375286222008
    }
   ],
   "gt_status": "ya_masivo",
-  "gt_lead_days": -20,
+  "gt_lead_days": -361,
   "gt_peak": 100,
   "cluster": null,
   "variantes_relacionadas": [],
@@ -4635,17 +4255,6 @@
     "t_seconds": 1200
    },
    {
-    "channel": "LUZU TV",
-    "video_id": "I_UCBhGYGhg",
-    "title": "#LANOVELA | MANTENER MENTIRAS EN EL TIEMPO Y CARI SE TOMO UN \"TE AMO\" EN LA TAZA DE DIEGO",
-    "date": "20260603",
-    "subtema": "Selección de canción para coreografía de cumpleaños",
-    "contexto": "Discuten varias opciones musicales para armar una coreografía de cumpleaños, incluyendo 'La Cachaca', 'YMCA', 'La Morocha de Lucra' y una canción custom de 'Mili mili mili'",
-    "intensidad": 3,
-    "start_min": 10,
-    "t_seconds": 600
-   },
-   {
     "channel": "OLGA",
     "video_id": "VphQnT79K00",
     "title": "LAS MUJERES Y EL FÚTBOL: LOS ESPACIOS CONQUISTADOS EN EL DEPORTE | #GolGana 3/6",
@@ -4677,17 +4286,6 @@
     "intensidad": 3,
     "start_min": 50,
     "t_seconds": 3000
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "Fp5-hk5vL8U",
-    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
-    "date": "20260611",
-    "subtema": "Selección de defensores para el Mundial",
-    "contexto": "Se analiza cómo las lesiones de Molina y Tagliafico impactan en las opciones defensivas, y cómo Scaloni maneja las decisiones sobre quién incluir (Senesi, Giai).",
-    "intensidad": 3,
-    "start_min": 20,
-    "t_seconds": 1200
    },
    {
     "channel": "OLGA",
@@ -4735,17 +4333,6 @@
    },
    {
     "channel": "OLGA",
-    "video_id": "LDTi8tvhNSc",
-    "title": "CÓMO SE PREPARA ARGENTINA DE CARA AL MUNDIAL | #GolGana 8/6",
-    "date": "20260608",
-    "subtema": "Selección técnica de Boca Jrs",
-    "contexto": "Debate sobre si el Vasco Arboleda es mejor opción técnica que otros candidatos como Uvea, Almirón o Diego Martínez porque no le debe nada a Riquelme",
-    "intensidad": 3,
-    "start_min": 100,
-    "t_seconds": 6000
-   },
-   {
-    "channel": "OLGA",
     "video_id": "8pR4K5V_6_s",
     "title": "¿QUÉ TAN PRINCESA SOS? | #TapadosDeLaburo 11/6",
     "date": "20260611",
@@ -4765,11 +4352,404 @@
     "intensidad": 3,
     "start_min": 20,
     "t_seconds": 1200
+   },
+   {
+    "channel": "Neura Media",
+    "video_id": "7ON4ZA5TtHc",
+    "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
+    "date": "20260626",
+    "subtema": "Riesgo país de Argentina",
+    "contexto": "Argentina está clasificada como stand-alone en acciones pero en índices de bonos emergentes; compresión del riesgo país a medida que se normaliza",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "e43Kc2KbppA",
+    "title": "#FMLUZU | CRIS TIRA LOS REGALOS DE SU EX + EL POLLO MASAJEA AL MITO EN VIVO",
+    "date": "20260603",
+    "subtema": "Femicidios en Argentina",
+    "contexto": "Reflexión sobre que una mujer muere cada 30 horas en el país; se mencionan casos de Agostina, Dulce María Beatriz Candia y Nuelia Carolina Romero",
+    "intensidad": 3,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "Neura Media",
+    "video_id": "XYJRLyO9exg",
+    "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
+    "date": "20260626",
+    "subtema": "Cultura del dinero en Argentina",
+    "contexto": "Argentina tiene educación financiera promedio de 8-12 años mentalmente, pensamiento bimonetario (pesos y dólar), falta de confianza en la moneda",
+    "intensidad": 3,
+    "start_min": 10,
+    "t_seconds": 600
    }
   ],
-  "highlights_total": 402,
+  "highlights_total": 343,
   "evidence_lane": "corroborated",
-  "audio_programs": 111,
+  "audio_programs": 112,
+  "chat_signals": {
+   "n_msgs": 514,
+   "n_authors": 395,
+   "programs": [
+    {
+     "video_id": "bYaixTloEdo",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 55,
+     "n_authors": 41,
+     "ejemplo": "cobarde presento La renuncia cuando se jugaba el partido de Argentina"
+    },
+    {
+     "video_id": "8XGdbbwUjEQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 43,
+     "n_authors": 30,
+     "ejemplo": "que venga a la argentina a manejar el coso ese... 3 cuadras dura"
+    },
+    {
+     "video_id": "FYdwwoHNrMs",
+     "channel": "Vorterix",
+     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+     "n_msgs": 21,
+     "n_authors": 18,
+     "ejemplo": "COMPLETAMENTE GRABADO, LOS MUCHACHOS ESTAN EN ARGENTINA EN ESTOS MOMENTOS"
+    },
+    {
+     "video_id": "NHt6oqHZYd0",
+     "channel": "GELATINA",
+     "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
+     "n_msgs": 20,
+     "n_authors": 18,
+     "ejemplo": "Argentina vs Cabo verde en unos dias"
+    },
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 19,
+     "n_authors": 18,
+     "ejemplo": "SI, SI.. ARGENTINA DONDE GANAN VOTACIONES Y NADIE SE HACE CARGO LO QUE VOTA.. HSDPS"
+    },
+    {
+     "video_id": "JNLpggdieek",
+     "channel": "Vorterix",
+     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+     "n_msgs": 18,
+     "n_authors": 16,
+     "ejemplo": "ADORNI NO LLEGÓ A LOS MEJORES MESES DE ARGENTINA"
+    },
+    {
+     "video_id": "WOYbd42V47w",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 19,
+     "n_authors": 15,
+     "ejemplo": "Y SE SUMA QUE EN LA SEMANA COMPARÓ A MESSI CON MBAPPE POR LA POLITICA"
+    },
+    {
+     "video_id": "WNe6QLgDfyM",
+     "channel": "OLGA",
+     "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+     "n_msgs": 16,
+     "n_authors": 15,
+     "ejemplo": "buen dia,se necesita dadores de sangre HOSPITAL MARIE CURIE oncologia, aveces Patricias Argentina 150 de 8 a 11hs.cama 209 peñaloza."
+    }
+   ],
+   "chat_only_programs": [
+    {
+     "video_id": "bYaixTloEdo",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 55,
+     "n_authors": 41,
+     "ejemplo": "cobarde presento La renuncia cuando se jugaba el partido de Argentina"
+    },
+    {
+     "video_id": "8XGdbbwUjEQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 43,
+     "n_authors": 30,
+     "ejemplo": "que venga a la argentina a manejar el coso ese... 3 cuadras dura"
+    },
+    {
+     "video_id": "WOYbd42V47w",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 19,
+     "n_authors": 15,
+     "ejemplo": "Y SE SUMA QUE EN LA SEMANA COMPARÓ A MESSI CON MBAPPE POR LA POLITICA"
+    }
+   ]
+  }
+ },
+ {
+  "tema": "selección argentina",
+  "score": 73.3,
+  "trend_score": 28.77,
+  "menciones": 15,
+  "growth_wow": 1.0,
+  "demand_ratio": 0.0,
+  "demand_signals": 0,
+  "canales": [
+   "GELATINA",
+   "LUZU TV",
+   "OLGA",
+   "Vorterix"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura",
+   "lugar",
+   "persona"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "27/06/2026",
+    "n": 15.077787412660927
+   },
+   {
+    "date": "29/06/2026",
+    "n": 58.25278522898523
+   }
+  ],
+  "gt_status": "ya_masivo",
+  "gt_lead_days": -20,
+  "gt_peak": 100,
+  "cluster": null,
+  "variantes_relacionadas": [],
+  "highlights": [
+   {
+    "channel": "LUZU TV",
+    "video_id": "I_UCBhGYGhg",
+    "title": "#LANOVELA | MANTENER MENTIRAS EN EL TIEMPO Y CARI SE TOMO UN \"TE AMO\" EN LA TAZA DE DIEGO",
+    "date": "20260603",
+    "subtema": "Selección de canción para coreografía de cumpleaños",
+    "contexto": "Discuten varias opciones musicales para armar una coreografía de cumpleaños, incluyendo 'La Cachaca', 'YMCA', 'La Morocha de Lucra' y una canción custom de 'Mili mili mili'",
+    "intensidad": 3,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "Fp5-hk5vL8U",
+    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
+    "date": "20260611",
+    "subtema": "Selección de defensores para el Mundial",
+    "contexto": "Se analiza cómo las lesiones de Molina y Tagliafico impactan en las opciones defensivas, y cómo Scaloni maneja las decisiones sobre quién incluir (Senesi, Giai).",
+    "intensidad": 3,
+    "start_min": 20,
+    "t_seconds": 1200
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "LDTi8tvhNSc",
+    "title": "CÓMO SE PREPARA ARGENTINA DE CARA AL MUNDIAL | #GolGana 8/6",
+    "date": "20260608",
+    "subtema": "Selección técnica de Boca Jrs",
+    "contexto": "Debate sobre si el Vasco Arboleda es mejor opción técnica que otros candidatos como Uvea, Almirón o Diego Martínez porque no le debe nada a Riquelme",
+    "intensidad": 3,
+    "start_min": 100,
+    "t_seconds": 6000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "KoYLJOd9qyo",
+    "title": "#FMLUZU | CRIS Y LA GURI INSPIRAN A MARGELA + LA COLUMNA DE FLACA SOBRE CABO VERDE",
+    "date": "20260623",
+    "subtema": "Selección Cabo Verde Mundial",
+    "contexto": "Análisis extenso sobre Cabo Verde como revelación del torneo, su primer mundial, jugadores convocados por LinkedIn, historias de los futbolistas",
+    "intensidad": 3,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "OMoimQeA_Ec",
+    "title": "#FMLUZU | PALPITAMOS LA PREVIA DEL MUNDIAL + LA GURI CHAPA EN VIVO",
+    "date": "20260610",
+    "subtema": "Clima mundialista y confianza en la selección",
+    "contexto": "Múltiples conversaciones sobre si hay hambre mundialista, si ganaron y ya está, confianza para la cuarta, necesidad de llevar arenga a Argentina",
+    "intensidad": 3,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "b5MhH0NHJUo",
+    "title": "#ANTESQUENADIE | ¿ESTÁ MAL COIMEAR A UN DT POR LA FELICIDAD DE TU HIJO? + EL CASO DE WALTER BULACIO",
+    "date": "20260610",
+    "subtema": "Selección de ingredientes de picada comparada con futbolistas",
+    "contexto": "Debate lúdico equiparando ingredientes de picada con posiciones de la selección argentina: queso como Messi, aceitunas como Enzo Fernández, etc.",
+    "intensidad": 3,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "Fp5-hk5vL8U",
+    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
+    "date": "20260611",
+    "subtema": "Selección de Uruguay en Mundiales",
+    "contexto": "Análisis de Uruguay como posible revelación del Mundial, con Bielsa como técnico, jugadores como Valverde y Araujo, y estado actual del equipo",
+    "intensidad": 3,
+    "start_min": 100,
+    "t_seconds": 6000
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "DOYPp2Pqjvg",
+    "title": "CINE Y FÚTBOL con ARIEL STALTARI | #LaGambeta 1/6",
+    "date": "20260601",
+    "subtema": "Selección de fútbol uruguaya en mundiales",
+    "contexto": "Análisis sobre Uruguay con Marcelo Bielsa, predicción de que perder el primer partido trae suerte, comparación histórica con otros mundiales",
+    "intensidad": 3,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "bX7MB2_OI2I",
+    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+    "date": "20260623",
+    "subtema": "Renuncia de Messi a la selección (2016)",
+    "contexto": "Se repasa el momento en que Messi anuncia su retiro de la selección tras perder las finales de Copa América, con videos de su declaración",
+    "intensidad": 3,
+    "start_min": 180,
+    "t_seconds": 10800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "Fp5-hk5vL8U",
+    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
+    "date": "20260611",
+    "subtema": "Alternativas laterales izquierdos en la selección",
+    "contexto": "Se discutió sobre posibles reemplazantes de Tagliafico: Nico González (tocado), Lisandro Martínez, Facundo Medina y Barco como opciones",
+    "intensidad": 3,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "8lOkxIDSd4w",
+    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+    "date": "20260623",
+    "subtema": "Selección de Curaçao - Mundial",
+    "contexto": "Análisis detallado de la selección de Curaçao, su clasificación histórica, primer gol en mundiales y actitud festiva en la competición",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "aeyaHqA4ByI",
+    "title": "#NADIEDICENADA | ¿FLOR SE INDIGNÓ CON UNA OYENTE? Y TODOS NOS PREPARAMOS PARA MIAMI Y EL MUNDIAL",
+    "date": "20260611",
+    "subtema": "Selección de Cabo Verde en el Mundial",
+    "contexto": "Plan de bancar a Cabo Verde como equipo B del stream, viajar a Miami para cubrir entrenamientos y llevar productos argentinos",
+    "intensidad": 3,
+    "start_min": 90,
+    "t_seconds": 5400
+   },
+   {
+    "channel": "GELATINA",
+    "video_id": "vlNZMMmBbLw",
+    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+    "date": "20260629",
+    "subtema": "Selección de Cabo Verde - análisis y sorpresa",
+    "contexto": "Cabo Verde como sorpresa del Mundial, 15 partidos sin perder (solo 1 derrota vs Chile), cuarto finalista Copa de África 2024",
+    "intensidad": 3,
+    "start_min": 140,
+    "t_seconds": 8400
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "date": "20260626",
+    "subtema": "Fútbol - Mundial y Selección",
+    "contexto": "Conversación sobre ver partidos de la selección con intensidad y pasión, queriendo llegar a la final y traer la cuarta copa",
+    "intensidad": 3,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "Fp5-hk5vL8U",
+    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
+    "date": "20260611",
+    "subtema": "Lisandro Martínez como lateral izquierdo de la selección",
+    "contexto": "Análisis de Lisandro Martínez como posible reemplazante de Tagliafico en el puesto de 3, comparando técnica y defensa",
+    "intensidad": 3,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
+    "channel": "Vorterix",
+    "video_id": "FYdwwoHNrMs",
+    "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+    "date": "20260626",
+    "subtema": "Marcelo Bielsa y conflicto en selección Uruguay",
+    "contexto": "Discusión sobre reunión entre jugadores y Bielsa, pedido de jugar en bloque bajo vs espejo, filtraciones a prensa",
+    "intensidad": 3,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "NKhi31a86K8",
+    "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+    "date": "20260623",
+    "subtema": "Inclusión de Suárez en selección Uruguay",
+    "contexto": "Debate sobre si Bielsa debe convocar a Luis Suárez para los partidos contra España y si puede jugar 10-15 minutos",
+    "intensidad": 3,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "LDTi8tvhNSc",
+    "title": "CÓMO SE PREPARA ARGENTINA DE CARA AL MUNDIAL | #GolGana 8/6",
+    "date": "20260608",
+    "subtema": "Selección de Brasil y su candidatura al Mundial",
+    "contexto": "Análisis extenso sobre Brasil como candidato, su técnico Ancelotti, Neymar, Vinicius Junior y otros jugadores",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "0SzxfcU-x6w",
+    "title": "LUCAS SE OFENDE Y ABANDONA OLGA | #SoñéQueVolaba 3/6",
+    "date": "20260603",
+    "subtema": "Cabo Verde como selección debutante",
+    "contexto": "Archipiélago africano de 10 islas que debuta por primera vez en un mundial, con apodo 'Los Tiburones Azules'",
+    "intensidad": 3,
+    "start_min": 90,
+    "t_seconds": 5400
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "RZ3T2ScqCAE",
+    "title": "#ANTESQUENADIE | ¿ALGUIEN TIENE OLOR A PELO? Y EL TRINCHE SE SACA COMO NUNCA ANTES",
+    "date": "20260611",
+    "subtema": "contactos de emergencia y criterios de selección",
+    "contexto": "Debate sobre a quién poner como contacto de emergencia en viajes y cómo reaccionan ante situaciones graves",
+    "intensidad": 3,
+    "start_min": 30,
+    "t_seconds": 1800
+   }
+  ],
+  "highlights_total": 66,
+  "evidence_lane": "corroborated",
+  "audio_programs": 113,
   "chat_signals": {
    "n_msgs": 493,
    "n_authors": 383,
@@ -5410,6 +5390,377 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "anacleta, te hace mal este consumo"
+    }
+   ]
+  }
+ },
+ {
+  "tema": "fútbol argentino",
+  "score": 34.9,
+  "trend_score": 28.3,
+  "menciones": 9,
+  "growth_wow": 1.0,
+  "demand_ratio": 0.0,
+  "demand_signals": 0,
+  "canales": [
+   " A U R A ",
+   "BLENDER",
+   "OLGA",
+   "Vorterix"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura",
+   "persona"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "23/06/2026",
+    "n": 2.2265915836480445
+   },
+   {
+    "date": "24/06/2026",
+    "n": 6.0753121217551485
+   },
+   {
+    "date": "26/06/2026",
+    "n": 6.52300815283914
+   },
+   {
+    "date": "29/06/2026",
+    "n": 12.553336314536283
+   },
+   {
+    "date": "30/06/2026",
+    "n": 7.48953270420237
+   }
+  ],
+  "gt_status": "ya_masivo",
+  "gt_lead_days": -345,
+  "gt_peak": 100,
+  "cluster": null,
+  "variantes_relacionadas": [],
+  "highlights": [
+   {
+    "channel": "OLGA",
+    "video_id": "XHV2BV9DWMs",
+    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+    "date": "20260619",
+    "subtema": "Resultados de partidos de fútbol (mundial)",
+    "contexto": "Se discutieron múltiples resultados de partidos: Escocia-Marruecos, Brasil-Haití, Turquía-Paraguay, Países Bajos-Suecia, Alemania-Costa de Marfil, Ecuador-Curaçao, España-Arabia Saudita, Bélgica-Irán, Uruguay-Cabo Verde,",
+    "intensidad": 3,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "b5MhH0NHJUo",
+    "title": "#ANTESQUENADIE | ¿ESTÁ MAL COIMEAR A UN DT POR LA FELICIDAD DE TU HIJO? + EL CASO DE WALTER BULACIO",
+    "date": "20260610",
+    "subtema": "Copa Mundial de Fútbol 2026",
+    "contexto": "Conversación sobre la apertura del mundial que arranca mañana a las 14:30 con triple ceremonia inaugural en México, Canadá y Estados Unidos. Se menciona también el mundial 2030 que se haría en Sudamérica.",
+    "intensidad": 3,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "4WnW6HfmSvo",
+    "title": "¿LLEGA DIBU MARTÍNEZ AL DEBUT CON ARGENTINA? | #GolGana 1/6",
+    "date": "20260601",
+    "subtema": "Nuevas reglas del fútbol en el Mundial",
+    "contexto": "Análisis detallado de reglas nuevas: saques en 5 segundos, sustituciones en 10 segundos con minuto de penalización, VAR ampliado, lesiones con 60 segundos. Debate sobre si se implementarán realmente",
+    "intensidad": 3,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "_nXe8cJmDFk",
+    "title": "FESTEJAMOS EL PRE CUMPLE DE EVE | #MiPrimoEsAsí 11/6",
+    "date": "20260611",
+    "subtema": "Fútbol y eventos mundialísticos",
+    "contexto": "Debate sobre si seguir un partido de México-Sudáfrica durante el Mundial y presión de cúpulas heteropatriarcales para que el programa no sea emitido por competencia con eventos deportivos",
+    "intensidad": 3,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "6COldxwUDK8",
+    "title": "HOY NOS ESTALLAMOS con ANTONIO RÍOS y CHANCHI ESTÉVEZ | #LaGambeta",
+    "date": "20260608",
+    "subtema": "Liga de fútbol de Turkmenistán",
+    "contexto": "Se discutió sobre la liga de fútbol de Turkmenistán, un país en Asia Central independizado en 1991, y cómo la familia Verdi-Muhamedov influenció las instituciones deportivas",
+    "intensidad": 3,
+    "start_min": 70,
+    "t_seconds": 4200
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "RZ3T2ScqCAE",
+    "title": "#ANTESQUENADIE | ¿ALGUIEN TIENE OLOR A PELO? Y EL TRINCHE SE SACA COMO NUNCA ANTES",
+    "date": "20260611",
+    "subtema": "Publicidad de Tays Sports sobre Mundial de Fútbol",
+    "contexto": "Se discute extensamente una publicidad de Tays Sports que juega con el concepto de que el fútbol le debe mundiales a Messi, con un diálogo entre un periodista y un hincha",
+    "intensidad": 3,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "Fp5-hk5vL8U",
+    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
+    "date": "20260611",
+    "subtema": "Cambios de formato en torneos de fútbol (más equipos)",
+    "contexto": "Discusión sobre cómo los torneos con más equipos resultan en partidos de menor calidad, mencionando Mundial de Clubes, Copa Libertadores con 30 equipos en Argentina, MLS",
+    "intensidad": 3,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "2E9MjxyDU9o",
+    "title": "#LOSDELFONDO | SORTEAMOS LA CAMISETA DEL PURRETE 10, EL BÓXER DEL MITO NO DA MÁS, ANGELITA LA ROMPIÓ",
+    "date": "20260623",
+    "subtema": "Mundial de Fútbol",
+    "contexto": "Se discute el clima mundialista, la convivencia de hinchas de diferentes países (escoceses, ingleses, brasileros, argentinos, uruguayos) en armonía durante el torneo",
+    "intensidad": 3,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "VphQnT79K00",
+    "title": "LAS MUJERES Y EL FÚTBOL: LOS ESPACIOS CONQUISTADOS EN EL DEPORTE | #GolGana 3/6",
+    "date": "20260603",
+    "subtema": "Fútbol femenino e inclusión",
+    "contexto": "Comparación del ambiente más inclusivo, diverso y amigable del fútbol femenino respecto al masculino, con mayor apertura a colectivos feministas y jugadoras LGBTQ+",
+    "intensidad": 3,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "WCdVYizlDYA",
+    "title": "⚽️ GOLGANA con AZZ: Flavio Azzaro, Chute D'attellis, Benito, Sangre y Mouche | OLGA EN VIVO 2026-06-29 14:53",
+    "date": "20260629",
+    "subtema": "Fixture mundial de fútbol",
+    "contexto": "Se mencionan partidos de la fecha: Alemania vs Paraguay, Países Bajos vs Marruecos, Brasil ganó, Francia vs Suecia, Costa Marfil vs Noruega, México vs Ecuador",
+    "intensidad": 3,
+    "start_min": 100,
+    "t_seconds": 6000
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "Vmo-2tGYPYg",
+    "title": "CHISMES QUE JAMÁS LE CONTASTE A NADIE | #TDT 4/6",
+    "date": "20260604",
+    "subtema": "Historias de esfuerzo familiar en el fútbol profesional",
+    "contexto": "Se conversó sobre el sacrificio de las familias para que los jugadores lleguen a la selección y al mundial, el caso de Enzo Fernández y su gol contra Brasil",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "VphQnT79K00",
+    "title": "LAS MUJERES Y EL FÚTBOL: LOS ESPACIOS CONQUISTADOS EN EL DEPORTE | #GolGana 3/6",
+    "date": "20260603",
+    "subtema": "Discriminación de mujeres en fútbol profesional",
+    "contexto": "Análisis de doble estándar: mujeres criticadas por verse femeninas o masculinas en el fútbol, a diferencia de hombres que no reciben crítica por su estética",
+    "intensidad": 3,
+    "start_min": 70,
+    "t_seconds": 4200
+   },
+   {
+    "channel": "BLENDER",
+    "video_id": "C6BZb4k8gF0",
+    "title": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
+    "date": "20260624",
+    "subtema": "Boicot al fútbol por cuestiones políticas y derechos humanos",
+    "contexto": "Fernando explica por qué no mira partidos de Estados Unidos ni el Mundial de Qatar por masacres de obreros en construcción de estadios y política exterior",
+    "intensidad": 3,
+    "start_min": 20,
+    "t_seconds": 1200
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "CGxGXCw8BVE",
+    "title": "#PATRIAYFAMILIA l OCCHIATO NOS DA LA NOTICIA ESPERADA Y BAD GYAL EN VIVO",
+    "date": "20260610",
+    "subtema": "Prode de fútbol y predicciones",
+    "contexto": "Debate sobre si llenar un Prode siendo extranjero obliga a poner que gana Argentina, y cómo se construye la predicción según lo que ves de otros equipos",
+    "intensidad": 3,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "aeyaHqA4ByI",
+    "title": "#NADIEDICENADA | ¿FLOR SE INDIGNÓ CON UNA OYENTE? Y TODOS NOS PREPARAMOS PARA MIAMI Y EL MUNDIAL",
+    "date": "20260611",
+    "subtema": "Música oficial del Mundial de Fútbol",
+    "contexto": "Se discutió sobre las canciones oficiales de Mundiales pasados y la actual, incluyendo 'Tití Me Preguntó', 'La Yaquira', y temas de Shakira y Bizarrap",
+    "intensidad": 3,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "HV3dxHqU_mw",
+    "title": "APASIONANTE DUELO DE CIUDADES en el MUNDIALITO | #SoñéQueVolaba 8/6",
+    "date": "20260608",
+    "subtema": "Tecnología de detección de offside en fútbol",
+    "contexto": "Discusión sobre cómo mejoró el software para detectar posiciones adelantadas, usando modelos de maniquíes sin accesorios que confundan al algoritmo",
+    "intensidad": 3,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "IZNfx1Rc9go",
+    "title": "EL EXTRAÑO CASO TIM PAYNE: DE DESCONOCIDO A FIGURA | #TapadosDeLaburo 29/5",
+    "date": "20260529",
+    "subtema": "Mundial de fútbol",
+    "contexto": "Discusión sobre el desempeño de Tim Payne en el Mundial, partidos contra Irán, Bélgica y Egipto, y la importancia de llegar lejos en la competencia",
+    "intensidad": 3,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "cEWsZ9vbiCg",
+    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+    "date": "20260629",
+    "subtema": "Fútbol - Torneo mata-mata",
+    "contexto": "Análisis de partidos de un torneo con sistema de eliminación directa, mencionan Brasil-Japón, Francia-Suecia, posibles enfrentamientos de Argentina",
+    "intensidad": 3,
+    "start_min": 190,
+    "t_seconds": 11400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "aQS2rjKg6SU",
+    "title": "CURIOSIDADES EN LA CARRERA DE LIONEL ANDRÉS MESSI | #GolGana 10/6",
+    "date": "20260610",
+    "subtema": "Retiro de jugadores de fútbol",
+    "contexto": "Discusión sobre el dolor emocional que genera el retiro de grandes jugadores como Ronaldinho, Riquelme, Ibrahimovic y la posible retirada de Messi",
+    "intensidad": 3,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "DOYPp2Pqjvg",
+    "title": "CINE Y FÚTBOL con ARIEL STALTARI | #LaGambeta 1/6",
+    "date": "20260601",
+    "subtema": "Cábalas y rituales en mundiales de fútbol",
+    "contexto": "Relatos detallados sobre mantener cábalas durante partidos: sentarse en el mismo lugar, comer lo mismo, respetar rituales para que gane Argentina",
+    "intensidad": 3,
+    "start_min": 30,
+    "t_seconds": 1800
+   }
+  ],
+  "highlights_total": 323,
+  "evidence_lane": "corroborated",
+  "audio_programs": 116,
+  "chat_signals": {
+   "n_msgs": 293,
+   "n_authors": 245,
+   "programs": [
+    {
+     "video_id": "IB9cCJT0-_M",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 21,
+     "n_authors": 19,
+     "ejemplo": "NA YO AMO EL FÚTBOL Y LO MIRO TODO EL AÑO PERO NO POR ESO ME QUEDO MUDA"
+    },
+    {
+     "video_id": "e3av_6yqgHg",
+     "channel": "OLGA",
+     "title": "NOS SOMETEMOS AL CASCO DE LA VERDAD | #SoñéQueVolaba 29/6",
+     "n_msgs": 18,
+     "n_authors": 15,
+     "ejemplo": "@ franklin el pueblo Argentino está con ustedes"
+    },
+    {
+     "video_id": "bYaixTloEdo",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 16,
+     "n_authors": 15,
+     "ejemplo": "EL saquito es ARgentino... ARgentino... el saquito es ARgentino"
+    },
+    {
+     "video_id": "WOYbd42V47w",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 17,
+     "n_authors": 13,
+     "ejemplo": "Bielsa es Argentino"
+    },
+    {
+     "video_id": "bX7MB2_OI2I",
+     "channel": "OLGA",
+     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "n_msgs": 16,
+     "n_authors": 13,
+     "ejemplo": "Noly fue a Canadá por lo del futbol"
+    },
+    {
+     "video_id": "FYdwwoHNrMs",
+     "channel": "Vorterix",
+     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+     "n_msgs": 15,
+     "n_authors": 11,
+     "ejemplo": "HARRY POTTER SABE DE FÚTBOL CHE!"
+    },
+    {
+     "video_id": "XHV2BV9DWMs",
+     "channel": "OLGA",
+     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+     "n_msgs": 12,
+     "n_authors": 11,
+     "ejemplo": "migue tiene menos futbol que una chancleta pero tiene razon"
+    },
+    {
+     "video_id": "LjEHjrbNNgs",
+     "channel": "Vorterix",
+     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+     "n_msgs": 11,
+     "n_authors": 11,
+     "ejemplo": "Es el peso del stream argentino en tus hombros guille"
+    }
+   ],
+   "chat_only_programs": [
+    {
+     "video_id": "IB9cCJT0-_M",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 21,
+     "n_authors": 19,
+     "ejemplo": "NA YO AMO EL FÚTBOL Y LO MIRO TODO EL AÑO PERO NO POR ESO ME QUEDO MUDA"
+    },
+    {
+     "video_id": "bYaixTloEdo",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 16,
+     "n_authors": 15,
+     "ejemplo": "EL saquito es ARgentino... ARgentino... el saquito es ARgentino"
+    },
+    {
+     "video_id": "WOYbd42V47w",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 17,
+     "n_authors": 13,
+     "ejemplo": "Bielsa es Argentino"
     }
    ]
   }
@@ -6647,17 +6998,6 @@
     "video_id": "d2xRtbOTSQQ",
     "title": "UNA BRUJA y ANDI SEMENTI ADIVINAN el FUTURO | #SoñéQueVolaba 2/6",
     "date": "20260602",
-    "subtema": "Estadios de fútbol para Copa del Mundo 2026",
-    "contexto": "Se analizan en detalle varios estadios que serán sede de la Copa del Mundo 2026 en Estados Unidos",
-    "intensidad": 3,
-    "start_min": 50,
-    "t_seconds": 3000
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "d2xRtbOTSQQ",
-    "title": "UNA BRUJA y ANDI SEMENTI ADIVINAN el FUTURO | #SoñéQueVolaba 2/6",
-    "date": "20260602",
     "subtema": "Nombres de marcas en estadios",
     "contexto": "Se discute sobre la práctica de nombrar estadios con marcas comerciales como Staples Center, American Airlines, y cómo esto le quita espíritu a los lugares",
     "intensidad": 2,
@@ -6765,17 +7105,6 @@
    },
    {
     "channel": "OLGA",
-    "video_id": "4WnW6HfmSvo",
-    "title": "¿LLEGA DIBU MARTÍNEZ AL DEBUT CON ARGENTINA? | #GolGana 1/6",
-    "date": "20260601",
-    "subtema": "Césped sintético de estadios NFL vs reglamentario de fútbol",
-    "contexto": "Discusión sobre mezcla de césped sintético NFL con césped de fútbol que afecta el comportamiento de la pelota",
-    "intensidad": 2,
-    "start_min": 0,
-    "t_seconds": 0
-   },
-   {
-    "channel": "OLGA",
     "video_id": "9ucd7zkq6P8",
     "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
     "date": "20260626",
@@ -6817,9 +7146,31 @@
     "intensidad": 2,
     "start_min": 10,
     "t_seconds": 600
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "bQfYZ3sfUYc",
+    "title": "LA NOVELA con CARINA ZAMPINI, DIEGO CASTRO, GABY SCHULTZ Y AGUS BATTIONI | EN VIVO",
+    "date": "20260624",
+    "subtema": "Experiencias en estadios",
+    "contexto": "Menciona pisar el campo de juego con Rexona, ver partido de Austria",
+    "intensidad": 2,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "BLENDER",
+    "video_id": "C6BZb4k8gF0",
+    "title": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
+    "date": "20260624",
+    "subtema": "Logística de buses para estadios",
+    "contexto": "Explicación de transporte a la cancha incluido con entrada, tiempo de espera y recomendación de llegar 3 horas antes",
+    "intensidad": 1,
+    "start_min": 90,
+    "t_seconds": 5400
    }
   ],
-  "highlights_total": 30,
+  "highlights_total": 28,
   "evidence_lane": "corroborated",
   "audio_programs": 14,
   "chat_signals": {
@@ -7628,149 +7979,6 @@
   }
  },
  {
-  "tema": "política argentina",
-  "score": 89.0,
-  "trend_score": 27.39,
-  "menciones": 17,
-  "growth_wow": 1.0,
-  "demand_ratio": 0.0,
-  "demand_signals": 0,
-  "canales": [
-   " A U R A ",
-   "LUZU TV",
-   "OLGA"
-  ],
-  "categorias": [
-   "actividad",
-   "cultura",
-   "otro",
-   "persona",
-   "política"
-  ],
-  "cross_comunidad": true,
-  "multi_dia": true,
-  "candidato": true,
-  "serie": [
-   {
-    "date": "25/06/2026",
-    "n": 2.0
-   },
-   {
-    "date": "26/06/2026",
-    "n": 3.5
-   },
-   {
-    "date": "29/06/2026",
-    "n": 83.49375286222008
-   }
-  ],
-  "gt_status": "ya_masivo",
-  "gt_lead_days": -361,
-  "gt_peak": 100,
-  "cluster": null,
-  "variantes_relacionadas": [],
-  "highlights": [],
-  "highlights_total": 0,
-  "evidence_lane": "corroborated",
-  "audio_programs": 110,
-  "chat_signals": {
-   "n_msgs": 514,
-   "n_authors": 395,
-   "programs": [
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 55,
-     "n_authors": 41,
-     "ejemplo": "cobarde presento La renuncia cuando se jugaba el partido de Argentina"
-    },
-    {
-     "video_id": "8XGdbbwUjEQ",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 43,
-     "n_authors": 30,
-     "ejemplo": "que venga a la argentina a manejar el coso ese... 3 cuadras dura"
-    },
-    {
-     "video_id": "FYdwwoHNrMs",
-     "channel": "Vorterix",
-     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
-     "n_msgs": 21,
-     "n_authors": 18,
-     "ejemplo": "COMPLETAMENTE GRABADO, LOS MUCHACHOS ESTAN EN ARGENTINA EN ESTOS MOMENTOS"
-    },
-    {
-     "video_id": "NHt6oqHZYd0",
-     "channel": "GELATINA",
-     "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
-     "n_msgs": 20,
-     "n_authors": 18,
-     "ejemplo": "Argentina vs Cabo verde en unos dias"
-    },
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 19,
-     "n_authors": 18,
-     "ejemplo": "SI, SI.. ARGENTINA DONDE GANAN VOTACIONES Y NADIE SE HACE CARGO LO QUE VOTA.. HSDPS"
-    },
-    {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 18,
-     "n_authors": 16,
-     "ejemplo": "ADORNI NO LLEGÓ A LOS MEJORES MESES DE ARGENTINA"
-    },
-    {
-     "video_id": "WOYbd42V47w",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 19,
-     "n_authors": 15,
-     "ejemplo": "Y SE SUMA QUE EN LA SEMANA COMPARÓ A MESSI CON MBAPPE POR LA POLITICA"
-    },
-    {
-     "video_id": "WNe6QLgDfyM",
-     "channel": "OLGA",
-     "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
-     "n_msgs": 16,
-     "n_authors": 15,
-     "ejemplo": "buen dia,se necesita dadores de sangre HOSPITAL MARIE CURIE oncologia, aveces Patricias Argentina 150 de 8 a 11hs.cama 209 peñaloza."
-    }
-   ],
-   "chat_only_programs": [
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 55,
-     "n_authors": 41,
-     "ejemplo": "cobarde presento La renuncia cuando se jugaba el partido de Argentina"
-    },
-    {
-     "video_id": "8XGdbbwUjEQ",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 43,
-     "n_authors": 30,
-     "ejemplo": "que venga a la argentina a manejar el coso ese... 3 cuadras dura"
-    },
-    {
-     "video_id": "WOYbd42V47w",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 19,
-     "n_authors": 15,
-     "ejemplo": "Y SE SUMA QUE EN LA SEMANA COMPARÓ A MESSI CON MBAPPE POR LA POLITICA"
-    }
-   ]
-  }
- },
- {
   "tema": "concierto lali",
   "score": 44.5,
   "trend_score": 26.58,
@@ -8148,372 +8356,6 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "opinion de viejo choto grabar TODO el concierto"
-    }
-   ]
-  }
- },
- {
-  "tema": "fútbol argentino",
-  "score": 27.4,
-  "trend_score": 26.58,
-  "menciones": 7,
-  "growth_wow": 1.0,
-  "demand_ratio": 0.0,
-  "demand_signals": 0,
-  "canales": [
-   " A U R A ",
-   "OLGA",
-   "Vorterix"
-  ],
-  "categorias": [
-   "actividad",
-   "cultura",
-   "persona"
-  ],
-  "cross_comunidad": true,
-  "multi_dia": true,
-  "candidato": true,
-  "serie": [
-   {
-    "date": "23/06/2026",
-    "n": 2.2265915836480445
-   },
-   {
-    "date": "24/06/2026",
-    "n": 6.0753121217551485
-   },
-   {
-    "date": "26/06/2026",
-    "n": 6.52300815283914
-   },
-   {
-    "date": "29/06/2026",
-    "n": 12.553336314536283
-   }
-  ],
-  "gt_status": "ya_masivo",
-  "gt_lead_days": -345,
-  "gt_peak": 100,
-  "cluster": null,
-  "variantes_relacionadas": [],
-  "highlights": [
-   {
-    "channel": "OLGA",
-    "video_id": "XHV2BV9DWMs",
-    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "date": "20260619",
-    "subtema": "Resultados de partidos de fútbol (mundial)",
-    "contexto": "Se discutieron múltiples resultados de partidos: Escocia-Marruecos, Brasil-Haití, Turquía-Paraguay, Países Bajos-Suecia, Alemania-Costa de Marfil, Ecuador-Curaçao, España-Arabia Saudita, Bélgica-Irán, Uruguay-Cabo Verde,",
-    "intensidad": 3,
-    "start_min": 80,
-    "t_seconds": 4800
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "b5MhH0NHJUo",
-    "title": "#ANTESQUENADIE | ¿ESTÁ MAL COIMEAR A UN DT POR LA FELICIDAD DE TU HIJO? + EL CASO DE WALTER BULACIO",
-    "date": "20260610",
-    "subtema": "Copa Mundial de Fútbol 2026",
-    "contexto": "Conversación sobre la apertura del mundial que arranca mañana a las 14:30 con triple ceremonia inaugural en México, Canadá y Estados Unidos. Se menciona también el mundial 2030 que se haría en Sudamérica.",
-    "intensidad": 3,
-    "start_min": 0,
-    "t_seconds": 0
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "4WnW6HfmSvo",
-    "title": "¿LLEGA DIBU MARTÍNEZ AL DEBUT CON ARGENTINA? | #GolGana 1/6",
-    "date": "20260601",
-    "subtema": "Nuevas reglas del fútbol en el Mundial",
-    "contexto": "Análisis detallado de reglas nuevas: saques en 5 segundos, sustituciones en 10 segundos con minuto de penalización, VAR ampliado, lesiones con 60 segundos. Debate sobre si se implementarán realmente",
-    "intensidad": 3,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "_nXe8cJmDFk",
-    "title": "FESTEJAMOS EL PRE CUMPLE DE EVE | #MiPrimoEsAsí 11/6",
-    "date": "20260611",
-    "subtema": "Fútbol y eventos mundialísticos",
-    "contexto": "Debate sobre si seguir un partido de México-Sudáfrica durante el Mundial y presión de cúpulas heteropatriarcales para que el programa no sea emitido por competencia con eventos deportivos",
-    "intensidad": 3,
-    "start_min": 0,
-    "t_seconds": 0
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "6COldxwUDK8",
-    "title": "HOY NOS ESTALLAMOS con ANTONIO RÍOS y CHANCHI ESTÉVEZ | #LaGambeta",
-    "date": "20260608",
-    "subtema": "Liga de fútbol de Turkmenistán",
-    "contexto": "Se discutió sobre la liga de fútbol de Turkmenistán, un país en Asia Central independizado en 1991, y cómo la familia Verdi-Muhamedov influenció las instituciones deportivas",
-    "intensidad": 3,
-    "start_min": 70,
-    "t_seconds": 4200
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "RZ3T2ScqCAE",
-    "title": "#ANTESQUENADIE | ¿ALGUIEN TIENE OLOR A PELO? Y EL TRINCHE SE SACA COMO NUNCA ANTES",
-    "date": "20260611",
-    "subtema": "Publicidad de Tays Sports sobre Mundial de Fútbol",
-    "contexto": "Se discute extensamente una publicidad de Tays Sports que juega con el concepto de que el fútbol le debe mundiales a Messi, con un diálogo entre un periodista y un hincha",
-    "intensidad": 3,
-    "start_min": 0,
-    "t_seconds": 0
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "Fp5-hk5vL8U",
-    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
-    "date": "20260611",
-    "subtema": "Cambios de formato en torneos de fútbol (más equipos)",
-    "contexto": "Discusión sobre cómo los torneos con más equipos resultan en partidos de menor calidad, mencionando Mundial de Clubes, Copa Libertadores con 30 equipos en Argentina, MLS",
-    "intensidad": 3,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "2E9MjxyDU9o",
-    "title": "#LOSDELFONDO | SORTEAMOS LA CAMISETA DEL PURRETE 10, EL BÓXER DEL MITO NO DA MÁS, ANGELITA LA ROMPIÓ",
-    "date": "20260623",
-    "subtema": "Mundial de Fútbol",
-    "contexto": "Se discute el clima mundialista, la convivencia de hinchas de diferentes países (escoceses, ingleses, brasileros, argentinos, uruguayos) en armonía durante el torneo",
-    "intensidad": 3,
-    "start_min": 80,
-    "t_seconds": 4800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "VphQnT79K00",
-    "title": "LAS MUJERES Y EL FÚTBOL: LOS ESPACIOS CONQUISTADOS EN EL DEPORTE | #GolGana 3/6",
-    "date": "20260603",
-    "subtema": "Fútbol femenino e inclusión",
-    "contexto": "Comparación del ambiente más inclusivo, diverso y amigable del fútbol femenino respecto al masculino, con mayor apertura a colectivos feministas y jugadoras LGBTQ+",
-    "intensidad": 3,
-    "start_min": 80,
-    "t_seconds": 4800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "WCdVYizlDYA",
-    "title": "⚽️ GOLGANA con AZZ: Flavio Azzaro, Chute D'attellis, Benito, Sangre y Mouche | OLGA EN VIVO 2026-06-29 14:53",
-    "date": "20260629",
-    "subtema": "Fixture mundial de fútbol",
-    "contexto": "Se mencionan partidos de la fecha: Alemania vs Paraguay, Países Bajos vs Marruecos, Brasil ganó, Francia vs Suecia, Costa Marfil vs Noruega, México vs Ecuador",
-    "intensidad": 3,
-    "start_min": 100,
-    "t_seconds": 6000
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "Vmo-2tGYPYg",
-    "title": "CHISMES QUE JAMÁS LE CONTASTE A NADIE | #TDT 4/6",
-    "date": "20260604",
-    "subtema": "Historias de esfuerzo familiar en el fútbol profesional",
-    "contexto": "Se conversó sobre el sacrificio de las familias para que los jugadores lleguen a la selección y al mundial, el caso de Enzo Fernández y su gol contra Brasil",
-    "intensidad": 3,
-    "start_min": 60,
-    "t_seconds": 3600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "VphQnT79K00",
-    "title": "LAS MUJERES Y EL FÚTBOL: LOS ESPACIOS CONQUISTADOS EN EL DEPORTE | #GolGana 3/6",
-    "date": "20260603",
-    "subtema": "Discriminación de mujeres en fútbol profesional",
-    "contexto": "Análisis de doble estándar: mujeres criticadas por verse femeninas o masculinas en el fútbol, a diferencia de hombres que no reciben crítica por su estética",
-    "intensidad": 3,
-    "start_min": 70,
-    "t_seconds": 4200
-   },
-   {
-    "channel": "BLENDER",
-    "video_id": "C6BZb4k8gF0",
-    "title": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
-    "date": "20260624",
-    "subtema": "Boicot al fútbol por cuestiones políticas y derechos humanos",
-    "contexto": "Fernando explica por qué no mira partidos de Estados Unidos ni el Mundial de Qatar por masacres de obreros en construcción de estadios y política exterior",
-    "intensidad": 3,
-    "start_min": 20,
-    "t_seconds": 1200
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "CGxGXCw8BVE",
-    "title": "#PATRIAYFAMILIA l OCCHIATO NOS DA LA NOTICIA ESPERADA Y BAD GYAL EN VIVO",
-    "date": "20260610",
-    "subtema": "Prode de fútbol y predicciones",
-    "contexto": "Debate sobre si llenar un Prode siendo extranjero obliga a poner que gana Argentina, y cómo se construye la predicción según lo que ves de otros equipos",
-    "intensidad": 3,
-    "start_min": 80,
-    "t_seconds": 4800
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "aeyaHqA4ByI",
-    "title": "#NADIEDICENADA | ¿FLOR SE INDIGNÓ CON UNA OYENTE? Y TODOS NOS PREPARAMOS PARA MIAMI Y EL MUNDIAL",
-    "date": "20260611",
-    "subtema": "Música oficial del Mundial de Fútbol",
-    "contexto": "Se discutió sobre las canciones oficiales de Mundiales pasados y la actual, incluyendo 'Tití Me Preguntó', 'La Yaquira', y temas de Shakira y Bizarrap",
-    "intensidad": 3,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "HV3dxHqU_mw",
-    "title": "APASIONANTE DUELO DE CIUDADES en el MUNDIALITO | #SoñéQueVolaba 8/6",
-    "date": "20260608",
-    "subtema": "Tecnología de detección de offside en fútbol",
-    "contexto": "Discusión sobre cómo mejoró el software para detectar posiciones adelantadas, usando modelos de maniquíes sin accesorios que confundan al algoritmo",
-    "intensidad": 3,
-    "start_min": 50,
-    "t_seconds": 3000
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "IZNfx1Rc9go",
-    "title": "EL EXTRAÑO CASO TIM PAYNE: DE DESCONOCIDO A FIGURA | #TapadosDeLaburo 29/5",
-    "date": "20260529",
-    "subtema": "Mundial de fútbol",
-    "contexto": "Discusión sobre el desempeño de Tim Payne en el Mundial, partidos contra Irán, Bélgica y Egipto, y la importancia de llegar lejos en la competencia",
-    "intensidad": 3,
-    "start_min": 50,
-    "t_seconds": 3000
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "cEWsZ9vbiCg",
-    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
-    "date": "20260629",
-    "subtema": "Fútbol - Torneo mata-mata",
-    "contexto": "Análisis de partidos de un torneo con sistema de eliminación directa, mencionan Brasil-Japón, Francia-Suecia, posibles enfrentamientos de Argentina",
-    "intensidad": 3,
-    "start_min": 190,
-    "t_seconds": 11400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "aQS2rjKg6SU",
-    "title": "CURIOSIDADES EN LA CARRERA DE LIONEL ANDRÉS MESSI | #GolGana 10/6",
-    "date": "20260610",
-    "subtema": "Retiro de jugadores de fútbol",
-    "contexto": "Discusión sobre el dolor emocional que genera el retiro de grandes jugadores como Ronaldinho, Riquelme, Ibrahimovic y la posible retirada de Messi",
-    "intensidad": 3,
-    "start_min": 80,
-    "t_seconds": 4800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "DOYPp2Pqjvg",
-    "title": "CINE Y FÚTBOL con ARIEL STALTARI | #LaGambeta 1/6",
-    "date": "20260601",
-    "subtema": "Cábalas y rituales en mundiales de fútbol",
-    "contexto": "Relatos detallados sobre mantener cábalas durante partidos: sentarse en el mismo lugar, comer lo mismo, respetar rituales para que gane Argentina",
-    "intensidad": 3,
-    "start_min": 30,
-    "t_seconds": 1800
-   }
-  ],
-  "highlights_total": 315,
-  "evidence_lane": "corroborated",
-  "audio_programs": 114,
-  "chat_signals": {
-   "n_msgs": 293,
-   "n_authors": 245,
-   "programs": [
-    {
-     "video_id": "IB9cCJT0-_M",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 21,
-     "n_authors": 19,
-     "ejemplo": "NA YO AMO EL FÚTBOL Y LO MIRO TODO EL AÑO PERO NO POR ESO ME QUEDO MUDA"
-    },
-    {
-     "video_id": "e3av_6yqgHg",
-     "channel": "OLGA",
-     "title": "NOS SOMETEMOS AL CASCO DE LA VERDAD | #SoñéQueVolaba 29/6",
-     "n_msgs": 18,
-     "n_authors": 15,
-     "ejemplo": "@ franklin el pueblo Argentino está con ustedes"
-    },
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 16,
-     "n_authors": 15,
-     "ejemplo": "EL saquito es ARgentino... ARgentino... el saquito es ARgentino"
-    },
-    {
-     "video_id": "WOYbd42V47w",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 17,
-     "n_authors": 13,
-     "ejemplo": "Bielsa es Argentino"
-    },
-    {
-     "video_id": "bX7MB2_OI2I",
-     "channel": "OLGA",
-     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-     "n_msgs": 16,
-     "n_authors": 13,
-     "ejemplo": "Noly fue a Canadá por lo del futbol"
-    },
-    {
-     "video_id": "FYdwwoHNrMs",
-     "channel": "Vorterix",
-     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
-     "n_msgs": 15,
-     "n_authors": 11,
-     "ejemplo": "HARRY POTTER SABE DE FÚTBOL CHE!"
-    },
-    {
-     "video_id": "XHV2BV9DWMs",
-     "channel": "OLGA",
-     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-     "n_msgs": 12,
-     "n_authors": 11,
-     "ejemplo": "migue tiene menos futbol que una chancleta pero tiene razon"
-    },
-    {
-     "video_id": "LjEHjrbNNgs",
-     "channel": "Vorterix",
-     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-     "n_msgs": 11,
-     "n_authors": 11,
-     "ejemplo": "Es el peso del stream argentino en tus hombros guille"
-    }
-   ],
-   "chat_only_programs": [
-    {
-     "video_id": "IB9cCJT0-_M",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 21,
-     "n_authors": 19,
-     "ejemplo": "NA YO AMO EL FÚTBOL Y LO MIRO TODO EL AÑO PERO NO POR ESO ME QUEDO MUDA"
-    },
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 16,
-     "n_authors": 15,
-     "ejemplo": "EL saquito es ARgentino... ARgentino... el saquito es ARgentino"
-    },
-    {
-     "video_id": "WOYbd42V47w",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 17,
-     "n_authors": 13,
-     "ejemplo": "Bielsa es Argentino"
     }
    ]
   }
@@ -9732,8 +9574,8 @@
     },
     {
      "video_id": "04q2g0UfdyA",
-     "channel": "?",
-     "title": "",
+     "channel": "Neura Media",
+     "title": "Multiverso Neura",
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "SE PARECE AL VENDEDOR DE AUTOS DE LOS SIMPSONS"
@@ -9798,8 +9640,8 @@
     },
     {
      "video_id": "04q2g0UfdyA",
-     "channel": "?",
-     "title": "",
+     "channel": "Neura Media",
+     "title": "Multiverso Neura",
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "SE PARECE AL VENDEDOR DE AUTOS DE LOS SIMPSONS"
@@ -10454,9 +10296,9 @@
     "t_seconds": 4200
    }
   ],
-  "highlights_total": 59,
+  "highlights_total": 60,
   "evidence_lane": "corroborated",
-  "audio_programs": 34,
+  "audio_programs": 35,
   "chat_signals": {
    "n_msgs": 31,
    "n_authors": 25,
@@ -10937,6 +10779,17 @@
     "t_seconds": 1200
    },
    {
+    "channel": "Neura Media",
+    "video_id": "7ON4ZA5TtHc",
+    "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
+    "date": "20260626",
+    "subtema": "Agenda presidencial y viajes",
+    "contexto": "Cambios en los viajes del presidente por partidos de la selección argentina",
+    "intensidad": 2,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
     "channel": "GELATINA",
     "video_id": "NHt6oqHZYd0",
     "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
@@ -10970,7 +10823,7 @@
     "t_seconds": 1200
    }
   ],
-  "highlights_total": 13,
+  "highlights_total": 14,
   "evidence_lane": "corroborated",
   "audio_programs": 11,
   "chat_signals": {
@@ -10995,8 +10848,8 @@
     },
     {
      "video_id": "04q2g0UfdyA",
-     "channel": "?",
-     "title": "",
+     "channel": "Neura Media",
+     "title": "Multiverso Neura",
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "BIELSA VA DE VOCERO PRESIDENCIAL OTTO SABELO"
@@ -11061,8 +10914,8 @@
     },
     {
      "video_id": "04q2g0UfdyA",
-     "channel": "?",
-     "title": "",
+     "channel": "Neura Media",
+     "title": "Multiverso Neura",
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "BIELSA VA DE VOCERO PRESIDENCIAL OTTO SABELO"
@@ -11347,9 +11200,9 @@
     "t_seconds": 6600
    }
   ],
-  "highlights_total": 23,
+  "highlights_total": 24,
   "evidence_lane": "corroborated",
-  "audio_programs": 17,
+  "audio_programs": 18,
   "chat_signals": {
    "n_msgs": 3,
    "n_authors": 3,
@@ -12022,6 +11875,188 @@
   }
  },
  {
+  "tema": "gastronomía",
+  "score": 49.8,
+  "trend_score": 25.3,
+  "menciones": 9,
+  "growth_wow": 1.0,
+  "demand_ratio": 0.0,
+  "demand_signals": 0,
+  "canales": [
+   "BLENDER",
+   "LUZU TV"
+  ],
+  "categorias": [
+   "comida",
+   "lugar"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "24/06/2026",
+    "n": 7.752231991779176
+   },
+   {
+    "date": "29/06/2026",
+    "n": 27.05573728486295
+   },
+   {
+    "date": "30/06/2026",
+    "n": 14.971147113099748
+   }
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null,
+  "cluster": null,
+  "variantes_relacionadas": [],
+  "highlights": [
+   {
+    "channel": "OLGA",
+    "video_id": "XHV2BV9DWMs",
+    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+    "date": "20260619",
+    "subtema": "Gastronomía regional del noroeste",
+    "contexto": "Se menciona api con pastel como desayuno típico, papas andinas, charqui, yam, mercado ancestral de trueque",
+    "intensidad": 2,
+    "start_min": 140,
+    "t_seconds": 8400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "cv2t2_4ffP8",
+    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
+    "date": "20260604",
+    "subtema": "Gastronomía regional",
+    "contexto": "Se destacan productos locales: carne y chacinados de Alpachiri, semita y fulca chilo de Médano de Oro",
+    "intensidad": 2,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "7Oo5Hf7f14M",
+    "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "date": "20260624",
+    "subtema": "Gastronomía de Madrid",
+    "contexto": "Se habla sobre comidas típicas de Madrid: tortilla, tapas, jamón crudo, trufa negra, torta vasca",
+    "intensidad": 2,
+    "start_min": 110,
+    "t_seconds": 6600
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "HV3dxHqU_mw",
+    "title": "APASIONANTE DUELO DE CIUDADES en el MUNDIALITO | #SoñéQueVolaba 8/6",
+    "date": "20260608",
+    "subtema": "Gastronomía de Rosario de la Frontera",
+    "contexto": "Se destacan empanadas con papa, humita con queso y choripanes como comidas típicas de la región",
+    "intensidad": 2,
+    "start_min": 120,
+    "t_seconds": 7200
+   },
+   {
+    "channel": "Urbana Play 104.3 FM",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "date": "20260626",
+    "subtema": "Gastronomía Criolla",
+    "contexto": "Especialidades típicas: sándwich de vacío, bondiola desmechada, choripán, empanadas de verdura",
+    "intensidad": 2,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "8lOkxIDSd4w",
+    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+    "date": "20260623",
+    "subtema": "Gastronomía regional",
+    "contexto": "Chocolates, heladerías, cervecerías artesanales, carnes típicas (ciervo, trucha, jabalí)",
+    "intensidad": 2,
+    "start_min": 150,
+    "t_seconds": 9000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "YmGen45CUIY",
+    "title": "#FMLUZU | LA GURISA PERDIÓ SU TARJETA DE CRÉDITO + PROPUESTA DE CASAMIENTO EN VIVO",
+    "date": "20260605",
+    "subtema": "Tapas españolas y gastronomía de Barcelona",
+    "contexto": "Se menciona el top 3 de tapas: tortilla española, morros de sárvore y gildas",
+    "intensidad": 2,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "HV3dxHqU_mw",
+    "title": "APASIONANTE DUELO DE CIUDADES en el MUNDIALITO | #SoñéQueVolaba 8/6",
+    "date": "20260608",
+    "subtema": "Gastronomía de Río Negro",
+    "contexto": "Mención de salamines, corderito y vino como productos típicos de la región del Valle del Río Negro",
+    "intensidad": 1,
+    "start_min": 140,
+    "t_seconds": 8400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "8lOkxIDSd4w",
+    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+    "date": "20260623",
+    "subtema": "Gastronomía local",
+    "contexto": "Mención de pororo, churros, carrito de pollo, enchamigada y festival del loco en las ciudades",
+    "intensidad": 1,
+    "start_min": 130,
+    "t_seconds": 7800
+   },
+   {
+    "channel": "BLENDER",
+    "video_id": "gbs55KwjTeA",
+    "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+    "date": "20260630",
+    "subtema": "Comida y gastronomía",
+    "contexto": "Menciones de ñoquis, ravioles de higo, heladito de chocolate, zamballón",
+    "intensidad": 1,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "cv2t2_4ffP8",
+    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
+    "date": "20260604",
+    "subtema": "Gastronomía jujeña",
+    "contexto": "Mencionadas como las mejores: locro, empanadas picantes, buñuelos",
+    "intensidad": 1,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "YmGen45CUIY",
+    "title": "#FMLUZU | LA GURISA PERDIÓ SU TARJETA DE CRÉDITO + PROPUESTA DE CASAMIENTO EN VIVO",
+    "date": "20260605",
+    "subtema": "gastronomía local",
+    "contexto": "se mencionan croquetas de jamón como comida típica del lugar",
+    "intensidad": 1,
+    "start_min": 30,
+    "t_seconds": 1800
+   }
+  ],
+  "highlights_total": 12,
+  "evidence_lane": "audio",
+  "audio_programs": 9,
+  "chat_signals": {
+   "n_msgs": 0,
+   "n_authors": 0,
+   "programs": [],
+   "chat_only_programs": []
+  }
+ },
+ {
   "tema": "adopción mascotas",
   "score": 43.6,
   "trend_score": 25.2,
@@ -12334,6 +12369,383 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "COLABORACIÓN PARA LAS MASCOTAS"
+    }
+   ]
+  }
+ },
+ {
+  "tema": "gran hermano",
+  "score": 21.1,
+  "trend_score": 25.14,
+  "menciones": 3,
+  "growth_wow": 0.963,
+  "demand_ratio": 0.0,
+  "demand_signals": 0,
+  "canales": [
+   "BLENDER",
+   "Bondi Live",
+   "LUZU TV"
+  ],
+  "categorias": [
+   "cultura",
+   "producto"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "24/06/2026",
+    "n": 7.12769667896169
+   },
+   {
+    "date": "29/06/2026",
+    "n": 10.257085532909032
+   },
+   {
+    "date": "30/06/2026",
+    "n": 3.7322215960230727
+   }
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null,
+  "cluster": null,
+  "variantes_relacionadas": [],
+  "highlights": [
+   {
+    "channel": "LUZU TV",
+    "video_id": "ZtZeqX0VL24",
+    "title": "#LOSNOTALENTOS l LLEGAMOS: OCCHIAMIN, EL PAPÁ DE AGUSNETA Y TINELLI NOS MIRAN",
+    "date": "20260604",
+    "subtema": "Anécdota de fiesta post-show en Gran Rex",
+    "contexto": "Relato de una fiesta post-show en Gran Rex donde pasaron situaciones 'hot' con personas de la empresa durante una conversación",
+    "intensidad": 3,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "Urbana Play 104.3 FM",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "date": "20260626",
+    "subtema": "Fórmula 1 - Gran Premio de Austria",
+    "contexto": "Franco Colapinto en la última práctica terminó a dos décimas de su compañero, buscando entrar en Q3 para la clasificación",
+    "intensidad": 3,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "DOYPp2Pqjvg",
+    "title": "CINE Y FÚTBOL con ARIEL STALTARI | #LaGambeta 1/6",
+    "date": "20260601",
+    "subtema": "Anécdota familiar del hermano de Sergio Ramos",
+    "contexto": "Historia sobre el primer día de clase de parkour del hermano menor y su reacción, generando emoción en los conductores",
+    "intensidad": 3,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "CGxGXCw8BVE",
+    "title": "#PATRIAYFAMILIA l OCCHIATO NOS DA LA NOTICIA ESPERADA Y BAD GYAL EN VIVO",
+    "date": "20260610",
+    "subtema": "Convivencia tipo Gran Hermano",
+    "contexto": "Se anuncia que un grupo va a convivir en una casa con cámaras, tipo Gran Hermano, a partir de la próxima semana",
+    "intensidad": 3,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "GLACgh8nuGY",
+    "title": "#SEFUELARGA l JULI POGGIO CONTRA AMANTES, RESPONDE TODO Y FERBO VS FAUSTI BO Y JULI CASTRO",
+    "date": "20260611",
+    "subtema": "Gran Hermano - peleas memorables",
+    "contexto": "Ranking de peleas del reality Gran Hermano, destacando las de Coti, FURIA y Agostina como las más recordadas",
+    "intensidad": 3,
+    "start_min": 70,
+    "t_seconds": 4200
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "OMoimQeA_Ec",
+    "title": "#FMLUZU | PALPITAMOS LA PREVIA DEL MUNDIAL + LA GURI CHAPA EN VIVO",
+    "date": "20260610",
+    "subtema": "Gran Rex (teatro)",
+    "contexto": "Se menciona varias veces como lugar de cierre del programa, donde 'Patri Familia la rompió toda' y ahora se va para Mar del Plata",
+    "intensidad": 2,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "cEWsZ9vbiCg",
+    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+    "date": "20260629",
+    "subtema": "Abandono Gran Hermano Tamara Paganini",
+    "contexto": "Tamara Paganini se quiebra en gala y pide abandonar la casa tras mensaje de familia, dice no poder con la presión",
+    "intensidad": 2,
+    "start_min": 210,
+    "t_seconds": 12600
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "yp1SuqSXmxA",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
+    "date": "20260622",
+    "subtema": "Gran Hermano - eliminación de Titi",
+    "contexto": "Titi fue eliminada de la casa tras perder el mano a mano contra Solange Abraham con 51.4% de votos en contra",
+    "intensidad": 2,
+    "start_min": 200,
+    "t_seconds": 12000
+   },
+   {
+    "channel": "Bondi Live",
+    "video_id": "tAUTd2FsMxA",
+    "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+    "date": "20260624",
+    "subtema": "Cena con chisme de Gran Hermano",
+    "contexto": "Se menciona ida y vuelta entre Janina La Torre y Cris Vanadía durante cena, conflicto inesperado en vivo",
+    "intensidad": 2,
+    "start_min": 20,
+    "t_seconds": 1200
+   },
+   {
+    "channel": "BLENDER",
+    "video_id": "gbs55KwjTeA",
+    "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+    "date": "20260630",
+    "subtema": "Gran Hermano (GH)",
+    "contexto": "Mención de participantes que entrarán a la casa de GH, referencia a la producción del reality show",
+    "intensidad": 2,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "Bondi Live",
+    "video_id": "tAUTd2FsMxA",
+    "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+    "date": "20260624",
+    "subtema": "Gran Hermano",
+    "contexto": "Discusión sobre participantes que entran y salen del reality, especialmente sobre Cinzia",
+    "intensidad": 2,
+    "start_min": 160,
+    "t_seconds": 9600
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "jEEahJU8_jg",
+    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
+    "date": "20260629",
+    "subtema": "F1 - Gran Premio Austria",
+    "contexto": "Colapinto terminó 15° y Gasly 13° en GP de Austria, peor carrera del año para el equipo",
+    "intensidad": 2,
+    "start_min": 150,
+    "t_seconds": 9000
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "IZNfx1Rc9go",
+    "title": "EL EXTRAÑO CASO TIM PAYNE: DE DESCONOCIDO A FIGURA | #TapadosDeLaburo 29/5",
+    "date": "20260529",
+    "subtema": "Teatro Gran Rex",
+    "contexto": "Sede donde se presenta el musical, entradas disponibles desde el 4 de junio",
+    "intensidad": 2,
+    "start_min": 110,
+    "t_seconds": 6600
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "IZNfx1Rc9go",
+    "title": "EL EXTRAÑO CASO TIM PAYNE: DE DESCONOCIDO A FIGURA | #TapadosDeLaburo 29/5",
+    "date": "20260529",
+    "subtema": "Gran Rex como venue teatral",
+    "contexto": "Teatro donde se realiza la producción de Charlie y la fábrica de chocolate",
+    "intensidad": 2,
+    "start_min": 90,
+    "t_seconds": 5400
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "jEEahJU8_jg",
+    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
+    "date": "20260629",
+    "subtema": "Gran Hermano",
+    "contexto": "Tamara Paganini se quebró en la gala y pidió abandonar la casa",
+    "intensidad": 2,
+    "start_min": 160,
+    "t_seconds": 9600
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "OYdkMTk3Xds",
+    "title": "EXPERTOS ANALIZAN EL LENGUAJE NO VERBAL DE NAHIR GALARZA | #SeríaIncreíble 10/6",
+    "date": "20260610",
+    "subtema": "Reality show Gran Bizarro",
+    "contexto": "Se mencionó un reality antiguo llamado 'Gran Bizarro' (en lugar de Gran Hermana) donde participaron figuras como Sandra Madonna y otros personajes de televisión",
+    "intensidad": 1,
+    "start_min": 90,
+    "t_seconds": 5400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "d2xRtbOTSQQ",
+    "title": "UNA BRUJA y ANDI SEMENTI ADIVINAN el FUTURO | #SoñéQueVolaba 2/6",
+    "date": "20260602",
+    "subtema": "Gran Hermano - ganadores hegemónicos",
+    "contexto": "Se discute que en los últimos Gran Hermanos ganaron hombres hegemónicos cis, sin que ganen minorías",
+    "intensidad": 1,
+    "start_min": 20,
+    "t_seconds": 1200
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "IZNfx1Rc9go",
+    "title": "EL EXTRAÑO CASO TIM PAYNE: DE DESCONOCIDO A FIGURA | #TapadosDeLaburo 29/5",
+    "date": "20260529",
+    "subtema": "Gran Rex como escenario",
+    "contexto": "Se menciona como venue importante donde se esperaba actuar frente a artistas reconocidos",
+    "intensidad": 1,
+    "start_min": 100,
+    "t_seconds": 6000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "OMoimQeA_Ec",
+    "title": "#FMLUZU | PALPITAMOS LA PREVIA DEL MUNDIAL + LA GURI CHAPA EN VIVO",
+    "date": "20260610",
+    "subtema": "Gran Hermano (reality show)",
+    "contexto": "Mención de primer eliminado de la casa por conflicto con compañera sobre una chocolatada",
+    "intensidad": 1,
+    "start_min": 20,
+    "t_seconds": 1200
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "OYdkMTk3Xds",
+    "title": "EXPERTOS ANALIZAN EL LENGUAJE NO VERBAL DE NAHIR GALARZA | #SeríaIncreíble 10/6",
+    "date": "20260610",
+    "subtema": "Reality show Gran Hermano/Infama",
+    "contexto": "Se menciona que Infama tuvo su propio reality con La Giovanni y Electra",
+    "intensidad": 1,
+    "start_min": 80,
+    "t_seconds": 4800
+   }
+  ],
+  "highlights_total": 21,
+  "evidence_lane": "corroborated",
+  "audio_programs": 15,
+  "chat_signals": {
+   "n_msgs": 324,
+   "n_authors": 285,
+   "programs": [
+    {
+     "video_id": "LjEHjrbNNgs",
+     "channel": "Vorterix",
+     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+     "n_msgs": 31,
+     "n_authors": 27,
+     "ejemplo": "GRAN gran inicio Guilloteeee.. la viste"
+    },
+    {
+     "video_id": "JNLpggdieek",
+     "channel": "Vorterix",
+     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+     "n_msgs": 25,
+     "n_authors": 25,
+     "ejemplo": "DEL MOÑO CONDUCE GRAN HERMANO..?"
+    },
+    {
+     "video_id": "JXVQmuDctII",
+     "channel": "BLENDER",
+     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+     "n_msgs": 19,
+     "n_authors": 18,
+     "ejemplo": "RE TARDE HERMANO"
+    },
+    {
+     "video_id": "tAUTd2FsMxA",
+     "channel": "Bondi Live",
+     "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+     "n_msgs": 20,
+     "n_authors": 17,
+     "ejemplo": "GRAN PROFESIONAL"
+    },
+    {
+     "video_id": "bYaixTloEdo",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 15,
+     "n_authors": 15,
+     "ejemplo": "Parece Sol de gran hermano"
+    },
+    {
+     "video_id": "EwFONN3W5cg",
+     "channel": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "n_msgs": 11,
+     "n_authors": 10,
+     "ejemplo": "la gran vuelta de la meads a Lucas"
+    },
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 10,
+     "n_authors": 9,
+     "ejemplo": "MI HERMANO MURIO LUQUI"
+    },
+    {
+     "video_id": "tlhTO7YtTJ0",
+     "channel": "GELATINA",
+     "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
+     "n_msgs": 10,
+     "n_authors": 9,
+     "ejemplo": "que gran trabajo Mati y equipo"
+    }
+   ],
+   "chat_only_programs": [
+    {
+     "video_id": "LjEHjrbNNgs",
+     "channel": "Vorterix",
+     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+     "n_msgs": 31,
+     "n_authors": 27,
+     "ejemplo": "GRAN gran inicio Guilloteeee.. la viste"
+    },
+    {
+     "video_id": "JNLpggdieek",
+     "channel": "Vorterix",
+     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+     "n_msgs": 25,
+     "n_authors": 25,
+     "ejemplo": "DEL MOÑO CONDUCE GRAN HERMANO..?"
+    },
+    {
+     "video_id": "JXVQmuDctII",
+     "channel": "BLENDER",
+     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+     "n_msgs": 19,
+     "n_authors": 18,
+     "ejemplo": "RE TARDE HERMANO"
+    },
+    {
+     "video_id": "bYaixTloEdo",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 15,
+     "n_authors": 15,
+     "ejemplo": "Parece Sol de gran hermano"
+    },
+    {
+     "video_id": "EwFONN3W5cg",
+     "channel": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "n_msgs": 11,
+     "n_authors": 10,
+     "ejemplo": "la gran vuelta de la meads a Lucas"
     }
    ]
   }
@@ -13289,6 +13701,17 @@
     "t_seconds": 6600
    },
    {
+    "channel": "BLENDER",
+    "video_id": "gbs55KwjTeA",
+    "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+    "date": "20260630",
+    "subtema": "Trabajo como imitador en eventos",
+    "contexto": "Relata experiencias imitando en cumpleaños y eventos privados, incluyendo la casa de Brad Pitt en Beverly Hills",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
     "channel": "OLGA",
     "video_id": "3QJmfDvuxIk",
     "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
@@ -13463,22 +13886,11 @@
     "intensidad": 2,
     "start_min": 10,
     "t_seconds": 600
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "OMoimQeA_Ec",
-    "title": "#FMLUZU | PALPITAMOS LA PREVIA DEL MUNDIAL + LA GURI CHAPA EN VIVO",
-    "date": "20260610",
-    "subtema": "Fiestas y eventos sociales",
-    "contexto": "Se organiza fiesta el sábado en Saldías con reggaetón y pop",
-    "intensidad": 2,
-    "start_min": 40,
-    "t_seconds": 2400
    }
   ],
-  "highlights_total": 23,
+  "highlights_total": 24,
   "evidence_lane": "corroborated",
-  "audio_programs": 26,
+  "audio_programs": 27,
   "chat_signals": {
    "n_msgs": 5,
    "n_authors": 3,
@@ -14030,7 +14442,7 @@
     "t_seconds": 4800
    }
   ],
-  "highlights_total": 134,
+  "highlights_total": 135,
   "evidence_lane": "corroborated",
   "audio_programs": 68,
   "chat_signals": {
@@ -14860,8 +15272,8 @@
     },
     {
      "video_id": "04q2g0UfdyA",
-     "channel": "?",
-     "title": "",
+     "channel": "Neura Media",
+     "title": "Multiverso Neura",
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "hablen de los audios de adorni"
@@ -15021,8 +15433,8 @@
    "programs": [
     {
      "video_id": "04q2g0UfdyA",
-     "channel": "?",
-     "title": "",
+     "channel": "Neura Media",
+     "title": "Multiverso Neura",
      "n_msgs": 5,
      "n_authors": 4,
      "ejemplo": "EL PROBLEMA ES ALPINE NO FRANCO"
@@ -15087,8 +15499,8 @@
    "chat_only_programs": [
     {
      "video_id": "04q2g0UfdyA",
-     "channel": "?",
-     "title": "",
+     "channel": "Neura Media",
+     "title": "Multiverso Neura",
      "n_msgs": 5,
      "n_authors": 4,
      "ejemplo": "EL PROBLEMA ES ALPINE NO FRANCO"
@@ -15728,17 +16140,6 @@
   "variantes_relacionadas": [],
   "highlights": [
    {
-    "channel": "Urbana Play 104.3 FM",
-    "video_id": "U8f_2vIvO7Y",
-    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
-    "date": "20260626",
-    "subtema": "Fórmula 1 - Gran Premio de Austria",
-    "contexto": "Franco Colapinto en la última práctica terminó a dos décimas de su compañero, buscando entrar en Q3 para la clasificación",
-    "intensidad": 3,
-    "start_min": 50,
-    "t_seconds": 3000
-   },
-   {
     "channel": "OLGA",
     "video_id": "DOYPp2Pqjvg",
     "title": "CINE Y FÚTBOL con ARIEL STALTARI | #LaGambeta 1/6",
@@ -15772,7 +16173,7 @@
     "t_seconds": 4800
    }
   ],
-  "highlights_total": 4,
+  "highlights_total": 3,
   "evidence_lane": "corroborated",
   "audio_programs": 5,
   "chat_signals": {
@@ -16366,7 +16767,7 @@
   ],
   "highlights_total": 84,
   "evidence_lane": "corroborated",
-  "audio_programs": 58,
+  "audio_programs": 59,
   "chat_signals": {
    "n_msgs": 114,
    "n_authors": 90,
@@ -16478,171 +16879,6 @@
      "ejemplo": "arrancaron con contenido del bueno"
     }
    ]
-  }
- },
- {
-  "tema": "gastronomía",
-  "score": 34.8,
-  "trend_score": 22.89,
-  "menciones": 3,
-  "growth_wow": 1.0,
-  "demand_ratio": 0.0,
-  "demand_signals": 0,
-  "canales": [
-   "LUZU TV"
-  ],
-  "categorias": [
-   "comida"
-  ],
-  "cross_comunidad": false,
-  "multi_dia": true,
-  "candidato": false,
-  "serie": [
-   {
-    "date": "24/06/2026",
-    "n": 7.752231991779176
-   },
-   {
-    "date": "29/06/2026",
-    "n": 27.05573728486295
-   }
-  ],
-  "gt_status": null,
-  "gt_lead_days": null,
-  "gt_peak": null,
-  "cluster": null,
-  "variantes_relacionadas": [],
-  "highlights": [
-   {
-    "channel": "OLGA",
-    "video_id": "XHV2BV9DWMs",
-    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "date": "20260619",
-    "subtema": "Gastronomía regional del noroeste",
-    "contexto": "Se menciona api con pastel como desayuno típico, papas andinas, charqui, yam, mercado ancestral de trueque",
-    "intensidad": 2,
-    "start_min": 140,
-    "t_seconds": 8400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "cv2t2_4ffP8",
-    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
-    "date": "20260604",
-    "subtema": "Gastronomía regional",
-    "contexto": "Se destacan productos locales: carne y chacinados de Alpachiri, semita y fulca chilo de Médano de Oro",
-    "intensidad": 2,
-    "start_min": 50,
-    "t_seconds": 3000
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "7Oo5Hf7f14M",
-    "title": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "date": "20260624",
-    "subtema": "Gastronomía de Madrid",
-    "contexto": "Se habla sobre comidas típicas de Madrid: tortilla, tapas, jamón crudo, trufa negra, torta vasca",
-    "intensidad": 2,
-    "start_min": 110,
-    "t_seconds": 6600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "HV3dxHqU_mw",
-    "title": "APASIONANTE DUELO DE CIUDADES en el MUNDIALITO | #SoñéQueVolaba 8/6",
-    "date": "20260608",
-    "subtema": "Gastronomía de Rosario de la Frontera",
-    "contexto": "Se destacan empanadas con papa, humita con queso y choripanes como comidas típicas de la región",
-    "intensidad": 2,
-    "start_min": 120,
-    "t_seconds": 7200
-   },
-   {
-    "channel": "Urbana Play 104.3 FM",
-    "video_id": "U8f_2vIvO7Y",
-    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
-    "date": "20260626",
-    "subtema": "Gastronomía Criolla",
-    "contexto": "Especialidades típicas: sándwich de vacío, bondiola desmechada, choripán, empanadas de verdura",
-    "intensidad": 2,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "8lOkxIDSd4w",
-    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-    "date": "20260623",
-    "subtema": "Gastronomía regional",
-    "contexto": "Chocolates, heladerías, cervecerías artesanales, carnes típicas (ciervo, trucha, jabalí)",
-    "intensidad": 2,
-    "start_min": 150,
-    "t_seconds": 9000
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "YmGen45CUIY",
-    "title": "#FMLUZU | LA GURISA PERDIÓ SU TARJETA DE CRÉDITO + PROPUESTA DE CASAMIENTO EN VIVO",
-    "date": "20260605",
-    "subtema": "Tapas españolas y gastronomía de Barcelona",
-    "contexto": "Se menciona el top 3 de tapas: tortilla española, morros de sárvore y gildas",
-    "intensidad": 2,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "HV3dxHqU_mw",
-    "title": "APASIONANTE DUELO DE CIUDADES en el MUNDIALITO | #SoñéQueVolaba 8/6",
-    "date": "20260608",
-    "subtema": "Gastronomía de Río Negro",
-    "contexto": "Mención de salamines, corderito y vino como productos típicos de la región del Valle del Río Negro",
-    "intensidad": 1,
-    "start_min": 140,
-    "t_seconds": 8400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "8lOkxIDSd4w",
-    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-    "date": "20260623",
-    "subtema": "Gastronomía local",
-    "contexto": "Mención de pororo, churros, carrito de pollo, enchamigada y festival del loco en las ciudades",
-    "intensidad": 1,
-    "start_min": 130,
-    "t_seconds": 7800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "cv2t2_4ffP8",
-    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
-    "date": "20260604",
-    "subtema": "Gastronomía jujeña",
-    "contexto": "Mencionadas como las mejores: locro, empanadas picantes, buñuelos",
-    "intensidad": 1,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "YmGen45CUIY",
-    "title": "#FMLUZU | LA GURISA PERDIÓ SU TARJETA DE CRÉDITO + PROPUESTA DE CASAMIENTO EN VIVO",
-    "date": "20260605",
-    "subtema": "gastronomía local",
-    "contexto": "se mencionan croquetas de jamón como comida típica del lugar",
-    "intensidad": 1,
-    "start_min": 30,
-    "t_seconds": 1800
-   }
-  ],
-  "highlights_total": 11,
-  "evidence_lane": "audio",
-  "audio_programs": 8,
-  "chat_signals": {
-   "n_msgs": 0,
-   "n_authors": 0,
-   "programs": [],
-   "chat_only_programs": []
   }
  },
  {
@@ -16930,7 +17166,7 @@
   ],
   "highlights_total": 4,
   "evidence_lane": "corroborated",
-  "audio_programs": 73,
+  "audio_programs": 75,
   "chat_signals": {
    "n_msgs": 345,
    "n_authors": 280,
@@ -17170,19 +17406,30 @@
     "intensidad": 1,
     "start_min": 10,
     "t_seconds": 600
+   },
+   {
+    "channel": "Neura Media",
+    "video_id": "04q2g0UfdyA",
+    "title": "Multiverso Neura",
+    "date": "20260629",
+    "subtema": "Asado construcción",
+    "contexto": "Mención que mañana hay asado en todas las construcciones en CABA",
+    "intensidad": 1,
+    "start_min": 20,
+    "t_seconds": 1200
    }
   ],
-  "highlights_total": 10,
+  "highlights_total": 11,
   "evidence_lane": "corroborated",
-  "audio_programs": 15,
+  "audio_programs": 16,
   "chat_signals": {
    "n_msgs": 15,
    "n_authors": 14,
    "programs": [
     {
      "video_id": "04q2g0UfdyA",
-     "channel": "?",
-     "title": "",
+     "channel": "Neura Media",
+     "title": "Multiverso Neura",
      "n_msgs": 3,
      "n_authors": 2,
      "ejemplo": "Cómo no va a estar mal la construcción si todos los Paraguayos están en el mundial"
@@ -17246,14 +17493,6 @@
    ],
    "chat_only_programs": [
     {
-     "video_id": "04q2g0UfdyA",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 3,
-     "n_authors": 2,
-     "ejemplo": "Cómo no va a estar mal la construcción si todos los Paraguayos están en el mundial"
-    },
-    {
      "video_id": "HTm_q34CwyM",
      "channel": "AHORA PLAY",
      "title": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
@@ -17284,6 +17523,14 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "de la construcción"
+    },
+    {
+     "video_id": "JNLpggdieek",
+     "channel": "Vorterix",
+     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "ay, no es una construcción social"
     }
    ]
   }
@@ -17602,7 +17849,7 @@
   ],
   "highlights_total": 11,
   "evidence_lane": "corroborated",
-  "audio_programs": 18,
+  "audio_programs": 20,
   "chat_signals": {
    "n_msgs": 132,
    "n_authors": 93,
@@ -17800,6 +18047,17 @@
   "variantes_relacionadas": [],
   "highlights": [
    {
+    "channel": "BLENDER",
+    "video_id": "gbs55KwjTeA",
+    "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+    "date": "20260630",
+    "subtema": "Imitaciones de personajes públicos",
+    "contexto": "Discusión sobre técnica de imitación de políticos, celebridades y personajes mediáticos como Messi, Franchella, Fito Páez, Ángel de Brito",
+    "intensidad": 3,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
     "channel": "LUZU TV",
     "video_id": "R41W9i_YWio",
     "title": "#PATRIAYFAMILIA l ¿CÓMO ESTÁ EL CORAZÓN DE ALBERE? Y SU RELACIÓN CON LA JOAQUI",
@@ -17932,6 +18190,17 @@
     "t_seconds": 600
    },
    {
+    "channel": "BLENDER",
+    "video_id": "gbs55KwjTeA",
+    "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+    "date": "20260630",
+    "subtema": "Imitaciones de personajes políticos",
+    "contexto": "Se discute sobre imitar a gobernadores y políticos como Ricardo Quintela, Kicillof y Berni",
+    "intensidad": 2,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
     "channel": "OLGA",
     "video_id": "3QYSdxUDWHc",
     "title": "NI UNA MENOS: LA LUCHA QUE TODAVÍA NO TERMINA | #SeríaIncreíble 3/6",
@@ -17996,33 +18265,11 @@
     "intensidad": 1,
     "start_min": 30,
     "t_seconds": 1800
-   },
-   {
-    "channel": "Vorterix",
-    "video_id": "LjEHjrbNNgs",
-    "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-    "date": "20260626",
-    "subtema": "Personajes infantiles y nostalgia",
-    "contexto": "Discusión sobre qué personaje de películas/series infantiles les hubiera gustado ser",
-    "intensidad": 1,
-    "start_min": 130,
-    "t_seconds": 7800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "d2xRtbOTSQQ",
-    "title": "UNA BRUJA y ANDI SEMENTI ADIVINAN el FUTURO | #SoñéQueVolaba 2/6",
-    "date": "20260602",
-    "subtema": "Personajes televisivos y medios",
-    "contexto": "Se menciona a Susana y su productor histórico, padre de uno de los personajes",
-    "intensidad": 1,
-    "start_min": 100,
-    "t_seconds": 6000
    }
   ],
-  "highlights_total": 21,
+  "highlights_total": 23,
   "evidence_lane": "corroborated",
-  "audio_programs": 18,
+  "audio_programs": 19,
   "chat_signals": {
    "n_msgs": 17,
    "n_authors": 13,
@@ -19102,9 +19349,9 @@
     "t_seconds": 6000
    }
   ],
-  "highlights_total": 209,
+  "highlights_total": 212,
   "evidence_lane": "corroborated",
-  "audio_programs": 107,
+  "audio_programs": 109,
   "chat_signals": {
    "n_msgs": 428,
    "n_authors": 342,
@@ -20069,312 +20316,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "Jajajajaja era camiseta retro y poggi pregunta si es la del otro día :rolling_on_the_floor_laughing:"
-    }
-   ]
-  }
- },
- {
-  "tema": "mundial fútbol 2026",
-  "score": 393.4,
-  "trend_score": 19.58,
-  "menciones": 55,
-  "growth_wow": 0.328,
-  "demand_ratio": 0.0,
-  "demand_signals": 0,
-  "canales": [
-   " A U R A ",
-   "BLENDER",
-   "GELATINA",
-   "LUZU TV",
-   "OLGA",
-   "Vorterix"
-  ],
-  "categorias": [
-   "actividad",
-   "cultura"
-  ],
-  "cross_comunidad": true,
-  "multi_dia": true,
-  "candidato": true,
-  "serie": [
-   {
-    "date": "19/06/2026",
-    "n": 11.048101209111662
-   },
-   {
-    "date": "22/06/2026",
-    "n": 18.27034679747812
-   },
-   {
-    "date": "23/06/2026",
-    "n": 139.69538557994477
-   },
-   {
-    "date": "24/06/2026",
-    "n": 59.797739201232886
-   },
-   {
-    "date": "25/06/2026",
-    "n": 27.815081309988308
-   },
-   {
-    "date": "26/06/2026",
-    "n": 62.744708560442255
-   },
-   {
-    "date": "29/06/2026",
-    "n": 74.04661577038954
-   }
-  ],
-  "gt_status": "ya_masivo",
-  "gt_lead_days": -5,
-  "gt_peak": 100,
-  "cluster": "mundial",
-  "variantes_relacionadas": [
-   "asistencia mundial",
-   "mundialito ciudades"
-  ],
-  "highlights": [
-   {
-    "channel": "OLGA",
-    "video_id": "4WnW6HfmSvo",
-    "title": "¿LLEGA DIBU MARTÍNEZ AL DEBUT CON ARGENTINA? | #GolGana 1/6",
-    "date": "20260601",
-    "subtema": "Ambiente mundialista en Estados Unidos 2026",
-    "contexto": "Preocupación sobre si habrá clima mundialista real en EEUU, comparación con Brasil 2014, Rusia, Catar. Duda sobre penetración cultural del fútbol en Estados Unidos",
-    "intensidad": 3,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "LDTi8tvhNSc",
-    "title": "CÓMO SE PREPARA ARGENTINA DE CARA AL MUNDIAL | #GolGana 8/6",
-    "date": "20260608",
-    "subtema": "Comparación Qatar 2022 vs Estados Unidos 2026",
-    "contexto": "Se analiza cómo la experiencia de Qatar fue única y difícil de replicar; perspectiva distinta ahora que Argentina es campeona",
-    "intensidad": 3,
-    "start_min": 10,
-    "t_seconds": 600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "3QYSdxUDWHc",
-    "title": "NI UNA MENOS: LA LUCHA QUE TODAVÍA NO TERMINA | #SeríaIncreíble 3/6",
-    "date": "20260603",
-    "subtema": "Copa del Mundo 2026 en Estados Unidos",
-    "contexto": "Cobertura desde Kansas City, análisis del clima y equipaje para el torneo, partido Argentina vs Honduras",
-    "intensidad": 3,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "Ovdcl6-B2kc",
-    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "date": "20260623",
-    "subtema": "FIFA World Cup 2026",
-    "contexto": "Análisis de Argentina defendiendo el título mundial, mención de 'La Batalla de Lusail' contra Holanda",
-    "intensidad": 3,
-    "start_min": 90,
-    "t_seconds": 5400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "Fp5-hk5vL8U",
-    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
-    "date": "20260611",
-    "subtema": "Copa del Mundo 2026",
-    "contexto": "Arrancó el Mundial, se espera ver qué pasa con los jugadores y el torneo",
-    "intensidad": 3,
-    "start_min": 70,
-    "t_seconds": 4200
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "Ir6p9x-GQ_I",
-    "title": "#LOSDELFONDO | AGUSNETA SE BAJA DE LOS SHIPS, TODO SOBRE EL MUNDIAL, FÚTBOL SOPLADO GAGA",
-    "date": "20260609",
-    "subtema": "Gira Luzu 2026",
-    "contexto": "Se promocionó la gira con fechas en Córdoba (12 de junio en Quality Espacio) y Mar del Plata (14 de junio en Teatro Radio City)",
-    "intensidad": 2,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "ZtZeqX0VL24",
-    "title": "#LOSNOTALENTOS l LLEGAMOS: OCCHIAMIN, EL PAPÁ DE AGUSNETA Y TINELLI NOS MIRAN",
-    "date": "20260604",
-    "subtema": "Gira Luzu 2026",
-    "contexto": "Promoción de fechas de la gira: Acuene Offline en Córdoba (12 de junio) y Patri Familia en Mar del Plata (14 de junio)",
-    "intensidad": 2,
-    "start_min": 50,
-    "t_seconds": 3000
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "XHV2BV9DWMs",
-    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "date": "20260619",
-    "subtema": "Gira de conciertos Así Vivir Tour 2026",
-    "contexto": "Anuncio de fechas del nuevo tour comenzando en septiembre en Junín, con fecha destacada en Gran Rex el 23 de octubre",
-    "intensidad": 2,
-    "start_min": 100,
-    "t_seconds": 6000
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "R41W9i_YWio",
-    "title": "#PATRIAYFAMILIA l ¿CÓMO ESTÁ EL CORAZÓN DE ALBERE? Y SU RELACIÓN CON LA JOAQUI",
-    "date": "20260603",
-    "subtema": "Gira Luzu 2026",
-    "contexto": "Promoción de shows en Córdoba (12 de junio en Quality Espacio) y Mar del Plata (14 de junio en Teatro Radio City)",
-    "intensidad": 2,
-    "start_min": 60,
-    "t_seconds": 3600
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "b5MhH0NHJUo",
-    "title": "#ANTESQUENADIE | ¿ESTÁ MAL COIMEAR A UN DT POR LA FELICIDAD DE TU HIJO? + EL CASO DE WALTER BULACIO",
-    "date": "20260610",
-    "subtema": "Gira de shows 2026",
-    "contexto": "Promoción de shows en Córdoba (12 de junio) y Mar del Plata (14 de junio) con entradas disponibles",
-    "intensidad": 2,
-    "start_min": 120,
-    "t_seconds": 7200
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "GLACgh8nuGY",
-    "title": "#SEFUELARGA l JULI POGGIO CONTRA AMANTES, RESPONDE TODO Y FERBO VS FAUSTI BO Y JULI CASTRO",
-    "date": "20260611",
-    "subtema": "Martín Fierro 2026",
-    "contexto": "Se discute sobre la asistencia de Juli Poggio al evento y sus acuerdos comerciales con marcas",
-    "intensidad": 2,
-    "start_min": 80,
-    "t_seconds": 4800
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "S1UDpsKkZvE",
-    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
-    "date": "20260623",
-    "subtema": "Copa del Mundo 2026",
-    "contexto": "Infantino confirmó que entregará la Copa el 19 de julio junto a Donald Trump",
-    "intensidad": 2,
-    "start_min": 200,
-    "t_seconds": 12000
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "JqkhC1EnyTQ",
-    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
-    "date": "20260624",
-    "subtema": "Draft NBA 2026",
-    "contexto": "Karim López, mexicano, elegido en puesto 21 por Detroit para jugar en Memphis",
-    "intensidad": 1,
-    "start_min": 70,
-    "t_seconds": 4200
-   }
-  ],
-  "highlights_total": 13,
-  "evidence_lane": "corroborated",
-  "audio_programs": 119,
-  "chat_signals": {
-   "n_msgs": 640,
-   "n_authors": 507,
-   "programs": [
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 44,
-     "n_authors": 33,
-     "ejemplo": "lo bombearon todo el mundial a Iran"
-    },
-    {
-     "video_id": "LjEHjrbNNgs",
-     "channel": "Vorterix",
-     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-     "n_msgs": 36,
-     "n_authors": 29,
-     "ejemplo": "Ahora sí va a ser una sorpresa el movil de Guille en el mundial"
-    },
-    {
-     "video_id": "8XGdbbwUjEQ",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 34,
-     "n_authors": 29,
-     "ejemplo": "Maria viaja \"con la nuestra\" tambien?? tiene menos futbol que Marley...que va a hacer???"
-    },
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 32,
-     "n_authors": 27,
-     "ejemplo": "pero el mundial no colabora, hay uno de panama de apellido blackman"
-    },
-    {
-     "video_id": "e3av_6yqgHg",
-     "channel": "OLGA",
-     "title": "NOS SOMETEMOS AL CASCO DE LA VERDAD | #SoñéQueVolaba 29/6",
-     "n_msgs": 32,
-     "n_authors": 26,
-     "ejemplo": "El álbum del mundial que le da Pau es sobre plantas"
-    },
-    {
-     "video_id": "XHV2BV9DWMs",
-     "channel": "OLGA",
-     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-     "n_msgs": 30,
-     "n_authors": 24,
-     "ejemplo": "ojala no hablen todo el día del mundial estoy cansada dle mundial"
-    },
-    {
-     "video_id": "FYdwwoHNrMs",
-     "channel": "Vorterix",
-     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
-     "n_msgs": 27,
-     "n_authors": 22,
-     "ejemplo": "los neuros al especial mundial 90"
-    },
-    {
-     "video_id": "IB9cCJT0-_M",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 25,
-     "n_authors": 22,
-     "ejemplo": "como vas a ir a un vip en pleno mundial"
-    }
-   ],
-   "chat_only_programs": [
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 44,
-     "n_authors": 33,
-     "ejemplo": "lo bombearon todo el mundial a Iran"
-    },
-    {
-     "video_id": "8XGdbbwUjEQ",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 34,
-     "n_authors": 29,
-     "ejemplo": "Maria viaja \"con la nuestra\" tambien?? tiene menos futbol que Marley...que va a hacer???"
-    },
-    {
-     "video_id": "IB9cCJT0-_M",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 25,
-     "n_authors": 22,
-     "ejemplo": "como vas a ir a un vip en pleno mundial"
     }
    ]
   }
@@ -21817,8 +21758,8 @@
    "programs": [
     {
      "video_id": "04q2g0UfdyA",
-     "channel": "?",
-     "title": "",
+     "channel": "Neura Media",
+     "title": "Multiverso Neura",
      "n_msgs": 3,
      "n_authors": 3,
      "ejemplo": "La ultima carrera fallaron los dos Alpine, Colapinto perdio potencia despues de la largada quedó ultimo, no fue el fin de semana del equipo."
@@ -21883,8 +21824,8 @@
    "chat_only_programs": [
     {
      "video_id": "04q2g0UfdyA",
-     "channel": "?",
-     "title": "",
+     "channel": "Neura Media",
+     "title": "Multiverso Neura",
      "n_msgs": 3,
      "n_authors": 3,
      "ejemplo": "La ultima carrera fallaron los dos Alpine, Colapinto perdio potencia despues de la largada quedó ultimo, no fue el fin de semana del equipo."
@@ -21990,7 +21931,7 @@
   "highlights": [],
   "highlights_total": 0,
   "evidence_lane": "corroborated",
-  "audio_programs": 106,
+  "audio_programs": 108,
   "chat_signals": {
    "n_msgs": 411,
    "n_authors": 317,
@@ -22534,6 +22475,17 @@
     "t_seconds": 4200
    },
    {
+    "channel": "LUZU TV",
+    "video_id": "EnqUXeV9YYg",
+    "title": "#FMLUZU | OCCHIATO INVESTIGA SOBRE EL TRIO CRUISA + EL ANUNCIO DE GUIDO CO + LLAMAMOS A CHIQUI TAPIA",
+    "date": "20260609",
+    "subtema": "viajes internacionales del programa",
+    "contexto": "El equipo de FM Luzu viaja a diferentes ciudades: Madrid, Barcelona, Colombia, y ahora Bogotá con Fito Páez",
+    "intensidad": 3,
+    "start_min": 20,
+    "t_seconds": 1200
+   },
+   {
     "channel": "Neura Media",
     "video_id": "Mu8yxSKxqGQ",
     "title": "After Market: Julián Yosovitch",
@@ -22568,6 +22520,17 @@
    },
    {
     "channel": "LUZU TV",
+    "video_id": "Jf7bO88vnm0",
+    "title": "#ANTESQUENADIE | ¿EL TRINCHE USA COFIA DE SEDA? + EL MEJOR JUEGO DEL STREAMING NACIONAL",
+    "date": "20260604",
+    "subtema": "Viajes familiares internacionales",
+    "contexto": "Los suegros ahorran dinero para viajar a México una semana a visitar a su hija y conocer al nieto, generando conflicto con el cuñado.",
+    "intensidad": 2,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
+    "channel": "LUZU TV",
     "video_id": "LCHcl21l1CE",
     "title": "#ANTESQUENADIE | ¿ARMAMOS PAREJAS A CIEGAS? Y JUGUETES TRUCHOS QUE MARCARON NUESTRA INFANCIA",
     "date": "20260609",
@@ -22590,6 +22553,39 @@
    },
    {
     "channel": "LUZU TV",
+    "video_id": "PaeP2ee-rFI",
+    "title": "#ELSHOWDELVERANO | PREDECIMOS EL FUTURO Y NO HABLAMOS DE LA TRAYECTORIA DE TORTONESE",
+    "date": "20260604",
+    "subtema": "Viajes internacionales",
+    "contexto": "Se mencionan viajes a Madrid, Roma, Praga, Amsterdam, Egipto y Holanda donde ocurrieron anécdotas con el equipo",
+    "intensidad": 2,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
+    "channel": "BLENDER",
+    "video_id": "gbs55KwjTeA",
+    "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+    "date": "20260630",
+    "subtema": "Imitaciones de cantantes internacionales",
+    "contexto": "Menciona imitaciones de Ricky Martin, Montaner, Camilo, Bad Bunny, El Emanero, Julio Iglesias, Cristian Castro",
+    "intensidad": 2,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "BLENDER",
+    "video_id": "gbs55KwjTeA",
+    "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+    "date": "20260630",
+    "subtema": "Imitación de celebridades internacionales",
+    "contexto": "Menciona dificultad para imitar a Donald Trump, Rod Stewart, Edson Jones por barrera del idioma inglés",
+    "intensidad": 2,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "LUZU TV",
     "video_id": "YmGen45CUIY",
     "title": "#FMLUZU | LA GURISA PERDIÓ SU TARJETA DE CRÉDITO + PROPUESTA DE CASAMIENTO EN VIVO",
     "date": "20260605",
@@ -22598,6 +22594,17 @@
     "intensidad": 2,
     "start_min": 10,
     "t_seconds": 600
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "Jf7bO88vnm0",
+    "title": "#ANTESQUENADIE | ¿EL TRINCHE USA COFIA DE SEDA? + EL MEJOR JUEGO DEL STREAMING NACIONAL",
+    "date": "20260604",
+    "subtema": "Viajes internacionales y visitas familiares",
+    "contexto": "Conversación sobre visitas entre Argentina y México, costo de pasajes y organización de hospedaje",
+    "intensidad": 2,
+    "start_min": 90,
+    "t_seconds": 5400
    },
    {
     "channel": "OLGA",
@@ -22633,42 +22640,20 @@
     "t_seconds": 2400
    },
    {
-    "channel": "Neura Media",
-    "video_id": "Mu8yxSKxqGQ",
-    "title": "After Market: Julián Yosovitch",
-    "date": "20260629",
-    "subtema": "Reservas internacionales",
-    "contexto": "Mención de nivel de reservas y compras diarias de dólares por el Banco Central",
-    "intensidad": 2,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
     "channel": "LUZU TV",
-    "video_id": "wpLDMAyU_fA",
-    "title": "#PATRIAYFAMILIA l CÁMARA OCULTA A MARCOS GILES Y SE CHAMUYAN A AGUSNETA",
-    "date": "20260624",
-    "subtema": "Seguidores internacionales",
-    "contexto": "Mensajes de fans desde Cuba, Alemania y otros países sobre el impacto del programa",
-    "intensidad": 1,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "HxSfByGpEe0",
-    "title": "HACÉ REÍR A LA MESA y GANAS $50.000 | #TapadosDeLaburo 5/6",
-    "date": "20260605",
-    "subtema": "Fans internacionales de Paraguay",
-    "contexto": "Se recibe a fanáticas de Asunción, Paraguay que siguen el programa desde 2010",
-    "intensidad": 1,
-    "start_min": 10,
-    "t_seconds": 600
+    "video_id": "EnqUXeV9YYg",
+    "title": "#FMLUZU | OCCHIATO INVESTIGA SOBRE EL TRIO CRUISA + EL ANUNCIO DE GUIDO CO + LLAMAMOS A CHIQUI TAPIA",
+    "date": "20260609",
+    "subtema": "viajes internacionales de la comunidad",
+    "contexto": "La comunidad viaja a diferentes países conociendo lugares espectaculares con artistas",
+    "intensidad": 2,
+    "start_min": 30,
+    "t_seconds": 1800
    }
   ],
-  "highlights_total": 16,
+  "highlights_total": 24,
   "evidence_lane": "corroborated",
-  "audio_programs": 22,
+  "audio_programs": 23,
   "chat_signals": {
    "n_msgs": 5,
    "n_authors": 4,
@@ -22755,7 +22740,7 @@
   "highlights": [],
   "highlights_total": 0,
   "evidence_lane": "corroborated",
-  "audio_programs": 35,
+  "audio_programs": 36,
   "chat_signals": {
    "n_msgs": 219,
    "n_authors": 177,
@@ -22923,6 +22908,17 @@
     "video_id": "c1LrQSDaXAY",
     "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
     "date": "20260626",
+    "subtema": "Viajes y turismo",
+    "contexto": "Conversación sobre experiencias de viaje a Wellington, Nueva Zelanda, y cómo los viajes pueden unir o separar parejas",
+    "intensidad": 3,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "Neura Media",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "date": "20260626",
     "subtema": "Viajar y turismo",
     "contexto": "Se enfatiza viajar como la actividad más importante para el cerebro, con ejemplos de experiencias personales",
     "intensidad": 3,
@@ -22972,6 +22968,17 @@
     "intensidad": 2,
     "start_min": 140,
     "t_seconds": 8400
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "bQfYZ3sfUYc",
+    "title": "LA NOVELA con CARINA ZAMPINI, DIEGO CASTRO, GABY SCHULTZ Y AGUS BATTIONI | EN VIVO",
+    "date": "20260624",
+    "subtema": "Viajes y turismo en Dallas",
+    "contexto": "Conversación sobre costos de hospedaje, hoteles en diferentes zonas de Dallas, y experiencias de turistas argentinos",
+    "intensidad": 2,
+    "start_min": 40,
+    "t_seconds": 2400
    },
    {
     "channel": "OLGA",
@@ -23073,7 +23080,7 @@
     "t_seconds": 10800
    }
   ],
-  "highlights_total": 15,
+  "highlights_total": 17,
   "evidence_lane": "corroborated",
   "audio_programs": 17,
   "chat_signals": {
@@ -23161,6 +23168,401 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "argentina es alto antro bs los porteños aca vienen a hacer turismo sexual somos tailandia"
+    }
+   ]
+  }
+ },
+ {
+  "tema": "viajes",
+  "score": 244.5,
+  "trend_score": 15.65,
+  "menciones": 38,
+  "growth_wow": 0.133,
+  "demand_ratio": 0.026,
+  "demand_signals": 1,
+  "canales": [
+   "BLENDER",
+   "Bondi Live",
+   "LUZU TV",
+   "Neura Media",
+   "OLGA",
+   "Vorterix"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura",
+   "lugar",
+   "producto",
+   "salud"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "19/06/2026",
+    "n": 3.517708827297516
+   },
+   {
+    "date": "22/06/2026",
+    "n": 9.03609942427705
+   },
+   {
+    "date": "23/06/2026",
+    "n": 64.38443820354664
+   },
+   {
+    "date": "24/06/2026",
+    "n": 37.684354803673386
+   },
+   {
+    "date": "25/06/2026",
+    "n": 3.0
+   },
+   {
+    "date": "26/06/2026",
+    "n": 71.79520689958927
+   },
+   {
+    "date": "29/06/2026",
+    "n": 47.596871856675115
+   },
+   {
+    "date": "30/06/2026",
+    "n": 7.48953270420237
+   }
+  ],
+  "gt_status": "ya_masivo",
+  "gt_lead_days": -362,
+  "gt_peak": 100,
+  "cluster": null,
+  "variantes_relacionadas": [],
+  "highlights": [
+   {
+    "channel": "LUZU TV",
+    "video_id": "aeyaHqA4ByI",
+    "title": "#NADIEDICENADA | ¿FLOR SE INDIGNÓ CON UNA OYENTE? Y TODOS NOS PREPARAMOS PARA MIAMI Y EL MUNDIAL",
+    "date": "20260611",
+    "subtema": "Viajes y experiencias de vida en el extranjero",
+    "contexto": "Conversación extensa sobre fantasía de vivir afuera, vivir un año en Cabo Verde o lugares random, y cómo los viajes abren perspectiva y cambian la vida",
+    "intensidad": 3,
+    "start_min": 70,
+    "t_seconds": 4200
+   },
+   {
+    "channel": "Neura Media",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "date": "20260626",
+    "subtema": "Viajes en grupo y conflictos",
+    "contexto": "Discusión sobre cómo siempre hay alguien que arruina los viajes en grupo, ya sea por no ir, quedarse dormido o tener intereses diferentes",
+    "intensidad": 3,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "YmGen45CUIY",
+    "title": "#FMLUZU | LA GURISA PERDIÓ SU TARJETA DE CRÉDITO + PROPUESTA DE CASAMIENTO EN VIVO",
+    "date": "20260605",
+    "subtema": "Viajes a Barcelona",
+    "contexto": "El programa está transmitiendo en vivo desde Barcelona, recorriendo lugares como el Arco del Triunfo y el Barrio Gótico",
+    "intensidad": 3,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "EnqUXeV9YYg",
+    "title": "#FMLUZU | OCCHIATO INVESTIGA SOBRE EL TRIO CRUISA + EL ANUNCIO DE GUIDO CO + LLAMAMOS A CHIQUI TAPIA",
+    "date": "20260609",
+    "subtema": "celos y relaciones a distancia por viajes",
+    "contexto": "Se analiza cómo los viajes generan distancia, celos y dinámicas complicadas en parejas, con ejemplo de More preocupada",
+    "intensidad": 3,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "WCdVYizlDYA",
+    "title": "⚽️ GOLGANA con AZZ: Flavio Azzaro, Chute D'attellis, Benito, Sangre y Mouche | OLGA EN VIVO 2026-06-29 14:53",
+    "date": "20260629",
+    "subtema": "Viajes a Estados Unidos",
+    "contexto": "Múltiples historias de hinchas que viajaron desde Argentina a Estados Unidos para ver el Mundial",
+    "intensidad": 3,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "Neura Media",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "date": "20260626",
+    "subtema": "Desacuerdos de intereses en viajes",
+    "contexto": "Mención a Alejandro Guati y Carly Jiménez que viajaron juntos pero tenían intereses diferentes: uno quería playa, otro shopping",
+    "intensidad": 2,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "Ir6p9x-GQ_I",
+    "title": "#LOSDELFONDO | AGUSNETA SE BAJA DE LOS SHIPS, TODO SOBRE EL MUNDIAL, FÚTBOL SOPLADO GAGA",
+    "date": "20260609",
+    "subtema": "Corte de cabello y acondicionamiento para viajes",
+    "contexto": "Uno de los conductores se cortó el pelo antes del viaje al Mundial y comentan sobre el tiempo de acomodamiento del cabello",
+    "intensidad": 2,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "LzZD6sPGPu0",
+    "title": "TODO LO QUE DEJÓ LA ÚLTIMA MISA RICOTERA con SOFI CARMONA | #SeríaIncreíble 8/6",
+    "date": "20260608",
+    "subtema": "experiencia de viajes en avión con bebés",
+    "contexto": "Discusión sobre lo traumático que es para bebés viajar en avión, propuesta de crear secciones separadas para bebés",
+    "intensidad": 2,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "Y7TeotcndjQ",
+    "title": "COINCIDO O DEBATO: ¿SE PERDONA TODO POR SER DE OTRA ÉPOCA? | #TapadosDeLaburo 2/6",
+    "date": "20260602",
+    "subtema": "viajes de egresados a Bariloche en relaciones de pareja",
+    "contexto": "Debate sobre si es necesario terminar una relación para ir de viaje de egresados, vs. cortar relaciones tóxicas",
+    "intensidad": 2,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "Vorterix",
+    "video_id": "3CPnLRc7h2w",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "date": "20260629",
+    "subtema": "Viajes en avión de alta velocidad",
+    "contexto": "Discusión sobre aviones a 600-900 km/h, tiempos de viaje a ciudades argentinas como Mar del Plata y Rosario",
+    "intensidad": 2,
+    "start_min": 90,
+    "t_seconds": 5400
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "GLACgh8nuGY",
+    "title": "#SEFUELARGA l JULI POGGIO CONTRA AMANTES, RESPONDE TODO Y FERBO VS FAUSTI BO Y JULI CASTRO",
+    "date": "20260611",
+    "subtema": "Viajes de quinceañeras",
+    "contexto": "Se menciona a Fausti yendo de Cordy (viaje de Cordoba) a Disney, y contraste con otros que fueron de quince",
+    "intensidad": 2,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "bBf-XfM_Q_c",
+    "title": "#UNSÁBADOMEJOR | SANTI ENCONTRÓ EL AMOR EN UN OYENTE + MOMENTO  TELENOVELA CON LA TRIBUNA",
+    "date": "20260627",
+    "subtema": "Viajes por amor",
+    "contexto": "Discuten sobre viajar a España para conocer a alguien y se comparte anécdota de viaje sorpresa a un ex",
+    "intensidad": 2,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
+    "channel": "Neura Media",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "date": "20260626",
+    "subtema": "Memoria olfativa y viajes",
+    "contexto": "Se recomienda usar un perfume nuevo solo en el destino para crear memoria olfativa y recordar el viaje",
+    "intensidad": 2,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "Neura Media",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "date": "20260626",
+    "subtema": "Viajes y destinos",
+    "contexto": "Conversación sobre tips de viajero, pasaporte, seguros de viaje y recomendación de no repetir ciudades",
+    "intensidad": 2,
+    "start_min": 100,
+    "t_seconds": 6000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "Ir6p9x-GQ_I",
+    "title": "#LOSDELFONDO | AGUSNETA SE BAJA DE LOS SHIPS, TODO SOBRE EL MUNDIAL, FÚTBOL SOPLADO GAGA",
+    "date": "20260609",
+    "subtema": "Preparación de valijas para viajes",
+    "contexto": "Conversación sobre hacer maletas con anticipación vs. último momento, específicamente para el Mundial",
+    "intensidad": 2,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "b3xixpLLqjY",
+    "title": "#UNSABADOMEJOR | ¿VALE EL PERMITIDO EN LA PAREJA?, AGUS Y TATI EDUCAN AL POLLO, TRIBUNA DE PARECIDOS",
+    "date": "20260606",
+    "subtema": "Música en viajes",
+    "contexto": "Debaten qué música poner en la combi hacia Mar del Plata, mencionan artistas como Morat, tini, cumbia",
+    "intensidad": 2,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "S1UDpsKkZvE",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+    "date": "20260623",
+    "subtema": "Viajes en avión fumando",
+    "contexto": "Anécdotas sobre fumar en aviones en épocas pasadas, secciones de fumadores, encendedores permitidos",
+    "intensidad": 2,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
+    "channel": "Neura Media",
+    "video_id": "c1LrQSDaXAY",
+    "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+    "date": "20260626",
+    "subtema": "Planificación de viajes wellness",
+    "contexto": "Dayana Trippi da tips sobre cómo planificar un viaje wellness, comenzando con la elección del hotel",
+    "intensidad": 2,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "LDTi8tvhNSc",
+    "title": "CÓMO SE PREPARA ARGENTINA DE CARA AL MUNDIAL | #GolGana 8/6",
+    "date": "20260608",
+    "subtema": "Alimentación y compras en supermercados durante viajes",
+    "contexto": "Menciona comprar en Walmart: pollo, huevo, banana, yogur. Habla de comida típica gringa aburrida",
+    "intensidad": 2,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "YmGen45CUIY",
+    "title": "#FMLUZU | LA GURISA PERDIÓ SU TARJETA DE CRÉDITO + PROPUESTA DE CASAMIENTO EN VIVO",
+    "date": "20260605",
+    "subtema": "viajes y mudanza a España",
+    "contexto": "pareja de Mar del Plata que se mudó a España como aventura, viven en Barcelona hace casi 2 años",
+    "intensidad": 2,
+    "start_min": 30,
+    "t_seconds": 1800
+   }
+  ],
+  "highlights_total": 41,
+  "evidence_lane": "corroborated",
+  "audio_programs": 40,
+  "chat_signals": {
+   "n_msgs": 15,
+   "n_authors": 14,
+   "programs": [
+    {
+     "video_id": "c1LrQSDaXAY",
+     "channel": "Neura Media",
+     "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "COMO SE PUEDE COMPRAR LOS VIAJES"
+    },
+    {
+     "video_id": "EPCfCkglZWA",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 1,
+     "ejemplo": "si evadió, a mi, partiucularmente, no me importa, lo que me interesa es que no haya usado el Estado para favorecer a nadie. Ya vimos que empresarios le pagaron "
+    },
+    {
+     "video_id": "0_ua1dXLT5o",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "Milei tenía dos viajes comprometibord para esta semana"
+    },
+    {
+     "video_id": "3CPnLRc7h2w",
+     "channel": "Vorterix",
+     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "viajes conciertos"
+    },
+    {
+     "video_id": "7ON4ZA5TtHc",
+     "channel": "Neura Media",
+     "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "CONTRA JORDANIA SE LO PUEDE PERDER SI YA ESTAMOS CLASIFICADOS QUE NO GASTE EN VIAJES AL PEDO JEJ"
+    },
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "PARA LLEGAR PEDITE UN CABIFY. Y TENES DESCUENTO EN TUS PRIMEROS 4 VIAJES CON EL CODIGO soñeconcabify"
+    },
+    {
+     "video_id": "9ucd7zkq6P8",
+     "channel": "OLGA",
+     "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "pasa que allá la \"reventa\" es legal.. y muchas empresas de viajes se hicieron de entradas para vender viajes. más los locales y los que pone el dueño del estadi"
+    },
+    {
+     "video_id": "DMOHJbfdIlY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "NO ES LO MISMO UN PAR DE ZAPATOS QUE CASA, DEPRTAMENTO, VIAJES ETC,ETC"
+    }
+   ],
+   "chat_only_programs": [
+    {
+     "video_id": "EPCfCkglZWA",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 1,
+     "ejemplo": "si evadió, a mi, partiucularmente, no me importa, lo que me interesa es que no haya usado el Estado para favorecer a nadie. Ya vimos que empresarios le pagaron "
+    },
+    {
+     "video_id": "0_ua1dXLT5o",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "Milei tenía dos viajes comprometibord para esta semana"
+    },
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "PARA LLEGAR PEDITE UN CABIFY. Y TENES DESCUENTO EN TUS PRIMEROS 4 VIAJES CON EL CODIGO soñeconcabify"
+    },
+    {
+     "video_id": "DMOHJbfdIlY",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "NO ES LO MISMO UN PAR DE ZAPATOS QUE CASA, DEPRTAMENTO, VIAJES ETC,ETC"
     }
    ]
   }
@@ -23425,7 +23827,7 @@
   ],
   "highlights_total": 54,
   "evidence_lane": "corroborated",
-  "audio_programs": 113,
+  "audio_programs": 115,
   "chat_signals": {
    "n_msgs": 544,
    "n_authors": 420,
@@ -24178,9 +24580,9 @@
     "t_seconds": 600
    }
   ],
-  "highlights_total": 80,
+  "highlights_total": 81,
   "evidence_lane": "corroborated",
-  "audio_programs": 62,
+  "audio_programs": 63,
   "chat_signals": {
    "n_msgs": 95,
    "n_authors": 85,
@@ -25119,8 +25521,8 @@
     },
     {
      "video_id": "04q2g0UfdyA",
-     "channel": "?",
-     "title": "",
+     "channel": "Neura Media",
+     "title": "Multiverso Neura",
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "@dalimenu TE CHORIASTE LAS PAPAS DEL VERDULERO, DEVOLVE LAS CHAUCHAS, TE MANOTEASTE LAS ZANAHORIAS...."
@@ -25177,8 +25579,8 @@
     },
     {
      "video_id": "04q2g0UfdyA",
-     "channel": "?",
-     "title": "",
+     "channel": "Neura Media",
+     "title": "Multiverso Neura",
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "@dalimenu TE CHORIASTE LAS PAPAS DEL VERDULERO, DEVOLVE LAS CHAUCHAS, TE MANOTEASTE LAS ZANAHORIAS...."
@@ -25436,9 +25838,9 @@
     "t_seconds": 0
    }
   ],
-  "highlights_total": 22,
+  "highlights_total": 23,
   "evidence_lane": "corroborated",
-  "audio_programs": 23,
+  "audio_programs": 24,
   "chat_signals": {
    "n_msgs": 315,
    "n_authors": 218,
@@ -25685,8 +26087,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 13,
   "chat_signals": {
-   "n_msgs": 58,
-   "n_authors": 52,
+   "n_msgs": 59,
+   "n_authors": 53,
    "programs": [
     {
      "video_id": "8lOkxIDSd4w",
@@ -27966,6 +28368,218 @@
   }
  },
  {
+  "tema": "blender",
+  "score": 1.4,
+  "trend_score": 14.69,
+  "menciones": 1,
+  "growth_wow": 0.0,
+  "demand_ratio": 1.0,
+  "demand_signals": 1,
+  "canales": [
+   "BLENDER"
+  ],
+  "categorias": [
+   "actividad"
+  ],
+  "cross_comunidad": false,
+  "multi_dia": false,
+  "candidato": false,
+  "serie": [
+   {
+    "date": "30/06/2026",
+    "n": 1.4177930281792617
+   }
+  ],
+  "gt_status": null,
+  "gt_lead_days": null,
+  "gt_peak": null,
+  "cluster": null,
+  "variantes_relacionadas": [],
+  "highlights": [
+   {
+    "channel": "BLENDER",
+    "video_id": "gbs55KwjTeA",
+    "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+    "date": "20260630",
+    "subtema": "Despidos en Blender",
+    "contexto": "Se despidió a 10 trabajadores de la empresa Blender sin contexto claro. Los conductores exigen reincorporación y diálogo.",
+    "intensidad": 3,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "BLENDER",
+    "video_id": "gbs55KwjTeA",
+    "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+    "date": "20260630",
+    "subtema": "Despidos en Blender",
+    "contexto": "Discusión sobre el despido de 10 trabajadores de la productora, con énfasis en la falta de diálogo y solidaridad laboral",
+    "intensidad": 3,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
+    "channel": "GELATINA",
+    "video_id": "vlNZMMmBbLw",
+    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+    "date": "20260629",
+    "subtema": "Despidos en canal Blender por reclamos salariales",
+    "contexto": "Trabajadores del streaming Blender fueron despedidos tras iniciar reclamos salariales, solidaridad laboral del sector",
+    "intensidad": 3,
+    "start_min": 100,
+    "t_seconds": 6000
+   },
+   {
+    "channel": "Vorterix",
+    "video_id": "EwFONN3W5cg",
+    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+    "date": "20260626",
+    "subtema": "Despidos en Blender",
+    "contexto": "Discusión sobre despidos arbitrarios y violentos en la productora Blender, ausencia de La Colo",
+    "intensidad": 3,
+    "start_min": 120,
+    "t_seconds": 7200
+   },
+   {
+    "channel": "Vorterix",
+    "video_id": "IubT1ZyjjEA",
+    "title": "🔴 ESTO NO SUCEDIÓ con Hernan Panessi, Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
+    "date": "20260626",
+    "subtema": "Despidos en Blender",
+    "contexto": "Se mencionan despidos repentinos en la plataforma Blender sin aviso, solidaridad con colegas",
+    "intensidad": 3,
+    "start_min": 110,
+    "t_seconds": 6600
+   },
+   {
+    "channel": "BLENDER",
+    "video_id": "gbs55KwjTeA",
+    "title": "SHOW de IMITACIONES de IVÁN RAMÍREZ y LISTORTI y MARTA FORT desde MIAMI | BLENDER AT NIGHT",
+    "date": "20260630",
+    "subtema": "Historia de Blender",
+    "contexto": "Se menciona que Blender nació como proyecto hace tres años y se convirtió en uno de los principales streamings de Argentina.",
+    "intensidad": 1,
+    "start_min": 0,
+    "t_seconds": 0
+   }
+  ],
+  "highlights_total": 6,
+  "evidence_lane": "corroborated",
+  "audio_programs": 5,
+  "chat_signals": {
+   "n_msgs": 447,
+   "n_authors": 333,
+   "programs": [
+    {
+     "video_id": "LjEHjrbNNgs",
+     "channel": "Vorterix",
+     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+     "n_msgs": 259,
+     "n_authors": 195,
+     "ejemplo": "F BLENDER"
+    },
+    {
+     "video_id": "0_ua1dXLT5o",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 45,
+     "n_authors": 32,
+     "ejemplo": "carta documento a blender señora"
+    },
+    {
+     "video_id": "FYdwwoHNrMs",
+     "channel": "Vorterix",
+     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+     "n_msgs": 20,
+     "n_authors": 18,
+     "ejemplo": "hoy pasan un compilado mejores momentos en blender"
+    },
+    {
+     "video_id": "JNLpggdieek",
+     "channel": "Vorterix",
+     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+     "n_msgs": 22,
+     "n_authors": 17,
+     "ejemplo": "saludos para blender que se despide"
+    },
+    {
+     "video_id": "EwFONN3W5cg",
+     "channel": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "n_msgs": 14,
+     "n_authors": 14,
+     "ejemplo": "nooo como no va a estar la colo la puta q t pario blender"
+    },
+    {
+     "video_id": "tAUTd2FsMxA",
+     "channel": "Bondi Live",
+     "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+     "n_msgs": 14,
+     "n_authors": 12,
+     "ejemplo": "chicos que paso con blender"
+    },
+    {
+     "video_id": "3t9P2KFJ4K0",
+     "channel": "Vorterix",
+     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+     "n_msgs": 15,
+     "n_authors": 10,
+     "ejemplo": "blender vos tambien la tenes adentro"
+    },
+    {
+     "video_id": "JXVQmuDctII",
+     "channel": "BLENDER",
+     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+     "n_msgs": 7,
+     "n_authors": 7,
+     "ejemplo": "SON TODOS BASURAS EN BLENDER"
+    }
+   ],
+   "chat_only_programs": [
+    {
+     "video_id": "LjEHjrbNNgs",
+     "channel": "Vorterix",
+     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+     "n_msgs": 259,
+     "n_authors": 195,
+     "ejemplo": "F BLENDER"
+    },
+    {
+     "video_id": "0_ua1dXLT5o",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 45,
+     "n_authors": 32,
+     "ejemplo": "carta documento a blender señora"
+    },
+    {
+     "video_id": "FYdwwoHNrMs",
+     "channel": "Vorterix",
+     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+     "n_msgs": 20,
+     "n_authors": 18,
+     "ejemplo": "hoy pasan un compilado mejores momentos en blender"
+    },
+    {
+     "video_id": "JNLpggdieek",
+     "channel": "Vorterix",
+     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+     "n_msgs": 22,
+     "n_authors": 17,
+     "ejemplo": "saludos para blender que se despide"
+    },
+    {
+     "video_id": "3t9P2KFJ4K0",
+     "channel": "Vorterix",
+     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+     "n_msgs": 15,
+     "n_authors": 10,
+     "ejemplo": "blender vos tambien la tenes adentro"
+    }
+   ]
+  }
+ },
+ {
   "tema": "documentación para viajar",
   "score": 1.0,
   "trend_score": 14.69,
@@ -29309,7 +29923,7 @@
   "highlights": [],
   "highlights_total": 0,
   "evidence_lane": "corroborated",
-  "audio_programs": 106,
+  "audio_programs": 108,
   "chat_signals": {
    "n_msgs": 204,
    "n_authors": 173,
@@ -29572,6 +30186,316 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "Quiero vital por el Mundialito de ciudades"
+    }
+   ]
+  }
+ },
+ {
+  "tema": "mundial fútbol 2026",
+  "score": 397.2,
+  "trend_score": 13.04,
+  "menciones": 56,
+  "growth_wow": 0.0,
+  "demand_ratio": 0.0,
+  "demand_signals": 0,
+  "canales": [
+   " A U R A ",
+   "BLENDER",
+   "GELATINA",
+   "LUZU TV",
+   "OLGA",
+   "Vorterix"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "19/06/2026",
+    "n": 11.048101209111662
+   },
+   {
+    "date": "22/06/2026",
+    "n": 18.27034679747812
+   },
+   {
+    "date": "23/06/2026",
+    "n": 139.69538557994477
+   },
+   {
+    "date": "24/06/2026",
+    "n": 59.797739201232886
+   },
+   {
+    "date": "25/06/2026",
+    "n": 27.815081309988308
+   },
+   {
+    "date": "26/06/2026",
+    "n": 62.744708560442255
+   },
+   {
+    "date": "29/06/2026",
+    "n": 74.04661577038954
+   },
+   {
+    "date": "30/06/2026",
+    "n": 3.77968715183021
+   }
+  ],
+  "gt_status": "ya_masivo",
+  "gt_lead_days": -5,
+  "gt_peak": 100,
+  "cluster": "mundial",
+  "variantes_relacionadas": [
+   "asistencia mundial",
+   "mundialito ciudades"
+  ],
+  "highlights": [
+   {
+    "channel": "OLGA",
+    "video_id": "4WnW6HfmSvo",
+    "title": "¿LLEGA DIBU MARTÍNEZ AL DEBUT CON ARGENTINA? | #GolGana 1/6",
+    "date": "20260601",
+    "subtema": "Ambiente mundialista en Estados Unidos 2026",
+    "contexto": "Preocupación sobre si habrá clima mundialista real en EEUU, comparación con Brasil 2014, Rusia, Catar. Duda sobre penetración cultural del fútbol en Estados Unidos",
+    "intensidad": 3,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "LDTi8tvhNSc",
+    "title": "CÓMO SE PREPARA ARGENTINA DE CARA AL MUNDIAL | #GolGana 8/6",
+    "date": "20260608",
+    "subtema": "Comparación Qatar 2022 vs Estados Unidos 2026",
+    "contexto": "Se analiza cómo la experiencia de Qatar fue única y difícil de replicar; perspectiva distinta ahora que Argentina es campeona",
+    "intensidad": 3,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "3QYSdxUDWHc",
+    "title": "NI UNA MENOS: LA LUCHA QUE TODAVÍA NO TERMINA | #SeríaIncreíble 3/6",
+    "date": "20260603",
+    "subtema": "Copa del Mundo 2026 en Estados Unidos",
+    "contexto": "Cobertura desde Kansas City, análisis del clima y equipaje para el torneo, partido Argentina vs Honduras",
+    "intensidad": 3,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "Ovdcl6-B2kc",
+    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "date": "20260623",
+    "subtema": "FIFA World Cup 2026",
+    "contexto": "Análisis de Argentina defendiendo el título mundial, mención de 'La Batalla de Lusail' contra Holanda",
+    "intensidad": 3,
+    "start_min": 90,
+    "t_seconds": 5400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "Fp5-hk5vL8U",
+    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
+    "date": "20260611",
+    "subtema": "Copa del Mundo 2026",
+    "contexto": "Arrancó el Mundial, se espera ver qué pasa con los jugadores y el torneo",
+    "intensidad": 3,
+    "start_min": 70,
+    "t_seconds": 4200
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "Ir6p9x-GQ_I",
+    "title": "#LOSDELFONDO | AGUSNETA SE BAJA DE LOS SHIPS, TODO SOBRE EL MUNDIAL, FÚTBOL SOPLADO GAGA",
+    "date": "20260609",
+    "subtema": "Gira Luzu 2026",
+    "contexto": "Se promocionó la gira con fechas en Córdoba (12 de junio en Quality Espacio) y Mar del Plata (14 de junio en Teatro Radio City)",
+    "intensidad": 2,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "ZtZeqX0VL24",
+    "title": "#LOSNOTALENTOS l LLEGAMOS: OCCHIAMIN, EL PAPÁ DE AGUSNETA Y TINELLI NOS MIRAN",
+    "date": "20260604",
+    "subtema": "Gira Luzu 2026",
+    "contexto": "Promoción de fechas de la gira: Acuene Offline en Córdoba (12 de junio) y Patri Familia en Mar del Plata (14 de junio)",
+    "intensidad": 2,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "XHV2BV9DWMs",
+    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+    "date": "20260619",
+    "subtema": "Gira de conciertos Así Vivir Tour 2026",
+    "contexto": "Anuncio de fechas del nuevo tour comenzando en septiembre en Junín, con fecha destacada en Gran Rex el 23 de octubre",
+    "intensidad": 2,
+    "start_min": 100,
+    "t_seconds": 6000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "R41W9i_YWio",
+    "title": "#PATRIAYFAMILIA l ¿CÓMO ESTÁ EL CORAZÓN DE ALBERE? Y SU RELACIÓN CON LA JOAQUI",
+    "date": "20260603",
+    "subtema": "Gira Luzu 2026",
+    "contexto": "Promoción de shows en Córdoba (12 de junio en Quality Espacio) y Mar del Plata (14 de junio en Teatro Radio City)",
+    "intensidad": 2,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "b5MhH0NHJUo",
+    "title": "#ANTESQUENADIE | ¿ESTÁ MAL COIMEAR A UN DT POR LA FELICIDAD DE TU HIJO? + EL CASO DE WALTER BULACIO",
+    "date": "20260610",
+    "subtema": "Gira de shows 2026",
+    "contexto": "Promoción de shows en Córdoba (12 de junio) y Mar del Plata (14 de junio) con entradas disponibles",
+    "intensidad": 2,
+    "start_min": 120,
+    "t_seconds": 7200
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "GLACgh8nuGY",
+    "title": "#SEFUELARGA l JULI POGGIO CONTRA AMANTES, RESPONDE TODO Y FERBO VS FAUSTI BO Y JULI CASTRO",
+    "date": "20260611",
+    "subtema": "Martín Fierro 2026",
+    "contexto": "Se discute sobre la asistencia de Juli Poggio al evento y sus acuerdos comerciales con marcas",
+    "intensidad": 2,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "S1UDpsKkZvE",
+    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+    "date": "20260623",
+    "subtema": "Copa del Mundo 2026",
+    "contexto": "Infantino confirmó que entregará la Copa el 19 de julio junto a Donald Trump",
+    "intensidad": 2,
+    "start_min": 200,
+    "t_seconds": 12000
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "JqkhC1EnyTQ",
+    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+    "date": "20260624",
+    "subtema": "Draft NBA 2026",
+    "contexto": "Karim López, mexicano, elegido en puesto 21 por Detroit para jugar en Memphis",
+    "intensidad": 1,
+    "start_min": 70,
+    "t_seconds": 4200
+   }
+  ],
+  "highlights_total": 13,
+  "evidence_lane": "corroborated",
+  "audio_programs": 121,
+  "chat_signals": {
+   "n_msgs": 640,
+   "n_authors": 507,
+   "programs": [
+    {
+     "video_id": "bYaixTloEdo",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 44,
+     "n_authors": 33,
+     "ejemplo": "lo bombearon todo el mundial a Iran"
+    },
+    {
+     "video_id": "LjEHjrbNNgs",
+     "channel": "Vorterix",
+     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+     "n_msgs": 36,
+     "n_authors": 29,
+     "ejemplo": "Ahora sí va a ser una sorpresa el movil de Guille en el mundial"
+    },
+    {
+     "video_id": "8XGdbbwUjEQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 34,
+     "n_authors": 29,
+     "ejemplo": "Maria viaja \"con la nuestra\" tambien?? tiene menos futbol que Marley...que va a hacer???"
+    },
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 32,
+     "n_authors": 27,
+     "ejemplo": "pero el mundial no colabora, hay uno de panama de apellido blackman"
+    },
+    {
+     "video_id": "e3av_6yqgHg",
+     "channel": "OLGA",
+     "title": "NOS SOMETEMOS AL CASCO DE LA VERDAD | #SoñéQueVolaba 29/6",
+     "n_msgs": 32,
+     "n_authors": 26,
+     "ejemplo": "El álbum del mundial que le da Pau es sobre plantas"
+    },
+    {
+     "video_id": "XHV2BV9DWMs",
+     "channel": "OLGA",
+     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+     "n_msgs": 30,
+     "n_authors": 24,
+     "ejemplo": "ojala no hablen todo el día del mundial estoy cansada dle mundial"
+    },
+    {
+     "video_id": "FYdwwoHNrMs",
+     "channel": "Vorterix",
+     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+     "n_msgs": 27,
+     "n_authors": 22,
+     "ejemplo": "los neuros al especial mundial 90"
+    },
+    {
+     "video_id": "IB9cCJT0-_M",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 25,
+     "n_authors": 22,
+     "ejemplo": "como vas a ir a un vip en pleno mundial"
+    }
+   ],
+   "chat_only_programs": [
+    {
+     "video_id": "bYaixTloEdo",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 44,
+     "n_authors": 33,
+     "ejemplo": "lo bombearon todo el mundial a Iran"
+    },
+    {
+     "video_id": "8XGdbbwUjEQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 34,
+     "n_authors": 29,
+     "ejemplo": "Maria viaja \"con la nuestra\" tambien?? tiene menos futbol que Marley...que va a hacer???"
+    },
+    {
+     "video_id": "IB9cCJT0-_M",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 25,
+     "n_authors": 22,
+     "ejemplo": "como vas a ir a un vip en pleno mundial"
     }
    ]
   }
@@ -30034,7 +30958,7 @@
   "highlights": [],
   "highlights_total": 0,
   "evidence_lane": "corroborated",
-  "audio_programs": 129,
+  "audio_programs": 131,
   "chat_signals": {
    "n_msgs": 689,
    "n_authors": 527,
@@ -30294,367 +31218,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "el mundial de las apuestas"
-    }
-   ]
-  }
- },
- {
-  "tema": "gran hermano",
-  "score": 17.4,
-  "trend_score": 12.88,
-  "menciones": 2,
-  "growth_wow": 0.439,
-  "demand_ratio": 0.0,
-  "demand_signals": 0,
-  "canales": [
-   "Bondi Live",
-   "LUZU TV"
-  ],
-  "categorias": [
-   "cultura",
-   "producto"
-  ],
-  "cross_comunidad": true,
-  "multi_dia": true,
-  "candidato": false,
-  "serie": [
-   {
-    "date": "24/06/2026",
-    "n": 7.12769667896169
-   },
-   {
-    "date": "29/06/2026",
-    "n": 10.257085532909032
-   }
-  ],
-  "gt_status": null,
-  "gt_lead_days": null,
-  "gt_peak": null,
-  "cluster": null,
-  "variantes_relacionadas": [],
-  "highlights": [
-   {
-    "channel": "LUZU TV",
-    "video_id": "ZtZeqX0VL24",
-    "title": "#LOSNOTALENTOS l LLEGAMOS: OCCHIAMIN, EL PAPÁ DE AGUSNETA Y TINELLI NOS MIRAN",
-    "date": "20260604",
-    "subtema": "Anécdota de fiesta post-show en Gran Rex",
-    "contexto": "Relato de una fiesta post-show en Gran Rex donde pasaron situaciones 'hot' con personas de la empresa durante una conversación",
-    "intensidad": 3,
-    "start_min": 50,
-    "t_seconds": 3000
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "DOYPp2Pqjvg",
-    "title": "CINE Y FÚTBOL con ARIEL STALTARI | #LaGambeta 1/6",
-    "date": "20260601",
-    "subtema": "Anécdota familiar del hermano de Sergio Ramos",
-    "contexto": "Historia sobre el primer día de clase de parkour del hermano menor y su reacción, generando emoción en los conductores",
-    "intensidad": 3,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "CGxGXCw8BVE",
-    "title": "#PATRIAYFAMILIA l OCCHIATO NOS DA LA NOTICIA ESPERADA Y BAD GYAL EN VIVO",
-    "date": "20260610",
-    "subtema": "Convivencia tipo Gran Hermano",
-    "contexto": "Se anuncia que un grupo va a convivir en una casa con cámaras, tipo Gran Hermano, a partir de la próxima semana",
-    "intensidad": 3,
-    "start_min": 50,
-    "t_seconds": 3000
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "GLACgh8nuGY",
-    "title": "#SEFUELARGA l JULI POGGIO CONTRA AMANTES, RESPONDE TODO Y FERBO VS FAUSTI BO Y JULI CASTRO",
-    "date": "20260611",
-    "subtema": "Gran Hermano - peleas memorables",
-    "contexto": "Ranking de peleas del reality Gran Hermano, destacando las de Coti, FURIA y Agostina como las más recordadas",
-    "intensidad": 3,
-    "start_min": 70,
-    "t_seconds": 4200
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "OMoimQeA_Ec",
-    "title": "#FMLUZU | PALPITAMOS LA PREVIA DEL MUNDIAL + LA GURI CHAPA EN VIVO",
-    "date": "20260610",
-    "subtema": "Gran Rex (teatro)",
-    "contexto": "Se menciona varias veces como lugar de cierre del programa, donde 'Patri Familia la rompió toda' y ahora se va para Mar del Plata",
-    "intensidad": 2,
-    "start_min": 50,
-    "t_seconds": 3000
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "cEWsZ9vbiCg",
-    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
-    "date": "20260629",
-    "subtema": "Abandono Gran Hermano Tamara Paganini",
-    "contexto": "Tamara Paganini se quiebra en gala y pide abandonar la casa tras mensaje de familia, dice no poder con la presión",
-    "intensidad": 2,
-    "start_min": 210,
-    "t_seconds": 12600
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "yp1SuqSXmxA",
-    "title": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
-    "date": "20260622",
-    "subtema": "Gran Hermano - eliminación de Titi",
-    "contexto": "Titi fue eliminada de la casa tras perder el mano a mano contra Solange Abraham con 51.4% de votos en contra",
-    "intensidad": 2,
-    "start_min": 200,
-    "t_seconds": 12000
-   },
-   {
-    "channel": "Bondi Live",
-    "video_id": "tAUTd2FsMxA",
-    "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
-    "date": "20260624",
-    "subtema": "Cena con chisme de Gran Hermano",
-    "contexto": "Se menciona ida y vuelta entre Janina La Torre y Cris Vanadía durante cena, conflicto inesperado en vivo",
-    "intensidad": 2,
-    "start_min": 20,
-    "t_seconds": 1200
-   },
-   {
-    "channel": "Bondi Live",
-    "video_id": "tAUTd2FsMxA",
-    "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
-    "date": "20260624",
-    "subtema": "Gran Hermano",
-    "contexto": "Discusión sobre participantes que entran y salen del reality, especialmente sobre Cinzia",
-    "intensidad": 2,
-    "start_min": 160,
-    "t_seconds": 9600
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "jEEahJU8_jg",
-    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
-    "date": "20260629",
-    "subtema": "F1 - Gran Premio Austria",
-    "contexto": "Colapinto terminó 15° y Gasly 13° en GP de Austria, peor carrera del año para el equipo",
-    "intensidad": 2,
-    "start_min": 150,
-    "t_seconds": 9000
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "IZNfx1Rc9go",
-    "title": "EL EXTRAÑO CASO TIM PAYNE: DE DESCONOCIDO A FIGURA | #TapadosDeLaburo 29/5",
-    "date": "20260529",
-    "subtema": "Teatro Gran Rex",
-    "contexto": "Sede donde se presenta el musical, entradas disponibles desde el 4 de junio",
-    "intensidad": 2,
-    "start_min": 110,
-    "t_seconds": 6600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "IZNfx1Rc9go",
-    "title": "EL EXTRAÑO CASO TIM PAYNE: DE DESCONOCIDO A FIGURA | #TapadosDeLaburo 29/5",
-    "date": "20260529",
-    "subtema": "Gran Rex como venue teatral",
-    "contexto": "Teatro donde se realiza la producción de Charlie y la fábrica de chocolate",
-    "intensidad": 2,
-    "start_min": 90,
-    "t_seconds": 5400
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "jEEahJU8_jg",
-    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
-    "date": "20260629",
-    "subtema": "Gran Hermano",
-    "contexto": "Tamara Paganini se quebró en la gala y pidió abandonar la casa",
-    "intensidad": 2,
-    "start_min": 160,
-    "t_seconds": 9600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "OYdkMTk3Xds",
-    "title": "EXPERTOS ANALIZAN EL LENGUAJE NO VERBAL DE NAHIR GALARZA | #SeríaIncreíble 10/6",
-    "date": "20260610",
-    "subtema": "Reality show Gran Bizarro",
-    "contexto": "Se mencionó un reality antiguo llamado 'Gran Bizarro' (en lugar de Gran Hermana) donde participaron figuras como Sandra Madonna y otros personajes de televisión",
-    "intensidad": 1,
-    "start_min": 90,
-    "t_seconds": 5400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "d2xRtbOTSQQ",
-    "title": "UNA BRUJA y ANDI SEMENTI ADIVINAN el FUTURO | #SoñéQueVolaba 2/6",
-    "date": "20260602",
-    "subtema": "Gran Hermano - ganadores hegemónicos",
-    "contexto": "Se discute que en los últimos Gran Hermanos ganaron hombres hegemónicos cis, sin que ganen minorías",
-    "intensidad": 1,
-    "start_min": 20,
-    "t_seconds": 1200
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "IZNfx1Rc9go",
-    "title": "EL EXTRAÑO CASO TIM PAYNE: DE DESCONOCIDO A FIGURA | #TapadosDeLaburo 29/5",
-    "date": "20260529",
-    "subtema": "Gran Rex como escenario",
-    "contexto": "Se menciona como venue importante donde se esperaba actuar frente a artistas reconocidos",
-    "intensidad": 1,
-    "start_min": 100,
-    "t_seconds": 6000
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "OMoimQeA_Ec",
-    "title": "#FMLUZU | PALPITAMOS LA PREVIA DEL MUNDIAL + LA GURI CHAPA EN VIVO",
-    "date": "20260610",
-    "subtema": "Gran Hermano (reality show)",
-    "contexto": "Mención de primer eliminado de la casa por conflicto con compañera sobre una chocolatada",
-    "intensidad": 1,
-    "start_min": 20,
-    "t_seconds": 1200
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "OYdkMTk3Xds",
-    "title": "EXPERTOS ANALIZAN EL LENGUAJE NO VERBAL DE NAHIR GALARZA | #SeríaIncreíble 10/6",
-    "date": "20260610",
-    "subtema": "Reality show Gran Hermano/Infama",
-    "contexto": "Se menciona que Infama tuvo su propio reality con La Giovanni y Electra",
-    "intensidad": 1,
-    "start_min": 80,
-    "t_seconds": 4800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "DOYPp2Pqjvg",
-    "title": "CINE Y FÚTBOL con ARIEL STALTARI | #LaGambeta 1/6",
-    "date": "20260601",
-    "subtema": "Gran Premio de Mónaco",
-    "contexto": "Se menciona que el fin de semana se corre el Gran Premio de Mónaco",
-    "intensidad": 1,
-    "start_min": 80,
-    "t_seconds": 4800
-   }
-  ],
-  "highlights_total": 19,
-  "evidence_lane": "corroborated",
-  "audio_programs": 14,
-  "chat_signals": {
-   "n_msgs": 324,
-   "n_authors": 285,
-   "programs": [
-    {
-     "video_id": "LjEHjrbNNgs",
-     "channel": "Vorterix",
-     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-     "n_msgs": 31,
-     "n_authors": 27,
-     "ejemplo": "GRAN gran inicio Guilloteeee.. la viste"
-    },
-    {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 25,
-     "n_authors": 25,
-     "ejemplo": "DEL MOÑO CONDUCE GRAN HERMANO..?"
-    },
-    {
-     "video_id": "JXVQmuDctII",
-     "channel": "BLENDER",
-     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-     "n_msgs": 19,
-     "n_authors": 18,
-     "ejemplo": "RE TARDE HERMANO"
-    },
-    {
-     "video_id": "tAUTd2FsMxA",
-     "channel": "Bondi Live",
-     "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
-     "n_msgs": 20,
-     "n_authors": 17,
-     "ejemplo": "GRAN PROFESIONAL"
-    },
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 15,
-     "n_authors": 15,
-     "ejemplo": "Parece Sol de gran hermano"
-    },
-    {
-     "video_id": "EwFONN3W5cg",
-     "channel": "Vorterix",
-     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
-     "n_msgs": 11,
-     "n_authors": 10,
-     "ejemplo": "la gran vuelta de la meads a Lucas"
-    },
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 10,
-     "n_authors": 9,
-     "ejemplo": "MI HERMANO MURIO LUQUI"
-    },
-    {
-     "video_id": "tlhTO7YtTJ0",
-     "channel": "GELATINA",
-     "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
-     "n_msgs": 10,
-     "n_authors": 9,
-     "ejemplo": "que gran trabajo Mati y equipo"
-    }
-   ],
-   "chat_only_programs": [
-    {
-     "video_id": "LjEHjrbNNgs",
-     "channel": "Vorterix",
-     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-     "n_msgs": 31,
-     "n_authors": 27,
-     "ejemplo": "GRAN gran inicio Guilloteeee.. la viste"
-    },
-    {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 25,
-     "n_authors": 25,
-     "ejemplo": "DEL MOÑO CONDUCE GRAN HERMANO..?"
-    },
-    {
-     "video_id": "JXVQmuDctII",
-     "channel": "BLENDER",
-     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-     "n_msgs": 19,
-     "n_authors": 18,
-     "ejemplo": "RE TARDE HERMANO"
-    },
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 15,
-     "n_authors": 15,
-     "ejemplo": "Parece Sol de gran hermano"
-    },
-    {
-     "video_id": "EwFONN3W5cg",
-     "channel": "Vorterix",
-     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
-     "n_msgs": 11,
-     "n_authors": 10,
-     "ejemplo": "la gran vuelta de la meads a Lucas"
     }
    ]
   }
@@ -31655,8 +32218,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 53,
   "chat_signals": {
-   "n_msgs": 345,
-   "n_authors": 286,
+   "n_msgs": 346,
+   "n_authors": 287,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -32957,9 +33520,9 @@
  },
  {
   "tema": "seguridad pública",
-  "score": 58.3,
-  "trend_score": 11.64,
-  "menciones": 13,
+  "score": 59.3,
+  "trend_score": 11.71,
+  "menciones": 14,
   "growth_wow": 0.0,
   "demand_ratio": 0.0,
   "demand_signals": 0,
@@ -32976,6 +33539,7 @@
    "lugar",
    "otro",
    "persona",
+   "política",
    "salud",
    "tecnologia"
   ],
@@ -32997,7 +33561,7 @@
    },
    {
     "date": "29/06/2026",
-    "n": 3.3914093320832954
+    "n": 4.391409332083295
    }
   ],
   "gt_status": "ya_masivo",
@@ -33339,390 +33903,6 @@
      "n_msgs": 3,
      "n_authors": 3,
      "ejemplo": "no quiere la luz publica xq se van a dar cuenta que no sabe ni hablar"
-    }
-   ]
-  }
- },
- {
-  "tema": "accesorios moda",
-  "score": 80.0,
-  "trend_score": 11.41,
-  "menciones": 11,
-  "growth_wow": 0.146,
-  "demand_ratio": 0.0,
-  "demand_signals": 0,
-  "canales": [
-   "Bondi Live",
-   "LUZU TV",
-   "OLGA",
-   "Vorterix"
-  ],
-  "categorias": [
-   "actividad",
-   "cultura",
-   "otro",
-   "producto"
-  ],
-  "cross_comunidad": true,
-  "multi_dia": true,
-  "candidato": false,
-  "serie": [
-   {
-    "date": "23/06/2026",
-    "n": 14.663089561608494
-   },
-   {
-    "date": "24/06/2026",
-    "n": 22.597612820281988
-   },
-   {
-    "date": "25/06/2026",
-    "n": 3.7827135450348943
-   },
-   {
-    "date": "26/06/2026",
-    "n": 38.91895725414305
-   }
-  ],
-  "gt_status": null,
-  "gt_lead_days": null,
-  "gt_peak": null,
-  "cluster": null,
-  "variantes_relacionadas": [],
-  "highlights": [
-   {
-    "channel": "Vorterix",
-    "video_id": "wKDizbT6vaU",
-    "title": "🔴 ESTO NO SUCEDIÓ con Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
-    "date": "20260629",
-    "subtema": "Outfit y moda",
-    "contexto": "Conductores mostrando y analizando sus outfits del día, discutiendo prendas como camperas, jeans, zapatillas y accesorios",
-    "intensidad": 3,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": " A U R A ",
-    "video_id": "AUSgxGQirlM",
-    "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
-    "date": "20260626",
-    "subtema": "Moda y estilo personal",
-    "contexto": "Conversación sobre consejos de ropa, uso de cinturón, remeras cortas, tapados y bufandas para verse mejor",
-    "intensidad": 3,
-    "start_min": 110,
-    "t_seconds": 6600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "8pR4K5V_6_s",
-    "title": "¿QUÉ TAN PRINCESA SOS? | #TapadosDeLaburo 11/6",
-    "date": "20260611",
-    "subtema": "Juego de moda y outfits",
-    "contexto": "Competencia entre dos equipos para emparejar participantes con outfits y maniquíes según estilo personal",
-    "intensidad": 3,
-    "start_min": 120,
-    "t_seconds": 7200
-   },
-   {
-    "channel": " A U R A ",
-    "video_id": "AUSgxGQirlM",
-    "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
-    "date": "20260626",
-    "subtema": "Moda y estilo masculino",
-    "contexto": "Asesoramiento sobre cómo vestirse bien, proporciones del cuerpo y elección de prendas",
-    "intensidad": 3,
-    "start_min": 100,
-    "t_seconds": 6000
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "ZtZeqX0VL24",
-    "title": "#LOSNOTALENTOS l LLEGAMOS: OCCHIAMIN, EL PAPÁ DE AGUSNETA Y TINELLI NOS MIRAN",
-    "date": "20260604",
-    "subtema": "Accesorios de computadora (mouse, mousepad, trackpad)",
-    "contexto": "Debaten sobre el uso de mouse, trackpad de notebook, y mousepad grande para escritorio; mencionan que algunos profesionales de diseño usan mouse",
-    "intensidad": 2,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
-    "channel": "Bondi Live",
-    "video_id": "tAUTd2FsMxA",
-    "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
-    "date": "20260624",
-    "subtema": "Moda - Uso de color blanco en invierno",
-    "contexto": "Consultante pregunta cómo usar blanco en invierno sin parecer verano, se recomiendan texturas y colores como off-white y Cloud Dancer",
-    "intensidad": 2,
-    "start_min": 250,
-    "t_seconds": 15000
-   },
-   {
-    "channel": "Vorterix",
-    "video_id": "LjEHjrbNNgs",
-    "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-    "date": "20260626",
-    "subtema": "Martín Fierro y moda",
-    "contexto": "Malena fue nominada a los Martín Fierro por una serie de Amia, asistió con un vestido azul de Tavo García y una chalina de Boca",
-    "intensidad": 2,
-    "start_min": 110,
-    "t_seconds": 6600
-   },
-   {
-    "channel": " A U R A ",
-    "video_id": "AUSgxGQirlM",
-    "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
-    "date": "20260626",
-    "subtema": "Color negro en la moda",
-    "contexto": "Análisis de por qué el negro es preferido: facilidad de combinación, efecto visual en la figura, contexto económico y cultural",
-    "intensidad": 2,
-    "start_min": 90,
-    "t_seconds": 5400
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "W5dvBDWCWWk",
-    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
-    "date": "20260626",
-    "subtema": "Moda y cambios de outfit",
-    "contexto": "Discusión sobre los diferentes cambios de ropa durante la noche, vestuario rojo, negro, pollera marrón, short de jean y botas.",
-    "intensidad": 2,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "8pR4K5V_6_s",
-    "title": "¿QUÉ TAN PRINCESA SOS? | #TapadosDeLaburo 11/6",
-    "date": "20260611",
-    "subtema": "Moda y accesorios",
-    "contexto": "Discusión sobre prendas, collares llamativos, pantalones arriesgados, camisetas rosa, vestidos rojos, polleras y complementos",
-    "intensidad": 2,
-    "start_min": 120,
-    "t_seconds": 7200
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "cv2t2_4ffP8",
-    "title": "CEREMONIA INAUGURAL del MUNDIALITO de CIUDADES | #SoñéQueVolaba 4/6",
-    "date": "20260604",
-    "subtema": "Ropa y moda personal",
-    "contexto": "Discusión sobre la casaca/remera que uno de los conductores está usando, menciona su paleta de colores y colorimetría",
-    "intensidad": 2,
-    "start_min": 0,
-    "t_seconds": 0
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "PaeP2ee-rFI",
-    "title": "#ELSHOWDELVERANO | PREDECIMOS EL FUTURO Y NO HABLAMOS DE LA TRAYECTORIA DE TORTONESE",
-    "date": "20260604",
-    "subtema": "Moda y diseñadores",
-    "contexto": "Se menciona que Susana usaba ropa de Tom Ford, Dolce & Gabbana y que tiene hábito de comprar prendas descontinuadas",
-    "intensidad": 2,
-    "start_min": 0,
-    "t_seconds": 0
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "NBEsmlg2SHY",
-    "title": "Las REFLEXIONES y REPERCUSIONES tras el FEMICIDIO de AGOSTINA VEGA | #TDT 1/6",
-    "date": "20260601",
-    "subtema": "moda y estilos de ropa",
-    "contexto": "Se discute sobre ropa, pantalones chupines vs holgados, jeans, botas, gafas de sol como parte de la customización",
-    "intensidad": 2,
-    "start_min": 100,
-    "t_seconds": 6000
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "83HBNm_5Yvo",
-    "title": "¿BAÑARSE DE DÍA O DE NOCHE? | #TapadosDeLaburo 8/6",
-    "date": "20260608",
-    "subtema": "Colección de moda The American Dream",
-    "contexto": "Debate sobre una colección llamada The American Dream, posiblemente cuestionada por su relación con una tragedia",
-    "intensidad": 2,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "NBEsmlg2SHY",
-    "title": "Las REFLEXIONES y REPERCUSIONES tras el FEMICIDIO de AGOSTINA VEGA | #TDT 1/6",
-    "date": "20260601",
-    "subtema": "outfits y moda",
-    "contexto": "Discutían sobre la ropa que usaba Juli Manzotti, incluyendo corpiños, buzos, remeras con plantas, medias altas",
-    "intensidad": 2,
-    "start_min": 110,
-    "t_seconds": 6600
-   },
-   {
-    "channel": " A U R A ",
-    "video_id": "AUSgxGQirlM",
-    "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
-    "date": "20260626",
-    "subtema": "Proporciones corporales en moda",
-    "contexto": "Explicación de que el ideal es 30% torso y 70% pierna para verse más alto, importancia del tiro del pantalón",
-    "intensidad": 2,
-    "start_min": 100,
-    "t_seconds": 6000
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "E1SnlQyyuRc",
-    "title": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
-    "date": "20260623",
-    "subtema": "Costura y diseño de moda",
-    "contexto": "Entrevista a Martín Cavito, costurero que hace ropa personalizada y adaptada para diferentes tipos de cuerpo",
-    "intensidad": 2,
-    "start_min": 20,
-    "t_seconds": 1200
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "MTBXBVW5wHE",
-    "title": "#PATRIAYFAMILIA l NUEVAS DRAGAS Y LLORAMOS DE LA EMOCIÓN",
-    "date": "20260605",
-    "subtema": "Pelucas y accesorios drag de alta gama",
-    "contexto": "Mención de peluca traída de Bielorrusia de la marca Conejo, y sombrerito (capelina) para protegerse del sol",
-    "intensidad": 2,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "Vorterix",
-    "video_id": "0emroxvypsw",
-    "title": "🔴 PAREN LA MANO MUNDIAL: VLOG ESTRENO DESDE EEUU | VORTERIX EN VIVO",
-    "date": "20260629",
-    "subtema": "Compra de ropa y accesorios",
-    "contexto": "Recorrida por tiendas multimarca buscando ropa, shorts, joguiletas; compra de reloj Armani con descuento",
-    "intensidad": 2,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "8pR4K5V_6_s",
-    "title": "¿QUÉ TAN PRINCESA SOS? | #TapadosDeLaburo 11/6",
-    "date": "20260611",
-    "subtema": "estudios de moda y escenografía",
-    "contexto": "Participantes estudian producción de moda en Guade y escenografía, con interés en vestuario y películas",
-    "intensidad": 2,
-    "start_min": 110,
-    "t_seconds": 6600
-   }
-  ],
-  "highlights_total": 41,
-  "evidence_lane": "corroborated",
-  "audio_programs": 31,
-  "chat_signals": {
-   "n_msgs": 37,
-   "n_authors": 33,
-   "programs": [
-    {
-     "video_id": "tAUTd2FsMxA",
-     "channel": "Bondi Live",
-     "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
-     "n_msgs": 11,
-     "n_authors": 10,
-     "ejemplo": "ESA ES LA MODA LOUIS VENTUA???"
-    },
-    {
-     "video_id": "A_ww0XRZnps",
-     "channel": "BLENDER",
-     "title": "¿NOS INVADEN O QUÉ?, ODIADOS CON EL ALGORITMO y  LA CRISIS DE LA COLO  | ÚLTIMO AVISO | BLENDER",
-     "n_msgs": 10,
-     "n_authors": 7,
-     "ejemplo": "no me gusta ir tras la moda y sin embargo amo el diseño"
-    },
-    {
-     "video_id": "EwFONN3W5cg",
-     "channel": "Vorterix",
-     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "OCCHIATTO puso de moda despedir gente parece"
-    },
-    {
-     "video_id": "LjEHjrbNNgs",
-     "channel": "Vorterix",
-     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "que pesados los que se hacen los bokita todo el tiempo, esa moda chacagialera"
-    },
-    {
-     "video_id": "NHt6oqHZYd0",
-     "channel": "GELATINA",
-     "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "\"hacer carrera propia es cosa del paso, la moda ahora es reemplazar un pelado\" Santilli"
-    },
-    {
-     "video_id": "0_ua1dXLT5o",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "robe en todo moda mas de una vez"
-    },
-    {
-     "video_id": "3CPnLRc7h2w",
-     "channel": "Vorterix",
-     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Empieza El Diablo viste a la moda"
-    },
-    {
-     "video_id": "3QJmfDvuxIk",
-     "channel": "OLGA",
-     "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "edna moda"
-    }
-   ],
-   "chat_only_programs": [
-    {
-     "video_id": "A_ww0XRZnps",
-     "channel": "BLENDER",
-     "title": "¿NOS INVADEN O QUÉ?, ODIADOS CON EL ALGORITMO y  LA CRISIS DE LA COLO  | ÚLTIMO AVISO | BLENDER",
-     "n_msgs": 10,
-     "n_authors": 7,
-     "ejemplo": "no me gusta ir tras la moda y sin embargo amo el diseño"
-    },
-    {
-     "video_id": "EwFONN3W5cg",
-     "channel": "Vorterix",
-     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "OCCHIATTO puso de moda despedir gente parece"
-    },
-    {
-     "video_id": "NHt6oqHZYd0",
-     "channel": "GELATINA",
-     "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "\"hacer carrera propia es cosa del paso, la moda ahora es reemplazar un pelado\" Santilli"
-    },
-    {
-     "video_id": "0_ua1dXLT5o",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "robe en todo moda mas de una vez"
-    },
-    {
-     "video_id": "3CPnLRc7h2w",
-     "channel": "Vorterix",
-     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Empieza El Diablo viste a la moda"
     }
    ]
   }

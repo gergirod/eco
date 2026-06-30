@@ -1,5 +1,5 @@
 {
- "exported_at": "2026-06-30T00:55:41.241856+00:00",
+ "exported_at": "2026-06-30T09:05:55.209699+00:00",
  "signals": [
   {
    "tema": "cuatia · curuzu",
@@ -257,6 +257,44 @@
    "ejemplo": "lamentablemente grabado"
   },
   {
+   "tema": "migue · razon · tiene",
+   "evidence_lane": "chat",
+   "n_msgs": 31,
+   "n_authors": 31,
+   "n_programas": 3,
+   "canales": [
+    "?",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": "MIGUE TIENE RAZÓN"
+    },
+    {
+     "video_id": "cOui_830fXg",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 20,
+     "n_authors": 20,
+     "ejemplo": "MIGUE TIENE RAZÓN"
+    },
+    {
+     "video_id": "ptOHcGEdWCk",
+     "channel": "OLGA",
+     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "Tiene razon migue"
+    }
+   ],
+   "ejemplo": "MIGUE TIENE RAZÓN"
+  },
+  {
    "tema": "like · vivooooo",
    "evidence_lane": "chat",
    "n_msgs": 31,
@@ -309,44 +347,6 @@
     }
    ],
    "ejemplo": "LIKE AL VIVOOOOO"
-  },
-  {
-   "tema": "migue · razon · tiene",
-   "evidence_lane": "chat",
-   "n_msgs": 30,
-   "n_authors": 30,
-   "n_programas": 3,
-   "canales": [
-    "?",
-    "OLGA"
-   ],
-   "programs": [
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 8,
-     "n_authors": 8,
-     "ejemplo": "MIGUE TIENE RAZÓN"
-    },
-    {
-     "video_id": "cOui_830fXg",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 19,
-     "n_authors": 19,
-     "ejemplo": "MIGUE TIENE RAZÓN"
-    },
-    {
-     "video_id": "ptOHcGEdWCk",
-     "channel": "OLGA",
-     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
-     "n_msgs": 3,
-     "n_authors": 3,
-     "ejemplo": "Tiene razon migue"
-    }
-   ],
-   "ejemplo": "MIGUE TIENE RAZÓN"
   },
   {
    "tema": "brenas · chaco",

@@ -1,5 +1,5 @@
 {
- "programs_analyzed": 85,
+ "programs_analyzed": 86,
  "platform_line": "La atención más fuerte concentra entre las 11–12 hs (promedio 79.947 mirando en 15 emisiones).",
  "best_hours": [
   {
@@ -199,17 +199,6 @@
    "line": "TDT suele arrancar cerca de las 14:37 y pega fuerte entre 14–15 hs los lunes."
   },
   {
-   "channel_id": "blend",
-   "show_id": "otros",
-   "show_name": "Otros",
-   "emissions": 2,
-   "typical_start": "21:54",
-   "peak_window": "21–22 hs",
-   "best_weekday": "miércoles",
-   "avg_peak": 10692,
-   "line": "Otros suele arrancar cerca de las 21:54 y pega fuerte entre 21–22 hs los miércoles."
-  },
-  {
    "channel_id": "vorterix",
    "show_id": "no-rusia",
    "show_name": "No Preguntes por Rusia",
@@ -219,7 +208,18 @@
    "best_weekday": "lunes",
    "avg_peak": 9953,
    "line": "No Preguntes por Rusia suele arrancar cerca de las 7:48 y pega fuerte entre 9–10 hs los lunes."
+  },
+  {
+   "channel_id": "olga",
+   "show_id": "gol-gana",
+   "show_name": "Gol Gana",
+   "emissions": 5,
+   "typical_start": "16:34",
+   "peak_window": "16–17 hs",
+   "best_weekday": "lunes",
+   "avg_peak": 9221,
+   "line": "Gol Gana suele arrancar cerca de las 16:34 y pega fuerte entre 16–17 hs los lunes."
   }
  ],
- "period": "2026-06-30T00:55:41.241856+00:00"
+ "period": "2026-06-30T09:05:55.209699+00:00"
 }
