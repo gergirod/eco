@@ -53,7 +53,7 @@ export default function DemandaPanel() {
   const [channelFilter, setChannelFilter] = useState<string>("all");
 
   const snapshots = history.snapshots ?? [];
-  const latestSnap = snapshots[s snapshots.length - 1];
+  const latestSnap = snapshots[snapshots.length - 1];
   const prevSnap = snapshots.length >= 2 ? snapshots[snapshots.length - 2] : null;
 
   const totals = useMemo(() => {
