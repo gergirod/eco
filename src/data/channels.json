@@ -240,9 +240,16 @@
   "subscribers": "202K",
   "enabled": true,
   "handle_verified": true,
-  "has_data": false,
-  "stats": null,
-  "pipeline_status": "configurado"
+  "has_data": true,
+  "stats": {
+   "videos_processed": 1,
+   "total_vod_views": 5169,
+   "avg_concurrent": 1308,
+   "brands_detected": 0,
+   "mentions": 0,
+   "last_processed": "29/06/2026"
+  },
+  "pipeline_status": "activo"
  },
  {
   "id": "lacasa",

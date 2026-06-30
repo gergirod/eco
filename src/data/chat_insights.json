@@ -23,16 +23,6 @@
    "character_label": "Comunidad activa — chat denso respecto a la audiencia",
    "top_demands": [
     {
-     "text": "MANDEN SUS AUDIOS: 11 7080 4460 :sparkles:",
-     "tipo": "pregunta_compra",
-     "count": 1
-    },
-    {
-     "text": "779 es el codigo de argentina despues 750 → México.789–790 → Brasil.690–699 → Ch",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
      "text": "¿QUÉ TE HUBIERA GUSTADO INVENTAR? Manden sus audios: 11 7080 4460 :sparkles:",
      "tipo": "pregunta_compra",
      "count": 1
@@ -40,6 +30,16 @@
     {
      "text": "Manden sus inventos en un audio: 11 7080 4460 :sparkles:",
      "tipo": "pregunta_compra",
+     "count": 1
+    },
+    {
+     "text": "MANDEN SUS AUDIOS: 11 7080 4460 :sparkles:",
+     "tipo": "pregunta_compra",
+     "count": 1
+    },
+    {
+     "text": "779 es el codigo de argentina despues 750 → México.789–790 → Brasil.690–699 → Ch",
+     "tipo": "pedido_link",
      "count": 1
     }
    ]
@@ -67,27 +67,27 @@
    "character_label": "Comunidad activa — chat denso respecto a la audiencia",
    "top_demands": [
     {
+     "text": "Martín, cuando sale un \"ASAD bursatil\" en zona sur?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "CICLO DE LAS MEMORIAS 3 AÑOS ALCISTA Y DESPUÉS CAEN AUMENTA EL PRECIO CAE LA DEM",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "DICP: corte cupón",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
      "text": "Milei ofrece milanesas otra ves con el precio de la carne otro gasto:face-blue-s",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
      "text": "Si rajan a Adorni y otros políticos de YPF, seguro pueden bajar precio las nafta",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "Un saludo desde la ciudad de Santa Fe. Buena Semana, Gente...",
-     "tipo": "voto_eleccion",
-     "count": 1
-    },
-    {
-     "text": "gobierno de anglojudea inoperante y terminado, que venga el enano soviético nomá",
-     "tipo": "pedido_contenido",
-     "count": 1
-    },
-    {
-     "text": "PREGUNTO ADORNI SALE DE LOS NEGOCIOS CON EL ESTADO... POR EJEMPLO CON YPF",
      "tipo": "pregunta_precio",
      "count": 1
     }
@@ -116,27 +116,27 @@
    "character_label": "Comunidad activa — chat denso respecto a la audiencia",
    "top_demands": [
     {
-     "text": "(no menejo en la ciudad igualmente)",
+     "text": "que venga grabois a hablar de tolkien jaj",
+     "tipo": "pedido_contenido",
+     "count": 1
+    },
+    {
+     "text": "cuando atacan la ciudad de los africanos... puro bodrio",
      "tipo": "voto_eleccion",
      "count": 1
     },
     {
-     "text": "SALE DEL TIGRE",
+     "text": "la moda es que sale la web novel, de ahi la light novel, de ahi el anime",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "quiero ir a vivir a ese crucero. Cuánto el alquiler mensual y expensas?",
-     "tipo": "pregunta_precio",
+     "text": "mi viejo es fanatico de marvel especificamente del capitan america, al principio",
+     "tipo": "otro",
      "count": 1
     },
     {
-     "text": "SALE DEL TIGRE?",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "Muy buen momento cuanto estamos aprendiendo!!",
+     "text": "hablando de Henry Cavill, cuando carajos sale el trailer de Highlander 2026... !",
      "tipo": "pregunta_precio",
      "count": 1
     }
@@ -145,18 +145,18 @@
   {
    "id": "",
    "name": "",
-   "programs_with_chat": 16,
-   "chat_messages": 29080,
-   "msgs_per_1k": 7.43,
-   "noise_score": 0.14,
+   "programs_with_chat": 14,
+   "chat_messages": 29081,
+   "msgs_per_1k": 7.66,
+   "noise_score": 0.16,
    "chat_quality_tier": "alta",
    "chat_quality_label": "Comunidad activa",
-   "paid_events": 38,
+   "paid_events": 42,
    "mix": {
     "emoji_pct": 2.7,
     "saludo_pct": 1.0,
     "reaccion_pct": 32.8,
-    "pregunta_pct": 22.9,
+    "pregunta_pct": 23.0,
     "demanda_pct": 0.9,
     "obediencia_pct": 0.6,
     "apoyo_pct": 0.1,
@@ -175,17 +175,17 @@
      "count": 6
     },
     {
-     "text": "HABLEN DE TESORIN QUE SE CHOREARON UN GASODUCTO EN SALTA PARA TRAER A RICKY MART",
-     "tipo": "pedido_contenido",
-     "count": 4
-    },
-    {
      "text": "Tomas rebord no me cae bien, pero deablos, necesito que venga a Gelatina",
      "tipo": "pedido_contenido",
      "count": 4
     },
     {
-     "text": "¿¿¿HABLEN DE LAS SOCIEDADES OFFSHORE DE SANTILLI O LOS SOBRES $$$ NO SE LO PERMI",
+     "text": "HABLEN DE TESORIN QUE SE CHOREARON UN GASODUCTO EN SALTA PARA TRAER A RICKY MART",
+     "tipo": "pedido_contenido",
+     "count": 4
+    },
+    {
+     "text": "Flaco no sé si esta programado, pero hablen de Mbappe bajando línea a toda la se",
      "tipo": "pedido_contenido",
      "count": 3
     }
@@ -194,22 +194,22 @@
   {
    "id": "vorterix",
    "name": "Vorterix",
-   "programs_with_chat": 10,
-   "chat_messages": 37429,
-   "msgs_per_1k": 5.39,
-   "noise_score": 0.09,
+   "programs_with_chat": 11,
+   "chat_messages": 37750,
+   "msgs_per_1k": 5.62,
+   "noise_score": 0.08,
    "chat_quality_tier": "alta",
    "chat_quality_label": "Comunidad activa",
    "paid_events": 50,
    "mix": {
     "emoji_pct": 1.7,
     "saludo_pct": 0.6,
-    "reaccion_pct": 45.1,
-    "pregunta_pct": 17.2,
+    "reaccion_pct": 44.9,
+    "pregunta_pct": 17.3,
     "demanda_pct": 0.8,
     "obediencia_pct": 1.1,
     "apoyo_pct": 0.1,
-    "texto_pct": 33.4
+    "texto_pct": 33.5
    },
    "character_label": "Comunidad activa — chat denso respecto a la audiencia",
    "top_demands": [
@@ -317,23 +317,52 @@
      "count": 2
     },
     {
-     "text": "sale MARDI GRAS después del bar",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "mostra la parte dea de la ciudad listorti",
-     "tipo": "voto_eleccion",
-     "count": 1
-    },
-    {
-     "text": "AHORA SABE CUÁNTO PESA",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "es un código propio",
+     "text": "tiraron en link y había 6k de vistas",
      "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "Cambiaron de link nos perdimos todo",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "PODEMOS HABLAR DEL PRECIO DEL GTA 6 LOCO",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Betito sale petecito?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "id": "cenital",
+   "name": "Cenital",
+   "programs_with_chat": 1,
+   "chat_messages": 189,
+   "msgs_per_1k": 1.49,
+   "noise_score": 0.01,
+   "chat_quality_tier": "media",
+   "chat_quality_label": "Comunidad moderada",
+   "paid_events": 0,
+   "mix": {
+    "emoji_pct": 0.5,
+    "saludo_pct": 0.5,
+    "reaccion_pct": 28.0,
+    "pregunta_pct": 26.5,
+    "demanda_pct": 0.5,
+    "obediencia_pct": 1.1,
+    "apoyo_pct": 0.0,
+    "texto_pct": 42.9
+   },
+   "character_label": "Comunidad moderada",
+   "top_demands": [
+    {
+     "text": "@santgr vot sí",
+     "tipo": "voto_eleccion",
      "count": 1
     }
    ]
@@ -940,81 +969,6 @@
    "channel_id": "neura"
   },
   {
-   "video_id": "04q2g0UfdyA",
-   "title": "",
-   "channel": "",
-   "chat_messages": 396,
-   "chat_events": 396,
-   "paid_events": 4,
-   "msgs_per_1k": 14.55,
-   "noise_score": 0.05,
-   "mix": {
-    "emoji_pct": 0.0,
-    "saludo_pct": 1.5,
-    "reaccion_pct": 26.0,
-    "pregunta_pct": 23.5,
-    "demanda_pct": 1.8,
-    "obediencia_pct": 0.0,
-    "apoyo_pct": 1.0,
-    "texto_pct": 46.2
-   },
-   "character_label": "Comunidad conversadora — chat activo más allá de emojis",
-   "top_words": [
-    {
-     "word": "tiene",
-     "count": 17
-    },
-    {
-     "word": "hola",
-     "count": 14
-    },
-    {
-     "word": "adorni",
-     "count": 14
-    },
-    {
-     "word": "hand",
-     "count": 13
-    },
-    {
-     "word": "flaco",
-     "count": 13
-    },
-    {
-     "word": "mona",
-     "count": 13
-    }
-   ],
-   "top_demands": [
-    {
-     "text": "Flaco no sé si esta programado, pero hablen de Mbappe bajando línea a toda la selección de que nadie",
-     "tipo": "pedido_contenido",
-     "count": 3
-    },
-    {
-     "text": "hablen de los audios de adorni",
-     "tipo": "pedido_contenido",
-     "count": 1
-    },
-    {
-     "text": "loco basta de fútbol. hablen de adorniiiii... sangreeeee",
-     "tipo": "pedido_contenido",
-     "count": 1
-    },
-    {
-     "text": "@iralonetto9684 DEJA DE ROMPER CON ADORNI ME TIENE LOS HUVOS AL PLATO ADORNI YA RENUNCIO DEJALO QUE ",
-     "tipo": "otro",
-     "count": 1
-    },
-    {
-     "text": "cuánto tienen que ganar Mona?",
-     "tipo": "pregunta_precio",
-     "count": 1
-    }
-   ],
-   "channel_id": ""
-  },
-  {
    "video_id": "DMOHJbfdIlY",
    "title": "",
    "channel": "",
@@ -1165,6 +1119,81 @@
    "channel_id": "neura"
   },
   {
+   "video_id": "04q2g0UfdyA",
+   "title": "",
+   "channel": "",
+   "chat_messages": 711,
+   "chat_events": 711,
+   "paid_events": 8,
+   "msgs_per_1k": 12.44,
+   "noise_score": 0.08,
+   "mix": {
+    "emoji_pct": 0.1,
+    "saludo_pct": 1.0,
+    "reaccion_pct": 25.5,
+    "pregunta_pct": 27.4,
+    "demanda_pct": 1.3,
+    "obediencia_pct": 0.1,
+    "apoyo_pct": 1.1,
+    "texto_pct": 43.5
+   },
+   "character_label": "Comunidad conversadora — chat activo más allá de emojis",
+   "top_words": [
+    {
+     "word": "tiene",
+     "count": 29
+    },
+    {
+     "word": "alemania",
+     "count": 26
+    },
+    {
+     "word": "adorni",
+     "count": 22
+    },
+    {
+     "word": "cabo",
+     "count": 21
+    },
+    {
+     "word": "flaco",
+     "count": 20
+    },
+    {
+     "word": "tronco",
+     "count": 19
+    }
+   ],
+   "top_demands": [
+    {
+     "text": "Flaco no sé si esta programado, pero hablen de Mbappe bajando línea a toda la selección de que nadie",
+     "tipo": "pedido_contenido",
+     "count": 3
+    },
+    {
+     "text": "hablen de los audios de adorni",
+     "tipo": "pedido_contenido",
+     "count": 1
+    },
+    {
+     "text": "loco basta de fútbol. hablen de adorniiiii... sangreeeee",
+     "tipo": "pedido_contenido",
+     "count": 1
+    },
+    {
+     "text": "@iralonetto9684 DEJA DE ROMPER CON ADORNI ME TIENE LOS HUVOS AL PLATO ADORNI YA RENUNCIO DEJALO QUE ",
+     "tipo": "otro",
+     "count": 1
+    },
+    {
+     "text": "cuánto tienen que ganar Mona?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "channel_id": ""
+  },
+  {
    "video_id": "XYJRLyO9exg",
    "title": "¿Por qué los argentinos sabemos tan poco sobre el dinero? Educación Financiera NeoFinanzas 26/06",
    "channel": "Neura Media",
@@ -1247,22 +1276,22 @@
    "cross_canal": false
   },
   {
-   "text": "LOCO TRAIGAN A CHAROOOOOOOOOOOOOOOOOOOOOOOOOOO",
-   "tipo": "pedido_contenido",
-   "count": 14,
-   "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
-   "cross_canal": false
-  },
-  {
    "text": "LLAMEN A FIO",
    "tipo": "pedido_contenido",
    "count": 14,
    "n_programas": 1,
    "canales": [
     "Vorterix"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "LOCO TRAIGAN A CHAROOOOOOOOOOOOOOOOOOOOOOOOOOO",
+   "tipo": "pedido_contenido",
+   "count": 14,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
    ],
    "cross_canal": false
   },
@@ -1278,6 +1307,16 @@
    "text": "HABLEN DE LA MEADA DEL CHIQUI A EDUL",
    "tipo": "pedido_contenido",
    "count": 9,
+   "n_programas": 1,
+   "canales": [
+    "Vorterix"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "Muchachooos! Hablen del conflicto en Blender!! Llamen a Fio Sargenti!!!",
+   "tipo": "pedido_contenido",
+   "count": 6,
    "n_programas": 1,
    "canales": [
     "Vorterix"
@@ -1303,21 +1342,13 @@
    "cross_canal": false
   },
   {
-   "text": "Muchachooos! Hablen del conflicto en Blender!! Llamen a Fio Sargenti!!!",
-   "tipo": "pedido_contenido",
-   "count": 6,
-   "n_programas": 1,
-   "canales": [
-    "Vorterix"
-   ],
-   "cross_canal": false
-  },
-  {
-   "text": "HABLEN DE TESORIN QUE SE CHOREARON UN GASODUCTO EN SALTA PARA TRAER A RICKY MARTIN",
-   "tipo": "pedido_contenido",
+   "text": "Cuál es la app de cómo saber la música??",
+   "tipo": "pedido_link",
    "count": 4,
    "n_programas": 1,
-   "canales": [],
+   "canales": [
+    "OLGA"
+   ],
    "cross_canal": false
   },
   {
@@ -1329,19 +1360,17 @@
    "cross_canal": false
   },
   {
-   "text": "Cuál es la app de cómo saber la música??",
-   "tipo": "pedido_link",
+   "text": "HABLEN DE TESORIN QUE SE CHOREARON UN GASODUCTO EN SALTA PARA TRAER A RICKY MARTIN",
+   "tipo": "pedido_contenido",
    "count": 4,
    "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
+   "canales": [],
    "cross_canal": false
   }
  ],
  "platform_line": "Aura es donde más habla la sala (52.77 mensajes por cada mil mirando). Demanda recurrente: «:bird::bird::bird::bird::bird::bird::bird::bird:LOCO TRAIGAN…»",
- "channels_with_chat": 13,
- "period": "2026-06-30T00:06:50.557712+00:00",
+ "channels_with_chat": 14,
+ "period": "2026-06-30T00:55:41.241856+00:00",
  "conductor_moments": [
   {
    "video_id": "NHt6oqHZYd0",
@@ -1428,36 +1457,12 @@
    "post_rpm": 1.0
   },
   {
-   "video_id": "EwFONN3W5cg",
-   "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
-   "channel": "Vorterix",
-   "kind": "like",
-   "minute": 69,
-   "quote": "Entonces me da un toque, porque me gusta el olor.",
-   "ratio": 13.33,
-   "label": "La sala respondió — chat más activo tras el pedido",
-   "pre_rpm": 0.0,
-   "post_rpm": 0.67
-  },
-  {
    "video_id": "AUSgxGQirlM",
    "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
    "channel": " A U R A ",
    "kind": "codigo",
    "minute": 82,
    "quote": "Bueno, esto es porque el código QR, dentro de sus miles de bits,",
-   "ratio": 13.33,
-   "label": "La sala respondió — chat más activo tras el pedido",
-   "pre_rpm": 0.0,
-   "post_rpm": 0.67
-  },
-  {
-   "video_id": "WCdVYizlDYA",
-   "title": "⚽️ GOLGANA con AZZ: Flavio Azzaro, Chute D'attellis, Benito, Sangre y Mouche | OLGA EN VIVO 2026-06-29 14:53",
-   "channel": "OLGA",
-   "kind": "like",
-   "minute": 4,
-   "quote": "Me gusta mucho Colombia",
    "ratio": 13.33,
    "label": "La sala respondió — chat más activo tras el pedido",
    "pre_rpm": 0.0,
@@ -1476,16 +1481,40 @@
    "post_rpm": 0.67
   },
   {
-   "video_id": "AUSgxGQirlM",
-   "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
-   "channel": " A U R A ",
+   "video_id": "WCdVYizlDYA",
+   "title": "⚽️ GOLGANA con AZZ: Flavio Azzaro, Chute D'attellis, Benito, Sangre y Mouche | OLGA EN VIVO 2026-06-29 14:53",
+   "channel": "OLGA",
    "kind": "like",
-   "minute": 52,
-   "quote": "Me gusta esta charla, Flor, así que vea, no sé si sentarme o que no,",
-   "ratio": 6.67,
+   "minute": 4,
+   "quote": "Me gusta mucho Colombia",
+   "ratio": 13.33,
    "label": "La sala respondió — chat más activo tras el pedido",
    "pre_rpm": 0.0,
-   "post_rpm": 0.33
+   "post_rpm": 0.67
+  },
+  {
+   "video_id": "EwFONN3W5cg",
+   "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+   "channel": "Vorterix",
+   "kind": "like",
+   "minute": 69,
+   "quote": "Entonces me da un toque, porque me gusta el olor.",
+   "ratio": 13.33,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.0,
+   "post_rpm": 0.67
+  },
+  {
+   "video_id": "TR97_gAGOWE",
+   "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+   "channel": "Cenital",
+   "kind": "voto",
+   "minute": 72,
+   "quote": "y está poniendo más cosas en juego al momento de votar.",
+   "ratio": 7.0,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.33,
+   "post_rpm": 2.33
   },
   {
    "video_id": "NZnTfvrPb0E",
@@ -1500,24 +1529,24 @@
    "post_rpm": 0.33
   },
   {
-   "video_id": "CP5OqzXez-g",
-   "title": "EL TAPON DE ADORNI y el NUEVO SANTILLI | VIVAN TODO en VIVO con OLIVÁN",
-   "channel": "BorderPeriodismo",
+   "video_id": "AUSgxGQirlM",
+   "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+   "channel": " A U R A ",
    "kind": "like",
-   "minute": 74,
-   "quote": "Yo uso gorro, yo uso gorro, me gusta, así que, lógicamente que no da muchas veces para el aire, por supuesto, por más que sea el streaming.",
+   "minute": 52,
+   "quote": "Me gusta esta charla, Flor, así que vea, no sé si sentarme o que no,",
    "ratio": 6.67,
    "label": "La sala respondió — chat más activo tras el pedido",
    "pre_rpm": 0.0,
    "post_rpm": 0.33
   },
   {
-   "video_id": "95yJuQx7ol8",
-   "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
-   "channel": "OLGA",
+   "video_id": "CP5OqzXez-g",
+   "title": "EL TAPON DE ADORNI y el NUEVO SANTILLI | VIVAN TODO en VIVO con OLIVÁN",
+   "channel": "BorderPeriodismo",
    "kind": "like",
-   "minute": 86,
-   "quote": "No, con el calor que hace acá no, pero me gusta, me gusta la bicicleta, me gusta.",
+   "minute": 74,
+   "quote": "Yo uso gorro, yo uso gorro, me gusta, así que, lógicamente que no da muchas veces para el aire, por supuesto, por más que sea el streaming.",
    "ratio": 6.67,
    "label": "La sala respondió — chat más activo tras el pedido",
    "pre_rpm": 0.0,

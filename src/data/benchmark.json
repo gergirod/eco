@@ -7,7 +7,7 @@
   "avg_concurrent": 86154,
   "brands": 59,
   "mentions": 83,
-  "share_views": 75.0,
+  "share_views": 74.9,
   "n_brands_live": 59,
   "top_brands": [
    {
@@ -921,6 +921,18 @@
     "rubro": "energia"
    }
   ]
+ },
+ {
+  "id": "cenital",
+  "name": "Cenital",
+  "videos": 1,
+  "vod_views": 5169,
+  "avg_concurrent": 1308,
+  "brands": 0,
+  "mentions": 0,
+  "share_views": 0.1,
+  "n_brands_live": 0,
+  "top_brands": []
  },
  {
   "id": "ahoraplay",

@@ -4604,6 +4604,140 @@
     }
    ]
   },
+  "TR97_gAGOWE": {
+   "video_id": "TR97_gAGOWE",
+   "channel_id": "cenital",
+   "channel": "Cenital",
+   "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+   "show_id": "esdlos",
+   "show_name": "El Señor de los Pasillos",
+   "top_temas": [
+    {
+     "tema": "Renuncia De Manuel Adorni Y Reemplazo Por Diego Santilli",
+     "score": 3
+    },
+    {
+     "tema": "Situación De Tomás Rebord Y Hay Algo Ahí",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Llegada De Diego Santilli Como Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Dinámicas Internas Del Gobierno Milei",
+     "score": 3
+    },
+    {
+     "tema": "Asunción De Diego Santilli Como Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Influencia Del Pro En El Gobierno De Milei",
+     "score": 3
+    },
+    {
+     "tema": "Conflicto Entre Cristina Kirchner Y Axel Kicillof",
+     "score": 3
+    },
+    {
+     "tema": "Política Electoral Argentina 2025",
+     "score": 3
+    },
+    {
+     "tema": "Gestión De Milei Y Gobierno",
+     "score": 3
+    },
+    {
+     "tema": "Reestructuración Del Gabinete Milei",
+     "score": 3
+    },
+    {
+     "tema": "Poder De Karina Milei En La Gestión",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "política",
+     "score": 60
+    },
+    {
+     "categoria": "politica",
+     "score": 27
+    },
+    {
+     "categoria": "persona",
+     "score": 18
+    },
+    {
+     "categoria": "economia",
+     "score": 11
+    },
+    {
+     "categoria": "cultura",
+     "score": 5
+    },
+    {
+     "categoria": "actividad",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Renuncia De Manuel Adorni Y Reemplazo Por Diego Santilli",
+     "categoria": "persona",
+     "contexto": "Se analiza la salida de Adorni como portavoz/jefe de gabinete y su reemplazo por Santilli en el gobierno",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Situación De Tomás Rebord Y Hay Algo Ahí",
+     "categoria": "persona",
+     "contexto": "Se menciona que Tomás Rebord atraviesa una situación difícil, aparentemente una salida o pausa laboral, y se pide a la audiencia apoyo mediante suscripciones en ago.ar",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Crisis En El Peronismo",
+     "categoria": "cultura",
+     "contexto": "Se analiza una posible ruptura formal en el peronismo, rompiendo el patrón histórico de peleas en años pares y arreglos en años impares",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Rediseño De Poder En El Gobierno",
+     "categoria": "politica",
+     "contexto": "Se menciona un patrón de reencauzamiento de situaciones en el gobierno, similar a lo que pasó con el Ministerio de Justicia",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Negociaciones Backchannel Con Peronistas Federales",
+     "categoria": "politica",
+     "contexto": "Se sugiere que pudo haber una ventana de negociación para mantener a Adorni como jefe de gabinete mediante canales informales con peronistas federales",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Rol De Patricia Bullrich Y Karina Milei",
+     "categoria": "persona",
+     "contexto": "Patricia Bullrich llamó a Karina Milei para anticipar que Adorni no podría ir al Senado, lo que desencadenó su salida",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "categoria": "política",
+     "contexto": "Análisis de la carta de renuncia de Adorni como jefe de gabinete y su mensaje sugestivo sobre mantener armonía entre Karina Milei y Santiago Caputo",
+     "minute": "0:30"
+    },
+    {
+     "tema": "Llegada De Diego Santilli Como Jefe De Gabinete",
+     "categoria": "política",
+     "contexto": "Santilli designado para reemplazar a Adorni, visto como figura de revinculación con gobernadores, empresarios y medios",
+     "minute": "0:30"
+    }
+   ]
+  },
   "U8f_2vIvO7Y": {
    "video_id": "U8f_2vIvO7Y",
    "channel_id": "urbana-play-104.3-fm",

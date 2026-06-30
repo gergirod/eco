@@ -3,10 +3,10 @@
  "summary_line": "Neura Media concentra la mayor demanda comercial filtrada en chat (4 pedidos confirmados, 0.06 por cada mil mirando; 1 dentro de 5 min post-PNT).",
  "filter": {
   "llm_used": 55,
-  "llm_rejected": 335,
-  "llm_confirmed": 29,
+  "llm_rejected": 315,
+  "llm_confirmed": 28,
   "heuristic_rejected": 0,
-  "confirmed_total": 200
+  "confirmed_total": 199
  },
  "channels": [
   {
@@ -29,13 +29,13 @@
      "count": 1
     },
     {
-     "text": "cuando tenga la sucursal en bsas hay 15 de descuento para chat de neura vieejooo",
+     "text": "Avisaron del gol y me gane un cupon en PYa, gracias",
      "tipo": "pedido_link",
      "count": 1
     },
     {
-     "text": "Avisaron del gol y me gane un cupon en PYa, gracias",
-     "tipo": "pedido_link",
+     "text": "Yayi... BTC está en muy buen precio.",
+     "tipo": "pregunta_precio",
      "count": 1
     }
    ]
@@ -55,17 +55,17 @@
    },
    "top_examples": [
     {
+     "text": "CICLO DE LAS MEMORIAS 3 AÑOS ALCISTA Y DESPUÉS CAEN AUMENTA EL PRECIO CAE LA DEMANDA, CAE LA BURBUJA DEL PRECIO",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "DICP: corte cupón",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
      "text": "Milei ofrece milanesas otra ves con el precio de la carne otro gasto:face-blue-smiling:",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "Si rajan a Adorni y otros políticos de YPF, seguro pueden bajar precio las naftas...",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "batista pero hay letras para todos??? todos compran a ese precio? o para comprar en el secundario lo compras mas caro y despues vendes barato",
      "tipo": "pregunta_precio",
      "count": 1
     }
@@ -98,49 +98,17 @@
    ]
   },
   {
-   "id": "",
-   "name": "",
-   "programs_with_chat": 10,
-   "commercial_messages": 38,
-   "chat_messages": 27581,
+   "id": "vorterix",
+   "name": "Vorterix",
+   "programs_with_chat": 8,
+   "commercial_messages": 30,
+   "chat_messages": 36450,
    "commercial_pct": 0.1,
    "commercial_per_1k": 0.02,
    "post_pnt_messages": 0,
    "by_tipo": {
-    "pregunta_precio": 21,
-    "pedido_link": 15,
-    "pregunta_compra": 2
-   },
-   "top_examples": [
-    {
-     "text": "yo le compre una bandeja pasa vinilos a mi marido, sale 500 lucas",
-     "tipo": "pregunta_precio",
-     "count": 2
-    },
-    {
-     "text": "Deci cuanto es el PBI del país y no te cierra nunca crecer como se creció .",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "le está pidiendo actualizar la app seguramente",
-     "tipo": "pedido_link",
-     "count": 1
-    }
-   ]
-  },
-  {
-   "id": "vorterix",
-   "name": "Vorterix",
-   "programs_with_chat": 6,
-   "commercial_messages": 25,
-   "chat_messages": 32647,
-   "commercial_pct": 0.1,
-   "commercial_per_1k": 0.01,
-   "post_pnt_messages": 0,
-   "by_tipo": {
-    "pedido_link": 23,
-    "pregunta_precio": 2
+    "pedido_link": 24,
+    "pregunta_precio": 6
    },
    "top_examples": [
     {
@@ -154,7 +122,39 @@
      "count": 1
     },
     {
-     "text": "en el codigo penal estA?",
+     "text": "al final tener 200 programas kukas que no ve nadie parece que no sale rentable",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "id": "",
+   "name": "",
+   "programs_with_chat": 9,
+   "commercial_messages": 34,
+   "chat_messages": 27409,
+   "commercial_pct": 0.1,
+   "commercial_per_1k": 0.01,
+   "post_pnt_messages": 0,
+   "by_tipo": {
+    "pedido_link": 14,
+    "pregunta_precio": 18,
+    "pregunta_compra": 2
+   },
+   "top_examples": [
+    {
+     "text": "yo le compre una bandeja pasa vinilos a mi marido, sale 500 lucas",
+     "tipo": "pregunta_precio",
+     "count": 2
+    },
+    {
+     "text": "es un link de donacion para la proxima campaña de corina machado?",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "el negro de wats app jaja",
      "tipo": "pedido_link",
      "count": 1
     }
@@ -180,13 +180,13 @@
      "count": 2
     },
     {
-     "text": "es un código propio",
+     "text": "tiraron en link y había 6k de vistas",
      "tipo": "pedido_link",
      "count": 1
     },
     {
-     "text": "el conmgelador de precio",
-     "tipo": "pregunta_precio",
+     "text": "Cambiaron de link nos perdimos todo",
+     "tipo": "pedido_link",
      "count": 1
     }
    ]
@@ -247,14 +247,14 @@
    "id": "olga",
    "name": "Olga",
    "programs_with_chat": 15,
-   "commercial_messages": 90,
+   "commercial_messages": 88,
    "chat_messages": 73738,
    "commercial_pct": 0.1,
    "commercial_per_1k": 0.0,
    "post_pnt_messages": 3,
    "by_tipo": {
     "pedido_link": 44,
-    "pregunta_precio": 43,
+    "pregunta_precio": 41,
     "pregunta_compra": 3
    },
    "top_examples": [
@@ -264,13 +264,13 @@
      "count": 4
     },
     {
-     "text": "necesito un cupon de mercado libre",
-     "tipo": "pedido_link",
+     "text": "esta a un precio super accesible!",
+     "tipo": "pregunta_precio",
      "count": 3
     },
     {
-     "text": "esta a un precio super accesible!",
-     "tipo": "pregunta_precio",
+     "text": "necesito un cupon de mercado libre",
+     "tipo": "pedido_link",
      "count": 3
     }
    ]
@@ -353,9 +353,9 @@
   },
   {
    "video_id": "3AxUr1Maqu8",
-   "title": "",
-   "channel": "",
-   "channel_id": "",
+   "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO 2026-06-29 19:10",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
    "commercial_messages": 5,
    "commercial_pct": 1.6,
    "commercial_per_1k": 0.12,
@@ -780,40 +780,6 @@
    "pnt_examples": []
   },
   {
-   "video_id": "EwFONN3W5cg",
-   "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
-   "channel": "Vorterix",
-   "channel_id": "vorterix",
-   "commercial_messages": 3,
-   "commercial_pct": 0.1,
-   "commercial_per_1k": 0.01,
-   "chat_messages": 2665,
-   "by_tipo": {
-    "pedido_link": 2,
-    "pregunta_precio": 1
-   },
-   "top_examples": [
-    {
-     "text": "en el codigo penal estA?",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "menos código el chabon",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "sale ese Damián Cuck chair?",
-     "tipo": "pregunta_precio",
-     "count": 1
-    }
-   ],
-   "post_pnt_messages": 0,
-   "pnt_brand_aligned": 0,
-   "pnt_examples": []
-  },
-  {
    "video_id": "tlhTO7YtTJ0",
    "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
    "channel": "GELATINA",
@@ -840,6 +806,29 @@
    "post_pnt_messages": 0,
    "pnt_brand_aligned": 0,
    "pnt_examples": []
+  },
+  {
+   "video_id": "Yp0sVPQV8Dk",
+   "title": "¿El RIESGO PAÍS puede caer a 200 puntos? El dato de Yayi Morales que lo CAMBIA TODO",
+   "channel": "El Cronista",
+   "channel_id": "cronista",
+   "commercial_messages": 1,
+   "commercial_pct": 0.7,
+   "commercial_per_1k": 0.01,
+   "chat_messages": 136,
+   "by_tipo": {
+    "pedido_link": 1
+   },
+   "top_examples": [
+    {
+     "text": "cuál es el link??",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
   }
  ],
  "top_signals": [
@@ -847,16 +836,6 @@
    "text": "Cuál es la app de cómo saber la música??",
    "tipo": "pedido_link",
    "count": 4,
-   "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
-   "cross_canal": false
-  },
-  {
-   "text": "necesito un cupon de mercado libre",
-   "tipo": "pedido_link",
-   "count": 3,
    "n_programas": 1,
    "canales": [
     "OLGA"
@@ -874,21 +853,13 @@
    "cross_canal": false
   },
   {
-   "text": "LINK LINK LINK",
+   "text": "necesito un cupon de mercado libre",
    "tipo": "pedido_link",
-   "count": 2,
+   "count": 3,
    "n_programas": 1,
    "canales": [
-    "Bondi Live"
+    "OLGA"
    ],
-   "cross_canal": false
-  },
-  {
-   "text": "yo le compre una bandeja pasa vinilos a mi marido, sale 500 lucas",
-   "tipo": "pregunta_precio",
-   "count": 2,
-   "n_programas": 1,
-   "canales": [],
    "cross_canal": false
   },
   {
@@ -902,12 +873,30 @@
    "cross_canal": false
   },
   {
-   "text": "PASA EL LINK GUICHE",
+   "text": "yo le compre una bandeja pasa vinilos a mi marido, sale 500 lucas",
+   "tipo": "pregunta_precio",
+   "count": 2,
+   "n_programas": 1,
+   "canales": [],
+   "cross_canal": false
+  },
+  {
+   "text": "Hay descuento tipo 3x2?? me interesa para comprar varios, y tener uno en cada habitación",
    "tipo": "pedido_link",
    "count": 2,
    "n_programas": 1,
    "canales": [
-    "Vorterix"
+    "OLGA"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "LINK LINK LINK",
+   "tipo": "pedido_link",
+   "count": 2,
+   "n_programas": 1,
+   "canales": [
+    "Bondi Live"
    ],
    "cross_canal": false
   },
@@ -922,22 +911,22 @@
    "cross_canal": false
   },
   {
-   "text": "Hay descuento tipo 3x2?? me interesa para comprar varios, y tener uno en cada habitación",
+   "text": "PASA EL LINK GUICHE",
    "tipo": "pedido_link",
    "count": 2,
    "n_programas": 1,
    "canales": [
-    "OLGA"
+    "Vorterix"
    ],
    "cross_canal": false
   },
   {
-   "text": "LA APP DE VORTERIX MARIO. VORTERIX LA NUEVA MTV.",
+   "text": "@agustinadossantos5326 es otra app , se usa para stremear",
    "tipo": "pedido_link",
    "count": 1,
    "n_programas": 1,
    "canales": [
-    "Vorterix"
+    "OLGA"
    ],
    "cross_canal": false
   }
@@ -1005,5 +994,5 @@
   }
  ],
  "channels_with_commercial": 11,
- "period": "2026-06-30T00:06:50.557712+00:00"
+ "period": "2026-06-30T00:55:41.241856+00:00"
 }

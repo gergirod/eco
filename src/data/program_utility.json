@@ -2629,6 +2629,64 @@
    }
   },
   {
+   "video_id": "TR97_gAGOWE",
+   "channel": "Cenital",
+   "channel_id": "cenital",
+   "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+   "date": "20260629",
+   "iup": 81,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.235,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.493,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 1308,
+     "peak_concurrent": 2075
+    },
+    "conversation": {
+     "blocks": 8,
+     "blocks_with_signal": 8,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 15,
+     "sponsored": 4,
+     "organic": 19,
+     "productos_marcas": 6
+    },
+    "participation": {
+     "chat_engagement": 1.49,
+     "chat_noise": 0.01,
+     "chat_total": 189
+    },
+    "format": {
+     "show_id": "esdlos",
+     "show_name": "El Señor de los Pasillos"
+    },
+    "capture_minutes": 79.74833333333332
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "tAUTd2FsMxA",
    "channel": "Bondi Live",
    "channel_id": "bondi",
@@ -8011,6 +8069,15 @@
    "tier_insuficiente": 0
   },
   {
+   "channel_id": "cenital",
+   "channel": "Cenital",
+   "programs": 1,
+   "iup_avg": 81.0,
+   "iup_median": 81,
+   "tier_alta": 1,
+   "tier_insuficiente": 0
+  },
+  {
    "channel_id": "border",
    "channel": "BorderPeriodismo",
    "programs": 1,
@@ -8084,8 +8151,8 @@
   }
  ],
  "totals": {
-  "programs": 136,
-  "tier_alta": 69,
+  "programs": 137,
+  "tier_alta": 70,
   "tier_media": 67,
   "tier_baja": 0,
   "tier_insuficiente": 0

@@ -1,9 +1,9 @@
 [
  {
   "tema": "interpelación adorni",
-  "score": 116.1,
-  "trend_score": 35.3,
-  "menciones": 26,
+  "score": 118.0,
+  "trend_score": 36.83,
+  "menciones": 27,
   "growth_wow": 1.0,
   "demand_ratio": 0.0,
   "demand_signals": 0,
@@ -11,6 +11,7 @@
    " A U R A ",
    "AHORA PLAY",
    "BorderPeriodismo",
+   "Cenital",
    "GELATINA",
    "LUZU TV",
    "Neura Media",
@@ -47,7 +48,7 @@
    },
    {
     "date": "29/06/2026",
-    "n": 84.53574036666501
+    "n": 86.42192187941939
    }
   ],
   "gt_status": "ya_masivo",
@@ -99,6 +100,17 @@
     "intensidad": 3,
     "start_min": 20,
     "t_seconds": 1200
+   },
+   {
+    "channel": "Cenital",
+    "video_id": "TR97_gAGOWE",
+    "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+    "date": "20260629",
+    "subtema": "Renuncia de Manuel Adorni",
+    "contexto": "Análisis de la carta de renuncia de Adorni como jefe de gabinete y su mensaje sugestivo sobre mantener armonía entre Karina Milei y Santiago Caputo",
+    "intensidad": 3,
+    "start_min": 30,
+    "t_seconds": 1800
    },
    {
     "channel": "GELATINA",
@@ -264,25 +276,14 @@
     "intensidad": 3,
     "start_min": 10,
     "t_seconds": 600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "bX7MB2_OI2I",
-    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-    "date": "20260623",
-    "subtema": "Interpelación a Adorni",
-    "contexto": "Se postergó la sesión del Senado para interpelar al ministro Adorni; debate sobre artículo 101 de la Constitución",
-    "intensidad": 3,
-    "start_min": 50,
-    "t_seconds": 3000
    }
   ],
-  "highlights_total": 70,
+  "highlights_total": 74,
   "evidence_lane": "corroborated",
-  "audio_programs": 22,
+  "audio_programs": 23,
   "chat_signals": {
-   "n_msgs": 728,
-   "n_authors": 516,
+   "n_msgs": 735,
+   "n_authors": 520,
    "programs": [
     {
      "video_id": "0_ua1dXLT5o",
@@ -658,11 +659,11 @@
     "t_seconds": 1800
    }
   ],
-  "highlights_total": 56,
+  "highlights_total": 57,
   "evidence_lane": "corroborated",
-  "audio_programs": 29,
+  "audio_programs": 30,
   "chat_signals": {
-   "n_msgs": 168,
+   "n_msgs": 169,
    "n_authors": 135,
    "programs": [
     {
@@ -677,7 +678,7 @@
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 29,
+     "n_msgs": 30,
      "n_authors": 23,
      "ejemplo": "Ya hablaron de Venezuela ? Estaría bien que compartan las formas para colaborar. Ánimos !!!"
     },
@@ -743,7 +744,7 @@
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 29,
+     "n_msgs": 30,
      "n_authors": 23,
      "ejemplo": "Ya hablaron de Venezuela ? Estaría bien que compartan las formas para colaborar. Ánimos !!!"
     },
@@ -1444,14 +1445,14 @@
   "evidence_lane": "corroborated",
   "audio_programs": 51,
   "chat_signals": {
-   "n_msgs": 83,
-   "n_authors": 73,
+   "n_msgs": 85,
+   "n_authors": 74,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 8,
+     "n_msgs": 9,
      "n_authors": 7,
      "ejemplo": "3:50 Am Saludos hermanos Argentinos , son unos chingones, saludos desde aquí ciudad de Monterrey al norte de México, hasta allá , buenos días , María y todo el "
     },
@@ -1517,7 +1518,7 @@
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 8,
+     "n_msgs": 9,
      "n_authors": 7,
      "ejemplo": "3:50 Am Saludos hermanos Argentinos , son unos chingones, saludos desde aquí ciudad de Monterrey al norte de México, hasta allá , buenos días , María y todo el "
     },
@@ -1597,6 +1598,17 @@
   "variantes_relacionadas": [],
   "highlights": [
    {
+    "channel": "Cenital",
+    "video_id": "TR97_gAGOWE",
+    "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+    "date": "20260629",
+    "subtema": "Poder de Karina Milei en la gestión",
+    "contexto": "Discusión sobre el rol creciente de Karina ejerciendo funciones de presidenta bis y jefe de gabinete, involucrándose en chats de legisladores y asuntos de justicia",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
     "channel": "GELATINA",
     "video_id": "vlNZMMmBbLw",
     "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
@@ -1606,6 +1618,28 @@
     "intensidad": 3,
     "start_min": 20,
     "t_seconds": 1200
+   },
+   {
+    "channel": "Cenital",
+    "video_id": "TR97_gAGOWE",
+    "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+    "date": "20260629",
+    "subtema": "Influencia del PRO en el gobierno de Milei",
+    "contexto": "Debate sobre si la presencia de ministros con trayectoria PRO representa un takeover del gobierno de Milei por parte de Mauricio Macri",
+    "intensidad": 3,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "Cenital",
+    "video_id": "TR97_gAGOWE",
+    "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+    "date": "20260629",
+    "subtema": "Gestión de Milei y gobierno",
+    "contexto": "Debate sobre el protagonismo de Milei en la agenda política, pérdida de tiempo en primeros meses y necesidad de dar vuelta de página",
+    "intensidad": 3,
+    "start_min": 50,
+    "t_seconds": 3000
    },
    {
     "channel": "AHORA PLAY",
@@ -1619,6 +1653,39 @@
     "t_seconds": 600
    },
    {
+    "channel": "Cenital",
+    "video_id": "TR97_gAGOWE",
+    "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+    "date": "20260629",
+    "subtema": "Reestructuración del gabinete Milei",
+    "contexto": "Análisis del fin del ciclo Adorni y la llegada de Santilli como nuevo jefe de gabinete, con cambios en comunicación y vocería",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "Cenital",
+    "video_id": "TR97_gAGOWE",
+    "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+    "date": "20260629",
+    "subtema": "Tensiones internas entre Carina y Santiago Milei",
+    "contexto": "Análisis de la relación de poder entre Karina y Santiago, con Santilli y otros funcionarios intentando mantener armonía",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "Cenital",
+    "video_id": "TR97_gAGOWE",
+    "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+    "date": "20260629",
+    "subtema": "Llegada de Diego Santilli como jefe de gabinete",
+    "contexto": "Santilli designado para reemplazar a Adorni, visto como figura de revinculación con gobernadores, empresarios y medios",
+    "intensidad": 3,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
     "channel": "AHORA PLAY",
     "video_id": "HTm_q34CwyM",
     "title": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
@@ -1628,6 +1695,17 @@
     "intensidad": 3,
     "start_min": 10,
     "t_seconds": 600
+   },
+   {
+    "channel": "Cenital",
+    "video_id": "TR97_gAGOWE",
+    "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+    "date": "20260629",
+    "subtema": "Asunción de Diego Santilli como Jefe de Gabinete",
+    "contexto": "Análisis de la asunción formal de Santilli a las 16.30 como Jefe de Gabinete de Ministros y su significado político",
+    "intensidad": 3,
+    "start_min": 40,
+    "t_seconds": 2400
    },
    {
     "channel": "AHORA PLAY",
@@ -1707,6 +1785,17 @@
     "t_seconds": 3600
    },
    {
+    "channel": "Cenital",
+    "video_id": "TR97_gAGOWE",
+    "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+    "date": "20260629",
+    "subtema": "Dinámicas internas del gobierno Milei",
+    "contexto": "Conflicto entre Karina Milei y Santiago Caputo, planes A, B y C para recambio de gabinete",
+    "intensidad": 3,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
     "channel": "Vorterix",
     "video_id": "JNLpggdieek",
     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
@@ -1727,102 +1816,14 @@
     "intensidad": 2,
     "start_min": 0,
     "t_seconds": 0
-   },
-   {
-    "channel": "AHORA PLAY",
-    "video_id": "HTm_q34CwyM",
-    "title": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
-    "date": "20260629",
-    "subtema": "Confrontación Milei con opinión pública",
-    "contexto": "Presidente enfrentó mayoría de la opinión pública sin argumentos válidos en caso Adorni, similar a conflictos por discapacidad y financiamiento universitario",
-    "intensidad": 2,
-    "start_min": 70,
-    "t_seconds": 4200
-   },
-   {
-    "channel": "GELATINA",
-    "video_id": "NHt6oqHZYd0",
-    "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
-    "date": "20260629",
-    "subtema": "Diego Santilli nuevo jefe de gabinete",
-    "contexto": "Diego Santilli asume la jefatura de gabinete, reemplazando a Adorni. Se analiza su rol anterior como ministro del Interior y su cercanía al PRO.",
-    "intensidad": 2,
-    "start_min": 0,
-    "t_seconds": 0
-   },
-   {
-    "channel": "GELATINA",
-    "video_id": "vlNZMMmBbLw",
-    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
-    "date": "20260629",
-    "subtema": "Gira presidencial Milei - Mercosur y Estados Unidos",
-    "contexto": "Javier Milei se preparaba para ir a cumbre de Mercosur en Paraguay y luego a Estados Unidos, con expectativas sobre encuentro con Lula da Silva",
-    "intensidad": 2,
-    "start_min": 20,
-    "t_seconds": 1200
-   },
-   {
-    "channel": "GELATINA",
-    "video_id": "vlNZMMmBbLw",
-    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
-    "date": "20260629",
-    "subtema": "Inconsistencias de Milei sobre justicia",
-    "contexto": "Milei cambia su postura: antes decía echar a Adorni si era culpable; ahora dice que si es inocente demostrarán que los medios trabajan mal",
-    "intensidad": 2,
-    "start_min": 60,
-    "t_seconds": 3600
-   },
-   {
-    "channel": "GELATINA",
-    "video_id": "vlNZMMmBbLw",
-    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
-    "date": "20260629",
-    "subtema": "Reelección de Javier Milei",
-    "contexto": "Se analiza que el gobierno busca reordenarse pensando en la reelección de Milei mediante incorporación de figuras políticas tradicionales",
-    "intensidad": 2,
-    "start_min": 60,
-    "t_seconds": 3600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "0SzxfcU-x6w",
-    "title": "LUCAS SE OFENDE Y ABANDONA OLGA | #SoñéQueVolaba 3/6",
-    "date": "20260603",
-    "subtema": "Supuesta conexión entre Honduras y Javier Milei",
-    "contexto": "En los audios se menciona que Milei aportaría 350 mil dólares y habría una llamada exitosa entre el presidente de Honduras y Milei",
-    "intensidad": 2,
-    "start_min": 130,
-    "t_seconds": 7800
-   },
-   {
-    "channel": "GELATINA",
-    "video_id": "NHt6oqHZYd0",
-    "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
-    "date": "20260629",
-    "subtema": "Relación Milei-Karina Milei",
-    "contexto": "Análisis sobre la influencia de Karina Milei como secretaria de la presidencia y su rol de facto en decisiones gubernamentales",
-    "intensidad": 2,
-    "start_min": 70,
-    "t_seconds": 4200
-   },
-   {
-    "channel": "GELATINA",
-    "video_id": "NHt6oqHZYd0",
-    "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
-    "date": "20260629",
-    "subtema": "Designación de Diego Santilli como jefe de gabinete",
-    "contexto": "Se analiza la foto de Milei anunciando a Santilli como nuevo jefe de gabinete, su pasado político en PRO y gobierno de CABA",
-    "intensidad": 2,
-    "start_min": 30,
-    "t_seconds": 1800
    }
   ],
-  "highlights_total": 35,
+  "highlights_total": 47,
   "evidence_lane": "corroborated",
-  "audio_programs": 15,
+  "audio_programs": 16,
   "chat_signals": {
-   "n_msgs": 507,
-   "n_authors": 366,
+   "n_msgs": 510,
+   "n_authors": 369,
    "programs": [
     {
      "video_id": "qLQFv3bGuhA",
@@ -2799,6 +2800,17 @@
     "t_seconds": 1800
    },
    {
+    "channel": "Cenital",
+    "video_id": "TR97_gAGOWE",
+    "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+    "date": "20260629",
+    "subtema": "Fragmentación política del centro",
+    "contexto": "Análisis del bloque del centro que apoyó la ley de Milei en 2023 pero ahora está descontento, caracterizado por pragmatismo absoluto",
+    "intensidad": 3,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
     "channel": "OLGA",
     "video_id": "NKhi31a86K8",
     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
@@ -2832,6 +2844,17 @@
     "t_seconds": 1200
    },
    {
+    "channel": "Cenital",
+    "video_id": "TR97_gAGOWE",
+    "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+    "date": "20260629",
+    "subtema": "Política electoral argentina 2025",
+    "contexto": "Análisis sobre posibilidad de que una fuerza política con menos de 20 puntos llegue al balotaje si el peronismo va dividido",
+    "intensidad": 3,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
     "channel": "AHORA PLAY",
     "video_id": "btHFJgjSlls",
     "title": "SEGUNDO SEMESTRE FINANCIERO: VELOCIDAD CRUCERO | Martín Genero #MercadoFresh",
@@ -2852,6 +2875,17 @@
     "intensidad": 3,
     "start_min": 50,
     "t_seconds": 3000
+   },
+   {
+    "channel": "Cenital",
+    "video_id": "TR97_gAGOWE",
+    "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+    "date": "20260629",
+    "subtema": "Estrategia política de Patricia Bullrich",
+    "contexto": "Análisis de los movimientos de Bullrich, su desafío a Karina, su rol en el mileísmo crítico y protección de su electorado",
+    "intensidad": 3,
+    "start_min": 80,
+    "t_seconds": 4800
    },
    {
     "channel": "Neura Media",
@@ -2940,47 +2974,14 @@
     "intensidad": 3,
     "start_min": 50,
     "t_seconds": 3000
-   },
-   {
-    "channel": "Neura Media",
-    "video_id": "Mu8yxSKxqGQ",
-    "title": "After Market: Julián Yosovitch",
-    "date": "20260629",
-    "subtema": "Política monetaria y tasas de interés",
-    "contexto": "Discusión sobre las herramientas del Banco Central, tasas reales negativas, overnight y plazo fijo",
-    "intensidad": 3,
-    "start_min": 50,
-    "t_seconds": 3000
-   },
-   {
-    "channel": "Neura Media",
-    "video_id": "7ON4ZA5TtHc",
-    "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
-    "date": "20260626",
-    "subtema": "Tasas de interés y política monetaria de la Fed",
-    "contexto": "Expectativas de suba de tasa en EE.UU., impacto en curva de rendimientos y economías emergentes",
-    "intensidad": 3,
-    "start_min": 60,
-    "t_seconds": 3600
-   },
-   {
-    "channel": "Neura Media",
-    "video_id": "UlE50hJOMJg",
-    "title": "Multiverso Neura",
-    "date": "20260626",
-    "subtema": "Doble vara política",
-    "contexto": "Comparación entre corrupción del kirchnerismo vs gobierno actual de Milei/Libertad Avanza",
-    "intensidad": 3,
-    "start_min": 60,
-    "t_seconds": 3600
    }
   ],
-  "highlights_total": 62,
+  "highlights_total": 68,
   "evidence_lane": "corroborated",
-  "audio_programs": 36,
+  "audio_programs": 37,
   "chat_signals": {
-   "n_msgs": 120,
-   "n_authors": 98,
+   "n_msgs": 123,
+   "n_authors": 100,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -3252,7 +3253,7 @@
   "evidence_lane": "corroborated",
   "audio_programs": 9,
   "chat_signals": {
-   "n_msgs": 77,
+   "n_msgs": 78,
    "n_authors": 59,
    "programs": [
     {
@@ -3275,7 +3276,7 @@
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 11,
+     "n_msgs": 12,
      "n_authors": 10,
      "ejemplo": "Ernestina :crying_face::folded_hands:"
     },
@@ -3341,7 +3342,7 @@
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 11,
+     "n_msgs": 12,
      "n_authors": 10,
      "ejemplo": "Ernestina :crying_face::folded_hands:"
     },
@@ -3634,8 +3635,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 66,
   "chat_signals": {
-   "n_msgs": 163,
-   "n_authors": 140,
+   "n_msgs": 164,
+   "n_authors": 141,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -4014,8 +4015,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 35,
   "chat_signals": {
-   "n_msgs": 220,
-   "n_authors": 178,
+   "n_msgs": 221,
+   "n_authors": 179,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -4037,8 +4038,8 @@
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 29,
-     "n_authors": 29,
+     "n_msgs": 30,
+     "n_authors": 30,
      "ejemplo": "encima que se equivoca con el horario en bs as, imaginate en miami"
     },
     {
@@ -4087,8 +4088,8 @@
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 29,
-     "n_authors": 29,
+     "n_msgs": 30,
+     "n_authors": 30,
      "ejemplo": "encima que se equivoca con el horario en bs as, imaginate en miami"
     },
     {
@@ -4394,8 +4395,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 58,
   "chat_signals": {
-   "n_msgs": 648,
-   "n_authors": 469,
+   "n_msgs": 650,
+   "n_authors": 470,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -4768,10 +4769,10 @@
   ],
   "highlights_total": 402,
   "evidence_lane": "corroborated",
-  "audio_programs": 110,
+  "audio_programs": 111,
   "chat_signals": {
-   "n_msgs": 484,
-   "n_authors": 380,
+   "n_msgs": 493,
+   "n_authors": 383,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -6065,8 +6066,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 18,
   "chat_signals": {
-   "n_msgs": 113,
-   "n_authors": 94,
+   "n_msgs": 114,
+   "n_authors": 95,
    "programs": [
     {
      "video_id": "s__pKWUr4MM",
@@ -7671,10 +7672,10 @@
   "highlights": [],
   "highlights_total": 0,
   "evidence_lane": "corroborated",
-  "audio_programs": 109,
+  "audio_programs": 110,
   "chat_signals": {
-   "n_msgs": 508,
-   "n_authors": 392,
+   "n_msgs": 514,
+   "n_authors": 395,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -8417,12 +8418,12 @@
     "t_seconds": 1800
    }
   ],
-  "highlights_total": 314,
+  "highlights_total": 315,
   "evidence_lane": "corroborated",
-  "audio_programs": 113,
+  "audio_programs": 114,
   "chat_signals": {
-   "n_msgs": 291,
-   "n_authors": 243,
+   "n_msgs": 293,
+   "n_authors": 245,
    "programs": [
     {
      "video_id": "IB9cCJT0-_M",
@@ -9102,8 +9103,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 20,
   "chat_signals": {
-   "n_msgs": 68,
-   "n_authors": 59,
+   "n_msgs": 69,
+   "n_authors": 60,
    "programs": [
     {
      "video_id": "8lOkxIDSd4w",
@@ -9162,12 +9163,12 @@
      "ejemplo": "Londres es una de las ciudades más antiguas del país y esta el Shingal"
     },
     {
-     "video_id": "mxFu-R3O8TY",
-     "channel": "OLGA",
-     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+     "video_id": "bYaixTloEdo",
+     "channel": "?",
+     "title": "",
      "n_msgs": 1,
      "n_authors": 1,
-     "ejemplo": "SE CORTA MENOS LA TRANSMISION DESDE BANGLADESH QUE EN EL MUNDIALITO DE CIUDADES.."
+     "ejemplo": "con el mundialito no hacemos nada :sleepy_face:"
     }
    ],
    "chat_only_programs": [
@@ -9188,12 +9189,12 @@
      "ejemplo": "Londres es una de las ciudades más antiguas del país y esta el Shingal"
     },
     {
-     "video_id": "mxFu-R3O8TY",
-     "channel": "OLGA",
-     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+     "video_id": "bYaixTloEdo",
+     "channel": "?",
+     "title": "",
      "n_msgs": 1,
      "n_authors": 1,
-     "ejemplo": "SE CORTA MENOS LA TRANSMISION DESDE BANGLADESH QUE EN EL MUNDIALITO DE CIUDADES.."
+     "ejemplo": "con el mundialito no hacemos nada :sleepy_face:"
     }
    ]
   }
@@ -10892,6 +10893,17 @@
     "t_seconds": 3000
    },
    {
+    "channel": "Cenital",
+    "video_id": "TR97_gAGOWE",
+    "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+    "date": "20260629",
+    "subtema": "Relación presidencial y lealtades institucionales",
+    "contexto": "Análisis sobre funcionarios que responden al líder político versus a la sociedad, comparación con Cristina Kirchner",
+    "intensidad": 2,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
     "channel": " A U R A ",
     "video_id": "AUSgxGQirlM",
     "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
@@ -10958,9 +10970,9 @@
     "t_seconds": 1200
    }
   ],
-  "highlights_total": 12,
+  "highlights_total": 13,
   "evidence_lane": "corroborated",
-  "audio_programs": 10,
+  "audio_programs": 11,
   "chat_signals": {
    "n_msgs": 16,
    "n_authors": 14,
@@ -11503,7 +11515,7 @@
   ],
   "highlights_total": 7,
   "evidence_lane": "corroborated",
-  "audio_programs": 8,
+  "audio_programs": 9,
   "chat_signals": {
    "n_msgs": 51,
    "n_authors": 45,
@@ -15004,9 +15016,17 @@
   "evidence_lane": "corroborated",
   "audio_programs": 6,
   "chat_signals": {
-   "n_msgs": 27,
-   "n_authors": 24,
+   "n_msgs": 28,
+   "n_authors": 25,
    "programs": [
+    {
+     "video_id": "04q2g0UfdyA",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 4,
+     "ejemplo": "EL PROBLEMA ES ALPINE NO FRANCO"
+    },
     {
      "video_id": "EwFONN3W5cg",
      "channel": "Vorterix",
@@ -15022,14 +15042,6 @@
      "n_msgs": 4,
      "n_authors": 4,
      "ejemplo": "Franco Rinaldi!"
-    },
-    {
-     "video_id": "04q2g0UfdyA",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 4,
-     "n_authors": 3,
-     "ejemplo": "EL PROBLEMA ES ALPINE NO FRANCO"
     },
     {
      "video_id": "JNLpggdieek",
@@ -15074,6 +15086,14 @@
    ],
    "chat_only_programs": [
     {
+     "video_id": "04q2g0UfdyA",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 4,
+     "ejemplo": "EL PROBLEMA ES ALPINE NO FRANCO"
+    },
+    {
      "video_id": "EwFONN3W5cg",
      "channel": "Vorterix",
      "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
@@ -15088,14 +15108,6 @@
      "n_msgs": 4,
      "n_authors": 4,
      "ejemplo": "Franco Rinaldi!"
-    },
-    {
-     "video_id": "04q2g0UfdyA",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 4,
-     "n_authors": 3,
-     "ejemplo": "EL PROBLEMA ES ALPINE NO FRANCO"
     },
     {
      "video_id": "JNLpggdieek",
@@ -16920,8 +16932,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 73,
   "chat_signals": {
-   "n_msgs": 343,
-   "n_authors": 278,
+   "n_msgs": 345,
+   "n_authors": 280,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -16935,8 +16947,8 @@
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 34,
-     "n_authors": 34,
+     "n_msgs": 35,
+     "n_authors": 35,
      "ejemplo": "encima que se equivoca con el horario en bs as, imaginate en miami"
     },
     {
@@ -16993,8 +17005,8 @@
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 34,
-     "n_authors": 34,
+     "n_msgs": 35,
+     "n_authors": 35,
      "ejemplo": "encima que se equivoca con el horario en bs as, imaginate en miami"
     },
     {
@@ -17164,9 +17176,17 @@
   "evidence_lane": "corroborated",
   "audio_programs": 15,
   "chat_signals": {
-   "n_msgs": 12,
-   "n_authors": 12,
+   "n_msgs": 15,
+   "n_authors": 14,
    "programs": [
+    {
+     "video_id": "04q2g0UfdyA",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 2,
+     "ejemplo": "Cómo no va a estar mal la construcción si todos los Paraguayos están en el mundial"
+    },
     {
      "video_id": "HTm_q34CwyM",
      "channel": "AHORA PLAY",
@@ -17222,17 +17242,17 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "MACRI BLANCO = BUENO / MACRI NEGRO = MALO. VAN POR UNA CONSTRUCCION NARRATIVA DIRECTA/INDIRECTA"
-    },
-    {
-     "video_id": "ptOHcGEdWCk",
-     "channel": "OLGA",
-     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "La famosa \"pirámide de la Antártida\" es una formación montañosa completamente natural, no una construcción artificial"
     }
    ],
    "chat_only_programs": [
+    {
+     "video_id": "04q2g0UfdyA",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 2,
+     "ejemplo": "Cómo no va a estar mal la construcción si todos los Paraguayos están en el mundial"
+    },
     {
      "video_id": "HTm_q34CwyM",
      "channel": "AHORA PLAY",
@@ -17264,14 +17284,6 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "de la construcción"
-    },
-    {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "ay, no es una construcción social"
     }
    ]
   }
@@ -17590,16 +17602,16 @@
   ],
   "highlights_total": 11,
   "evidence_lane": "corroborated",
-  "audio_programs": 17,
+  "audio_programs": 18,
   "chat_signals": {
-   "n_msgs": 131,
+   "n_msgs": 132,
    "n_authors": 93,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 26,
+     "n_msgs": 27,
      "n_authors": 17,
      "ejemplo": "cobarde presento La renuncia cuando se jugaba el partido de Argentina"
     },
@@ -17665,7 +17677,7 @@
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 26,
+     "n_msgs": 27,
      "n_authors": 17,
      "ejemplo": "cobarde presento La renuncia cuando se jugaba el partido de Argentina"
     },
@@ -19092,10 +19104,10 @@
   ],
   "highlights_total": 209,
   "evidence_lane": "corroborated",
-  "audio_programs": 106,
+  "audio_programs": 107,
   "chat_signals": {
-   "n_msgs": 422,
-   "n_authors": 340,
+   "n_msgs": 428,
+   "n_authors": 342,
    "programs": [
     {
      "video_id": "8XGdbbwUjEQ",
@@ -19109,7 +19121,7 @@
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 33,
+     "n_msgs": 35,
      "n_authors": 25,
      "ejemplo": "lo bombearon todo el mundial a Iran"
     },
@@ -19175,7 +19187,7 @@
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 33,
+     "n_msgs": 35,
      "n_authors": 25,
      "ejemplo": "lo bombearon todo el mundial a Iran"
     }
@@ -20269,16 +20281,16 @@
   ],
   "highlights_total": 13,
   "evidence_lane": "corroborated",
-  "audio_programs": 118,
+  "audio_programs": 119,
   "chat_signals": {
-   "n_msgs": 634,
-   "n_authors": 504,
+   "n_msgs": 640,
+   "n_authors": 507,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 43,
+     "n_msgs": 44,
      "n_authors": 33,
      "ejemplo": "lo bombearon todo el mundial a Iran"
     },
@@ -20344,7 +20356,7 @@
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 43,
+     "n_msgs": 44,
      "n_authors": 33,
      "ejemplo": "lo bombearon todo el mundial a Iran"
     },
@@ -21800,15 +21812,15 @@
   "evidence_lane": "corroborated",
   "audio_programs": 6,
   "chat_signals": {
-   "n_msgs": 11,
-   "n_authors": 11,
+   "n_msgs": 12,
+   "n_authors": 12,
    "programs": [
     {
      "video_id": "04q2g0UfdyA",
      "channel": "?",
      "title": "",
-     "n_msgs": 2,
-     "n_authors": 2,
+     "n_msgs": 3,
+     "n_authors": 3,
      "ejemplo": "La ultima carrera fallaron los dos Alpine, Colapinto perdio potencia despues de la largada quedó ultimo, no fue el fin de semana del equipo."
     },
     {
@@ -21873,8 +21885,8 @@
      "video_id": "04q2g0UfdyA",
      "channel": "?",
      "title": "",
-     "n_msgs": 2,
-     "n_authors": 2,
+     "n_msgs": 3,
+     "n_authors": 3,
      "ejemplo": "La ultima carrera fallaron los dos Alpine, Colapinto perdio potencia despues de la largada quedó ultimo, no fue el fin de semana del equipo."
     },
     {
@@ -21978,10 +21990,10 @@
   "highlights": [],
   "highlights_total": 0,
   "evidence_lane": "corroborated",
-  "audio_programs": 105,
+  "audio_programs": 106,
   "chat_signals": {
-   "n_msgs": 406,
-   "n_authors": 314,
+   "n_msgs": 411,
+   "n_authors": 317,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -22745,8 +22757,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 35,
   "chat_signals": {
-   "n_msgs": 218,
-   "n_authors": 176,
+   "n_msgs": 219,
+   "n_authors": 177,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -22768,8 +22780,8 @@
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 29,
-     "n_authors": 29,
+     "n_msgs": 30,
+     "n_authors": 30,
      "ejemplo": "encima que se equivoca con el horario en bs as, imaginate en miami"
     },
     {
@@ -22818,8 +22830,8 @@
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
-     "n_msgs": 29,
-     "n_authors": 29,
+     "n_msgs": 30,
+     "n_authors": 30,
      "ejemplo": "encima que se equivoca con el horario en bs as, imaginate en miami"
     },
     {
@@ -23413,10 +23425,10 @@
   ],
   "highlights_total": 54,
   "evidence_lane": "corroborated",
-  "audio_programs": 112,
+  "audio_programs": 113,
   "chat_signals": {
-   "n_msgs": 539,
-   "n_authors": 417,
+   "n_msgs": 544,
+   "n_authors": 420,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -24604,6 +24616,17 @@
     "t_seconds": 5400
    },
    {
+    "channel": "Cenital",
+    "video_id": "TR97_gAGOWE",
+    "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+    "date": "20260629",
+    "subtema": "Conflicto entre Cristina Kirchner y Axel Kicillof",
+    "contexto": "Análisis del enfrentamiento entre Cristina y Kicillof dentro del peronismo y sus estrategias de diferenciación",
+    "intensidad": 3,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
     "channel": "OLGA",
     "video_id": "NKhi31a86K8",
     "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
@@ -24679,22 +24702,11 @@
     "intensidad": 3,
     "start_min": 210,
     "t_seconds": 12600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "date": "20260623",
-    "subtema": "Relaciones laborales y conflicto",
-    "contexto": "Discusión sobre si cambiar de sede en la empresa o quedarse en el mismo lugar de trabajo",
-    "intensidad": 3,
-    "start_min": 150,
-    "t_seconds": 9000
    }
   ],
-  "highlights_total": 38,
+  "highlights_total": 40,
   "evidence_lane": "corroborated",
-  "audio_programs": 28,
+  "audio_programs": 29,
   "chat_signals": {
    "n_msgs": 50,
    "n_authors": 40,
@@ -25428,8 +25440,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 23,
   "chat_signals": {
-   "n_msgs": 313,
-   "n_authors": 217,
+   "n_msgs": 315,
+   "n_authors": 218,
    "programs": [
     {
      "video_id": "LE5ICiVWzT8",
@@ -25929,8 +25941,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 10,
   "chat_signals": {
-   "n_msgs": 124,
-   "n_authors": 114,
+   "n_msgs": 126,
+   "n_authors": 116,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -26557,8 +26569,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 39,
   "chat_signals": {
-   "n_msgs": 24,
-   "n_authors": 21,
+   "n_msgs": 25,
+   "n_authors": 22,
    "programs": [
     {
      "video_id": "WOYbd42V47w",
@@ -29297,10 +29309,10 @@
   "highlights": [],
   "highlights_total": 0,
   "evidence_lane": "corroborated",
-  "audio_programs": 105,
+  "audio_programs": 106,
   "chat_signals": {
-   "n_msgs": 203,
-   "n_authors": 172,
+   "n_msgs": 204,
+   "n_authors": 173,
    "programs": [
     {
      "video_id": "IB9cCJT0-_M",
@@ -30022,10 +30034,10 @@
   "highlights": [],
   "highlights_total": 0,
   "evidence_lane": "corroborated",
-  "audio_programs": 128,
+  "audio_programs": 129,
   "chat_signals": {
-   "n_msgs": 680,
-   "n_authors": 524,
+   "n_msgs": 689,
+   "n_authors": 527,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -31643,8 +31655,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 53,
   "chat_signals": {
-   "n_msgs": 343,
-   "n_authors": 284,
+   "n_msgs": 345,
+   "n_authors": 286,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -32558,8 +32570,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 48,
   "chat_signals": {
-   "n_msgs": 191,
-   "n_authors": 160,
+   "n_msgs": 193,
+   "n_authors": 161,
    "programs": [
     {
      "video_id": "IubT1ZyjjEA",

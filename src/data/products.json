@@ -3993,6 +3993,31 @@
   "kind": "producto"
  },
  {
+  "slug": "ago-ar",
+  "name": "ago.ar",
+  "mentions": 1,
+  "channels": [
+   "cenital"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "cenital",
+    "channel_name": "Cenital",
+    "date": "29/06/2026",
+    "video_id": "TR97_gAGOWE",
+    "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+    "minute": "00:20",
+    "views": 5169
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "casas-de-apuestas-generico",
   "name": "casas de apuestas (genérico)",
   "mentions": 1,
