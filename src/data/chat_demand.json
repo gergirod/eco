@@ -1,5 +1,5 @@
 {
- "period": "2026-07-01T02:55:50.343974+00:00",
+ "period": "2026-07-01T09:24:39.987746+00:00",
  "signals": [
   {
    "tema": "Apoyo a Paraguay",
@@ -11,19 +11,19 @@
    ],
    "cross_canal": true,
    "tipo": "otro",
-   "ejemplo": "tranquilos en un rato el paraguay del profe le gana a alemania y salva la jornada"
+   "ejemplo": "Aguante Paraguay / Rojaiju Paraguay"
   },
   {
-   "tema": "Energía y entusiasmo general",
+   "tema": "Celebración de victoria de Paraguay",
    "n_programas": 2,
-   "n_signals": 2,
+   "n_signals": 3,
    "canales": [
-    "BLENDER",
+    "GELATINA",
     "OLGA"
    ],
    "cross_canal": true,
    "tipo": "otro",
-   "ejemplo": "VAMOOO, DALE, con toda, dale que arrancxaaa"
+   "ejemplo": "La felicidad que me dio la victoria de Paraguay, la verdad. Qué belleza."
   },
   {
    "tema": "Apoyo a conductoras",
@@ -38,6 +38,29 @@
    "ejemplo": "July Male, que bombones, ojalá todos los programas de economía fuesen así"
   },
   {
+   "tema": "Energía y entusiasmo general",
+   "n_programas": 2,
+   "n_signals": 2,
+   "canales": [
+    "BLENDER",
+    "OLGA"
+   ],
+   "cross_canal": true,
+   "tipo": "otro",
+   "ejemplo": "daaaaaleeeeeeeeeeeeeeee / ARRANCA EL SHOOOWWWWW / TEMAZXOOOOOO"
+  },
+  {
+   "tema": "Apoyo a conductores",
+   "n_programas": 2,
+   "n_signals": 3,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false,
+   "tipo": "otro",
+   "ejemplo": "TE AMO CAMILA, los amo wachosssss, TE AMO TDT, los re bancooooooo"
+  },
+  {
    "tema": "Crítica a Azzaro",
    "n_programas": 2,
    "n_signals": 3,
@@ -47,6 +70,17 @@
    "cross_canal": false,
    "tipo": "otro",
    "ejemplo": "azzaro, te convertiste en lo que juraste destruir"
+  },
+  {
+   "tema": "Contenido musical",
+   "n_programas": 2,
+   "n_signals": 2,
+   "canales": [
+    "GELATINA"
+   ],
+   "cross_canal": false,
+   "tipo": "otro",
+   "ejemplo": "pueden hacer una playlist loco? el que pone musica es crack, siempre pone temazos"
   },
   {
    "tema": "Aumento de cuota/precio de membresía",
@@ -60,26 +94,15 @@
    "ejemplo": "vamos pepe decime cuanto aumento cuota para incorporar HAA"
   },
   {
-   "tema": "Estabilidad de precios vs dólar",
+   "tema": "Entrevista a Trueno",
    "n_programas": 1,
    "n_signals": 1,
    "canales": [
-    "AHORA PLAY"
+    "Vorterix"
    ],
    "cross_canal": false,
    "tipo": "pregunta_precio",
-   "ejemplo": "el dolarquedo com el mismo precio y todo subió.donde estamos?"
-  },
-  {
-   "tema": "Precio de productos (Paraguay)",
-   "n_programas": 1,
-   "n_signals": 1,
-   "canales": [
-    "Urbana Play 104.3 FM"
-   ],
-   "cross_canal": false,
-   "tipo": "pregunta_precio",
-   "ejemplo": "ayer aumentó la lista de precios de Paragüay!!"
+   "ejemplo": "asi que sale esa tan ansiada full entrevista a Trueno?!"
   },
   {
    "tema": "Solicitud de likes",
@@ -104,15 +127,15 @@
    "ejemplo": "Martín, cuando sale un \"ASAD bursatil\" en zona sur?"
   },
   {
-   "tema": "Problemas de conexión y cambio de link",
+   "tema": "Estabilidad de precios vs dólar",
    "n_programas": 1,
    "n_signals": 1,
    "canales": [
-    "BLENDER"
+    "AHORA PLAY"
    ],
    "cross_canal": false,
-   "tipo": "pedido_link",
-   "ejemplo": "tuvieron que inventar la electricidad para verlos / Cambiaron de link nos perdimos todo"
+   "tipo": "pregunta_precio",
+   "ejemplo": "el dolarquedo com el mismo precio y todo subió.donde estamos?"
   }
  ]
 }

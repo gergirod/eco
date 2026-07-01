@@ -1,23 +1,23 @@
 {
- "exported_at": "2026-07-01T02:55:50.343974+00:00",
+ "exported_at": "2026-07-01T09:24:39.987746+00:00",
  "capture_scope": "live_only",
  "capture_sources": [
   "youtube_api",
   "ytdlp_live"
  ],
- "n_videos": 97,
- "n_topics": 97,
- "n_topics_total": 164,
- "n_brands": 210,
- "n_products": 208,
- "n_pauta_mentions": 368,
- "n_moments": 124,
+ "n_videos": 107,
+ "n_topics": 107,
+ "n_topics_total": 175,
+ "n_brands": 217,
+ "n_products": 225,
+ "n_pauta_mentions": 389,
+ "n_moments": 127,
  "n_trends": 120,
  "cpm": 30.0,
  "peso_default": 0.3,
  "live_capture": {
-  "hours_captured": 245.2,
-  "streams_captured": 118,
+  "hours_captured": 247.8,
+  "streams_captured": 119,
   "channels_captured": 13,
   "capture_days": 9,
   "first_capture": "2026-06-22",
@@ -40,8 +40,8 @@
   "by_channel": [
    {
     "id": "ahoraplay",
-    "streams": 5,
-    "hours": 8.2,
+    "streams": 6,
+    "hours": 10.3,
     "first_capture": "2026-06-29",
     "last_capture": "2026-06-30"
    },
@@ -55,7 +55,7 @@
    {
     "id": "blend",
     "streams": 8,
-    "hours": 12.5,
+    "hours": 13.1,
     "first_capture": "2026-06-24",
     "last_capture": "2026-07-01"
    },
@@ -223,6 +223,13 @@
     "hours": 7.8
    },
    {
+    "channel_id": "blend",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 4,
+    "hours": 6.8
+   },
+   {
     "channel_id": "vorterix",
     "show_id": "no-rusia",
     "show_name": "No Preguntes por Rusia",
@@ -230,7 +237,7 @@
     "hours": 6.3
    },
    {
-    "channel_id": "blend",
+    "channel_id": "ahoraplay",
     "show_id": "otros",
     "show_name": "Otros",
     "streams": 4,
@@ -249,13 +256,6 @@
     "show_name": "Qué Día",
     "streams": 3,
     "hours": 4.6
-   },
-   {
-    "channel_id": "ahoraplay",
-    "show_id": "otros",
-    "show_name": "Otros",
-    "streams": 3,
-    "hours": 4.1
    },
    {
     "channel_id": "luzu",
@@ -364,13 +364,13 @@
  },
  "discovery": {
   "channels_covered": 12,
-  "hours_captured": 220.0,
+  "hours_captured": 238.1,
   "first_capture": "2026-06-19",
   "last_capture": "2026-07-01",
   "period_days": 13,
-  "programs_with_viewers": 97,
-  "high_confidence_advertisers": 25,
-  "emerging_confidence_advertisers": 42,
-  "activations_with_verified_evidence": 361
+  "programs_with_viewers": 107,
+  "high_confidence_advertisers": 30,
+  "emerging_confidence_advertisers": 41,
+  "activations_with_verified_evidence": 382
  }
 }

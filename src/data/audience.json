@@ -2,8 +2,8 @@
  {
   "id": "luzu",
   "name": "Luzu TV",
-  "videos": 23,
-  "avg_concurrent": 75984,
+  "videos": 24,
+  "avg_concurrent": 80977,
   "peak_concurrent": 243607,
   "chat_coverage": 0,
   "chat_msgs_per_1k_min": null,
@@ -31,14 +31,14 @@
     "video_id": "jEEahJU8_jg"
    },
    {
+    "title": "#NADIEDICENADA l EL MOMI CASI SE AHOGA, ¿YA HAY CAPS DE LA SERIE TERMINADOS? Y EL PPP DEL MITO",
+    "peak": 223675,
+    "video_id": "IlVszYblfPE"
+   },
+   {
     "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
     "peak": 217174,
     "video_id": "W5dvBDWCWWk"
-   },
-   {
-    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
-    "peak": 128115,
-    "video_id": "cEWsZ9vbiCg"
    }
   ],
   "top_programs_by_chat": []
@@ -268,23 +268,23 @@
   "id": "x",
   "name": "x",
   "videos": 16,
-  "avg_concurrent": 7213,
+  "avg_concurrent": 7071,
   "peak_concurrent": 38655,
-  "chat_coverage": 94,
-  "chat_msgs_per_1k_min": 9.4,
-  "chat_writers_avg": 282,
-  "chat_avg_concurrent": 7348,
-  "chat_writers_per_1k": 38.4,
+  "chat_coverage": 100,
+  "chat_msgs_per_1k_min": 9.8,
+  "chat_writers_avg": 262,
+  "chat_avg_concurrent": 7071,
+  "chat_writers_per_1k": 37.1,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
-  "chat_noise_score": 0.2,
+  "chat_noise_score": 0.18,
   "room_participation": {
    "has_data": true,
-   "programs_with_room_data": 15,
+   "programs_with_room_data": 16,
    "poll_count": 6,
    "total_votes": 82,
-   "banner_sessions": 2,
-   "participation_line": "Comunidad activa: 6 encuestas en 15 emisiones medidas."
+   "banner_sessions": 1,
+   "participation_line": "Comunidad activa: 6 encuestas en 16 emisiones medidas."
   },
   "top_programs": [
    {
@@ -334,6 +334,15 @@
    },
    {
     "title": "",
+    "video_id": "RIx-w13AHO4",
+    "chat_engagement": 19.7,
+    "avg_concurrent": 624,
+    "chat_writers": 63,
+    "chat_messages": 295,
+    "chat_writers_per_1k": 101.0
+   },
+   {
+    "title": "",
     "video_id": "DMOHJbfdIlY",
     "chat_engagement": 14.44,
     "avg_concurrent": 943,
@@ -349,25 +358,16 @@
     "chat_writers": 26,
     "chat_messages": 73,
     "chat_writers_per_1k": 61.8
-   },
-   {
-    "title": "",
-    "video_id": "UX0K5Z6vpcs",
-    "chat_engagement": 7.35,
-    "avg_concurrent": 608,
-    "chat_writers": 42,
-    "chat_messages": 76,
-    "chat_writers_per_1k": 69.1
    }
   ]
  },
  {
   "id": "blend",
   "name": "Blender",
-  "videos": 7,
-  "avg_concurrent": 6306,
+  "videos": 8,
+  "avg_concurrent": 6198,
   "peak_concurrent": 13819,
-  "chat_coverage": 57,
+  "chat_coverage": 50,
   "chat_msgs_per_1k_min": 2.6,
   "chat_writers_avg": 302,
   "chat_avg_concurrent": 6867,
@@ -405,9 +405,9 @@
     "video_id": "Iii3dqMJvwQ"
    },
    {
-    "title": "LOS AUDIOS QUE COMPROMETEN A ADORNI, JURÓ SANTILLI y NUEVO GIRO EN EL CASO AGOSTINA VEGA | QUÉ DÍA!",
-    "peak": 5754,
-    "video_id": "Pn8rwXS46KI"
+    "title": "El día de CARNA CAMPEÓN en el ‘86, ADIÓS ADORNI y MARTITA-JOSEMA en modo MUNDIAL | BLENDER AT NIGHT",
+    "peak": 5900,
+    "video_id": "tOyCjVcKZlE"
    }
   ],
   "top_programs_by_chat": [
@@ -852,30 +852,35 @@
  {
   "id": "ahoraplay",
   "name": "Ahora Play",
-  "videos": 4,
-  "avg_concurrent": 456,
+  "videos": 5,
+  "avg_concurrent": 493,
   "peak_concurrent": 847,
   "chat_coverage": 100,
-  "chat_msgs_per_1k_min": 23.3,
-  "chat_writers_avg": 64,
-  "chat_avg_concurrent": 456,
-  "chat_writers_per_1k": 140.4,
+  "chat_msgs_per_1k_min": 19.5,
+  "chat_writers_avg": 74,
+  "chat_avg_concurrent": 493,
+  "chat_writers_per_1k": 150.1,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
-  "chat_noise_score": 0.46,
+  "chat_noise_score": 0.37,
   "room_participation": {
    "has_data": true,
-   "programs_with_room_data": 4,
+   "programs_with_room_data": 5,
    "poll_count": 2,
    "total_votes": 753,
-   "banner_sessions": 2,
-   "participation_line": "Comunidad activa: la audiencia sumó 753 votos en encuestas en vivo; 2 encuestas en 4 emisiones medidas."
+   "banner_sessions": 3,
+   "participation_line": "Comunidad activa: la audiencia sumó 753 votos en encuestas en vivo; 3 mensajes fijados en 5 emisiones."
   },
   "top_programs": [
    {
     "title": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
     "peak": 847,
     "video_id": "HTm_q34CwyM"
+   },
+   {
+    "title": "SUBE EL DÓLAR: PRUEBA DE FUEGO PARA CAPUTO | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
+    "peak": 788,
+    "video_id": "3jZ7O8XoQyY"
    },
    {
     "title": "SEGUNDO SEMESTRE FINANCIERO: VELOCIDAD CRUCERO | Martín Genero #MercadoFresh",
@@ -911,6 +916,15 @@
     "chat_writers": 166,
     "chat_messages": 3480,
     "chat_writers_per_1k": 237.1
+   },
+   {
+    "title": "SUBE EL DÓLAR: PRUEBA DE FUEGO PARA CAPUTO | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
+    "video_id": "3jZ7O8XoQyY",
+    "chat_engagement": 4.4,
+    "avg_concurrent": 641,
+    "chat_writers": 114,
+    "chat_messages": 355,
+    "chat_writers_per_1k": 177.8
    },
    {
     "title": "SEGUNDO SEMESTRE FINANCIERO: VELOCIDAD CRUCERO | Martín Genero #MercadoFresh",

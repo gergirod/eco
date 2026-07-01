@@ -1408,6 +1408,148 @@
     }
    ]
   },
+  "3jZ7O8XoQyY": {
+   "video_id": "3jZ7O8XoQyY",
+   "channel_id": "ahoraplay",
+   "channel": "AHORA PLAY",
+   "title": "SUBE EL DÓLAR: PRUEBA DE FUEGO PARA CAPUTO | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
+   "show_id": "serrucho",
+   "show_name": "Serrucho Económico",
+   "top_temas": [
+    {
+     "tema": "Economía Argentina Y Tipo De Cambio",
+     "score": 3
+    },
+    {
+     "tema": "Oferta De Dólares En Segundo Semestre",
+     "score": 3
+    },
+    {
+     "tema": "Actividad Económica Y Empleo",
+     "score": 3
+    },
+    {
+     "tema": "Sector Construcción En Crisis",
+     "score": 3
+    },
+    {
+     "tema": "Fortaleza Del Dólar Internacional",
+     "score": 3
+    },
+    {
+     "tema": "Caída De Commodities",
+     "score": 3
+    },
+    {
+     "tema": "Compras De Dólares Del Banco Central",
+     "score": 3
+    },
+    {
+     "tema": "Tipo De Cambio Y Presión Cambiaria",
+     "score": 3
+    },
+    {
+     "tema": "Riesgo País Y Mercados Financieros",
+     "score": 3
+    },
+    {
+     "tema": "Financiamiento Y Deuda Externa",
+     "score": 3
+    },
+    {
+     "tema": "Elecciones 2027 Y Blindaje Financiero",
+     "score": 3
+    },
+    {
+     "tema": "Consumo De Vino En Argentina",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "economia",
+     "score": 34
+    },
+    {
+     "categoria": "producto",
+     "score": 20
+    },
+    {
+     "categoria": "cultura",
+     "score": 16
+    },
+    {
+     "categoria": "actividad",
+     "score": 9
+    },
+    {
+     "categoria": "otro",
+     "score": 6
+    },
+    {
+     "categoria": "comida",
+     "score": 5
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 4
+    },
+    {
+     "categoria": "persona",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Economía Argentina Y Tipo De Cambio",
+     "categoria": "economia",
+     "contexto": "Análisis de la cotización del dólar mayorista, suba mensual del 5,2% y anual del 1,7%, estrategia del gobierno de no atrasar el tipo de cambio",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Oferta De Dólares En Segundo Semestre",
+     "categoria": "economia",
+     "contexto": "Preocupación por menor oferta de divisas en segundo semestre, año electoral, posible ataque especulativo del mercado",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Actividad Económica Y Empleo",
+     "categoria": "economia",
+     "contexto": "Relevamiento que muestra provincias en rojo en producción, cantidad de empresas y puestos de trabajo, excepto Neuquén",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Sector Construcción En Crisis",
+     "categoria": "economia",
+     "contexto": "Testimonio de JP: constructores están 'hechos trizas', sector muy afectado por la economía",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Prueba De Fuego Para Caputo",
+     "categoria": "persona",
+     "contexto": "Análisis del desafío del ministro de economía en manejo cambiario y actividad económica en próximas semanas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mercado Dual Y Tasas De Interés",
+     "categoria": "economia",
+     "contexto": "Análisis del mercado cambiario-monetario versus actividad económica real",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Fortaleza Del Dólar Internacional",
+     "categoria": "economia",
+     "contexto": "Análisis de cómo el dólar se fortaleció globalmente por expectativas de tasas de interés más altas en EE.UU., afectando monedas emergentes",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Caída De Commodities",
+     "categoria": "economia",
+     "contexto": "Precios de soja, petróleo y oro en baja. Soja a 4.25 (antes 4.35), petróleo a 73 dólares, bitcoin cayó a la mitad",
+     "minute": "0:10"
+    }
+   ]
+  },
   "3t9P2KFJ4K0": {
    "video_id": "3t9P2KFJ4K0",
    "channel_id": "vorterix",
@@ -2962,6 +3104,148 @@
     }
    ]
   },
+  "CvdiEy8pgBc": {
+   "video_id": "CvdiEy8pgBc",
+   "channel_id": "cenital",
+   "channel": "Cenital",
+   "title": "MILEI abraza a ADORNI, SANTILLI al Gabinete y ZAIAT analiza la economía | 540° O'Donnell y Tenembaum",
+   "show_id": "540",
+   "show_name": "540°",
+   "top_temas": [
+    {
+     "tema": "Mundial De Fútbol 2026",
+     "score": 3
+    },
+    {
+     "tema": "Selección Argentina De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Política Norteamericana Y Corte Suprema",
+     "score": 3
+    },
+    {
+     "tema": "Caso Adorni - Corrupción",
+     "score": 3
+    },
+    {
+     "tema": "Impermeabilidad De Milei Al Dato Político",
+     "score": 3
+    },
+    {
+     "tema": "Desconexión Entre Discurso Económico Y Realidad",
+     "score": 3
+    },
+    {
+     "tema": "Encuestas Y Aprobación De Milei",
+     "score": 3
+    },
+    {
+     "tema": "Designación De Diego Santilli Como Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Caso Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Caso Adorni - Enriquecimiento Sospechoso",
+     "score": 3
+    },
+    {
+     "tema": "Compra De Departamento Financiado Por Jubiladas",
+     "score": 3
+    },
+    {
+     "tema": "Viaje En Avión Privado A Punta Del Este",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 48
+    },
+    {
+     "categoria": "otro",
+     "score": 31
+    },
+    {
+     "categoria": "persona",
+     "score": 20
+    },
+    {
+     "categoria": "política",
+     "score": 14
+    },
+    {
+     "categoria": "cultura",
+     "score": 9
+    },
+    {
+     "categoria": "economia",
+     "score": 9
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 7
+    },
+    {
+     "categoria": "lugar",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Mundial De Fútbol 2026",
+     "categoria": "actividad",
+     "contexto": "Cobertura especial del Mundial de Fútbol con María O'Donnell enviada desde Estados Unidos, análisis de equipos y probabilidades",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Selección Argentina De Fútbol",
+     "categoria": "actividad",
+     "contexto": "Análisis del desempeño de Argentina en el torneo, comparación con otros equipos históricos, potencial para llegar a la final",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Francia En El Mundial",
+     "categoria": "actividad",
+     "contexto": "Debate sobre Francia como favorita, cambios en cuotas de apuestas, calidad del equipo francés",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Política Norteamericana Y Corte Suprema",
+     "categoria": "cultura",
+     "contexto": "Análisis detallado de resoluciones recientes de la Corte Suprema de EE.UU., decisiones sobre nacionalidad, deportaciones y poder presidencial de Trump",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Migrantes Y Deportaciones En Ee.uu.",
+     "categoria": "cultura",
+     "contexto": "Discusión sobre políticas de deportación de haitianos, siros, cambios en programas de residencia especial bajo administración Trump",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cobertura Del Mundial Desde Miami",
+     "categoria": "lugar",
+     "contexto": "Ambiente del torneo en Estados Unidos, diferencia con Qatar, presencia de comunidad latinoamericana en Miami",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Caso Adorni - Corrupción",
+     "categoria": "persona",
+     "contexto": "Se discute la destitución de Manuel Adorni como jefe de gabinete por hechos de corrupción: compras con tarjetas prestadas de empleados, gastos injustificables de millones de pesos en consolas y artículos de lujo",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Juramento De Santilli",
+     "categoria": "actividad",
+     "contexto": "Se transmite en vivo el momento en que Milei toma juramento a Santilli como nuevo jefe de gabinete, generando una foto simbólica del abrazo entre los tres",
+     "minute": "0:10"
+    }
+   ]
+  },
   "E1SnlQyyuRc": {
    "video_id": "E1SnlQyyuRc",
    "channel_id": "luzu",
@@ -3243,6 +3527,148 @@
      "categoria": "historia",
      "contexto": "Análisis detallado de la bala y trayectoria del asesinato de Kennedy, recreación de los hechos",
      "minute": "0:20"
+    }
+   ]
+  },
+  "FFy6eNzi-dQ": {
+   "video_id": "FFy6eNzi-dQ",
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Polaco Silveira y Nico Etevenaux",
+   "show_id": "no-rusia",
+   "show_name": "No Preguntes por Rusia",
+   "top_temas": [
+    {
+     "tema": "Ernestina Páez Y Controversia Mediática",
+     "score": 3
+    },
+    {
+     "tema": "Elecciones Presidenciales De Perú",
+     "score": 3
+    },
+    {
+     "tema": "Inestabilidad Política En Perú",
+     "score": 3
+    },
+    {
+     "tema": "Gobierno De Keiko Fujimori En Perú",
+     "score": 3
+    },
+    {
+     "tema": "Política De Seguridad En Perú",
+     "score": 3
+    },
+    {
+     "tema": "Caso Martín Insaurralde",
+     "score": 3
+    },
+    {
+     "tema": "Impresoras 3d De Gran Escala",
+     "score": 3
+    },
+    {
+     "tema": "Transmisión Manual Vs Automática",
+     "score": 3
+    },
+    {
+     "tema": "Pruebas De Choque Vehicular",
+     "score": 3
+    },
+    {
+     "tema": "Oferta Electrodomésticos Y Climatización",
+     "score": 3
+    },
+    {
+     "tema": "Concierto Tambiónica",
+     "score": 2
+    },
+    {
+     "tema": "Música Adolescente Vs Adulta",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 19
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 19
+    },
+    {
+     "categoria": "actividad",
+     "score": 14
+    },
+    {
+     "categoria": "persona",
+     "score": 13
+    },
+    {
+     "categoria": "lugar",
+     "score": 8
+    },
+    {
+     "categoria": "producto",
+     "score": 5
+    },
+    {
+     "categoria": "comida",
+     "score": 2
+    },
+    {
+     "categoria": "salud",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Concierto Tambiónica",
+     "categoria": "cultura",
+     "contexto": "Se discute el concierto completo publicado en YouTube, la calidad del sonido y la mezcla",
+     "minute": "0:30"
+    },
+    {
+     "tema": "Música Adolescente Vs Adulta",
+     "categoria": "cultura",
+     "contexto": "Análisis sobre cómo bandas como Tambiónica y Airbag son más para adolescentes, comparación con Coldplay",
+     "minute": "0:30"
+    },
+    {
+     "tema": "Ernestina Páez Y Controversia Mediática",
+     "categoria": "persona",
+     "contexto": "Se discute sobre no haber saludado a Ernestina Páez durante 48 horas y la especulación mediática sobre los motivos",
+     "minute": "0:30"
+    },
+    {
+     "tema": "Dieta Líquida",
+     "categoria": "salud",
+     "contexto": "El conductor menciona estar con dieta líquida desde ayer y que se muere por comer pizza",
+     "minute": "0:30"
+    },
+    {
+     "tema": "Máquinas De Impresión 3d",
+     "categoria": "tecnologia",
+     "contexto": "Se muestra y comenta sobre máquinas de impresión, colgantes para mascotas, tamaño de la máquina",
+     "minute": "0:30"
+    },
+    {
+     "tema": "Horario Matutino Y Cambios De Época",
+     "categoria": "otro",
+     "contexto": "Se comenta que amanece cada vez más tarde, ya casi es julio, cambios en el horario",
+     "minute": "0:30"
+    },
+    {
+     "tema": "Toy Story - Desempeño En Cines",
+     "categoria": "cultura",
+     "contexto": "La película está yendo muy bien en Argentina con 750.000 tickets vendidos en fin de semana, superando ampliamente a otras películas",
+     "minute": "0:40"
+    },
+    {
+     "tema": "Crisis Del Cine Argentino",
+     "categoria": "cultura",
+     "contexto": "La gente solo va al cine cuando hay una película única; se comenta que el cine está en peligro de extinción",
+     "minute": "0:40"
     }
    ]
   },
@@ -3850,6 +4276,148 @@
      "tema": "Conflicto Laboral En Ecosistema De Streams",
      "categoria": "actividad",
      "contexto": "Se menciona situación de trabajadores con reclamo por ajuste de salario y aumento por IPC cada tres meses que estaba atrasado",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "IlVszYblfPE": {
+   "video_id": "IlVszYblfPE",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "#NADIEDICENADA l EL MOMI CASI SE AHOGA, ¿YA HAY CAPS DE LA SERIE TERMINADOS? Y EL PPP DEL MITO",
+   "show_id": "ndn",
+   "show_name": "Nadie Dice Nada",
+   "top_temas": [
+    {
+     "tema": "Viaje A Miami",
+     "score": 5
+    },
+    {
+     "tema": "Dinámica De La Nave",
+     "score": 3
+    },
+    {
+     "tema": "Coreografía En Cascada De Miami",
+     "score": 3
+    },
+    {
+     "tema": "Caída De Mami En La Cascada",
+     "score": 3
+    },
+    {
+     "tema": "Comunidad Y Vínculo Con Audiencia",
+     "score": 3
+    },
+    {
+     "tema": "Sorpresa En El Programa",
+     "score": 3
+    },
+    {
+     "tema": "Viaje Sorpresa A Miami",
+     "score": 3
+    },
+    {
+     "tema": "Planificación De Sorpresa",
+     "score": 3
+    },
+    {
+     "tema": "Depresión Post-rodaje Y Vacaciones",
+     "score": 3
+    },
+    {
+     "tema": "Rodaje De Serie De Tv",
+     "score": 3
+    },
+    {
+     "tema": "Serie De Televisión",
+     "score": 3
+    },
+    {
+     "tema": "Viaje A Miami Y Dallas Para Ver El Mundial",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 65
+    },
+    {
+     "categoria": "cultura",
+     "score": 25
+    },
+    {
+     "categoria": "lugar",
+     "score": 24
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 13
+    },
+    {
+     "categoria": "salud",
+     "score": 13
+    },
+    {
+     "categoria": "producto",
+     "score": 7
+    },
+    {
+     "categoria": "otro",
+     "score": 6
+    },
+    {
+     "categoria": "persona",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Copa América Paraguay",
+     "categoria": "cultura",
+     "contexto": "Felicitaciones a Paraguay por eliminar a Alemania en la Copa América",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Concierto Ariana Grande",
+     "categoria": "cultura",
+     "contexto": "Nico va a ver a Ariana Grande a las 8 de la noche, es su artista favorita",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Fotos Paparazzi Y Famosos",
+     "categoria": "cultura",
+     "contexto": "Debate sobre fotos paparazzi actuadas y cómo se negocian entre famosos y fotógrafos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Encuesta Instagram Sobre La Nave",
+     "categoria": "actividad",
+     "contexto": "Votación con 126.700 participantes: 75.279 votos vs 51.539 votos. La nave se queda en Miami con 59% de votos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Dinámica De La Nave",
+     "categoria": "actividad",
+     "contexto": "Discusión sobre cómo ejecutar la nave con audios de oyentes, cambios de formato y duración",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Moderación De Audios De Oyentes",
+     "categoria": "tecnologia",
+     "contexto": "Explicación sobre cómo se chequean, rellenan y envían audios desde Argentina en tiempo real",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Coreografía En Cascada De Miami",
+     "categoria": "actividad",
+     "contexto": "Planificación de una nave picante con coreografía en la cascada, participación de conductores",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Caída De Mami En La Cascada",
+     "categoria": "actividad",
+     "contexto": "Mami se cae en la cascada durante la grabación, casi se ahoga, casi le pasan los cables",
      "minute": "0:10"
     }
    ]
@@ -4844,6 +5412,140 @@
     }
    ]
   },
+  "LTlJq7vIE0g": {
+   "video_id": "LTlJq7vIE0g",
+   "channel_id": "gelatina",
+   "channel": "GELATINA",
+   "title": "¿Milei superó la crisis? | EL PUENTE con Pedro ROSEMBLAT y Nico GUTHMANN",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Crisis Política Del Gobierno",
+     "score": 3
+    },
+    {
+     "tema": "Designación De Santilli Como Ministro",
+     "score": 3
+    },
+    {
+     "tema": "Crisis Política Y Situación Judicial De Cristina",
+     "score": 3
+    },
+    {
+     "tema": "Cambio En La Comunicación Del Gobierno (adorni Por Santilli)",
+     "score": 3
+    },
+    {
+     "tema": "Crisis Económica Y Social Del Gobierno Milei",
+     "score": 3
+    },
+    {
+     "tema": "Reelección De Milei",
+     "score": 3
+    },
+    {
+     "tema": "Crisis Económica Y Dólar",
+     "score": 3
+    },
+    {
+     "tema": "Peronismo Dividido",
+     "score": 3
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 2
+    },
+    {
+     "tema": "Economía Y Reservas",
+     "score": 2
+    },
+    {
+     "tema": "Peronismo Federal",
+     "score": 2
+    },
+    {
+     "tema": "Eliminación De Paso",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "política",
+     "score": 37
+    },
+    {
+     "categoria": "economia",
+     "score": 5
+    },
+    {
+     "categoria": "actividad",
+     "score": 2
+    },
+    {
+     "categoria": "otro",
+     "score": 2
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 1
+    },
+    {
+     "categoria": "deporte",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Crisis Política Del Gobierno",
+     "categoria": "política",
+     "contexto": "Debate sobre si el gobierno superó la crisis política desatada por la salida de Adorni",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Designación De Santilli Como Ministro",
+     "categoria": "política",
+     "contexto": "Análisis de la estrategia del gobierno al nombrar a Santilli, visto como puente con gobernadores peronistas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "categoria": "actividad",
+     "contexto": "Menciones recurrentes a partidos del día: Costa de Marfil vs Noruega, Suecia vs Francia, Ecuador vs México",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Economía Y Reservas",
+     "categoria": "otro",
+     "contexto": "El gobierno celebra exportación récord, acumulación de reservas e inflación mejor que periodos anteriores",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Peronismo Federal",
+     "categoria": "política",
+     "contexto": "Juan Manuel Olmos intenta armar peronismo federal para gobernadores que no toman partido en interna bonaerense",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Eliminación De Paso",
+     "categoria": "política",
+     "contexto": "Gobierno busca eliminar PASO y necesita votos de gobernadores para lograrlo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Crisis Política Y Situación Judicial De Cristina",
+     "categoria": "política",
+     "contexto": "Debate sobre si las intervenciones de Máximo son más izquierdistas que las políticas de Cristina y cómo la campaña 'Cristina Libre' se convierte en interna peronista",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Cambio En La Comunicación Del Gobierno (adorni Por Santilli)",
+     "categoria": "política",
+     "contexto": "Análisis de la salida de Adorni y entrada de Santilli como portavoz, interpretado como movimiento estratégico para equilibrar la interna entre Karina y Santiago Caputo",
+     "minute": "0:20"
+    }
+   ]
+  },
   "LjEHjrbNNgs": {
    "video_id": "LjEHjrbNNgs",
    "channel_id": "vorterix",
@@ -4983,6 +5685,148 @@
      "categoria": "actividad",
      "contexto": "Anécdotas sobre llevar vino y cerveza a cines, ahora se vende cerveza directamente",
      "minute": "0:30"
+    }
+   ]
+  },
+  "Lm6Db-SEA0M": {
+   "video_id": "Lm6Db-SEA0M",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "SOÑAMOS QUE CAZAMOS UTOPÍAS IMPOSIBLES | #SoñéQueVolaba 30/6",
+   "show_id": "sone-volaba",
+   "show_name": "Soñé que Volaba",
+   "top_temas": [
+    {
+     "tema": "Terremoto En Venezuela",
+     "score": 6
+    },
+    {
+     "tema": "Victoria De Paraguay Sobre Alemania",
+     "score": 3
+    },
+    {
+     "tema": "Mundial De Fútbol - Paraguay",
+     "score": 3
+    },
+    {
+     "tema": "Eliminación De Alemania En Copa América",
+     "score": 3
+    },
+    {
+     "tema": "Copa Del Mundo Paraguay",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol - Partido Paraguay Vs Alemania",
+     "score": 3
+    },
+    {
+     "tema": "Historia De Amor Coreano-mexicana En Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Fenómeno Viral De Coreanos Y Mexicanas",
+     "score": 3
+    },
+    {
+     "tema": "Crisis Humanitaria Post-terremoto",
+     "score": 3
+    },
+    {
+     "tema": "Operaciones De Rescate",
+     "score": 3
+    },
+    {
+     "tema": "Feriado Nacional En Paraguay",
+     "score": 2
+    },
+    {
+     "tema": "Obligaciones Laborales En Feriado",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 33
+    },
+    {
+     "categoria": "cultura",
+     "score": 31
+    },
+    {
+     "categoria": "otro",
+     "score": 21
+    },
+    {
+     "categoria": "desastre_natural",
+     "score": 6
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 5
+    },
+    {
+     "categoria": "salud",
+     "score": 5
+    },
+    {
+     "categoria": "comida",
+     "score": 4
+    },
+    {
+     "categoria": "persona",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Victoria De Paraguay Sobre Alemania",
+     "categoria": "cultura",
+     "contexto": "Se celebra el triunfo histórico de la selección paraguaya de fútbol frente a Alemania y el decreto de feriado nacional",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Feriado Nacional En Paraguay",
+     "categoria": "otro",
+     "contexto": "Se decreta feriado nacional para el martes 30 de junio de 2026 por el triunfo de Paraguay contra Alemania",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Obligaciones Laborales En Feriado",
+     "categoria": "actividad",
+     "contexto": "Debate sobre si los trabajadores deben asistir al trabajo cuando es feriado nacional",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Comida Paraguaya",
+     "categoria": "comida",
+     "contexto": "Se menciona chipá y sopa paraguaya como platos típicos del país",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Memes Y Chistes Sobre Paraguay",
+     "categoria": "cultura",
+     "contexto": "Se hacen bromas sobre frases populares y memes relacionados con Paraguay",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Importación De Billetes A Uruguay",
+     "categoria": "otro",
+     "contexto": "Se comenta sobre cómo se traían billetes paraguayos a Uruguay en épocas anteriores de forma irregular",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mundial De Fútbol - Paraguay",
+     "categoria": "actividad",
+     "contexto": "Paraguay avanzó a octavos de final, se menciona el partido contra Alemania y próximo rival Francia o Suecia",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Feriado En Paraguay",
+     "categoria": "otro",
+     "contexto": "El presidente de Paraguay decretó feriado tras la victoria, confirmado a las 10 de la noche",
+     "minute": "0:10"
     }
    ]
   },
@@ -6896,6 +7740,140 @@
      "tema": "Llegada De Diego Santilli Como Jefe De Gabinete",
      "categoria": "política",
      "contexto": "Santilli designado para reemplazar a Adorni, visto como figura de revinculación con gobernadores, empresarios y medios",
+     "minute": "0:30"
+    }
+   ]
+  },
+  "TS7Q8dOmi-M": {
+   "video_id": "TS7Q8dOmi-M",
+   "channel_id": "neura",
+   "channel": "Neura Media",
+   "title": "El fútbol moderno, Argentina vs Jordania, ¿con quién jugarías la final? | Multiverso Neura - 30/06",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Carrera De Abreu (jugador De Fútbol)",
+     "score": 3
+    },
+    {
+     "tema": "Evolución Del Fútbol Moderno Vs Clásico",
+     "score": 3
+    },
+    {
+     "tema": "Comparación De Jugadores De Diferentes Épocas",
+     "score": 3
+    },
+    {
+     "tema": "Análisis Del Partido Argentina Vs Jordania",
+     "score": 3
+    },
+    {
+     "tema": "Rendimiento De Leandro Paredes",
+     "score": 3
+    },
+    {
+     "tema": "Análisis De Francia Vs Argentina En Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Jugadores Con Múltiples Equipos",
+     "score": 2
+    },
+    {
+     "tema": "Desafío Adivinanza Futbolero",
+     "score": 2
+    },
+    {
+     "tema": "Anécdota Defensores De San Lorenzo 1996",
+     "score": 2
+    },
+    {
+     "tema": "Fútbol Argentino E Internacional",
+     "score": 2
+    },
+    {
+     "tema": "Influencia De Guardiola En El Fútbol",
+     "score": 2
+    },
+    {
+     "tema": "Barcelona De Guardiola",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 30
+    },
+    {
+     "categoria": "persona",
+     "score": 15
+    },
+    {
+     "categoria": "cultura",
+     "score": 6
+    },
+    {
+     "categoria": "lugar",
+     "score": 3
+    },
+    {
+     "categoria": "salud",
+     "score": 2
+    },
+    {
+     "categoria": "otro",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Carrera De Abreu (jugador De Fútbol)",
+     "categoria": "persona",
+     "contexto": "Se discute el récord de Abreu con 37 clubes en su carrera profesional, considerado el máximo en el fútbol argentino",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Jugadores Con Múltiples Equipos",
+     "categoria": "actividad",
+     "contexto": "Comparación de carreras de futbolistas que jugaron en muchos clubes diferentes (Brindisi, Berenice, Carrasquilla)",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Desafío Adivinanza Futbolero",
+     "categoria": "actividad",
+     "contexto": "Se propone un juego a la audiencia para adivinar identidad de jugador que debutó en 1986 en Argentino de Quilmes y terminó en 2006, delantero con récord histórico",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Anécdota Defensores De San Lorenzo 1996",
+     "categoria": "cultura",
+     "contexto": "Relato personal sobre llegada de un jugador joven sin botines a pretemporada en Mar del Plata",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Fútbol Argentino E Internacional",
+     "categoria": "actividad",
+     "contexto": "Se mencionan equipos de Argentina, México, Europa y América del Sur donde jugadores han militado",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Evolución Del Fútbol Moderno Vs Clásico",
+     "categoria": "actividad",
+     "contexto": "Debate sobre cómo cambió el juego: antes se jugaba más directo al arco, ahora hay más circulación y juego de posesión",
+     "minute": "0:30"
+    },
+    {
+     "tema": "Influencia De Guardiola En El Fútbol",
+     "categoria": "persona",
+     "contexto": "Se discute cómo Guardiola estandarizó un estilo de juego técnico basado en posesión y circulación",
+     "minute": "0:30"
+    },
+    {
+     "tema": "Comparación De Jugadores De Diferentes Épocas",
+     "categoria": "persona",
+     "contexto": "Análisis sobre si jugadores legendarios como Ramón Díaz, Luque o Romario podrían jugar en la era moderna",
      "minute": "0:30"
     }
    ]
@@ -9566,6 +10544,140 @@
     }
    ]
   },
+  "cG_sxu72mSo": {
+   "video_id": "cG_sxu72mSo",
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "title": "MESSI CONOCIÓ A SPIDERMAN Y VINO MORE BELTRÁN | #ParenLaMano Completo - 30/06 | VORTERIX",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Copa Del Mundo - Rendimiento De Jugadores",
+     "score": 3
+    },
+    {
+     "tema": "Lionel Messi - Desempeño En Estados Unidos",
+     "score": 3
+    },
+    {
+     "tema": "Análisis De Goles Y Partido",
+     "score": 3
+    },
+    {
+     "tema": "Caso Muslera - Sustitución Por Estado Emocional",
+     "score": 3
+    },
+    {
+     "tema": "Liderazgo Y Comunicación De Bielsa",
+     "score": 3
+    },
+    {
+     "tema": "Declaraciones De Suárez Y Impacto En El Plantel",
+     "score": 3
+    },
+    {
+     "tema": "Generaciones De Futbolistas Y Leyendas",
+     "score": 3
+    },
+    {
+     "tema": "Ego E Identidad De Ídolos Deportivos",
+     "score": 3
+    },
+    {
+     "tema": "Selección De Paraguay - Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Problemas Técnicos Del Estudio",
+     "score": 2
+    },
+    {
+     "tema": "Producción Del Programa - Atrasos Y Logística",
+     "score": 2
+    },
+    {
+     "tema": "Copa Del Mundo - Goles En Minutos Finales",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 35
+    },
+    {
+     "categoria": "persona",
+     "score": 20
+    },
+    {
+     "categoria": "cultura",
+     "score": 8
+    },
+    {
+     "categoria": "otro",
+     "score": 5
+    },
+    {
+     "categoria": "producto",
+     "score": 2
+    },
+    {
+     "categoria": "lugar",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Copa Del Mundo - Rendimiento De Jugadores",
+     "categoria": "actividad",
+     "contexto": "Análisis de figuras del torneo: Messi con 6 goles, Mbappé con 5, comparación con otros jugadores",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Lionel Messi - Desempeño En Estados Unidos",
+     "categoria": "persona",
+     "contexto": "Reconocimiento del trabajo de Messi en la MLS, goles en 16 estados, comparación con Mbappé en LA Galaxy",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Problemas Técnicos Del Estudio",
+     "categoria": "otro",
+     "contexto": "Se rompió la máquina de fotos, asiento roto, deterioro del lugar durante la grabación",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Producción Del Programa - Atrasos Y Logística",
+     "categoria": "otro",
+     "contexto": "No pudieron salir al aire ayer porque equipos no habían llegado, vlog del hotel, tribunero en Miami",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Copa Del Mundo - Goles En Minutos Finales",
+     "categoria": "actividad",
+     "contexto": "Análisis de cómo los últimos 5 partidos se definieron en los últimos minutos, Brasil vs Marruecos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Copa América / Sudamérica Fútbol",
+     "categoria": "actividad",
+     "contexto": "Discusión sobre Argentina campeona, rendimiento de selecciones sudamericanas en el torneo",
+     "minute": "0:40"
+    },
+    {
+     "tema": "Cambio De Look / Moda",
+     "categoria": "cultura",
+     "contexto": "Robert presenta nuevo look inspirado en película Alfie, pantalones de vestir, zapatos, peinado atado",
+     "minute": "0:40"
+    },
+    {
+     "tema": "Caminata A Luján",
+     "categoria": "actividad",
+     "contexto": "Robert planea hacer caminata a Luján este año, comenta que se emocionó en viaje anterior",
+     "minute": "0:40"
+    }
+   ]
+  },
   "cHMIm1Fnig4": {
    "video_id": "cHMIm1Fnig4",
    "channel_id": "luzu",
@@ -10982,6 +12094,148 @@
     }
    ]
   },
+  "mNBPDZhUOf8": {
+   "video_id": "mNBPDZhUOf8",
+   "channel_id": "gelatina",
+   "channel": "GELATINA",
+   "title": "Milei: “Vamos a reelegir” | TUGO con Nico Guthmann",
+   "show_id": "tugo",
+   "show_name": "TUGO",
+   "top_temas": [
+    {
+     "tema": "Reelección De Milei",
+     "score": 6
+    },
+    {
+     "tema": "Crisis Cambiaria Y Dólar",
+     "score": 3
+    },
+    {
+     "tema": "Efecto Miami Y Salida De Dólares",
+     "score": 3
+    },
+    {
+     "tema": "Dólar Barato Y Movilidad De Clase Media",
+     "score": 3
+    },
+    {
+     "tema": "Interna Peronista: Kicillof Vs Máximo/moreno/berni",
+     "score": 3
+    },
+    {
+     "tema": "Audios De Manuel Adorni Y Obstrucción De Justicia",
+     "score": 3
+    },
+    {
+     "tema": "Caso Adorni - Audios Y Causa Judicial",
+     "score": 3
+    },
+    {
+     "tema": "Interferencia De Testigos",
+     "score": 3
+    },
+    {
+     "tema": "Audios De Adorni Presionando Testigo",
+     "score": 3
+    },
+    {
+     "tema": "Interferencia Judicial De Funcionario",
+     "score": 3
+    },
+    {
+     "tema": "Audio Bomba De Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia/salida De Adorni",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "política",
+     "score": 63
+    },
+    {
+     "categoria": "persona",
+     "score": 17
+    },
+    {
+     "categoria": "otro",
+     "score": 13
+    },
+    {
+     "categoria": "economia",
+     "score": 11
+    },
+    {
+     "categoria": "economía",
+     "score": 7
+    },
+    {
+     "categoria": "actividad",
+     "score": 6
+    },
+    {
+     "categoria": "seguridad",
+     "score": 5
+    },
+    {
+     "categoria": "lugar",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Reelección De Milei",
+     "categoria": "política",
+     "contexto": "Milei y Santilli salen el mismo día a hablar de reelección como estrategia de 'caerse para adelante' tras caídas en encuestas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Crisis Cambiaria Y Dólar",
+     "categoria": "economía",
+     "contexto": "Dólar subió 5% en junio, superó rentabilidad del carry trade, señal importante de movimiento de inversiones",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Emae Y Actividad Económica",
+     "categoria": "economía",
+     "contexto": "EMAE creció 1,6% interanual pero cayó 1,5% intermensual; crece agricultura y minería pero caen comercio e industria",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Desempleo Y Empleo Formal",
+     "categoria": "economía",
+     "contexto": "Crece el PBI pero cae el empleo formal, contradicción que genera preocupación según economista Rapetti",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Salida De Adorni",
+     "categoria": "política",
+     "contexto": "Santilli menciona que Adorni estaba 'anímicamente destruido' tras su salida del cargo de portavoz",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Incorporación Del Pro Al Gobierno",
+     "categoria": "política",
+     "contexto": "Análisis sobre si Macri le comió el gobierno a Milei o si este abraza al PRO para evitar fisuras electorales",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Efecto Miami Y Salida De Dólares",
+     "categoria": "economia",
+     "contexto": "Análisis sobre cómo los argentinos compran dólares en el mercado legal (2.600 millones) versus saldo comercial positivo (2.700 millones), generando salida de divisas por viajes al exterior",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Pasajes Y Entradas Para Partido Argentina-miami",
+     "categoria": "actividad",
+     "contexto": "Precios récord: pasajes a Miami desde 2.000 dólares (4.000 total ida y vuelta) y entradas a reventa por 10.000 dólares para el partido del viernes",
+     "minute": "0:10"
+    }
+   ]
+  },
   "mqQ_D9hUvvg": {
    "video_id": "mqQ_D9hUvvg",
    "channel_id": "luzu",
@@ -12115,6 +13369,148 @@
      "categoria": "actividad",
      "contexto": "Se menciona que hay cambios en septiembre y una propuesta concreta, audiencia pide confirmación",
      "minute": "0:20"
+    }
+   ]
+  },
+  "tOyCjVcKZlE": {
+   "video_id": "tOyCjVcKZlE",
+   "channel_id": "blend",
+   "channel": "BLENDER",
+   "title": "El día de CARNA CAMPEÓN en el ‘86, ADIÓS ADORNI y MARTITA-JOSEMA en modo MUNDIAL | BLENDER AT NIGHT",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 6
+    },
+    {
+     "tema": "Mundial De Fútbol - Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Gastronomía Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Copa Del Mundo",
+     "score": 3
+    },
+    {
+     "tema": "Copa Del Mundo 1986",
+     "score": 3
+    },
+    {
+     "tema": "Mundiales De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Jura De Diego Santilli Como Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Crisis De Tarifas De Servicios Públicos",
+     "score": 3
+    },
+    {
+     "tema": "Situación Del Tránsito Y Orden En Buenos Aires",
+     "score": 2
+    },
+    {
+     "tema": "Buenos Aires",
+     "score": 2
+    },
+    {
+     "tema": "Viaje A Miami",
+     "score": 2
+    },
+    {
+     "tema": "Obra De Teatro Politeama",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 43
+    },
+    {
+     "categoria": "cultura",
+     "score": 20
+    },
+    {
+     "categoria": "lugar",
+     "score": 12
+    },
+    {
+     "categoria": "persona",
+     "score": 12
+    },
+    {
+     "categoria": "comida",
+     "score": 9
+    },
+    {
+     "categoria": "otro",
+     "score": 4
+    },
+    {
+     "categoria": "producto",
+     "score": 4
+    },
+    {
+     "categoria": "salud",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Situación Del Tránsito Y Orden En Buenos Aires",
+     "categoria": "lugar",
+     "contexto": "Se menciona que las calles fueron caos durante años pero ahora cambió, el desorden no va más y se respeta la ley",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Buenos Aires",
+     "categoria": "lugar",
+     "contexto": "Referencia a la ciudad y su cambio en orden público",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "categoria": "actividad",
+     "contexto": "Discusión sobre el Mundial, partidos de Argentina y Francia, partido en Miami del viernes",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Viaje A Miami",
+     "categoria": "lugar",
+     "contexto": "Conductores en Miami disfrutando de vacaciones, comiendo en restaurantes argentinos, viendo el Mundial",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Obra De Teatro Politeama",
+     "categoria": "cultura",
+     "contexto": "Jorge Carna promociona la obra teatral con elenco que incluye Andrea Politi, Laura Zimmer, Nachito Posse y Maca Suárez",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Precios De Pasajes Aéreos",
+     "categoria": "otro",
+     "contexto": "Debate sobre el costo de pasajes Miami-Atlanta que han subido significativamente desde el inicio del Mundial",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Sargazo En Las Playas",
+     "categoria": "lugar",
+     "contexto": "Mención del sargazo en las playas de Miami como problema para bañarse",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Restaurante New Campo Argentino",
+     "categoria": "comida",
+     "contexto": "Conducción menciona comer en restaurante argentino en Miami llamado New Campo Argentino",
+     "minute": "0:10"
     }
    ]
   },

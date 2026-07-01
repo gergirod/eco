@@ -715,6 +715,64 @@
    }
   },
   {
+   "video_id": "IlVszYblfPE",
+   "channel": "LUZU TV",
+   "channel_id": "luzu",
+   "title": "#NADIEDICENADA l EL MOMI CASI SE AHOGA, ¿YA HAY CAPS DE LA SERIE TERMINADOS? Y EL PPP DEL MITO",
+   "date": "20260630",
+   "iup": 94,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 1.0,
+    "conversation": 0.961,
+    "commercial": 1.0,
+    "participation": 0.0,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 195832,
+     "peak_concurrent": 223675
+    },
+    "conversation": {
+     "blocks": 14,
+     "blocks_with_signal": 13,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 45,
+     "sponsored": 7,
+     "organic": 42,
+     "productos_marcas": 31
+    },
+    "participation": {
+     "chat_engagement": null,
+     "chat_noise": null,
+     "note": "sin chat"
+    },
+    "format": {
+     "show_id": "ndn",
+     "show_name": "Nadie Dice Nada"
+    },
+    "capture_minutes": 142.66166666666666
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "W5dvBDWCWWk",
    "channel": "LUZU TV",
    "channel_id": "luzu",
@@ -2107,6 +2165,64 @@
    }
   },
   {
+   "video_id": "Lm6Db-SEA0M",
+   "channel": "OLGA",
+   "channel_id": "olga",
+   "title": "SOÑAMOS QUE CAZAMOS UTOPÍAS IMPOSIBLES | #SoñéQueVolaba 30/6",
+   "date": "20260630",
+   "iup": 89,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.922,
+    "conversation": 0.794,
+    "commercial": 1.0,
+    "participation": 0.146,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 35851,
+     "peak_concurrent": 37996
+    },
+    "conversation": {
+     "blocks": 16,
+     "blocks_with_signal": 10,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 42,
+     "sponsored": 1,
+     "organic": 28,
+     "productos_marcas": 30
+    },
+    "participation": {
+     "chat_engagement": 0.57,
+     "chat_noise": 0.11,
+     "chat_total": 3206
+    },
+    "format": {
+     "show_id": "sone-volaba",
+     "show_name": "Soñé que Volaba"
+    },
+    "capture_minutes": 150.07166666666666
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "e3av_6yqgHg",
    "channel": "OLGA",
    "channel_id": "olga",
@@ -2386,6 +2502,64 @@
      "show_name": "Sería Increíble"
     },
     "capture_minutes": 209.06166666666667
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "mNBPDZhUOf8",
+   "channel": "GELATINA",
+   "channel_id": "gelatina",
+   "title": "Milei: “Vamos a reelegir” | TUGO con Nico Guthmann",
+   "date": "20260630",
+   "iup": 88,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.471,
+    "conversation": 0.908,
+    "commercial": 1.0,
+    "participation": 0.86,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 4905,
+     "peak_concurrent": 6616
+    },
+    "conversation": {
+     "blocks": 12,
+     "blocks_with_signal": 10,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 22,
+     "sponsored": 2,
+     "organic": 25,
+     "productos_marcas": 11
+    },
+    "participation": {
+     "chat_engagement": 6.09,
+     "chat_noise": 0.35,
+     "chat_total": 3852
+    },
+    "format": {
+     "show_id": "tugo",
+     "show_name": "TUGO"
+    },
+    "capture_minutes": 124.34333333333332
    },
    "weights": {
     "capture": 0.25,
@@ -2803,6 +2977,64 @@
    }
   },
   {
+   "video_id": "FFy6eNzi-dQ",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Polaco Silveira y Nico Etevenaux",
+   "date": "20260630",
+   "iup": 84,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.557,
+    "conversation": 0.746,
+    "commercial": 1.0,
+    "participation": 0.603,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 7311,
+     "peak_concurrent": 9642
+    },
+    "conversation": {
+     "blocks": 13,
+     "blocks_with_signal": 7,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 35,
+     "sponsored": 5,
+     "organic": 19,
+     "productos_marcas": 28
+    },
+    "participation": {
+     "chat_engagement": 1.88,
+     "chat_noise": 0.06,
+     "chat_total": 1844
+    },
+    "format": {
+     "show_id": "no-rusia",
+     "show_name": "No Preguntes por Rusia"
+    },
+    "capture_minutes": 115.49499999999999
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "95yJuQx7ol8",
    "channel": "OLGA",
    "channel_id": "olga",
@@ -2919,6 +3151,64 @@
    }
   },
   {
+   "video_id": "LTlJq7vIE0g",
+   "channel": "GELATINA",
+   "channel_id": "gelatina",
+   "title": "¿Milei superó la crisis? | EL PUENTE con Pedro ROSEMBLAT y Nico GUTHMANN",
+   "date": "20260630",
+   "iup": 83,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.489,
+    "conversation": 0.863,
+    "commercial": 1.0,
+    "participation": 0.732,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 5347,
+     "peak_concurrent": 7173
+    },
+    "conversation": {
+     "blocks": 4,
+     "blocks_with_signal": 3,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 6,
+     "sponsored": 0,
+     "organic": 7,
+     "productos_marcas": 2
+    },
+    "participation": {
+     "chat_engagement": 3.26,
+     "chat_noise": 0.67,
+     "chat_total": 366
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 16.551666666666666
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "NKhi31a86K8",
    "channel": "OLGA",
    "channel_id": "olga",
@@ -2966,6 +3256,64 @@
      "show_name": "Gol Gana"
     },
     "capture_minutes": 121.52666666666667
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "cG_sxu72mSo",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "title": "MESSI CONOCIÓ A SPIDERMAN Y VINO MORE BELTRÁN | #ParenLaMano Completo - 30/06 | VORTERIX",
+   "date": "20260701",
+   "iup": 83,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.719,
+    "conversation": 0.725,
+    "commercial": 1.0,
+    "participation": 0.537,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 13755,
+     "peak_concurrent": 22108
+    },
+    "conversation": {
+     "blocks": 12,
+     "blocks_with_signal": 6,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 21,
+     "sponsored": 1,
+     "organic": 16,
+     "productos_marcas": 10
+    },
+    "participation": {
+     "chat_engagement": 1.73,
+     "chat_noise": 0.1,
+     "chat_total": 2880
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 117.45166666666667
    },
    "weights": {
     "capture": 0.25,
@@ -3140,6 +3488,64 @@
      "show_name": "No Preguntes por Rusia"
     },
     "capture_minutes": 51.43500000000001
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "CvdiEy8pgBc",
+   "channel": "Cenital",
+   "channel_id": "cenital",
+   "title": "MILEI abraza a ADORNI, SANTILLI al Gabinete y ZAIAT analiza la economía | 540° O'Donnell y Tenembaum",
+   "date": "20260701",
+   "iup": 82,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.425,
+    "conversation": 0.945,
+    "commercial": 1.0,
+    "participation": 0.229,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 3922,
+     "peak_concurrent": 5368
+    },
+    "conversation": {
+     "blocks": 10,
+     "blocks_with_signal": 9,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 26,
+     "sponsored": 3,
+     "organic": 21,
+     "productos_marcas": 15
+    },
+    "participation": {
+     "chat_engagement": 0.7,
+     "chat_noise": 0.01,
+     "chat_total": 329
+    },
+    "format": {
+     "show_id": "540",
+     "show_name": "540°"
+    },
+    "capture_minutes": 103.73833333333333
    },
    "weights": {
     "capture": 0.25,
@@ -3905,6 +4311,64 @@
    }
   },
   {
+   "video_id": "tOyCjVcKZlE",
+   "channel": "BLENDER",
+   "channel_id": "blend",
+   "title": "El día de CARNA CAMPEÓN en el ‘86, ADIÓS ADORNI y MARTITA-JOSEMA en modo MUNDIAL | BLENDER AT NIGHT",
+   "date": "20260630",
+   "iup": 79,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.479,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.0,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 5439,
+     "peak_concurrent": 5900
+    },
+    "conversation": {
+     "blocks": 10,
+     "blocks_with_signal": 10,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 37,
+     "sponsored": 2,
+     "organic": 25,
+     "productos_marcas": 21
+    },
+    "participation": {
+     "chat_engagement": null,
+     "chat_noise": null,
+     "note": "sin chat"
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 95.49333333333333
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "vlNZMMmBbLw",
    "channel": "GELATINA",
    "channel_id": "gelatina",
@@ -4543,6 +5007,64 @@
    }
   },
   {
+   "video_id": "3jZ7O8XoQyY",
+   "channel": "AHORA PLAY",
+   "channel_id": "ahoraplay",
+   "title": "SUBE EL DÓLAR: PRUEBA DE FUEGO PARA CAPUTO | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
+   "date": "20260630",
+   "iup": 76,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.133,
+    "conversation": 0.725,
+    "commercial": 1.0,
+    "participation": 0.996,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 641,
+     "peak_concurrent": 788
+    },
+    "conversation": {
+     "blocks": 12,
+     "blocks_with_signal": 6,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 23,
+     "sponsored": 0,
+     "organic": 10,
+     "productos_marcas": 15
+    },
+    "participation": {
+     "chat_engagement": 4.4,
+     "chat_noise": 0.01,
+     "chat_total": 355
+    },
+    "format": {
+     "show_id": "serrucho",
+     "show_name": "Serrucho Económico"
+    },
+    "capture_minutes": 121.53333333333333
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "HTm_q34CwyM",
    "channel": "AHORA PLAY",
    "channel_id": "ahoraplay",
@@ -4880,6 +5402,64 @@
      "show_name": "Otros"
     },
     "capture_minutes": 109.80666666666666
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "TS7Q8dOmi-M",
+   "channel": "Neura Media",
+   "channel_id": "neura",
+   "title": "El fútbol moderno, Argentina vs Jordania, ¿con quién jugarías la final? | Multiverso Neura - 30/06",
+   "date": "20260701",
+   "iup": 74,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.129,
+    "conversation": 0.756,
+    "commercial": 1.0,
+    "participation": 0.988,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 618,
+     "peak_concurrent": 767
+    },
+    "conversation": {
+     "blocks": 9,
+     "blocks_with_signal": 5,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 12,
+     "sponsored": 1,
+     "organic": 12,
+     "productos_marcas": 5
+    },
+    "participation": {
+     "chat_engagement": 10.6,
+     "chat_noise": 0.03,
+     "chat_total": 642
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 95.91000000000001
    },
    "weights": {
     "capture": 0.25,
@@ -5927,6 +6507,65 @@
     "format": {
      "show_id": "gol-gana",
      "show_name": "Gol Gana"
+    },
+    "capture_minutes": null
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "5MQlAWC2UPg",
+   "channel": "AHORA PLAY",
+   "channel_id": "ahoraplay",
+   "title": "MILEI: \"ESTAMOS HIPER BLINDADOS\". ALERTA: MOROSIDAD CRÉDITO RÉCORD I Maxi Montenegro #MaxiMediodía",
+   "date": "20260630",
+   "iup": 61,
+   "tier": "media",
+   "components": {
+    "capture": 0.65,
+    "audience": 0.0,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.0,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": false,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": null,
+     "peak_concurrent": null,
+     "note": "sin concurrentes en vivo"
+    },
+    "conversation": {
+     "blocks": 13,
+     "blocks_with_signal": 13,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 35,
+     "sponsored": 1,
+     "organic": 28,
+     "productos_marcas": 40
+    },
+    "participation": {
+     "chat_engagement": null,
+     "chat_noise": null,
+     "note": "sin chat"
+    },
+    "format": {
+     "show_id": "maxi-mediodia",
+     "show_name": "Maxi Mediodía"
     },
     "capture_minutes": null
    },
@@ -9601,28 +10240,37 @@
   {
    "channel_id": "blend",
    "channel": "BLENDER",
-   "programs": 7,
-   "iup_avg": 83.9,
+   "programs": 8,
+   "iup_avg": 83.2,
    "iup_median": 83,
-   "tier_alta": 7,
-   "tier_insuficiente": 0
-  },
-  {
-   "channel_id": "vorterix",
-   "channel": "Vorterix",
-   "programs": 14,
-   "iup_avg": 82.0,
-   "iup_median": 82,
-   "tier_alta": 14,
+   "tier_alta": 8,
    "tier_insuficiente": 0
   },
   {
    "channel_id": "gelatina",
    "channel": "GELATINA",
-   "programs": 6,
-   "iup_avg": 81.2,
-   "iup_median": 80,
-   "tier_alta": 6,
+   "programs": 8,
+   "iup_avg": 82.2,
+   "iup_median": 82,
+   "tier_alta": 8,
+   "tier_insuficiente": 0
+  },
+  {
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "programs": 16,
+   "iup_avg": 82.2,
+   "iup_median": 82,
+   "tier_alta": 16,
+   "tier_insuficiente": 0
+  },
+  {
+   "channel_id": "cenital",
+   "channel": "Cenital",
+   "programs": 2,
+   "iup_avg": 81.5,
+   "iup_median": 82,
+   "tier_alta": 2,
    "tier_insuficiente": 0
   },
   {
@@ -9632,15 +10280,6 @@
    "iup_avg": 81.0,
    "iup_median": 81,
    "tier_alta": 2,
-   "tier_insuficiente": 0
-  },
-  {
-   "channel_id": "cenital",
-   "channel": "Cenital",
-   "programs": 1,
-   "iup_avg": 81.0,
-   "iup_median": 81,
-   "tier_alta": 1,
    "tier_insuficiente": 0
   },
   {
@@ -9671,39 +10310,39 @@
    "tier_insuficiente": 0
   },
   {
-   "channel_id": "ahoraplay",
-   "channel": "AHORA PLAY",
-   "programs": 4,
-   "iup_avg": 74.0,
-   "iup_median": 74,
-   "tier_alta": 4,
-   "tier_insuficiente": 0
-  },
-  {
    "channel_id": "luzu",
    "channel": "LUZU TV",
-   "programs": 57,
-   "iup_avg": 73.1,
+   "programs": 58,
+   "iup_avg": 73.5,
    "iup_median": 61,
-   "tier_alta": 23,
-   "tier_insuficiente": 0
-  },
-  {
-   "channel_id": "neura",
-   "channel": "Neura Media",
-   "programs": 9,
-   "iup_avg": 72.2,
-   "iup_median": 73,
-   "tier_alta": 8,
+   "tier_alta": 24,
    "tier_insuficiente": 0
   },
   {
    "channel_id": "olga",
    "channel": "OLGA",
-   "programs": 55,
-   "iup_avg": 72.2,
+   "programs": 56,
+   "iup_avg": 72.5,
    "iup_median": 61,
-   "tier_alta": 23,
+   "tier_alta": 24,
+   "tier_insuficiente": 0
+  },
+  {
+   "channel_id": "neura",
+   "channel": "Neura Media",
+   "programs": 10,
+   "iup_avg": 72.4,
+   "iup_median": 73,
+   "tier_alta": 9,
+   "tier_insuficiente": 0
+  },
+  {
+   "channel_id": "ahoraplay",
+   "channel": "AHORA PLAY",
+   "programs": 6,
+   "iup_avg": 72.2,
+   "iup_median": 74,
+   "tier_alta": 5,
    "tier_insuficiente": 0
   },
   {
@@ -9717,9 +10356,9 @@
   }
  ],
  "totals": {
-  "programs": 164,
-  "tier_alta": 96,
-  "tier_media": 68,
+  "programs": 175,
+  "tier_alta": 106,
+  "tier_media": 69,
   "tier_baja": 0,
   "tier_insuficiente": 0
  }

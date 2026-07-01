@@ -2,16 +2,16 @@
  {
   "slug": "iol-inversiones",
   "name": "IOL Inversiones",
-  "mentions": 17,
+  "mentions": 18,
   "channels": [
    "luzu",
    "olga"
   ],
   "n_channels": 2,
-  "n_videos": 10,
+  "n_videos": 11,
   "first_seen": "23/06/2026",
   "last_seen": "30/06/2026",
-  "value_usd": 21832.0,
+  "value_usd": 25427.0,
   "samples": [
    {
     "channel": "olga",
@@ -95,13 +95,13 @@
    }
   ],
   "kind": "marca",
-  "n_activations": 17,
-  "n_programs": 10,
+  "n_activations": 18,
+  "n_programs": 11,
   "peak_conc_at": 229621,
   "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 17 activaciones en 10 programas y 2 canales — 17 con evidencia completa y 0 con evidencia parcial.",
+  "confidence_reason": "Evidencia densa en streaming: 18 activaciones en 11 programas y 2 canales — 18 con evidencia completa y 0 con evidencia parcial.",
   "evidence_summary": {
-   "verified": 17,
+   "verified": 18,
    "partial": 0,
    "insufficient": 0
   },
@@ -110,17 +110,28 @@
  {
   "slug": "mcdonald-s",
   "name": "McDonald's",
-  "mentions": 12,
+  "mentions": 13,
   "channels": [
    "olga",
-   "urbana-play-104-3-fm"
+   "urbana-play-104-3-fm",
+   "vorterix"
   ],
-  "n_channels": 2,
-  "n_videos": 6,
+  "n_channels": 3,
+  "n_videos": 7,
   "first_seen": "22/06/2026",
   "last_seen": "30/06/2026",
-  "value_usd": 3530.0,
+  "value_usd": 3792.0,
   "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "FFy6eNzi-dQ",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Polaco Silveira y Nico Etevenaux",
+    "minute": "02:11:50",
+    "views": 16705,
+    "conc_at": 7954
+   },
    {
     "channel": "olga",
     "channel_name": "OLGA",
@@ -190,26 +201,16 @@
     "minute": "01:42:15",
     "views": 6962,
     "conc_at": 4230
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "29/06/2026",
-    "video_id": "WCdVYizlDYA",
-    "title": "⚽️ GOLGANA con AZZ: Flavio Azzaro, Chute D'attellis, Benito, Sangre y Mouche | OLGA EN VIVO 2026-06-29 14:53",
-    "minute": "01:42:21",
-    "views": 6962,
-    "conc_at": 4230
    }
   ],
   "kind": "marca",
-  "n_activations": 12,
-  "n_programs": 6,
+  "n_activations": 13,
+  "n_programs": 7,
   "peak_conc_at": 21943,
   "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 12 activaciones en 6 programas y 2 canales — 12 con evidencia completa y 0 con evidencia parcial.",
+  "confidence_reason": "Evidencia densa en streaming: 13 activaciones en 7 programas y 3 canales — 13 con evidencia completa y 0 con evidencia parcial.",
   "evidence_summary": {
-   "verified": 12,
+   "verified": 13,
    "partial": 0,
    "insufficient": 0
   },
@@ -625,6 +626,94 @@
   "rubro": "higiene"
  },
  {
+  "slug": "rexona",
+  "name": "Rexona",
+  "mentions": 6,
+  "channels": [
+   "luzu",
+   "olga"
+  ],
+  "n_channels": 2,
+  "n_videos": 4,
+  "first_seen": "23/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 9133.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "02:18:05",
+    "views": 73490,
+    "conc_at": 42582
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "IlVszYblfPE",
+    "title": "#NADIEDICENADA l EL MOMI CASI SE AHOGA, ¿YA HAY CAPS DE LA SERIE TERMINADOS? Y EL PPP DEL MITO",
+    "minute": "01:44:50",
+    "views": 902691,
+    "conc_at": 222602
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "24/06/2026",
+    "video_id": "bQfYZ3sfUYc",
+    "title": "LA NOVELA con CARINA ZAMPINI, DIEGO CASTRO, GABY SCHULTZ Y AGUS BATTIONI | EN VIVO",
+    "minute": "00:54:15",
+    "views": 15393,
+    "conc_at": 15365
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "JqkhC1EnyTQ",
+    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+    "minute": "01:43:30",
+    "views": 12997,
+    "conc_at": 7812
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "JqkhC1EnyTQ",
+    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+    "minute": "01:44:01",
+    "views": 12997,
+    "conc_at": 7806
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "24/06/2026",
+    "video_id": "JqkhC1EnyTQ",
+    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+    "minute": "01:44:23",
+    "views": 12997,
+    "conc_at": 7798
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 6,
+  "n_programs": 4,
+  "peak_conc_at": 222602,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 6 activaciones en 4 programas y 2 canales — 6 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 6,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "higiene"
+ },
+ {
   "slug": "mercado-libre",
   "name": "Mercado Libre",
   "mentions": 5,
@@ -934,84 +1023,6 @@
   "rubro": "bebidas"
  },
  {
-  "slug": "rexona",
-  "name": "Rexona",
-  "mentions": 5,
-  "channels": [
-   "luzu",
-   "olga"
-  ],
-  "n_channels": 2,
-  "n_videos": 3,
-  "first_seen": "23/06/2026",
-  "last_seen": "24/06/2026",
-  "value_usd": 2687.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:18:05",
-    "views": 73490,
-    "conc_at": 42582
-   },
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "24/06/2026",
-    "video_id": "bQfYZ3sfUYc",
-    "title": "LA NOVELA con CARINA ZAMPINI, DIEGO CASTRO, GABY SCHULTZ Y AGUS BATTIONI | EN VIVO",
-    "minute": "00:54:15",
-    "views": 15393,
-    "conc_at": 15365
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "24/06/2026",
-    "video_id": "JqkhC1EnyTQ",
-    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
-    "minute": "01:43:30",
-    "views": 12997,
-    "conc_at": 7812
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "24/06/2026",
-    "video_id": "JqkhC1EnyTQ",
-    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
-    "minute": "01:44:01",
-    "views": 12997,
-    "conc_at": 7806
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "24/06/2026",
-    "video_id": "JqkhC1EnyTQ",
-    "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
-    "minute": "01:44:23",
-    "views": 12997,
-    "conc_at": 7798
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 5,
-  "n_programs": 3,
-  "peak_conc_at": 42582,
-  "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 5 activaciones en 3 programas y 2 canales — 5 con evidencia completa y 0 con evidencia parcial.",
-  "evidence_summary": {
-   "verified": 5,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "higiene"
- },
- {
   "slug": "aperol",
   "name": "Aperol",
   "mentions": 5,
@@ -1087,6 +1098,140 @@
    "insufficient": 0
   },
   "rubro": "telco"
+ },
+ {
+  "slug": "coto",
+  "name": "Coto",
+  "mentions": 4,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 3,
+  "first_seen": "26/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 736.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "LjEHjrbNNgs",
+    "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+    "minute": "03:16:26",
+    "views": 30205,
+    "conc_at": 6000
+   },
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "FFy6eNzi-dQ",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Polaco Silveira y Nico Etevenaux",
+    "minute": "02:11:27",
+    "views": 16705,
+    "conc_at": 8023
+   },
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "FFy6eNzi-dQ",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Polaco Silveira y Nico Etevenaux",
+    "minute": "02:11:52",
+    "views": 16705,
+    "conc_at": 7948
+   },
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "EwFONN3W5cg",
+    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+    "minute": "01:02:43",
+    "views": 20092,
+    "conc_at": 2435
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 4,
+  "n_programs": 3,
+  "peak_conc_at": 8023,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 4 activaciones en 3 programas y 1 canales — 4 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 4,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "fintech"
+ },
+ {
+  "slug": "b-play",
+  "name": "B-Play",
+  "mentions": 4,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 3,
+  "first_seen": "29/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 727.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "FFy6eNzi-dQ",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Polaco Silveira y Nico Etevenaux",
+    "minute": "02:12:10",
+    "views": 16705,
+    "conc_at": 7918
+   },
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "FFy6eNzi-dQ",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Polaco Silveira y Nico Etevenaux",
+    "minute": "02:11:44",
+    "views": 16705,
+    "conc_at": 7972
+   },
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "3CPnLRc7h2w",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+    "minute": "02:02:23",
+    "views": 18515,
+    "conc_at": 8853
+   },
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "wKDizbT6vaU",
+    "title": "🔴 ESTO NO SUCEDIÓ con Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
+    "minute": "01:59:23",
+    "views": 1890,
+    "conc_at": 592
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 4,
+  "n_programs": 3,
+  "peak_conc_at": 8853,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 4 activaciones en 3 programas y 1 canales — 4 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 4,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
  },
  {
   "slug": "pedidos-ya",
@@ -1493,6 +1638,121 @@
    "insufficient": 0
   },
   "rubro": "retail"
+ },
+ {
+  "slug": "naranja-x",
+  "name": "Naranja X",
+  "mentions": 3,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "29/06/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 526.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "01/07/2026",
+    "video_id": "cG_sxu72mSo",
+    "title": "MESSI CONOCIÓ A SPIDERMAN Y VINO MORE BELTRÁN | #ParenLaMano Completo - 30/06 | VORTERIX",
+    "minute": "00:51:13",
+    "views": 62080,
+    "conc_at": 10638
+   },
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "0emroxvypsw",
+    "title": "🔴 PAREN LA MANO MUNDIAL: VLOG ESTRENO DESDE EEUU | VORTERIX EN VIVO",
+    "minute": "01:00:01",
+    "views": 13832,
+    "conc_at": 1352
+   },
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "0emroxvypsw",
+    "title": "🔴 PAREN LA MANO MUNDIAL: VLOG ESTRENO DESDE EEUU | VORTERIX EN VIVO",
+    "minute": "01:02:46",
+    "views": 13832,
+    "conc_at": 1347
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 3,
+  "n_programs": 2,
+  "peak_conc_at": 10638,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 3 activaciones en 2 programas y 1 canales — 3 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 3,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "fintech"
+ },
+ {
+  "slug": "escorial",
+  "name": "Escorial",
+  "mentions": 3,
+  "channels": [
+   "blend",
+   "luzu"
+  ],
+  "n_channels": 2,
+  "n_videos": 3,
+  "first_seen": "25/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 6912.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "mqQ_D9hUvvg",
+    "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+    "minute": "00:20:00",
+    "views": 39237,
+    "conc_at": 13639
+   },
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "25/06/2026",
+    "video_id": "JXVQmuDctII",
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "minute": "01:00:00",
+    "views": 9779,
+    "conc_at": 11469
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "IlVszYblfPE",
+    "title": "#NADIEDICENADA l EL MOMI CASI SE AHOGA, ¿YA HAY CAPS DE LA SERIE TERMINADOS? Y EL PPP DEL MITO",
+    "minute": "01:23:59",
+    "views": 902691,
+    "conc_at": 220082
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 3,
+  "n_programs": 3,
+  "peak_conc_at": 220082,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 3 activaciones en 3 programas y 2 canales — 3 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 3,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
  },
  {
   "slug": "fernet-branca",
@@ -2012,6 +2272,63 @@
   "rubro": "fintech"
  },
  {
+  "slug": "gam",
+  "name": "GAM",
+  "mentions": 3,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "29/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 15643.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "IlVszYblfPE",
+    "title": "#NADIEDICENADA l EL MOMI CASI SE AHOGA, ¿YA HAY CAPS DE LA SERIE TERMINADOS? Y EL PPP DEL MITO",
+    "minute": "00:20:00",
+    "views": 902691,
+    "conc_at": 158746
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "jEEahJU8_jg",
+    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
+    "minute": "01:43:16",
+    "views": 533713,
+    "conc_at": 222231
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "jEEahJU8_jg",
+    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
+    "minute": "01:45:08",
+    "views": 533713,
+    "conc_at": 220772
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 3,
+  "n_programs": 2,
+  "peak_conc_at": 222231,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 3 activaciones en 2 programas y 1 canales — 3 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 3,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
   "slug": "urbana-play",
   "name": "Urbana Play",
   "mentions": 3,
@@ -2220,54 +2537,6 @@
   "rubro": "bebidas"
  },
  {
-  "slug": "escorial",
-  "name": "Escorial",
-  "mentions": 2,
-  "channels": [
-   "blend",
-   "luzu"
-  ],
-  "n_channels": 2,
-  "n_videos": 2,
-  "first_seen": "25/06/2026",
-  "last_seen": "30/06/2026",
-  "value_usd": 539.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "30/06/2026",
-    "video_id": "mqQ_D9hUvvg",
-    "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
-    "minute": "00:20:00",
-    "views": 39237,
-    "conc_at": 13639
-   },
-   {
-    "channel": "blend",
-    "channel_name": "BLENDER",
-    "date": "25/06/2026",
-    "video_id": "JXVQmuDctII",
-    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-    "minute": "01:00:00",
-    "views": 9779,
-    "conc_at": 11469
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 2,
-  "n_programs": 2,
-  "peak_conc_at": 13639,
-  "confidence_tier": "emerging_confidence",
-  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
-  "evidence_summary": {
-   "verified": 2,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "otro"
- },
- {
   "slug": "telecentro",
   "name": "Telecentro",
   "mentions": 2,
@@ -2410,90 +2679,43 @@
   "rubro": "otro"
  },
  {
-  "slug": "coto",
-  "name": "Coto",
+  "slug": "tubo-com-ar",
+  "name": "Tubo.com.ar",
   "mentions": 2,
   "channels": [
-   "vorterix"
+   "gelatina"
   ],
   "n_channels": 1,
-  "n_videos": 2,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 209.0,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 134.0,
   "samples": [
    {
-    "channel": "vorterix",
-    "channel_name": "Vorterix",
-    "date": "26/06/2026",
-    "video_id": "LjEHjrbNNgs",
-    "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-    "minute": "03:16:26",
-    "views": 30205,
-    "conc_at": 6000
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "30/06/2026",
+    "video_id": "mNBPDZhUOf8",
+    "title": "Milei: “Vamos a reelegir” | TUGO con Nico Guthmann",
+    "minute": "01:51:41",
+    "views": 25513,
+    "conc_at": 6240
    },
    {
-    "channel": "vorterix",
-    "channel_name": "Vorterix",
-    "date": "26/06/2026",
-    "video_id": "EwFONN3W5cg",
-    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
-    "minute": "01:02:43",
-    "views": 20092,
-    "conc_at": 2435
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "30/06/2026",
+    "video_id": "mNBPDZhUOf8",
+    "title": "Milei: “Vamos a reelegir” | TUGO con Nico Guthmann",
+    "minute": "01:51:22",
+    "views": 25513,
+    "conc_at": 6249
    }
   ],
   "kind": "marca",
   "n_activations": 2,
-  "n_programs": 2,
-  "peak_conc_at": 6000,
-  "confidence_tier": "emerging_confidence",
-  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
-  "evidence_summary": {
-   "verified": 2,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "fintech"
- },
- {
-  "slug": "b-play",
-  "name": "B-Play",
-  "mentions": 2,
-  "channels": [
-   "vorterix"
-  ],
-  "n_channels": 1,
-  "n_videos": 2,
-  "first_seen": "29/06/2026",
-  "last_seen": "29/06/2026",
-  "value_usd": 203.0,
-  "samples": [
-   {
-    "channel": "vorterix",
-    "channel_name": "Vorterix",
-    "date": "29/06/2026",
-    "video_id": "3CPnLRc7h2w",
-    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-    "minute": "02:02:23",
-    "views": 18515,
-    "conc_at": 8853
-   },
-   {
-    "channel": "vorterix",
-    "channel_name": "Vorterix",
-    "date": "29/06/2026",
-    "video_id": "wKDizbT6vaU",
-    "title": "🔴 ESTO NO SUCEDIÓ con Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
-    "minute": "01:59:23",
-    "views": 1890,
-    "conc_at": 592
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 2,
-  "n_programs": 2,
-  "peak_conc_at": 8853,
+  "n_programs": 1,
+  "peak_conc_at": 6249,
   "confidence_tier": "emerging_confidence",
   "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
   "evidence_summary": {
@@ -3116,6 +3338,100 @@
   "rubro": "salud"
  },
  {
+  "slug": "nivea",
+  "name": "Nivea",
+  "mentions": 2,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "26/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 10364.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "minute": "00:50:00",
+    "views": 348552,
+    "conc_at": 197614
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "IlVszYblfPE",
+    "title": "#NADIEDICENADA l EL MOMI CASI SE AHOGA, ¿YA HAY CAPS DE LA SERIE TERMINADOS? Y EL PPP DEL MITO",
+    "minute": "01:14:04",
+    "views": 902691,
+    "conc_at": 216395
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 216395,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "higiene"
+ },
+ {
+  "slug": "cymes",
+  "name": "Cymes",
+  "mentions": 2,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "26/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 19407.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "minute": "01:04:40",
+    "views": 348552,
+    "conc_at": 211985
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "IlVszYblfPE",
+    "title": "#NADIEDICENADA l EL MOMI CASI SE AHOGA, ¿YA HAY CAPS DE LA SERIE TERMINADOS? Y EL PPP DEL MITO",
+    "minute": "01:41:53",
+    "views": 902691,
+    "conc_at": 223629
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 223629,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
   "slug": "canji",
   "name": "Canji",
   "mentions": 2,
@@ -3208,6 +3524,53 @@
    "insufficient": 0
   },
   "rubro": "seguros"
+ },
+ {
+  "slug": "buenos-aires-ciudad",
+  "name": "Buenos Aires Ciudad",
+  "mentions": 2,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "24/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 277.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "30/06/2026",
+    "video_id": "tOyCjVcKZlE",
+    "title": "El día de CARNA CAMPEÓN en el ‘86, ADIÓS ADORNI y MARTITA-JOSEMA en modo MUNDIAL | BLENDER AT NIGHT",
+    "minute": "01:35:20",
+    "views": 2410,
+    "conc_at": 5765
+   },
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "24/06/2026",
+    "video_id": "tcq7UAzc3iw",
+    "title": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
+    "minute": "01:37:04",
+    "views": 4176,
+    "conc_at": 7133
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 7133,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
  },
  {
   "slug": "remax",
@@ -3541,53 +3904,6 @@
   "rubro": "viajes"
  },
  {
-  "slug": "naranja-x",
-  "name": "Naranja X",
-  "mentions": 2,
-  "channels": [
-   "vorterix"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "29/06/2026",
-  "last_seen": "29/06/2026",
-  "value_usd": 52.0,
-  "samples": [
-   {
-    "channel": "vorterix",
-    "channel_name": "Vorterix",
-    "date": "29/06/2026",
-    "video_id": "0emroxvypsw",
-    "title": "🔴 PAREN LA MANO MUNDIAL: VLOG ESTRENO DESDE EEUU | VORTERIX EN VIVO",
-    "minute": "01:00:01",
-    "views": 13832,
-    "conc_at": 1352
-   },
-   {
-    "channel": "vorterix",
-    "channel_name": "Vorterix",
-    "date": "29/06/2026",
-    "video_id": "0emroxvypsw",
-    "title": "🔴 PAREN LA MANO MUNDIAL: VLOG ESTRENO DESDE EEUU | VORTERIX EN VIVO",
-    "minute": "01:02:46",
-    "views": 13832,
-    "conc_at": 1347
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 2,
-  "n_programs": 1,
-  "peak_conc_at": 1352,
-  "confidence_tier": "emerging_confidence",
-  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
-  "evidence_summary": {
-   "verified": 2,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "fintech"
- },
- {
   "slug": "infinia-turbo-clean",
   "name": "Infinia Turbo Clean",
   "mentions": 2,
@@ -3680,53 +3996,6 @@
    "insufficient": 0
   },
   "rubro": "energia"
- },
- {
-  "slug": "gam",
-  "name": "GAM",
-  "mentions": 2,
-  "channels": [
-   "luzu"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "29/06/2026",
-  "last_seen": "29/06/2026",
-  "value_usd": 8571.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "29/06/2026",
-    "video_id": "jEEahJU8_jg",
-    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
-    "minute": "01:43:16",
-    "views": 533713,
-    "conc_at": 222231
-   },
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "29/06/2026",
-    "video_id": "jEEahJU8_jg",
-    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
-    "minute": "01:45:08",
-    "views": 533713,
-    "conc_at": 220772
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 2,
-  "n_programs": 1,
-  "peak_conc_at": 222231,
-  "confidence_tier": "emerging_confidence",
-  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
-  "evidence_summary": {
-   "verified": 2,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "otro"
  },
  {
   "slug": "ada-cafe",
@@ -4581,6 +4850,80 @@
    "insufficient": 0
   },
   "rubro": "alimentos"
+ },
+ {
+  "slug": "zenital",
+  "name": "Zenital",
+  "mentions": 1,
+  "channels": [
+   "cenital"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 11.0,
+  "samples": [
+   {
+    "channel": "cenital",
+    "channel_name": "Cenital",
+    "date": "01/07/2026",
+    "video_id": "CvdiEy8pgBc",
+    "title": "MILEI abraza a ADORNI, SANTILLI al Gabinete y ZAIAT analiza la economía | 540° O'Donnell y Tenembaum",
+    "minute": "00:00:13",
+    "views": 15973,
+    "conc_at": 508
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 508,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "de-barricas",
+  "name": "De Barricas",
+  "mentions": 1,
+  "channels": [
+   "cenital"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 92.0,
+  "samples": [
+   {
+    "channel": "cenital",
+    "channel_name": "Cenital",
+    "date": "01/07/2026",
+    "video_id": "CvdiEy8pgBc",
+    "title": "MILEI abraza a ADORNI, SANTILLI al Gabinete y ZAIAT analiza la economía | 540° O'Donnell y Tenembaum",
+    "minute": "00:32:53",
+    "views": 15973,
+    "conc_at": 3176
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 3176,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "bebidas"
  },
  {
   "slug": "evaginagel",
@@ -6840,80 +7183,6 @@
   "rubro": "higiene"
  },
  {
-  "slug": "nivea",
-  "name": "Nivea",
-  "mentions": 1,
-  "channels": [
-   "luzu"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 5722.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "26/06/2026",
-    "video_id": "W5dvBDWCWWk",
-    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
-    "minute": "00:50:00",
-    "views": 348552,
-    "conc_at": 197614
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 197614,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "higiene"
- },
- {
-  "slug": "cymes",
-  "name": "Cymes",
-  "mentions": 1,
-  "channels": [
-   "luzu"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 9444.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "26/06/2026",
-    "video_id": "W5dvBDWCWWk",
-    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
-    "minute": "01:04:40",
-    "views": 348552,
-    "conc_at": 211985
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 211985,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "otro"
- },
- {
   "slug": "pringles",
   "name": "Pringles",
   "mentions": 1,
@@ -7097,6 +7366,43 @@
    "insufficient": 0
   },
   "rubro": "fintech"
+ },
+ {
+  "slug": "claudia-ares",
+  "name": "Claudia Ares",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 170.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "30/06/2026",
+    "video_id": "tOyCjVcKZlE",
+    "title": "El día de CARNA CAMPEÓN en el ‘86, ADIÓS ADORNI y MARTITA-JOSEMA en modo MUNDIAL | BLENDER AT NIGHT",
+    "minute": "01:15:33",
+    "views": 2410,
+    "conc_at": 5854
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 5854,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "salud"
  },
  {
   "slug": "fenix",
@@ -7422,43 +7728,6 @@
   "n_activations": 1,
   "n_programs": 1,
   "peak_conc_at": 7145,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "otro"
- },
- {
-  "slug": "buenos-aires-ciudad",
-  "name": "Buenos Aires ciudad",
-  "mentions": 1,
-  "channels": [
-   "blend"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "24/06/2026",
-  "last_seen": "24/06/2026",
-  "value_usd": 153.0,
-  "samples": [
-   {
-    "channel": "blend",
-    "channel_name": "BLENDER",
-    "date": "24/06/2026",
-    "video_id": "tcq7UAzc3iw",
-    "title": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
-    "minute": "01:37:04",
-    "views": 4176,
-    "conc_at": 7133
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 7133,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -8098,6 +8367,43 @@
   "rubro": "otro"
  },
  {
+  "slug": "nivea-mix",
+  "name": "Nivea Mix",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 6338.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "IlVszYblfPE",
+    "title": "#NADIEDICENADA l EL MOMI CASI SE AHOGA, ¿YA HAY CAPS DE LA SERIE TERMINADOS? Y EL PPP DEL MITO",
+    "minute": "01:22:01",
+    "views": 902691,
+    "conc_at": 218882
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 218882,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "higiene"
+ },
+ {
   "slug": "jorjito-club-jorjito",
   "name": "Jorjito - Club Jorjito",
   "mentions": 1,
@@ -8653,6 +8959,43 @@
   "rubro": "otro"
  },
  {
+  "slug": "disney-pixar-toy-story-5",
+  "name": "Disney/Pixar - Toy Story 5",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 254.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "Lm6Db-SEA0M",
+    "title": "SOÑAMOS QUE CAZAMOS UTOPÍAS IMPOSIBLES | #SoñéQueVolaba 30/6",
+    "minute": "02:30:27",
+    "views": 122235,
+    "conc_at": 34993
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 34993,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "streaming"
+ },
+ {
   "slug": "cofler-extra",
   "name": "Cofler Extra",
   "mentions": 1,
@@ -8828,6 +9171,43 @@
   "n_activations": 1,
   "n_programs": 1,
   "peak_conc_at": 8150,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "camiseta-de-la-seleccion-argentina",
+  "name": "Camiseta de la selección argentina",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 16.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "01/07/2026",
+    "video_id": "TS7Q8dOmi-M",
+    "title": "El fútbol moderno, Argentina vs Jordania, ¿con quién jugarías la final? | Multiverso Neura - 30/06",
+    "minute": "01:03:04",
+    "views": 3033,
+    "conc_at": 747
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 747,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {

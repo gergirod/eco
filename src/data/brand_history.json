@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-07-01T02:55:50.343974+00:00",
+ "updated_at": "2026-07-01T09:24:39.987746+00:00",
  "brands": {
   "iol-inversiones": {
    "name": "IOL Inversiones",
@@ -260,24 +260,24 @@
      "tier_label": "Con código o promo",
      "value_usd": 183.0,
      "recorded_at": "2026-06-30T23:50:17.486920+00:00"
+    },
+    {
+     "date": "30/06/2026",
+     "date_iso": "20260630",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#NADIEDICENADA l EL MOMI CASI SE AHOGA, ¿YA HAY CAPS DE LA SERIE TERMINADOS? Y EL PPP DEL MITO",
+     "video_id": "IlVszYblfPE",
+     "t_seconds": 4716,
+     "conc_at": 217887,
+     "program_peak": 223675,
+     "retention_pct": 0.8,
+     "tier_label": "Con código o promo",
+     "value_usd": 3595.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
     }
    ],
    "weekly_snapshots": [
-    {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 9,
-     "value_usd": 11459.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 9,
-     "value_usd": 11459.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 9,
-     "value_usd": 11459.0
-    },
     {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 11,
@@ -522,6 +522,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 17,
      "value_usd": 21832.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 17,
+     "value_usd": 21832.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 18,
+     "value_usd": 25427.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 18,
+     "value_usd": 25427.0
     }
    ]
   },
@@ -668,21 +683,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 6,
-     "value_usd": 5090.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 6,
-     "value_usd": 5090.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 6,
-     "value_usd": 5090.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 6,
      "value_usd": 5090.0
@@ -924,6 +924,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 9,
+     "value_usd": 6373.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 9,
+     "value_usd": 6373.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 9,
+     "value_usd": 6373.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 9,
      "value_usd": 6373.0
     }
@@ -1113,24 +1128,24 @@
      "tier_label": "Lectura dedicada",
      "value_usd": 471.0,
      "recorded_at": "2026-07-01T01:38:19.168386+00:00"
+    },
+    {
+     "date": "30/06/2026",
+     "date_iso": "20260630",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Polaco Silveira y Nico Etevenaux",
+     "video_id": "FFy6eNzi-dQ",
+     "t_seconds": 7910,
+     "conc_at": 7954,
+     "program_peak": 9642,
+     "retention_pct": -6.0,
+     "tier_label": "Con código o promo",
+     "value_usd": 262.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
     }
    ],
    "weekly_snapshots": [
-    {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 6,
-     "value_usd": 2483.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 6,
-     "value_usd": 2483.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 6,
-     "value_usd": 2483.0
-    },
     {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 6,
@@ -1375,6 +1390,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 12,
      "value_usd": 3530.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 12,
+     "value_usd": 3530.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 13,
+     "value_usd": 3792.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 13,
+     "value_usd": 3792.0
     }
    ]
   },
@@ -1476,21 +1506,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 5,
-     "value_usd": 5586.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 5,
-     "value_usd": 5586.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 5,
-     "value_usd": 5586.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 5,
      "value_usd": 5586.0
@@ -1732,6 +1747,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 6,
+     "value_usd": 6550.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 6,
+     "value_usd": 6550.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 6,
+     "value_usd": 6550.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 6,
      "value_usd": 6550.0
     }
@@ -1880,21 +1910,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 5,
-     "value_usd": 15.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 5,
-     "value_usd": 15.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 5,
-     "value_usd": 15.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 5,
      "value_usd": 15.0
@@ -2138,13 +2153,28 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 9,
      "value_usd": 34.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 9,
+     "value_usd": 34.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 9,
+     "value_usd": 34.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 9,
+     "value_usd": 34.0
     }
    ]
   },
   "rexona": {
    "name": "Rexona",
    "first_seen": "23/06/2026",
-   "last_seen": "24/06/2026",
+   "last_seen": "30/06/2026",
    "activations": [
     {
      "date": "24/06/2026",
@@ -2220,24 +2250,24 @@
      "tier_label": "Con código o promo",
      "value_usd": 1897.0,
      "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "30/06/2026",
+     "date_iso": "20260630",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#NADIEDICENADA l EL MOMI CASI SE AHOGA, ¿YA HAY CAPS DE LA SERIE TERMINADOS? Y EL PPP DEL MITO",
+     "video_id": "IlVszYblfPE",
+     "t_seconds": 6290,
+     "conc_at": 222602,
+     "program_peak": 223675,
+     "retention_pct": -0.9,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 6446.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
     }
    ],
    "weekly_snapshots": [
-    {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 5,
-     "value_usd": 2687.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 5,
-     "value_usd": 2687.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 5,
-     "value_usd": 2687.0
-    },
     {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 5,
@@ -2482,6 +2512,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 5,
      "value_usd": 2687.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 5,
+     "value_usd": 2687.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 6,
+     "value_usd": 9133.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 6,
+     "value_usd": 9133.0
     }
    ]
   },
@@ -2553,21 +2598,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 4,
-     "value_usd": 18268.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 4,
-     "value_usd": 18268.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 4,
-     "value_usd": 18268.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 4,
      "value_usd": 18268.0
@@ -2809,6 +2839,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 4,
+     "value_usd": 18268.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 4,
+     "value_usd": 18268.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 4,
+     "value_usd": 18268.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 4,
      "value_usd": 18268.0
     }
@@ -2897,21 +2942,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 4,
-     "value_usd": 8005.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 4,
-     "value_usd": 8005.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 4,
-     "value_usd": 8005.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 4,
      "value_usd": 8005.0
@@ -3153,6 +3183,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 5,
+     "value_usd": 9182.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 5,
+     "value_usd": 9182.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 5,
+     "value_usd": 9182.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 5,
      "value_usd": 9182.0
     }
@@ -3211,21 +3256,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 3,
-     "value_usd": 3041.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 3,
-     "value_usd": 3041.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 3,
-     "value_usd": 3041.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 3,
      "value_usd": 3041.0
@@ -3467,6 +3497,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 3,
+     "value_usd": 3041.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 3,
+     "value_usd": 3041.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 3,
+     "value_usd": 3041.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 3,
      "value_usd": 3041.0
     }
@@ -3540,21 +3585,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 3,
-     "value_usd": 909.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 3,
-     "value_usd": 909.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 3,
-     "value_usd": 909.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 3,
      "value_usd": 909.0
@@ -3796,6 +3826,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 4,
+     "value_usd": 1612.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 4,
+     "value_usd": 1612.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 4,
+     "value_usd": 1612.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 4,
      "value_usd": 1612.0
     }
@@ -3854,21 +3899,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 3,
-     "value_usd": 3470.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 3,
-     "value_usd": 3470.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 3,
-     "value_usd": 3470.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 3,
      "value_usd": 3470.0
@@ -4110,6 +4140,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 3,
+     "value_usd": 3470.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 3,
+     "value_usd": 3470.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 3,
+     "value_usd": 3470.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 3,
      "value_usd": 3470.0
     }
@@ -4168,21 +4213,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 3,
-     "value_usd": 1229.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 3,
-     "value_usd": 1229.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 3,
-     "value_usd": 1229.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 3,
      "value_usd": 1229.0
@@ -4424,6 +4454,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 3,
+     "value_usd": 1229.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 3,
+     "value_usd": 1229.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 3,
+     "value_usd": 1229.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 3,
      "value_usd": 1229.0
     }
@@ -4497,21 +4542,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 3,
-     "value_usd": 1510.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 3,
-     "value_usd": 1510.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 3,
-     "value_usd": 1510.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 3,
      "value_usd": 1510.0
@@ -4753,6 +4783,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 4,
+     "value_usd": 1519.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 4,
+     "value_usd": 1519.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 4,
+     "value_usd": 1519.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 4,
      "value_usd": 1519.0
     }
@@ -4841,21 +4886,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 3,
-     "value_usd": 685.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 3,
-     "value_usd": 685.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 3,
-     "value_usd": 685.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 3,
      "value_usd": 685.0
@@ -5097,6 +5127,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 5,
+     "value_usd": 838.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 5,
+     "value_usd": 838.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 5,
+     "value_usd": 838.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 5,
      "value_usd": 838.0
     }
@@ -5185,21 +5230,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 3,
-     "value_usd": 528.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 3,
-     "value_usd": 528.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 3,
-     "value_usd": 528.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 3,
      "value_usd": 528.0
@@ -5443,13 +5473,28 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 5,
      "value_usd": 761.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 5,
+     "value_usd": 761.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 5,
+     "value_usd": 761.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 5,
+     "value_usd": 761.0
     }
    ]
   },
   "coto": {
    "name": "Coto",
    "first_seen": "26/06/2026",
-   "last_seen": "26/06/2026",
+   "last_seen": "30/06/2026",
    "activations": [
     {
      "date": "26/06/2026",
@@ -5480,24 +5525,39 @@
      "tier_label": "Con código o promo",
      "value_usd": 80.0,
      "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "30/06/2026",
+     "date_iso": "20260630",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Polaco Silveira y Nico Etevenaux",
+     "video_id": "FFy6eNzi-dQ",
+     "t_seconds": 7912,
+     "conc_at": 7948,
+     "program_peak": 9642,
+     "retention_pct": -6.0,
+     "tier_label": "Con código o promo",
+     "value_usd": 262.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
+    },
+    {
+     "date": "30/06/2026",
+     "date_iso": "20260630",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Polaco Silveira y Nico Etevenaux",
+     "video_id": "FFy6eNzi-dQ",
+     "t_seconds": 7887,
+     "conc_at": 8023,
+     "program_peak": 9642,
+     "retention_pct": -6.0,
+     "tier_label": "Con código o promo",
+     "value_usd": 265.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
     }
    ],
    "weekly_snapshots": [
-    {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 209.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 209.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 209.0
-    },
     {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
@@ -5742,6 +5802,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 2,
      "value_usd": 209.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 209.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 4,
+     "value_usd": 736.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 4,
+     "value_usd": 736.0
     }
    ]
   },
@@ -5798,21 +5873,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 1408.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 1408.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 1408.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
      "value_usd": 1408.0
@@ -6054,6 +6114,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 3,
+     "value_usd": 10504.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 3,
+     "value_usd": 10504.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 3,
+     "value_usd": 10504.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 3,
      "value_usd": 10504.0
     }
@@ -6141,21 +6216,6 @@
     }
    ],
    "weekly_snapshots": [
-    {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 14.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 14.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 14.0
-    },
     {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
@@ -6400,6 +6460,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 5,
      "value_usd": 38.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 5,
+     "value_usd": 38.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 5,
+     "value_usd": 38.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 5,
+     "value_usd": 38.0
     }
    ]
   },
@@ -6440,21 +6515,6 @@
     }
    ],
    "weekly_snapshots": [
-    {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 1586.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 1586.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 1586.0
-    },
     {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
@@ -6697,6 +6757,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 1586.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 1586.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 1586.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 1586.0
     }
@@ -6740,21 +6815,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 1300.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 1300.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 1300.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
      "value_usd": 1300.0
@@ -6996,6 +7056,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 1300.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 1300.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 1300.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 1300.0
     }
@@ -7054,21 +7129,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 439.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 439.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 439.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
      "value_usd": 439.0
@@ -7310,6 +7370,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 3,
+     "value_usd": 600.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 3,
+     "value_usd": 600.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 3,
+     "value_usd": 600.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 3,
      "value_usd": 600.0
     }
@@ -7353,21 +7428,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 243.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 243.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 243.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
      "value_usd": 243.0
@@ -7609,6 +7669,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 243.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 243.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 243.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 243.0
     }
@@ -7652,21 +7727,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 1435.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 1435.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 1435.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
      "value_usd": 1435.0
@@ -7908,6 +7968,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 1435.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 1435.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 1435.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 1435.0
     }
@@ -7951,21 +8026,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 3836.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 3836.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 3836.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
      "value_usd": 3836.0
@@ -8207,6 +8267,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 3836.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 3836.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 3836.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 3836.0
     }
@@ -8250,21 +8325,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 3180.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 3180.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 3180.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
      "value_usd": 3180.0
@@ -8506,6 +8566,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 3180.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 3180.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 3180.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 3180.0
     }
@@ -8549,21 +8624,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 12313.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 12313.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 12313.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
      "value_usd": 12313.0
@@ -8805,6 +8865,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 12313.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 12313.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 12313.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 12313.0
     }
@@ -8863,21 +8938,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 132.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 3,
-     "value_usd": 398.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 3,
-     "value_usd": 398.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 3,
      "value_usd": 398.0
@@ -9119,6 +9179,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 3,
+     "value_usd": 398.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 3,
+     "value_usd": 398.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 3,
+     "value_usd": 398.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 3,
      "value_usd": 398.0
     }
@@ -9162,21 +9237,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 2964.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 2964.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 2964.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
      "value_usd": 2964.0
@@ -9418,6 +9478,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 2964.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 2964.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 2964.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 2964.0
     }
@@ -9461,21 +9536,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 4751.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 4751.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 4751.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
      "value_usd": 4751.0
@@ -9717,6 +9777,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 4751.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 4751.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 4751.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 4751.0
     }
@@ -9775,21 +9850,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 2907.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 2907.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 2907.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
      "value_usd": 2907.0
@@ -10031,6 +10091,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 3,
+     "value_usd": 6251.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 3,
+     "value_usd": 6251.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 3,
+     "value_usd": 6251.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 3,
      "value_usd": 6251.0
     }
@@ -10074,21 +10149,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 3331.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 3331.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 3331.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
      "value_usd": 3331.0
@@ -10330,6 +10390,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 3331.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 3331.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 3331.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 3331.0
     }
@@ -10373,21 +10448,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 4883.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 4883.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 4883.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
      "value_usd": 4883.0
@@ -10629,6 +10689,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 4883.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 4883.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 4883.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 4883.0
     }
@@ -10672,21 +10747,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 3098.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 3098.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 3098.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
      "value_usd": 3098.0
@@ -10928,6 +10988,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 3098.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 3098.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 3098.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 3098.0
     }
@@ -10971,21 +11046,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 2,
-     "value_usd": 112.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 2,
-     "value_usd": 112.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 2,
-     "value_usd": 112.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 2,
      "value_usd": 112.0
@@ -11227,6 +11287,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 112.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 112.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 112.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 112.0
     }
@@ -11270,21 +11345,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 718.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 718.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 718.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 718.0
@@ -11526,6 +11586,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 3022.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 3022.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 3022.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 3022.0
     }
@@ -11554,21 +11629,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 72.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 72.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 72.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 72.0
@@ -11810,6 +11870,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 72.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 72.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 72.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 72.0
     }
@@ -11838,21 +11913,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 128.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 128.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 128.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 128.0
@@ -12094,6 +12154,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 128.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 128.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 128.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 128.0
     }
@@ -12122,21 +12197,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 1000.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 1000.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 1000.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 1000.0
@@ -12378,6 +12438,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 1000.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 1000.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 1000.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 1000.0
     }
@@ -12406,21 +12481,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 458.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 458.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 458.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 458.0
@@ -12662,6 +12722,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 458.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 458.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 458.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 458.0
     }
@@ -12690,21 +12765,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 409.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 409.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 409.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 409.0
@@ -12946,6 +13006,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 409.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 409.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 409.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 409.0
     }
@@ -12974,21 +13049,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 1441.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 1441.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 1441.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 1441.0
@@ -13230,6 +13290,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 1441.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 1441.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 1441.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 1441.0
     }
@@ -13258,21 +13333,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 8.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 8.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 8.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 8.0
@@ -13514,6 +13574,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 8.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 8.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 8.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 8.0
     }
@@ -13542,21 +13617,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 21.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 21.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 21.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 21.0
@@ -13798,6 +13858,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 21.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 21.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 21.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 21.0
     }
@@ -13826,21 +13901,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 388.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 388.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 388.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 388.0
@@ -14082,6 +14142,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 388.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 388.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 388.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 388.0
     }
@@ -14110,21 +14185,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 156.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 156.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 156.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 156.0
@@ -14366,6 +14426,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 156.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 156.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 156.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 156.0
     }
@@ -14394,21 +14469,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 652.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 652.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 652.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 652.0
@@ -14650,6 +14710,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 652.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 652.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 652.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 652.0
     }
@@ -14678,21 +14753,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 1175.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 1175.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 1175.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 1175.0
@@ -14934,6 +14994,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 1175.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 1175.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 1175.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 1175.0
     }
@@ -14962,21 +15037,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 827.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 827.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 827.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 827.0
@@ -15218,6 +15278,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 827.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 827.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 827.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 827.0
     }
@@ -15246,21 +15321,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 12.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 12.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 12.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 12.0
@@ -15502,6 +15562,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 12.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 12.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 12.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 12.0
     }
@@ -15545,21 +15620,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 12.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 12.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 12.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 12.0
@@ -15801,6 +15861,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 22.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 22.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 22.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 22.0
     }
@@ -15829,21 +15904,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 598.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 598.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 598.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 598.0
@@ -16085,6 +16145,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 598.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 598.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 598.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 598.0
     }
@@ -16113,21 +16188,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 1255.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 1255.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 1255.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 1255.0
@@ -16369,6 +16429,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 1255.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 1255.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 1255.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 1255.0
     }
@@ -16412,21 +16487,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 823.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 823.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 823.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 823.0
@@ -16668,6 +16728,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 1447.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 1447.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 1447.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 1447.0
     }
@@ -16696,21 +16771,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 792.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 792.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 792.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 792.0
@@ -16952,6 +17012,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 792.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 792.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 792.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 792.0
     }
@@ -16980,21 +17055,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 178.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 178.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 178.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 178.0
@@ -17236,6 +17296,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 178.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 178.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 178.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 178.0
     }
@@ -17264,21 +17339,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 4.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 4.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 4.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 4.0
@@ -17520,6 +17580,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 4.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 4.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 4.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 4.0
     }
@@ -17548,21 +17623,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 820.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 820.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 820.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 820.0
@@ -17804,6 +17864,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 820.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 820.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 820.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 820.0
     }
@@ -17832,21 +17907,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 219.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 219.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 219.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 219.0
@@ -18088,6 +18148,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 219.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 219.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 219.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 219.0
     }
@@ -18116,21 +18191,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 167.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 167.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 167.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 167.0
@@ -18372,6 +18432,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 167.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 167.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 167.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 167.0
     }
@@ -18400,21 +18475,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 250.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 250.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 250.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 250.0
@@ -18656,6 +18716,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 250.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 250.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 250.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 250.0
     }
@@ -18684,21 +18759,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 2.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 2.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 2.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 2.0
@@ -18940,6 +19000,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 2.0
     }
@@ -18968,21 +19043,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 2.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 2.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 2.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 2.0
@@ -19224,6 +19284,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 2.0
     }
@@ -19252,21 +19327,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 3.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 3.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 3.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 3.0
@@ -19508,6 +19568,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 3.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 3.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 3.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 3.0
     }
@@ -19536,21 +19611,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 2.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 2.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 2.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 2.0
@@ -19792,6 +19852,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 2.0
     }
@@ -19820,21 +19895,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 2.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 2.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 2.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 2.0
@@ -20076,6 +20136,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 2.0
     }
@@ -20104,21 +20179,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 649.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 649.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 649.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 649.0
@@ -20360,6 +20420,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 649.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 649.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 649.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 649.0
     }
@@ -20388,21 +20463,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 3983.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 3983.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 3983.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 3983.0
@@ -20644,6 +20704,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 3983.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 3983.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 3983.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 3983.0
     }
@@ -20672,21 +20747,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 4118.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 4118.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 4118.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 4118.0
@@ -20928,6 +20988,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 4118.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 4118.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 4118.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 4118.0
     }
@@ -20956,21 +21031,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 7005.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 7005.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 7005.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 7005.0
@@ -21212,6 +21272,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 7005.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 7005.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 7005.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 7005.0
     }
@@ -21240,21 +21315,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 6877.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 6877.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 6877.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 6877.0
@@ -21496,6 +21556,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 6877.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 6877.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 6877.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 6877.0
     }
@@ -21539,21 +21614,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 6801.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 6801.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 6801.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 6801.0
@@ -21795,6 +21855,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 12739.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 12739.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 12739.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 12739.0
     }
@@ -21823,21 +21898,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 81.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 81.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 81.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 81.0
@@ -22079,6 +22139,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 81.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 81.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 81.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 81.0
     }
@@ -22107,21 +22182,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 49.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 49.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 49.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 49.0
@@ -22363,6 +22423,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 49.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 49.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 49.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 49.0
     }
@@ -22391,21 +22466,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 49.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 49.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 49.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 49.0
@@ -22647,6 +22707,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 49.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 49.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 49.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 49.0
     }
@@ -22675,21 +22750,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 49.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 49.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 49.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 49.0
@@ -22931,6 +22991,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 49.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 49.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 49.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 49.0
     }
@@ -22988,21 +23063,6 @@
     }
    ],
    "weekly_snapshots": [
-    {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 49.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 49.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 49.0
-    },
     {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
@@ -23247,6 +23307,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 3,
      "value_usd": 71.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 3,
+     "value_usd": 71.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 3,
+     "value_usd": 71.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 3,
+     "value_usd": 71.0
     }
    ]
   },
@@ -23272,21 +23347,6 @@
     }
    ],
    "weekly_snapshots": [
-    {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 49.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 49.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 49.0
-    },
     {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
@@ -23529,6 +23589,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 49.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 49.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 49.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 49.0
     }
@@ -23557,21 +23632,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 46.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 46.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 46.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 46.0
@@ -23813,6 +23873,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 46.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 46.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 46.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 46.0
     }
@@ -23841,21 +23916,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 99.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 99.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 99.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 99.0
@@ -24097,6 +24157,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 99.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 99.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 99.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 99.0
     }
@@ -24125,21 +24200,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 44.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 44.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 44.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 44.0
@@ -24381,6 +24441,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 44.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 44.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 44.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 44.0
     }
@@ -24409,21 +24484,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 1320.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 1320.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 1320.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 1320.0
@@ -24665,6 +24725,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 1320.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 1320.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 1320.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 1320.0
     }
@@ -24693,21 +24768,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 868.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 868.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 868.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 868.0
@@ -24949,6 +25009,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 868.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 868.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 868.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 868.0
     }
@@ -24977,21 +25052,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 732.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 732.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 732.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 732.0
@@ -25233,6 +25293,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 732.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 732.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 732.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 732.0
     }
@@ -25276,21 +25351,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 1216.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 1216.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 1216.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 1216.0
@@ -25532,6 +25592,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 1307.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 1307.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 1307.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 1307.0
     }
@@ -25560,21 +25635,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 426.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 426.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 426.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 426.0
@@ -25816,6 +25876,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 426.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 426.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 426.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 426.0
     }
@@ -25844,21 +25919,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 1024.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 1024.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 1024.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 1024.0
@@ -26100,6 +26160,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 1024.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 1024.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 1024.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 1024.0
     }
@@ -26128,21 +26203,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 1562.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 1562.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 1562.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 1562.0
@@ -26384,6 +26444,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 1562.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 1562.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 1562.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 1562.0
     }
@@ -26412,21 +26487,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 5719.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 5719.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 5719.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 5719.0
@@ -26670,13 +26730,28 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 5719.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 5719.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 5719.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 5719.0
     }
    ]
   },
   "nivea": {
    "name": "Nivea",
    "first_seen": "26/06/2026",
-   "last_seen": "26/06/2026",
+   "last_seen": "30/06/2026",
    "activations": [
     {
      "date": "26/06/2026",
@@ -26692,24 +26767,24 @@
      "tier_label": "Lectura dedicada",
      "value_usd": 5722.0,
      "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "30/06/2026",
+     "date_iso": "20260630",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#NADIEDICENADA l EL MOMI CASI SE AHOGA, ¿YA HAY CAPS DE LA SERIE TERMINADOS? Y EL PPP DEL MITO",
+     "video_id": "IlVszYblfPE",
+     "t_seconds": 4444,
+     "conc_at": 216395,
+     "program_peak": 223675,
+     "retention_pct": 1.1,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 4642.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
     }
    ],
    "weekly_snapshots": [
-    {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 5722.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 5722.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 5722.0
-    },
     {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
@@ -26954,13 +27029,28 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 5722.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 5722.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 10364.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 2,
+     "value_usd": 10364.0
     }
    ]
   },
   "cymes": {
    "name": "Cymes",
    "first_seen": "26/06/2026",
-   "last_seen": "26/06/2026",
+   "last_seen": "30/06/2026",
    "activations": [
     {
      "date": "26/06/2026",
@@ -26976,24 +27066,24 @@
      "tier_label": "Con código o promo",
      "value_usd": 9444.0,
      "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "30/06/2026",
+     "date_iso": "20260630",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#NADIEDICENADA l EL MOMI CASI SE AHOGA, ¿YA HAY CAPS DE LA SERIE TERMINADOS? Y EL PPP DEL MITO",
+     "video_id": "IlVszYblfPE",
+     "t_seconds": 6113,
+     "conc_at": 223629,
+     "program_peak": 223675,
+     "retention_pct": 0.1,
+     "tier_label": "Con código o promo",
+     "value_usd": 9963.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
     }
    ],
    "weekly_snapshots": [
-    {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 9444.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 9444.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 9444.0
-    },
     {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
@@ -27238,6 +27328,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 9444.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 9444.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 19407.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 2,
+     "value_usd": 19407.0
     }
    ]
   },
@@ -27264,21 +27369,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 6285.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 6285.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 6285.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 6285.0
@@ -27520,6 +27610,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 6285.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 6285.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 6285.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 6285.0
     }
@@ -27548,21 +27653,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 2204.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 2204.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 2204.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 2204.0
@@ -27804,6 +27894,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 2204.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2204.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2204.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 2204.0
     }
@@ -27832,21 +27937,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 2144.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 2144.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 2144.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 2144.0
@@ -28088,6 +28178,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 2144.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2144.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2144.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 2144.0
     }
@@ -28116,21 +28221,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 1233.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 1233.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 1233.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 1233.0
@@ -28372,6 +28462,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 1233.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 1233.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 1233.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 1233.0
     }
@@ -28400,21 +28505,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 913.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 913.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 913.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 913.0
@@ -28656,6 +28746,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 913.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 913.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 913.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 913.0
     }
@@ -28684,21 +28789,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 2121.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 2121.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 2121.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 2121.0
@@ -28940,6 +29030,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 2121.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2121.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2121.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 2121.0
     }
@@ -28968,21 +29073,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 2121.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 2121.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 2121.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 2121.0
@@ -29224,6 +29314,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 2121.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2121.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2121.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 2121.0
     }
@@ -29267,21 +29372,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 2164.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 2164.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 2164.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 2164.0
@@ -29523,6 +29613,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 3636.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 3636.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 3636.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 3636.0
     }
@@ -29551,21 +29656,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 604.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 604.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 604.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 604.0
@@ -29807,6 +29897,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 604.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 604.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 604.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 604.0
     }
@@ -29850,21 +29955,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 23.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 23.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 23.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 23.0
@@ -30106,6 +30196,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 84.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 84.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 84.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 84.0
     }
@@ -30134,21 +30239,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 23.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 23.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 23.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 23.0
@@ -30390,6 +30480,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 23.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 23.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 23.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 23.0
     }
@@ -30418,21 +30523,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 23.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 23.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 23.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 23.0
@@ -30674,6 +30764,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 23.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 23.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 23.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 23.0
     }
@@ -30713,24 +30818,24 @@
      "tier_label": "Lectura dedicada",
      "value_usd": 293.0,
      "recorded_at": "2026-07-01T01:38:19.168386+00:00"
+    },
+    {
+     "date": "30/06/2026",
+     "date_iso": "20260630",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#NADIEDICENADA l EL MOMI CASI SE AHOGA, ¿YA HAY CAPS DE LA SERIE TERMINADOS? Y EL PPP DEL MITO",
+     "video_id": "IlVszYblfPE",
+     "t_seconds": 5039,
+     "conc_at": 220082,
+     "program_peak": 223675,
+     "retention_pct": 0.7,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 6373.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
     }
    ],
    "weekly_snapshots": [
-    {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 246.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 246.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 246.0
-    },
     {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
@@ -30975,6 +31080,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 2,
      "value_usd": 539.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 539.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 3,
+     "value_usd": 6912.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 3,
+     "value_usd": 6912.0
     }
    ]
   },
@@ -31001,21 +31121,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 275.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 275.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 275.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 275.0
@@ -31257,6 +31362,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 275.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 275.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 275.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 275.0
     }
@@ -31285,21 +31405,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 207.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 207.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 207.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 207.0
@@ -31543,13 +31648,28 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 207.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 207.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 207.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 207.0
     }
    ]
   },
   "buenos-aires-ciudad": {
-   "name": "Buenos Aires ciudad",
+   "name": "Buenos Aires Ciudad",
    "first_seen": "24/06/2026",
-   "last_seen": "24/06/2026",
+   "last_seen": "30/06/2026",
    "activations": [
     {
      "date": "24/06/2026",
@@ -31565,24 +31685,24 @@
      "tier_label": "Lectura dedicada",
      "value_usd": 153.0,
      "recorded_at": "2026-06-28T11:41:18.759516+00:00"
+    },
+    {
+     "date": "30/06/2026",
+     "date_iso": "20260630",
+     "channel": "blend",
+     "channel_name": "BLENDER",
+     "title": "El día de CARNA CAMPEÓN en el ‘86, ADIÓS ADORNI y MARTITA-JOSEMA en modo MUNDIAL | BLENDER AT NIGHT",
+     "video_id": "tOyCjVcKZlE",
+     "t_seconds": 5720,
+     "conc_at": 5765,
+     "program_peak": 5900,
+     "retention_pct": 0.0,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 124.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
     }
    ],
    "weekly_snapshots": [
-    {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 153.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 153.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 153.0
-    },
     {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
@@ -31827,6 +31947,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 153.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 153.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 277.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 2,
+     "value_usd": 277.0
     }
    ]
   },
@@ -31853,21 +31988,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 4640.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 4640.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 4640.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 4640.0
@@ -32109,6 +32229,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 4640.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 4640.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 4640.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 4640.0
     }
@@ -32137,21 +32272,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 4823.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 4823.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 4823.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 4823.0
@@ -32393,6 +32513,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 4823.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 4823.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 4823.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 4823.0
     }
@@ -32421,21 +32556,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 1153.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 1153.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 1153.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 1153.0
@@ -32677,6 +32797,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 1153.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 1153.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 1153.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 1153.0
     }
@@ -32705,21 +32840,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 868.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 868.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 868.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 868.0
@@ -32961,6 +33081,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 868.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 868.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 868.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 868.0
     }
@@ -32989,21 +33124,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 888.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 888.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 888.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 888.0
@@ -33245,6 +33365,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 888.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 888.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 888.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 888.0
     }
@@ -33273,21 +33408,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 2380.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 2380.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 2380.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 2380.0
@@ -33529,6 +33649,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 2380.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2380.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2380.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 2380.0
     }
@@ -33602,21 +33737,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 3588.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 3588.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 3588.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 3588.0
@@ -33858,6 +33978,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 4,
+     "value_usd": 18321.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 4,
+     "value_usd": 18321.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 4,
+     "value_usd": 18321.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 4,
      "value_usd": 18321.0
     }
@@ -33886,21 +34021,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 2037.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 2037.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 2037.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 2037.0
@@ -34142,6 +34262,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 2037.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2037.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2037.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 2037.0
     }
@@ -34170,21 +34305,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 2.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 2.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 2.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 2.0
@@ -34426,6 +34546,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 2.0
     }
@@ -34454,21 +34589,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 2026.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 2026.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 2026.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 2026.0
@@ -34710,6 +34830,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 2026.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2026.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2026.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 2026.0
     }
@@ -34738,21 +34873,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 1317.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 1317.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 1317.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 1317.0
@@ -34994,6 +35114,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 1317.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 1317.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 1317.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 1317.0
     }
@@ -35037,21 +35172,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 14.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 14.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 14.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 14.0
@@ -35293,6 +35413,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 327.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 327.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 327.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 327.0
     }
@@ -35321,21 +35456,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 24.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 24.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 24.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 24.0
@@ -35577,6 +35697,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 24.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 24.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 24.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 24.0
     }
@@ -35605,21 +35740,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 236.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 236.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 236.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 236.0
@@ -35861,6 +35981,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 236.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 236.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 236.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 236.0
     }
@@ -35889,21 +36024,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 342.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 342.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 342.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 342.0
@@ -36145,6 +36265,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 342.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 342.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 342.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 342.0
     }
@@ -36188,21 +36323,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 354.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 354.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 354.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 354.0
@@ -36444,6 +36564,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 476.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 476.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 476.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 476.0
     }
@@ -36472,21 +36607,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 441.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 441.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 441.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 441.0
@@ -36728,6 +36848,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 441.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 441.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 441.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 441.0
     }
@@ -36756,21 +36891,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 6746.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 6746.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 6746.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 6746.0
@@ -37012,6 +37132,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 6746.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 6746.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 6746.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 6746.0
     }
@@ -37055,21 +37190,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 10422.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 10422.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 10422.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 10422.0
@@ -37311,6 +37431,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 10583.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 10583.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 10583.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 10583.0
     }
@@ -37339,21 +37474,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 269.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 269.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 269.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 269.0
@@ -37595,6 +37715,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 269.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 269.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 269.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 269.0
     }
@@ -37623,21 +37758,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 79.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 79.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 79.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 79.0
@@ -37879,6 +37999,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 79.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 79.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 79.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 79.0
     }
@@ -37907,21 +38042,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 1047.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 1047.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 1047.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 1047.0
@@ -38163,6 +38283,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 1047.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 1047.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 1047.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 1047.0
     }
@@ -38191,21 +38326,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 1486.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 1486.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 1486.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 1486.0
@@ -38447,6 +38567,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 1486.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 1486.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 1486.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 1486.0
     }
@@ -38475,21 +38610,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 962.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 962.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 962.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 962.0
@@ -38731,6 +38851,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 962.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 962.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 962.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 962.0
     }
@@ -38759,21 +38894,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 77.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 77.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 77.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 77.0
@@ -39015,6 +39135,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 77.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 77.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 77.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 77.0
     }
@@ -39073,21 +39208,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 34.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 34.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 34.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 34.0
@@ -39329,6 +39449,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 3,
+     "value_usd": 870.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 3,
+     "value_usd": 870.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 3,
+     "value_usd": 870.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 3,
      "value_usd": 870.0
     }
@@ -39357,21 +39492,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 99.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 99.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 99.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 99.0
@@ -39613,6 +39733,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 99.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 99.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 99.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 99.0
     }
@@ -39641,21 +39776,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 87.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 87.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 87.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 87.0
@@ -39897,6 +40017,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 87.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 87.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 87.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 87.0
     }
@@ -39925,21 +40060,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T09:01:47.525679+00:00",
-     "mentions": 1,
-     "value_usd": 87.0
-    },
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 87.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 87.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 87.0
@@ -40183,13 +40303,28 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 87.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 87.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 87.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 87.0
     }
    ]
   },
   "b-play": {
    "name": "B-Play",
    "first_seen": "29/06/2026",
-   "last_seen": "29/06/2026",
+   "last_seen": "30/06/2026",
    "activations": [
     {
      "date": "29/06/2026",
@@ -40220,19 +40355,39 @@
      "tier_label": "Lectura dedicada",
      "value_usd": 13.0,
      "recorded_at": "2026-06-29T23:13:01.537660+00:00"
+    },
+    {
+     "date": "30/06/2026",
+     "date_iso": "20260630",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Polaco Silveira y Nico Etevenaux",
+     "video_id": "FFy6eNzi-dQ",
+     "t_seconds": 7930,
+     "conc_at": 7918,
+     "program_peak": 9642,
+     "retention_pct": -2.3,
+     "tier_label": "Con código o promo",
+     "value_usd": 261.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
+    },
+    {
+     "date": "30/06/2026",
+     "date_iso": "20260630",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Polaco Silveira y Nico Etevenaux",
+     "video_id": "FFy6eNzi-dQ",
+     "t_seconds": 7904,
+     "conc_at": 7972,
+     "program_peak": 9642,
+     "retention_pct": -6.0,
+     "tier_label": "Con código o promo",
+     "value_usd": 263.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
     }
    ],
    "weekly_snapshots": [
-    {
-     "exported_at": "2026-06-29T13:26:23.818745+00:00",
-     "mentions": 1,
-     "value_usd": 190.0
-    },
-    {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 190.0
-    },
     {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
@@ -40477,6 +40632,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 2,
      "value_usd": 203.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 203.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 4,
+     "value_usd": 727.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 4,
+     "value_usd": 727.0
     }
    ]
   },
@@ -40503,11 +40673,6 @@
    ],
    "weekly_snapshots": [
     {
-     "exported_at": "2026-06-29T13:55:38.111138+00:00",
-     "mentions": 1,
-     "value_usd": 7.0
-    },
-    {
      "exported_at": "2026-06-29T14:21:51.640442+00:00",
      "mentions": 1,
      "value_usd": 7.0
@@ -40749,6 +40914,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 7.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 7.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 7.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 7.0
     }
@@ -41035,6 +41215,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 2,
      "value_usd": 1237.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 1237.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 1237.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 2,
+     "value_usd": 1237.0
     }
    ]
   },
@@ -41302,6 +41497,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 365.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 365.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 365.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 365.0
     }
@@ -41583,6 +41793,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 2,
      "value_usd": 58.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 58.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 58.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 2,
+     "value_usd": 58.0
     }
    ]
   },
@@ -41862,6 +42087,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 2,
      "value_usd": 3777.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 3777.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 3777.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 2,
+     "value_usd": 3777.0
     }
    ]
   },
@@ -42124,6 +42364,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 2813.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2813.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2813.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 2813.0
     }
@@ -42390,6 +42645,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 1306.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 1306.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 1306.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 1306.0
     }
    ]
   },
@@ -42652,6 +42922,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 2195.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2195.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2195.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 2195.0
     }
@@ -42918,6 +43203,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 2313.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2313.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2313.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 2313.0
     }
    ]
   },
@@ -43180,6 +43480,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 1581.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 1581.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 1581.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 1581.0
     }
@@ -43456,6 +43771,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 2,
      "value_usd": 111.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 111.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 111.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 2,
+     "value_usd": 111.0
     }
    ]
   },
@@ -43683,6 +44013,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 13.0
     }
@@ -43914,6 +44259,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 28.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 28.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 28.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 28.0
     }
    ]
   },
@@ -44118,6 +44478,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 234.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 234.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 234.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 234.0
     }
    ]
   },
@@ -44320,6 +44695,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 86.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 86.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 86.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 86.0
     }
@@ -44571,6 +44961,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 4,
      "value_usd": 1368.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 4,
+     "value_usd": 1368.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 4,
+     "value_usd": 1368.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 4,
+     "value_usd": 1368.0
     }
    ]
   },
@@ -44785,13 +45190,28 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 2,
      "value_usd": 16404.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 16404.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 16404.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 2,
+     "value_usd": 16404.0
     }
    ]
   },
   "gam": {
    "name": "GAM",
    "first_seen": "29/06/2026",
-   "last_seen": "29/06/2026",
+   "last_seen": "30/06/2026",
    "activations": [
     {
      "date": "29/06/2026",
@@ -44822,6 +45242,21 @@
      "tier_label": "Al pasar",
      "value_usd": 2178.0,
      "recorded_at": "2026-06-29T18:09:45.915613+00:00"
+    },
+    {
+     "date": "30/06/2026",
+     "date_iso": "20260630",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#NADIEDICENADA l EL MOMI CASI SE AHOGA, ¿YA HAY CAPS DE LA SERIE TERMINADOS? Y EL PPP DEL MITO",
+     "video_id": "IlVszYblfPE",
+     "t_seconds": 1200,
+     "conc_at": 158746,
+     "program_peak": 223675,
+     "retention_pct": 5.8,
+     "tier_label": "Con código o promo",
+     "value_usd": 7072.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
     }
    ],
    "weekly_snapshots": [
@@ -44999,6 +45434,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 2,
      "value_usd": 8571.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 8571.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 3,
+     "value_usd": 15643.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 3,
+     "value_usd": 15643.0
     }
    ]
   },
@@ -45198,6 +45648,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 6106.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 6106.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 6106.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 6106.0
     }
    ]
   },
@@ -45395,6 +45860,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 6473.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 6473.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 6473.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 6473.0
     }
@@ -45641,6 +46121,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 4,
      "value_usd": 11141.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 4,
+     "value_usd": 11141.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 4,
+     "value_usd": 11141.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 4,
+     "value_usd": 11141.0
     }
    ]
   },
@@ -45838,6 +46333,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 6317.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 6317.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 6317.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 6317.0
     }
@@ -46039,6 +46549,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 9133.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 9133.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 9133.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 9133.0
     }
    ]
   },
@@ -46228,6 +46753,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 31.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 31.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 31.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 31.0
     }
    ]
   },
@@ -46415,6 +46955,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 91.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 91.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 91.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 91.0
     }
@@ -46621,6 +47176,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 2,
      "value_usd": 51.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 51.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 51.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 2,
+     "value_usd": 51.0
     }
    ]
   },
@@ -46820,6 +47390,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 2,
      "value_usd": 20.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 20.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 20.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 2,
+     "value_usd": 20.0
     }
    ]
   },
@@ -47002,6 +47587,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 13.0
     }
@@ -47188,6 +47788,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
     }
    ]
   },
@@ -47370,6 +47985,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 13.0
     }
@@ -47556,6 +48186,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
     }
    ]
   },
@@ -47740,6 +48385,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 13.0
     }
    ]
   },
@@ -47922,6 +48582,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 8.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 8.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 8.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 8.0
     }
@@ -48118,6 +48793,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 2,
      "value_usd": 19.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 19.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 19.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 2,
+     "value_usd": 19.0
     }
    ]
   },
@@ -48297,13 +48987,28 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 5.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 5.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 5.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 5.0
     }
    ]
   },
   "naranja-x": {
    "name": "Naranja X",
    "first_seen": "29/06/2026",
-   "last_seen": "29/06/2026",
+   "last_seen": "01/07/2026",
    "activations": [
     {
      "date": "29/06/2026",
@@ -48334,6 +49039,21 @@
      "tier_label": "Lectura dedicada",
      "value_usd": 39.0,
      "recorded_at": "2026-06-30T00:06:50.557712+00:00"
+    },
+    {
+     "date": "01/07/2026",
+     "date_iso": "20260701",
+     "channel": "vorterix",
+     "channel_name": "Vorterix",
+     "title": "MESSI CONOCIÓ A SPIDERMAN Y VINO MORE BELTRÁN | #ParenLaMano Completo - 30/06 | VORTERIX",
+     "video_id": "cG_sxu72mSo",
+     "t_seconds": 3073,
+     "conc_at": 10638,
+     "program_peak": 22108,
+     "retention_pct": 6.5,
+     "tier_label": "Con código o promo",
+     "value_usd": 474.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
     }
    ],
    "weekly_snapshots": [
@@ -48486,6 +49206,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 2,
      "value_usd": 52.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 52.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 3,
+     "value_usd": 526.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 3,
+     "value_usd": 526.0
     }
    ]
   },
@@ -48645,6 +49380,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 239.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 239.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 239.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 239.0
     }
    ]
   },
@@ -48784,6 +49534,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 82.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 82.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 82.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 82.0
     }
    ]
   },
@@ -48911,6 +49676,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 33.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 33.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 33.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 33.0
     }
@@ -49042,6 +49822,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 2717.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2717.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2717.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 2717.0
     }
    ]
   },
@@ -49169,6 +49964,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 2788.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2788.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2788.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 2788.0
     }
@@ -49310,6 +50120,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 3,
      "value_usd": 1405.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 3,
+     "value_usd": 1405.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 3,
+     "value_usd": 1405.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 3,
+     "value_usd": 1405.0
     }
    ]
   },
@@ -49434,6 +50259,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 2,
      "value_usd": 1248.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 1248.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 1248.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 2,
+     "value_usd": 1248.0
     }
    ]
   },
@@ -49541,6 +50381,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 3439.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 3439.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 3439.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 3439.0
     }
@@ -49652,6 +50507,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 2235.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2235.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2235.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 2235.0
     }
    ]
   },
@@ -49759,6 +50629,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 2235.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2235.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2235.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 2235.0
     }
@@ -49870,6 +50755,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 2547.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2547.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2547.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 2547.0
     }
    ]
   },
@@ -49977,6 +50877,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 3439.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 3439.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 3439.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 3439.0
     }
@@ -50088,6 +51003,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 2235.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 2235.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 2235.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 2235.0
     }
    ]
   },
@@ -50195,6 +51125,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 189.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 189.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 189.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 189.0
     }
@@ -50306,6 +51251,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 57.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 57.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 57.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 57.0
     }
    ]
   },
@@ -50413,6 +51373,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 585.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 585.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 585.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 585.0
     }
@@ -50524,6 +51499,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 479.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 479.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 479.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 479.0
     }
    ]
   },
@@ -50631,6 +51621,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 624.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 624.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 624.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 624.0
     }
@@ -50742,6 +51747,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 624.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 624.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 624.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 624.0
     }
    ]
   },
@@ -50846,6 +51866,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 81.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 81.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 81.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 81.0
     }
    ]
   },
@@ -50945,6 +51980,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 106.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 106.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 106.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 106.0
     }
    ]
   },
@@ -51032,6 +52082,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 651.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 651.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 651.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 651.0
     }
@@ -51123,6 +52188,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 425.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 425.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 425.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 425.0
     }
    ]
   },
@@ -51195,6 +52275,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 161.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 161.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 161.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 161.0
     }
@@ -51271,6 +52366,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 161.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 161.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 161.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 161.0
     }
    ]
   },
@@ -51340,6 +52450,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 790.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 790.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 790.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 790.0
     }
    ]
   },
@@ -51407,6 +52532,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 790.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 790.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 790.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 790.0
     }
@@ -51481,6 +52621,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 2,
+     "value_usd": 58.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 2,
+     "value_usd": 58.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 58.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 2,
      "value_usd": 58.0
     }
@@ -51657,6 +52812,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 9,
      "value_usd": 1735.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 9,
+     "value_usd": 1735.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 9,
+     "value_usd": 1735.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 9,
+     "value_usd": 1735.0
     }
    ]
   },
@@ -51771,6 +52941,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 5,
      "value_usd": 1615.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 5,
+     "value_usd": 1615.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 5,
+     "value_usd": 1615.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 5,
+     "value_usd": 1615.0
     }
    ]
   },
@@ -51855,6 +53040,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 3,
      "value_usd": 1064.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 3,
+     "value_usd": 1064.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 3,
+     "value_usd": 1064.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 3,
+     "value_usd": 1064.0
     }
    ]
   },
@@ -51907,6 +53107,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 282.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 282.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 282.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 282.0
     }
@@ -51963,6 +53178,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 281.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 281.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 281.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 281.0
     }
    ]
   },
@@ -52015,6 +53245,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 352.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 352.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 352.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 352.0
     }
@@ -52071,6 +53316,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 352.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 352.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 352.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 352.0
     }
    ]
   },
@@ -52125,6 +53385,21 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 469.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 469.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 469.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 469.0
     }
    ]
   },
@@ -52172,6 +53447,21 @@
     },
     {
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
+     "mentions": 1,
+     "value_usd": 7.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 7.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 7.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
      "mentions": 1,
      "value_usd": 7.0
     }
@@ -52223,6 +53513,274 @@
      "exported_at": "2026-07-01T02:55:50.343974+00:00",
      "mentions": 1,
      "value_usd": 7.0
+    },
+    {
+     "exported_at": "2026-07-01T04:00:45.648636+00:00",
+     "mentions": 1,
+     "value_usd": 7.0
+    },
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 7.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 7.0
+    }
+   ]
+  },
+  "tubo-com-ar": {
+   "name": "Tubo.com.ar",
+   "first_seen": "30/06/2026",
+   "last_seen": "30/06/2026",
+   "activations": [
+    {
+     "date": "30/06/2026",
+     "date_iso": "20260630",
+     "channel": "gelatina",
+     "channel_name": "GELATINA",
+     "title": "Milei: “Vamos a reelegir” | TUGO con Nico Guthmann",
+     "video_id": "mNBPDZhUOf8",
+     "t_seconds": 6701,
+     "conc_at": 6240,
+     "program_peak": 6616,
+     "retention_pct": 2.2,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 67.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
+    },
+    {
+     "date": "30/06/2026",
+     "date_iso": "20260630",
+     "channel": "gelatina",
+     "channel_name": "GELATINA",
+     "title": "Milei: “Vamos a reelegir” | TUGO con Nico Guthmann",
+     "video_id": "mNBPDZhUOf8",
+     "t_seconds": 6682,
+     "conc_at": 6249,
+     "program_peak": 6616,
+     "retention_pct": 2.2,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 67.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 2,
+     "value_usd": 134.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 2,
+     "value_usd": 134.0
+    }
+   ]
+  },
+  "zenital": {
+   "name": "Zenital",
+   "first_seen": "01/07/2026",
+   "last_seen": "01/07/2026",
+   "activations": [
+    {
+     "date": "01/07/2026",
+     "date_iso": "20260701",
+     "channel": "cenital",
+     "channel_name": "Cenital",
+     "title": "MILEI abraza a ADORNI, SANTILLI al Gabinete y ZAIAT analiza la economía | 540° O'Donnell y Tenembaum",
+     "video_id": "CvdiEy8pgBc",
+     "t_seconds": 13,
+     "conc_at": 508,
+     "program_peak": 5368,
+     "retention_pct": null,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 11.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 11.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 11.0
+    }
+   ]
+  },
+  "de-barricas": {
+   "name": "De Barricas",
+   "first_seen": "01/07/2026",
+   "last_seen": "01/07/2026",
+   "activations": [
+    {
+     "date": "01/07/2026",
+     "date_iso": "20260701",
+     "channel": "cenital",
+     "channel_name": "Cenital",
+     "title": "MILEI abraza a ADORNI, SANTILLI al Gabinete y ZAIAT analiza la economía | 540° O'Donnell y Tenembaum",
+     "video_id": "CvdiEy8pgBc",
+     "t_seconds": 1973,
+     "conc_at": 3176,
+     "program_peak": 5368,
+     "retention_pct": 12.1,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 92.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 92.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 92.0
+    }
+   ]
+  },
+  "claudia-ares": {
+   "name": "Claudia Ares",
+   "first_seen": "30/06/2026",
+   "last_seen": "30/06/2026",
+   "activations": [
+    {
+     "date": "30/06/2026",
+     "date_iso": "20260630",
+     "channel": "blend",
+     "channel_name": "BLENDER",
+     "title": "El día de CARNA CAMPEÓN en el ‘86, ADIÓS ADORNI y MARTITA-JOSEMA en modo MUNDIAL | BLENDER AT NIGHT",
+     "video_id": "tOyCjVcKZlE",
+     "t_seconds": 4533,
+     "conc_at": 5854,
+     "program_peak": 5900,
+     "retention_pct": -0.8,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 170.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 170.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 170.0
+    }
+   ]
+  },
+  "nivea-mix": {
+   "name": "Nivea Mix",
+   "first_seen": "30/06/2026",
+   "last_seen": "30/06/2026",
+   "activations": [
+    {
+     "date": "30/06/2026",
+     "date_iso": "20260630",
+     "channel": "luzu",
+     "channel_name": "LUZU TV",
+     "title": "#NADIEDICENADA l EL MOMI CASI SE AHOGA, ¿YA HAY CAPS DE LA SERIE TERMINADOS? Y EL PPP DEL MITO",
+     "video_id": "IlVszYblfPE",
+     "t_seconds": 4921,
+     "conc_at": 218882,
+     "program_peak": 223675,
+     "retention_pct": 0.6,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 6338.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 6338.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 6338.0
+    }
+   ]
+  },
+  "disney-pixar-toy-story-5": {
+   "name": "Disney/Pixar - Toy Story 5",
+   "first_seen": "30/06/2026",
+   "last_seen": "30/06/2026",
+   "activations": [
+    {
+     "date": "30/06/2026",
+     "date_iso": "20260630",
+     "channel": "olga",
+     "channel_name": "OLGA",
+     "title": "SOÑAMOS QUE CAZAMOS UTOPÍAS IMPOSIBLES | #SoñéQueVolaba 30/6",
+     "video_id": "Lm6Db-SEA0M",
+     "t_seconds": 9027,
+     "conc_at": 34993,
+     "program_peak": 37996,
+     "retention_pct": -2.9,
+     "tier_label": "Al pasar",
+     "value_usd": 254.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 254.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 254.0
+    }
+   ]
+  },
+  "camiseta-de-la-seleccion-argentina": {
+   "name": "Camiseta de la selección argentina",
+   "first_seen": "01/07/2026",
+   "last_seen": "01/07/2026",
+   "activations": [
+    {
+     "date": "01/07/2026",
+     "date_iso": "20260701",
+     "channel": "neura",
+     "channel_name": "Neura Media",
+     "title": "El fútbol moderno, Argentina vs Jordania, ¿con quién jugarías la final? | Multiverso Neura - 30/06",
+     "video_id": "TS7Q8dOmi-M",
+     "t_seconds": 3784,
+     "conc_at": 747,
+     "program_peak": 767,
+     "retention_pct": -2.9,
+     "tier_label": "Lectura dedicada",
+     "value_usd": 16.0,
+     "recorded_at": "2026-07-01T09:00:42.255194+00:00"
+    }
+   ],
+   "weekly_snapshots": [
+    {
+     "exported_at": "2026-07-01T09:00:42.255194+00:00",
+     "mentions": 1,
+     "value_usd": 16.0
+    },
+    {
+     "exported_at": "2026-07-01T09:24:39.987746+00:00",
+     "mentions": 1,
+     "value_usd": 16.0
     }
    ]
   }

@@ -1,6 +1,61 @@
 {
- "exported_at": "2026-07-01T02:55:50.343974+00:00",
+ "exported_at": "2026-07-01T09:24:39.987746+00:00",
  "signals": [
+  {
+   "tema": "like · vivo",
+   "evidence_lane": "chat",
+   "n_msgs": 74,
+   "n_authors": 72,
+   "n_programas": 17,
+   "canales": [
+    "?",
+    "OLGA",
+    "Vorterix"
+   ],
+   "programs": [
+    {
+     "video_id": "2sxqtU8XXTQ",
+     "channel": "OLGA",
+     "title": "CLASES DE MODELAJE CON PAULA CHAVES | #TapadosDeLaburo 23/6",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "like al vivo"
+    },
+    {
+     "video_id": "3AxUr1Maqu8",
+     "channel": "Vorterix",
+     "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "LIKE AL VIVO"
+    },
+    {
+     "video_id": "3QJmfDvuxIk",
+     "channel": "OLGA",
+     "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "LIKE AL VIVO"
+    },
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "Like al vivo"
+    },
+    {
+     "video_id": "IB9cCJT0-_M",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 5,
+     "ejemplo": "LIKE al vivo"
+    }
+   ],
+   "ejemplo": "like al vivo"
+  },
   {
    "tema": "cuatia · curuzu",
    "evidence_lane": "chat",
@@ -146,9 +201,9 @@
   {
    "tema": "buen · dia",
    "evidence_lane": "chat",
-   "n_msgs": 40,
-   "n_authors": 40,
-   "n_programas": 10,
+   "n_msgs": 42,
+   "n_authors": 42,
+   "n_programas": 11,
    "canales": [
     "?",
     "GELATINA",
@@ -175,11 +230,19 @@
     },
     {
      "video_id": "FFy6eNzi-dQ",
-     "channel": "?",
-     "title": "",
+     "channel": "Vorterix",
+     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Polaco Silveira y Nico Etevenaux",
      "n_msgs": 4,
      "n_authors": 4,
      "ejemplo": "buen día"
+    },
+    {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Buen día"
     },
     {
      "video_id": "WNe6QLgDfyM",
@@ -188,14 +251,6 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "Buen día"
-    },
-    {
-     "video_id": "bX7MB2_OI2I",
-     "channel": "OLGA",
-     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "buen día"
     }
    ],
    "ejemplo": "buen dia"
@@ -207,7 +262,6 @@
    "n_authors": 39,
    "n_programas": 4,
    "canales": [
-    "?",
     "Vorterix"
    ],
    "programs": [
@@ -237,8 +291,8 @@
     },
     {
      "video_id": "cG_sxu72mSo",
-     "channel": "?",
-     "title": "",
+     "channel": "Vorterix",
+     "title": "MESSI CONOCIÓ A SPIDERMAN Y VINO MORE BELTRÁN | #ParenLaMano Completo - 30/06 | VORTERIX",
      "n_msgs": 5,
      "n_authors": 5,
      "ejemplo": "lamentablemente grabado"
@@ -313,8 +367,8 @@
     },
     {
      "video_id": "Lm6Db-SEA0M",
-     "channel": "?",
-     "title": "",
+     "channel": "OLGA",
+     "title": "SOÑAMOS QUE CAZAMOS UTOPÍAS IMPOSIBLES | #SoñéQueVolaba 30/6",
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "LIKE AL VIVOOOO"
@@ -341,8 +395,8 @@
   {
    "tema": "migue · razon · tiene",
    "evidence_lane": "chat",
-   "n_msgs": 35,
-   "n_authors": 35,
+   "n_msgs": 36,
+   "n_authors": 36,
    "n_programas": 4,
    "canales": [
     "?",
@@ -359,8 +413,8 @@
     },
     {
      "video_id": "Lm6Db-SEA0M",
-     "channel": "?",
-     "title": "",
+     "channel": "OLGA",
+     "title": "SOÑAMOS QUE CAZAMOS UTOPÍAS IMPOSIBLES | #SoñéQueVolaba 30/6",
      "n_msgs": 5,
      "n_authors": 5,
      "ejemplo": "MIGUE TIENE RAZON"
@@ -369,8 +423,8 @@
      "video_id": "cOui_830fXg",
      "channel": "?",
      "title": "",
-     "n_msgs": 19,
-     "n_authors": 19,
+     "n_msgs": 20,
+     "n_authors": 20,
      "ejemplo": "MIGUE TIENE RAZÓN"
     },
     {
@@ -446,9 +500,9 @@
    "n_authors": 31,
    "n_programas": 7,
    "canales": [
-    "?",
     "Bondi Live",
     "GELATINA",
+    "Neura Media",
     "Vorterix"
    ],
    "programs": [
@@ -478,8 +532,8 @@
     },
     {
      "video_id": "TS7Q8dOmi-M",
-     "channel": "?",
-     "title": "",
+     "channel": "Neura Media",
+     "title": "El fútbol moderno, Argentina vs Jordania, ¿con quién jugarías la final? | Multiverso Neura - 30/06",
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "PONGAN LIKE"
@@ -875,27 +929,6 @@
     }
    ],
    "ejemplo": "violencia vicaria"
-  },
-  {
-   "tema": ":blue_heart::green_heart::blue_heart::green_heart: · brenas",
-   "evidence_lane": "chat",
-   "n_msgs": 16,
-   "n_authors": 16,
-   "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
-   "programs": [
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 16,
-     "n_authors": 16,
-     "ejemplo": "las Breñas :blue_heart::green_heart::blue_heart::green_heart:"
-    }
-   ],
-   "ejemplo": "las Breñas :blue_heart::green_heart::blue_heart::green_heart:"
   }
  ]
 }

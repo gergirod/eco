@@ -111,6 +111,56 @@
   "kind": "producto"
  },
  {
+  "slug": "alfie-pelicula",
+  "name": "Alfie (película)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "01/07/2026",
+    "video_id": "cG_sxu72mSo",
+    "title": "MESSI CONOCIÓ A SPIDERMAN Y VINO MORE BELTRÁN | #ParenLaMano Completo - 30/06 | VORTERIX",
+    "minute": "00:40",
+    "views": 62080
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "naranja-marca-evento",
+  "name": "Naranja (marca/evento)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "01/07/2026",
+    "video_id": "cG_sxu72mSo",
+    "title": "MESSI CONOCIÓ A SPIDERMAN Y VINO MORE BELTRÁN | #ParenLaMano Completo - 30/06 | VORTERIX",
+    "minute": "00:40",
+    "views": 62080
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "argentina-gob-ar",
   "name": "argentina.gob.ar",
   "mentions": 1,
@@ -631,6 +681,31 @@
     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
     "minute": "02:10",
     "views": 30205
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "instituto-de-seguros-para-investigacion-en-carretera-iihs",
+  "name": "Instituto de Seguros para Investigación en Carretera (IIHS)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "FFy6eNzi-dQ",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Polaco Silveira y Nico Etevenaux",
+    "minute": "02:00",
+    "views": 16705
    }
   ],
   "kind": "producto"
@@ -1256,6 +1331,56 @@
     "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
     "minute": "00:40",
     "views": 31965
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "maipo-teatro",
+  "name": "Maipo (teatro)",
+  "mentions": 1,
+  "channels": [
+   "cenital"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "cenital",
+    "channel_name": "Cenital",
+    "date": "01/07/2026",
+    "video_id": "CvdiEy8pgBc",
+    "title": "MILEI abraza a ADORNI, SANTILLI al Gabinete y ZAIAT analiza la economía | 540° O'Donnell y Tenembaum",
+    "minute": "00:30",
+    "views": 15973
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "monitor-gamer",
+  "name": "monitor gamer",
+  "mentions": 1,
+  "channels": [
+   "cenital"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "cenital",
+    "channel_name": "Cenital",
+    "date": "01/07/2026",
+    "video_id": "CvdiEy8pgBc",
+    "title": "MILEI abraza a ADORNI, SANTILLI al Gabinete y ZAIAT analiza la economía | 540° O'Donnell y Tenembaum",
+    "minute": "00:50",
+    "views": 15973
    }
   ],
   "kind": "producto"
@@ -3061,6 +3186,56 @@
   "kind": "producto"
  },
  {
+  "slug": "la-torre-restaurante-goico-y-pagani",
+  "name": "La Torre (restaurante Goico y Pagani)",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "30/06/2026",
+    "video_id": "tOyCjVcKZlE",
+    "title": "El día de CARNA CAMPEÓN en el ‘86, ADIÓS ADORNI y MARTITA-JOSEMA en modo MUNDIAL | BLENDER AT NIGHT",
+    "minute": "00:20",
+    "views": 2410
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "poli-te-ama-obra-de-teatro",
+  "name": "Poli te ama (obra de teatro)",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "30/06/2026",
+    "video_id": "tOyCjVcKZlE",
+    "title": "El día de CARNA CAMPEÓN en el ‘86, ADIÓS ADORNI y MARTITA-JOSEMA en modo MUNDIAL | BLENDER AT NIGHT",
+    "minute": "01:10",
+    "views": 2410
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "fenix-gimnasio",
   "name": "Fénix (gimnasio)",
   "mentions": 1,
@@ -3381,6 +3556,181 @@
     "title": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
     "minute": "00:00",
     "views": 4176
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "vinos-argentinos",
+  "name": "vinos argentinos",
+  "mentions": 1,
+  "channels": [
+   "ahoraplay"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "ahoraplay",
+    "channel_name": "AHORA PLAY",
+    "date": "30/06/2026",
+    "video_id": "3jZ7O8XoQyY",
+    "title": "SUBE EL DÓLAR: PRUEBA DE FUEGO PARA CAPUTO | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
+    "minute": "01:20",
+    "views": 5243
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "vino-argentino",
+  "name": "vino argentino",
+  "mentions": 1,
+  "channels": [
+   "ahoraplay"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "ahoraplay",
+    "channel_name": "AHORA PLAY",
+    "date": "30/06/2026",
+    "video_id": "3jZ7O8XoQyY",
+    "title": "SUBE EL DÓLAR: PRUEBA DE FUEGO PARA CAPUTO | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
+    "minute": "01:50",
+    "views": 5243
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "vinos-espanoles",
+  "name": "vinos españoles",
+  "mentions": 1,
+  "channels": [
+   "ahoraplay"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "ahoraplay",
+    "channel_name": "AHORA PLAY",
+    "date": "30/06/2026",
+    "video_id": "3jZ7O8XoQyY",
+    "title": "SUBE EL DÓLAR: PRUEBA DE FUEGO PARA CAPUTO | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
+    "minute": "01:50",
+    "views": 5243
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "vinos-italianos",
+  "name": "vinos italianos",
+  "mentions": 1,
+  "channels": [
+   "ahoraplay"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "ahoraplay",
+    "channel_name": "AHORA PLAY",
+    "date": "30/06/2026",
+    "video_id": "3jZ7O8XoQyY",
+    "title": "SUBE EL DÓLAR: PRUEBA DE FUEGO PARA CAPUTO | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
+    "minute": "01:50",
+    "views": 5243
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "vinos-franceses",
+  "name": "vinos franceses",
+  "mentions": 1,
+  "channels": [
+   "ahoraplay"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "ahoraplay",
+    "channel_name": "AHORA PLAY",
+    "date": "30/06/2026",
+    "video_id": "3jZ7O8XoQyY",
+    "title": "SUBE EL DÓLAR: PRUEBA DE FUEGO PARA CAPUTO | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
+    "minute": "01:50",
+    "views": 5243
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "vinos-chilenos",
+  "name": "vinos chilenos",
+  "mentions": 1,
+  "channels": [
+   "ahoraplay"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "ahoraplay",
+    "channel_name": "AHORA PLAY",
+    "date": "30/06/2026",
+    "video_id": "3jZ7O8XoQyY",
+    "title": "SUBE EL DÓLAR: PRUEBA DE FUEGO PARA CAPUTO | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
+    "minute": "01:50",
+    "views": 5243
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "vinos-australianos",
+  "name": "vinos australianos",
+  "mentions": 1,
+  "channels": [
+   "ahoraplay"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "ahoraplay",
+    "channel_name": "AHORA PLAY",
+    "date": "30/06/2026",
+    "video_id": "3jZ7O8XoQyY",
+    "title": "SUBE EL DÓLAR: PRUEBA DE FUEGO PARA CAPUTO | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
+    "minute": "01:50",
+    "views": 5243
    }
   ],
   "kind": "producto"
@@ -4781,6 +5131,81 @@
     "title": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
     "minute": "01:10",
     "views": 12997
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "jamon-serrano-espanol",
+  "name": "jamón serrano español",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "01/07/2026",
+    "video_id": "TS7Q8dOmi-M",
+    "title": "El fútbol moderno, Argentina vs Jordania, ¿con quién jugarías la final? | Multiverso Neura - 30/06",
+    "minute": "01:10",
+    "views": 3033
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pata-negra",
+  "name": "pata negra",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "01/07/2026",
+    "video_id": "TS7Q8dOmi-M",
+    "title": "El fútbol moderno, Argentina vs Jordania, ¿con quién jugarías la final? | Multiverso Neura - 30/06",
+    "minute": "01:10",
+    "views": 3033
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "camiseta-deportiva",
+  "name": "camiseta deportiva",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "01/07/2026",
+    "video_id": "TS7Q8dOmi-M",
+    "title": "El fútbol moderno, Argentina vs Jordania, ¿con quién jugarías la final? | Multiverso Neura - 30/06",
+    "minute": "01:10",
+    "views": 3033
    }
   ],
   "kind": "producto"
