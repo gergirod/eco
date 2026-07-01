@@ -1,200 +1,5 @@
 [
  {
-  "id": "olga",
-  "name": "Olga",
-  "url": "https://www.youtube.com/@olgaenvivo_",
-  "genre": "Talk / entretenimiento",
-  "subscribers": "2.27M",
-  "enabled": true,
-  "handle_verified": true,
-  "has_data": true,
-  "stats": {
-   "videos_processed": 23,
-   "total_vod_views": 946014,
-   "avg_concurrent": 24062,
-   "brands_detected": 68,
-   "mentions": 136,
-   "last_processed": "30/06/2026"
-  },
-  "pipeline_status": "activo"
- },
- {
-  "id": "luzu",
-  "name": "Luzu TV",
-  "url": "https://www.youtube.com/@luzutv",
-  "genre": "Talk / entretenimiento",
-  "subscribers": "2.87M",
-  "enabled": true,
-  "handle_verified": true,
-  "has_data": true,
-  "stats": {
-   "videos_processed": 25,
-   "total_vod_views": 4199273,
-   "avg_concurrent": 82254,
-   "brands_detected": 81,
-   "mentions": 128,
-   "last_processed": "01/07/2026"
-  },
-  "pipeline_status": "activo"
- },
- {
-  "id": "bondi",
-  "name": "Bondi Live",
-  "url": "https://www.youtube.com/@Bondi_liveok",
-  "genre": "Espectáculos / actualidad",
-  "subscribers": "780K",
-  "enabled": true,
-  "handle_verified": true,
-  "has_data": true,
-  "stats": {
-   "videos_processed": 2,
-   "total_vod_views": 92822,
-   "avg_concurrent": 21542,
-   "brands_detected": 0,
-   "mentions": 0,
-   "last_processed": "30/06/2026"
-  },
-  "pipeline_status": "activo"
- },
- {
-  "id": "blend",
-  "name": "Blender",
-  "url": "https://www.youtube.com/@estoesblender",
-  "genre": "Talk / humor",
-  "subscribers": "541K",
-  "enabled": true,
-  "handle_verified": true,
-  "has_data": true,
-  "stats": {
-   "videos_processed": 8,
-   "total_vod_views": 67576,
-   "avg_concurrent": 6198,
-   "brands_detected": 10,
-   "mentions": 11,
-   "last_processed": "30/06/2026"
-  },
-  "pipeline_status": "activo"
- },
- {
-  "id": "gelatina",
-  "name": "Gelatina",
-  "url": "https://www.youtube.com/@SomosGelatina",
-  "genre": "Política / cultura",
-  "subscribers": "420K",
-  "enabled": true,
-  "handle_verified": true,
-  "has_data": true,
-  "stats": {
-   "videos_processed": 8,
-   "total_vod_views": 113166,
-   "avg_concurrent": 4062,
-   "brands_detected": 7,
-   "mentions": 9,
-   "last_processed": "30/06/2026"
-  },
-  "pipeline_status": "activo"
- },
- {
-  "id": "vorterix",
-  "name": "Vorterix",
-  "url": "https://www.youtube.com/@VorterixOficial",
-  "genre": "Música / rock",
-  "subscribers": "1.6M",
-  "enabled": true,
-  "handle_verified": true,
-  "has_data": true,
-  "stats": {
-   "videos_processed": 17,
-   "total_vod_views": 363117,
-   "avg_concurrent": 6011,
-   "brands_detected": 38,
-   "mentions": 52,
-   "last_processed": "01/07/2026"
-  },
-  "pipeline_status": "activo"
- },
- {
-  "id": "urbana",
-  "name": "Urbana Play",
-  "url": "https://www.youtube.com/@UrbanaPlayFM",
-  "genre": "Radio / talk",
-  "subscribers": "390K",
-  "enabled": true,
-  "handle_verified": true,
-  "has_data": false,
-  "stats": null,
-  "pipeline_status": "configurado"
- },
- {
-  "id": "carnaval",
-  "name": "Carnaval Stream",
-  "url": "https://www.youtube.com/@CarnavalStream",
-  "genre": "Actualidad / política",
-  "subscribers": "210K",
-  "enabled": false,
-  "handle_verified": true,
-  "has_data": false,
-  "stats": null,
-  "pipeline_status": "disponible"
- },
- {
-  "id": "neura",
-  "name": "Neura Media",
-  "url": "https://www.youtube.com/@NeuraMedia",
-  "genre": "Actualidad / política",
-  "subscribers": "520K",
-  "enabled": true,
-  "handle_verified": true,
-  "has_data": true,
-  "stats": {
-   "videos_processed": 10,
-   "total_vod_views": 15657,
-   "avg_concurrent": 366,
-   "brands_detected": 19,
-   "mentions": 34,
-   "last_processed": "01/07/2026"
-  },
-  "pipeline_status": "activo"
- },
- {
-  "id": "border",
-  "name": "BorderPeriodismo",
-  "url": "https://www.youtube.com/@border.periodismo",
-  "genre": "Periodismo / actualidad",
-  "subscribers": "218K",
-  "enabled": true,
-  "handle_verified": true,
-  "has_data": true,
-  "stats": {
-   "videos_processed": 1,
-   "total_vod_views": 2107,
-   "avg_concurrent": 2028,
-   "brands_detected": 0,
-   "mentions": 0,
-   "last_processed": "29/06/2026"
-  },
-  "pipeline_status": "activo"
- },
- {
-  "id": "cronista",
-  "name": "El Cronista",
-  "url": "https://www.youtube.com/@Cronista_ar",
-  "genre": "Economía / finanzas",
-  "subscribers": "177K",
-  "enabled": true,
-  "handle_verified": true,
-  "has_data": true,
-  "stats": {
-   "videos_processed": 3,
-   "total_vod_views": 6453,
-   "avg_concurrent": 1448,
-   "brands_detected": 0,
-   "mentions": 0,
-   "last_processed": "30/06/2026"
-  },
-  "pipeline_status": "activo"
- },
- {
   "id": "ahoraplay",
   "name": "Ahora Play",
   "url": "https://www.youtube.com/@Ahora_Play",
@@ -233,6 +38,99 @@
   "pipeline_status": "activo"
  },
  {
+  "id": "blend",
+  "name": "Blender",
+  "url": "https://www.youtube.com/@estoesblender",
+  "genre": "Talk / humor",
+  "subscribers": "541K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": true,
+  "stats": {
+   "videos_processed": 8,
+   "total_vod_views": 67576,
+   "avg_concurrent": 6198,
+   "brands_detected": 10,
+   "mentions": 11,
+   "last_processed": "30/06/2026"
+  },
+  "pipeline_status": "activo"
+ },
+ {
+  "id": "bondi",
+  "name": "Bondi Live",
+  "url": "https://www.youtube.com/@Bondi_liveok",
+  "genre": "Espectáculos / actualidad",
+  "subscribers": "780K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": true,
+  "stats": {
+   "videos_processed": 2,
+   "total_vod_views": 92822,
+   "avg_concurrent": 21542,
+   "brands_detected": 0,
+   "mentions": 0,
+   "last_processed": "30/06/2026"
+  },
+  "pipeline_status": "activo"
+ },
+ {
+  "id": "border",
+  "name": "BorderPeriodismo",
+  "url": "https://www.youtube.com/@border.periodismo",
+  "genre": "Periodismo / actualidad",
+  "subscribers": "218K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": true,
+  "stats": {
+   "videos_processed": 1,
+   "total_vod_views": 2107,
+   "avg_concurrent": 2028,
+   "brands_detected": 0,
+   "mentions": 0,
+   "last_processed": "29/06/2026"
+  },
+  "pipeline_status": "activo"
+ },
+ {
+  "id": "bravotv",
+  "name": "Bravo TV",
+  "url": "https://www.youtube.com/@canalbravotv",
+  "genre": "Política / análisis",
+  "subscribers": "95K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": false,
+  "stats": null,
+  "pipeline_status": "configurado"
+ },
+ {
+  "id": "carajo",
+  "name": "Carajo",
+  "url": "https://www.youtube.com/@CarajoStream",
+  "genre": "Política / libertario",
+  "subscribers": "180K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": false,
+  "stats": null,
+  "pipeline_status": "configurado"
+ },
+ {
+  "id": "carnaval",
+  "name": "Carnaval Stream",
+  "url": "https://www.youtube.com/@CarnavalStream",
+  "genre": "Actualidad / política",
+  "subscribers": "210K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": false,
+  "stats": null,
+  "pipeline_status": "disponible"
+ },
+ {
   "id": "cenital",
   "name": "Cenital",
   "url": "https://www.youtube.com/@Cenitalcom",
@@ -252,28 +150,154 @@
   "pipeline_status": "activo"
  },
  {
-  "id": "lacasa",
-  "name": "La Casa Stream",
-  "url": "https://www.youtube.com/@lacasastream",
-  "genre": "Talk / entretenimiento",
-  "subscribers": "180K",
-  "enabled": false,
-  "handle_verified": false,
-  "has_data": false,
-  "stats": null,
-  "pipeline_status": "disponible"
+  "id": "cronista",
+  "name": "El Cronista",
+  "url": "https://www.youtube.com/@Cronista_ar",
+  "genre": "Economía / finanzas",
+  "subscribers": "177K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": true,
+  "stats": {
+   "videos_processed": 3,
+   "total_vod_views": 6453,
+   "avg_concurrent": 1448,
+   "brands_detected": 0,
+   "mentions": 0,
+   "last_processed": "30/06/2026"
+  },
+  "pipeline_status": "activo"
  },
  {
-  "id": "picnic",
-  "name": "Picnic Extraterrestre",
-  "url": "https://www.youtube.com/@PicnicExtraterrestre",
-  "genre": "Humor / cultura",
-  "subscribers": "150K",
-  "enabled": false,
-  "handle_verified": false,
+  "id": "eldestape",
+  "name": "El Destape",
+  "url": "https://www.youtube.com/channel/UC5wAqJ9NF0fpGH9dVf3h6HA",
+  "genre": "Política / kirchnerismo",
+  "subscribers": "320K",
+  "enabled": true,
+  "handle_verified": true,
   "has_data": false,
   "stats": null,
-  "pipeline_status": "disponible"
+  "pipeline_status": "configurado"
+ },
+ {
+  "id": "futurock",
+  "name": "Futurock",
+  "url": "https://www.youtube.com/@futurock",
+  "genre": "Política / progresismo",
+  "subscribers": "290K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": false,
+  "stats": null,
+  "pipeline_status": "configurado"
+ },
+ {
+  "id": "gelatina",
+  "name": "Gelatina",
+  "url": "https://www.youtube.com/@SomosGelatina",
+  "genre": "Política / cultura",
+  "subscribers": "420K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": true,
+  "stats": {
+   "videos_processed": 8,
+   "total_vod_views": 113166,
+   "avg_concurrent": 4062,
+   "brands_detected": 7,
+   "mentions": 9,
+   "last_processed": "30/06/2026"
+  },
+  "pipeline_status": "activo"
+ },
+ {
+  "id": "luzu",
+  "name": "Luzu TV",
+  "url": "https://www.youtube.com/@luzutv",
+  "genre": "Talk / entretenimiento",
+  "subscribers": "2.87M",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": true,
+  "stats": {
+   "videos_processed": 25,
+   "total_vod_views": 4199273,
+   "avg_concurrent": 82254,
+   "brands_detected": 81,
+   "mentions": 128,
+   "last_processed": "01/07/2026"
+  },
+  "pipeline_status": "activo"
+ },
+ {
+  "id": "neura",
+  "name": "Neura Media",
+  "url": "https://www.youtube.com/@NeuraMedia",
+  "genre": "Actualidad / política",
+  "subscribers": "520K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": true,
+  "stats": {
+   "videos_processed": 10,
+   "total_vod_views": 15657,
+   "avg_concurrent": 366,
+   "brands_detected": 19,
+   "mentions": 34,
+   "last_processed": "01/07/2026"
+  },
+  "pipeline_status": "activo"
+ },
+ {
+  "id": "olga",
+  "name": "Olga",
+  "url": "https://www.youtube.com/@olgaenvivo_",
+  "genre": "Talk / entretenimiento",
+  "subscribers": "2.27M",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": true,
+  "stats": {
+   "videos_processed": 23,
+   "total_vod_views": 946014,
+   "avg_concurrent": 24062,
+   "brands_detected": 68,
+   "mentions": 136,
+   "last_processed": "30/06/2026"
+  },
+  "pipeline_status": "activo"
+ },
+ {
+  "id": "urbana",
+  "name": "Urbana Play",
+  "url": "https://www.youtube.com/@UrbanaPlayFM",
+  "genre": "Radio / talk",
+  "subscribers": "390K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": false,
+  "stats": null,
+  "pipeline_status": "configurado"
+ },
+ {
+  "id": "vorterix",
+  "name": "Vorterix",
+  "url": "https://www.youtube.com/@VorterixOficial",
+  "genre": "Música / rock",
+  "subscribers": "1.6M",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": true,
+  "stats": {
+   "videos_processed": 17,
+   "total_vod_views": 363117,
+   "avg_concurrent": 6011,
+   "brands_detected": 38,
+   "mentions": 52,
+   "last_processed": "01/07/2026"
+  },
+  "pipeline_status": "activo"
  },
  {
   "id": "azz",
@@ -281,18 +305,6 @@
   "url": "https://www.youtube.com/@AZZ",
   "genre": "Deportes",
   "subscribers": "300K",
-  "enabled": false,
-  "handle_verified": false,
-  "has_data": false,
-  "stats": null,
-  "pipeline_status": "disponible"
- },
- {
-  "id": "republicaz",
-  "name": "República Z",
-  "url": "https://www.youtube.com/@republicaz",
-  "genre": "Política / juventud",
-  "subscribers": "120K",
   "enabled": false,
   "handle_verified": false,
   "has_data": false,
@@ -312,11 +324,47 @@
   "pipeline_status": "disponible"
  },
  {
+  "id": "lacasa",
+  "name": "La Casa Stream",
+  "url": "https://www.youtube.com/@lacasastream",
+  "genre": "Talk / entretenimiento",
+  "subscribers": "180K",
+  "enabled": false,
+  "handle_verified": false,
+  "has_data": false,
+  "stats": null,
+  "pipeline_status": "disponible"
+ },
+ {
   "id": "parenla",
   "name": "Paren la Mano",
   "url": "https://www.youtube.com/@parenlamano",
   "genre": "Talk / humor",
   "subscribers": "260K",
+  "enabled": false,
+  "handle_verified": false,
+  "has_data": false,
+  "stats": null,
+  "pipeline_status": "disponible"
+ },
+ {
+  "id": "picnic",
+  "name": "Picnic Extraterrestre",
+  "url": "https://www.youtube.com/@PicnicExtraterrestre",
+  "genre": "Humor / cultura",
+  "subscribers": "150K",
+  "enabled": false,
+  "handle_verified": false,
+  "has_data": false,
+  "stats": null,
+  "pipeline_status": "disponible"
+ },
+ {
+  "id": "republicaz",
+  "name": "República Z",
+  "url": "https://www.youtube.com/@republicaz",
+  "genre": "Política / juventud",
+  "subscribers": "120K",
   "enabled": false,
   "handle_verified": false,
   "has_data": false,

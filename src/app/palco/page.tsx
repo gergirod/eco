@@ -27,6 +27,21 @@ type Card = {
   origen?: string;
   formato?: string;
 };
+type Mencion = {
+  origen: "aire" | "chat";
+  video_id: string;
+  channel: string;
+  program: string;
+  date: string;
+  t_seconds: number;
+  t_label: string;
+  quote?: string; // aire
+  text?: string; // chat
+  conc_at?: number | null;
+  chat_ratio?: number | null;
+  sentiment?: "neg" | "neu" | "pos";
+  yt_url: string;
+};
 type Radar = {
   slug: string;
   entity: string;
@@ -45,6 +60,8 @@ type Radar = {
   by_day: { day: string; mentions: number }[];
   crisis: Card | null;
   feed: Card[];
+  menciones?: Mencion[];
+  menciones_total?: { aire: number; chat: number };
 };
 type IndexRow = {
   slug: string;
@@ -174,6 +191,8 @@ export default function PalcoPage() {
   const [query, setQuery] = useState("");
   const [cat, setCat] = useState<string>("todas");
   const [tab, setTab] = useState<"todas" | "neg">("todas");
+  const [logOrigen, setLogOrigen] = useState<"todas" | "aire" | "chat">("todas");
+  const [logShow, setLogShow] = useState(30); // paginado del detalle
   const [watch, setWatch] = useState<string[]>([]);
   const [plan, setPlan] = useState<string>("");
   // gobernanza de avisos (settings del tablero)
@@ -263,6 +282,12 @@ export default function PalcoPage() {
     R.feed[0]
   );
   const feed = tab === "neg" ? R.feed.filter((f) => f.sentiment === "neg") : R.feed;
+
+  // Detalle fino: TODO lo que se dijo (aire + chat), nuevo→viejo, con filtro por origen.
+  const logAll = R.menciones ?? [];
+  const logFiltered =
+    logOrigen === "todas" ? logAll : logAll.filter((m) => m.origen === logOrigen);
+  const logVisible = logFiltered.slice(0, logShow);
 
   return (
     <div className="min-h-screen bg-[#faf9f7] text-stone-900">
@@ -818,6 +843,119 @@ export default function PalcoPage() {
                   </article>
                 );
               })}
+            </div>
+          )}
+        </section>
+
+        {/* TODO lo que se dijo — línea de tiempo completa (aire + chat), nuevo→viejo */}
+        <section className="mt-8">
+          <div className="flex flex-wrap items-end justify-between gap-3">
+            <div>
+              <h2 className="text-[15px] font-semibold text-stone-800">
+                Todo lo que se dijo
+              </h2>
+              <p className="mt-0.5 text-[13px] text-stone-500">
+                Cada mención, textual, del más nuevo al más viejo — al aire y en el chat.
+                {R.menciones_total && (
+                  <>
+                    {" "}
+                    <span className="text-stone-400">
+                      ({R.menciones_total.aire} al aire · {R.menciones_total.chat} en el chat)
+                    </span>
+                  </>
+                )}
+              </p>
+            </div>
+            <div className="flex rounded-lg border border-stone-200 bg-white p-0.5 text-[12px]">
+              {(["todas", "aire", "chat"] as const).map((o) => (
+                <button
+                  key={o}
+                  onClick={() => {
+                    setLogOrigen(o);
+                    setLogShow(30);
+                  }}
+                  className={`rounded-md px-3 py-1 ${
+                    logOrigen === o
+                      ? "bg-stone-900 text-white"
+                      : "text-stone-500 hover:text-stone-800"
+                  }`}
+                >
+                  {o === "todas" ? "Todo" : o === "aire" ? "🎙 Al aire" : "💬 Chat"}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {logVisible.length === 0 ? (
+            <p className="mt-4 rounded-xl border border-stone-200 bg-white p-6 text-center text-[13px] text-stone-400">
+              No hay menciones para mostrar en este filtro.
+            </p>
+          ) : (
+            <ol className="mt-4 space-y-1.5">
+              {logVisible.map((m, i) => {
+                const s = m.sentiment ? SENT[m.sentiment] : null;
+                const esChat = m.origen === "chat";
+                return (
+                  <li
+                    key={m.video_id + m.origen + m.t_seconds + i}
+                    className="flex gap-3 rounded-lg border border-stone-200 bg-white px-3.5 py-2.5 shadow-sm"
+                  >
+                    <span
+                      className={`mt-0.5 shrink-0 rounded-full border px-2 py-0.5 text-[10.5px] ${
+                        esChat
+                          ? "border-blue-200 bg-blue-50 text-[#2f5fe0]"
+                          : "border-stone-200 bg-stone-100 text-stone-600"
+                      }`}
+                    >
+                      {esChat ? "💬 chat" : "🎙 aire"}
+                    </span>
+                    <div className="min-w-0 flex-1">
+                      <p
+                        className={`text-[13.5px] leading-relaxed text-stone-700 ${
+                          esChat ? "" : "italic"
+                        }`}
+                      >
+                        {esChat ? m.text : <>&ldquo;{m.quote}&rdquo;</>}
+                      </p>
+                      <div className="mt-1 flex flex-wrap items-center gap-x-3 gap-y-0.5 text-[11.5px] text-stone-400">
+                        <span className="font-medium text-stone-500">{m.channel}</span>
+                        <span className="truncate max-w-[220px]">{m.program}</span>
+                        <span className="tabular-nums">
+                          {fmtDay(m.date)} · {m.t_label}
+                        </span>
+                        {!esChat && m.conc_at != null && (
+                          <span>👁 {compact(m.conc_at)}</span>
+                        )}
+                        {s && (
+                          <span className={`rounded-full border px-1.5 py-0.5 ${s.cls}`}>
+                            {s.dot} {s.label}
+                          </span>
+                        )}
+                        <a
+                          href={m.yt_url}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="ml-auto font-medium hover:underline"
+                          style={{ color: BRAND }}
+                        >
+                          🎬 ver
+                        </a>
+                      </div>
+                    </div>
+                  </li>
+                );
+              })}
+            </ol>
+          )}
+
+          {logFiltered.length > logShow && (
+            <div className="mt-4 text-center">
+              <button
+                onClick={() => setLogShow((n) => n + 40)}
+                className="rounded-lg border border-stone-300 bg-white px-5 py-2 text-[13px] font-medium text-stone-700 hover:border-stone-400"
+              >
+                Ver más ({logFiltered.length - logShow} restantes)
+              </button>
             </div>
           )}
         </section>

@@ -7,6 +7,8 @@
  "channels": [
   {
    "channel_id": "olga",
+   "url": "https://www.youtube.com/@olgaenvivo_",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [
     "REPETICIÓN",
@@ -30,6 +32,8 @@
   },
   {
    "channel_id": "luzu",
+   "url": "https://www.youtube.com/@luzutv",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [
     "Algo de Música",
@@ -62,6 +66,8 @@
   },
   {
    "channel_id": "bondi",
+   "url": "https://www.youtube.com/@Bondi_liveok",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [],
    "capture_slots": [
@@ -82,6 +88,8 @@
   },
   {
    "channel_id": "blend",
+   "url": "https://www.youtube.com/@estoesblender",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [],
    "capture_slots": [
@@ -119,6 +127,8 @@
   },
   {
    "channel_id": "gelatina",
+   "url": "https://www.youtube.com/@SomosGelatina",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [],
    "capture_slots": [
@@ -147,6 +157,8 @@
   },
   {
    "channel_id": "urbana",
+   "url": "https://www.youtube.com/@UrbanaPlayFM",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [
     "LO MEJOR DE",
@@ -253,6 +265,8 @@
   },
   {
    "channel_id": "neura",
+   "url": "https://www.youtube.com/@NeuraMedia",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [],
    "capture_slots": [
@@ -273,6 +287,8 @@
   },
   {
    "channel_id": "vorterix",
+   "url": "https://www.youtube.com/@VorterixOficial",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [],
    "capture_slots": [
@@ -293,6 +309,8 @@
   },
   {
    "channel_id": "border",
+   "url": "https://www.youtube.com/@border.periodismo",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [],
    "capture_slots": [
@@ -322,6 +340,8 @@
   },
   {
    "channel_id": "cronista",
+   "url": "https://www.youtube.com/@Cronista_ar",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [],
    "capture_slots": [
@@ -369,6 +389,8 @@
   },
   {
    "channel_id": "ahoraplay",
+   "url": "https://www.youtube.com/@Ahora_Play",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [],
    "capture_slots": [
@@ -389,6 +411,8 @@
   },
   {
    "channel_id": "aura",
+   "url": "https://www.youtube.com/@AuraStreamTN",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [],
    "capture_slots": [
@@ -409,6 +433,8 @@
   },
   {
    "channel_id": "cenital",
+   "url": "https://www.youtube.com/@Cenitalcom",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [],
    "capture_slots": [
@@ -443,6 +469,8 @@
   },
   {
    "channel_id": "carajo",
+   "url": "https://www.youtube.com/@CarajoStream",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [],
    "capture_slots": [
@@ -463,6 +491,8 @@
   },
   {
    "channel_id": "eldestape",
+   "url": "https://www.youtube.com/channel/UC5wAqJ9NF0fpGH9dVf3h6HA",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [],
    "capture_slots": [
@@ -492,6 +522,8 @@
   },
   {
    "channel_id": "futurock",
+   "url": "https://www.youtube.com/@futurock",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [],
    "capture_slots": [
@@ -512,6 +544,8 @@
   },
   {
    "channel_id": "bravotv",
+   "url": "https://www.youtube.com/@canalbravotv",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [],
    "capture_slots": [
@@ -532,6 +566,8 @@
   },
   {
    "channel_id": "carnaval",
+   "url": "https://www.youtube.com/@CarnavalStream",
+   "capture_enabled": true,
    "timezone": "America/Argentina/Buenos_Aires",
    "skip_title_patterns": [],
    "capture_slots": [
@@ -550,6 +586,5 @@
     }
    ]
   }
- ],
- "exported_at": "2026-07-01T14:41:43.113942+00:00"
+ ]
 }

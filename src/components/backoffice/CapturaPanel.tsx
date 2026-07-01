@@ -130,11 +130,23 @@ export default function CapturaPanel() {
     return m;
   }, [live]);
 
+  const channelMeta = useMemo(() => {
+    const m = new Map<string, { id: string; name: string; enabled?: boolean; url?: string }>();
+    for (const c of channels as any[]) m.set(c.id, c);
+    return m;
+  }, [channels]);
+
   const rows = useMemo(() => {
-    const enabled = (channels as any[]).filter((c) => c.enabled && scheduleById.has(c.id));
-    return enabled.map((c) => {
-      const sched = scheduleById.get(c.id)!;
-      const lv = liveMap.get(c.id);
+    const data = schedules as CaptureSchedulesData;
+    return (data.channels || []).map((sched) => {
+      const meta = channelMeta.get(sched.channel_id);
+      const channel = {
+        id: sched.channel_id,
+        name: meta?.name || sched.channel_id,
+        enabled: meta?.enabled ?? sched.capture_enabled ?? true,
+        url: sched.url || meta?.url,
+      };
+      const lv = liveMap.get(sched.channel_id);
       const dec = shouldCapture(sched, nowAR, lv?.title);
       const next = dec.capture ? null : nextSlotToday(sched, nowAR);
       let status: "capturando" | "esperando" | "filler" | "off" | "idle" = "idle";
@@ -142,9 +154,9 @@ export default function CapturaPanel() {
       else if (lv?.live === true && dec.reason.startsWith("filler")) status = "filler";
       else if (lv?.live === true) status = "esperando";
       else if (lv?.live === false) status = "off";
-      return { channel: c, sched, lv, dec, next, status };
+      return { channel, sched, lv, dec, next, status };
     });
-  }, [channels, scheduleById, liveMap, nowAR]);
+  }, [schedules, channelMeta, liveMap, nowAR]);
 
   const capturing = rows.filter((r) => r.status === "capturando").length;
   const inWindow = rows.filter((r) => r.dec.capture).length;
@@ -169,7 +181,7 @@ export default function CapturaPanel() {
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
         <Stat label="En franja ahora" value={inWindow} hint="programas con grilla activa" />
         <Stat label="Capturando" value={capturing} hint="vivo + grilla OK" />
-        <Stat label="Canales" value={rows.length} hint="con program_schedule" />
+        <Stat label="Canales" value={rows.length} hint="en config/schedules/*.yaml" />
         <Stat label="Chequeo YT" value={checkedAt || "—"} hint="último poll" />
       </div>
 
@@ -238,7 +250,7 @@ export default function CapturaPanel() {
       {expanded && scheduleById.has(expanded) && (
         <div className="card p-5">
           <h3 className="text-[15px] font-semibold mb-1">
-            {(channels as any[]).find((c) => c.id === expanded)?.name || expanded}
+            {channelMeta.get(expanded)?.name || expanded}
           </h3>
           <p className="text-[12px] text-gray-400 mb-4">Franjas que el supervisor captura (hora Argentina)</p>
           <ChannelGrilla schedule={scheduleById.get(expanded)!} />

@@ -10,6 +10,8 @@ export type CaptureSlot = {
 
 export type ChannelSchedule = {
   channel_id: string;
+  url?: string;
+  capture_enabled?: boolean;
   timezone: string;
   skip_title_patterns: string[];
   capture_slots: CaptureSlot[];

@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import channels from "@/data/channels.json";
+import captureSchedules from "@/data/capture_schedules.json";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 30;
@@ -37,10 +38,19 @@ async function checkLive(url: string): Promise<{ live: boolean | null; title?: s
 }
 
 export async function GET() {
-  const targets = (channels as any[]).filter((c) => c.enabled || c.has_data);
+  const byId = new Map((channels as any[]).map((c) => [c.id, c]));
+  const schedChannels = (captureSchedules as { channels?: { channel_id: string; url?: string }[] }).channels || [];
+  const targets = schedChannels.map((s) => {
+    const c = byId.get(s.channel_id);
+    return {
+      id: s.channel_id,
+      name: c?.name || s.channel_id,
+      url: s.url || c?.url,
+    };
+  }).filter((t) => t.url);
   const results = await Promise.all(
     targets.map(async (c) => {
-      const r = await checkLive(c.url);
+      const r = await checkLive(c.url!);
       return { id: c.id, name: c.name, live: r.live, title: r.title };
     })
   );
