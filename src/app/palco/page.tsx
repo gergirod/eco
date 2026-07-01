@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import data from "@/data/palco_entities.json";
 
 /* ---------- tipos ---------- */
@@ -94,18 +95,58 @@ const ORIGEN: Record<string, { label: string; cls: string }> = {
 };
 
 /* ---------- página ---------- */
+const PLAN_LABEL: Record<string, string> = {
+  monitoreo: "Monitoreo",
+  reputacion: "Reputación",
+  agencia: "Agencia",
+};
+
 export default function PalcoPage() {
   const [slug, setSlug] = useState<string>(D.default);
   const [query, setQuery] = useState("");
   const [tab, setTab] = useState<"todas" | "neg">("todas");
+  const [watch, setWatch] = useState<string[]>([]);
+  const [plan, setPlan] = useState<string>("");
+
+  // Lee la watchlist elegida en el onboarding (?e=slug1,slug2&plan=pro).
+  useEffect(() => {
+    const p = new URLSearchParams(window.location.search);
+    const e = (p.get("e") || "")
+      .split(",")
+      .map((s) => s.trim())
+      .filter((s) => D.radars[s]);
+    if (e.length) {
+      setWatch(e);
+      setSlug(e[0]);
+    }
+    if (p.get("plan")) setPlan(p.get("plan")!);
+  }, []);
 
   const R = D.radars[slug];
 
+  // Catálogo base: si hay watchlist del onboarding, se limita a esas entidades.
+  const baseIndex = useMemo(
+    () => (watch.length ? D.index.filter((r) => watch.includes(r.slug)) : D.index),
+    [watch]
+  );
+
   const filteredIndex = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return D.index;
-    return D.index.filter((r) => r.name.toLowerCase().includes(q));
-  }, [query]);
+    if (!q) return baseIndex;
+    return baseIndex.filter((r) => r.name.toLowerCase().includes(q));
+  }, [query, baseIndex]);
+
+  // Alertas: entidades de la watchlist (o todas) con crisis detectada.
+  const alertas = useMemo(
+    () =>
+      baseIndex
+        .map((r) => D.radars[r.slug])
+        .filter((rr) => rr && rr.crisis)
+        .sort(
+          (a, b) => (b.crisis!.conc_at ?? 0) - (a.crisis!.conc_at ?? 0)
+        ),
+    [baseIndex]
+  );
 
   const notFound = query.trim().length > 0 && filteredIndex.length === 0;
 
@@ -120,18 +161,100 @@ export default function PalcoPage() {
 
   return (
     <div className="min-h-screen bg-[#faf9f7] text-stone-900">
-      <div className="mx-auto max-w-[1100px] px-5 py-8">
-        {/* marca */}
-        <div
-          className="flex items-center gap-2 text-[13px] font-semibold tracking-[0.2em]"
-          style={{ color: BRAND }}
-        >
-          <span
-            className="inline-block h-2 w-2 animate-pulse rounded-full"
-            style={{ backgroundColor: BRAND }}
-          />
-          PALCO
+      {/* nav superior */}
+      <div className="border-b border-stone-200 bg-white">
+        <div className="mx-auto flex max-w-[1100px] items-center justify-between px-5 py-3">
+          <div
+            className="flex items-center gap-2 text-[13px] font-semibold tracking-[0.2em]"
+            style={{ color: BRAND }}
+          >
+            <span
+              className="inline-block h-2 w-2 animate-pulse rounded-full"
+              style={{ backgroundColor: BRAND }}
+            />
+            PALCO
+          </div>
+          <div className="flex items-center gap-3 text-[13px]">
+            {plan && (
+              <span className="rounded-full border border-blue-200 bg-blue-50 px-3 py-1 font-medium" style={{ color: BRAND }}>
+                Plan {PLAN_LABEL[plan] || plan}
+              </span>
+            )}
+            <Link
+              href="/palco/onboarding"
+              className="rounded-lg border border-stone-200 bg-white px-3 py-1.5 font-medium text-stone-600 hover:border-stone-400"
+            >
+              Editar watchlist
+            </Link>
+          </div>
         </div>
+      </div>
+
+      <div className="mx-auto max-w-[1100px] px-5 py-8">
+        {/* rail de watchlist (viene del onboarding) */}
+        {watch.length > 0 && (
+          <div className="mb-5 flex flex-wrap items-center gap-2">
+            <span className="text-[12px] font-medium text-stone-400">Tu watchlist:</span>
+            {watch.map((s) => {
+              const row = D.index.find((r) => r.slug === s);
+              const active = s === slug;
+              if (!row) return null;
+              return (
+                <button
+                  key={s}
+                  onClick={() => {
+                    setSlug(s);
+                    setTab("todas");
+                  }}
+                  className={`rounded-full border px-3 py-1 text-[12px] transition ${
+                    active
+                      ? "border-[#2f5fe0] bg-blue-50 text-[#2f5fe0]"
+                      : "border-stone-200 bg-white text-stone-600 hover:border-stone-400"
+                  }`}
+                >
+                  {row.name}
+                  {D.radars[s]?.crisis && <span className="ml-1">🚨</span>}
+                </button>
+              );
+            })}
+          </div>
+        )}
+
+        {/* panel de alertas */}
+        {alertas.length > 0 && (
+          <section className="mb-5 rounded-2xl border border-red-200 bg-white p-4 shadow-sm">
+            <div className="flex items-center justify-between">
+              <h2 className="text-[13px] font-semibold uppercase tracking-wide text-red-600">
+                🚨 Alertas activas ({alertas.length})
+              </h2>
+              <span className="text-[12px] text-stone-400">necesitan tu atención</span>
+            </div>
+            <div className="mt-3 grid gap-2 sm:grid-cols-2">
+              {alertas.map((rr) => (
+                <button
+                  key={rr.slug}
+                  onClick={() => {
+                    setSlug(rr.slug);
+                    setTab("neg");
+                  }}
+                  className="flex items-center justify-between gap-3 rounded-lg border border-red-100 bg-red-50 px-3 py-2 text-left hover:border-red-300"
+                >
+                  <div className="min-w-0">
+                    <p className="truncate text-[13px] font-semibold text-stone-800">
+                      {rr.entity}
+                    </p>
+                    <p className="truncate text-[12px] text-stone-500">
+                      {rr.crisis!.channel} · {fmtDay(rr.crisis!.date)}
+                    </p>
+                  </div>
+                  <span className="shrink-0 text-[12px] text-red-600">
+                    👁 {compact(rr.crisis!.conc_at)} · 💬 ×{rr.crisis!.chat_ratio}
+                  </span>
+                </button>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* selector de entidad */}
         <section className="mt-4 rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">

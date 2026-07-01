@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T12:11:40.413358+00:00",
+  "generated_at": "2026-07-01T12:32:36.885721+00:00",
   "default": "manuel-adorni",
   "index": [
     {
@@ -34,6 +34,17 @@
       "neg": 3,
       "neu": 27,
       "pos": 2
+    },
+    {
+      "slug": "lionel-scaloni",
+      "name": "Lionel Scaloni",
+      "type": "Deporte",
+      "mentions": 366,
+      "chat": 44,
+      "channels": 10,
+      "neg": 0,
+      "neu": 52,
+      "pos": 3
     },
     {
       "slug": "mauricio-macri",
@@ -89,6 +100,39 @@
       "neg": 3,
       "neu": 38,
       "pos": 2
+    },
+    {
+      "slug": "shakira",
+      "name": "Shakira",
+      "type": "Música",
+      "mentions": 123,
+      "chat": 2,
+      "channels": 7,
+      "neg": 1,
+      "neu": 35,
+      "pos": 1
+    },
+    {
+      "slug": "patricia-bullrich",
+      "name": "Patricia Bullrich",
+      "type": "Político",
+      "mentions": 111,
+      "chat": 25,
+      "channels": 11,
+      "neg": 3,
+      "neu": 22,
+      "pos": 2
+    },
+    {
+      "slug": "julian-alvarez",
+      "name": "Julián Álvarez",
+      "type": "Deporte",
+      "mentions": 90,
+      "chat": 0,
+      "channels": 8,
+      "neg": 1,
+      "neu": 39,
+      "pos": 3
     }
   ],
   "radars": {
@@ -3672,6 +3716,1723 @@
           "yt_url": "https://www.youtube.com/watch?v=Vmo-2tGYPYg&t=4167s",
           "clip_start": 4167,
           "clip_label": "01:09:27",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        }
+      ]
+    },
+    "patricia-bullrich": {
+      "slug": "patricia-bullrich",
+      "entity": "Patricia Bullrich",
+      "type": "Político",
+      "watchlist": [
+        "Patricia Bullrich",
+        "patricia bullrich",
+        "bullrich"
+      ],
+      "totals": {
+        "transcript_mentions": 111,
+        "chat_mentions": 25,
+        "programs_with_mentions": 27,
+        "channels": 11
+      },
+      "sentiment": {
+        "neg": 3,
+        "neu": 22,
+        "pos": 2
+      },
+      "share_of_voice": [
+        {
+          "channel": "GELATINA",
+          "mentions": 41,
+          "pct": 36.9
+        },
+        {
+          "channel": "OLGA",
+          "mentions": 21,
+          "pct": 18.9
+        },
+        {
+          "channel": "BorderPeriodismo",
+          "mentions": 16,
+          "pct": 14.4
+        },
+        {
+          "channel": "BLENDER",
+          "mentions": 9,
+          "pct": 8.1
+        },
+        {
+          "channel": "Cenital",
+          "mentions": 6,
+          "pct": 5.4
+        },
+        {
+          "channel": "AHORA PLAY",
+          "mentions": 6,
+          "pct": 5.4
+        },
+        {
+          "channel": "Vorterix",
+          "mentions": 4,
+          "pct": 3.6
+        },
+        {
+          "channel": "A U R A",
+          "mentions": 4,
+          "pct": 3.6
+        },
+        {
+          "channel": "Neura Media",
+          "mentions": 2,
+          "pct": 1.8
+        },
+        {
+          "channel": "LUZU TV",
+          "mentions": 1,
+          "pct": 0.9
+        },
+        {
+          "channel": "El Cronista",
+          "mentions": 1,
+          "pct": 0.9
+        }
+      ],
+      "by_day": [
+        {
+          "day": "20260603",
+          "mentions": 2
+        },
+        {
+          "day": "20260611",
+          "mentions": 1
+        },
+        {
+          "day": "20260623",
+          "mentions": 11
+        },
+        {
+          "day": "20260624",
+          "mentions": 5
+        },
+        {
+          "day": "20260625",
+          "mentions": 2
+        },
+        {
+          "day": "20260626",
+          "mentions": 8
+        },
+        {
+          "day": "20260629",
+          "mentions": 55
+        },
+        {
+          "day": "20260630",
+          "mentions": 25
+        },
+        {
+          "day": "20260701",
+          "mentions": 2
+        }
+      ],
+      "crisis": null,
+      "feed": [
+        {
+          "video_id": "ptOHcGEdWCk",
+          "channel": "OLGA",
+          "program": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+          "date": "20260623",
+          "views": 45112,
+          "t_seconds": 7309,
+          "t_label": "02:01:49",
+          "quote": "Y justo estaba Bullrich. Patricia Bullrich. Y me metió en cárcel, me piró una táser",
+          "conc_at": 38093,
+          "chat_msgs": 67,
+          "chat_ratio": 0.73,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=ptOHcGEdWCk&t=7306s",
+          "clip_start": 7306,
+          "clip_label": "02:01:46",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "WNe6QLgDfyM",
+          "channel": "OLGA",
+          "program": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+          "date": "20260629",
+          "views": 74025,
+          "t_seconds": 10246,
+          "t_label": "02:50:46",
+          "quote": "Como con independencia Para mí Patricia Bullrich hoy no la veo respondiendo a Macri Pero bueno, el tocaputo del Ministro de Economía",
+          "conc_at": 37430,
+          "chat_msgs": 67,
+          "chat_ratio": 1.14,
+          "chat_ex": [
+            "Si, Olga está haciendo campaña por macri aunque es raro que con el pro (Santilli-Bullrich)"
+          ],
+          "sentiment": "neu",
+          "mentions_in_program": 3,
+          "yt_url": "https://www.youtube.com/watch?v=WNe6QLgDfyM&t=10243s",
+          "clip_start": 10243,
+          "clip_label": "02:50:43",
+          "origen": "ambos",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "e3av_6yqgHg",
+          "channel": "OLGA",
+          "program": "NOS SOMETEMOS AL CASCO DE LA VERDAD | #SoñéQueVolaba 29/6",
+          "date": "20260629",
+          "views": 60610,
+          "t_seconds": 5043,
+          "t_label": "01:24:03",
+          "quote": "La única que hablaba en off, perdón, en on Era Pato Bullrich, que lo dijo varias veces Esto es insostenible, la ética por encima",
+          "conc_at": 34420,
+          "chat_msgs": 32,
+          "chat_ratio": 0.4,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 3,
+          "yt_url": "https://www.youtube.com/watch?v=e3av_6yqgHg&t=5040s",
+          "clip_start": 5040,
+          "clip_label": "01:24:00",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "bX7MB2_OI2I",
+          "channel": "OLGA",
+          "program": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+          "date": "20260623",
+          "views": 43284,
+          "t_seconds": 3098,
+          "t_label": "00:51:38",
+          "quote": "Ahora, la pregunta pública hoy es, ¿hasta cuándo se puede sostener esta guerra interna entre Dorni y Patricia Bullrich con los dos adentro? O se va Bullrich de la libertad de avanza o se va Dorni del gobierno. ¿Por qué Bullrich los ayudó entonces a mover las sesiones de interpela",
+          "conc_at": 19001,
+          "chat_msgs": 18,
+          "chat_ratio": 0.26,
+          "chat_ex": [],
+          "sentiment": "neg",
+          "mentions_in_program": 9,
+          "yt_url": "https://www.youtube.com/watch?v=bX7MB2_OI2I&t=3095s",
+          "clip_start": 3095,
+          "clip_label": "00:51:35",
+          "origen": "hablado",
+          "formato": "tema del bloque"
+        },
+        {
+          "video_id": "3CPnLRc7h2w",
+          "channel": "Vorterix",
+          "program": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+          "date": "20260629",
+          "views": 18515,
+          "t_seconds": 3254,
+          "t_label": "00:54:14",
+          "quote": "Bueno, ahí fue donde algunos se pasaron de forma informal del PRO a la Libertad Avanza Algunos de forma más formal, en este caso Patricia Bullrich Que Patricia Bullrich también salió a celebrar el hecho de que haya salido Manuela Dorni del gobierno",
+          "conc_at": 7912,
+          "chat_msgs": 40,
+          "chat_ratio": 0.59,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 4,
+          "yt_url": "https://www.youtube.com/watch?v=3CPnLRc7h2w&t=3251s",
+          "clip_start": 3251,
+          "clip_label": "00:54:11",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "tcq7UAzc3iw",
+          "channel": "BLENDER",
+          "program": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
+          "date": "20260624",
+          "views": 4176,
+          "t_seconds": 1420,
+          "t_label": "00:23:40",
+          "quote": "Él se ríe como que Todavía patea Bullrich Lo mortifica",
+          "conc_at": 7013,
+          "chat_msgs": 29,
+          "chat_ratio": 0.7,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=tcq7UAzc3iw&t=1417s",
+          "clip_start": 1417,
+          "clip_label": "00:23:37",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "C6BZb4k8gF0",
+          "channel": "BLENDER",
+          "program": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
+          "date": "20260624",
+          "views": 4326,
+          "t_seconds": 3706,
+          "t_label": "01:01:46",
+          "quote": "Sí, claro que sí. Para, yo quiero saber, Bullrich... Y las minas peronistas son todas pesadas, querido.",
+          "conc_at": 6227,
+          "chat_msgs": 55,
+          "chat_ratio": 1.68,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 4,
+          "yt_url": "https://www.youtube.com/watch?v=C6BZb4k8gF0&t=3703s",
+          "clip_start": 3703,
+          "clip_label": "01:01:43",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "NHt6oqHZYd0",
+          "channel": "GELATINA",
+          "program": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
+          "date": "20260629",
+          "views": 12026,
+          "t_seconds": 4345,
+          "t_label": "01:12:25",
+          "quote": "Y teóricamente eso enojó mucho a los senadores aliados que decidieron no pedir la interpelación. Entonces los tipos se le quejaron a Patricia Bullrich. Le dijeron, pará, nosotros estábamos diciendo esto, el tipo nos está toreando.",
+          "conc_at": 6208,
+          "chat_msgs": 76,
+          "chat_ratio": 1.09,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 6,
+          "yt_url": "https://www.youtube.com/watch?v=NHt6oqHZYd0&t=4342s",
+          "clip_start": 4342,
+          "clip_label": "01:12:22",
+          "origen": "hablado",
+          "formato": "tema del bloque"
+        },
+        {
+          "video_id": "tOyCjVcKZlE",
+          "channel": "BLENDER",
+          "program": "El día de CARNA CAMPEÓN en el ‘86, ADIÓS ADORNI y MARTITA-JOSEMA en modo MUNDIAL | BLENDER AT NIGHT",
+          "date": "20260630",
+          "views": 2410,
+          "t_seconds": 3381,
+          "t_label": "00:56:21",
+          "quote": "Me gustaría citar a algunas personas que han dicho frases memorables también. Ya lo dijo Patricia Bullrich. Lo importante es Copetín.",
+          "conc_at": 5820,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=tOyCjVcKZlE&t=3378s",
+          "clip_start": 3378,
+          "clip_label": "00:56:18",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "Iii3dqMJvwQ",
+          "channel": "BLENDER",
+          "program": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
+          "date": "20260629",
+          "views": 32665,
+          "t_seconds": 1437,
+          "t_label": "00:23:57",
+          "quote": "bueno, de repente es uno de los tipos más importantes del país y se manda, que lo trata casi de boludas, Patricia Bullrich, en en off con los periodistas,",
+          "conc_at": 5710,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 3,
+          "yt_url": "https://www.youtube.com/watch?v=Iii3dqMJvwQ&t=1434s",
+          "clip_start": 1434,
+          "clip_label": "00:23:54",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "mNBPDZhUOf8",
+          "channel": "GELATINA",
+          "program": "Milei: “Vamos a reelegir” | TUGO con Nico Guthmann",
+          "date": "20260630",
+          "views": 25513,
+          "t_seconds": 3410,
+          "t_label": "00:56:50",
+          "quote": "Nosotros recordamos simplemente la candidatura de Macri, pero existe toda su carrera política. Bueno, pero que vemos una construcción como lo vemos de Bullrich. Pero, a ver, públicamente...",
+          "conc_at": 5348,
+          "chat_msgs": 194,
+          "chat_ratio": 2.11,
+          "chat_ex": [
+            "están todos Caputo Bullrich Sturzzeneger Santilli"
+          ],
+          "sentiment": "neu",
+          "mentions_in_program": 3,
+          "yt_url": "https://www.youtube.com/watch?v=mNBPDZhUOf8&t=3407s",
+          "clip_start": 3407,
+          "clip_label": "00:56:47",
+          "origen": "ambos",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "LTlJq7vIE0g",
+          "channel": "GELATINA",
+          "program": "¿Milei superó la crisis? | EL PUENTE con Pedro ROSEMBLAT y Nico GUTHMANN",
+          "date": "20260630",
+          "views": 33443,
+          "t_seconds": 373,
+          "t_label": "00:06:13",
+          "quote": "bueno, con Santilli adentro con Patricia Bullrich adentro, estamos desactivando cualquier plan",
+          "conc_at": 4449,
+          "chat_msgs": 11,
+          "chat_ratio": 0.18,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=LTlJq7vIE0g&t=370s",
+          "clip_start": 370,
+          "clip_label": "00:06:10",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "CvdiEy8pgBc",
+          "channel": "Cenital",
+          "program": "MILEI abraza a ADORNI, SANTILLI al Gabinete y ZAIAT analiza la economía | 540° O'Donnell y Tenembaum",
+          "date": "20260701",
+          "views": 15973,
+          "t_seconds": 3076,
+          "t_label": "00:51:16",
+          "quote": "Estaba clara, desde el momento en el que Patricia Bullrich le hace saber Al gobierno, esto no se sostiene más",
+          "conc_at": 4237,
+          "chat_msgs": 9,
+          "chat_ratio": 0.97,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=CvdiEy8pgBc&t=3073s",
+          "clip_start": 3073,
+          "clip_label": "00:51:13",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "vlNZMMmBbLw",
+          "channel": "GELATINA",
+          "program": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+          "date": "20260629",
+          "views": 7813,
+          "t_seconds": 7806,
+          "t_label": "02:10:06",
+          "quote": "Claro. Vuelve a repetir el discurso que se instaló con la carta de Manuel Adorni, que después la repitió Milley, Bullrich, siempre tratando de apuntar a la situación anímica de Adorni, a la situación familiar,",
+          "conc_at": 2376,
+          "chat_msgs": 1,
+          "chat_ratio": 0.14,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 10,
+          "yt_url": "https://www.youtube.com/watch?v=vlNZMMmBbLw&t=7803s",
+          "clip_start": 7803,
+          "clip_label": "02:10:03",
+          "origen": "hablado",
+          "formato": "tema del bloque"
+        }
+      ]
+    },
+    "lionel-scaloni": {
+      "slug": "lionel-scaloni",
+      "entity": "Lionel Scaloni",
+      "type": "Deporte",
+      "watchlist": [
+        "Lionel Scaloni",
+        "lionel scaloni",
+        "scaloni"
+      ],
+      "totals": {
+        "transcript_mentions": 366,
+        "chat_mentions": 44,
+        "programs_with_mentions": 55,
+        "channels": 10
+      },
+      "sentiment": {
+        "neg": 0,
+        "neu": 52,
+        "pos": 3
+      },
+      "share_of_voice": [
+        {
+          "channel": "OLGA",
+          "mentions": 267,
+          "pct": 73.0
+        },
+        {
+          "channel": "LUZU TV",
+          "mentions": 61,
+          "pct": 16.7
+        },
+        {
+          "channel": "Neura Media",
+          "mentions": 11,
+          "pct": 3.0
+        },
+        {
+          "channel": "Vorterix",
+          "mentions": 9,
+          "pct": 2.5
+        },
+        {
+          "channel": "BLENDER",
+          "mentions": 6,
+          "pct": 1.6
+        },
+        {
+          "channel": "A U R A",
+          "mentions": 4,
+          "pct": 1.1
+        },
+        {
+          "channel": "BorderPeriodismo",
+          "mentions": 4,
+          "pct": 1.1
+        },
+        {
+          "channel": "Urbana Play 104.3 FM",
+          "mentions": 2,
+          "pct": 0.5
+        },
+        {
+          "channel": "AHORA PLAY",
+          "mentions": 1,
+          "pct": 0.3
+        },
+        {
+          "channel": "Cenital",
+          "mentions": 1,
+          "pct": 0.3
+        }
+      ],
+      "by_day": [
+        {
+          "day": "20260601",
+          "mentions": 4
+        },
+        {
+          "day": "20260602",
+          "mentions": 1
+        },
+        {
+          "day": "20260603",
+          "mentions": 6
+        },
+        {
+          "day": "20260604",
+          "mentions": 14
+        },
+        {
+          "day": "20260608",
+          "mentions": 53
+        },
+        {
+          "day": "20260609",
+          "mentions": 70
+        },
+        {
+          "day": "20260610",
+          "mentions": 29
+        },
+        {
+          "day": "20260611",
+          "mentions": 16
+        },
+        {
+          "day": "20260619",
+          "mentions": 2
+        },
+        {
+          "day": "20260622",
+          "mentions": 11
+        },
+        {
+          "day": "20260623",
+          "mentions": 37
+        },
+        {
+          "day": "20260624",
+          "mentions": 8
+        },
+        {
+          "day": "20260625",
+          "mentions": 34
+        },
+        {
+          "day": "20260626",
+          "mentions": 25
+        },
+        {
+          "day": "20260627",
+          "mentions": 5
+        },
+        {
+          "day": "20260629",
+          "mentions": 30
+        },
+        {
+          "day": "20260630",
+          "mentions": 19
+        },
+        {
+          "day": "20260701",
+          "mentions": 2
+        }
+      ],
+      "crisis": null,
+      "feed": [
+        {
+          "video_id": "WCF4oC8GC9o",
+          "channel": "LUZU TV",
+          "program": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
+          "date": "20260624",
+          "views": 335199,
+          "t_seconds": 4615,
+          "t_label": "01:16:55",
+          "quote": "Como por ejemplo Pero como contó Scaloni hace poco No sé si la escucharon",
+          "conc_at": 230552,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 4,
+          "yt_url": "https://www.youtube.com/watch?v=WCF4oC8GC9o&t=4612s",
+          "clip_start": 4612,
+          "clip_label": "01:16:52",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "W5dvBDWCWWk",
+          "channel": "LUZU TV",
+          "program": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+          "date": "20260626",
+          "views": 348552,
+          "t_seconds": 4481,
+          "t_label": "01:14:41",
+          "quote": "Si no, mirá Escaloni Usted nunca me escuchó decir esto",
+          "conc_at": 214583,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=W5dvBDWCWWk&t=4478s",
+          "clip_start": 4478,
+          "clip_label": "01:14:38",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "S1UDpsKkZvE",
+          "channel": "LUZU TV",
+          "program": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+          "date": "20260623",
+          "views": 137091,
+          "t_seconds": 12198,
+          "t_label": "03:23:18",
+          "quote": "Y el deseo de todos Como dijo Scaloni Es que seas feliz",
+          "conc_at": 122469,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=S1UDpsKkZvE&t=12195s",
+          "clip_start": 12195,
+          "clip_label": "03:23:15",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "cEWsZ9vbiCg",
+          "channel": "LUZU TV",
+          "program": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+          "date": "20260629",
+          "views": 146307,
+          "t_seconds": 12288,
+          "t_label": "03:24:48",
+          "quote": "¿Quién le da el primer pase? Scaloni Es magia, magia pura",
+          "conc_at": 120341,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 10,
+          "yt_url": "https://www.youtube.com/watch?v=cEWsZ9vbiCg&t=12285s",
+          "clip_start": 12285,
+          "clip_label": "03:24:45",
+          "origen": "hablado",
+          "formato": "tema del bloque"
+        },
+        {
+          "video_id": "bX7MB2_OI2I",
+          "channel": "OLGA",
+          "program": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+          "date": "20260623",
+          "views": 43284,
+          "t_seconds": 12918,
+          "t_label": "03:35:18",
+          "quote": "Prácticamente todo, boludo Lo que pasa es que Scaloni derrota mucho también No repite equipo en todos los titulares",
+          "conc_at": 49756,
+          "chat_msgs": 84,
+          "chat_ratio": 1.19,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 12,
+          "yt_url": "https://www.youtube.com/watch?v=bX7MB2_OI2I&t=12915s",
+          "clip_start": 12915,
+          "clip_label": "03:35:15",
+          "origen": "hablado",
+          "formato": "tema del bloque"
+        },
+        {
+          "video_id": "q_clAienUJw",
+          "channel": "OLGA",
+          "program": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+          "date": "20260623",
+          "views": 73490,
+          "t_seconds": 12697,
+          "t_label": "03:31:37",
+          "quote": "Acá podemos cargar nafta con la chiqui Ese es Scaloni, que claro, que está haciendo Uber también Porque tienen tanto tiempo libre",
+          "conc_at": 49106,
+          "chat_msgs": 107,
+          "chat_ratio": 0.82,
+          "chat_ex": [
+            "ESCALONI: DT"
+          ],
+          "sentiment": "neu",
+          "mentions_in_program": 3,
+          "yt_url": "https://www.youtube.com/watch?v=q_clAienUJw&t=12694s",
+          "clip_start": 12694,
+          "clip_label": "03:31:34",
+          "origen": "ambos",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "mxFu-R3O8TY",
+          "channel": "OLGA",
+          "program": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+          "date": "20260625",
+          "views": 52323,
+          "t_seconds": 12347,
+          "t_label": "03:25:47",
+          "quote": "Chicos, se enfrian los huevos Esperando que hable Scaloni Leo Montero y Spien",
+          "conc_at": 48033,
+          "chat_msgs": 97,
+          "chat_ratio": 0.74,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 34,
+          "yt_url": "https://www.youtube.com/watch?v=mxFu-R3O8TY&t=12344s",
+          "clip_start": 12344,
+          "clip_label": "03:25:44",
+          "origen": "hablado",
+          "formato": "tema del bloque"
+        },
+        {
+          "video_id": "XHV2BV9DWMs",
+          "channel": "OLGA",
+          "program": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+          "date": "20260619",
+          "views": 39368,
+          "t_seconds": 2405,
+          "t_label": "00:40:05",
+          "quote": "de prensa de Scaloni completa",
+          "conc_at": 39930,
+          "chat_msgs": 97,
+          "chat_ratio": 0.69,
+          "chat_ex": [
+            "NO PUEDEN INVENTAR TANTO. NO FUE SCALONI, FUE EL VIEJO MEADO DE BIELSA"
+          ],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=XHV2BV9DWMs&t=2402s",
+          "clip_start": 2402,
+          "clip_label": "00:40:02",
+          "origen": "ambos",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "ptOHcGEdWCk",
+          "channel": "OLGA",
+          "program": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+          "date": "20260623",
+          "views": 45112,
+          "t_seconds": 2292,
+          "t_label": "00:38:12",
+          "quote": "Chona, sí, decinos No, yo quería sumar a todo este bloque de la selección de que hay una entrevista que Scaloni le da a Valdano donde él explica que cuando llegó a la selección argentina se le pedía un fútbol de alta intensidad",
+          "conc_at": 39397,
+          "chat_msgs": 54,
+          "chat_ratio": 0.59,
+          "chat_ex": [
+            "Que grande es este tipo loco! Gracias scaloni",
+            "terrible chad scaloni, el tipo vio lo que nadie vio, el adn argento!",
+            "muy bueno Scaloni"
+          ],
+          "sentiment": "neu",
+          "mentions_in_program": 7,
+          "yt_url": "https://www.youtube.com/watch?v=ptOHcGEdWCk&t=2289s",
+          "clip_start": 2289,
+          "clip_label": "00:38:09",
+          "origen": "ambos",
+          "formato": "tema del bloque"
+        },
+        {
+          "video_id": "WNe6QLgDfyM",
+          "channel": "OLGA",
+          "program": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+          "date": "20260629",
+          "views": 74025,
+          "t_seconds": 4054,
+          "t_label": "01:07:34",
+          "quote": "O sea, Messi es el sol y todo alrededor, dijo Scaloni, basta. Porque el día de mañana",
+          "conc_at": 24797,
+          "chat_msgs": 59,
+          "chat_ratio": 1.0,
+          "chat_ex": [
+            "2 HOJAS CON SCALONI, 2 COPAS DEL MUNDO, ELIJO CREER..!!!!",
+            "APUESTO UN BRAZO A QUE PUSO \"ESCALONI\"",
+            "OBVIAMENTE puso Escaloni"
+          ],
+          "sentiment": "neu",
+          "mentions_in_program": 4,
+          "yt_url": "https://www.youtube.com/watch?v=WNe6QLgDfyM&t=4051s",
+          "clip_start": 4051,
+          "clip_label": "01:07:31",
+          "origen": "ambos",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "teZ-nZ63J0I",
+          "channel": "LUZU TV",
+          "program": "#FMLUZU | LA CASTRO SE BAJÓ DE LAS APPS DE CITAS + LE HACEMOS UNA CANCIÓN + MANO A MANO CASTRINI",
+          "date": "20260626",
+          "views": 15651,
+          "t_seconds": 1173,
+          "t_label": "00:19:33",
+          "quote": "Yo al jefe, ¿sabés lo que le digo? Escucha, vos sos el escaloni de esta estación de servicio Y la verdad es que uno a veces necesita tener un poco de tiempo como para desconectar, descansar,",
+          "conc_at": 24698,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 4,
+          "yt_url": "https://www.youtube.com/watch?v=teZ-nZ63J0I&t=1170s",
+          "clip_start": 1170,
+          "clip_label": "00:19:30",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "cG_sxu72mSo",
+          "channel": "Vorterix",
+          "program": "MESSI CONOCIÓ A SPIDERMAN Y VINO MORE BELTRÁN | #ParenLaMano Completo - 30/06 | VORTERIX",
+          "date": "20260701",
+          "views": 62080,
+          "t_seconds": 4123,
+          "t_label": "01:08:43",
+          "quote": "y hoy no sé ves a un Scaloni que es re cercano",
+          "conc_at": 15919,
+          "chat_msgs": 47,
+          "chat_ratio": 0.64,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=cG_sxu72mSo&t=4120s",
+          "clip_start": 4120,
+          "clip_label": "01:08:40",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "FYdwwoHNrMs",
+          "channel": "Vorterix",
+          "program": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+          "date": "20260626",
+          "views": 34139,
+          "t_seconds": 6887,
+          "t_label": "01:54:47",
+          "quote": "porque ya arranca. Perdón, ¿vos viste esto antes que termine? Le preguntaron a Scaloni por la posibilidad de que estudiante de la Plata en el futuro",
+          "conc_at": 12913,
+          "chat_msgs": 64,
+          "chat_ratio": 0.73,
+          "chat_ex": [
+            "Es hincha de Boca Scaloni",
+            "Hay 2 videos en los que Scaloni cuenta que es hincha de Boca",
+            "scaloni indico q el adicto comenzara desde la banca de suplentes"
+          ],
+          "sentiment": "neu",
+          "mentions_in_program": 3,
+          "yt_url": "https://www.youtube.com/watch?v=FYdwwoHNrMs&t=6884s",
+          "clip_start": 6884,
+          "clip_label": "01:54:44",
+          "origen": "ambos",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "95yJuQx7ol8",
+          "channel": "OLGA",
+          "program": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+          "date": "20260622",
+          "views": 15613,
+          "t_seconds": 3033,
+          "t_label": "00:50:33",
+          "quote": "Yo lo cuidaría. Escaloni, después del primer partido, dijo, ojalá podamos ganar el segundo para darle lugar a los que no vienen jugando, porque son dos partes del barco.",
+          "conc_at": 11526,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "pos",
+          "mentions_in_program": 11,
+          "yt_url": "https://www.youtube.com/watch?v=95yJuQx7ol8&t=3030s",
+          "clip_start": 3030,
+          "clip_label": "00:50:30",
+          "origen": "hablado",
+          "formato": "tema del bloque"
+        }
+      ]
+    },
+    "julian-alvarez": {
+      "slug": "julian-alvarez",
+      "entity": "Julián Álvarez",
+      "type": "Deporte",
+      "watchlist": [
+        "Julián Álvarez",
+        "julián álvarez",
+        "julian alvarez",
+        "la araña",
+        "la arana"
+      ],
+      "totals": {
+        "transcript_mentions": 90,
+        "chat_mentions": 0,
+        "programs_with_mentions": 43,
+        "channels": 8
+      },
+      "sentiment": {
+        "neg": 1,
+        "neu": 39,
+        "pos": 3
+      },
+      "share_of_voice": [
+        {
+          "channel": "OLGA",
+          "mentions": 48,
+          "pct": 53.3
+        },
+        {
+          "channel": "LUZU TV",
+          "mentions": 33,
+          "pct": 36.7
+        },
+        {
+          "channel": "GELATINA",
+          "mentions": 3,
+          "pct": 3.3
+        },
+        {
+          "channel": "BLENDER",
+          "mentions": 2,
+          "pct": 2.2
+        },
+        {
+          "channel": "A U R A",
+          "mentions": 1,
+          "pct": 1.1
+        },
+        {
+          "channel": "BorderPeriodismo",
+          "mentions": 1,
+          "pct": 1.1
+        },
+        {
+          "channel": "Bondi Live",
+          "mentions": 1,
+          "pct": 1.1
+        },
+        {
+          "channel": "Vorterix",
+          "mentions": 1,
+          "pct": 1.1
+        }
+      ],
+      "by_day": [
+        {
+          "day": "20260601",
+          "mentions": 2
+        },
+        {
+          "day": "20260603",
+          "mentions": 4
+        },
+        {
+          "day": "20260604",
+          "mentions": 1
+        },
+        {
+          "day": "20260608",
+          "mentions": 8
+        },
+        {
+          "day": "20260609",
+          "mentions": 15
+        },
+        {
+          "day": "20260610",
+          "mentions": 8
+        },
+        {
+          "day": "20260611",
+          "mentions": 9
+        },
+        {
+          "day": "20260622",
+          "mentions": 10
+        },
+        {
+          "day": "20260623",
+          "mentions": 7
+        },
+        {
+          "day": "20260624",
+          "mentions": 3
+        },
+        {
+          "day": "20260625",
+          "mentions": 2
+        },
+        {
+          "day": "20260626",
+          "mentions": 1
+        },
+        {
+          "day": "20260629",
+          "mentions": 16
+        },
+        {
+          "day": "20260630",
+          "mentions": 4
+        }
+      ],
+      "crisis": null,
+      "feed": [
+        {
+          "video_id": "cHMIm1Fnig4",
+          "channel": "LUZU TV",
+          "program": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+          "date": "20260623",
+          "views": 373638,
+          "t_seconds": 7524,
+          "t_label": "02:05:24",
+          "quote": "Hola, ¿cómo estás? ¿No? Julián Álvarez. Hola, Julián, soy de Atlético.",
+          "conc_at": 237799,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=cHMIm1Fnig4&t=7521s",
+          "clip_start": 7521,
+          "clip_label": "02:05:21",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "jEEahJU8_jg",
+          "channel": "LUZU TV",
+          "program": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
+          "date": "20260629",
+          "views": 533713,
+          "t_seconds": 4810,
+          "t_label": "01:20:10",
+          "quote": "El pasaporte, ¿quién soy? Julián Álvarez Mordí el 11 titular",
+          "conc_at": 223689,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=jEEahJU8_jg&t=4807s",
+          "clip_start": 4807,
+          "clip_label": "01:20:07",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "E1SnlQyyuRc",
+          "channel": "LUZU TV",
+          "program": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
+          "date": "20260623",
+          "views": 118017,
+          "t_seconds": 7423,
+          "t_label": "02:03:43",
+          "quote": "y aprender también a tener un lindo... Antes de irme, quiero que hablemos de la bomba que tiró Julián Álvarez después del partido ante Austria.",
+          "conc_at": 52399,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=E1SnlQyyuRc&t=7420s",
+          "clip_start": 7420,
+          "clip_label": "02:03:40",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "mxFu-R3O8TY",
+          "channel": "OLGA",
+          "program": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+          "date": "20260625",
+          "views": 52323,
+          "t_seconds": 11964,
+          "t_label": "03:19:24",
+          "quote": "de titulares que tienen que seguir sumando minutos, Julián Álvarez, Taliafico Lochelso y Otamendi juegan",
+          "conc_at": 46524,
+          "chat_msgs": 90,
+          "chat_ratio": 0.69,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=mxFu-R3O8TY&t=11961s",
+          "clip_start": 11961,
+          "clip_label": "03:19:21",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "WNe6QLgDfyM",
+          "channel": "OLGA",
+          "program": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+          "date": "20260629",
+          "views": 74025,
+          "t_seconds": 11646,
+          "t_label": "03:14:06",
+          "quote": "Nos gusta Julián, Julián Álvarez. Ah, Julián Álvarez. Martínez. Emiliano Martínez, el Dibu, el Dibu. ¿Qué? El Dibu. Sí, sí. El Dibu. Emiliano Martínez, Dibu, is his apodo. Dibu Martínez. Sí, sí, Dibu. Dibu.",
+          "conc_at": 39586,
+          "chat_msgs": 68,
+          "chat_ratio": 1.15,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=WNe6QLgDfyM&t=11643s",
+          "clip_start": 11643,
+          "clip_label": "03:14:03",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "Lm6Db-SEA0M",
+          "channel": "OLGA",
+          "program": "SOÑAMOS QUE CAZAMOS UTOPÍAS IMPOSIBLES | #SoñéQueVolaba 30/6",
+          "date": "20260630",
+          "views": 122235,
+          "t_seconds": 5237,
+          "t_label": "01:27:17",
+          "quote": "Macalister. No, Julián Álvarez. Exactamente, correcto.",
+          "conc_at": 37896,
+          "chat_msgs": 48,
+          "chat_ratio": 0.76,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=Lm6Db-SEA0M&t=5234s",
+          "clip_start": 5234,
+          "clip_label": "01:27:14",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "e3av_6yqgHg",
+          "channel": "OLGA",
+          "program": "NOS SOMETEMOS AL CASCO DE LA VERDAD | #SoñéQueVolaba 29/6",
+          "date": "20260629",
+          "views": 60610,
+          "t_seconds": 3842,
+          "t_label": "01:04:02",
+          "quote": "Es exactamente igual a su bebé. Julián Álvarez, 6 años. Cambiado, ¿no? Mirá, Julián, está re distinto.",
+          "conc_at": 34398,
+          "chat_msgs": 68,
+          "chat_ratio": 0.85,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=e3av_6yqgHg&t=3839s",
+          "clip_start": 3839,
+          "clip_label": "01:03:59",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "95yJuQx7ol8",
+          "channel": "OLGA",
+          "program": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+          "date": "20260622",
+          "views": 15613,
+          "t_seconds": 6825,
+          "t_label": "01:53:45",
+          "quote": "Porque, a ver ¿Qué tendría que hacer Julián Álvarez? ¿Vos le impedís crecer porque",
+          "conc_at": 15217,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "pos",
+          "mentions_in_program": 10,
+          "yt_url": "https://www.youtube.com/watch?v=95yJuQx7ol8&t=6822s",
+          "clip_start": 6822,
+          "clip_label": "01:53:42",
+          "origen": "hablado",
+          "formato": "tema del bloque"
+        },
+        {
+          "video_id": "mqQ_D9hUvvg",
+          "channel": "LUZU TV",
+          "program": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+          "date": "20260630",
+          "views": 39237,
+          "t_seconds": 618,
+          "t_label": "00:10:18",
+          "quote": "El mercado de pases justo está frenado Está como Julián Álvarez Hay cosas que no se confirman por Cábala",
+          "conc_at": 14961,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=mqQ_D9hUvvg&t=615s",
+          "clip_start": 615,
+          "clip_label": "00:10:15",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "NKhi31a86K8",
+          "channel": "OLGA",
+          "program": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+          "date": "20260623",
+          "views": 14487,
+          "t_seconds": 1497,
+          "t_label": "00:24:57",
+          "quote": "Para pasársela de derecha A Julián Álvarez allá Porque la pelota va para un costado",
+          "conc_at": 9936,
+          "chat_msgs": 6,
+          "chat_ratio": 0.34,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 4,
+          "yt_url": "https://www.youtube.com/watch?v=NKhi31a86K8&t=1494s",
+          "clip_start": 1494,
+          "clip_label": "00:24:54",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "JqkhC1EnyTQ",
+          "channel": "OLGA",
+          "program": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+          "date": "20260624",
+          "views": 12997,
+          "t_seconds": 1705,
+          "t_label": "00:28:25",
+          "quote": "Lautaro Martínez y con Julián Álvarez Messi está un poco más oxigenado",
+          "conc_at": 8745,
+          "chat_msgs": 5,
+          "chat_ratio": 1.24,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=JqkhC1EnyTQ&t=1702s",
+          "clip_start": 1702,
+          "clip_label": "00:28:22",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "tAUTd2FsMxA",
+          "channel": "Bondi Live",
+          "program": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+          "date": "20260624",
+          "views": 37783,
+          "t_seconds": 21884,
+          "t_label": "06:04:44",
+          "quote": "Avenida Rivadavia 4879, acá en Caballito, y después tenemos el Centro Venezolano Argentino, están haciendo un apoyo en general, en Julián Álvarez 866, Villa Crespo, de lunes a sábado, de 10 a 18.",
+          "conc_at": 3101,
+          "chat_msgs": 54,
+          "chat_ratio": 1.16,
+          "chat_ex": [],
+          "sentiment": "pos",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=tAUTd2FsMxA&t=21881s",
+          "clip_start": 21881,
+          "clip_label": "06:04:41",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "CP5OqzXez-g",
+          "channel": "BorderPeriodismo",
+          "program": "EL TAPON DE ADORNI y el NUEVO SANTILLI | VIVAN TODO en VIVO con OLIVÁN",
+          "date": "20260629",
+          "views": 2107,
+          "t_seconds": 4892,
+          "t_label": "01:21:32",
+          "quote": "la duda de si juega Lautaro o si juega Julián Álvarez próximo viernes 7 de la tarde frente a",
+          "conc_at": 2085,
+          "chat_msgs": 1,
+          "chat_ratio": 1.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=CP5OqzXez-g&t=4889s",
+          "clip_start": 4889,
+          "clip_label": "01:21:29",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "vlNZMMmBbLw",
+          "channel": "GELATINA",
+          "program": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+          "date": "20260629",
+          "views": 7813,
+          "t_seconds": 4546,
+          "t_label": "01:15:46",
+          "quote": "Y me podrías contar qué pasa con Julián Álvarez Es el cholo que le sacó la gracia",
+          "conc_at": 1661,
+          "chat_msgs": 7,
+          "chat_ratio": 0.99,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 3,
+          "yt_url": "https://www.youtube.com/watch?v=vlNZMMmBbLw&t=4543s",
+          "clip_start": 4543,
+          "clip_label": "01:15:43",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        }
+      ]
+    },
+    "shakira": {
+      "slug": "shakira",
+      "entity": "Shakira",
+      "type": "Música",
+      "watchlist": [
+        "Shakira",
+        "shakira"
+      ],
+      "totals": {
+        "transcript_mentions": 123,
+        "chat_mentions": 2,
+        "programs_with_mentions": 37,
+        "channels": 7
+      },
+      "sentiment": {
+        "neg": 1,
+        "neu": 35,
+        "pos": 1
+      },
+      "share_of_voice": [
+        {
+          "channel": "LUZU TV",
+          "mentions": 63,
+          "pct": 51.2
+        },
+        {
+          "channel": "OLGA",
+          "mentions": 49,
+          "pct": 39.8
+        },
+        {
+          "channel": "Vorterix",
+          "mentions": 3,
+          "pct": 2.4
+        },
+        {
+          "channel": "A U R A",
+          "mentions": 3,
+          "pct": 2.4
+        },
+        {
+          "channel": "Urbana Play 104.3 FM",
+          "mentions": 3,
+          "pct": 2.4
+        },
+        {
+          "channel": "AZZ",
+          "mentions": 1,
+          "pct": 0.8
+        },
+        {
+          "channel": "Bondi Live",
+          "mentions": 1,
+          "pct": 0.8
+        }
+      ],
+      "by_day": [
+        {
+          "day": "20260529",
+          "mentions": 2
+        },
+        {
+          "day": "20260604",
+          "mentions": 13
+        },
+        {
+          "day": "20260605",
+          "mentions": 1
+        },
+        {
+          "day": "20260608",
+          "mentions": 20
+        },
+        {
+          "day": "20260609",
+          "mentions": 7
+        },
+        {
+          "day": "20260610",
+          "mentions": 2
+        },
+        {
+          "day": "20260611",
+          "mentions": 27
+        },
+        {
+          "day": "20260621",
+          "mentions": 1
+        },
+        {
+          "day": "20260622",
+          "mentions": 8
+        },
+        {
+          "day": "20260623",
+          "mentions": 9
+        },
+        {
+          "day": "20260624",
+          "mentions": 6
+        },
+        {
+          "day": "20260626",
+          "mentions": 14
+        },
+        {
+          "day": "20260627",
+          "mentions": 7
+        },
+        {
+          "day": "20260629",
+          "mentions": 1
+        },
+        {
+          "day": "20260630",
+          "mentions": 2
+        },
+        {
+          "day": "20260701",
+          "mentions": 3
+        }
+      ],
+      "crisis": null,
+      "feed": [
+        {
+          "video_id": "cHMIm1Fnig4",
+          "channel": "LUZU TV",
+          "program": "#NADIEDICENADA l EL MOZO MANDÓ OTRO REGALO, LA CULPA DE SER HIJOS Y ¿QUÉ PASÓ CON \"OJOS LOCOS\"?",
+          "date": "20260623",
+          "views": 373638,
+          "t_seconds": 2839,
+          "t_label": "00:47:19",
+          "quote": "caliente por la doble miel está dando la batalla por louis yo lucho por louis y por Shakira que se suma a la causa Cuando viajas hay cosas",
+          "conc_at": 219030,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 4,
+          "yt_url": "https://www.youtube.com/watch?v=cHMIm1Fnig4&t=2836s",
+          "clip_start": 2836,
+          "clip_label": "00:47:16",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "cEWsZ9vbiCg",
+          "channel": "LUZU TV",
+          "program": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+          "date": "20260629",
+          "views": 146307,
+          "t_seconds": 12204,
+          "t_label": "03:23:24",
+          "quote": "Sí. Lo enfocaban todo el tiempo y Shakira también. La 20, que es la que usaba Ginóbili, pero en el caso este es la de Alexis.",
+          "conc_at": 116797,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=cEWsZ9vbiCg&t=12201s",
+          "clip_start": 12201,
+          "clip_label": "03:23:21",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "E1SnlQyyuRc",
+          "channel": "LUZU TV",
+          "program": "#PATRIAYFAMILIA l EL DESCUBRIMIENTO DE FEFE Y TODA LA SEPARACIÓN DE DANI Y NICK",
+          "date": "20260623",
+          "views": 118017,
+          "t_seconds": 306,
+          "t_label": "00:05:06",
+          "quote": "Era cuando había Planos random de Shakira No sé por qué estaba ahí",
+          "conc_at": 114151,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=E1SnlQyyuRc&t=303s",
+          "clip_start": 303,
+          "clip_label": "00:05:03",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "fnvj0iK5yDI",
+          "channel": "LUZU TV",
+          "program": "ANTES QUE NADIE con YOYI FRANCELLA, TATI ROUST, PAPRYKA, SANTI TALLEDO Y LA GURI | EN VIVO",
+          "date": "20260626",
+          "views": 122068,
+          "t_seconds": 11672,
+          "t_label": "03:14:32",
+          "quote": "Como que hubiese pensado que no me acaso Chicos, es Shakira Está bien, boludo, pero cuánta gente",
+          "conc_at": 105922,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 6,
+          "yt_url": "https://www.youtube.com/watch?v=fnvj0iK5yDI&t=11669s",
+          "clip_start": 11669,
+          "clip_label": "03:14:29",
+          "origen": "hablado",
+          "formato": "tema del bloque"
+        },
+        {
+          "video_id": "yp1SuqSXmxA",
+          "channel": "LUZU TV",
+          "program": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, LA CASTRO Y SANTI TALLEDO | EN VIVO",
+          "date": "20260622",
+          "views": 133449,
+          "t_seconds": 10741,
+          "t_label": "02:59:01",
+          "quote": "Ah, y la tenemos, mundial 2006 y quien canta la tenemos acá. Ay, Shakira. Shakira.",
+          "conc_at": 99311,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 8,
+          "yt_url": "https://www.youtube.com/watch?v=yp1SuqSXmxA&t=10738s",
+          "clip_start": 10738,
+          "clip_label": "02:58:58",
+          "origen": "hablado",
+          "formato": "tema del bloque"
+        },
+        {
+          "video_id": "q_clAienUJw",
+          "channel": "OLGA",
+          "program": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+          "date": "20260623",
+          "views": 73490,
+          "t_seconds": 11047,
+          "t_label": "03:04:07",
+          "quote": "el día adentro como anoche como anoche le dijo lo que te dijeron me gusta porque son como shakira gastón no se lo pone gastón gastón quiero saber una cosa te estoy escuchando amaste en dalas realmente con el poco tiempo que tengo si o no priorice momentos con nati de dispersión",
+          "conc_at": 46778,
+          "chat_msgs": 138,
+          "chat_ratio": 1.05,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=q_clAienUJw&t=11044s",
+          "clip_start": 11044,
+          "clip_label": "03:04:04",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "0NuPTgKW5mc",
+          "channel": "LUZU TV",
+          "program": "#ANTESQUENADIE | AHHH TIRABA ESA: EL LEVANTE DE DIEGO Y ¿LAS SEÑORAS SABEN DE FÚTBOL?",
+          "date": "20260630",
+          "views": 134161,
+          "t_seconds": 3754,
+          "t_label": "01:02:34",
+          "quote": "Puesto 6 Es Shakira, dai dai La canción del mundial",
+          "conc_at": 28903,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=0NuPTgKW5mc&t=3751s",
+          "clip_start": 3751,
+          "clip_label": "01:02:31",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "LjEHjrbNNgs",
+          "channel": "Vorterix",
+          "program": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+          "date": "20260626",
+          "views": 30205,
+          "t_seconds": 6454,
+          "t_label": "01:47:34",
+          "quote": "poco a la gente también de las cosas que están pasando en la actualidad de madonna bueno 60 y pico de años chico. Adona y Shakira atrás. ¿Shakira? No, no, no, no. Ah. Legal seguridad. Esa. Once grados en",
+          "conc_at": 23326,
+          "chat_msgs": 205,
+          "chat_ratio": 0.85,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=LjEHjrbNNgs&t=6451s",
+          "clip_start": 6451,
+          "clip_label": "01:47:31",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "S1UDpsKkZvE",
+          "channel": "LUZU TV",
+          "program": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+          "date": "20260623",
+          "views": 137091,
+          "t_seconds": 2431,
+          "t_label": "00:40:31",
+          "quote": "¿Quién es la representante de la S, loco? Shakira No, no, argentinos",
+          "conc_at": 20458,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=S1UDpsKkZvE&t=2428s",
+          "clip_start": 2428,
+          "clip_label": "00:40:28",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "W_HkPNOMeDc",
+          "channel": "OLGA",
+          "program": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+          "date": "20260626",
+          "views": 42935,
+          "t_seconds": 4242,
+          "t_label": "01:10:42",
+          "quote": "Bueno, hemos llegado Hemos llegado, pero no al de Shakira No, claro, es el super mega palco",
+          "conc_at": 19348,
+          "chat_msgs": 148,
+          "chat_ratio": 1.09,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=W_HkPNOMeDc&t=4239s",
+          "clip_start": 4239,
+          "clip_label": "01:10:39",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "1KdxLdm_3K0",
+          "channel": "Urbana Play 104.3 FM",
+          "program": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro",
+          "date": "20260701",
+          "views": 201451,
+          "t_seconds": 8941,
+          "t_label": "02:29:01",
+          "quote": "a Walter, nuestro operador, la canción de Shakira, la canción del Mundial parece que hay una profecía con la canción",
+          "conc_at": 18938,
+          "chat_msgs": 31,
+          "chat_ratio": 2.43,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 3,
+          "yt_url": "https://www.youtube.com/watch?v=1KdxLdm_3K0&t=8938s",
+          "clip_start": 8938,
+          "clip_label": "02:28:58",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "JqkhC1EnyTQ",
+          "channel": "OLGA",
+          "program": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+          "date": "20260624",
+          "views": 12997,
+          "t_seconds": 5729,
+          "t_label": "01:35:29",
+          "quote": "te gusta la de Shakira la de este mundial",
+          "conc_at": 7813,
+          "chat_msgs": 3,
+          "chat_ratio": 0.74,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 5,
+          "yt_url": "https://www.youtube.com/watch?v=JqkhC1EnyTQ&t=5726s",
+          "clip_start": 5726,
+          "clip_label": "01:35:26",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "9ucd7zkq6P8",
+          "channel": "OLGA",
+          "program": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+          "date": "20260626",
+          "views": 10522,
+          "t_seconds": 1783,
+          "t_label": "00:29:43",
+          "quote": "Partido de culto. Todo lo que sea Sudáfrica y Bugusela y Shakira. ¿No te gusta? no está en mi memoria",
+          "conc_at": 7745,
+          "chat_msgs": 6,
+          "chat_ratio": 0.77,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=9ucd7zkq6P8&t=1780s",
+          "clip_start": 1780,
+          "clip_label": "00:29:40",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "tAUTd2FsMxA",
+          "channel": "Bondi Live",
+          "program": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+          "date": "20260624",
+          "views": 37783,
+          "t_seconds": 19723,
+          "t_label": "05:28:43",
+          "quote": "y acá está la casa de de Shakira así que imaginate donde vive",
+          "conc_at": 3344,
+          "chat_msgs": 18,
+          "chat_ratio": 0.39,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=tAUTd2FsMxA&t=19720s",
+          "clip_start": 19720,
+          "clip_label": "05:28:40",
           "origen": "hablado",
           "formato": "mención al pasar"
         }
