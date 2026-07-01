@@ -27,54 +27,63 @@ type IndexRow = {
 };
 const INDEX = (data as unknown as { index: IndexRow[] }).index;
 
-/* ---------- planes (se diferencian por # de entidades, como Streem) ---------- */
+/* ---------- planes (modelo self-serve tipo Podscan: precio transparente,
+   se paga por cuántos nombres/temas seguís. Cada nombre = una persona, marca
+   o tema con sus variantes. Escalás sumando nombres → subís de plan). ---------- */
 type Plan = {
-  id: "monitoreo" | "reputacion" | "agencia";
+  id: "esencial" | "profesional" | "enterprise";
   nombre: string;
-  cupo: number;
+  para: string;
+  limite: number;
   precio: string;
   bajada: string;
   incluye: string[];
   destacado?: boolean;
+  aMedida?: boolean;
 };
 const PLANES: Plan[] = [
   {
-    id: "monitoreo",
-    nombre: "Monitoreo",
-    cupo: 3,
-    precio: "USD 300 / mes",
-    bajada: "Para seguir de cerca a pocas figuras clave.",
+    id: "esencial",
+    nombre: "Individual",
+    para: "Para vos solo",
+    limite: 1,
+    precio: "USD 90/mes",
+    bajada: "Seguí tu propio nombre y no te pierdas nada de lo que se dice de vos.",
     incluye: [
-      "Hasta 3 nombres bajo la lupa",
+      "1 nombre o tema",
       "Tablero en vivo, actualizado cada día",
-      "Resumen diario por mail a las 20 h",
+      "Resumen diario por mail",
+      "1 usuario",
     ],
   },
   {
-    id: "reputacion",
-    nombre: "Reputación",
-    cupo: 8,
-    precio: "USD 750 / mes",
-    bajada: "Para equipos de comunicación que no se quieren perder nada.",
+    id: "profesional",
+    nombre: "Pro",
+    para: "Para equipos de prensa",
+    limite: 3,
+    precio: "USD 250/mes",
+    bajada: "Tu principal, un rival y un tema — todo junto.",
     incluye: [
-      "Hasta 8 nombres bajo la lupa",
-      "Todo lo de Monitoreo",
-      "Avisos de crisis apenas pasan",
-      "Reporte semanal listo para presentar",
+      "Hasta 3 nombres o temas",
+      "Avisos de crisis en tiempo real",
+      "Reporte semanal curado, listo para presentar",
+      "Hasta 5 usuarios",
     ],
     destacado: true,
   },
   {
-    id: "agencia",
-    nombre: "Agencia",
-    cupo: 12,
-    precio: "USD 1.400 / mes",
-    bajada: "Para consultoras que manejan varias cuentas a la vez.",
+    id: "enterprise",
+    nombre: "A medida",
+    para: "Para consultoras y gobierno",
+    limite: 999,
+    precio: "Hablemos",
+    aMedida: true,
+    bajada: "Todos los nombres que necesites, varias cuentas, API y soporte.",
     incluye: [
-      "Hasta 12 nombres bajo la lupa",
-      "Todo lo de Reputación",
-      "Varios usuarios en la misma cuenta",
-      "Exportá los reportes con tu marca",
+      "Nombres o temas ilimitados",
+      "Varias cuentas / clientes en un lugar",
+      "Reportes con tu marca + API",
+      "Usuarios ilimitados + soporte dedicado",
     ],
   },
 ];
@@ -98,25 +107,63 @@ function MiniSent({ r }: { r: IndexRow }) {
   );
 }
 
+/* ---------- gobernanza de avisos (mapea a DEFAULT_REGLAS del pipeline,
+   pero en palabras humanas: el usuario decide CUÁNDO y CÓMO le avisamos,
+   sin tocar umbrales técnicos). ---------- */
+type Sensibilidad = "menos" | "equilibrado" | "mas";
+type Frecuencia = "al-toque" | "diario" | "semanal";
+const SENSIBILIDADES: {
+  id: Sensibilidad;
+  titulo: string;
+  bajada: string;
+  reco?: boolean;
+}[] = [
+  {
+    id: "menos",
+    titulo: "Menos avisos",
+    bajada: "Solo cuando algo se prende fuego de verdad: mucha audiencia y chat disparado.",
+  },
+  {
+    id: "equilibrado",
+    titulo: "Equilibrado",
+    bajada: "El punto justo. Te avisamos los picos que importan, sin ruido.",
+    reco: true,
+  },
+  {
+    id: "mas",
+    titulo: "Más avisos",
+    bajada: "Enterate de casi todo lo que se mueva, aunque a veces sea menor.",
+  },
+];
+const FRECUENCIAS: { id: Frecuencia; titulo: string; bajada: string }[] = [
+  { id: "al-toque", titulo: "Al toque", bajada: "Apenas pasa algo importante." },
+  { id: "diario", titulo: "Resumen diario", bajada: "Un mail cada tarde con lo del día." },
+  { id: "semanal", titulo: "Resumen semanal", bajada: "Un reporte curado, listo para presentar." },
+];
+
 /* ---------- pasos ---------- */
-type Paso = "bienvenida" | "plan" | "entidades" | "listo";
+type Paso = "bienvenida" | "plan" | "entidades" | "avisos" | "listo";
 const PASOS: { id: Paso; label: string }[] = [
   { id: "bienvenida", label: "Bienvenida" },
   { id: "plan", label: "Plan" },
   { id: "entidades", label: "A quién seguir" },
+  { id: "avisos", label: "Avisos" },
   { id: "listo", label: "Listo" },
 ];
 
 export default function OnboardingPage() {
   const router = useRouter();
   const [paso, setPaso] = useState<Paso>("bienvenida");
-  const [planId, setPlanId] = useState<Plan["id"]>("reputacion");
+  const [planId, setPlanId] = useState<Plan["id"]>("profesional");
   const [sel, setSel] = useState<string[]>([]);
   const [query, setQuery] = useState("");
   const [cat, setCat] = useState<(typeof CATS)[number]>("Todas");
+  // gobernanza de avisos (defaults sanos: equilibrado + todo + diario)
+  const [sensibilidad, setSensibilidad] = useState<Sensibilidad>("equilibrado");
+  const [soloNegativo, setSoloNegativo] = useState(false);
+  const [frecuencia, setFrecuencia] = useState<Frecuencia>("diario");
 
   const plan = PLANES.find((p) => p.id === planId)!;
-  const cupo = plan.cupo;
   const pasoIdx = PASOS.findIndex((p) => p.id === paso);
 
   const filtered = useMemo(() => {
@@ -131,14 +178,22 @@ export default function OnboardingPage() {
   function toggle(slug: string) {
     setSel((cur) => {
       if (cur.includes(slug)) return cur.filter((s) => s !== slug);
-      if (cur.length >= cupo) return cur; // respeta el cupo del plan
+      if (cur.length >= plan.limite) return cur; // tope del plan elegido
       return [...cur, slug];
     });
   }
+  const lleno = sel.length >= plan.limite;
 
   function entrar() {
     const e = sel.join(",");
-    router.push(`/palco?e=${encodeURIComponent(e)}&plan=${planId}`);
+    const q = new URLSearchParams({
+      e,
+      plan: planId,
+      sens: sensibilidad,
+      neg: soloNegativo ? "1" : "0",
+      freq: frecuencia,
+    });
+    router.push(`/palco?${q.toString()}`);
   }
 
   const selRows = sel
@@ -246,8 +301,8 @@ export default function OnboardingPage() {
             <div className="text-center">
               <h1 className="text-3xl font-bold">Elegí tu plan</h1>
               <p className="mt-2 text-[15px] text-stone-600">
-                Los planes se diferencian por cuántos nombres podés seguir a la vez.
-                Podés cambiar cuando quieras.
+                Pagás por <b>cuántos nombres o temas</b> querés seguir. Un nombre es
+                una persona, marca o tema. Sumás más cuando quieras — sin sorpresas.
               </p>
             </div>
 
@@ -274,16 +329,16 @@ export default function OnboardingPage() {
                       </span>
                     )}
                     <p className="text-[13px] font-semibold uppercase tracking-wide text-stone-400">
-                      {p.nombre}
+                      {p.para}
                     </p>
-                    <p className="mt-1 text-2xl font-bold">
-                      {p.cupo}
-                      <span className="ml-1 text-[14px] font-medium text-stone-500">
-                        nombres
-                      </span>
-                    </p>
+                    <p className="mt-1 text-2xl font-bold">{p.nombre}</p>
                     <p className="mt-0.5 text-[13px] font-medium" style={{ color: BRAND }}>
-                      {p.precio}
+                      {p.aMedida
+                        ? "Nombres ilimitados"
+                        : p.limite === 1
+                        ? "1 nombre"
+                        : `Hasta ${p.limite} nombres`}{" "}
+                      · {p.precio}
                     </p>
                     <p className="mt-2 text-[13px] leading-relaxed text-stone-500">
                       {p.bajada}
@@ -309,6 +364,10 @@ export default function OnboardingPage() {
               })}
             </div>
 
+            <p className="mt-4 text-center text-[13px] text-stone-500">
+              Un nombre es una persona, marca o tema. Sumás o sacás cuando quieras.
+            </p>
+
             <div className="mt-8 flex items-center justify-between">
               <button
                 onClick={() => setPaso("bienvenida")}
@@ -317,10 +376,7 @@ export default function OnboardingPage() {
                 ← Volver
               </button>
               <button
-                onClick={() => {
-                  setSel((cur) => cur.slice(0, cupo));
-                  setPaso("entidades");
-                }}
+                onClick={() => setPaso("entidades")}
                 className="rounded-lg px-6 py-3 text-[15px] font-semibold text-white hover:opacity-90"
                 style={{ backgroundColor: BRAND }}
               >
@@ -337,8 +393,21 @@ export default function OnboardingPage() {
               <div>
                 <h1 className="text-3xl font-bold">¿A quién querés seguir?</h1>
                 <p className="mt-2 text-[15px] text-stone-600">
-                  Elegí de la lista o buscá por nombre. Estos son nombres que ya
-                  aparecen en lo capturado — en tu cuenta podés agregar cualquier otro.
+                  {plan.aMedida ? (
+                    <>
+                      Con <b>{plan.nombre}</b> elegís los nombres que quieras.
+                    </>
+                  ) : plan.limite === 1 ? (
+                    <>
+                      Con <b>{plan.nombre}</b> seguís <b>1 nombre</b>.
+                    </>
+                  ) : (
+                    <>
+                      Elegí hasta <b>{plan.limite} nombres</b> con tu plan {plan.nombre}.
+                    </>
+                  )}{" "}
+                  Estos ya aparecen en lo capturado; en tu cuenta sumás cualquier
+                  otro nombre o tema.
                 </p>
               </div>
               <div className="rounded-xl border border-stone-200 bg-white px-4 py-2 text-right shadow-sm">
@@ -346,9 +415,9 @@ export default function OnboardingPage() {
                   Elegiste
                 </p>
                 <p className="text-lg font-bold tabular-nums">
-                  {sel.length}{" "}
-                  <span className="text-[13px] font-medium text-stone-400">
-                    de {cupo}
+                  {sel.length}
+                  <span className="ml-1 text-[13px] font-medium text-stone-400">
+                    {plan.aMedida ? "nombres" : `/ ${plan.limite}`}
                   </span>
                 </p>
               </div>
@@ -378,21 +447,37 @@ export default function OnboardingPage() {
               </div>
             </div>
 
+            {lleno && (
+              <div className="mt-4 flex flex-wrap items-center justify-between gap-2 rounded-lg border border-blue-200 bg-blue-50 px-4 py-2.5 text-[13px]">
+                <span className="text-stone-700">
+                  Llegaste al tope de tu plan {plan.nombre} ({plan.limite}{" "}
+                  {plan.limite === 1 ? "nombre" : "nombres"}).
+                </span>
+                <button
+                  onClick={() => setPaso("plan")}
+                  className="font-semibold hover:underline"
+                  style={{ color: BRAND }}
+                >
+                  Subir de plan →
+                </button>
+              </div>
+            )}
+
             {/* grilla de entidades */}
             <div className="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
               {filtered.map((r) => {
                 const on = sel.includes(r.slug);
-                const full = !on && sel.length >= cupo;
+                const bloq = !on && lleno;
                 return (
                   <button
                     key={r.slug}
                     onClick={() => toggle(r.slug)}
-                    disabled={full}
+                    disabled={bloq}
                     className={`flex flex-col rounded-xl border p-4 text-left shadow-sm transition ${
                       on
                         ? "border-[#2f5fe0] ring-2 ring-blue-100"
-                        : full
-                        ? "cursor-not-allowed border-stone-200 bg-stone-50 opacity-50"
+                        : bloq
+                        ? "border-stone-200 bg-white opacity-40"
                         : "border-stone-200 bg-white hover:border-stone-400"
                     }`}
                     style={on ? { backgroundColor: "#f5f8ff" } : undefined}
@@ -448,9 +533,144 @@ export default function OnboardingPage() {
                 ← Volver
               </button>
               <button
-                onClick={() => setPaso("listo")}
+                onClick={() => setPaso("avisos")}
                 disabled={sel.length === 0}
                 className="rounded-lg px-6 py-3 text-[15px] font-semibold text-white hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-40"
+                style={{ backgroundColor: BRAND }}
+              >
+                Seguir →
+              </button>
+            </div>
+          </section>
+        )}
+
+        {/* ---------------- AVISOS (gobernanza) ---------------- */}
+        {paso === "avisos" && (
+          <section className="mx-auto max-w-[720px]">
+            <div className="text-center">
+              <h1 className="text-3xl font-bold">¿Cuándo querés que te avisemos?</h1>
+              <p className="mt-2 text-[15px] text-stone-600">
+                Vos decidís cuánto te molestamos. Podés cambiar todo esto cuando
+                quieras desde tu tablero.
+              </p>
+            </div>
+
+            {/* sensibilidad */}
+            <div className="mt-8">
+              <p className="text-[13px] font-semibold uppercase tracking-wide text-stone-400">
+                Cuánto avisar
+              </p>
+              <div className="mt-3 grid gap-3 sm:grid-cols-3">
+                {SENSIBILIDADES.map((s) => {
+                  const active = s.id === sensibilidad;
+                  return (
+                    <button
+                      key={s.id}
+                      onClick={() => setSensibilidad(s.id)}
+                      className={`relative flex flex-col rounded-2xl border p-4 text-left shadow-sm transition ${
+                        active
+                          ? "border-[#2f5fe0] ring-2 ring-blue-100"
+                          : "border-stone-200 bg-white hover:border-stone-400"
+                      }`}
+                      style={active ? { backgroundColor: "#f5f8ff" } : undefined}
+                    >
+                      {s.reco && (
+                        <span
+                          className="absolute -top-2.5 left-4 rounded-full px-2.5 py-0.5 text-[10.5px] font-semibold text-white"
+                          style={{ backgroundColor: BRAND }}
+                        >
+                          RECOMENDADO
+                        </span>
+                      )}
+                      <p className="text-[15px] font-semibold">{s.titulo}</p>
+                      <p className="mt-1 text-[13px] leading-relaxed text-stone-500">
+                        {s.bajada}
+                      </p>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* solo negativo */}
+            <div className="mt-6">
+              <p className="text-[13px] font-semibold uppercase tracking-wide text-stone-400">
+                Qué avisar
+              </p>
+              <button
+                onClick={() => setSoloNegativo((v) => !v)}
+                className={`mt-3 flex w-full items-center justify-between rounded-2xl border p-4 text-left shadow-sm transition ${
+                  soloNegativo
+                    ? "border-[#2f5fe0] ring-2 ring-blue-100"
+                    : "border-stone-200 bg-white hover:border-stone-400"
+                }`}
+                style={soloNegativo ? { backgroundColor: "#f5f8ff" } : undefined}
+              >
+                <div>
+                  <p className="text-[15px] font-semibold">Avisame solo lo negativo</p>
+                  <p className="mt-1 text-[13px] leading-relaxed text-stone-500">
+                    Ideal para modo crisis: te llegan solo las malas menciones. Si lo
+                    dejás apagado, te avisamos también lo bueno y lo neutro.
+                  </p>
+                </div>
+                <span
+                  className={`ml-4 flex h-6 w-11 shrink-0 items-center rounded-full p-0.5 transition ${
+                    soloNegativo ? "" : "bg-stone-200"
+                  }`}
+                  style={soloNegativo ? { backgroundColor: BRAND } : undefined}
+                >
+                  <span
+                    className={`h-5 w-5 rounded-full bg-white shadow transition ${
+                      soloNegativo ? "translate-x-5" : ""
+                    }`}
+                  />
+                </span>
+              </button>
+            </div>
+
+            {/* frecuencia / cómo */}
+            <div className="mt-6">
+              <p className="text-[13px] font-semibold uppercase tracking-wide text-stone-400">
+                Cómo querés recibirlo
+              </p>
+              <div className="mt-3 grid gap-3 sm:grid-cols-3">
+                {FRECUENCIAS.map((f) => {
+                  const active = f.id === frecuencia;
+                  return (
+                    <button
+                      key={f.id}
+                      onClick={() => setFrecuencia(f.id)}
+                      className={`flex flex-col rounded-2xl border p-4 text-left shadow-sm transition ${
+                        active
+                          ? "border-[#2f5fe0] ring-2 ring-blue-100"
+                          : "border-stone-200 bg-white hover:border-stone-400"
+                      }`}
+                      style={active ? { backgroundColor: "#f5f8ff" } : undefined}
+                    >
+                      <p className="text-[15px] font-semibold">{f.titulo}</p>
+                      <p className="mt-1 text-[13px] leading-relaxed text-stone-500">
+                        {f.bajada}
+                      </p>
+                    </button>
+                  );
+                })}
+              </div>
+              <p className="mt-3 text-[12px] text-stone-400">
+                Los avisos de crisis siempre llegan al toque, sin importar esta
+                elección. Esto define el ritmo del resto.
+              </p>
+            </div>
+
+            <div className="mt-8 flex items-center justify-between">
+              <button
+                onClick={() => setPaso("entidades")}
+                className="text-[14px] text-stone-500 hover:text-stone-800"
+              >
+                ← Volver
+              </button>
+              <button
+                onClick={() => setPaso("listo")}
+                className="rounded-lg px-6 py-3 text-[15px] font-semibold text-white hover:opacity-90"
                 style={{ backgroundColor: BRAND }}
               >
                 Seguir →
@@ -479,7 +699,7 @@ export default function OnboardingPage() {
               <div className="flex items-center justify-between border-b border-stone-100 pb-3">
                 <span className="text-[13px] text-stone-500">Plan</span>
                 <span className="text-[14px] font-semibold">
-                  {plan.nombre} · {plan.precio}
+                  {plan.nombre} · seguimiento ilimitado
                 </span>
               </div>
               <p className="mt-3 text-[12px] font-semibold uppercase tracking-wide text-stone-400">
@@ -496,29 +716,36 @@ export default function OnboardingPage() {
                   </span>
                 ))}
               </div>
-              <div className="mt-4 grid gap-2 text-[13px] text-stone-600">
+              <p className="mt-4 text-[12px] font-semibold uppercase tracking-wide text-stone-400">
+                Tus avisos
+              </p>
+              <div className="mt-2 grid gap-2 text-[13px] text-stone-600">
                 <p className="flex gap-2">
-                  <span style={{ color: BRAND }}>✓</span> Tablero en vivo de cada nombre
+                  <span style={{ color: BRAND }}>✓</span>{" "}
+                  {SENSIBILIDADES.find((s) => s.id === sensibilidad)!.titulo} ·{" "}
+                  {soloNegativo ? "solo lo negativo" : "todo (bueno, neutro y malo)"}
                 </p>
                 <p className="flex gap-2">
-                  <span style={{ color: BRAND }}>✓</span> Resumen diario por mail a las 20 h
+                  <span style={{ color: BRAND }}>✓</span>{" "}
+                  {FRECUENCIAS.find((f) => f.id === frecuencia)!.titulo} por mail
                 </p>
-                {planId !== "monitoreo" && (
-                  <p className="flex gap-2">
-                    <span style={{ color: BRAND }}>✓</span> Avisos de crisis apenas pasan
-                  </p>
-                )}
-                {planId === "agencia" && (
+                <p className="flex gap-2">
+                  <span style={{ color: BRAND }}>✓</span> Avisos de crisis siempre al toque
+                </p>
+                {planId === "enterprise" && (
                   <p className="flex gap-2">
                     <span style={{ color: BRAND }}>✓</span> Reportes exportables con tu marca
                   </p>
                 )}
               </div>
+              <p className="mt-3 text-[12px] text-stone-400">
+                Todo esto lo cambiás cuando quieras desde <b>Avisos</b> en tu tablero.
+              </p>
             </div>
 
             <div className="mt-8 flex items-center justify-between">
               <button
-                onClick={() => setPaso("entidades")}
+                onClick={() => setPaso("avisos")}
                 className="text-[14px] text-stone-500 hover:text-stone-800"
               >
                 ← Ajustar

@@ -7,7 +7,7 @@
   "avg_concurrent": 83480,
   "brands": 76,
   "mentions": 122,
-  "share_views": 71.4,
+  "share_views": 71.2,
   "n_brands_live": 76,
   "top_brands": [
    {
@@ -448,13 +448,13 @@
  {
   "id": "vorterix",
   "name": "Vorterix",
-  "videos": 16,
-  "vod_views": 346202,
-  "avg_concurrent": 5949,
-  "brands": 37,
-  "mentions": 51,
-  "share_views": 6.1,
-  "n_brands_live": 37,
+  "videos": 17,
+  "vod_views": 363117,
+  "avg_concurrent": 6011,
+  "brands": 38,
+  "mentions": 52,
+  "share_views": 6.4,
+  "n_brands_live": 38,
   "top_brands": [
    {
     "slug": "coto",

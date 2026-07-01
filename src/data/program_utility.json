@@ -2745,6 +2745,64 @@
    }
   },
   {
+   "video_id": "2j8TvzmdrGY",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Dany Jiménez y Nico Etevenaux",
+   "date": "20260701",
+   "iup": 86,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.548,
+    "conversation": 0.831,
+    "commercial": 1.0,
+    "participation": 0.687,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 7002,
+     "peak_concurrent": 9326
+    },
+    "conversation": {
+     "blocks": 13,
+     "blocks_with_signal": 9,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 46,
+     "sponsored": 1,
+     "organic": 26,
+     "productos_marcas": 32
+    },
+    "participation": {
+     "chat_engagement": 2.12,
+     "chat_noise": 0.05,
+     "chat_total": 1823
+    },
+    "format": {
+     "show_id": "no-rusia",
+     "show_name": "No Preguntes por Rusia"
+    },
+    "capture_minutes": 112.76666666666667
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "A_ww0XRZnps",
    "channel": "BLENDER",
    "channel_id": "blend",
@@ -10247,21 +10305,21 @@
    "tier_insuficiente": 0
   },
   {
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "programs": 17,
+   "iup_avg": 82.4,
+   "iup_median": 82,
+   "tier_alta": 17,
+   "tier_insuficiente": 0
+  },
+  {
    "channel_id": "gelatina",
    "channel": "GELATINA",
    "programs": 8,
    "iup_avg": 82.2,
    "iup_median": 82,
    "tier_alta": 8,
-   "tier_insuficiente": 0
-  },
-  {
-   "channel_id": "vorterix",
-   "channel": "Vorterix",
-   "programs": 16,
-   "iup_avg": 82.2,
-   "iup_median": 82,
-   "tier_alta": 16,
    "tier_insuficiente": 0
   },
   {
@@ -10356,8 +10414,8 @@
   }
  ],
  "totals": {
-  "programs": 175,
-  "tier_alta": 106,
+  "programs": 176,
+  "tier_alta": 107,
   "tier_media": 69,
   "tier_baja": 0,
   "tier_insuficiente": 0

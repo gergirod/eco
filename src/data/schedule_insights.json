@@ -1,5 +1,5 @@
 {
- "programs_analyzed": 120,
+ "programs_analyzed": 125,
  "platform_line": "La atención más fuerte concentra entre las 11–12 hs (promedio 74.869 mirando en 20 emisiones).",
  "best_hours": [
   {
@@ -11,8 +11,8 @@
   {
    "hour": 10,
    "label": "10–11 hs",
-   "avg_peak": 52276,
-   "n": 17
+   "avg_peak": 55206,
+   "n": 21
   },
   {
    "hour": 12,
@@ -49,8 +49,8 @@
   {
    "weekday": 2,
    "label": "miércoles",
-   "avg_peak": 50735,
-   "n": 15
+   "avg_peak": 52049,
+   "n": 20
   },
   {
    "weekday": 1,
@@ -70,12 +70,12 @@
    "channel_id": "luzu",
    "show_id": "ndn",
    "show_name": "Nadie Dice Nada",
-   "emissions": 5,
-   "typical_start": "10:16",
+   "emissions": 6,
+   "typical_start": "10:12",
    "peak_window": "11–12 hs",
    "best_weekday": "martes",
-   "avg_peak": 228463,
-   "line": "Nadie Dice Nada suele arrancar cerca de las 10:16 y pega fuerte entre 11–12 hs los martes."
+   "avg_peak": 221161,
+   "line": "Nadie Dice Nada suele arrancar cerca de las 10:12 y pega fuerte entre 11–12 hs los martes."
   },
   {
    "channel_id": "luzu",
@@ -103,12 +103,12 @@
    "channel_id": "olga",
    "show_id": "seria-increible",
    "show_name": "Sería Increíble",
-   "emissions": 5,
-   "typical_start": "6:36",
+   "emissions": 6,
+   "typical_start": "6:35",
    "peak_window": "10–11 hs",
-   "best_weekday": "martes",
-   "avg_peak": 46041,
-   "line": "Sería Increíble suele arrancar cerca de las 6:36 y pega fuerte entre 10–11 hs los martes."
+   "best_weekday": "miércoles",
+   "avg_peak": 45550,
+   "line": "Sería Increíble suele arrancar cerca de las 6:35 y pega fuerte entre 10–11 hs los miércoles."
   },
   {
    "channel_id": "luzu",
@@ -125,12 +125,12 @@
    "channel_id": "olga",
    "show_id": "sone-volaba",
    "show_name": "Soñé que Volaba",
-   "emissions": 6,
-   "typical_start": "10:14",
+   "emissions": 7,
+   "typical_start": "10:15",
    "peak_window": "11–12 hs",
-   "best_weekday": "martes",
-   "avg_peak": 38992,
-   "line": "Soñé que Volaba suele arrancar cerca de las 10:14 y pega fuerte entre 11–12 hs los martes."
+   "best_weekday": "miércoles",
+   "avg_peak": 38516,
+   "line": "Soñé que Volaba suele arrancar cerca de las 10:15 y pega fuerte entre 11–12 hs los miércoles."
   },
   {
    "channel_id": "bondi",
@@ -213,13 +213,13 @@
    "channel_id": "vorterix",
    "show_id": "no-rusia",
    "show_name": "No Preguntes por Rusia",
-   "emissions": 3,
-   "typical_start": "7:46",
+   "emissions": 4,
+   "typical_start": "7:48",
    "peak_window": "9–10 hs",
-   "best_weekday": "lunes",
-   "avg_peak": 9849,
-   "line": "No Preguntes por Rusia suele arrancar cerca de las 7:46 y pega fuerte entre 9–10 hs los lunes."
+   "best_weekday": "miércoles",
+   "avg_peak": 9718,
+   "line": "No Preguntes por Rusia suele arrancar cerca de las 7:48 y pega fuerte entre 9–10 hs los miércoles."
   }
  ],
- "period": "2026-07-01T09:24:39.987746+00:00"
+ "period": "2026-07-01T13:36:55.716513+00:00"
 }

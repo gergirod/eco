@@ -9440,6 +9440,43 @@
   "rubro": "otro"
  },
  {
+  "slug": "redoxon-triple-accion",
+  "name": "Redoxon Triple Acción",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 177.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "01/07/2026",
+    "video_id": "2j8TvzmdrGY",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Dany Jiménez y Nico Etevenaux",
+    "minute": "02:01:48",
+    "views": 16915,
+    "conc_at": 8241
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 8241,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
   "slug": "martin-imante",
   "name": "Martín Imante",
   "mentions": 1,

@@ -848,6 +848,148 @@
     }
    ]
   },
+  "2j8TvzmdrGY": {
+   "video_id": "2j8TvzmdrGY",
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Dany Jiménez y Nico Etevenaux",
+   "show_id": "no-rusia",
+   "show_name": "No Preguntes por Rusia",
+   "top_temas": [
+    {
+     "tema": "Aerosmith Y Rock Clásico",
+     "score": 3
+    },
+    {
+     "tema": "Nuevo Vocero Presidencial",
+     "score": 3
+    },
+    {
+     "tema": "Economía Argentina Y Macroeconomía",
+     "score": 3
+    },
+    {
+     "tema": "Política Económica Y Tarifas",
+     "score": 3
+    },
+    {
+     "tema": "Robots Humanoides En Manufactura",
+     "score": 3
+    },
+    {
+     "tema": "Conflicto Laboral Cnea",
+     "score": 3
+    },
+    {
+     "tema": "Reducción De Empleo Público En Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Privatización De Empresas Estatales",
+     "score": 3
+    },
+    {
+     "tema": "Ciudadanía Por Derecho De Nacimiento En Eeuu",
+     "score": 3
+    },
+    {
+     "tema": "Historia De La Canción De Alan Parsons",
+     "score": 3
+    },
+    {
+     "tema": "Club De Lectura De Novelas",
+     "score": 3
+    },
+    {
+     "tema": "Muerte De Daniel Melingo",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 16
+    },
+    {
+     "categoria": "otro",
+     "score": 16
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 13
+    },
+    {
+     "categoria": "actividad",
+     "score": 12
+    },
+    {
+     "categoria": "persona",
+     "score": 9
+    },
+    {
+     "categoria": "política",
+     "score": 9
+    },
+    {
+     "categoria": "lugar",
+     "score": 8
+    },
+    {
+     "categoria": "salud",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Mate Cocido Tarahui",
+     "categoria": "comida",
+     "contexto": "Se menciona la melodía y la canción publicitaria clásica de Mate Cocido Tarahui",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cadena Nacional De Radio Y Televisión",
+     "categoria": "tecnologia",
+     "contexto": "Transmisión a través de LRA Radio Nacional y la cadena nacional de medios",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Nuevo Álbum De Gustavo Cortera",
+     "categoria": "cultura",
+     "contexto": "Presentación del álbum 'La Fuente' con diez canciones de intimidad del hogar",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Aerosmith Y Rock Clásico",
+     "categoria": "cultura",
+     "contexto": "Discusión extensa sobre conciertos de Aerosmith en Argentina, discos como 'Pump' y 'Get a Grip', y temas como 'Angel'",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Harry Styles",
+     "categoria": "persona",
+     "contexto": "Mención de Harry Styles tocando en vivo, confusión inicial con One Direction",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Ituzaingó, Buenos Aires",
+     "categoria": "lugar",
+     "contexto": "Conversación sobre la localidad, mapa en pantalla, ubicación geográfica cerca de Castelar y Morón",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Distribuidora De Insumos Para Gomerías",
+     "categoria": "producto",
+     "contexto": "Entrevista a Bruno, intendente de Ituzaingó, que trabaja en venta de cámaras, parches, cementos y cubiertas para gomerías, motos y bicicletas",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Precios De Cámaras De Moto",
+     "categoria": "producto",
+     "contexto": "Mención de precio de cámara de moto a $3.900 o $3.500 en efectivo",
+     "minute": "0:20"
+    }
+   ]
+  },
   "2sxqtU8XXTQ": {
    "video_id": "2sxqtU8XXTQ",
    "channel_id": "olga",

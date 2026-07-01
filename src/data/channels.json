@@ -104,11 +104,11 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 16,
-   "total_vod_views": 346202,
-   "avg_concurrent": 5949,
-   "brands_detected": 37,
-   "mentions": 51,
+   "videos_processed": 17,
+   "total_vod_views": 363117,
+   "avg_concurrent": 6011,
+   "brands_detected": 38,
+   "mentions": 52,
    "last_processed": "01/07/2026"
   },
   "pipeline_status": "activo"

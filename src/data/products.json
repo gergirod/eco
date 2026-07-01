@@ -5486,6 +5486,56 @@
   "kind": "producto"
  },
  {
+  "slug": "distribuidora-de-insumos-para-gomerias",
+  "name": "distribuidora de insumos para gomerías",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "01/07/2026",
+    "video_id": "2j8TvzmdrGY",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Dany Jiménez y Nico Etevenaux",
+    "minute": "00:20",
+    "views": 16915
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "jeff-bezos-referencia-a-yate-dividido-en-3-partes",
+  "name": "Jeff Bezos (referencia a yate dividido en 3 partes)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "01/07/2026",
+    "video_id": "2j8TvzmdrGY",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Dany Jiménez y Nico Etevenaux",
+    "minute": "01:00",
+    "views": 16915
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "madrid-tienda",
   "name": "Madrid (tienda)",
   "mentions": 1,

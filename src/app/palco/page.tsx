@@ -38,6 +38,8 @@ type Radar = {
     channels: number;
   };
   sentiment: { neg: number; neu: number; pos: number };
+  sentiment_chat?: { neg: number; neu: number; pos: number };
+  chat_scored?: number;
   share_of_voice: { channel: string; mentions: number; pct: number }[];
   by_day: { day: string; mentions: number }[];
   crisis: Card | null;
@@ -88,6 +90,52 @@ const SENT = {
   pos: { label: "positivo", dot: "🟢", cls: "text-emerald-700 bg-emerald-50 border-emerald-200" },
 } as const;
 
+/* termómetro de tono reutilizable (aire vs chat), en % sobre su propia base */
+function ToneThermo({
+  title,
+  sub,
+  note,
+  s,
+  baseLabel,
+}: {
+  title: string;
+  sub: string;
+  note: string;
+  s: { neg: number; neu: number; pos: number };
+  baseLabel: string;
+}) {
+  const total = s.neg + s.neu + s.pos;
+  const pct = (n: number) => (total ? Math.round((n / total) * 100) : 0);
+  return (
+    <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm">
+      <div className="flex items-baseline justify-between gap-2">
+        <p className="text-[11px] uppercase tracking-wide text-stone-400">{title}</p>
+        <p className="text-[11px] text-stone-400">{total ? baseLabel : "sin datos aún"}</p>
+      </div>
+      <p className="mt-0.5 text-[12px] text-stone-500">{sub}</p>
+      {total ? (
+        <>
+          <div className="mt-3 flex h-3 overflow-hidden rounded-full bg-stone-100">
+            <div className="bg-red-500" style={{ width: `${pct(s.neg)}%` }} />
+            <div className="bg-stone-400" style={{ width: `${pct(s.neu)}%` }} />
+            <div className="bg-emerald-500" style={{ width: `${pct(s.pos)}%` }} />
+          </div>
+          <div className="mt-3 flex justify-between text-[12px] text-stone-500">
+            <span>🔴 {pct(s.neg)}% <span className="text-stone-400">({s.neg})</span></span>
+            <span>⚪ {pct(s.neu)}% <span className="text-stone-400">({s.neu})</span></span>
+            <span>🟢 {pct(s.pos)}% <span className="text-stone-400">({s.pos})</span></span>
+          </div>
+        </>
+      ) : (
+        <p className="mt-3 text-[13px] text-stone-400">
+          Todavía sin mensajes clasificados para esta entidad.
+        </p>
+      )}
+      <p className="mt-2 text-[11px] text-stone-400">{note}</p>
+    </div>
+  );
+}
+
 const ORIGEN: Record<string, { label: string; cls: string }> = {
   hablado: { label: "🎙 dicho al aire", cls: "text-stone-700 bg-stone-100 border-stone-200" },
   ambos: { label: "🎙+💬 aire y sala", cls: "text-[#2f5fe0] bg-blue-50 border-blue-200" },
@@ -96,10 +144,25 @@ const ORIGEN: Record<string, { label: string; cls: string }> = {
 
 /* ---------- página ---------- */
 const PLAN_LABEL: Record<string, string> = {
-  monitoreo: "Monitoreo",
-  reputacion: "Reputación",
-  agencia: "Agencia",
+  esencial: "Individual",
+  profesional: "Pro",
+  enterprise: "A medida",
 };
+
+/* ---------- gobernanza de avisos (mismos controles que el onboarding;
+   mapean a DEFAULT_REGLAS del pipeline, en palabras humanas) ---------- */
+type Sensibilidad = "menos" | "equilibrado" | "mas";
+type Frecuencia = "al-toque" | "diario" | "semanal";
+const SENS_OPTS: { id: Sensibilidad; titulo: string; bajada: string; reco?: boolean }[] = [
+  { id: "menos", titulo: "Menos avisos", bajada: "Solo cuando algo se prende fuego de verdad." },
+  { id: "equilibrado", titulo: "Equilibrado", bajada: "El punto justo, sin ruido.", reco: true },
+  { id: "mas", titulo: "Más avisos", bajada: "Casi todo lo que se mueva." },
+];
+const FREQ_OPTS: { id: Frecuencia; titulo: string; bajada: string }[] = [
+  { id: "al-toque", titulo: "Al toque", bajada: "Apenas pasa algo importante." },
+  { id: "diario", titulo: "Resumen diario", bajada: "Un mail cada tarde." },
+  { id: "semanal", titulo: "Resumen semanal", bajada: "Un reporte curado." },
+];
 
 export default function PalcoPage() {
   const [slug, setSlug] = useState<string>(D.default);
@@ -107,6 +170,11 @@ export default function PalcoPage() {
   const [tab, setTab] = useState<"todas" | "neg">("todas");
   const [watch, setWatch] = useState<string[]>([]);
   const [plan, setPlan] = useState<string>("");
+  // gobernanza de avisos (settings del tablero)
+  const [showAvisos, setShowAvisos] = useState(false);
+  const [sensibilidad, setSensibilidad] = useState<Sensibilidad>("equilibrado");
+  const [soloNegativo, setSoloNegativo] = useState(false);
+  const [frecuencia, setFrecuencia] = useState<Frecuencia>("diario");
 
   // Lee la watchlist elegida en el onboarding (?e=slug1,slug2&plan=pro).
   useEffect(() => {
@@ -120,6 +188,11 @@ export default function PalcoPage() {
       setSlug(e[0]);
     }
     if (p.get("plan")) setPlan(p.get("plan")!);
+    const s = p.get("sens");
+    if (s === "menos" || s === "equilibrado" || s === "mas") setSensibilidad(s);
+    if (p.get("neg") === "1") setSoloNegativo(true);
+    const f = p.get("freq");
+    if (f === "al-toque" || f === "diario" || f === "semanal") setFrecuencia(f);
   }, []);
 
   const R = D.radars[slug];
@@ -152,7 +225,8 @@ export default function PalcoPage() {
 
   const maxSov = Math.max(...R.share_of_voice.map((s) => s.mentions), 1);
   const maxDay = Math.max(...R.by_day.map((s) => s.mentions), 1);
-  const sentTotal = R.sentiment.neg + R.sentiment.neu + R.sentiment.pos || 1;
+  const airProgs = R.sentiment.neg + R.sentiment.neu + R.sentiment.pos;
+  const chatScored = R.chat_scored ?? 0;
   const pico = R.feed.reduce(
     (a, b) => ((b.conc_at ?? 0) > (a.conc_at ?? 0) ? b : a),
     R.feed[0]
@@ -180,6 +254,12 @@ export default function PalcoPage() {
                 Plan {PLAN_LABEL[plan] || plan}
               </span>
             )}
+            <button
+              onClick={() => setShowAvisos(true)}
+              className="rounded-lg border border-stone-200 bg-white px-3 py-1.5 font-medium text-stone-600 hover:border-stone-400"
+            >
+              ⚙ Avisos
+            </button>
             <Link
               href="/palco/onboarding"
               className="rounded-lg border border-stone-200 bg-white px-3 py-1.5 font-medium text-stone-600 hover:border-stone-400"
@@ -189,6 +269,147 @@ export default function PalcoPage() {
           </div>
         </div>
       </div>
+
+      {/* ---------- panel de Avisos (gobernanza / settings) ---------- */}
+      {showAvisos && (
+        <div
+          className="fixed inset-0 z-50 flex justify-end bg-stone-900/30"
+          onClick={() => setShowAvisos(false)}
+        >
+          <div
+            className="h-full w-full max-w-[440px] overflow-y-auto bg-[#faf9f7] shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between border-b border-stone-200 bg-white px-5 py-4">
+              <div>
+                <h2 className="text-[16px] font-bold">Avisos</h2>
+                <p className="text-[12px] text-stone-500">Vos decidís cuándo te molestamos.</p>
+              </div>
+              <button
+                onClick={() => setShowAvisos(false)}
+                className="rounded-lg border border-stone-200 bg-white px-2.5 py-1 text-[13px] text-stone-500 hover:border-stone-400"
+              >
+                ✕
+              </button>
+            </div>
+
+            <div className="space-y-6 p-5">
+              {/* cuánto */}
+              <div>
+                <p className="text-[12px] font-semibold uppercase tracking-wide text-stone-400">
+                  Cuánto avisar
+                </p>
+                <div className="mt-2 space-y-2">
+                  {SENS_OPTS.map((s) => {
+                    const active = s.id === sensibilidad;
+                    return (
+                      <button
+                        key={s.id}
+                        onClick={() => setSensibilidad(s.id)}
+                        className={`flex w-full items-start justify-between gap-3 rounded-xl border p-3 text-left transition ${
+                          active
+                            ? "border-[#2f5fe0] bg-blue-50 ring-2 ring-blue-100"
+                            : "border-stone-200 bg-white hover:border-stone-400"
+                        }`}
+                      >
+                        <div>
+                          <p className="text-[14px] font-semibold">
+                            {s.titulo}
+                            {s.reco && (
+                              <span
+                                className="ml-2 rounded-full px-2 py-0.5 text-[10px] font-semibold text-white"
+                                style={{ backgroundColor: BRAND }}
+                              >
+                                RECOMENDADO
+                              </span>
+                            )}
+                          </p>
+                          <p className="mt-0.5 text-[12px] text-stone-500">{s.bajada}</p>
+                        </div>
+                        {active && <span style={{ color: BRAND }}>✓</span>}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* qué */}
+              <div>
+                <p className="text-[12px] font-semibold uppercase tracking-wide text-stone-400">
+                  Qué avisar
+                </p>
+                <button
+                  onClick={() => setSoloNegativo((v) => !v)}
+                  className={`mt-2 flex w-full items-center justify-between gap-3 rounded-xl border p-3 text-left transition ${
+                    soloNegativo
+                      ? "border-[#2f5fe0] bg-blue-50 ring-2 ring-blue-100"
+                      : "border-stone-200 bg-white hover:border-stone-400"
+                  }`}
+                >
+                  <div>
+                    <p className="text-[14px] font-semibold">Solo lo negativo</p>
+                    <p className="mt-0.5 text-[12px] text-stone-500">
+                      Modo crisis: solo malas menciones. Apagado = también lo bueno y neutro.
+                    </p>
+                  </div>
+                  <span
+                    className={`ml-2 flex h-6 w-11 shrink-0 items-center rounded-full p-0.5 transition ${
+                      soloNegativo ? "" : "bg-stone-200"
+                    }`}
+                    style={soloNegativo ? { backgroundColor: BRAND } : undefined}
+                  >
+                    <span
+                      className={`h-5 w-5 rounded-full bg-white shadow transition ${
+                        soloNegativo ? "translate-x-5" : ""
+                      }`}
+                    />
+                  </span>
+                </button>
+              </div>
+
+              {/* cómo */}
+              <div>
+                <p className="text-[12px] font-semibold uppercase tracking-wide text-stone-400">
+                  Cómo recibirlo
+                </p>
+                <div className="mt-2 space-y-2">
+                  {FREQ_OPTS.map((f) => {
+                    const active = f.id === frecuencia;
+                    return (
+                      <button
+                        key={f.id}
+                        onClick={() => setFrecuencia(f.id)}
+                        className={`flex w-full items-start justify-between gap-3 rounded-xl border p-3 text-left transition ${
+                          active
+                            ? "border-[#2f5fe0] bg-blue-50 ring-2 ring-blue-100"
+                            : "border-stone-200 bg-white hover:border-stone-400"
+                        }`}
+                      >
+                        <div>
+                          <p className="text-[14px] font-semibold">{f.titulo}</p>
+                          <p className="mt-0.5 text-[12px] text-stone-500">{f.bajada}</p>
+                        </div>
+                        {active && <span style={{ color: BRAND }}>✓</span>}
+                      </button>
+                    );
+                  })}
+                </div>
+                <p className="mt-2 text-[11px] text-stone-400">
+                  Los avisos de crisis siempre llegan al toque, sin importar esto.
+                </p>
+              </div>
+
+              <button
+                onClick={() => setShowAvisos(false)}
+                className="w-full rounded-lg px-4 py-2.5 text-[14px] font-semibold text-white hover:opacity-90"
+                style={{ backgroundColor: BRAND }}
+              >
+                Guardar
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="mx-auto max-w-[1100px] px-5 py-8">
         {/* rail de watchlist (viene del onboarding) */}
@@ -345,29 +566,32 @@ export default function PalcoPage() {
           ))}
         </section>
 
-        {/* doble termómetro */}
+        {/* termómetros de tono: aire vs chat (separados a propósito) */}
         <section className="mt-4 grid gap-3 md:grid-cols-2">
+          <ToneThermo
+            title="Tono en el aire"
+            sub="Lo que dijeron los programas"
+            note="Ojo: un medio puede estar alineado o pautado."
+            s={R.sentiment}
+            baseLabel={`sobre ${airProgs} programas`}
+          />
+          <ToneThermo
+            title="Tono en el chat"
+            sub="La reacción de la gente"
+            note="Más genuino: es lo que escribe la audiencia en vivo."
+            s={R.sentiment_chat ?? { neg: 0, neu: 0, pos: 0 }}
+            baseLabel={`sobre ${chatScored} mensajes`}
+          />
+        </section>
+
+        {/* reacción de la sala: intensidad (cuánto, no qué tono) */}
+        <section className="mt-3">
           <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm">
             <p className="text-[11px] uppercase tracking-wide text-stone-400">
-              Termómetro 1 · Tono de cobertura
+              Reacción de la sala · intensidad{" "}
+              <span style={{ color: BRAND }}>(único de Palco)</span>
             </p>
-            <div className="mt-3 flex h-3 overflow-hidden rounded-full bg-stone-100">
-              <div className="bg-red-500" style={{ width: `${(R.sentiment.neg / sentTotal) * 100}%` }} />
-              <div className="bg-stone-400" style={{ width: `${(R.sentiment.neu / sentTotal) * 100}%` }} />
-              <div className="bg-emerald-500" style={{ width: `${(R.sentiment.pos / sentTotal) * 100}%` }} />
-            </div>
-            <div className="mt-3 flex justify-between text-[12px] text-stone-500">
-              <span>🔴 {R.sentiment.neg} negativo</span>
-              <span>⚪ {R.sentiment.neu} neutro</span>
-              <span>🟢 {R.sentiment.pos} positivo</span>
-            </div>
-          </div>
-          <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm">
-            <p className="text-[11px] uppercase tracking-wide text-stone-400">
-              Termómetro 2 · Reacción de la sala{" "}
-              <span style={{ color: BRAND }}>(único)</span>
-            </p>
-            <div className="mt-3 flex items-end gap-6">
+            <div className="mt-3 flex items-end gap-8">
               <div>
                 <p className="text-3xl font-bold tabular-nums">{compact(pico?.conc_at)}</p>
                 <p className="text-[12px] text-stone-400">pico mirando en vivo · {pico?.channel}</p>

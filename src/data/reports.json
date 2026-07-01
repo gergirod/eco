@@ -40600,6 +40600,163 @@
    }
   ]
  },
+ "redoxon-triple-accion": {
+  "name": "Redoxon Triple Acción",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 177.0,
+  "channels": [
+   "vorterix"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 1,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 0,
+   "neutro": 1,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260701",
+    "date": "01/07/2026",
+    "mentions": 1,
+    "value_usd": 177.0
+   }
+  ],
+  "best": {
+   "channel": "vorterix",
+   "channel_name": "Vorterix",
+   "date": "01/07/2026",
+   "date_iso": "20260701",
+   "video_id": "2j8TvzmdrGY",
+   "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Dany Jiménez y Nico Etevenaux",
+   "minute": "02:01:48",
+   "t_seconds": 7308,
+   "precise": true,
+   "views": 16915,
+   "value_usd": 177.0,
+   "quote": "Por eso, ayuda a reforzar tus defensas Con la fórmula más completa de Redoxon Triple Acción Con vitamina C, D y Z",
+   "tier": 2,
+   "tier_label": "Lectura dedicada",
+   "sentiment": "neutro",
+   "conc_at": 8241,
+   "retention_pct": -6.4,
+   "chat_ratio": 0.97,
+   "chat_reaction": {
+    "cobertura": true,
+    "has_chat": true,
+    "chat_ratio": 0.97,
+    "spike_rpm": 0.4,
+    "pre_rpm": 10.5,
+    "post_rpm": 4.0,
+    "eco_marca_post": 0,
+    "eco_line": null,
+    "demanda_post": 2,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "neutral",
+    "table_line": "Chat en línea con el promedio del programa",
+    "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 10.5 msgs/min → después: 4.0 msgs/min.",
+    "detail_lines": [
+     "2 mensajes con señales de demanda (precio, link, código…)."
+    ],
+    "ejemplos": [
+     "que cuesta poner like? daleeeeee",
+     "NICO LE QUIERO REGALAR UN VINILO A MARIOTO DE TANGO/REGGAE DONDE SE LO PODEMOS DEJAR"
+    ],
+    "motivo": null
+   },
+   "room_reaction": {
+    "has_data": true,
+    "cobertura": true,
+    "in_window": false,
+    "table_line": "Sin participación medible en este tramo",
+    "headline": "",
+    "detail_lines": [],
+    "lines": [],
+    "pins": [],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 9326,
+   "has_chat": true,
+   "anchor_confidence": "fuzzy",
+   "anchor_validated": true,
+   "transcript_at_ts": "No se quieto Y goles que se gritan",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "01/07/2026",
+    "date_iso": "20260701",
+    "video_id": "2j8TvzmdrGY",
+    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Dany Jiménez y Nico Etevenaux",
+    "minute": "02:01:48",
+    "t_seconds": 7308,
+    "precise": true,
+    "views": 16915,
+    "value_usd": 177.0,
+    "quote": "Por eso, ayuda a reforzar tus defensas Con la fórmula más completa de Redoxon Triple Acción Con vitamina C, D y Z",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "neutro",
+    "conc_at": 8241,
+    "retention_pct": -6.4,
+    "chat_ratio": 0.97,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 0.97,
+     "spike_rpm": 0.4,
+     "pre_rpm": 10.5,
+     "post_rpm": 4.0,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 2,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "neutral",
+     "table_line": "Chat en línea con el promedio del programa",
+     "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 10.5 msgs/min → después: 4.0 msgs/min.",
+     "detail_lines": [
+      "2 mensajes con señales de demanda (precio, link, código…)."
+     ],
+     "ejemplos": [
+      "que cuesta poner like? daleeeeee",
+      "NICO LE QUIERO REGALAR UN VINILO A MARIOTO DE TANGO/REGGAE DONDE SE LO PODEMOS DEJAR"
+     ],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 9326,
+    "has_chat": true,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "No se quieto Y goles que se gritan",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   }
+  ]
+ },
  "martin-imante": {
   "name": "Martín Imante",
   "mentions": 1,

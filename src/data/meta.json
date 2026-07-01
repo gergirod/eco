@@ -1,23 +1,23 @@
 {
- "exported_at": "2026-07-01T09:24:39.987746+00:00",
+ "exported_at": "2026-07-01T13:36:55.716513+00:00",
  "capture_scope": "live_only",
  "capture_sources": [
   "youtube_api",
   "ytdlp_live"
  ],
- "n_videos": 107,
- "n_topics": 107,
- "n_topics_total": 175,
- "n_brands": 217,
- "n_products": 225,
- "n_pauta_mentions": 389,
- "n_moments": 127,
+ "n_videos": 108,
+ "n_topics": 108,
+ "n_topics_total": 176,
+ "n_brands": 218,
+ "n_products": 227,
+ "n_pauta_mentions": 390,
+ "n_moments": 139,
  "n_trends": 120,
  "cpm": 30.0,
  "peso_default": 0.3,
  "live_capture": {
-  "hours_captured": 247.8,
-  "streams_captured": 119,
+  "hours_captured": 255.0,
+  "streams_captured": 124,
   "channels_captured": 13,
   "capture_days": 9,
   "first_capture": "2026-06-22",
@@ -96,10 +96,10 @@
    },
    {
     "id": "luzu",
-    "streams": 27,
-    "hours": 54.2,
+    "streams": 28,
+    "hours": 54.7,
     "first_capture": "2026-06-23",
-    "last_capture": "2026-06-30"
+    "last_capture": "2026-07-01"
    },
    {
     "id": "neura",
@@ -110,10 +110,10 @@
    },
    {
     "id": "olga",
-    "streams": 27,
-    "hours": 57.3,
+    "streams": 29,
+    "hours": 61.3,
     "first_capture": "2026-06-22",
-    "last_capture": "2026-06-30"
+    "last_capture": "2026-07-01"
    },
    {
     "id": "urbana",
@@ -124,10 +124,10 @@
    },
    {
     "id": "vorterix",
-    "streams": 17,
-    "hours": 37.0,
+    "streams": 19,
+    "hours": 39.8,
     "first_capture": "2026-06-26",
-    "last_capture": "2026-06-30"
+    "last_capture": "2026-07-01"
    }
   ],
   "by_show": [
@@ -135,15 +135,15 @@
     "channel_id": "vorterix",
     "show_id": "otros",
     "show_name": "Otros",
-    "streams": 14,
-    "hours": 30.7
+    "streams": 15,
+    "hours": 31.5
    },
    {
     "channel_id": "olga",
     "show_id": "seria-increible",
     "show_name": "Sería Increíble",
-    "streams": 5,
-    "hours": 18.0
+    "streams": 6,
+    "hours": 21.7
    },
    {
     "channel_id": "luzu",
@@ -177,8 +177,8 @@
     "channel_id": "olga",
     "show_id": "sone-volaba",
     "show_name": "Soñé que Volaba",
-    "streams": 6,
-    "hours": 14.4
+    "streams": 7,
+    "hours": 14.7
    },
    {
     "channel_id": "bondi",
@@ -191,8 +191,8 @@
     "channel_id": "luzu",
     "show_id": "ndn",
     "show_name": "Nadie Dice Nada",
-    "streams": 5,
-    "hours": 12.3
+    "streams": 6,
+    "hours": 12.7
    },
    {
     "channel_id": "olga",
@@ -207,6 +207,13 @@
     "show_name": "Gol Gana",
     "streams": 6,
     "hours": 8.5
+   },
+   {
+    "channel_id": "vorterix",
+    "show_id": "no-rusia",
+    "show_name": "No Preguntes por Rusia",
+    "streams": 4,
+    "hours": 8.3
    },
    {
     "channel_id": "luzu",
@@ -228,13 +235,6 @@
     "show_name": "Otros",
     "streams": 4,
     "hours": 6.8
-   },
-   {
-    "channel_id": "vorterix",
-    "show_id": "no-rusia",
-    "show_name": "No Preguntes por Rusia",
-    "streams": 3,
-    "hours": 6.3
    },
    {
     "channel_id": "ahoraplay",
@@ -364,13 +364,13 @@
  },
  "discovery": {
   "channels_covered": 12,
-  "hours_captured": 238.1,
+  "hours_captured": 240.2,
   "first_capture": "2026-06-19",
   "last_capture": "2026-07-01",
   "period_days": 13,
-  "programs_with_viewers": 107,
+  "programs_with_viewers": 108,
   "high_confidence_advertisers": 30,
   "emerging_confidence_advertisers": 41,
-  "activations_with_verified_evidence": 382
+  "activations_with_verified_evidence": 383
  }
 }

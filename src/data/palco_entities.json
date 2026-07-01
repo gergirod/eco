@@ -1,5 +1,6 @@
 {
-  "generated_at": "2026-07-01T12:32:36.885721+00:00",
+  "generated_at": "2026-07-01T13:47:47.766475+00:00",
+  "sentiment_engine": "haiku",
   "default": "manuel-adorni",
   "index": [
     {
@@ -9,20 +10,20 @@
       "mentions": 1868,
       "chat": 408,
       "channels": 14,
-      "neg": 3,
-      "neu": 125,
-      "pos": 19
+      "neg": 13,
+      "neu": 86,
+      "pos": 48
     },
     {
       "slug": "manuel-adorni",
       "name": "Manuel Adorni",
       "type": "Político",
-      "mentions": 841,
-      "chat": 3465,
+      "mentions": 844,
+      "chat": 3474,
       "channels": 12,
-      "neg": 11,
-      "neu": 42,
-      "pos": 4
+      "neg": 21,
+      "neu": 34,
+      "pos": 3
     },
     {
       "slug": "diego-santilli",
@@ -31,9 +32,9 @@
       "mentions": 532,
       "chat": 111,
       "channels": 11,
-      "neg": 3,
-      "neu": 27,
-      "pos": 2
+      "neg": 6,
+      "neu": 20,
+      "pos": 6
     },
     {
       "slug": "lionel-scaloni",
@@ -42,19 +43,19 @@
       "mentions": 366,
       "chat": 44,
       "channels": 10,
-      "neg": 0,
-      "neu": 52,
-      "pos": 3
+      "neg": 3,
+      "neu": 37,
+      "pos": 15
     },
     {
       "slug": "mauricio-macri",
       "name": "Mauricio Macri",
       "type": "Político",
-      "mentions": 308,
+      "mentions": 309,
       "chat": 424,
       "channels": 12,
-      "neg": 8,
-      "neu": 40,
+      "neg": 19,
+      "neu": 30,
       "pos": 3
     },
     {
@@ -64,20 +65,20 @@
       "mentions": 279,
       "chat": 66,
       "channels": 11,
-      "neg": 4,
-      "neu": 42,
-      "pos": 2
+      "neg": 3,
+      "neu": 36,
+      "pos": 9
     },
     {
       "slug": "javier-milei",
       "name": "Javier Milei",
       "type": "Político",
-      "mentions": 197,
-      "chat": 3276,
+      "mentions": 199,
+      "chat": 3278,
       "channels": 11,
-      "neg": 4,
-      "neu": 36,
-      "pos": 0
+      "neg": 7,
+      "neu": 29,
+      "pos": 5
     },
     {
       "slug": "lali-esposito",
@@ -86,9 +87,9 @@
       "mentions": 184,
       "chat": 12,
       "channels": 5,
-      "neg": 1,
-      "neu": 44,
-      "pos": 1
+      "neg": 6,
+      "neu": 27,
+      "pos": 13
     },
     {
       "slug": "cristina-kirchner",
@@ -97,9 +98,9 @@
       "mentions": 169,
       "chat": 83,
       "channels": 11,
-      "neg": 3,
-      "neu": 38,
-      "pos": 2
+      "neg": 16,
+      "neu": 23,
+      "pos": 4
     },
     {
       "slug": "shakira",
@@ -108,9 +109,9 @@
       "mentions": 123,
       "chat": 2,
       "channels": 7,
-      "neg": 1,
-      "neu": 35,
-      "pos": 1
+      "neg": 4,
+      "neu": 25,
+      "pos": 8
     },
     {
       "slug": "patricia-bullrich",
@@ -119,9 +120,9 @@
       "mentions": 111,
       "chat": 25,
       "channels": 11,
-      "neg": 3,
-      "neu": 22,
-      "pos": 2
+      "neg": 12,
+      "neu": 14,
+      "pos": 1
     },
     {
       "slug": "julian-alvarez",
@@ -130,9 +131,9 @@
       "mentions": 90,
       "chat": 0,
       "channels": 8,
-      "neg": 1,
-      "neu": 39,
-      "pos": 3
+      "neg": 4,
+      "neu": 32,
+      "pos": 7
     }
   ],
   "radars": {
@@ -145,21 +146,27 @@
         "adorni"
       ],
       "totals": {
-        "transcript_mentions": 841,
-        "chat_mentions": 3465,
-        "programs_with_mentions": 57,
+        "transcript_mentions": 844,
+        "chat_mentions": 3474,
+        "programs_with_mentions": 58,
         "channels": 12
       },
       "sentiment": {
-        "neg": 11,
-        "neu": 42,
-        "pos": 4
+        "neg": 21,
+        "neu": 34,
+        "pos": 3
       },
+      "sentiment_chat": {
+        "neg": 75,
+        "neu": 34,
+        "pos": 11
+      },
+      "chat_scored": 120,
       "share_of_voice": [
         {
           "channel": "GELATINA",
           "mentions": 273,
-          "pct": 32.5
+          "pct": 32.3
         },
         {
           "channel": "BLENDER",
@@ -174,7 +181,7 @@
         {
           "channel": "Cenital",
           "mentions": 89,
-          "pct": 10.6
+          "pct": 10.5
         },
         {
           "channel": "AHORA PLAY",
@@ -183,8 +190,8 @@
         },
         {
           "channel": "Vorterix",
-          "mentions": 52,
-          "pct": 6.2
+          "mentions": 55,
+          "pct": 6.5
         },
         {
           "channel": "A U R A",
@@ -252,7 +259,7 @@
         },
         {
           "day": "20260701",
-          "mentions": 60
+          "mentions": 63
         }
       ],
       "crisis": {
@@ -294,7 +301,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "pos",
+          "sentiment": "neu",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=IlVszYblfPE&t=7940s",
           "clip_start": 7940,
@@ -315,7 +322,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neg",
+          "sentiment": "neu",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=cHMIm1Fnig4&t=8332s",
           "clip_start": 8332,
@@ -357,7 +364,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neg",
+          "sentiment": "neu",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=jEEahJU8_jg&t=9498s",
           "clip_start": 9498,
@@ -378,7 +385,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neg",
+          "sentiment": "neu",
           "mentions_in_program": 2,
           "yt_url": "https://www.youtube.com/watch?v=cEWsZ9vbiCg&t=12539s",
           "clip_start": 12539,
@@ -420,7 +427,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "pos",
+          "sentiment": "neu",
           "mentions_in_program": 2,
           "yt_url": "https://www.youtube.com/watch?v=0NuPTgKW5mc&t=12497s",
           "clip_start": 12497,
@@ -512,7 +519,7 @@
             "ES VERDAD QUE ADORNI VA A COBRAR 90M FE YPF ?",
             "Es verdad que Adorni tiene 249 allegados y familiares metidos en el gobierno?"
           ],
-          "sentiment": "neg",
+          "sentiment": "pos",
           "mentions_in_program": 38,
           "yt_url": "https://www.youtube.com/watch?v=e3av_6yqgHg&t=4909s",
           "clip_start": 4909,
@@ -535,7 +542,7 @@
           "chat_ex": [
             "alemán amigo de adorni"
           ],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=Lm6Db-SEA0M&t=1220s",
           "clip_start": 1220,
@@ -560,7 +567,7 @@
             "ya sabemos en qué gasta adorni sus bitcoins",
             "hablen de adorni"
           ],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 18,
           "yt_url": "https://www.youtube.com/watch?v=zpbJ8ju9xmk&t=6111s",
           "clip_start": 6111,
@@ -606,51 +613,57 @@
         "milei"
       ],
       "totals": {
-        "transcript_mentions": 197,
-        "chat_mentions": 3276,
-        "programs_with_mentions": 40,
+        "transcript_mentions": 199,
+        "chat_mentions": 3278,
+        "programs_with_mentions": 41,
         "channels": 11
       },
       "sentiment": {
-        "neg": 4,
-        "neu": 36,
-        "pos": 0
+        "neg": 7,
+        "neu": 29,
+        "pos": 5
       },
+      "sentiment_chat": {
+        "neg": 1,
+        "neu": 116,
+        "pos": 3
+      },
+      "chat_scored": 120,
       "share_of_voice": [
         {
           "channel": "GELATINA",
           "mentions": 65,
-          "pct": 33.0
+          "pct": 32.7
         },
         {
           "channel": "Cenital",
           "mentions": 35,
-          "pct": 17.8
+          "pct": 17.6
         },
         {
           "channel": "AHORA PLAY",
           "mentions": 23,
-          "pct": 11.7
+          "pct": 11.6
         },
         {
           "channel": "OLGA",
           "mentions": 21,
-          "pct": 10.7
+          "pct": 10.6
         },
         {
           "channel": "BLENDER",
           "mentions": 18,
-          "pct": 9.1
+          "pct": 9.0
         },
         {
           "channel": "Vorterix",
-          "mentions": 12,
-          "pct": 6.1
+          "mentions": 14,
+          "pct": 7.0
         },
         {
           "channel": "BorderPeriodismo",
           "mentions": 7,
-          "pct": 3.6
+          "pct": 3.5
         },
         {
           "channel": "El Cronista",
@@ -712,7 +725,7 @@
         },
         {
           "day": "20260701",
-          "mentions": 12
+          "mentions": 14
         }
       ],
       "crisis": null,
@@ -730,7 +743,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neg",
+          "sentiment": "neu",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=jEEahJU8_jg&t=9501s",
           "clip_start": 9501,
@@ -751,7 +764,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neg",
+          "sentiment": "neu",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=cEWsZ9vbiCg&t=12542s",
           "clip_start": 12542,
@@ -820,7 +833,7 @@
           "chat_ex": [
             "Está muy calmada, le dio una pasti milei"
           ],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 3,
           "yt_url": "https://www.youtube.com/watch?v=zpbJ8ju9xmk&t=6356s",
           "clip_start": 6356,
@@ -929,7 +942,7 @@
           "chat_msgs": 136,
           "chat_ratio": 1.85,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=cG_sxu72mSo&t=2044s",
           "clip_start": 2044,
@@ -1004,25 +1017,25 @@
           "formato": "tema del bloque"
         },
         {
-          "video_id": "Iii3dqMJvwQ",
-          "channel": "BLENDER",
-          "program": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
-          "date": "20260629",
-          "views": 32665,
-          "t_seconds": 1254,
-          "t_label": "00:20:54",
-          "quote": "En todos lados mintió. Porque vos decís, bueno, a mí no me mintió, podría decir Javier Milei. Estuviste en el Congreso, aplaudiéndolo.",
-          "conc_at": 5906,
-          "chat_msgs": 0,
-          "chat_ratio": 0.0,
+          "video_id": "2j8TvzmdrGY",
+          "channel": "Vorterix",
+          "program": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Dany Jiménez y Nico Etevenaux",
+          "date": "20260701",
+          "views": 16915,
+          "t_seconds": 2776,
+          "t_label": "00:46:16",
+          "quote": "La Fundación Faro es este think tank que dirige Agustín Laje, que es una de las columnas vertebrales de lo que se conoce como la batalla cultural de Javier Milei. Es especialista en macroeconomía y teoría monetaria, publicó distintos trabajos relacionados con la escuela austríaca",
+          "conc_at": 6676,
+          "chat_msgs": 34,
+          "chat_ratio": 0.7,
           "chat_ex": [],
-          "sentiment": "neu",
-          "mentions_in_program": 8,
-          "yt_url": "https://www.youtube.com/watch?v=Iii3dqMJvwQ&t=1251s",
-          "clip_start": 1251,
-          "clip_label": "00:20:51",
+          "sentiment": "pos",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=2j8TvzmdrGY&t=2773s",
+          "clip_start": 2773,
+          "clip_label": "00:46:13",
           "origen": "hablado",
-          "formato": "tema del bloque"
+          "formato": "mención recurrente"
         }
       ]
     },
@@ -1042,10 +1055,16 @@
         "channels": 11
       },
       "sentiment": {
-        "neg": 4,
-        "neu": 42,
-        "pos": 2
+        "neg": 3,
+        "neu": 36,
+        "pos": 9
       },
+      "sentiment_chat": {
+        "neg": 47,
+        "neu": 16,
+        "pos": 3
+      },
+      "chat_scored": 66,
       "share_of_voice": [
         {
           "channel": "LUZU TV",
@@ -1336,7 +1355,7 @@
           "chat_msgs": 26,
           "chat_ratio": 0.32,
           "chat_ex": [],
-          "sentiment": "neg",
+          "sentiment": "neu",
           "mentions_in_program": 6,
           "yt_url": "https://www.youtube.com/watch?v=e3av_6yqgHg&t=4970s",
           "clip_start": 4970,
@@ -1357,7 +1376,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=S1UDpsKkZvE&t=4008s",
           "clip_start": 4008,
@@ -1464,7 +1483,7 @@
           "chat_ex": [
             "quien la voto a karina"
           ],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 4,
           "yt_url": "https://www.youtube.com/watch?v=3CPnLRc7h2w&t=3148s",
           "clip_start": 3148,
@@ -1485,7 +1504,7 @@
           "chat_msgs": 39,
           "chat_ratio": 0.94,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 6,
           "yt_url": "https://www.youtube.com/watch?v=tcq7UAzc3iw&t=5014s",
           "clip_start": 5014,
@@ -1505,31 +1524,37 @@
         "macri"
       ],
       "totals": {
-        "transcript_mentions": 308,
+        "transcript_mentions": 309,
         "chat_mentions": 424,
-        "programs_with_mentions": 51,
+        "programs_with_mentions": 52,
         "channels": 12
       },
       "sentiment": {
-        "neg": 8,
-        "neu": 40,
+        "neg": 19,
+        "neu": 30,
         "pos": 3
       },
+      "sentiment_chat": {
+        "neg": 59,
+        "neu": 48,
+        "pos": 13
+      },
+      "chat_scored": 120,
       "share_of_voice": [
         {
           "channel": "GELATINA",
           "mentions": 104,
-          "pct": 33.8
+          "pct": 33.7
         },
         {
           "channel": "OLGA",
           "mentions": 56,
-          "pct": 18.2
+          "pct": 18.1
         },
         {
           "channel": "BLENDER",
           "mentions": 40,
-          "pct": 13.0
+          "pct": 12.9
         },
         {
           "channel": "AHORA PLAY",
@@ -1538,13 +1563,13 @@
         },
         {
           "channel": "Vorterix",
-          "mentions": 19,
-          "pct": 6.2
+          "mentions": 20,
+          "pct": 6.5
         },
         {
           "channel": "BorderPeriodismo",
           "mentions": 19,
-          "pct": 6.2
+          "pct": 6.1
         },
         {
           "channel": "Neura Media",
@@ -1624,7 +1649,7 @@
         },
         {
           "day": "20260701",
-          "mentions": 2
+          "mentions": 3
         }
       ],
       "crisis": {
@@ -1710,7 +1735,7 @@
           "chat_ex": [
             "La subtrama macri con olga no me esta gustando nada como suscriptor desde 2023"
           ],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 15,
           "yt_url": "https://www.youtube.com/watch?v=e3av_6yqgHg&t=5124s",
           "clip_start": 5124,
@@ -1734,7 +1759,7 @@
             "como esta el temita macri che",
             "NO PODES CRITICAR MAS A MACRI, NO TE AVISARON"
           ],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 2,
           "yt_url": "https://www.youtube.com/watch?v=Lm6Db-SEA0M&t=754s",
           "clip_start": 754,
@@ -1824,7 +1849,7 @@
           "chat_msgs": 93,
           "chat_ratio": 4.2,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 3,
           "yt_url": "https://www.youtube.com/watch?v=G48eCpGj41g&t=3153s",
           "clip_start": 3153,
@@ -1866,7 +1891,7 @@
           "chat_msgs": 126,
           "chat_ratio": 0.83,
           "chat_ex": [],
-          "sentiment": "pos",
+          "sentiment": "neu",
           "mentions_in_program": 12,
           "yt_url": "https://www.youtube.com/watch?v=JNLpggdieek&t=6149s",
           "clip_start": 6149,
@@ -1936,7 +1961,7 @@
             "quoen pudo haber votadp que Milei supero la crisis, el macrismo le comio todo",
             "LOS HERMANOS MILEI SON LOS ENANITOS DEL CIRCO..EL QUE MANDA ES MACRI Y LA PATRIA CONTRATIS"
           ],
-          "sentiment": "pos",
+          "sentiment": "neu",
           "mentions_in_program": 5,
           "yt_url": "https://www.youtube.com/watch?v=LTlJq7vIE0g&t=1299s",
           "clip_start": 1299,
@@ -1945,27 +1970,25 @@
           "formato": "mención recurrente"
         },
         {
-          "video_id": "NHt6oqHZYd0",
-          "channel": "GELATINA",
-          "program": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
-          "date": "20260629",
-          "views": 12026,
-          "t_seconds": 6132,
-          "t_label": "01:42:12",
-          "quote": "de todo esto también y también es la habilidad política de Macri de reinventarse él se separa",
-          "conc_at": 6843,
-          "chat_msgs": 53,
-          "chat_ratio": 0.76,
-          "chat_ex": [
-            "@juancruzjaramillo focaliza do de quieras,Macri está rosqueando muy fiero con los árabes y"
-          ],
-          "sentiment": "neu",
-          "mentions_in_program": 25,
-          "yt_url": "https://www.youtube.com/watch?v=NHt6oqHZYd0&t=6129s",
-          "clip_start": 6129,
-          "clip_label": "01:42:09",
-          "origen": "ambos",
-          "formato": "tema del bloque"
+          "video_id": "2j8TvzmdrGY",
+          "channel": "Vorterix",
+          "program": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Dany Jiménez y Nico Etevenaux",
+          "date": "20260701",
+          "views": 16915,
+          "t_seconds": 3042,
+          "t_label": "00:50:42",
+          "quote": "Bueno, y mucho de todo esto fue lo que expresó y quizás el punto más débil de todo lo que fue su conferencia y las respuestas que le dio a los periodistas fue cuando hablaba de las tarifas de servicios públicos, de gas y de electricidad, que dijo que lógicamente estaban empezando",
+          "conc_at": 7044,
+          "chat_msgs": 44,
+          "chat_ratio": 0.91,
+          "chat_ex": [],
+          "sentiment": "neg",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=2j8TvzmdrGY&t=3039s",
+          "clip_start": 3039,
+          "clip_label": "00:50:39",
+          "origen": "hablado",
+          "formato": "mención al pasar"
         }
       ]
     },
@@ -1985,10 +2008,16 @@
         "channels": 11
       },
       "sentiment": {
-        "neg": 3,
-        "neu": 27,
-        "pos": 2
+        "neg": 6,
+        "neu": 20,
+        "pos": 6
       },
+      "sentiment_chat": {
+        "neg": 62,
+        "neu": 39,
+        "pos": 10
+      },
+      "chat_scored": 111,
       "share_of_voice": [
         {
           "channel": "GELATINA",
@@ -2125,7 +2154,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neg",
+          "sentiment": "neu",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=cEWsZ9vbiCg&t=12542s",
           "clip_start": 12542,
@@ -2167,7 +2196,7 @@
           "chat_msgs": 66,
           "chat_ratio": 1.12,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 34,
           "yt_url": "https://www.youtube.com/watch?v=WNe6QLgDfyM&t=10485s",
           "clip_start": 10485,
@@ -2188,7 +2217,7 @@
           "chat_msgs": 39,
           "chat_ratio": 0.49,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 21,
           "yt_url": "https://www.youtube.com/watch?v=e3av_6yqgHg&t=5160s",
           "clip_start": 5160,
@@ -2234,7 +2263,7 @@
             "amor a santilli?",
             "ADEMAS EL TWEET DE LO QUE DECIA DE SANTILLI JAJAJAJAJAJA"
           ],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 21,
           "yt_url": "https://www.youtube.com/watch?v=JNLpggdieek&t=6556s",
           "clip_start": 6556,
@@ -2303,7 +2332,7 @@
             "santilli = scioli?",
             "Santilli es mucho más arrastrado que Pato, pato es planta y se la banca, Santilli se arras"
           ],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 20,
           "yt_url": "https://www.youtube.com/watch?v=LTlJq7vIE0g&t=1348s",
           "clip_start": 1348,
@@ -2395,10 +2424,16 @@
         "channels": 11
       },
       "sentiment": {
-        "neg": 3,
-        "neu": 38,
-        "pos": 2
+        "neg": 16,
+        "neu": 23,
+        "pos": 4
       },
+      "sentiment_chat": {
+        "neg": 45,
+        "neu": 18,
+        "pos": 20
+      },
+      "chat_scored": 83,
       "share_of_voice": [
         {
           "channel": "GELATINA",
@@ -2529,7 +2564,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "pos",
+          "sentiment": "neu",
           "mentions_in_program": 3,
           "yt_url": "https://www.youtube.com/watch?v=wpLDMAyU_fA&t=697s",
           "clip_start": 697,
@@ -2571,7 +2606,7 @@
           "chat_msgs": 39,
           "chat_ratio": 0.84,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 2,
           "yt_url": "https://www.youtube.com/watch?v=tAUTd2FsMxA&t=13635s",
           "clip_start": 13635,
@@ -2592,7 +2627,7 @@
           "chat_msgs": 38,
           "chat_ratio": 0.47,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 5,
           "yt_url": "https://www.youtube.com/watch?v=e3av_6yqgHg&t=5121s",
           "clip_start": 5121,
@@ -2676,7 +2711,7 @@
           "chat_msgs": 50,
           "chat_ratio": 0.71,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=bX7MB2_OI2I&t=4513s",
           "clip_start": 4513,
@@ -2718,7 +2753,7 @@
           "chat_msgs": 33,
           "chat_ratio": 0.8,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 2,
           "yt_url": "https://www.youtube.com/watch?v=tcq7UAzc3iw&t=5258s",
           "clip_start": 5258,
@@ -2762,7 +2797,7 @@
           "chat_ex": [
             "KICILOFF HACIA EL INDICE 7 PROVINCIAS DICIENDO QUE CRISTINA MENTIA CON LA INFLACION"
           ],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 7,
           "yt_url": "https://www.youtube.com/watch?v=C6BZb4k8gF0&t=4124s",
           "clip_start": 4124,
@@ -2804,7 +2839,7 @@
           "chat_msgs": 172,
           "chat_ratio": 1.87,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 15,
           "yt_url": "https://www.youtube.com/watch?v=mNBPDZhUOf8&t=3458s",
           "clip_start": 3458,
@@ -2831,10 +2866,16 @@
         "channels": 14
       },
       "sentiment": {
-        "neg": 3,
-        "neu": 125,
-        "pos": 19
+        "neg": 13,
+        "neu": 86,
+        "pos": 48
       },
+      "sentiment_chat": {
+        "neg": 40,
+        "neu": 38,
+        "pos": 42
+      },
+      "chat_scored": 120,
       "share_of_voice": [
         {
           "channel": "OLGA",
@@ -3006,7 +3047,7 @@
         "chat_msgs": 7,
         "chat_ratio": 1.76,
         "chat_ex": [],
-        "sentiment": "neg",
+        "sentiment": "neu",
         "mentions_in_program": 133,
         "yt_url": "https://www.youtube.com/watch?v=95yJuQx7ol8&t=2328s",
         "clip_start": 2328,
@@ -3091,7 +3132,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 27,
           "yt_url": "https://www.youtube.com/watch?v=S1UDpsKkZvE&t=12338s",
           "clip_start": 12338,
@@ -3154,7 +3195,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 8,
           "yt_url": "https://www.youtube.com/watch?v=E1SnlQyyuRc&t=216s",
           "clip_start": 216,
@@ -3175,7 +3216,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 17,
           "yt_url": "https://www.youtube.com/watch?v=fnvj0iK5yDI&t=11880s",
           "clip_start": 11880,
@@ -3196,7 +3237,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 8,
           "yt_url": "https://www.youtube.com/watch?v=wpLDMAyU_fA&t=540s",
           "clip_start": 540,
@@ -3259,7 +3300,7 @@
           "chat_msgs": 94,
           "chat_ratio": 0.72,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 75,
           "yt_url": "https://www.youtube.com/watch?v=q_clAienUJw&t=12627s",
           "clip_start": 12627,
@@ -3328,10 +3369,16 @@
         "channels": 5
       },
       "sentiment": {
-        "neg": 1,
-        "neu": 44,
-        "pos": 1
+        "neg": 6,
+        "neu": 27,
+        "pos": 13
       },
+      "sentiment_chat": {
+        "neg": 3,
+        "neu": 4,
+        "pos": 5
+      },
+      "chat_scored": 12,
       "share_of_voice": [
         {
           "channel": "LUZU TV",
@@ -3478,7 +3525,7 @@
           "chat_msgs": 50,
           "chat_ratio": 1.07,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 8,
           "yt_url": "https://www.youtube.com/watch?v=tAUTd2FsMxA&t=14085s",
           "clip_start": 14085,
@@ -3520,7 +3567,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 2,
           "yt_url": "https://www.youtube.com/watch?v=S1UDpsKkZvE&t=3936s",
           "clip_start": 3936,
@@ -3541,7 +3588,7 @@
           "chat_msgs": 52,
           "chat_ratio": 0.76,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=fam8EedmGow&t=6701s",
           "clip_start": 6701,
@@ -3627,7 +3674,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=WOcOu6AcIp0&t=35s",
           "clip_start": 35,
@@ -3648,7 +3695,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 2,
           "yt_url": "https://www.youtube.com/watch?v=fK_sJLt2OJ0&t=8375s",
           "clip_start": 8375,
@@ -3690,7 +3737,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=_nXe8cJmDFk&t=3725s",
           "clip_start": 3725,
@@ -3737,10 +3784,16 @@
         "channels": 11
       },
       "sentiment": {
-        "neg": 3,
-        "neu": 22,
+        "neg": 12,
+        "neu": 14,
+        "pos": 1
+      },
+      "sentiment_chat": {
+        "neg": 13,
+        "neu": 10,
         "pos": 2
       },
+      "chat_scored": 25,
       "share_of_voice": [
         {
           "channel": "GELATINA",
@@ -3851,7 +3904,7 @@
           "chat_msgs": 67,
           "chat_ratio": 0.73,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 2,
           "yt_url": "https://www.youtube.com/watch?v=ptOHcGEdWCk&t=7306s",
           "clip_start": 7306,
@@ -3895,7 +3948,7 @@
           "chat_msgs": 32,
           "chat_ratio": 0.4,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 3,
           "yt_url": "https://www.youtube.com/watch?v=e3av_6yqgHg&t=5040s",
           "clip_start": 5040,
@@ -3958,7 +4011,7 @@
           "chat_msgs": 29,
           "chat_ratio": 0.7,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=tcq7UAzc3iw&t=1417s",
           "clip_start": 1417,
@@ -4042,7 +4095,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 3,
           "yt_url": "https://www.youtube.com/watch?v=Iii3dqMJvwQ&t=1434s",
           "clip_start": 1434,
@@ -4086,7 +4139,7 @@
           "chat_msgs": 11,
           "chat_ratio": 0.18,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 2,
           "yt_url": "https://www.youtube.com/watch?v=LTlJq7vIE0g&t=370s",
           "clip_start": 370,
@@ -4128,7 +4181,7 @@
           "chat_msgs": 1,
           "chat_ratio": 0.14,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 10,
           "yt_url": "https://www.youtube.com/watch?v=vlNZMMmBbLw&t=7803s",
           "clip_start": 7803,
@@ -4154,10 +4207,16 @@
         "channels": 10
       },
       "sentiment": {
-        "neg": 0,
-        "neu": 52,
-        "pos": 3
+        "neg": 3,
+        "neu": 37,
+        "pos": 15
       },
+      "sentiment_chat": {
+        "neg": 3,
+        "neu": 30,
+        "pos": 11
+      },
+      "chat_scored": 44,
       "share_of_voice": [
         {
           "channel": "OLGA",
@@ -4341,7 +4400,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=S1UDpsKkZvE&t=12195s",
           "clip_start": 12195,
@@ -4362,7 +4421,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 10,
           "yt_url": "https://www.youtube.com/watch?v=cEWsZ9vbiCg&t=12285s",
           "clip_start": 12285,
@@ -4383,7 +4442,7 @@
           "chat_msgs": 84,
           "chat_ratio": 1.19,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 12,
           "yt_url": "https://www.youtube.com/watch?v=bX7MB2_OI2I&t=12915s",
           "clip_start": 12915,
@@ -4406,7 +4465,7 @@
           "chat_ex": [
             "ESCALONI: DT"
           ],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 3,
           "yt_url": "https://www.youtube.com/watch?v=q_clAienUJw&t=12694s",
           "clip_start": 12694,
@@ -4475,7 +4534,7 @@
             "terrible chad scaloni, el tipo vio lo que nadie vio, el adn argento!",
             "muy bueno Scaloni"
           ],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 7,
           "yt_url": "https://www.youtube.com/watch?v=ptOHcGEdWCk&t=2289s",
           "clip_start": 2289,
@@ -4521,7 +4580,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 4,
           "yt_url": "https://www.youtube.com/watch?v=teZ-nZ63J0I&t=1170s",
           "clip_start": 1170,
@@ -4542,7 +4601,7 @@
           "chat_msgs": 47,
           "chat_ratio": 0.64,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=cG_sxu72mSo&t=4120s",
           "clip_start": 4120,
@@ -4616,10 +4675,16 @@
         "channels": 8
       },
       "sentiment": {
-        "neg": 1,
-        "neu": 39,
-        "pos": 3
+        "neg": 4,
+        "neu": 32,
+        "pos": 7
       },
+      "sentiment_chat": {
+        "neg": 0,
+        "neu": 0,
+        "pos": 0
+      },
+      "chat_scored": 0,
       "share_of_voice": [
         {
           "channel": "OLGA",
@@ -4882,7 +4947,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "pos",
+          "sentiment": "neu",
           "mentions_in_program": 10,
           "yt_url": "https://www.youtube.com/watch?v=95yJuQx7ol8&t=6822s",
           "clip_start": 6822,
@@ -4945,7 +5010,7 @@
           "chat_msgs": 5,
           "chat_ratio": 1.24,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 2,
           "yt_url": "https://www.youtube.com/watch?v=JqkhC1EnyTQ&t=1702s",
           "clip_start": 1702,
@@ -4966,7 +5031,7 @@
           "chat_msgs": 54,
           "chat_ratio": 1.16,
           "chat_ex": [],
-          "sentiment": "pos",
+          "sentiment": "neu",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=tAUTd2FsMxA&t=21881s",
           "clip_start": 21881,
@@ -5033,10 +5098,16 @@
         "channels": 7
       },
       "sentiment": {
-        "neg": 1,
-        "neu": 35,
-        "pos": 1
+        "neg": 4,
+        "neu": 25,
+        "pos": 8
       },
+      "sentiment_chat": {
+        "neg": 1,
+        "neu": 1,
+        "pos": 0
+      },
+      "chat_scored": 2,
       "share_of_voice": [
         {
           "channel": "LUZU TV",
@@ -5155,7 +5226,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 4,
           "yt_url": "https://www.youtube.com/watch?v=cHMIm1Fnig4&t=2836s",
           "clip_start": 2836,
@@ -5302,7 +5373,7 @@
           "chat_msgs": 205,
           "chat_ratio": 0.85,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=LjEHjrbNNgs&t=6451s",
           "clip_start": 6451,
@@ -5386,7 +5457,7 @@
           "chat_msgs": 3,
           "chat_ratio": 0.74,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 5,
           "yt_url": "https://www.youtube.com/watch?v=JqkhC1EnyTQ&t=5726s",
           "clip_start": 5726,

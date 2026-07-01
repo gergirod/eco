@@ -1,12 +1,12 @@
 {
- "exported_at": "2026-07-01T09:24:39.987746+00:00",
+ "exported_at": "2026-07-01T13:36:55.716513+00:00",
  "signals": [
   {
    "tema": "like · vivo",
    "evidence_lane": "chat",
-   "n_msgs": 74,
-   "n_authors": 72,
-   "n_programas": 17,
+   "n_msgs": 77,
+   "n_authors": 75,
+   "n_programas": 18,
    "canales": [
     "?",
     "OLGA",
@@ -76,6 +76,63 @@
     }
    ],
    "ejemplo": "CURUZU CUATIA"
+  },
+  {
+   "tema": "buen · dia",
+   "evidence_lane": "chat",
+   "n_msgs": 61,
+   "n_authors": 61,
+   "n_programas": 16,
+   "canales": [
+    "?",
+    "GELATINA",
+    "OLGA",
+    "Urbana Play 104.3 FM",
+    "Vorterix"
+   ],
+   "programs": [
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "Urbana Play 104.3 FM",
+     "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "buen dia"
+    },
+    {
+     "video_id": "2j8TvzmdrGY",
+     "channel": "Vorterix",
+     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Dany Jiménez y Nico Etevenaux",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Buen día"
+    },
+    {
+     "video_id": "3CPnLRc7h2w",
+     "channel": "Vorterix",
+     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+     "n_msgs": 7,
+     "n_authors": 7,
+     "ejemplo": "buen día"
+    },
+    {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "Vorterix",
+     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Polaco Silveira y Nico Etevenaux",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "buen día"
+    },
+    {
+     "video_id": "HA1dexnR7Ng",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "buen día"
+    }
+   ],
+   "ejemplo": "buen dia"
   },
   {
    "tema": "liska · tirate",
@@ -199,61 +256,58 @@
    "ejemplo": "like al vivooo"
   },
   {
-   "tema": "buen · dia",
+   "tema": "migue · razon · tiene",
    "evidence_lane": "chat",
-   "n_msgs": 42,
-   "n_authors": 42,
-   "n_programas": 11,
+   "n_msgs": 39,
+   "n_authors": 39,
+   "n_programas": 5,
    "canales": [
     "?",
-    "GELATINA",
-    "OLGA",
-    "Urbana Play 104.3 FM",
-    "Vorterix"
+    "OLGA"
    ],
    "programs": [
     {
-     "video_id": "1KdxLdm_3K0",
-     "channel": "Urbana Play 104.3 FM",
-     "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
-     "n_msgs": 3,
-     "n_authors": 3,
-     "ejemplo": "buen dia"
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": "MIGUE TIENE RAZÓN"
     },
     {
-     "video_id": "3CPnLRc7h2w",
-     "channel": "Vorterix",
-     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-     "n_msgs": 7,
-     "n_authors": 7,
-     "ejemplo": "buen día"
-    },
-    {
-     "video_id": "FFy6eNzi-dQ",
-     "channel": "Vorterix",
-     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Polaco Silveira y Nico Etevenaux",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "buen día"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
+     "video_id": "HA1dexnR7Ng",
      "channel": "?",
      "title": "",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "Buen día"
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "MIGUE TIENE RAZÓN"
     },
     {
-     "video_id": "WNe6QLgDfyM",
+     "video_id": "Lm6Db-SEA0M",
      "channel": "OLGA",
-     "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "Buen día"
+     "title": "SOÑAMOS QUE CAZAMOS UTOPÍAS IMPOSIBLES | #SoñéQueVolaba 30/6",
+     "n_msgs": 5,
+     "n_authors": 5,
+     "ejemplo": "MIGUE TIENE RAZON"
+    },
+    {
+     "video_id": "cOui_830fXg",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 20,
+     "n_authors": 20,
+     "ejemplo": "MIGUE TIENE RAZÓN"
+    },
+    {
+     "video_id": "ptOHcGEdWCk",
+     "channel": "OLGA",
+     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "Tiene razon migue"
     }
    ],
-   "ejemplo": "buen dia"
+   "ejemplo": "MIGUE TIENE RAZÓN"
   },
   {
    "tema": "grabado · lamentablemente",
@@ -393,50 +447,61 @@
    "ejemplo": "LIKE AL VIVOOOO"
   },
   {
-   "tema": "migue · razon · tiene",
+   "tema": "like · pongan",
    "evidence_lane": "chat",
-   "n_msgs": 36,
-   "n_authors": 36,
-   "n_programas": 4,
+   "n_msgs": 38,
+   "n_authors": 37,
+   "n_programas": 8,
    "canales": [
     "?",
-    "OLGA"
+    "Bondi Live",
+    "GELATINA",
+    "Neura Media",
+    "Vorterix"
    ],
    "programs": [
     {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 8,
-     "n_authors": 8,
-     "ejemplo": "MIGUE TIENE RAZÓN"
+     "video_id": "G48eCpGj41g",
+     "channel": "Bondi Live",
+     "title": "▶️ PROGRAMACIÓN COMPLETA 30/06 | BONDI LIVE",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Pongan LIKE"
     },
     {
-     "video_id": "Lm6Db-SEA0M",
-     "channel": "OLGA",
-     "title": "SOÑAMOS QUE CAZAMOS UTOPÍAS IMPOSIBLES | #SoñéQueVolaba 30/6",
-     "n_msgs": 5,
-     "n_authors": 5,
-     "ejemplo": "MIGUE TIENE RAZON"
+     "video_id": "JNLpggdieek",
+     "channel": "Vorterix",
+     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "PONGAN LIKE"
     },
     {
-     "video_id": "cOui_830fXg",
+     "video_id": "LjEHjrbNNgs",
+     "channel": "Vorterix",
+     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+     "n_msgs": 13,
+     "n_authors": 12,
+     "ejemplo": "PONGAN LIKE"
+    },
+    {
+     "video_id": "TS7Q8dOmi-M",
+     "channel": "Neura Media",
+     "title": "El fútbol moderno, Argentina vs Jordania, ¿con quién jugarías la final? | Multiverso Neura - 30/06",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "PONGAN LIKE"
+    },
+    {
+     "video_id": "p6DntkKAWNc",
      "channel": "?",
      "title": "",
-     "n_msgs": 20,
-     "n_authors": 20,
-     "ejemplo": "MIGUE TIENE RAZÓN"
-    },
-    {
-     "video_id": "ptOHcGEdWCk",
-     "channel": "OLGA",
-     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
-     "n_msgs": 3,
-     "n_authors": 3,
-     "ejemplo": "Tiene razon migue"
+     "n_msgs": 6,
+     "n_authors": 6,
+     "ejemplo": "pongan like"
     }
    ],
-   "ejemplo": "MIGUE TIENE RAZÓN"
+   "ejemplo": "Pongan LIKE"
   },
   {
    "tema": "like · vivooooo",
@@ -492,62 +557,6 @@
     }
    ],
    "ejemplo": "LIKE AL VIVOOOOO"
-  },
-  {
-   "tema": "like · pongan",
-   "evidence_lane": "chat",
-   "n_msgs": 32,
-   "n_authors": 31,
-   "n_programas": 7,
-   "canales": [
-    "Bondi Live",
-    "GELATINA",
-    "Neura Media",
-    "Vorterix"
-   ],
-   "programs": [
-    {
-     "video_id": "G48eCpGj41g",
-     "channel": "Bondi Live",
-     "title": "▶️ PROGRAMACIÓN COMPLETA 30/06 | BONDI LIVE",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "Pongan LIKE"
-    },
-    {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "PONGAN LIKE"
-    },
-    {
-     "video_id": "LjEHjrbNNgs",
-     "channel": "Vorterix",
-     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-     "n_msgs": 13,
-     "n_authors": 12,
-     "ejemplo": "PONGAN LIKE"
-    },
-    {
-     "video_id": "TS7Q8dOmi-M",
-     "channel": "Neura Media",
-     "title": "El fútbol moderno, Argentina vs Jordania, ¿con quién jugarías la final? | Multiverso Neura - 30/06",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "PONGAN LIKE"
-    },
-    {
-     "video_id": "tAUTd2FsMxA",
-     "channel": "Bondi Live",
-     "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "pongan LIKE"
-    }
-   ],
-   "ejemplo": "Pongan LIKE"
   },
   {
    "tema": "brenas · chaco",
@@ -684,6 +693,63 @@
    "ejemplo": "NO SOY UN BOT"
   },
   {
+   "tema": "bueno · muy",
+   "evidence_lane": "chat",
+   "n_msgs": 23,
+   "n_authors": 21,
+   "n_programas": 10,
+   "canales": [
+    "?",
+    "BLENDER",
+    "Bondi Live",
+    "OLGA",
+    "Vorterix"
+   ],
+   "programs": [
+    {
+     "video_id": "3CPnLRc7h2w",
+     "channel": "Vorterix",
+     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "MUY BUENO"
+    },
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "muy bueno"
+    },
+    {
+     "video_id": "JXVQmuDctII",
+     "channel": "BLENDER",
+     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "muy bueno"
+    },
+    {
+     "video_id": "cOui_830fXg",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "muy bueno"
+    },
+    {
+     "video_id": "e3av_6yqgHg",
+     "channel": "OLGA",
+     "title": "NOS SOMETEMOS AL CASCO DE LA VERDAD | #SoñéQueVolaba 29/6",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "muy bueno"
+    }
+   ],
+   "ejemplo": "MUY BUENO"
+  },
+  {
    "tema": "fijos · leo · vero",
    "evidence_lane": "chat",
    "n_msgs": 21,
@@ -766,63 +832,6 @@
     }
    ],
    "ejemplo": "TE AMO CAMILA"
-  },
-  {
-   "tema": "bueno · muy",
-   "evidence_lane": "chat",
-   "n_msgs": 21,
-   "n_authors": 19,
-   "n_programas": 9,
-   "canales": [
-    "?",
-    "BLENDER",
-    "Bondi Live",
-    "OLGA",
-    "Vorterix"
-   ],
-   "programs": [
-    {
-     "video_id": "3CPnLRc7h2w",
-     "channel": "Vorterix",
-     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "MUY BUENO"
-    },
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "muy bueno"
-    },
-    {
-     "video_id": "JXVQmuDctII",
-     "channel": "BLENDER",
-     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "muy bueno"
-    },
-    {
-     "video_id": "cOui_830fXg",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "muy bueno"
-    },
-    {
-     "video_id": "e3av_6yqgHg",
-     "channel": "OLGA",
-     "title": "NOS SOMETEMOS AL CASCO DE LA VERDAD | #SoñéQueVolaba 29/6",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "muy bueno"
-    }
-   ],
-   "ejemplo": "MUY BUENO"
   },
   {
    "tema": "dios · mio",
@@ -910,7 +919,7 @@
    "ejemplo": "DEVOLVE EL SAQUITO"
   },
   {
-   "tema": "vicaria · violencia",
+   "tema": "cuatia · curuzu · vamos",
    "evidence_lane": "chat",
    "n_msgs": 17,
    "n_authors": 17,
@@ -920,15 +929,15 @@
    ],
    "programs": [
     {
-     "video_id": "fam8EedmGow",
+     "video_id": "8lOkxIDSd4w",
      "channel": "OLGA",
-     "title": "¿CUÁL FUE EL MEJOR BESO DE PEDRO? | #SeríaIncreíble 30/6",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
      "n_msgs": 17,
      "n_authors": 17,
-     "ejemplo": "violencia vicaria"
+     "ejemplo": "vamos Curuzú cuatia"
     }
    ],
-   "ejemplo": "violencia vicaria"
+   "ejemplo": "vamos Curuzú cuatia"
   }
  ]
 }
