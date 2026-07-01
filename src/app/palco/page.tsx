@@ -277,10 +277,15 @@ export default function PalcoPage() {
   const maxDay = Math.max(...R.by_day.map((s) => s.mentions), 1);
   const airProgs = R.sentiment.neg + R.sentiment.neu + R.sentiment.pos;
   const chatScored = R.chat_scored ?? 0;
-  const pico = R.feed.reduce(
-    (a, b) => ((b.conc_at ?? 0) > (a.conc_at ?? 0) ? b : a),
-    R.feed[0]
+  // Reacción de la sala = intensidad del chat. Solo cuenta para programas con
+  // chat en vivo capturado (LUZU y otros sin chat quedan afuera: darían ×0 y
+  // ensucian la métrica). El pico es el momento de mayor reacción del chat.
+  const conChat = R.feed.filter(
+    (f) => (f.chat_ratio ?? 0) > 0 || (f.chat_msgs ?? 0) > 0
   );
+  const pico = conChat.length
+    ? conChat.reduce((a, b) => ((b.chat_ratio ?? 0) > (a.chat_ratio ?? 0) ? b : a))
+    : null;
   const feed = tab === "neg" ? R.feed.filter((f) => f.sentiment === "neg") : R.feed;
 
   // Detalle fino: TODO lo que se dijo (aire + chat), nuevo→viejo, con filtro por origen.
@@ -681,18 +686,25 @@ export default function PalcoPage() {
               Reacción de la sala · intensidad{" "}
               <span style={{ color: BRAND }}>(único de Palco)</span>
             </p>
-            <div className="mt-3 flex items-end gap-8">
-              <div>
-                <p className="text-3xl font-bold tabular-nums">{compact(pico?.conc_at)}</p>
-                <p className="text-[12px] text-stone-400">pico mirando en vivo · {pico?.channel}</p>
+            {pico ? (
+              <div className="mt-3 flex items-end gap-8">
+                <div>
+                  <p className="text-3xl font-bold tabular-nums">{compact(pico.conc_at)}</p>
+                  <p className="text-[12px] text-stone-400">mirando en vivo · {pico.channel}</p>
+                </div>
+                <div>
+                  <p className="text-3xl font-bold tabular-nums" style={{ color: BRAND }}>
+                    ×{pico.chat_ratio}
+                  </p>
+                  <p className="text-[12px] text-stone-400">chat vs. su ritmo normal</p>
+                </div>
               </div>
-              <div>
-                <p className="text-3xl font-bold tabular-nums" style={{ color: BRAND }}>
-                  ×{pico?.chat_ratio}
-                </p>
-                <p className="text-[12px] text-stone-400">chat vs. su ritmo normal</p>
-              </div>
-            </div>
+            ) : (
+              <p className="mt-3 text-[13px] text-stone-400">
+                Todavía no hay chat en vivo capturado para esta entidad. La reacción de
+                la sala aparece cuando el programa donde se la nombra tiene chat activo.
+              </p>
+            )}
           </div>
         </section>
 
@@ -988,20 +1000,31 @@ export default function PalcoPage() {
             <h2 className="text-[13px] font-semibold uppercase tracking-wide text-stone-500">
               Menciones por día
             </h2>
-            <div className="mt-6 flex h-40 items-end gap-1.5">
-              {R.by_day.slice(-14).map((d) => (
-                <div key={d.day} className="flex flex-1 flex-col items-center gap-1">
-                  <span className="text-[10px] tabular-nums text-stone-400">{d.mentions}</span>
-                  <div
-                    className="w-full rounded-t"
-                    style={{
-                      height: `${Math.max((d.mentions / maxDay) * 100, 3)}%`,
-                      background: `linear-gradient(to top, ${BRAND}, #7aa0f0)`,
-                    }}
-                  />
-                  <span className="text-[9px] text-stone-400">{fmtDay(d.day)}</span>
-                </div>
-              ))}
+            <div className="mt-6 flex h-44 gap-1.5">
+              {R.by_day.slice(-14).map((d) => {
+                const pct = d.mentions / maxDay;
+                return (
+                  <div key={d.day} className="flex min-w-0 flex-1 flex-col h-full">
+                    <span className="shrink-0 text-center text-[10px] tabular-nums text-stone-400">
+                      {d.mentions}
+                    </span>
+                    <div className="flex min-h-0 flex-1 items-end pt-1">
+                      <div
+                        className="w-full rounded-t"
+                        style={{
+                          height: `${Math.max(pct * 100, d.mentions > 0 ? 6 : 0)}%`,
+                          minHeight: d.mentions > 0 ? 4 : 0,
+                          background: `linear-gradient(to top, ${BRAND}, #7aa0f0)`,
+                        }}
+                        title={`${fmtDay(d.day)}: ${d.mentions} menciones`}
+                      />
+                    </div>
+                    <span className="shrink-0 pt-1 text-center text-[9px] text-stone-400">
+                      {fmtDay(d.day)}
+                    </span>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </section>
