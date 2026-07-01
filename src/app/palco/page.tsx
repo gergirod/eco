@@ -1181,16 +1181,18 @@ export default function PalcoPage() {
                             {s.dot} {s.label}
                           </span>
                         )}
-                        <a
-                          href={m.yt_url}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="ml-auto inline-flex items-center gap-1 font-medium hover:underline"
-                          style={{ color: BRAND }}
-                        >
-                          <IconPlay className="h-3 w-3" />
-                          ver
-                        </a>
+                        {!esChat && (
+                          <a
+                            href={m.yt_url}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="ml-auto inline-flex items-center gap-1 font-medium hover:underline"
+                            style={{ color: BRAND }}
+                          >
+                            <IconPlay className="h-3 w-3" />
+                            ver
+                          </a>
+                        )}
                       </div>
                     </div>
                   </li>
