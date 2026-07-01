@@ -46,24 +46,24 @@
  {
   "id": "olga",
   "name": "Olga",
-  "videos": 25,
-  "avg_concurrent": 24331,
+  "videos": 26,
+  "avg_concurrent": 24423,
   "peak_concurrent": 49756,
   "chat_coverage": 96,
   "chat_msgs_per_1k_min": 1.0,
-  "chat_writers_avg": 810,
-  "chat_avg_concurrent": 25113,
-  "chat_writers_per_1k": 32.3,
+  "chat_writers_avg": 839,
+  "chat_avg_concurrent": 25178,
+  "chat_writers_per_1k": 33.3,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
-  "chat_noise_score": 0.17,
+  "chat_noise_score": 0.18,
   "room_participation": {
    "has_data": true,
-   "programs_with_room_data": 24,
-   "poll_count": 0,
-   "total_votes": 0,
-   "banner_sessions": 6,
-   "participation_line": "Comunidad activa: 6 mensajes fijados en 24 emisiones."
+   "programs_with_room_data": 25,
+   "poll_count": 2,
+   "total_votes": 5115,
+   "banner_sessions": 8,
+   "participation_line": "Comunidad activa: la audiencia sumó 5.1K votos en encuestas en vivo; 8 mensajes fijados en 25 emisiones."
   },
   "top_programs": [
    {
@@ -82,14 +82,14 @@
     "video_id": "mxFu-R3O8TY"
    },
    {
+    "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+    "peak": 43094,
+    "video_id": "z11vyvt5tuM"
+   },
+   {
     "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
     "peak": 41988,
     "video_id": "XHV2BV9DWMs"
-   },
-   {
-    "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
-    "peak": 41141,
-    "video_id": "WNe6QLgDfyM"
    }
   ],
   "top_programs_by_chat": [
@@ -130,13 +130,13 @@
     "chat_writers_per_1k": 40.9
    },
    {
-    "title": "RECORREMOS OCEAN DRIVE EN VIVO | #TDT 30/6",
-    "video_id": "yVzJRVng6Q4",
+    "title": "🚀 SOÑÉ QUE VOLABA con Migue Granados, Lucas Fridman, Vicky Garabal y Charo López | OLGA EN VIVO",
+    "video_id": "cOui_830fXg",
     "chat_engagement": 1.39,
-    "avg_concurrent": 15104,
-    "chat_writers": 397,
-    "chat_messages": 2203,
-    "chat_writers_per_1k": 26.3
+    "avg_concurrent": 36685,
+    "chat_writers": 1527,
+    "chat_messages": 6439,
+    "chat_writers_per_1k": 41.6
    }
   ]
  },
@@ -267,35 +267,35 @@
  {
   "id": "x",
   "name": "x",
-  "videos": 29,
-  "avg_concurrent": 8348,
-  "peak_concurrent": 43094,
+  "videos": 33,
+  "avg_concurrent": 7917,
+  "peak_concurrent": 38655,
   "chat_coverage": 100,
-  "chat_msgs_per_1k_min": 8.5,
-  "chat_writers_avg": 412,
-  "chat_avg_concurrent": 8348,
-  "chat_writers_per_1k": 49.4,
+  "chat_msgs_per_1k_min": 6.3,
+  "chat_writers_avg": 411,
+  "chat_avg_concurrent": 7917,
+  "chat_writers_per_1k": 51.9,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
-  "chat_noise_score": 0.27,
+  "chat_noise_score": 0.19,
   "room_participation": {
    "has_data": true,
-   "programs_with_room_data": 28,
-   "poll_count": 14,
-   "total_votes": 7187,
-   "banner_sessions": 10,
-   "participation_line": "Comunidad activa: la audiencia sumó 7.2K votos en encuestas en vivo; 10 mensajes fijados en 28 emisiones."
+   "programs_with_room_data": 33,
+   "poll_count": 11,
+   "total_votes": 5773,
+   "banner_sessions": 3,
+   "participation_line": "Comunidad activa: la audiencia sumó 5.8K votos en encuestas en vivo; 3 mensajes fijados en 33 emisiones."
   },
   "top_programs": [
    {
     "title": "",
-    "peak": 43094,
-    "video_id": "z11vyvt5tuM"
+    "peak": 38655,
+    "video_id": "WOYbd42V47w"
    },
    {
     "title": "",
-    "peak": 38655,
-    "video_id": "WOYbd42V47w"
+    "peak": 37715,
+    "video_id": "e1GHY7c89pw"
    },
    {
     "title": "",
@@ -309,8 +309,8 @@
    },
    {
     "title": "",
-    "peak": 30305,
-    "video_id": "e1GHY7c89pw"
+    "peak": 28276,
+    "video_id": "hc54LIYnMoE"
    }
   ],
   "top_programs_by_chat": [
@@ -325,15 +325,6 @@
    },
    {
     "title": "",
-    "video_id": "nOx1je3BA2o",
-    "chat_engagement": 43.45,
-    "avg_concurrent": 666,
-    "chat_writers": 160,
-    "chat_messages": 3733,
-    "chat_writers_per_1k": 240.2
-   },
-   {
-    "title": "",
     "video_id": "-FYveSXX_NA",
     "chat_engagement": 32.74,
     "avg_concurrent": 260,
@@ -343,21 +334,30 @@
    },
    {
     "title": "",
-    "video_id": "7WJTeokhLUY",
-    "chat_engagement": 31.82,
-    "avg_concurrent": 381,
-    "chat_writers": 32,
-    "chat_messages": 1358,
-    "chat_writers_per_1k": 84.0
-   },
-   {
-    "title": "",
     "video_id": "DMOHJbfdIlY",
     "chat_engagement": 14.44,
     "avg_concurrent": 943,
     "chat_writers": 182,
     "chat_messages": 1076,
     "chat_writers_per_1k": 193.0
+   },
+   {
+    "title": "",
+    "video_id": "kXbVBasle40",
+    "chat_engagement": 13.32,
+    "avg_concurrent": 804,
+    "chat_writers": 118,
+    "chat_messages": 332,
+    "chat_writers_per_1k": 146.8
+   },
+   {
+    "title": "",
+    "video_id": "qCBkL15efEY",
+    "chat_engagement": 9.13,
+    "avg_concurrent": 421,
+    "chat_writers": 26,
+    "chat_messages": 73,
+    "chat_writers_per_1k": 61.8
    }
   ]
  },
@@ -590,24 +590,24 @@
  {
   "id": "gelatina",
   "name": "Gelatina",
-  "videos": 8,
-  "avg_concurrent": 4062,
+  "videos": 10,
+  "avg_concurrent": 3861,
   "peak_concurrent": 9492,
   "chat_coverage": 100,
-  "chat_msgs_per_1k_min": 3.1,
-  "chat_writers_avg": 257,
-  "chat_avg_concurrent": 4062,
-  "chat_writers_per_1k": 63.3,
+  "chat_msgs_per_1k_min": 3.4,
+  "chat_writers_avg": 290,
+  "chat_avg_concurrent": 3861,
+  "chat_writers_per_1k": 75.1,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
-  "chat_noise_score": 0.17,
+  "chat_noise_score": 0.16,
   "room_participation": {
    "has_data": true,
-   "programs_with_room_data": 8,
-   "poll_count": 3,
-   "total_votes": 2161,
-   "banner_sessions": 3,
-   "participation_line": "Comunidad activa: la audiencia sumó 2.2K votos en encuestas en vivo; 3 mensajes fijados en 8 emisiones."
+   "programs_with_room_data": 10,
+   "poll_count": 4,
+   "total_votes": 3284,
+   "banner_sessions": 6,
+   "participation_line": "Comunidad activa: la audiencia sumó 3.3K votos en encuestas en vivo; 6 mensajes fijados en 10 emisiones."
   },
   "top_programs": [
    {
@@ -631,12 +631,21 @@
     "video_id": "mNBPDZhUOf8"
    },
    {
-    "title": "QUÉ OLOR con Charo LÓPEZ, Noe CUSTODIO y Mili GOGGIA 2026-06-30 14:25",
-    "peak": 3667,
-    "video_id": "l75dqnKslKI"
+    "title": "Sanguchito a Santilli: Adorni le arruinó la jura | TUGO con Nico Guthmann",
+    "peak": 6504,
+    "video_id": "tKOUyjkzDQ8"
    }
   ],
   "top_programs_by_chat": [
+   {
+    "title": "Sanguchito a Santilli: Adorni le arruinó la jura | TUGO con Nico Guthmann",
+    "video_id": "tKOUyjkzDQ8",
+    "chat_engagement": 7.26,
+    "avg_concurrent": 4715,
+    "chat_writers": 668,
+    "chat_messages": 4347,
+    "chat_writers_per_1k": 141.7
+   },
    {
     "title": "Milei: “Vamos a reelegir” | TUGO con Nico Guthmann",
     "video_id": "mNBPDZhUOf8",
@@ -672,15 +681,6 @@
     "chat_writers": 219,
     "chat_messages": 778,
     "chat_writers_per_1k": 148.7
-   },
-   {
-    "title": "¿Milei superó la crisis? | EL PUENTE con Pedro ROSEMBLAT y Nico GUTHMANN",
-    "video_id": "LTlJq7vIE0g",
-    "chat_engagement": 3.26,
-    "avg_concurrent": 5347,
-    "chat_writers": 74,
-    "chat_messages": 366,
-    "chat_writers_per_1k": 13.8
    }
   ]
  },
@@ -893,30 +893,35 @@
  {
   "id": "ahoraplay",
   "name": "Ahora Play",
-  "videos": 5,
-  "avg_concurrent": 493,
+  "videos": 7,
+  "avg_concurrent": 476,
   "peak_concurrent": 847,
   "chat_coverage": 100,
-  "chat_msgs_per_1k_min": 19.5,
-  "chat_writers_avg": 74,
-  "chat_avg_concurrent": 493,
-  "chat_writers_per_1k": 150.1,
+  "chat_msgs_per_1k_min": 20.7,
+  "chat_writers_avg": 77,
+  "chat_avg_concurrent": 476,
+  "chat_writers_per_1k": 161.8,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
-  "chat_noise_score": 0.37,
+  "chat_noise_score": 0.38,
   "room_participation": {
    "has_data": true,
-   "programs_with_room_data": 5,
-   "poll_count": 2,
-   "total_votes": 753,
-   "banner_sessions": 3,
-   "participation_line": "Comunidad activa: la audiencia sumó 753 votos en encuestas en vivo; 3 mensajes fijados en 5 emisiones."
+   "programs_with_room_data": 7,
+   "poll_count": 3,
+   "total_votes": 1307,
+   "banner_sessions": 5,
+   "participation_line": "Comunidad activa: la audiencia sumó 1.3K votos en encuestas en vivo; 5 mensajes fijados en 7 emisiones."
   },
   "top_programs": [
    {
     "title": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
     "peak": 847,
     "video_id": "HTm_q34CwyM"
+   },
+   {
+    "title": "ARRANCÓ EL SEGUNDO SEMESTRE: MILEI SE LA JUEGA | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
+    "peak": 831,
+    "video_id": "nOx1je3BA2o"
    },
    {
     "title": "SUBE EL DÓLAR: PRUEBA DE FUEGO PARA CAPUTO | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
@@ -932,11 +937,6 @@
     "title": "LA NUEVA ETAPA DEL DÓLAR Y MORA RÉCORD I Carlos Burgueño, Agustina Girón #CierreDeMercados",
     "peak": 420,
     "video_id": "gOUmUVtulaw"
-   },
-   {
-    "title": "¿AGUANTAN LAS PYMES? CON NICOLÁS GADANO | Diego Ponzio y Amilcar Collante #BitácoraPyme",
-    "peak": 256,
-    "video_id": "O3EcIBl7Sh4"
    }
   ],
   "top_programs_by_chat": [
@@ -948,6 +948,15 @@
     "chat_writers": 24,
     "chat_messages": 1275,
     "chat_writers_per_1k": 61.1
+   },
+   {
+    "title": "ARRANCÓ EL SEGUNDO SEMESTRE: MILEI SE LA JUEGA | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
+    "video_id": "nOx1je3BA2o",
+    "chat_engagement": 43.45,
+    "avg_concurrent": 666,
+    "chat_writers": 160,
+    "chat_messages": 3733,
+    "chat_writers_per_1k": 240.2
    },
    {
     "title": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
@@ -968,22 +977,13 @@
     "chat_writers_per_1k": 177.8
    },
    {
-    "title": "SEGUNDO SEMESTRE FINANCIERO: VELOCIDAD CRUCERO | Martín Genero #MercadoFresh",
-    "video_id": "btHFJgjSlls",
-    "chat_engagement": 2.18,
-    "avg_concurrent": 513,
-    "chat_writers": 51,
-    "chat_messages": 95,
-    "chat_writers_per_1k": 99.4
-   },
-   {
-    "title": "¿AGUANTAN LAS PYMES? CON NICOLÁS GADANO | Diego Ponzio y Amilcar Collante #BitácoraPyme",
-    "video_id": "O3EcIBl7Sh4",
-    "chat_engagement": 1.43,
-    "avg_concurrent": 221,
-    "chat_writers": 14,
-    "chat_messages": 32,
-    "chat_writers_per_1k": 63.3
+    "title": "LOS CAMBIOS EN YPF TRAS LA SALIDA DE ADORNI | Florencia Barragan, Mariano Espina #AhoraEnergía",
+    "video_id": "U0nEbi4WI9A",
+    "chat_engagement": 3.68,
+    "avg_concurrent": 204,
+    "chat_writers": 12,
+    "chat_messages": 39,
+    "chat_writers_per_1k": 58.8
    }
   ]
  },
@@ -1087,24 +1087,24 @@
  {
   "id": "aura",
   "name": "Aura",
-  "videos": 4,
-  "avg_concurrent": 318,
+  "videos": 5,
+  "avg_concurrent": 331,
   "peak_concurrent": 485,
   "chat_coverage": 100,
-  "chat_msgs_per_1k_min": 58.0,
+  "chat_msgs_per_1k_min": 52.8,
   "chat_writers_avg": 34,
-  "chat_avg_concurrent": 318,
-  "chat_writers_per_1k": 106.9,
+  "chat_avg_concurrent": 331,
+  "chat_writers_per_1k": 102.7,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
-  "chat_noise_score": 0.94,
+  "chat_noise_score": 0.93,
   "room_participation": {
    "has_data": true,
-   "programs_with_room_data": 4,
-   "poll_count": 14,
-   "total_votes": 256,
-   "banner_sessions": 2,
-   "participation_line": "Comunidad activa: 14 encuestas en 4 emisiones medidas."
+   "programs_with_room_data": 5,
+   "poll_count": 16,
+   "total_votes": 278,
+   "banner_sessions": 3,
+   "participation_line": "Comunidad activa: 3 mensajes fijados en 5 emisiones."
   },
   "top_programs": [
    {
@@ -1116,6 +1116,11 @@
     "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
     "peak": 447,
     "video_id": "AUSgxGQirlM"
+   },
+   {
+    "title": "🔵 DE ACÁ con Flor Ferrero, Juan Butvilofsky, Rodolfo Vera Calderón y Tommy Reynolds.",
+    "peak": 431,
+    "video_id": "7WJTeokhLUY"
    },
    {
     "title": "🟠 ¿CÓMO QUEDARON LOS CRUCES DEL  MUNDIAL 2026? l HOY COMO SIEMPRE",
@@ -1164,6 +1169,15 @@
     "chat_writers": 39,
     "chat_messages": 1844,
     "chat_writers_per_1k": 96.3
+   },
+   {
+    "title": "🔵 DE ACÁ con Flor Ferrero, Juan Butvilofsky, Rodolfo Vera Calderón y Tommy Reynolds.",
+    "video_id": "7WJTeokhLUY",
+    "chat_engagement": 31.82,
+    "avg_concurrent": 381,
+    "chat_writers": 32,
+    "chat_messages": 1358,
+    "chat_writers_per_1k": 84.0
    }
   ]
  }

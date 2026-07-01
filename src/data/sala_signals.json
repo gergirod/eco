@@ -1,6 +1,27 @@
 {
- "exported_at": "2026-07-01T15:13:07.769334+00:00",
+ "exported_at": "2026-07-01T17:30:36.922970+00:00",
  "signals": [
+  {
+   "tema": "grande · rio",
+   "evidence_lane": "chat",
+   "n_msgs": 134,
+   "n_authors": 134,
+   "n_programas": 1,
+   "canales": [
+    "?"
+   ],
+   "programs": [
+    {
+     "video_id": "HA1dexnR7Ng",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 134,
+     "n_authors": 134,
+     "ejemplo": "Río Grande"
+    }
+   ],
+   "ejemplo": "Río Grande"
+  },
   {
    "tema": "like · vivo",
    "evidence_lane": "chat",
@@ -135,6 +156,27 @@
    "ejemplo": "buen dia"
   },
   {
+   "tema": "julian · san",
+   "evidence_lane": "chat",
+   "n_msgs": 61,
+   "n_authors": 61,
+   "n_programas": 1,
+   "canales": [
+    "?"
+   ],
+   "programs": [
+    {
+     "video_id": "HA1dexnR7Ng",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 61,
+     "n_authors": 61,
+     "ejemplo": "San Julián"
+    }
+   ],
+   "ejemplo": "San Julián"
+  },
+  {
    "tema": "liska · tirate",
    "evidence_lane": "chat",
    "n_msgs": 57,
@@ -171,6 +213,27 @@
     }
    ],
    "ejemplo": "LISKA TIRATE"
+  },
+  {
+   "tema": "grande · rio · vamos",
+   "evidence_lane": "chat",
+   "n_msgs": 49,
+   "n_authors": 49,
+   "n_programas": 1,
+   "canales": [
+    "?"
+   ],
+   "programs": [
+    {
+     "video_id": "HA1dexnR7Ng",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 49,
+     "n_authors": 49,
+     "ejemplo": "vamos rio grande"
+    }
+   ],
+   "ejemplo": "vamos rio grande"
   },
   {
    "tema": "2027 · confio",
@@ -267,8 +330,8 @@
   {
    "tema": "migue · razon · tiene",
    "evidence_lane": "chat",
-   "n_msgs": 42,
-   "n_authors": 42,
+   "n_msgs": 41,
+   "n_authors": 41,
    "n_programas": 5,
    "canales": [
     "?",
@@ -303,8 +366,8 @@
      "video_id": "cOui_830fXg",
      "channel": "?",
      "title": "",
-     "n_msgs": 22,
-     "n_authors": 22,
+     "n_msgs": 21,
+     "n_authors": 21,
      "ejemplo": "MIGUE TIENE RAZÓN"
     },
     {
@@ -317,6 +380,60 @@
     }
    ],
    "ejemplo": "MIGUE TIENE RAZÓN"
+  },
+  {
+   "tema": "like · vivoooo",
+   "evidence_lane": "chat",
+   "n_msgs": 41,
+   "n_authors": 39,
+   "n_programas": 9,
+   "canales": [
+    "?",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "LIKE AL VIVOOOO"
+    },
+    {
+     "video_id": "HA1dexnR7Ng",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "LIKE AL VIVOOOO"
+    },
+    {
+     "video_id": "IB9cCJT0-_M",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 4,
+     "n_authors": 3,
+     "ejemplo": "Like al VIVOOOO"
+    },
+    {
+     "video_id": "Lm6Db-SEA0M",
+     "channel": "OLGA",
+     "title": "SOÑAMOS QUE CAZAMOS UTOPÍAS IMPOSIBLES | #SoñéQueVolaba 30/6",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "LIKE AL VIVOOOO"
+    },
+    {
+     "video_id": "O6sOwvMbRBU",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 5,
+     "ejemplo": "like al vivoooo"
+    }
+   ],
+   "ejemplo": "LIKE AL VIVOOOO"
   },
   {
    "tema": "grabado · lamentablemente",
@@ -402,6 +519,27 @@
    "ejemplo": "CHARO FIJA"
   },
   {
+   "tema": "grandeeeee · rio",
+   "evidence_lane": "chat",
+   "n_msgs": 39,
+   "n_authors": 39,
+   "n_programas": 1,
+   "canales": [
+    "?"
+   ],
+   "programs": [
+    {
+     "video_id": "HA1dexnR7Ng",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 39,
+     "n_authors": 39,
+     "ejemplo": "Rio grandeeeee"
+    }
+   ],
+   "ejemplo": "Rio grandeeeee"
+  },
+  {
    "tema": "like · pongan",
    "evidence_lane": "chat",
    "n_msgs": 39,
@@ -459,64 +597,40 @@
    "ejemplo": "Pongan LIKE"
   },
   {
-   "tema": "like · vivoooo",
+   "tema": "antiguos · vamos",
    "evidence_lane": "chat",
-   "n_msgs": 39,
-   "n_authors": 37,
-   "n_programas": 8,
+   "n_msgs": 38,
+   "n_authors": 38,
+   "n_programas": 2,
    "canales": [
     "?",
     "OLGA"
    ],
    "programs": [
     {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "LIKE AL VIVOOOO"
-    },
-    {
-     "video_id": "IB9cCJT0-_M",
+     "video_id": "HA1dexnR7Ng",
      "channel": "?",
      "title": "",
-     "n_msgs": 4,
-     "n_authors": 3,
-     "ejemplo": "Like al VIVOOOO"
+     "n_msgs": 36,
+     "n_authors": 36,
+     "ejemplo": "Vamos los antiguos"
     },
     {
-     "video_id": "Lm6Db-SEA0M",
+     "video_id": "z11vyvt5tuM",
      "channel": "OLGA",
-     "title": "SOÑAMOS QUE CAZAMOS UTOPÍAS IMPOSIBLES | #SoñéQueVolaba 30/6",
+     "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
      "n_msgs": 2,
      "n_authors": 2,
-     "ejemplo": "LIKE AL VIVOOOO"
-    },
-    {
-     "video_id": "O6sOwvMbRBU",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 5,
-     "n_authors": 5,
-     "ejemplo": "like al vivoooo"
-    },
-    {
-     "video_id": "WNe6QLgDfyM",
-     "channel": "OLGA",
-     "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "Like al vivoooo"
+     "ejemplo": "Vamos LOS ANTIGUOS"
     }
    ],
-   "ejemplo": "LIKE AL VIVOOOO"
+   "ejemplo": "Vamos los antiguos"
   },
   {
-   "tema": "grande · rio",
+   "tema": "rada · tilly",
    "evidence_lane": "chat",
-   "n_msgs": 35,
-   "n_authors": 35,
+   "n_msgs": 36,
+   "n_authors": 36,
    "n_programas": 1,
    "canales": [
     "?"
@@ -526,12 +640,33 @@
      "video_id": "HA1dexnR7Ng",
      "channel": "?",
      "title": "",
-     "n_msgs": 35,
-     "n_authors": 35,
-     "ejemplo": "Río Grande"
+     "n_msgs": 36,
+     "n_authors": 36,
+     "ejemplo": "Rada Tilly"
     }
    ],
-   "ejemplo": "Río Grande"
+   "ejemplo": "Rada Tilly"
+  },
+  {
+   "tema": "julian · puerto · san",
+   "evidence_lane": "chat",
+   "n_msgs": 33,
+   "n_authors": 33,
+   "n_programas": 1,
+   "canales": [
+    "?"
+   ],
+   "programs": [
+    {
+     "video_id": "HA1dexnR7Ng",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 33,
+     "n_authors": 33,
+     "ejemplo": "Puerto San Julian"
+    }
+   ],
+   "ejemplo": "Puerto San Julian"
   },
   {
    "tema": "like · vivooooo",
@@ -631,10 +766,10 @@
    "ejemplo": "Curuzú Cuatiá :yellow_heart::red_heart::blue_heart:"
   },
   {
-   "tema": "julian · san",
+   "tema": "grandeeee · rio",
    "evidence_lane": "chat",
-   "n_msgs": 28,
-   "n_authors": 28,
+   "n_msgs": 26,
+   "n_authors": 26,
    "n_programas": 1,
    "canales": [
     "?"
@@ -644,12 +779,12 @@
      "video_id": "HA1dexnR7Ng",
      "channel": "?",
      "title": "",
-     "n_msgs": 28,
-     "n_authors": 28,
-     "ejemplo": "San Julián"
+     "n_msgs": 26,
+     "n_authors": 26,
+     "ejemplo": "rio grandeeee"
     }
    ],
-   "ejemplo": "San Julián"
+   "ejemplo": "rio grandeeee"
   },
   {
    "tema": ":blue_heart::green_heart::blue_heart: · brenas",
@@ -692,236 +827,6 @@
     }
    ],
    "ejemplo": "vamos Las BREÑAS"
-  },
-  {
-   "tema": "curuzu · vamos",
-   "evidence_lane": "chat",
-   "n_msgs": 24,
-   "n_authors": 24,
-   "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
-   "programs": [
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 24,
-     "n_authors": 24,
-     "ejemplo": "vamos Curuzu"
-    }
-   ],
-   "ejemplo": "vamos Curuzu"
-  },
-  {
-   "tema": "bueno · muy",
-   "evidence_lane": "chat",
-   "n_msgs": 26,
-   "n_authors": 23,
-   "n_programas": 11,
-   "canales": [
-    "?",
-    "BLENDER",
-    "Bondi Live",
-    "OLGA",
-    "Vorterix"
-   ],
-   "programs": [
-    {
-     "video_id": "3CPnLRc7h2w",
-     "channel": "Vorterix",
-     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "MUY BUENO"
-    },
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "muy bueno"
-    },
-    {
-     "video_id": "HA1dexnR7Ng",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 3,
-     "n_authors": 2,
-     "ejemplo": "muy bueno"
-    },
-    {
-     "video_id": "JXVQmuDctII",
-     "channel": "BLENDER",
-     "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "muy bueno"
-    },
-    {
-     "video_id": "cOui_830fXg",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "muy bueno"
-    }
-   ],
-   "ejemplo": "MUY BUENO"
-  },
-  {
-   "tema": "bot · soy",
-   "evidence_lane": "chat",
-   "n_msgs": 22,
-   "n_authors": 22,
-   "n_programas": 2,
-   "canales": [
-    "Vorterix"
-   ],
-   "programs": [
-    {
-     "video_id": "LjEHjrbNNgs",
-     "channel": "Vorterix",
-     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-     "n_msgs": 10,
-     "n_authors": 10,
-     "ejemplo": "NO SOY UN BOT"
-    },
-    {
-     "video_id": "zpbJ8ju9xmk",
-     "channel": "Vorterix",
-     "title": "EQUIPO COMPLETO Y SOMOS MÁS PARAGUAYOS QUE NUNCA | #YQUE COMPLETO 30/6 | VORTERIX",
-     "n_msgs": 12,
-     "n_authors": 12,
-     "ejemplo": "SOY UN BOT"
-    }
-   ],
-   "ejemplo": "NO SOY UN BOT"
-  },
-  {
-   "tema": "amo · camila",
-   "evidence_lane": "chat",
-   "n_msgs": 20,
-   "n_authors": 20,
-   "n_programas": 4,
-   "canales": [
-    "?",
-    "OLGA"
-   ],
-   "programs": [
-    {
-     "video_id": "O6sOwvMbRBU",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 9,
-     "n_authors": 9,
-     "ejemplo": "TE AMO CAMILA"
-    },
-    {
-     "video_id": "W_HkPNOMeDc",
-     "channel": "OLGA",
-     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "Te amo Camila"
-    },
-    {
-     "video_id": "kDbkbzy_ASA",
-     "channel": "OLGA",
-     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "camila te amo"
-    },
-    {
-     "video_id": "s__pKWUr4MM",
-     "channel": "OLGA",
-     "title": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
-     "n_msgs": 3,
-     "n_authors": 3,
-     "ejemplo": "Te amo camila"
-    }
-   ],
-   "ejemplo": "TE AMO CAMILA"
-  },
-  {
-   "tema": "julian · puerto · san",
-   "evidence_lane": "chat",
-   "n_msgs": 20,
-   "n_authors": 20,
-   "n_programas": 1,
-   "canales": [
-    "?"
-   ],
-   "programs": [
-    {
-     "video_id": "HA1dexnR7Ng",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 20,
-     "n_authors": 20,
-     "ejemplo": "Puerto San Julian"
-    }
-   ],
-   "ejemplo": "Puerto San Julian"
-  },
-  {
-   "tema": "dios · mio",
-   "evidence_lane": "chat",
-   "n_msgs": 21,
-   "n_authors": 19,
-   "n_programas": 7,
-   "canales": [
-    "?",
-    "GELATINA",
-    "OLGA",
-    "Vorterix"
-   ],
-   "programs": [
-    {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "dios mio"
-    },
-    {
-     "video_id": "NHt6oqHZYd0",
-     "channel": "GELATINA",
-     "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "Dios mio"
-    },
-    {
-     "video_id": "mxFu-R3O8TY",
-     "channel": "OLGA",
-     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "dios mio"
-    },
-    {
-     "video_id": "p6DntkKAWNc",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 3,
-     "n_authors": 2,
-     "ejemplo": "dios mio"
-    },
-    {
-     "video_id": "s__pKWUr4MM",
-     "channel": "OLGA",
-     "title": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "Dios mio"
-    }
-   ],
-   "ejemplo": "dios mio"
   }
  ]
 }

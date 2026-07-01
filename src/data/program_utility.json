@@ -2397,6 +2397,64 @@
    }
   },
   {
+   "video_id": "tKOUyjkzDQ8",
+   "channel": "GELATINA",
+   "channel_id": "gelatina",
+   "title": "Sanguchito a Santilli: Adorni le arruinó la jura | TUGO con Nico Guthmann",
+   "date": "20260701",
+   "iup": 89,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.464,
+    "conversation": 0.95,
+    "commercial": 1.0,
+    "participation": 0.904,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 4715,
+     "peak_concurrent": 6504
+    },
+    "conversation": {
+     "blocks": 11,
+     "blocks_with_signal": 10,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 27,
+     "sponsored": 0,
+     "organic": 25,
+     "productos_marcas": 18
+    },
+    "participation": {
+     "chat_engagement": 7.26,
+     "chat_noise": 0.24,
+     "chat_total": 4347
+    },
+    "format": {
+     "show_id": "tugo",
+     "show_name": "TUGO"
+    },
+    "capture_minutes": 123.465
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "yVzJRVng6Q4",
    "channel": "OLGA",
    "channel_id": "olga",
@@ -4021,6 +4079,64 @@
    }
   },
   {
+   "video_id": "vCRvDHYQezM",
+   "channel": "GELATINA",
+   "channel_id": "gelatina",
+   "title": "SANTILLI Y LOS GOBERNADORES PIDIENDO ATENCIÓN | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+   "date": "20260701",
+   "iup": 82,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.244,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.625,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 1397,
+     "peak_concurrent": 2202
+    },
+    "conversation": {
+     "blocks": 14,
+     "blocks_with_signal": 14,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 40,
+     "sponsored": 4,
+     "organic": 36,
+     "productos_marcas": 24
+    },
+    "participation": {
+     "chat_engagement": 1.9,
+     "chat_noise": 0.02,
+     "chat_total": 406
+    },
+    "format": {
+     "show_id": "demasiada-presion",
+     "show_name": "Demasiada Presión"
+    },
+    "capture_minutes": 137.28833333333333
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "G48eCpGj41g",
    "channel": "Bondi Live",
    "channel_id": "bondi",
@@ -4775,6 +4891,64 @@
    }
   },
   {
+   "video_id": "7WJTeokhLUY",
+   "channel": " A U R A ",
+   "channel_id": "aura",
+   "title": "🔵 DE ACÁ con Flor Ferrero, Juan Butvilofsky, Rodolfo Vera Calderón y Tommy Reynolds.",
+   "date": "20260630",
+   "iup": 78,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.085,
+    "conversation": 0.958,
+    "commercial": 1.0,
+    "participation": 0.644,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 381,
+     "peak_concurrent": 431
+    },
+    "conversation": {
+     "blocks": 13,
+     "blocks_with_signal": 12,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 27,
+     "sponsored": 0,
+     "organic": 23,
+     "productos_marcas": 15
+    },
+    "participation": {
+     "chat_engagement": 31.82,
+     "chat_noise": 0.89,
+     "chat_total": 1358
+    },
+    "format": {
+     "show_id": "de-aca",
+     "show_name": "De Acá"
+    },
+    "capture_minutes": 108.72166666666666
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "CP5OqzXez-g",
    "channel": "BorderPeriodismo",
    "channel_id": "border",
@@ -5054,6 +5228,64 @@
      "show_name": "Gol Gana"
     },
     "capture_minutes": null
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "nOx1je3BA2o",
+   "channel": "AHORA PLAY",
+   "channel_id": "ahoraplay",
+   "title": "ARRANCÓ EL SEGUNDO SEMESTRE: MILEI SE LA JUEGA | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
+   "date": "20260701",
+   "iup": 77,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.137,
+    "conversation": 0.873,
+    "commercial": 1.0,
+    "participation": 0.68,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 666,
+     "peak_concurrent": 831
+    },
+    "conversation": {
+     "blocks": 13,
+     "blocks_with_signal": 10,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 14,
+     "sponsored": 0,
+     "organic": 19,
+     "productos_marcas": 11
+    },
+    "participation": {
+     "chat_engagement": 43.45,
+     "chat_noise": 0.8,
+     "chat_total": 3733
+    },
+    "format": {
+     "show_id": "serrucho",
+     "show_name": "Serrucho Económico"
+    },
+    "capture_minutes": 121.66166666666666
    },
    "weights": {
     "capture": 0.25,
@@ -10537,21 +10769,21 @@
    "tier_insuficiente": 0
   },
   {
+   "channel_id": "gelatina",
+   "channel": "GELATINA",
+   "programs": 10,
+   "iup_avg": 82.9,
+   "iup_median": 82,
+   "tier_alta": 10,
+   "tier_insuficiente": 0
+  },
+  {
    "channel_id": "vorterix",
    "channel": "Vorterix",
    "programs": 17,
    "iup_avg": 82.4,
    "iup_median": 82,
    "tier_alta": 17,
-   "tier_insuficiente": 0
-  },
-  {
-   "channel_id": "gelatina",
-   "channel": "GELATINA",
-   "programs": 8,
-   "iup_avg": 82.2,
-   "iup_median": 82,
-   "tier_alta": 8,
    "tier_insuficiente": 0
   },
   {
@@ -10618,6 +10850,15 @@
    "tier_insuficiente": 0
   },
   {
+   "channel_id": "ahoraplay",
+   "channel": "AHORA PLAY",
+   "programs": 7,
+   "iup_avg": 72.9,
+   "iup_median": 74,
+   "tier_alta": 6,
+   "tier_insuficiente": 0
+  },
+  {
    "channel_id": "olga",
    "channel": "OLGA",
    "programs": 57,
@@ -10636,27 +10877,18 @@
    "tier_insuficiente": 0
   },
   {
-   "channel_id": "ahoraplay",
-   "channel": "AHORA PLAY",
-   "programs": 6,
-   "iup_avg": 72.2,
-   "iup_median": 74,
-   "tier_alta": 5,
-   "tier_insuficiente": 0
-  },
-  {
    "channel_id": "aura",
    "channel": " A U R A ",
-   "programs": 4,
-   "iup_avg": 70.5,
+   "programs": 5,
+   "iup_avg": 72.0,
    "iup_median": 74,
-   "tier_alta": 3,
+   "tier_alta": 4,
    "tier_insuficiente": 0
   }
  ],
  "totals": {
-  "programs": 180,
-  "tier_alta": 111,
+  "programs": 184,
+  "tier_alta": 115,
   "tier_media": 69,
   "tier_baja": 0,
   "tier_insuficiente": 0

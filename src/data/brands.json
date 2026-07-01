@@ -1438,6 +1438,74 @@
   "rubro": "energia"
  },
  {
+  "slug": "gillette",
+  "name": "Gillette",
+  "mentions": 4,
+  "channels": [
+   "olga",
+   "vorterix"
+  ],
+  "n_channels": 2,
+  "n_videos": 2,
+  "first_seen": "26/06/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 2373.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/07/2026",
+    "video_id": "z11vyvt5tuM",
+    "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+    "minute": "01:33:13",
+    "views": 135532,
+    "conc_at": 26886
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/07/2026",
+    "video_id": "z11vyvt5tuM",
+    "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+    "minute": "01:38:49",
+    "views": 135532,
+    "conc_at": 27763
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/07/2026",
+    "video_id": "z11vyvt5tuM",
+    "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+    "minute": "01:41:45",
+    "views": 135532,
+    "conc_at": 25686
+   },
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "EwFONN3W5cg",
+    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+    "minute": "01:10:31",
+    "views": 20092,
+    "conc_at": 2148
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 4,
+  "n_programs": 2,
+  "peak_conc_at": 27763,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 4 activaciones en 2 programas y 2 canales — 4 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 4,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "higiene"
+ },
+ {
   "slug": "asiscard",
   "name": "Asiscard",
   "mentions": 4,
@@ -2272,6 +2340,64 @@
   "rubro": "fintech"
  },
  {
+  "slug": "seco",
+  "name": "Seco",
+  "mentions": 3,
+  "channels": [
+   "blend",
+   "gelatina"
+  ],
+  "n_channels": 2,
+  "n_videos": 3,
+  "first_seen": "25/06/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 176.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "25/06/2026",
+    "video_id": "JXVQmuDctII",
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "minute": "00:00:44",
+    "views": 9779,
+    "conc_at": 511
+   },
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "29/06/2026",
+    "video_id": "vlNZMMmBbLw",
+    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+    "minute": "01:31:49",
+    "views": 7813,
+    "conc_at": 1835
+   },
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "01/07/2026",
+    "video_id": "vCRvDHYQezM",
+    "title": "SANTILLI Y LOS GOBERNADORES PIDIENDO ATENCIÓN | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+    "minute": "02:07:47",
+    "views": 8619,
+    "conc_at": 2058
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 3,
+  "n_programs": 3,
+  "peak_conc_at": 2058,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 3 activaciones en 3 programas y 2 canales — 3 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 3,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
   "slug": "gam",
   "name": "GAM",
   "mentions": 3,
@@ -2384,6 +2510,63 @@
    "insufficient": 0
   },
   "rubro": "retail"
+ },
+ {
+  "slug": "ada-cafe",
+  "name": "Ada Café",
+  "mentions": 3,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 3,
+  "first_seen": "29/06/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 174.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "30/06/2026",
+    "video_id": "pL9wgMQaBp4",
+    "title": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+    "minute": "02:23:34",
+    "views": 5782,
+    "conc_at": 2270
+   },
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "29/06/2026",
+    "video_id": "vlNZMMmBbLw",
+    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+    "minute": "02:28:54",
+    "views": 7813,
+    "conc_at": 2567
+   },
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "01/07/2026",
+    "video_id": "vCRvDHYQezM",
+    "title": "SANTILLI Y LOS GOBERNADORES PIDIENDO ATENCIÓN | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+    "minute": "02:15:08",
+    "views": 8619,
+    "conc_at": 2169
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 3,
+  "n_programs": 3,
+  "peak_conc_at": 2567,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 3 activaciones en 3 programas y 1 canales — 3 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 3,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
  },
  {
   "slug": "nissan-kite",
@@ -3762,54 +3945,6 @@
   "rubro": "retail"
  },
  {
-  "slug": "seco",
-  "name": "Seco",
-  "mentions": 2,
-  "channels": [
-   "blend",
-   "gelatina"
-  ],
-  "n_channels": 2,
-  "n_videos": 2,
-  "first_seen": "25/06/2026",
-  "last_seen": "29/06/2026",
-  "value_usd": 84.0,
-  "samples": [
-   {
-    "channel": "blend",
-    "channel_name": "BLENDER",
-    "date": "25/06/2026",
-    "video_id": "JXVQmuDctII",
-    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-    "minute": "00:00:44",
-    "views": 9779,
-    "conc_at": 511
-   },
-   {
-    "channel": "gelatina",
-    "channel_name": "GELATINA",
-    "date": "29/06/2026",
-    "video_id": "vlNZMMmBbLw",
-    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
-    "minute": "01:31:49",
-    "views": 7813,
-    "conc_at": 1835
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 2,
-  "n_programs": 2,
-  "peak_conc_at": 1835,
-  "confidence_tier": "emerging_confidence",
-  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
-  "evidence_summary": {
-   "verified": 2,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "otro"
- },
- {
   "slug": "mercado-pago",
   "name": "Mercado Pago",
   "mentions": 2,
@@ -4043,53 +4178,6 @@
    "insufficient": 0
   },
   "rubro": "energia"
- },
- {
-  "slug": "ada-cafe",
-  "name": "Ada Café",
-  "mentions": 2,
-  "channels": [
-   "gelatina"
-  ],
-  "n_channels": 1,
-  "n_videos": 2,
-  "first_seen": "29/06/2026",
-  "last_seen": "30/06/2026",
-  "value_usd": 111.0,
-  "samples": [
-   {
-    "channel": "gelatina",
-    "channel_name": "GELATINA",
-    "date": "30/06/2026",
-    "video_id": "pL9wgMQaBp4",
-    "title": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
-    "minute": "02:23:34",
-    "views": 5782,
-    "conc_at": 2270
-   },
-   {
-    "channel": "gelatina",
-    "channel_name": "GELATINA",
-    "date": "29/06/2026",
-    "video_id": "vlNZMMmBbLw",
-    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
-    "minute": "02:28:54",
-    "views": 7813,
-    "conc_at": 2567
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 2,
-  "n_programs": 2,
-  "peak_conc_at": 2567,
-  "confidence_tier": "emerging_confidence",
-  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
-  "evidence_summary": {
-   "verified": 2,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "otro"
  },
  {
   "slug": "tienda-nube",
@@ -5454,6 +5542,80 @@
   "rubro": "higiene"
  },
  {
+  "slug": "miami-beach-alquiler",
+  "name": "Miami Beach Alquiler",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 589.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/07/2026",
+    "video_id": "z11vyvt5tuM",
+    "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+    "minute": "00:31:55",
+    "views": 135532,
+    "conc_at": 13221
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 13221,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "cristal",
+  "name": "Cristal",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 811.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/07/2026",
+    "video_id": "z11vyvt5tuM",
+    "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+    "minute": "01:58:04",
+    "views": 135532,
+    "conc_at": 28006
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 28006,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
   "slug": "infinea-turbo-clean",
   "name": "Infinea Turbo Clean",
   "mentions": 1,
@@ -6747,43 +6909,6 @@
    "insufficient": 0
   },
   "rubro": "otro"
- },
- {
-  "slug": "gillette",
-  "name": "Gillette",
-  "mentions": 1,
-  "channels": [
-   "vorterix"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 46.0,
-  "samples": [
-   {
-    "channel": "vorterix",
-    "channel_name": "Vorterix",
-    "date": "26/06/2026",
-    "video_id": "EwFONN3W5cg",
-    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
-    "minute": "01:10:31",
-    "views": 20092,
-    "conc_at": 2148
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 2148,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "higiene"
  },
  {
   "slug": "11-40-41-96-60",
@@ -9440,6 +9565,43 @@
   "n_activations": 1,
   "n_programs": 1,
   "peak_conc_at": 747,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "guchito",
+  "name": "Guchito",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 62.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "01/07/2026",
+    "video_id": "vCRvDHYQezM",
+    "title": "SANTILLI Y LOS GOBERNADORES PIDIENDO ATENCIÓN | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+    "minute": "02:14:15",
+    "views": 8619,
+    "conc_at": 2151
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 2151,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {

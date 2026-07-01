@@ -7,7 +7,7 @@
   "avg_concurrent": 82254,
   "brands": 81,
   "mentions": 128,
-  "share_views": 71.9,
+  "share_views": 69.9,
   "n_brands_live": 81,
   "top_brands": [
    {
@@ -225,13 +225,13 @@
  {
   "id": "olga",
   "name": "Olga",
-  "videos": 23,
-  "vod_views": 946014,
-  "avg_concurrent": 24062,
-  "brands": 68,
-  "mentions": 136,
-  "share_views": 16.2,
-  "n_brands_live": 68,
+  "videos": 24,
+  "vod_views": 1081546,
+  "avg_concurrent": 24173,
+  "brands": 71,
+  "mentions": 141,
+  "share_views": 18.0,
+  "n_brands_live": 71,
   "top_brands": [
    {
     "slug": "iol-inversiones",
@@ -295,6 +295,13 @@
     "mentions": 3,
     "value_usd": 1178.0,
     "rubro": "retail"
+   },
+   {
+    "slug": "gillette",
+    "name": "Gillette",
+    "mentions": 3,
+    "value_usd": 2327.0,
+    "rubro": "higiene"
    },
    {
     "slug": "canon",
@@ -435,13 +442,6 @@
     "mentions": 1,
     "value_usd": 161.0,
     "rubro": "retail"
-   },
-   {
-    "slug": "don-tach",
-    "name": "Don Tach",
-    "mentions": 1,
-    "value_usd": 651.0,
-    "rubro": "otro"
    }
   ]
  },
@@ -453,7 +453,7 @@
   "avg_concurrent": 6011,
   "brands": 38,
   "mentions": 52,
-  "share_views": 6.2,
+  "share_views": 6.0,
   "n_brands_live": 38,
   "top_brands": [
    {
@@ -511,6 +511,13 @@
     "mentions": 1,
     "value_usd": 262.0,
     "rubro": "alimentos"
+   },
+   {
+    "slug": "gillette",
+    "name": "Gillette",
+    "mentions": 1,
+    "value_usd": 46.0,
+    "rubro": "higiene"
    },
    {
     "slug": "adidas",
@@ -632,13 +639,6 @@
     "rubro": "otro"
    },
    {
-    "slug": "gillette",
-    "name": "Gillette",
-    "mentions": 1,
-    "value_usd": 46.0,
-    "rubro": "higiene"
-   },
-   {
     "slug": "11-40-41-96-60",
     "name": "11 40 41 96 60",
     "mentions": 1,
@@ -671,14 +671,28 @@
  {
   "id": "gelatina",
   "name": "Gelatina",
-  "videos": 8,
-  "vod_views": 113166,
-  "avg_concurrent": 4062,
-  "brands": 7,
-  "mentions": 9,
-  "share_views": 1.9,
-  "n_brands_live": 7,
+  "videos": 10,
+  "vod_views": 134989,
+  "avg_concurrent": 3861,
+  "brands": 8,
+  "mentions": 12,
+  "share_views": 2.2,
+  "n_brands_live": 8,
   "top_brands": [
+   {
+    "slug": "ada-cafe",
+    "name": "Ada Café",
+    "mentions": 3,
+    "value_usd": 174.0,
+    "rubro": "otro"
+   },
+   {
+    "slug": "seco",
+    "name": "Seco",
+    "mentions": 2,
+    "value_usd": 153.0,
+    "rubro": "otro"
+   },
    {
     "slug": "tubo-com-ar",
     "name": "Tubo.com.ar",
@@ -687,24 +701,10 @@
     "rubro": "otro"
    },
    {
-    "slug": "ada-cafe",
-    "name": "Ada Café",
-    "mentions": 2,
-    "value_usd": 111.0,
-    "rubro": "otro"
-   },
-   {
     "slug": "telecentro",
     "name": "Telecentro",
     "mentions": 1,
     "value_usd": 313.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "seco",
-    "name": "Seco",
-    "mentions": 1,
-    "value_usd": 61.0,
     "rubro": "otro"
    },
    {
@@ -719,6 +719,13 @@
     "name": "Dos Cafés",
     "mentions": 1,
     "value_usd": 106.0,
+    "rubro": "otro"
+   },
+   {
+    "slug": "guchito",
+    "name": "Guchito",
+    "mentions": 1,
+    "value_usd": 62.0,
     "rubro": "otro"
    },
    {
@@ -738,7 +745,7 @@
   "avg_concurrent": 21542,
   "brands": 0,
   "mentions": 0,
-  "share_views": 1.6,
+  "share_views": 1.5,
   "n_brands_live": 0,
   "top_brands": []
  },
@@ -750,7 +757,7 @@
   "avg_concurrent": 6198,
   "brands": 10,
   "mentions": 11,
-  "share_views": 1.2,
+  "share_views": 1.1,
   "n_brands_live": 10,
   "top_brands": [
    {
@@ -849,6 +856,47 @@
     "mentions": 1,
     "value_usd": 92.0,
     "rubro": "bebidas"
+   }
+  ]
+ },
+ {
+  "id": "ahoraplay",
+  "name": "Ahora Play",
+  "videos": 6,
+  "vod_views": 16292,
+  "avg_concurrent": 522,
+  "brands": 4,
+  "mentions": 4,
+  "share_views": 0.3,
+  "n_brands_live": 4,
+  "top_brands": [
+   {
+    "slug": "clave-bursatil-de-asesores",
+    "name": "Clave Bursátil de Asesores",
+    "mentions": 1,
+    "value_usd": 13.0,
+    "rubro": "otro"
+   },
+   {
+    "slug": "legislatura-de-la-ciudad-autonoma-de-buenos-aires",
+    "name": "Legislatura de la Ciudad Autónoma de Buenos Aires",
+    "mentions": 1,
+    "value_usd": 28.0,
+    "rubro": "otro"
+   },
+   {
+    "slug": "tsa-bursatil",
+    "name": "TSA Bursátil",
+    "mentions": 1,
+    "value_usd": 7.0,
+    "rubro": "otro"
+   },
+   {
+    "slug": "punto-finanzas",
+    "name": "Punto Finanzas",
+    "mentions": 1,
+    "value_usd": 7.0,
+    "rubro": "otro"
    }
   ]
  },
@@ -999,47 +1047,6 @@
   ]
  },
  {
-  "id": "ahoraplay",
-  "name": "Ahora Play",
-  "videos": 5,
-  "vod_views": 12876,
-  "avg_concurrent": 493,
-  "brands": 4,
-  "mentions": 4,
-  "share_views": 0.2,
-  "n_brands_live": 4,
-  "top_brands": [
-   {
-    "slug": "clave-bursatil-de-asesores",
-    "name": "Clave Bursátil de Asesores",
-    "mentions": 1,
-    "value_usd": 13.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "legislatura-de-la-ciudad-autonoma-de-buenos-aires",
-    "name": "Legislatura de la Ciudad Autónoma de Buenos Aires",
-    "mentions": 1,
-    "value_usd": 28.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "tsa-bursatil",
-    "name": "TSA Bursátil",
-    "mentions": 1,
-    "value_usd": 7.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "punto-finanzas",
-    "name": "Punto Finanzas",
-    "mentions": 1,
-    "value_usd": 7.0,
-    "rubro": "otro"
-   }
-  ]
- },
- {
   "id": "cronista",
   "name": "El Cronista",
   "videos": 3,
@@ -1054,9 +1061,9 @@
  {
   "id": "aura",
   "name": "Aura",
-  "videos": 4,
-  "vod_views": 3534,
-  "avg_concurrent": 318,
+  "videos": 5,
+  "vod_views": 4631,
+  "avg_concurrent": 331,
   "brands": 2,
   "mentions": 2,
   "share_views": 0.1,

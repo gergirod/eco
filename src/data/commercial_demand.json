@@ -1,40 +1,40 @@
 {
  "disclaimer": "Pedidos confirmados de link, precio o dónde comprar — no certifica ventas. Falsos positivos de 'sale'/'cuota' filtrados por heurística + revisión LLM en casos dudosos. LUZU sin chat usable en el período. 10 mensaje(s) cayeron dentro de 5 min después de una PNT verificada.",
- "summary_line": "Ahora Play concentra la mayor demanda comercial filtrada en chat (20 pedidos confirmados, 0.07 por cada mil mirando; 2 dentro de 5 min post-PNT).",
+ "summary_line": "Ahora Play concentra la mayor demanda comercial filtrada en chat (26 pedidos confirmados, 0.09 por cada mil mirando; 2 dentro de 5 min post-PNT).",
  "filter": {
-  "llm_used": 86,
-  "llm_rejected": 550,
-  "llm_confirmed": 51,
+  "llm_used": 95,
+  "llm_rejected": 571,
+  "llm_confirmed": 52,
   "heuristic_rejected": 0,
-  "confirmed_total": 349
+  "confirmed_total": 377
  },
  "channels": [
   {
    "id": "ahoraplay",
    "name": "Ahora Play",
-   "programs_with_chat": 5,
-   "commercial_messages": 20,
-   "chat_messages": 5237,
-   "commercial_pct": 0.4,
-   "commercial_per_1k": 0.07,
+   "programs_with_chat": 7,
+   "commercial_messages": 26,
+   "chat_messages": 9009,
+   "commercial_pct": 0.3,
+   "commercial_per_1k": 0.09,
    "post_pnt_messages": 2,
    "by_tipo": {
-    "pregunta_precio": 18,
-    "pedido_link": 2
+    "pedido_link": 2,
+    "pregunta_precio": 24
    },
    "top_examples": [
     {
-     "text": "A cuanto esta es DOLAR ?",
+     "text": "las fintech te ofrecían prestamos por aplicación, sin análisis de riesgo, y para encontrar la tasa de interés tenías que entrar a otro link. Argentina tiene muc",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "Lo único que no tiene precio de mercado es el salario en la Argentina. Rumbo a ser Paraguay vamos.",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "SI BAJA EL RUESGO,SUBEN BONOS ENTONCES EL INVERSIONISTA EXTRANJERO VENDE AL MEJOR PRECIO Y SE MARCHO,COMO DICE LA CANCION?:hand-pink-waving::hand-pink-waving::h",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "por favor este gobierno es peor peor que alberto fernandez ademas nos estafa en todo. Ejemplo precio combustible",
+     "text": "precio de mercado no es lo mismo que precio de costo",
      "tipo": "pregunta_precio",
      "count": 1
     }
@@ -50,13 +50,13 @@
    "commercial_per_1k": 0.05,
    "post_pnt_messages": 1,
    "by_tipo": {
-    "pedido_link": 3,
-    "pregunta_precio": 3
+    "pregunta_precio": 3,
+    "pedido_link": 3
    },
    "top_examples": [
     {
-     "text": "Avisaron del gol y me gane un cupon en PYa, gracias",
-     "tipo": "pedido_link",
+     "text": "Yayi... BTC está en muy buen precio.",
+     "tipo": "pregunta_precio",
      "count": 1
     },
     {
@@ -74,15 +74,16 @@
   {
    "id": "aura",
    "name": "Aura",
-   "programs_with_chat": 2,
-   "commercial_messages": 3,
-   "chat_messages": 4037,
+   "programs_with_chat": 3,
+   "commercial_messages": 4,
+   "chat_messages": 5395,
    "commercial_pct": 0.1,
    "commercial_per_1k": 0.03,
    "post_pnt_messages": 0,
    "by_tipo": {
     "pregunta_compra": 1,
-    "pedido_link": 2
+    "pedido_link": 2,
+    "pregunta_precio": 1
    },
    "top_examples": [
     {
@@ -106,15 +107,15 @@
    "id": "",
    "name": "",
    "programs_with_chat": 20,
-   "commercial_messages": 83,
-   "chat_messages": 67925,
+   "commercial_messages": 94,
+   "chat_messages": 79136,
    "commercial_pct": 0.1,
-   "commercial_per_1k": 0.02,
+   "commercial_per_1k": 0.01,
    "post_pnt_messages": 0,
    "by_tipo": {
-    "pedido_link": 27,
-    "pregunta_precio": 49,
-    "pregunta_compra": 7
+    "pregunta_precio": 51,
+    "pedido_link": 32,
+    "pregunta_compra": 11
    },
    "top_examples": [
     {
@@ -123,13 +124,13 @@
      "count": 2
     },
     {
-     "text": "LINK: https://www.pagina12.com.ar/diario/so...",
-     "tipo": "pedido_link",
-     "count": 2
+     "text": "cuánto cuesta alquilar un campo para producir?",
+     "tipo": "pregunta_precio",
+     "count": 1
     },
     {
-     "text": "despues tenes descuento en Pedido Ya",
-     "tipo": "pedido_link",
+     "text": "a los productos le convendría retenciones más altas y pero bajarle el coso de la energía y el precio del alquiler de la tierra",
+     "tipo": "pregunta_precio",
      "count": 1
     }
    ]
@@ -137,15 +138,15 @@
   {
    "id": "vorterix",
    "name": "Vorterix",
-   "programs_with_chat": 11,
-   "commercial_messages": 56,
-   "chat_messages": 50682,
+   "programs_with_chat": 12,
+   "commercial_messages": 52,
+   "chat_messages": 54164,
    "commercial_pct": 0.1,
-   "commercial_per_1k": 0.02,
+   "commercial_per_1k": 0.01,
    "post_pnt_messages": 0,
    "by_tipo": {
     "pedido_link": 33,
-    "pregunta_precio": 20,
+    "pregunta_precio": 16,
     "pregunta_compra": 3
    },
    "top_examples": [
@@ -155,12 +156,44 @@
      "count": 2
     },
     {
-     "text": "@teffx7 literalmente mande al link que compartieron ayer, pasame uno porfis",
+     "text": "A MI ME INVITARON A UNA DE ESAS FIESTAS CON CODIGO DE VESTIMENTE: VERDE AMARILLO O ROJO PERO LA NOVIA QUE TENIA ENTONCES NO QUISO",
      "tipo": "pedido_link",
      "count": 1
     },
     {
-     "text": "Pasen link de rapidshare",
+     "text": "Frank es el nombre en código de Adorni",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "id": "gelatina",
+   "name": "Gelatina",
+   "programs_with_chat": 6,
+   "commercial_messages": 22,
+   "chat_messages": 12824,
+   "commercial_pct": 0.2,
+   "commercial_per_1k": 0.01,
+   "post_pnt_messages": 0,
+   "by_tipo": {
+    "pedido_link": 10,
+    "pregunta_compra": 1,
+    "pregunta_precio": 11
+   },
+   "top_examples": [
+    {
+     "text": "LINK: https://www.pagina12.com.ar/diario/so...",
+     "tipo": "pedido_link",
+     "count": 2
+    },
+    {
+     "text": "está ahí abajo el link",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "LINK FIJADO LOLA",
      "tipo": "pedido_link",
      "count": 1
     }
@@ -176,8 +209,8 @@
    "commercial_per_1k": 0.01,
    "post_pnt_messages": 0,
    "by_tipo": {
-    "pedido_link": 13,
-    "pregunta_precio": 7
+    "pregunta_precio": 7,
+    "pedido_link": 13
    },
    "top_examples": [
     {
@@ -186,45 +219,13 @@
      "count": 2
     },
     {
-     "text": "tiraron en link y había 6k de vistas",
+     "text": "el conmgelador de precio",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "NO CAMBIARON EL LINK DEL PROGRAMA",
      "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "Cambiaron de link nos perdimos todo",
-     "tipo": "pedido_link",
-     "count": 1
-    }
-   ]
-  },
-  {
-   "id": "gelatina",
-   "name": "Gelatina",
-   "programs_with_chat": 4,
-   "commercial_messages": 15,
-   "chat_messages": 8071,
-   "commercial_pct": 0.2,
-   "commercial_per_1k": 0.01,
-   "post_pnt_messages": 0,
-   "by_tipo": {
-    "pregunta_precio": 10,
-    "pedido_link": 4,
-    "pregunta_compra": 1
-   },
-   "top_examples": [
-    {
-     "text": "Sale ese cypher del Armenio? @SomosGelatina",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "Sale 50USD la entrada creo es el vip Launge del aeropuerto",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "Moreno como le bajas el precio a Kicillof, sos el mejor amigo de la derecha",
-     "tipo": "pregunta_precio",
      "count": 1
     }
    ]
@@ -239,15 +240,10 @@
    "commercial_per_1k": 0.01,
    "post_pnt_messages": 0,
    "by_tipo": {
-    "pedido_link": 2,
-    "pregunta_precio": 1
+    "pregunta_precio": 1,
+    "pedido_link": 2
    },
    "top_examples": [
-    {
-     "text": "cuál es el link??",
-     "tipo": "pedido_link",
-     "count": 1
-    },
     {
      "text": "cual es el fundamento que respalda el precio del Bitcoin ??",
      "tipo": "pregunta_precio",
@@ -257,22 +253,27 @@
      "text": "10 % de descuento en revoque grueso , hoy vamos paraguay",
      "tipo": "pedido_link",
      "count": 1
+    },
+    {
+     "text": "cuál es el link??",
+     "tipo": "pedido_link",
+     "count": 1
     }
    ]
   },
   {
    "id": "olga",
    "name": "Olga",
-   "programs_with_chat": 17,
-   "commercial_messages": 116,
-   "chat_messages": 81744,
+   "programs_with_chat": 19,
+   "commercial_messages": 123,
+   "chat_messages": 91034,
    "commercial_pct": 0.1,
    "commercial_per_1k": 0.0,
    "post_pnt_messages": 3,
    "by_tipo": {
-    "pedido_link": 45,
-    "pregunta_precio": 68,
-    "pregunta_compra": 3
+    "pedido_link": 47,
+    "pregunta_precio": 72,
+    "pregunta_compra": 4
    },
    "top_examples": [
     {
@@ -302,23 +303,23 @@
    "commercial_per_1k": 0.0,
    "post_pnt_messages": 4,
    "by_tipo": {
-    "pedido_link": 3,
     "pregunta_precio": 9,
+    "pedido_link": 3,
     "pregunta_compra": 1
    },
    "top_examples": [
     {
-     "text": "es un link de donacion para la proxima campaña de corina machado?",
-     "tipo": "pedido_link",
+     "text": "hoy la losa y el cielorraso a mitad de precio",
+     "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "el negro de wats app jaja",
-     "tipo": "pedido_link",
+     "text": "el peso no se hace fuerte.. las cosas son más caras.. l carne costaba 3 mil el kilo en 2023 y hoy cuesta 23 mil el kilo con el dolar al mismo precio",
+     "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "cuanto sale el terreno de urbana play ahi en miami? :rolling_on_the_floor_laughing::rolling_on_the_floor_laughing:",
+     "text": "20% osea el precio de nafta tendría q costar 2500? el.litro jujuuu q ladrones por favor",
      "tipo": "pregunta_precio",
      "count": 1
     }
@@ -344,12 +345,32 @@
      "count": 2
     },
     {
-     "text": "Qué paso con la app de connie??",
+     "text": "pero podes darla de baja al toque con la app",
      "tipo": "pedido_link",
      "count": 1
     },
     {
-     "text": "YO TE BANCO PEPE A MI ME PASA CON LAS FRUTAS Y VERDURAS, NO PUEDO ME CUESTA UN MONTON",
+     "text": "cuanto salen esos mic mini?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "id": "cenital",
+   "name": "Cenital",
+   "programs_with_chat": 1,
+   "commercial_messages": 1,
+   "chat_messages": 329,
+   "commercial_pct": 0.3,
+   "commercial_per_1k": 0.0,
+   "post_pnt_messages": 0,
+   "by_tipo": {
+    "pregunta_precio": 1
+   },
+   "top_examples": [
+    {
+     "text": "Además este mundial es un afanó. Tienen idea el precio de las entradas?",
      "tipo": "pregunta_precio",
      "count": 1
     }
@@ -374,34 +395,14 @@
      "count": 1
     }
    ]
-  },
-  {
-   "id": "cenital",
-   "name": "Cenital",
-   "programs_with_chat": 1,
-   "commercial_messages": 1,
-   "chat_messages": 329,
-   "commercial_pct": 0.3,
-   "commercial_per_1k": 0.0,
-   "post_pnt_messages": 0,
-   "by_tipo": {
-    "pregunta_precio": 1
-   },
-   "top_examples": [
-    {
-     "text": "Además este mundial es un afanó. Tienen idea el precio de las entradas?",
-     "tipo": "pregunta_precio",
-     "count": 1
-    }
-   ]
   }
  ],
  "programs": [
   {
    "video_id": "U0nEbi4WI9A",
-   "title": "",
-   "channel": "",
-   "channel_id": "",
+   "title": "LOS CAMBIOS EN YPF TRAS LA SALIDA DE ADORNI | Florencia Barragan, Mariano Espina #AhoraEnergía",
+   "channel": "AHORA PLAY",
+   "channel_id": "ahoraplay",
    "commercial_messages": 2,
    "commercial_pct": 5.1,
    "commercial_per_1k": 0.19,
@@ -526,44 +527,6 @@
    "pnt_examples": []
   },
   {
-   "video_id": "X3RKtsI0UNg",
-   "title": "",
-   "channel": "",
-   "channel_id": "",
-   "commercial_messages": 9,
-   "commercial_pct": 2.7,
-   "commercial_per_1k": 0.09,
-   "chat_messages": 335,
-   "by_tipo": {
-    "pregunta_precio": 9
-   },
-   "top_examples": [
-    {
-     "text": "cuánto cuesta alquilar un campo para producir?",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "a los productos le convendría retenciones más altas y pero bajarle el coso de la energía y el precio del alquiler de la tierra",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "El alquiler de la tierra es un precio de mercado",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "si quieren precio de mercado el sueldo tendría que estar acorde al del mercado mercado.",
-     "tipo": "pregunta_precio",
-     "count": 1
-    }
-   ],
-   "post_pnt_messages": 0,
-   "pnt_brand_aligned": 0,
-   "pnt_examples": []
-  },
-  {
    "video_id": "O3EcIBl7Sh4",
    "title": "¿AGUANTAN LAS PYMES? CON NICOLÁS GADANO | Diego Ponzio y Amilcar Collante #BitácoraPyme",
    "channel": "AHORA PLAY",
@@ -602,10 +565,48 @@
    ]
   },
   {
-   "video_id": "nOx1je3BA2o",
+   "video_id": "X3RKtsI0UNg",
    "title": "",
    "channel": "",
    "channel_id": "",
+   "commercial_messages": 9,
+   "commercial_pct": 1.0,
+   "commercial_per_1k": 0.07,
+   "chat_messages": 918,
+   "by_tipo": {
+    "pregunta_precio": 9
+   },
+   "top_examples": [
+    {
+     "text": "cuánto cuesta alquilar un campo para producir?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "a los productos le convendría retenciones más altas y pero bajarle el coso de la energía y el precio del alquiler de la tierra",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "El alquiler de la tierra es un precio de mercado",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "si quieren precio de mercado el sueldo tendría que estar acorde al del mercado mercado.",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "nOx1je3BA2o",
+   "title": "ARRANCÓ EL SEGUNDO SEMESTRE: MILEI SE LA JUEGA | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
+   "channel": "AHORA PLAY",
+   "channel_id": "ahoraplay",
    "commercial_messages": 4,
    "commercial_pct": 0.1,
    "commercial_per_1k": 0.05,
@@ -712,6 +713,44 @@
    ]
   },
   {
+   "video_id": "z03AqApe5NI",
+   "title": "",
+   "channel": "",
+   "channel_id": "",
+   "commercial_messages": 4,
+   "commercial_pct": 1.3,
+   "commercial_per_1k": 0.04,
+   "chat_messages": 316,
+   "by_tipo": {
+    "pregunta_precio": 4
+   },
+   "top_examples": [
+    {
+     "text": "$2.300 es el precio real del dólar libre, Orlando te clarifica",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "maxi y vos bardeabas al gobierno porque congelo el precio de la nafta durante 45 dias",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "el precio del barril a nivel mundial no se m,ueve directamente en el precio de la nafta en el surtidor instantaneamente",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "de cuánto es el gasto millonario de YPF en publicidad para amigos",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
    "video_id": "AUSgxGQirlM",
    "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
    "channel": " A U R A ",
@@ -765,9 +804,9 @@
   },
   {
    "video_id": "vCRvDHYQezM",
-   "title": "",
-   "channel": "",
-   "channel_id": "",
+   "title": "SANTILLI Y LOS GOBERNADORES PIDIENDO ATENCIÓN | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+   "channel": "GELATINA",
+   "channel_id": "gelatina",
    "commercial_messages": 6,
    "commercial_pct": 1.5,
    "commercial_per_1k": 0.03,
@@ -840,60 +879,32 @@
    "pnt_examples": []
   },
   {
-   "video_id": "HTm_q34CwyM",
-   "title": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
-   "channel": "AHORA PLAY",
-   "channel_id": "ahoraplay",
+   "video_id": "IH5owlKe_pA",
+   "title": "",
+   "channel": "",
+   "channel_id": "",
    "commercial_messages": 3,
-   "commercial_pct": 0.1,
+   "commercial_pct": 0.7,
    "commercial_per_1k": 0.03,
-   "chat_messages": 3480,
+   "chat_messages": 401,
    "by_tipo": {
-    "pregunta_precio": 3
+    "pedido_link": 2,
+    "pregunta_precio": 1
    },
    "top_examples": [
     {
-     "text": "Milei ofrece milanesas otra ves con el precio de la carne otro gasto:face-blue-smiling:",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "Si rajan a Adorni y otros políticos de YPF, seguro pueden bajar precio las naftas...",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "batista pero hay letras para todos??? todos compran a ese precio? o para comprar en el secundario lo compras mas caro y despues vendes barato",
-     "tipo": "pregunta_precio",
-     "count": 1
-    }
-   ],
-   "post_pnt_messages": 0,
-   "pnt_brand_aligned": 0,
-   "pnt_examples": []
-  },
-  {
-   "video_id": "TS7Q8dOmi-M",
-   "title": "El fútbol moderno, Argentina vs Jordania, ¿con quién jugarías la final? | Multiverso Neura - 30/06",
-   "channel": "Neura Media",
-   "channel_id": "neura",
-   "commercial_messages": 2,
-   "commercial_pct": 0.3,
-   "commercial_per_1k": 0.03,
-   "chat_messages": 642,
-   "by_tipo": {
-    "pregunta_precio": 1,
-    "pedido_link": 1
-   },
-   "top_examples": [
-    {
-     "text": "Ramón Diaz pasaría tan fácil a un Licha, Otamendi o Cuti? Vaaaamos. No es bajarle el precio a Ramón Diaz, pero no todo tiempo pasado fue mejor, por eso cada qui",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "pasa el link barbara",
+     "text": "ESTAN HACIENDO ESTAFAS POR MERCADO LIBRE Y MERCADO PAGO CON LAS APP SUPREMO MOBILE ADD",
      "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "CUIDADO SI LO LLAMAN DE SOPORTE DE MERCADO LIBRE ESTAN ESTAFANDO CON UNA NUEVA MODALIDAD CON LA APP SUPREMO MOBILE ADD",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "ese es el precio de bajar a tomar agua del pozo de la tortera:face_with_tears_of_joy::rolling_on_the_floor_laughing::face_with_tears_of_joy::rolling_on_the_floo",
+     "tipo": "pregunta_precio",
      "count": 1
     }
    ],
@@ -954,31 +965,23 @@
    "cross_canal": false
   },
   {
-   "text": "LINK LINK LINK",
+   "text": "PASA EL LINK GUICHE",
    "tipo": "pedido_link",
    "count": 2,
    "n_programas": 1,
    "canales": [
-    "Bondi Live"
+    "Vorterix"
    ],
    "cross_canal": false
   },
   {
-   "text": "Hay descuento tipo 3x2?? me interesa para comprar varios, y tener uno en cada habitación",
-   "tipo": "pedido_link",
+   "text": "este año sale Teatro Picadilly",
+   "tipo": "pregunta_precio",
    "count": 2,
    "n_programas": 1,
    "canales": [
     "OLGA"
    ],
-   "cross_canal": false
-  },
-  {
-   "text": "yo le compre una bandeja pasa vinilos a mi marido, sale 500 lucas",
-   "tipo": "pregunta_precio",
-   "count": 2,
-   "n_programas": 1,
-   "canales": [],
    "cross_canal": false
   },
   {
@@ -992,11 +995,21 @@
    "cross_canal": false
   },
   {
-   "text": "LINK: https://www.pagina12.com.ar/diario/so...",
-   "tipo": "pedido_link",
+   "text": "yo le compre una bandeja pasa vinilos a mi marido, sale 500 lucas",
+   "tipo": "pregunta_precio",
    "count": 2,
    "n_programas": 1,
    "canales": [],
+   "cross_canal": false
+  },
+  {
+   "text": "Hay descuento tipo 3x2?? me interesa para comprar varios, y tener uno en cada habitación",
+   "tipo": "pedido_link",
+   "count": 2,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
    "cross_canal": false
   }
  ],
@@ -1123,5 +1136,5 @@
   }
  ],
  "channels_with_commercial": 13,
- "period": "2026-07-01T15:13:07.769334+00:00"
+ "period": "2026-07-01T17:30:36.922970+00:00"
 }

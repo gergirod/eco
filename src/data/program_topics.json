@@ -2394,6 +2394,148 @@
     }
    ]
   },
+  "7WJTeokhLUY": {
+   "video_id": "7WJTeokhLUY",
+   "channel_id": "aura",
+   "channel": " A U R A ",
+   "title": "🔵 DE ACÁ con Flor Ferrero, Juan Butvilofsky, Rodolfo Vera Calderón y Tommy Reynolds.",
+   "show_id": "de-aca",
+   "show_name": "De Acá",
+   "top_temas": [
+    {
+     "tema": "Actuación En La Vida Cotidiana",
+     "score": 3
+    },
+    {
+     "tema": "Ronquidos Y Posición Al Dormir",
+     "score": 3
+    },
+    {
+     "tema": "Asunción De Diego Santilli Como Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Adorni Y Enriquecimiento Ilícito",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol Y Preparación Táctica",
+     "score": 3
+    },
+    {
+     "tema": "Ronquido Y Apnea Del Sueño",
+     "score": 3
+    },
+    {
+     "tema": "Historia Del Edificio Cabana",
+     "score": 3
+    },
+    {
+     "tema": "Denuncias De Violencia De Género",
+     "score": 3
+    },
+    {
+     "tema": "Violencia De Género",
+     "score": 3
+    },
+    {
+     "tema": "Denuncias Por Violencia De Género",
+     "score": 3
+    },
+    {
+     "tema": "Culpabilización De Víctimas",
+     "score": 3
+    },
+    {
+     "tema": "Educación Matemática Y Pedagogía",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "salud",
+     "score": 38
+    },
+    {
+     "categoria": "cultura",
+     "score": 33
+    },
+    {
+     "categoria": "actividad",
+     "score": 19
+    },
+    {
+     "categoria": "persona",
+     "score": 14
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 11
+    },
+    {
+     "categoria": "educacion",
+     "score": 11
+    },
+    {
+     "categoria": "lugar",
+     "score": 7
+    },
+    {
+     "categoria": "producto",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Actuación En La Vida Cotidiana",
+     "categoria": "cultura",
+     "contexto": "Discusión sobre cómo actuamos constantemente en situaciones como dormir, respirar, caminar y relaciones sexuales",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Canciones Y Música",
+     "categoria": "cultura",
+     "contexto": "Menciones de temas como 'Tabaco y Chanel', Los Vacilos, 'Mientras sigas viendo tu cara en la cara de la luna'",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Graciela Alfano",
+     "categoria": "persona",
+     "contexto": "Se menciona que Graciela Alfano tuvo impactantes declaraciones sobre sus relaciones",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Dinero Y Valor Del Millón",
+     "categoria": "otro",
+     "contexto": "Debate sobre qué significa tener un millón (pesos, dólares, seguidores, reproducciones) y cómo se devaluó",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Almohaditas De Clima",
+     "categoria": "comida",
+     "contexto": "Conversación sobre qué preferirían tener un millón de, mencionan almohaditas de clima rellenas de frutilla o chocolate",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ronquidos Y Posición Al Dormir",
+     "categoria": "salud",
+     "contexto": "Flor ronca y descubren que es por dormir boca arriba con almohada muy alta",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Parálisis Del Sueño",
+     "categoria": "salud",
+     "contexto": "Se menciona experiencia de parálisis del sueño donde se vio el propio cuerpo dormido",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Somnambulismo Y Hablar Dormido",
+     "categoria": "salud",
+     "contexto": "Discuten sobre personas sonámbulas y gente que habla mientras duerme",
+     "minute": "0:10"
+    }
+   ]
+  },
   "8lOkxIDSd4w": {
    "video_id": "8lOkxIDSd4w",
    "channel_id": "olga",
@@ -13088,6 +13230,148 @@
     }
    ]
   },
+  "nOx1je3BA2o": {
+   "video_id": "nOx1je3BA2o",
+   "channel_id": "ahoraplay",
+   "channel": "AHORA PLAY",
+   "title": "ARRANCÓ EL SEGUNDO SEMESTRE: MILEI SE LA JUEGA | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
+   "show_id": "serrucho",
+   "show_name": "Serrucho Económico",
+   "top_temas": [
+    {
+     "tema": "Financiamiento De Universidades",
+     "score": 3
+    },
+    {
+     "tema": "Inflación",
+     "score": 3
+    },
+    {
+     "tema": "Economía Y Consumo Masivo",
+     "score": 3
+    },
+    {
+     "tema": "Políticas Económicas Gobierno Milei-caputo",
+     "score": 3
+    },
+    {
+     "tema": "Morosidad Y Crisis De Crédito",
+     "score": 3
+    },
+    {
+     "tema": "Recuperación Económica Y Consumo",
+     "score": 3
+    },
+    {
+     "tema": "Ciclo Crediticio Selectivo Del Banco Central",
+     "score": 3
+    },
+    {
+     "tema": "Consumo Privado Y Economía Real",
+     "score": 3
+    },
+    {
+     "tema": "Aumento De Tarifas De Servicios Públicos",
+     "score": 3
+    },
+    {
+     "tema": "Brecha Entre Datos Macroeconómicos Y Percepción Ciudadana",
+     "score": 3
+    },
+    {
+     "tema": "Modelo Económico Y Cambio Estructural",
+     "score": 3
+    },
+    {
+     "tema": "Equilibrio Fiscal Y Cuentas Públicas",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "economia",
+     "score": 74
+    },
+    {
+     "categoria": "otro",
+     "score": 60
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 9
+    },
+    {
+     "categoria": "cultura",
+     "score": 8
+    },
+    {
+     "categoria": "actividad",
+     "score": 7
+    },
+    {
+     "categoria": "salud",
+     "score": 4
+    },
+    {
+     "categoria": "comida",
+     "score": 2
+    },
+    {
+     "categoria": "producto",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Apariencia Física Y Peluquería",
+     "categoria": "otro",
+     "contexto": "El conductor habla de estar despeinado, sacarse turno con el peluquero y bromea sobre tener una cabeza grande",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Selección Argentina",
+     "categoria": "actividad",
+     "contexto": "Doña Julia menciona último día de trabajo para alentar a la selección, el viernes juega",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Saludos A Audiencia Y Equipo",
+     "categoria": "otro",
+     "contexto": "El conductor saluda a Serena Sánchez, Alejandro, Doña Julia, Gastón Michco y Ariel Aníbal Pastura",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Financiamiento De Universidades",
+     "categoria": "cultura",
+     "contexto": "Debate sobre la ley de financiamiento universitario, salarios de docentes y no docentes de universidades nacionales",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Inflación",
+     "categoria": "tecnologia",
+     "contexto": "Análisis detallado de estimaciones de inflación de junio según distintas consultoras (Ferreres 2.1%, Pochetto 1.9%, Dal Poggetto 1.3%)",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Economía Y Consumo Masivo",
+     "categoria": "actividad",
+     "contexto": "Discusión sobre repunte económico esperado en segundo semestre, actividad económica, consumo popular y ventas",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Precios De Alimentos Y Bebidas",
+     "categoria": "comida",
+     "contexto": "Mención de alimentos y bebidas como rubro con mayor incidencia inflacionaria (3.1%), especialmente carne vacuna",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Medicamentos Y Salud",
+     "categoria": "salud",
+     "contexto": "Análisis de aumentos de medicamentos para presión, corazón y colesterol, especialmente utilizados por jubilados",
+     "minute": "0:10"
+    }
+   ]
+  },
   "oB3uH7aQwTU": {
    "video_id": "oB3uH7aQwTU",
    "channel_id": "luzu",
@@ -13940,6 +14224,148 @@
     }
    ]
   },
+  "tKOUyjkzDQ8": {
+   "video_id": "tKOUyjkzDQ8",
+   "channel_id": "gelatina",
+   "channel": "GELATINA",
+   "title": "Sanguchito a Santilli: Adorni le arruinó la jura | TUGO con Nico Guthmann",
+   "show_id": "tugo",
+   "show_name": "TUGO",
+   "top_temas": [
+    {
+     "tema": "Salarios Y Poder Adquisitivo",
+     "score": 6
+    },
+    {
+     "tema": "Evento Del 4 De Julio En Embajada De Estados Unidos",
+     "score": 5
+    },
+    {
+     "tema": "Jura De Diego Santilli Como Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Embajada De Estados Unidos Y Licitación De La Hidrovía",
+     "score": 3
+    },
+    {
+     "tema": "Despidos En La Comisión Nacional De Energía Atómica",
+     "score": 3
+    },
+    {
+     "tema": "Ley De Inviolabilidad De La Propiedad Y Extranjerización De Tierras",
+     "score": 3
+    },
+    {
+     "tema": "Morosidad Y Endeudamiento De Familias",
+     "score": 3
+    },
+    {
+     "tema": "Relación Argentina-estados Unidos",
+     "score": 3
+    },
+    {
+     "tema": "Política Exterior Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Relaciones Diplomáticas Argentina-estados Unidos",
+     "score": 3
+    },
+    {
+     "tema": "Crisis De Personas En Situación De Calle",
+     "score": 3
+    },
+    {
+     "tema": "Crítica A Jorge Macri",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "economia",
+     "score": 31
+    },
+    {
+     "categoria": "persona",
+     "score": 30
+    },
+    {
+     "categoria": "política",
+     "score": 27
+    },
+    {
+     "categoria": "cultura",
+     "score": 20
+    },
+    {
+     "categoria": "otro",
+     "score": 7
+    },
+    {
+     "categoria": "economía",
+     "score": 7
+    },
+    {
+     "categoria": "lugar",
+     "score": 6
+    },
+    {
+     "categoria": "salud",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Jura De Diego Santilli Como Jefe De Gabinete",
+     "categoria": "persona",
+     "contexto": "Diego Santilli juró como nuevo jefe de gabinete de ministros en un evento donde se produjo un triabrazo entre Milei, Santilli y Adorni",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Presencia De Gobernadores En La Jura De Santilli",
+     "categoria": "otro",
+     "contexto": "Asistieron 14 gobernadores en primera fila, incluyendo críticos del gobierno como Martín Yaryora y Gustavo Sáenz",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Desplazamiento De Manuel Adorni",
+     "categoria": "persona",
+     "contexto": "Manuel Adorni fue desplazado del gobierno pero apareció en la jura de Santilli generando una situación política incómoda",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Declaraciones De Analia Majorana Sobre Ambiciones De Santilli",
+     "categoria": "persona",
+     "contexto": "La esposa de Santilli reconoció que él asume el cargo porque quiere ser gobernador de Buenos Aires",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Evento Del 4 De Julio En Embajada De Estados Unidos",
+     "categoria": "cultura",
+     "contexto": "Milei participó entusiasmadamente en celebración de independencia de EE.UU., publicó video bailando con tema YMCA",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Muerte De Miembro De Village People",
+     "categoria": "cultura",
+     "contexto": "Falleció el policía de la banda Village People durante el programa",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Relación De Milei Con Embajador Peter Lamelas",
+     "categoria": "persona",
+     "contexto": "El embajador estadounidense afirmó que Milei fue a escucharlo a él, posicionándose con autoridad frente al presidente",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Embajada De Estados Unidos Y Licitación De La Hidrovía",
+     "categoria": "política",
+     "contexto": "Discusión sobre la presencia de la Embajada de Estados Unidos en eventos y su influencia en licitaciones del Estado, con participación del grupo Neus cercano a Santiago Caputo",
+     "minute": "0:10"
+    }
+   ]
+  },
   "tOyCjVcKZlE": {
    "video_id": "tOyCjVcKZlE",
    "channel_id": "blend",
@@ -14497,6 +14923,148 @@
      "categoria": "otro",
      "contexto": "Casa Rosada ordena renovar la vajilla presidencial desde la Secretaría General de Presidencia, a cargo de Carina",
      "minute": "0:20"
+    }
+   ]
+  },
+  "vCRvDHYQezM": {
+   "video_id": "vCRvDHYQezM",
+   "channel_id": "gelatina",
+   "channel": "GELATINA",
+   "title": "SANTILLI Y LOS GOBERNADORES PIDIENDO ATENCIÓN | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+   "show_id": "demasiada-presion",
+   "show_name": "Demasiada Presión",
+   "top_temas": [
+    {
+     "tema": "Viaje A Islandia",
+     "score": 6
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 5
+    },
+    {
+     "tema": "Educación Sexual Integral (esi)",
+     "score": 5
+    },
+    {
+     "tema": "Memes De Julio",
+     "score": 3
+    },
+    {
+     "tema": "Jura De Diego Santilli Como Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Política De Subsidios Y Tarifas",
+     "score": 3
+    },
+    {
+     "tema": "Terremotos En Venezuela",
+     "score": 3
+    },
+    {
+     "tema": "Desaparición De Luciano Arruga",
+     "score": 3
+    },
+    {
+     "tema": "Asunción De Diego Santilli Como Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Salida De Manuel Adorni Del Gobierno",
+     "score": 3
+    },
+    {
+     "tema": "Asunción De Santilli Como Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Tensiones Internas En El Gobierno",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "persona",
+     "score": 36
+    },
+    {
+     "categoria": "actividad",
+     "score": 35
+    },
+    {
+     "categoria": "salud",
+     "score": 20
+    },
+    {
+     "categoria": "cultura",
+     "score": 18
+    },
+    {
+     "categoria": "educacion",
+     "score": 15
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 13
+    },
+    {
+     "categoria": "lugar",
+     "score": 13
+    },
+    {
+     "categoria": "otro",
+     "score": 10
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Clima Y Temperatura En Argentina",
+     "categoria": "clima",
+     "contexto": "Comentan sobre los 3-6 grados de temperatura en Buenos Aires, la ola polar que comienza en julio, y temperaturas bajo cero en Chubut",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Paso Del Tiempo Y Envejecimiento",
+     "categoria": "cultura",
+     "contexto": "Debaten cómo el tiempo pasa más rápido con la edad, reflexionan sobre llevar más años trabajando que no trabajando",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Deporte Vs Actividad Física",
+     "categoria": "actividad",
+     "contexto": "Discuten si correr es deporte o actividad física, diferencia entre competencia y ejercicio individual",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Memes De Julio",
+     "categoria": "cultura",
+     "contexto": "Mencionan que los memes de julio ya están circulando, algunos los encuentran deprimentes, otros les gustan",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Emojis Vs Emoticones",
+     "categoria": "tecnologia",
+     "contexto": "Conversan sobre la diferencia entre emojis y emoticones, reflexionan sobre que los emojis son de ancianos y que usan emoticones",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Jura De Diego Santilli Como Jefe De Gabinete",
+     "categoria": "politica",
+     "contexto": "Analizan la ceremonia de asunción de Santilli en la Casa Rosada, presencia de 13 gobernadores, rol de Adorni y Caputo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Nueva Etapa Del Gobierno Milei",
+     "categoria": "politica",
+     "contexto": "Discuten cambios en el gabinete, reuniones con legisladores, busca de mayor presencia en el Senado",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cambio De Vocero Presidencial",
+     "categoria": "persona",
+     "contexto": "Adrián Ravier asume como vocero presidencial con estilo más sencillo y menos confrontacional que Manuel Adorni",
+     "minute": "0:10"
     }
    ]
   },
@@ -15202,6 +15770,148 @@
      "tema": "Música En Vivo",
      "categoria": "cultura",
      "contexto": "Énfasis en la importancia de la música de fondo para bailar tango correctamente",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "z11vyvt5tuM": {
+   "video_id": "z11vyvt5tuM",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+   "show_id": "seria-increible",
+   "show_name": "Sería Increíble",
+   "top_temas": [
+    {
+     "tema": "Terapia De Pareja",
+     "score": 6
+    },
+    {
+     "tema": "Moda Y Prendas De Vestir",
+     "score": 5
+    },
+    {
+     "tema": "Copa América - México Vs Ecuador",
+     "score": 3
+    },
+    {
+     "tema": "Caso Insaurralde-sirio",
+     "score": 3
+    },
+    {
+     "tema": "Video Del Guardarropa Con Dinero",
+     "score": 3
+    },
+    {
+     "tema": "Martín Insaurralde",
+     "score": 3
+    },
+    {
+     "tema": "Caso Martín Insaurralde - Dinero En Efectivo",
+     "score": 3
+    },
+    {
+     "tema": "Video Deepfake Y Defensa Por Ia",
+     "score": 3
+    },
+    {
+     "tema": "Conflicto Personal Con Polino",
+     "score": 3
+    },
+    {
+     "tema": "Demanda De Coherencia Y Respeto",
+     "score": 3
+    },
+    {
+     "tema": "Comunicación Y Conflicto En Parejas",
+     "score": 3
+    },
+    {
+     "tema": "Comunicación En Pareja",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 28
+    },
+    {
+     "categoria": "persona",
+     "score": 25
+    },
+    {
+     "categoria": "otro",
+     "score": 20
+    },
+    {
+     "categoria": "cultura",
+     "score": 17
+    },
+    {
+     "categoria": "salud",
+     "score": 17
+    },
+    {
+     "categoria": "lugar",
+     "score": 8
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 7
+    },
+    {
+     "categoria": "comida",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Astrología Y Signos Zodiacales",
+     "categoria": "cultura",
+     "contexto": "Discusión sobre signos zodiacales (Virgo, Capricornio, Leo) y cómo afectan a los conductores",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Copa América - México Vs Ecuador",
+     "categoria": "actividad",
+     "contexto": "Análisis detallado del partido de México en octavos de final, elogios al equipo mexicano",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Gastronomía Mexicana - Pulparindo",
+     "categoria": "comida",
+     "contexto": "Prueba y degustación de pulparindo, golosina mexicana de tamarindo con sabor picante, salado y dulce",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Guacamole Casero",
+     "categoria": "comida",
+     "contexto": "Debate sobre receta de guacamole, tiempo de preparación (45 minutos), ingredientes y condimentos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Comida Árabe Y Peruana",
+     "categoria": "comida",
+     "contexto": "Mención de preferencias culinarias, shawarmas, comida árabe y peruana como tendencias gastronómicas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Salud - Recuperación De Conductor",
+     "categoria": "salud",
+     "contexto": "Conductor comenta que estuvo en reposo por ataque de hígado y refrío, ya se siente mejor",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Vida Laboral Y Culpa Del Trabajo",
+     "categoria": "actividad",
+     "contexto": "Conductor reflexiona sobre el aburrimiento en reposo, culpa por faltar al trabajo y múltiples compromisos laborales",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Caso Insaurralde-sirio",
+     "categoria": "persona",
+     "contexto": "Análisis detallado de la causa penal que comenzó en 2023 por un viaje a Europa en yate y derivó en investigación de lavado de dinero",
      "minute": "0:10"
     }
    ]

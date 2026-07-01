@@ -9,12 +9,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 23,
-   "total_vod_views": 946014,
-   "avg_concurrent": 24062,
-   "brands_detected": 68,
-   "mentions": 136,
-   "last_processed": "30/06/2026"
+   "videos_processed": 24,
+   "total_vod_views": 1081546,
+   "avg_concurrent": 24173,
+   "brands_detected": 71,
+   "mentions": 141,
+   "last_processed": "01/07/2026"
   },
   "pipeline_status": "activo"
  },
@@ -85,12 +85,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 8,
-   "total_vod_views": 113166,
-   "avg_concurrent": 4062,
-   "brands_detected": 7,
-   "mentions": 9,
-   "last_processed": "30/06/2026"
+   "videos_processed": 10,
+   "total_vod_views": 134989,
+   "avg_concurrent": 3861,
+   "brands_detected": 8,
+   "mentions": 12,
+   "last_processed": "01/07/2026"
   },
   "pipeline_status": "activo"
  },
@@ -204,12 +204,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 5,
-   "total_vod_views": 12876,
-   "avg_concurrent": 493,
+   "videos_processed": 6,
+   "total_vod_views": 16292,
+   "avg_concurrent": 522,
    "brands_detected": 4,
    "mentions": 4,
-   "last_processed": "30/06/2026"
+   "last_processed": "01/07/2026"
   },
   "pipeline_status": "activo"
  },
@@ -223,9 +223,9 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 4,
-   "total_vod_views": 3534,
-   "avg_concurrent": 318,
+   "videos_processed": 5,
+   "total_vod_views": 4631,
+   "avg_concurrent": 331,
    "brands_detected": 2,
    "mentions": 2,
    "last_processed": "30/06/2026"

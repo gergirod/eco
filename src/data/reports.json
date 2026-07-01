@@ -8238,6 +8238,431 @@
    }
   ]
  },
+ "gillette": {
+  "name": "Gillette",
+  "mentions": 4,
+  "kind": "marca",
+  "value_usd": 2373.0,
+  "channels": [
+   "olga",
+   "vorterix"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 4,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 3,
+   "neutro": 1,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260626",
+    "date": "26/06/2026",
+    "mentions": 1,
+    "value_usd": 46.0
+   },
+   {
+    "date_iso": "20260701",
+    "date": "01/07/2026",
+    "mentions": 3,
+    "value_usd": 2327.0
+   }
+  ],
+  "best": {
+   "channel": "olga",
+   "channel_name": "OLGA",
+   "date": "01/07/2026",
+   "date_iso": "20260701",
+   "video_id": "z11vyvt5tuM",
+   "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+   "minute": "01:38:49",
+   "t_seconds": 5929,
+   "precise": true,
+   "views": 135532,
+   "value_usd": 804.0,
+   "quote": "Manu, te vas hoy con Gillette a Miami a ver a estar un poquito más cerca de Messi a ver el partido del viernes",
+   "tier": 2,
+   "tier_label": "Lectura dedicada",
+   "sentiment": "positivo",
+   "conc_at": 27763,
+   "retention_pct": -6.0,
+   "chat_ratio": 0.98,
+   "chat_reaction": {
+    "cobertura": true,
+    "has_chat": true,
+    "chat_ratio": 0.98,
+    "spike_rpm": 1.0,
+    "pre_rpm": 31.0,
+    "post_rpm": 31.7,
+    "eco_marca_post": 0,
+    "eco_line": null,
+    "demanda_post": 2,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "neutral",
+    "table_line": "Chat en línea con el promedio del programa",
+    "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 31.0 msgs/min → después: 31.7 msgs/min.",
+    "detail_lines": [
+     "2 mensajes con señales de demanda (precio, link, código…)."
+    ],
+    "ejemplos": [
+     "preguntenle a adorni cuanto grados ase en eseisa",
+     "los quiero increíbles, buen día"
+    ],
+    "motivo": null
+   },
+   "room_reaction": {
+    "has_data": true,
+    "cobertura": true,
+    "in_window": true,
+    "table_line": "mensaje fijado",
+    "headline": "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE» El canal dejó fijo un mensaje durante ? en este tramo: «LIKE AL VIVO»",
+    "detail_lines": [
+     "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE»",
+     "El canal dejó fijo un mensaje durante ? en este tramo: «LIKE AL VIVO»",
+     "No incluye clicks del link del mensaje fijado."
+    ],
+    "lines": [
+     "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE»",
+     "El canal dejó fijo un mensaje durante ? en este tramo: «LIKE AL VIVO»"
+    ],
+    "pins": [
+     {
+      "text": "LIKE AL VIVO GENTE ",
+      "duration_s": 4744.9,
+      "ts_start_s": 1352.6,
+      "pinned_by": "@olgaenvivo_"
+     },
+     {
+      "text": " LIKE AL VIVO ",
+      "duration_s": null,
+      "ts_start_s": 6111.7,
+      "pinned_by": "@olgaenvivo_"
+     }
+    ],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": "No incluye clicks del link. El chat no certifica pauta."
+   },
+   "program_peak": 43094,
+   "has_chat": true,
+   "anchor_confidence": "fuzzy",
+   "anchor_validated": true,
+   "transcript_at_ts": "posibles. Entonces estamos cuando esto empezó a suceder, dijimos, wow que la fuerza de la palabra, la fuerza del deseo y nada, muy agradecidos. ¿Qué le tenés para decir, Manu, a tu abuela que te acompañó esa mañana y te trajo acá al banco a poder leer esta carta?",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/07/2026",
+    "date_iso": "20260701",
+    "video_id": "z11vyvt5tuM",
+    "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+    "minute": "01:41:45",
+    "t_seconds": 6105,
+    "precise": true,
+    "views": 135532,
+    "value_usd": 744.0,
+    "quote": "En los partidos más importantes de la vida, la confianza hace la diferencia, ya sea frente al espejo con Gillette o en la cancha con la selección",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 25686,
+    "retention_pct": -8.0,
+    "chat_ratio": 0.87,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 0.87,
+     "spike_rpm": 1.3,
+     "pre_rpm": 18.5,
+     "post_rpm": 23.7,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "neutral",
+     "table_line": "Chat en línea con el promedio del programa",
+     "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 18.5 msgs/min → después: 23.7 msgs/min.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": true,
+     "table_line": "mensaje fijado · apoyo en chat",
+     "headline": "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE» El canal dejó fijo un mensaje durante ? en este tramo: «LIKE AL VIVO» La comunidad aportó ARS 100 en super chats y membresías en ±5 min de la aparición",
+     "detail_lines": [
+      "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE»",
+      "El canal dejó fijo un mensaje durante ? en este tramo: «LIKE AL VIVO»",
+      "La comunidad aportó ARS 100 en super chats y membresías en ±5 min de la aparición",
+      "No incluye clicks del link del mensaje fijado."
+     ],
+     "lines": [
+      "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE»",
+      "El canal dejó fijo un mensaje durante ? en este tramo: «LIKE AL VIVO»",
+      "La comunidad aportó ARS 100 en super chats y membresías en ±5 min de la aparición"
+     ],
+     "pins": [
+      {
+       "text": "LIKE AL VIVO GENTE ",
+       "duration_s": 4744.9,
+       "ts_start_s": 1352.6,
+       "pinned_by": "@olgaenvivo_"
+      },
+      {
+       "text": " LIKE AL VIVO ",
+       "duration_s": null,
+       "ts_start_s": 6111.7,
+       "pinned_by": "@olgaenvivo_"
+      }
+     ],
+     "polls": [],
+     "monetization": {
+      "paid_events": 2,
+      "total_by_currency": {
+       "ARS": 100.0
+      }
+     },
+     "disclaimer": "No incluye clicks del link. El chat no certifica pauta."
+    },
+    "program_peak": 43094,
+    "has_chat": true,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "Se está escuchando, Gordi. En los partidos más importantes de la vida, la confianza hace la diferencia, ya sea frente al espejo con Gillette o en la cancha con la selección. Tenerlo mejor te da la máxima confianza.",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/07/2026",
+    "date_iso": "20260701",
+    "video_id": "z11vyvt5tuM",
+    "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+    "minute": "01:38:49",
+    "t_seconds": 5929,
+    "precise": true,
+    "views": 135532,
+    "value_usd": 804.0,
+    "quote": "Manu, te vas hoy con Gillette a Miami a ver a estar un poquito más cerca de Messi a ver el partido del viernes",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 27763,
+    "retention_pct": -6.0,
+    "chat_ratio": 0.98,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 0.98,
+     "spike_rpm": 1.0,
+     "pre_rpm": 31.0,
+     "post_rpm": 31.7,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 2,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "neutral",
+     "table_line": "Chat en línea con el promedio del programa",
+     "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 31.0 msgs/min → después: 31.7 msgs/min.",
+     "detail_lines": [
+      "2 mensajes con señales de demanda (precio, link, código…)."
+     ],
+     "ejemplos": [
+      "preguntenle a adorni cuanto grados ase en eseisa",
+      "los quiero increíbles, buen día"
+     ],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": true,
+     "table_line": "mensaje fijado",
+     "headline": "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE» El canal dejó fijo un mensaje durante ? en este tramo: «LIKE AL VIVO»",
+     "detail_lines": [
+      "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE»",
+      "El canal dejó fijo un mensaje durante ? en este tramo: «LIKE AL VIVO»",
+      "No incluye clicks del link del mensaje fijado."
+     ],
+     "lines": [
+      "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE»",
+      "El canal dejó fijo un mensaje durante ? en este tramo: «LIKE AL VIVO»"
+     ],
+     "pins": [
+      {
+       "text": "LIKE AL VIVO GENTE ",
+       "duration_s": 4744.9,
+       "ts_start_s": 1352.6,
+       "pinned_by": "@olgaenvivo_"
+      },
+      {
+       "text": " LIKE AL VIVO ",
+       "duration_s": null,
+       "ts_start_s": 6111.7,
+       "pinned_by": "@olgaenvivo_"
+      }
+     ],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": "No incluye clicks del link. El chat no certifica pauta."
+    },
+    "program_peak": 43094,
+    "has_chat": true,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "posibles. Entonces estamos cuando esto empezó a suceder, dijimos, wow que la fuerza de la palabra, la fuerza del deseo y nada, muy agradecidos. ¿Qué le tenés para decir, Manu, a tu abuela que te acompañó esa mañana y te trajo acá al banco a poder leer esta carta?",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/07/2026",
+    "date_iso": "20260701",
+    "video_id": "z11vyvt5tuM",
+    "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+    "minute": "01:33:13",
+    "t_seconds": 5593,
+    "precise": true,
+    "views": 135532,
+    "value_usd": 779.0,
+    "quote": "Gillette, te escribió una carta a vos... Y no sé Voy a hacer todo lo posible... Querido Manu... Por eso, Manu, queremos decirte que desde hoy no vas a seguir soñando solo. Queremos acompañarte a escribir el próximo capítulo de esta historia. Junto al equipo de Gillette Argentina, Manu, queremos invitarte a vos y a toda tu familia a viajar hoy a Estados Unidos para vivir tu primer mundial, Manu.",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 26886,
+    "retention_pct": 2.7,
+    "chat_ratio": 1.0,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 1.0,
+     "spike_rpm": 1.2,
+     "pre_rpm": 29.0,
+     "post_rpm": 33.7,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 2,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "neutral",
+     "table_line": "Chat en línea con el promedio del programa",
+     "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 29.0 msgs/min → después: 33.7 msgs/min.",
+     "detail_lines": [
+      "2 mensajes con señales de demanda (precio, link, código…)."
+     ],
+     "ejemplos": [
+      "cuando sale la luna, me rrrre pinnta fumarr porrrroooo",
+      "donde están los teletubie@?"
+     ],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": true,
+     "table_line": "mensaje fijado",
+     "headline": "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE»",
+     "detail_lines": [
+      "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE»",
+      "No incluye clicks del link del mensaje fijado."
+     ],
+     "lines": [
+      "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE»"
+     ],
+     "pins": [
+      {
+       "text": "LIKE AL VIVO GENTE ",
+       "duration_s": 4744.9,
+       "ts_start_s": 1352.6,
+       "pinned_by": "@olgaenvivo_"
+      }
+     ],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": "No incluye clicks del link. El chat no certifica pauta."
+    },
+    "program_peak": 43094,
+    "has_chat": true,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "Que como vos Le escribiste una carta muy linda A Messi Y que la leíste muy pero muy bien Gillette, te escribió una carta a vos Espero poder leerla De la misma manera que la escribiste",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   },
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "date_iso": "20260626",
+    "video_id": "EwFONN3W5cg",
+    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+    "minute": "01:10:31",
+    "t_seconds": 4231,
+    "precise": true,
+    "views": 20092,
+    "value_usd": 46.0,
+    "quote": "Gillette la tiene esta es la Match 3 de Gillette y acá la Foamy Menthol espuma de afeitar, espuma de barbear impecable",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "neutro",
+    "conc_at": 2148,
+    "retention_pct": -2.8,
+    "chat_ratio": 0.11,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 0.11,
+     "spike_rpm": null,
+     "pre_rpm": 0.0,
+     "post_rpm": 1.0,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "down",
+     "table_line": "Chat más quieto que el resto del programa (~89%)",
+     "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~89% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 2513,
+    "has_chat": true,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "esta muy bien lo que pasa es que realmente esta así clara y Gillette la tiene esta es la Match 3 de Gillette y acá la Foamy Menthol espuma de afeitar, espuma de barbear impecable",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
  "asiscard": {
   "name": "Asiscard",
   "mentions": 4,
@@ -12068,6 +12493,296 @@
    }
   ]
  },
+ "seco": {
+  "name": "Seco",
+  "mentions": 3,
+  "kind": "marca",
+  "value_usd": 176.0,
+  "channels": [
+   "blend",
+   "gelatina"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 0,
+   "3": 3
+  },
+  "by_sentiment": {
+   "positivo": 2,
+   "neutro": 1,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260625",
+    "date": "25/06/2026",
+    "mentions": 1,
+    "value_usd": 23.0
+   },
+   {
+    "date_iso": "20260629",
+    "date": "29/06/2026",
+    "mentions": 1,
+    "value_usd": 61.0
+   },
+   {
+    "date_iso": "20260701",
+    "date": "01/07/2026",
+    "mentions": 1,
+    "value_usd": 92.0
+   }
+  ],
+  "best": {
+   "channel": "gelatina",
+   "channel_name": "GELATINA",
+   "date": "01/07/2026",
+   "date_iso": "20260701",
+   "video_id": "vCRvDHYQezM",
+   "title": "SANTILLI Y LOS GOBERNADORES PIDIENDO ATENCIÓN | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+   "minute": "02:07:47",
+   "t_seconds": 7667,
+   "precise": true,
+   "views": 8619,
+   "value_usd": 92.0,
+   "quote": "Destapá una seco, cargá tu código y ganá. Seco, se comparte",
+   "tier": 3,
+   "tier_label": "Con código o promo",
+   "sentiment": "positivo",
+   "conc_at": 2058,
+   "retention_pct": 3.4,
+   "chat_ratio": 0.78,
+   "chat_reaction": {
+    "cobertura": true,
+    "has_chat": true,
+    "chat_ratio": 0.78,
+    "spike_rpm": 0.8,
+    "pre_rpm": 3.0,
+    "post_rpm": 2.3,
+    "eco_marca_post": 0,
+    "eco_line": null,
+    "demanda_post": 0,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "down",
+    "table_line": "Chat más quieto que el resto del programa (~22%)",
+    "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~22% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 3.0 msgs/min → después: 2.3 msgs/min.",
+    "detail_lines": [],
+    "ejemplos": [],
+    "motivo": null
+   },
+   "room_reaction": {
+    "has_data": true,
+    "cobertura": true,
+    "in_window": false,
+    "table_line": "Sin participación medible en este tramo",
+    "headline": "",
+    "detail_lines": [],
+    "lines": [],
+    "pins": [],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 2202,
+   "has_chat": true,
+   "anchor_confidence": "fuzzy",
+   "anchor_validated": true,
+   "transcript_at_ts": "Porque estaba muy linda la charla Y agradece muchísimo el chat por acá Solo te queremos escuchar De lo que quieras hablar, excelente Eso es lo que queremos que haga Adrián Cada vez que aparezca en este programa Que se llama Demasiada Presión Demasiada Presión",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "01/07/2026",
+    "date_iso": "20260701",
+    "video_id": "vCRvDHYQezM",
+    "title": "SANTILLI Y LOS GOBERNADORES PIDIENDO ATENCIÓN | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+    "minute": "02:07:47",
+    "t_seconds": 7667,
+    "precise": true,
+    "views": 8619,
+    "value_usd": 92.0,
+    "quote": "Destapá una seco, cargá tu código y ganá. Seco, se comparte",
+    "tier": 3,
+    "tier_label": "Con código o promo",
+    "sentiment": "positivo",
+    "conc_at": 2058,
+    "retention_pct": 3.4,
+    "chat_ratio": 0.78,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 0.78,
+     "spike_rpm": 0.8,
+     "pre_rpm": 3.0,
+     "post_rpm": 2.3,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "down",
+     "table_line": "Chat más quieto que el resto del programa (~22%)",
+     "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~22% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 3.0 msgs/min → después: 2.3 msgs/min.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 2202,
+    "has_chat": true,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "Porque estaba muy linda la charla Y agradece muchísimo el chat por acá Solo te queremos escuchar De lo que quieras hablar, excelente Eso es lo que queremos que haga Adrián Cada vez que aparezca en este programa Que se llama Demasiada Presión Demasiada Presión",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   },
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "29/06/2026",
+    "date_iso": "20260629",
+    "video_id": "vlNZMMmBbLw",
+    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+    "minute": "01:31:49",
+    "t_seconds": 5509,
+    "precise": true,
+    "views": 7813,
+    "value_usd": 61.0,
+    "quote": "Hay algo que nos une a todos, las ganas de ganar Y a veces, para empezar, solo hace falta destapar una seco Cargas tu código y ya estás participando Porque si hablamos de compartir y ganar, hablamos de seco Acá la pasión por ganar se comparte Destapa una seco, carga tu código y ganá Ya sabés, seco se comparte",
+    "tier": 3,
+    "tier_label": "Con código o promo",
+    "sentiment": "neutro",
+    "conc_at": 1835,
+    "retention_pct": 7.7,
+    "chat_ratio": 2.61,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 2.61,
+     "spike_rpm": 0.5,
+     "pre_rpm": 11.5,
+     "post_rpm": 6.0,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "up",
+     "table_line": "Chat 2.6× más activo que el promedio del programa",
+     "headline": "Cuando corrió la aparición, el chat estuvo 2.6× más activo que el ritmo normal del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 11.5 msgs/min → después: 6.0 msgs/min.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": true,
+     "table_line": "mensaje fijado",
+     "headline": "El canal dejó fijo un mensaje durante ? en este tramo: «Asociate a gelatina  https://gelatina.com.ar»",
+     "detail_lines": [
+      "El canal dejó fijo un mensaje durante ? en este tramo: «Asociate a gelatina  https://gelatina.com.ar»",
+      "No incluye clicks del link del mensaje fijado."
+     ],
+     "lines": [
+      "El canal dejó fijo un mensaje durante ? en este tramo: «Asociate a gelatina  https://gelatina.com.ar»"
+     ],
+     "pins": [
+      {
+       "text": "Asociate a gelatina  https://gelatina.com.ar",
+       "duration_s": null,
+       "ts_start_s": 5527.4,
+       "pinned_by": "@SomosGelatina"
+      }
+     ],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": "No incluye clicks del link. El chat no certifica pauta."
+    },
+    "program_peak": 2653,
+    "has_chat": true,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "Hay gente en Chivilcoy que dice que está hermoso Cipolletti, nunca falta Qué frío de cagarse en La Plata Gente muy mal hablada entre los oyentes En Mar del Plata no llega a los 5 grados Saludos desde Villa Celina",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   },
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "25/06/2026",
+    "date_iso": "20260625",
+    "video_id": "JXVQmuDctII",
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "minute": "00:00:44",
+    "t_seconds": 44,
+    "precise": true,
+    "views": 9779,
+    "value_usd": 23.0,
+    "quote": "Llega la gran fiesta del fútbol y la pasión por ganar se comparte. Todas las capitas seco tienen premio. Sí, todas. Cargá tu código que sí o sí ganás.",
+    "tier": 3,
+    "tier_label": "Con código o promo",
+    "sentiment": "positivo",
+    "conc_at": 511,
+    "retention_pct": 284.9,
+    "chat_ratio": 0.3,
+    "chat_reaction": {
+     "cobertura": false,
+     "has_chat": true,
+     "chat_ratio": 0.3,
+     "spike_rpm": null,
+     "pre_rpm": null,
+     "post_rpm": null,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "none",
+     "table_line": "Chat no cubre este minuto",
+     "headline": "El chat capturado no alcanza el minuto de esta aparición — reacción no medible.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": "el chat capturado no llega a este minuto"
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 13819,
+    "has_chat": true,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "Tengo 26. Ah, demonios. Una buena noticia siempre se comparte. Como seco que se comparte. ¿Compartimos una seco? Llega la gran fiesta del fútbol y la pasión por ganar se comparte. Todas las capitas seco tienen premio. Sí, todas. Cargá tu código que sí o sí ganás.",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
  "gam": {
   "name": "GAM",
   "mentions": 3,
@@ -12581,6 +13296,287 @@
     "transcript_at_ts": "en esa ciudad. Gracias Guido como siempre un placer escucharte y verte cualquier novedad nos avisás y salís al aire, viste como es el vivo manda, nosotras estamos hasta la una de la tarde aquí en Urbana Play, te mandamos un abrazo grande y vamos a Argentina hoy, Guido.",
     "evidence": "VERIFIED",
     "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "ada-cafe": {
+  "name": "Ada Café",
+  "mentions": 3,
+  "kind": "marca",
+  "value_usd": 174.0,
+  "channels": [
+   "gelatina"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 2,
+   "3": 1
+  },
+  "by_sentiment": {
+   "positivo": 2,
+   "neutro": 0,
+   "negativo": 1
+  },
+  "series": [
+   {
+    "date_iso": "20260629",
+    "date": "29/06/2026",
+    "mentions": 1,
+    "value_usd": 74.0
+   },
+   {
+    "date_iso": "20260630",
+    "date": "30/06/2026",
+    "mentions": 1,
+    "value_usd": 37.0
+   },
+   {
+    "date_iso": "20260701",
+    "date": "01/07/2026",
+    "mentions": 1,
+    "value_usd": 63.0
+   }
+  ],
+  "best": {
+   "channel": "gelatina",
+   "channel_name": "GELATINA",
+   "date": "29/06/2026",
+   "date_iso": "20260629",
+   "video_id": "vlNZMMmBbLw",
+   "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+   "minute": "02:28:54",
+   "t_seconds": 8934,
+   "precise": true,
+   "views": 7813,
+   "value_usd": 74.0,
+   "quote": "Queremos agradecerle a Ada por el riquísimo desayuno que nos manda siempre Y además invitarlos a todos a su local de Recoleta, ubicado en Libertad 1198 Ada está abierto todos los días para almorzar, merendar o cenar Ada Café, tu café",
+   "tier": 2,
+   "tier_label": "Lectura dedicada",
+   "sentiment": "positivo",
+   "conc_at": 2567,
+   "retention_pct": -2.7,
+   "chat_ratio": 0.92,
+   "chat_reaction": {
+    "cobertura": true,
+    "has_chat": true,
+    "chat_ratio": 0.92,
+    "spike_rpm": 0.7,
+    "pre_rpm": 2.5,
+    "post_rpm": 1.7,
+    "eco_marca_post": 0,
+    "eco_line": null,
+    "demanda_post": 0,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "neutral",
+    "table_line": "Chat en línea con el promedio del programa",
+    "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 2.5 msgs/min → después: 1.7 msgs/min.",
+    "detail_lines": [],
+    "ejemplos": [],
+    "motivo": null
+   },
+   "room_reaction": {
+    "has_data": true,
+    "cobertura": true,
+    "in_window": false,
+    "table_line": "Sin participación medible en este tramo",
+    "headline": "",
+    "detail_lines": [],
+    "lines": [],
+    "pins": [],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 2653,
+   "has_chat": true,
+   "anchor_confidence": "fuzzy",
+   "anchor_validated": true,
+   "transcript_at_ts": "Mirá. Bueno, Seba, nos contarás entonces el resultado de esta jornada, que supongo volverán a las actividades más o menos habituales,",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "01/07/2026",
+    "date_iso": "20260701",
+    "video_id": "vCRvDHYQezM",
+    "title": "SANTILLI Y LOS GOBERNADORES PIDIENDO ATENCIÓN | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+    "minute": "02:15:08",
+    "t_seconds": 8108,
+    "precise": true,
+    "views": 8619,
+    "value_usd": 63.0,
+    "quote": "Le queremos agradecer por el desayuno que nos manda siempre, y además invitarlos a su local de Recoleta, que queda en Libertad 1198, Ada está abierto todos los días para desayunar, almorzar o cenar",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 2169,
+    "retention_pct": 3.1,
+    "chat_ratio": 1.33,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 1.33,
+     "spike_rpm": 1.2,
+     "pre_rpm": 5.0,
+     "post_rpm": 6.0,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "up",
+     "table_line": "Chat ~33% por encima del ritmo habitual",
+     "headline": "Cuando corrió la aparición, el chat estuvo ~33% por encima del ritmo habitual del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 5.0 msgs/min → después: 6.0 msgs/min.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 2202,
+    "has_chat": true,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "Un escroleo en Instagram Que es el Instagram que tienes Arroba guión bajo Guchito recomendadísimo pedirse un guchito para llevar o comerlo ahí en la vereda tomando un barmú, los probás y nos contás qué onda, y se nos fue",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   },
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "30/06/2026",
+    "date_iso": "20260630",
+    "video_id": "pL9wgMQaBp4",
+    "title": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+    "minute": "02:23:34",
+    "t_seconds": 8614,
+    "precise": true,
+    "views": 5782,
+    "value_usd": 37.0,
+    "quote": "queremos agradecerle a Ada por el riquísimo desayuno que nos manda siempre y además invitarlos a todos a su local de Recoleta en Libertad 1198, Ada está abierto todos los días para almorzar, merendar o cenar Ada Café, tu café bueno",
+    "tier": 3,
+    "tier_label": "Con código o promo",
+    "sentiment": "negativo",
+    "conc_at": 2270,
+    "retention_pct": 0.0,
+    "chat_ratio": 0.58,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 0.58,
+     "spike_rpm": 2.0,
+     "pre_rpm": 1.0,
+     "post_rpm": 2.0,
+     "eco_marca_post": 1,
+     "eco_line": "1 mensaje mencionó la marca en el chat tras la aparición",
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "down",
+     "table_line": "Chat más quieto que el resto del programa (~42%)",
+     "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~42% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 1.0 msgs/min → después: 2.0 msgs/min.",
+     "detail_lines": [
+      "1 mensaje mencionaron la marca en los 3 min posteriores (eco de comunidad — no es prueba de pauta)."
+     ],
+     "ejemplos": [
+      "ESTOY CON LA TRANSMISIÓN ATRASADA. PERO DEBO APLAUDIR LOS EFECTOS DEL VIENTO EN EL MOVIL DE LA GATA"
+     ],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 2302,
+    "has_chat": true,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "O sea que podríamos pasar de vuelta A terreno positivo, pero de nuevo Con niveles que todavía no terminan De confirmar que haya una mejora Sostenible en el mediano plazo Dijiste dos Y después tenemos, no voy a decir porque me hice medio largo La cuestión de la morosidad, la consultora 1816 sacó un cálculo adelantando los datos de morosidad para junio",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   },
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "29/06/2026",
+    "date_iso": "20260629",
+    "video_id": "vlNZMMmBbLw",
+    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+    "minute": "02:28:54",
+    "t_seconds": 8934,
+    "precise": true,
+    "views": 7813,
+    "value_usd": 74.0,
+    "quote": "Queremos agradecerle a Ada por el riquísimo desayuno que nos manda siempre Y además invitarlos a todos a su local de Recoleta, ubicado en Libertad 1198 Ada está abierto todos los días para almorzar, merendar o cenar Ada Café, tu café",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 2567,
+    "retention_pct": -2.7,
+    "chat_ratio": 0.92,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 0.92,
+     "spike_rpm": 0.7,
+     "pre_rpm": 2.5,
+     "post_rpm": 1.7,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "neutral",
+     "table_line": "Chat en línea con el promedio del programa",
+     "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 2.5 msgs/min → después: 1.7 msgs/min.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 2653,
+    "has_chat": true,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "Mirá. Bueno, Seba, nos contarás entonces el resultado de esta jornada, que supongo volverán a las actividades más o menos habituales,",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
    }
   ]
  },
@@ -18401,243 +19397,6 @@
    }
   ]
  },
- "seco": {
-  "name": "Seco",
-  "mentions": 2,
-  "kind": "marca",
-  "value_usd": 84.0,
-  "channels": [
-   "blend",
-   "gelatina"
-  ],
-  "by_tier": {
-   "1": 0,
-   "2": 0,
-   "3": 2
-  },
-  "by_sentiment": {
-   "positivo": 1,
-   "neutro": 1,
-   "negativo": 0
-  },
-  "series": [
-   {
-    "date_iso": "20260625",
-    "date": "25/06/2026",
-    "mentions": 1,
-    "value_usd": 23.0
-   },
-   {
-    "date_iso": "20260629",
-    "date": "29/06/2026",
-    "mentions": 1,
-    "value_usd": 61.0
-   }
-  ],
-  "best": {
-   "channel": "gelatina",
-   "channel_name": "GELATINA",
-   "date": "29/06/2026",
-   "date_iso": "20260629",
-   "video_id": "vlNZMMmBbLw",
-   "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
-   "minute": "01:31:49",
-   "t_seconds": 5509,
-   "precise": true,
-   "views": 7813,
-   "value_usd": 61.0,
-   "quote": "Hay algo que nos une a todos, las ganas de ganar Y a veces, para empezar, solo hace falta destapar una seco Cargas tu código y ya estás participando Porque si hablamos de compartir y ganar, hablamos de seco Acá la pasión por ganar se comparte Destapa una seco, carga tu código y ganá Ya sabés, seco se comparte",
-   "tier": 3,
-   "tier_label": "Con código o promo",
-   "sentiment": "neutro",
-   "conc_at": 1835,
-   "retention_pct": 7.7,
-   "chat_ratio": 2.61,
-   "chat_reaction": {
-    "cobertura": true,
-    "has_chat": true,
-    "chat_ratio": 2.61,
-    "spike_rpm": 0.5,
-    "pre_rpm": 11.5,
-    "post_rpm": 6.0,
-    "eco_marca_post": 0,
-    "eco_line": null,
-    "demanda_post": 0,
-    "pre_s": 120,
-    "post_s": 180,
-    "tone": "up",
-    "table_line": "Chat 2.6× más activo que el promedio del programa",
-    "headline": "Cuando corrió la aparición, el chat estuvo 2.6× más activo que el ritmo normal del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 11.5 msgs/min → después: 6.0 msgs/min.",
-    "detail_lines": [],
-    "ejemplos": [],
-    "motivo": null
-   },
-   "room_reaction": {
-    "has_data": true,
-    "cobertura": true,
-    "in_window": true,
-    "table_line": "mensaje fijado",
-    "headline": "El canal dejó fijo un mensaje durante ? en este tramo: «Asociate a gelatina  https://gelatina.com.ar»",
-    "detail_lines": [
-     "El canal dejó fijo un mensaje durante ? en este tramo: «Asociate a gelatina  https://gelatina.com.ar»",
-     "No incluye clicks del link del mensaje fijado."
-    ],
-    "lines": [
-     "El canal dejó fijo un mensaje durante ? en este tramo: «Asociate a gelatina  https://gelatina.com.ar»"
-    ],
-    "pins": [
-     {
-      "text": "Asociate a gelatina  https://gelatina.com.ar",
-      "duration_s": null,
-      "ts_start_s": 5527.4,
-      "pinned_by": "@SomosGelatina"
-     }
-    ],
-    "polls": [],
-    "monetization": null,
-    "disclaimer": "No incluye clicks del link. El chat no certifica pauta."
-   },
-   "program_peak": 2653,
-   "has_chat": true,
-   "anchor_confidence": "fuzzy",
-   "anchor_validated": true,
-   "transcript_at_ts": "Hay gente en Chivilcoy que dice que está hermoso Cipolletti, nunca falta Qué frío de cagarse en La Plata Gente muy mal hablada entre los oyentes En Mar del Plata no llega a los 5 grados Saludos desde Villa Celina",
-   "evidence": "VERIFIED",
-   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
-  },
-  "detail": [
-   {
-    "channel": "gelatina",
-    "channel_name": "GELATINA",
-    "date": "29/06/2026",
-    "date_iso": "20260629",
-    "video_id": "vlNZMMmBbLw",
-    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
-    "minute": "01:31:49",
-    "t_seconds": 5509,
-    "precise": true,
-    "views": 7813,
-    "value_usd": 61.0,
-    "quote": "Hay algo que nos une a todos, las ganas de ganar Y a veces, para empezar, solo hace falta destapar una seco Cargas tu código y ya estás participando Porque si hablamos de compartir y ganar, hablamos de seco Acá la pasión por ganar se comparte Destapa una seco, carga tu código y ganá Ya sabés, seco se comparte",
-    "tier": 3,
-    "tier_label": "Con código o promo",
-    "sentiment": "neutro",
-    "conc_at": 1835,
-    "retention_pct": 7.7,
-    "chat_ratio": 2.61,
-    "chat_reaction": {
-     "cobertura": true,
-     "has_chat": true,
-     "chat_ratio": 2.61,
-     "spike_rpm": 0.5,
-     "pre_rpm": 11.5,
-     "post_rpm": 6.0,
-     "eco_marca_post": 0,
-     "eco_line": null,
-     "demanda_post": 0,
-     "pre_s": 120,
-     "post_s": 180,
-     "tone": "up",
-     "table_line": "Chat 2.6× más activo que el promedio del programa",
-     "headline": "Cuando corrió la aparición, el chat estuvo 2.6× más activo que el ritmo normal del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 11.5 msgs/min → después: 6.0 msgs/min.",
-     "detail_lines": [],
-     "ejemplos": [],
-     "motivo": null
-    },
-    "room_reaction": {
-     "has_data": true,
-     "cobertura": true,
-     "in_window": true,
-     "table_line": "mensaje fijado",
-     "headline": "El canal dejó fijo un mensaje durante ? en este tramo: «Asociate a gelatina  https://gelatina.com.ar»",
-     "detail_lines": [
-      "El canal dejó fijo un mensaje durante ? en este tramo: «Asociate a gelatina  https://gelatina.com.ar»",
-      "No incluye clicks del link del mensaje fijado."
-     ],
-     "lines": [
-      "El canal dejó fijo un mensaje durante ? en este tramo: «Asociate a gelatina  https://gelatina.com.ar»"
-     ],
-     "pins": [
-      {
-       "text": "Asociate a gelatina  https://gelatina.com.ar",
-       "duration_s": null,
-       "ts_start_s": 5527.4,
-       "pinned_by": "@SomosGelatina"
-      }
-     ],
-     "polls": [],
-     "monetization": null,
-     "disclaimer": "No incluye clicks del link. El chat no certifica pauta."
-    },
-    "program_peak": 2653,
-    "has_chat": true,
-    "anchor_confidence": "fuzzy",
-    "anchor_validated": true,
-    "transcript_at_ts": "Hay gente en Chivilcoy que dice que está hermoso Cipolletti, nunca falta Qué frío de cagarse en La Plata Gente muy mal hablada entre los oyentes En Mar del Plata no llega a los 5 grados Saludos desde Villa Celina",
-    "evidence": "VERIFIED",
-    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
-   },
-   {
-    "channel": "blend",
-    "channel_name": "BLENDER",
-    "date": "25/06/2026",
-    "date_iso": "20260625",
-    "video_id": "JXVQmuDctII",
-    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-    "minute": "00:00:44",
-    "t_seconds": 44,
-    "precise": true,
-    "views": 9779,
-    "value_usd": 23.0,
-    "quote": "Llega la gran fiesta del fútbol y la pasión por ganar se comparte. Todas las capitas seco tienen premio. Sí, todas. Cargá tu código que sí o sí ganás.",
-    "tier": 3,
-    "tier_label": "Con código o promo",
-    "sentiment": "positivo",
-    "conc_at": 511,
-    "retention_pct": 284.9,
-    "chat_ratio": 0.3,
-    "chat_reaction": {
-     "cobertura": false,
-     "has_chat": true,
-     "chat_ratio": 0.3,
-     "spike_rpm": null,
-     "pre_rpm": null,
-     "post_rpm": null,
-     "eco_marca_post": 0,
-     "eco_line": null,
-     "demanda_post": 0,
-     "pre_s": 120,
-     "post_s": 180,
-     "tone": "none",
-     "table_line": "Chat no cubre este minuto",
-     "headline": "El chat capturado no alcanza el minuto de esta aparición — reacción no medible.",
-     "detail_lines": [],
-     "ejemplos": [],
-     "motivo": "el chat capturado no llega a este minuto"
-    },
-    "room_reaction": {
-     "has_data": true,
-     "cobertura": true,
-     "in_window": false,
-     "table_line": "Sin participación medible en este tramo",
-     "headline": "",
-     "detail_lines": [],
-     "lines": [],
-     "pins": [],
-     "polls": [],
-     "monetization": null,
-     "disclaimer": null
-    },
-    "program_peak": 13819,
-    "has_chat": true,
-    "anchor_confidence": "exact",
-    "anchor_validated": true,
-    "transcript_at_ts": "Tengo 26. Ah, demonios. Una buena noticia siempre se comparte. Como seco que se comparte. ¿Compartimos una seco? Llega la gran fiesta del fútbol y la pasión por ganar se comparte. Todas las capitas seco tienen premio. Sí, todas. Cargá tu código que sí o sí ganás.",
-    "evidence": "VERIFIED",
-    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
-   }
-  ]
- },
  "mercado-pago": {
   "name": "Mercado Pago",
   "mentions": 2,
@@ -19590,222 +20349,6 @@
     "transcript_at_ts": "Para algunos que saben o que no saben Y sorprendió un niño A ver Es cortito esto, pero miren lo que hacíamos Amigas, amigos, estamos en la previa Al partido de La Selección",
     "evidence": "VERIFIED",
     "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
-   }
-  ]
- },
- "ada-cafe": {
-  "name": "Ada Café",
-  "mentions": 2,
-  "kind": "marca",
-  "value_usd": 111.0,
-  "channels": [
-   "gelatina"
-  ],
-  "by_tier": {
-   "1": 0,
-   "2": 1,
-   "3": 1
-  },
-  "by_sentiment": {
-   "positivo": 1,
-   "neutro": 0,
-   "negativo": 1
-  },
-  "series": [
-   {
-    "date_iso": "20260629",
-    "date": "29/06/2026",
-    "mentions": 1,
-    "value_usd": 74.0
-   },
-   {
-    "date_iso": "20260630",
-    "date": "30/06/2026",
-    "mentions": 1,
-    "value_usd": 37.0
-   }
-  ],
-  "best": {
-   "channel": "gelatina",
-   "channel_name": "GELATINA",
-   "date": "29/06/2026",
-   "date_iso": "20260629",
-   "video_id": "vlNZMMmBbLw",
-   "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
-   "minute": "02:28:54",
-   "t_seconds": 8934,
-   "precise": true,
-   "views": 7813,
-   "value_usd": 74.0,
-   "quote": "Queremos agradecerle a Ada por el riquísimo desayuno que nos manda siempre Y además invitarlos a todos a su local de Recoleta, ubicado en Libertad 1198 Ada está abierto todos los días para almorzar, merendar o cenar Ada Café, tu café",
-   "tier": 2,
-   "tier_label": "Lectura dedicada",
-   "sentiment": "positivo",
-   "conc_at": 2567,
-   "retention_pct": -2.7,
-   "chat_ratio": 0.92,
-   "chat_reaction": {
-    "cobertura": true,
-    "has_chat": true,
-    "chat_ratio": 0.92,
-    "spike_rpm": 0.7,
-    "pre_rpm": 2.5,
-    "post_rpm": 1.7,
-    "eco_marca_post": 0,
-    "eco_line": null,
-    "demanda_post": 0,
-    "pre_s": 120,
-    "post_s": 180,
-    "tone": "neutral",
-    "table_line": "Chat en línea con el promedio del programa",
-    "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 2.5 msgs/min → después: 1.7 msgs/min.",
-    "detail_lines": [],
-    "ejemplos": [],
-    "motivo": null
-   },
-   "room_reaction": {
-    "has_data": true,
-    "cobertura": true,
-    "in_window": false,
-    "table_line": "Sin participación medible en este tramo",
-    "headline": "",
-    "detail_lines": [],
-    "lines": [],
-    "pins": [],
-    "polls": [],
-    "monetization": null,
-    "disclaimer": null
-   },
-   "program_peak": 2653,
-   "has_chat": true,
-   "anchor_confidence": "fuzzy",
-   "anchor_validated": true,
-   "transcript_at_ts": "Mirá. Bueno, Seba, nos contarás entonces el resultado de esta jornada, que supongo volverán a las actividades más o menos habituales,",
-   "evidence": "VERIFIED",
-   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
-  },
-  "detail": [
-   {
-    "channel": "gelatina",
-    "channel_name": "GELATINA",
-    "date": "30/06/2026",
-    "date_iso": "20260630",
-    "video_id": "pL9wgMQaBp4",
-    "title": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
-    "minute": "02:23:34",
-    "t_seconds": 8614,
-    "precise": true,
-    "views": 5782,
-    "value_usd": 37.0,
-    "quote": "queremos agradecerle a Ada por el riquísimo desayuno que nos manda siempre y además invitarlos a todos a su local de Recoleta en Libertad 1198, Ada está abierto todos los días para almorzar, merendar o cenar Ada Café, tu café bueno",
-    "tier": 3,
-    "tier_label": "Con código o promo",
-    "sentiment": "negativo",
-    "conc_at": 2270,
-    "retention_pct": 0.0,
-    "chat_ratio": 0.58,
-    "chat_reaction": {
-     "cobertura": true,
-     "has_chat": true,
-     "chat_ratio": 0.58,
-     "spike_rpm": 2.0,
-     "pre_rpm": 1.0,
-     "post_rpm": 2.0,
-     "eco_marca_post": 1,
-     "eco_line": "1 mensaje mencionó la marca en el chat tras la aparición",
-     "demanda_post": 0,
-     "pre_s": 120,
-     "post_s": 180,
-     "tone": "down",
-     "table_line": "Chat más quieto que el resto del programa (~42%)",
-     "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~42% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 1.0 msgs/min → después: 2.0 msgs/min.",
-     "detail_lines": [
-      "1 mensaje mencionaron la marca en los 3 min posteriores (eco de comunidad — no es prueba de pauta)."
-     ],
-     "ejemplos": [
-      "ESTOY CON LA TRANSMISIÓN ATRASADA. PERO DEBO APLAUDIR LOS EFECTOS DEL VIENTO EN EL MOVIL DE LA GATA"
-     ],
-     "motivo": null
-    },
-    "room_reaction": {
-     "has_data": true,
-     "cobertura": true,
-     "in_window": false,
-     "table_line": "Sin participación medible en este tramo",
-     "headline": "",
-     "detail_lines": [],
-     "lines": [],
-     "pins": [],
-     "polls": [],
-     "monetization": null,
-     "disclaimer": null
-    },
-    "program_peak": 2302,
-    "has_chat": true,
-    "anchor_confidence": "fuzzy",
-    "anchor_validated": true,
-    "transcript_at_ts": "O sea que podríamos pasar de vuelta A terreno positivo, pero de nuevo Con niveles que todavía no terminan De confirmar que haya una mejora Sostenible en el mediano plazo Dijiste dos Y después tenemos, no voy a decir porque me hice medio largo La cuestión de la morosidad, la consultora 1816 sacó un cálculo adelantando los datos de morosidad para junio",
-    "evidence": "VERIFIED",
-    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
-   },
-   {
-    "channel": "gelatina",
-    "channel_name": "GELATINA",
-    "date": "29/06/2026",
-    "date_iso": "20260629",
-    "video_id": "vlNZMMmBbLw",
-    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
-    "minute": "02:28:54",
-    "t_seconds": 8934,
-    "precise": true,
-    "views": 7813,
-    "value_usd": 74.0,
-    "quote": "Queremos agradecerle a Ada por el riquísimo desayuno que nos manda siempre Y además invitarlos a todos a su local de Recoleta, ubicado en Libertad 1198 Ada está abierto todos los días para almorzar, merendar o cenar Ada Café, tu café",
-    "tier": 2,
-    "tier_label": "Lectura dedicada",
-    "sentiment": "positivo",
-    "conc_at": 2567,
-    "retention_pct": -2.7,
-    "chat_ratio": 0.92,
-    "chat_reaction": {
-     "cobertura": true,
-     "has_chat": true,
-     "chat_ratio": 0.92,
-     "spike_rpm": 0.7,
-     "pre_rpm": 2.5,
-     "post_rpm": 1.7,
-     "eco_marca_post": 0,
-     "eco_line": null,
-     "demanda_post": 0,
-     "pre_s": 120,
-     "post_s": 180,
-     "tone": "neutral",
-     "table_line": "Chat en línea con el promedio del programa",
-     "headline": "Durante la aparición, el chat se mantuvo en línea con el promedio del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 2.5 msgs/min → después: 1.7 msgs/min.",
-     "detail_lines": [],
-     "ejemplos": [],
-     "motivo": null
-    },
-    "room_reaction": {
-     "has_data": true,
-     "cobertura": true,
-     "in_window": false,
-     "table_line": "Sin participación medible en este tramo",
-     "headline": "",
-     "detail_lines": [],
-     "lines": [],
-     "pins": [],
-     "polls": [],
-     "monetization": null,
-     "disclaimer": null
-    },
-    "program_peak": 2653,
-    "has_chat": true,
-    "anchor_confidence": "fuzzy",
-    "anchor_validated": true,
-    "transcript_at_ts": "Mirá. Bueno, Seba, nos contarás entonces el resultado de esta jornada, que supongo volverán a las actividades más o menos habituales,",
-    "evidence": "VERIFIED",
-    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
    }
   ]
  },
@@ -25280,6 +25823,332 @@
    }
   ]
  },
+ "miami-beach-alquiler": {
+  "name": "Miami Beach Alquiler",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 589.0,
+  "channels": [
+   "olga"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 0,
+   "3": 1
+  },
+  "by_sentiment": {
+   "positivo": 1,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260701",
+    "date": "01/07/2026",
+    "mentions": 1,
+    "value_usd": 589.0
+   }
+  ],
+  "best": {
+   "channel": "olga",
+   "channel_name": "OLGA",
+   "date": "01/07/2026",
+   "date_iso": "20260701",
+   "video_id": "z11vyvt5tuM",
+   "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+   "minute": "00:31:55",
+   "t_seconds": 1915,
+   "precise": true,
+   "views": 135532,
+   "value_usd": 589.0,
+   "quote": "miami beach alquiler es diseño y calidad hotelera con la comodidad de un Depto, atención personalizada 24-7 desde Argentina y Miami. Sin gasto, sorpresa, la tarifa incluye valet parking, salida directa a la playa y servicio de reposeras. Además, con cada viaje sumás puntos canjeables por beneficios hasta noches de estadía gratis. Todos los departamentos, mirá lo que se hizo, por favor, están full equipados para que sean tu casa de vacaciones. Y con el código NATIJ-MBA, ¿dije bien el código? guión del medio mb a les regalamos una bandera de argentina más un 5% of hospedándose en julio",
+   "tier": 3,
+   "tier_label": "Con código o promo",
+   "sentiment": "positivo",
+   "conc_at": 13221,
+   "retention_pct": 19.1,
+   "chat_ratio": 0.4,
+   "chat_reaction": {
+    "cobertura": true,
+    "has_chat": true,
+    "chat_ratio": 0.4,
+    "spike_rpm": 1.5,
+    "pre_rpm": 9.5,
+    "post_rpm": 14.7,
+    "eco_marca_post": 0,
+    "eco_line": null,
+    "demanda_post": 0,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "down",
+    "table_line": "Chat más quieto que el resto del programa (~60%)",
+    "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~60% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 9.5 msgs/min → después: 14.7 msgs/min.",
+    "detail_lines": [],
+    "ejemplos": [],
+    "motivo": null
+   },
+   "room_reaction": {
+    "has_data": true,
+    "cobertura": true,
+    "in_window": true,
+    "table_line": "mensaje fijado",
+    "headline": "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE»",
+    "detail_lines": [
+     "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE»",
+     "No incluye clicks del link del mensaje fijado."
+    ],
+    "lines": [
+     "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE»"
+    ],
+    "pins": [
+     {
+      "text": "LIKE AL VIVO GENTE ",
+      "duration_s": 4744.9,
+      "ts_start_s": 1352.6,
+      "pinned_by": "@olgaenvivo_"
+     }
+    ],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": "No incluye clicks del link. El chat no certifica pauta."
+   },
+   "program_peak": 43094,
+   "has_chat": true,
+   "anchor_confidence": "exact",
+   "anchor_validated": true,
+   "transcript_at_ts": "escuchen esto miami beach alquiler es diseño y calidad hotelera con la comodidad de un",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/07/2026",
+    "date_iso": "20260701",
+    "video_id": "z11vyvt5tuM",
+    "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+    "minute": "00:31:55",
+    "t_seconds": 1915,
+    "precise": true,
+    "views": 135532,
+    "value_usd": 589.0,
+    "quote": "miami beach alquiler es diseño y calidad hotelera con la comodidad de un Depto, atención personalizada 24-7 desde Argentina y Miami. Sin gasto, sorpresa, la tarifa incluye valet parking, salida directa a la playa y servicio de reposeras. Además, con cada viaje sumás puntos canjeables por beneficios hasta noches de estadía gratis. Todos los departamentos, mirá lo que se hizo, por favor, están full equipados para que sean tu casa de vacaciones. Y con el código NATIJ-MBA, ¿dije bien el código? guión del medio mb a les regalamos una bandera de argentina más un 5% of hospedándose en julio",
+    "tier": 3,
+    "tier_label": "Con código o promo",
+    "sentiment": "positivo",
+    "conc_at": 13221,
+    "retention_pct": 19.1,
+    "chat_ratio": 0.4,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 0.4,
+     "spike_rpm": 1.5,
+     "pre_rpm": 9.5,
+     "post_rpm": 14.7,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "down",
+     "table_line": "Chat más quieto que el resto del programa (~60%)",
+     "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~60% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 9.5 msgs/min → después: 14.7 msgs/min.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": true,
+     "table_line": "mensaje fijado",
+     "headline": "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE»",
+     "detail_lines": [
+      "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE»",
+      "No incluye clicks del link del mensaje fijado."
+     ],
+     "lines": [
+      "El canal dejó fijo un mensaje durante 79 min en este tramo: «LIKE AL VIVO GENTE»"
+     ],
+     "pins": [
+      {
+       "text": "LIKE AL VIVO GENTE ",
+       "duration_s": 4744.9,
+       "ts_start_s": 1352.6,
+       "pinned_by": "@olgaenvivo_"
+      }
+     ],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": "No incluye clicks del link. El chat no certifica pauta."
+    },
+    "program_peak": 43094,
+    "has_chat": true,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "escuchen esto miami beach alquiler es diseño y calidad hotelera con la comodidad de un",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "cristal": {
+  "name": "Cristal",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 811.0,
+  "channels": [
+   "olga"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 1,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 1,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260701",
+    "date": "01/07/2026",
+    "mentions": 1,
+    "value_usd": 811.0
+   }
+  ],
+  "best": {
+   "channel": "olga",
+   "channel_name": "OLGA",
+   "date": "01/07/2026",
+   "date_iso": "20260701",
+   "video_id": "z11vyvt5tuM",
+   "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+   "minute": "01:58:04",
+   "t_seconds": 7084,
+   "precise": true,
+   "views": 135532,
+   "value_usd": 811.0,
+   "quote": "Cristal que elimina residuos Y mejora la calidad de tu pelo Desde el primer uso Sin desgastarlo, mi amor",
+   "tier": 2,
+   "tier_label": "Lectura dedicada",
+   "sentiment": "positivo",
+   "conc_at": 28006,
+   "retention_pct": 4.9,
+   "chat_ratio": 0.38,
+   "chat_reaction": {
+    "cobertura": true,
+    "has_chat": true,
+    "chat_ratio": 0.38,
+    "spike_rpm": 1.4,
+    "pre_rpm": 10.0,
+    "post_rpm": 14.0,
+    "eco_marca_post": 0,
+    "eco_line": null,
+    "demanda_post": 1,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "down",
+    "table_line": "Chat más quieto que el resto del programa (~62%)",
+    "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~62% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 10.0 msgs/min → después: 14.0 msgs/min.",
+    "detail_lines": [
+     "1 mensaje con señales de demanda (precio, link, código…)."
+    ],
+    "ejemplos": [
+     "Y DONDE ESTA LA HONESTIDAD DE INSAURRALDE POLITICO,PARA QUE LO RELEGIAN Y REELEGIAN,ASI SE EMBARDUNAN LOS POLITICOS TRUCHOS"
+    ],
+    "motivo": null
+   },
+   "room_reaction": {
+    "has_data": true,
+    "cobertura": true,
+    "in_window": false,
+    "table_line": "Sin participación medible en este tramo",
+    "headline": "",
+    "detail_lines": [],
+    "lines": [],
+    "pins": [],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 43094,
+   "has_chat": true,
+   "anchor_confidence": "fuzzy",
+   "anchor_validated": true,
+   "transcript_at_ts": "Gracias, Nati, te queremos Beso enorme, nos vemos mañana ¿De qué cumpleaños hoy? Hoy cumple el zorro y cumple el toro Dos animales Cumple el año Dos animales Que lo cumplan",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/07/2026",
+    "date_iso": "20260701",
+    "video_id": "z11vyvt5tuM",
+    "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+    "minute": "01:58:04",
+    "t_seconds": 7084,
+    "precise": true,
+    "views": 135532,
+    "value_usd": 811.0,
+    "quote": "Cristal que elimina residuos Y mejora la calidad de tu pelo Desde el primer uso Sin desgastarlo, mi amor",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 28006,
+    "retention_pct": 4.9,
+    "chat_ratio": 0.38,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 0.38,
+     "spike_rpm": 1.4,
+     "pre_rpm": 10.0,
+     "post_rpm": 14.0,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 1,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "down",
+     "table_line": "Chat más quieto que el resto del programa (~62%)",
+     "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~62% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 10.0 msgs/min → después: 14.0 msgs/min.",
+     "detail_lines": [
+      "1 mensaje con señales de demanda (precio, link, código…)."
+     ],
+     "ejemplos": [
+      "Y DONDE ESTA LA HONESTIDAD DE INSAURRALDE POLITICO,PARA QUE LO RELEGIAN Y REELEGIAN,ASI SE EMBARDUNAN LOS POLITICOS TRUCHOS"
+     ],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 43094,
+    "has_chat": true,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "Gracias, Nati, te queremos Beso enorme, nos vemos mañana ¿De qué cumpleaños hoy? Hoy cumple el zorro y cumple el toro Dos animales Cumple el año Dos animales Que lo cumplan",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+   }
+  ]
+ },
  "infinea-turbo-clean": {
   "name": "Infinea Turbo Clean",
   "mentions": 1,
@@ -30340,153 +31209,6 @@
     "anchor_confidence": "exact",
     "anchor_validated": true,
     "transcript_at_ts": "Sin salir de la oficina. Sumá Social Lunch a tu empresa. Más de 45 opciones todos los días. Comida real y fresca. Luz Gashi presenta su nuevo disco Mientras busco la gloria 7 de agosto, Teatro Fortrix",
-    "evidence": "VERIFIED",
-    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
-   }
-  ]
- },
- "gillette": {
-  "name": "Gillette",
-  "mentions": 1,
-  "kind": "marca",
-  "value_usd": 46.0,
-  "channels": [
-   "vorterix"
-  ],
-  "by_tier": {
-   "1": 0,
-   "2": 1,
-   "3": 0
-  },
-  "by_sentiment": {
-   "positivo": 0,
-   "neutro": 1,
-   "negativo": 0
-  },
-  "series": [
-   {
-    "date_iso": "20260626",
-    "date": "26/06/2026",
-    "mentions": 1,
-    "value_usd": 46.0
-   }
-  ],
-  "best": {
-   "channel": "vorterix",
-   "channel_name": "Vorterix",
-   "date": "26/06/2026",
-   "date_iso": "20260626",
-   "video_id": "EwFONN3W5cg",
-   "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
-   "minute": "01:10:31",
-   "t_seconds": 4231,
-   "precise": true,
-   "views": 20092,
-   "value_usd": 46.0,
-   "quote": "Gillette la tiene esta es la Match 3 de Gillette y acá la Foamy Menthol espuma de afeitar, espuma de barbear impecable",
-   "tier": 2,
-   "tier_label": "Lectura dedicada",
-   "sentiment": "neutro",
-   "conc_at": 2148,
-   "retention_pct": -2.8,
-   "chat_ratio": 0.11,
-   "chat_reaction": {
-    "cobertura": true,
-    "has_chat": true,
-    "chat_ratio": 0.11,
-    "spike_rpm": null,
-    "pre_rpm": 0.0,
-    "post_rpm": 1.0,
-    "eco_marca_post": 0,
-    "eco_line": null,
-    "demanda_post": 0,
-    "pre_s": 120,
-    "post_s": 180,
-    "tone": "down",
-    "table_line": "Chat más quieto que el resto del programa (~89%)",
-    "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~89% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención.",
-    "detail_lines": [],
-    "ejemplos": [],
-    "motivo": null
-   },
-   "room_reaction": {
-    "has_data": true,
-    "cobertura": true,
-    "in_window": false,
-    "table_line": "Sin participación medible en este tramo",
-    "headline": "",
-    "detail_lines": [],
-    "lines": [],
-    "pins": [],
-    "polls": [],
-    "monetization": null,
-    "disclaimer": null
-   },
-   "program_peak": 2513,
-   "has_chat": true,
-   "anchor_confidence": "exact",
-   "anchor_validated": true,
-   "transcript_at_ts": "esta muy bien lo que pasa es que realmente esta así clara y Gillette la tiene esta es la Match 3 de Gillette y acá la Foamy Menthol espuma de afeitar, espuma de barbear impecable",
-   "evidence": "VERIFIED",
-   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
-  },
-  "detail": [
-   {
-    "channel": "vorterix",
-    "channel_name": "Vorterix",
-    "date": "26/06/2026",
-    "date_iso": "20260626",
-    "video_id": "EwFONN3W5cg",
-    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
-    "minute": "01:10:31",
-    "t_seconds": 4231,
-    "precise": true,
-    "views": 20092,
-    "value_usd": 46.0,
-    "quote": "Gillette la tiene esta es la Match 3 de Gillette y acá la Foamy Menthol espuma de afeitar, espuma de barbear impecable",
-    "tier": 2,
-    "tier_label": "Lectura dedicada",
-    "sentiment": "neutro",
-    "conc_at": 2148,
-    "retention_pct": -2.8,
-    "chat_ratio": 0.11,
-    "chat_reaction": {
-     "cobertura": true,
-     "has_chat": true,
-     "chat_ratio": 0.11,
-     "spike_rpm": null,
-     "pre_rpm": 0.0,
-     "post_rpm": 1.0,
-     "eco_marca_post": 0,
-     "eco_line": null,
-     "demanda_post": 0,
-     "pre_s": 120,
-     "post_s": 180,
-     "tone": "down",
-     "table_line": "Chat más quieto que el resto del programa (~89%)",
-     "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~89% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención.",
-     "detail_lines": [],
-     "ejemplos": [],
-     "motivo": null
-    },
-    "room_reaction": {
-     "has_data": true,
-     "cobertura": true,
-     "in_window": false,
-     "table_line": "Sin participación medible en este tramo",
-     "headline": "",
-     "detail_lines": [],
-     "lines": [],
-     "pins": [],
-     "polls": [],
-     "monetization": null,
-     "disclaimer": null
-    },
-    "program_peak": 2513,
-    "has_chat": true,
-    "anchor_confidence": "exact",
-    "anchor_validated": true,
-    "transcript_at_ts": "esta muy bien lo que pasa es que realmente esta así clara y Gillette la tiene esta es la Match 3 de Gillette y acá la Foamy Menthol espuma de afeitar, espuma de barbear impecable",
     "evidence": "VERIFIED",
     "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
    }
@@ -40601,6 +41323,153 @@
     "transcript_at_ts": "Bien Si no, entre todos los que respondan bien Vamos a sortear la semana que viene La camiseta de la selección argentina Así que para eso dejamos 11, 38, 25, 31, 90 Nuestro whatsapp abierto Para que digan quien es ese jugador",
     "evidence": "VERIFIED",
     "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
+ "guchito": {
+  "name": "Guchito",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 62.0,
+  "channels": [
+   "gelatina"
+  ],
+  "by_tier": {
+   "1": 0,
+   "2": 1,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 1,
+   "neutro": 0,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260701",
+    "date": "01/07/2026",
+    "mentions": 1,
+    "value_usd": 62.0
+   }
+  ],
+  "best": {
+   "channel": "gelatina",
+   "channel_name": "GELATINA",
+   "date": "01/07/2026",
+   "date_iso": "20260701",
+   "video_id": "vCRvDHYQezM",
+   "title": "SANTILLI Y LOS GOBERNADORES PIDIENDO ATENCIÓN | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+   "minute": "02:14:15",
+   "t_seconds": 8055,
+   "precise": true,
+   "views": 8619,
+   "value_usd": 62.0,
+   "quote": "Gente, les tengo una recomendación espectacular, si están con hambre y quieren comer algo delicioso, tienen que probar los aguches de Guchito, acá en Gelatina muchas veces almorzamos eso, y es un planazo, tienen su local en Chacarita, en Jorge Newbury 3824 y abren de miércoles a domingo",
+   "tier": 2,
+   "tier_label": "Lectura dedicada",
+   "sentiment": "positivo",
+   "conc_at": 2151,
+   "retention_pct": 2.0,
+   "chat_ratio": 1.47,
+   "chat_reaction": {
+    "cobertura": true,
+    "has_chat": true,
+    "chat_ratio": 1.47,
+    "spike_rpm": 1.6,
+    "pre_rpm": 4.0,
+    "post_rpm": 6.3,
+    "eco_marca_post": 0,
+    "eco_line": null,
+    "demanda_post": 0,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "up",
+    "table_line": "Chat ~47% por encima del ritmo habitual",
+    "headline": "Cuando corrió la aparición, el chat estuvo ~47% por encima del ritmo habitual del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 4.0 msgs/min → después: 6.3 msgs/min.",
+    "detail_lines": [],
+    "ejemplos": [],
+    "motivo": null
+   },
+   "room_reaction": {
+    "has_data": true,
+    "cobertura": true,
+    "in_window": false,
+    "table_line": "Sin participación medible en este tramo",
+    "headline": "",
+    "detail_lines": [],
+    "lines": [],
+    "pins": [],
+    "polls": [],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 2202,
+   "has_chat": true,
+   "anchor_confidence": "fuzzy",
+   "anchor_validated": true,
+   "transcript_at_ts": "Hasta documento Si me caso con mi gringo Pero porque si eres ciudadanía Nació ahí No me había olvidado ¿Qué? ¿Y así te dan la ciudadanía? No creo porque en este momento",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "01/07/2026",
+    "date_iso": "20260701",
+    "video_id": "vCRvDHYQezM",
+    "title": "SANTILLI Y LOS GOBERNADORES PIDIENDO ATENCIÓN | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+    "minute": "02:14:15",
+    "t_seconds": 8055,
+    "precise": true,
+    "views": 8619,
+    "value_usd": 62.0,
+    "quote": "Gente, les tengo una recomendación espectacular, si están con hambre y quieren comer algo delicioso, tienen que probar los aguches de Guchito, acá en Gelatina muchas veces almorzamos eso, y es un planazo, tienen su local en Chacarita, en Jorge Newbury 3824 y abren de miércoles a domingo",
+    "tier": 2,
+    "tier_label": "Lectura dedicada",
+    "sentiment": "positivo",
+    "conc_at": 2151,
+    "retention_pct": 2.0,
+    "chat_ratio": 1.47,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 1.47,
+     "spike_rpm": 1.6,
+     "pre_rpm": 4.0,
+     "post_rpm": 6.3,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "up",
+     "table_line": "Chat ~47% por encima del ritmo habitual",
+     "headline": "Cuando corrió la aparición, el chat estuvo ~47% por encima del ritmo habitual del programa en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 4.0 msgs/min → después: 6.3 msgs/min.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": false,
+     "table_line": "Sin participación medible en este tramo",
+     "headline": "",
+     "detail_lines": [],
+     "lines": [],
+     "pins": [],
+     "polls": [],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 2202,
+    "has_chat": true,
+    "anchor_confidence": "fuzzy",
+    "anchor_validated": true,
+    "transcript_at_ts": "Hasta documento Si me caso con mi gringo Pero porque si eres ciudadanía Nació ahí No me había olvidado ¿Qué? ¿Y así te dan la ciudadanía? No creo porque en este momento",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (fuzzy) y audiencia concurrente al instante"
    }
   ]
  },

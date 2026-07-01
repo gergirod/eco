@@ -1355,6 +1355,81 @@
   "kind": "producto"
  },
  {
+  "slug": "marca-de-cosmeticos-y-perfumes-de-analia-majorana",
+  "name": "marca de cosméticos y perfumes (de Analia Majorana)",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "01/07/2026",
+    "video_id": "tKOUyjkzDQ8",
+    "title": "Sanguchito a Santilli: Adorni le arruinó la jura | TUGO con Nico Guthmann",
+    "minute": "00:00",
+    "views": 13204
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "kinder-huevo",
+  "name": "Kinder (huevo)",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "01/07/2026",
+    "video_id": "tKOUyjkzDQ8",
+    "title": "Sanguchito a Santilli: Adorni le arruinó la jura | TUGO con Nico Guthmann",
+    "minute": "01:20",
+    "views": 13204
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "tubo-com-ar",
+  "name": "tubo.com.ar",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "01/07/2026",
+    "video_id": "tKOUyjkzDQ8",
+    "title": "Sanguchito a Santilli: Adorni le arruinó la jura | TUGO con Nico Guthmann",
+    "minute": "01:40",
+    "views": 13204
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "m-canal-de-tv",
   "name": "M (canal de TV)",
   "mentions": 1,
@@ -1975,6 +2050,81 @@
     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
     "minute": "00:50",
     "views": 42935
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "don-ramon-cajeta",
+  "name": "Don Ramón (cajeta)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/07/2026",
+    "video_id": "z11vyvt5tuM",
+    "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+    "minute": "00:00",
+    "views": 135532
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "tajin-marca-de-chile-en-polvo",
+  "name": "Tajín (marca de chile en polvo)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/07/2026",
+    "video_id": "z11vyvt5tuM",
+    "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+    "minute": "00:00",
+    "views": 135532
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "cristal-producto-para-el-cabello",
+  "name": "Cristal (producto para el cabello)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "01/07/2026",
+    "video_id": "z11vyvt5tuM",
+    "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+    "minute": "01:50",
+    "views": 135532
    }
   ],
   "kind": "producto"
@@ -5380,6 +5530,81 @@
   "kind": "producto"
  },
  {
+  "slug": "gelatina-com-ar",
+  "name": "gelatina.com.ar",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "01/07/2026",
+    "video_id": "vCRvDHYQezM",
+    "title": "SANTILLI Y LOS GOBERNADORES PIDIENDO ATENCIÓN | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+    "minute": "01:00",
+    "views": 8619
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "led-televisor",
+  "name": "LED (televisor)",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "01/07/2026",
+    "video_id": "vCRvDHYQezM",
+    "title": "SANTILLI Y LOS GOBERNADORES PIDIENDO ATENCIÓN | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+    "minute": "01:30",
+    "views": 8619
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "seco-bebida",
+  "name": "Seco (bebida)",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "01/07/2026",
+    "video_id": "vCRvDHYQezM",
+    "title": "SANTILLI Y LOS GOBERNADORES PIDIENDO ATENCIÓN | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+    "minute": "02:00",
+    "views": 8619
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "ago-ar",
   "name": "ago.ar",
   "mentions": 1,
@@ -5400,6 +5625,81 @@
     "title": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
     "minute": "00:20",
     "views": 5169
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "dua-lipa-club-de-lectura",
+  "name": "Dua Lipa (club de lectura)",
+  "mentions": 1,
+  "channels": [
+   "aura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "30/06/2026",
+    "video_id": "7WJTeokhLUY",
+    "title": "🔵 DE ACÁ con Flor Ferrero, Juan Butvilofsky, Rodolfo Vera Calderón y Tommy Reynolds.",
+    "minute": "01:10",
+    "views": 1097
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "trionda-pelota-del-mundial",
+  "name": "Trionda (pelota del Mundial)",
+  "mentions": 1,
+  "channels": [
+   "aura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "30/06/2026",
+    "video_id": "7WJTeokhLUY",
+    "title": "🔵 DE ACÁ con Flor Ferrero, Juan Butvilofsky, Rodolfo Vera Calderón y Tommy Reynolds.",
+    "minute": "01:30",
+    "views": 1097
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "tango-pelota-de-1978",
+  "name": "Tango (pelota de 1978)",
+  "mentions": 1,
+  "channels": [
+   "aura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "30/06/2026",
+    "video_id": "7WJTeokhLUY",
+    "title": "🔵 DE ACÁ con Flor Ferrero, Juan Butvilofsky, Rodolfo Vera Calderón y Tommy Reynolds.",
+    "minute": "01:30",
+    "views": 1097
    }
   ],
   "kind": "producto"
