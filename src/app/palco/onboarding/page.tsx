@@ -187,9 +187,14 @@ const PASOS: { id: Paso; label: string }[] = [
   { id: "avisos", label: "Avisos" },
   { id: "listo", label: "Listo" },
 ];
+const PASOS_EDIT: { id: Paso; label: string }[] = [
+  { id: "entidades", label: "A quién seguir" },
+  { id: "alias", label: "Cómo lo dicen" },
+];
 
 export default function OnboardingPage() {
   const router = useRouter();
+  const [isEdit, setIsEdit] = useState(false);
   const [paso, setPaso] = useState<Paso>("bienvenida");
   const [planId, setPlanId] = useState<Plan["id"]>("profesional");
   const [sel, setSel] = useState<string[]>([]);
@@ -205,7 +210,36 @@ export default function OnboardingPage() {
   const [aliasDraft, setAliasDraft] = useState<Record<string, string>>({});
 
   const plan = PLANES.find((p) => p.id === planId)!;
-  const pasoIdx = PASOS.findIndex((p) => p.id === paso);
+  const pasosUi = isEdit ? PASOS_EDIT : PASOS;
+  const pasoIdx = pasosUi.findIndex((p) => p.id === paso);
+
+  // Modo edición desde el tablero (?edit=1): sin bienvenida ni plan, con watchlist actual.
+  useEffect(() => {
+    const p = new URLSearchParams(window.location.search);
+    if (p.get("edit") !== "1") return;
+    setIsEdit(true);
+    const slugs = (p.get("e") || "")
+      .split(",")
+      .map((s) => s.trim())
+      .filter((s) => INDEX.some((r) => r.slug === s));
+    if (slugs.length) setSel(slugs);
+    const pl = p.get("plan");
+    if (pl === "esencial" || pl === "profesional" || pl === "enterprise") setPlanId(pl);
+    const s = p.get("sens");
+    if (s === "menos" || s === "equilibrado" || s === "mas") setSensibilidad(s);
+    if (p.get("neg") === "1") setSoloNegativo(true);
+    const f = p.get("freq");
+    if (f === "al-toque" || f === "diario" || f === "semanal") setFrecuencia(f);
+    if (p.get("mail")) setEmail(p.get("mail")!);
+    setPaso("entidades");
+  }, []);
+
+  function volverAlTablero() {
+    const p = new URLSearchParams(window.location.search);
+    p.delete("edit");
+    const q = p.toString();
+    router.push(q ? `/palco?${q}` : "/palco");
+  }
 
   // Pre-carga alias del catálogo al entrar al paso "Cómo lo dicen".
   useEffect(() => {
@@ -302,19 +336,34 @@ export default function OnboardingPage() {
       {/* barra superior */}
       <div className="border-b border-stone-200 bg-white">
         <div className="mx-auto flex max-w-[1000px] items-center justify-between px-5 py-3">
-          <div
-            className="flex items-center gap-2 text-[13px] font-semibold tracking-[0.2em]"
-            style={{ color: BRAND }}
-          >
-            <span
-              className="inline-block h-2 w-2 animate-pulse rounded-full"
-              style={{ backgroundColor: BRAND }}
-            />
-            PALCO
+          <div className="flex items-center gap-3">
+            {isEdit ? (
+              <>
+                <span className="text-[13px] font-medium text-stone-600">Editar watchlist</span>
+                <button
+                  type="button"
+                  onClick={volverAlTablero}
+                  className="text-[13px] font-medium text-stone-500 hover:text-stone-800"
+                >
+                  ← Volver al tablero
+                </button>
+              </>
+            ) : (
+              <span
+                className="flex items-center gap-2 text-[13px] font-semibold tracking-[0.2em]"
+                style={{ color: BRAND }}
+              >
+                <span
+                  className="inline-block h-2 w-2 animate-pulse rounded-full"
+                  style={{ backgroundColor: BRAND }}
+                />
+                PALCO
+              </span>
+            )}
           </div>
           {/* progreso */}
           <div className="flex items-center gap-2">
-            {PASOS.map((p, i) => (
+            {pasosUi.map((p, i) => (
               <div key={p.id} className="flex items-center gap-2">
                 <div
                   className={`flex h-6 w-6 items-center justify-center rounded-full text-[11px] font-semibold ${
@@ -324,7 +373,7 @@ export default function OnboardingPage() {
                 >
                   {i + 1}
                 </div>
-                {i < PASOS.length - 1 && (
+                {i < pasosUi.length - 1 && (
                   <div
                     className={`hidden h-px w-6 sm:block ${
                       i < pasoIdx ? "" : "bg-stone-200"
@@ -340,7 +389,7 @@ export default function OnboardingPage() {
 
       <div className="mx-auto max-w-[1000px] px-5 py-10">
         {/* ---------------- BIENVENIDA ---------------- */}
-        {paso === "bienvenida" && (
+        {!isEdit && paso === "bienvenida" && (
           <section className="mx-auto max-w-[680px] text-center">
             <p className="text-[12px] font-semibold uppercase tracking-wide text-stone-400">
               Bienvenido a Palco
@@ -393,7 +442,7 @@ export default function OnboardingPage() {
         )}
 
         {/* ---------------- PLAN ---------------- */}
-        {paso === "plan" && (
+        {!isEdit && paso === "plan" && (
           <section>
             <div className="text-center">
               <h1 className="text-3xl font-bold">Elegí tu plan</h1>
@@ -667,10 +716,10 @@ export default function OnboardingPage() {
 
             <div className="mt-8 flex items-center justify-between">
               <button
-                onClick={() => setPaso("plan")}
+                onClick={() => (isEdit ? volverAlTablero() : setPaso("plan"))}
                 className="text-[14px] text-stone-500 hover:text-stone-800"
               >
-                ← Volver
+                {isEdit ? "← Cancelar" : "← Volver"}
               </button>
               <button
                 onClick={() => setPaso("alias")}
@@ -794,18 +843,18 @@ export default function OnboardingPage() {
                 ← Volver
               </button>
               <button
-                onClick={() => setPaso("avisos")}
+                onClick={() => (isEdit ? entrar() : setPaso("avisos"))}
                 className="rounded-lg px-6 py-3 text-[15px] font-semibold text-white hover:opacity-90"
                 style={{ backgroundColor: BRAND }}
               >
-                Seguir →
+                {isEdit ? "Guardar cambios" : "Seguir →"}
               </button>
             </div>
           </section>
         )}
 
         {/* ---------------- AVISOS (gobernanza) ---------------- */}
-        {paso === "avisos" && (
+        {!isEdit && paso === "avisos" && (
           <section className="mx-auto max-w-[720px]">
             <div className="text-center">
               <h1 className="text-3xl font-bold">¿Cuándo querés que te avisemos?</h1>
@@ -959,7 +1008,7 @@ export default function OnboardingPage() {
         )}
 
         {/* ---------------- LISTO ---------------- */}
-        {paso === "listo" && (
+        {!isEdit && paso === "listo" && (
           <section className="mx-auto max-w-[680px]">
             <div className="text-center">
               <div

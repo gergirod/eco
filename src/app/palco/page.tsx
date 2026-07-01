@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import bundled from "@/data/palco_entities.json";
 import catalogBundled from "@/data/palco_catalog.json";
 import { WatchlistTerms } from "@/components/palco/WatchlistTerms";
@@ -342,6 +343,7 @@ const FREQ_OPTS: { id: Frecuencia; titulo: string; bajada: string }[] = [
 ];
 
 export default function PalcoPage() {
+  const router = useRouter();
   // Dataset: arranca con el bundle horneado en el build y, si Supabase tiene
   // una versión (la que pushea palco_build.py), la reemplaza en runtime.
   // Así el tablero se actualiza sin re-deploy cada vez que corre el pipeline.
@@ -499,12 +501,17 @@ export default function PalcoPage() {
             >
               ⚙ Avisos
             </button>
-            <Link
-              href="/palco/onboarding"
+            <button
+              type="button"
+              onClick={() => {
+                const p = new URLSearchParams(window.location.search);
+                p.set("edit", "1");
+                router.push(`/palco/onboarding?${p.toString()}`);
+              }}
               className="rounded-lg border border-stone-200 bg-white px-3 py-1.5 font-medium text-stone-600 hover:border-stone-400"
             >
               Editar watchlist
-            </Link>
+            </button>
           </div>
         </div>
       </div>
