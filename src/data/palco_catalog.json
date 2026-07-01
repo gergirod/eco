@@ -1,0 +1,184 @@
+{
+  "generated_at": "2026-07-01T16:11:02.048575+00:00",
+  "min_mentions": 5,
+  "min_programs": 2,
+  "curated_count": 15,
+  "candidates_count": 0,
+  "candidates_by_kind": {},
+  "curated": [
+    {
+      "slug": "manuel-adorni",
+      "name": "Manuel Adorni",
+      "type": "Político",
+      "alias": [
+        "adorni"
+      ],
+      "in_palco_entities": true,
+      "seen_in_extract": false
+    },
+    {
+      "slug": "javier-milei",
+      "name": "Javier Milei",
+      "type": "Político",
+      "alias": [
+        "javier milei",
+        "presidente milei",
+        "milei"
+      ],
+      "in_palco_entities": true,
+      "seen_in_extract": false
+    },
+    {
+      "slug": "karina-milei",
+      "name": "Karina Milei",
+      "type": "Político",
+      "alias": [
+        "karina milei",
+        "karina"
+      ],
+      "in_palco_entities": true,
+      "seen_in_extract": false
+    },
+    {
+      "slug": "mauricio-macri",
+      "name": "Mauricio Macri",
+      "type": "Político",
+      "alias": [
+        "mauricio macri",
+        "macri"
+      ],
+      "in_palco_entities": true,
+      "seen_in_extract": false
+    },
+    {
+      "slug": "diego-santilli",
+      "name": "Diego Santilli",
+      "type": "Político",
+      "alias": [
+        "santilli",
+        "colorado santilli"
+      ],
+      "in_palco_entities": true,
+      "seen_in_extract": false
+    },
+    {
+      "slug": "cristina-kirchner",
+      "name": "Cristina Kirchner",
+      "type": "Político",
+      "alias": [
+        "cristina kirchner",
+        "cristina fernández",
+        "cristina fernandez",
+        "cfk",
+        "cristina"
+      ],
+      "in_palco_entities": true,
+      "seen_in_extract": false
+    },
+    {
+      "slug": "lionel-messi",
+      "name": "Lionel Messi",
+      "type": "Deporte",
+      "alias": [
+        "lionel messi",
+        "leo messi",
+        "messi"
+      ],
+      "in_palco_entities": true,
+      "seen_in_extract": false
+    },
+    {
+      "slug": "lali-esposito",
+      "name": "Lali Espósito",
+      "type": "Música",
+      "alias": [
+        "lali espósito",
+        "lali esposito",
+        "lali"
+      ],
+      "in_palco_entities": true,
+      "seen_in_extract": false
+    },
+    {
+      "slug": "patricia-bullrich",
+      "name": "Patricia Bullrich",
+      "type": "Político",
+      "alias": [
+        "patricia bullrich",
+        "bullrich"
+      ],
+      "in_palco_entities": true,
+      "seen_in_extract": false
+    },
+    {
+      "slug": "lionel-scaloni",
+      "name": "Lionel Scaloni",
+      "type": "Deporte",
+      "alias": [
+        "lionel scaloni",
+        "scaloni"
+      ],
+      "in_palco_entities": true,
+      "seen_in_extract": false
+    },
+    {
+      "slug": "julian-alvarez",
+      "name": "Julián Álvarez",
+      "type": "Deporte",
+      "alias": [
+        "julián álvarez",
+        "julian alvarez",
+        "la araña",
+        "la arana"
+      ],
+      "in_palco_entities": true,
+      "seen_in_extract": false
+    },
+    {
+      "slug": "shakira",
+      "name": "Shakira",
+      "type": "Música",
+      "alias": [
+        "shakira"
+      ],
+      "in_palco_entities": true,
+      "seen_in_extract": false
+    },
+    {
+      "slug": "aerolineas-argentinas",
+      "name": "Aerolíneas Argentinas",
+      "type": "Empresa",
+      "alias": [
+        "aerolíneas argentinas",
+        "aerolineas argentinas",
+        "aerolíneas",
+        "aerolineas"
+      ],
+      "in_palco_entities": true,
+      "seen_in_extract": false
+    },
+    {
+      "slug": "ypf",
+      "name": "YPF",
+      "type": "Empresa",
+      "alias": [
+        "ypf"
+      ],
+      "in_palco_entities": true,
+      "seen_in_extract": false
+    },
+    {
+      "slug": "mercado-libre",
+      "name": "Mercado Libre",
+      "type": "Empresa",
+      "alias": [
+        "mercado libre",
+        "mercadolibre",
+        "meli"
+      ],
+      "in_palco_entities": true,
+      "seen_in_extract": false
+    }
+  ],
+  "candidates": []
+}

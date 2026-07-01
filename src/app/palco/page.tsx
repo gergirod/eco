@@ -3,6 +3,9 @@
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
 import bundled from "@/data/palco_entities.json";
+import catalogBundled from "@/data/palco_catalog.json";
+import { WatchlistTerms } from "@/components/palco/WatchlistTerms";
+import { matchesQuery } from "@/lib/palco-watchlist";
 import { fetchDataset } from "@/lib/supabase";
 
 /* ---------- tipos ---------- */
@@ -47,6 +50,7 @@ type Radar = {
   entity: string;
   type: string;
   watchlist: string[];
+  watchlist_display?: { nombre: string; alias: string[]; excluir?: string[] };
   totals: {
     transcript_mentions: number;
     chat_mentions: number;
@@ -74,9 +78,55 @@ type IndexRow = {
   neu: number;
   pos: number;
 };
-type Data = { default: string; index: IndexRow[]; radars: Record<string, Radar> };
+type ComencionCruce = {
+  id: string;
+  video_id: string;
+  channel: string;
+  program: string;
+  date: string;
+  ventana: { label: string; minutos?: number };
+  entidades: {
+    slug: string;
+    nombre?: string;
+    t_label: string;
+    quote: string;
+    sentiment?: string;
+  }[];
+  conc_at?: number | null;
+  chat_ratio?: number | null;
+  yt_url: string;
+};
+type ComencionPar = {
+  par: [string, string];
+  nombres: [string, string];
+  programas: number;
+  cruces_total: number;
+  by_day: { day: string; cruces: number }[];
+  cruces: ComencionCruce[];
+};
+type Data = {
+  default: string;
+  index: IndexRow[];
+  radars: Record<string, Radar>;
+  comenciones?: ComencionPar[];
+};
 
 const BUNDLED = bundled as unknown as Data;
+
+type CatalogCurated = { slug: string; name: string; type: string; alias: string[] };
+type CatalogCandidate = {
+  canonical_guess: string;
+  forms: string[];
+  kind: string;
+  mentions: number;
+  programs: number;
+  status: string;
+};
+const CATALOG = catalogBundled as unknown as {
+  curated: CatalogCurated[];
+  candidates: CatalogCandidate[];
+};
+const CATALOG_BY_SLUG = new Map(CATALOG.curated.map((c) => [c.slug, c]));
 
 /* ---------- design system ----------
    Palco · capa de inteligencia de la atención.
@@ -362,12 +412,15 @@ export default function PalcoPage() {
 
   const filteredIndex = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return baseIndex.filter(
-      (r) =>
-        (cat === "todas" || r.type === cat) &&
-        (!q || r.name.toLowerCase().includes(q))
-    );
-  }, [query, cat, baseIndex]);
+    return baseIndex.filter((r) => {
+      if (cat !== "todas" && r.type !== cat) return false;
+      if (!q) return true;
+      const catRow = CATALOG_BY_SLUG.get(r.slug);
+      const radarAlias = D.radars[r.slug]?.watchlist_display?.alias;
+      const alias = catRow?.alias ?? radarAlias ?? [];
+      return matchesQuery(q, r.name, alias);
+    });
+  }, [query, cat, baseIndex, D]);
 
   // Alertas: entidades de la watchlist (o todas) con crisis detectada.
   const alertas = useMemo(
@@ -404,6 +457,15 @@ export default function PalcoPage() {
   const logFiltered =
     logOrigen === "todas" ? logAll : logAll.filter((m) => m.origen === logOrigen);
   const logVisible = logFiltered.slice(0, logShow);
+
+  // Co-menciones: pares donde esta entidad cruza con otra (mismo programa / bloque 10 min).
+  const crucesPairs = useMemo(() => {
+    const all = (D as Data).comenciones ?? [];
+    return all
+      .filter((p) => p.par.includes(slug))
+      .sort((a, b) => b.cruces_total - a.cruces_total)
+      .slice(0, 4);
+  }, [D, slug]);
 
   return (
     <div className="min-h-screen bg-[#faf9f7] text-stone-900">
@@ -751,15 +813,8 @@ export default function PalcoPage() {
           </div>
           <div className="text-right">
             <p className="text-[11px] uppercase tracking-wide text-stone-400">Watchlist activa</p>
-            <div className="mt-1 flex flex-wrap justify-end gap-1.5">
-              {R.watchlist.map((w) => (
-                <span
-                  key={w}
-                  className="rounded-full border border-stone-200 bg-white px-2.5 py-1 text-[12px] text-stone-600"
-                >
-                  {w}
-                </span>
-              ))}
+            <div className="mt-1">
+              <WatchlistTerms radar={R} />
             </div>
           </div>
         </header>
@@ -892,6 +947,78 @@ export default function PalcoPage() {
             )}
           </div>
         </section>
+
+        {/* cruces con otras entidades (co-mención) */}
+        {crucesPairs.length > 0 && (
+          <section className="mt-6">
+            <h2 className="text-[13px] font-semibold uppercase tracking-wide text-stone-500">
+              Cruces · nombrados juntos al aire
+            </h2>
+            <p className="mt-1 text-[12px] text-stone-400">
+              Mismo programa, ventana de ~10 minutos. Calculado sobre todas las entidades del corpus
+              — no un par fijo.
+            </p>
+            <div className="mt-4 space-y-4">
+              {crucesPairs.map((p) => {
+                const otroIdx = p.par[0] === slug ? 1 : 0;
+                const otro = p.nombres[otroIdx];
+                const ultimo = p.cruces[0];
+                return (
+                  <div
+                    key={p.par.join("-")}
+                    className="rounded-xl border border-stone-200 bg-white p-4 shadow-sm"
+                  >
+                    <div className="flex flex-wrap items-baseline justify-between gap-2">
+                      <p className="text-[14px] font-semibold text-stone-800">
+                        {R.entity} × {otro}
+                      </p>
+                      <p className="text-[12px] text-stone-400">
+                        {p.cruces_total} cruces · {p.programas} programas
+                      </p>
+                    </div>
+                    {ultimo && (
+                      <div className="mt-3 space-y-2 border-t border-stone-100 pt-3">
+                        <p className="text-[12px] text-stone-500">
+                          {ultimo.channel} · {fmtDay(ultimo.date)} · {ultimo.ventana?.label}
+                        </p>
+                        {ultimo.entidades.map((e) => (
+                          <p key={e.slug} className="text-[13px] italic text-stone-700 line-clamp-2">
+                            <span className="font-medium not-italic text-stone-500">{e.nombre || e.slug}:</span>{" "}
+                            &ldquo;{e.quote}&rdquo;
+                          </p>
+                        ))}
+                        <div className="flex flex-wrap items-center gap-3 text-[12px] text-stone-500">
+                          {ultimo.conc_at != null && (
+                            <span className="inline-flex items-center gap-1">
+                              <IconEye className="h-3.5 w-3.5" />
+                              {compact(ultimo.conc_at)} en vivo
+                            </span>
+                          )}
+                          {(ultimo.chat_ratio ?? 0) > 0 && (
+                            <span className="inline-flex items-center gap-1">
+                              <IconChat className="h-3.5 w-3.5" />
+                              ×{ultimo.chat_ratio} chat
+                            </span>
+                          )}
+                          <a
+                            href={ultimo.yt_url}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="inline-flex items-center gap-1 font-medium hover:underline"
+                            style={{ color: BRAND }}
+                          >
+                            <IconPlay className="h-3.5 w-3.5" />
+                            ver clip
+                          </a>
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+        )}
 
         {/* alerta de crisis */}
         {R.crisis && (

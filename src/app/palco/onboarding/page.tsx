@@ -1,8 +1,10 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import data from "@/data/palco_entities.json";
+import catalogData from "@/data/palco_catalog.json";
+import { displayAlias, matchesQuery } from "@/lib/palco-watchlist";
 
 /* ============================================================================
    Palco · Onboarding
@@ -26,6 +28,34 @@ type IndexRow = {
   pos: number;
 };
 const INDEX = (data as unknown as { index: IndexRow[] }).index;
+
+type CatalogCurated = {
+  slug: string;
+  name: string;
+  type: string;
+  alias: string[];
+  in_palco_entities?: boolean;
+};
+type CatalogCandidate = {
+  canonical_guess: string;
+  forms: string[];
+  kind: string;
+  mentions: number;
+  programs: number;
+  status: string;
+};
+type ComencionPar = {
+  par: [string, string];
+  nombres: [string, string];
+  cruces_total: number;
+};
+const CATALOG = catalogData as unknown as {
+  curated: CatalogCurated[];
+  candidates: CatalogCandidate[];
+};
+const COMENCIONES =
+  ((data as unknown as { comenciones?: ComencionPar[] }).comenciones) ?? [];
+const CATALOG_BY_SLUG = new Map(CATALOG.curated.map((c) => [c.slug, c]));
 
 /* ---------- planes (modelo self-serve tipo Podscan: precio transparente,
    se paga por cuántos nombres/temas seguís. Cada nombre = una persona, marca
@@ -146,11 +176,12 @@ const FRECUENCIAS: { id: Frecuencia; titulo: string; bajada: string }[] = [
 ];
 
 /* ---------- pasos ---------- */
-type Paso = "bienvenida" | "plan" | "entidades" | "avisos" | "listo";
+type Paso = "bienvenida" | "plan" | "entidades" | "alias" | "avisos" | "listo";
 const PASOS: { id: Paso; label: string }[] = [
   { id: "bienvenida", label: "Bienvenida" },
   { id: "plan", label: "Plan" },
   { id: "entidades", label: "A quién seguir" },
+  { id: "alias", label: "Cómo lo dicen" },
   { id: "avisos", label: "Avisos" },
   { id: "listo", label: "Listo" },
 ];
@@ -167,18 +198,55 @@ export default function OnboardingPage() {
   const [soloNegativo, setSoloNegativo] = useState(false);
   const [frecuencia, setFrecuencia] = useState<Frecuencia>("diario");
   const [email, setEmail] = useState("");
+  // alias editables por entidad (mock local; en producción → palco_watchlist.yaml)
+  const [aliasCfg, setAliasCfg] = useState<Record<string, string[]>>({});
+  const [aliasDraft, setAliasDraft] = useState<Record<string, string>>({});
 
   const plan = PLANES.find((p) => p.id === planId)!;
   const pasoIdx = PASOS.findIndex((p) => p.id === paso);
 
+  // Pre-carga alias del catálogo al entrar al paso "Cómo lo dicen".
+  useEffect(() => {
+    if (paso !== "alias" || sel.length === 0) return;
+    setAliasCfg((prev) => {
+      const next = { ...prev };
+      for (const slug of sel) {
+        if (next[slug]) continue;
+        const cur = CATALOG_BY_SLUG.get(slug);
+        next[slug] = cur?.alias?.length ? [...cur.alias] : [];
+      }
+      return next;
+    });
+  }, [paso, sel]);
+
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return INDEX.filter(
-      (r) =>
-        (cat === "Todas" || r.type === cat) &&
-        (!q || r.name.toLowerCase().includes(q))
-    ).sort((a, b) => b.mentions - a.mentions);
+    return INDEX.filter((r) => {
+      if (cat !== "Todas" && r.type !== cat) return false;
+      const catRow = CATALOG_BY_SLUG.get(r.slug);
+      return matchesQuery(q, r.name, catRow?.alias ?? []);
+    }).sort((a, b) => b.mentions - a.mentions);
   }, [query, cat]);
+
+  const candidateHits = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!q) return [];
+    return CATALOG.candidates
+      .filter(
+        (c) =>
+          c.canonical_guess.toLowerCase().includes(q) ||
+          c.forms.some((f) => f.toLowerCase().includes(q))
+      )
+      .slice(0, 6);
+  }, [query]);
+
+  const comencionesSel = useMemo(() => {
+    if (sel.length < 2) return [];
+    const set = new Set(sel);
+    return COMENCIONES.filter((p) => set.has(p.par[0]) && set.has(p.par[1]))
+      .sort((a, b) => b.cruces_total - a.cruces_total)
+      .slice(0, 4);
+  }, [sel]);
 
   function toggle(slug: string) {
     setSel((cur) => {
@@ -188,6 +256,26 @@ export default function OnboardingPage() {
     });
   }
   const lleno = sel.length >= plan.limite;
+
+  function addAlias(slug: string) {
+    const raw = (aliasDraft[slug] || "").trim().toLowerCase();
+    if (raw.length < 2) return;
+    const nombre = INDEX.find((r) => r.slug === slug)?.name.toLowerCase() ?? "";
+    if (raw === nombre) return;
+    setAliasCfg((cur) => {
+      const list = cur[slug] ?? [];
+      if (list.some((a) => a.toLowerCase() === raw)) return cur;
+      return { ...cur, [slug]: [...list, raw] };
+    });
+    setAliasDraft((d) => ({ ...d, [slug]: "" }));
+  }
+
+  function removeAlias(slug: string, alias: string) {
+    setAliasCfg((cur) => ({
+      ...cur,
+      [slug]: (cur[slug] ?? []).filter((a) => a !== alias),
+    }));
+  }
 
   function entrar() {
     const e = sel.join(",");
@@ -434,7 +522,7 @@ export default function OnboardingPage() {
               <input
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="Buscar un nombre…"
+                placeholder="Buscar por nombre o apodo…"
                 className="min-w-[200px] flex-1 rounded-lg border border-stone-300 bg-white px-4 py-2.5 text-[14px] outline-none focus:border-[#2f5fe0] focus:ring-2 focus:ring-blue-100"
               />
               <div className="flex gap-1 rounded-lg border border-stone-200 bg-white p-0.5 text-[13px]">
@@ -474,6 +562,8 @@ export default function OnboardingPage() {
               {filtered.map((r) => {
                 const on = sel.includes(r.slug);
                 const bloq = !on && lleno;
+                const catRow = CATALOG_BY_SLUG.get(r.slug);
+                const aliasHint = catRow?.alias?.slice(0, 3).join(" · ");
                 return (
                   <button
                     key={r.slug}
@@ -490,10 +580,20 @@ export default function OnboardingPage() {
                   >
                     <div className="flex items-start justify-between gap-2">
                       <div>
-                        <p className="text-[15px] font-semibold leading-tight">
-                          {r.name}
-                        </p>
+                        <div className="flex flex-wrap items-center gap-2">
+                          <p className="text-[15px] font-semibold leading-tight">
+                            {r.name}
+                          </p>
+                          <span className="rounded-full bg-emerald-50 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-emerald-700">
+                            Radar listo
+                          </span>
+                        </div>
                         <p className="text-[12px] text-stone-400">{r.type}</p>
+                        {aliasHint && (
+                          <p className="mt-1 text-[11px] text-stone-500">
+                            también: {aliasHint}
+                          </p>
+                        )}
                       </div>
                       <span
                         className={`flex h-5 w-5 shrink-0 items-center justify-center rounded-full border text-[11px] ${
@@ -524,7 +624,38 @@ export default function OnboardingPage() {
               })}
             </div>
 
-            {filtered.length === 0 && (
+            {candidateHits.length > 0 && (
+              <div className="mt-6">
+                <p className="text-[12px] font-semibold uppercase tracking-wide text-stone-400">
+                  Detectado en el corpus
+                </p>
+                <div className="mt-3 grid gap-2 sm:grid-cols-2">
+                  {candidateHits.map((c) => (
+                    <div
+                      key={c.canonical_guess}
+                      className="rounded-xl border border-amber-200 bg-amber-50/60 p-4 text-left"
+                    >
+                      <div className="flex items-start justify-between gap-2">
+                        <div>
+                          <p className="text-[14px] font-semibold">{c.canonical_guess}</p>
+                          <p className="text-[11px] text-stone-500">
+                            {c.kind} · {compact(c.mentions)} menc. · {c.programs} programas
+                          </p>
+                        </div>
+                        <span className="shrink-0 rounded-full bg-amber-100 px-2 py-0.5 text-[10px] font-semibold uppercase text-amber-800">
+                          Candidata
+                        </span>
+                      </div>
+                      <p className="mt-2 text-[12px] text-stone-600">
+                        Todavía sin radar completo. En tu cuenta lo activamos con un retro-scan.
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {filtered.length === 0 && candidateHits.length === 0 && (
               <p className="mt-6 rounded-xl border border-stone-200 bg-white p-6 text-center text-[14px] text-stone-500">
                 No encontramos ese nombre en el demo. En tu cuenta escribís cualquiera
                 y lo empezamos a seguir desde ese momento.
@@ -539,9 +670,129 @@ export default function OnboardingPage() {
                 ← Volver
               </button>
               <button
-                onClick={() => setPaso("avisos")}
+                onClick={() => setPaso("alias")}
                 disabled={sel.length === 0}
                 className="rounded-lg px-6 py-3 text-[15px] font-semibold text-white hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-40"
+                style={{ backgroundColor: BRAND }}
+              >
+                Seguir →
+              </button>
+            </div>
+          </section>
+        )}
+
+        {/* ---------------- ALIAS (cómo lo dicen) ---------------- */}
+        {paso === "alias" && (
+          <section className="mx-auto max-w-[720px]">
+            <div className="text-center">
+              <h1 className="text-3xl font-bold">¿Cómo lo dicen en la tele?</h1>
+              <p className="mt-2 text-[15px] text-stone-600">
+                En streaming casi nadie dice el nombre completo. Agregá apodos y apellidos —
+                Palco busca <b>todas</b> las formas, pero cuenta como <b>una sola</b> entidad.
+              </p>
+            </div>
+
+            <div className="mt-8 space-y-5">
+              {sel.map((slug) => {
+                const row = INDEX.find((r) => r.slug === slug);
+                if (!row) return null;
+                const alias = aliasCfg[slug] ?? [];
+                const w = { nombre: row.name, alias };
+                const shown = displayAlias(w);
+                return (
+                  <div
+                    key={slug}
+                    className="rounded-2xl border border-stone-200 bg-white p-5 shadow-sm"
+                  >
+                    <p className="text-[11px] font-semibold uppercase tracking-wide text-stone-400">
+                      Nombre en el tablero
+                    </p>
+                    <p className="mt-1 text-[18px] font-bold">{row.name}</p>
+                    <p className="mt-4 text-[11px] font-semibold uppercase tracking-wide text-stone-400">
+                      También buscar como
+                    </p>
+                    <div className="mt-2 flex flex-wrap gap-2">
+                      {shown.map((a) => (
+                        <span
+                          key={a}
+                          className="inline-flex items-center gap-1 rounded-full border border-stone-200 bg-stone-50 px-3 py-1 text-[13px] text-stone-700"
+                        >
+                          {a}
+                          <button
+                            type="button"
+                            onClick={() => removeAlias(slug, a)}
+                            className="ml-0.5 text-stone-400 hover:text-stone-700"
+                            aria-label={`Quitar ${a}`}
+                          >
+                            ×
+                          </button>
+                        </span>
+                      ))}
+                      <div className="flex items-center gap-1">
+                        <input
+                          value={aliasDraft[slug] ?? ""}
+                          onChange={(e) =>
+                            setAliasDraft((d) => ({ ...d, [slug]: e.target.value }))
+                          }
+                          onKeyDown={(e) => {
+                            if (e.key === "Enter") {
+                              e.preventDefault();
+                              addAlias(slug);
+                            }
+                          }}
+                          placeholder="agregar…"
+                          className="w-28 rounded-full border border-stone-200 px-3 py-1 text-[13px] outline-none focus:border-[#2f5fe0]"
+                        />
+                        <button
+                          type="button"
+                          onClick={() => addAlias(slug)}
+                          className="rounded-full border border-stone-200 px-2 py-1 text-[12px] text-stone-600 hover:border-stone-400"
+                        >
+                          +
+                        </button>
+                      </div>
+                    </div>
+                    <p className="mt-4 rounded-lg bg-blue-50 px-3 py-2 text-[13px] text-stone-700">
+                      Con estos términos: <b className="tabular-nums">{compact(row.mentions)}</b>{" "}
+                      menciones en el corpus capturado.
+                    </p>
+                  </div>
+                );
+              })}
+            </div>
+
+            {planId === "profesional" && comencionesSel.length > 0 && (
+              <div className="mt-6 rounded-2xl border border-stone-200 bg-white p-5 shadow-sm">
+                <p className="text-[11px] font-semibold uppercase tracking-wide text-stone-400">
+                  Nombrados juntos al aire (Pro)
+                </p>
+                <div className="mt-3 space-y-2">
+                  {comencionesSel.map((p) => (
+                    <p key={p.par.join("-")} className="text-[14px] text-stone-700">
+                      <b>{p.nombres[0]}</b> × <b>{p.nombres[1]}</b>
+                      <span className="ml-2 text-[13px] text-stone-500">
+                        {p.cruces_total} cruces
+                      </span>
+                    </p>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            <p className="mt-4 text-center text-[12px] text-stone-400">
+              En el piloto, estos términos los confirma el operador en tu cuenta.
+            </p>
+
+            <div className="mt-8 flex items-center justify-between">
+              <button
+                onClick={() => setPaso("entidades")}
+                className="text-[14px] text-stone-500 hover:text-stone-800"
+              >
+                ← Volver
+              </button>
+              <button
+                onClick={() => setPaso("avisos")}
+                className="rounded-lg px-6 py-3 text-[15px] font-semibold text-white hover:opacity-90"
                 style={{ backgroundColor: BRAND }}
               >
                 Seguir →
@@ -687,7 +938,7 @@ export default function OnboardingPage() {
 
             <div className="mt-8 flex items-center justify-between">
               <button
-                onClick={() => setPaso("entidades")}
+                onClick={() => setPaso("alias")}
                 className="text-[14px] text-stone-500 hover:text-stone-800"
               >
                 ← Volver
@@ -736,15 +987,26 @@ export default function OnboardingPage() {
                 Tu watchlist ({selRows.length})
               </p>
               <div className="mt-2 flex flex-wrap gap-2">
-                {selRows.map((r) => (
-                  <span
-                    key={r.slug}
-                    className="rounded-full border border-blue-200 bg-blue-50 px-3 py-1 text-[13px]"
-                    style={{ color: BRAND }}
-                  >
-                    {r.name}
-                  </span>
-                ))}
+                {selRows.map((r) => {
+                  const alias = displayAlias({
+                    nombre: r.name,
+                    alias: aliasCfg[r.slug] ?? CATALOG_BY_SLUG.get(r.slug)?.alias ?? [],
+                  });
+                  return (
+                    <div
+                      key={r.slug}
+                      className="rounded-xl border border-blue-200 bg-blue-50 px-3 py-2 text-[13px]"
+                      style={{ color: BRAND }}
+                    >
+                      <p className="font-semibold">{r.name}</p>
+                      {alias.length > 0 && (
+                        <p className="mt-0.5 text-[11px] text-stone-500">
+                          buscando: {alias.join(" · ")}
+                        </p>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
               <p className="mt-4 text-[12px] font-semibold uppercase tracking-wide text-stone-400">
                 Tus avisos
