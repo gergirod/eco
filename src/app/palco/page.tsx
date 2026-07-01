@@ -116,11 +116,14 @@ const BUNDLED = bundled as unknown as Data;
 
 type CatalogCurated = { slug: string; name: string; type: string; alias: string[] };
 type CatalogCandidate = {
+  slug_guess: string;
   canonical_guess: string;
   forms: string[];
   kind: string;
   mentions: number;
   programs: number;
+  channels: number;
+  confidence?: string;
   status: string;
 };
 const CATALOG = catalogBundled as unknown as {
@@ -355,6 +358,7 @@ export default function PalcoPage() {
   const [logOrigen, setLogOrigen] = useState<"todas" | "aire" | "chat">("todas");
   const [logShow, setLogShow] = useState(30); // paginado del detalle
   const [feedShow, setFeedShow] = useState(6); // destacados por programa (resumen)
+  const [solicitadas, setSolicitadas] = useState<string[]>([]); // catálogo: pedidas para seguir
   const [watch, setWatch] = useState<string[]>([]);
   const [plan, setPlan] = useState<string>("");
   // gobernanza de avisos (settings del tablero)
@@ -442,6 +446,23 @@ export default function PalcoPage() {
   );
 
   const notFound = query.trim().length > 0 && filteredIndex.length === 0;
+
+  // Catálogo self-serve: si la búsqueda no matchea una entidad con radar, buscamos
+  // en las candidatas que el pipeline ya descubrió (con señal real) y ofrecemos
+  // activar el seguimiento. Esto saca a Palco del "modo demo con lista fija".
+  const catalogMatches = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    if (!notFound || q.length < 2) return [] as CatalogCandidate[];
+    const curatedSlugs = new Set(D.index.map((r) => r.slug));
+    return (CATALOG.candidates ?? [])
+      .filter(
+        (c) =>
+          !curatedSlugs.has(c.slug_guess) &&
+          matchesQuery(q, c.canonical_guess, c.forms)
+      )
+      .sort((a, b) => b.mentions - a.mentions)
+      .slice(0, 6);
+  }, [query, notFound, D]);
 
   const maxSov = Math.max(...R.share_of_voice.map((s) => s.mentions), 1);
   const maxDay = Math.max(...R.by_day.map((s) => s.mentions), 1);
@@ -776,12 +797,71 @@ export default function PalcoPage() {
             </div>
           )}
           {notFound ? (
-            <div className="mt-3 rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-[13px] text-amber-800">
-              No hay resultados en <b>este demo</b>. En producción Palco no depende de una lista:
-              escribís cualquier nombre y hacemos un <b>retro-scan</b> de todo lo hablado en los
-              canales + monitoreo en vivo. Si nunca lo nombraron, eso también es señal
-              (&ldquo;no está en la conversación&rdquo;).
-            </div>
+            catalogMatches.length > 0 ? (
+              <div className="mt-3">
+                <p className="text-[12px] text-stone-500">
+                  No tiene radar todavía, pero <b>ya lo detectamos en la conversación</b>.
+                  Activá el seguimiento y armamos el análisis completo:
+                </p>
+                <div className="mt-2 space-y-2">
+                  {catalogMatches.map((c) => {
+                    const pedida = solicitadas.includes(c.slug_guess);
+                    return (
+                      <div
+                        key={c.slug_guess}
+                        className="flex items-center justify-between gap-3 rounded-lg border border-stone-200 bg-white px-4 py-3"
+                      >
+                        <div className="min-w-0">
+                          <p className="text-[14px] font-semibold text-stone-800">
+                            {c.canonical_guess}
+                            <span className="ml-2 rounded-full border border-stone-200 bg-stone-100 px-2 py-0.5 text-[10.5px] font-normal text-stone-500">
+                              {c.kind === "persona"
+                                ? "persona"
+                                : c.kind === "empresa"
+                                ? "empresa"
+                                : "persona/marca"}
+                            </span>
+                          </p>
+                          <p className="mt-0.5 text-[12px] text-stone-500">
+                            Lo nombraron <b className="text-stone-700">{compact(c.mentions)}</b> veces
+                            en <b className="text-stone-700">{c.programs}</b> programas ·{" "}
+                            {c.channels} canales
+                          </p>
+                        </div>
+                        {pedida ? (
+                          <span className="shrink-0 rounded-lg border border-emerald-200 bg-emerald-50 px-3 py-1.5 text-[12px] font-medium text-emerald-700">
+                            ✓ En preparación
+                          </span>
+                        ) : (
+                          <button
+                            onClick={() =>
+                              setSolicitadas((s) => [...s, c.slug_guess])
+                            }
+                            className="shrink-0 rounded-lg px-3 py-1.5 text-[12px] font-semibold text-white hover:opacity-90"
+                            style={{ backgroundColor: BRAND }}
+                          >
+                            Seguir
+                          </button>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+                {solicitadas.length > 0 && (
+                  <p className="mt-2 text-[11px] text-stone-400">
+                    Armamos el radar completo en la próxima corrida del pipeline y te
+                    avisamos cuando esté listo.
+                  </p>
+                )}
+              </div>
+            ) : (
+              <div className="mt-3 rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-[13px] text-amber-800">
+                No lo encontramos en la conversación de los canales que seguimos. Que
+                <b> no aparezca también es señal</b>: no se está hablando de esto. Si
+                creés que debería estar, sumamos el canal donde se lo menciona y hacemos
+                el <b>retro-scan</b>.
+              </div>
+            )
           ) : (
             <div className="mt-3 flex flex-wrap gap-2">
               {filteredIndex.map((r) => {

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T16:23:56.503410+00:00",
+  "generated_at": "2026-07-01T16:25:30.962098+00:00",
   "min_mentions": 5,
   "min_programs": 2,
   "curated_count": 15,
@@ -476,10 +476,10 @@
     },
     {
       "slug_guess": "vorterix",
-      "canonical_guess": "Vorterix",
+      "canonical_guess": "VORTERIX",
       "forms": [
-        "Vorterix",
-        "VORTERIX"
+        "VORTERIX",
+        "Vorterix"
       ],
       "kind": "empresa",
       "kinds": [
@@ -1150,10 +1150,10 @@
     },
     {
       "slug_guess": "patria-y-familia",
-      "canonical_guess": "Patria y familia",
+      "canonical_guess": "Patria y Familia",
       "forms": [
-        "Patria y familia",
-        "Patria y Familia"
+        "Patria y Familia",
+        "Patria y familia"
       ],
       "kind": "empresa",
       "kinds": [
@@ -1396,10 +1396,10 @@
     },
     {
       "slug_guess": "de-paul",
-      "canonical_guess": "de Paul",
+      "canonical_guess": "De Paul",
       "forms": [
-        "de Paul",
-        "De Paul"
+        "De Paul",
+        "de Paul"
       ],
       "kind": "persona",
       "kinds": [
@@ -1841,10 +1841,10 @@
     },
     {
       "slug_guess": "nadie-dice-nada",
-      "canonical_guess": "Nadie Dice Nada",
+      "canonical_guess": "Nadie dice nada",
       "forms": [
-        "Nadie Dice Nada",
-        "Nadie dice nada"
+        "Nadie dice nada",
+        "Nadie Dice Nada"
       ],
       "kind": "mixto",
       "kinds": [
@@ -2494,7 +2494,7 @@
     },
     {
       "slug_guess": "cami-mayan",
-      "canonical_guess": "Cami Mayán",
+      "canonical_guess": "Cami Mayan",
       "forms": [
         "Cami Mayan",
         "Cami Mayán"
@@ -2879,7 +2879,7 @@
     },
     {
       "slug_guess": "lucas-lecin",
-      "canonical_guess": "Lucas Lecin",
+      "canonical_guess": "Lucas Lecín",
       "forms": [
         "Lucas Lecin",
         "Lucas Lecín"
@@ -4013,7 +4013,7 @@
     },
     {
       "slug_guess": "patri-familia",
-      "canonical_guess": "Patri Família",
+      "canonical_guess": "Patri Familia",
       "forms": [
         "Patri Familia",
         "Patri Família"
