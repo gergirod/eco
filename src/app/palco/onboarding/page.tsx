@@ -43,6 +43,8 @@ type CatalogCandidate = {
   mentions: number;
   programs: number;
   status: string;
+  confidence?: "alta" | "media" | "baja";
+  filter_reason?: string;
 };
 type ComencionPar = {
   par: [string, string];
@@ -234,8 +236,9 @@ export default function OnboardingPage() {
     return CATALOG.candidates
       .filter(
         (c) =>
-          c.canonical_guess.toLowerCase().includes(q) ||
-          c.forms.some((f) => f.toLowerCase().includes(q))
+          (c.confidence === "alta" || c.confidence === "media") &&
+          (c.canonical_guess.toLowerCase().includes(q) ||
+            c.forms.some((f) => f.toLowerCase().includes(q)))
       )
       .slice(0, 6);
   }, [query]);
@@ -643,7 +646,7 @@ export default function OnboardingPage() {
                           </p>
                         </div>
                         <span className="shrink-0 rounded-full bg-amber-100 px-2 py-0.5 text-[10px] font-semibold uppercase text-amber-800">
-                          Candidata
+                          {c.confidence === "alta" ? "Detectado" : "Candidata"}
                         </span>
                       </div>
                       <p className="mt-2 text-[12px] text-stone-600">
