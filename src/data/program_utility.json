@@ -77,6 +77,64 @@
    }
   },
   {
+   "video_id": "43pRPuCeYcw",
+   "channel": "LUZU TV",
+   "channel_id": "luzu",
+   "title": "#PATRIAYFAMILIA l NOS VAMOS DE GIRA A TUCUMÁN Y EL PURRE SE DRAGUEA",
+   "date": "20260630",
+   "iup": 95,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 1.0,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.0,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 77186,
+     "peak_concurrent": 77186
+    },
+    "conversation": {
+     "blocks": 12,
+     "blocks_with_signal": 12,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 40,
+     "sponsored": 8,
+     "organic": 28,
+     "productos_marcas": 25
+    },
+    "participation": {
+     "chat_engagement": null,
+     "chat_noise": null,
+     "note": "sin chat"
+    },
+    "format": {
+     "show_id": "patria",
+     "show_name": "Patria y Familia"
+    },
+    "capture_minutes": null
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "7Oo5Hf7f14M",
    "channel": "LUZU TV",
    "channel_id": "luzu",
@@ -588,6 +646,64 @@
      "show_name": "Patria y Familia"
     },
     "capture_minutes": 121.13333333333334
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "0NuPTgKW5mc",
+   "channel": "LUZU TV",
+   "channel_id": "luzu",
+   "title": "#ANTESQUENADIE | AHHH TIRABA ESA: EL LEVANTE DE DIEGO Y ¿LAS SEÑORAS SABEN DE FÚTBOL?",
+   "date": "20260630",
+   "iup": 94,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 1.0,
+    "conversation": 0.974,
+    "commercial": 1.0,
+    "participation": 0.0,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 53700,
+     "peak_concurrent": 119678
+    },
+    "conversation": {
+     "blocks": 21,
+     "blocks_with_signal": 20,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 71,
+     "sponsored": 7,
+     "organic": 56,
+     "productos_marcas": 41
+    },
+    "participation": {
+     "chat_engagement": null,
+     "chat_noise": null,
+     "note": "sin chat"
+    },
+    "format": {
+     "show_id": "aqn",
+     "show_name": "Antes Que Nadie"
+    },
+    "capture_minutes": 206.17
    },
    "weights": {
     "capture": 0.25,
@@ -1353,6 +1469,122 @@
    }
   },
   {
+   "video_id": "WOcOu6AcIp0",
+   "channel": "LUZU TV",
+   "channel_id": "luzu",
+   "title": "#FMLUZU | STALKEAMOS LOS FACEBOOK DE CRIS Y GURI + JUGAMOS AL PASAME LA POSTA Y TERMINAMOS PELEADOS",
+   "date": "20260630",
+   "iup": 91,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.85,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.0,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 27273,
+     "peak_concurrent": 27273
+    },
+    "conversation": {
+     "blocks": 7,
+     "blocks_with_signal": 7,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 27,
+     "sponsored": 3,
+     "organic": 14,
+     "productos_marcas": 19
+    },
+    "participation": {
+     "chat_engagement": null,
+     "chat_noise": null,
+     "note": "sin chat"
+    },
+    "format": {
+     "show_id": "fmluzu",
+     "show_name": "FM Luzu"
+    },
+    "capture_minutes": null
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "zpbJ8ju9xmk",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "title": "EQUIPO COMPLETO Y SOMOS MÁS PARAGUAYOS QUE NUNCA | #YQUE COMPLETO 30/6 | VORTERIX",
+   "date": "20260630",
+   "iup": 91,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.719,
+    "conversation": 0.871,
+    "commercial": 1.0,
+    "participation": 0.936,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 11096,
+     "peak_concurrent": 35762
+    },
+    "conversation": {
+     "blocks": 17,
+     "blocks_with_signal": 13,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 56,
+     "sponsored": 7,
+     "organic": 31,
+     "productos_marcas": 42
+    },
+    "participation": {
+     "chat_engagement": 7.25,
+     "chat_noise": 0.16,
+     "chat_total": 13750
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 165.72333333333333
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "2E9MjxyDU9o",
    "channel": "LUZU TV",
    "channel_id": "luzu",
@@ -1643,6 +1875,64 @@
    }
   },
   {
+   "video_id": "USlO4VX83B4",
+   "channel": "OLGA",
+   "channel_id": "olga",
+   "title": "🌶️ TAPADOS DE LABURO con Nacho, Cami, Valen Rizzuti, Marce Kloosterboer y Mica Suarez | OLGA EN VIVO",
+   "date": "20260630",
+   "iup": 90,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.781,
+    "conversation": 0.954,
+    "commercial": 1.0,
+    "participation": 0.115,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 20107,
+     "peak_concurrent": 21564
+    },
+    "conversation": {
+     "blocks": 12,
+     "blocks_with_signal": 11,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 37,
+     "sponsored": 9,
+     "organic": 27,
+     "productos_marcas": 28
+    },
+    "participation": {
+     "chat_engagement": 0.5,
+     "chat_noise": 0.13,
+     "chat_total": 80
+    },
+    "format": {
+     "show_id": "tapados",
+     "show_name": "Tapados de Laburo"
+    },
+    "capture_minutes": 2.1783333333333332
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "ptOHcGEdWCk",
    "channel": "OLGA",
    "channel_id": "olga",
@@ -1875,6 +2165,64 @@
    }
   },
   {
+   "video_id": "yVzJRVng6Q4",
+   "channel": "OLGA",
+   "channel_id": "olga",
+   "title": "RECORREMOS OCEAN DRIVE EN VIVO | #TDT 30/6",
+   "date": "20260630",
+   "iup": 89,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.71,
+    "conversation": 0.908,
+    "commercial": 1.0,
+    "participation": 0.351,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 15104,
+     "peak_concurrent": 15761
+    },
+    "conversation": {
+     "blocks": 12,
+     "blocks_with_signal": 10,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 47,
+     "sponsored": 4,
+     "organic": 27,
+     "productos_marcas": 31
+    },
+    "participation": {
+     "chat_engagement": 1.39,
+     "chat_noise": 0.28,
+     "chat_total": 2203
+    },
+    "format": {
+     "show_id": "tdt",
+     "show_name": "TDT"
+    },
+    "capture_minutes": 40.775
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "WNe6QLgDfyM",
    "channel": "OLGA",
    "channel_id": "olga",
@@ -1991,6 +2339,64 @@
    }
   },
   {
+   "video_id": "fam8EedmGow",
+   "channel": "OLGA",
+   "channel_id": "olga",
+   "title": "¿CUÁL FUE EL MEJOR BESO DE PEDRO? | #SeríaIncreíble 30/6",
+   "date": "20260630",
+   "iup": 88,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.864,
+    "conversation": 0.764,
+    "commercial": 1.0,
+    "participation": 0.263,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 24838,
+     "peak_concurrent": 41063
+    },
+    "conversation": {
+     "blocks": 21,
+     "blocks_with_signal": 12,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 30,
+     "sponsored": 0,
+     "organic": 30,
+     "productos_marcas": 14
+    },
+    "participation": {
+     "chat_engagement": 0.92,
+     "chat_noise": 0.11,
+     "chat_total": 4800
+    },
+    "format": {
+     "show_id": "seria-increible",
+     "show_name": "Sería Increíble"
+    },
+    "capture_minutes": 209.06166666666667
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "FYdwwoHNrMs",
    "channel": "Vorterix",
    "channel_id": "vorterix",
@@ -2096,6 +2502,64 @@
      "show_name": "Otros"
     },
     "capture_minutes": 181.95833333333334
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "mqQ_D9hUvvg",
+   "channel": "LUZU TV",
+   "channel_id": "luzu",
+   "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+   "date": "20260630",
+   "iup": 87,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.679,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.0,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 12625,
+     "peak_concurrent": 15477
+    },
+    "conversation": {
+     "blocks": 10,
+     "blocks_with_signal": 10,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 38,
+     "sponsored": 16,
+     "organic": 21,
+     "productos_marcas": 36
+    },
+    "participation": {
+     "chat_engagement": null,
+     "chat_noise": null,
+     "note": "sin chat"
+    },
+    "format": {
+     "show_id": "fondo",
+     "show_name": "Los del Fondo"
+    },
+    "capture_minutes": 96.97833333333332
    },
    "weights": {
     "capture": 0.25,
@@ -2745,6 +3209,296 @@
    }
   },
   {
+   "video_id": "KSHRnYRkhNI",
+   "channel": "OLGA",
+   "channel_id": "olga",
+   "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
+   "date": "20260630",
+   "iup": 82,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.478,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.0,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 5557,
+     "peak_concurrent": 5557
+    },
+    "conversation": {
+     "blocks": 14,
+     "blocks_with_signal": 14,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 52,
+     "sponsored": 13,
+     "organic": 35,
+     "productos_marcas": 42
+    },
+    "participation": {
+     "chat_engagement": null,
+     "chat_noise": null,
+     "note": "sin chat"
+    },
+    "format": {
+     "show_id": "gol-gana",
+     "show_name": "Gol Gana"
+    },
+    "capture_minutes": null
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "NssiC9pO80s",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "title": "CONSULTORIO DEL AMOR DE ROBERTO CON LOS NEUROPIBES | #DesdeElRespeto | COMPLETO 30/06 | VORTERIX",
+   "date": "20260630",
+   "iup": 82,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.356,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.623,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 2703,
+     "peak_concurrent": 3988
+    },
+    "conversation": {
+     "blocks": 12,
+     "blocks_with_signal": 12,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 37,
+     "sponsored": 0,
+     "organic": 32,
+     "productos_marcas": 24
+    },
+    "participation": {
+     "chat_engagement": 1.93,
+     "chat_noise": 0.05,
+     "chat_total": 1039
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 41.516666666666666
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "Pn8rwXS46KI",
+   "channel": "BLENDER",
+   "channel_id": "blend",
+   "title": "LOS AUDIOS QUE COMPROMETEN A ADORNI, JURÓ SANTILLI y NUEVO GIRO EN EL CASO AGOSTINA VEGA | QUÉ DÍA!",
+   "date": "20260630",
+   "iup": 82,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.484,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.0,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 5699,
+     "peak_concurrent": 5754
+    },
+    "conversation": {
+     "blocks": 12,
+     "blocks_with_signal": 12,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 30,
+     "sponsored": 0,
+     "organic": 24,
+     "productos_marcas": 23
+    },
+    "participation": {
+     "chat_engagement": null,
+     "chat_noise": null,
+     "note": "sin chat"
+    },
+    "format": {
+     "show_id": "que-dia",
+     "show_name": "Qué Día"
+    },
+    "capture_minutes": 74.68666666666668
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "l75dqnKslKI",
+   "channel": "GELATINA",
+   "channel_id": "gelatina",
+   "title": "QUÉ OLOR con Charo LÓPEZ, Noe CUSTODIO y Mili GOGGIA 2026-06-30 14:25",
+   "date": "20260630",
+   "iup": 82,
+   "tier": "alta",
+   "components": {
+    "capture": 0.85,
+    "audience": 0.387,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.976,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": false
+    },
+    "audience": {
+     "avg_concurrent": 3546,
+     "peak_concurrent": 3667
+    },
+    "conversation": {
+     "blocks": 10,
+     "blocks_with_signal": 10,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 27,
+     "sponsored": 2,
+     "organic": 23,
+     "productos_marcas": 20
+    },
+    "participation": {
+     "chat_engagement": 4.19,
+     "chat_noise": 0.06,
+     "chat_total": 104
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 1.1550000000000002
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "G48eCpGj41g",
+   "channel": "Bondi Live",
+   "channel_id": "bondi",
+   "title": "▶️ PROGRAMACIÓN COMPLETA 30/06 | BONDI LIVE",
+   "date": "20260630",
+   "iup": 81,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.839,
+    "conversation": 0.725,
+    "commercial": 1.0,
+    "participation": 0.035,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 21834,
+     "peak_concurrent": 39259
+    },
+    "conversation": {
+     "blocks": 6,
+     "blocks_with_signal": 3,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 9,
+     "sponsored": 0,
+     "organic": 7,
+     "productos_marcas": 5
+    },
+    "participation": {
+     "chat_engagement": 0.32,
+     "chat_noise": 0.18,
+     "chat_total": 2766
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 372.4583333333333
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "TR97_gAGOWE",
    "channel": "Cenital",
    "channel_id": "cenital",
@@ -2919,6 +3673,64 @@
    }
   },
   {
+   "video_id": "pL9wgMQaBp4",
+   "channel": "GELATINA",
+   "channel_id": "gelatina",
+   "title": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+   "date": "20260630",
+   "iup": 80,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.251,
+    "conversation": 0.89,
+    "commercial": 1.0,
+    "participation": 0.628,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 1450,
+     "peak_concurrent": 2302
+    },
+    "conversation": {
+     "blocks": 15,
+     "blocks_with_signal": 12,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 38,
+     "sponsored": 3,
+     "organic": 31,
+     "productos_marcas": 27
+    },
+    "participation": {
+     "chat_engagement": 1.92,
+     "chat_noise": 0.03,
+     "chat_total": 429
+    },
+    "format": {
+     "show_id": "demasiada-presion",
+     "show_name": "Demasiada Presión"
+    },
+    "capture_minutes": 138.09166666666667
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "EwFONN3W5cg",
    "channel": "Vorterix",
    "channel_id": "vorterix",
@@ -2966,6 +3778,64 @@
      "show_name": "Otros"
     },
     "capture_minutes": 230.46166666666664
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "SzjeK5nN-Q0",
+   "channel": "El Cronista",
+   "channel_id": "cronista",
+   "title": "ECONOMÍA DE MILEI: ¿CRECE O SE DESACELERA? | CUENTAS CLARAS EN VIVO",
+   "date": "20260630",
+   "iup": 79,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.23,
+    "conversation": 0.817,
+    "commercial": 1.0,
+    "participation": 0.752,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 1416,
+     "peak_concurrent": 1593
+    },
+    "conversation": {
+     "blocks": 9,
+     "blocks_with_signal": 6,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 28,
+     "sponsored": 0,
+     "organic": 13,
+     "productos_marcas": 26
+    },
+    "participation": {
+     "chat_engagement": 5.46,
+     "chat_noise": 0.62,
+     "chat_total": 657
+    },
+    "format": {
+     "show_id": "cuentas-claras",
+     "show_name": "Cuentas Claras"
+    },
+    "capture_minutes": 83.83333333333333
    },
    "weights": {
     "capture": 0.25,
@@ -3093,6 +3963,64 @@
    }
   },
   {
+   "video_id": "-msQ0nvgnnM",
+   "channel": "GELATINA",
+   "channel_id": "gelatina",
+   "title": "FILTRAN AUDIOS POLÉMICOS de ADORNI | Pedro ROSEMBLAT en INDUSTRIA NACIONAL",
+   "date": "20260630",
+   "iup": 78,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.581,
+    "conversation": 0.847,
+    "commercial": 1.0,
+    "participation": 0.075,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 8558,
+     "peak_concurrent": 9492
+    },
+    "conversation": {
+     "blocks": 18,
+     "blocks_with_signal": 13,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 57,
+     "sponsored": 6,
+     "organic": 33,
+     "productos_marcas": 56
+    },
+    "participation": {
+     "chat_engagement": 0.38,
+     "chat_noise": 0.13,
+     "chat_total": 593
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 37.0
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "0emroxvypsw",
    "channel": "Vorterix",
    "channel_id": "vorterix",
@@ -3140,6 +4068,64 @@
      "show_name": "Otros"
     },
     "capture_minutes": 85.15833333333333
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "1KdxLdm_3K0",
+   "channel": "Urbana Play 104.3 FM",
+   "channel_id": "urbana play 104.3 fm",
+   "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro",
+   "date": "20260701",
+   "iup": 78,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.72,
+    "conversation": 0.711,
+    "commercial": 1.0,
+    "participation": 0.091,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 13261,
+     "peak_concurrent": 24384
+    },
+    "conversation": {
+     "blocks": 19,
+     "blocks_with_signal": 9,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 30,
+     "sponsored": 11,
+     "organic": 20,
+     "productos_marcas": 40
+    },
+    "participation": {
+     "chat_engagement": 0.32,
+     "chat_noise": 0.04,
+     "chat_total": 4073
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 959.9066666666665
    },
    "weights": {
     "capture": 0.25,
@@ -3325,6 +4311,64 @@
    }
   },
   {
+   "video_id": "OxkLpj4c8Fw",
+   "channel": "El Cronista",
+   "channel_id": "cronista",
+   "title": "“LOS INDICADORES MUESTRAN UNA MEJORA”: La revelación sobre la ACTIVIDAD que hace festejar a MILEI",
+   "date": "20260630",
+   "iup": 77,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.252,
+    "conversation": 0.939,
+    "commercial": 1.0,
+    "participation": 0.597,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 1297,
+     "peak_concurrent": 2911
+    },
+    "conversation": {
+     "blocks": 9,
+     "blocks_with_signal": 8,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 25,
+     "sponsored": 0,
+     "organic": 19,
+     "productos_marcas": 13
+    },
+    "participation": {
+     "chat_engagement": 1.79,
+     "chat_noise": 0.0,
+     "chat_total": 51
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 16.459999999999997
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "WCdVYizlDYA",
    "channel": "OLGA",
    "channel_id": "olga",
@@ -3430,6 +4474,64 @@
      "show_name": "Otros"
     },
     "capture_minutes": 140.07000000000002
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "zwp0lZ6EONI",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "title": "EL AMIGO DE TU NOVIA VE PAREN LA MANO...| #ESTONOSUCEDIÓ COMPLETO - 30/06 | VORTERIX",
+   "date": "20260701",
+   "iup": 77,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.164,
+    "conversation": 0.835,
+    "commercial": 1.0,
+    "participation": 0.996,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 828,
+     "peak_concurrent": 1106
+    },
+    "conversation": {
+     "blocks": 10,
+     "blocks_with_signal": 7,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 34,
+     "sponsored": 2,
+     "organic": 23,
+     "productos_marcas": 29
+    },
+    "participation": {
+     "chat_engagement": 3.04,
+     "chat_noise": 0.01,
+     "chat_total": 297
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 74.94833333333332
    },
    "weights": {
     "capture": 0.25,
@@ -3604,6 +4706,64 @@
      "show_name": "Otros"
     },
     "capture_minutes": 121.53666666666666
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "Mbk0Mff3g0c",
+   "channel": "Neura Media",
+   "channel_id": "neura",
+   "title": "Ramón Agote y Mauro Fiorenzano en Cash is King: Alejo Rodríguez Cacio - 30/06",
+   "date": "20260630",
+   "iup": 75,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.032,
+    "conversation": 0.908,
+    "commercial": 1.0,
+    "participation": 1.0,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 120,
+     "peak_concurrent": 165
+    },
+    "conversation": {
+     "blocks": 6,
+     "blocks_with_signal": 5,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 42,
+     "sponsored": 1,
+     "organic": 15,
+     "productos_marcas": 45
+    },
+    "participation": {
+     "chat_engagement": 6.0,
+     "chat_noise": 0.0,
+     "chat_total": 49
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 66.875
    },
    "weights": {
     "capture": 0.25,
@@ -3905,6 +5065,64 @@
    }
   },
   {
+   "video_id": "gOUmUVtulaw",
+   "channel": "AHORA PLAY",
+   "channel_id": "ahoraplay",
+   "title": "LA NUEVA ETAPA DEL DÓLAR Y MORA RÉCORD I Carlos Burgueño, Agustina Girón #CierreDeMercados",
+   "date": "20260630",
+   "iup": 74,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.086,
+    "conversation": 0.954,
+    "commercial": 1.0,
+    "participation": 0.616,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 393,
+     "peak_concurrent": 420
+    },
+    "conversation": {
+     "blocks": 12,
+     "blocks_with_signal": 11,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 29,
+     "sponsored": 0,
+     "organic": 24,
+     "productos_marcas": 23
+    },
+    "participation": {
+     "chat_engagement": 49.16,
+     "chat_noise": 0.96,
+     "chat_total": 1275
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 40.84166666666667
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "7ON4ZA5TtHc",
    "channel": "Neura Media",
    "channel_id": "neura",
@@ -4126,6 +5344,64 @@
      "show_name": "Otros"
     },
     "capture_minutes": 105.85
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "O3EcIBl7Sh4",
+   "channel": "AHORA PLAY",
+   "channel_id": "ahoraplay",
+   "title": "¿AGUANTAN LAS PYMES? CON NICOLÁS GADANO | Diego Ponzio y Amilcar Collante #BitácoraPyme",
+   "date": "20260630",
+   "iup": 72,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.053,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.441,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 221,
+     "peak_concurrent": 256
+    },
+    "conversation": {
+     "blocks": 12,
+     "blocks_with_signal": 12,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 49,
+     "sponsored": 2,
+     "organic": 26,
+     "productos_marcas": 40
+    },
+    "participation": {
+     "chat_engagement": 1.43,
+     "chat_noise": 0.09,
+     "chat_total": 32
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 98.67333333333333
    },
    "weights": {
     "capture": 0.25,
@@ -7496,6 +8772,64 @@
    }
   },
   {
+   "video_id": "FQ2cHqcRZbQ",
+   "channel": " A U R A ",
+   "channel_id": "aura",
+   "title": "🔵 CHARLA SIN FILTRO con GRACIELA ALFANO en DE ACÁ 2026-06-30 10:10",
+   "date": "20260629",
+   "iup": 60,
+   "tier": "media",
+   "components": {
+    "capture": 0.85,
+    "audience": 0.091,
+    "conversation": 0.719,
+    "commercial": 0.5,
+    "participation": 0.632,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": false
+    },
+    "audience": {
+     "avg_concurrent": 405,
+     "peak_concurrent": 485
+    },
+    "conversation": {
+     "blocks": 1,
+     "blocks_with_signal": 1,
+     "top_temas": 3
+    },
+    "commercial": {
+     "brand_mentions": 2,
+     "sponsored": 0,
+     "organic": 1,
+     "productos_marcas": 2
+    },
+    "participation": {
+     "chat_engagement": 38.92,
+     "chat_noise": 0.92,
+     "chat_total": 1844
+    },
+    "format": {
+     "show_id": "de-aca",
+     "show_name": "De Acá"
+    },
+    "capture_minutes": 114.15
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "aeyaHqA4ByI",
    "channel": "LUZU TV",
    "channel_id": "luzu",
@@ -8267,37 +9601,37 @@
   {
    "channel_id": "blend",
    "channel": "BLENDER",
-   "programs": 6,
-   "iup_avg": 84.2,
-   "iup_median": 85,
-   "tier_alta": 6,
-   "tier_insuficiente": 0
-  },
-  {
-   "channel_id": "gelatina",
-   "channel": "GELATINA",
-   "programs": 3,
-   "iup_avg": 82.3,
-   "iup_median": 79,
-   "tier_alta": 3,
+   "programs": 7,
+   "iup_avg": 83.9,
+   "iup_median": 83,
+   "tier_alta": 7,
    "tier_insuficiente": 0
   },
   {
    "channel_id": "vorterix",
    "channel": "Vorterix",
-   "programs": 11,
-   "iup_avg": 81.6,
+   "programs": 14,
+   "iup_avg": 82.0,
    "iup_median": 82,
-   "tier_alta": 11,
+   "tier_alta": 14,
+   "tier_insuficiente": 0
+  },
+  {
+   "channel_id": "gelatina",
+   "channel": "GELATINA",
+   "programs": 6,
+   "iup_avg": 81.2,
+   "iup_median": 80,
+   "tier_alta": 6,
    "tier_insuficiente": 0
   },
   {
    "channel_id": "bondi",
    "channel": "Bondi Live",
-   "programs": 1,
+   "programs": 2,
    "iup_avg": 81.0,
    "iup_median": 81,
-   "tier_alta": 1,
+   "tier_alta": 2,
    "tier_insuficiente": 0
   },
   {
@@ -8319,73 +9653,73 @@
    "tier_insuficiente": 0
   },
   {
-   "channel_id": "aura",
-   "channel": " A U R A ",
-   "programs": 2,
-   "iup_avg": 75.5,
+   "channel_id": "cronista",
+   "channel": "El Cronista",
+   "programs": 3,
+   "iup_avg": 76.3,
    "iup_median": 77,
+   "tier_alta": 3,
+   "tier_insuficiente": 0
+  },
+  {
+   "channel_id": "urbana play 104.3 fm",
+   "channel": "Urbana Play 104.3 FM",
+   "programs": 2,
+   "iup_avg": 76.0,
+   "iup_median": 78,
    "tier_alta": 2,
    "tier_insuficiente": 0
   },
   {
    "channel_id": "ahoraplay",
    "channel": "AHORA PLAY",
-   "programs": 2,
-   "iup_avg": 75.0,
-   "iup_median": 76,
-   "tier_alta": 2,
-   "tier_insuficiente": 0
-  },
-  {
-   "channel_id": "urbana play 104.3 fm",
-   "channel": "Urbana Play 104.3 FM",
-   "programs": 1,
+   "programs": 4,
    "iup_avg": 74.0,
    "iup_median": 74,
-   "tier_alta": 1,
-   "tier_insuficiente": 0
-  },
-  {
-   "channel_id": "cronista",
-   "channel": "El Cronista",
-   "programs": 1,
-   "iup_avg": 73.0,
-   "iup_median": 73,
-   "tier_alta": 1,
-   "tier_insuficiente": 0
-  },
-  {
-   "channel_id": "neura",
-   "channel": "Neura Media",
-   "programs": 8,
-   "iup_avg": 71.9,
-   "iup_median": 73,
-   "tier_alta": 7,
+   "tier_alta": 4,
    "tier_insuficiente": 0
   },
   {
    "channel_id": "luzu",
    "channel": "LUZU TV",
-   "programs": 53,
-   "iup_avg": 71.7,
+   "programs": 57,
+   "iup_avg": 73.1,
    "iup_median": 61,
-   "tier_alta": 19,
+   "tier_alta": 23,
+   "tier_insuficiente": 0
+  },
+  {
+   "channel_id": "neura",
+   "channel": "Neura Media",
+   "programs": 9,
+   "iup_avg": 72.2,
+   "iup_median": 73,
+   "tier_alta": 8,
    "tier_insuficiente": 0
   },
   {
    "channel_id": "olga",
    "channel": "OLGA",
-   "programs": 51,
-   "iup_avg": 71.0,
+   "programs": 55,
+   "iup_avg": 72.2,
    "iup_median": 61,
-   "tier_alta": 19,
+   "tier_alta": 23,
+   "tier_insuficiente": 0
+  },
+  {
+   "channel_id": "aura",
+   "channel": " A U R A ",
+   "programs": 3,
+   "iup_avg": 70.3,
+   "iup_median": 74,
+   "tier_alta": 2,
    "tier_insuficiente": 0
   }
  ],
  "totals": {
-  "programs": 141,
-  "tier_alta": 74,
-  "tier_media": 67,
+  "programs": 164,
+  "tier_alta": 96,
+  "tier_media": 68,
   "tier_baja": 0,
   "tier_insuficiente": 0
  }

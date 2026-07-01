@@ -1,5 +1,147 @@
 {
  "by_video": {
+  "-msQ0nvgnnM": {
+   "video_id": "-msQ0nvgnnM",
+   "channel_id": "gelatina",
+   "channel": "GELATINA",
+   "title": "FILTRAN AUDIOS POLÉMICOS de ADORNI | Pedro ROSEMBLAT en INDUSTRIA NACIONAL",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Partido Paraguay Vs Alemania",
+     "score": 3
+    },
+    {
+     "tema": "Paraguay En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Copa Del Mundo Paraguay 2024",
+     "score": 3
+    },
+    {
+     "tema": "Triunfo De Paraguay En Copa América",
+     "score": 3
+    },
+    {
+     "tema": "Selección Paraguaya - Clasificación",
+     "score": 3
+    },
+    {
+     "tema": "Caso Judicial De Manuel Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Audios Filtrados Del Gobierno",
+     "score": 3
+    },
+    {
+     "tema": "Caso Judicial Adorni-tabar",
+     "score": 3
+    },
+    {
+     "tema": "Audios Filtrados Y Secreto De Sumario",
+     "score": 3
+    },
+    {
+     "tema": "Escándalo Futbolista Y Audios Racistas",
+     "score": 3
+    },
+    {
+     "tema": "Jura De Diego Santilli Como Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Interna Gubernamental Y Poder De Karina Milei",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 50
+    },
+    {
+     "categoria": "persona",
+     "score": 39
+    },
+    {
+     "categoria": "cultura",
+     "score": 31
+    },
+    {
+     "categoria": "otro",
+     "score": 25
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 16
+    },
+    {
+     "categoria": "producto",
+     "score": 10
+    },
+    {
+     "categoria": "salud",
+     "score": 2
+    },
+    {
+     "categoria": "lugar",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Partido Paraguay Vs Alemania",
+     "categoria": "actividad",
+     "contexto": "Paraguay eliminó a Alemania por penales en un partido electrizante",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Relaciones Regionales Argentina-paraguay",
+     "categoria": "cultura",
+     "contexto": "Discusión sobre la relación de amor correspondida entre argentinos y paraguayos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Rivalidades Futbolísticas Regionales",
+     "categoria": "actividad",
+     "contexto": "Comparación de relaciones con Perú, Uruguay y Chile en contexto futbolístico",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Fútbol - Brasil Vs Japón",
+     "categoria": "actividad",
+     "contexto": "Interrumpción de entrevista a John Hernández por partido Brasil-Japón que estaba 1-1, Brasil ganó 2-1",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Inteligencia Artificial",
+     "categoria": "tecnologia",
+     "contexto": "Entrevista a John Hernández, divulgador de IA número uno en español",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Paraguay En El Mundial",
+     "categoria": "actividad",
+     "contexto": "Paraguay eliminó a Alemania en octavos por penales, análisis de su desempeño y cultura",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Alemania - Desempeño En El Mundial",
+     "categoria": "actividad",
+     "contexto": "Análisis de fracaso alemán: 2014 ganó, 2018 fase grupos, 2022 eliminada por Paraguay",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Gustavo Alfaro - Técnico Paraguayo",
+     "categoria": "persona",
+     "contexto": "Análisis de carrera del técnico, sus equipos dirigidos, posible invitación al programa",
+     "minute": "0:10"
+    }
+   ]
+  },
   "04q2g0UfdyA": {
    "video_id": "04q2g0UfdyA",
    "channel_id": "neura",
@@ -138,6 +280,148 @@
      "tema": "Desempeño De Jugador En Mundial",
      "categoria": "actividad",
      "contexto": "Elogio a Friobani Lopecho, contexto de tres procesos mundialistas",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "0NuPTgKW5mc": {
+   "video_id": "0NuPTgKW5mc",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "#ANTESQUENADIE | AHHH TIRABA ESA: EL LEVANTE DE DIEGO Y ¿LAS SEÑORAS SABEN DE FÚTBOL?",
+   "show_id": "aqn",
+   "show_name": "Antes Que Nadie",
+   "top_temas": [
+    {
+     "tema": "Clima Y Temperatura",
+     "score": 4
+    },
+    {
+     "tema": "Rutina De Ejercicios Matutina",
+     "score": 3
+    },
+    {
+     "tema": "Terremoto En Venezuela",
+     "score": 3
+    },
+    {
+     "tema": "Copa Mundial De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Copa Del Mundo Qatar 2022",
+     "score": 3
+    },
+    {
+     "tema": "Paraná Como Destino Turístico",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol - Paraguay Vs Alemania",
+     "score": 3
+    },
+    {
+     "tema": "Salud - Contracturas Y Dolor Muscular",
+     "score": 3
+    },
+    {
+     "tema": "Audiciones Y Castings Para Musicales",
+     "score": 3
+    },
+    {
+     "tema": "Comedia Musical Como Género",
+     "score": 3
+    },
+    {
+     "tema": "Penales En El Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 74
+    },
+    {
+     "categoria": "actividad",
+     "score": 72
+    },
+    {
+     "categoria": "otro",
+     "score": 23
+    },
+    {
+     "categoria": "salud",
+     "score": 19
+    },
+    {
+     "categoria": "persona",
+     "score": 17
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 11
+    },
+    {
+     "categoria": "lugar",
+     "score": 9
+    },
+    {
+     "categoria": "comida",
+     "score": 6
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Rutina De Ejercicios Matutina",
+     "categoria": "actividad",
+     "contexto": "Programa de fitness con ejercicios de movilidad, estocadas y movimientos funcionales para hacer en casa o el trabajo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Postura Y Flexibilidad",
+     "categoria": "salud",
+     "contexto": "Se menciona mejorar la postura, fuerza, flexibilidad y movilidad con ejercicios simples",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Importancia Del Sueño",
+     "categoria": "salud",
+     "contexto": "Se destaca que dormir es muy importante, dormir a la mañana y a la noche",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Accesibilidad Del Entrenamiento",
+     "categoria": "actividad",
+     "contexto": "Solo necesitan peso corporal, una lonita, 5-10 minutos, pueden hacerlo en casa o el trabajo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ejercicio Físico Y Entrenamiento",
+     "categoria": "actividad",
+     "contexto": "Momi realiza series de ejercicios (angelitos, repeticiones) durante el programa mientras conversan sobre entrenamiento",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Suplementación Deportiva",
+     "categoria": "salud",
+     "contexto": "Se habla sobre creatina y suplementos para recuperación y energía en entrenamientos",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Astrología Y Retrogradar De Mercurio",
+     "categoria": "cultura",
+     "contexto": "Bebela comenta sobre la luna en Capricornio y cómo Mercurio retrógrado afecta las comunicaciones y emociones",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Trivia Educativa",
+     "categoria": "actividad",
+     "contexto": "Se realizan preguntas de geografía, química, historia, gramática, matemática y artes plásticas",
      "minute": "0:10"
     }
    ]
@@ -281,6 +565,144 @@
      "categoria": "producto",
      "contexto": "Mención de casaca de regalo de Blondel, timbos de Adidas, camisetas de Leopoldo Liu",
      "minute": "0:20"
+    }
+   ]
+  },
+  "1KdxLdm_3K0": {
+   "video_id": "1KdxLdm_3K0",
+   "channel_id": "urbana-play-104.3-fm",
+   "channel": "Urbana Play 104.3 FM",
+   "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Relación Histórica México-ecuador",
+     "score": 4
+    },
+    {
+     "tema": "Estafas En Compras Online",
+     "score": 3
+    },
+    {
+     "tema": "Administración De Consorcios Y Estafas",
+     "score": 3
+    },
+    {
+     "tema": "Estafas Románticas Online",
+     "score": 3
+    },
+    {
+     "tema": "Táctica De Ecuador Contra México En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño De Ecuador En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Hazaña De Paraguay Contra Alemania",
+     "score": 3
+    },
+    {
+     "tema": "Estafas En Administración De Consorcios",
+     "score": 3
+    },
+    {
+     "tema": "Incidente México-ecuador En Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Paraguay Vs Alemania - Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Partido Argentina Vs Cabo Verde",
+     "score": 3
+    },
+    {
+     "tema": "Copa Mundial 2026",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 43
+    },
+    {
+     "categoria": "cultura",
+     "score": 20
+    },
+    {
+     "categoria": "otro",
+     "score": 19
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 14
+    },
+    {
+     "categoria": "comida",
+     "score": 6
+    },
+    {
+     "categoria": "persona",
+     "score": 3
+    },
+    {
+     "categoria": "lugar",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Estafas En Compras Online",
+     "categoria": "actividad",
+     "contexto": "Dani relata cómo fue estafada comprando una cuenta compartida de Netflix en Facebook Marketplace durante la pandemia por 600 pesos",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Netflix - Cuentas Compartidas",
+     "categoria": "tecnologia",
+     "contexto": "Se discute la práctica de alquilar o compartir cuentas de Netflix en pandemia a través de Marketplace",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Facebook Marketplace",
+     "categoria": "tecnologia",
+     "contexto": "Se advierte sobre los peligros de comprar en Marketplace de Facebook, especialmente productos digitales",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Estafas Con Camisetas De Fútbol",
+     "categoria": "comida",
+     "contexto": "Un entrevistado cuenta que fue estafado comprando camisetas de fútbol a través de Instagram a un proveedor argentino",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Seguridad En Compras Por Internet",
+     "categoria": "actividad",
+     "contexto": "Se enfatiza no comprar en Marketplace y preferir páginas oficiales para evitar estafas",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Walmart",
+     "categoria": "lugar",
+     "contexto": "Se menciona Walmart como opción de compra más económica que lugares turísticos",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Administración De Consorcios Y Estafas",
+     "categoria": "otro",
+     "contexto": "Una vecina de La Plata relata problemas con su administradora Mónica: cobranza irregular, falta de transparencia en gastos, incumplimiento de garantías y dificultad para convocar asambleas",
+     "minute": "0:30"
+    },
+    {
+     "tema": "Estafas Románticas Online",
+     "categoria": "otro",
+     "contexto": "Diego del banco cuenta casos de gente estafada por perfiles falsos de celebridades (Elon Musk, Brad Pitt) que piden dinero bajo pretextos románticos",
+     "minute": "0:30"
     }
    ]
   },
@@ -1117,6 +1539,148 @@
      "categoria": "otro",
      "contexto": "Cristian obtuvo ciudadanía italiana tras vivir en Italia",
      "minute": "0:30"
+    }
+   ]
+  },
+  "43pRPuCeYcw": {
+   "video_id": "43pRPuCeYcw",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "#PATRIAYFAMILIA l NOS VAMOS DE GIRA A TUCUMÁN Y EL PURRE SE DRAGUEA",
+   "show_id": "patria",
+   "show_name": "Patria y Familia",
+   "top_temas": [
+    {
+     "tema": "Gastronomía Tucumana",
+     "score": 5
+    },
+    {
+     "tema": "Viaje Sorpresa A Destino Nacional",
+     "score": 3
+    },
+    {
+     "tema": "Peluches Compartidos En Relaciones",
+     "score": 3
+    },
+    {
+     "tema": "Romanticismo Y Expresión De Afecto",
+     "score": 3
+    },
+    {
+     "tema": "Drag Y Evolución Personal",
+     "score": 3
+    },
+    {
+     "tema": "Conflicto Con Madres Drag",
+     "score": 3
+    },
+    {
+     "tema": "Drag Y Preparación De Personajes",
+     "score": 3
+    },
+    {
+     "tema": "Proyecto Musical Eufórica",
+     "score": 3
+    },
+    {
+     "tema": "Boxeo Y Entrenamiento",
+     "score": 3
+    },
+    {
+     "tema": "Gira 'patria Y Familia' A Tucumán",
+     "score": 3
+    },
+    {
+     "tema": "Relación Antoine Y Tucumano Hot",
+     "score": 3
+    },
+    {
+     "tema": "Productos De Belleza Labial",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 41
+    },
+    {
+     "categoria": "actividad",
+     "score": 35
+    },
+    {
+     "categoria": "persona",
+     "score": 18
+    },
+    {
+     "categoria": "lugar",
+     "score": 14
+    },
+    {
+     "categoria": "producto",
+     "score": 14
+    },
+    {
+     "categoria": "otro",
+     "score": 12
+    },
+    {
+     "categoria": "comida",
+     "score": 5
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Viaje Sorpresa A Destino Nacional",
+     "categoria": "actividad",
+     "contexto": "Se revela que el equipo irá a un destino nacional el 1 de agosto cuyo nombre está en un sobre sellado",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Invitación De El Purre A Patria Y Familia",
+     "categoria": "persona",
+     "contexto": "El Purre visita el programa por primera vez, hay broma sobre si había sido invitado antes",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Miedo Al Papelón En Pasapalabra",
+     "categoria": "actividad",
+     "contexto": "Purre confiesa que le da miedo participar en Pasapalabra por temor a quedar mal",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Meme De Valeria Massa",
+     "categoria": "cultura",
+     "contexto": "Se discute el viral de Valeria Massa sobre metabolismo y disciplina que se convirtió en meme de redes",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Reemplazo De Juli Castro",
+     "categoria": "persona",
+     "contexto": "Se especula en redes que El Purre reemplazará a Juli Castro en números coreográficos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Memes De Valeria Massa",
+     "categoria": "cultura",
+     "contexto": "Discusión sobre memes virales de la política argentina, especialmente de Valeria Massa, que se convirtieron en tendencia en redes sociales",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Viaje A San Martín De Los Andes",
+     "categoria": "lugar",
+     "contexto": "Anécdota del conductor sobre su fin de semana con sus padres en San Martín de los Andes, incluyendo trekking y contenido para redes",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Cumpleaños Del Padre",
+     "categoria": "persona",
+     "contexto": "El viaje fue un regalo para el cumpleaños número 70 del padre del conductor",
+     "minute": "0:10"
     }
    ]
   },
@@ -2682,6 +3246,58 @@
     }
    ]
   },
+  "FQ2cHqcRZbQ": {
+   "video_id": "FQ2cHqcRZbQ",
+   "channel_id": "aura",
+   "channel": " A U R A ",
+   "title": "🔵 CHARLA SIN FILTRO con GRACIELA ALFANO en DE ACÁ 2026-06-30 10:10",
+   "show_id": "de-aca",
+   "show_name": "De Acá",
+   "top_temas": [
+    {
+     "tema": "Anécdota Con El Potro Y La Potra",
+     "score": 2
+    },
+    {
+     "tema": "Consejos De Relaciones",
+     "score": 2
+    },
+    {
+     "tema": "Música En Vivo",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 4
+    },
+    {
+     "categoria": "persona",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Anécdota Con El Potro Y La Potra",
+     "categoria": "persona",
+     "contexto": "Se relata una historia sobre una tapa con El Potro y La Potra donde hubo tensión y Beto Cacel los escuchó escondido",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Consejos De Relaciones",
+     "categoria": "actividad",
+     "contexto": "Mención de consejos intelectuales, sexuales y vinculares, referencia a 'el consejo de la tía Grace'",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Música En Vivo",
+     "categoria": "actividad",
+     "contexto": "Cierre del bloque con una canción en vivo del artista, transición musical",
+     "minute": "0:00"
+    }
+   ]
+  },
   "FYdwwoHNrMs": {
    "video_id": "FYdwwoHNrMs",
    "channel_id": "vorterix",
@@ -2821,6 +3437,136 @@
      "categoria": "persona",
      "contexto": "Valoración de conferencias de Beca y Alfaro, comparación de estilos y presencia",
      "minute": "0:20"
+    }
+   ]
+  },
+  "G48eCpGj41g": {
+   "video_id": "G48eCpGj41g",
+   "channel_id": "bondi",
+   "channel": "Bondi Live",
+   "title": "▶️ PROGRAMACIÓN COMPLETA 30/06 | BONDI LIVE",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Gran Hermano Argentina - Dinámica De Juego",
+     "score": 3
+    },
+    {
+     "tema": "Eliminación De Nenu",
+     "score": 3
+    },
+    {
+     "tema": "Pseudociencias Y Responsabilidad Mediática",
+     "score": 3
+    },
+    {
+     "tema": "Dinámicas De Convivencia En Gran Hermano",
+     "score": 3
+    },
+    {
+     "tema": "Relación Entre Sili Y Mariela",
+     "score": 3
+    },
+    {
+     "tema": "Peligro De Placa De Sili",
+     "score": 3
+    },
+    {
+     "tema": "Explosión De Fuente De Vidrio",
+     "score": 3
+    },
+    {
+     "tema": "Campanita - Fuerza Del Jugador",
+     "score": 2
+    },
+    {
+     "tema": "Placa De Nominación Múltiple",
+     "score": 2
+    },
+    {
+     "tema": "Análisis De Jugadores En Riesgo",
+     "score": 2
+    },
+    {
+     "tema": "Votación Y Empatía En Gran Hermano",
+     "score": 2
+    },
+    {
+     "tema": "Drama Post-explosión Y Conflictos",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 23
+    },
+    {
+     "categoria": "persona",
+     "score": 9
+    },
+    {
+     "categoria": "cultura",
+     "score": 6
+    },
+    {
+     "categoria": "otro",
+     "score": 3
+    },
+    {
+     "categoria": "salud",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Gran Hermano Argentina - Dinámica De Juego",
+     "categoria": "actividad",
+     "contexto": "Análisis detallado de la casa, conflictos entre mujeres, estrategias de juego y jugadores",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Eliminación De Nenu",
+     "categoria": "actividad",
+     "contexto": "Nenu fue eliminada con 55.8% de los votos contra Campanita",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Campanita - Fuerza Del Jugador",
+     "categoria": "persona",
+     "contexto": "Debate sobre si Campanita es realmente fuerte o solo pasó versus particulares",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Pseudociencias Y Responsabilidad Mediática",
+     "categoria": "cultura",
+     "contexto": "Crítica a Marce Tauro por justificar abuso/violación con biodecodificación y constelaciones",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Placa De Nominación Múltiple",
+     "categoria": "actividad",
+     "contexto": "19 jugadores en placa, se espera bajen 10-12 jugadores en próximos días",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Análisis De Jugadores En Riesgo",
+     "categoria": "persona",
+     "contexto": "Evaluación de jugadores comprometidos: Mariela, Hansen, JC, Nigro, Luana",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cumbre Doble Con Santiago Del Moro",
+     "categoria": "actividad",
+     "contexto": "Anuncio de doble cumbre: lunes con eliminado y miércoles post-nominación",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Paraguay - Victoria En Fútbol",
+     "categoria": "cultura",
+     "contexto": "Mención casual de Paraguay ganando a Alemania, celebración en la casa",
+     "minute": "0:00"
     }
    ]
   },
@@ -3676,6 +4422,148 @@
     }
    ]
   },
+  "KSHRnYRkhNI": {
+   "video_id": "KSHRnYRkhNI",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
+   "show_id": "gol-gana",
+   "show_name": "Gol Gana",
+   "top_temas": [
+    {
+     "tema": "Análisis De Paridad En El Fútbol Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño De Selecciones (colombia, Paraguay, Uruguay, España)",
+     "score": 3
+    },
+    {
+     "tema": "Selección Argentina Vs Cabo Verde",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño De Argentina En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Análisis De Equipos Para El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Análisis De Penales En El Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Camisetas De Fútbol Del Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Formación De Equipos Y Selección De Jugadores",
+     "score": 3
+    },
+    {
+     "tema": "Diferencia De Nivel Entre Ex Jugadores Y Aficionados",
+     "score": 3
+    },
+    {
+     "tema": "Carrera Futbolística De Papu Gómez",
+     "score": 3
+    },
+    {
+     "tema": "Escándalo De Brujería En La Selección Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Conflicto De Papu Gómez Con Messi Y La Selección",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 83
+    },
+    {
+     "categoria": "persona",
+     "score": 35
+    },
+    {
+     "categoria": "cultura",
+     "score": 19
+    },
+    {
+     "categoria": "lugar",
+     "score": 10
+    },
+    {
+     "categoria": "salud",
+     "score": 8
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 4
+    },
+    {
+     "categoria": "comida",
+     "score": 4
+    },
+    {
+     "categoria": "producto",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Análisis De Paridad En El Fútbol Mundial",
+     "categoria": "actividad",
+     "contexto": "Debate sobre cómo se ha emparejado el nivel entre equipos europeos, sudamericanos y africanos en el Mundial",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Desempeño De Selecciones (colombia, Paraguay, Uruguay, España)",
+     "categoria": "actividad",
+     "contexto": "Análisis detallado de partidos específicos y rendimiento de equipos nacionales",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Partido Costa De Marfil Vs Noruega",
+     "categoria": "actividad",
+     "contexto": "Se menciona como partido impresionante que vieron los conductores",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Clima Y Condiciones En Miami",
+     "categoria": "lugar",
+     "contexto": "Flavio comenta desde Miami sobre el clima vs invierno en Argentina",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mejora De Infraestructuras Deportivas En El Mundo",
+     "categoria": "tecnologia",
+     "contexto": "Se discute cómo las federaciones han invertido en gimnasios y recursos para equipos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cobertura Del Mundial",
+     "categoria": "actividad",
+     "contexto": "Los conductores expresan motivación por cubrir el torneo desde el exterior",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Pensamientos Intrusivos Y Ansiedad",
+     "categoria": "salud",
+     "contexto": "Se discute sobre pensamientos intrusivos que pueden tener mientras se está en un balcón o esperando el subte, y cómo la terapia ayuda a entenderlos",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Selección Argentina Vs Cabo Verde",
+     "categoria": "actividad",
+     "contexto": "Análisis futbolístico detallado sobre las posibilidades de que Argentina pierda contra Cabo Verde en los 16 de final del Mundial",
+     "minute": "0:10"
+    }
+   ]
+  },
   "KoYLJOd9qyo": {
    "video_id": "KoYLJOd9qyo",
    "channel_id": "luzu",
@@ -4095,6 +4983,148 @@
      "categoria": "actividad",
      "contexto": "Anécdotas sobre llevar vino y cerveza a cines, ahora se vende cerveza directamente",
      "minute": "0:30"
+    }
+   ]
+  },
+  "Mbk0Mff3g0c": {
+   "video_id": "Mbk0Mff3g0c",
+   "channel_id": "neura",
+   "channel": "Neura Media",
+   "title": "Ramón Agote y Mauro Fiorenzano en Cash is King: Alejo Rodríguez Cacio - 30/06",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Mercado De Capitales Argentino",
+     "score": 8
+    },
+    {
+     "tema": "Industria De Asset Management En Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Fondos Comunes De Inversión",
+     "score": 3
+    },
+    {
+     "tema": "Fal (fondos De Asistencia Laboral)",
+     "score": 3
+    },
+    {
+     "tema": "Fal (fondos De Ahorro Para El Trabajo)",
+     "score": 3
+    },
+    {
+     "tema": "Inversión En Activos Argentinos",
+     "score": 3
+    },
+    {
+     "tema": "Mercado De Bonos Y Renta Variable En Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Superávit Fiscal Argentino",
+     "score": 3
+    },
+    {
+     "tema": "Private Lending Y Sgr",
+     "score": 3
+    },
+    {
+     "tema": "Crédito Privado Al Sector Productivo",
+     "score": 3
+    },
+    {
+     "tema": "Sgr (sociedades De Garantía Recíproca)",
+     "score": 3
+    },
+    {
+     "tema": "Mercado De Capitales Argentina",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "producto",
+     "score": 37
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 20
+    },
+    {
+     "categoria": "actividad",
+     "score": 12
+    },
+    {
+     "categoria": "economia",
+     "score": 4
+    },
+    {
+     "categoria": "cultura",
+     "score": 4
+    },
+    {
+     "categoria": "otro",
+     "score": 3
+    },
+    {
+     "categoria": "lugar",
+     "score": 2
+    },
+    {
+     "categoria": "persona",
+     "score": 1
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Industria De Asset Management En Argentina",
+     "categoria": "tecnologia",
+     "contexto": "Discusión sobre cómo ha evolucionado la industria de gestión de dinero, ALICs, sociedades de bolsa y fondos comunes de inversión en Argentina",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mercado De Capitales Argentino",
+     "categoria": "actividad",
+     "contexto": "Análisis del desarrollo del mercado de capitales local, comparación con regiones, expectativas con el gobierno de Milei",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Historia De Conosur Inversiones",
+     "categoria": "lugar",
+     "contexto": "Ramón Agote cuenta cómo arrancó la empresa en 2016, decisión de entrar al mercado local desde offshore",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Transformación Digital Y Tecnológica En Finanzas",
+     "categoria": "tecnologia",
+     "contexto": "Se menciona cómo la tecnología ha migrado la industria de asset management",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Relaciones Académico-profesionales",
+     "categoria": "persona",
+     "contexto": "Anécdotas sobre alumnos que se convirtieron en colegas, como Joel Weissman y Juan Mogarín",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Inflación Y Estabilidad Macroeconómica",
+     "categoria": "economia",
+     "contexto": "Discusión sobre la normalización de Argentina como país, inflación de un dígito vs inflación histórica",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mercado De Capitales Argentino",
+     "categoria": "tecnologia",
+     "contexto": "Discusión sobre cómo el mercado de capitales debe conectar ahorro e inversión, y su desarrollo actual en Argentina",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Emisiones De Obligaciones Negociables (on)",
+     "categoria": "producto",
+     "contexto": "Aumento de emisiones de ON y ON pymes como herramienta de financiación empresarial",
+     "minute": "0:10"
     }
    ]
   },
@@ -4742,6 +5772,290 @@
     }
    ]
   },
+  "NssiC9pO80s": {
+   "video_id": "NssiC9pO80s",
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "title": "CONSULTORIO DEL AMOR DE ROBERTO CON LOS NEUROPIBES | #DesdeElRespeto | COMPLETO 30/06 | VORTERIX",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Problemas Técnicos De Audio En Móvil",
+     "score": 3
+    },
+    {
+     "tema": "Barrio Chino De Buenos Aires",
+     "score": 3
+    },
+    {
+     "tema": "Comida China",
+     "score": 3
+    },
+    {
+     "tema": "Copa Mundial De Fútbol 2026",
+     "score": 3
+    },
+    {
+     "tema": "Copa Del Mundo - Análisis De Favoritos",
+     "score": 3
+    },
+    {
+     "tema": "Crítica A Técnico Alfaro",
+     "score": 3
+    },
+    {
+     "tema": "Fichajes Para Boca",
+     "score": 3
+    },
+    {
+     "tema": "Scouting De Jugadores Para Boca",
+     "score": 3
+    },
+    {
+     "tema": "Relaciones Y Sexualidad",
+     "score": 3
+    },
+    {
+     "tema": "Búsqueda De Pareja A Los 34",
+     "score": 3
+    },
+    {
+     "tema": "Cursos Y Actividades Sociales",
+     "score": 3
+    },
+    {
+     "tema": "Soledad Y Relaciones Personales",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 47
+    },
+    {
+     "categoria": "otro",
+     "score": 20
+    },
+    {
+     "categoria": "persona",
+     "score": 16
+    },
+    {
+     "categoria": "cultura",
+     "score": 14
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 13
+    },
+    {
+     "categoria": "lugar",
+     "score": 11
+    },
+    {
+     "categoria": "salud",
+     "score": 9
+    },
+    {
+     "categoria": "comida",
+     "score": 8
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Condiciones Climáticas En Miami",
+     "categoria": "lugar",
+     "contexto": "Mínimo 35-36 grados, húmedo y pesado, el calor transmite en la transmisión",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Transmisión Técnica Y Audio",
+     "categoria": "tecnologia",
+     "contexto": "Problemas con micrófono en auricular, delay, conectividad desde Miami",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Hotel Pelican En Miami",
+     "categoria": "lugar",
+     "contexto": "Hotel famoso donde están transmitiendo, la gente se saca fotos, lugar turístico",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Costo De Sombrillas En Playa",
+     "categoria": "otro",
+     "contexto": "Hotel cobra 27 dólares diarios por sombrilla, consideran abuso por uso de 45 minutos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cuidado De Lentes Ray-ban",
+     "categoria": "otro",
+     "contexto": "Joaquín tiene protocolo de limpieza antes y después de uso de sus lentes Ray-Ban",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Apariencia Física Y Envejecimiento",
+     "categoria": "salud",
+     "contexto": "Menciones sobre papada, paso del tiempo agresivo, primer plano a la papada",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Problemas Técnicos De Audio En Móvil",
+     "categoria": "tecnologia",
+     "contexto": "Dificultades con micrófonos y auriculares durante transmisión desde hotel con tres personas",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Dinámicas Grupales Y Roles En Equipo",
+     "categoria": "otro",
+     "contexto": "Análisis de cómo Joaquín intenta resolver problemas y la teoría de roles en grupos cuando falta un miembro",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "O3EcIBl7Sh4": {
+   "video_id": "O3EcIBl7Sh4",
+   "channel_id": "ahoraplay",
+   "channel": "AHORA PLAY",
+   "title": "¿AGUANTAN LAS PYMES? CON NICOLÁS GADANO | Diego Ponzio y Amilcar Collante #BitácoraPyme",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Inteligencia Artificial En Educación",
+     "score": 6
+    },
+    {
+     "tema": "Economía Post-mundial Y Situación De Pymes",
+     "score": 3
+    },
+    {
+     "tema": "Tipo De Cambio Y Dólar",
+     "score": 3
+    },
+    {
+     "tema": "Riesgo País Y Tasas De Deuda",
+     "score": 3
+    },
+    {
+     "tema": "Financiamiento 2026-2027",
+     "score": 3
+    },
+    {
+     "tema": "Morosidad Y Crédito Privado",
+     "score": 3
+    },
+    {
+     "tema": "Crédito Y Acceso Al Financiamiento",
+     "score": 3
+    },
+    {
+     "tema": "Inflación Y Desinflación",
+     "score": 3
+    },
+    {
+     "tema": "Actividad Económica (emae)",
+     "score": 3
+    },
+    {
+     "tema": "Heterogeneidad Sectorial",
+     "score": 3
+    },
+    {
+     "tema": "Indicadores De Consumo",
+     "score": 3
+    },
+    {
+     "tema": "Comercialización De Granos Y Soja",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 48
+    },
+    {
+     "categoria": "otro",
+     "score": 39
+    },
+    {
+     "categoria": "economia",
+     "score": 39
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 24
+    },
+    {
+     "categoria": "producto",
+     "score": 15
+    },
+    {
+     "categoria": "salud",
+     "score": 10
+    },
+    {
+     "categoria": "educacion",
+     "score": 9
+    },
+    {
+     "categoria": "lugar",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Economía Post-mundial Y Situación De Pymes",
+     "categoria": "otro",
+     "contexto": "Análisis central del programa sobre si las PYMES argentinas aguantan el período post-mundial",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Emae Y Actividad Económica",
+     "categoria": "otro",
+     "contexto": "Datos de actividad económica mostraron un cerrucho negativo en abril vs marzo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Desinflación Y Tasa De Inflación",
+     "categoria": "otro",
+     "contexto": "Línea descendente de inflación, junio arrancaría con 1% largo pero ocasionalmente rompe el 2%",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Acumulación De Reservas Del Banco Central",
+     "categoria": "otro",
+     "contexto": "Aflojó bastante el ritmo de acumulación, puede llegar a juntar más de 14 mil millones",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Tipo De Cambio Y Dólar",
+     "categoria": "otro",
+     "contexto": "Dólar official subió 1.7%, financiero 2% year to date, está cerca de 1.500 pesos, lejísimos del techo de 1.800",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Riesgo País",
+     "categoria": "otro",
+     "contexto": "Riesgo País en 4.31, subió respecto a semana anterior, sigue en zona de rollover pero sigue siendo poco competitivo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Turismo Argentino",
+     "categoria": "actividad",
+     "contexto": "Audiencia demanda que se hable sobre el turismo destrozado hace dos años, poder adquisitivo emigra por dólar barato",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Inteligencia Artificial Para Educación",
+     "categoria": "tecnologia",
+     "contexto": "Invitada Daniela Buján, cofundadora de Auroria, especializada en IA para educación",
+     "minute": "0:00"
+    }
+   ]
+  },
   "Ovdcl6-B2kc": {
    "video_id": "Ovdcl6-B2kc",
    "channel_id": "luzu",
@@ -4880,6 +6194,290 @@
      "tema": "Equipos De Fútbol Argentinos",
      "categoria": "persona",
      "contexto": "Menciones de Huracán, Boca, Monterrey y jugadores como Tagliafico",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "OxkLpj4c8Fw": {
+   "video_id": "OxkLpj4c8Fw",
+   "channel_id": "cronista",
+   "channel": "El Cronista",
+   "title": "“LOS INDICADORES MUESTRAN UNA MEJORA”: La revelación sobre la ACTIVIDAD que hace festejar a MILEI",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Política Exterior Argentina",
+     "score": 6
+    },
+    {
+     "tema": "Estimador Mensual De Actividad Económica (emae)",
+     "score": 3
+    },
+    {
+     "tema": "Dos Velocidades De La Economía",
+     "score": 3
+    },
+    {
+     "tema": "Empleo Registrado Y Consumo",
+     "score": 3
+    },
+    {
+     "tema": "Crecimiento Económico Y Empleo En Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Empleo Informal Vs Registrado",
+     "score": 3
+    },
+    {
+     "tema": "Geopolítica Global Y Orden Mundial",
+     "score": 3
+    },
+    {
+     "tema": "China Como Potencia Económica",
+     "score": 3
+    },
+    {
+     "tema": "Donald Trump Y Política Estadounidense",
+     "score": 3
+    },
+    {
+     "tema": "Política Exterior Argentina Y Relación Con Trump",
+     "score": 3
+    },
+    {
+     "tema": "Relaciones Comerciales Argentina-china",
+     "score": 3
+    },
+    {
+     "tema": "Mercosur Y Integración Regional",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "economia",
+     "score": 21
+    },
+    {
+     "categoria": "otro",
+     "score": 20
+    },
+    {
+     "categoria": "lugar",
+     "score": 17
+    },
+    {
+     "categoria": "actividad",
+     "score": 16
+    },
+    {
+     "categoria": "producto",
+     "score": 15
+    },
+    {
+     "categoria": "politica",
+     "score": 7
+    },
+    {
+     "categoria": "persona",
+     "score": 6
+    },
+    {
+     "categoria": "cultura",
+     "score": 6
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Estimador Mensual De Actividad Económica (emae)",
+     "categoria": "economia",
+     "contexto": "Análisis detallado de los datos interanuales e intermensuales del EMAE, volatilidad en los últimos 3-4 meses con variaciones de 1,5-2 puntos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Dos Velocidades De La Economía",
+     "categoria": "economia",
+     "contexto": "Sectores dinámicos (agro, minería, petróleo, finanzas) vs sectores estancados (industria, comercio, construcción) que traccionan demanda doméstica",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Empleo Registrado Y Consumo",
+     "categoria": "economia",
+     "contexto": "La caída del empleo registrado y la debilidad del consumo masivo vinculados a sectores que no repuntan",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Sector Construcción",
+     "categoria": "economia",
+     "contexto": "Construcción se contrajo 25% en abril (dato de Waze), pero se espera repunte en mayo. Factor importante para tracción de empleo e industria",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Estabilidad Macroeconómica",
+     "categoria": "economia",
+     "contexto": "Dólares del agro y energía dan estabilidad, cobertura de deuda para todo el año y dólar estable",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Indicadores Adelantados Del Emae",
+     "categoria": "economia",
+     "contexto": "Análisis de variables que predicen el comportamiento del EMAE con rezago, datos de mayo esperados",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Crecimiento Económico Y Empleo En Argentina",
+     "categoria": "economia",
+     "contexto": "Debate sobre crecimiento del PBI sin generación de empleo registrado, mencionando que 2025 fue el único año con aumento de actividad pero destrucción de puestos de trabajo",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Empleo Informal Vs Registrado",
+     "categoria": "economia",
+     "contexto": "Se analiza que mientras cae el empleo registrado, crece el informal con recuperación de salario real en ese sector",
+     "minute": "0:20"
+    }
+   ]
+  },
+  "Pn8rwXS46KI": {
+   "video_id": "Pn8rwXS46KI",
+   "channel_id": "blend",
+   "channel": "BLENDER",
+   "title": "LOS AUDIOS QUE COMPROMETEN A ADORNI, JURÓ SANTILLI y NUEVO GIRO EN EL CASO AGOSTINA VEGA | QUÉ DÍA!",
+   "show_id": "que-dia",
+   "show_name": "Qué Día",
+   "top_temas": [
+    {
+     "tema": "Renuncia De Adorni Y Nuevo Vocero De Prensa",
+     "score": 3
+    },
+    {
+     "tema": "Relación Gobierno-medios Durante Diferentes Gestiones",
+     "score": 3
+    },
+    {
+     "tema": "Inflación Y Tarifas De Servicios Públicos",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Mauro Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Caso Adorni Y Declaraciones Judiciales",
+     "score": 3
+    },
+    {
+     "tema": "Filtración De Información Judicial",
+     "score": 3
+    },
+    {
+     "tema": "Audios Entre Adorni Y Tabar",
+     "score": 3
+    },
+    {
+     "tema": "Audios De Adorni Y Caso Político",
+     "score": 3
+    },
+    {
+     "tema": "Asunción De Santilli Como Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Audios De Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Investigación Judicial A Dorni",
+     "score": 3
+    },
+    {
+     "tema": "Femicidio De Agostina",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 49
+    },
+    {
+     "categoria": "otro",
+     "score": 30
+    },
+    {
+     "categoria": "persona",
+     "score": 26
+    },
+    {
+     "categoria": "cultura",
+     "score": 19
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 10
+    },
+    {
+     "categoria": "política",
+     "score": 8
+    },
+    {
+     "categoria": "lugar",
+     "score": 6
+    },
+    {
+     "categoria": "politica",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Desempeño De Selecciones Africanas En Fútbol",
+     "categoria": "actividad",
+     "contexto": "Análisis de equipos africanos como Marruecos, Nigeria, Camerún en competiciones internacionales y su crecimiento",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Renuncia De Adorni Y Nuevo Vocero De Prensa",
+     "categoria": "persona",
+     "contexto": "Discussión sobre la salida de Manuel Adorni como vocero presidencial y entrada de nuevo vocero Ravier",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Relación Gobierno-medios Durante Diferentes Gestiones",
+     "categoria": "otro",
+     "contexto": "Comparación de trato a periodistas en macrismo, albertismo y actual gestión, cambios en apertura de conferencias",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Estética Y Diseño De Sala De Conferencias De Casa Rosada",
+     "categoria": "lugar",
+     "contexto": "Cambio de decoración, banners y atril para nueva gestión de vocería, réplica de diseño de Casa Blanca estadounidense",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Discurso Económico-académico Del Nuevo Vocero",
+     "categoria": "otro",
+     "contexto": "Nuevo vocero Ravier habló 30 minutos sobre parámetros económicos en tono académico antes de preguntas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Proceso Judicial Y Filtraciones Sobre Adorni",
+     "categoria": "otro",
+     "contexto": "Justicia filtrando información del expediente sobre Adorni, detalles que no figuraban en sus declaraciones",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Inflación Y Tarifas De Servicios Públicos",
+     "categoria": "economia",
+     "contexto": "Debate sobre eliminación de subsidios energéticos, aumento de tarifas de gas, agua y electricidad, y inflación menor al 2%",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Renuncia De Mauro Adorni",
+     "categoria": "persona",
+     "contexto": "Análisis sobre la salida del vocero Adorni del gobierno tras interpelación en Congreso y proceso judicial",
      "minute": "0:10"
     }
    ]
@@ -5023,6 +6621,148 @@
      "categoria": "actividad",
      "contexto": "Se desarrolla una rutina de ejercicios completa con pecho, hip thrust, bíceps, espalda, tríceps, cuadríceps y hombros",
      "minute": "0:10"
+    }
+   ]
+  },
+  "SzjeK5nN-Q0": {
+   "video_id": "SzjeK5nN-Q0",
+   "channel_id": "cronista",
+   "channel": "El Cronista",
+   "title": "ECONOMÍA DE MILEI: ¿CRECE O SE DESACELERA? | CUENTAS CLARAS EN VIVO",
+   "show_id": "cuentas-claras",
+   "show_name": "Cuentas Claras",
+   "top_temas": [
+    {
+     "tema": "Cotización Del Dólar",
+     "score": 3
+    },
+    {
+     "tema": "Política Monetaria De La Fed",
+     "score": 3
+    },
+    {
+     "tema": "Caída De Acciones De Empresas De Ia",
+     "score": 3
+    },
+    {
+     "tema": "Burbuja De Escalabilidad En Ia",
+     "score": 3
+    },
+    {
+     "tema": "Economía Dual Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Impacto De Ia En El Empleo Junior",
+     "score": 3
+    },
+    {
+     "tema": "Despedida De Conductora Embarazada",
+     "score": 3
+    },
+    {
+     "tema": "Actividad Económica Emae",
+     "score": 2
+    },
+    {
+     "tema": "Mercados Y Bonos",
+     "score": 2
+    },
+    {
+     "tema": "Dólar",
+     "score": 2
+    },
+    {
+     "tema": "Nike Acciones",
+     "score": 2
+    },
+    {
+     "tema": "Bitcoin E Inteligencia Artificial",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "tecnologia",
+     "score": 22
+    },
+    {
+     "categoria": "otro",
+     "score": 20
+    },
+    {
+     "categoria": "economia",
+     "score": 11
+    },
+    {
+     "categoria": "actividad",
+     "score": 9
+    },
+    {
+     "categoria": "politica",
+     "score": 4
+    },
+    {
+     "categoria": "cultura",
+     "score": 3
+    },
+    {
+     "categoria": "persona",
+     "score": 3
+    },
+    {
+     "categoria": "producto",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Actividad Económica Emae",
+     "categoria": "economia",
+     "contexto": "Yashi va a hablar del dato de actividad del EMAE que salió ayer y analizar cada categoría de actividades en Argentina",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mercados Y Bonos",
+     "categoria": "economia",
+     "contexto": "Santiago reporta Riesgo País en 429 puntos, bonos en positivo, acciones suben 1,3% con YPF y BBVA liderando",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Dólar",
+     "categoria": "economia",
+     "contexto": "El dólar toca los 1.500, tema psicológico que aparecerá en noticieros todo el día",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Nike Acciones",
+     "categoria": "producto",
+     "contexto": "Santiago menciona resultados esperados de Nike, acción que cayó casi 40% en el año, dividendos atractivos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Bitcoin E Inteligencia Artificial",
+     "categoria": "tecnologia",
+     "contexto": "Anuncian que traerán a Santiago Siri, divulgador tecnológico, para explicar bitcoins e inteligencia artificial",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Relanzamiento Del Gobierno Con Nuevo Jefe De Gabinete",
+     "categoria": "politica",
+     "contexto": "Diego Santilli asume como jefe de gabinete a las 17:30, van a analizar su agenda económica",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Fútbol Y Paraguay Mundial",
+     "categoria": "cultura",
+     "contexto": "Se menciona victoria de Paraguay ante Alemania, presidente Santiago Peña decretó feriado nacional, celebraciones en el Obelisco",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Petróleo",
+     "categoria": "economia",
+     "contexto": "Brent a 74 dólares, WTI a 69,77 dólares",
+     "minute": "0:00"
     }
    ]
   },
@@ -5299,6 +7039,144 @@
      "categoria": "comida",
      "contexto": "Martín Imante ofrece desayunos de trabajo, festivales y celebraciones especiales con productos 100% artesanales",
      "minute": "0:30"
+    }
+   ]
+  },
+  "USlO4VX83B4": {
+   "video_id": "USlO4VX83B4",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "🌶️ TAPADOS DE LABURO con Nacho, Cami, Valen Rizzuti, Marce Kloosterboer y Mica Suarez | OLGA EN VIVO",
+   "show_id": "tapados",
+   "show_name": "Tapados de Laburo",
+   "top_temas": [
+    {
+     "tema": "Caso Gipsy Rose Blanchard",
+     "score": 3
+    },
+    {
+     "tema": "Mundial De Fútbol - Paraguay Vs Alemania",
+     "score": 3
+    },
+    {
+     "tema": "Experiencias En Gimnasios",
+     "score": 3
+    },
+    {
+     "tema": "Relaciones Y Enamoramiento",
+     "score": 3
+    },
+    {
+     "tema": "Técnicas De Seducción",
+     "score": 3
+    },
+    {
+     "tema": "Sección 'aura O Laura'",
+     "score": 3
+    },
+    {
+     "tema": "Coqueteo Y Levante",
+     "score": 3
+    },
+    {
+     "tema": "Concurso Nissan Kite",
+     "score": 3
+    },
+    {
+     "tema": "Marina Joyce - Caso De Conspiración En Youtube",
+     "score": 3
+    },
+    {
+     "tema": "Teorías Virales Y Trending Topics",
+     "score": 3
+    },
+    {
+     "tema": "Caso Marina Joyce",
+     "score": 3
+    },
+    {
+     "tema": "Teorías Sobre Comportamiento De Marina Joyce",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 40
+    },
+    {
+     "categoria": "cultura",
+     "score": 38
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 14
+    },
+    {
+     "categoria": "salud",
+     "score": 13
+    },
+    {
+     "categoria": "persona",
+     "score": 9
+    },
+    {
+     "categoria": "producto",
+     "score": 8
+    },
+    {
+     "categoria": "otro",
+     "score": 3
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Organización Logística De Actividades Escolares",
+     "categoria": "actividad",
+     "contexto": "Discusión sobre los martes y la complejidad de coordinar fútbol, hockey y traslados de hijos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Caso Gipsy Rose Blanchard",
+     "categoria": "cultura",
+     "contexto": "Análisis detallado del caso de síndrome de Munchausen, donde la madre sometía a su hija con enfermedades falsas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "El Sexto Sentido",
+     "categoria": "cultura",
+     "contexto": "Recomendación y análisis de la película de M. Night Shyamalan, comparación con el caso Gipsy Rose",
+     "minute": "0:00"
+    },
+    {
+     "tema": "The O.c.",
+     "categoria": "cultura",
+     "contexto": "Mención de la serie adolescente, muerte del personaje de Mischa Barton en Tijuana",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Síndrome De Munchausen",
+     "categoria": "salud",
+     "contexto": "Explicación del síndrome como provocación de enfermedades propias o en terceros",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Split (fragmentado)",
+     "categoria": "cultura",
+     "contexto": "Mención de película de M. Night Shyamalan con Anya Taylor-Joy",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Serie The O.c.",
+     "categoria": "cultura",
+     "contexto": "Discusión sobre la cuarta temporada, personajes como Seth Cohen (Adam Brody) y Summer",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Mundial De Fútbol - Paraguay Vs Alemania",
+     "categoria": "actividad",
+     "contexto": "Análisis detallado del partido, gol anulado a Alemania, penales, repercusión en Paraguay",
+     "minute": "0:10"
     }
    ]
   },
@@ -6134,6 +8012,148 @@
      "tema": "Cobertura Mediática Y Morbo",
      "categoria": "cultura",
      "contexto": "Crítica al loop infinito de videos del accidente en medios, falta de filtro ético, carroñerismo televisivo",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "WOcOu6AcIp0": {
+   "video_id": "WOcOu6AcIp0",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "#FMLUZU | STALKEAMOS LOS FACEBOOK DE CRIS Y GURI + JUGAMOS AL PASAME LA POSTA Y TERMINAMOS PELEADOS",
+   "show_id": "fmluzu",
+   "show_name": "FM Luzu",
+   "top_temas": [
+    {
+     "tema": "Fotos De Cringe Personal",
+     "score": 3
+    },
+    {
+     "tema": "Momentos Vergonzosos De La Adolescencia",
+     "score": 3
+    },
+    {
+     "tema": "Primeras Experiencias Románticas Adolescentes",
+     "score": 3
+    },
+    {
+     "tema": "Momentos Cringe Y Vergüenza Ajena",
+     "score": 3
+    },
+    {
+     "tema": "Juego De Competencia En Vivo",
+     "score": 3
+    },
+    {
+     "tema": "Juego De Competencia",
+     "score": 3
+    },
+    {
+     "tema": "Redes Sociales De Messi",
+     "score": 2
+    },
+    {
+     "tema": "Cringe Y Vergüenza Ajena",
+     "score": 2
+    },
+    {
+     "tema": "Justin Bieber Fandom",
+     "score": 2
+    },
+    {
+     "tema": "Relaciones Familiares Y Roles",
+     "score": 2
+    },
+    {
+     "tema": "Sorteo De Merch",
+     "score": 2
+    },
+    {
+     "tema": "Moda Retro Años 2010",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 25
+    },
+    {
+     "categoria": "actividad",
+     "score": 15
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 6
+    },
+    {
+     "categoria": "producto",
+     "score": 5
+    },
+    {
+     "categoria": "persona",
+     "score": 3
+    },
+    {
+     "categoria": "otro",
+     "score": 3
+    },
+    {
+     "categoria": "comida",
+     "score": 3
+    },
+    {
+     "categoria": "salud",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Redes Sociales De Messi",
+     "categoria": "persona",
+     "contexto": "Discusión sobre cómo Messi subía fotos a Instagram sin manager, comparación con el Dibu y sus historias",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cringe Y Vergüenza Ajena",
+     "categoria": "cultura",
+     "contexto": "Explicación de qué significa cringe, anécdotas sobre posteos antiguos vergonzosos de redes sociales",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Justin Bieber Fandom",
+     "categoria": "cultura",
+     "contexto": "Anécdota de Flor Corcuera siendo administradora de páginas fandom de Justin Bieber cuando tenía 12 años",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Contenido Antiguo En Redes",
+     "categoria": "tecnologia",
+     "contexto": "Conversación sobre primeros posteos cringe de hace años, descargos en Instagram de 2014",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mundial Y Paraguay",
+     "categoria": "actividad",
+     "contexto": "Mención de que Paraguay está de feriado, saludos a la audiencia paraguaya que ve el programa",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Relaciones Familiares Y Roles",
+     "categoria": "otro",
+     "contexto": "Discusión sobre quién es madre, tía, padrino de las personas en el programa (Toby, Karu, Nico)",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Sorteo De Merch",
+     "categoria": "producto",
+     "contexto": "Se va a repartir remeras y mates de Luzu entre participantes de un juego",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Fotos De Cringe Personal",
+     "categoria": "cultura",
+     "contexto": "Analizan y se burlan de fotos antiguas de los conductores, especialmente de peinados y outfits",
      "minute": "0:10"
     }
    ]
@@ -7830,6 +9850,148 @@
     }
    ]
   },
+  "fam8EedmGow": {
+   "video_id": "fam8EedmGow",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "¿CUÁL FUE EL MEJOR BESO DE PEDRO? | #SeríaIncreíble 30/6",
+   "show_id": "seria-increible",
+   "show_name": "Sería Increíble",
+   "top_temas": [
+    {
+     "tema": "Paraguay - Celebración Nacional",
+     "score": 3
+    },
+    {
+     "tema": "Investigación Sobre Paradero De Saquito",
+     "score": 3
+    },
+    {
+     "tema": "Incumplimiento De Cuota Alimentaria",
+     "score": 3
+    },
+    {
+     "tema": "Violencia Económica Y Vicaria",
+     "score": 3
+    },
+    {
+     "tema": "Sistema Judicial Deficiente En Derechos De Familia",
+     "score": 3
+    },
+    {
+     "tema": "Elecciones En Perú - Keiko Fujimori Presidenta",
+     "score": 3
+    },
+    {
+     "tema": "Política Peruana - Inestabilidad Institucional",
+     "score": 3
+    },
+    {
+     "tema": "Alberto Fujimori - Dictadura Y Crímenes",
+     "score": 3
+    },
+    {
+     "tema": "Foristología - Comportamiento En Foros De Internet",
+     "score": 3
+    },
+    {
+     "tema": "Patriotismo Argentino En Redes Sociales",
+     "score": 3
+    },
+    {
+     "tema": "Desempeño En Bailando (pedro Y Paula)",
+     "score": 3
+    },
+    {
+     "tema": "Relaciones Y Infidelidad",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 40
+    },
+    {
+     "categoria": "otro",
+     "score": 35
+    },
+    {
+     "categoria": "actividad",
+     "score": 26
+    },
+    {
+     "categoria": "persona",
+     "score": 22
+    },
+    {
+     "categoria": "salud",
+     "score": 15
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 6
+    },
+    {
+     "categoria": "producto",
+     "score": 3
+    },
+    {
+     "categoria": "comida",
+     "score": 2
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Suscripción Al Canal",
+     "categoria": "tecnologia",
+     "contexto": "¡SUSCRIBETE! No quiero perder mi oportunidad",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Baile/música",
+     "categoria": "actividad",
+     "contexto": "Vamos a bailar Extendido, corto, DJ, hazlo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ambiente/grupo",
+     "categoria": "otro",
+     "contexto": "Somos los únicos que están aquí Estamos en este grupo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Paraguay - Celebración Nacional",
+     "categoria": "cultura",
+     "contexto": "Marité habla de Paraguay como 'el mejor país del universo', menciona feriado nacional y expresa alegría por estar en el país",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Ausencia De Carlos Amarilla",
+     "categoria": "persona",
+     "contexto": "Marité menciona que Carlos Amarilla no la acompaña más y expresa que se siente sola",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Gorra Comprada En Asunción",
+     "categoria": "producto",
+     "contexto": "Marité trae una gorra que compró en Paraguay, Asunción",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Moneda Paraguaya - Guaraní",
+     "categoria": "otro",
+     "contexto": "Se menciona repetidamente 10.000 guaraníes como cantidad pequeña, debate sobre el valor de la moneda",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Ausencia De Paulo Cablan",
+     "categoria": "persona",
+     "contexto": "Se pregunta dónde está Paulo Cablan, especulan que está atrapado en bosques de Palermo o en festejos",
+     "minute": "0:10"
+    }
+   ]
+  },
   "fnvj0iK5yDI": {
    "video_id": "fnvj0iK5yDI",
    "channel_id": "luzu",
@@ -7968,6 +10130,148 @@
      "tema": "Presencia Escénica",
      "categoria": "actividad",
      "contexto": "Se menciona la importancia de la presencia y actitud al bailar",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "gOUmUVtulaw": {
+   "video_id": "gOUmUVtulaw",
+   "channel_id": "ahoraplay",
+   "channel": "AHORA PLAY",
+   "title": "LA NUEVA ETAPA DEL DÓLAR Y MORA RÉCORD I Carlos Burgueño, Agustina Girón #CierreDeMercados",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Situación Económica Y Política En Córdoba",
+     "score": 3
+    },
+    {
+     "tema": "Rechazo Al Peronismo En Zonas Productivas",
+     "score": 3
+    },
+    {
+     "tema": "Política Económica Del Peronismo",
+     "score": 3
+    },
+    {
+     "tema": "Reestructuración De Deuda Y Riesgo De Corrida",
+     "score": 3
+    },
+    {
+     "tema": "Reestructuración De Deuda Externa",
+     "score": 3
+    },
+    {
+     "tema": "Dólar Y Tipo De Cambio",
+     "score": 3
+    },
+    {
+     "tema": "Inflación Y Dólar",
+     "score": 3
+    },
+    {
+     "tema": "Endeudamiento De Jóvenes",
+     "score": 3
+    },
+    {
+     "tema": "Tarjeta De Crédito Y Comportamiento De Pago",
+     "score": 3
+    },
+    {
+     "tema": "Deuda Y Mora En Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Refinanciación Banco Nación",
+     "score": 3
+    },
+    {
+     "tema": "Crisis De Mora Bancaria",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "economia",
+     "score": 52
+    },
+    {
+     "categoria": "otro",
+     "score": 37
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 23
+    },
+    {
+     "categoria": "cultura",
+     "score": 16
+    },
+    {
+     "categoria": "actividad",
+     "score": 13
+    },
+    {
+     "categoria": "persona",
+     "score": 7
+    },
+    {
+     "categoria": "salud",
+     "score": 7
+    },
+    {
+     "categoria": "producto",
+     "score": 6
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Situación Económica Y Política En Córdoba",
+     "categoria": "cultura",
+     "contexto": "Análisis de la zona productiva de Córdoba, Villa María y sur de Santa Fe, con buen desempeño en soja, maíz y girasol",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Rechazo Al Peronismo En Zonas Productivas",
+     "categoria": "cultura",
+     "contexto": "El electorado del campo que era macrista ahora está alineado con Milei y rechaza el kirchnerismo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Política Económica Del Peronismo",
+     "categoria": "cultura",
+     "contexto": "Falta de propuesta clara del peronismo sobre qué hacer económicamente más allá de rechazar a Milei",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Reestructuración De Deuda Y Riesgo De Corrida",
+     "categoria": "cultura",
+     "contexto": "Análisis de que si el peronismo propone reestructurar deuda podría generar corrida cambiaria desde el día después de ganar elecciones",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Referentes Económicos Políticos",
+     "categoria": "persona",
+     "contexto": "Comparación de referentes de Scioli 2015 versus falta de claridad actual sobre equipos económicos del peronismo",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Dolarización Y Brecha Cambiaria",
+     "categoria": "cultura",
+     "contexto": "Discusión sobre cómo el discurso sobre dolarización genera incentivos para corridas al dólar",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Plan Económico Opositor",
+     "categoria": "otro",
+     "contexto": "Se discute la necesidad de que el principal partido opositor presente una propuesta económica clara para evaluarla",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Reestructuración De Deuda Externa",
+     "categoria": "otro",
+     "contexto": "Se analiza la reestructuración de deuda en dólares con acreedores privados y negociaciones con el FMI",
      "minute": "0:10"
     }
    ]
@@ -8536,6 +10840,290 @@
     }
    ]
   },
+  "l75dqnKslKI": {
+   "video_id": "l75dqnKslKI",
+   "channel_id": "gelatina",
+   "channel": "GELATINA",
+   "title": "QUÉ OLOR con Charo LÓPEZ, Noe CUSTODIO y Mili GOGGIA 2026-06-30 14:25",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Paraguay Y Relaciones Bilaterales",
+     "score": 3
+    },
+    {
+     "tema": "Animales Virales Y Famosos",
+     "score": 3
+    },
+    {
+     "tema": "Perros Famosos Argentinos",
+     "score": 3
+    },
+    {
+     "tema": "Zorros Urbanos (run Run)",
+     "score": 3
+    },
+    {
+     "tema": "Shrek (oveja De Nueva Zelanda)",
+     "score": 3
+    },
+    {
+     "tema": "Animales Virales En Redes Sociales",
+     "score": 3
+    },
+    {
+     "tema": "Fiesta Nacional Del Invierno En Ushuaia",
+     "score": 3
+    },
+    {
+     "tema": "Gira De Shows",
+     "score": 3
+    },
+    {
+     "tema": "Música Industrial",
+     "score": 3
+    },
+    {
+     "tema": "Carrera Musical De Martín",
+     "score": 3
+    },
+    {
+     "tema": "Violencia Y Narcotráfico En Zona Norte Del Gran Buenos Aires",
+     "score": 3
+    },
+    {
+     "tema": "Corrupción Policial",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 48
+    },
+    {
+     "categoria": "actividad",
+     "score": 21
+    },
+    {
+     "categoria": "otro",
+     "score": 10
+    },
+    {
+     "categoria": "animal",
+     "score": 10
+    },
+    {
+     "categoria": "lugar",
+     "score": 5
+    },
+    {
+     "categoria": "seguridad",
+     "score": 5
+    },
+    {
+     "categoria": "producto",
+     "score": 4
+    },
+    {
+     "categoria": "comida",
+     "score": 3
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Viaje A Zonas Rurales Y Wildlife",
+     "categoria": "actividad",
+     "contexto": "Anécdota sobre un viaje donde vieron liebres, vizcachas y otros animales autóctonos; charla sobre la fauna local",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Conservas Y Alimentos En Frascos",
+     "categoria": "comida",
+     "contexto": "Se llevaban frascos de durazno, conservas varias, escabeche; compra de alfajores del mundial en iglesia",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Vizcachas Como Animal",
+     "categoria": "cultura",
+     "contexto": "Describen a las vizcachas como lindas, gorditas, hermosas; hacen chistes sobre su apariencia y comportamiento de guardar cosas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Visita A Iglesia De Fátima",
+     "categoria": "lugar",
+     "contexto": "Entraron a una iglesia en un cerro en las grutas, compraron alfajores a voluntad, compraron estampitas y patitos religiosos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Vocabulario Porteño Vs Otros Lugares",
+     "categoria": "cultura",
+     "contexto": "Broma sobre diferencias lingüísticas: flat white vs café con leche, cookie vs galleta, tambuis para sándwiches de miga",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Paraguay Y Felicitaciones",
+     "categoria": "cultura",
+     "contexto": "Envían besos a Paraguay por su triunfo, mencionan a personalidades paraguayas como Larisa Riquelme y referencias culturales",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Paraguay Y Relaciones Bilaterales",
+     "categoria": "cultura",
+     "contexto": "Celebración del triunfo de Paraguay, pedido de perdón por la Guerra de la Triple Alianza, crítica a la conquista de tierras",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Caballo Hanna Urara",
+     "categoria": "actividad",
+     "contexto": "Historia de caballo japonés que corre carreras sin ganar, se vuelve viral y genera furor con 13.000 espectadores",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "mqQ_D9hUvvg": {
+   "video_id": "mqQ_D9hUvvg",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+   "show_id": "fondo",
+   "show_name": "Los del Fondo",
+   "top_temas": [
+    {
+     "tema": "Mundial De Fútbol",
+     "score": 5
+    },
+    {
+     "tema": "Sorteo De Camiseta De Messi",
+     "score": 3
+    },
+    {
+     "tema": "Semifinal Argentina Vs Italia En El 90",
+     "score": 3
+    },
+    {
+     "tema": "Sorteo Camiseta Purrete 10",
+     "score": 3
+    },
+    {
+     "tema": "Viaje A Santa Fe",
+     "score": 3
+    },
+    {
+     "tema": "Juego De Bingo Del Programa",
+     "score": 3
+    },
+    {
+     "tema": "Copa Del Mundo - Selección Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Paraguay Vs Alemania - Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol - Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Fernet Branca",
+     "score": 3
+    },
+    {
+     "tema": "Cuidado De La Ropa",
+     "score": 3
+    },
+    {
+     "tema": "Limpieza Del Hogar",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 52
+    },
+    {
+     "categoria": "cultura",
+     "score": 20
+    },
+    {
+     "categoria": "lugar",
+     "score": 11
+    },
+    {
+     "categoria": "producto",
+     "score": 8
+    },
+    {
+     "categoria": "comida",
+     "score": 7
+    },
+    {
+     "categoria": "otro",
+     "score": 6
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 6
+    },
+    {
+     "categoria": "persona",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Sorteo De Camiseta De Messi",
+     "categoria": "actividad",
+     "contexto": "Se sortea en vivo una camiseta del Purrete 10 (Messi) que generó tanta demanda que tuvieron que pagar membresía del sistema de sorteos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Bebidas Refrescantes",
+     "categoria": "comida",
+     "contexto": "Se menciona tomar algo refrescante en días calurosos, ideal para entrenar y disfrutar del momento",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Luzu Perú",
+     "categoria": "cultura",
+     "contexto": "Comunidad de fans de Perú que vino a acampar en la tribuna desde las 7 de la mañana hasta el final de la programación durante el Mundial",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Promesas Incumplidas Del Programa",
+     "categoria": "otro",
+     "contexto": "El programa se caracteriza por prometer cosas que no cumple, pero promete entregar la camiseta en persona donde sea si el ganador no vive en Capital Federal",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Agenda Laboral De Cris Varadía",
+     "categoria": "actividad",
+     "contexto": "Tiene conciertos en Movistar Arena, openings de Arjona, viaje a París, compromiso con Juan Yandino que hace streaming",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mercado De Pases Y Fichajes",
+     "categoria": "actividad",
+     "contexto": "Se habla de Julián Álvarez y movimientos en el mercado de pases, con referencias a confirmaciones por cábala",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Mundial De Fútbol",
+     "categoria": "actividad",
+     "contexto": "Transmisión desde el Fan Fest del Mundial, análisis de partidos y actuaciones de selecciones",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Relación Generacional Entre Conductores",
+     "categoria": "cultura",
+     "contexto": "Broma sobre edades entre Diego y Castro, juego de sumar edades en QN",
+     "minute": "0:10"
+    }
+   ]
+  },
   "mxFu-R3O8TY": {
    "video_id": "mxFu-R3O8TY",
    "channel_id": "olga",
@@ -8817,6 +11405,148 @@
      "categoria": "producto",
      "contexto": "Mencionan el costo del fast pass para evitar colas, dicen que cuesta 30 dólares",
      "minute": "0:10"
+    }
+   ]
+  },
+  "pL9wgMQaBp4": {
+   "video_id": "pL9wgMQaBp4",
+   "channel_id": "gelatina",
+   "channel": "GELATINA",
+   "title": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+   "show_id": "demasiada-presion",
+   "show_name": "Demasiada Presión",
+   "top_temas": [
+    {
+     "tema": "Copa Mundial De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Asunción De Diego Santilli Como Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Reforma Electoral Y Suspensión De Paso",
+     "score": 3
+    },
+    {
+     "tema": "Terremoto Venezuela",
+     "score": 3
+    },
+    {
+     "tema": "Mundial De Fútbol - Paraguay",
+     "score": 3
+    },
+    {
+     "tema": "Festejos En Paraguay",
+     "score": 3
+    },
+    {
+     "tema": "Paraguay En El Mundial De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Gustavo Alfaro Como Técnico De Paraguay",
+     "score": 3
+    },
+    {
+     "tema": "Diego Santilli Nuevo Jefe De Gabinete",
+     "score": 3
+    },
+    {
+     "tema": "Rol De Diego Santilli Como Vocero Presidencial",
+     "score": 3
+    },
+    {
+     "tema": "Reelección De Javier Milei",
+     "score": 3
+    },
+    {
+     "tema": "Relación Milei-macri Y Conflicto Pro Vs Libertad Avanza",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 39
+    },
+    {
+     "categoria": "persona",
+     "score": 33
+    },
+    {
+     "categoria": "cultura",
+     "score": 26
+    },
+    {
+     "categoria": "otro",
+     "score": 23
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 14
+    },
+    {
+     "categoria": "economia",
+     "score": 8
+    },
+    {
+     "categoria": "politica",
+     "score": 8
+    },
+    {
+     "categoria": "política",
+     "score": 8
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Clima Y Temperatura En Buenos Aires",
+     "categoria": "clima",
+     "contexto": "Comentario sobre el frío en la ciudad, temperatura de 1-2 grados mínima y 15 máxima",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Copa Mundial De Fútbol",
+     "categoria": "actividad",
+     "contexto": "Discusión sobre partidos recientes del mundial, emociones sobre Paraguay y comparaciones con otros equipos",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Rendimiento Y Ánimo Personal (del 1 Al 10)",
+     "categoria": "salud",
+     "contexto": "Evaluación recurrente del estado anímico de los conductores y audiencia en escala numérica",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Partidos De Eliminación Directa Paraguay Vs Otros",
+     "categoria": "actividad",
+     "contexto": "Análisis de la hazaña de Paraguay en el torneo y comparación con resultados de Japón, Ecuador y Alemania",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Dificultad Para Despertar Y Salir De La Cama",
+     "categoria": "salud",
+     "contexto": "Mención recurrente del cansancio matutino y temperaturas bajas que dificultan levantarse",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Asunción De Diego Santilli Como Jefe De Gabinete",
+     "categoria": "persona",
+     "contexto": "Diego Santilli asume hoy la jefatura de Gabinete a las 17.30, con ceremonia encabezada por Javier Milei",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Cancelación De Viaje De Milei A Cumbre Del Mercosur",
+     "categoria": "actividad",
+     "contexto": "Milei cancela su viaje a Paraguay para participar en ceremonia de Santilli y dedicarse a gestión",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Reforma Electoral Y Suspensión De Paso",
+     "categoria": "actividad",
+     "contexto": "Casa Rosada busca avanzar en reforma electoral, Santilli trabaja en conseguir votos en Senado y con gobernadores",
+     "minute": "0:20"
     }
    ]
   },
@@ -10228,6 +12958,148 @@
     }
    ]
   },
+  "yVzJRVng6Q4": {
+   "video_id": "yVzJRVng6Q4",
+   "channel_id": "olga",
+   "channel": "OLGA",
+   "title": "RECORREMOS OCEAN DRIVE EN VIVO | #TDT 30/6",
+   "show_id": "tdt",
+   "show_name": "TDT",
+   "top_temas": [
+    {
+     "tema": "Fútbol Copa América",
+     "score": 3
+    },
+    {
+     "tema": "Ocean Drive Miami",
+     "score": 3
+    },
+    {
+     "tema": "Clima De Miami",
+     "score": 3
+    },
+    {
+     "tema": "Compras De Ropa En Tienda",
+     "score": 3
+    },
+    {
+     "tema": "Copa Del Mundo - Selecciones",
+     "score": 3
+    },
+    {
+     "tema": "Pelea En Boliche",
+     "score": 3
+    },
+    {
+     "tema": "Juego G-split (bebida Rápida)",
+     "score": 3
+    },
+    {
+     "tema": "Juego 'qué Preferís'",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol - Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Dinámicas De Grupo Y Conflictos",
+     "score": 3
+    },
+    {
+     "tema": "Experiencia En Catar (mundial 2022)",
+     "score": 3
+    },
+    {
+     "tema": "Historial De Mundiales De Walter",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 44
+    },
+    {
+     "categoria": "lugar",
+     "score": 19
+    },
+    {
+     "categoria": "persona",
+     "score": 12
+    },
+    {
+     "categoria": "cultura",
+     "score": 11
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 10
+    },
+    {
+     "categoria": "otro",
+     "score": 9
+    },
+    {
+     "categoria": "comida",
+     "score": 9
+    },
+    {
+     "categoria": "salud",
+     "score": 3
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Fútbol Copa América",
+     "categoria": "actividad",
+     "contexto": "Se habla extensamente sobre el partido de Paraguay vs Alemania en penales, victoria histórica de Paraguay",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ocean Drive Miami",
+     "categoria": "lugar",
+     "contexto": "Transmisión en vivo desde Ocean Drive, descripción del lugar, bares, ambiente, comparación con La Prida en Argentina",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Precios En Miami",
+     "categoria": "otro",
+     "contexto": "Comentarios sobre lo caro que es todo en Miami, cervezas a 14 dólares, comidas caras",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Viralidad En Redes",
+     "categoria": "tecnologia",
+     "contexto": "Mención de video viral con Mati que salió en noticieros chilenos, preocupación por desinformación en redes",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Bronceado Y Protector Solar",
+     "categoria": "salud",
+     "contexto": "Broma sobre diferencia de bronceado en el cuerpo, uso diario de protector solar",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Próximos Partidos Copa América",
+     "categoria": "actividad",
+     "contexto": "Mención de Ecuador-México a las 9pm y Francia-Suecia como próximos partidos",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Copa América - Argentina",
+     "categoria": "actividad",
+     "contexto": "Discussión sobre el desempeño de Argentina en la Copa América, rivales, valor de entradas y expectativas del bicampeonato",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Clima De Miami",
+     "categoria": "lugar",
+     "contexto": "Múltiples comentarios sobre el calor extremo de Miami, dificultad para estar en vivo, riesgo de sobrecalentamiento de equipos",
+     "minute": "0:10"
+    }
+   ]
+  },
   "yp1SuqSXmxA": {
    "video_id": "yp1SuqSXmxA",
    "channel_id": "luzu",
@@ -10366,6 +13238,290 @@
      "tema": "Música En Vivo",
      "categoria": "cultura",
      "contexto": "Énfasis en la importancia de la música de fondo para bailar tango correctamente",
+     "minute": "0:10"
+    }
+   ]
+  },
+  "zpbJ8ju9xmk": {
+   "video_id": "zpbJ8ju9xmk",
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "title": "EQUIPO COMPLETO Y SOMOS MÁS PARAGUAYOS QUE NUNCA | #YQUE COMPLETO 30/6 | VORTERIX",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Charlas Ted",
+     "score": 3
+    },
+    {
+     "tema": "Eliminación De Alemania Del Mundial",
+     "score": 3
+    },
+    {
+     "tema": "Crítica A Mirar Fútbol/mundial",
+     "score": 3
+    },
+    {
+     "tema": "Mundial De Fútbol - Resultados Y Análisis",
+     "score": 3
+    },
+    {
+     "tema": "Técnico Alfaro Y Paraguay",
+     "score": 3
+    },
+    {
+     "tema": "Ataques De Bots Al Stream",
+     "score": 3
+    },
+    {
+     "tema": "Renuncia De Manuel Adorni",
+     "score": 3
+    },
+    {
+     "tema": "Audios De Adorni Con Contratista",
+     "score": 3
+    },
+    {
+     "tema": "Caso Adorni Y Declarantes",
+     "score": 3
+    },
+    {
+     "tema": "Mundial 2026 - Paraguay Vs Alemania",
+     "score": 3
+    },
+    {
+     "tema": "Copa Del Mundo - Paraguay",
+     "score": 3
+    },
+    {
+     "tema": "Evento En Vivo Especial",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 43
+    },
+    {
+     "categoria": "cultura",
+     "score": 38
+    },
+    {
+     "categoria": "persona",
+     "score": 29
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 13
+    },
+    {
+     "categoria": "producto",
+     "score": 9
+    },
+    {
+     "categoria": "política",
+     "score": 6
+    },
+    {
+     "categoria": "lugar",
+     "score": 5
+    },
+    {
+     "categoria": "otro",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Mudanza De Anacleto",
+     "categoria": "actividad",
+     "contexto": "Anacleto se muda a un departamento de dos ambientes en la capital, es la primera vez que vive sola",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Air Fryer",
+     "categoria": "producto",
+     "contexto": "Anacleto compró Air Fryer hace una semana y la usa para cocinar carnes, pollo, tartas, milanesas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Palo Santo",
+     "categoria": "producto",
+     "contexto": "Discusión sobre palo santo para limpiar energía del hogar nuevo, se menciona precio en Argentina vs Resistencia",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Tributos Musicales",
+     "categoria": "cultura",
+     "contexto": "Se habla sobre tributos de Amy Winehouse, Luis Miguel y otros artistas, comparando cantantes famosas",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Cumpleaños De Cook",
+     "categoria": "actividad",
+     "contexto": "Se menciona que el viernes es cumpleaños de Cook y irán a comer vacío para festejar y ver partido",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Mcdonald's En Esquina De La Croce Y Álvarez Tomás",
+     "categoria": "lugar",
+     "contexto": "Se bromea sobre una bomba atómica siendo reparada al costado del McDonald's en esa esquina",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Recreación De Discos De Memoria",
+     "categoria": "actividad",
+     "contexto": "Se habla de un flaco que grabó el disco Octubre de memoria con solo audio, y otros que hicieron lo mismo con discos de Catriel y Utopians",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Charlas Ted",
+     "categoria": "actividad",
+     "contexto": "Discuten sobre dar charlas TED, su formato y cómo estructurarlas con ejemplos de temas como buceo y relaciones de pareja",
+     "minute": "0:20"
+    }
+   ]
+  },
+  "zwp0lZ6EONI": {
+   "video_id": "zwp0lZ6EONI",
+   "channel_id": "vorterix",
+   "channel": "Vorterix",
+   "title": "EL AMIGO DE TU NOVIA VE PAREN LA MANO...| #ESTONOSUCEDIÓ COMPLETO - 30/06 | VORTERIX",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Salud Mental Y Depresión",
+     "score": 3
+    },
+    {
+     "tema": "Nicole Neumann Y Activismo En El Obelisco",
+     "score": 3
+    },
+    {
+     "tema": "Creadores De Contenido En Redes Sociales",
+     "score": 3
+    },
+    {
+     "tema": "Inseguridad Masculina Y Atractivo Físico",
+     "score": 3
+    },
+    {
+     "tema": "Camioneros Y Vida En Ruta",
+     "score": 3
+    },
+    {
+     "tema": "Técnica De Hojaldre Y Medialunas",
+     "score": 3
+    },
+    {
+     "tema": "Restaurantes De Comida Rápida Y Entraña",
+     "score": 3
+    },
+    {
+     "tema": "Educación En Gastronomía - Iag",
+     "score": 3
+    },
+    {
+     "tema": "Precios En Gastronomía Porteña",
+     "score": 3
+    },
+    {
+     "tema": "Puzzle/exit Game",
+     "score": 3
+    },
+    {
+     "tema": "Sistema De Códigos Y Símbolos",
+     "score": 3
+    },
+    {
+     "tema": "Sueño Y Descanso",
+     "score": 2
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 14
+    },
+    {
+     "categoria": "actividad",
+     "score": 12
+    },
+    {
+     "categoria": "comida",
+     "score": 11
+    },
+    {
+     "categoria": "salud",
+     "score": 9
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 8
+    },
+    {
+     "categoria": "persona",
+     "score": 7
+    },
+    {
+     "categoria": "producto",
+     "score": 6
+    },
+    {
+     "categoria": "otro",
+     "score": 5
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Sueño Y Descanso",
+     "categoria": "salud",
+     "contexto": "Guillermina durmió 13 horas y se siente renovada, charla sobre cuánto tiempo hace que no duermen tanto",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Tiktok Y Tendencias Virales",
+     "categoria": "tecnologia",
+     "contexto": "Mencionan sonidos y memes de TikTok, 'tren de TikTok', ruidos virales de la plataforma",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Producción Y Equipo Del Programa",
+     "categoria": "otro",
+     "contexto": "Mencionan el estado de los productores y técnicos del programa, cómo llegaron hechos 'pija y drogados'",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Automedicación Y Balance Emocional",
+     "categoria": "salud",
+     "contexto": "Charla sobre la importancia de automedicarse para mantener buen humor y balance de sustancias",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Estado Anímico Y Bienestar",
+     "categoria": "cultura",
+     "contexto": "Reflexión sobre estar de buen humor, la facilidad o dificultad de lograr bienestar emocional",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Salud Mental Y Depresión",
+     "categoria": "salud",
+     "contexto": "Se habla sobre no disfrutar de nada, sufrir y dejar de disfrutar películas",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Nicole Neumann Y Activismo En El Obelisco",
+     "categoria": "persona",
+     "contexto": "Se relata anécdota de Nicole Neumann en topless en el Obelisco por defensa de animales",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Contenido De Redes Sociales Y Normie",
+     "categoria": "tecnologia",
+     "contexto": "Discusión sobre qué tipo de contenido en TikTok/Instagram es normie o no",
      "minute": "0:10"
     }
    ]

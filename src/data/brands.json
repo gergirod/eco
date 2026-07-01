@@ -2,16 +2,16 @@
  {
   "slug": "iol-inversiones",
   "name": "IOL Inversiones",
-  "mentions": 12,
+  "mentions": 17,
   "channels": [
    "luzu",
    "olga"
   ],
   "n_channels": 2,
-  "n_videos": 8,
+  "n_videos": 10,
   "first_seen": "23/06/2026",
-  "last_seen": "29/06/2026",
-  "value_usd": 14560.0,
+  "last_seen": "30/06/2026",
+  "value_usd": 21832.0,
   "samples": [
    {
     "channel": "olga",
@@ -44,6 +44,36 @@
     "conc_at": 7707
    },
    {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "0NuPTgKW5mc",
+    "title": "#ANTESQUENADIE | AHHH TIRABA ESA: EL LEVANTE DE DIEGO Y ¿LAS SEÑORAS SABEN DE FÚTBOL?",
+    "minute": "02:11:07",
+    "views": 134161,
+    "conc_at": 68946
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "0NuPTgKW5mc",
+    "title": "#ANTESQUENADIE | AHHH TIRABA ESA: EL LEVANTE DE DIEGO Y ¿LAS SEÑORAS SABEN DE FÚTBOL?",
+    "minute": "02:13:38",
+    "views": 134161,
+    "conc_at": 70046
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "0NuPTgKW5mc",
+    "title": "#ANTESQUENADIE | AHHH TIRABA ESA: EL LEVANTE DE DIEGO Y ¿LAS SEÑORAS SABEN DE FÚTBOL?",
+    "minute": "02:14:31",
+    "views": 134161,
+    "conc_at": 70416
+   },
+   {
     "channel": "olga",
     "channel_name": "OLGA",
     "date": "26/06/2026",
@@ -62,46 +92,16 @@
     "minute": "02:26:50",
     "views": 74025,
     "conc_at": 33725
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "29/06/2026",
-    "video_id": "WNe6QLgDfyM",
-    "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
-    "minute": "02:27:18",
-    "views": 74025,
-    "conc_at": 33845
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "25/06/2026",
-    "video_id": "mxFu-R3O8TY",
-    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
-    "minute": "01:27:55",
-    "views": 52323,
-    "conc_at": 34141
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "00:55:02",
-    "views": 73490,
-    "conc_at": 42582
    }
   ],
   "kind": "marca",
-  "n_activations": 12,
-  "n_programs": 8,
+  "n_activations": 17,
+  "n_programs": 10,
   "peak_conc_at": 229621,
   "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 12 activaciones en 8 programas y 2 canales — 12 con evidencia completa y 0 con evidencia parcial.",
+  "confidence_reason": "Evidencia densa en streaming: 17 activaciones en 10 programas y 2 canales — 17 con evidencia completa y 0 con evidencia parcial.",
   "evidence_summary": {
-   "verified": 12,
+   "verified": 17,
    "partial": 0,
    "insufficient": 0
   },
@@ -110,15 +110,16 @@
  {
   "slug": "mcdonald-s",
   "name": "McDonald's",
-  "mentions": 10,
+  "mentions": 12,
   "channels": [
-   "olga"
+   "olga",
+   "urbana-play-104-3-fm"
   ],
-  "n_channels": 1,
-  "n_videos": 4,
+  "n_channels": 2,
+  "n_videos": 6,
   "first_seen": "22/06/2026",
-  "last_seen": "29/06/2026",
-  "value_usd": 2940.0,
+  "last_seen": "30/06/2026",
+  "value_usd": 3530.0,
   "samples": [
    {
     "channel": "olga",
@@ -149,6 +150,16 @@
     "minute": "01:35:20",
     "views": 28305,
     "conc_at": 18141
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "KSHRnYRkhNI",
+    "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
+    "minute": "01:00:38",
+    "views": 14812,
+    "conc_at": 5557
    },
    {
     "channel": "olga",
@@ -189,27 +200,231 @@
     "minute": "01:42:21",
     "views": 6962,
     "conc_at": 4230
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 12,
+  "n_programs": 6,
+  "peak_conc_at": 21943,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 12 activaciones en 6 programas y 2 canales — 12 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 12,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "alimentos"
+ },
+ {
+  "slug": "zorro",
+  "name": "Zorro",
+  "mentions": 9,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 1735.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "mqQ_D9hUvvg",
+    "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+    "minute": "01:30:55",
+    "views": 39237,
+    "conc_at": 12070
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "mqQ_D9hUvvg",
+    "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+    "minute": "01:31:05",
+    "views": 39237,
+    "conc_at": 12068
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "mqQ_D9hUvvg",
+    "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+    "minute": "01:31:15",
+    "views": 39237,
+    "conc_at": 12067
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "mqQ_D9hUvvg",
+    "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+    "minute": "01:31:26",
+    "views": 39237,
+    "conc_at": 12065
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "mqQ_D9hUvvg",
+    "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+    "minute": "01:31:53",
+    "views": 39237,
+    "conc_at": 12060
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "mqQ_D9hUvvg",
+    "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+    "minute": "01:32:01",
+    "views": 39237,
+    "conc_at": 12059
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "mqQ_D9hUvvg",
+    "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+    "minute": "01:32:08",
+    "views": 39237,
+    "conc_at": 12058
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "mqQ_D9hUvvg",
+    "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+    "minute": "01:31:48",
+    "views": 39237,
+    "conc_at": 12061
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 9,
+  "n_programs": 1,
+  "peak_conc_at": 12070,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 9 activación(es) con evidencia en transcript (9 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 9,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "telco"
+ },
+ {
+  "slug": "geniol",
+  "name": "Geniol",
+  "mentions": 9,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 6,
+  "first_seen": "19/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 6373.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "8lOkxIDSd4w",
+    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+    "minute": "02:37:13",
+    "views": 35722,
+    "conc_at": 36111
    },
    {
     "channel": "olga",
     "channel_name": "OLGA",
-    "date": "22/06/2026",
-    "video_id": "95yJuQx7ol8",
-    "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
-    "minute": "00:51:44",
-    "views": 15613,
-    "conc_at": 11568
+    "date": "23/06/2026",
+    "video_id": "NKhi31a86K8",
+    "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+    "minute": "00:44:11",
+    "views": 14487,
+    "conc_at": 8930
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "02:03:53",
+    "views": 73490,
+    "conc_at": 42582
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "02:18:24",
+    "views": 73490,
+    "conc_at": 42582
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "02:22:29",
+    "views": 73490,
+    "conc_at": 42582
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "KSHRnYRkhNI",
+    "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
+    "minute": "01:37:24",
+    "views": 14812,
+    "conc_at": 5557
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "KSHRnYRkhNI",
+    "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
+    "minute": "02:12:53",
+    "views": 14812,
+    "conc_at": 5557
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "USlO4VX83B4",
+    "title": "🌶️ TAPADOS DE LABURO con Nacho, Cami, Valen Rizzuti, Marce Kloosterboer y Mica Suarez | OLGA EN VIVO",
+    "minute": "01:48:46",
+    "views": 26069,
+    "conc_at": 21564
    }
   ],
   "kind": "marca",
-  "n_activations": 10,
-  "n_programs": 4,
-  "peak_conc_at": 18141,
+  "n_activations": 9,
+  "n_programs": 6,
+  "peak_conc_at": 42582,
   "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 10 activaciones en 4 programas y 1 canales — 10 con evidencia completa y 0 con evidencia parcial.",
+  "confidence_reason": "Evidencia densa en streaming: 9 activaciones en 6 programas y 1 canales — 8 con evidencia completa y 1 con evidencia parcial.",
   "evidence_summary": {
-   "verified": 10,
-   "partial": 0,
+   "verified": 8,
+   "partial": 1,
    "insufficient": 0
   },
   "rubro": "alimentos"
@@ -217,15 +432,15 @@
  {
   "slug": "pae",
   "name": "PAE",
-  "mentions": 8,
+  "mentions": 9,
   "channels": [
    "neura"
   ],
   "n_channels": 1,
-  "n_videos": 6,
+  "n_videos": 7,
   "first_seen": "26/06/2026",
-  "last_seen": "29/06/2026",
-  "value_usd": 32.0,
+  "last_seen": "30/06/2026",
+  "value_usd": 34.0,
   "samples": [
    {
     "channel": "neura",
@@ -309,13 +524,13 @@
    }
   ],
   "kind": "marca",
-  "n_activations": 8,
-  "n_programs": 6,
+  "n_activations": 9,
+  "n_programs": 7,
   "peak_conc_at": 369,
   "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 8 activaciones en 6 programas y 1 canales — 7 con evidencia completa y 1 con evidencia parcial.",
+  "confidence_reason": "Evidencia densa en streaming: 9 activaciones en 7 programas y 1 canales — 8 con evidencia completa y 1 con evidencia parcial.",
   "evidence_summary": {
-   "verified": 7,
+   "verified": 8,
    "partial": 1,
    "insufficient": 0
   },
@@ -410,93 +625,6 @@
   "rubro": "higiene"
  },
  {
-  "slug": "geniol",
-  "name": "Geniol",
-  "mentions": 6,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 4,
-  "first_seen": "19/06/2026",
-  "last_seen": "23/06/2026",
-  "value_usd": 5090.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "8lOkxIDSd4w",
-    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-    "minute": "02:37:13",
-    "views": 35722,
-    "conc_at": 36111
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "NKhi31a86K8",
-    "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
-    "minute": "00:44:11",
-    "views": 14487,
-    "conc_at": 8930
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:03:53",
-    "views": 73490,
-    "conc_at": 42582
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:18:24",
-    "views": 73490,
-    "conc_at": 42582
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:22:29",
-    "views": 73490,
-    "conc_at": 42582
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "19/06/2026",
-    "video_id": "XHV2BV9DWMs",
-    "title": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-    "minute": "01:59:14",
-    "views": 39368,
-    "conc_at": 36405
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 6,
-  "n_programs": 4,
-  "peak_conc_at": 42582,
-  "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 6 activaciones en 4 programas y 1 canales — 5 con evidencia completa y 1 con evidencia parcial.",
-  "evidence_summary": {
-   "verified": 5,
-   "partial": 1,
-   "insufficient": 0
-  },
-  "rubro": "salud"
- },
- {
   "slug": "mercado-libre",
   "name": "Mercado Libre",
   "mentions": 5,
@@ -573,6 +701,83 @@
    "insufficient": 0
   },
   "rubro": "retail"
+ },
+ {
+  "slug": "schneider",
+  "name": "Schneider",
+  "mentions": 5,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 4,
+  "first_seen": "22/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 761.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "yVzJRVng6Q4",
+    "title": "RECORREMOS OCEAN DRIVE EN VIVO | #TDT 30/6",
+    "minute": "00:29:25",
+    "views": 41420,
+    "conc_at": 15761
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "26/06/2026",
+    "video_id": "9ucd7zkq6P8",
+    "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+    "minute": "01:05:55",
+    "views": 10522,
+    "conc_at": 7778
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "26/06/2026",
+    "video_id": "9ucd7zkq6P8",
+    "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+    "minute": "01:18:51",
+    "views": 10522,
+    "conc_at": 7850
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "KSHRnYRkhNI",
+    "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
+    "minute": "00:23:36",
+    "views": 14812,
+    "conc_at": 5557
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "22/06/2026",
+    "video_id": "95yJuQx7ol8",
+    "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+    "minute": "01:26:07",
+    "views": 15613,
+    "conc_at": 14160
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 5,
+  "n_programs": 4,
+  "peak_conc_at": 15761,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 5 activaciones en 4 programas y 1 canales — 5 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 5,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "bebidas"
  },
  {
   "slug": "ecomod",
@@ -807,6 +1012,151 @@
   "rubro": "higiene"
  },
  {
+  "slug": "aperol",
+  "name": "Aperol",
+  "mentions": 5,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 1615.0,
+  "samples": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "29/06/2026",
+    "video_id": "1KdxLdm_3K0",
+    "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
+    "minute": "01:04:56",
+    "views": 201451,
+    "conc_at": 9042
+   },
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "29/06/2026",
+    "video_id": "1KdxLdm_3K0",
+    "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
+    "minute": "01:37:14",
+    "views": 201451,
+    "conc_at": 12655
+   },
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "29/06/2026",
+    "video_id": "1KdxLdm_3K0",
+    "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
+    "minute": "02:15:28",
+    "views": 201451,
+    "conc_at": 17572
+   },
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "29/06/2026",
+    "video_id": "1KdxLdm_3K0",
+    "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
+    "minute": "02:22:50",
+    "views": 201451,
+    "conc_at": 18018
+   },
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "29/06/2026",
+    "video_id": "1KdxLdm_3K0",
+    "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
+    "minute": "03:02:01",
+    "views": 201451,
+    "conc_at": 21981
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 5,
+  "n_programs": 1,
+  "peak_conc_at": 21981,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 5 activación(es) con evidencia en transcript (5 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 5,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "telco"
+ },
+ {
+  "slug": "pedidos-ya",
+  "name": "Pedidos Ya",
+  "mentions": 4,
+  "channels": [
+   "luzu",
+   "olga"
+  ],
+  "n_channels": 2,
+  "n_videos": 3,
+  "first_seen": "29/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 11141.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "yVzJRVng6Q4",
+    "title": "RECORREMOS OCEAN DRIVE EN VIVO | #TDT 30/6",
+    "minute": "01:14:46",
+    "views": 41420,
+    "conc_at": 15316
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "KSHRnYRkhNI",
+    "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
+    "minute": "01:12:24",
+    "views": 14812,
+    "conc_at": 5557
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "KSHRnYRkhNI",
+    "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
+    "minute": "01:13:33",
+    "views": 14812,
+    "conc_at": 5557
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "jEEahJU8_jg",
+    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
+    "minute": "01:27:43",
+    "views": 533713,
+    "conc_at": 223645
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 4,
+  "n_programs": 3,
+  "peak_conc_at": 223645,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 4 activaciones en 3 programas y 2 canales — 4 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 4,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "retail"
+ },
+ {
   "slug": "cordoba-turismo",
   "name": "Córdoba (Turismo)",
   "mentions": 4,
@@ -1011,6 +1361,73 @@
   "rubro": "seguros"
  },
  {
+  "slug": "supermercados-dia",
+  "name": "Supermercados Día",
+  "mentions": 4,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "29/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 1368.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "29/06/2026",
+    "video_id": "JNLpggdieek",
+    "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+    "minute": "02:14:59",
+    "views": 29488,
+    "conc_at": 8739
+   },
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "zpbJ8ju9xmk",
+    "title": "EQUIPO COMPLETO Y SOMOS MÁS PARAGUAYOS QUE NUNCA | #YQUE COMPLETO 30/6 | VORTERIX",
+    "minute": "01:59:25",
+    "views": 30958,
+    "conc_at": 19702
+   },
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "zpbJ8ju9xmk",
+    "title": "EQUIPO COMPLETO Y SOMOS MÁS PARAGUAYOS QUE NUNCA | #YQUE COMPLETO 30/6 | VORTERIX",
+    "minute": "02:00:00",
+    "views": 30958,
+    "conc_at": 16525
+   },
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "zpbJ8ju9xmk",
+    "title": "EQUIPO COMPLETO Y SOMOS MÁS PARAGUAYOS QUE NUNCA | #YQUE COMPLETO 30/6 | VORTERIX",
+    "minute": "02:00:12",
+    "views": 30958,
+    "conc_at": 15289
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 4,
+  "n_programs": 2,
+  "peak_conc_at": 19702,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 4 activaciones en 2 programas y 1 canales — 4 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 4,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "bebidas"
+ },
+ {
   "slug": "mostaza",
   "name": "Mostaza",
   "mentions": 4,
@@ -1076,6 +1493,63 @@
    "insufficient": 0
   },
   "rubro": "retail"
+ },
+ {
+  "slug": "fernet-branca",
+  "name": "Fernet Branca",
+  "mentions": 3,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 1064.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "mqQ_D9hUvvg",
+    "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+    "minute": "01:22:47",
+    "views": 39237,
+    "conc_at": 12341
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "mqQ_D9hUvvg",
+    "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+    "minute": "01:28:07",
+    "views": 39237,
+    "conc_at": 12149
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "mqQ_D9hUvvg",
+    "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+    "minute": "01:26:36",
+    "views": 39237,
+    "conc_at": 12248
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 3,
+  "n_programs": 1,
+  "peak_conc_at": 12341,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 3 activación(es) con evidencia en transcript (3 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 3,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "bebidas"
  },
  {
   "slug": "cremolati",
@@ -1424,27 +1898,27 @@
   "rubro": "alimentos"
  },
  {
-  "slug": "schneider",
-  "name": "Schneider",
+  "slug": "swift",
+  "name": "Swift",
   "mentions": 3,
   "channels": [
    "olga"
   ],
   "n_channels": 1,
-  "n_videos": 2,
-  "first_seen": "22/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 528.0,
+  "n_videos": 3,
+  "first_seen": "23/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 600.0,
   "samples": [
    {
     "channel": "olga",
     "channel_name": "OLGA",
-    "date": "26/06/2026",
-    "video_id": "9ucd7zkq6P8",
-    "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
-    "minute": "01:05:55",
-    "views": 10522,
-    "conc_at": 7778
+    "date": "23/06/2026",
+    "video_id": "NKhi31a86K8",
+    "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+    "minute": "00:56:21",
+    "views": 14487,
+    "conc_at": 8661
    },
    {
     "channel": "olga",
@@ -1452,33 +1926,33 @@
     "date": "26/06/2026",
     "video_id": "9ucd7zkq6P8",
     "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
-    "minute": "01:18:51",
+    "minute": "01:32:34",
     "views": 10522,
-    "conc_at": 7850
+    "conc_at": 7653
    },
    {
     "channel": "olga",
     "channel_name": "OLGA",
-    "date": "22/06/2026",
-    "video_id": "95yJuQx7ol8",
-    "title": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
-    "minute": "01:26:07",
-    "views": 15613,
-    "conc_at": 14160
+    "date": "30/06/2026",
+    "video_id": "KSHRnYRkhNI",
+    "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
+    "minute": "01:18:18",
+    "views": 14812,
+    "conc_at": 5557
    }
   ],
   "kind": "marca",
   "n_activations": 3,
-  "n_programs": 2,
-  "peak_conc_at": 14160,
+  "n_programs": 3,
+  "peak_conc_at": 8661,
   "confidence_tier": "high_confidence",
-  "confidence_reason": "Evidencia densa en streaming: 3 activaciones en 2 programas y 1 canales — 3 con evidencia completa y 0 con evidencia parcial.",
+  "confidence_reason": "Evidencia densa en streaming: 3 activaciones en 3 programas y 1 canales — 3 con evidencia completa y 0 con evidencia parcial.",
   "evidence_summary": {
    "verified": 3,
    "partial": 0,
    "insufficient": 0
   },
-  "rubro": "bebidas"
+  "rubro": "alimentos"
  },
  {
   "slug": "banco-macro",
@@ -1536,6 +2010,357 @@
    "insufficient": 0
   },
   "rubro": "fintech"
+ },
+ {
+  "slug": "urbana-play",
+  "name": "Urbana Play",
+  "mentions": 3,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "26/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 870.0,
+  "samples": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "29/06/2026",
+    "video_id": "1KdxLdm_3K0",
+    "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
+    "minute": "01:37:18",
+    "views": 201451,
+    "conc_at": 12651
+   },
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "29/06/2026",
+    "video_id": "1KdxLdm_3K0",
+    "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
+    "minute": "03:00:11",
+    "views": 201451,
+    "conc_at": 21925
+   },
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "26/06/2026",
+    "video_id": "U8f_2vIvO7Y",
+    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+    "minute": "01:45:06",
+    "views": 7678,
+    "conc_at": 3451
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 3,
+  "n_programs": 2,
+  "peak_conc_at": 21925,
+  "confidence_tier": "high_confidence",
+  "confidence_reason": "Evidencia densa en streaming: 3 activaciones en 2 programas y 1 canales — 3 con evidencia completa y 0 con evidencia parcial.",
+  "evidence_summary": {
+   "verified": 3,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "retail"
+ },
+ {
+  "slug": "nissan-kite",
+  "name": "Nissan Kite",
+  "mentions": 3,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 1405.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "USlO4VX83B4",
+    "title": "🌶️ TAPADOS DE LABURO con Nacho, Cami, Valen Rizzuti, Marce Kloosterboer y Mica Suarez | OLGA EN VIVO",
+    "minute": "00:56:18",
+    "views": 26069,
+    "conc_at": 21564
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "USlO4VX83B4",
+    "title": "🌶️ TAPADOS DE LABURO con Nacho, Cami, Valen Rizzuti, Marce Kloosterboer y Mica Suarez | OLGA EN VIVO",
+    "minute": "01:30:14",
+    "views": 26069,
+    "conc_at": 21564
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "USlO4VX83B4",
+    "title": "🌶️ TAPADOS DE LABURO con Nacho, Cami, Valen Rizzuti, Marce Kloosterboer y Mica Suarez | OLGA EN VIVO",
+    "minute": "01:47:16",
+    "views": 26069,
+    "conc_at": 21564
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 3,
+  "n_programs": 1,
+  "peak_conc_at": 21564,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 3 activación(es) con evidencia en transcript (3 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 3,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "seguros"
+ },
+ {
+  "slug": "sinteplast",
+  "name": "Sinteplast",
+  "mentions": 2,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "26/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 3022.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "26/06/2026",
+    "video_id": "teZ-nZ63J0I",
+    "title": "#FMLUZU | LA CASTRO SE BAJÓ DE LAS APPS DE CITAS + LE HACEMOS UNA CANCIÓN + MANO A MANO CASTRINI",
+    "minute": "00:40:58",
+    "views": 15651,
+    "conc_at": 24794
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "0NuPTgKW5mc",
+    "title": "#ANTESQUENADIE | AHHH TIRABA ESA: EL LEVANTE DE DIEGO Y ¿LAS SEÑORAS SABEN DE FÚTBOL?",
+    "minute": "02:47:39",
+    "views": 134161,
+    "conc_at": 79554
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 79554,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "michelob-ultra",
+  "name": "Michelob Ultra",
+  "mentions": 2,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "29/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 58.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "mqQ_D9hUvvg",
+    "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+    "minute": "00:00:23",
+    "views": 39237,
+    "conc_at": 80
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "cEWsZ9vbiCg",
+    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+    "minute": "00:14:39",
+    "views": 146307,
+    "conc_at": 1921
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 1921,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "bebidas"
+ },
+ {
+  "slug": "escorial",
+  "name": "Escorial",
+  "mentions": 2,
+  "channels": [
+   "blend",
+   "luzu"
+  ],
+  "n_channels": 2,
+  "n_videos": 2,
+  "first_seen": "25/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 539.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "mqQ_D9hUvvg",
+    "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+    "minute": "00:20:00",
+    "views": 39237,
+    "conc_at": 13639
+   },
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "25/06/2026",
+    "video_id": "JXVQmuDctII",
+    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+    "minute": "01:00:00",
+    "views": 9779,
+    "conc_at": 11469
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 13639,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "telecentro",
+  "name": "Telecentro",
+  "mentions": 2,
+  "channels": [
+   "gelatina",
+   "vorterix"
+  ],
+  "n_channels": 2,
+  "n_videos": 2,
+  "first_seen": "26/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 327.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "30/06/2026",
+    "video_id": "-msQ0nvgnnM",
+    "title": "FILTRAN AUDIOS POLÉMICOS de ADORNI | Pedro ROSEMBLAT en INDUSTRIA NACIONAL",
+    "minute": "01:08:02",
+    "views": 20291,
+    "conc_at": 9473
+   },
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "26/06/2026",
+    "video_id": "LE5ICiVWzT8",
+    "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
+    "minute": "01:00:36",
+    "views": 4068,
+    "conc_at": 1417
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 9473,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "universidad-de-moron",
+  "name": "Universidad de Morón",
+  "mentions": 2,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "29/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 3777.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "cEWsZ9vbiCg",
+    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+    "minute": "00:55:15",
+    "views": 146307,
+    "conc_at": 27614
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "43pRPuCeYcw",
+    "title": "#PATRIAYFAMILIA l NOS VAMOS DE GIRA A TUCUMÁN Y EL PURRE SE DRAGUEA",
+    "minute": "01:26:22",
+    "views": 93352,
+    "conc_at": 77186
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 77186,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
  },
  {
   "slug": "viv-glycolic-crystal",
@@ -1773,6 +2598,53 @@
   "rubro": "fintech"
  },
  {
+  "slug": "mogul",
+  "name": "Mogul",
+  "mentions": 2,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "26/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 1447.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "26/06/2026",
+    "video_id": "3QJmfDvuxIk",
+    "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
+    "minute": "01:10:43",
+    "views": 40199,
+    "conc_at": 28428
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "USlO4VX83B4",
+    "title": "🌶️ TAPADOS DE LABURO con Nacho, Cami, Valen Rizzuti, Marce Kloosterboer y Mica Suarez | OLGA EN VIVO",
+    "minute": "00:27:38",
+    "views": 26069,
+    "conc_at": 21564
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 28428,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
   "slug": "cordoba",
   "name": "Córdoba",
   "mentions": 2,
@@ -1865,53 +2737,6 @@
    "insufficient": 0
   },
   "rubro": "salud"
- },
- {
-  "slug": "swift",
-  "name": "Swift",
-  "mentions": 2,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 2,
-  "first_seen": "23/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 439.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "NKhi31a86K8",
-    "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
-    "minute": "00:56:21",
-    "views": 14487,
-    "conc_at": 8661
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "26/06/2026",
-    "video_id": "9ucd7zkq6P8",
-    "title": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
-    "minute": "01:32:34",
-    "views": 10522,
-    "conc_at": 7653
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 2,
-  "n_programs": 2,
-  "peak_conc_at": 8661,
-  "confidence_tier": "emerging_confidence",
-  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
-  "evidence_summary": {
-   "verified": 2,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "alimentos"
  },
  {
   "slug": "hyundai",
@@ -2432,6 +3257,101 @@
   "rubro": "otro"
  },
  {
+  "slug": "turbobet",
+  "name": "TurboBet",
+  "mentions": 2,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "29/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 51.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "KSHRnYRkhNI",
+    "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
+    "minute": "01:43:01",
+    "views": 14812,
+    "conc_at": 5557
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "29/06/2026",
+    "video_id": "WCdVYizlDYA",
+    "title": "⚽️ GOLGANA con AZZ: Flavio Azzaro, Chute D'attellis, Benito, Sangre y Mouche | OLGA EN VIVO 2026-06-29 14:53",
+    "minute": "01:39:59",
+    "views": 6962,
+    "conc_at": 4230
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 5557,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "seguros"
+ },
+ {
+  "slug": "coto-digital",
+  "name": "Coto Digital",
+  "mentions": 2,
+  "channels": [
+   "luzu",
+   "olga"
+  ],
+  "n_channels": 2,
+  "n_videos": 2,
+  "first_seen": "24/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 10583.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "KSHRnYRkhNI",
+    "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
+    "minute": "01:54:48",
+    "views": 14812,
+    "conc_at": 5557
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "24/06/2026",
+    "video_id": "WCF4oC8GC9o",
+    "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
+    "minute": "01:41:54",
+    "views": 335199,
+    "conc_at": 233938
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 233938,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "retail"
+ },
+ {
   "slug": "seco",
   "name": "Seco",
   "mentions": 2,
@@ -2809,6 +3729,100 @@
   "rubro": "otro"
  },
  {
+  "slug": "ada-cafe",
+  "name": "Ada Café",
+  "mentions": 2,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "29/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 111.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "30/06/2026",
+    "video_id": "pL9wgMQaBp4",
+    "title": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+    "minute": "02:23:34",
+    "views": 5782,
+    "conc_at": 2270
+   },
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "29/06/2026",
+    "video_id": "vlNZMMmBbLw",
+    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+    "minute": "02:28:54",
+    "views": 7813,
+    "conc_at": 2567
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 2567,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "tienda-nube",
+  "name": "Tienda Nube",
+  "mentions": 2,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 1248.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "USlO4VX83B4",
+    "title": "🌶️ TAPADOS DE LABURO con Nacho, Cami, Valen Rizzuti, Marce Kloosterboer y Mica Suarez | OLGA EN VIVO",
+    "minute": "01:48:01",
+    "views": 26069,
+    "conc_at": 21564
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "USlO4VX83B4",
+    "title": "🌶️ TAPADOS DE LABURO con Nacho, Cami, Valen Rizzuti, Marce Kloosterboer y Mica Suarez | OLGA EN VIVO",
+    "minute": "01:47:50",
+    "views": 26069,
+    "conc_at": 21564
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 1,
+  "peak_conc_at": 21564,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "fintech"
+ },
+ {
   "slug": "actron",
   "name": "Actron",
   "mentions": 2,
@@ -2856,33 +3870,80 @@
   "rubro": "otro"
  },
  {
-  "slug": "sinteplast",
-  "name": "Sinteplast",
+  "slug": "iag-instituto-argentino-de-gastronomia",
+  "name": "IAG (Instituto Argentino de Gastronomía)",
+  "mentions": 2,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 58.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "01/07/2026",
+    "video_id": "zwp0lZ6EONI",
+    "title": "EL AMIGO DE TU NOVIA VE PAREN LA MANO...| #ESTONOSUCEDIÓ COMPLETO - 30/06 | VORTERIX",
+    "minute": "00:52:10",
+    "views": 5325,
+    "conc_at": 991
+   },
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "01/07/2026",
+    "video_id": "zwp0lZ6EONI",
+    "title": "EL AMIGO DE TU NOVIA VE PAREN LA MANO...| #ESTONOSUCEDIÓ COMPLETO - 30/06 | VORTERIX",
+    "minute": "00:53:14",
+    "views": 5325,
+    "conc_at": 997
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 1,
+  "peak_conc_at": 997,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "rimax",
+  "name": "RIMAX",
   "mentions": 1,
   "channels": [
    "luzu"
   ],
   "n_channels": 1,
   "n_videos": 1,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 718.0,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 282.0,
   "samples": [
    {
     "channel": "luzu",
     "channel_name": "LUZU TV",
-    "date": "26/06/2026",
-    "video_id": "teZ-nZ63J0I",
-    "title": "#FMLUZU | LA CASTRO SE BAJÓ DE LAS APPS DE CITAS + LE HACEMOS UNA CANCIÓN + MANO A MANO CASTRINI",
-    "minute": "00:40:58",
-    "views": 15651,
-    "conc_at": 24794
+    "date": "30/06/2026",
+    "video_id": "mqQ_D9hUvvg",
+    "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+    "minute": "00:42:02",
+    "views": 39237,
+    "conc_at": 13160
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 24794,
+  "peak_conc_at": 13160,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2893,70 +3954,33 @@
   "rubro": "otro"
  },
  {
-  "slug": "michelob-ultra",
-  "name": "Michelob Ultra",
+  "slug": "energizer",
+  "name": "Energizer",
   "mentions": 1,
   "channels": [
    "luzu"
   ],
   "n_channels": 1,
   "n_videos": 1,
-  "first_seen": "29/06/2026",
-  "last_seen": "29/06/2026",
-  "value_usd": 56.0,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 281.0,
   "samples": [
    {
     "channel": "luzu",
     "channel_name": "LUZU TV",
-    "date": "29/06/2026",
-    "video_id": "cEWsZ9vbiCg",
-    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
-    "minute": "00:14:39",
-    "views": 146307,
-    "conc_at": 1921
+    "date": "30/06/2026",
+    "video_id": "mqQ_D9hUvvg",
+    "title": "#LOSDELFONDO | EL EQUIPO METE VIAJECITO EXPRESS + MÓVIL CON EL MITO Y EL POLLO DESDE MIAMI",
+    "minute": "00:42:27",
+    "views": 39237,
+    "conc_at": 13118
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 1921,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "bebidas"
- },
- {
-  "slug": "universidad-de-moron",
-  "name": "Universidad de Morón",
-  "mentions": 1,
-  "channels": [
-   "luzu"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "29/06/2026",
-  "last_seen": "29/06/2026",
-  "value_usd": 1230.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "29/06/2026",
-    "video_id": "cEWsZ9vbiCg",
-    "title": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
-    "minute": "00:55:15",
-    "views": 146307,
-    "conc_at": 27614
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 27614,
+  "peak_conc_at": 13118,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -2965,6 +3989,117 @@
    "insufficient": 0
   },
   "rubro": "otro"
+ },
+ {
+  "slug": "la-roche-posay-efacler",
+  "name": "La Roche-Posay - Efacler",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 790.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "WOcOu6AcIp0",
+    "title": "#FMLUZU | STALKEAMOS LOS FACEBOOK DE CRIS Y GURI + JUGAMOS AL PASAME LA POSTA Y TERMINAMOS PELEADOS",
+    "minute": "00:25:11",
+    "views": 35206,
+    "conc_at": 27273
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 27273,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "samsung-health-galaxy-watch",
+  "name": "Samsung Health / Galaxy Watch",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 790.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "WOcOu6AcIp0",
+    "title": "#FMLUZU | STALKEAMOS LOS FACEBOOK DE CRIS Y GURI + JUGAMOS AL PASAME LA POSTA Y TERMINAMOS PELEADOS",
+    "minute": "00:35:19",
+    "views": 35206,
+    "conc_at": 27273
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 27273,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "tecnologia"
+ },
+ {
+  "slug": "dab-y-fundacion-bellamente",
+  "name": "DAB y Fundación Bellamente",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 81.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "30/06/2026",
+    "video_id": "-msQ0nvgnnM",
+    "title": "FILTRAN AUDIOS POLÉMICOS de ADORNI | Pedro ROSEMBLAT en INDUSTRIA NACIONAL",
+    "minute": "02:52:59",
+    "views": 20291,
+    "conc_at": 7587
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 7587,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "salud"
  },
  {
   "slug": "macro",
@@ -3298,6 +4433,80 @@
    "insufficient": 0
   },
   "rubro": "telco"
+ },
+ {
+  "slug": "don-tach",
+  "name": "Don Tach",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 651.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "yVzJRVng6Q4",
+    "title": "RECORREMOS OCEAN DRIVE EN VIVO | #TDT 30/6",
+    "minute": "01:40:01",
+    "views": 41420,
+    "conc_at": 14622
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 14622,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "samsung-health-galaxy-watch-8",
+  "name": "Samsung Health / Galaxy Watch 8",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 425.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "yVzJRVng6Q4",
+    "title": "RECORREMOS OCEAN DRIVE EN VIVO | #TDT 30/6",
+    "minute": "01:50:02",
+    "views": 41420,
+    "conc_at": 14675
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 14675,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "tecnologia"
  },
  {
   "slug": "youtube-aura-stream-tn",
@@ -3966,43 +5175,6 @@
   "rubro": "retail"
  },
  {
-  "slug": "mogul",
-  "name": "Mogul",
-  "mentions": 1,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 823.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "26/06/2026",
-    "video_id": "3QJmfDvuxIk",
-    "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
-    "minute": "01:10:43",
-    "views": 40199,
-    "conc_at": 28428
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 28428,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "otro"
- },
- {
   "slug": "samsung-galaxy-s26",
   "name": "Samsung Galaxy S26",
   "mentions": 1,
@@ -4149,6 +5321,117 @@
    "insufficient": 0
   },
   "rubro": "bebidas"
+ },
+ {
+  "slug": "teresa",
+  "name": "Teresa",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 33.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "0NuPTgKW5mc",
+    "title": "#ANTESQUENADIE | AHHH TIRABA ESA: EL LEVANTE DE DIEGO Y ¿LAS SEÑORAS SABEN DE FÚTBOL?",
+    "minute": "00:11:00",
+    "views": 134161,
+    "conc_at": 1544
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 1544,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "viva-glycolic-crystal",
+  "name": "Viva Glycolic Crystal",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 2717.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "0NuPTgKW5mc",
+    "title": "#ANTESQUENADIE | AHHH TIRABA ESA: EL LEVANTE DE DIEGO Y ¿LAS SEÑORAS SABEN DE FÚTBOL?",
+    "minute": "03:07:07",
+    "views": 134161,
+    "conc_at": 93837
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 93837,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "antelios-uber-fps-50-roche-posay",
+  "name": "Antelios Uber FPS 50 - Roche Posay",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 2788.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "0NuPTgKW5mc",
+    "title": "#ANTESQUENADIE | AHHH TIRABA ESA: EL LEVANTE DE DIEGO Y ¿LAS SEÑORAS SABEN DE FÚTBOL?",
+    "minute": "03:10:00",
+    "views": 134161,
+    "conc_at": 96269
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 96269,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
  },
  {
   "slug": "osde-flux",
@@ -4622,6 +5905,80 @@
   "n_activations": 1,
   "n_programs": 1,
   "peak_conc_at": 57,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "tsa-bursatil",
+  "name": "TSA Bursátil",
+  "mentions": 1,
+  "channels": [
+   "ahoraplay"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 7.0,
+  "samples": [
+   {
+    "channel": "ahoraplay",
+    "channel_name": "AHORA PLAY",
+    "date": "30/06/2026",
+    "video_id": "O3EcIBl7Sh4",
+    "title": "¿AGUANTAN LAS PYMES? CON NICOLÁS GADANO | Diego Ponzio y Amilcar Collante #BitácoraPyme",
+    "minute": "00:46:53",
+    "views": 1591,
+    "conc_at": 238
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 238,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "punto-finanzas",
+  "name": "Punto Finanzas",
+  "mentions": 1,
+  "channels": [
+   "ahoraplay"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 7.0,
+  "samples": [
+   {
+    "channel": "ahoraplay",
+    "channel_name": "AHORA PLAY",
+    "date": "30/06/2026",
+    "video_id": "O3EcIBl7Sh4",
+    "title": "¿AGUANTAN LAS PYMES? CON NICOLÁS GADANO | Diego Ponzio y Amilcar Collante #BitácoraPyme",
+    "minute": "01:05:47",
+    "views": 1591,
+    "conc_at": 226
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 226,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -5446,43 +6803,6 @@
   "rubro": "bebidas"
  },
  {
-  "slug": "supermercados-dia",
-  "name": "Supermercados Día",
-  "mentions": 1,
-  "channels": [
-   "vorterix"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "29/06/2026",
-  "last_seen": "29/06/2026",
-  "value_usd": 253.0,
-  "samples": [
-   {
-    "channel": "vorterix",
-    "channel_name": "Vorterix",
-    "date": "29/06/2026",
-    "video_id": "JNLpggdieek",
-    "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-    "minute": "02:14:59",
-    "views": 29488,
-    "conc_at": 8739
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 8739,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "retail"
- },
- {
   "slug": "nivea-milk-nutritiva",
   "name": "Nivea Milk Nutritiva",
   "mentions": 1,
@@ -5890,6 +7210,80 @@
   "rubro": "retail"
  },
  {
+  "slug": "tic-sports",
+  "name": "Tic Sports",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 161.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "KSHRnYRkhNI",
+    "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
+    "minute": "01:55:21",
+    "views": 14812,
+    "conc_at": 5557
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 5557,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "golden-vape",
+  "name": "Golden Vapé",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 161.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "KSHRnYRkhNI",
+    "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
+    "minute": "02:09:00",
+    "views": 14812,
+    "conc_at": 5557
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 5557,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
   "slug": "uber",
   "name": "Uber",
   "mentions": 1,
@@ -5954,43 +7348,6 @@
   "n_activations": 1,
   "n_programs": 1,
   "peak_conc_at": 511,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "otro"
- },
- {
-  "slug": "escorial",
-  "name": "Escorial",
-  "mentions": 1,
-  "channels": [
-   "blend"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "25/06/2026",
-  "last_seen": "25/06/2026",
-  "value_usd": 246.0,
-  "samples": [
-   {
-    "channel": "blend",
-    "channel_name": "BLENDER",
-    "date": "25/06/2026",
-    "video_id": "JXVQmuDctII",
-    "title": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
-    "minute": "01:00:00",
-    "views": 9779,
-    "conc_at": 11469
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 11469,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -6260,43 +7617,6 @@
   "rubro": "otro"
  },
  {
-  "slug": "turbobet",
-  "name": "TurboBet",
-  "mentions": 1,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "29/06/2026",
-  "last_seen": "29/06/2026",
-  "value_usd": 31.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "29/06/2026",
-    "video_id": "WCdVYizlDYA",
-    "title": "⚽️ GOLGANA con AZZ: Flavio Azzaro, Chute D'attellis, Benito, Sangre y Mouche | OLGA EN VIVO 2026-06-29 14:53",
-    "minute": "01:39:59",
-    "views": 6962,
-    "conc_at": 4230
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 4230,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "seguros"
- },
- {
   "slug": "suave-star",
   "name": "Suave Star",
   "mentions": 1,
@@ -6519,6 +7839,265 @@
   "rubro": "otro"
  },
  {
+  "slug": "dos-cafes",
+  "name": "Dos Cafés",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 106.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "30/06/2026",
+    "video_id": "l75dqnKslKI",
+    "title": "QUÉ OLOR con Charo LÓPEZ, Noe CUSTODIO y Mili GOGGIA 2026-06-30 14:25",
+    "minute": "01:11:36",
+    "views": 2343,
+    "conc_at": 3667
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 3667,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "teatro-mercedes",
+  "name": "Teatro Mercedes",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 3439.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "43pRPuCeYcw",
+    "title": "#PATRIAYFAMILIA l NOS VAMOS DE GIRA A TUCUMÁN Y EL PURRE SE DRAGUEA",
+    "minute": "01:06:12",
+    "views": 93352,
+    "conc_at": 77186
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 77186,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "sexy-team-kiss-me-hot-lip-oil",
+  "name": "Sexy team kiss me hot lip oil",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 2235.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "43pRPuCeYcw",
+    "title": "#PATRIAYFAMILIA l NOS VAMOS DE GIRA A TUCUMÁN Y EL PURRE SE DRAGUEA",
+    "minute": "01:19:50",
+    "views": 93352,
+    "conc_at": 77186
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 77186,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "republica-folclore",
+  "name": "República Folclore",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 2235.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "43pRPuCeYcw",
+    "title": "#PATRIAYFAMILIA l NOS VAMOS DE GIRA A TUCUMÁN Y EL PURRE SE DRAGUEA",
+    "minute": "01:15:09",
+    "views": 93352,
+    "conc_at": 77186
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 77186,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "fintech"
+ },
+ {
+  "slug": "sexy-tip-kiss-me-hot-lip-oil",
+  "name": "Sexy Tip Kiss Me Hot Lip Oil",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 2547.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "43pRPuCeYcw",
+    "title": "#PATRIAYFAMILIA l NOS VAMOS DE GIRA A TUCUMÁN Y EL PURRE SE DRAGUEA",
+    "minute": "01:22:45",
+    "views": 93352,
+    "conc_at": 77186
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 77186,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "la-roche-posay-efa-clar",
+  "name": "La Roche-Posay EFA Clar",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 3439.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "43pRPuCeYcw",
+    "title": "#PATRIAYFAMILIA l NOS VAMOS DE GIRA A TUCUMÁN Y EL PURRE SE DRAGUEA",
+    "minute": "01:27:35",
+    "views": 93352,
+    "conc_at": 77186
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 77186,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "effaclar-la-roche-posay",
+  "name": "Effaclar La Roche-Posay",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 2235.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "43pRPuCeYcw",
+    "title": "#PATRIAYFAMILIA l NOS VAMOS DE GIRA A TUCUMÁN Y EL PURRE SE DRAGUEA",
+    "minute": "01:30:00",
+    "views": 93352,
+    "conc_at": 77186
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 77186,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
   "slug": "jorjito-club-jorjito",
   "name": "Jorjito - Club Jorjito",
   "mentions": 1,
@@ -6630,33 +8209,33 @@
   "rubro": "energia"
  },
  {
-  "slug": "telecentro",
-  "name": "Telecentro",
+  "slug": "doc-cafe",
+  "name": "Doc Café",
   "mentions": 1,
   "channels": [
    "vorterix"
   ],
   "n_channels": 1,
   "n_videos": 1,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 14.0,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 189.0,
   "samples": [
    {
     "channel": "vorterix",
     "channel_name": "Vorterix",
-    "date": "26/06/2026",
-    "video_id": "LE5ICiVWzT8",
-    "title": "🔴 NO SE PUDO MUNDIAL con Erno Provitilo, Juan Igal, Alexis Valido y Tropeano | VORTERIX EN VIVO",
-    "minute": "01:00:36",
-    "views": 4068,
-    "conc_at": 1417
+    "date": "30/06/2026",
+    "video_id": "zpbJ8ju9xmk",
+    "title": "EQUIPO COMPLETO Y SOMOS MÁS PARAGUAYOS QUE NUNCA | #YQUE COMPLETO 30/6 | VORTERIX",
+    "minute": "00:25:59",
+    "views": 30958,
+    "conc_at": 6515
    }
   ],
   "kind": "marca",
   "n_activations": 1,
   "n_programs": 1,
-  "peak_conc_at": 1417,
+  "peak_conc_at": 6515,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -6665,6 +8244,117 @@
    "insufficient": 0
   },
   "rubro": "otro"
+ },
+ {
+  "slug": "arroba-portrix-oficial",
+  "name": "Arroba Portrix Oficial",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 57.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "zpbJ8ju9xmk",
+    "title": "EQUIPO COMPLETO Y SOMOS MÁS PARAGUAYOS QUE NUNCA | #YQUE COMPLETO 30/6 | VORTERIX",
+    "minute": "01:11:50",
+    "views": 30958,
+    "conc_at": 7896
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 7896,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "olava",
+  "name": "Olava",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 585.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "zpbJ8ju9xmk",
+    "title": "EQUIPO COMPLETO Y SOMOS MÁS PARAGUAYOS QUE NUNCA | #YQUE COMPLETO 30/6 | VORTERIX",
+    "minute": "01:59:19",
+    "views": 30958,
+    "conc_at": 20188
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 20188,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "bebidas"
+ },
+ {
+  "slug": "supermercados-dia-y-oslava",
+  "name": "Supermercados Día y Oslava",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 479.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "zpbJ8ju9xmk",
+    "title": "EQUIPO COMPLETO Y SOMOS MÁS PARAGUAYOS QUE NUNCA | #YQUE COMPLETO 30/6 | VORTERIX",
+    "minute": "02:00:00",
+    "views": 30958,
+    "conc_at": 16525
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 16525,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "retail"
  },
  {
   "slug": "live-seguros",
@@ -6776,43 +8466,6 @@
    "insufficient": 0
   },
   "rubro": "otro"
- },
- {
-  "slug": "pedidos-ya",
-  "name": "Pedidos Ya",
-  "mentions": 1,
-  "channels": [
-   "luzu"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "29/06/2026",
-  "last_seen": "29/06/2026",
-  "value_usd": 9963.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "29/06/2026",
-    "video_id": "jEEahJU8_jg",
-    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
-    "minute": "01:27:43",
-    "views": 533713,
-    "conc_at": 223645
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 223645,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "retail"
  },
  {
   "slug": "mikeloultra",
@@ -7000,6 +8653,117 @@
   "rubro": "otro"
  },
  {
+  "slug": "cofler-extra",
+  "name": "Cofler Extra",
+  "mentions": 1,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 352.0,
+  "samples": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "29/06/2026",
+    "video_id": "1KdxLdm_3K0",
+    "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
+    "minute": "02:10:00",
+    "views": 201451,
+    "conc_at": 16389
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 16389,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "urbana-play-104-3",
+  "name": "Urbana Play 104.3",
+  "mentions": 1,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 352.0,
+  "samples": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "29/06/2026",
+    "video_id": "1KdxLdm_3K0",
+    "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
+    "minute": "02:10:00",
+    "views": 201451,
+    "conc_at": 16389
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 16389,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "colecciones-clarin-buzz-lightyear",
+  "name": "Colecciones Clarín / Buzz Lightyear",
+  "mentions": 1,
+  "channels": [
+   "urbana-play-104-3-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "29/06/2026",
+  "last_seen": "29/06/2026",
+  "value_usd": 469.0,
+  "samples": [
+   {
+    "channel": "urbana-play-104-3-fm",
+    "channel_name": "Urbana Play 104.3 FM",
+    "date": "29/06/2026",
+    "video_id": "1KdxLdm_3K0",
+    "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
+    "minute": "03:00:01",
+    "views": 201451,
+    "conc_at": 21873
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 21873,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
   "slug": "marroc-de-belfort-felford",
   "name": "Marroc de Belfort / Felford",
   "mentions": 1,
@@ -7037,43 +8801,6 @@
   "rubro": "otro"
  },
  {
-  "slug": "coto-digital",
-  "name": "Coto Digital",
-  "mentions": 1,
-  "channels": [
-   "luzu"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "24/06/2026",
-  "last_seen": "24/06/2026",
-  "value_usd": 10422.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "24/06/2026",
-    "video_id": "WCF4oC8GC9o",
-    "title": "#NADIEDICENADA l TODO SOBRE EL PRIMER FESTEJO, EL HILO ROJO DEL PROGRAMA Y EL CURRITO DE LA CASTRO",
-    "minute": "01:41:54",
-    "views": 335199,
-    "conc_at": 233938
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 233938,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "retail"
- },
- {
   "slug": "nadir-argentina",
   "name": "Nadir Argentina",
   "mentions": 1,
@@ -7101,43 +8828,6 @@
   "n_activations": 1,
   "n_programs": 1,
   "peak_conc_at": 8150,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "otro"
- },
- {
-  "slug": "ada-cafe",
-  "name": "Ada Café",
-  "mentions": 1,
-  "channels": [
-   "gelatina"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "29/06/2026",
-  "last_seen": "29/06/2026",
-  "value_usd": 74.0,
-  "samples": [
-   {
-    "channel": "gelatina",
-    "channel_name": "GELATINA",
-    "date": "29/06/2026",
-    "video_id": "vlNZMMmBbLw",
-    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
-    "minute": "02:28:54",
-    "views": 7813,
-    "conc_at": 2567
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 2567,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {
@@ -7183,6 +8873,80 @@
    "insufficient": 0
   },
   "rubro": "otro"
+ },
+ {
+  "slug": "nissan",
+  "name": "Nissan",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 624.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "USlO4VX83B4",
+    "title": "🌶️ TAPADOS DE LABURO con Nacho, Cami, Valen Rizzuti, Marce Kloosterboer y Mica Suarez | OLGA EN VIVO",
+    "minute": "00:26:36",
+    "views": 26069,
+    "conc_at": 21564
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 21564,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "heineken",
+  "name": "Heineken",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 624.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "USlO4VX83B4",
+    "title": "🌶️ TAPADOS DE LABURO con Nacho, Cami, Valen Rizzuti, Marce Kloosterboer y Mica Suarez | OLGA EN VIVO",
+    "minute": "00:56:31",
+    "views": 26069,
+    "conc_at": 21564
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 21564,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "bebidas"
  },
  {
   "slug": "geniori-plushie-geniol",
@@ -7323,43 +9087,6 @@
   "n_activations": 1,
   "n_programs": 1,
   "peak_conc_at": 1718,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "otro"
- },
- {
-  "slug": "urbana-play",
-  "name": "Urbana Play",
-  "mentions": 1,
-  "channels": [
-   "urbana-play-104-3-fm"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "26/06/2026",
-  "last_seen": "26/06/2026",
-  "value_usd": 34.0,
-  "samples": [
-   {
-    "channel": "urbana-play-104-3-fm",
-    "channel_name": "Urbana Play 104.3 FM",
-    "date": "26/06/2026",
-    "video_id": "U8f_2vIvO7Y",
-    "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
-    "minute": "01:45:06",
-    "views": 7678,
-    "conc_at": 3451
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 3451,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {

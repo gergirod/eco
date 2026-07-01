@@ -1,24 +1,24 @@
 {
- "programs_analyzed": 92,
- "platform_line": "La atención más fuerte concentra entre las 11–12 hs (promedio 79.947 mirando en 15 emisiones).",
+ "programs_analyzed": 118,
+ "platform_line": "La atención más fuerte concentra entre las 11–12 hs (promedio 74.869 mirando en 20 emisiones).",
  "best_hours": [
   {
    "hour": 11,
    "label": "11–12 hs",
-   "avg_peak": 79947,
-   "n": 15
-  },
-  {
-   "hour": 12,
-   "label": "12–13 hs",
-   "avg_peak": 72884,
-   "n": 6
+   "avg_peak": 74869,
+   "n": 20
   },
   {
    "hour": 10,
    "label": "10–11 hs",
-   "avg_peak": 56915,
-   "n": 17
+   "avg_peak": 55494,
+   "n": 16
+  },
+  {
+   "hour": 12,
+   "label": "12–13 hs",
+   "avg_peak": 48916,
+   "n": 12
   },
   {
    "hour": 14,
@@ -27,16 +27,16 @@
    "n": 5
   },
   {
-   "hour": 15,
-   "label": "15–16 hs",
-   "avg_peak": 19111,
-   "n": 5
-  },
-  {
    "hour": 13,
    "label": "13–14 hs",
    "avg_peak": 17963,
    "n": 8
+  },
+  {
+   "hour": 15,
+   "label": "15–16 hs",
+   "avg_peak": 17258,
+   "n": 7
   }
  ],
  "best_weekdays": [
@@ -47,16 +47,16 @@
    "n": 2
   },
   {
-   "weekday": 1,
-   "label": "martes",
-   "avg_peak": 61539,
-   "n": 16
-  },
-  {
    "weekday": 2,
    "label": "miércoles",
    "avg_peak": 50735,
    "n": 15
+  },
+  {
+   "weekday": 1,
+   "label": "martes",
+   "avg_peak": 35148,
+   "n": 42
   },
   {
    "weekday": 4,
@@ -74,30 +74,30 @@
    "typical_start": "10:16",
    "peak_window": "11–12 hs",
    "best_weekday": "martes",
-   "avg_peak": 215528,
+   "avg_peak": 228463,
    "line": "Nadie Dice Nada suele arrancar cerca de las 10:16 y pega fuerte entre 11–12 hs los martes."
   },
   {
    "channel_id": "luzu",
    "show_id": "aqn",
    "show_name": "Antes Que Nadie",
-   "emissions": 4,
-   "typical_start": "6:44",
+   "emissions": 5,
+   "typical_start": "6:45",
    "peak_window": "10–11 hs",
-   "best_weekday": "miércoles",
-   "avg_peak": 122859,
-   "line": "Antes Que Nadie suele arrancar cerca de las 6:44 y pega fuerte entre 10–11 hs los miércoles."
+   "best_weekday": "martes",
+   "avg_peak": 122223,
+   "line": "Antes Que Nadie suele arrancar cerca de las 6:45 y pega fuerte entre 10–11 hs los martes."
   },
   {
    "channel_id": "luzu",
    "show_id": "patria",
    "show_name": "Patria y Familia",
-   "emissions": 4,
-   "typical_start": "12:30",
+   "emissions": 5,
+   "typical_start": "12:31",
    "peak_window": "12–13 hs",
    "best_weekday": "martes",
-   "avg_peak": 107305,
-   "line": "Patria y Familia suele arrancar cerca de las 12:30 y pega fuerte entre 12–13 hs los martes."
+   "avg_peak": 101281,
+   "line": "Patria y Familia suele arrancar cerca de las 12:31 y pega fuerte entre 12–13 hs los martes."
   },
   {
    "channel_id": "olga",
@@ -129,8 +129,19 @@
    "typical_start": "10:14",
    "peak_window": "11–12 hs",
    "best_weekday": "martes",
-   "avg_peak": 38594,
+   "avg_peak": 38992,
    "line": "Soñé que Volaba suele arrancar cerca de las 10:14 y pega fuerte entre 11–12 hs los martes."
+  },
+  {
+   "channel_id": "bondi",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "emissions": 2,
+   "typical_start": "9:45",
+   "peak_window": "12–13 hs",
+   "best_weekday": "martes",
+   "avg_peak": 38189,
+   "line": "Otros suele arrancar cerca de las 9:45 y pega fuerte entre 12–13 hs los martes."
   },
   {
    "channel_id": "luzu",
@@ -147,34 +158,34 @@
    "channel_id": "luzu",
    "show_id": "fmluzu",
    "show_name": "FM Luzu",
-   "emissions": 3,
+   "emissions": 4,
    "typical_start": "16:32",
    "peak_window": "17–18 hs",
    "best_weekday": "martes",
-   "avg_peak": 29853,
+   "avg_peak": 29208,
    "line": "FM Luzu suele arrancar cerca de las 16:32 y pega fuerte entre 17–18 hs los martes."
   },
   {
    "channel_id": "olga",
    "show_id": "tapados",
    "show_name": "Tapados de Laburo",
-   "emissions": 4,
-   "typical_start": "12:37",
+   "emissions": 5,
+   "typical_start": "12:38",
    "peak_window": "13–14 hs",
    "best_weekday": "martes",
-   "avg_peak": 29705,
-   "line": "Tapados de Laburo suele arrancar cerca de las 12:37 y pega fuerte entre 13–14 hs los martes."
+   "avg_peak": 28077,
+   "line": "Tapados de Laburo suele arrancar cerca de las 12:38 y pega fuerte entre 13–14 hs los martes."
   },
   {
    "channel_id": "luzu",
    "show_id": "fondo",
    "show_name": "Los del Fondo",
-   "emissions": 1,
-   "typical_start": "17:41",
+   "emissions": 2,
+   "typical_start": "17:44",
    "peak_window": "18–19 hs",
    "best_weekday": "martes",
-   "avg_peak": 27372,
-   "line": "Los del Fondo suele arrancar cerca de las 17:41 y pega fuerte entre 18–19 hs."
+   "avg_peak": 21424,
+   "line": "Los del Fondo suele arrancar cerca de las 17:44 y pega fuerte entre 18–19 hs los martes."
   },
   {
    "channel_id": "luzu",
@@ -191,12 +202,12 @@
    "channel_id": "olga",
    "show_id": "tdt",
    "show_name": "TDT",
-   "emissions": 4,
-   "typical_start": "14:37",
-   "peak_window": "14–15 hs",
-   "best_weekday": "lunes",
-   "avg_peak": 19937,
-   "line": "TDT suele arrancar cerca de las 14:37 y pega fuerte entre 14–15 hs los lunes."
+   "emissions": 5,
+   "typical_start": "14:36",
+   "peak_window": "15–16 hs",
+   "best_weekday": "martes",
+   "avg_peak": 19102,
+   "line": "TDT suele arrancar cerca de las 14:36 y pega fuerte entre 15–16 hs los martes."
   },
   {
    "channel_id": "vorterix",
@@ -208,18 +219,7 @@
    "best_weekday": "lunes",
    "avg_peak": 9849,
    "line": "No Preguntes por Rusia suele arrancar cerca de las 7:46 y pega fuerte entre 9–10 hs los lunes."
-  },
-  {
-   "channel_id": "olga",
-   "show_id": "gol-gana",
-   "show_name": "Gol Gana",
-   "emissions": 5,
-   "typical_start": "16:34",
-   "peak_window": "16–17 hs",
-   "best_weekday": "lunes",
-   "avg_peak": 9221,
-   "line": "Gol Gana suele arrancar cerca de las 16:34 y pega fuerte entre 16–17 hs los lunes."
   }
  ],
- "period": "2026-06-30T13:34:28.849121+00:00"
+ "period": "2026-07-01T02:40:38.266837+00:00"
 }

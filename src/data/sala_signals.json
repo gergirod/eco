@@ -1,5 +1,5 @@
 {
- "exported_at": "2026-06-30T13:34:28.849121+00:00",
+ "exported_at": "2026-07-01T02:40:38.266837+00:00",
  "signals": [
   {
    "tema": "cuatia · curuzu",
@@ -21,6 +21,35 @@
     }
    ],
    "ejemplo": "CURUZU CUATIA"
+  },
+  {
+   "tema": "liska · tirate",
+   "evidence_lane": "chat",
+   "n_msgs": 54,
+   "n_authors": 54,
+   "n_programas": 2,
+   "canales": [
+    "Vorterix"
+   ],
+   "programs": [
+    {
+     "video_id": "LjEHjrbNNgs",
+     "channel": "Vorterix",
+     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+     "n_msgs": 45,
+     "n_authors": 45,
+     "ejemplo": "LISKA TIRATE"
+    },
+    {
+     "video_id": "zpbJ8ju9xmk",
+     "channel": "Vorterix",
+     "title": "EQUIPO COMPLETO Y SOMOS MÁS PARAGUAYOS QUE NUNCA | #YQUE COMPLETO 30/6 | VORTERIX",
+     "n_msgs": 9,
+     "n_authors": 9,
+     "ejemplo": "Tirate liska"
+    }
+   ],
+   "ejemplo": "LISKA TIRATE"
   },
   {
    "tema": "2027 · confio",
@@ -59,27 +88,6 @@
     }
    ],
    "ejemplo": "ConFio 2027"
-  },
-  {
-   "tema": "liska · tirate",
-   "evidence_lane": "chat",
-   "n_msgs": 45,
-   "n_authors": 45,
-   "n_programas": 1,
-   "canales": [
-    "Vorterix"
-   ],
-   "programs": [
-    {
-     "video_id": "LjEHjrbNNgs",
-     "channel": "Vorterix",
-     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-     "n_msgs": 45,
-     "n_authors": 45,
-     "ejemplo": "LISKA TIRATE"
-    }
-   ],
-   "ejemplo": "LISKA TIRATE"
   },
   {
    "tema": "like · vivooo",
@@ -134,6 +142,109 @@
     }
    ],
    "ejemplo": "like al vivooo"
+  },
+  {
+   "tema": "buen · dia",
+   "evidence_lane": "chat",
+   "n_msgs": 40,
+   "n_authors": 40,
+   "n_programas": 10,
+   "canales": [
+    "?",
+    "GELATINA",
+    "OLGA",
+    "Urbana Play 104.3 FM",
+    "Vorterix"
+   ],
+   "programs": [
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "Urbana Play 104.3 FM",
+     "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "buen dia"
+    },
+    {
+     "video_id": "3CPnLRc7h2w",
+     "channel": "Vorterix",
+     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+     "n_msgs": 7,
+     "n_authors": 7,
+     "ejemplo": "buen día"
+    },
+    {
+     "video_id": "FFy6eNzi-dQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "buen día"
+    },
+    {
+     "video_id": "WNe6QLgDfyM",
+     "channel": "OLGA",
+     "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Buen día"
+    },
+    {
+     "video_id": "bX7MB2_OI2I",
+     "channel": "OLGA",
+     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "buen día"
+    }
+   ],
+   "ejemplo": "buen dia"
+  },
+  {
+   "tema": "grabado · lamentablemente",
+   "evidence_lane": "chat",
+   "n_msgs": 39,
+   "n_authors": 39,
+   "n_programas": 4,
+   "canales": [
+    "?",
+    "Vorterix"
+   ],
+   "programs": [
+    {
+     "video_id": "EwFONN3W5cg",
+     "channel": "Vorterix",
+     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "lamentablemente grabado"
+    },
+    {
+     "video_id": "FYdwwoHNrMs",
+     "channel": "Vorterix",
+     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+     "n_msgs": 28,
+     "n_authors": 28,
+     "ejemplo": "lamentablemente grabado"
+    },
+    {
+     "video_id": "NssiC9pO80s",
+     "channel": "Vorterix",
+     "title": "CONSULTORIO DEL AMOR DE ROBERTO CON LOS NEUROPIBES | #DesdeElRespeto | COMPLETO 30/06 | VORTERIX",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Lamentablemente grabado"
+    },
+    {
+     "video_id": "cG_sxu72mSo",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 5,
+     "ejemplo": "lamentablemente grabado"
+    }
+   ],
+   "ejemplo": "lamentablemente grabado"
   },
   {
    "tema": "charo · fija",
@@ -228,101 +339,71 @@
    "ejemplo": "LIKE AL VIVOOOO"
   },
   {
-   "tema": "buen · dia",
+   "tema": "migue · razon · tiene",
    "evidence_lane": "chat",
-   "n_msgs": 33,
-   "n_authors": 33,
-   "n_programas": 8,
-   "canales": [
-    "?",
-    "GELATINA",
-    "OLGA",
-    "Vorterix"
-   ],
-   "programs": [
-    {
-     "video_id": "1KdxLdm_3K0",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 3,
-     "n_authors": 3,
-     "ejemplo": "buen dia"
-    },
-    {
-     "video_id": "3CPnLRc7h2w",
-     "channel": "Vorterix",
-     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-     "n_msgs": 7,
-     "n_authors": 7,
-     "ejemplo": "buen día"
-    },
-    {
-     "video_id": "FFy6eNzi-dQ",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "buen día"
-    },
-    {
-     "video_id": "WNe6QLgDfyM",
-     "channel": "OLGA",
-     "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "Buen día"
-    },
-    {
-     "video_id": "bX7MB2_OI2I",
-     "channel": "OLGA",
-     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "buen día"
-    }
-   ],
-   "ejemplo": "buen dia"
-  },
-  {
-   "tema": "grabado · lamentablemente",
-   "evidence_lane": "chat",
-   "n_msgs": 32,
-   "n_authors": 32,
-   "n_programas": 2,
-   "canales": [
-    "Vorterix"
-   ],
-   "programs": [
-    {
-     "video_id": "EwFONN3W5cg",
-     "channel": "Vorterix",
-     "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "lamentablemente grabado"
-    },
-    {
-     "video_id": "FYdwwoHNrMs",
-     "channel": "Vorterix",
-     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
-     "n_msgs": 28,
-     "n_authors": 28,
-     "ejemplo": "lamentablemente grabado"
-    }
-   ],
-   "ejemplo": "lamentablemente grabado"
-  },
-  {
-   "tema": "like · vivooooo",
-   "evidence_lane": "chat",
-   "n_msgs": 31,
-   "n_authors": 30,
-   "n_programas": 6,
+   "n_msgs": 35,
+   "n_authors": 35,
+   "n_programas": 4,
    "canales": [
     "?",
     "OLGA"
    ],
    "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": "MIGUE TIENE RAZÓN"
+    },
+    {
+     "video_id": "Lm6Db-SEA0M",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 5,
+     "ejemplo": "MIGUE TIENE RAZON"
+    },
+    {
+     "video_id": "cOui_830fXg",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 19,
+     "n_authors": 19,
+     "ejemplo": "MIGUE TIENE RAZÓN"
+    },
+    {
+     "video_id": "ptOHcGEdWCk",
+     "channel": "OLGA",
+     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "Tiene razon migue"
+    }
+   ],
+   "ejemplo": "MIGUE TIENE RAZÓN"
+  },
+  {
+   "tema": "like · vivooooo",
+   "evidence_lane": "chat",
+   "n_msgs": 33,
+   "n_authors": 32,
+   "n_programas": 7,
+   "canales": [
+    "?",
+    "Bondi Live",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "G48eCpGj41g",
+     "channel": "Bondi Live",
+     "title": "▶️ PROGRAMACIÓN COMPLETA 30/06 | BONDI LIVE",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "LIKE AL VIVOOOOO"
+    },
     {
      "video_id": "IB9cCJT0-_M",
      "channel": "?",
@@ -354,55 +435,65 @@
      "n_msgs": 8,
      "n_authors": 8,
      "ejemplo": "LIKE AL VIVOOOOO"
-    },
-    {
-     "video_id": "bX7MB2_OI2I",
-     "channel": "OLGA",
-     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "Like al vivooooo"
     }
    ],
    "ejemplo": "LIKE AL VIVOOOOO"
   },
   {
-   "tema": "migue · razon · tiene",
+   "tema": "like · pongan",
    "evidence_lane": "chat",
-   "n_msgs": 30,
-   "n_authors": 30,
-   "n_programas": 3,
+   "n_msgs": 32,
+   "n_authors": 31,
+   "n_programas": 7,
    "canales": [
     "?",
-    "OLGA"
+    "Bondi Live",
+    "GELATINA",
+    "Vorterix"
    ],
    "programs": [
     {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 8,
-     "n_authors": 8,
-     "ejemplo": "MIGUE TIENE RAZÓN"
+     "video_id": "G48eCpGj41g",
+     "channel": "Bondi Live",
+     "title": "▶️ PROGRAMACIÓN COMPLETA 30/06 | BONDI LIVE",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Pongan LIKE"
     },
     {
-     "video_id": "cOui_830fXg",
+     "video_id": "JNLpggdieek",
+     "channel": "Vorterix",
+     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "PONGAN LIKE"
+    },
+    {
+     "video_id": "LjEHjrbNNgs",
+     "channel": "Vorterix",
+     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
+     "n_msgs": 13,
+     "n_authors": 12,
+     "ejemplo": "PONGAN LIKE"
+    },
+    {
+     "video_id": "TS7Q8dOmi-M",
      "channel": "?",
      "title": "",
-     "n_msgs": 19,
-     "n_authors": 19,
-     "ejemplo": "MIGUE TIENE RAZÓN"
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "PONGAN LIKE"
     },
     {
-     "video_id": "ptOHcGEdWCk",
-     "channel": "OLGA",
-     "title": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
-     "n_msgs": 3,
-     "n_authors": 3,
-     "ejemplo": "Tiene razon migue"
+     "video_id": "tAUTd2FsMxA",
+     "channel": "Bondi Live",
+     "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "pongan LIKE"
     }
    ],
-   "ejemplo": "MIGUE TIENE RAZÓN"
+   "ejemplo": "Pongan LIKE"
   },
   {
    "tema": "brenas · chaco",
@@ -510,51 +601,71 @@
    "ejemplo": "vamos Curuzu"
   },
   {
-   "tema": "like · pongan",
+   "tema": "bot · soy",
    "evidence_lane": "chat",
-   "n_msgs": 21,
-   "n_authors": 20,
-   "n_programas": 4,
+   "n_msgs": 22,
+   "n_authors": 22,
+   "n_programas": 2,
    "canales": [
-    "Bondi Live",
-    "GELATINA",
     "Vorterix"
    ],
    "programs": [
     {
-     "video_id": "JNLpggdieek",
-     "channel": "Vorterix",
-     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "PONGAN LIKE"
-    },
-    {
      "video_id": "LjEHjrbNNgs",
      "channel": "Vorterix",
      "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
-     "n_msgs": 13,
+     "n_msgs": 10,
+     "n_authors": 10,
+     "ejemplo": "NO SOY UN BOT"
+    },
+    {
+     "video_id": "zpbJ8ju9xmk",
+     "channel": "Vorterix",
+     "title": "EQUIPO COMPLETO Y SOMOS MÁS PARAGUAYOS QUE NUNCA | #YQUE COMPLETO 30/6 | VORTERIX",
+     "n_msgs": 12,
      "n_authors": 12,
-     "ejemplo": "PONGAN LIKE"
-    },
-    {
-     "video_id": "tAUTd2FsMxA",
-     "channel": "Bondi Live",
-     "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "pongan LIKE"
-    },
-    {
-     "video_id": "tlhTO7YtTJ0",
-     "channel": "GELATINA",
-     "title": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "PONGAN LIKE"
+     "ejemplo": "SOY UN BOT"
     }
    ],
-   "ejemplo": "PONGAN LIKE"
+   "ejemplo": "NO SOY UN BOT"
+  },
+  {
+   "tema": "fijos · leo · vero",
+   "evidence_lane": "chat",
+   "n_msgs": 21,
+   "n_authors": 20,
+   "n_programas": 3,
+   "canales": [
+    "?",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "bX7MB2_OI2I",
+     "channel": "OLGA",
+     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "Vero y Leo fijos"
+    },
+    {
+     "video_id": "cOui_830fXg",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 2,
+     "ejemplo": "Leo y vero fijos"
+    },
+    {
+     "video_id": "mxFu-R3O8TY",
+     "channel": "OLGA",
+     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+     "n_msgs": 15,
+     "n_authors": 15,
+     "ejemplo": "Leo y vero fijos"
+    }
+   ],
+   "ejemplo": "Vero y Leo fijos"
   },
   {
    "tema": "amo · camila",
@@ -603,49 +714,11 @@
    "ejemplo": "TE AMO CAMILA"
   },
   {
-   "tema": "fijos · leo · vero",
-   "evidence_lane": "chat",
-   "n_msgs": 19,
-   "n_authors": 18,
-   "n_programas": 3,
-   "canales": [
-    "?",
-    "OLGA"
-   ],
-   "programs": [
-    {
-     "video_id": "bX7MB2_OI2I",
-     "channel": "OLGA",
-     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "Vero y Leo fijos"
-    },
-    {
-     "video_id": "cOui_830fXg",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 3,
-     "n_authors": 2,
-     "ejemplo": "Leo y vero fijos"
-    },
-    {
-     "video_id": "mxFu-R3O8TY",
-     "channel": "OLGA",
-     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
-     "n_msgs": 14,
-     "n_authors": 14,
-     "ejemplo": "Leo y vero fijos"
-    }
-   ],
-   "ejemplo": "Vero y Leo fijos"
-  },
-  {
    "tema": "bueno · muy",
    "evidence_lane": "chat",
-   "n_msgs": 19,
-   "n_authors": 17,
-   "n_programas": 8,
+   "n_msgs": 21,
+   "n_authors": 19,
+   "n_programas": 9,
    "canales": [
     "?",
     "BLENDER",
@@ -698,13 +771,69 @@
    "ejemplo": "MUY BUENO"
   },
   {
+   "tema": "dios · mio",
+   "evidence_lane": "chat",
+   "n_msgs": 18,
+   "n_authors": 17,
+   "n_programas": 6,
+   "canales": [
+    "GELATINA",
+    "OLGA",
+    "Vorterix"
+   ],
+   "programs": [
+    {
+     "video_id": "JNLpggdieek",
+     "channel": "Vorterix",
+     "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "dios mio"
+    },
+    {
+     "video_id": "NHt6oqHZYd0",
+     "channel": "GELATINA",
+     "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Dios mio"
+    },
+    {
+     "video_id": "mxFu-R3O8TY",
+     "channel": "OLGA",
+     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "dios mio"
+    },
+    {
+     "video_id": "s__pKWUr4MM",
+     "channel": "OLGA",
+     "title": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Dios mio"
+    },
+    {
+     "video_id": "yVzJRVng6Q4",
+     "channel": "OLGA",
+     "title": "RECORREMOS OCEAN DRIVE EN VIVO | #TDT 30/6",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "DIOS MIO"
+    }
+   ],
+   "ejemplo": "dios mio"
+  },
+  {
    "tema": "devolve · saquito",
    "evidence_lane": "chat",
    "n_msgs": 17,
    "n_authors": 17,
    "n_programas": 2,
    "canales": [
-    "?"
+    "?",
+    "OLGA"
    ],
    "programs": [
     {
@@ -717,8 +846,8 @@
     },
     {
      "video_id": "fam8EedmGow",
-     "channel": "?",
-     "title": "",
+     "channel": "OLGA",
+     "title": "¿CUÁL FUE EL MEJOR BESO DE PEDRO? | #SeríaIncreíble 30/6",
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "devolve el saquito !"
@@ -748,84 +877,25 @@
    "ejemplo": "vamos Curuzú cuatia"
   },
   {
-   "tema": ":blue_heart::green_heart::blue_heart::green_heart: · brenas",
+   "tema": "vicaria · violencia",
    "evidence_lane": "chat",
-   "n_msgs": 16,
-   "n_authors": 16,
+   "n_msgs": 17,
+   "n_authors": 17,
    "n_programas": 1,
    "canales": [
     "OLGA"
    ],
    "programs": [
     {
-     "video_id": "8lOkxIDSd4w",
+     "video_id": "fam8EedmGow",
      "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 16,
-     "n_authors": 16,
-     "ejemplo": "las Breñas :blue_heart::green_heart::blue_heart::green_heart:"
+     "title": "¿CUÁL FUE EL MEJOR BESO DE PEDRO? | #SeríaIncreíble 30/6",
+     "n_msgs": 17,
+     "n_authors": 17,
+     "ejemplo": "violencia vicaria"
     }
    ],
-   "ejemplo": "las Breñas :blue_heart::green_heart::blue_heart::green_heart:"
-  },
-  {
-   "tema": ":blue_heart::green_heart: · brenas",
-   "evidence_lane": "chat",
-   "n_msgs": 15,
-   "n_authors": 15,
-   "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
-   "programs": [
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 15,
-     "n_authors": 15,
-     "ejemplo": "las Breñas :blue_heart::green_heart:"
-    }
-   ],
-   "ejemplo": "las Breñas :blue_heart::green_heart:"
-  },
-  {
-   "tema": "like · vivoo",
-   "evidence_lane": "chat",
-   "n_msgs": 14,
-   "n_authors": 14,
-   "n_programas": 3,
-   "canales": [
-    "?",
-    "OLGA"
-   ],
-   "programs": [
-    {
-     "video_id": "O6sOwvMbRBU",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "LIKE AL VIVOO"
-    },
-    {
-     "video_id": "W_HkPNOMeDc",
-     "channel": "OLGA",
-     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
-     "n_msgs": 3,
-     "n_authors": 3,
-     "ejemplo": "LIKE AL VIVOO"
-    },
-    {
-     "video_id": "kDbkbzy_ASA",
-     "channel": "OLGA",
-     "title": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
-     "n_msgs": 7,
-     "n_authors": 7,
-     "ejemplo": "LIKE AL VIVOO"
-    }
-   ],
-   "ejemplo": "LIKE AL VIVOO"
+   "ejemplo": "violencia vicaria"
   }
  ]
 }

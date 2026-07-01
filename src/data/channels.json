@@ -9,12 +9,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 18,
-   "total_vod_views": 679839,
-   "avg_concurrent": 25109,
-   "brands_detected": 57,
-   "mentions": 109,
-   "last_processed": "29/06/2026"
+   "videos_processed": 22,
+   "total_vod_views": 823779,
+   "avg_concurrent": 23526,
+   "brands_detected": 67,
+   "mentions": 135,
+   "last_processed": "30/06/2026"
   },
   "pipeline_status": "activo"
  },
@@ -28,12 +28,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 19,
-   "total_vod_views": 2863616,
-   "avg_concurrent": 86154,
-   "brands_detected": 59,
-   "mentions": 83,
-   "last_processed": "29/06/2026"
+   "videos_processed": 23,
+   "total_vod_views": 3165572,
+   "avg_concurrent": 78596,
+   "brands_detected": 75,
+   "mentions": 115,
+   "last_processed": "30/06/2026"
   },
   "pipeline_status": "activo"
  },
@@ -47,12 +47,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 1,
-   "total_vod_views": 37783,
-   "avg_concurrent": 21251,
+   "videos_processed": 2,
+   "total_vod_views": 92822,
+   "avg_concurrent": 21542,
    "brands_detected": 0,
    "mentions": 0,
-   "last_processed": "24/06/2026"
+   "last_processed": "30/06/2026"
   },
   "pipeline_status": "activo"
  },
@@ -66,9 +66,9 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 6,
-   "total_vod_views": 60713,
-   "avg_concurrent": 6408,
+   "videos_processed": 7,
+   "total_vod_views": 65166,
+   "avg_concurrent": 6306,
    "brands_detected": 9,
    "mentions": 9,
    "last_processed": "30/06/2026"
@@ -85,12 +85,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 3,
-   "total_vod_views": 25794,
-   "avg_concurrent": 2897,
-   "brands_detected": 3,
-   "mentions": 3,
-   "last_processed": "29/06/2026"
+   "videos_processed": 6,
+   "total_vod_views": 54210,
+   "avg_concurrent": 3707,
+   "brands_detected": 6,
+   "mentions": 7,
+   "last_processed": "30/06/2026"
   },
   "pipeline_status": "activo"
  },
@@ -104,12 +104,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 11,
-   "total_vod_views": 203351,
-   "avg_concurrent": 5408,
-   "brands_detected": 31,
-   "mentions": 36,
-   "last_processed": "30/06/2026"
+   "videos_processed": 14,
+   "total_vod_views": 267417,
+   "avg_concurrent": 5294,
+   "brands_detected": 36,
+   "mentions": 45,
+   "last_processed": "01/07/2026"
   },
   "pipeline_status": "activo"
  },
@@ -147,12 +147,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 8,
-   "total_vod_views": 11845,
-   "avg_concurrent": 365,
+   "videos_processed": 9,
+   "total_vod_views": 12624,
+   "avg_concurrent": 338,
    "brands_detected": 18,
-   "mentions": 32,
-   "last_processed": "29/06/2026"
+   "mentions": 33,
+   "last_processed": "30/06/2026"
   },
   "pipeline_status": "activo"
  },
@@ -185,12 +185,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 1,
-   "total_vod_views": 2023,
-   "avg_concurrent": 1632,
+   "videos_processed": 3,
+   "total_vod_views": 6453,
+   "avg_concurrent": 1448,
    "brands_detected": 0,
    "mentions": 0,
-   "last_processed": "29/06/2026"
+   "last_processed": "30/06/2026"
   },
   "pipeline_status": "activo"
  },
@@ -204,12 +204,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 2,
-   "total_vod_views": 4256,
-   "avg_concurrent": 606,
-   "brands_detected": 2,
-   "mentions": 2,
-   "last_processed": "29/06/2026"
+   "videos_processed": 4,
+   "total_vod_views": 7633,
+   "avg_concurrent": 456,
+   "brands_detected": 4,
+   "mentions": 4,
+   "last_processed": "30/06/2026"
   },
   "pipeline_status": "activo"
  },
@@ -223,12 +223,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 2,
-   "total_vod_views": 1624,
-   "avg_concurrent": 333,
+   "videos_processed": 3,
+   "total_vod_views": 2631,
+   "avg_concurrent": 357,
    "brands_detected": 1,
    "mentions": 1,
-   "last_processed": "26/06/2026"
+   "last_processed": "29/06/2026"
   },
   "pipeline_status": "activo"
  },

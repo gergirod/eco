@@ -1,0 +1,3362 @@
+{
+ "generated_at": "2026-07-01T02:23:42.793428Z",
+ "default": "manuel-adorni",
+ "index": [
+  {
+   "slug": "lionel-messi",
+   "name": "Lionel Messi",
+   "type": "Deporte",
+   "mentions": 1857,
+   "chat": 398,
+   "channels": 13,
+   "neg": 20,
+   "neu": 104,
+   "pos": 19
+  },
+  {
+   "slug": "manuel-adorni",
+   "name": "Manuel Adorni",
+   "type": "Político",
+   "mentions": 721,
+   "chat": 3591,
+   "channels": 12,
+   "neg": 25,
+   "neu": 25,
+   "pos": 2
+  },
+  {
+   "slug": "diego-santilli",
+   "name": "Diego Santilli",
+   "type": "Político",
+   "mentions": 484,
+   "chat": 116,
+   "channels": 11,
+   "neg": 9,
+   "neu": 18,
+   "pos": 1
+  },
+  {
+   "slug": "mauricio-macri",
+   "name": "Mauricio Macri",
+   "type": "Político",
+   "mentions": 300,
+   "chat": 385,
+   "channels": 12,
+   "neg": 13,
+   "neu": 35,
+   "pos": 1
+  },
+  {
+   "slug": "karina-milei",
+   "name": "Karina Milei",
+   "type": "Secretaria Gral.",
+   "mentions": 270,
+   "chat": 241,
+   "channels": 11,
+   "neg": 9,
+   "neu": 34,
+   "pos": 2
+  },
+  {
+   "slug": "cristina-kirchner",
+   "name": "Cristina Kirchner",
+   "type": "Política",
+   "mentions": 235,
+   "chat": 272,
+   "channels": 12,
+   "neg": 9,
+   "neu": 42,
+   "pos": 4
+  },
+  {
+   "slug": "lali-esposito",
+   "name": "Lali Espósito",
+   "type": "Espectáculo",
+   "mentions": 181,
+   "chat": 12,
+   "channels": 4,
+   "neg": 2,
+   "neu": 41,
+   "pos": 1
+  },
+  {
+   "slug": "javier-milei",
+   "name": "Javier Milei",
+   "type": "Presidente",
+   "mentions": 176,
+   "chat": 3371,
+   "channels": 11,
+   "neg": 7,
+   "neu": 27,
+   "pos": 3
+  }
+ ],
+ "radars": {
+  "manuel-adorni": {
+   "slug": "manuel-adorni",
+   "entity": "Manuel Adorni",
+   "type": "Político",
+   "watchlist": [
+    "Manuel Adorni",
+    "adorni"
+   ],
+   "totals": {
+    "transcript_mentions": 721,
+    "chat_mentions": 3591,
+    "programs_with_mentions": 52,
+    "channels": 12
+   },
+   "sentiment": {
+    "neg": 25,
+    "neu": 25,
+    "pos": 2
+   },
+   "share_of_voice": [
+    {
+     "channel": "GELATINA",
+     "mentions": 229,
+     "pct": 31.8
+    },
+    {
+     "channel": "OLGA",
+     "mentions": 111,
+     "pct": 15.4
+    },
+    {
+     "channel": "BLENDER",
+     "mentions": 99,
+     "pct": 13.7
+    },
+    {
+     "channel": "AHORA PLAY",
+     "mentions": 86,
+     "pct": 11.9
+    },
+    {
+     "channel": "Vorterix",
+     "mentions": 52,
+     "pct": 7.2
+    },
+    {
+     "channel": "A U R A",
+     "mentions": 37,
+     "pct": 5.1
+    },
+    {
+     "channel": "Neura Media",
+     "mentions": 30,
+     "pct": 4.2
+    },
+    {
+     "channel": "Cenital",
+     "mentions": 29,
+     "pct": 4.0
+    },
+    {
+     "channel": "BorderPeriodismo",
+     "mentions": 26,
+     "pct": 3.6
+    },
+    {
+     "channel": "LUZU TV",
+     "mentions": 14,
+     "pct": 1.9
+    },
+    {
+     "channel": "El Cronista",
+     "mentions": 7,
+     "pct": 1.0
+    },
+    {
+     "channel": "Bondi Live",
+     "mentions": 1,
+     "pct": 0.1
+    }
+   ],
+   "by_day": [
+    {
+     "day": "20260610",
+     "mentions": 1
+    },
+    {
+     "day": "20260611",
+     "mentions": 5
+    },
+    {
+     "day": "20260623",
+     "mentions": 33
+    },
+    {
+     "day": "20260624",
+     "mentions": 17
+    },
+    {
+     "day": "20260625",
+     "mentions": 6
+    },
+    {
+     "day": "20260626",
+     "mentions": 84
+    },
+    {
+     "day": "20260629",
+     "mentions": 415
+    },
+    {
+     "day": "20260630",
+     "mentions": 160
+    }
+   ],
+   "crisis": {
+    "video_id": "vlNZMMmBbLw",
+    "channel": "GELATINA",
+    "program": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+    "date": "20260629",
+    "views": 7813,
+    "t_seconds": 5572,
+    "t_label": "01:32:52",
+    "quote": "Porque, por ejemplo, ¿cuál fue la reacción de la vicepresidenta de la nación ante la renuncia de Manuel Adorni. Burlarse, dijo, acá está en la mía.",
+    "conc_at": 1856,
+    "chat_msgs": 27,
+    "chat_ratio": 3.83,
+    "chat_ex": [
+     "está bueno no hablar de Adorni pero...."
+    ],
+    "sentiment": "neg",
+    "mentions_in_program": 61,
+    "yt_url": "https://www.youtube.com/watch?v=vlNZMMmBbLw&t=5572s"
+   },
+   "feed": [
+    {
+     "video_id": "WNe6QLgDfyM",
+     "channel": "OLGA",
+     "program": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+     "date": "20260629",
+     "views": 74025,
+     "t_seconds": 12766,
+     "t_label": "03:32:46",
+     "quote": "Arrastrar Adorni ¿Sabés tocar algún instrumento?",
+     "conc_at": 41080,
+     "chat_msgs": 423,
+     "chat_ratio": 7.18,
+     "chat_ex": [
+      "LA SALIDA DE LA PATO LA RENUNCIA DE ADORNI TODO PLANEADO POR MACRI. Y ESTK ES CAMPAÑA",
+      "UN DIA CON ADORNI QUIERO!"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 32,
+     "yt_url": "https://www.youtube.com/watch?v=WNe6QLgDfyM&t=12766s"
+    },
+    {
+     "video_id": "NHt6oqHZYd0",
+     "channel": "GELATINA",
+     "program": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
+     "date": "20260629",
+     "views": 12026,
+     "t_seconds": 2340,
+     "t_label": "00:39:00",
+     "quote": "Calma, pueblo, que aquí estoy yo. Sí, la verdad es que para un tipo que sostuvo durante tres meses a Adorni, es una salida bastante fría, ¿no?",
+     "conc_at": 4996,
+     "chat_msgs": 445,
+     "chat_ratio": 6.39,
+     "chat_ex": [
+      "yo lo ignore a Adorni",
+      "CHAU ADORNI",
+      "carta natal de adorni"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 88,
+     "yt_url": "https://www.youtube.com/watch?v=NHt6oqHZYd0&t=2340s"
+    },
+    {
+     "video_id": "3QJmfDvuxIk",
+     "channel": "OLGA",
+     "program": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
+     "date": "20260626",
+     "views": 40199,
+     "t_seconds": 4141,
+     "t_label": "01:09:01",
+     "quote": "Arrastrar Adorni ¿Se me ha tocado algún instrumento?",
+     "conc_at": 28366,
+     "chat_msgs": 367,
+     "chat_ratio": 5.04,
+     "chat_ex": [
+      "ADORNI",
+      "ADORNI",
+      "AAAAJAJAJAJAJAAJAJA ADORNI"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 1,
+     "yt_url": "https://www.youtube.com/watch?v=3QJmfDvuxIk&t=4141s"
+    },
+    {
+     "video_id": "vlNZMMmBbLw",
+     "channel": "GELATINA",
+     "program": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+     "date": "20260629",
+     "views": 7813,
+     "t_seconds": 5572,
+     "t_label": "01:32:52",
+     "quote": "Porque, por ejemplo, ¿cuál fue la reacción de la vicepresidenta de la nación ante la renuncia de Manuel Adorni. Burlarse, dijo, acá está en la mía.",
+     "conc_at": 1856,
+     "chat_msgs": 27,
+     "chat_ratio": 3.83,
+     "chat_ex": [
+      "está bueno no hablar de Adorni pero...."
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 61,
+     "yt_url": "https://www.youtube.com/watch?v=vlNZMMmBbLw&t=5572s"
+    },
+    {
+     "video_id": "pL9wgMQaBp4",
+     "channel": "GELATINA",
+     "program": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+     "date": "20260630",
+     "views": 5782,
+     "t_seconds": 7448,
+     "t_label": "02:04:08",
+     "quote": "¿Se habla de Adorni allá? Se habla de Adorni, se habla del Colo Santilli Se habla de",
+     "conc_at": 2136,
+     "chat_msgs": 35,
+     "chat_ratio": 3.77,
+     "chat_ex": [
+      "le conto el secreto adorni"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 22,
+     "yt_url": "https://www.youtube.com/watch?v=pL9wgMQaBp4&t=7448s"
+    },
+    {
+     "video_id": "TR97_gAGOWE",
+     "channel": "Cenital",
+     "program": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+     "date": "20260629",
+     "views": 5169,
+     "t_seconds": 1730,
+     "t_label": "00:28:50",
+     "quote": "hoy. Tenemos la alegría de que nos visite Jorge Lioti en el programa de hoy, que tiene que ver con un desenlace. Nosotros venimos hablando de la situación de Manuel Adorni durante todas estas semanas, pero hubo algo que fue un desenlace",
+     "conc_at": 750,
+     "chat_msgs": 23,
+     "chat_ratio": 3.26,
+     "chat_ex": [
+      "a Rebord le crecio el pelo como a Adorni"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 29,
+     "yt_url": "https://www.youtube.com/watch?v=TR97_gAGOWE&t=1730s"
+    },
+    {
+     "video_id": "tlhTO7YtTJ0",
+     "channel": "GELATINA",
+     "program": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
+     "date": "20260626",
+     "views": 5955,
+     "t_seconds": 2972,
+     "t_label": "00:49:32",
+     "quote": "Y el del que vote el que salga hoy Uy, Adorni ya es payaso de dos meses De los tres que tenemos",
+     "conc_at": 1567,
+     "chat_msgs": 53,
+     "chat_ratio": 3.17,
+     "chat_ex": [
+      "1595mirando, 615 likes, 980 ADORNIS MIRANDO"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 24,
+     "yt_url": "https://www.youtube.com/watch?v=tlhTO7YtTJ0&t=2972s"
+    },
+    {
+     "video_id": "JNLpggdieek",
+     "channel": "Vorterix",
+     "program": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+     "date": "20260629",
+     "views": 29488,
+     "t_seconds": 5784,
+     "t_label": "01:36:24",
+     "quote": "Lo veo re raro. Patricia Woolrich, que tal vez fue un poquito de la arquitecta de la caída de Adorni, o por lo menos siempre tiró ahí, tiró como, no, no, está todo mal con este flaco,",
+     "conc_at": 8762,
+     "chat_msgs": 386,
+     "chat_ratio": 2.54,
+     "chat_ex": [
+      "NO SE VA, ADORNI NO SE VA :musical_note:",
+      "LECHUGA ADORNI",
+      "NO SE VA, ADORNI NO SE VA:musical_note:"
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 17,
+     "yt_url": "https://www.youtube.com/watch?v=JNLpggdieek&t=5784s"
+    },
+    {
+     "video_id": "04q2g0UfdyA",
+     "channel": "Neura Media",
+     "program": "Multiverso Neura",
+     "date": "20260629",
+     "views": 2244,
+     "t_seconds": 3803,
+     "t_label": "01:03:23",
+     "quote": "51% Le pagan 94 palos, pero no lo digo por adornilio Lo digo por cualquiera",
+     "conc_at": 687,
+     "chat_msgs": 42,
+     "chat_ratio": 2.12,
+     "chat_ex": [
+      "loco basta de fútbol. hablen de adorniiiii... sangreeeee",
+      "@iralonetto9684 DEJA DE ROMPER CON ADORNI ME TIENE LOS HUVOS AL PLATO ADORNI YA RENUNCIO D",
+      "@iralonetto9684 artoosss de adorniii"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 11,
+     "yt_url": "https://www.youtube.com/watch?v=04q2g0UfdyA&t=3803s"
+    },
+    {
+     "video_id": "tAUTd2FsMxA",
+     "channel": "Bondi Live",
+     "program": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+     "date": "20260624",
+     "views": 37783,
+     "t_seconds": 11176,
+     "t_label": "03:06:16",
+     "quote": "Por si alguien no se dio cuenta todavía Adorni, Okiato Mariana Bray",
+     "conc_at": 36687,
+     "chat_msgs": 84,
+     "chat_ratio": 1.8,
+     "chat_ex": [
+      "Los kukas siempre tienen una explicacion y sino tiran lo de Adorni y los que somos apoliti"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 1,
+     "yt_url": "https://www.youtube.com/watch?v=tAUTd2FsMxA&t=11176s"
+    },
+    {
+     "video_id": "btHFJgjSlls",
+     "channel": "AHORA PLAY",
+     "program": "SEGUNDO SEMESTRE FINANCIERO: VELOCIDAD CRUCERO | Martín Genero #MercadoFresh",
+     "date": "20260629",
+     "views": 1589,
+     "t_seconds": 842,
+     "t_label": "00:14:02",
+     "quote": "No es tanto que renunció a Dorni Porque la verdad que si vos mirás el Merval y los buenos argentinos y el peso y las variables de todos estos tres meses del quilombo Adorni, le fue bien al mercado argentino. Es decir, no veo que Adorni con su quilombo haya hecho caer los activos.",
+     "conc_at": 395,
+     "chat_msgs": 6,
+     "chat_ratio": 1.72,
+     "chat_ex": [
+      "Martín, qué opinas de Adorni? Y... el merval está subiendo...:face_with_tears_of_joy:",
+      "la buena noticia no es adorni"
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 9,
+     "yt_url": "https://www.youtube.com/watch?v=btHFJgjSlls&t=842s"
+    },
+    {
+     "video_id": "C6BZb4k8gF0",
+     "channel": "BLENDER",
+     "program": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
+     "date": "20260624",
+     "views": 4326,
+     "t_seconds": 3966,
+     "t_label": "01:06:06",
+     "quote": "Viste que vos decís, bueno, eso, qué sé yo, déjalo ahí, Adorni. ¿Pero para vos son distintas las varas de corrupción?",
+     "conc_at": 6287,
+     "chat_msgs": 53,
+     "chat_ratio": 1.62,
+     "chat_ex": [
+      "Gracias a la grieta entre Cris y Axel ganan Milei Karina y Adorni 6 Presidencias en hilo j",
+      "adorni es una rata ..estos son una mafia S.A:face-blue-smiling:",
+      "Guarden esta captura: Milei 2027 Karina 2031 Adorni 2035..."
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 8,
+     "yt_url": "https://www.youtube.com/watch?v=C6BZb4k8gF0&t=3966s"
+    },
+    {
+     "video_id": "NZnTfvrPb0E",
+     "channel": "A U R A",
+     "program": "🟠 ¿CÓMO QUEDARON LOS CRUCES DEL  MUNDIAL 2026? l HOY COMO SIEMPRE",
+     "date": "20260626",
+     "views": 841,
+     "t_seconds": 6214,
+     "t_label": "01:43:34",
+     "quote": "Con el fanatismo Walter dice que Adorni se quiso camuflar Atrás del mundial",
+     "conc_at": 327,
+     "chat_msgs": 76,
+     "chat_ratio": 1.61,
+     "chat_ex": [
+      "Adornii se quiso camuflar atrás del mundial..."
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 32,
+     "yt_url": "https://www.youtube.com/watch?v=NZnTfvrPb0E&t=6214s"
+    },
+    {
+     "video_id": "zpbJ8ju9xmk",
+     "channel": "Vorterix",
+     "program": "EQUIPO COMPLETO Y SOMOS MÁS PARAGUAYOS QUE NUNCA | #YQUE COMPLETO 30/6 | VORTERIX",
+     "date": "20260630",
+     "views": 30958,
+     "t_seconds": 6114,
+     "t_label": "01:41:54",
+     "quote": "Todas fueron asesoradas Por Adorni ¿Qué le prometió?",
+     "conc_at": 33178,
+     "chat_msgs": 393,
+     "chat_ratio": 1.6,
+     "chat_ex": [
+      "Pasen los audios de adorni diciendo “MI ASISTENCIA HISTORICA AL CONGRESO”",
+      "ya sabemos en qué gasta adorni sus bitcoins",
+      "hablen de adorni"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 18,
+     "yt_url": "https://www.youtube.com/watch?v=zpbJ8ju9xmk&t=6114s"
+    }
+   ]
+  },
+  "javier-milei": {
+   "slug": "javier-milei",
+   "entity": "Javier Milei",
+   "type": "Presidente",
+   "watchlist": [
+    "Javier Milei",
+    "javier milei",
+    "presidente milei"
+   ],
+   "totals": {
+    "transcript_mentions": 176,
+    "chat_mentions": 3371,
+    "programs_with_mentions": 37,
+    "channels": 11
+   },
+   "sentiment": {
+    "neg": 7,
+    "neu": 27,
+    "pos": 3
+   },
+   "share_of_voice": [
+    {
+     "channel": "GELATINA",
+     "mentions": 58,
+     "pct": 33.0
+    },
+    {
+     "channel": "AHORA PLAY",
+     "mentions": 23,
+     "pct": 13.1
+    },
+    {
+     "channel": "Cenital",
+     "mentions": 23,
+     "pct": 13.1
+    },
+    {
+     "channel": "OLGA",
+     "mentions": 21,
+     "pct": 11.9
+    },
+    {
+     "channel": "BLENDER",
+     "mentions": 17,
+     "pct": 9.7
+    },
+    {
+     "channel": "Vorterix",
+     "mentions": 11,
+     "pct": 6.2
+    },
+    {
+     "channel": "BorderPeriodismo",
+     "mentions": 7,
+     "pct": 4.0
+    },
+    {
+     "channel": "El Cronista",
+     "mentions": 5,
+     "pct": 2.8
+    },
+    {
+     "channel": "A U R A",
+     "mentions": 5,
+     "pct": 2.8
+    },
+    {
+     "channel": "LUZU TV",
+     "mentions": 4,
+     "pct": 2.3
+    },
+    {
+     "channel": "Bondi Live",
+     "mentions": 2,
+     "pct": 1.1
+    }
+   ],
+   "by_day": [
+    {
+     "day": "20260603",
+     "mentions": 1
+    },
+    {
+     "day": "20260608",
+     "mentions": 2
+    },
+    {
+     "day": "20260611",
+     "mentions": 1
+    },
+    {
+     "day": "20260623",
+     "mentions": 2
+    },
+    {
+     "day": "20260624",
+     "mentions": 7
+    },
+    {
+     "day": "20260625",
+     "mentions": 2
+    },
+    {
+     "day": "20260626",
+     "mentions": 12
+    },
+    {
+     "day": "20260629",
+     "mentions": 105
+    },
+    {
+     "day": "20260630",
+     "mentions": 43
+    },
+    {
+     "day": "20260701",
+     "mentions": 1
+    }
+   ],
+   "crisis": {
+    "video_id": "TR97_gAGOWE",
+    "channel": "Cenital",
+    "program": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+    "date": "20260629",
+    "views": 5169,
+    "t_seconds": 2886,
+    "t_label": "00:48:06",
+    "quote": "quién es de centro, quién se quiere autopercibir así ¿Y quién quiere decirle al otro que es? Lo que entiende según su propia mirada de las cosas le hará más daño. Pero digamos que si hoy uno sitúa a Javier Milei, a Axel Kicillof, al candidato de Cristina Kirchner y a Miriam Bregm",
+    "conc_at": 1090,
+    "chat_msgs": 11,
+    "chat_ratio": 1.56,
+    "chat_ex": [
+     "el rabino Milei y la opociSion"
+    ],
+    "sentiment": "neg",
+    "mentions_in_program": 23,
+    "yt_url": "https://www.youtube.com/watch?v=TR97_gAGOWE&t=2886s"
+   },
+   "feed": [
+    {
+     "video_id": "NHt6oqHZYd0",
+     "channel": "GELATINA",
+     "program": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
+     "date": "20260629",
+     "views": 12026,
+     "t_seconds": 2196,
+     "t_label": "00:36:36",
+     "quote": "Yo tendría un brote Quizás por eso, Milei publicó una foto Desde dentro de la Quinta de Olivos",
+     "conc_at": 4975,
+     "chat_msgs": 482,
+     "chat_ratio": 6.92,
+     "chat_ex": [
+      "adorni = milei, ardido"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 11,
+     "yt_url": "https://www.youtube.com/watch?v=NHt6oqHZYd0&t=2196s"
+    },
+    {
+     "video_id": "SzjeK5nN-Q0",
+     "channel": "El Cronista",
+     "program": "ECONOMÍA DE MILEI: ¿CRECE O SE DESACELERA? | CUENTAS CLARAS EN VIVO",
+     "date": "20260630",
+     "views": 1291,
+     "t_seconds": 1159,
+     "t_label": "00:19:19",
+     "quote": "Entonces acá para explicar esto, porque alguien puede decir, ¿por qué Javier Milei dice que la Argentina va a duplicar su PBI en 10 años? Esto se conoce como la regla del 72.",
+     "conc_at": 1506,
+     "chat_msgs": 91,
+     "chat_ratio": 3.79,
+     "chat_ex": [
+      "@RR_kings no soy yo, son los datos, que tanto le gustan a milei yayi, y ahora, parece que "
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 3,
+     "yt_url": "https://www.youtube.com/watch?v=SzjeK5nN-Q0&t=1159s"
+    },
+    {
+     "video_id": "pL9wgMQaBp4",
+     "channel": "GELATINA",
+     "program": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+     "date": "20260630",
+     "views": 5782,
+     "t_seconds": 6375,
+     "t_label": "01:46:15",
+     "quote": "De recordar que el peronismo Prefirió que ganara Javier Milei ¿Te parece bien?",
+     "conc_at": 1832,
+     "chat_msgs": 30,
+     "chat_ratio": 3.23,
+     "chat_ex": [
+      "Milei le reza a la interna peronista",
+      "yo creo lo mismo, muchos peronistas son topos de Milei dentro del peronismo, por eso busca",
+      "el peor ministro de swguridad de la historia, q caras de mil pija. Berni moreno y piketo q"
+     ],
+     "sentiment": "pos",
+     "mentions_in_program": 13,
+     "yt_url": "https://www.youtube.com/watch?v=pL9wgMQaBp4&t=6375s"
+    },
+    {
+     "video_id": "vlNZMMmBbLw",
+     "channel": "GELATINA",
+     "program": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+     "date": "20260629",
+     "views": 7813,
+     "t_seconds": 5925,
+     "t_label": "01:38:45",
+     "quote": "La semana pasada habló un poquito y parece que el discurso desde la vocería va a ser este. Javier Milei empezó en solitario una batalla cultural que impactó en los jóvenes y desde allí se impregnó en toda la sociedad.",
+     "conc_at": 2042,
+     "chat_msgs": 19,
+     "chat_ratio": 2.7,
+     "chat_ex": [
+      "bañate milei!!!"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 21,
+     "yt_url": "https://www.youtube.com/watch?v=vlNZMMmBbLw&t=5925s"
+    },
+    {
+     "video_id": "tlhTO7YtTJ0",
+     "channel": "GELATINA",
+     "program": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
+     "date": "20260626",
+     "views": 5955,
+     "t_seconds": 8324,
+     "t_label": "02:18:44",
+     "quote": "Con Adorni payaso del mes de marzo Milei payaso del mes de abril Y del mes de mayo",
+     "conc_at": 1798,
+     "chat_msgs": 38,
+     "chat_ratio": 2.27,
+     "chat_ex": [
+      "Es una Vergüenza! los Liberales son el cáncer de Argentina Con milei!!Y todos los países q",
+      "Desgobiernan. acorta las vidas de todos !Con hambre!Sin Trabajo y los que todavia tienen!!"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 4,
+     "yt_url": "https://www.youtube.com/watch?v=tlhTO7YtTJ0&t=8324s"
+    },
+    {
+     "video_id": "cG_sxu72mSo",
+     "channel": "Vorterix",
+     "program": "MESSI CONOCIÓ A SPIDERMAN Y VINO MORE BELTRÁN | #ParenLaMano Completo - 30/06 | VORTERIX",
+     "date": "20260701",
+     "views": 62080,
+     "t_seconds": 2047,
+     "t_label": "00:34:07",
+     "quote": "Pero pará, boludo Milei no es el dueño Del nombre Javito",
+     "conc_at": 8300,
+     "chat_msgs": 136,
+     "chat_ratio": 1.85,
+     "chat_ex": [
+      "SON LA PRODUCTORA DE MILEI ACASO?"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 1,
+     "yt_url": "https://www.youtube.com/watch?v=cG_sxu72mSo&t=2047s"
+    },
+    {
+     "video_id": "btHFJgjSlls",
+     "channel": "AHORA PLAY",
+     "program": "SEGUNDO SEMESTRE FINANCIERO: VELOCIDAD CRUCERO | Martín Genero #MercadoFresh",
+     "date": "20260629",
+     "views": 1589,
+     "t_seconds": 919,
+     "t_label": "00:15:19",
+     "quote": "Y que probablemente sea el candidato a gobernador de la provincia Por el escudo de Milei o el del PRO o la suma de ambos El tema de que haya ocupado este rol",
+     "conc_at": 413,
+     "chat_msgs": 6,
+     "chat_ratio": 1.72,
+     "chat_ex": [
+      "Si el inútil de Kicilove es candidato,Milei gana por paliza,tipo Alberto a Fabiola."
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 1,
+     "yt_url": "https://www.youtube.com/watch?v=btHFJgjSlls&t=919s"
+    },
+    {
+     "video_id": "zpbJ8ju9xmk",
+     "channel": "Vorterix",
+     "program": "EQUIPO COMPLETO Y SOMOS MÁS PARAGUAYOS QUE NUNCA | #YQUE COMPLETO 30/6 | VORTERIX",
+     "date": "20260630",
+     "views": 30958,
+     "t_seconds": 6163,
+     "t_label": "01:42:43",
+     "quote": "El presidente Javier Gerardo Milei Voy con cala, eh",
+     "conc_at": 34920,
+     "chat_msgs": 398,
+     "chat_ratio": 1.63,
+     "chat_ex": [
+      "Está muy calmada, le dio una pasti milei"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 2,
+     "yt_url": "https://www.youtube.com/watch?v=zpbJ8ju9xmk&t=6163s"
+    },
+    {
+     "video_id": "JNLpggdieek",
+     "channel": "Vorterix",
+     "program": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+     "date": "20260629",
+     "views": 29488,
+     "t_seconds": 5454,
+     "t_label": "01:30:54",
+     "quote": "Si quieren escuchamos un par de cosas Que dijo Milei al respecto Pido disculpas",
+     "conc_at": 8383,
+     "chat_msgs": 247,
+     "chat_ratio": 1.63,
+     "chat_ex": [
+      "SOS MILEI",
+      "Che lo de Milei que salio corriendo en bolas a la noche por un brote psicotico es verdad?"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 4,
+     "yt_url": "https://www.youtube.com/watch?v=JNLpggdieek&t=5454s"
+    },
+    {
+     "video_id": "TR97_gAGOWE",
+     "channel": "Cenital",
+     "program": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+     "date": "20260629",
+     "views": 5169,
+     "t_seconds": 2886,
+     "t_label": "00:48:06",
+     "quote": "quién es de centro, quién se quiere autopercibir así ¿Y quién quiere decirle al otro que es? Lo que entiende según su propia mirada de las cosas le hará más daño. Pero digamos que si hoy uno sitúa a Javier Milei, a Axel Kicillof, al candidato de Cristina Kirchner y a Miriam Bregm",
+     "conc_at": 1090,
+     "chat_msgs": 11,
+     "chat_ratio": 1.56,
+     "chat_ex": [
+      "el rabino Milei y la opociSion"
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 23,
+     "yt_url": "https://www.youtube.com/watch?v=TR97_gAGOWE&t=2886s"
+    },
+    {
+     "video_id": "AUSgxGQirlM",
+     "channel": "A U R A",
+     "program": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+     "date": "20260626",
+     "views": 783,
+     "t_seconds": 1130,
+     "t_label": "00:18:50",
+     "quote": "El gobierno sigue diciendo que es inocente. De hecho, Milei habló este fin de semana también y dijo, lo apartamos básicamente porque él se quería ir,",
+     "conc_at": 379,
+     "chat_msgs": 83,
+     "chat_ratio": 1.37,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 2,
+     "yt_url": "https://www.youtube.com/watch?v=AUSgxGQirlM&t=1130s"
+    },
+    {
+     "video_id": "Yp0sVPQV8Dk",
+     "channel": "El Cronista",
+     "program": "¿El RIESGO PAÍS puede caer a 200 puntos? El dato de Yayi Morales que lo CAMBIA TODO",
+     "date": "20260629",
+     "views": 2023,
+     "t_seconds": 613,
+     "t_label": "00:10:13",
+     "quote": "que si bien como decíamos son políticas, pero van a tener su repercusión en la economía. Habló el presidente Javier Milei en las últimas horas luego del cambio y se refirió al riesgo país. Quiero que leamos la frase y los quiero escuchar a ustedes.",
+     "conc_at": 196,
+     "chat_msgs": 7,
+     "chat_ratio": 1.31,
+     "chat_ex": [
+      "la política de Milei es de un riesgo país muy bajo pero se necesita que se mantenga su pol"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 2,
+     "yt_url": "https://www.youtube.com/watch?v=Yp0sVPQV8Dk&t=613s"
+    },
+    {
+     "video_id": "tcq7UAzc3iw",
+     "channel": "BLENDER",
+     "program": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
+     "date": "20260624",
+     "views": 4176,
+     "t_seconds": 5678,
+     "t_label": "01:34:38",
+     "quote": "Pero ayer fue todo festejo, siguieron Milei los saludó, feliz cumple Leonel Vamos a Argentina, carajo",
+     "conc_at": 7155,
+     "chat_msgs": 54,
+     "chat_ratio": 1.3,
+     "chat_ex": [
+      "milei y el jabon",
+      "verguenza ajena me dá milei:face_in_clouds::face_in_clouds::face_in_clouds::face_in_clouds"
+     ],
+     "sentiment": "pos",
+     "mentions_in_program": 3,
+     "yt_url": "https://www.youtube.com/watch?v=tcq7UAzc3iw&t=5678s"
+    },
+    {
+     "video_id": "HTm_q34CwyM",
+     "channel": "AHORA PLAY",
+     "program": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
+     "date": "20260629",
+     "views": 2667,
+     "t_seconds": 2074,
+     "t_label": "00:34:34",
+     "quote": "termina de convencer a Carina Milei de explicarle que iba a ser un escándalo total, que se lo",
+     "conc_at": 697,
+     "chat_msgs": 96,
+     "chat_ratio": 1.11,
+     "chat_ex": [
+      "¿CÓMO CREÉS QUE REPERCUTE EN MILEI LA RENUNCIA DE ADORNI?",
+      "¿CÓMO CREÉS QUE REPERCUTE EN MILEI LA RENUNCIA DE ADORNI?",
+      "¿CÓMO CREÉS QUE REPERCUTE EN MILEI LA RENUNCIA DE ADORNI?"
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 12,
+     "yt_url": "https://www.youtube.com/watch?v=HTm_q34CwyM&t=2074s"
+    }
+   ]
+  },
+  "karina-milei": {
+   "slug": "karina-milei",
+   "entity": "Karina Milei",
+   "type": "Secretaria Gral.",
+   "watchlist": [
+    "Karina Milei",
+    "karina"
+   ],
+   "totals": {
+    "transcript_mentions": 270,
+    "chat_mentions": 241,
+    "programs_with_mentions": 45,
+    "channels": 11
+   },
+   "sentiment": {
+    "neg": 9,
+    "neu": 34,
+    "pos": 2
+   },
+   "share_of_voice": [
+    {
+     "channel": "LUZU TV",
+     "mentions": 65,
+     "pct": 24.1
+    },
+    {
+     "channel": "GELATINA",
+     "mentions": 60,
+     "pct": 22.2
+    },
+    {
+     "channel": "OLGA",
+     "mentions": 41,
+     "pct": 15.2
+    },
+    {
+     "channel": "Cenital",
+     "mentions": 25,
+     "pct": 9.3
+    },
+    {
+     "channel": "AHORA PLAY",
+     "mentions": 24,
+     "pct": 8.9
+    },
+    {
+     "channel": "BLENDER",
+     "mentions": 17,
+     "pct": 6.3
+    },
+    {
+     "channel": "BorderPeriodismo",
+     "mentions": 11,
+     "pct": 4.1
+    },
+    {
+     "channel": "Vorterix",
+     "mentions": 10,
+     "pct": 3.7
+    },
+    {
+     "channel": "A U R A",
+     "mentions": 10,
+     "pct": 3.7
+    },
+    {
+     "channel": "Bondi Live",
+     "mentions": 5,
+     "pct": 1.9
+    },
+    {
+     "channel": "Neura Media",
+     "mentions": 2,
+     "pct": 0.7
+    }
+   ],
+   "by_day": [
+    {
+     "day": "20260529",
+     "mentions": 3
+    },
+    {
+     "day": "20260601",
+     "mentions": 1
+    },
+    {
+     "day": "20260603",
+     "mentions": 8
+    },
+    {
+     "day": "20260604",
+     "mentions": 2
+    },
+    {
+     "day": "20260605",
+     "mentions": 2
+    },
+    {
+     "day": "20260608",
+     "mentions": 15
+    },
+    {
+     "day": "20260609",
+     "mentions": 1
+    },
+    {
+     "day": "20260610",
+     "mentions": 8
+    },
+    {
+     "day": "20260611",
+     "mentions": 1
+    },
+    {
+     "day": "20260622",
+     "mentions": 1
+    },
+    {
+     "day": "20260623",
+     "mentions": 10
+    },
+    {
+     "day": "20260624",
+     "mentions": 23
+    },
+    {
+     "day": "20260625",
+     "mentions": 1
+    },
+    {
+     "day": "20260626",
+     "mentions": 13
+    },
+    {
+     "day": "20260629",
+     "mentions": 163
+    },
+    {
+     "day": "20260630",
+     "mentions": 18
+    }
+   ],
+   "crisis": {
+    "video_id": "vlNZMMmBbLw",
+    "channel": "GELATINA",
+    "program": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+    "date": "20260629",
+    "views": 7813,
+    "t_seconds": 5576,
+    "t_label": "01:32:56",
+    "quote": "Burlarse, dijo, acá está en la mía. Y se mete en el tuit de Karina Milei que leía hace un rato Gaby, querido Manuel, gracias por tu incansable trabajo, en fin.",
+    "conc_at": 1856,
+    "chat_msgs": 24,
+    "chat_ratio": 3.4,
+    "chat_ex": [
+     "BREGMAN-GRABOIS 2027 y el incestuoso termina en la gayola junto ma karina la tortera 3%"
+    ],
+    "sentiment": "neg",
+    "mentions_in_program": 29,
+    "yt_url": "https://www.youtube.com/watch?v=vlNZMMmBbLw&t=5576s"
+   },
+   "feed": [
+    {
+     "video_id": "NHt6oqHZYd0",
+     "channel": "GELATINA",
+     "program": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
+     "date": "20260629",
+     "views": 12026,
+     "t_seconds": 2322,
+     "t_label": "00:38:42",
+     "quote": "Dice, aquí junto al nuevo jefe de gabinete de ministros Diego Santilli y la secretaria general de la presidencia Karina Milley delineando los fundamentos para una transición ordenada del cargo.",
+     "conc_at": 4996,
+     "chat_msgs": 565,
+     "chat_ratio": 8.12,
+     "chat_ex": [
+      "@karinaluna6138 escribile a pame en discord"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 17,
+     "yt_url": "https://www.youtube.com/watch?v=NHt6oqHZYd0&t=2322s"
+    },
+    {
+     "video_id": "vlNZMMmBbLw",
+     "channel": "GELATINA",
+     "program": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+     "date": "20260629",
+     "views": 7813,
+     "t_seconds": 5576,
+     "t_label": "01:32:56",
+     "quote": "Burlarse, dijo, acá está en la mía. Y se mete en el tuit de Karina Milei que leía hace un rato Gaby, querido Manuel, gracias por tu incansable trabajo, en fin.",
+     "conc_at": 1856,
+     "chat_msgs": 24,
+     "chat_ratio": 3.4,
+     "chat_ex": [
+      "BREGMAN-GRABOIS 2027 y el incestuoso termina en la gayola junto ma karina la tortera 3%"
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 29,
+     "yt_url": "https://www.youtube.com/watch?v=vlNZMMmBbLw&t=5576s"
+    },
+    {
+     "video_id": "TR97_gAGOWE",
+     "channel": "Cenital",
+     "program": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+     "date": "20260629",
+     "views": 5169,
+     "t_seconds": 1743,
+     "t_label": "00:29:03",
+     "quote": "en la vida política de Manuel Adorni que tuvo que ver con un llamado de Patricia Bullrich a Karina Milley. Esto ocurrió después de la sesión de la semana pasada",
+     "conc_at": 750,
+     "chat_msgs": 22,
+     "chat_ratio": 3.12,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 25,
+     "yt_url": "https://www.youtube.com/watch?v=TR97_gAGOWE&t=1743s"
+    },
+    {
+     "video_id": "JNLpggdieek",
+     "channel": "Vorterix",
+     "program": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+     "date": "20260629",
+     "views": 29488,
+     "t_seconds": 5871,
+     "t_label": "01:37:51",
+     "quote": "se lo dije al presidente se lo dije a Karina lo dije en la mesa política",
+     "conc_at": 8698,
+     "chat_msgs": 380,
+     "chat_ratio": 2.5,
+     "chat_ex": [
+      "SOS EL VAGINONDEKARINA",
+      "Sale trio Javier-Karina-Adorni?"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 6,
+     "yt_url": "https://www.youtube.com/watch?v=JNLpggdieek&t=5871s"
+    },
+    {
+     "video_id": "btHFJgjSlls",
+     "channel": "AHORA PLAY",
+     "program": "SEGUNDO SEMESTRE FINANCIERO: VELOCIDAD CRUCERO | Martín Genero #MercadoFresh",
+     "date": "20260629",
+     "views": 1589,
+     "t_seconds": 830,
+     "t_label": "00:13:50",
+     "quote": "O sea, de los 50 millones Resté a Karina y Javier Milei Querían que se vaya a Dorni",
+     "conc_at": 395,
+     "chat_msgs": 6,
+     "chat_ratio": 1.72,
+     "chat_ex": [],
+     "sentiment": "neg",
+     "mentions_in_program": 1,
+     "yt_url": "https://www.youtube.com/watch?v=btHFJgjSlls&t=830s"
+    },
+    {
+     "video_id": "WNe6QLgDfyM",
+     "channel": "OLGA",
+     "program": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+     "date": "20260629",
+     "views": 74025,
+     "t_seconds": 3049,
+     "t_label": "00:50:49",
+     "quote": "Una editorial que hiciste Sobre el tema Karina y Milei Y entonces dijo él",
+     "conc_at": 21638,
+     "chat_msgs": 90,
+     "chat_ratio": 1.53,
+     "chat_ex": [
+      "Nos gobierna Karina verdad?"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 13,
+     "yt_url": "https://www.youtube.com/watch?v=WNe6QLgDfyM&t=3049s"
+    },
+    {
+     "video_id": "e3av_6yqgHg",
+     "channel": "OLGA",
+     "program": "NOS SOMETEMOS AL CASCO DE LA VERDAD | #SoñéQueVolaba 29/6",
+     "date": "20260629",
+     "views": 60610,
+     "t_seconds": 5968,
+     "t_label": "01:39:28",
+     "quote": "De alguna manera Adorni es uno de los fundadores del proyecto que lo ha acompañado desde el primer momento, pero bueno, hay veces que el proyecto tiene que ser más importante que las personas, las personas tienen que poder dar un paso al costado cuando lo tienen que dar, porque e",
+     "conc_at": 34277,
+     "chat_msgs": 98,
+     "chat_ratio": 1.22,
+     "chat_ex": [
+      "ESTE GOBIERNO ESTA ROBANDO A DOS MANOS! NO SABEN LO QUE ES KARINA! ES INDIGNANTE NO SE PUE"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 6,
+     "yt_url": "https://www.youtube.com/watch?v=e3av_6yqgHg&t=5968s"
+    },
+    {
+     "video_id": "HTm_q34CwyM",
+     "channel": "AHORA PLAY",
+     "program": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
+     "date": "20260629",
+     "views": 2667,
+     "t_seconds": 1364,
+     "t_label": "00:22:44",
+     "quote": "90 palitos por mes En ese momento que da la entrevista se viralizó mucho por redes, por Twitter, porque en el momento en el que está respondiendo sobre YPF estaba en compañía de Diego Santilli y de la secretaria de la presidencia, de su hermana Karina Milei, y es interrumpido en ",
+     "conc_at": 605,
+     "chat_msgs": 101,
+     "chat_ratio": 1.17,
+     "chat_ex": [
+      "eso es por el 3% de karina?"
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 23,
+     "yt_url": "https://www.youtube.com/watch?v=HTm_q34CwyM&t=1364s"
+    },
+    {
+     "video_id": "tcq7UAzc3iw",
+     "channel": "BLENDER",
+     "program": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
+     "date": "20260624",
+     "views": 4176,
+     "t_seconds": 5017,
+     "t_label": "01:23:37",
+     "quote": "que tenía salchichas en mal estado Karina le salvó le dio una vida",
+     "conc_at": 7409,
+     "chat_msgs": 39,
+     "chat_ratio": 0.94,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 6,
+     "yt_url": "https://www.youtube.com/watch?v=tcq7UAzc3iw&t=5017s"
+    },
+    {
+     "video_id": "UlE50hJOMJg",
+     "channel": "Neura Media",
+     "program": "Multiverso Neura",
+     "date": "20260626",
+     "views": 1929,
+     "t_seconds": 3284,
+     "t_label": "00:54:44",
+     "quote": "Si el designado fuera Santilli, podría reactivarse la reunificación del Ministerio del Interior. Patricia Bullrich y Karina Milley volvieron a hablar esta semana por la situación de Manuela Dorni",
+     "conc_at": 568,
+     "chat_msgs": 12,
+     "chat_ratio": 0.84,
+     "chat_ex": [
+      "ADORNI, está AFUERA, lo que pasá que KARINA, lo defendía. Parece que el peladito le andaba"
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 2,
+     "yt_url": "https://www.youtube.com/watch?v=UlE50hJOMJg&t=3284s"
+    },
+    {
+     "video_id": "tAUTd2FsMxA",
+     "channel": "Bondi Live",
+     "program": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+     "date": "20260624",
+     "views": 37783,
+     "t_seconds": 7996,
+     "t_label": "02:13:16",
+     "quote": "Hay tantos corruptos, hay tantos temas también. Acá lo dice una Karina Pet Planner, lo dice Darín en la película",
+     "conc_at": 33792,
+     "chat_msgs": 35,
+     "chat_ratio": 0.75,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 5,
+     "yt_url": "https://www.youtube.com/watch?v=tAUTd2FsMxA&t=7996s"
+    },
+    {
+     "video_id": "3CPnLRc7h2w",
+     "channel": "Vorterix",
+     "program": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+     "date": "20260629",
+     "views": 18515,
+     "t_seconds": 2818,
+     "t_label": "00:46:58",
+     "quote": "Y llegó el día finalmente en el que Manuel Adorni dejó su cargo como jefe de gabinete después de tres meses desde el momento en el que se publicó esa primera foto de él viajando con la esposa a Nueva York junto con la gira presidencial que se estaba dando allí en el avión preside",
+     "conc_at": 6824,
+     "chat_msgs": 46,
+     "chat_ratio": 0.68,
+     "chat_ex": [
+      "quien la voto a karina"
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 4,
+     "yt_url": "https://www.youtube.com/watch?v=3CPnLRc7h2w&t=2818s"
+    },
+    {
+     "video_id": "pL9wgMQaBp4",
+     "channel": "GELATINA",
+     "program": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+     "date": "20260630",
+     "views": 5782,
+     "t_seconds": 3703,
+     "t_label": "01:01:43",
+     "quote": "como pro Miley y Karina siempre les tratan mal",
+     "conc_at": 1151,
+     "chat_msgs": 6,
+     "chat_ratio": 0.65,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 5,
+     "yt_url": "https://www.youtube.com/watch?v=pL9wgMQaBp4&t=3703s"
+    },
+    {
+     "video_id": "bX7MB2_OI2I",
+     "channel": "OLGA",
+     "program": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "date": "20260623",
+     "views": 43284,
+     "t_seconds": 2839,
+     "t_label": "00:47:19",
+     "quote": "Hay una interna, Bullrich viene presionando para que Adorni se vaya ¿Es Adorni o Karina la pelea? La pelea es Bullrich-Adorni",
+     "conc_at": 17753,
+     "chat_msgs": 25,
+     "chat_ratio": 0.36,
+     "chat_ex": [
+      "natuti es la nueva Karina Jelinek así que disfruten y no sean haters jajaj"
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 9,
+     "yt_url": "https://www.youtube.com/watch?v=bX7MB2_OI2I&t=2839s"
+    }
+   ]
+  },
+  "mauricio-macri": {
+   "slug": "mauricio-macri",
+   "entity": "Mauricio Macri",
+   "type": "Político",
+   "watchlist": [
+    "Mauricio Macri",
+    "macri"
+   ],
+   "totals": {
+    "transcript_mentions": 300,
+    "chat_mentions": 385,
+    "programs_with_mentions": 49,
+    "channels": 12
+   },
+   "sentiment": {
+    "neg": 13,
+    "neu": 35,
+    "pos": 1
+   },
+   "share_of_voice": [
+    {
+     "channel": "GELATINA",
+     "mentions": 94,
+     "pct": 31.3
+    },
+    {
+     "channel": "OLGA",
+     "mentions": 56,
+     "pct": 18.7
+    },
+    {
+     "channel": "BLENDER",
+     "mentions": 41,
+     "pct": 13.7
+    },
+    {
+     "channel": "AHORA PLAY",
+     "mentions": 32,
+     "pct": 10.7
+    },
+    {
+     "channel": "Vorterix",
+     "mentions": 19,
+     "pct": 6.3
+    },
+    {
+     "channel": "BorderPeriodismo",
+     "mentions": 19,
+     "pct": 6.3
+    },
+    {
+     "channel": "Neura Media",
+     "mentions": 12,
+     "pct": 4.0
+    },
+    {
+     "channel": "A U R A",
+     "mentions": 7,
+     "pct": 2.3
+    },
+    {
+     "channel": "Cenital",
+     "mentions": 7,
+     "pct": 2.3
+    },
+    {
+     "channel": "El Cronista",
+     "mentions": 6,
+     "pct": 2.0
+    },
+    {
+     "channel": "LUZU TV",
+     "mentions": 4,
+     "pct": 1.3
+    },
+    {
+     "channel": "Bondi Live",
+     "mentions": 3,
+     "pct": 1.0
+    }
+   ],
+   "by_day": [
+    {
+     "day": "20260602",
+     "mentions": 1
+    },
+    {
+     "day": "20260603",
+     "mentions": 1
+    },
+    {
+     "day": "20260605",
+     "mentions": 2
+    },
+    {
+     "day": "20260608",
+     "mentions": 1
+    },
+    {
+     "day": "20260609",
+     "mentions": 2
+    },
+    {
+     "day": "20260610",
+     "mentions": 4
+    },
+    {
+     "day": "20260623",
+     "mentions": 4
+    },
+    {
+     "day": "20260624",
+     "mentions": 17
+    },
+    {
+     "day": "20260626",
+     "mentions": 12
+    },
+    {
+     "day": "20260629",
+     "mentions": 181
+    },
+    {
+     "day": "20260630",
+     "mentions": 75
+    }
+   ],
+   "crisis": {
+    "video_id": "JNLpggdieek",
+    "channel": "Vorterix",
+    "program": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+    "date": "20260629",
+    "views": 29488,
+    "t_seconds": 5054,
+    "t_label": "01:24:14",
+    "quote": "No, no, no El fracaso de la presidencia de Macri Re contra fue en la baja",
+    "conc_at": 8092,
+    "chat_msgs": 315,
+    "chat_ratio": 2.08,
+    "chat_ex": [],
+    "sentiment": "neg",
+    "mentions_in_program": 12,
+    "yt_url": "https://www.youtube.com/watch?v=JNLpggdieek&t=5054s"
+   },
+   "feed": [
+    {
+     "video_id": "WNe6QLgDfyM",
+     "channel": "OLGA",
+     "program": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+     "date": "20260629",
+     "views": 74025,
+     "t_seconds": 12749,
+     "t_label": "03:32:29",
+     "quote": "¿Te gustó la música? Estamos en la casa de Mauricio Macri Yo quiero pasar hoy todo un día con vos",
+     "conc_at": 41080,
+     "chat_msgs": 367,
+     "chat_ratio": 6.23,
+     "chat_ex": [
+      "Qué vómito MACRI!",
+      "mmmm le lavan la cara a macri ? son joda?",
+      "0lavandina a macri??????"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 25,
+     "yt_url": "https://www.youtube.com/watch?v=WNe6QLgDfyM&t=12749s"
+    },
+    {
+     "video_id": "3QJmfDvuxIk",
+     "channel": "OLGA",
+     "program": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
+     "date": "20260626",
+     "views": 40199,
+     "t_seconds": 4124,
+     "t_label": "01:08:44",
+     "quote": "¿Te gustó la música? Estamos en la casa de Mauricio Macri ¡Nos inunda!",
+     "conc_at": 28366,
+     "chat_msgs": 368,
+     "chat_ratio": 5.05,
+     "chat_ex": [
+      "Jajajajajjaa quieren romantizar a Macri ahora? xD",
+      "no le suban la imagen a macri",
+      "CAMI MACRISTA? DECIME Q NO"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 2,
+     "yt_url": "https://www.youtube.com/watch?v=3QJmfDvuxIk&t=4124s"
+    },
+    {
+     "video_id": "G48eCpGj41g",
+     "channel": "Bondi Live",
+     "program": "▶️ PROGRAMACIÓN COMPLETA 30/06 | BONDI LIVE",
+     "date": "20260630",
+     "views": 55039,
+     "t_seconds": 3088,
+     "t_label": "00:51:28",
+     "quote": "que ya se podría estar un poquito más deconstruido siendo un chico joven, como es, hablo de Marcos Giles. Pero bueno, en estas estamos, cuando los chicos jóvenes, como estaba viendo Valen Rizzuti, para Olga, les voy a dar a todos ya que estoy, así tienen tema los programas, la ve",
+     "conc_at": 17152,
+     "chat_msgs": 95,
+     "chat_ratio": 4.3,
+     "chat_ex": [
+      "laura que onda Macri en Olga? en el programa de Paula hicieron un dia con Macri podrá guit",
+      "laura que onda Macri en Olga? en el programa de Paula hicieron un dia con Macri podrá guit"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 3,
+     "yt_url": "https://www.youtube.com/watch?v=G48eCpGj41g&t=3088s"
+    },
+    {
+     "video_id": "JNLpggdieek",
+     "channel": "Vorterix",
+     "program": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+     "date": "20260629",
+     "views": 29488,
+     "t_seconds": 5054,
+     "t_label": "01:24:14",
+     "quote": "No, no, no El fracaso de la presidencia de Macri Re contra fue en la baja",
+     "conc_at": 8092,
+     "chat_msgs": 315,
+     "chat_ratio": 2.08,
+     "chat_ex": [],
+     "sentiment": "neg",
+     "mentions_in_program": 12,
+     "yt_url": "https://www.youtube.com/watch?v=JNLpggdieek&t=5054s"
+    },
+    {
+     "video_id": "NHt6oqHZYd0",
+     "channel": "GELATINA",
+     "program": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
+     "date": "20260629",
+     "views": 12026,
+     "t_seconds": 2408,
+     "t_label": "00:40:08",
+     "quote": "Claro. Pero bueno, viene del partido Mauricio Macri y hay mucho archivo de mi ley diciendo",
+     "conc_at": 4952,
+     "chat_msgs": 143,
+     "chat_ratio": 2.05,
+     "chat_ex": [
+      "Con la llegada de Satillo el que gano fue Macri.",
+      "avanza Macri en las sombras"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 25,
+     "yt_url": "https://www.youtube.com/watch?v=NHt6oqHZYd0&t=2408s"
+    },
+    {
+     "video_id": "pL9wgMQaBp4",
+     "channel": "GELATINA",
+     "program": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+     "date": "20260630",
+     "views": 5782,
+     "t_seconds": 6104,
+     "t_label": "01:41:44",
+     "quote": "Javier Milei, hablando mal de Mauricio Macri en Neura, no me parece una casualidad,",
+     "conc_at": 1721,
+     "chat_msgs": 16,
+     "chat_ratio": 1.72,
+     "chat_ex": [
+      "Este tipo le hizo la campaña a MAcri escuchenlo porque sabe",
+      "POR QUÉ TRABAJÓ CON MACRI SI LE GUSTABA CÁMPORA?"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 20,
+     "yt_url": "https://www.youtube.com/watch?v=pL9wgMQaBp4&t=6104s"
+    },
+    {
+     "video_id": "btHFJgjSlls",
+     "channel": "AHORA PLAY",
+     "program": "SEGUNDO SEMESTRE FINANCIERO: VELOCIDAD CRUCERO | Martín Genero #MercadoFresh",
+     "date": "20260629",
+     "views": 1589,
+     "t_seconds": 1018,
+     "t_label": "00:16:58",
+     "quote": "Creo que no es que importa lo que dice Macri, pero Macri sintetizó bien una especie de mirada del establishment No es muy arriesgado poner a un jefe de gabinete tan poco experimentado y con tan pocas conexiones políticas, con una agenda mucho más reducida, no una coordinación con",
+     "conc_at": 438,
+     "chat_msgs": 6,
+     "chat_ratio": 1.72,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 5,
+     "yt_url": "https://www.youtube.com/watch?v=btHFJgjSlls&t=1018s"
+    },
+    {
+     "video_id": "TR97_gAGOWE",
+     "channel": "Cenital",
+     "program": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+     "date": "20260629",
+     "views": 5169,
+     "t_seconds": 2592,
+     "t_label": "00:43:12",
+     "quote": "pero de experiencias partidarias distintas como cuando Miguel fue candidato a vicepresidente de Mauricio Macri y después como figuras muy muy cercanas ya podemos sacarlo a Santilli de pantalla",
+     "conc_at": 1000,
+     "chat_msgs": 12,
+     "chat_ratio": 1.7,
+     "chat_ex": [
+      "nooo nadie reporta a Macri, que pelotudo que sos",
+      "Macri",
+      "Santilli es Macri"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 7,
+     "yt_url": "https://www.youtube.com/watch?v=TR97_gAGOWE&t=2592s"
+    },
+    {
+     "video_id": "C6BZb4k8gF0",
+     "channel": "BLENDER",
+     "program": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
+     "date": "20260624",
+     "views": 4326,
+     "t_seconds": 2809,
+     "t_label": "00:46:49",
+     "quote": "se llama Carputo, vos le preguntabas a Miley quién era el peor funcionario de Macri y te decía que era Carputo",
+     "conc_at": 5805,
+     "chat_msgs": 49,
+     "chat_ratio": 1.49,
+     "chat_ex": [
+      "No entiendo como el Candidato a Vice de Macri, es la alternativa del peronismo",
+      "KICILOFF DEVALUO IGUAL QUE MACRI"
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 13,
+     "yt_url": "https://www.youtube.com/watch?v=C6BZb4k8gF0&t=2809s"
+    },
+    {
+     "video_id": "tcq7UAzc3iw",
+     "channel": "BLENDER",
+     "program": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
+     "date": "20260624",
+     "views": 4176,
+     "t_seconds": 5602,
+     "t_label": "01:33:22",
+     "quote": "¿Te acordás lo de la tocanita del piropo? Me hizo acordar a Macri ¿Por qué un hombre puede tener hijos",
+     "conc_at": 7190,
+     "chat_msgs": 58,
+     "chat_ratio": 1.4,
+     "chat_ex": [
+      "negro el 73 = jorge macri"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 4,
+     "yt_url": "https://www.youtube.com/watch?v=tcq7UAzc3iw&t=5602s"
+    },
+    {
+     "video_id": "Mbk0Mff3g0c",
+     "channel": "Neura Media",
+     "program": "Ramón Agote y Mauro Fiorenzano en Cash is King: Alejo Rodríguez Cacio - 30/06",
+     "date": "20260630",
+     "views": 779,
+     "t_seconds": 3275,
+     "t_label": "00:54:35",
+     "quote": "que puede entrar ahora, pero después se puede ir como pasó con Macri Sí, las dos cosas",
+     "conc_at": 145,
+     "chat_msgs": 3,
+     "chat_ratio": 1.31,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 3,
+     "yt_url": "https://www.youtube.com/watch?v=Mbk0Mff3g0c&t=3275s"
+    },
+    {
+     "video_id": "vlNZMMmBbLw",
+     "channel": "GELATINA",
+     "program": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+     "date": "20260629",
+     "views": 7813,
+     "t_seconds": 7953,
+     "t_label": "02:12:33",
+     "quote": "Dijo dos cosas Sí, una que él mantiene en privado las conversaciones como diciéndole, vos Macri, claramente no, porque lo primero que hace es contar a través de un tuit que hablamos y además se encargó de decir que hablaron antes de que fuera designado ya oficialmente y demás. Y ",
+     "conc_at": 2419,
+     "chat_msgs": 9,
+     "chat_ratio": 1.28,
+     "chat_ex": [
+      "la campaña de blanqueamiento con macri es impresionante"
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 29,
+     "yt_url": "https://www.youtube.com/watch?v=vlNZMMmBbLw&t=7953s"
+    },
+    {
+     "video_id": "Yp0sVPQV8Dk",
+     "channel": "El Cronista",
+     "program": "¿El RIESGO PAÍS puede caer a 200 puntos? El dato de Yayi Morales que lo CAMBIA TODO",
+     "date": "20260629",
+     "views": 2023,
+     "t_seconds": 755,
+     "t_label": "00:12:35",
+     "quote": "bueno, qué pasaba en otro gobierno como fue el de Mauricio Macri y qué pasa en la región vemos hoy por ejemplo Uruguay con 90 puntos",
+     "conc_at": 1106,
+     "chat_msgs": 6,
+     "chat_ratio": 1.12,
+     "chat_ex": [
+      "MACRI EL MEQUETREFE .... INÚTIL Y MALA LECHE ...."
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 5,
+     "yt_url": "https://www.youtube.com/watch?v=Yp0sVPQV8Dk&t=755s"
+    },
+    {
+     "video_id": "gOUmUVtulaw",
+     "channel": "AHORA PLAY",
+     "program": "LA NUEVA ETAPA DEL DÓLAR Y MORA RÉCORD I Carlos Burgueño, Agustina Girón #CierreDeMercados",
+     "date": "20260630",
+     "views": 1786,
+     "t_seconds": 3469,
+     "t_label": "00:57:49",
+     "quote": "no es que tenemos la bola de cristal, hicimos lo mismo que hizo el gobierno de Cristina y el que hizo el gobierno de Macri, para sacarlo del esquema político.",
+     "conc_at": 419,
+     "chat_msgs": 93,
+     "chat_ratio": 1.06,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 8,
+     "yt_url": "https://www.youtube.com/watch?v=gOUmUVtulaw&t=3469s"
+    }
+   ]
+  },
+  "diego-santilli": {
+   "slug": "diego-santilli",
+   "entity": "Diego Santilli",
+   "type": "Político",
+   "watchlist": [
+    "Diego Santilli",
+    "santilli"
+   ],
+   "totals": {
+    "transcript_mentions": 484,
+    "chat_mentions": 116,
+    "programs_with_mentions": 28,
+    "channels": 11
+   },
+   "sentiment": {
+    "neg": 9,
+    "neu": 18,
+    "pos": 1
+   },
+   "share_of_voice": [
+    {
+     "channel": "GELATINA",
+     "mentions": 187,
+     "pct": 38.6
+    },
+    {
+     "channel": "AHORA PLAY",
+     "mentions": 59,
+     "pct": 12.2
+    },
+    {
+     "channel": "OLGA",
+     "mentions": 58,
+     "pct": 12.0
+    },
+    {
+     "channel": "Cenital",
+     "mentions": 38,
+     "pct": 7.9
+    },
+    {
+     "channel": "BorderPeriodismo",
+     "mentions": 34,
+     "pct": 7.0
+    },
+    {
+     "channel": "A U R A",
+     "mentions": 33,
+     "pct": 6.8
+    },
+    {
+     "channel": "Vorterix",
+     "mentions": 31,
+     "pct": 6.4
+    },
+    {
+     "channel": "BLENDER",
+     "mentions": 24,
+     "pct": 5.0
+    },
+    {
+     "channel": "Neura Media",
+     "mentions": 10,
+     "pct": 2.1
+    },
+    {
+     "channel": "El Cronista",
+     "mentions": 7,
+     "pct": 1.4
+    },
+    {
+     "channel": "LUZU TV",
+     "mentions": 3,
+     "pct": 0.6
+    }
+   ],
+   "by_day": [
+    {
+     "day": "20260624",
+     "mentions": 1
+    },
+    {
+     "day": "20260626",
+     "mentions": 39
+    },
+    {
+     "day": "20260629",
+     "mentions": 352
+    },
+    {
+     "day": "20260630",
+     "mentions": 92
+    }
+   ],
+   "crisis": {
+    "video_id": "AUSgxGQirlM",
+    "channel": "A U R A",
+    "program": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+    "date": "20260626",
+    "views": 783,
+    "t_seconds": 1254,
+    "t_label": "00:20:54",
+    "quote": "están muy eufóricos y extasiados porque llega Santilli. Santilli tiene una imagen más, si quieren, más blanca En el sentido de que no tiene tanto escándalo mediático encima",
+    "conc_at": 376,
+    "chat_msgs": 82,
+    "chat_ratio": 1.35,
+    "chat_ex": [],
+    "sentiment": "neg",
+    "mentions_in_program": 10,
+    "yt_url": "https://www.youtube.com/watch?v=AUSgxGQirlM&t=1254s"
+   },
+   "feed": [
+    {
+     "video_id": "NHt6oqHZYd0",
+     "channel": "GELATINA",
+     "program": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
+     "date": "20260629",
+     "views": 12026,
+     "t_seconds": 2304,
+     "t_label": "00:38:24",
+     "quote": "haciendo más tímidamente el gesto de los pulgares para arriba. ¿Se acuerdan que Santilli se rapó cuando quedó como primero en la lista de diputados? Él lo da todo.",
+     "conc_at": 4996,
+     "chat_msgs": 586,
+     "chat_ratio": 8.42,
+     "chat_ex": [
+      "santilli sos tan prostituto xD",
+      "EL HDP DE SANTILLI"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 65,
+     "yt_url": "https://www.youtube.com/watch?v=NHt6oqHZYd0&t=2304s"
+    },
+    {
+     "video_id": "pL9wgMQaBp4",
+     "channel": "GELATINA",
+     "program": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+     "date": "20260630",
+     "views": 5782,
+     "t_seconds": 7448,
+     "t_label": "02:04:08",
+     "quote": "¿Se habla de Adorni allá? Se habla de Adorni, se habla del Colo Santilli Se habla de",
+     "conc_at": 2136,
+     "chat_msgs": 35,
+     "chat_ratio": 3.77,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 39,
+     "yt_url": "https://www.youtube.com/watch?v=pL9wgMQaBp4&t=7448s"
+    },
+    {
+     "video_id": "SzjeK5nN-Q0",
+     "channel": "El Cronista",
+     "program": "ECONOMÍA DE MILEI: ¿CRECE O SE DESACELERA? | CUENTAS CLARAS EN VIVO",
+     "date": "20260630",
+     "views": 1291,
+     "t_seconds": 1352,
+     "t_label": "00:22:32",
+     "quote": "Que va a hacer la Argentina a Venezuela Y luego les decíamos, 17.30 asume el nuevo jefe de gabinete, Diego Santilli Y Santi, antes de presentar a nuestro entrevistado, que tenemos muchas ganas de charlar con él,",
+     "conc_at": 1540,
+     "chat_msgs": 89,
+     "chat_ratio": 3.71,
+     "chat_ex": [],
+     "sentiment": "pos",
+     "mentions_in_program": 2,
+     "yt_url": "https://www.youtube.com/watch?v=SzjeK5nN-Q0&t=1352s"
+    },
+    {
+     "video_id": "JNLpggdieek",
+     "channel": "Vorterix",
+     "program": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+     "date": "20260629",
+     "views": 29488,
+     "t_seconds": 5737,
+     "t_label": "01:35:37",
+     "quote": "candidato horrible como el caso de Santilli, que es un engendro, digamos, o sea, que estaba",
+     "conc_at": 8685,
+     "chat_msgs": 426,
+     "chat_ratio": 2.81,
+     "chat_ex": [
+      "sos Santilli?",
+      "PREFIERO A AFORNI SI ENTRA SANTILLI"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 21,
+     "yt_url": "https://www.youtube.com/watch?v=JNLpggdieek&t=5737s"
+    },
+    {
+     "video_id": "C6BZb4k8gF0",
+     "channel": "BLENDER",
+     "program": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
+     "date": "20260624",
+     "views": 4326,
+     "t_seconds": 3256,
+     "t_label": "00:54:16",
+     "quote": "Esa es la nacional, sacó el 40 No, cuando van ahora que Santilli la da vuelta No, por eso, saca el 40 ahí",
+     "conc_at": 5999,
+     "chat_msgs": 67,
+     "chat_ratio": 2.04,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 1,
+     "yt_url": "https://www.youtube.com/watch?v=C6BZb4k8gF0&t=3256s"
+    },
+    {
+     "video_id": "btHFJgjSlls",
+     "channel": "AHORA PLAY",
+     "program": "SEGUNDO SEMESTRE FINANCIERO: VELOCIDAD CRUCERO | Martín Genero #MercadoFresh",
+     "date": "20260629",
+     "views": 1589,
+     "t_seconds": 909,
+     "t_label": "00:15:09",
+     "quote": "Bueno, la falta de volumen político, de acuerdo, de amplitud política, de sustento, es como que está muy concentrada, o sea, la estrategia política de la libertad avanzada está concentrada en pocas personas, tiene relativamente pocos acuerdos, no es como muy coalicionista, sino l",
+     "conc_at": 413,
+     "chat_msgs": 7,
+     "chat_ratio": 2.01,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 5,
+     "yt_url": "https://www.youtube.com/watch?v=btHFJgjSlls&t=909s"
+    },
+    {
+     "video_id": "vlNZMMmBbLw",
+     "channel": "GELATINA",
+     "program": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+     "date": "20260629",
+     "views": 7813,
+     "t_seconds": 3819,
+     "t_label": "01:03:39",
+     "quote": "para poder reordenar su gobierno de ahora en adelante pensando en la reelección de Javier Milay porque vos tenés hoy a alguien como Diego Santilli, que si hay alguien que vos pensás como parte del sistema político pero que no solamente, decís, es un histórico de tal partido, sino",
+     "conc_at": 1515,
+     "chat_msgs": 14,
+     "chat_ratio": 1.99,
+     "chat_ex": [
+      "Che Santilli se cargo a Espert, ahora a Adorni, hay algo ahi jaja",
+      "ahora Santilli se tiene que poner mas pelo para ponerse en el lugar de Adorni"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 50,
+     "yt_url": "https://www.youtube.com/watch?v=vlNZMMmBbLw&t=3819s"
+    },
+    {
+     "video_id": "04q2g0UfdyA",
+     "channel": "Neura Media",
+     "program": "Multiverso Neura",
+     "date": "20260629",
+     "views": 2244,
+     "t_seconds": 3854,
+     "t_label": "01:04:14",
+     "quote": "No, no es tan así. Igual a mí lo que me interesa saber, en este caso a Dorni, en el caso anterior Franco o en el futuro Santilli. No, yo estoy hablando del puesto en sí. Por eso dije, hoy a Dorni, ayer a Franco, mañana a Santilli.",
+     "conc_at": 687,
+     "chat_msgs": 38,
+     "chat_ratio": 1.92,
+     "chat_ex": [
+      "EL JAVO HOY HABLO DE MORAL JAJAJAJA JAJAJAJAJA JAJAJAJA. LA DE ADORNI Y SANTILLI?????"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 4,
+     "yt_url": "https://www.youtube.com/watch?v=04q2g0UfdyA&t=3854s"
+    },
+    {
+     "video_id": "TR97_gAGOWE",
+     "channel": "Cenital",
+     "program": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+     "date": "20260629",
+     "views": 5169,
+     "t_seconds": 2596,
+     "t_label": "00:43:16",
+     "quote": "candidato a vicepresidente de Mauricio Macri y después como figuras muy muy cercanas ya podemos sacarlo a Santilli de pantalla como es el caso de Facundo Tignanelli o de Mayra Mendoza",
+     "conc_at": 1000,
+     "chat_msgs": 12,
+     "chat_ratio": 1.7,
+     "chat_ex": [
+      "Santilli es Macri"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 38,
+     "yt_url": "https://www.youtube.com/watch?v=TR97_gAGOWE&t=2596s"
+    },
+    {
+     "video_id": "NZnTfvrPb0E",
+     "channel": "A U R A",
+     "program": "🟠 ¿CÓMO QUEDARON LOS CRUCES DEL  MUNDIAL 2026? l HOY COMO SIEMPRE",
+     "date": "20260626",
+     "views": 841,
+     "t_seconds": 5093,
+     "t_label": "01:24:53",
+     "quote": "que les contamos, ha salido Adorni de su lugar de jefe de ministros y ha entrado el Colorado Santilli a reemplazarlo ya todo lo que suponía la comunicación",
+     "conc_at": 312,
+     "chat_msgs": 75,
+     "chat_ratio": 1.59,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 23,
+     "yt_url": "https://www.youtube.com/watch?v=NZnTfvrPb0E&t=5093s"
+    },
+    {
+     "video_id": "AUSgxGQirlM",
+     "channel": "A U R A",
+     "program": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
+     "date": "20260626",
+     "views": 783,
+     "t_seconds": 1254,
+     "t_label": "00:20:54",
+     "quote": "están muy eufóricos y extasiados porque llega Santilli. Santilli tiene una imagen más, si quieren, más blanca En el sentido de que no tiene tanto escándalo mediático encima",
+     "conc_at": 376,
+     "chat_msgs": 82,
+     "chat_ratio": 1.35,
+     "chat_ex": [],
+     "sentiment": "neg",
+     "mentions_in_program": 10,
+     "yt_url": "https://www.youtube.com/watch?v=AUSgxGQirlM&t=1254s"
+    },
+    {
+     "video_id": "WNe6QLgDfyM",
+     "channel": "OLGA",
+     "program": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+     "date": "20260629",
+     "views": 74025,
+     "t_seconds": 10270,
+     "t_label": "02:51:10",
+     "quote": "se va a ir acomodando de acá un año todo sin dudas y además lo que sí pasa es que ves miren esto esto es como el casi como un jefe que hoy hable con diego santilli previo a su reunión con el presidente como diciendo me llamó claro me dijo que iba a ser de hecho de la noticia medi",
+     "conc_at": 37456,
+     "chat_msgs": 75,
+     "chat_ratio": 1.27,
+     "chat_ex": [
+      "HAY ALGUNOS TWEETS DE MILEI PARA SANTILLI, NO?",
+      "Si, Olga está haciendo campaña por macri aunque es raro que con el pro (Santilli-Bullrich)"
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 34,
+     "yt_url": "https://www.youtube.com/watch?v=WNe6QLgDfyM&t=10270s"
+    },
+    {
+     "video_id": "HTm_q34CwyM",
+     "channel": "AHORA PLAY",
+     "program": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
+     "date": "20260629",
+     "views": 2667,
+     "t_seconds": 1364,
+     "t_label": "00:22:44",
+     "quote": "90 palitos por mes En ese momento que da la entrevista se viralizó mucho por redes, por Twitter, porque en el momento en el que está respondiendo sobre YPF estaba en compañía de Diego Santilli y de la secretaria de la presidencia, de su hermana Karina Milei, y es interrumpido en ",
+     "conc_at": 605,
+     "chat_msgs": 101,
+     "chat_ratio": 1.17,
+     "chat_ex": [
+      "Hay que pedir a las ex de Santilli que muestren la foto de sus vestidores.",
+      "ahora Santilli pasará a ser directivo de YPF y cobrar ese dinero?",
+      "Offshore Santilli jefe de gabinete....otro de los mismos pero más pillo."
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 51,
+     "yt_url": "https://www.youtube.com/watch?v=HTm_q34CwyM&t=1364s"
+    },
+    {
+     "video_id": "fam8EedmGow",
+     "channel": "OLGA",
+     "program": "¿CUÁL FUE EL MEJOR BESO DE PEDRO? | #SeríaIncreíble 30/6",
+     "date": "20260630",
+     "views": 61639,
+     "t_seconds": 1480,
+     "t_label": "00:24:40",
+     "quote": "gobierno adrián rabier dará hoy su primera conferencia de prensa en la casa rosada el vocero presidencial también confirmó que esta tarde diego santilli jurará como nuevo jefe de gabinete cambio en la gira presidencial mi ley recibió a flavio bolsonaro en olivos y canceló",
+     "conc_at": 9270,
+     "chat_msgs": 69,
+     "chat_ratio": 1.01,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 3,
+     "yt_url": "https://www.youtube.com/watch?v=fam8EedmGow&t=1480s"
+    }
+   ]
+  },
+  "cristina-kirchner": {
+   "slug": "cristina-kirchner",
+   "entity": "Cristina Kirchner",
+   "type": "Política",
+   "watchlist": [
+    "Cristina Kirchner",
+    "cristina",
+    "cfk"
+   ],
+   "totals": {
+    "transcript_mentions": 235,
+    "chat_mentions": 272,
+    "programs_with_mentions": 55,
+    "channels": 12
+   },
+   "sentiment": {
+    "neg": 9,
+    "neu": 42,
+    "pos": 4
+   },
+   "share_of_voice": [
+    {
+     "channel": "GELATINA",
+     "mentions": 57,
+     "pct": 24.3
+    },
+    {
+     "channel": "OLGA",
+     "mentions": 42,
+     "pct": 17.9
+    },
+    {
+     "channel": "BLENDER",
+     "mentions": 28,
+     "pct": 11.9
+    },
+    {
+     "channel": "Cenital",
+     "mentions": 27,
+     "pct": 11.5
+    },
+    {
+     "channel": "AHORA PLAY",
+     "mentions": 22,
+     "pct": 9.4
+    },
+    {
+     "channel": "LUZU TV",
+     "mentions": 17,
+     "pct": 7.2
+    },
+    {
+     "channel": "Neura Media",
+     "mentions": 16,
+     "pct": 6.8
+    },
+    {
+     "channel": "BorderPeriodismo",
+     "mentions": 13,
+     "pct": 5.5
+    },
+    {
+     "channel": "El Cronista",
+     "mentions": 4,
+     "pct": 1.7
+    },
+    {
+     "channel": "A U R A",
+     "mentions": 3,
+     "pct": 1.3
+    },
+    {
+     "channel": "Vorterix",
+     "mentions": 3,
+     "pct": 1.3
+    },
+    {
+     "channel": "Bondi Live",
+     "mentions": 3,
+     "pct": 1.3
+    }
+   ],
+   "by_day": [
+    {
+     "day": "20260601",
+     "mentions": 1
+    },
+    {
+     "day": "20260602",
+     "mentions": 2
+    },
+    {
+     "day": "20260603",
+     "mentions": 3
+    },
+    {
+     "day": "20260604",
+     "mentions": 2
+    },
+    {
+     "day": "20260605",
+     "mentions": 2
+    },
+    {
+     "day": "20260608",
+     "mentions": 2
+    },
+    {
+     "day": "20260609",
+     "mentions": 8
+    },
+    {
+     "day": "20260610",
+     "mentions": 5
+    },
+    {
+     "day": "20260611",
+     "mentions": 5
+    },
+    {
+     "day": "20260623",
+     "mentions": 6
+    },
+    {
+     "day": "20260624",
+     "mentions": 23
+    },
+    {
+     "day": "20260625",
+     "mentions": 1
+    },
+    {
+     "day": "20260626",
+     "mentions": 24
+    },
+    {
+     "day": "20260629",
+     "mentions": 75
+    },
+    {
+     "day": "20260630",
+     "mentions": 76
+    }
+   ],
+   "crisis": {
+    "video_id": "TR97_gAGOWE",
+    "channel": "Cenital",
+    "program": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+    "date": "20260629",
+    "views": 5169,
+    "t_seconds": 2723,
+    "t_label": "00:45:23",
+    "quote": "a diferentes opciones por fuera de su núcleo más cercano. Pero además, aún si esto no fuera el objetivo de Cristina o de Kicillof, empieza a consolidarse una idea, y la quiero hablar con Jorge Eliotti ahora, en el horizonte cercano que es la",
+    "conc_at": 1037,
+    "chat_msgs": 16,
+    "chat_ratio": 2.27,
+    "chat_ex": [
+     "igual aguante cristina para siempre (L"
+    ],
+    "sentiment": "neg",
+    "mentions_in_program": 27,
+    "yt_url": "https://www.youtube.com/watch?v=TR97_gAGOWE&t=2723s"
+   },
+   "feed": [
+    {
+     "video_id": "CP5OqzXez-g",
+     "channel": "BorderPeriodismo",
+     "program": "EL TAPON DE ADORNI y el NUEVO SANTILLI | VIVAN TODO en VIVO con OLIVÁN",
+     "date": "20260629",
+     "views": 2107,
+     "t_seconds": 5764,
+     "t_label": "01:36:04",
+     "quote": "desde su mirada de izquierda, escribía artículos que tenían que ver con una oposición a las políticas económicas de Néstor Kirchner. La Presidenta le abrió la puerta, lo llevó como gerente de Aerolíneas,",
+     "conc_at": 2100,
+     "chat_msgs": 3,
+     "chat_ratio": 3.0,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 13,
+     "yt_url": "https://www.youtube.com/watch?v=CP5OqzXez-g&t=5764s"
+    },
+    {
+     "video_id": "JNLpggdieek",
+     "channel": "Vorterix",
+     "program": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+     "date": "20260629",
+     "views": 29488,
+     "t_seconds": 5761,
+     "t_label": "01:36:01",
+     "quote": "que se corran. Si están tan preocupados por el kirchnerismo, que se corran. Digo, que entonces",
+     "conc_at": 8685,
+     "chat_msgs": 414,
+     "chat_ratio": 2.73,
+     "chat_ex": [
+      "a un ministro de cristina le pasó eso",
+      "Aflojale al filtro, Cristina jajaja"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 3,
+     "yt_url": "https://www.youtube.com/watch?v=JNLpggdieek&t=5761s"
+    },
+    {
+     "video_id": "Yp0sVPQV8Dk",
+     "channel": "El Cronista",
+     "program": "¿El RIESGO PAÍS puede caer a 200 puntos? El dato de Yayi Morales que lo CAMBIA TODO",
+     "date": "20260629",
+     "views": 2023,
+     "t_seconds": 4313,
+     "t_label": "01:11:53",
+     "quote": "sí, a mí me están matando los kirchneristas se enojaron porque Waze dijo que con la inflación",
+     "conc_at": 1999,
+     "chat_msgs": 14,
+     "chat_ratio": 2.61,
+     "chat_ex": [
+      "Peronchokirchnerismo = 200 puntos básicos"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 3,
+     "yt_url": "https://www.youtube.com/watch?v=Yp0sVPQV8Dk&t=4313s"
+    },
+    {
+     "video_id": "tlhTO7YtTJ0",
+     "channel": "GELATINA",
+     "program": "LUCAS UPSTEIN en CIRCO FREAK con Mati COLOMBATTI",
+     "date": "20260626",
+     "views": 5955,
+     "t_seconds": 2704,
+     "t_label": "00:45:04",
+     "quote": "Se confundió, está bien. Viva Cristina Viva Perón y viva Cristina",
+     "conc_at": 1541,
+     "chat_msgs": 40,
+     "chat_ratio": 2.39,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 10,
+     "yt_url": "https://www.youtube.com/watch?v=tlhTO7YtTJ0&t=2704s"
+    },
+    {
+     "video_id": "TR97_gAGOWE",
+     "channel": "Cenital",
+     "program": "EN VIVO | Jorge Liotti en El señor de los pasillos con Iván Schargrodsky",
+     "date": "20260629",
+     "views": 5169,
+     "t_seconds": 2723,
+     "t_label": "00:45:23",
+     "quote": "a diferentes opciones por fuera de su núcleo más cercano. Pero además, aún si esto no fuera el objetivo de Cristina o de Kicillof, empieza a consolidarse una idea, y la quiero hablar con Jorge Eliotti ahora, en el horizonte cercano que es la",
+     "conc_at": 1037,
+     "chat_msgs": 16,
+     "chat_ratio": 2.27,
+     "chat_ex": [
+      "igual aguante cristina para siempre (L"
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 27,
+     "yt_url": "https://www.youtube.com/watch?v=TR97_gAGOWE&t=2723s"
+    },
+    {
+     "video_id": "7ON4ZA5TtHc",
+     "channel": "Neura Media",
+     "program": "ArgenData: Julieta Tarrés y Malena de los Ríos",
+     "date": "20260626",
+     "views": 3648,
+     "t_seconds": 2102,
+     "t_label": "00:35:02",
+     "quote": "Nadie tiene, no cualquiera tiene una calle en Nueva York Bueno, Argentina tiene una calle en Nueva York y la inauguró ayer el canciller Pablo Kirchner Argentina, Argentina, Argentina",
+     "conc_at": 822,
+     "chat_msgs": 73,
+     "chat_ratio": 2.22,
+     "chat_ex": [
+      "NUESTRO CÁNCER es el PERONISMO -MENEMISMO-KIRCHNERISMO, la pregunta :red_question_mark::re"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 7,
+     "yt_url": "https://www.youtube.com/watch?v=7ON4ZA5TtHc&t=2102s"
+    },
+    {
+     "video_id": "C6BZb4k8gF0",
+     "channel": "BLENDER",
+     "program": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
+     "date": "20260624",
+     "views": 4326,
+     "t_seconds": 3205,
+     "t_label": "00:53:25",
+     "quote": "de Kirchner, hace así, pum y le pone el cuerpo a Kirchner acá y le hace así, y ya ese tipo lo banco",
+     "conc_at": 6005,
+     "chat_msgs": 66,
+     "chat_ratio": 2.01,
+     "chat_ex": [
+      "Diganle viejo, pero el viejo fue artifice de los mejores gobiernos de nestor y cristina. k"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 10,
+     "yt_url": "https://www.youtube.com/watch?v=C6BZb4k8gF0&t=3205s"
+    },
+    {
+     "video_id": "LTlJq7vIE0g",
+     "channel": "GELATINA",
+     "program": "¿Milei superó la crisis? | EL PUENTE con Pedro ROSEMBLAT y Nico GUTHMANN",
+     "date": "20260630",
+     "views": 33443,
+     "t_seconds": 1125,
+     "t_label": "00:18:45",
+     "quote": "fue jefe de la bancada del Senado durante los 12 años de los gobiernos de Nuestra y Cristina eso también es Pichetto",
+     "conc_at": 7173,
+     "chat_msgs": 107,
+     "chat_ratio": 1.76,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 32,
+     "yt_url": "https://www.youtube.com/watch?v=LTlJq7vIE0g&t=1125s"
+    },
+    {
+     "video_id": "NKhi31a86K8",
+     "channel": "OLGA",
+     "program": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+     "date": "20260623",
+     "views": 14487,
+     "t_seconds": 4043,
+     "t_label": "01:07:23",
+     "quote": "son mi infancia, me crié viéndote con 100% lucha, Toto Kirchner. Para nosotros Silvio Soldán",
+     "conc_at": 8339,
+     "chat_msgs": 30,
+     "chat_ratio": 1.72,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 1,
+     "yt_url": "https://www.youtube.com/watch?v=NKhi31a86K8&t=4043s"
+    },
+    {
+     "video_id": "HTm_q34CwyM",
+     "channel": "AHORA PLAY",
+     "program": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
+     "date": "20260629",
+     "views": 2667,
+     "t_seconds": 2665,
+     "t_label": "00:44:25",
+     "quote": "No sé qué oposición Están en otra sintonía, están en otra sintonía, eso es verdad, pero la sociedad se tiene que preguntar de dónde viene la guita, a ver, es el único corrupto, de dónde viene esa guita, cómo Adorno manejaba ese flujo de dinero, yo acá coincido con Pau, me parece ",
+     "conc_at": 769,
+     "chat_msgs": 108,
+     "chat_ratio": 1.25,
+     "chat_ex": [
+      "Adorni y su esposa,como Néstor y Cristina,realizan su acumulación primitiva saqueando al E",
+      "livra/Andis/ supuesto ? con menos metieron presa a CFK"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 7,
+     "yt_url": "https://www.youtube.com/watch?v=HTm_q34CwyM&t=2665s"
+    },
+    {
+     "video_id": "q_clAienUJw",
+     "channel": "OLGA",
+     "program": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+     "date": "20260623",
+     "views": 73490,
+     "t_seconds": 10890,
+     "t_label": "03:01:30",
+     "quote": "Que no se vaya Martín ¿Qué tal? Tomás Kirchner para Radio La Red Les quiero hacer una pregunta",
+     "conc_at": 46156,
+     "chat_msgs": 139,
+     "chat_ratio": 1.06,
+     "chat_ex": [],
+     "sentiment": "neg",
+     "mentions_in_program": 2,
+     "yt_url": "https://www.youtube.com/watch?v=q_clAienUJw&t=10890s"
+    },
+    {
+     "video_id": "gOUmUVtulaw",
+     "channel": "AHORA PLAY",
+     "program": "LA NUEVA ETAPA DEL DÓLAR Y MORA RÉCORD I Carlos Burgueño, Agustina Girón #CierreDeMercados",
+     "date": "20260630",
+     "views": 1786,
+     "t_seconds": 3469,
+     "t_label": "00:57:49",
+     "quote": "no es que tenemos la bola de cristal, hicimos lo mismo que hizo el gobierno de Cristina y el que hizo el gobierno de Macri, para sacarlo del esquema político.",
+     "conc_at": 419,
+     "chat_msgs": 93,
+     "chat_ratio": 1.06,
+     "chat_ex": [
+      "Son los ignorantes creados por el kirchnerismo- es el resultado de la \"decada ganada\" haga"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 9,
+     "yt_url": "https://www.youtube.com/watch?v=gOUmUVtulaw&t=3469s"
+    },
+    {
+     "video_id": "e3av_6yqgHg",
+     "channel": "OLGA",
+     "program": "NOS SOMETEMOS AL CASCO DE LA VERDAD | #SoñéQueVolaba 29/6",
+     "date": "20260629",
+     "views": 60610,
+     "t_seconds": 5553,
+     "t_label": "01:32:33",
+     "quote": "Y estuvo el Chivo Rossi Ah, jefe de gabinete de Cristina ¿De Cristina o de Néstor?",
+     "conc_at": 34261,
+     "chat_msgs": 79,
+     "chat_ratio": 0.98,
+     "chat_ex": [
+      "CANEPA SOS RE PELOTUDO JUSTIFICANDO. INSAURRALDE KICILOS Y LOS KIRCHNER SE ROBARON TODO PO",
+      "CANEPA SOS RE PELOTUDO JUSTIFICANDO. INSAURRALDE KICILOS Y LOS KIRCHNER SE ROBARON TODO PO"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 5,
+     "yt_url": "https://www.youtube.com/watch?v=e3av_6yqgHg&t=5553s"
+    },
+    {
+     "video_id": "pL9wgMQaBp4",
+     "channel": "GELATINA",
+     "program": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+     "date": "20260630",
+     "views": 5782,
+     "t_seconds": 6262,
+     "t_label": "01:44:22",
+     "quote": "y la frase fue esta Cristina, no dijo eso ni piensa eso",
+     "conc_at": 1796,
+     "chat_msgs": 9,
+     "chat_ratio": 0.97,
+     "chat_ex": [
+      "LIBEREN A CFK DE LA CAMPORA",
+      "kicillof no es peronista o no es kirchnerista?"
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 9,
+     "yt_url": "https://www.youtube.com/watch?v=pL9wgMQaBp4&t=6262s"
+    }
+   ]
+  },
+  "lionel-messi": {
+   "slug": "lionel-messi",
+   "entity": "Lionel Messi",
+   "type": "Deporte",
+   "watchlist": [
+    "Lionel Messi",
+    "messi"
+   ],
+   "totals": {
+    "transcript_mentions": 1857,
+    "chat_mentions": 398,
+    "programs_with_mentions": 143,
+    "channels": 13
+   },
+   "sentiment": {
+    "neg": 20,
+    "neu": 104,
+    "pos": 19
+   },
+   "share_of_voice": [
+    {
+     "channel": "OLGA",
+     "mentions": 998,
+     "pct": 53.7
+    },
+    {
+     "channel": "LUZU TV",
+     "mentions": 405,
+     "pct": 21.8
+    },
+    {
+     "channel": "Vorterix",
+     "mentions": 247,
+     "pct": 13.3
+    },
+    {
+     "channel": "BLENDER",
+     "mentions": 87,
+     "pct": 4.7
+    },
+    {
+     "channel": "Neura Media",
+     "mentions": 43,
+     "pct": 2.3
+    },
+    {
+     "channel": "GELATINA",
+     "mentions": 26,
+     "pct": 1.4
+    },
+    {
+     "channel": "A U R A",
+     "mentions": 16,
+     "pct": 0.9
+    },
+    {
+     "channel": "Urbana Play 104.3 FM",
+     "mentions": 11,
+     "pct": 0.6
+    },
+    {
+     "channel": "BorderPeriodismo",
+     "mentions": 9,
+     "pct": 0.5
+    },
+    {
+     "channel": "Bondi Live",
+     "mentions": 8,
+     "pct": 0.4
+    },
+    {
+     "channel": "AZZ",
+     "mentions": 3,
+     "pct": 0.2
+    },
+    {
+     "channel": "AHORA PLAY",
+     "mentions": 2,
+     "pct": 0.1
+    },
+    {
+     "channel": "El Cronista",
+     "mentions": 2,
+     "pct": 0.1
+    }
+   ],
+   "by_day": [
+    {
+     "day": "20260529",
+     "mentions": 11
+    },
+    {
+     "day": "20260601",
+     "mentions": 31
+    },
+    {
+     "day": "20260602",
+     "mentions": 5
+    },
+    {
+     "day": "20260603",
+     "mentions": 18
+    },
+    {
+     "day": "20260604",
+     "mentions": 22
+    },
+    {
+     "day": "20260605",
+     "mentions": 27
+    },
+    {
+     "day": "20260608",
+     "mentions": 81
+    },
+    {
+     "day": "20260609",
+     "mentions": 98
+    },
+    {
+     "day": "20260610",
+     "mentions": 121
+    },
+    {
+     "day": "20260611",
+     "mentions": 42
+    },
+    {
+     "day": "20260619",
+     "mentions": 18
+    },
+    {
+     "day": "20260621",
+     "mentions": 3
+    },
+    {
+     "day": "20260622",
+     "mentions": 145
+    },
+    {
+     "day": "20260623",
+     "mentions": 416
+    },
+    {
+     "day": "20260624",
+     "mentions": 202
+    },
+    {
+     "day": "20260625",
+     "mentions": 17
+    },
+    {
+     "day": "20260626",
+     "mentions": 237
+    },
+    {
+     "day": "20260627",
+     "mentions": 15
+    },
+    {
+     "day": "20260629",
+     "mentions": 162
+    },
+    {
+     "day": "20260630",
+     "mentions": 137
+    },
+    {
+     "day": "20260701",
+     "mentions": 49
+    }
+   ],
+   "crisis": {
+    "video_id": "EwFONN3W5cg",
+    "channel": "Vorterix",
+    "program": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+    "date": "20260626",
+    "views": 20092,
+    "t_seconds": 10144,
+    "t_label": "02:49:04",
+    "quote": "mirando el chavo, por favor Messi, Messi, esto es una mentira, Messi y se le salen todos los chisitos",
+    "conc_at": 2135,
+    "chat_msgs": 92,
+    "chat_ratio": 2.62,
+    "chat_ex": [
+     "NO PERO COMO PERRO MESSI",
+     "@JuanRomero-qc3ed si, recién metió el gol Messi"
+    ],
+    "sentiment": "neg",
+    "mentions_in_program": 22,
+    "yt_url": "https://www.youtube.com/watch?v=EwFONN3W5cg&t=10144s"
+   },
+   "feed": [
+    {
+     "video_id": "bX7MB2_OI2I",
+     "channel": "OLGA",
+     "program": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "date": "20260623",
+     "views": 43284,
+     "t_seconds": 9704,
+     "t_label": "02:41:44",
+     "quote": "Y es muy hermoso y creo que decís algo Decís muchas cosas que todos pensamos con Messi Y todos estamos muy agradecidos",
+     "conc_at": 39252,
+     "chat_msgs": 499,
+     "chat_ratio": 7.09,
+     "chat_ex": [
+      "FELIZ CUMPLEAÑOS MESSI"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 90,
+     "yt_url": "https://www.youtube.com/watch?v=bX7MB2_OI2I&t=9704s"
+    },
+    {
+     "video_id": "NKhi31a86K8",
+     "channel": "OLGA",
+     "program": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+     "date": "20260623",
+     "views": 14487,
+     "t_seconds": 3463,
+     "t_label": "00:57:43",
+     "quote": "¿Cómo lo sacás? Claro, eso en el caso de Messi Pero si te lo dicen otros también",
+     "conc_at": 8587,
+     "chat_msgs": 57,
+     "chat_ratio": 3.27,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 100,
+     "yt_url": "https://www.youtube.com/watch?v=NKhi31a86K8&t=3463s"
+    },
+    {
+     "video_id": "vlNZMMmBbLw",
+     "channel": "GELATINA",
+     "program": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+     "date": "20260629",
+     "views": 7813,
+     "t_seconds": 5892,
+     "t_label": "01:38:12",
+     "quote": "Pero saben que el que hace los goles es Messi. Y espero que siga siendo más.",
+     "conc_at": 2042,
+     "chat_msgs": 22,
+     "chat_ratio": 3.12,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 6,
+     "yt_url": "https://www.youtube.com/watch?v=vlNZMMmBbLw&t=5892s"
+    },
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "program": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "date": "20260623",
+     "views": 35722,
+     "t_seconds": 8139,
+     "t_label": "02:15:39",
+     "quote": "regalémosle a Messi, regalémosle a Messi que gane su ciudad, vamos",
+     "conc_at": 35945,
+     "chat_msgs": 1012,
+     "chat_ratio": 3.03,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 21,
+     "yt_url": "https://www.youtube.com/watch?v=8lOkxIDSd4w&t=8139s"
+    },
+    {
+     "video_id": "95yJuQx7ol8",
+     "channel": "OLGA",
+     "program": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+     "date": "20260622",
+     "views": 15613,
+     "t_seconds": 3847,
+     "t_label": "01:04:07",
+     "quote": "¿Cómo vas a hacer cinco goles en dos partidos? No tiene ningún tipo de sentido lo de Messi Entonces, Argentina gana",
+     "conc_at": 12425,
+     "chat_msgs": 12,
+     "chat_ratio": 3.01,
+     "chat_ex": [],
+     "sentiment": "pos",
+     "mentions_in_program": 133,
+     "yt_url": "https://www.youtube.com/watch?v=95yJuQx7ol8&t=3847s"
+    },
+    {
+     "video_id": "JqkhC1EnyTQ",
+     "channel": "OLGA",
+     "program": "MESSI pasó más cumpleaños con la selección que con ANTONELA | #GolGana 24/6",
+     "date": "20260624",
+     "views": 12997,
+     "t_seconds": 5948,
+     "t_label": "01:39:08",
+     "quote": "Bien hermano Son de mirar mucha tele los Messi ¿Viste?",
+     "conc_at": 7792,
+     "chat_msgs": 12,
+     "chat_ratio": 2.97,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 78,
+     "yt_url": "https://www.youtube.com/watch?v=JqkhC1EnyTQ&t=5948s"
+    },
+    {
+     "video_id": "IubT1ZyjjEA",
+     "channel": "Vorterix",
+     "program": "🔴 ESTO NO SUCEDIÓ con Hernan Panessi, Noxi, Schapira y Guille Bianchi | VORTERIX EN VIVO",
+     "date": "20260626",
+     "views": 3322,
+     "t_seconds": 3435,
+     "t_label": "00:57:15",
+     "quote": "Ayudame, yo después viendo esta nota me hago millonario, nos hacemos amigos. ¿Viste Edul con Messi? Yo podría ser tu Edul.",
+     "conc_at": 710,
+     "chat_msgs": 65,
+     "chat_ratio": 2.66,
+     "chat_ex": [
+      "el retiro de messi",
+      "messi parece tropeano"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 99,
+     "yt_url": "https://www.youtube.com/watch?v=IubT1ZyjjEA&t=3435s"
+    },
+    {
+     "video_id": "EwFONN3W5cg",
+     "channel": "Vorterix",
+     "program": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "date": "20260626",
+     "views": 20092,
+     "t_seconds": 10144,
+     "t_label": "02:49:04",
+     "quote": "mirando el chavo, por favor Messi, Messi, esto es una mentira, Messi y se le salen todos los chisitos",
+     "conc_at": 2135,
+     "chat_msgs": 92,
+     "chat_ratio": 2.62,
+     "chat_ex": [
+      "NO PERO COMO PERRO MESSI",
+      "@JuanRomero-qc3ed si, recién metió el gol Messi"
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 22,
+     "yt_url": "https://www.youtube.com/watch?v=EwFONN3W5cg&t=10144s"
+    },
+    {
+     "video_id": "WNe6QLgDfyM",
+     "channel": "OLGA",
+     "program": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+     "date": "20260629",
+     "views": 74025,
+     "t_seconds": 11886,
+     "t_label": "03:18:06",
+     "quote": "sin. Vos me viene la selección argentina. Sí. Yo pienso que Leonel Messi es viejo, pero está haciendo cosas para hacer la diferencia. Viste, tiene treinta y nueve años y no",
+     "conc_at": 40092,
+     "chat_msgs": 149,
+     "chat_ratio": 2.53,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 12,
+     "yt_url": "https://www.youtube.com/watch?v=WNe6QLgDfyM&t=11886s"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "Urbana Play 104.3 FM",
+     "program": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
+     "date": "20260629",
+     "views": 177498,
+     "t_seconds": 8908,
+     "t_label": "02:28:28",
+     "quote": "Diego Gómez, futbolista que hoy está En la premia, pero que jugó con Messi Hasta hace poco tiempo",
+     "conc_at": 18938,
+     "chat_msgs": 32,
+     "chat_ratio": 2.51,
+     "chat_ex": [
+      "les falta criticar a Messi nomas, pero Guido en esa no se prende",
+      "son tan barreras que critican a messi, vomo vas a criticar a messi? sos bobo?"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 8,
+     "yt_url": "https://www.youtube.com/watch?v=1KdxLdm_3K0&t=8908s"
+    },
+    {
+     "video_id": "zwp0lZ6EONI",
+     "channel": "Vorterix",
+     "program": "EL AMIGO DE TU NOVIA VE PAREN LA MANO...| #ESTONOSUCEDIÓ COMPLETO - 30/06 | VORTERIX",
+     "date": "20260701",
+     "views": 5325,
+     "t_seconds": 3957,
+     "t_label": "01:05:57",
+     "quote": "pasan demasiadas cosas el 24 de junio el cumple de Messi, Riquelme, Fangio la muerte de Rodrigo",
+     "conc_at": 895,
+     "chat_msgs": 26,
+     "chat_ratio": 2.21,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 2,
+     "yt_url": "https://www.youtube.com/watch?v=zwp0lZ6EONI&t=3957s"
+    },
+    {
+     "video_id": "cG_sxu72mSo",
+     "channel": "Vorterix",
+     "program": "MESSI CONOCIÓ A SPIDERMAN Y VINO MORE BELTRÁN | #ParenLaMano Completo - 30/06 | VORTERIX",
+     "date": "20260701",
+     "views": 62080,
+     "t_seconds": 426,
+     "t_label": "00:07:06",
+     "quote": "el otro día en la transmisión decían que Messi hizo goles en 16 estados de Estados Unidos",
+     "conc_at": 3240,
+     "chat_msgs": 155,
+     "chat_ratio": 2.11,
+     "chat_ex": [
+      "Messi es IA",
+      "80 millones de dolares para messi"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 43,
+     "yt_url": "https://www.youtube.com/watch?v=cG_sxu72mSo&t=426s"
+    },
+    {
+     "video_id": "kDbkbzy_ASA",
+     "channel": "OLGA",
+     "program": "🧨TDT con Marti Benza, Cami Jara, Giani Odoguardi y Nico Ferrero | OLGA EN VIVO",
+     "date": "20260624",
+     "views": 28305,
+     "t_seconds": 705,
+     "t_label": "00:11:45",
+     "quote": "Ah, de verdad, boludo. TDT, feliz cumple de Messi. 39, ¿no?",
+     "conc_at": 19508,
+     "chat_msgs": 343,
+     "chat_ratio": 2.09,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 6,
+     "yt_url": "https://www.youtube.com/watch?v=kDbkbzy_ASA&t=705s"
+    },
+    {
+     "video_id": "7ON4ZA5TtHc",
+     "channel": "Neura Media",
+     "program": "ArgenData: Julieta Tarrés y Malena de los Ríos",
+     "date": "20260626",
+     "views": 3648,
+     "t_seconds": 2846,
+     "t_label": "00:47:26",
+     "quote": "Y Mbappé es un fuera de nada O sea, Mbappé es un Messi francés No, no, no, Mbappé es el único",
+     "conc_at": 900,
+     "chat_msgs": 68,
+     "chat_ratio": 2.07,
+     "chat_ex": [
+      "Es el messi cometravas",
+      "ES UN INSULTO PARA MESSI",
+      "messi es imposible"
+     ],
+     "sentiment": "neg",
+     "mentions_in_program": 5,
+     "yt_url": "https://www.youtube.com/watch?v=7ON4ZA5TtHc&t=2846s"
+    }
+   ]
+  },
+  "lali-esposito": {
+   "slug": "lali-esposito",
+   "entity": "Lali Espósito",
+   "type": "Espectáculo",
+   "watchlist": [
+    "Lali Espósito",
+    "lali"
+   ],
+   "totals": {
+    "transcript_mentions": 181,
+    "chat_mentions": 12,
+    "programs_with_mentions": 44,
+    "channels": 4
+   },
+   "sentiment": {
+    "neg": 2,
+    "neu": 41,
+    "pos": 1
+   },
+   "share_of_voice": [
+    {
+     "channel": "LUZU TV",
+     "mentions": 104,
+     "pct": 57.5
+    },
+    {
+     "channel": "OLGA",
+     "mentions": 64,
+     "pct": 35.4
+    },
+    {
+     "channel": "Bondi Live",
+     "mentions": 12,
+     "pct": 6.6
+    },
+    {
+     "channel": "Vorterix",
+     "mentions": 1,
+     "pct": 0.6
+    }
+   ],
+   "by_day": [
+    {
+     "day": "20260601",
+     "mentions": 2
+    },
+    {
+     "day": "20260602",
+     "mentions": 2
+    },
+    {
+     "day": "20260603",
+     "mentions": 6
+    },
+    {
+     "day": "20260604",
+     "mentions": 21
+    },
+    {
+     "day": "20260605",
+     "mentions": 25
+    },
+    {
+     "day": "20260606",
+     "mentions": 10
+    },
+    {
+     "day": "20260608",
+     "mentions": 72
+    },
+    {
+     "day": "20260609",
+     "mentions": 3
+    },
+    {
+     "day": "20260610",
+     "mentions": 7
+    },
+    {
+     "day": "20260611",
+     "mentions": 10
+    },
+    {
+     "day": "20260623",
+     "mentions": 2
+    },
+    {
+     "day": "20260624",
+     "mentions": 9
+    },
+    {
+     "day": "20260626",
+     "mentions": 2
+    },
+    {
+     "day": "20260629",
+     "mentions": 1
+    },
+    {
+     "day": "20260630",
+     "mentions": 9
+    }
+   ],
+   "crisis": null,
+   "feed": [
+    {
+     "video_id": "G48eCpGj41g",
+     "channel": "Bondi Live",
+     "program": "▶️ PROGRAMACIÓN COMPLETA 30/06 | BONDI LIVE",
+     "date": "20260630",
+     "views": 55039,
+     "t_seconds": 2599,
+     "t_label": "00:43:19",
+     "quote": "Tenemos al dragueado, a Juani La pirada, Lali ¿Cómo era? La limada",
+     "conc_at": 16813,
+     "chat_msgs": 44,
+     "chat_ratio": 1.99,
+     "chat_ex": [
+      "QUE OPINA EL NOVIO D LALI, VA A SEGUIR CANTANDO EN RL PROGRAMA"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 4,
+     "yt_url": "https://www.youtube.com/watch?v=G48eCpGj41g&t=2599s"
+    },
+    {
+     "video_id": "EwFONN3W5cg",
+     "channel": "Vorterix",
+     "program": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
+     "date": "20260626",
+     "views": 20092,
+     "t_seconds": 9620,
+     "t_label": "02:40:20",
+     "quote": "Estoy bien, estoy bien Lali Niki Nicole",
+     "conc_at": 2238,
+     "chat_msgs": 67,
+     "chat_ratio": 1.91,
+     "chat_ex": [
+      "Lali tambien supuestamente"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 1,
+     "yt_url": "https://www.youtube.com/watch?v=EwFONN3W5cg&t=9620s"
+    },
+    {
+     "video_id": "tAUTd2FsMxA",
+     "channel": "Bondi Live",
+     "program": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+     "date": "20260624",
+     "views": 37783,
+     "t_seconds": 14088,
+     "t_label": "03:54:48",
+     "quote": "Bueno, esto lo da como una noticia Lali maltrató gente en una filmación Qué basura Lali",
+     "conc_at": 36645,
+     "chat_msgs": 50,
+     "chat_ratio": 1.07,
+     "chat_ex": [
+      "RCP CON DISCIPLINA DE LALI",
+      "Ángel, viste que parece que Gime Accardi y Lali ya no son amigas desde el quilombo con And"
+     ],
+     "sentiment": "neu",
+     "mentions_in_program": 8,
+     "yt_url": "https://www.youtube.com/watch?v=tAUTd2FsMxA&t=14088s"
+    },
+    {
+     "video_id": "fam8EedmGow",
+     "channel": "OLGA",
+     "program": "¿CUÁL FUE EL MEJOR BESO DE PEDRO? | #SeríaIncreíble 30/6",
+     "date": "20260630",
+     "views": 61639,
+     "t_seconds": 6704,
+     "t_label": "01:51:44",
+     "quote": "¡Qué emoción! A Lali A Larisa Riquelme",
+     "conc_at": 25095,
+     "chat_msgs": 52,
+     "chat_ratio": 0.76,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 1,
+     "yt_url": "https://www.youtube.com/watch?v=fam8EedmGow&t=6704s"
+    },
+    {
+     "video_id": "0NuPTgKW5mc",
+     "channel": "LUZU TV",
+     "program": "#ANTESQUENADIE | AHHH TIRABA ESA: EL LEVANTE DE DIEGO Y ¿LAS SEÑORAS SABEN DE FÚTBOL?",
+     "date": "20260630",
+     "views": 134161,
+     "t_seconds": 10178,
+     "t_label": "02:49:38",
+     "quote": "Hemos escapado. Hasta que vino una vez Lali y todo el mundo se enteró que había dos puertas y ahora esperaban de las dos puertas. De las dos puertas, claro.",
+     "conc_at": 80807,
+     "chat_msgs": 0,
+     "chat_ratio": 0.0,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 1,
+     "yt_url": "https://www.youtube.com/watch?v=0NuPTgKW5mc&t=10178s"
+    },
+    {
+     "video_id": "7Oo5Hf7f14M",
+     "channel": "LUZU TV",
+     "program": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+     "date": "20260624",
+     "views": 70980,
+     "t_seconds": 6359,
+     "t_label": "01:45:59",
+     "quote": "Rayos y centellas Disciplina de Lali, también está en mi cartón Solamente tres casilleros y gano",
+     "conc_at": 48159,
+     "chat_msgs": 0,
+     "chat_ratio": 0.0,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 1,
+     "yt_url": "https://www.youtube.com/watch?v=7Oo5Hf7f14M&t=6359s"
+    },
+    {
+     "video_id": "cEWsZ9vbiCg",
+     "channel": "LUZU TV",
+     "program": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+     "date": "20260629",
+     "views": 146307,
+     "t_seconds": 4162,
+     "t_label": "01:09:22",
+     "quote": "Soy una pendeja, Cris Ella es como Lali Siete minutos",
+     "conc_at": 31349,
+     "chat_msgs": 0,
+     "chat_ratio": 0.0,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 1,
+     "yt_url": "https://www.youtube.com/watch?v=cEWsZ9vbiCg&t=4162s"
+    },
+    {
+     "video_id": "S1UDpsKkZvE",
+     "channel": "LUZU TV",
+     "program": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+     "date": "20260623",
+     "views": 137091,
+     "t_seconds": 3939,
+     "t_label": "01:05:39",
+     "quote": "Actitud más argentina Que Lali y esta canción de no me importa, loco Que estén los reales y el resto",
+     "conc_at": 31201,
+     "chat_msgs": 0,
+     "chat_ratio": 0.0,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 2,
+     "yt_url": "https://www.youtube.com/watch?v=S1UDpsKkZvE&t=3939s"
+    },
+    {
+     "video_id": "WOcOu6AcIp0",
+     "channel": "LUZU TV",
+     "program": "#FMLUZU | STALKEAMOS LOS FACEBOOK DE CRIS Y GURI + JUGAMOS AL PASAME LA POSTA Y TERMINAMOS PELEADOS",
+     "date": "20260630",
+     "views": 35206,
+     "t_seconds": 38,
+     "t_label": "00:00:38",
+     "quote": "Hola chicos, ¿cómo están? Los amo, soy de Córdoba, quiero que arranquen con Pendeja de Lali, que es un temón. ¿Lo pedís? ¿Lo tenés? Buenas tardes. Buenas tardes para todos.",
+     "conc_at": null,
+     "chat_msgs": 0,
+     "chat_ratio": 0.0,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 1,
+     "yt_url": "https://www.youtube.com/watch?v=WOcOu6AcIp0&t=38s"
+    },
+    {
+     "video_id": "fK_sJLt2OJ0",
+     "channel": "OLGA",
+     "program": "ANOTATE al MUNDIALITO de CIUDADES y CIERRE MUSICAL con BERSUIT | #SoñéQueVolaba 1/6",
+     "date": "20260601",
+     "views": 160247,
+     "t_seconds": 8378,
+     "t_label": "02:19:38",
+     "quote": "trae una copla, una versión en vivo nada más y nada menos que con Lali Espósito oh, lindo",
+     "conc_at": null,
+     "chat_msgs": 0,
+     "chat_ratio": 0.0,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 2,
+     "yt_url": "https://www.youtube.com/watch?v=fK_sJLt2OJ0&t=8378s"
+    },
+    {
+     "video_id": "oCkpgbr_jSo",
+     "channel": "LUZU TV",
+     "program": "#NADIEDICENADA | LA MESA TUVO QUE RESOLVER UN PROBLEMA MATEMÁTICO Y... ¿QUÉ PASÓ CON MICHELLE?",
+     "date": "20260603",
+     "views": 981821,
+     "t_seconds": 7689,
+     "t_label": "02:08:09",
+     "quote": "Y a las 17.30 tenés doblete de FM Luzu Antes de irme les cuento que Lali Anunció que el domingo 7 de junio",
+     "conc_at": null,
+     "chat_msgs": 0,
+     "chat_ratio": 0.0,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 2,
+     "yt_url": "https://www.youtube.com/watch?v=oCkpgbr_jSo&t=7689s"
+    },
+    {
+     "video_id": "_nXe8cJmDFk",
+     "channel": "OLGA",
+     "program": "FESTEJAMOS EL PRE CUMPLE DE EVE | #MiPrimoEsAsí 11/6",
+     "date": "20260611",
+     "views": 45997,
+     "t_seconds": 3728,
+     "t_label": "01:02:08",
+     "quote": "Ah, y con el frío, ¿qué hace además? Con el frío, bueno, fui a ver a Lali con esto también Hermoso",
+     "conc_at": null,
+     "chat_msgs": 0,
+     "chat_ratio": 0.0,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 1,
+     "yt_url": "https://www.youtube.com/watch?v=_nXe8cJmDFk&t=3728s"
+    },
+    {
+     "video_id": "Vmo-2tGYPYg",
+     "channel": "OLGA",
+     "program": "CHISMES QUE JAMÁS LE CONTASTE A NADIE | #TDT 4/6",
+     "date": "20260604",
+     "views": 97693,
+     "t_seconds": 4170,
+     "t_label": "01:09:30",
+     "quote": "Ayer había gente de Ecuador, gente de Chile Estaban todos en la puerta porque vienen a ver a Lali Y de paso pasan por acá",
+     "conc_at": null,
+     "chat_msgs": 0,
+     "chat_ratio": 0.0,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 1,
+     "yt_url": "https://www.youtube.com/watch?v=Vmo-2tGYPYg&t=4170s"
+    },
+    {
+     "video_id": "smwR3rjqcXI",
+     "channel": "LUZU TV",
+     "program": "#ANTESQUENADIE | ¿HAY MENTIRAS PEORES QUE UNA INFIDELIDAD? Y NOS CONVERTIMOS EN RELATORES DE FÚTBOL",
+     "date": "20260608",
+     "views": 377305,
+     "t_seconds": 770,
+     "t_label": "00:12:50",
+     "quote": "Eh, creo que salía Lali en... para nadie nadie dice nada claro que voy a comenzar a ver toda la programación",
+     "conc_at": null,
+     "chat_msgs": 0,
+     "chat_ratio": 0.0,
+     "chat_ex": [],
+     "sentiment": "neu",
+     "mentions_in_program": 5,
+     "yt_url": "https://www.youtube.com/watch?v=smwR3rjqcXI&t=770s"
+    }
+   ]
+  }
+ }
+}

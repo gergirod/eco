@@ -12,6 +12,11 @@ export default function AppShell({
 }) {
   const path = usePathname();
   const isAgencia = path.startsWith("/agencia");
+  const isPalco = path.startsWith("/palco");
+
+  if (isPalco) {
+    return <>{children}</>;
+  }
 
   if (isAgencia) {
     return <AgenciaShell>{children}</AgenciaShell>;

@@ -1,6 +1,30 @@
 {
- "period": "2026-06-30T13:34:28.849121+00:00",
+ "period": "2026-07-01T02:40:38.266837+00:00",
  "signals": [
+  {
+   "tema": "Apoyo a Paraguay",
+   "n_programas": 2,
+   "n_signals": 3,
+   "canales": [
+    "GELATINA",
+    "Vorterix"
+   ],
+   "cross_canal": true,
+   "tipo": "otro",
+   "ejemplo": "Aguante Paraguay / Rojaiju Paraguay"
+  },
+  {
+   "tema": "Apoyo a conductoras",
+   "n_programas": 2,
+   "n_signals": 2,
+   "canales": [
+    "GELATINA",
+    "Neura Media"
+   ],
+   "cross_canal": true,
+   "tipo": "otro",
+   "ejemplo": "July Male, que bombones, ojalá todos los programas de economía fuesen así"
+  },
   {
    "tema": "Energía y entusiasmo general",
    "n_programas": 2,
@@ -25,17 +49,6 @@
    "ejemplo": "basta de azzaro"
   },
   {
-   "tema": "ASAD bursátil en zona sur",
-   "n_programas": 1,
-   "n_signals": 1,
-   "canales": [
-    "AHORA PLAY"
-   ],
-   "cross_canal": false,
-   "tipo": "pregunta_precio",
-   "ejemplo": "Martín, cuando sale un \"ASAD bursatil\" en zona sur?"
-  },
-  {
    "tema": "Aumento de cuota/precio de membresía",
    "n_programas": 1,
    "n_signals": 1,
@@ -47,17 +60,6 @@
    "ejemplo": "vamos pepe decime cuanto aumento cuota para incorporar HAA"
   },
   {
-   "tema": "Problemas de conexión y cambio de link",
-   "n_programas": 1,
-   "n_signals": 1,
-   "canales": [
-    "BLENDER"
-   ],
-   "cross_canal": false,
-   "tipo": "pedido_link",
-   "ejemplo": "tuvieron que inventar la electricidad para verlos / Cambiaron de link nos perdimos todo"
-  },
-  {
    "tema": "Solicitud de likes",
    "n_programas": 1,
    "n_signals": 1,
@@ -67,6 +69,50 @@
    "cross_canal": false,
    "tipo": "pregunta_precio",
    "ejemplo": "qué flojos con los likes. Dale viejo, que les cuesta, aprieten la manito"
+  },
+  {
+   "tema": "Estabilidad de precios vs dólar",
+   "n_programas": 1,
+   "n_signals": 1,
+   "canales": [
+    "AHORA PLAY"
+   ],
+   "cross_canal": false,
+   "tipo": "pregunta_precio",
+   "ejemplo": "el dolarquedo com el mismo precio y todo subió.donde estamos?"
+  },
+  {
+   "tema": "ASAD bursátil en zona sur",
+   "n_programas": 1,
+   "n_signals": 1,
+   "canales": [
+    "AHORA PLAY"
+   ],
+   "cross_canal": false,
+   "tipo": "pregunta_precio",
+   "ejemplo": "Martín, cuando sale un \"ASAD bursatil\" en zona sur?"
+  },
+  {
+   "tema": "Precio de productos (Paraguay)",
+   "n_programas": 1,
+   "n_signals": 1,
+   "canales": [
+    "Urbana Play 104.3 FM"
+   ],
+   "cross_canal": false,
+   "tipo": "pregunta_precio",
+   "ejemplo": "ayer aumentó la lista de precios de Paragüay!!"
+  },
+  {
+   "tema": "Problemas de conexión y cambio de link",
+   "n_programas": 1,
+   "n_signals": 1,
+   "canales": [
+    "BLENDER"
+   ],
+   "cross_canal": false,
+   "tipo": "pedido_link",
+   "ejemplo": "tuvieron que inventar la electricidad para verlos / Cambiaron de link nos perdimos todo"
   }
  ]
 }

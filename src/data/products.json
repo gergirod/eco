@@ -1,5 +1,48 @@
 [
  {
+  "slug": "olga-programa",
+  "name": "Olga (programa)",
+  "mentions": 3,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 3,
+  "first_seen": "23/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "25/06/2026",
+    "video_id": "mxFu-R3O8TY",
+    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+    "minute": "03:00",
+    "views": 52323
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "23/06/2026",
+    "video_id": "q_clAienUJw",
+    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+    "minute": "02:50",
+    "views": 73490
+   },
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "KSHRnYRkhNI",
+    "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
+    "minute": "01:50",
+    "views": 14812
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "pae-petroleo-y-gas",
   "name": "PAE (Petróleo y Gas)",
   "mentions": 2,
@@ -29,40 +72,6 @@
     "title": "Multiverso Neura",
     "minute": "00:00",
     "views": 2244
-   }
-  ],
-  "kind": "producto"
- },
- {
-  "slug": "olga-programa",
-  "name": "Olga (programa)",
-  "mentions": 2,
-  "channels": [
-   "olga"
-  ],
-  "n_channels": 1,
-  "n_videos": 2,
-  "first_seen": "23/06/2026",
-  "last_seen": "25/06/2026",
-  "value_usd": 0.0,
-  "samples": [
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "25/06/2026",
-    "video_id": "mxFu-R3O8TY",
-    "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
-    "minute": "03:00",
-    "views": 52323
-   },
-   {
-    "channel": "olga",
-    "channel_name": "OLGA",
-    "date": "23/06/2026",
-    "video_id": "q_clAienUJw",
-    "title": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
-    "minute": "02:50",
-    "views": 73490
    }
   ],
   "kind": "producto"
@@ -222,6 +231,156 @@
     "title": "#FMLUZU | LA CASTRO SE BAJÓ DE LAS APPS DE CITAS + LE HACEMOS UNA CANCIÓN + MANO A MANO CASTRINI",
     "minute": "00:50",
     "views": 15651
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "luzu-remera",
+  "name": "Luzu (remera)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "WOcOu6AcIp0",
+    "title": "#FMLUZU | STALKEAMOS LOS FACEBOOK DE CRIS Y GURI + JUGAMOS AL PASAME LA POSTA Y TERMINAMOS PELEADOS",
+    "minute": "00:10",
+    "views": 35206
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "luzu-mate",
+  "name": "Luzu (mate)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "WOcOu6AcIp0",
+    "title": "#FMLUZU | STALKEAMOS LOS FACEBOOK DE CRIS Y GURI + JUGAMOS AL PASAME LA POSTA Y TERMINAMOS PELEADOS",
+    "minute": "00:10",
+    "views": 35206
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pinto-auto-de-formula-1",
+  "name": "Pinto (auto de Fórmula 1)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "WOcOu6AcIp0",
+    "title": "#FMLUZU | STALKEAMOS LOS FACEBOOK DE CRIS Y GURI + JUGAMOS AL PASAME LA POSTA Y TERMINAMOS PELEADOS",
+    "minute": "00:40",
+    "views": 35206
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "gelatina-plataforma-de-streaming-membresias",
+  "name": "Gelatina (plataforma de streaming/membresías)",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "30/06/2026",
+    "video_id": "-msQ0nvgnnM",
+    "title": "FILTRAN AUDIOS POLÉMICOS de ADORNI | Pedro ROSEMBLAT en INDUSTRIA NACIONAL",
+    "minute": "00:40",
+    "views": 20291
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "coca-cola-sin-azucar",
+  "name": "Coca-Cola (sin azúcar)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "NssiC9pO80s",
+    "title": "CONSULTORIO DEL AMOR DE ROBERTO CON LOS NEUROPIBES | #DesdeElRespeto | COMPLETO 30/06 | VORTERIX",
+    "minute": "00:30",
+    "views": 27783
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "papas-fritas-de-patas-de-pollo",
+  "name": "papas fritas de patas de pollo",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "NssiC9pO80s",
+    "title": "CONSULTORIO DEL AMOR DE ROBERTO CON LOS NEUROPIBES | #DesdeElRespeto | COMPLETO 30/06 | VORTERIX",
+    "minute": "00:30",
+    "views": 27783
    }
   ],
   "kind": "producto"
@@ -472,6 +631,131 @@
     "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
     "minute": "02:10",
     "views": 30205
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "m2-museo-fiesta",
+  "name": "M2 (museo/fiesta)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "yVzJRVng6Q4",
+    "title": "RECORREMOS OCEAN DRIVE EN VIVO | #TDT 30/6",
+    "minute": "00:40",
+    "views": 41420
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "cerveza-marca-no-especificada",
+  "name": "Cerveza (marca no especificada)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "yVzJRVng6Q4",
+    "title": "RECORREMOS OCEAN DRIVE EN VIVO | #TDT 30/6",
+    "minute": "00:50",
+    "views": 41420
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "taylor-swift-persona-marca-personal",
+  "name": "Taylor Swift (persona/marca personal)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "yVzJRVng6Q4",
+    "title": "RECORREMOS OCEAN DRIVE EN VIVO | #TDT 30/6",
+    "minute": "00:50",
+    "views": 41420
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "frozen-yogurt",
+  "name": "frozen yogurt",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "yVzJRVng6Q4",
+    "title": "RECORREMOS OCEAN DRIVE EN VIVO | #TDT 30/6",
+    "minute": "01:40",
+    "views": 41420
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "frozen-greek-yogurt",
+  "name": "frozen greek yogurt",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "yVzJRVng6Q4",
+    "title": "RECORREMOS OCEAN DRIVE EN VIVO | #TDT 30/6",
+    "minute": "01:40",
+    "views": 41420
    }
   ],
   "kind": "producto"
@@ -1752,6 +2036,56 @@
   "kind": "producto"
  },
  {
+  "slug": "teresa-marca-de-suplementos",
+  "name": "Teresa (marca de suplementos)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "0NuPTgKW5mc",
+    "title": "#ANTESQUENADIE | AHHH TIRABA ESA: EL LEVANTE DE DIEGO Y ¿LAS SEÑORAS SABEN DE FÚTBOL?",
+    "minute": "00:10",
+    "views": 134161
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "playstation-play",
+  "name": "PlayStation (Play)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "0NuPTgKW5mc",
+    "title": "#ANTESQUENADIE | AHHH TIRABA ESA: EL LEVANTE DE DIEGO Y ¿LAS SEÑORAS SABEN DE FÚTBOL?",
+    "minute": "02:50",
+    "views": 134161
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "play-playstation",
   "name": "Play (PlayStation)",
   "mentions": 1,
@@ -1972,6 +2306,31 @@
     "title": "Neura De Gira ✈️ | Con Naty y Denu Palmeiro",
     "minute": "01:20",
     "views": 419
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "monografia-com",
+  "name": "monografía.com",
+  "mentions": 1,
+  "channels": [
+   "ahoraplay"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "ahoraplay",
+    "channel_name": "AHORA PLAY",
+    "date": "30/06/2026",
+    "video_id": "O3EcIBl7Sh4",
+    "title": "¿AGUANTAN LAS PYMES? CON NICOLÁS GADANO | Diego Ponzio y Amilcar Collante #BitácoraPyme",
+    "minute": "01:00",
+    "views": 1591
    }
   ],
   "kind": "producto"
@@ -2827,6 +3186,31 @@
   "kind": "producto"
  },
  {
+  "slug": "swift-carnes",
+  "name": "Swift (carnes)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "KSHRnYRkhNI",
+    "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
+    "minute": "01:10",
+    "views": 14812
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "guberpaticerie",
   "name": "guberpaticerie",
   "mentions": 1,
@@ -3377,6 +3761,106 @@
   "kind": "producto"
  },
  {
+  "slug": "1816-informe",
+  "name": "1816 (informe)",
+  "mentions": 1,
+  "channels": [
+   "ahoraplay"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "ahoraplay",
+    "channel_name": "AHORA PLAY",
+    "date": "30/06/2026",
+    "video_id": "gOUmUVtulaw",
+    "title": "LA NUEVA ETAPA DEL DÓLAR Y MORA RÉCORD I Carlos Burgueño, Agustina Girón #CierreDeMercados",
+    "minute": "00:40",
+    "views": 1786
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "pampa-bonos",
+  "name": "Pampa (bonos)",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "30/06/2026",
+    "video_id": "Mbk0Mff3g0c",
+    "title": "Ramón Agote y Mauro Fiorenzano en Cash is King: Alejo Rodríguez Cacio - 30/06",
+    "minute": "00:30",
+    "views": 779
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "ypf-bonos",
+  "name": "YPF (bonos)",
+  "mentions": 1,
+  "channels": [
+   "neura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "neura",
+    "channel_name": "Neura Media",
+    "date": "30/06/2026",
+    "video_id": "Mbk0Mff3g0c",
+    "title": "Ramón Agote y Mauro Fiorenzano en Cash is King: Alejo Rodríguez Cacio - 30/06",
+    "minute": "00:30",
+    "views": 779
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "aerolinea-no-especificada",
+  "name": "Aerolínea (no especificada)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "30/06/2026",
+    "video_id": "43pRPuCeYcw",
+    "title": "#PATRIAYFAMILIA l NOS VAMOS DE GIRA A TUCUMÁN Y EL PURRE SE DRAGUEA",
+    "minute": "00:10",
+    "views": 93352
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "potus",
   "name": "potus",
   "mentions": 1,
@@ -3527,6 +4011,31 @@
   "kind": "producto"
  },
  {
+  "slug": "fifa-oficial",
+  "name": "FIFA (oficial)",
+  "mentions": 1,
+  "channels": [
+   "blend"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "blend",
+    "channel_name": "BLENDER",
+    "date": "30/06/2026",
+    "video_id": "Pn8rwXS46KI",
+    "title": "LOS AUDIOS QUE COMPROMETEN A ADORNI, JURÓ SANTILLI y NUEVO GIRO EN EL CASO AGOSTINA VEGA | QUÉ DÍA!",
+    "minute": "01:20",
+    "views": 4453
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "la-bestia-negra-perfume",
   "name": "La Bestia Negra (perfume)",
   "mentions": 1,
@@ -3647,6 +4156,31 @@
     "title": "After Market: Julián Yosovitch",
     "minute": "00:50",
     "views": 1102
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "olava-cerveza",
+  "name": "Olava (cerveza)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "30/06/2026",
+    "video_id": "zpbJ8ju9xmk",
+    "title": "EQUIPO COMPLETO Y SOMOS MÁS PARAGUAYOS QUE NUNCA | #YQUE COMPLETO 30/6 | VORTERIX",
+    "minute": "01:50",
+    "views": 30958
    }
   ],
   "kind": "producto"
@@ -3927,6 +4461,156 @@
   "kind": "producto"
  },
  {
+  "slug": "bondi-termo-marca-de-bebidas",
+  "name": "Bondi (termo/marca de bebidas)",
+  "mentions": 1,
+  "channels": [
+   "bondi"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "bondi",
+    "channel_name": "Bondi Live",
+    "date": "30/06/2026",
+    "video_id": "G48eCpGj41g",
+    "title": "▶️ PROGRAMACIÓN COMPLETA 30/06 | BONDI LIVE",
+    "minute": "00:00",
+    "views": 55039
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "termo",
+  "name": "termo",
+  "mentions": 1,
+  "channels": [
+   "bondi"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "bondi",
+    "channel_name": "Bondi Live",
+    "date": "30/06/2026",
+    "video_id": "G48eCpGj41g",
+    "title": "▶️ PROGRAMACIÓN COMPLETA 30/06 | BONDI LIVE",
+    "minute": "00:30",
+    "views": 55039
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "adorni-sabanas",
+  "name": "Adorni (sábanas)",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "30/06/2026",
+    "video_id": "pL9wgMQaBp4",
+    "title": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+    "minute": "00:20",
+    "views": 5782
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "despiel-marca-de-ropa-italiana-en-florencia",
+  "name": "Despiel (marca de ropa italiana en Florencia)",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "30/06/2026",
+    "video_id": "pL9wgMQaBp4",
+    "title": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+    "minute": "01:00",
+    "views": 5782
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "movistar-arena-mencionado-implicitamente-en-contexto-de-lugares",
+  "name": "Movistar Arena (mencionado implícitamente en contexto de lugares)",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "30/06/2026",
+    "video_id": "pL9wgMQaBp4",
+    "title": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+    "minute": "01:00",
+    "views": 5782
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "centro-periferia-consultora",
+  "name": "Centro Periferia (consultora)",
+  "mentions": 1,
+  "channels": [
+   "gelatina"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "gelatina",
+    "channel_name": "GELATINA",
+    "date": "30/06/2026",
+    "video_id": "pL9wgMQaBp4",
+    "title": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+    "minute": "02:10",
+    "views": 5782
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "pulpo-marca-de-remeras",
   "name": "Pulpo (marca de remeras)",
   "mentions": 1,
@@ -4202,6 +4886,81 @@
   "kind": "producto"
  },
  {
+  "slug": "montegrand-gimnasio",
+  "name": "Montegrand (gimnasio)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "USlO4VX83B4",
+    "title": "🌶️ TAPADOS DE LABURO con Nacho, Cami, Valen Rizzuti, Marce Kloosterboer y Mica Suarez | OLGA EN VIVO",
+    "minute": "00:20",
+    "views": 26069
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "fitter-gimnasio",
+  "name": "Fitter (gimnasio)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "USlO4VX83B4",
+    "title": "🌶️ TAPADOS DE LABURO con Nacho, Cami, Valen Rizzuti, Marce Kloosterboer y Mica Suarez | OLGA EN VIVO",
+    "minute": "00:20",
+    "views": 26069
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "mogul-gomitas",
+  "name": "Mogul (gomitas)",
+  "mentions": 1,
+  "channels": [
+   "olga"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "olga",
+    "channel_name": "OLGA",
+    "date": "30/06/2026",
+    "video_id": "USlO4VX83B4",
+    "title": "🌶️ TAPADOS DE LABURO con Nacho, Cami, Valen Rizzuti, Marce Kloosterboer y Mica Suarez | OLGA EN VIVO",
+    "minute": "00:20",
+    "views": 26069
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "air-fryer",
   "name": "air fryer",
   "mentions": 1,
@@ -4422,6 +5181,56 @@
     "title": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
     "minute": "00:00",
     "views": 40410
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "six-seven-zapatillas",
+  "name": "Six Seven (zapatillas)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "01/07/2026",
+    "video_id": "zwp0lZ6EONI",
+    "title": "EL AMIGO DE TU NOVIA VE PAREN LA MANO...| #ESTONOSUCEDIÓ COMPLETO - 30/06 | VORTERIX",
+    "minute": "00:10",
+    "views": 5325
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "iag-instituto-argentino-de-gastronomia",
+  "name": "IAG (Instituto Argentino de Gastronomía)",
+  "mentions": 1,
+  "channels": [
+   "vorterix"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "vorterix",
+    "channel_name": "Vorterix",
+    "date": "01/07/2026",
+    "video_id": "zwp0lZ6EONI",
+    "title": "EL AMIGO DE TU NOVIA VE PAREN LA MANO...| #ESTONOSUCEDIÓ COMPLETO - 30/06 | VORTERIX",
+    "minute": "00:50",
+    "views": 5325
    }
   ],
   "kind": "producto"

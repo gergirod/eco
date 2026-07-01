@@ -1,27 +1,27 @@
 {
- "exported_at": "2026-06-30T13:34:28.849121+00:00",
+ "exported_at": "2026-07-01T02:40:38.266837+00:00",
  "capture_scope": "live_only",
  "capture_sources": [
   "youtube_api",
   "ytdlp_live"
  ],
- "n_videos": 74,
- "n_topics": 74,
- "n_topics_total": 141,
- "n_brands": 174,
- "n_products": 176,
- "n_pauta_mentions": 283,
- "n_moments": 101,
+ "n_videos": 97,
+ "n_topics": 97,
+ "n_topics_total": 164,
+ "n_brands": 210,
+ "n_products": 208,
+ "n_pauta_mentions": 368,
+ "n_moments": 124,
  "n_trends": 120,
  "cpm": 30.0,
  "peso_default": 0.3,
  "live_capture": {
-  "hours_captured": 194.9,
-  "streams_captured": 91,
+  "hours_captured": 242.8,
+  "streams_captured": 117,
   "channels_captured": 13,
-  "capture_days": 8,
+  "capture_days": 9,
   "first_capture": "2026-06-22",
-  "last_capture": "2026-06-30",
+  "last_capture": "2026-07-01",
   "channel_ids": [
    "ahoraplay",
    "aura",
@@ -40,31 +40,31 @@
   "by_channel": [
    {
     "id": "ahoraplay",
-    "streams": 3,
-    "hours": 5.5,
+    "streams": 5,
+    "hours": 8.2,
     "first_capture": "2026-06-29",
-    "last_capture": "2026-06-29"
-   },
-   {
-    "id": "aura",
-    "streams": 2,
-    "hours": 4.1,
-    "first_capture": "2026-06-29",
-    "last_capture": "2026-06-29"
-   },
-   {
-    "id": "blend",
-    "streams": 6,
-    "hours": 9.4,
-    "first_capture": "2026-06-24",
     "last_capture": "2026-06-30"
    },
    {
+    "id": "aura",
+    "streams": 3,
+    "hours": 6.0,
+    "first_capture": "2026-06-29",
+    "last_capture": "2026-06-30"
+   },
+   {
+    "id": "blend",
+    "streams": 8,
+    "hours": 12.2,
+    "first_capture": "2026-06-24",
+    "last_capture": "2026-07-01"
+   },
+   {
     "id": "bondi",
-    "streams": 1,
-    "hours": 6.8,
+    "streams": 2,
+    "hours": 13.3,
     "first_capture": "2026-06-26",
-    "last_capture": "2026-06-26"
+    "last_capture": "2026-06-30"
    },
    {
     "id": "border",
@@ -75,43 +75,43 @@
    },
    {
     "id": "cenital",
-    "streams": 1,
-    "hours": 1.6,
+    "streams": 2,
+    "hours": 3.5,
     "first_capture": "2026-06-29",
-    "last_capture": "2026-06-29"
+    "last_capture": "2026-06-30"
    },
    {
     "id": "cronista",
-    "streams": 1,
-    "hours": 1.3,
+    "streams": 3,
+    "hours": 3.0,
     "first_capture": "2026-06-29",
-    "last_capture": "2026-06-29"
+    "last_capture": "2026-06-30"
    },
    {
     "id": "gelatina",
-    "streams": 4,
-    "hours": 7.7,
+    "streams": 8,
+    "hours": 13.6,
     "first_capture": "2026-06-26",
-    "last_capture": "2026-06-29"
+    "last_capture": "2026-06-30"
    },
    {
     "id": "luzu",
-    "streams": 23,
-    "hours": 46.3,
+    "streams": 27,
+    "hours": 54.2,
     "first_capture": "2026-06-23",
     "last_capture": "2026-06-30"
    },
    {
     "id": "neura",
-    "streams": 10,
-    "hours": 12.9,
+    "streams": 13,
+    "hours": 16.0,
     "first_capture": "2026-06-26",
-    "last_capture": "2026-06-29"
+    "last_capture": "2026-06-30"
    },
    {
     "id": "olga",
-    "streams": 24,
-    "hours": 53.3,
+    "streams": 27,
+    "hours": 57.3,
     "first_capture": "2026-06-22",
     "last_capture": "2026-06-30"
    },
@@ -124,8 +124,8 @@
    },
    {
     "id": "vorterix",
-    "streams": 14,
-    "hours": 27.7,
+    "streams": 17,
+    "hours": 37.0,
     "first_capture": "2026-06-26",
     "last_capture": "2026-06-30"
    }
@@ -135,8 +135,8 @@
     "channel_id": "vorterix",
     "show_id": "otros",
     "show_name": "Otros",
-    "streams": 11,
-    "hours": 21.3
+    "streams": 14,
+    "hours": 30.7
    },
    {
     "channel_id": "olga",
@@ -146,6 +146,13 @@
     "hours": 18.0
    },
    {
+    "channel_id": "luzu",
+    "show_id": "aqn",
+    "show_name": "Antes Que Nadie",
+    "streams": 5,
+    "hours": 17.2
+   },
+   {
     "channel_id": "urbana",
     "show_id": "otros",
     "show_name": "Otros",
@@ -153,74 +160,67 @@
     "hours": 16.2
    },
    {
-    "channel_id": "luzu",
-    "show_id": "aqn",
-    "show_name": "Antes Que Nadie",
-    "streams": 4,
-    "hours": 13.7
-   },
-   {
     "channel_id": "neura",
     "show_id": "otros",
     "show_name": "Otros",
-    "streams": 10,
-    "hours": 12.9
+    "streams": 13,
+    "hours": 16.0
    },
    {
     "channel_id": "olga",
     "show_id": "sone-volaba",
     "show_name": "Soñé que Volaba",
     "streams": 6,
-    "hours": 12.3
+    "hours": 14.4
+   },
+   {
+    "channel_id": "gelatina",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 8,
+    "hours": 13.6
+   },
+   {
+    "channel_id": "bondi",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 2,
+    "hours": 13.3
    },
    {
     "channel_id": "luzu",
     "show_id": "ndn",
     "show_name": "Nadie Dice Nada",
     "streams": 5,
-    "hours": 10.1
-   },
-   {
-    "channel_id": "olga",
-    "show_id": "gol-gana",
-    "show_name": "Gol Gana",
-    "streams": 5,
-    "hours": 8.3
-   },
-   {
-    "channel_id": "luzu",
-    "show_id": "patria",
-    "show_name": "Patria y Familia",
-    "streams": 4,
-    "hours": 7.9
-   },
-   {
-    "channel_id": "olga",
-    "show_id": "tapados",
-    "show_name": "Tapados de Laburo",
-    "streams": 4,
-    "hours": 7.7
-   },
-   {
-    "channel_id": "gelatina",
-    "show_id": "otros",
-    "show_name": "Otros",
-    "streams": 4,
-    "hours": 7.7
+    "hours": 12.3
    },
    {
     "channel_id": "olga",
     "show_id": "tdt",
     "show_name": "TDT",
-    "streams": 4,
-    "hours": 6.9
+    "streams": 5,
+    "hours": 8.6
    },
    {
-    "channel_id": "bondi",
-    "show_id": "otros",
-    "show_name": "Otros",
-    "streams": 1,
-    "hours": 6.8
+    "channel_id": "olga",
+    "show_id": "gol-gana",
+    "show_name": "Gol Gana",
+    "streams": 6,
+    "hours": 8.5
+   },
+   {
+    "channel_id": "luzu",
+    "show_id": "patria",
+    "show_name": "Patria y Familia",
+    "streams": 5,
+    "hours": 8.0
+   },
+   {
+    "channel_id": "olga",
+    "show_id": "tapados",
+    "show_name": "Tapados de Laburo",
+    "streams": 5,
+    "hours": 7.8
    },
    {
     "channel_id": "vorterix",
@@ -228,6 +228,13 @@
     "show_name": "No Preguntes por Rusia",
     "streams": 3,
     "hours": 6.3
+   },
+   {
+    "channel_id": "blend",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 4,
+    "hours": 5.9
    },
    {
     "channel_id": "luzu",
@@ -238,24 +245,45 @@
    },
    {
     "channel_id": "blend",
+    "show_id": "que-dia",
+    "show_name": "Qué Día",
+    "streams": 3,
+    "hours": 4.6
+   },
+   {
+    "channel_id": "ahoraplay",
     "show_id": "otros",
     "show_name": "Otros",
     "streams": 3,
-    "hours": 5.2
+    "hours": 4.1
    },
    {
     "channel_id": "luzu",
     "show_id": "fmluzu",
     "show_name": "FM Luzu",
-    "streams": 3,
-    "hours": 3.2
+    "streams": 4,
+    "hours": 3.9
    },
    {
-    "channel_id": "blend",
-    "show_id": "que-dia",
-    "show_name": "Qué Día",
+    "channel_id": "aura",
+    "show_id": "de-aca",
+    "show_name": "De Acá",
     "streams": 2,
-    "hours": 2.4
+    "hours": 3.8
+   },
+   {
+    "channel_id": "luzu",
+    "show_id": "fondo",
+    "show_name": "Los del Fondo",
+    "streams": 2,
+    "hours": 3.1
+   },
+   {
+    "channel_id": "cronista",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 2,
+    "hours": 2.7
    },
    {
     "channel_id": "luzu",
@@ -293,9 +321,9 @@
     "hours": 2.0
    },
    {
-    "channel_id": "aura",
-    "show_id": "de-aca",
-    "show_name": "De Acá",
+    "channel_id": "cenital",
+    "show_id": "540",
+    "show_name": "540°",
     "streams": 1,
     "hours": 1.9
    },
@@ -315,31 +343,17 @@
    },
    {
     "channel_id": "luzu",
-    "show_id": "fondo",
-    "show_name": "Los del Fondo",
-    "streams": 1,
-    "hours": 1.5
-   },
-   {
-    "channel_id": "luzu",
     "show_id": "novela",
     "show_name": "La Novela",
     "streams": 1,
     "hours": 1.5
    },
    {
-    "channel_id": "ahoraplay",
-    "show_id": "otros",
-    "show_name": "Otros",
-    "streams": 1,
-    "hours": 1.4
-   },
-   {
     "channel_id": "cronista",
-    "show_id": "otros",
-    "show_name": "Otros",
+    "show_id": "cuentas-claras",
+    "show_name": "Cuentas Claras",
     "streams": 1,
-    "hours": 1.3
+    "hours": 0.3
    }
   ],
   "method": "viewers_recorded_at",
@@ -350,13 +364,13 @@
  },
  "discovery": {
   "channels_covered": 12,
-  "hours_captured": 162.3,
+  "hours_captured": 220.0,
   "first_capture": "2026-06-19",
-  "last_capture": "2026-06-30",
-  "period_days": 12,
-  "programs_with_viewers": 74,
-  "high_confidence_advertisers": 21,
-  "emerging_confidence_advertisers": 28,
-  "activations_with_verified_evidence": 276
+  "last_capture": "2026-07-01",
+  "period_days": 13,
+  "programs_with_viewers": 97,
+  "high_confidence_advertisers": 25,
+  "emerging_confidence_advertisers": 42,
+  "activations_with_verified_evidence": 361
  }
 }

@@ -1,80 +1,6 @@
 {
- "updated_at": "2026-06-30T13:34:28.849121+00:00",
+ "updated_at": "2026-07-01T02:40:38.266837+00:00",
  "snapshots": [
-  {
-   "exported_at": "2026-06-28T11:41:18.759516+00:00",
-   "confirmed_total": 128,
-   "chat_messages": 110395,
-   "commercial_pct": 0.116,
-   "commercial_per_1k": 0.013,
-   "channels_with_commercial": 7,
-   "post_pnt_total": 4,
-   "channels": [
-    {
-     "id": "neura",
-     "name": "Neura Media",
-     "commercial_messages": 4,
-     "chat_messages": 2355,
-     "commercial_pct": 0.2,
-     "commercial_per_1k": 0.06,
-     "post_pnt_messages": 1
-    },
-    {
-     "id": "blend",
-     "name": "Blender",
-     "commercial_messages": 20,
-     "chat_messages": 8656,
-     "commercial_pct": 0.2,
-     "commercial_per_1k": 0.01,
-     "post_pnt_messages": 0
-    },
-    {
-     "id": "vorterix",
-     "name": "Vorterix",
-     "commercial_messages": 13,
-     "chat_messages": 20818,
-     "commercial_pct": 0.1,
-     "commercial_per_1k": 0.01,
-     "post_pnt_messages": 0
-    },
-    {
-     "id": "gelatina",
-     "name": "Gelatina",
-     "commercial_messages": 2,
-     "chat_messages": 778,
-     "commercial_pct": 0.3,
-     "commercial_per_1k": 0.01,
-     "post_pnt_messages": 0
-    },
-    {
-     "id": "olga",
-     "name": "Olga",
-     "commercial_messages": 78,
-     "chat_messages": 65812,
-     "commercial_pct": 0.1,
-     "commercial_per_1k": 0.0,
-     "post_pnt_messages": 3
-    },
-    {
-     "id": "bondi",
-     "name": "Bondi Live",
-     "commercial_messages": 9,
-     "chat_messages": 6240,
-     "commercial_pct": 0.1,
-     "commercial_per_1k": 0.0,
-     "post_pnt_messages": 0
-    },
-    {
-     "id": "",
-     "name": "",
-     "commercial_messages": 2,
-     "chat_messages": 5736,
-     "commercial_pct": 0.0,
-     "commercial_per_1k": 0.0,
-     "post_pnt_messages": 0
-    }
-   ]
-  },
   {
    "exported_at": "2026-06-29T08:55:50.739386+00:00",
    "confirmed_total": 127,
@@ -3210,6 +3136,2514 @@
      "commercial_messages": 1,
      "chat_messages": 25,
      "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-06-30T14:04:07.530549+00:00",
+   "confirmed_total": 262,
+   "chat_messages": 178616,
+   "commercial_pct": 0.147,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 5,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 5,
+     "chat_messages": 3575,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 2,
+     "chat_messages": 2193,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 66,
+     "chat_messages": 32642,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 33,
+     "chat_messages": 34812,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 20,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 5,
+     "chat_messages": 3790,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 1,
+     "chat_messages": 136,
+     "commercial_pct": 0.7,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 113,
+     "chat_messages": 78538,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 9,
+     "chat_messages": 6240,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 3,
+     "chat_messages": 5654,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-06-30T14:19:07.924124+00:00",
+   "confirmed_total": 263,
+   "chat_messages": 180715,
+   "commercial_pct": 0.146,
+   "commercial_per_1k": 0.02,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 5,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 68,
+     "chat_messages": 34741,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.05,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 5,
+     "chat_messages": 3575,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 2,
+     "chat_messages": 2193,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 33,
+     "chat_messages": 34812,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 20,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 5,
+     "chat_messages": 3790,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 1,
+     "chat_messages": 136,
+     "commercial_pct": 0.7,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 112,
+     "chat_messages": 78538,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 9,
+     "chat_messages": 6240,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 3,
+     "chat_messages": 5654,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-06-30T14:48:50.834268+00:00",
+   "confirmed_total": 280,
+   "chat_messages": 190661,
+   "commercial_pct": 0.147,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 5,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 5,
+     "chat_messages": 3575,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 2,
+     "chat_messages": 2193,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 82,
+     "chat_messages": 41860,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 32,
+     "chat_messages": 34812,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 20,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 1,
+     "chat_messages": 136,
+     "commercial_pct": 0.7,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 114,
+     "chat_messages": 80936,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 9,
+     "chat_messages": 6240,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 3,
+     "chat_messages": 5654,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-06-30T15:46:03.473761+00:00",
+   "confirmed_total": 286,
+   "chat_messages": 196992,
+   "commercial_pct": 0.145,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 5,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 5,
+     "chat_messages": 3575,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 3,
+     "chat_messages": 4037,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 87,
+     "chat_messages": 48745,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 33,
+     "chat_messages": 34812,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 20,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 1,
+     "chat_messages": 136,
+     "commercial_pct": 0.7,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 113,
+     "chat_messages": 78538,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 9,
+     "chat_messages": 6240,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 3,
+     "chat_messages": 5654,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-06-30T16:01:05.383955+00:00",
+   "confirmed_total": 280,
+   "chat_messages": 197282,
+   "commercial_pct": 0.142,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 5,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 5,
+     "chat_messages": 3575,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 3,
+     "chat_messages": 4037,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 80,
+     "chat_messages": 48378,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 32,
+     "chat_messages": 34812,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 20,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 3,
+     "chat_messages": 793,
+     "commercial_pct": 0.4,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 113,
+     "chat_messages": 78538,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 9,
+     "chat_messages": 6240,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 3,
+     "chat_messages": 5654,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-06-30T19:16:32.929210+00:00",
+   "confirmed_total": 283,
+   "chat_messages": 201709,
+   "commercial_pct": 0.14,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 5,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 5,
+     "chat_messages": 3575,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 63,
+     "chat_messages": 30750,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 3,
+     "chat_messages": 4037,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 45,
+     "chat_messages": 48562,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 20,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 3,
+     "chat_messages": 793,
+     "commercial_pct": 0.4,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 117,
+     "chat_messages": 84142,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 12,
+     "chat_messages": 8941,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 3,
+     "chat_messages": 5654,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-06-30T20:15:28.597672+00:00",
+   "confirmed_total": 290,
+   "chat_messages": 199417,
+   "commercial_pct": 0.145,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 5,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 5,
+     "chat_messages": 3575,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 63,
+     "chat_messages": 30791,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 3,
+     "chat_messages": 4037,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 51,
+     "chat_messages": 48562,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 20,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 3,
+     "chat_messages": 793,
+     "commercial_pct": 0.4,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 118,
+     "chat_messages": 81744,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 12,
+     "chat_messages": 9006,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 3,
+     "chat_messages": 5654,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-06-30T21:20:42.195997+00:00",
+   "confirmed_total": 288,
+   "chat_messages": 199646,
+   "commercial_pct": 0.144,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 5,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 5,
+     "chat_messages": 3575,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 54,
+     "chat_messages": 27536,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 3,
+     "chat_messages": 4037,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 47,
+     "chat_messages": 48562,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 21,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 3,
+     "chat_messages": 793,
+     "commercial_pct": 0.4,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 118,
+     "chat_messages": 81744,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 13,
+     "chat_messages": 9138,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 12,
+     "chat_messages": 9006,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-06-30T21:57:32.343191+00:00",
+   "confirmed_total": 286,
+   "chat_messages": 199691,
+   "commercial_pct": 0.143,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 5,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 5,
+     "chat_messages": 3575,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 55,
+     "chat_messages": 27581,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 3,
+     "chat_messages": 4037,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 48,
+     "chat_messages": 48562,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 20,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 3,
+     "chat_messages": 793,
+     "commercial_pct": 0.4,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 115,
+     "chat_messages": 81744,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 13,
+     "chat_messages": 9138,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 12,
+     "chat_messages": 9006,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-06-30T22:39:05.062170+00:00",
+   "confirmed_total": 285,
+   "chat_messages": 199870,
+   "commercial_pct": 0.143,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 5,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 5,
+     "chat_messages": 3575,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 54,
+     "chat_messages": 27604,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 47,
+     "chat_messages": 48562,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 2,
+     "chat_messages": 4037,
+     "commercial_pct": 0.0,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 20,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 3,
+     "chat_messages": 793,
+     "commercial_pct": 0.4,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 117,
+     "chat_messages": 81744,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 13,
+     "chat_messages": 9294,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 12,
+     "chat_messages": 9006,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-06-30T23:02:51.251312+00:00",
+   "confirmed_total": 288,
+   "chat_messages": 199946,
+   "commercial_pct": 0.144,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 5,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 6,
+     "chat_messages": 4850,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 51,
+     "chat_messages": 26329,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 3,
+     "chat_messages": 4037,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 48,
+     "chat_messages": 48562,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 22,
+     "chat_messages": 8656,
+     "commercial_pct": 0.3,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 3,
+     "chat_messages": 793,
+     "commercial_pct": 0.4,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 118,
+     "chat_messages": 81744,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 13,
+     "chat_messages": 9370,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 12,
+     "chat_messages": 9006,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-06-30T23:09:42.658090+00:00",
+   "confirmed_total": 283,
+   "chat_messages": 199976,
+   "commercial_pct": 0.142,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 5,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 6,
+     "chat_messages": 4850,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 54,
+     "chat_messages": 26329,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 3,
+     "chat_messages": 4037,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 44,
+     "chat_messages": 48562,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 20,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 3,
+     "chat_messages": 793,
+     "commercial_pct": 0.4,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 116,
+     "chat_messages": 81744,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 13,
+     "chat_messages": 9400,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 12,
+     "chat_messages": 9006,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-06-30T23:50:17.486920+00:00",
+   "confirmed_total": 283,
+   "chat_messages": 203636,
+   "commercial_pct": 0.139,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 5,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 6,
+     "chat_messages": 4850,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 53,
+     "chat_messages": 26329,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 45,
+     "chat_messages": 52044,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 2,
+     "chat_messages": 4037,
+     "commercial_pct": 0.0,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 20,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 3,
+     "chat_messages": 793,
+     "commercial_pct": 0.4,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 117,
+     "chat_messages": 81744,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 13,
+     "chat_messages": 9578,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 12,
+     "chat_messages": 9006,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-07-01T00:19:39.324565+00:00",
+   "confirmed_total": 291,
+   "chat_messages": 200675,
+   "commercial_pct": 0.145,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 5,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 6,
+     "chat_messages": 4850,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 54,
+     "chat_messages": 26824,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 3,
+     "chat_messages": 4037,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 51,
+     "chat_messages": 48562,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 20,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 3,
+     "chat_messages": 793,
+     "commercial_pct": 0.4,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 117,
+     "chat_messages": 81744,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 13,
+     "chat_messages": 9604,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 12,
+     "chat_messages": 9006,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-07-01T00:56:45.842526+00:00",
+   "confirmed_total": 285,
+   "chat_messages": 201258,
+   "commercial_pct": 0.142,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 5,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 6,
+     "chat_messages": 4850,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 56,
+     "chat_messages": 27300,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 3,
+     "chat_messages": 4037,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 44,
+     "chat_messages": 48562,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 20,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 3,
+     "chat_messages": 793,
+     "commercial_pct": 0.4,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 116,
+     "chat_messages": 81744,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 13,
+     "chat_messages": 9711,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 12,
+     "chat_messages": 9006,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-07-01T01:31:57.769258+00:00",
+   "confirmed_total": 294,
+   "chat_messages": 201274,
+   "commercial_pct": 0.146,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 5,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 6,
+     "chat_messages": 4850,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.04,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 55,
+     "chat_messages": 27003,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 3,
+     "chat_messages": 4037,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 52,
+     "chat_messages": 48859,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 21,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 3,
+     "chat_messages": 793,
+     "commercial_pct": 0.4,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 117,
+     "chat_messages": 81744,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 13,
+     "chat_messages": 9727,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 12,
+     "chat_messages": 9006,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-07-01T01:38:19.168386+00:00",
+   "confirmed_total": 288,
+   "chat_messages": 201274,
+   "commercial_pct": 0.143,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 9,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 8,
+     "chat_messages": 4882,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.05,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 3,
+     "chat_messages": 4037,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.03,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 53,
+     "chat_messages": 26971,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 47,
+     "chat_messages": 48859,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 20,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 3,
+     "chat_messages": 793,
+     "commercial_pct": 0.4,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 117,
+     "chat_messages": 81744,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 13,
+     "chat_messages": 9727,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 4
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 12,
+     "chat_messages": 9006,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-07-01T01:58:39.181601+00:00",
+   "confirmed_total": 250,
+   "chat_messages": 200312,
+   "commercial_pct": 0.125,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 10,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 8,
+     "chat_messages": 4882,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.05,
+     "post_pnt_messages": 2
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 45,
+     "chat_messages": 26971,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 43,
+     "chat_messages": 47897,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 2,
+     "chat_messages": 4037,
+     "commercial_pct": 0.0,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 18,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 3,
+     "chat_messages": 793,
+     "commercial_pct": 0.4,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 95,
+     "chat_messages": 81744,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 13,
+     "chat_messages": 9727,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 4
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 11,
+     "chat_messages": 9006,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-07-01T02:13:55.851194+00:00",
+   "confirmed_total": 250,
+   "chat_messages": 200312,
+   "commercial_pct": 0.125,
+   "commercial_per_1k": 0.017,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 10,
+   "channels": [
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 4,
+     "chat_messages": 2355,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.06,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 8,
+     "chat_messages": 4882,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.05,
+     "post_pnt_messages": 2
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 45,
+     "chat_messages": 26971,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 43,
+     "chat_messages": 47897,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 2,
+     "chat_messages": 4037,
+     "commercial_pct": 0.0,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 18,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 3,
+     "chat_messages": 793,
+     "commercial_pct": 0.4,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 95,
+     "chat_messages": 81744,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 13,
+     "chat_messages": 9727,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 4
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 11,
+     "chat_messages": 9006,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-07-01T02:24:20.000774+00:00",
+   "confirmed_total": 250,
+   "chat_messages": 200312,
+   "commercial_pct": 0.125,
+   "commercial_per_1k": 0.016,
+   "channels_with_commercial": 12,
+   "post_pnt_total": 10,
+   "channels": [
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 8,
+     "chat_messages": 4882,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.05,
+     "post_pnt_messages": 2
+    },
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 6,
+     "chat_messages": 2997,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.05,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 43,
+     "chat_messages": 26329,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 43,
+     "chat_messages": 47897,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 2,
+     "chat_messages": 4037,
+     "commercial_pct": 0.0,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 18,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 3,
+     "chat_messages": 793,
+     "commercial_pct": 0.4,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 95,
+     "chat_messages": 81744,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 13,
+     "chat_messages": 9727,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 4
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 11,
+     "chat_messages": 9006,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    }
+   ]
+  },
+  {
+   "exported_at": "2026-07-01T02:40:38.266837+00:00",
+   "confirmed_total": 250,
+   "chat_messages": 200312,
+   "commercial_pct": 0.125,
+   "commercial_per_1k": 0.015,
+   "channels_with_commercial": 13,
+   "post_pnt_total": 10,
+   "channels": [
+    {
+     "id": "ahoraplay",
+     "name": "Ahora Play",
+     "commercial_messages": 8,
+     "chat_messages": 4882,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.05,
+     "post_pnt_messages": 2
+    },
+    {
+     "id": "neura",
+     "name": "Neura Media",
+     "commercial_messages": 6,
+     "chat_messages": 2997,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.05,
+     "post_pnt_messages": 1
+    },
+    {
+     "id": "vorterix",
+     "name": "Vorterix",
+     "commercial_messages": 43,
+     "chat_messages": 47897,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "",
+     "name": "",
+     "commercial_messages": 42,
+     "chat_messages": 26000,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "aura",
+     "name": "Aura",
+     "commercial_messages": 2,
+     "chat_messages": 4037,
+     "commercial_pct": 0.0,
+     "commercial_per_1k": 0.02,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "blend",
+     "name": "Blender",
+     "commercial_messages": 18,
+     "chat_messages": 8656,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "gelatina",
+     "name": "Gelatina",
+     "commercial_messages": 7,
+     "chat_messages": 4219,
+     "commercial_pct": 0.2,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cronista",
+     "name": "El Cronista",
+     "commercial_messages": 3,
+     "chat_messages": 793,
+     "commercial_pct": 0.4,
+     "commercial_per_1k": 0.01,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "olga",
+     "name": "Olga",
+     "commercial_messages": 95,
+     "chat_messages": 81744,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 3
+    },
+    {
+     "id": "urbana_play_104.3_fm",
+     "name": "urbana_play_104.3_fm",
+     "commercial_messages": 13,
+     "chat_messages": 9727,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 4
+    },
+    {
+     "id": "bondi",
+     "name": "Bondi Live",
+     "commercial_messages": 11,
+     "chat_messages": 9006,
+     "commercial_pct": 0.1,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "border",
+     "name": "BorderPeriodismo",
+     "commercial_messages": 1,
+     "chat_messages": 25,
+     "commercial_pct": 4.0,
+     "commercial_per_1k": 0.0,
+     "post_pnt_messages": 0
+    },
+    {
+     "id": "cenital",
+     "name": "Cenital",
+     "commercial_messages": 1,
+     "chat_messages": 329,
+     "commercial_pct": 0.3,
      "commercial_per_1k": 0.0,
      "post_pnt_messages": 0
     }

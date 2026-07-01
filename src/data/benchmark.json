@@ -2,14 +2,28 @@
  {
   "id": "luzu",
   "name": "Luzu TV",
-  "videos": 19,
-  "vod_views": 2863616,
-  "avg_concurrent": 86154,
-  "brands": 59,
-  "mentions": 83,
-  "share_views": 73.5,
-  "n_brands_live": 59,
+  "videos": 23,
+  "vod_views": 3165572,
+  "avg_concurrent": 78596,
+  "brands": 75,
+  "mentions": 115,
+  "share_views": 70.3,
+  "n_brands_live": 75,
   "top_brands": [
+   {
+    "slug": "zorro",
+    "name": "Zorro",
+    "mentions": 9,
+    "value_usd": 1735.0,
+    "rubro": "telco"
+   },
+   {
+    "slug": "iol-inversiones",
+    "name": "IOL Inversiones",
+    "mentions": 4,
+    "value_usd": 13577.0,
+    "rubro": "fintech"
+   },
    {
     "slug": "mercado-libre",
     "name": "Mercado Libre",
@@ -39,11 +53,39 @@
     "rubro": "seguros"
    },
    {
+    "slug": "fernet-branca",
+    "name": "Fernet Branca",
+    "mentions": 3,
+    "value_usd": 1064.0,
+    "rubro": "bebidas"
+   },
+   {
     "slug": "banco-macro",
     "name": "Banco Macro",
     "mentions": 3,
     "value_usd": 6251.0,
     "rubro": "fintech"
+   },
+   {
+    "slug": "sinteplast",
+    "name": "Sinteplast",
+    "mentions": 2,
+    "value_usd": 3022.0,
+    "rubro": "otro"
+   },
+   {
+    "slug": "michelob-ultra",
+    "name": "Michelob Ultra",
+    "mentions": 2,
+    "value_usd": 58.0,
+    "rubro": "bebidas"
+   },
+   {
+    "slug": "universidad-de-moron",
+    "name": "Universidad de Morón",
+    "mentions": 2,
+    "value_usd": 3777.0,
+    "rubro": "otro"
    },
    {
     "slug": "viv-glycolic-crystal",
@@ -130,18 +172,18 @@
     "rubro": "otro"
    },
    {
-    "slug": "iol-inversiones",
-    "name": "IOL Inversiones",
-    "mentions": 1,
-    "value_usd": 6649.0,
-    "rubro": "fintech"
-   },
-   {
     "slug": "rexona",
     "name": "Rexona",
     "mentions": 1,
     "value_usd": 112.0,
     "rubro": "higiene"
+   },
+   {
+    "slug": "pedidos-ya",
+    "name": "Pedidos Ya",
+    "mentions": 1,
+    "value_usd": 9963.0,
+    "rubro": "retail"
    },
    {
     "slug": "adidas",
@@ -151,73 +193,31 @@
     "rubro": "retail"
    },
    {
-    "slug": "sinteplast",
-    "name": "Sinteplast",
+    "slug": "escorial",
+    "name": "Escorial",
     "mentions": 1,
-    "value_usd": 718.0,
+    "value_usd": 293.0,
     "rubro": "otro"
    },
    {
-    "slug": "michelob-ultra",
-    "name": "Michelob Ultra",
+    "slug": "coto-digital",
+    "name": "Coto Digital",
     "mentions": 1,
-    "value_usd": 56.0,
-    "rubro": "bebidas"
+    "value_usd": 10422.0,
+    "rubro": "retail"
    },
    {
-    "slug": "universidad-de-moron",
-    "name": "Universidad de Morón",
+    "slug": "rimax",
+    "name": "RIMAX",
     "mentions": 1,
-    "value_usd": 1230.0,
+    "value_usd": 282.0,
     "rubro": "otro"
    },
    {
-    "slug": "macro",
-    "name": "Macro",
+    "slug": "energizer",
+    "name": "Energizer",
     "mentions": 1,
-    "value_usd": 2813.0,
-    "rubro": "fintech"
-   },
-   {
-    "slug": "entrada1-com",
-    "name": "Entrada1.com",
-    "mentions": 1,
-    "value_usd": 1306.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "samsung-galaxy-watch-samsung-health",
-    "name": "Samsung / Galaxy Watch / Samsung Health",
-    "mentions": 1,
-    "value_usd": 2195.0,
-    "rubro": "tecnologia"
-   },
-   {
-    "slug": "yumi",
-    "name": "Yumi",
-    "mentions": 1,
-    "value_usd": 2313.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "teatro-broadway-rosario",
-    "name": "Teatro Broadway Rosario",
-    "mentions": 1,
-    "value_usd": 1581.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "coca-cola",
-    "name": "Coca-Cola",
-    "mentions": 1,
-    "value_usd": 820.0,
-    "rubro": "bebidas"
-   },
-   {
-    "slug": "natier",
-    "name": "Natier",
-    "mentions": 1,
-    "value_usd": 649.0,
+    "value_usd": 281.0,
     "rubro": "otro"
    }
   ]
@@ -225,34 +225,41 @@
  {
   "id": "olga",
   "name": "Olga",
-  "videos": 18,
-  "vod_views": 679839,
-  "avg_concurrent": 25109,
-  "brands": 57,
-  "mentions": 109,
-  "share_views": 17.4,
-  "n_brands_live": 57,
+  "videos": 22,
+  "vod_views": 823779,
+  "avg_concurrent": 23526,
+  "brands": 67,
+  "mentions": 135,
+  "share_views": 18.3,
+  "n_brands_live": 67,
   "top_brands": [
    {
     "slug": "iol-inversiones",
     "name": "IOL Inversiones",
-    "mentions": 11,
-    "value_usd": 7911.0,
+    "mentions": 13,
+    "value_usd": 8255.0,
     "rubro": "fintech"
    },
    {
     "slug": "mcdonald-s",
     "name": "McDonald's",
-    "mentions": 10,
-    "value_usd": 2940.0,
+    "mentions": 11,
+    "value_usd": 3059.0,
     "rubro": "alimentos"
    },
    {
     "slug": "geniol",
     "name": "Geniol",
-    "mentions": 6,
-    "value_usd": 5090.0,
-    "rubro": "salud"
+    "mentions": 9,
+    "value_usd": 6373.0,
+    "rubro": "alimentos"
+   },
+   {
+    "slug": "schneider",
+    "name": "Schneider",
+    "mentions": 5,
+    "value_usd": 761.0,
+    "rubro": "bebidas"
    },
    {
     "slug": "johnnie-walker",
@@ -283,6 +290,13 @@
     "rubro": "higiene"
    },
    {
+    "slug": "pedidos-ya",
+    "name": "Pedidos Ya",
+    "mentions": 3,
+    "value_usd": 1178.0,
+    "rubro": "retail"
+   },
+   {
     "slug": "canon",
     "name": "Canon",
     "mentions": 3,
@@ -304,11 +318,18 @@
     "rubro": "bebidas"
    },
    {
-    "slug": "schneider",
-    "name": "Schneider",
+    "slug": "swift",
+    "name": "Swift",
     "mentions": 3,
-    "value_usd": 528.0,
-    "rubro": "bebidas"
+    "value_usd": 600.0,
+    "rubro": "alimentos"
+   },
+   {
+    "slug": "nissan-kite",
+    "name": "Nissan Kite",
+    "mentions": 3,
+    "value_usd": 1405.0,
+    "rubro": "seguros"
    },
    {
     "slug": "ypf",
@@ -316,6 +337,13 @@
     "mentions": 2,
     "value_usd": 1271.0,
     "rubro": "energia"
+   },
+   {
+    "slug": "mogul",
+    "name": "Mogul",
+    "mentions": 2,
+    "value_usd": 1447.0,
+    "rubro": "otro"
    },
    {
     "slug": "cordoba",
@@ -330,13 +358,6 @@
     "mentions": 2,
     "value_usd": 1300.0,
     "rubro": "salud"
-   },
-   {
-    "slug": "swift",
-    "name": "Swift",
-    "mentions": 2,
-    "value_usd": 439.0,
-    "rubro": "alimentos"
    },
    {
     "slug": "cordoba-destino-turistico",
@@ -360,11 +381,25 @@
     "rubro": "salud"
    },
    {
+    "slug": "turbobet",
+    "name": "TurboBet",
+    "mentions": 2,
+    "value_usd": 51.0,
+    "rubro": "seguros"
+   },
+   {
     "slug": "aerolineas-argentinas",
     "name": "Aerolíneas Argentinas",
     "mentions": 2,
     "value_usd": 476.0,
     "rubro": "viajes"
+   },
+   {
+    "slug": "tienda-nube",
+    "name": "Tienda Nube",
+    "mentions": 2,
+    "value_usd": 1248.0,
+    "rubro": "fintech"
    },
    {
     "slug": "mercado-libre",
@@ -395,67 +430,39 @@
     "rubro": "automotriz"
    },
    {
-    "slug": "evaginagel",
-    "name": "Evaginagel",
+    "slug": "coto-digital",
+    "name": "Coto Digital",
     "mentions": 1,
-    "value_usd": 1000.0,
-    "rubro": "salud"
+    "value_usd": 161.0,
+    "rubro": "retail"
    },
    {
-    "slug": "full-guapaletas",
-    "name": "Full Guapaletas",
+    "slug": "don-tach",
+    "name": "Don Tach",
     "mentions": 1,
-    "value_usd": 458.0,
+    "value_usd": 651.0,
     "rubro": "otro"
-   },
-   {
-    "slug": "espn3-disney",
-    "name": "ESPN3 / Disney+",
-    "mentions": 1,
-    "value_usd": 409.0,
-    "rubro": "streaming"
-   },
-   {
-    "slug": "la-roche-posay",
-    "name": "La Roche-Posay",
-    "mentions": 1,
-    "value_usd": 1441.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "propel-fit-planet",
-    "name": "Propel Fit Planet",
-    "mentions": 1,
-    "value_usd": 156.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "cbc-hierbas-serranas",
-    "name": "CBC hierbas serranas",
-    "mentions": 1,
-    "value_usd": 652.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "swiss-medical",
-    "name": "Swiss Medical",
-    "mentions": 1,
-    "value_usd": 1175.0,
-    "rubro": "salud"
    }
   ]
  },
  {
   "id": "vorterix",
   "name": "Vorterix",
-  "videos": 11,
-  "vod_views": 203351,
-  "avg_concurrent": 5408,
-  "brands": 31,
-  "mentions": 36,
-  "share_views": 5.2,
-  "n_brands_live": 31,
+  "videos": 14,
+  "vod_views": 267417,
+  "avg_concurrent": 5294,
+  "brands": 36,
+  "mentions": 45,
+  "share_views": 5.9,
+  "n_brands_live": 36,
   "top_brands": [
+   {
+    "slug": "supermercados-dia",
+    "name": "Supermercados Día",
+    "mentions": 4,
+    "value_usd": 1368.0,
+    "rubro": "bebidas"
+   },
    {
     "slug": "cremolati",
     "name": "Cremolati",
@@ -492,11 +499,25 @@
     "rubro": "fintech"
    },
    {
+    "slug": "iag-instituto-argentino-de-gastronomia",
+    "name": "IAG (Instituto Argentino de Gastronomía)",
+    "mentions": 2,
+    "value_usd": 58.0,
+    "rubro": "otro"
+   },
+   {
     "slug": "adidas",
     "name": "Adidas",
     "mentions": 1,
     "value_usd": 97.0,
     "rubro": "retail"
+   },
+   {
+    "slug": "telecentro",
+    "name": "Telecentro",
+    "mentions": 1,
+    "value_usd": 14.0,
+    "rubro": "otro"
    },
    {
     "slug": "hyundai",
@@ -639,44 +660,35 @@
     "rubro": "bebidas"
    },
    {
-    "slug": "supermercados-dia",
-    "name": "Supermercados Día",
-    "mentions": 1,
-    "value_usd": 253.0,
-    "rubro": "retail"
-   },
-   {
     "slug": "tucuman",
     "name": "Tucumán",
     "mentions": 1,
     "value_usd": 2.0,
     "rubro": "otro"
-   },
-   {
-    "slug": "telecentro",
-    "name": "Telecentro",
-    "mentions": 1,
-    "value_usd": 14.0,
-    "rubro": "otro"
-   },
-   {
-    "slug": "live-seguros",
-    "name": "Live Seguros",
-    "mentions": 1,
-    "value_usd": 24.0,
-    "rubro": "seguros"
    }
   ]
  },
  {
+  "id": "bondi",
+  "name": "Bondi Live",
+  "videos": 2,
+  "vod_views": 92822,
+  "avg_concurrent": 21542,
+  "brands": 0,
+  "mentions": 0,
+  "share_views": 2.1,
+  "n_brands_live": 0,
+  "top_brands": []
+ },
+ {
   "id": "blend",
   "name": "Blender",
-  "videos": 6,
-  "vod_views": 60713,
-  "avg_concurrent": 6408,
+  "videos": 7,
+  "vod_views": 65166,
+  "avg_concurrent": 6306,
   "brands": 9,
   "mentions": 9,
-  "share_views": 1.6,
+  "share_views": 1.4,
   "n_brands_live": 9,
   "top_brands": [
    {
@@ -685,6 +697,13 @@
     "mentions": 1,
     "value_usd": 239.0,
     "rubro": "energia"
+   },
+   {
+    "slug": "escorial",
+    "name": "Escorial",
+    "mentions": 1,
+    "value_usd": 246.0,
+    "rubro": "otro"
    },
    {
     "slug": "seco",
@@ -715,13 +734,6 @@
     "rubro": "otro"
    },
    {
-    "slug": "escorial",
-    "name": "Escorial",
-    "mentions": 1,
-    "value_usd": 246.0,
-    "rubro": "otro"
-   },
-   {
     "slug": "hoy-cerdo",
     "name": "Hoy Cerdo",
     "mentions": 1,
@@ -745,28 +757,30 @@
   ]
  },
  {
-  "id": "bondi",
-  "name": "Bondi Live",
-  "videos": 1,
-  "vod_views": 37783,
-  "avg_concurrent": 21251,
-  "brands": 0,
-  "mentions": 0,
-  "share_views": 1.0,
-  "n_brands_live": 0,
-  "top_brands": []
- },
- {
   "id": "gelatina",
   "name": "Gelatina",
-  "videos": 3,
-  "vod_views": 25794,
-  "avg_concurrent": 2897,
-  "brands": 3,
-  "mentions": 3,
-  "share_views": 0.7,
-  "n_brands_live": 3,
+  "videos": 6,
+  "vod_views": 54210,
+  "avg_concurrent": 3707,
+  "brands": 6,
+  "mentions": 7,
+  "share_views": 1.2,
+  "n_brands_live": 6,
   "top_brands": [
+   {
+    "slug": "ada-cafe",
+    "name": "Ada Café",
+    "mentions": 2,
+    "value_usd": 111.0,
+    "rubro": "otro"
+   },
+   {
+    "slug": "telecentro",
+    "name": "Telecentro",
+    "mentions": 1,
+    "value_usd": 313.0,
+    "rubro": "otro"
+   },
    {
     "slug": "seco",
     "name": "Seco",
@@ -775,10 +789,17 @@
     "rubro": "otro"
    },
    {
-    "slug": "ada-cafe",
-    "name": "Ada Café",
+    "slug": "dab-y-fundacion-bellamente",
+    "name": "DAB y Fundación Bellamente",
     "mentions": 1,
-    "value_usd": 74.0,
+    "value_usd": 81.0,
+    "rubro": "salud"
+   },
+   {
+    "slug": "dos-cafes",
+    "name": "Dos Cafés",
+    "mentions": 1,
+    "value_usd": 106.0,
     "rubro": "otro"
    },
    {
@@ -793,19 +814,19 @@
  {
   "id": "neura",
   "name": "Neura Media",
-  "videos": 8,
-  "vod_views": 11845,
-  "avg_concurrent": 365,
+  "videos": 9,
+  "vod_views": 12624,
+  "avg_concurrent": 338,
   "brands": 18,
-  "mentions": 32,
+  "mentions": 33,
   "share_views": 0.3,
   "n_brands_live": 18,
   "top_brands": [
    {
     "slug": "pae",
     "name": "PAE",
-    "mentions": 8,
-    "value_usd": 32.0,
+    "mentions": 9,
+    "value_usd": 34.0,
     "rubro": "energia"
    },
    {
@@ -930,27 +951,15 @@
   ]
  },
  {
-  "id": "cenital",
-  "name": "Cenital",
-  "videos": 1,
-  "vod_views": 5169,
-  "avg_concurrent": 1308,
-  "brands": 0,
-  "mentions": 0,
-  "share_views": 0.1,
-  "n_brands_live": 0,
-  "top_brands": []
- },
- {
   "id": "ahoraplay",
   "name": "Ahora Play",
-  "videos": 2,
-  "vod_views": 4256,
-  "avg_concurrent": 606,
-  "brands": 2,
-  "mentions": 2,
-  "share_views": 0.1,
-  "n_brands_live": 2,
+  "videos": 4,
+  "vod_views": 7633,
+  "avg_concurrent": 456,
+  "brands": 4,
+  "mentions": 4,
+  "share_views": 0.2,
+  "n_brands_live": 4,
   "top_brands": [
    {
     "slug": "clave-bursatil-de-asesores",
@@ -965,6 +974,64 @@
     "mentions": 1,
     "value_usd": 28.0,
     "rubro": "otro"
+   },
+   {
+    "slug": "tsa-bursatil",
+    "name": "TSA Bursátil",
+    "mentions": 1,
+    "value_usd": 7.0,
+    "rubro": "otro"
+   },
+   {
+    "slug": "punto-finanzas",
+    "name": "Punto Finanzas",
+    "mentions": 1,
+    "value_usd": 7.0,
+    "rubro": "otro"
+   }
+  ]
+ },
+ {
+  "id": "cronista",
+  "name": "El Cronista",
+  "videos": 3,
+  "vod_views": 6453,
+  "avg_concurrent": 1448,
+  "brands": 0,
+  "mentions": 0,
+  "share_views": 0.1,
+  "n_brands_live": 0,
+  "top_brands": []
+ },
+ {
+  "id": "cenital",
+  "name": "Cenital",
+  "videos": 1,
+  "vod_views": 5169,
+  "avg_concurrent": 1308,
+  "brands": 0,
+  "mentions": 0,
+  "share_views": 0.1,
+  "n_brands_live": 0,
+  "top_brands": []
+ },
+ {
+  "id": "aura",
+  "name": "Aura",
+  "videos": 3,
+  "vod_views": 2631,
+  "avg_concurrent": 357,
+  "brands": 1,
+  "mentions": 1,
+  "share_views": 0.1,
+  "n_brands_live": 1,
+  "top_brands": [
+   {
+    "slug": "youtube-aura-stream-tn",
+    "name": "YouTube / Aura Stream TN",
+    "mentions": 1,
+    "value_usd": 7.0,
+    "rubro": "otro"
    }
   ]
  },
@@ -976,40 +1043,8 @@
   "avg_concurrent": 2028,
   "brands": 0,
   "mentions": 0,
-  "share_views": 0.1,
-  "n_brands_live": 0,
-  "top_brands": []
- },
- {
-  "id": "cronista",
-  "name": "El Cronista",
-  "videos": 1,
-  "vod_views": 2023,
-  "avg_concurrent": 1632,
-  "brands": 0,
-  "mentions": 0,
-  "share_views": 0.1,
-  "n_brands_live": 0,
-  "top_brands": []
- },
- {
-  "id": "aura",
-  "name": "Aura",
-  "videos": 2,
-  "vod_views": 1624,
-  "avg_concurrent": 333,
-  "brands": 1,
-  "mentions": 1,
   "share_views": 0.0,
-  "n_brands_live": 1,
-  "top_brands": [
-   {
-    "slug": "youtube-aura-stream-tn",
-    "name": "YouTube / Aura Stream TN",
-    "mentions": 1,
-    "value_usd": 7.0,
-    "rubro": "otro"
-   }
-  ]
+  "n_brands_live": 0,
+  "top_brands": []
  }
 ]
