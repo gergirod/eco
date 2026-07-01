@@ -28,16 +28,6 @@
      "count": 1
     },
     {
-     "text": "MANDEN SUS AUDIOS: 11 7080 4460 :sparkles:",
-     "tipo": "pregunta_compra",
-     "count": 1
-    },
-    {
-     "text": "779 es el codigo de argentina despues 750 → México.789–790 → Brasil.690–699 → Ch",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
      "text": "¿QUÉ TE HUBIERA GUSTADO INVENTAR? Manden sus audios: 11 7080 4460 :sparkles:",
      "tipo": "pregunta_compra",
      "count": 1
@@ -45,6 +35,16 @@
     {
      "text": "Manden sus inventos en un audio: 11 7080 4460 :sparkles:",
      "tipo": "pregunta_compra",
+     "count": 1
+    },
+    {
+     "text": "MANDEN SUS AUDIOS: 11 7080 4460 :sparkles:",
+     "tipo": "pregunta_compra",
+     "count": 1
+    },
+    {
+     "text": "779 es el codigo de argentina despues 750 → México.789–790 → Brasil.690–699 → Ch",
+     "tipo": "pedido_link",
      "count": 1
     }
    ]
@@ -87,12 +87,12 @@
      "count": 1
     },
     {
-     "text": "Martín, cuando sale un \"ASAD bursatil\" en zona sur?",
+     "text": "Milei ofrece milanesas otra ves con el precio de la carne otro gasto:face-blue-s",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "CICLO DE LAS MEMORIAS 3 AÑOS ALCISTA Y DESPUÉS CAEN AUMENTA EL PRECIO CAE LA DEM",
+     "text": "Si rajan a Adorni y otros políticos de YPF, seguro pueden bajar precio las nafta",
      "tipo": "pregunta_precio",
      "count": 1
     }
@@ -126,23 +126,23 @@
      "count": 3
     },
     {
-     "text": "Y DE DONDE SALE ESA REGLAMENTACION EN EL SENADO...?????",
+     "text": "Otto dog esta llorando porque por fin echaron a la piedra de Adorni? cuanto daño",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "A DIETA ??? @jultarres ??? pesabas 48 Kg dijiste ??? a cuánto vas a bajar ??? UH",
+     "text": "hablen de fubol",
+     "tipo": "pedido_contenido",
+     "count": 1
+    },
+    {
+     "text": "Argentina le sale un cabo verde jaaaaa",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "@PatanPerroloco Deja la payasada. Lo dijo el compañero de Joni Viale que siempre",
-     "tipo": "otro",
-     "count": 1
-    },
-    {
-     "text": "PATAN NO QUIERO PROBAR SI EM SALE MAL",
-     "tipo": "pregunta_precio",
+     "text": "hablen de adorni así los miran. tienen menos fulbo",
+     "tipo": "pedido_contenido",
      "count": 1
     }
    ]
@@ -150,22 +150,22 @@
   {
    "id": "",
    "name": "",
-   "programs_with_chat": 16,
-   "chat_messages": 28117,
-   "msgs_per_1k": 9.17,
-   "noise_score": 0.21,
+   "programs_with_chat": 15,
+   "chat_messages": 24265,
+   "msgs_per_1k": 9.38,
+   "noise_score": 0.2,
    "chat_quality_tier": "alta",
    "chat_quality_label": "Comunidad activa",
-   "paid_events": 40,
+   "paid_events": 34,
    "mix": {
-    "emoji_pct": 2.7,
-    "saludo_pct": 1.0,
-    "reaccion_pct": 35.5,
-    "pregunta_pct": 24.9,
+    "emoji_pct": 2.9,
+    "saludo_pct": 0.9,
+    "reaccion_pct": 32.8,
+    "pregunta_pct": 26.2,
     "demanda_pct": 0.9,
-    "obediencia_pct": 0.8,
+    "obediencia_pct": 0.6,
     "apoyo_pct": 0.1,
-    "texto_pct": 34.0
+    "texto_pct": 35.5
    },
    "character_label": "Comunidad activa — chat denso respecto a la audiencia",
    "top_demands": [
@@ -190,7 +190,7 @@
      "count": 4
     },
     {
-     "text": "¿¿¿HABLEN DE LAS SOCIEDADES OFFSHORE DE SANTILLI O LOS SOBRES $$$ NO SE LO PERMI",
+     "text": "llamen a chivin",
      "tipo": "pedido_contenido",
      "count": 3
     }
@@ -239,9 +239,58 @@
      "count": 4
     },
     {
-     "text": "hablen de adorni",
+     "text": "hablen de blender",
      "tipo": "pedido_contenido",
      "count": 2
+    }
+   ]
+  },
+  {
+   "id": "gelatina",
+   "name": "Gelatina",
+   "programs_with_chat": 8,
+   "chat_messages": 9461,
+   "msgs_per_1k": 3.12,
+   "noise_score": 0.17,
+   "chat_quality_tier": "alta",
+   "chat_quality_label": "Comunidad activa",
+   "paid_events": 10,
+   "mix": {
+    "emoji_pct": 1.9,
+    "saludo_pct": 2.3,
+    "reaccion_pct": 40.4,
+    "pregunta_pct": 21.6,
+    "demanda_pct": 0.9,
+    "obediencia_pct": 1.1,
+    "apoyo_pct": 0.1,
+    "texto_pct": 31.6
+   },
+   "character_label": "Comunidad activa — chat denso respecto a la audiencia",
+   "top_demands": [
+    {
+     "text": "y si sale mal?",
+     "tipo": "pregunta_precio",
+     "count": 2
+    },
+    {
+     "text": "vamos pepe decime cuanto aumento cuota para incorporar HAA",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "en cualquier momento sale a jugar Bisman",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Este tipo me genera una violencia que me cuesta describir",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "sturze sale segundo hace 2 meses",
+     "tipo": "pregunta_precio",
+     "count": 1
     }
    ]
   },
@@ -285,55 +334,6 @@
     {
      "text": "10 % de descuento en revoque grueso , hoy vamos paraguay",
      "tipo": "pedido_link",
-     "count": 1
-    }
-   ]
-  },
-  {
-   "id": "gelatina",
-   "name": "Gelatina",
-   "programs_with_chat": 7,
-   "chat_messages": 5609,
-   "msgs_per_1k": 2.69,
-   "noise_score": 0.15,
-   "chat_quality_tier": "alta",
-   "chat_quality_label": "Comunidad activa",
-   "paid_events": 4,
-   "mix": {
-    "emoji_pct": 2.4,
-    "saludo_pct": 2.6,
-    "reaccion_pct": 32.1,
-    "pregunta_pct": 24.9,
-    "demanda_pct": 0.9,
-    "obediencia_pct": 0.7,
-    "apoyo_pct": 0.1,
-    "texto_pct": 36.4
-   },
-   "character_label": "Comunidad activa — chat denso respecto a la audiencia",
-   "top_demands": [
-    {
-     "text": "vamos pepe decime cuanto aumento cuota para incorporar HAA",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "en cualquier momento sale a jugar Bisman",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "Este tipo me genera una violencia que me cuesta describir",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "sturze sale segundo hace 2 meses",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "rebor es el primer perjudicado. Hablen de gusto chat. Tomas ya va hablar",
-     "tipo": "pedido_contenido",
      "count": 1
     }
    ]
@@ -410,6 +410,11 @@
    "character_label": "Comunidad moderada",
    "top_demands": [
     {
+     "text": "@santgr vot sí",
+     "tipo": "voto_eleccion",
+     "count": 1
+    },
+    {
      "text": "Un monitor gamer, averiguen con cuanto se queda Karina. SAdorni ya fue.",
      "tipo": "pregunta_precio",
      "count": 1
@@ -427,11 +432,6 @@
     {
      "text": "Además este mundial es un afanó. Tienen idea el precio de las entradas?",
      "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "@santgr vot sí",
-     "tipo": "voto_eleccion",
      "count": 1
     }
    ]
@@ -1297,22 +1297,22 @@
    "cross_canal": false
   },
   {
-   "text": "LOCO TRAIGAN A CHAROOOOOOOOOOOOOOOOOOOOOOOOOOO",
-   "tipo": "pedido_contenido",
-   "count": 14,
-   "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
-   "cross_canal": false
-  },
-  {
    "text": "LLAMEN A FIO",
    "tipo": "pedido_contenido",
    "count": 14,
    "n_programas": 1,
    "canales": [
     "Vorterix"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "LOCO TRAIGAN A CHAROOOOOOOOOOOOOOOOOOOOOOOOOOO",
+   "tipo": "pedido_contenido",
+   "count": 14,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
    ],
    "cross_canal": false
   },
@@ -1335,22 +1335,22 @@
    "cross_canal": false
   },
   {
-   "text": "CHICOS Q BIEN LE SALE DIOS",
-   "tipo": "pregunta_precio",
-   "count": 6,
-   "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
-   "cross_canal": false
-  },
-  {
    "text": "Muchachooos! Hablen del conflicto en Blender!! Llamen a Fio Sargenti!!!",
    "tipo": "pedido_contenido",
    "count": 6,
    "n_programas": 1,
    "canales": [
     "Vorterix"
+   ],
+   "cross_canal": false
+  },
+  {
+   "text": "CHICOS Q BIEN LE SALE DIOS",
+   "tipo": "pregunta_precio",
+   "count": 6,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
    ],
    "cross_canal": false
   },
@@ -1371,27 +1371,27 @@
    "cross_canal": false
   },
   {
-   "text": "PASA EL LINK GUICHE",
-   "tipo": "pedido_link",
-   "count": 4,
-   "n_programas": 1,
-   "canales": [
-    "Vorterix"
-   ],
-   "cross_canal": false
-  },
-  {
    "text": "HABLEN DE TESORIN QUE SE CHOREARON UN GASODUCTO EN SALTA PARA TRAER A RICKY MARTIN",
    "tipo": "pedido_contenido",
    "count": 4,
    "n_programas": 1,
    "canales": [],
    "cross_canal": false
+  },
+  {
+   "text": "Cuál es la app de cómo saber la música??",
+   "tipo": "pedido_link",
+   "count": 4,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "cross_canal": false
   }
  ],
  "platform_line": "Aura es donde más habla la sala (48.15 mensajes por cada mil mirando). Demanda recurrente: «:bird::bird::bird::bird::bird::bird::bird::bird:LOCO TRAIGAN…»",
  "channels_with_chat": 14,
- "period": "2026-07-01T02:40:38.266837+00:00",
+ "period": "2026-07-01T02:55:50.343974+00:00",
  "conductor_moments": [
   {
    "video_id": "NHt6oqHZYd0",
@@ -1466,24 +1466,24 @@
    "post_rpm": 1.67
   },
   {
-   "video_id": "U8f_2vIvO7Y",
-   "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
-   "channel": "Urbana Play 104.3 FM",
-   "kind": "like",
-   "minute": 36,
-   "quote": "Me encanta, es lindo, me gusta verlo",
-   "ratio": 26.67,
-   "label": "La sala respondió — chat más activo tras el pedido",
-   "pre_rpm": 0.0,
-   "post_rpm": 1.33
-  },
-  {
    "video_id": "NZnTfvrPb0E",
    "title": "🟠 ¿CÓMO QUEDARON LOS CRUCES DEL  MUNDIAL 2026? l HOY COMO SIEMPRE",
    "channel": " A U R A ",
    "kind": "like",
    "minute": 59,
    "quote": "Sí, me gusta, es muy internacional",
+   "ratio": 26.67,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.0,
+   "post_rpm": 1.33
+  },
+  {
+   "video_id": "U8f_2vIvO7Y",
+   "title": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+   "channel": "Urbana Play 104.3 FM",
+   "kind": "like",
+   "minute": 36,
+   "quote": "Me encanta, es lindo, me gusta verlo",
    "ratio": 26.67,
    "label": "La sala respondió — chat más activo tras el pedido",
    "pre_rpm": 0.0,
@@ -1514,24 +1514,12 @@
    "post_rpm": 4.67
   },
   {
-   "video_id": "Mbk0Mff3g0c",
-   "title": "Ramón Agote y Mauro Fiorenzano en Cash is King: Alejo Rodríguez Cacio - 30/06",
-   "channel": "Neura Media",
-   "kind": "like",
-   "minute": 50,
-   "quote": "me gusta mucho",
-   "ratio": 13.33,
-   "label": "La sala respondió — chat más activo tras el pedido",
-   "pre_rpm": 0.0,
-   "post_rpm": 0.67
-  },
-  {
-   "video_id": "WCdVYizlDYA",
-   "title": "⚽️ GOLGANA con AZZ: Flavio Azzaro, Chute D'attellis, Benito, Sangre y Mouche | OLGA EN VIVO 2026-06-29 14:53",
+   "video_id": "NKhi31a86K8",
+   "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
    "channel": "OLGA",
    "kind": "like",
-   "minute": 4,
-   "quote": "Me gusta mucho Colombia",
+   "minute": 121,
+   "quote": "Me gusta tener el efectivo",
    "ratio": 13.33,
    "label": "La sala respondió — chat más activo tras el pedido",
    "pre_rpm": 0.0,
@@ -1550,24 +1538,36 @@
    "post_rpm": 0.67
   },
   {
-   "video_id": "NKhi31a86K8",
-   "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
-   "channel": "OLGA",
-   "kind": "like",
-   "minute": 121,
-   "quote": "Me gusta tener el efectivo",
-   "ratio": 13.33,
-   "label": "La sala respondió — chat más activo tras el pedido",
-   "pre_rpm": 0.0,
-   "post_rpm": 0.67
-  },
-  {
    "video_id": "EwFONN3W5cg",
    "title": "🔴 DOPAMINAS con Guille Bianchi, Agos Palazzolo y Cami Fortunato | VORTERIX EN VIVO",
    "channel": "Vorterix",
    "kind": "like",
    "minute": 69,
    "quote": "Entonces me da un toque, porque me gusta el olor.",
+   "ratio": 13.33,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.0,
+   "post_rpm": 0.67
+  },
+  {
+   "video_id": "Mbk0Mff3g0c",
+   "title": "Ramón Agote y Mauro Fiorenzano en Cash is King: Alejo Rodríguez Cacio - 30/06",
+   "channel": "Neura Media",
+   "kind": "like",
+   "minute": 50,
+   "quote": "me gusta mucho",
+   "ratio": 13.33,
+   "label": "La sala respondió — chat más activo tras el pedido",
+   "pre_rpm": 0.0,
+   "post_rpm": 0.67
+  },
+  {
+   "video_id": "WCdVYizlDYA",
+   "title": "⚽️ GOLGANA con AZZ: Flavio Azzaro, Chute D'attellis, Benito, Sangre y Mouche | OLGA EN VIVO 2026-06-29 14:53",
+   "channel": "OLGA",
+   "kind": "like",
+   "minute": 4,
+   "quote": "Me gusta mucho Colombia",
    "ratio": 13.33,
    "label": "La sala respondió — chat más activo tras el pedido",
    "pre_rpm": 0.0,

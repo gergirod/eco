@@ -440,7 +440,116 @@
      "days_label": "thu"
     }
    ]
+  },
+  {
+   "channel_id": "carajo",
+   "timezone": "America/Argentina/Buenos_Aires",
+   "skip_title_patterns": [],
+   "capture_slots": [
+    {
+     "show": "Grilla Carajo",
+     "start": "14:00",
+     "end": "23:00",
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "days_label": "lun–vie"
+    }
+   ]
+  },
+  {
+   "channel_id": "eldestape",
+   "timezone": "America/Argentina/Buenos_Aires",
+   "skip_title_patterns": [],
+   "capture_slots": [
+    {
+     "show": "Grilla El Destape",
+     "start": "06:00",
+     "end": "14:00",
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "days_label": "lun–vie"
+    },
+    {
+     "show": "Finde1070",
+     "start": "09:00",
+     "end": "12:00",
+     "days": [
+      5
+     ],
+     "days_label": "sáb"
+    }
+   ]
+  },
+  {
+   "channel_id": "futurock",
+   "timezone": "America/Argentina/Buenos_Aires",
+   "skip_title_patterns": [],
+   "capture_slots": [
+    {
+     "show": "Grilla Futurock",
+     "start": "07:00",
+     "end": "20:00",
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "days_label": "lun–vie"
+    }
+   ]
+  },
+  {
+   "channel_id": "bravotv",
+   "timezone": "America/Argentina/Buenos_Aires",
+   "skip_title_patterns": [],
+   "capture_slots": [
+    {
+     "show": "Prime político Bravo",
+     "start": "18:00",
+     "end": "24:00",
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "days_label": "lun–vie"
+    }
+   ]
+  },
+  {
+   "channel_id": "carnaval",
+   "timezone": "America/Argentina/Buenos_Aires",
+   "skip_title_patterns": [],
+   "capture_slots": [
+    {
+     "show": "Grilla Carnaval",
+     "start": "12:00",
+     "end": "24:00",
+     "days": [
+      0,
+      1,
+      2,
+      3,
+      4
+     ],
+     "days_label": "lun–vie"
+    }
+   ]
   }
  ],
- "exported_at": "2026-07-01T02:40:38.266837+00:00"
+ "exported_at": "2026-07-01T02:55:50.343974+00:00"
 }

@@ -1,0 +1,12 @@
+{
+  "crons": [
+    {
+      "path": "/api/palco/send?tipo=brief",
+      "schedule": "0 23 * * *"
+    },
+    {
+      "path": "/api/palco/send?tipo=reporte",
+      "schedule": "0 12 * * 1"
+    }
+  ]
+}

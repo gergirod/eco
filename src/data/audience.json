@@ -267,24 +267,24 @@
  {
   "id": "x",
   "name": "x",
-  "videos": 17,
-  "avg_concurrent": 7065,
+  "videos": 16,
+  "avg_concurrent": 7213,
   "peak_concurrent": 38655,
   "chat_coverage": 94,
-  "chat_msgs_per_1k_min": 9.2,
-  "chat_writers_avg": 303,
-  "chat_avg_concurrent": 7196,
-  "chat_writers_per_1k": 42.1,
+  "chat_msgs_per_1k_min": 9.4,
+  "chat_writers_avg": 282,
+  "chat_avg_concurrent": 7348,
+  "chat_writers_per_1k": 38.4,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
-  "chat_noise_score": 0.21,
+  "chat_noise_score": 0.2,
   "room_participation": {
    "has_data": true,
-   "programs_with_room_data": 16,
-   "poll_count": 8,
-   "total_votes": 1613,
+   "programs_with_room_data": 15,
+   "poll_count": 6,
+   "total_votes": 82,
    "banner_sessions": 2,
-   "participation_line": "Comunidad activa: la audiencia sumó 1.6K votos en encuestas en vivo; 8 encuestas en 16 emisiones medidas."
+   "participation_line": "Comunidad activa: 6 encuestas en 15 emisiones medidas."
   },
   "top_programs": [
    {
@@ -590,24 +590,24 @@
  {
   "id": "gelatina",
   "name": "Gelatina",
-  "videos": 7,
-  "avg_concurrent": 3942,
+  "videos": 8,
+  "avg_concurrent": 4062,
   "peak_concurrent": 9492,
   "chat_coverage": 100,
-  "chat_msgs_per_1k_min": 2.7,
-  "chat_writers_avg": 206,
-  "chat_avg_concurrent": 3942,
-  "chat_writers_per_1k": 52.3,
+  "chat_msgs_per_1k_min": 3.1,
+  "chat_writers_avg": 257,
+  "chat_avg_concurrent": 4062,
+  "chat_writers_per_1k": 63.3,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
-  "chat_noise_score": 0.15,
+  "chat_noise_score": 0.17,
   "room_participation": {
    "has_data": true,
-   "programs_with_room_data": 7,
-   "poll_count": 1,
-   "total_votes": 630,
+   "programs_with_room_data": 8,
+   "poll_count": 3,
+   "total_votes": 2161,
    "banner_sessions": 3,
-   "participation_line": "Comunidad activa: la audiencia sumó 630 votos en encuestas en vivo; 3 mensajes fijados en 7 emisiones."
+   "participation_line": "Comunidad activa: la audiencia sumó 2.2K votos en encuestas en vivo; 3 mensajes fijados en 8 emisiones."
   },
   "top_programs": [
    {
@@ -626,17 +626,26 @@
     "video_id": "LTlJq7vIE0g"
    },
    {
+    "title": "Milei: “Vamos a reelegir” | TUGO con Nico Guthmann",
+    "peak": 6616,
+    "video_id": "mNBPDZhUOf8"
+   },
+   {
     "title": "QUÉ OLOR con Charo LÓPEZ, Noe CUSTODIO y Mili GOGGIA 2026-06-30 14:25",
     "peak": 3667,
     "video_id": "l75dqnKslKI"
-   },
-   {
-    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
-    "peak": 2653,
-    "video_id": "vlNZMMmBbLw"
    }
   ],
   "top_programs_by_chat": [
+   {
+    "title": "Milei: “Vamos a reelegir” | TUGO con Nico Guthmann",
+    "video_id": "mNBPDZhUOf8",
+    "chat_engagement": 6.09,
+    "avg_concurrent": 4905,
+    "chat_writers": 616,
+    "chat_messages": 3852,
+    "chat_writers_per_1k": 125.6
+   },
    {
     "title": "QUÉ OLOR con Charo LÓPEZ, Noe CUSTODIO y Mili GOGGIA 2026-06-30 14:25",
     "video_id": "l75dqnKslKI",
@@ -672,15 +681,6 @@
     "chat_writers": 74,
     "chat_messages": 366,
     "chat_writers_per_1k": 13.8
-   },
-   {
-    "title": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
-    "video_id": "pL9wgMQaBp4",
-    "chat_engagement": 1.92,
-    "avg_concurrent": 1450,
-    "chat_writers": 147,
-    "chat_messages": 429,
-    "chat_writers_per_1k": 101.4
    }
   ]
  },

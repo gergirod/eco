@@ -1,5 +1,5 @@
 {
- "exported_at": "2026-07-01T02:40:38.266837+00:00",
+ "exported_at": "2026-07-01T02:55:50.343974+00:00",
  "signals": [
   {
    "tema": "cuatia · curuzu",
@@ -856,27 +856,6 @@
    "ejemplo": "DEVOLVE EL SAQUITO"
   },
   {
-   "tema": "cuatia · curuzu · vamos",
-   "evidence_lane": "chat",
-   "n_msgs": 17,
-   "n_authors": 17,
-   "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
-   "programs": [
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 17,
-     "n_authors": 17,
-     "ejemplo": "vamos Curuzú cuatia"
-    }
-   ],
-   "ejemplo": "vamos Curuzú cuatia"
-  },
-  {
    "tema": "vicaria · violencia",
    "evidence_lane": "chat",
    "n_msgs": 17,
@@ -896,6 +875,27 @@
     }
    ],
    "ejemplo": "violencia vicaria"
+  },
+  {
+   "tema": ":blue_heart::green_heart::blue_heart::green_heart: · brenas",
+   "evidence_lane": "chat",
+   "n_msgs": 16,
+   "n_authors": 16,
+   "n_programas": 1,
+   "canales": [
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 16,
+     "n_authors": 16,
+     "ejemplo": "las Breñas :blue_heart::green_heart::blue_heart::green_heart:"
+    }
+   ],
+   "ejemplo": "las Breñas :blue_heart::green_heart::blue_heart::green_heart:"
   }
  ]
 }

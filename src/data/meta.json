@@ -1,5 +1,5 @@
 {
- "exported_at": "2026-07-01T02:40:38.266837+00:00",
+ "exported_at": "2026-07-01T02:55:50.343974+00:00",
  "capture_scope": "live_only",
  "capture_sources": [
   "youtube_api",
@@ -16,8 +16,8 @@
  "cpm": 30.0,
  "peso_default": 0.3,
  "live_capture": {
-  "hours_captured": 242.8,
-  "streams_captured": 117,
+  "hours_captured": 245.2,
+  "streams_captured": 118,
   "channels_captured": 13,
   "capture_days": 9,
   "first_capture": "2026-06-22",
@@ -55,7 +55,7 @@
    {
     "id": "blend",
     "streams": 8,
-    "hours": 12.2,
+    "hours": 12.5,
     "first_capture": "2026-06-24",
     "last_capture": "2026-07-01"
    },
@@ -89,8 +89,8 @@
    },
    {
     "id": "gelatina",
-    "streams": 8,
-    "hours": 13.6,
+    "streams": 9,
+    "hours": 15.7,
     "first_capture": "2026-06-26",
     "last_capture": "2026-06-30"
    },
@@ -167,18 +167,18 @@
     "hours": 16.0
    },
    {
+    "channel_id": "gelatina",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 9,
+    "hours": 15.7
+   },
+   {
     "channel_id": "olga",
     "show_id": "sone-volaba",
     "show_name": "Soñé que Volaba",
     "streams": 6,
     "hours": 14.4
-   },
-   {
-    "channel_id": "gelatina",
-    "show_id": "otros",
-    "show_name": "Otros",
-    "streams": 8,
-    "hours": 13.6
    },
    {
     "channel_id": "bondi",
@@ -234,7 +234,7 @@
     "show_id": "otros",
     "show_name": "Otros",
     "streams": 4,
-    "hours": 5.9
+    "hours": 6.2
    },
    {
     "channel_id": "luzu",

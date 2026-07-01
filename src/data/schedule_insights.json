@@ -1,5 +1,5 @@
 {
- "programs_analyzed": 118,
+ "programs_analyzed": 119,
  "platform_line": "La atención más fuerte concentra entre las 11–12 hs (promedio 74.869 mirando en 20 emisiones).",
  "best_hours": [
   {
@@ -17,8 +17,8 @@
   {
    "hour": 12,
    "label": "12–13 hs",
-   "avg_peak": 48916,
-   "n": 12
+   "avg_peak": 45662,
+   "n": 13
   },
   {
    "hour": 14,
@@ -55,8 +55,8 @@
   {
    "weekday": 1,
    "label": "martes",
-   "avg_peak": 35148,
-   "n": 42
+   "avg_peak": 34487,
+   "n": 43
   },
   {
    "weekday": 4,
@@ -221,5 +221,5 @@
    "line": "No Preguntes por Rusia suele arrancar cerca de las 7:46 y pega fuerte entre 9–10 hs los lunes."
   }
  ],
- "period": "2026-07-01T02:40:38.266837+00:00"
+ "period": "2026-07-01T02:55:50.343974+00:00"
 }

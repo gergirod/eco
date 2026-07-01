@@ -55,18 +55,18 @@
    },
    "top_examples": [
     {
-     "text": "Avisaron del gol y me gane un cupon en PYa, gracias",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
      "text": "cuando tenga la sucursal en bsas hay 15 de descuento para chat de neura vieejooo",
      "tipo": "pedido_link",
      "count": 1
     },
     {
-     "text": "quiero ir a vivir a ese crucero. Cuánto el alquiler mensual y expensas?",
+     "text": "Ramón Diaz pasaría tan fácil a un Licha, Otamendi o Cuti? Vaaaamos. No es bajarle el precio a Ramón Diaz, pero no todo tiempo pasado fue mejor, por eso cada qui",
      "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "pasa el link barbara",
+     "tipo": "pedido_link",
      "count": 1
     }
    ]
@@ -81,8 +81,8 @@
    "commercial_per_1k": 0.02,
    "post_pnt_messages": 0,
    "by_tipo": {
-    "pregunta_precio": 10,
     "pedido_link": 31,
+    "pregunta_precio": 10,
     "pregunta_compra": 2
    },
    "top_examples": [
@@ -92,12 +92,12 @@
      "count": 2
     },
     {
-     "text": "en precio el dr",
-     "tipo": "pregunta_precio",
+     "text": "@teffx7 literalmente mande al link que compartieron ayer, pasame uno porfis",
+     "tipo": "pedido_link",
      "count": 1
     },
     {
-     "text": "A MI ME INVITARON A UNA DE ESAS FIESTAS CON CODIGO DE VESTIMENTE: VERDE AMARILLO O ROJO PERO LA NOVIA QUE TENIA ENTONCES NO QUISO",
+     "text": "Pasen link de rapidshare",
      "tipo": "pedido_link",
      "count": 1
     }
@@ -106,31 +106,31 @@
   {
    "id": "",
    "name": "",
-   "programs_with_chat": 10,
-   "commercial_messages": 42,
-   "chat_messages": 26000,
+   "programs_with_chat": 9,
+   "commercial_messages": 36,
+   "chat_messages": 22148,
    "commercial_pct": 0.2,
    "commercial_per_1k": 0.02,
    "post_pnt_messages": 0,
    "by_tipo": {
-    "pregunta_precio": 28,
-    "pregunta_compra": 2,
-    "pedido_link": 12
+    "pregunta_precio": 22,
+    "pedido_link": 12,
+    "pregunta_compra": 2
    },
    "top_examples": [
     {
-     "text": "No le bajen el precio a CHat GPT",
+     "text": "SI BAJA EL RUESGO,SUBEN BONOS ENTONCES EL INVERSIONISTA EXTRANJERO VENDE AL MEJOR PRECIO Y SE MARCHO,COMO DICE LA CANCION?:hand-pink-waving::hand-pink-waving::h",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "más tilingo no se consigue",
-     "tipo": "pregunta_compra",
+     "text": "por favor este gobierno es peor peor que alberto fernandez ademas nos estafa en todo. Ejemplo precio combustible",
+     "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "aprovecho un descuento de la tarjeta",
-     "tipo": "pedido_link",
+     "text": "la apertura de importaciones de bajó ningún precio al consumo, solo aumento ganancias de unos pocos",
+     "tipo": "pregunta_precio",
      "count": 1
     }
    ]
@@ -194,14 +194,14 @@
   {
    "id": "gelatina",
    "name": "Gelatina",
-   "programs_with_chat": 3,
-   "commercial_messages": 7,
-   "chat_messages": 4219,
+   "programs_with_chat": 4,
+   "commercial_messages": 13,
+   "chat_messages": 8071,
    "commercial_pct": 0.2,
    "commercial_per_1k": 0.01,
    "post_pnt_messages": 0,
    "by_tipo": {
-    "pregunta_precio": 2,
+    "pregunta_precio": 8,
     "pedido_link": 4,
     "pregunta_compra": 1
    },
@@ -217,8 +217,8 @@
      "count": 1
     },
     {
-     "text": "me huele a que es un código para algo",
-     "tipo": "pedido_link",
+     "text": "Moreno como le bajas el precio a Kicillof, sos el mejor amigo de la derecha",
+     "tipo": "pregunta_precio",
      "count": 1
     }
    ]
@@ -350,26 +350,6 @@
    ]
   },
   {
-   "id": "border",
-   "name": "BorderPeriodismo",
-   "programs_with_chat": 1,
-   "commercial_messages": 1,
-   "chat_messages": 25,
-   "commercial_pct": 4.0,
-   "commercial_per_1k": 0.0,
-   "post_pnt_messages": 0,
-   "by_tipo": {
-    "pedido_link": 1
-   },
-   "top_examples": [
-    {
-     "text": "El proyecto del Banco Mundial es el Préstamo BIRF N.º 9748-AR (con código interno de proyecto P505675), que financia de forma conjunta el \"Proyecto Desarrollo I",
-     "tipo": "pedido_link",
-     "count": 1
-    }
-   ]
-  },
-  {
    "id": "cenital",
    "name": "Cenital",
    "programs_with_chat": 1,
@@ -385,6 +365,26 @@
     {
      "text": "Además este mundial es un afanó. Tienen idea el precio de las entradas?",
      "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "id": "border",
+   "name": "BorderPeriodismo",
+   "programs_with_chat": 1,
+   "commercial_messages": 1,
+   "chat_messages": 25,
+   "commercial_pct": 4.0,
+   "commercial_per_1k": 0.0,
+   "post_pnt_messages": 0,
+   "by_tipo": {
+    "pedido_link": 1
+   },
+   "top_examples": [
+    {
+     "text": "El proyecto del Banco Mundial es el Préstamo BIRF N.º 9748-AR (con código interno de proyecto P505675), que financia de forma conjunta el \"Proyecto Desarrollo I",
+     "tipo": "pedido_link",
      "count": 1
     }
    ]
@@ -764,34 +764,6 @@
    "pnt_examples": []
   },
   {
-   "video_id": "zwp0lZ6EONI",
-   "title": "EL AMIGO DE TU NOVIA VE PAREN LA MANO...| #ESTONOSUCEDIÓ COMPLETO - 30/06 | VORTERIX",
-   "channel": "Vorterix",
-   "channel_id": "vorterix",
-   "commercial_messages": 2,
-   "commercial_pct": 0.7,
-   "commercial_per_1k": 0.02,
-   "chat_messages": 297,
-   "by_tipo": {
-    "pedido_link": 2
-   },
-   "top_examples": [
-    {
-     "text": "en mcdonalds se come con los cupones de la app, si no es muy caro",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "el precio sin descuento de mcdonalds solo se paga despues del boliche de bajon sin energia para entrar a la app",
-     "tipo": "pedido_link",
-     "count": 1
-    }
-   ],
-   "post_pnt_messages": 0,
-   "pnt_brand_aligned": 0,
-   "pnt_examples": []
-  },
-  {
    "video_id": "SzjeK5nN-Q0",
    "title": "ECONOMÍA DE MILEI: ¿CRECE O SE DESACELERA? | CUENTAS CLARAS EN VIVO",
    "channel": "El Cronista",
@@ -812,6 +784,34 @@
     },
     {
      "text": "10 % de descuento en revoque grueso , hoy vamos paraguay",
+     "tipo": "pedido_link",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "zwp0lZ6EONI",
+   "title": "EL AMIGO DE TU NOVIA VE PAREN LA MANO...| #ESTONOSUCEDIÓ COMPLETO - 30/06 | VORTERIX",
+   "channel": "Vorterix",
+   "channel_id": "vorterix",
+   "commercial_messages": 2,
+   "commercial_pct": 0.7,
+   "commercial_per_1k": 0.02,
+   "chat_messages": 297,
+   "by_tipo": {
+    "pedido_link": 2
+   },
+   "top_examples": [
+    {
+     "text": "en mcdonalds se come con los cupones de la app, si no es muy caro",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "el precio sin descuento de mcdonalds solo se paga despues del boliche de bajon sin energia para entrar a la app",
      "tipo": "pedido_link",
      "count": 1
     }
@@ -909,6 +909,16 @@
    "cross_canal": false
   },
   {
+   "text": "fah yo trabajé como moderadora de contenido para una app!",
+   "tipo": "pedido_link",
+   "count": 2,
+   "n_programas": 1,
+   "canales": [
+    "BLENDER"
+   ],
+   "cross_canal": false
+  },
+  {
    "text": "EL PADRE DE MI HIJA RENUNCIO AL TRABAJAO PARA QUE NO LE RETENGAN UN PORCENTAJE DEL SUELDO PARA LA CUOTA ALIMENTARIA",
    "tipo": "pregunta_precio",
    "count": 2,
@@ -929,16 +939,6 @@
    "cross_canal": false
   },
   {
-   "text": "Hay descuento tipo 3x2?? me interesa para comprar varios, y tener uno en cada habitación",
-   "tipo": "pedido_link",
-   "count": 2,
-   "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
-   "cross_canal": false
-  },
-  {
    "text": "LINK LINK LINK",
    "tipo": "pedido_link",
    "count": 2,
@@ -949,21 +949,23 @@
    "cross_canal": false
   },
   {
-   "text": "fah yo trabajé como moderadora de contenido para una app!",
+   "text": "Hay descuento tipo 3x2?? me interesa para comprar varios, y tener uno en cada habitación",
    "tipo": "pedido_link",
    "count": 2,
    "n_programas": 1,
    "canales": [
-    "BLENDER"
+    "OLGA"
    ],
    "cross_canal": false
   },
   {
-   "text": "No le bajen el precio a CHat GPT",
-   "tipo": "pregunta_precio",
+   "text": "es un link de donacion para la proxima campaña de corina machado?",
+   "tipo": "pedido_link",
    "count": 1,
    "n_programas": 1,
-   "canales": [],
+   "canales": [
+    "Urbana Play 104.3 FM"
+   ],
    "cross_canal": false
   }
  ],
@@ -1090,5 +1092,5 @@
   }
  ],
  "channels_with_commercial": 13,
- "period": "2026-07-01T02:40:38.266837+00:00"
+ "period": "2026-07-01T02:55:50.343974+00:00"
 }
