@@ -267,14 +267,14 @@
  {
   "id": "x",
   "name": "x",
-  "videos": 27,
-  "avg_concurrent": 8663,
+  "videos": 28,
+  "avg_concurrent": 8469,
   "peak_concurrent": 43094,
   "chat_coverage": 100,
-  "chat_msgs_per_1k_min": 9.3,
-  "chat_writers_avg": 393,
-  "chat_avg_concurrent": 8663,
-  "chat_writers_per_1k": 45.4,
+  "chat_msgs_per_1k_min": 9.1,
+  "chat_writers_avg": 406,
+  "chat_avg_concurrent": 8469,
+  "chat_writers_per_1k": 47.9,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
   "chat_noise_score": 0.23,
@@ -299,7 +299,7 @@
    },
    {
     "title": "",
-    "peak": 36601,
+    "peak": 36909,
     "video_id": "HA1dexnR7Ng"
    },
    {
@@ -334,21 +334,21 @@
    },
    {
     "title": "",
-    "video_id": "7WJTeokhLUY",
-    "chat_engagement": 39.31,
-    "avg_concurrent": 381,
-    "chat_writers": 30,
-    "chat_messages": 1333,
-    "chat_writers_per_1k": 78.7
-   },
-   {
-    "title": "",
     "video_id": "-FYveSXX_NA",
     "chat_engagement": 32.74,
     "avg_concurrent": 260,
     "chat_writers": 30,
     "chat_messages": 1098,
     "chat_writers_per_1k": 115.4
+   },
+   {
+    "title": "",
+    "video_id": "7WJTeokhLUY",
+    "chat_engagement": 32.52,
+    "avg_concurrent": 382,
+    "chat_writers": 32,
+    "chat_messages": 1354,
+    "chat_writers_per_1k": 83.8
    },
    {
     "title": "",

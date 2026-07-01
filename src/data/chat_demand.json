@@ -1,18 +1,6 @@
 {
- "period": "2026-07-01T14:41:43.113942+00:00",
+ "period": "2026-07-01T15:01:51.428519+00:00",
  "signals": [
-  {
-   "tema": "Apoyo a Paraguay",
-   "n_programas": 2,
-   "n_signals": 3,
-   "canales": [
-    "GELATINA",
-    "Vorterix"
-   ],
-   "cross_canal": true,
-   "tipo": "otro",
-   "ejemplo": "tranquilos en un rato el paraguay del profe le gana a alemania y salva la jornada"
-  },
   {
    "tema": "Celebración de Victoria de Paraguay",
    "n_programas": 2,
@@ -26,6 +14,18 @@
    "ejemplo": "LOS PARAGUAYOS LE DEMOSTRARON A ALEMANIA COMO HACER UN MURO"
   },
   {
+   "tema": "Apoyo a Paraguay",
+   "n_programas": 2,
+   "n_signals": 3,
+   "canales": [
+    "GELATINA",
+    "Vorterix"
+   ],
+   "cross_canal": true,
+   "tipo": "otro",
+   "ejemplo": "Aguante Paraguay / Rojaiju Paraguay"
+  },
+  {
    "tema": "Energía y entusiasmo general",
    "n_programas": 2,
    "n_signals": 2,
@@ -35,7 +35,7 @@
    ],
    "cross_canal": true,
    "tipo": "otro",
-   "ejemplo": "VAMOOO, DALE, con toda, dale que arrancxaaa"
+   "ejemplo": "daaaaaleeeeeeeeeeeeeeee / ARRANCA EL SHOOOWWWWW / TEMAZXOOOOOO"
   },
   {
    "tema": "Apoyo a conductoras",
@@ -47,7 +47,7 @@
    ],
    "cross_canal": true,
    "tipo": "otro",
-   "ejemplo": "July Male, que bombones, ojalá todos los programas de economía fuesen así"
+   "ejemplo": "Amo la columna de Milfiii, LOS MEJORES, LOS UNICOS"
   },
   {
    "tema": "Crítica a Azzaro",
@@ -69,7 +69,7 @@
    ],
    "cross_canal": false,
    "tipo": "otro",
-   "ejemplo": "TE AMAMOS PEDROOO / CHEEEE PEDRO SERA PIJON????"
+   "ejemplo": "TE AMO CAMILA, los amo wachosssss, TE AMO TDT, los re bancooooooo"
   },
   {
    "tema": "Contenido musical",
@@ -83,7 +83,7 @@
    "ejemplo": "pueden hacer una playlist loco? el que pone musica es crack, siempre pone temazos"
   },
   {
-   "tema": "ASAD bursátil en zona sur",
+   "tema": "Estabilidad de precios vs dólar",
    "n_programas": 1,
    "n_signals": 1,
    "canales": [
@@ -91,18 +91,7 @@
    ],
    "cross_canal": false,
    "tipo": "pregunta_precio",
-   "ejemplo": "Martín, cuando sale un \"ASAD bursatil\" en zona sur?"
-  },
-  {
-   "tema": "Precio de productos (Paraguay)",
-   "n_programas": 1,
-   "n_signals": 1,
-   "canales": [
-    "Urbana Play 104.3 FM"
-   ],
-   "cross_canal": false,
-   "tipo": "pregunta_precio",
-   "ejemplo": "ayer aumentó la lista de precios de Paragüay!!"
+   "ejemplo": "el dolarquedo com el mismo precio y todo subió.donde estamos?"
   },
   {
    "tema": "Entrevista a Trueno",
@@ -116,26 +105,37 @@
    "ejemplo": "asi que sale esa tan ansiada full entrevista a Trueno?!"
   },
   {
-   "tema": "Estabilidad de precios vs dólar",
+   "tema": "Precio de productos (Paraguay)",
    "n_programas": 1,
    "n_signals": 1,
    "canales": [
-    "AHORA PLAY"
+    "Urbana Play 104.3 FM"
    ],
    "cross_canal": false,
    "tipo": "pregunta_precio",
-   "ejemplo": "el dolarquedo com el mismo precio y todo subió.donde estamos?"
+   "ejemplo": "ayer aumentó la lista de precios de Paragüay!!"
   },
   {
-   "tema": "Reacción crítica a represión en CONEA",
+   "tema": "Aumento de cuota/precio de membresía",
    "n_programas": 1,
    "n_signals": 1,
    "canales": [
-    "Futurock FM"
+    "GELATINA"
    ],
    "cross_canal": false,
    "tipo": "pregunta_precio",
-   "ejemplo": "perdón por mi francés, a veces no me sale muy claro, son unos HIJOS DE PUTA!"
+   "ejemplo": "vamos pepe decime cuanto aumento cuota para incorporar HAA"
+  },
+  {
+   "tema": "Solicitud de likes",
+   "n_programas": 1,
+   "n_signals": 1,
+   "canales": [
+    "Vorterix"
+   ],
+   "cross_canal": false,
+   "tipo": "pregunta_precio",
+   "ejemplo": "qué flojos con los likes. Dale viejo, que les cuesta, aprieten la manito"
   }
  ]
 }

@@ -287,8 +287,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 35,
   "chat_signals": {
-   "n_msgs": 1033,
-   "n_authors": 712,
+   "n_msgs": 1050,
+   "n_authors": 726,
    "programs": [
     {
      "video_id": "0_ua1dXLT5o",
@@ -393,11 +393,11 @@
  },
  {
   "tema": "crisis venezuela",
-  "score": 139.7,
-  "trend_score": 37.33,
-  "menciones": 29,
+  "score": 142.7,
+  "trend_score": 37.37,
+  "menciones": 31,
   "growth_wow": 1.0,
-  "demand_ratio": 0.034,
+  "demand_ratio": 0.032,
   "demand_signals": 1,
   "canales": [
    " A U R A ",
@@ -447,7 +447,7 @@
    },
    {
     "date": "30/06/2026",
-    "n": 30.50763256054277
+    "n": 33.507632560542774
    },
    {
     "date": "01/07/2026",
@@ -681,12 +681,12 @@
     "t_seconds": 2400
    }
   ],
-  "highlights_total": 91,
+  "highlights_total": 93,
   "evidence_lane": "corroborated",
-  "audio_programs": 48,
+  "audio_programs": 49,
   "chat_signals": {
-   "n_msgs": 262,
-   "n_authors": 211,
+   "n_msgs": 266,
+   "n_authors": 213,
    "programs": [
     {
      "video_id": "8XGdbbwUjEQ",
@@ -1076,18 +1076,18 @@
     "t_seconds": 6600
    }
   ],
-  "highlights_total": 478,
+  "highlights_total": 484,
   "evidence_lane": "corroborated",
-  "audio_programs": 143,
+  "audio_programs": 144,
   "chat_signals": {
-   "n_msgs": 824,
-   "n_authors": 618,
+   "n_msgs": 836,
+   "n_authors": 626,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 71,
+     "n_msgs": 72,
      "n_authors": 55,
      "ejemplo": "@GenaroOrán El aguacate en argentina es la palta"
     },
@@ -1153,7 +1153,7 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 71,
+     "n_msgs": 72,
      "n_authors": 55,
      "ejemplo": "@GenaroOrán El aguacate en argentina es la palta"
     },
@@ -1254,6 +1254,17 @@
     "intensidad": 3,
     "start_min": 50,
     "t_seconds": 3000
+   },
+   {
+    "channel": " A U R A ",
+    "video_id": "bZUZnVsCn5M",
+    "title": "ANALIZAMOS A FONDO A \"CABO VERDE\", EL PRÓXIMO RIVAL DE LA SELECCIÓN l #hoycomosiempre - 01/06/26",
+    "date": "20260630",
+    "subtema": "Cabo Verde - Política Internacional",
+    "contexto": "Análisis de la posición de Cabo Verde en Naciones Unidas respecto al reclamo de soberanía de Argentina sobre Islas Malvinas, su estabilidad económica y apoyo a través del G77 más China",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
    },
    {
     "channel": "GELATINA",
@@ -1452,25 +1463,14 @@
     "intensidad": 3,
     "start_min": 100,
     "t_seconds": 6000
-   },
-   {
-    "channel": "Vorterix",
-    "video_id": "2j8TvzmdrGY",
-    "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Dany Jiménez y Nico Etevenaux",
-    "date": "20260701",
-    "subtema": "Política económica y tarifas",
-    "contexto": "Se discutió sobre subsidios a servicios públicos, gas y electricidad, y la frase polémica sobre abrigarse en invierno",
-    "intensidad": 3,
-    "start_min": 50,
-    "t_seconds": 3000
    }
   ],
-  "highlights_total": 117,
+  "highlights_total": 118,
   "evidence_lane": "corroborated",
-  "audio_programs": 53,
+  "audio_programs": 54,
   "chat_signals": {
-   "n_msgs": 168,
-   "n_authors": 138,
+   "n_msgs": 175,
+   "n_authors": 144,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -1479,6 +1479,14 @@
      "n_msgs": 13,
      "n_authors": 11,
      "ejemplo": "95% ensobrados y laburando para la política"
+    },
+    {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 12,
+     "n_authors": 9,
+     "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
     },
     {
      "video_id": "3QJmfDvuxIk",
@@ -1513,14 +1521,6 @@
      "ejemplo": "el colorado es mega rico pre politica muchachos. informense"
     },
     {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 10,
-     "n_authors": 7,
-     "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
-    },
-    {
      "video_id": "e3av_6yqgHg",
      "channel": "OLGA",
      "title": "NOS SOMETEMOS AL CASCO DE LA VERDAD | #SoñéQueVolaba 29/6",
@@ -1547,6 +1547,14 @@
      "ejemplo": "95% ensobrados y laburando para la política"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 12,
+     "n_authors": 9,
+     "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
+    },
+    {
      "video_id": "3QJmfDvuxIk",
      "channel": "OLGA",
      "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
@@ -1569,14 +1577,6 @@
      "n_msgs": 12,
      "n_authors": 7,
      "ejemplo": "el colorado es mega rico pre politica muchachos. informense"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 10,
-     "n_authors": 7,
-     "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
     }
    ]
   }
@@ -1852,15 +1852,15 @@
   "evidence_lane": "corroborated",
   "audio_programs": 34,
   "chat_signals": {
-   "n_msgs": 847,
-   "n_authors": 593,
+   "n_msgs": 871,
+   "n_authors": 608,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 77,
-     "n_authors": 64,
+     "n_msgs": 80,
+     "n_authors": 66,
      "ejemplo": "@argentoiluminacion6700 no me amenace con mandar a descerebrado Milei que les enviamos a los derechuzos de Vox, jajajaja"
     },
     {
@@ -1880,20 +1880,20 @@
      "ejemplo": "que grande milei SJJSj"
     },
     {
+     "video_id": "tKOUyjkzDQ8",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 45,
+     "n_authors": 36,
+     "ejemplo": "acaso es un cover de Milei de nene malo?"
+    },
+    {
      "video_id": "mNBPDZhUOf8",
      "channel": "GELATINA",
      "title": "Milei: “Vamos a reelegir” | TUGO con Nico Guthmann",
      "n_msgs": 44,
      "n_authors": 34,
      "ejemplo": "milei soreteeeee"
-    },
-    {
-     "video_id": "tKOUyjkzDQ8",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 40,
-     "n_authors": 32,
-     "ejemplo": "acaso es un cover de Milei de nene malo?"
     },
     {
      "video_id": "IsK6-fLD-VQ",
@@ -1925,8 +1925,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 77,
-     "n_authors": 64,
+     "n_msgs": 80,
+     "n_authors": 66,
      "ejemplo": "@argentoiluminacion6700 no me amenace con mandar a descerebrado Milei que les enviamos a los derechuzos de Vox, jajajaja"
     },
     {
@@ -1949,8 +1949,8 @@
      "video_id": "tKOUyjkzDQ8",
      "channel": "?",
      "title": "",
-     "n_msgs": 40,
-     "n_authors": 32,
+     "n_msgs": 45,
+     "n_authors": 36,
      "ejemplo": "acaso es un cover de Milei de nene malo?"
     },
     {
@@ -2153,7 +2153,7 @@
   ],
   "highlights_total": 13,
   "evidence_lane": "corroborated",
-  "audio_programs": 15,
+  "audio_programs": 16,
   "chat_signals": {
    "n_msgs": 6,
    "n_authors": 6,
@@ -2919,12 +2919,12 @@
     "t_seconds": 1200
    }
   ],
-  "highlights_total": 93,
+  "highlights_total": 95,
   "evidence_lane": "corroborated",
-  "audio_programs": 67,
+  "audio_programs": 68,
   "chat_signals": {
-   "n_msgs": 169,
-   "n_authors": 138,
+   "n_msgs": 172,
+   "n_authors": 140,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
@@ -3423,6 +3423,388 @@
   }
  },
  {
+  "tema": "selección argentina",
+  "score": 117.0,
+  "trend_score": 32.4,
+  "menciones": 29,
+  "growth_wow": 1.0,
+  "demand_ratio": 0.0,
+  "demand_signals": 0,
+  "canales": [
+   " A U R A ",
+   "BLENDER",
+   "GELATINA",
+   "LUZU TV",
+   "OLGA",
+   "Vorterix"
+  ],
+  "categorias": [
+   "actividad",
+   "cultura",
+   "lugar",
+   "persona"
+  ],
+  "cross_comunidad": true,
+  "multi_dia": true,
+  "candidato": true,
+  "serie": [
+   {
+    "date": "27/06/2026",
+    "n": 15.077787412660927
+   },
+   {
+    "date": "29/06/2026",
+    "n": 60.25278522898523
+   },
+   {
+    "date": "30/06/2026",
+    "n": 41.62562290887529
+   }
+  ],
+  "gt_status": "ya_masivo",
+  "gt_lead_days": -20,
+  "gt_peak": 100,
+  "cluster": null,
+  "variantes_relacionadas": [],
+  "highlights": [
+   {
+    "channel": "LUZU TV",
+    "video_id": "I_UCBhGYGhg",
+    "title": "#LANOVELA | MANTENER MENTIRAS EN EL TIEMPO Y CARI SE TOMO UN \"TE AMO\" EN LA TAZA DE DIEGO",
+    "date": "20260603",
+    "subtema": "Selección de canción para coreografía de cumpleaños",
+    "contexto": "Discuten varias opciones musicales para armar una coreografía de cumpleaños, incluyendo 'La Cachaca', 'YMCA', 'La Morocha de Lucra' y una canción custom de 'Mili mili mili'",
+    "intensidad": 3,
+    "start_min": 10,
+    "t_seconds": 600
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "Fp5-hk5vL8U",
+    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
+    "date": "20260611",
+    "subtema": "Selección de defensores para el Mundial",
+    "contexto": "Se analiza cómo las lesiones de Molina y Tagliafico impactan en las opciones defensivas, y cómo Scaloni maneja las decisiones sobre quién incluir (Senesi, Giai).",
+    "intensidad": 3,
+    "start_min": 20,
+    "t_seconds": 1200
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "LDTi8tvhNSc",
+    "title": "CÓMO SE PREPARA ARGENTINA DE CARA AL MUNDIAL | #GolGana 8/6",
+    "date": "20260608",
+    "subtema": "Selección técnica de Boca Jrs",
+    "contexto": "Debate sobre si el Vasco Arboleda es mejor opción técnica que otros candidatos como Uvea, Almirón o Diego Martínez porque no le debe nada a Riquelme",
+    "intensidad": 3,
+    "start_min": 100,
+    "t_seconds": 6000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "KoYLJOd9qyo",
+    "title": "#FMLUZU | CRIS Y LA GURI INSPIRAN A MARGELA + LA COLUMNA DE FLACA SOBRE CABO VERDE",
+    "date": "20260623",
+    "subtema": "Selección Cabo Verde Mundial",
+    "contexto": "Análisis extenso sobre Cabo Verde como revelación del torneo, su primer mundial, jugadores convocados por LinkedIn, historias de los futbolistas",
+    "intensidad": 3,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "OMoimQeA_Ec",
+    "title": "#FMLUZU | PALPITAMOS LA PREVIA DEL MUNDIAL + LA GURI CHAPA EN VIVO",
+    "date": "20260610",
+    "subtema": "Clima mundialista y confianza en la selección",
+    "contexto": "Múltiples conversaciones sobre si hay hambre mundialista, si ganaron y ya está, confianza para la cuarta, necesidad de llevar arenga a Argentina",
+    "intensidad": 3,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "b5MhH0NHJUo",
+    "title": "#ANTESQUENADIE | ¿ESTÁ MAL COIMEAR A UN DT POR LA FELICIDAD DE TU HIJO? + EL CASO DE WALTER BULACIO",
+    "date": "20260610",
+    "subtema": "Selección de ingredientes de picada comparada con futbolistas",
+    "contexto": "Debate lúdico equiparando ingredientes de picada con posiciones de la selección argentina: queso como Messi, aceitunas como Enzo Fernández, etc.",
+    "intensidad": 3,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "Fp5-hk5vL8U",
+    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
+    "date": "20260611",
+    "subtema": "Selección de Uruguay en Mundiales",
+    "contexto": "Análisis de Uruguay como posible revelación del Mundial, con Bielsa como técnico, jugadores como Valverde y Araujo, y estado actual del equipo",
+    "intensidad": 3,
+    "start_min": 100,
+    "t_seconds": 6000
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "DOYPp2Pqjvg",
+    "title": "CINE Y FÚTBOL con ARIEL STALTARI | #LaGambeta 1/6",
+    "date": "20260601",
+    "subtema": "Selección de fútbol uruguaya en mundiales",
+    "contexto": "Análisis sobre Uruguay con Marcelo Bielsa, predicción de que perder el primer partido trae suerte, comparación histórica con otros mundiales",
+    "intensidad": 3,
+    "start_min": 30,
+    "t_seconds": 1800
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "bX7MB2_OI2I",
+    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+    "date": "20260623",
+    "subtema": "Renuncia de Messi a la selección (2016)",
+    "contexto": "Se repasa el momento en que Messi anuncia su retiro de la selección tras perder las finales de Copa América, con videos de su declaración",
+    "intensidad": 3,
+    "start_min": 180,
+    "t_seconds": 10800
+   },
+   {
+    "channel": "GELATINA",
+    "video_id": "-msQ0nvgnnM",
+    "title": "FILTRAN AUDIOS POLÉMICOS de ADORNI | Pedro ROSEMBLAT en INDUSTRIA NACIONAL",
+    "date": "20260630",
+    "subtema": "Selección Paraguaya - Clasificación",
+    "contexto": "Celebración del triunfo de Paraguay en un partido clasificatorio, con análisis de Gustavo Alfaro sobre los orígenes humildes del equipo",
+    "intensidad": 3,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "Fp5-hk5vL8U",
+    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
+    "date": "20260611",
+    "subtema": "Alternativas laterales izquierdos en la selección",
+    "contexto": "Se discutió sobre posibles reemplazantes de Tagliafico: Nico González (tocado), Lisandro Martínez, Facundo Medina y Barco como opciones",
+    "intensidad": 3,
+    "start_min": 0,
+    "t_seconds": 0
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "8lOkxIDSd4w",
+    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+    "date": "20260623",
+    "subtema": "Selección de Curaçao - Mundial",
+    "contexto": "Análisis detallado de la selección de Curaçao, su clasificación histórica, primer gol en mundiales y actitud festiva en la competición",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "aeyaHqA4ByI",
+    "title": "#NADIEDICENADA | ¿FLOR SE INDIGNÓ CON UNA OYENTE? Y TODOS NOS PREPARAMOS PARA MIAMI Y EL MUNDIAL",
+    "date": "20260611",
+    "subtema": "Selección de Cabo Verde en el Mundial",
+    "contexto": "Plan de bancar a Cabo Verde como equipo B del stream, viajar a Miami para cubrir entrenamientos y llevar productos argentinos",
+    "intensidad": 3,
+    "start_min": 90,
+    "t_seconds": 5400
+   },
+   {
+    "channel": "Vorterix",
+    "video_id": "cG_sxu72mSo",
+    "title": "MESSI CONOCIÓ A SPIDERMAN Y VINO MORE BELTRÁN | #ParenLaMano Completo - 30/06 | VORTERIX",
+    "date": "20260701",
+    "subtema": "Selección de Paraguay - Fútbol",
+    "contexto": "Discusión sobre la selección paraguaya, conferencias de prensa del técnico Gustavo Alfaro, y pedido de que declare en guaraní",
+    "intensidad": 3,
+    "start_min": 110,
+    "t_seconds": 6600
+   },
+   {
+    "channel": "GELATINA",
+    "video_id": "vlNZMMmBbLw",
+    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
+    "date": "20260629",
+    "subtema": "Selección de Cabo Verde - análisis y sorpresa",
+    "contexto": "Cabo Verde como sorpresa del Mundial, 15 partidos sin perder (solo 1 derrota vs Chile), cuarto finalista Copa de África 2024",
+    "intensidad": 3,
+    "start_min": 140,
+    "t_seconds": 8400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "KSHRnYRkhNI",
+    "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
+    "date": "20260630",
+    "subtema": "Conflicto de Papu Gómez con Messi y la selección",
+    "contexto": "Se analiza cómo Papu fue apartado de la selección, posible enemistad con Messi y grupo de jugadores como Di María y Paredes",
+    "intensidad": 3,
+    "start_min": 50,
+    "t_seconds": 3000
+   },
+   {
+    "channel": "LUZU TV",
+    "video_id": "W5dvBDWCWWk",
+    "title": "NADIE DICE NADA: NICO OCCHIATO, FLOR JAZMÍN, MOMI GIARDINA, MARTÍN GARABAL, MARCOS GILES  Y ANGELITA",
+    "date": "20260626",
+    "subtema": "Fútbol - Mundial y Selección",
+    "contexto": "Conversación sobre ver partidos de la selección con intensidad y pasión, queriendo llegar a la final y traer la cuarta copa",
+    "intensidad": 3,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "BLENDER",
+    "video_id": "Iii3dqMJvwQ",
+    "title": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
+    "date": "20260629",
+    "subtema": "Marcelo Bielsa y Selección Uruguay",
+    "contexto": "Análisis crítico sobre el rendimiento de Uruguay con Bielsa, conferencia de prensa prevista y posible salida del técnico",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "KSHRnYRkhNI",
+    "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
+    "date": "20260630",
+    "subtema": "Formación de equipos y selección de jugadores",
+    "contexto": "Debate sobre cómo se arman los equipos en partidos de fútbol reducido, criterios de inclusión y exclusión de jugadores",
+    "intensidad": 3,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
+    "channel": "OLGA",
+    "video_id": "Fp5-hk5vL8U",
+    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
+    "date": "20260611",
+    "subtema": "Lisandro Martínez como lateral izquierdo de la selección",
+    "contexto": "Análisis de Lisandro Martínez como posible reemplazante de Tagliafico en el puesto de 3, comparando técnica y defensa",
+    "intensidad": 3,
+    "start_min": 10,
+    "t_seconds": 600
+   }
+  ],
+  "highlights_total": 83,
+  "evidence_lane": "corroborated",
+  "audio_programs": 146,
+  "chat_signals": {
+   "n_msgs": 861,
+   "n_authors": 644,
+   "programs": [
+    {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 68,
+     "n_authors": 52,
+     "ejemplo": "@GenaroOrán El aguacate en argentina es la palta"
+    },
+    {
+     "video_id": "bYaixTloEdo",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 48,
+     "n_authors": 37,
+     "ejemplo": "cobarde presento La renuncia cuando se jugaba el partido de Argentina"
+    },
+    {
+     "video_id": "1KdxLdm_3K0",
+     "channel": "Urbana Play 104.3 FM",
+     "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
+     "n_msgs": 43,
+     "n_authors": 34,
+     "ejemplo": "tenemos una historia común, sé que en Argentina hubo otras olas migratorias europeas posteriores, pero igual en Brasil, en Uruguay, en Colom ia y en México"
+    },
+    {
+     "video_id": "8XGdbbwUjEQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 33,
+     "n_authors": 25,
+     "ejemplo": "que venga a la argentina a manejar el coso ese... 3 cuadras dura"
+    },
+    {
+     "video_id": "FYdwwoHNrMs",
+     "channel": "Vorterix",
+     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+     "n_msgs": 27,
+     "n_authors": 23,
+     "ejemplo": "COMPLETAMENTE GRABADO, LOS MUCHACHOS ESTAN EN ARGENTINA EN ESTOS MOMENTOS"
+    },
+    {
+     "video_id": "8lOkxIDSd4w",
+     "channel": "OLGA",
+     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
+     "n_msgs": 23,
+     "n_authors": 22,
+     "ejemplo": "SI, SI.. ARGENTINA DONDE GANAN VOTACIONES Y NADIE SE HACE CARGO LO QUE VOTA.. HSDPS"
+    },
+    {
+     "video_id": "nOx1je3BA2o",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 26,
+     "n_authors": 17,
+     "ejemplo": "Que se juega Milei, realmente los títulos de este programa y los este canal los hacén por sorteo, Milei lleva a la argentina a la era de piedra y vos decís que "
+    },
+    {
+     "video_id": "hc54LIYnMoE",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 18,
+     "n_authors": 16,
+     "ejemplo": "Es tan importante argentina para EEUU que en embajador es un empresario sin experiencia diplomatica que compro su acrgo con donaciones"
+    }
+   ],
+   "chat_only_programs": [
+    {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 68,
+     "n_authors": 52,
+     "ejemplo": "@GenaroOrán El aguacate en argentina es la palta"
+    },
+    {
+     "video_id": "bYaixTloEdo",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 48,
+     "n_authors": 37,
+     "ejemplo": "cobarde presento La renuncia cuando se jugaba el partido de Argentina"
+    },
+    {
+     "video_id": "8XGdbbwUjEQ",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 33,
+     "n_authors": 25,
+     "ejemplo": "que venga a la argentina a manejar el coso ese... 3 cuadras dura"
+    },
+    {
+     "video_id": "nOx1je3BA2o",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 26,
+     "n_authors": 17,
+     "ejemplo": "Que se juega Milei, realmente los títulos de este programa y los este canal los hacén por sorteo, Milei lleva a la argentina a la era de piedra y vos decís que "
+    },
+    {
+     "video_id": "hc54LIYnMoE",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 18,
+     "n_authors": 16,
+     "ejemplo": "Es tan importante argentina para EEUU que en embajador es un empresario sin experiencia diplomatica que compro su acrgo con donaciones"
+    }
+   ]
+  }
+ },
+ {
   "tema": "política argentina",
   "score": 120.2,
   "trend_score": 32.33,
@@ -3479,17 +3861,17 @@
   "highlights": [],
   "highlights_total": 0,
   "evidence_lane": "corroborated",
-  "audio_programs": 145,
+  "audio_programs": 146,
   "chat_signals": {
-   "n_msgs": 889,
-   "n_authors": 661,
+   "n_msgs": 906,
+   "n_authors": 675,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 74,
-     "n_authors": 57,
+     "n_msgs": 77,
+     "n_authors": 59,
      "ejemplo": "@GenaroOrán El aguacate en argentina es la palta"
     },
     {
@@ -3554,8 +3936,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 74,
-     "n_authors": 57,
+     "n_msgs": 77,
+     "n_authors": 59,
      "ejemplo": "@GenaroOrán El aguacate en argentina es la palta"
     },
     {
@@ -3858,9 +4240,9 @@
     "t_seconds": 3000
    }
   ],
-  "highlights_total": 490,
+  "highlights_total": 488,
   "evidence_lane": "corroborated",
-  "audio_programs": 141,
+  "audio_programs": 142,
   "chat_signals": {
    "n_msgs": 302,
    "n_authors": 258,
@@ -4219,15 +4601,15 @@
   "evidence_lane": "corroborated",
   "audio_programs": 20,
   "chat_signals": {
-   "n_msgs": 26,
-   "n_authors": 23,
+   "n_msgs": 27,
+   "n_authors": 24,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 6,
-     "n_authors": 6,
+     "n_msgs": 7,
+     "n_authors": 7,
      "ejemplo": "no existe la figura del vocero presidencial y el secretario de presidencia es el que debe dar a conocer la agenda del presidente"
     },
     {
@@ -4292,8 +4674,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 6,
-     "n_authors": 6,
+     "n_msgs": 7,
+     "n_authors": 7,
      "ejemplo": "no existe la figura del vocero presidencial y el secretario de presidencia es el que debe dar a conocer la agenda del presidente"
     },
     {
@@ -4327,379 +4709,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "BIELSA VA DE VOCERO PRESIDENCIAL OTTO SABELO"
-    }
-   ]
-  }
- },
- {
-  "tema": "selección argentina",
-  "score": 114.5,
-  "trend_score": 30.83,
-  "menciones": 27,
-  "growth_wow": 1.0,
-  "demand_ratio": 0.0,
-  "demand_signals": 0,
-  "canales": [
-   "BLENDER",
-   "GELATINA",
-   "LUZU TV",
-   "OLGA",
-   "Vorterix"
-  ],
-  "categorias": [
-   "actividad",
-   "cultura",
-   "lugar",
-   "persona"
-  ],
-  "cross_comunidad": true,
-  "multi_dia": true,
-  "candidato": true,
-  "serie": [
-   {
-    "date": "27/06/2026",
-    "n": 15.077787412660927
-   },
-   {
-    "date": "29/06/2026",
-    "n": 60.25278522898523
-   },
-   {
-    "date": "30/06/2026",
-    "n": 39.12562290887529
-   }
-  ],
-  "gt_status": "ya_masivo",
-  "gt_lead_days": -20,
-  "gt_peak": 100,
-  "cluster": null,
-  "variantes_relacionadas": [],
-  "highlights": [
-   {
-    "channel": "LUZU TV",
-    "video_id": "I_UCBhGYGhg",
-    "title": "#LANOVELA | MANTENER MENTIRAS EN EL TIEMPO Y CARI SE TOMO UN \"TE AMO\" EN LA TAZA DE DIEGO",
-    "date": "20260603",
-    "subtema": "Selección de canción para coreografía de cumpleaños",
-    "contexto": "Discuten varias opciones musicales para armar una coreografía de cumpleaños, incluyendo 'La Cachaca', 'YMCA', 'La Morocha de Lucra' y una canción custom de 'Mili mili mili'",
-    "intensidad": 3,
-    "start_min": 10,
-    "t_seconds": 600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "Fp5-hk5vL8U",
-    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
-    "date": "20260611",
-    "subtema": "Selección de defensores para el Mundial",
-    "contexto": "Se analiza cómo las lesiones de Molina y Tagliafico impactan en las opciones defensivas, y cómo Scaloni maneja las decisiones sobre quién incluir (Senesi, Giai).",
-    "intensidad": 3,
-    "start_min": 20,
-    "t_seconds": 1200
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "LDTi8tvhNSc",
-    "title": "CÓMO SE PREPARA ARGENTINA DE CARA AL MUNDIAL | #GolGana 8/6",
-    "date": "20260608",
-    "subtema": "Selección técnica de Boca Jrs",
-    "contexto": "Debate sobre si el Vasco Arboleda es mejor opción técnica que otros candidatos como Uvea, Almirón o Diego Martínez porque no le debe nada a Riquelme",
-    "intensidad": 3,
-    "start_min": 100,
-    "t_seconds": 6000
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "KoYLJOd9qyo",
-    "title": "#FMLUZU | CRIS Y LA GURI INSPIRAN A MARGELA + LA COLUMNA DE FLACA SOBRE CABO VERDE",
-    "date": "20260623",
-    "subtema": "Selección Cabo Verde Mundial",
-    "contexto": "Análisis extenso sobre Cabo Verde como revelación del torneo, su primer mundial, jugadores convocados por LinkedIn, historias de los futbolistas",
-    "intensidad": 3,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "OMoimQeA_Ec",
-    "title": "#FMLUZU | PALPITAMOS LA PREVIA DEL MUNDIAL + LA GURI CHAPA EN VIVO",
-    "date": "20260610",
-    "subtema": "Clima mundialista y confianza en la selección",
-    "contexto": "Múltiples conversaciones sobre si hay hambre mundialista, si ganaron y ya está, confianza para la cuarta, necesidad de llevar arenga a Argentina",
-    "intensidad": 3,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "b5MhH0NHJUo",
-    "title": "#ANTESQUENADIE | ¿ESTÁ MAL COIMEAR A UN DT POR LA FELICIDAD DE TU HIJO? + EL CASO DE WALTER BULACIO",
-    "date": "20260610",
-    "subtema": "Selección de ingredientes de picada comparada con futbolistas",
-    "contexto": "Debate lúdico equiparando ingredientes de picada con posiciones de la selección argentina: queso como Messi, aceitunas como Enzo Fernández, etc.",
-    "intensidad": 3,
-    "start_min": 80,
-    "t_seconds": 4800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "Fp5-hk5vL8U",
-    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
-    "date": "20260611",
-    "subtema": "Selección de Uruguay en Mundiales",
-    "contexto": "Análisis de Uruguay como posible revelación del Mundial, con Bielsa como técnico, jugadores como Valverde y Araujo, y estado actual del equipo",
-    "intensidad": 3,
-    "start_min": 100,
-    "t_seconds": 6000
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "bX7MB2_OI2I",
-    "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-    "date": "20260623",
-    "subtema": "Renuncia de Messi a la selección (2016)",
-    "contexto": "Se repasa el momento en que Messi anuncia su retiro de la selección tras perder las finales de Copa América, con videos de su declaración",
-    "intensidad": 3,
-    "start_min": 180,
-    "t_seconds": 10800
-   },
-   {
-    "channel": "GELATINA",
-    "video_id": "-msQ0nvgnnM",
-    "title": "FILTRAN AUDIOS POLÉMICOS de ADORNI | Pedro ROSEMBLAT en INDUSTRIA NACIONAL",
-    "date": "20260630",
-    "subtema": "Selección Paraguaya - Clasificación",
-    "contexto": "Celebración del triunfo de Paraguay en un partido clasificatorio, con análisis de Gustavo Alfaro sobre los orígenes humildes del equipo",
-    "intensidad": 3,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "Fp5-hk5vL8U",
-    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
-    "date": "20260611",
-    "subtema": "Alternativas laterales izquierdos en la selección",
-    "contexto": "Se discutió sobre posibles reemplazantes de Tagliafico: Nico González (tocado), Lisandro Martínez, Facundo Medina y Barco como opciones",
-    "intensidad": 3,
-    "start_min": 0,
-    "t_seconds": 0
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "8lOkxIDSd4w",
-    "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-    "date": "20260623",
-    "subtema": "Selección de Curaçao - Mundial",
-    "contexto": "Análisis detallado de la selección de Curaçao, su clasificación histórica, primer gol en mundiales y actitud festiva en la competición",
-    "intensidad": 3,
-    "start_min": 60,
-    "t_seconds": 3600
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "aeyaHqA4ByI",
-    "title": "#NADIEDICENADA | ¿FLOR SE INDIGNÓ CON UNA OYENTE? Y TODOS NOS PREPARAMOS PARA MIAMI Y EL MUNDIAL",
-    "date": "20260611",
-    "subtema": "Selección de Cabo Verde en el Mundial",
-    "contexto": "Plan de bancar a Cabo Verde como equipo B del stream, viajar a Miami para cubrir entrenamientos y llevar productos argentinos",
-    "intensidad": 3,
-    "start_min": 90,
-    "t_seconds": 5400
-   },
-   {
-    "channel": "GELATINA",
-    "video_id": "vlNZMMmBbLw",
-    "title": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
-    "date": "20260629",
-    "subtema": "Selección de Cabo Verde - análisis y sorpresa",
-    "contexto": "Cabo Verde como sorpresa del Mundial, 15 partidos sin perder (solo 1 derrota vs Chile), cuarto finalista Copa de África 2024",
-    "intensidad": 3,
-    "start_min": 140,
-    "t_seconds": 8400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "KSHRnYRkhNI",
-    "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
-    "date": "20260630",
-    "subtema": "Conflicto de Papu Gómez con Messi y la selección",
-    "contexto": "Se analiza cómo Papu fue apartado de la selección, posible enemistad con Messi y grupo de jugadores como Di María y Paredes",
-    "intensidad": 3,
-    "start_min": 50,
-    "t_seconds": 3000
-   },
-   {
-    "channel": "BLENDER",
-    "video_id": "Iii3dqMJvwQ",
-    "title": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
-    "date": "20260629",
-    "subtema": "Marcelo Bielsa y Selección Uruguay",
-    "contexto": "Análisis crítico sobre el rendimiento de Uruguay con Bielsa, conferencia de prensa prevista y posible salida del técnico",
-    "intensidad": 3,
-    "start_min": 60,
-    "t_seconds": 3600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "KSHRnYRkhNI",
-    "title": "ALEMANIA YA NO ES EL GIGANTE QUE SUPO SER | #GolGana 30/6",
-    "date": "20260630",
-    "subtema": "Formación de equipos y selección de jugadores",
-    "contexto": "Debate sobre cómo se arman los equipos en partidos de fútbol reducido, criterios de inclusión y exclusión de jugadores",
-    "intensidad": 3,
-    "start_min": 40,
-    "t_seconds": 2400
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "Fp5-hk5vL8U",
-    "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
-    "date": "20260611",
-    "subtema": "Lisandro Martínez como lateral izquierdo de la selección",
-    "contexto": "Análisis de Lisandro Martínez como posible reemplazante de Tagliafico en el puesto de 3, comparando técnica y defensa",
-    "intensidad": 3,
-    "start_min": 10,
-    "t_seconds": 600
-   },
-   {
-    "channel": "Vorterix",
-    "video_id": "FYdwwoHNrMs",
-    "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
-    "date": "20260626",
-    "subtema": "Marcelo Bielsa y conflicto en selección Uruguay",
-    "contexto": "Discusión sobre reunión entre jugadores y Bielsa, pedido de jugar en bloque bajo vs espejo, filtraciones a prensa",
-    "intensidad": 3,
-    "start_min": 30,
-    "t_seconds": 1800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "NKhi31a86K8",
-    "title": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
-    "date": "20260623",
-    "subtema": "Inclusión de Suárez en selección Uruguay",
-    "contexto": "Debate sobre si Bielsa debe convocar a Luis Suárez para los partidos contra España y si puede jugar 10-15 minutos",
-    "intensidad": 3,
-    "start_min": 10,
-    "t_seconds": 600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "LDTi8tvhNSc",
-    "title": "CÓMO SE PREPARA ARGENTINA DE CARA AL MUNDIAL | #GolGana 8/6",
-    "date": "20260608",
-    "subtema": "Selección de Brasil y su candidatura al Mundial",
-    "contexto": "Análisis extenso sobre Brasil como candidato, su técnico Ancelotti, Neymar, Vinicius Junior y otros jugadores",
-    "intensidad": 3,
-    "start_min": 60,
-    "t_seconds": 3600
-   }
-  ],
-  "highlights_total": 77,
-  "evidence_lane": "corroborated",
-  "audio_programs": 145,
-  "chat_signals": {
-   "n_msgs": 850,
-   "n_authors": 636,
-   "programs": [
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 67,
-     "n_authors": 52,
-     "ejemplo": "@GenaroOrán El aguacate en argentina es la palta"
-    },
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 48,
-     "n_authors": 37,
-     "ejemplo": "cobarde presento La renuncia cuando se jugaba el partido de Argentina"
-    },
-    {
-     "video_id": "1KdxLdm_3K0",
-     "channel": "Urbana Play 104.3 FM",
-     "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
-     "n_msgs": 43,
-     "n_authors": 34,
-     "ejemplo": "tenemos una historia común, sé que en Argentina hubo otras olas migratorias europeas posteriores, pero igual en Brasil, en Uruguay, en Colom ia y en México"
-    },
-    {
-     "video_id": "8XGdbbwUjEQ",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 33,
-     "n_authors": 25,
-     "ejemplo": "que venga a la argentina a manejar el coso ese... 3 cuadras dura"
-    },
-    {
-     "video_id": "FYdwwoHNrMs",
-     "channel": "Vorterix",
-     "title": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
-     "n_msgs": 27,
-     "n_authors": 23,
-     "ejemplo": "COMPLETAMENTE GRABADO, LOS MUCHACHOS ESTAN EN ARGENTINA EN ESTOS MOMENTOS"
-    },
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 23,
-     "n_authors": 22,
-     "ejemplo": "SI, SI.. ARGENTINA DONDE GANAN VOTACIONES Y NADIE SE HACE CARGO LO QUE VOTA.. HSDPS"
-    },
-    {
-     "video_id": "nOx1je3BA2o",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 26,
-     "n_authors": 17,
-     "ejemplo": "Que se juega Milei, realmente los títulos de este programa y los este canal los hacén por sorteo, Milei lleva a la argentina a la era de piedra y vos decís que "
-    },
-    {
-     "video_id": "NHt6oqHZYd0",
-     "channel": "GELATINA",
-     "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
-     "n_msgs": 17,
-     "n_authors": 15,
-     "ejemplo": "Argentina vs Cabo verde en unos dias"
-    }
-   ],
-   "chat_only_programs": [
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 67,
-     "n_authors": 52,
-     "ejemplo": "@GenaroOrán El aguacate en argentina es la palta"
-    },
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 48,
-     "n_authors": 37,
-     "ejemplo": "cobarde presento La renuncia cuando se jugaba el partido de Argentina"
-    },
-    {
-     "video_id": "8XGdbbwUjEQ",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 33,
-     "n_authors": 25,
-     "ejemplo": "que venga a la argentina a manejar el coso ese... 3 cuadras dura"
-    },
-    {
-     "video_id": "nOx1je3BA2o",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 26,
-     "n_authors": 17,
-     "ejemplo": "Que se juega Milei, realmente los títulos de este programa y los este canal los hacén por sorteo, Milei lleva a la argentina a la era de piedra y vos decís que "
     }
    ]
   }
@@ -4973,12 +4982,12 @@
     "t_seconds": 600
    }
   ],
-  "highlights_total": 332,
+  "highlights_total": 334,
   "evidence_lane": "corroborated",
-  "audio_programs": 141,
+  "audio_programs": 142,
   "chat_signals": {
-   "n_msgs": 677,
-   "n_authors": 529,
+   "n_msgs": 687,
+   "n_authors": 536,
    "programs": [
     {
      "video_id": "8XGdbbwUjEQ",
@@ -5275,10 +5284,10 @@
   ],
   "highlights_total": 13,
   "evidence_lane": "corroborated",
-  "audio_programs": 64,
+  "audio_programs": 65,
   "chat_signals": {
-   "n_msgs": 176,
-   "n_authors": 145,
+   "n_msgs": 183,
+   "n_authors": 151,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -5295,6 +5304,14 @@
      "n_msgs": 12,
      "n_authors": 9,
      "ejemplo": "La sra. P. Bullrich tiene un conocido prontuario represivo y de participación en gobiernos de derecha y ultraderecha fracasados."
+    },
+    {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 12,
+     "n_authors": 9,
+     "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
     },
     {
      "video_id": "3QJmfDvuxIk",
@@ -5319,14 +5336,6 @@
      "n_msgs": 10,
      "n_authors": 8,
      "ejemplo": "en serio con la tragedia de venezuela le van a bajar linea politica ??????"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 10,
-     "n_authors": 7,
-     "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
     },
     {
      "video_id": "e3av_6yqgHg",
@@ -5355,6 +5364,14 @@
      "ejemplo": "95% ensobrados y laburando para la política"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 12,
+     "n_authors": 9,
+     "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
+    },
+    {
      "video_id": "3QJmfDvuxIk",
      "channel": "OLGA",
      "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
@@ -5377,14 +5394,6 @@
      "n_msgs": 10,
      "n_authors": 8,
      "ejemplo": "en serio con la tragedia de venezuela le van a bajar linea politica ??????"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 10,
-     "n_authors": 7,
-     "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
     }
    ]
   }
@@ -5899,6 +5908,17 @@
     "t_seconds": 3600
    },
    {
+    "channel": " A U R A ",
+    "video_id": "bZUZnVsCn5M",
+    "title": "ANALIZAMOS A FONDO A \"CABO VERDE\", EL PRÓXIMO RIVAL DE LA SELECCIÓN l #hoycomosiempre - 01/06/26",
+    "date": "20260630",
+    "subtema": "Actuación y cine en boxeo infantil",
+    "contexto": "Director observa que el boxeo ya era película en sí mismo con estructura de tres actos, personajes, antagonista, similar a narrativa cinematográfica",
+    "intensidad": 2,
+    "start_min": 80,
+    "t_seconds": 4800
+   },
+   {
     "channel": "OLGA",
     "video_id": "aXeHcoK3RFw",
     "title": "EL JUEGO MÁS TIERNO: LOS PERRITOS SON LAVA | #TapadosDeLaburo 9/6",
@@ -5941,25 +5961,14 @@
     "intensidad": 2,
     "start_min": 110,
     "t_seconds": 6600
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "GgeocOAEm7o",
-    "title": "NOE CUSTODIO ES LA MEJOR JUGADORA de “EN UNA ESCENA” | #TapadosDeLaburo 1/6",
-    "date": "20260601",
-    "subtema": "conocimiento de cine y televisión",
-    "contexto": "Se debate sobre el nivel de cultura cinematográfica de los participantes, con menciones a que no conocen muchas películas de comedia",
-    "intensidad": 2,
-    "start_min": 80,
-    "t_seconds": 4800
    }
   ],
-  "highlights_total": 46,
+  "highlights_total": 47,
   "evidence_lane": "corroborated",
-  "audio_programs": 24,
+  "audio_programs": 25,
   "chat_signals": {
-   "n_msgs": 108,
-   "n_authors": 89,
+   "n_msgs": 111,
+   "n_authors": 92,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -5981,8 +5990,8 @@
      "video_id": "p6DntkKAWNc",
      "channel": "?",
      "title": "",
-     "n_msgs": 6,
-     "n_authors": 6,
+     "n_msgs": 8,
+     "n_authors": 8,
      "ejemplo": "REVEAN ESTO ES CINE"
     },
     {
@@ -6039,8 +6048,8 @@
      "video_id": "p6DntkKAWNc",
      "channel": "?",
      "title": "",
-     "n_msgs": 6,
-     "n_authors": 6,
+     "n_msgs": 8,
+     "n_authors": 8,
      "ejemplo": "REVEAN ESTO ES CINE"
     },
     {
@@ -6325,12 +6334,12 @@
     "t_seconds": 3600
    }
   ],
-  "highlights_total": 210,
+  "highlights_total": 211,
   "evidence_lane": "corroborated",
-  "audio_programs": 109,
+  "audio_programs": 110,
   "chat_signals": {
-   "n_msgs": 281,
-   "n_authors": 243,
+   "n_msgs": 288,
+   "n_authors": 250,
    "programs": [
     {
      "video_id": "zpbJ8ju9xmk",
@@ -6357,6 +6366,14 @@
      "ejemplo": "el pisco es peruano aca y en la china"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 11,
+     "n_authors": 10,
+     "ejemplo": "te hare caso @lolaespinel"
+    },
+    {
      "video_id": "0_ua1dXLT5o",
      "channel": "?",
      "title": "",
@@ -6387,14 +6404,6 @@
      "n_msgs": 9,
      "n_authors": 8,
      "ejemplo": "Camí entendé que todo esté viaje es gracias a Martí y sus videos"
-    },
-    {
-     "video_id": "z11vyvt5tuM",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 8,
-     "n_authors": 8,
-     "ejemplo": "yo agarro viaje"
     }
    ],
    "chat_only_programs": [
@@ -6407,6 +6416,14 @@
      "ejemplo": "el pisco es peruano aca y en la china"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 11,
+     "n_authors": 10,
+     "ejemplo": "te hare caso @lolaespinel"
+    },
+    {
      "video_id": "0_ua1dXLT5o",
      "channel": "?",
      "title": "",
@@ -6429,14 +6446,6 @@
      "n_msgs": 9,
      "n_authors": 8,
      "ejemplo": "agarró viaje andy jaja"
-    },
-    {
-     "video_id": "O6sOwvMbRBU",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 9,
-     "n_authors": 8,
-     "ejemplo": "Camí entendé que todo esté viaje es gracias a Martí y sus videos"
     }
    ]
   }
@@ -6700,10 +6709,10 @@
   ],
   "highlights_total": 34,
   "evidence_lane": "corroborated",
-  "audio_programs": 64,
+  "audio_programs": 65,
   "chat_signals": {
-   "n_msgs": 147,
-   "n_authors": 132,
+   "n_msgs": 149,
+   "n_authors": 134,
    "programs": [
     {
      "video_id": "e3av_6yqgHg",
@@ -7098,12 +7107,12 @@
     "t_seconds": 1800
    }
   ],
-  "highlights_total": 115,
+  "highlights_total": 116,
   "evidence_lane": "corroborated",
-  "audio_programs": 53,
+  "audio_programs": 54,
   "chat_signals": {
-   "n_msgs": 296,
-   "n_authors": 238,
+   "n_msgs": 300,
+   "n_authors": 241,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -7324,10 +7333,10 @@
   ],
   "highlights_total": 6,
   "evidence_lane": "corroborated",
-  "audio_programs": 55,
+  "audio_programs": 56,
   "chat_signals": {
-   "n_msgs": 302,
-   "n_authors": 244,
+   "n_msgs": 306,
+   "n_authors": 247,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -7649,6 +7658,17 @@
     "t_seconds": 3000
    },
    {
+    "channel": " A U R A ",
+    "video_id": "bZUZnVsCn5M",
+    "title": "ANALIZAMOS A FONDO A \"CABO VERDE\", EL PRÓXIMO RIVAL DE LA SELECCIÓN l #hoycomosiempre - 01/06/26",
+    "date": "20260630",
+    "subtema": "Islas Malvinas - Reclamo Argentino",
+    "contexto": "Discusión sobre estrategia argentina en Naciones Unidas, Comité de Descolonización, y negociaciones con Reino Unido",
+    "intensidad": 3,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
     "channel": "Neura Media",
     "video_id": "Mbk0Mff3g0c",
     "title": "Ramón Agote y Mauro Fiorenzano en Cash is King: Alejo Rodríguez Cacio - 30/06",
@@ -7691,25 +7711,14 @@
     "intensidad": 3,
     "start_min": 10,
     "t_seconds": 600
-   },
-   {
-    "channel": "AHORA PLAY",
-    "video_id": "5MQlAWC2UPg",
-    "title": "MILEI: \"ESTAMOS HIPER BLINDADOS\". ALERTA: MOROSIDAD CRÉDITO RÉCORD I Maxi Montenegro #MaxiMediodía",
-    "date": "20260630",
-    "subtema": "Sistema financiero argentino",
-    "contexto": "Discusión sobre cómo los bancos pasaron de ser mesa de dinero a colocar créditos al sector privado",
-    "intensidad": 3,
-    "start_min": 60,
-    "t_seconds": 3600
    }
   ],
-  "highlights_total": 76,
+  "highlights_total": 77,
   "evidence_lane": "corroborated",
-  "audio_programs": 86,
+  "audio_programs": 87,
   "chat_signals": {
-   "n_msgs": 271,
-   "n_authors": 223,
+   "n_msgs": 279,
+   "n_authors": 228,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -7731,9 +7740,17 @@
      "video_id": "p6DntkKAWNc",
      "channel": "?",
      "title": "",
-     "n_msgs": 11,
-     "n_authors": 9,
+     "n_msgs": 13,
+     "n_authors": 11,
      "ejemplo": "REVEAN ESTO ES CINE"
+    },
+    {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 9,
+     "n_authors": 8,
+     "ejemplo": "el argentino reniega de lo q es"
     },
     {
      "video_id": "JNLpggdieek",
@@ -7766,14 +7783,6 @@
      "n_msgs": 9,
      "n_authors": 7,
      "ejemplo": "y adorni se le eescapo a los publicitando actron para poner el argentino más rápido.?"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 8,
-     "n_authors": 7,
-     "ejemplo": "el argentino reniega de lo q es"
     }
    ],
    "chat_only_programs": [
@@ -7789,9 +7798,17 @@
      "video_id": "p6DntkKAWNc",
      "channel": "?",
      "title": "",
-     "n_msgs": 11,
-     "n_authors": 9,
+     "n_msgs": 13,
+     "n_authors": 11,
      "ejemplo": "REVEAN ESTO ES CINE"
+    },
+    {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 9,
+     "n_authors": 8,
+     "ejemplo": "el argentino reniega de lo q es"
     },
     {
      "video_id": "mNBPDZhUOf8",
@@ -7808,14 +7825,6 @@
      "n_msgs": 10,
      "n_authors": 7,
      "ejemplo": "HACE 39 AÑOS NACIÓ ESE ARGENTINO EXTRAORDINARIO"
-    },
-    {
-     "video_id": "8XGdbbwUjEQ",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 9,
-     "n_authors": 7,
-     "ejemplo": "y adorni se le eescapo a los publicitando actron para poner el argentino más rápido.?"
     }
    ]
   }
@@ -8089,9 +8098,17 @@
   "evidence_lane": "corroborated",
   "audio_programs": 46,
   "chat_signals": {
-   "n_msgs": 1421,
-   "n_authors": 955,
+   "n_msgs": 1446,
+   "n_authors": 974,
    "programs": [
+    {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 82,
+     "n_authors": 69,
+     "ejemplo": "el gobierno desperdigo odio para todos lados y los medios colonizaron la cabeza de la gente"
+    },
     {
      "video_id": "bYaixTloEdo",
      "channel": "?",
@@ -8099,14 +8116,6 @@
      "n_msgs": 93,
      "n_authors": 68,
      "ejemplo": "buenos diasssss .. se va junio... se fue adorni"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 81,
-     "n_authors": 68,
-     "ejemplo": "el gobierno desperdigo odio para todos lados y los medios colonizaron la cabeza de la gente"
     },
     {
      "video_id": "0_ua1dXLT5o",
@@ -8159,20 +8168,20 @@
    ],
    "chat_only_programs": [
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 82,
+     "n_authors": 69,
+     "ejemplo": "el gobierno desperdigo odio para todos lados y los medios colonizaron la cabeza de la gente"
+    },
+    {
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
      "n_msgs": 93,
      "n_authors": 68,
      "ejemplo": "buenos diasssss .. se va junio... se fue adorni"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 81,
-     "n_authors": 68,
-     "ejemplo": "el gobierno desperdigo odio para todos lados y los medios colonizaron la cabeza de la gente"
     },
     {
      "video_id": "0_ua1dXLT5o",
@@ -8413,6 +8422,17 @@
     "t_seconds": 600
    },
    {
+    "channel": " A U R A ",
+    "video_id": "bZUZnVsCn5M",
+    "title": "ANALIZAMOS A FONDO A \"CABO VERDE\", EL PRÓXIMO RIVAL DE LA SELECCIÓN l #hoycomosiempre - 01/06/26",
+    "date": "20260630",
+    "subtema": "Comida venezolana",
+    "contexto": "Se menciona preparación de arepas, cachitos (pancito relleno de jamón) y otros platos para alimentar a afectados",
+    "intensidad": 2,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
     "channel": "OLGA",
     "video_id": "0SzxfcU-x6w",
     "title": "LUCAS SE OFENDE Y ABANDONA OLGA | #SoñéQueVolaba 3/6",
@@ -8444,25 +8464,14 @@
     "intensidad": 2,
     "start_min": 80,
     "t_seconds": 4800
-   },
-   {
-    "channel": "OLGA",
-    "video_id": "7KuEaYSYRj8",
-    "title": "ÍDOLO POPULAR: DESPEDIMOS al INDIO con USTEDES | #SoñéQueVolaba 5/6",
-    "date": "20260605",
-    "subtema": "Comida jujeña",
-    "contexto": "Se mencionan locro, picantes, tamales, humitas como parte de la gastronomía de San Salvador de Jujuy",
-    "intensidad": 2,
-    "start_min": 110,
-    "t_seconds": 6600
    }
   ],
-  "highlights_total": 53,
+  "highlights_total": 54,
   "evidence_lane": "corroborated",
-  "audio_programs": 45,
+  "audio_programs": 46,
   "chat_signals": {
-   "n_msgs": 253,
-   "n_authors": 213,
+   "n_msgs": 255,
+   "n_authors": 215,
    "programs": [
     {
      "video_id": "zpbJ8ju9xmk",
@@ -8568,11 +8577,11 @@
  {
   "tema": "fútbol argentino",
   "score": 40.9,
-  "trend_score": 28.56,
+  "trend_score": 29.6,
   "menciones": 12,
   "growth_wow": 1.0,
-  "demand_ratio": 0.0,
-  "demand_signals": 0,
+  "demand_ratio": 0.083,
+  "demand_signals": 1,
   "canales": [
    " A U R A ",
    "BLENDER",
@@ -8617,10 +8626,10 @@
   "highlights": [],
   "highlights_total": 0,
   "evidence_lane": "corroborated",
-  "audio_programs": 148,
+  "audio_programs": 149,
   "chat_signals": {
-   "n_msgs": 449,
-   "n_authors": 377,
+   "n_msgs": 454,
+   "n_authors": 379,
    "programs": [
     {
      "video_id": "IB9cCJT0-_M",
@@ -8979,10 +8988,10 @@
   ],
   "highlights_total": 76,
   "evidence_lane": "corroborated",
-  "audio_programs": 85,
+  "audio_programs": 86,
   "chat_signals": {
-   "n_msgs": 159,
-   "n_authors": 139,
+   "n_msgs": 160,
+   "n_authors": 140,
    "programs": [
     {
      "video_id": "JXVQmuDctII",
@@ -9738,8 +9747,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 39,
   "chat_signals": {
-   "n_msgs": 81,
-   "n_authors": 66,
+   "n_msgs": 84,
+   "n_authors": 67,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -9774,6 +9783,14 @@
      "ejemplo": "para q ponen un streaming que es para q sea visual sino pueden poner nada"
     },
     {
+     "video_id": "p6DntkKAWNc",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 3,
+     "ejemplo": "Invertir en algo, hacerse un canal de streaming"
+    },
+    {
      "video_id": "NHt6oqHZYd0",
      "channel": "GELATINA",
      "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
@@ -9796,14 +9813,6 @@
      "n_msgs": 4,
      "n_authors": 2,
      "ejemplo": "en el streaming con Davo de anoche se ve como Edul le pide a alguien que esta a su lado en su habitacion que no hable..... hmmmmm"
-    },
-    {
-     "video_id": "WOYbd42V47w",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "Creo que Flor Peña no es consciente de los daños colaterales que le puede traer si activa el juicio a nivel opinion publica y aceptacion del publico que consume"
     }
    ],
    "chat_only_programs": [
@@ -9824,6 +9833,14 @@
      "ejemplo": "para q ponen un streaming que es para q sea visual sino pueden poner nada"
     },
     {
+     "video_id": "p6DntkKAWNc",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 3,
+     "ejemplo": "Invertir en algo, hacerse un canal de streaming"
+    },
+    {
      "video_id": "NHt6oqHZYd0",
      "channel": "GELATINA",
      "title": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
@@ -9838,14 +9855,6 @@
      "n_msgs": 3,
      "n_authors": 3,
      "ejemplo": "Aguante el streaming"
-    },
-    {
-     "video_id": "WOYbd42V47w",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "Creo que Flor Peña no es consciente de los daños colaterales que le puede traer si activa el juicio a nivel opinion publica y aceptacion del publico que consume"
     }
    ]
   }
@@ -10121,8 +10130,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 23,
   "chat_signals": {
-   "n_msgs": 257,
-   "n_authors": 218,
+   "n_msgs": 260,
+   "n_authors": 221,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -10136,8 +10145,8 @@
      "video_id": "p6DntkKAWNc",
      "channel": "?",
      "title": "",
-     "n_msgs": 19,
-     "n_authors": 19,
+     "n_msgs": 22,
+     "n_authors": 22,
      "ejemplo": "cuando no tenia ni agua caliente"
     },
     {
@@ -10194,8 +10203,8 @@
      "video_id": "p6DntkKAWNc",
      "channel": "?",
      "title": "",
-     "n_msgs": 19,
-     "n_authors": 19,
+     "n_msgs": 22,
+     "n_authors": 22,
      "ejemplo": "cuando no tenia ni agua caliente"
     },
     {
@@ -10501,8 +10510,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 118,
   "chat_signals": {
-   "n_msgs": 1390,
-   "n_authors": 1100,
+   "n_msgs": 1402,
+   "n_authors": 1108,
    "programs": [
     {
      "video_id": "bX7MB2_OI2I",
@@ -11628,10 +11637,10 @@
   ],
   "highlights_total": 35,
   "evidence_lane": "corroborated",
-  "audio_programs": 34,
+  "audio_programs": 35,
   "chat_signals": {
-   "n_msgs": 54,
-   "n_authors": 48,
+   "n_msgs": 57,
+   "n_authors": 51,
    "programs": [
     {
      "video_id": "EPCfCkglZWA",
@@ -11690,12 +11699,12 @@
      "ejemplo": "el argentino está acostumbrado a querer ser millonario en dos días, no hay controles sobre los precios alimenticio, en alquileres y demás"
     },
     {
-     "video_id": "XOwNclEqByk",
-     "channel": "Futurock FM",
-     "title": "DEBUTÓ EL NUEVO ADORNI Y SE VIENE JULIO DE AUMENTOS | TOTAL NORMALIDAD",
+     "video_id": "X3RKtsI0UNg",
+     "channel": "?",
+     "title": "",
      "n_msgs": 2,
      "n_authors": 2,
-     "ejemplo": "tienen que empezar a hablar en precios del resto del país. en santa fe pagamos entre 2100 y 3000 pesos un boleto"
+     "ejemplo": "al consumidor; al normalizarse el crudo global, YPF mantiene los precios estables para recuperar el margen cedido antes de aplicar bajas directas"
     }
    ],
    "chat_only_programs": [
@@ -11874,10 +11883,10 @@
   ],
   "highlights_total": 8,
   "evidence_lane": "corroborated",
-  "audio_programs": 87,
+  "audio_programs": 88,
   "chat_signals": {
-   "n_msgs": 465,
-   "n_authors": 382,
+   "n_msgs": 474,
+   "n_authors": 389,
    "programs": [
     {
      "video_id": "8lOkxIDSd4w",
@@ -11923,8 +11932,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 14,
-     "n_authors": 13,
+     "n_msgs": 16,
+     "n_authors": 15,
      "ejemplo": "El mejor programa del mundo"
     },
     {
@@ -11957,8 +11966,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 14,
-     "n_authors": 13,
+     "n_msgs": 16,
+     "n_authors": 15,
      "ejemplo": "El mejor programa del mundo"
     },
     {
@@ -12639,8 +12648,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 16,
   "chat_signals": {
-   "n_msgs": 18,
-   "n_authors": 15,
+   "n_msgs": 19,
+   "n_authors": 16,
    "programs": [
     {
      "video_id": "XHV2BV9DWMs",
@@ -12689,6 +12698,14 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "con el mundial te das cuenta la maldad que hay... llega hasta el millón y millones y millones y millones en estadios qué nos sirve para un c*** mientras hay chi"
+    },
+    {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "Yo vivi acoso psicologico, hasta que me golpeo... son estadios del mismo proceso"
     }
    ],
    "chat_only_programs": [
@@ -13000,8 +13017,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 17,
   "chat_signals": {
-   "n_msgs": 150,
-   "n_authors": 124,
+   "n_msgs": 151,
+   "n_authors": 125,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -13367,9 +13384,9 @@
     "t_seconds": 7800
    }
   ],
-  "highlights_total": 25,
+  "highlights_total": 26,
   "evidence_lane": "corroborated",
-  "audio_programs": 22,
+  "audio_programs": 23,
   "chat_signals": {
    "n_msgs": 20,
    "n_authors": 19,
@@ -13748,8 +13765,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 29,
   "chat_signals": {
-   "n_msgs": 58,
-   "n_authors": 52,
+   "n_msgs": 61,
+   "n_authors": 55,
    "programs": [
     {
      "video_id": "z11vyvt5tuM",
@@ -14497,12 +14514,12 @@
     "t_seconds": 7200
    }
   ],
-  "highlights_total": 39,
+  "highlights_total": 40,
   "evidence_lane": "corroborated",
-  "audio_programs": 59,
+  "audio_programs": 60,
   "chat_signals": {
-   "n_msgs": 186,
-   "n_authors": 153,
+   "n_msgs": 193,
+   "n_authors": 159,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -14519,6 +14536,14 @@
      "n_msgs": 12,
      "n_authors": 9,
      "ejemplo": "NINGUN REINICIO DE UNA CLASE POLITICA MAFIOSA . SAQUEAN AL PUEBLO ARGENTINO"
+    },
+    {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 12,
+     "n_authors": 9,
+     "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
     },
     {
      "video_id": "3QJmfDvuxIk",
@@ -14543,14 +14568,6 @@
      "n_msgs": 13,
      "n_authors": 7,
      "ejemplo": "el colorado es mega rico pre politica muchachos. informense"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 10,
-     "n_authors": 7,
-     "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
     },
     {
      "video_id": "e3av_6yqgHg",
@@ -14579,6 +14596,14 @@
      "ejemplo": "95% ensobrados y laburando para la política"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 12,
+     "n_authors": 9,
+     "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
+    },
+    {
      "video_id": "3QJmfDvuxIk",
      "channel": "OLGA",
      "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
@@ -14601,14 +14626,6 @@
      "n_msgs": 13,
      "n_authors": 7,
      "ejemplo": "el colorado es mega rico pre politica muchachos. informense"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 10,
-     "n_authors": 7,
-     "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
     }
    ]
   }
@@ -14887,8 +14904,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 66,
   "chat_signals": {
-   "n_msgs": 138,
-   "n_authors": 110,
+   "n_msgs": 140,
+   "n_authors": 112,
    "programs": [
     {
      "video_id": "qLQFv3bGuhA",
@@ -15649,8 +15666,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 32,
   "chat_signals": {
-   "n_msgs": 70,
-   "n_authors": 60,
+   "n_msgs": 72,
+   "n_authors": 62,
    "programs": [
     {
      "video_id": "O6sOwvMbRBU",
@@ -15802,10 +15819,10 @@
   "highlights": [],
   "highlights_total": 0,
   "evidence_lane": "corroborated",
-  "audio_programs": 151,
+  "audio_programs": 152,
   "chat_signals": {
-   "n_msgs": 900,
-   "n_authors": 694,
+   "n_msgs": 909,
+   "n_authors": 700,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -16098,15 +16115,15 @@
   "evidence_lane": "corroborated",
   "audio_programs": 13,
   "chat_signals": {
-   "n_msgs": 244,
-   "n_authors": 174,
+   "n_msgs": 245,
+   "n_authors": 175,
    "programs": [
     {
      "video_id": "p6DntkKAWNc",
      "channel": "?",
      "title": "",
-     "n_msgs": 38,
-     "n_authors": 24,
+     "n_msgs": 39,
+     "n_authors": 25,
      "ejemplo": "BIELSA VIENDO EL PARTIDO DE ARGENTINA"
     },
     {
@@ -16171,8 +16188,8 @@
      "video_id": "p6DntkKAWNc",
      "channel": "?",
      "title": "",
-     "n_msgs": 38,
-     "n_authors": 24,
+     "n_msgs": 39,
+     "n_authors": 25,
      "ejemplo": "BIELSA VIENDO EL PARTIDO DE ARGENTINA"
     },
     {
@@ -16421,9 +16438,17 @@
   "evidence_lane": "corroborated",
   "audio_programs": 23,
   "chat_signals": {
-   "n_msgs": 22,
-   "n_authors": 22,
+   "n_msgs": 24,
+   "n_authors": 24,
    "programs": [
+    {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "estos outsider llegan a presidente porque al principio no hacen alianza con ningún partido le hablan a la gente, entonces no hay que hacer alianza políticas hay"
+    },
     {
      "video_id": "Lm6Db-SEA0M",
      "channel": "OLGA",
@@ -16431,14 +16456,6 @@
      "n_msgs": 3,
      "n_authors": 3,
      "ejemplo": "no tienen recursos... infraestructura, políticas públicas sanas y siempre la culpa la tiene un tercero. es un desastre natural pero el socialismo es responsable"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "estos outsider llegan a presidente porque al principio no hacen alianza con ningún partido le hablan a la gente, entonces no hay que hacer alianza políticas hay"
     },
     {
      "video_id": "hc54LIYnMoE",
@@ -16491,20 +16508,20 @@
    ],
    "chat_only_programs": [
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "estos outsider llegan a presidente porque al principio no hacen alianza con ningún partido le hablan a la gente, entonces no hay que hacer alianza políticas hay"
+    },
+    {
      "video_id": "Lm6Db-SEA0M",
      "channel": "OLGA",
      "title": "SOÑAMOS QUE CAZAMOS UTOPÍAS IMPOSIBLES | #SoñéQueVolaba 30/6",
      "n_msgs": 3,
      "n_authors": 3,
      "ejemplo": "no tienen recursos... infraestructura, políticas públicas sanas y siempre la culpa la tiene un tercero. es un desastre natural pero el socialismo es responsable"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "estos outsider llegan a presidente porque al principio no hacen alianza con ningún partido le hablan a la gente, entonces no hay que hacer alianza políticas hay"
     },
     {
      "video_id": "hc54LIYnMoE",
@@ -16795,8 +16812,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 22,
   "chat_signals": {
-   "n_msgs": 99,
-   "n_authors": 86,
+   "n_msgs": 104,
+   "n_authors": 89,
    "programs": [
     {
      "video_id": "8lOkxIDSd4w",
@@ -16810,8 +16827,8 @@
      "video_id": "HA1dexnR7Ng",
      "channel": "?",
      "title": "",
-     "n_msgs": 21,
-     "n_authors": 18,
+     "n_msgs": 26,
+     "n_authors": 21,
      "ejemplo": "uuuhhhh ya arrancaron con el mundialito lpm"
     },
     {
@@ -16868,8 +16885,8 @@
      "video_id": "HA1dexnR7Ng",
      "channel": "?",
      "title": "",
-     "n_msgs": 21,
-     "n_authors": 18,
+     "n_msgs": 26,
+     "n_authors": 21,
      "ejemplo": "uuuhhhh ya arrancaron con el mundialito lpm"
     },
     {
@@ -17302,6 +17319,17 @@
     "t_seconds": 4200
    },
    {
+    "channel": " A U R A ",
+    "video_id": "bZUZnVsCn5M",
+    "title": "ANALIZAMOS A FONDO A \"CABO VERDE\", EL PRÓXIMO RIVAL DE LA SELECCIÓN l #hoycomosiempre - 01/06/26",
+    "date": "20260630",
+    "subtema": "Obstáculos en distribución de ayuda",
+    "contexto": "Se mencionan trabas gubernamentales, militares que frenan donaciones y dificultades para que la ayuda llegue a los necesitados",
+    "intensidad": 2,
+    "start_min": 40,
+    "t_seconds": 2400
+   },
+   {
     "channel": "OLGA",
     "video_id": "Fp5-hk5vL8U",
     "title": "DETIENEN A SEBA EN ESTADOS UNIDOS | #GolGana 11/6",
@@ -17412,12 +17440,12 @@
     "t_seconds": 4200
    }
   ],
-  "highlights_total": 18,
+  "highlights_total": 19,
   "evidence_lane": "corroborated",
-  "audio_programs": 26,
+  "audio_programs": 27,
   "chat_signals": {
-   "n_msgs": 142,
-   "n_authors": 124,
+   "n_msgs": 145,
+   "n_authors": 127,
    "programs": [
     {
      "video_id": "Lm6Db-SEA0M",
@@ -17476,12 +17504,12 @@
      "ejemplo": "eeuu solo mando un equipo de ayuda"
     },
     {
-     "video_id": "W_HkPNOMeDc",
-     "channel": "OLGA",
-     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
      "n_msgs": 5,
      "n_authors": 5,
-     "ejemplo": "LIKEEEE QUE LES AYUDA"
+     "ejemplo": "Vamos la música! Que nos ayuda a levantarnos"
     }
    ],
    "chat_only_programs": [
@@ -18469,9 +18497,17 @@
   "evidence_lane": "corroborated",
   "audio_programs": 15,
   "chat_signals": {
-   "n_msgs": 104,
-   "n_authors": 92,
+   "n_msgs": 106,
+   "n_authors": 94,
    "programs": [
+    {
+     "video_id": "HA1dexnR7Ng",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 13,
+     "n_authors": 12,
+     "ejemplo": "como lo adelanto hasta la ssección de los audios de las ex de luqui?"
+    },
     {
      "video_id": "mNBPDZhUOf8",
      "channel": "GELATINA",
@@ -18479,14 +18515,6 @@
      "n_msgs": 13,
      "n_authors": 10,
      "ejemplo": "uh vi q salieron audios pero no los escuché"
-    },
-    {
-     "video_id": "HA1dexnR7Ng",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 11,
-     "n_authors": 10,
-     "ejemplo": "como lo adelanto hasta la ssección de los audios de las ex de luqui?"
     },
     {
      "video_id": "zpbJ8ju9xmk",
@@ -18542,8 +18570,8 @@
      "video_id": "HA1dexnR7Ng",
      "channel": "?",
      "title": "",
-     "n_msgs": 11,
-     "n_authors": 10,
+     "n_msgs": 13,
+     "n_authors": 12,
      "ejemplo": "como lo adelanto hasta la ssección de los audios de las ex de luqui?"
     },
     {
@@ -18658,6 +18686,17 @@
     "t_seconds": 1200
    },
    {
+    "channel": " A U R A ",
+    "video_id": "bZUZnVsCn5M",
+    "title": "ANALIZAMOS A FONDO A \"CABO VERDE\", EL PRÓXIMO RIVAL DE LA SELECCIÓN l #hoycomosiempre - 01/06/26",
+    "date": "20260630",
+    "subtema": "Accidente vial / Choque de autos",
+    "contexto": "Análisis detallado de un video de choque entre vehículos, discutiendo responsabilidad, atención del conductor y seguridad vial",
+    "intensidad": 2,
+    "start_min": 110,
+    "t_seconds": 6600
+   },
+   {
     "channel": "LUZU TV",
     "video_id": "IlVszYblfPE",
     "title": "#NADIEDICENADA l EL MOMI CASI SE AHOGA, ¿YA HAY CAPS DE LA SERIE TERMINADOS? Y EL PPP DEL MITO",
@@ -18735,12 +18774,12 @@
     "t_seconds": 4800
    }
   ],
-  "highlights_total": 11,
+  "highlights_total": 12,
   "evidence_lane": "corroborated",
-  "audio_programs": 17,
+  "audio_programs": 18,
   "chat_signals": {
-   "n_msgs": 75,
-   "n_authors": 68,
+   "n_msgs": 77,
+   "n_authors": 70,
    "programs": [
     {
      "video_id": "3jZ7O8XoQyY",
@@ -18775,6 +18814,14 @@
      "ejemplo": "Autos Robados"
     },
     {
+     "video_id": "3beEj7OhPJs",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "por eso cuando escuchen decir que los autos eléctricos salvarán al mundo sepan que en realidad lo que salvarán es a la s automotrices"
+    },
+    {
      "video_id": "hc54LIYnMoE",
      "channel": "?",
      "title": "",
@@ -18797,14 +18844,6 @@
      "n_msgs": 3,
      "n_authors": 3,
      "ejemplo": "sos vos el que no sabe nada de autos"
-    },
-    {
-     "video_id": "04q2g0UfdyA",
-     "channel": "Neura Media",
-     "title": "Multiverso Neura",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "SE PARECE AL VENDEDOR DE AUTOS DE LOS SIMPSONS"
     }
    ],
    "chat_only_programs": [
@@ -18841,12 +18880,12 @@
      "ejemplo": "Autos Robados"
     },
     {
-     "video_id": "hc54LIYnMoE",
+     "video_id": "3beEj7OhPJs",
      "channel": "?",
      "title": "",
      "n_msgs": 3,
      "n_authors": 3,
-     "ejemplo": "el boleto de La Plata/Caba..un lujo"
+     "ejemplo": "por eso cuando escuchen decir que los autos eléctricos salvarán al mundo sepan que en realidad lo que salvarán es a la s automotrices"
     }
    ]
   }
@@ -19319,8 +19358,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 38,
   "chat_signals": {
-   "n_msgs": 479,
-   "n_authors": 362,
+   "n_msgs": 481,
+   "n_authors": 364,
    "programs": [
     {
      "video_id": "zpbJ8ju9xmk",
@@ -19530,16 +19569,24 @@
   "evidence_lane": "corroborated",
   "audio_programs": 8,
   "chat_signals": {
-   "n_msgs": 200,
-   "n_authors": 145,
+   "n_msgs": 243,
+   "n_authors": 165,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 60,
-     "n_authors": 42,
+     "n_msgs": 61,
+     "n_authors": 43,
      "ejemplo": "muy buenos días chicos, como siempre escuchándolos cristina desde villa santa Rita, beso"
+    },
+    {
+     "video_id": "3beEj7OhPJs",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 42,
+     "n_authors": 20,
+     "ejemplo": "la Argentina necesita a Cristina libre:hand-purple-blue-peace::penguin::drum::musical_notes:"
     },
     {
      "video_id": "mNBPDZhUOf8",
@@ -19588,14 +19635,6 @@
      "n_msgs": 12,
      "n_authors": 6,
      "ejemplo": "RicardoC no hablan de Insaurralde porque toca al gibierno de Kicillof y los Kirchner ese señor fue ficha de Maximo Kirchner y si hablan se les termina las pauta"
-    },
-    {
-     "video_id": "XOwNclEqByk",
-     "channel": "Futurock FM",
-     "title": "DEBUTÓ EL NUEVO ADORNI Y SE VIENE JULIO DE AUMENTOS | TOTAL NORMALIDAD",
-     "n_msgs": 8,
-     "n_authors": 6,
-     "ejemplo": "Cristina presidenta 2027 a todo o nada.el tano graziano"
     }
    ],
    "chat_only_programs": [
@@ -19603,9 +19642,17 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 60,
-     "n_authors": 42,
+     "n_msgs": 61,
+     "n_authors": 43,
      "ejemplo": "muy buenos días chicos, como siempre escuchándolos cristina desde villa santa Rita, beso"
+    },
+    {
+     "video_id": "3beEj7OhPJs",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 42,
+     "n_authors": 20,
+     "ejemplo": "la Argentina necesita a Cristina libre:hand-purple-blue-peace::penguin::drum::musical_notes:"
     },
     {
      "video_id": "1KdxLdm_3K0",
@@ -19630,14 +19677,6 @@
      "n_msgs": 7,
      "n_authors": 7,
      "ejemplo": "a un ministro de cristina le pasó eso"
-    },
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 12,
-     "n_authors": 6,
-     "ejemplo": "RicardoC no hablan de Insaurralde porque toca al gibierno de Kicillof y los Kirchner ese señor fue ficha de Maximo Kirchner y si hablan se les termina las pauta"
     }
    ]
   }
@@ -20279,10 +20318,10 @@
   ],
   "highlights_total": 71,
   "evidence_lane": "corroborated",
-  "audio_programs": 83,
+  "audio_programs": 84,
   "chat_signals": {
-   "n_msgs": 137,
-   "n_authors": 119,
+   "n_msgs": 141,
+   "n_authors": 123,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -20325,6 +20364,14 @@
      "ejemplo": "jaajja re roba la comida"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 5,
+     "ejemplo": "manden comida intoxicada como mucho a mbape y un par de laxantes confundidos y ya esta no sean malos quebrando tibias jajaja"
+    },
+    {
      "video_id": "O6sOwvMbRBU",
      "channel": "?",
      "title": "",
@@ -20339,14 +20386,6 @@
      "n_msgs": 4,
      "n_authors": 4,
      "ejemplo": "Oyentes Buena Ondaaa como ella! Q rica comida Paraguay"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "manden comida intoxicada como mucho a mbape y un par de laxantes confundidos y ya esta no sean malos quebrando tibias jajaja"
     }
    ],
    "chat_only_programs": [
@@ -20375,20 +20414,20 @@
      "ejemplo": "jaajja re roba la comida"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 5,
+     "ejemplo": "manden comida intoxicada como mucho a mbape y un par de laxantes confundidos y ya esta no sean malos quebrando tibias jajaja"
+    },
+    {
      "video_id": "O6sOwvMbRBU",
      "channel": "?",
      "title": "",
      "n_msgs": 6,
      "n_authors": 4,
      "ejemplo": "es la comida Martí"
-    },
-    {
-     "video_id": "1KdxLdm_3K0",
-     "channel": "Urbana Play 104.3 FM",
-     "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "Oyentes Buena Ondaaa como ella! Q rica comida Paraguay"
     }
    ]
   }
@@ -20814,6 +20853,17 @@
     "t_seconds": 2400
    },
    {
+    "channel": " A U R A ",
+    "video_id": "bZUZnVsCn5M",
+    "title": "ANALIZAMOS A FONDO A \"CABO VERDE\", EL PRÓXIMO RIVAL DE LA SELECCIÓN l #hoycomosiempre - 01/06/26",
+    "date": "20260630",
+    "subtema": "Lady Diana - vida y legado",
+    "contexto": "Discusión extensa sobre Lady Di, su protocolo real, el vestido negro de la revancha post-divorcio y su reaparición pública",
+    "intensidad": 3,
+    "start_min": 130,
+    "t_seconds": 7800
+   },
+   {
     "channel": "LUZU TV",
     "video_id": "XyXIVC9Ej0s",
     "title": "#NADIEDICENADA | ¿EL FUTBOL ES COMO UN PROGRAMA DE CHIMENTOS? Y JOAQUIN PENSÓ QUE LE IBAN A ROBAR",
@@ -20867,25 +20917,14 @@
     "intensidad": 3,
     "start_min": 60,
     "t_seconds": 3600
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "teZ-nZ63J0I",
-    "title": "#FMLUZU | LA CASTRO SE BAJÓ DE LAS APPS DE CITAS + LE HACEMOS UNA CANCIÓN + MANO A MANO CASTRINI",
-    "date": "20260626",
-    "subtema": "Soledad vs vida en pareja",
-    "contexto": "Conversación sobre ventajas y desventajas de estar solo versus estar en pareja, negociación de tranquilidad",
-    "intensidad": 3,
-    "start_min": 0,
-    "t_seconds": 0
    }
   ],
-  "highlights_total": 114,
+  "highlights_total": 115,
   "evidence_lane": "corroborated",
-  "audio_programs": 76,
+  "audio_programs": 77,
   "chat_signals": {
-   "n_msgs": 626,
-   "n_authors": 511,
+   "n_msgs": 642,
+   "n_authors": 523,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -20939,7 +20978,7 @@
      "video_id": "hc54LIYnMoE",
      "channel": "?",
      "title": "",
-     "n_msgs": 21,
+     "n_msgs": 22,
      "n_authors": 19,
      "ejemplo": "No hay vida despues de la muerte. Solo tenemos esta existencia"
     },
@@ -22035,8 +22074,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 19,
   "chat_signals": {
-   "n_msgs": 518,
-   "n_authors": 450,
+   "n_msgs": 522,
+   "n_authors": 454,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -22336,8 +22375,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 13,
   "chat_signals": {
-   "n_msgs": 32,
-   "n_authors": 29,
+   "n_msgs": 33,
+   "n_authors": 30,
    "programs": [
     {
      "video_id": "JNLpggdieek",
@@ -22388,20 +22427,20 @@
      "ejemplo": "q comentario d poco deporte lucqui jajaja"
     },
     {
+     "video_id": "e1GHY7c89pw",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Para que van al Mundial no es para mostrar el deporte en este caso. En otros hablan de juego."
+    },
+    {
      "video_id": "TS7Q8dOmi-M",
      "channel": "Neura Media",
      "title": "El fútbol moderno, Argentina vs Jordania, ¿con quién jugarías la final? | Multiverso Neura - 30/06",
      "n_msgs": 2,
      "n_authors": 1,
      "ejemplo": "a que deporte jugaron los de la mesa, y cuantos años?"
-    },
-    {
-     "video_id": "1KdxLdm_3K0",
-     "channel": "Urbana Play 104.3 FM",
-     "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "POR ALGO CAYE PERDIO TANTA GUTIA, POR CREER QUE SABIA DE DEPORTE"
     }
    ],
    "chat_only_programs": [
@@ -22507,8 +22546,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 17,
   "chat_signals": {
-   "n_msgs": 30,
-   "n_authors": 28,
+   "n_msgs": 31,
+   "n_authors": 29,
    "programs": [
     {
      "video_id": "3jZ7O8XoQyY",
@@ -22525,6 +22564,14 @@
      "n_msgs": 3,
      "n_authors": 3,
      "ejemplo": "Nose porque ahora te alcanza menos entonces la capacidad de ahorro baja. Por ende juntar 5mil dólares para ir a Miami es muy difícil"
+    },
+    {
+     "video_id": "tKOUyjkzDQ8",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "Como se nota el la inversión de ese 3% de la Kari"
     },
     {
      "video_id": "nOx1je3BA2o",
@@ -22565,14 +22612,6 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "Cayo 800 millones deU$S la inversion"
-    },
-    {
-     "video_id": "tKOUyjkzDQ8",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "Como se nota el la inversión de ese 3% de la Kari"
     }
    ],
    "chat_only_programs": [
@@ -22593,6 +22632,14 @@
      "ejemplo": "Nose porque ahora te alcanza menos entonces la capacidad de ahorro baja. Por ende juntar 5mil dólares para ir a Miami es muy difícil"
     },
     {
+     "video_id": "tKOUyjkzDQ8",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "Como se nota el la inversión de ese 3% de la Kari"
+    },
+    {
      "video_id": "nOx1je3BA2o",
      "channel": "?",
      "title": "",
@@ -22607,14 +22654,6 @@
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "Pato se ahorró los 20 llamados la noche anterior a que Adorni esté en el Congreso"
-    },
-    {
-     "video_id": "DMOHJbfdIlY",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "COMO HIZO KRISTINA ABOGADO PARA QUEDARSE CON 2 PBI COMO VOS DECIS, ARGENTINA LIDERABA EN LA REGION LA INVERSION EXTRANJERA, ..... BASTA DE HABLAR PELOTUDECES..."
     }
    ]
   }
@@ -22722,10 +22761,10 @@
   ],
   "highlights_total": 6,
   "evidence_lane": "corroborated",
-  "audio_programs": 135,
+  "audio_programs": 136,
   "chat_signals": {
-   "n_msgs": 339,
-   "n_authors": 284,
+   "n_msgs": 340,
+   "n_authors": 285,
    "programs": [
     {
      "video_id": "IB9cCJT0-_M",
@@ -23196,8 +23235,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 42,
   "chat_signals": {
-   "n_msgs": 1052,
-   "n_authors": 728,
+   "n_msgs": 1071,
+   "n_authors": 743,
    "programs": [
     {
      "video_id": "0_ua1dXLT5o",
@@ -23562,8 +23601,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 105,
   "chat_signals": {
-   "n_msgs": 730,
-   "n_authors": 574,
+   "n_msgs": 740,
+   "n_authors": 580,
    "programs": [
     {
      "video_id": "zpbJ8ju9xmk",
@@ -23917,8 +23956,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 43,
   "chat_signals": {
-   "n_msgs": 149,
-   "n_authors": 127,
+   "n_msgs": 152,
+   "n_authors": 129,
    "programs": [
     {
      "video_id": "3CPnLRc7h2w",
@@ -23927,6 +23966,14 @@
      "n_msgs": 10,
      "n_authors": 8,
      "ejemplo": "eaaa MArio rock rock"
+    },
+    {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": "EL GOBIERNO NACIONAL Y PCIA BUENOS AIRES AHOGA A LOS JUBILADOS CON AUMENTOS EN GAS, LU, AYSA, ARBA Y TASAS MUNICIPALES. AXEL NO ES MEJOR QUE MILEI. ESCUCHA AXEL"
     },
     {
      "video_id": "cG_sxu72mSo",
@@ -23943,14 +23990,6 @@
      "n_msgs": 7,
      "n_authors": 7,
      "ejemplo": "rock cristiano"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 7,
-     "n_authors": 7,
-     "ejemplo": "EL GOBIERNO NACIONAL Y PCIA BUENOS AIRES AHOGA A LOS JUBILADOS CON AUMENTOS EN GAS, LU, AYSA, ARBA Y TASAS MUNICIPALES. AXEL NO ES MEJOR QUE MILEI. ESCUCHA AXEL"
     },
     {
      "video_id": "HA1dexnR7Ng",
@@ -23987,6 +24026,14 @@
    ],
    "chat_only_programs": [
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": "EL GOBIERNO NACIONAL Y PCIA BUENOS AIRES AHOGA A LOS JUBILADOS CON AUMENTOS EN GAS, LU, AYSA, ARBA Y TASAS MUNICIPALES. AXEL NO ES MEJOR QUE MILEI. ESCUCHA AXEL"
+    },
+    {
      "video_id": "cG_sxu72mSo",
      "channel": "Vorterix",
      "title": "MESSI CONOCIÓ A SPIDERMAN Y VINO MORE BELTRÁN | #ParenLaMano Completo - 30/06 | VORTERIX",
@@ -24001,14 +24048,6 @@
      "n_msgs": 7,
      "n_authors": 7,
      "ejemplo": "rock cristiano"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 7,
-     "n_authors": 7,
-     "ejemplo": "EL GOBIERNO NACIONAL Y PCIA BUENOS AIRES AHOGA A LOS JUBILADOS CON AUMENTOS EN GAS, LU, AYSA, ARBA Y TASAS MUNICIPALES. AXEL NO ES MEJOR QUE MILEI. ESCUCHA AXEL"
     },
     {
      "video_id": "HA1dexnR7Ng",
@@ -24506,8 +24545,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 18,
   "chat_signals": {
-   "n_msgs": 88,
-   "n_authors": 66,
+   "n_msgs": 89,
+   "n_authors": 67,
    "programs": [
     {
      "video_id": "nOx1je3BA2o",
@@ -24566,12 +24605,12 @@
      "ejemplo": "el problema es que ese dólar barato es por deuda que tenemos que pagar todos"
     },
     {
-     "video_id": "3QJmfDvuxIk",
-     "channel": "OLGA",
-     "title": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
-     "n_msgs": 2,
+     "video_id": "tKOUyjkzDQ8",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
      "n_authors": 2,
-     "ejemplo": "MACRI LADRON DEVOLVE LA GUITA QUE TE PAGAMOS LA DEUDA DEL CORREO"
+     "ejemplo": "Morosidad = Deuda"
     }
    ],
    "chat_only_programs": [
@@ -25569,12 +25608,12 @@
     "t_seconds": 2400
    }
   ],
-  "highlights_total": 102,
+  "highlights_total": 103,
   "evidence_lane": "corroborated",
-  "audio_programs": 69,
+  "audio_programs": 70,
   "chat_signals": {
-   "n_msgs": 149,
-   "n_authors": 134,
+   "n_msgs": 158,
+   "n_authors": 143,
    "programs": [
     {
      "video_id": "fam8EedmGow",
@@ -25609,6 +25648,14 @@
      "ejemplo": "hoy están más \"tus padres ya están grandes' que nunca jaja"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 7,
+     "n_authors": 7,
+     "ejemplo": "no estoy en tema. Parece un tema periférico en relación al desmantelamiento científico etc"
+    },
+    {
      "video_id": "G48eCpGj41g",
      "channel": "Bondi Live",
      "title": "▶️ PROGRAMACIÓN COMPLETA 30/06 | BONDI LIVE",
@@ -25625,20 +25672,12 @@
      "ejemplo": "se está confesando con los padres Marcos, jajajja"
     },
     {
-     "video_id": "0_ua1dXLT5o",
+     "video_id": "tKOUyjkzDQ8",
      "channel": "?",
      "title": "",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "yo agendo de acuerdo a mi relación y el trabajo que tiene"
-    },
-    {
-     "video_id": "Lm6Db-SEA0M",
-     "channel": "OLGA",
-     "title": "SOÑAMOS QUE CAZAMOS UTOPÍAS IMPOSIBLES | #SoñéQueVolaba 30/6",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "sii mis hijos los veian los pibes ya tienen como 14 años, lo mismo los españoles y los padres los re explotan x premios"
+     "n_msgs": 5,
+     "n_authors": 5,
+     "ejemplo": "Una relacion muy Chupamelas"
     }
    ],
    "chat_only_programs": [
@@ -25667,20 +25706,20 @@
      "ejemplo": "hoy están más \"tus padres ya están grandes' que nunca jaja"
     },
     {
-     "video_id": "0_ua1dXLT5o",
+     "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "yo agendo de acuerdo a mi relación y el trabajo que tiene"
+     "n_msgs": 7,
+     "n_authors": 7,
+     "ejemplo": "no estoy en tema. Parece un tema periférico en relación al desmantelamiento científico etc"
     },
     {
-     "video_id": "Lm6Db-SEA0M",
-     "channel": "OLGA",
-     "title": "SOÑAMOS QUE CAZAMOS UTOPÍAS IMPOSIBLES | #SoñéQueVolaba 30/6",
-     "n_msgs": 4,
-     "n_authors": 4,
-     "ejemplo": "sii mis hijos los veian los pibes ya tienen como 14 años, lo mismo los españoles y los padres los re explotan x premios"
+     "video_id": "tKOUyjkzDQ8",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 5,
+     "ejemplo": "Una relacion muy Chupamelas"
     }
    ]
   }
@@ -25802,9 +25841,17 @@
   "evidence_lane": "corroborated",
   "audio_programs": 63,
   "chat_signals": {
-   "n_msgs": 265,
-   "n_authors": 239,
+   "n_msgs": 280,
+   "n_authors": 253,
    "programs": [
+    {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 18,
+     "n_authors": 17,
+     "ejemplo": "Cambio de camiseta de agenda tiene Santilli"
+    },
     {
      "video_id": "tAUTd2FsMxA",
      "channel": "Bondi Live",
@@ -25812,14 +25859,6 @@
      "n_msgs": 19,
      "n_authors": 15,
      "ejemplo": "banco lo que dice Connie ! fue horrible la actitud de Peña cuando dió la noticia como si pasaba una mosca Quiere hacerse la superada y solo es una kuka mal"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 11,
-     "n_authors": 11,
-     "ejemplo": "Cambio de camiseta de agenda tiene Santilli"
     },
     {
      "video_id": "G48eCpGj41g",
@@ -25875,8 +25914,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 11,
-     "n_authors": 11,
+     "n_msgs": 18,
+     "n_authors": 17,
      "ejemplo": "Cambio de camiseta de agenda tiene Santilli"
     },
     {
@@ -26519,8 +26558,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 24,
   "chat_signals": {
-   "n_msgs": 92,
-   "n_authors": 74,
+   "n_msgs": 94,
+   "n_authors": 76,
    "programs": [
     {
      "video_id": "nOx1je3BA2o",
@@ -26571,20 +26610,20 @@
      "ejemplo": "Eso es grandioso por fin se despego el dolar de la inflacion"
     },
     {
+     "video_id": "tKOUyjkzDQ8",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 6,
+     "n_authors": 4,
+     "ejemplo": "pero hay una inflación en dolares que esos 1000 dolares no son nada"
+    },
+    {
      "video_id": "7ON4ZA5TtHc",
      "channel": "Neura Media",
      "title": "ArgenData: Julieta Tarrés y Malena de los Ríos",
      "n_msgs": 4,
      "n_authors": 4,
      "ejemplo": "asi si el dato es mejor super mis expectativas"
-    },
-    {
-     "video_id": "tKOUyjkzDQ8",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 5,
-     "n_authors": 3,
-     "ejemplo": "pero hay una inflación en dolares que esos 1000 dolares no son nada"
     }
    ],
    "chat_only_programs": [
@@ -26890,8 +26929,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 53,
   "chat_signals": {
-   "n_msgs": 161,
-   "n_authors": 135,
+   "n_msgs": 163,
+   "n_authors": 137,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -26926,6 +26965,14 @@
      "ejemplo": "tremendo el calor en europa"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 9,
+     "n_authors": 6,
+     "ejemplo": "@marielfranco1504 Amiga querida muy buen dia como e¡te trata el calor ?"
+    },
+    {
      "video_id": "yVzJRVng6Q4",
      "channel": "OLGA",
      "title": "RECORREMOS OCEAN DRIVE EN VIVO | #TDT 30/6",
@@ -26948,14 +26995,6 @@
      "n_msgs": 7,
      "n_authors": 6,
      "ejemplo": "muuuucho calor !!!!!!"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 8,
-     "n_authors": 5,
-     "ejemplo": "@marielfranco1504 Amiga querida muy buen dia como e¡te trata el calor ?"
     }
    ],
    "chat_only_programs": [
@@ -26968,20 +27007,20 @@
      "ejemplo": "tremendo el calor en europa"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 9,
+     "n_authors": 6,
+     "ejemplo": "@marielfranco1504 Amiga querida muy buen dia como e¡te trata el calor ?"
+    },
+    {
      "video_id": "FFy6eNzi-dQ",
      "channel": "Vorterix",
      "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Polaco Silveira y Nico Etevenaux",
      "n_msgs": 7,
      "n_authors": 6,
      "ejemplo": "muuuucho calor !!!!!!"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 8,
-     "n_authors": 5,
-     "ejemplo": "@marielfranco1504 Amiga querida muy buen dia como e¡te trata el calor ?"
     }
    ]
   }
@@ -27243,12 +27282,12 @@
     "t_seconds": 4200
    }
   ],
-  "highlights_total": 150,
+  "highlights_total": 152,
   "evidence_lane": "corroborated",
-  "audio_programs": 87,
+  "audio_programs": 88,
   "chat_signals": {
-   "n_msgs": 70,
-   "n_authors": 62,
+   "n_msgs": 71,
+   "n_authors": 63,
    "programs": [
     {
      "video_id": "IB9cCJT0-_M",
@@ -27966,6 +28005,17 @@
     "t_seconds": 3000
    },
    {
+    "channel": " A U R A ",
+    "video_id": "bZUZnVsCn5M",
+    "title": "ANALIZAMOS A FONDO A \"CABO VERDE\", EL PRÓXIMO RIVAL DE LA SELECCIÓN l #hoycomosiempre - 01/06/26",
+    "date": "20260630",
+    "subtema": "Estrategia de imagen pública",
+    "contexto": "Debate sobre cómo Lady Di opacó a Carlos con su reaparición espectacular; consejo sobre usar buen outfit para remontarse",
+    "intensidad": 2,
+    "start_min": 130,
+    "t_seconds": 7800
+   },
+   {
     "channel": "OLGA",
     "video_id": "83HBNm_5Yvo",
     "title": "¿BAÑARSE DE DÍA O DE NOCHE? | #TapadosDeLaburo 8/6",
@@ -27975,25 +28025,14 @@
     "intensidad": 2,
     "start_min": 10,
     "t_seconds": 600
-   },
-   {
-    "channel": "LUZU TV",
-    "video_id": "WOcOu6AcIp0",
-    "title": "#FMLUZU | STALKEAMOS LOS FACEBOOK DE CRIS Y GURI + JUGAMOS AL PASAME LA POSTA Y TERMINAMOS PELEADOS",
-    "date": "20260630",
-    "subtema": "Transformaciones de imagen y cambios de look",
-    "contexto": "Se discute sobre cambios de color de pelo, ropa de unicornio, épocas flogger y cómo las madres documentan estos cambios",
-    "intensidad": 2,
-    "start_min": 20,
-    "t_seconds": 1200
    }
   ],
-  "highlights_total": 57,
+  "highlights_total": 59,
   "evidence_lane": "corroborated",
-  "audio_programs": 87,
+  "audio_programs": 88,
   "chat_signals": {
-   "n_msgs": 288,
-   "n_authors": 250,
+   "n_msgs": 295,
+   "n_authors": 255,
    "programs": [
     {
      "video_id": "WNe6QLgDfyM",
@@ -28028,6 +28067,14 @@
      "ejemplo": "muy linda imagen adorni arriba de un arbol"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 11,
+     "n_authors": 9,
+     "ejemplo": "Cambio de camiseta de agenda tiene Santilli"
+    },
+    {
      "video_id": "JNLpggdieek",
      "channel": "Vorterix",
      "title": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
@@ -28050,14 +28097,6 @@
      "n_msgs": 8,
      "n_authors": 7,
      "ejemplo": "homer se cambio más rapido que scioli"
-    },
-    {
-     "video_id": "hc54LIYnMoE",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 8,
-     "n_authors": 7,
-     "ejemplo": "esa imagen de caída es igual a la tapa del primer cómic del hombre araña, allá hace como 50 años o mas"
     }
    ],
    "chat_only_programs": [
@@ -28068,6 +28107,14 @@
      "n_msgs": 10,
      "n_authors": 10,
      "ejemplo": "Qué bueno que bluerean la imagen de los menores."
+    },
+    {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 11,
+     "n_authors": 9,
+     "ejemplo": "Cambio de camiseta de agenda tiene Santilli"
     },
     {
      "video_id": "JNLpggdieek",
@@ -28084,14 +28131,6 @@
      "n_msgs": 11,
      "n_authors": 7,
      "ejemplo": "Labando imagen de MACRI"
-    },
-    {
-     "video_id": "hc54LIYnMoE",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 8,
-     "n_authors": 7,
-     "ejemplo": "esa imagen de caída es igual a la tapa del primer cómic del hombre araña, allá hace como 50 años o mas"
     }
    ]
   }
@@ -28356,16 +28395,24 @@
   "evidence_lane": "corroborated",
   "audio_programs": 103,
   "chat_signals": {
-   "n_msgs": 326,
-   "n_authors": 285,
+   "n_msgs": 335,
+   "n_authors": 293,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 18,
-     "n_authors": 18,
+     "n_msgs": 19,
+     "n_authors": 19,
      "ejemplo": "por cambiarme para luego ir al trabajo"
+    },
+    {
+     "video_id": "tKOUyjkzDQ8",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 16,
+     "n_authors": 15,
+     "ejemplo": "dales un trabajo forro"
     },
     {
      "video_id": "hc54LIYnMoE",
@@ -28414,14 +28461,6 @@
      "n_msgs": 10,
      "n_authors": 10,
      "ejemplo": "uno que nunca trabajo"
-    },
-    {
-     "video_id": "8lOkxIDSd4w",
-     "channel": "OLGA",
-     "title": "LO MALO vs LO BUENO, CHARLA con LAPORT y EL MUNDIALITO ESTÁ QUE ARDE #SoñéQueVolaba 24/6",
-     "n_msgs": 10,
-     "n_authors": 9,
-     "ejemplo": "Lucas si estás del lado de lo bueno, cómprame un equipo de invierno para la moto trabajo todos los días y vuelvo congelado."
     }
    ],
    "chat_only_programs": [
@@ -28429,9 +28468,17 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 18,
-     "n_authors": 18,
+     "n_msgs": 19,
+     "n_authors": 19,
      "ejemplo": "por cambiarme para luego ir al trabajo"
+    },
+    {
+     "video_id": "tKOUyjkzDQ8",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 16,
+     "n_authors": 15,
+     "ejemplo": "dales un trabajo forro"
     },
     {
      "video_id": "hc54LIYnMoE",
@@ -29266,9 +29313,17 @@
   "evidence_lane": "corroborated",
   "audio_programs": 11,
   "chat_signals": {
-   "n_msgs": 15,
-   "n_authors": 14,
+   "n_msgs": 20,
+   "n_authors": 18,
    "programs": [
+    {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 4,
+     "ejemplo": "Si chiques, el campo popular no zafa de la cultura del abuso"
+    },
     {
      "video_id": "Lm6Db-SEA0M",
      "channel": "OLGA",
@@ -29324,17 +29379,17 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "Che que saben de la denuncia de abuso al futbolista de Cabo verde?"
-    },
-    {
-     "video_id": "cG_sxu72mSo",
-     "channel": "Vorterix",
-     "title": "MESSI CONOCIÓ A SPIDERMAN Y VINO MORE BELTRÁN | #ParenLaMano Completo - 30/06 | VORTERIX",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "que abuso francia"
     }
    ],
    "chat_only_programs": [
+    {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 5,
+     "n_authors": 4,
+     "ejemplo": "Si chiques, el campo popular no zafa de la cultura del abuso"
+    },
     {
      "video_id": "Lm6Db-SEA0M",
      "channel": "OLGA",
@@ -29366,14 +29421,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "@ÑoraMiyagui Kici nomas te manda la yuta a igual que la derecha, y de paso a encubrir causas de abuso"
-    },
-    {
-     "video_id": "EPCfCkglZWA",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "No tomo torrado, es abuso la diferencia"
     }
    ]
   }
@@ -29859,8 +29906,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 16,
   "chat_signals": {
-   "n_msgs": 68,
-   "n_authors": 61,
+   "n_msgs": 69,
+   "n_authors": 62,
    "programs": [
     {
      "video_id": "HA1dexnR7Ng",
@@ -29919,12 +29966,12 @@
      "ejemplo": "BUENA BUSQUEDA"
     },
     {
-     "video_id": "W_HkPNOMeDc",
-     "channel": "OLGA",
-     "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
      "n_msgs": 2,
      "n_authors": 2,
-     "ejemplo": "título del video de la búsqueda de Gian martiiii"
+     "ejemplo": "hay 50 mil desaparecidos , esa cifra va a aumentar considerablemente"
     }
    ],
    "chat_only_programs": [
@@ -30033,8 +30080,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 38,
   "chat_signals": {
-   "n_msgs": 109,
-   "n_authors": 90,
+   "n_msgs": 114,
+   "n_authors": 95,
    "programs": [
     {
      "video_id": "mNBPDZhUOf8",
@@ -30053,6 +30100,14 @@
      "ejemplo": "Trump es peronista"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": ":red_heart::victory_hand::flexed_biceps:... ¿ DÓNDE ESTÁ LA CGT PERONISTA FRENTE A LA CANTIDAD DE DESPIDOS Y HOSTIGAMIENTOS ? Xq ¿Para qué? reclamarle algo a la"
+    },
+    {
      "video_id": "nOx1je3BA2o",
      "channel": "?",
      "title": "",
@@ -30061,12 +30116,12 @@
      "ejemplo": "EL COLORADO SANTILLI IGUAL QUE BULRRICH CAMALEON EMPESO SIENDO PERONISTA LUEGO EL PRO AHORA LLA LA CUESTION ES SEGUIR AFANANDO CASTA PURA IGUAL QUE DIPUTADOS Y "
     },
     {
-     "video_id": "RIx-w13AHO4",
+     "video_id": "3beEj7OhPJs",
      "channel": "?",
      "title": "",
-     "n_msgs": 7,
-     "n_authors": 7,
-     "ejemplo": ":red_heart::victory_hand::flexed_biceps:... ¿ DÓNDE ESTÁ LA CGT PERONISTA FRENTE A LA CANTIDAD DE DESPIDOS Y HOSTIGAMIENTOS ? Xq ¿Para qué? reclamarle algo a la"
+     "n_msgs": 9,
+     "n_authors": 6,
+     "ejemplo": "esto esta muy , pero muy parecido al gobierno peronista de los 90 , muchos aca no deben ni saber de lo que esta hablando , es terrible y triste."
     },
     {
      "video_id": "LjEHjrbNNgs",
@@ -30091,14 +30146,6 @@
      "n_msgs": 5,
      "n_authors": 5,
      "ejemplo": "@estebangustin7658 PERO ADORNI NO ES PERONISTA CHE"
-    },
-    {
-     "video_id": "pL9wgMQaBp4",
-     "channel": "GELATINA",
-     "title": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
-     "n_msgs": 4,
-     "n_authors": 3,
-     "ejemplo": "Milei le reza a la interna peronista"
     }
    ],
    "chat_only_programs": [
@@ -30111,6 +30158,14 @@
      "ejemplo": "Trump es peronista"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": ":red_heart::victory_hand::flexed_biceps:... ¿ DÓNDE ESTÁ LA CGT PERONISTA FRENTE A LA CANTIDAD DE DESPIDOS Y HOSTIGAMIENTOS ? Xq ¿Para qué? reclamarle algo a la"
+    },
+    {
      "video_id": "nOx1je3BA2o",
      "channel": "?",
      "title": "",
@@ -30119,12 +30174,12 @@
      "ejemplo": "EL COLORADO SANTILLI IGUAL QUE BULRRICH CAMALEON EMPESO SIENDO PERONISTA LUEGO EL PRO AHORA LLA LA CUESTION ES SEGUIR AFANANDO CASTA PURA IGUAL QUE DIPUTADOS Y "
     },
     {
-     "video_id": "RIx-w13AHO4",
+     "video_id": "3beEj7OhPJs",
      "channel": "?",
      "title": "",
-     "n_msgs": 7,
-     "n_authors": 7,
-     "ejemplo": ":red_heart::victory_hand::flexed_biceps:... ¿ DÓNDE ESTÁ LA CGT PERONISTA FRENTE A LA CANTIDAD DE DESPIDOS Y HOSTIGAMIENTOS ? Xq ¿Para qué? reclamarle algo a la"
+     "n_msgs": 9,
+     "n_authors": 6,
+     "ejemplo": "esto esta muy , pero muy parecido al gobierno peronista de los 90 , muchos aca no deben ni saber de lo que esta hablando , es terrible y triste."
     },
     {
      "video_id": "e3av_6yqgHg",
@@ -30175,8 +30230,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 23,
   "chat_signals": {
-   "n_msgs": 184,
-   "n_authors": 153,
+   "n_msgs": 185,
+   "n_authors": 154,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -30390,8 +30445,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 9,
   "chat_signals": {
-   "n_msgs": 327,
-   "n_authors": 287,
+   "n_msgs": 331,
+   "n_authors": 291,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -30405,8 +30460,8 @@
      "video_id": "hc54LIYnMoE",
      "channel": "?",
      "title": "",
-     "n_msgs": 13,
-     "n_authors": 12,
+     "n_msgs": 14,
+     "n_authors": 13,
      "ejemplo": "QUE MIEDO TODOS ESTOS TILINGOS . es aterrador criar infancias en este contexto"
     },
     {
@@ -30471,8 +30526,8 @@
      "video_id": "hc54LIYnMoE",
      "channel": "?",
      "title": "",
-     "n_msgs": 13,
-     "n_authors": 12,
+     "n_msgs": 14,
+     "n_authors": 13,
      "ejemplo": "QUE MIEDO TODOS ESTOS TILINGOS . es aterrador criar infancias en este contexto"
     },
     {
@@ -30737,17 +30792,17 @@
   "highlights": [],
   "highlights_total": 0,
   "evidence_lane": "corroborated",
-  "audio_programs": 35,
+  "audio_programs": 36,
   "chat_signals": {
-   "n_msgs": 36,
-   "n_authors": 32,
+   "n_msgs": 37,
+   "n_authors": 33,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 3,
-     "n_authors": 3,
+     "n_msgs": 4,
+     "n_authors": 4,
      "ejemplo": "no existe la figura del vocero presidencial y el secretario de presidencia es el que debe dar a conocer la agenda del presidente"
     },
     {
@@ -30812,8 +30867,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 3,
-     "n_authors": 3,
+     "n_msgs": 4,
+     "n_authors": 4,
      "ejemplo": "no existe la figura del vocero presidencial y el secretario de presidencia es el que debe dar a conocer la agenda del presidente"
     },
     {
@@ -31152,8 +31207,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 32,
   "chat_signals": {
-   "n_msgs": 180,
-   "n_authors": 145,
+   "n_msgs": 185,
+   "n_authors": 150,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
@@ -31170,6 +31225,14 @@
      "n_msgs": 13,
      "n_authors": 9,
      "ejemplo": "Lo único que no tiene precio de mercado es el salario en la Argentina. Rumbo a ser Paraguay vamos."
+    },
+    {
+     "video_id": "3beEj7OhPJs",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 9,
+     "n_authors": 9,
+     "ejemplo": "Mercado Choronga"
     },
     {
      "video_id": "qLQFv3bGuhA",
@@ -31210,14 +31273,6 @@
      "n_msgs": 7,
      "n_authors": 6,
      "ejemplo": "palestina libre"
-    },
-    {
-     "video_id": "zpbJ8ju9xmk",
-     "channel": "Vorterix",
-     "title": "EQUIPO COMPLETO Y SOMOS MÁS PARAGUAYOS QUE NUNCA | #YQUE COMPLETO 30/6 | VORTERIX",
-     "n_msgs": 7,
-     "n_authors": 6,
-     "ejemplo": "NADIE SERÁ LIBRE HASTA QUE TODOS SEAMOS LIBRES"
     }
    ],
    "chat_only_programs": [
@@ -31238,6 +31293,14 @@
      "ejemplo": "Lo único que no tiene precio de mercado es el salario en la Argentina. Rumbo a ser Paraguay vamos."
     },
     {
+     "video_id": "3beEj7OhPJs",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 9,
+     "n_authors": 9,
+     "ejemplo": "Mercado Choronga"
+    },
+    {
      "video_id": "qLQFv3bGuhA",
      "channel": "?",
      "title": "",
@@ -31252,14 +31315,6 @@
      "n_msgs": 9,
      "n_authors": 7,
      "ejemplo": "Si no podés competir con otras empresas es porque el mercado ya eligió a quien aporta más valor y vos aún no encuentras una ventaja competitiva"
-    },
-    {
-     "video_id": "bYaixTloEdo",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 7,
-     "n_authors": 7,
-     "ejemplo": "libre"
     }
    ]
   }
@@ -31381,8 +31436,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 25,
   "chat_signals": {
-   "n_msgs": 555,
-   "n_authors": 481,
+   "n_msgs": 559,
+   "n_authors": 485,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -32423,8 +32478,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 19,
   "chat_signals": {
-   "n_msgs": 109,
-   "n_authors": 85,
+   "n_msgs": 116,
+   "n_authors": 91,
    "programs": [
     {
      "video_id": "nOx1je3BA2o",
@@ -32441,6 +32496,14 @@
      "n_msgs": 16,
      "n_authors": 13,
      "ejemplo": "sin créditos en pesos no hay milagro letrinoamericano, por lo tanto no será reelecto en el 2027, todos los países bananeros curaron la inflación así: \"escaseand"
+    },
+    {
+     "video_id": "tKOUyjkzDQ8",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 16,
+     "n_authors": 11,
+     "ejemplo": "El poder adquisitivo de los salarios y jubilaciones no para de caer."
     },
     {
      "video_id": "HTm_q34CwyM",
@@ -32465,14 +32528,6 @@
      "n_msgs": 7,
      "n_authors": 7,
      "ejemplo": "tarifas internacionales salarios internacionales"
-    },
-    {
-     "video_id": "tKOUyjkzDQ8",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 10,
-     "n_authors": 6,
-     "ejemplo": "El poder adquisitivo de los salarios y jubilaciones no para de caer."
     },
     {
      "video_id": "7ON4ZA5TtHc",
@@ -32509,6 +32564,14 @@
      "ejemplo": "sin créditos en pesos no hay milagro letrinoamericano, por lo tanto no será reelecto en el 2027, todos los países bananeros curaron la inflación así: \"escaseand"
     },
     {
+     "video_id": "tKOUyjkzDQ8",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 16,
+     "n_authors": 11,
+     "ejemplo": "El poder adquisitivo de los salarios y jubilaciones no para de caer."
+    },
+    {
      "video_id": "1KdxLdm_3K0",
      "channel": "Urbana Play 104.3 FM",
      "title": "EN VIVO | OLVIDATE DE TODO con Diego Poggi y Anaís Castro 2026-06-30 18:16",
@@ -32523,14 +32586,6 @@
      "n_msgs": 7,
      "n_authors": 7,
      "ejemplo": "tarifas internacionales salarios internacionales"
-    },
-    {
-     "video_id": "tKOUyjkzDQ8",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 10,
-     "n_authors": 6,
-     "ejemplo": "El poder adquisitivo de los salarios y jubilaciones no para de caer."
     }
    ]
   }
@@ -32794,15 +32849,15 @@
   "evidence_lane": "corroborated",
   "audio_programs": 28,
   "chat_signals": {
-   "n_msgs": 315,
-   "n_authors": 265,
+   "n_msgs": 322,
+   "n_authors": 272,
    "programs": [
     {
      "video_id": "tKOUyjkzDQ8",
      "channel": "?",
      "title": "",
-     "n_msgs": 22,
-     "n_authors": 19,
+     "n_msgs": 26,
+     "n_authors": 23,
      "ejemplo": "Se vende Argentina \"Por unos dólares más \"....."
     },
     {
@@ -32867,8 +32922,8 @@
      "video_id": "tKOUyjkzDQ8",
      "channel": "?",
      "title": "",
-     "n_msgs": 22,
-     "n_authors": 19,
+     "n_msgs": 26,
+     "n_authors": 23,
      "ejemplo": "Se vende Argentina \"Por unos dólares más \"....."
     },
     {
@@ -33166,8 +33221,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 79,
   "chat_signals": {
-   "n_msgs": 644,
-   "n_authors": 526,
+   "n_msgs": 650,
+   "n_authors": 530,
    "programs": [
     {
      "video_id": "JNLpggdieek",
@@ -33210,20 +33265,20 @@
      "ejemplo": "Nada de que listo se fue a la casa"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 21,
+     "n_authors": 20,
+     "ejemplo": "no existe la figura del vocero presidencial y el secretario de presidencia es el que debe dar a conocer la agenda del presidente"
+    },
+    {
      "video_id": "fam8EedmGow",
      "channel": "OLGA",
      "title": "¿CUÁL FUE EL MEJOR BESO DE PEDRO? | #SeríaIncreíble 30/6",
      "n_msgs": 21,
      "n_authors": 19,
      "ejemplo": "A MI ME SOBRA LOS DIEZ MIL GUARANI EN MI CASA"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 19,
-     "n_authors": 19,
-     "ejemplo": "no existe la figura del vocero presidencial y el secretario de presidencia es el que debe dar a conocer la agenda del presidente"
     },
     {
      "video_id": "WOYbd42V47w",
@@ -33255,8 +33310,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 19,
-     "n_authors": 19,
+     "n_msgs": 21,
+     "n_authors": 20,
      "ejemplo": "no existe la figura del vocero presidencial y el secretario de presidencia es el que debe dar a conocer la agenda del presidente"
     },
     {
@@ -33659,8 +33714,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 17,
   "chat_signals": {
-   "n_msgs": 350,
-   "n_authors": 293,
+   "n_msgs": 356,
+   "n_authors": 299,
    "programs": [
     {
      "video_id": "zpbJ8ju9xmk",
@@ -33687,20 +33742,20 @@
      "ejemplo": "Pablo dile a Jose que se siente"
     },
     {
+     "video_id": "p6DntkKAWNc",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 19,
+     "n_authors": 16,
+     "ejemplo": "me hace acordar a pablo agustín con el pelado espert, un desastre"
+    },
+    {
      "video_id": "NssiC9pO80s",
      "channel": "Vorterix",
      "title": "CONSULTORIO DEL AMOR DE ROBERTO CON LOS NEUROPIBES | #DesdeElRespeto | COMPLETO 30/06 | VORTERIX",
      "n_msgs": 19,
      "n_authors": 15,
      "ejemplo": "muy boca estás"
-    },
-    {
-     "video_id": "p6DntkKAWNc",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 18,
-     "n_authors": 15,
-     "ejemplo": "me hace acordar a pablo agustín con el pelado espert, un desastre"
     },
     {
      "video_id": "1KdxLdm_3K0",
@@ -33748,8 +33803,8 @@
      "video_id": "p6DntkKAWNc",
      "channel": "?",
      "title": "",
-     "n_msgs": 18,
-     "n_authors": 15,
+     "n_msgs": 19,
+     "n_authors": 16,
      "ejemplo": "me hace acordar a pablo agustín con el pelado espert, un desastre"
     },
     {
@@ -34025,6 +34080,17 @@
     "t_seconds": 6600
    },
    {
+    "channel": " A U R A ",
+    "video_id": "bZUZnVsCn5M",
+    "title": "ANALIZAMOS A FONDO A \"CABO VERDE\", EL PRÓXIMO RIVAL DE LA SELECCIÓN l #hoycomosiempre - 01/06/26",
+    "date": "20260630",
+    "subtema": "Cabo Verde - Economía y Comercio",
+    "contexto": "Importación de alimentos (75%), oportunidad de vínculo comercial con Argentina para venta de carnes y alimentos",
+    "intensidad": 2,
+    "start_min": 60,
+    "t_seconds": 3600
+   },
+   {
     "channel": "GELATINA",
     "video_id": "LTlJq7vIE0g",
     "title": "¿Milei superó la crisis? | EL PUENTE con Pedro ROSEMBLAT y Nico GUTHMANN",
@@ -34113,12 +34179,12 @@
     "t_seconds": 0
    }
   ],
-  "highlights_total": 18,
+  "highlights_total": 19,
   "evidence_lane": "corroborated",
-  "audio_programs": 27,
+  "audio_programs": 28,
   "chat_signals": {
-   "n_msgs": 119,
-   "n_authors": 91,
+   "n_msgs": 124,
+   "n_authors": 94,
    "programs": [
     {
      "video_id": "HTm_q34CwyM",
@@ -34153,6 +34219,14 @@
      "ejemplo": "Estamos en una economia bipolar, por un lado esta lleno de autos chinos 0km en la calle, lleno de propiedades en venta, pero el consumo esta congelado, y los se"
     },
     {
+     "video_id": "hc54LIYnMoE",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 7,
+     "n_authors": 7,
+     "ejemplo": "la economia posmoderna es la de Keynes y solo funciona con curso forzoso paracitando economias y con portaviones"
+    },
+    {
      "video_id": "EPCfCkglZWA",
      "channel": "?",
      "title": "",
@@ -34167,14 +34241,6 @@
      "n_msgs": 6,
      "n_authors": 6,
      "ejemplo": "es parte de la doctrina imperialista de EEUU negar que México es América del Norte aunque lo sea por geografía y economía"
-    },
-    {
-     "video_id": "hc54LIYnMoE",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 5,
-     "n_authors": 5,
-     "ejemplo": "la economia posmoderna es la de Keynes y solo funciona con curso forzoso paracitando economias y con portaviones"
     },
     {
      "video_id": "RIx-w13AHO4",
@@ -34203,6 +34269,14 @@
      "ejemplo": "LA ECONOMIA ESTA DESORDENADA COMO EL FLEQUILLO SE SERRUCHO PERO TODAVIA SIRVE"
     },
     {
+     "video_id": "hc54LIYnMoE",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 7,
+     "n_authors": 7,
+     "ejemplo": "la economia posmoderna es la de Keynes y solo funciona con curso forzoso paracitando economias y con portaviones"
+    },
+    {
      "video_id": "EPCfCkglZWA",
      "channel": "?",
      "title": "",
@@ -34217,14 +34291,6 @@
      "n_msgs": 6,
      "n_authors": 6,
      "ejemplo": "es parte de la doctrina imperialista de EEUU negar que México es América del Norte aunque lo sea por geografía y economía"
-    },
-    {
-     "video_id": "hc54LIYnMoE",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 5,
-     "n_authors": 5,
-     "ejemplo": "la economia posmoderna es la de Keynes y solo funciona con curso forzoso paracitando economias y con portaviones"
     }
    ]
   }
@@ -34737,10 +34803,10 @@
   ],
   "highlights_total": 10,
   "evidence_lane": "corroborated",
-  "audio_programs": 31,
+  "audio_programs": 32,
   "chat_signals": {
-   "n_msgs": 132,
-   "n_authors": 106,
+   "n_msgs": 134,
+   "n_authors": 108,
    "programs": [
     {
      "video_id": "nOx1je3BA2o",
@@ -34759,6 +34825,14 @@
      "ejemplo": "HABLAN DE LA DEUDA PARA NO HABLAR DEL SAQUITO"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 10,
+     "n_authors": 9,
+     "ejemplo": "42 años de Democracia produjo este regimen Decadente...gracias a los politicos que pasaron x la funcion publica trabajando en pos de sus bolsillos y no para el "
+    },
+    {
      "video_id": "WNe6QLgDfyM",
      "channel": "OLGA",
      "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
@@ -34773,14 +34847,6 @@
      "n_msgs": 10,
      "n_authors": 8,
      "ejemplo": "La destrucción de la educación pública en la Ciudad es total"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 9,
-     "n_authors": 8,
-     "ejemplo": "42 años de Democracia produjo este regimen Decadente...gracias a los politicos que pasaron x la funcion publica trabajando en pos de sus bolsillos y no para el "
     },
     {
      "video_id": "HTm_q34CwyM",
@@ -34825,6 +34891,14 @@
      "ejemplo": "HABLAN DE LA DEUDA PARA NO HABLAR DEL SAQUITO"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 10,
+     "n_authors": 9,
+     "ejemplo": "42 años de Democracia produjo este regimen Decadente...gracias a los politicos que pasaron x la funcion publica trabajando en pos de sus bolsillos y no para el "
+    },
+    {
      "video_id": "WNe6QLgDfyM",
      "channel": "OLGA",
      "title": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
@@ -34839,14 +34913,6 @@
      "n_msgs": 10,
      "n_authors": 8,
      "ejemplo": "La destrucción de la educación pública en la Ciudad es total"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 9,
-     "n_authors": 8,
-     "ejemplo": "42 años de Democracia produjo este regimen Decadente...gracias a los politicos que pasaron x la funcion publica trabajando en pos de sus bolsillos y no para el "
     }
    ]
   }
@@ -35349,8 +35415,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 20,
   "chat_signals": {
-   "n_msgs": 101,
-   "n_authors": 91,
+   "n_msgs": 102,
+   "n_authors": 92,
    "programs": [
     {
      "video_id": "O6sOwvMbRBU",
@@ -35401,20 +35467,20 @@
      "ejemplo": "amo q se saluden y se cuenten cosas, como q están resfriados o tienen sueño q se yo.... AMO"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 3,
+     "ejemplo": "la destrucción va a seguir sin logica y sin descanso , estamos como en libia pero sin las bombas"
+    },
+    {
      "video_id": "W_HkPNOMeDc",
      "channel": "OLGA",
      "title": "RECORREMOS LAS PLAYAS DE MIAMI EN VIVO | TDT 26/3",
      "n_msgs": 3,
      "n_authors": 3,
      "ejemplo": "Tiene sueño"
-    },
-    {
-     "video_id": "bX7MB2_OI2I",
-     "channel": "OLGA",
-     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-     "n_msgs": 3,
-     "n_authors": 3,
-     "ejemplo": "qe sueño :face_blowing_a_kiss:"
     }
    ],
    "chat_only_programs": [
@@ -36273,16 +36339,24 @@
   "evidence_lane": "corroborated",
   "audio_programs": 21,
   "chat_signals": {
-   "n_msgs": 829,
-   "n_authors": 587,
+   "n_msgs": 862,
+   "n_authors": 606,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 80,
-     "n_authors": 66,
+     "n_msgs": 82,
+     "n_authors": 68,
      "ejemplo": "@argentoiluminacion6700 no me amenace con mandar a descerebrado Milei que les enviamos a los derechuzos de Vox, jajajaja"
+    },
+    {
+     "video_id": "tKOUyjkzDQ8",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 46,
+     "n_authors": 37,
+     "ejemplo": "acaso es un cover de Milei de nene malo?"
     },
     {
      "video_id": "mNBPDZhUOf8",
@@ -36307,14 +36381,6 @@
      "n_msgs": 44,
      "n_authors": 35,
      "ejemplo": "que grande milei SJJSj"
-    },
-    {
-     "video_id": "tKOUyjkzDQ8",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 40,
-     "n_authors": 32,
-     "ejemplo": "acaso es un cover de Milei de nene malo?"
     },
     {
      "video_id": "IsK6-fLD-VQ",
@@ -36346,9 +36412,17 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 80,
-     "n_authors": 66,
+     "n_msgs": 82,
+     "n_authors": 68,
      "ejemplo": "@argentoiluminacion6700 no me amenace con mandar a descerebrado Milei que les enviamos a los derechuzos de Vox, jajajaja"
+    },
+    {
+     "video_id": "tKOUyjkzDQ8",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 46,
+     "n_authors": 37,
+     "ejemplo": "acaso es un cover de Milei de nene malo?"
     },
     {
      "video_id": "qLQFv3bGuhA",
@@ -36365,14 +36439,6 @@
      "n_msgs": 44,
      "n_authors": 35,
      "ejemplo": "que grande milei SJJSj"
-    },
-    {
-     "video_id": "tKOUyjkzDQ8",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 40,
-     "n_authors": 32,
-     "ejemplo": "acaso es un cover de Milei de nene malo?"
     },
     {
      "video_id": "IsK6-fLD-VQ",
@@ -36524,8 +36590,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 16,
   "chat_signals": {
-   "n_msgs": 222,
-   "n_authors": 170,
+   "n_msgs": 234,
+   "n_authors": 177,
    "programs": [
     {
      "video_id": "mNBPDZhUOf8",
@@ -36552,20 +36618,20 @@
      "ejemplo": "peronismo rancio de derecha entró al chat"
     },
     {
+     "video_id": "3beEj7OhPJs",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 23,
+     "n_authors": 15,
+     "ejemplo": "Esa pasividad de las masas ante los actos impúdicos dé estos fachos, es la antesala de esa explosión interna contenida del pueblo... es cómo dice un tema de los"
+    },
+    {
      "video_id": "nOx1je3BA2o",
      "channel": "?",
      "title": "",
      "n_msgs": 20,
      "n_authors": 13,
      "ejemplo": "El peronismo saboteo al modelo menemista? Historia a marzo Castiñeira"
-    },
-    {
-     "video_id": "3beEj7OhPJs",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 11,
-     "n_authors": 8,
-     "ejemplo": "Esa pasividad de las masas ante los actos impúdicos dé estos fachos, es la antesala de esa explosión interna contenida del pueblo... es cómo dice un tema de los"
     },
     {
      "video_id": "HTm_q34CwyM",
@@ -36602,20 +36668,20 @@
      "ejemplo": "y detestan al peronismo por esa razon"
     },
     {
+     "video_id": "3beEj7OhPJs",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 23,
+     "n_authors": 15,
+     "ejemplo": "Esa pasividad de las masas ante los actos impúdicos dé estos fachos, es la antesala de esa explosión interna contenida del pueblo... es cómo dice un tema de los"
+    },
+    {
      "video_id": "nOx1je3BA2o",
      "channel": "?",
      "title": "",
      "n_msgs": 20,
      "n_authors": 13,
      "ejemplo": "El peronismo saboteo al modelo menemista? Historia a marzo Castiñeira"
-    },
-    {
-     "video_id": "3beEj7OhPJs",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 11,
-     "n_authors": 8,
-     "ejemplo": "Esa pasividad de las masas ante los actos impúdicos dé estos fachos, es la antesala de esa explosión interna contenida del pueblo... es cómo dice un tema de los"
     },
     {
      "video_id": "HTm_q34CwyM",

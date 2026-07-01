@@ -1,22 +1,22 @@
 {
- "exported_at": "2026-07-01T14:41:43.113942+00:00",
+ "exported_at": "2026-07-01T15:01:51.428519+00:00",
  "capture_scope": "live_only",
  "capture_sources": [
   "youtube_api",
   "ytdlp_live"
  ],
- "n_videos": 110,
- "n_topics": 110,
- "n_topics_total": 178,
- "n_brands": 225,
- "n_products": 237,
- "n_pauta_mentions": 398,
- "n_moments": 142,
+ "n_videos": 111,
+ "n_topics": 111,
+ "n_topics_total": 179,
+ "n_brands": 226,
+ "n_products": 238,
+ "n_pauta_mentions": 399,
+ "n_moments": 143,
  "n_trends": 120,
  "cpm": 30.0,
  "peso_default": 0.3,
  "live_capture": {
-  "hours_captured": 263.9,
+  "hours_captured": 264.9,
   "streams_captured": 126,
   "channels_captured": 13,
   "capture_days": 9,
@@ -97,7 +97,7 @@
    {
     "id": "luzu",
     "streams": 29,
-    "hours": 59.1,
+    "hours": 59.5,
     "first_capture": "2026-06-23",
     "last_capture": "2026-07-01"
    },
@@ -111,7 +111,7 @@
    {
     "id": "olga",
     "streams": 29,
-    "hours": 62.4,
+    "hours": 62.8,
     "first_capture": "2026-06-22",
     "last_capture": "2026-07-01"
    },
@@ -125,7 +125,7 @@
    {
     "id": "vorterix",
     "streams": 19,
-    "hours": 40.9,
+    "hours": 41.2,
     "first_capture": "2026-06-26",
     "last_capture": "2026-07-01"
    }
@@ -136,7 +136,7 @@
     "show_id": "otros",
     "show_name": "Otros",
     "streams": 15,
-    "hours": 32.5
+    "hours": 32.9
    },
    {
     "channel_id": "olga",
@@ -160,18 +160,18 @@
     "hours": 16.2
    },
    {
+    "channel_id": "olga",
+    "show_id": "sone-volaba",
+    "show_name": "Soñé que Volaba",
+    "streams": 7,
+    "hours": 16.2
+   },
+   {
     "channel_id": "neura",
     "show_id": "otros",
     "show_name": "Otros",
     "streams": 13,
     "hours": 16.0
-   },
-   {
-    "channel_id": "olga",
-    "show_id": "sone-volaba",
-    "show_name": "Soñé que Volaba",
-    "streams": 7,
-    "hours": 15.8
    },
    {
     "channel_id": "gelatina",
@@ -185,7 +185,7 @@
     "show_id": "ndn",
     "show_name": "Nadie Dice Nada",
     "streams": 6,
-    "hours": 13.8
+    "hours": 14.1
    },
    {
     "channel_id": "bondi",
@@ -364,13 +364,13 @@
  },
  "discovery": {
   "channels_covered": 12,
-  "hours_captured": 245.7,
+  "hours_captured": 247.9,
   "first_capture": "2026-06-19",
   "last_capture": "2026-07-01",
   "period_days": 13,
-  "programs_with_viewers": 110,
+  "programs_with_viewers": 111,
   "high_confidence_advertisers": 30,
   "emerging_confidence_advertisers": 42,
-  "activations_with_verified_evidence": 390
+  "activations_with_verified_evidence": 391
  }
 }

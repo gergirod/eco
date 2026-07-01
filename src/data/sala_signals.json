@@ -1,5 +1,5 @@
 {
- "exported_at": "2026-07-01T14:41:43.113942+00:00",
+ "exported_at": "2026-07-01T15:01:51.428519+00:00",
  "signals": [
   {
    "tema": "like · vivo",
@@ -759,44 +759,6 @@
    "ejemplo": "MUY BUENO"
   },
   {
-   "tema": "fijos · leo · vero",
-   "evidence_lane": "chat",
-   "n_msgs": 21,
-   "n_authors": 20,
-   "n_programas": 3,
-   "canales": [
-    "?",
-    "OLGA"
-   ],
-   "programs": [
-    {
-     "video_id": "bX7MB2_OI2I",
-     "channel": "OLGA",
-     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-     "n_msgs": 3,
-     "n_authors": 3,
-     "ejemplo": "Vero y Leo fijos"
-    },
-    {
-     "video_id": "cOui_830fXg",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 3,
-     "n_authors": 2,
-     "ejemplo": "Leo y vero fijos"
-    },
-    {
-     "video_id": "mxFu-R3O8TY",
-     "channel": "OLGA",
-     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
-     "n_msgs": 15,
-     "n_authors": 15,
-     "ejemplo": "Leo y vero fijos"
-    }
-   ],
-   "ejemplo": "Vero y Leo fijos"
-  },
-  {
    "tema": "amo · camila",
    "evidence_lane": "chat",
    "n_msgs": 20,
@@ -845,10 +807,11 @@
   {
    "tema": "dios · mio",
    "evidence_lane": "chat",
-   "n_msgs": 18,
-   "n_authors": 17,
-   "n_programas": 6,
+   "n_msgs": 21,
+   "n_authors": 19,
+   "n_programas": 7,
    "canales": [
+    "?",
     "GELATINA",
     "OLGA",
     "Vorterix"
@@ -879,23 +842,61 @@
      "ejemplo": "dios mio"
     },
     {
+     "video_id": "p6DntkKAWNc",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 2,
+     "ejemplo": "dios mio"
+    },
+    {
      "video_id": "s__pKWUr4MM",
      "channel": "OLGA",
      "title": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
      "n_msgs": 2,
      "n_authors": 2,
      "ejemplo": "Dios mio"
-    },
-    {
-     "video_id": "yVzJRVng6Q4",
-     "channel": "OLGA",
-     "title": "RECORREMOS OCEAN DRIVE EN VIVO | #TDT 30/6",
-     "n_msgs": 2,
-     "n_authors": 2,
-     "ejemplo": "DIOS MIO"
     }
    ],
    "ejemplo": "dios mio"
+  },
+  {
+   "tema": "fijos · leo · vero",
+   "evidence_lane": "chat",
+   "n_msgs": 19,
+   "n_authors": 18,
+   "n_programas": 3,
+   "canales": [
+    "?",
+    "OLGA"
+   ],
+   "programs": [
+    {
+     "video_id": "bX7MB2_OI2I",
+     "channel": "OLGA",
+     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Vero y Leo fijos"
+    },
+    {
+     "video_id": "cOui_830fXg",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 3,
+     "n_authors": 2,
+     "ejemplo": "Leo y vero fijos"
+    },
+    {
+     "video_id": "mxFu-R3O8TY",
+     "channel": "OLGA",
+     "title": "GRACIAS VERO y LEO ¡LOS AMAMOS! | #SeríaIncreíble 26/6",
+     "n_msgs": 14,
+     "n_authors": 14,
+     "ejemplo": "Leo y vero fijos"
+    }
+   ],
+   "ejemplo": "Vero y Leo fijos"
   },
   {
    "tema": "buen · diaaa",

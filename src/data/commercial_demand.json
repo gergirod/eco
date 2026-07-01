@@ -3,10 +3,10 @@
  "summary_line": "Ahora Play concentra la mayor demanda comercial filtrada en chat (20 pedidos confirmados, 0.07 por cada mil mirando; 2 dentro de 5 min post-PNT).",
  "filter": {
   "llm_used": 86,
-  "llm_rejected": 528,
-  "llm_confirmed": 44,
+  "llm_rejected": 549,
+  "llm_confirmed": 49,
   "heuristic_rejected": 0,
-  "confirmed_total": 333
+  "confirmed_total": 345
  },
  "channels": [
   {
@@ -24,18 +24,18 @@
    },
    "top_examples": [
     {
-     "text": "CICLO DE LAS MEMORIAS 3 AÑOS ALCISTA Y DESPUÉS CAEN AUMENTA EL PRECIO CAE LA DEMANDA, CAE LA BURBUJA DEL PRECIO",
+     "text": "Milei ofrece milanesas otra ves con el precio de la carne otro gasto:face-blue-smiling:",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "DICP: corte cupón",
-     "tipo": "pedido_link",
+     "text": "Si rajan a Adorni y otros políticos de YPF, seguro pueden bajar precio las naftas...",
+     "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "las fintech te ofrecían prestamos por aplicación, sin análisis de riesgo, y para encontrar la tasa de interés tenías que entrar a otro link. Argentina tiene muc",
-     "tipo": "pedido_link",
+     "text": "batista pero hay letras para todos??? todos compran a ese precio? o para comprar en el secundario lo compras mas caro y despues vendes barato",
+     "tipo": "pregunta_precio",
      "count": 1
     }
    ]
@@ -50,23 +50,23 @@
    "commercial_per_1k": 0.05,
    "post_pnt_messages": 1,
    "by_tipo": {
-    "pregunta_precio": 3,
-    "pedido_link": 3
+    "pedido_link": 3,
+    "pregunta_precio": 3
    },
    "top_examples": [
     {
-     "text": "Ramón Diaz pasaría tan fácil a un Licha, Otamendi o Cuti? Vaaaamos. No es bajarle el precio a Ramón Diaz, pero no todo tiempo pasado fue mejor, por eso cada qui",
+     "text": "cuando tenga la sucursal en bsas hay 15 de descuento para chat de neura vieejooo",
+     "tipo": "pedido_link",
+     "count": 1
+    },
+    {
+     "text": "quiero ir a vivir a ese crucero. Cuánto el alquiler mensual y expensas?",
      "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "pasa el link barbara",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "cuando tenga la sucursal en bsas hay 15 de descuento para chat de neura vieejooo",
-     "tipo": "pedido_link",
+     "text": "Ramón Diaz pasaría tan fácil a un Licha, Otamendi o Cuti? Vaaaamos. No es bajarle el precio a Ramón Diaz, pero no todo tiempo pasado fue mejor, por eso cada qui",
+     "tipo": "pregunta_precio",
      "count": 1
     }
    ]
@@ -74,16 +74,16 @@
   {
    "id": "",
    "name": "",
-   "programs_with_chat": 18,
-   "commercial_messages": 72,
-   "chat_messages": 52996,
+   "programs_with_chat": 20,
+   "commercial_messages": 81,
+   "chat_messages": 62152,
    "commercial_pct": 0.1,
-   "commercial_per_1k": 0.03,
+   "commercial_per_1k": 0.02,
    "post_pnt_messages": 0,
    "by_tipo": {
-    "pedido_link": 26,
-    "pregunta_precio": 40,
-    "pregunta_compra": 6
+    "pregunta_precio": 47,
+    "pedido_link": 27,
+    "pregunta_compra": 7
    },
    "top_examples": [
     {
@@ -97,39 +97,8 @@
      "count": 2
     },
     {
-     "text": "a ese discord se entra con un link que comparte ruocco en su x, asi que es el",
-     "tipo": "pedido_link",
-     "count": 1
-    }
-   ]
-  },
-  {
-   "id": "aura",
-   "name": "Aura",
-   "programs_with_chat": 2,
-   "commercial_messages": 3,
-   "chat_messages": 4037,
-   "commercial_pct": 0.1,
-   "commercial_per_1k": 0.03,
-   "post_pnt_messages": 0,
-   "by_tipo": {
-    "pregunta_compra": 1,
-    "pedido_link": 2
-   },
-   "top_examples": [
-    {
-     "text": "MANDEN SUS AUDIOS: 11 7080 4460 :sparkles:",
-     "tipo": "pregunta_compra",
-     "count": 1
-    },
-    {
-     "text": "779 es el codigo de argentina despues 750 → México.789–790 → Brasil.690–699 → China.500–509 → Reino Unido. y asi",
-     "tipo": "pedido_link",
-     "count": 1
-    },
-    {
-     "text": "A Tinder le sirve que no duren las parejas para que vuelvan a la APP.",
-     "tipo": "pedido_link",
+     "text": "Deci cuanto es el PBI del país y no te cierra nunca crecer como se creció .",
+     "tipo": "pregunta_precio",
      "count": 1
     }
    ]
@@ -144,8 +113,8 @@
    "commercial_per_1k": 0.02,
    "post_pnt_messages": 0,
    "by_tipo": {
-    "pedido_link": 33,
     "pregunta_precio": 16,
+    "pedido_link": 33,
     "pregunta_compra": 2
    },
    "top_examples": [
@@ -155,12 +124,37 @@
      "count": 2
     },
     {
-     "text": "en mcdonalds se come con los cupones de la app, si no es muy caro",
+     "text": "cuánto te sale un atado de 10?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "discriminacion, si quiero mandar un superchat me sale 1 euro, en argentina 100pe. buuuu",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ]
+  },
+  {
+   "id": "aura",
+   "name": "Aura",
+   "programs_with_chat": 2,
+   "commercial_messages": 2,
+   "chat_messages": 4037,
+   "commercial_pct": 0.0,
+   "commercial_per_1k": 0.02,
+   "post_pnt_messages": 0,
+   "by_tipo": {
+    "pedido_link": 2
+   },
+   "top_examples": [
+    {
+     "text": "779 es el codigo de argentina despues 750 → México.789–790 → Brasil.690–699 → China.500–509 → Reino Unido. y asi",
      "tipo": "pedido_link",
      "count": 1
     },
     {
-     "text": "el precio sin descuento de mcdonalds solo se paga despues del boliche de bajon sin energia para entrar a la app",
+     "text": "A Tinder le sirve que no duren las parejas para que vuelvan a la APP.",
      "tipo": "pedido_link",
      "count": 1
     }
@@ -176,8 +170,8 @@
    "commercial_per_1k": 0.01,
    "post_pnt_messages": 0,
    "by_tipo": {
-    "pedido_link": 13,
-    "pregunta_precio": 7
+    "pregunta_precio": 7,
+    "pedido_link": 13
    },
    "top_examples": [
     {
@@ -186,13 +180,13 @@
      "count": 2
     },
     {
-     "text": "es un código propio",
-     "tipo": "pedido_link",
+     "text": "el conmgelador de precio",
+     "tipo": "pregunta_precio",
      "count": 1
     },
     {
-     "text": "el conmgelador de precio",
-     "tipo": "pregunta_precio",
+     "text": "NO CAMBIARON EL LINK DEL PROGRAMA",
+     "tipo": "pedido_link",
      "count": 1
     }
    ]
@@ -213,17 +207,17 @@
    },
    "top_examples": [
     {
-     "text": "vamos pepe decime cuanto aumento cuota para incorporar HAA",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "no le bajemos el precio a los estafadores hijos de puta con esto de reirnos no más",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
      "text": "Sale ese cypher del Armenio? @SomosGelatina",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Sale 50USD la entrada creo es el vip Launge del aeropuerto",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Moreno como le bajas el precio a Kicillof, sos el mejor amigo de la derecha",
      "tipo": "pregunta_precio",
      "count": 1
     }
@@ -261,18 +255,43 @@
    ]
   },
   {
+   "id": "futurock_fm",
+   "name": "futurock_fm",
+   "programs_with_chat": 1,
+   "commercial_messages": 2,
+   "chat_messages": 432,
+   "commercial_pct": 0.5,
+   "commercial_per_1k": 0.01,
+   "post_pnt_messages": 0,
+   "by_tipo": {
+    "pregunta_precio": 2
+   },
+   "top_examples": [
+    {
+     "text": "El tema es que no te dicen cuanto le sale , te dicen que estaba regalado antes y la gente paga ciegamente poque si , esta muy mal eso",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Cuando sale juntada oyenta?. Garantizamos solucion a tu despelote",
+     "tipo": "pregunta_precio",
+     "count": 1
+    }
+   ]
+  },
+  {
    "id": "olga",
    "name": "Olga",
-   "programs_with_chat": 17,
-   "commercial_messages": 116,
-   "chat_messages": 81744,
+   "programs_with_chat": 18,
+   "commercial_messages": 118,
+   "chat_messages": 84142,
    "commercial_pct": 0.1,
    "commercial_per_1k": 0.0,
    "post_pnt_messages": 3,
    "by_tipo": {
-    "pregunta_precio": 69,
-    "pregunta_compra": 2,
-    "pedido_link": 45
+    "pedido_link": 45,
+    "pregunta_precio": 70,
+    "pregunta_compra": 3
    },
    "top_examples": [
     {
@@ -302,23 +321,23 @@
    "commercial_per_1k": 0.0,
    "post_pnt_messages": 4,
    "by_tipo": {
-    "pregunta_precio": 9,
     "pedido_link": 3,
+    "pregunta_precio": 9,
     "pregunta_compra": 1
    },
    "top_examples": [
     {
-     "text": "hoy la losa y el cielorraso a mitad de precio",
-     "tipo": "pregunta_precio",
+     "text": "es un link de donacion para la proxima campaña de corina machado?",
+     "tipo": "pedido_link",
      "count": 1
     },
     {
-     "text": "el peso no se hace fuerte.. las cosas son más caras.. l carne costaba 3 mil el kilo en 2023 y hoy cuesta 23 mil el kilo con el dolar al mismo precio",
-     "tipo": "pregunta_precio",
+     "text": "el negro de wats app jaja",
+     "tipo": "pedido_link",
      "count": 1
     },
     {
-     "text": "20% osea el precio de nafta tendría q costar 2500? el.litro jujuuu q ladrones por favor",
+     "text": "cuanto sale el terreno de urbana play ahi en miami? :rolling_on_the_floor_laughing::rolling_on_the_floor_laughing:",
      "tipo": "pregunta_precio",
      "count": 1
     }
@@ -344,12 +363,12 @@
      "count": 2
     },
     {
-     "text": "pero podes darla de baja al toque con la app",
+     "text": "Qué paso con la app de connie??",
      "tipo": "pedido_link",
      "count": 1
     },
     {
-     "text": "cuanto salen esos mic mini?",
+     "text": "YO TE BANCO PEPE A MI ME PASA CON LAS FRUTAS Y VERDURAS, NO PUEDO ME CUESTA UN MONTON",
      "tipo": "pregunta_precio",
      "count": 1
     }
@@ -403,9 +422,9 @@
    "channel": "",
    "channel_id": "",
    "commercial_messages": 2,
-   "commercial_pct": 8.3,
-   "commercial_per_1k": 0.29,
-   "chat_messages": 24,
+   "commercial_pct": 5.1,
+   "commercial_per_1k": 0.19,
+   "chat_messages": 39,
    "by_tipo": {
     "pregunta_precio": 2
    },
@@ -487,44 +506,6 @@
    "pnt_examples": []
   },
   {
-   "video_id": "X3RKtsI0UNg",
-   "title": "",
-   "channel": "",
-   "channel_id": "",
-   "commercial_messages": 5,
-   "commercial_pct": 5.1,
-   "commercial_per_1k": 0.12,
-   "chat_messages": 99,
-   "by_tipo": {
-    "pregunta_precio": 5
-   },
-   "top_examples": [
-    {
-     "text": "cuánto cuesta alquilar un campo para producir?",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "a los productos le convendría retenciones más altas y pero bajarle el coso de la energía y el precio del alquiler de la tierra",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "El alquiler de la tierra es un precio de mercado",
-     "tipo": "pregunta_precio",
-     "count": 1
-    },
-    {
-     "text": "si quieren precio de mercado el sueldo tendría que estar acorde al del mercado mercado.",
-     "tipo": "pregunta_precio",
-     "count": 1
-    }
-   ],
-   "post_pnt_messages": 0,
-   "pnt_brand_aligned": 0,
-   "pnt_examples": []
-  },
-  {
    "video_id": "3AxUr1Maqu8",
    "title": "EL MILAGRO DE PARAGUAY Y MOVIL CON CHIQUI TAPIA | #NOSEPUDO COMPLETO 29/06 | VORTERIX",
    "channel": "Vorterix",
@@ -556,6 +537,44 @@
     {
      "text": "MAÑANA 50% DE DESCUENTO EN ARMADO DE PAREDES",
      "tipo": "pedido_link",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "X3RKtsI0UNg",
+   "title": "",
+   "channel": "",
+   "channel_id": "",
+   "commercial_messages": 7,
+   "commercial_pct": 3.5,
+   "commercial_per_1k": 0.09,
+   "chat_messages": 198,
+   "by_tipo": {
+    "pregunta_precio": 7
+   },
+   "top_examples": [
+    {
+     "text": "cuánto cuesta alquilar un campo para producir?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "a los productos le convendría retenciones más altas y pero bajarle el coso de la energía y el precio del alquiler de la tierra",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "El alquiler de la tierra es un precio de mercado",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "si quieren precio de mercado el sueldo tendría que estar acorde al del mercado mercado.",
+     "tipo": "pregunta_precio",
      "count": 1
     }
    ],
@@ -712,35 +731,6 @@
    ]
   },
   {
-   "video_id": "AUSgxGQirlM",
-   "title": "LA CIENCIA DE LOS CODIGOS QR con EZE MARTÍNEZ l #deacá - 29/06/26",
-   "channel": " A U R A ",
-   "channel_id": "aura",
-   "commercial_messages": 2,
-   "commercial_pct": 0.1,
-   "commercial_per_1k": 0.04,
-   "chat_messages": 2193,
-   "by_tipo": {
-    "pregunta_compra": 1,
-    "pedido_link": 1
-   },
-   "top_examples": [
-    {
-     "text": "MANDEN SUS AUDIOS: 11 7080 4460 :sparkles:",
-     "tipo": "pregunta_compra",
-     "count": 1
-    },
-    {
-     "text": "779 es el codigo de argentina despues 750 → México.789–790 → Brasil.690–699 → China.500–509 → Reino Unido. y asi",
-     "tipo": "pedido_link",
-     "count": 1
-    }
-   ],
-   "post_pnt_messages": 0,
-   "pnt_brand_aligned": 0,
-   "pnt_examples": []
-  },
-  {
    "video_id": "gOUmUVtulaw",
    "title": "LA NUEVA ETAPA DEL DÓLAR Y MORA RÉCORD I Carlos Burgueño, Agustina Girón #CierreDeMercados",
    "channel": "AHORA PLAY",
@@ -794,6 +784,44 @@
     {
      "text": "el link del artículo citado por Flor y Baenza??",
      "tipo": "pedido_link",
+     "count": 1
+    }
+   ],
+   "post_pnt_messages": 0,
+   "pnt_brand_aligned": 0,
+   "pnt_examples": []
+  },
+  {
+   "video_id": "qLQFv3bGuhA",
+   "title": "",
+   "channel": "",
+   "channel_id": "",
+   "commercial_messages": 5,
+   "commercial_pct": 0.7,
+   "commercial_per_1k": 0.03,
+   "chat_messages": 729,
+   "by_tipo": {
+    "pregunta_precio": 5
+   },
+   "top_examples": [
+    {
+     "text": "a Cuanto seria el acomodo, 1700 o 1900?",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "1670 en diciembre? que barato! todo lo que no les logre sacar a 1400 se los voy a sacar todos ahora en 1500 y tambien lo hare a 1600. A cualquier precio abajo d",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "POLITICOS QUE SE ESCAPEN A EUROPA.... LE VAMOS A PONER PRECIO A SUS CABEZAS....",
+     "tipo": "pregunta_precio",
+     "count": 1
+    },
+    {
+     "text": "Maxi. Cada cuota de los préstamos paga 21% de IVA. El gobierno \"liberal\" podría quitar el 21% sobre las cuotas. ¿Qué VALOR AGREGADO tiene un préstamo personal? ",
+     "tipo": "pregunta_precio",
      "count": 1
     }
    ],
@@ -935,6 +963,16 @@
    "cross_canal": false
   },
   {
+   "text": "fah yo trabajé como moderadora de contenido para una app!",
+   "tipo": "pedido_link",
+   "count": 2,
+   "n_programas": 1,
+   "canales": [
+    "BLENDER"
+   ],
+   "cross_canal": false
+  },
+  {
    "text": "este año sale Teatro Picadilly",
    "tipo": "pregunta_precio",
    "count": 2,
@@ -965,12 +1003,12 @@
    "cross_canal": false
   },
   {
-   "text": "fah yo trabajé como moderadora de contenido para una app!",
+   "text": "PASA EL LINK GUICHE",
    "tipo": "pedido_link",
    "count": 2,
    "n_programas": 1,
    "canales": [
-    "BLENDER"
+    "Vorterix"
    ],
    "cross_canal": false
   },
@@ -983,23 +1021,11 @@
    "cross_canal": false
   },
   {
-   "text": "PASA EL LINK GUICHE",
-   "tipo": "pedido_link",
-   "count": 2,
-   "n_programas": 1,
-   "canales": [
-    "Vorterix"
-   ],
-   "cross_canal": false
-  },
-  {
-   "text": "EL PADRE DE MI HIJA RENUNCIO AL TRABAJAO PARA QUE NO LE RETENGAN UN PORCENTAJE DEL SUELDO PARA LA CUOTA ALIMENTARIA",
+   "text": "yo le compre una bandeja pasa vinilos a mi marido, sale 500 lucas",
    "tipo": "pregunta_precio",
    "count": 2,
    "n_programas": 1,
-   "canales": [
-    "OLGA"
-   ],
+   "canales": [],
    "cross_canal": false
   }
  ],
@@ -1125,6 +1151,6 @@
    "channel": "Urbana Play 104.3 FM"
   }
  ],
- "channels_with_commercial": 13,
- "period": "2026-07-01T14:41:43.113942+00:00"
+ "channels_with_commercial": 14,
+ "period": "2026-07-01T15:01:51.428519+00:00"
 }

@@ -4862,6 +4862,43 @@
   "rubro": "otro"
  },
  {
+  "slug": "lo-viejo-funciona",
+  "name": "Lo viejo funciona",
+  "mentions": 1,
+  "channels": [
+   "aura"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "30/06/2026",
+  "last_seen": "30/06/2026",
+  "value_usd": 2.0,
+  "samples": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "30/06/2026",
+    "video_id": "bZUZnVsCn5M",
+    "title": "ANALIZAMOS A FONDO A \"CABO VERDE\", EL PRÓXIMO RIVAL DE LA SELECCIÓN l #hoycomosiempre - 01/06/26",
+    "minute": "02:12:42",
+    "views": 903,
+    "conc_at": 327
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 327,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "retail"
+ },
+ {
   "slug": "sarkis",
   "name": "Sarkis",
   "mentions": 1,

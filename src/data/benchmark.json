@@ -1054,13 +1054,13 @@
  {
   "id": "aura",
   "name": "Aura",
-  "videos": 3,
-  "vod_views": 2631,
-  "avg_concurrent": 357,
-  "brands": 1,
-  "mentions": 1,
-  "share_views": 0.0,
-  "n_brands_live": 1,
+  "videos": 4,
+  "vod_views": 3534,
+  "avg_concurrent": 318,
+  "brands": 2,
+  "mentions": 2,
+  "share_views": 0.1,
+  "n_brands_live": 2,
   "top_brands": [
    {
     "slug": "youtube-aura-stream-tn",
@@ -1068,6 +1068,13 @@
     "mentions": 1,
     "value_usd": 7.0,
     "rubro": "otro"
+   },
+   {
+    "slug": "lo-viejo-funciona",
+    "name": "Lo viejo funciona",
+    "mentions": 1,
+    "value_usd": 2.0,
+    "rubro": "retail"
    }
   ]
  },

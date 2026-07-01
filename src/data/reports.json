@@ -22812,6 +22812,191 @@
    }
   ]
  },
+ "lo-viejo-funciona": {
+  "name": "Lo viejo funciona",
+  "mentions": 1,
+  "kind": "marca",
+  "value_usd": 2.0,
+  "channels": [
+   "aura"
+  ],
+  "by_tier": {
+   "1": 1,
+   "2": 0,
+   "3": 0
+  },
+  "by_sentiment": {
+   "positivo": 0,
+   "neutro": 1,
+   "negativo": 0
+  },
+  "series": [
+   {
+    "date_iso": "20260630",
+    "date": "30/06/2026",
+    "mentions": 1,
+    "value_usd": 2.0
+   }
+  ],
+  "best": {
+   "channel": "aura",
+   "channel_name": " A U R A ",
+   "date": "30/06/2026",
+   "date_iso": "20260630",
+   "video_id": "bZUZnVsCn5M",
+   "title": "ANALIZAMOS A FONDO A \"CABO VERDE\", EL PRÓXIMO RIVAL DE LA SELECCIÓN l #hoycomosiempre - 01/06/26",
+   "minute": "02:12:42",
+   "t_seconds": 7962,
+   "precise": true,
+   "views": 903,
+   "value_usd": 2.0,
+   "quote": "A las 12 estreno de los viejos funciona especial Lady Di en el día de su nacimiento",
+   "tier": 1,
+   "tier_label": "Al pasar",
+   "sentiment": "neutro",
+   "conc_at": 327,
+   "retention_pct": 6.5,
+   "chat_ratio": 0.71,
+   "chat_reaction": {
+    "cobertura": true,
+    "has_chat": true,
+    "chat_ratio": 0.71,
+    "spike_rpm": 0.0,
+    "pre_rpm": 27.5,
+    "post_rpm": 1.3,
+    "eco_marca_post": 0,
+    "eco_line": null,
+    "demanda_post": 0,
+    "pre_s": 120,
+    "post_s": 180,
+    "tone": "down",
+    "table_line": "Chat más quieto que el resto del programa (~29%)",
+    "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~29% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 27.5 msgs/min → después: 1.3 msgs/min.",
+    "detail_lines": [],
+    "ejemplos": [],
+    "motivo": null
+   },
+   "room_reaction": {
+    "has_data": true,
+    "cobertura": true,
+    "in_window": true,
+    "table_line": "encuesta (26 votos)",
+    "headline": "En el mismo tramo corrió una encuesta del programa: «¿POR QUÉ PIENSAN QUE CHOCARON?»",
+    "detail_lines": [
+     "En el mismo tramo corrió una encuesta del programa: «¿POR QUÉ PIENSAN QUE CHOCARON?»"
+    ],
+    "lines": [
+     "En el mismo tramo corrió una encuesta del programa: «¿POR QUÉ PIENSAN QUE CHOCARON?»"
+    ],
+    "pins": [],
+    "polls": [
+     {
+      "question": "¿POR QUÉ PIENSAN QUE CHOCARON?",
+      "total_votes": 26,
+      "ts_s": 7662.1,
+      "winner": "SE DISTRAJO CON EL F*CKING YOUTUBER",
+      "winner_pct": "50%"
+     },
+     {
+      "question": null,
+      "total_votes": 0,
+      "ts_s": 7954.5,
+      "winner": null,
+      "winner_pct": null
+     }
+    ],
+    "monetization": null,
+    "disclaimer": null
+   },
+   "program_peak": 330,
+   "has_chat": true,
+   "anchor_confidence": "exact",
+   "anchor_validated": true,
+   "transcript_at_ts": "así que si no es si te quieren opacar vos te clavas un buen outfit y sale remontada a la vida a las 12 estreno de los viejos funciona especial Lady Di en el día de su nacimiento acá los dejamos como siempre Nos volvemos a encontrar mañana a las 8 de la mañana De 10 a 12 se quedan con de acá",
+   "evidence": "VERIFIED",
+   "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+  },
+  "detail": [
+   {
+    "channel": "aura",
+    "channel_name": " A U R A ",
+    "date": "30/06/2026",
+    "date_iso": "20260630",
+    "video_id": "bZUZnVsCn5M",
+    "title": "ANALIZAMOS A FONDO A \"CABO VERDE\", EL PRÓXIMO RIVAL DE LA SELECCIÓN l #hoycomosiempre - 01/06/26",
+    "minute": "02:12:42",
+    "t_seconds": 7962,
+    "precise": true,
+    "views": 903,
+    "value_usd": 2.0,
+    "quote": "A las 12 estreno de los viejos funciona especial Lady Di en el día de su nacimiento",
+    "tier": 1,
+    "tier_label": "Al pasar",
+    "sentiment": "neutro",
+    "conc_at": 327,
+    "retention_pct": 6.5,
+    "chat_ratio": 0.71,
+    "chat_reaction": {
+     "cobertura": true,
+     "has_chat": true,
+     "chat_ratio": 0.71,
+     "spike_rpm": 0.0,
+     "pre_rpm": 27.5,
+     "post_rpm": 1.3,
+     "eco_marca_post": 0,
+     "eco_line": null,
+     "demanda_post": 0,
+     "pre_s": 120,
+     "post_s": 180,
+     "tone": "down",
+     "table_line": "Chat más quieto que el resto del programa (~29%)",
+     "headline": "Durante la aparición, el chat estuvo más quieto que el resto del programa (~29% bajo el ritmo habitual) en la ventana de −2 / +3 minutos alrededor de la mención. Antes: 27.5 msgs/min → después: 1.3 msgs/min.",
+     "detail_lines": [],
+     "ejemplos": [],
+     "motivo": null
+    },
+    "room_reaction": {
+     "has_data": true,
+     "cobertura": true,
+     "in_window": true,
+     "table_line": "encuesta (26 votos)",
+     "headline": "En el mismo tramo corrió una encuesta del programa: «¿POR QUÉ PIENSAN QUE CHOCARON?»",
+     "detail_lines": [
+      "En el mismo tramo corrió una encuesta del programa: «¿POR QUÉ PIENSAN QUE CHOCARON?»"
+     ],
+     "lines": [
+      "En el mismo tramo corrió una encuesta del programa: «¿POR QUÉ PIENSAN QUE CHOCARON?»"
+     ],
+     "pins": [],
+     "polls": [
+      {
+       "question": "¿POR QUÉ PIENSAN QUE CHOCARON?",
+       "total_votes": 26,
+       "ts_s": 7662.1,
+       "winner": "SE DISTRAJO CON EL F*CKING YOUTUBER",
+       "winner_pct": "50%"
+      },
+      {
+       "question": null,
+       "total_votes": 0,
+       "ts_s": 7954.5,
+       "winner": null,
+       "winner_pct": null
+      }
+     ],
+     "monetization": null,
+     "disclaimer": null
+    },
+    "program_peak": 330,
+    "has_chat": true,
+    "anchor_confidence": "exact",
+    "anchor_validated": true,
+    "transcript_at_ts": "así que si no es si te quieren opacar vos te clavas un buen outfit y sale remontada a la vida a las 12 estreno de los viejos funciona especial Lady Di en el día de su nacimiento acá los dejamos como siempre Nos volvemos a encontrar mañana a las 8 de la mañana De 10 a 12 se quedan con de acá",
+    "evidence": "VERIFIED",
+    "evidence_reason": "Evidencia completa: cita en transcript, timestamp preciso (exact) y audiencia concurrente al instante"
+   }
+  ]
+ },
  "sarkis": {
   "name": "Sarkis",
   "mentions": 1,

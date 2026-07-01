@@ -10548,6 +10548,148 @@
     }
    ]
   },
+  "bZUZnVsCn5M": {
+   "video_id": "bZUZnVsCn5M",
+   "channel_id": "aura",
+   "channel": " A U R A ",
+   "title": "ANALIZAMOS A FONDO A \"CABO VERDE\", EL PRÓXIMO RIVAL DE LA SELECCIÓN l #hoycomosiempre - 01/06/26",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Fútbol - Copa América 2024",
+     "score": 3
+    },
+    {
+     "tema": "Copa Mundial De Fútbol",
+     "score": 3
+    },
+    {
+     "tema": "Entrevista Con Graciela Alfano",
+     "score": 3
+    },
+    {
+     "tema": "Terremoto En Venezuela",
+     "score": 3
+    },
+    {
+     "tema": "Iniciativa Solidaria Gastronómica",
+     "score": 3
+    },
+    {
+     "tema": "Crisis Humanitaria En Venezuela",
+     "score": 3
+    },
+    {
+     "tema": "Terremoto En Caracas",
+     "score": 3
+    },
+    {
+     "tema": "Cabo Verde - Política Internacional",
+     "score": 3
+    },
+    {
+     "tema": "Islas Malvinas - Reclamo Argentino",
+     "score": 3
+    },
+    {
+     "tema": "Selección Argentina Asado En Concentración",
+     "score": 3
+    },
+    {
+     "tema": "Cortes De Carne Y Preferencias En Asado",
+     "score": 3
+    },
+    {
+     "tema": "Película El Entrenador De Perros",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 33
+    },
+    {
+     "categoria": "actividad",
+     "score": 28
+    },
+    {
+     "categoria": "otro",
+     "score": 25
+    },
+    {
+     "categoria": "persona",
+     "score": 20
+    },
+    {
+     "categoria": "comida",
+     "score": 9
+    },
+    {
+     "categoria": "producto",
+     "score": 6
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 4
+    },
+    {
+     "categoria": "lugar",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Fútbol - Copa América 2024",
+     "categoria": "actividad",
+     "contexto": "Debate sobre el desempeño de Francia, Mbappé vs Messi, y la posibilidad de que Argentina logre la cuarta estrella el 19 de julio",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Objetivos Personales Y Profesionales",
+     "categoria": "otro",
+     "contexto": "Reflexión sobre cumplir objetivos en la mitad del año y los que quedan pendientes de cara al segundo semestre",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Aumento De Transporte Público",
+     "categoria": "otro",
+     "contexto": "Mención de que el primero de julio aumentan colectivo, subte y tren",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Evento Social - Cumpleaños De Roxy Vázquez",
+     "categoria": "persona",
+     "contexto": "Se menciona la cena de cumpleaños de Roxy Vázquez y asistencia del equipo de Nuestra Tarde",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Finanzas Personales",
+     "categoria": "salud",
+     "contexto": "Referencia a charla de Elena sobre importancia de objetivos financieros",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Algoritmos En Redes Sociales",
+     "categoria": "tecnologia",
+     "contexto": "Discusión sobre cómo Twitter y Instagram personalizan el algoritmo para cada usuario y cómo usarlo como herramienta de autoconocimiento",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Copa Mundial De Fútbol",
+     "categoria": "actividad",
+     "contexto": "Análisis de octavos de final, festejos en México y Paraguay, comparación con Mundial 2022, y anticipación al Mundial 2030",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Festejos Callejeros Por Fútbol",
+     "categoria": "cultura",
+     "contexto": "Comparación entre multitudes en México y Paraguay versus Argentina 2022, diluvios y eventos meteorológicos durante partidos",
+     "minute": "0:20"
+    }
+   ]
+  },
   "btHFJgjSlls": {
    "video_id": "btHFJgjSlls",
    "channel_id": "ahoraplay",

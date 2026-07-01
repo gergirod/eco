@@ -978,6 +978,12 @@ export default function PalcoPage() {
             <h2 className="text-[13px] font-semibold uppercase tracking-wide text-stone-500">
               Dónde más se habla · por canal
             </h2>
+            <p className="mt-1 text-[12px] text-stone-400">
+              Solo lo dicho al aire (transcript de conductores). No suma la sala — el chat
+              {R.totals.chat_mentions > 0
+                ? ` (${compact(R.totals.chat_mentions)} menciones) va aparte en el detalle.`
+                : " va aparte cuando hay captura."}
+            </p>
             <div className="mt-4 space-y-2">
               {R.share_of_voice.slice(0, 8).map((s) => (
                 <div key={s.channel} className="flex items-center gap-3">
@@ -1000,6 +1006,9 @@ export default function PalcoPage() {
             <h2 className="text-[13px] font-semibold uppercase tracking-wide text-stone-500">
               Menciones por día
             </h2>
+            <p className="mt-1 text-[12px] text-stone-400">
+              Misma base: menciones habladas al aire por día (sin chat).
+            </p>
             <div className="mt-6 flex h-44 gap-1.5">
               {R.by_day.slice(-14).map((d) => {
                 const pct = d.mentions / maxDay;
