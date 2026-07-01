@@ -361,6 +361,7 @@ export default function PalcoPage() {
   const [soloNegativo, setSoloNegativo] = useState(false);
   const [frecuencia, setFrecuencia] = useState<Frecuencia>("diario");
   const [email, setEmail] = useState("");
+  const [cruceShow, setCruceShow] = useState<Record<string, number>>({});
 
   // Lee la watchlist elegida en el onboarding (?e=slug1,slug2&plan=pro).
   useEffect(() => {
@@ -381,6 +382,10 @@ export default function PalcoPage() {
     if (f === "al-toque" || f === "diario" || f === "semanal") setFrecuencia(f);
     if (p.get("mail")) setEmail(p.get("mail")!);
   }, []);
+
+  useEffect(() => {
+    setCruceShow({});
+  }, [slug]);
 
   // Trae la última versión del dataset desde Supabase (fallback: el bundle).
   useEffect(() => {
@@ -955,17 +960,20 @@ export default function PalcoPage() {
               Cruces · nombrados juntos al aire
             </h2>
             <p className="mt-1 text-[12px] text-stone-400">
-              Mismo programa, ventana de ~10 minutos. Calculado sobre todas las entidades del corpus
-              — no un par fijo.
+              Mismo programa, ventana de ~10 minutos. Cada cruce muestra qué dijeron de cada uno
+              en ese bloque.
             </p>
             <div className="mt-4 space-y-4">
               {crucesPairs.map((p) => {
+                const parKey = p.par.join("-");
                 const otroIdx = p.par[0] === slug ? 1 : 0;
                 const otro = p.nombres[otroIdx];
-                const ultimo = p.cruces[0];
+                const enDataset = p.cruces.length;
+                const visible = Math.min(cruceShow[parKey] ?? 1, enDataset);
+                const puedeMas = visible < enDataset;
                 return (
                   <div
-                    key={p.par.join("-")}
+                    key={parKey}
                     className="rounded-xl border border-stone-200 bg-white p-4 shadow-sm"
                   >
                     <div className="flex flex-wrap items-baseline justify-between gap-2">
@@ -974,43 +982,100 @@ export default function PalcoPage() {
                       </p>
                       <p className="text-[12px] text-stone-400">
                         {p.cruces_total} cruces · {p.programas} programas
+                        {p.cruces_total > enDataset && (
+                          <span className="text-stone-300"> · top {enDataset} en tablero</span>
+                        )}
                       </p>
                     </div>
-                    {ultimo && (
-                      <div className="mt-3 space-y-2 border-t border-stone-100 pt-3">
-                        <p className="text-[12px] text-stone-500">
-                          {ultimo.channel} · {fmtDay(ultimo.date)} · {ultimo.ventana?.label}
-                        </p>
-                        {ultimo.entidades.map((e) => (
-                          <p key={e.slug} className="text-[13px] italic text-stone-700 line-clamp-2">
-                            <span className="font-medium not-italic text-stone-500">{e.nombre || e.slug}:</span>{" "}
-                            &ldquo;{e.quote}&rdquo;
+                    <div className="mt-3 space-y-4 border-t border-stone-100 pt-3">
+                      {p.cruces.slice(0, visible).map((cruce, i) => (
+                        <div
+                          key={cruce.id}
+                          className={i > 0 ? "border-t border-stone-100 pt-4" : ""}
+                        >
+                          <p className="text-[12px] font-medium text-stone-500">
+                            {cruce.channel} · {fmtDay(cruce.date)} · {cruce.ventana?.label}
+                            {cruce.program && (
+                              <span className="font-normal text-stone-400"> · {cruce.program}</span>
+                            )}
                           </p>
-                        ))}
-                        <div className="flex flex-wrap items-center gap-3 text-[12px] text-stone-500">
-                          {ultimo.conc_at != null && (
-                            <span className="inline-flex items-center gap-1">
-                              <IconEye className="h-3.5 w-3.5" />
-                              {compact(ultimo.conc_at)} en vivo
-                            </span>
-                          )}
-                          {(ultimo.chat_ratio ?? 0) > 0 && (
-                            <span className="inline-flex items-center gap-1">
-                              <IconChat className="h-3.5 w-3.5" />
-                              ×{ultimo.chat_ratio} chat
-                            </span>
-                          )}
-                          <a
-                            href={ultimo.yt_url}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="inline-flex items-center gap-1 font-medium hover:underline"
-                            style={{ color: BRAND }}
-                          >
-                            <IconPlay className="h-3.5 w-3.5" />
-                            ver clip
-                          </a>
+                          <div className="mt-2 space-y-2">
+                            {cruce.entidades.map((e) => (
+                              <p key={`${cruce.id}-${e.slug}`} className="text-[13px] text-stone-700">
+                                <span className="font-semibold text-stone-600">
+                                  {e.nombre || e.slug}
+                                </span>
+                                <span className="text-stone-400"> ({e.t_label})</span>
+                                <span className="text-stone-500"> — </span>
+                                <span className="italic">&ldquo;{e.quote}&rdquo;</span>
+                              </p>
+                            ))}
+                          </div>
+                          <div className="mt-2 flex flex-wrap items-center gap-3 text-[12px] text-stone-500">
+                            {cruce.conc_at != null && (
+                              <span className="inline-flex items-center gap-1">
+                                <IconEye className="h-3.5 w-3.5" />
+                                {compact(cruce.conc_at)} en vivo
+                              </span>
+                            )}
+                            {(cruce.chat_ratio ?? 0) > 0 && (
+                              <span className="inline-flex items-center gap-1">
+                                <IconChat className="h-3.5 w-3.5" />
+                                ×{cruce.chat_ratio} chat
+                              </span>
+                            )}
+                            <a
+                              href={cruce.yt_url}
+                              target="_blank"
+                              rel="noreferrer"
+                              className="inline-flex items-center gap-1 font-medium hover:underline"
+                              style={{ color: BRAND }}
+                            >
+                              <IconPlay className="h-3.5 w-3.5" />
+                              ver clip
+                            </a>
+                          </div>
                         </div>
+                      ))}
+                    </div>
+                    {(enDataset > 1 || visible > 1) && (
+                      <div className="mt-3 flex flex-wrap gap-2 border-t border-stone-100 pt-3">
+                        {puedeMas && (
+                          <button
+                            type="button"
+                            onClick={() =>
+                              setCruceShow((s) => ({
+                                ...s,
+                                [parKey]: Math.min(visible + 5, enDataset),
+                              }))
+                            }
+                            className="rounded-lg border border-stone-200 bg-stone-50 px-3 py-1.5 text-[12px] font-medium text-stone-700 hover:border-stone-400"
+                          >
+                            Ver más cruces ({Math.min(visible + 5, enDataset)} de {enDataset})
+                          </button>
+                        )}
+                        {puedeMas && enDataset > 1 && (
+                          <button
+                            type="button"
+                            onClick={() =>
+                              setCruceShow((s) => ({ ...s, [parKey]: enDataset }))
+                            }
+                            className="rounded-lg border border-stone-200 px-3 py-1.5 text-[12px] font-medium text-stone-600 hover:border-stone-400"
+                          >
+                            Ver los {enDataset} del tablero
+                          </button>
+                        )}
+                        {visible > 1 && (
+                          <button
+                            type="button"
+                            onClick={() =>
+                              setCruceShow((s) => ({ ...s, [parKey]: 1 }))
+                            }
+                            className="rounded-lg px-3 py-1.5 text-[12px] text-stone-500 hover:text-stone-800"
+                          >
+                            Colapsar
+                          </button>
+                        )}
                       </div>
                     )}
                   </div>
