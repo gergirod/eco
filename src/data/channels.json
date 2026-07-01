@@ -28,12 +28,12 @@
   "handle_verified": true,
   "has_data": true,
   "stats": {
-   "videos_processed": 24,
-   "total_vod_views": 4068263,
-   "avg_concurrent": 83480,
-   "brands_detected": 76,
-   "mentions": 122,
-   "last_processed": "30/06/2026"
+   "videos_processed": 25,
+   "total_vod_views": 4199273,
+   "avg_concurrent": 82254,
+   "brands_detected": 81,
+   "mentions": 128,
+   "last_processed": "01/07/2026"
   },
   "pipeline_status": "activo"
  },

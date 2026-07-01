@@ -1,18 +1,18 @@
 {
- "programs_analyzed": 125,
- "platform_line": "La atención más fuerte concentra entre las 11–12 hs (promedio 74.869 mirando en 20 emisiones).",
+ "programs_analyzed": 127,
+ "platform_line": "La atención más fuerte concentra entre las 11–12 hs (promedio 76.708 mirando en 23 emisiones).",
  "best_hours": [
   {
    "hour": 11,
    "label": "11–12 hs",
-   "avg_peak": 74869,
-   "n": 20
+   "avg_peak": 76708,
+   "n": 23
   },
   {
    "hour": 10,
    "label": "10–11 hs",
-   "avg_peak": 55206,
-   "n": 21
+   "avg_peak": 52091,
+   "n": 20
   },
   {
    "hour": 12,
@@ -49,8 +49,8 @@
   {
    "weekday": 2,
    "label": "miércoles",
-   "avg_peak": 52049,
-   "n": 20
+   "avg_peak": 54108,
+   "n": 22
   },
   {
    "weekday": 1,
@@ -74,18 +74,18 @@
    "typical_start": "10:12",
    "peak_window": "11–12 hs",
    "best_weekday": "martes",
-   "avg_peak": 221161,
+   "avg_peak": 227378,
    "line": "Nadie Dice Nada suele arrancar cerca de las 10:12 y pega fuerte entre 11–12 hs los martes."
   },
   {
    "channel_id": "luzu",
    "show_id": "aqn",
    "show_name": "Antes Que Nadie",
-   "emissions": 5,
+   "emissions": 6,
    "typical_start": "6:45",
    "peak_window": "10–11 hs",
    "best_weekday": "martes",
-   "avg_peak": 122223,
+   "avg_peak": 120136,
    "line": "Antes Que Nadie suele arrancar cerca de las 6:45 y pega fuerte entre 10–11 hs los martes."
   },
   {
@@ -129,7 +129,7 @@
    "typical_start": "10:15",
    "peak_window": "11–12 hs",
    "best_weekday": "miércoles",
-   "avg_peak": 38516,
+   "avg_peak": 38695,
    "line": "Soñé que Volaba suele arrancar cerca de las 10:15 y pega fuerte entre 11–12 hs los miércoles."
   },
   {
@@ -221,5 +221,5 @@
    "line": "No Preguntes por Rusia suele arrancar cerca de las 7:48 y pega fuerte entre 9–10 hs los miércoles."
   }
  ],
- "period": "2026-07-01T13:36:55.716513+00:00"
+ "period": "2026-07-01T14:41:43.113942+00:00"
 }

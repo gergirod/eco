@@ -2,13 +2,13 @@
  {
   "id": "luzu",
   "name": "Luzu TV",
-  "videos": 24,
-  "vod_views": 4068263,
-  "avg_concurrent": 83480,
-  "brands": 76,
-  "mentions": 122,
-  "share_views": 71.2,
-  "n_brands_live": 76,
+  "videos": 25,
+  "vod_views": 4199273,
+  "avg_concurrent": 82254,
+  "brands": 81,
+  "mentions": 128,
+  "share_views": 71.9,
+  "n_brands_live": 81,
   "top_brands": [
    {
     "slug": "zorro",
@@ -116,6 +116,13 @@
     "rubro": "otro"
    },
    {
+    "slug": "coca-cola",
+    "name": "Coca-Cola",
+    "mentions": 2,
+    "value_usd": 2409.0,
+    "rubro": "bebidas"
+   },
+   {
     "slug": "natura-aderezos",
     "name": "Natura Aderezos",
     "mentions": 2,
@@ -212,13 +219,6 @@
     "mentions": 1,
     "value_usd": 9096.0,
     "rubro": "retail"
-   },
-   {
-    "slug": "coto-digital",
-    "name": "Coto Digital",
-    "mentions": 1,
-    "value_usd": 10422.0,
-    "rubro": "retail"
    }
   ]
  },
@@ -230,7 +230,7 @@
   "avg_concurrent": 24062,
   "brands": 68,
   "mentions": 136,
-  "share_views": 16.6,
+  "share_views": 16.2,
   "n_brands_live": 68,
   "top_brands": [
    {
@@ -453,7 +453,7 @@
   "avg_concurrent": 6011,
   "brands": 38,
   "mentions": 52,
-  "share_views": 6.4,
+  "share_views": 6.2,
   "n_brands_live": 38,
   "top_brands": [
    {
@@ -676,7 +676,7 @@
   "avg_concurrent": 4062,
   "brands": 7,
   "mentions": 9,
-  "share_views": 2.0,
+  "share_views": 1.9,
   "n_brands_live": 7,
   "top_brands": [
    {

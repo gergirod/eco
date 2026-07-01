@@ -1,5 +1,5 @@
 {
- "period": "2026-07-01T13:36:55.716513+00:00",
+ "period": "2026-07-01T14:41:43.113942+00:00",
  "signals": [
   {
    "tema": "Apoyo a Paraguay",
@@ -14,7 +14,7 @@
    "ejemplo": "tranquilos en un rato el paraguay del profe le gana a alemania y salva la jornada"
   },
   {
-   "tema": "Celebración de victoria de Paraguay",
+   "tema": "Celebración de Victoria de Paraguay",
    "n_programas": 2,
    "n_signals": 3,
    "canales": [
@@ -23,19 +23,7 @@
    ],
    "cross_canal": true,
    "tipo": "otro",
-   "ejemplo": "La felicidad que me dio la victoria de Paraguay, la verdad. Qué belleza."
-  },
-  {
-   "tema": "Apoyo a conductoras",
-   "n_programas": 2,
-   "n_signals": 2,
-   "canales": [
-    "GELATINA",
-    "Neura Media"
-   ],
-   "cross_canal": true,
-   "tipo": "otro",
-   "ejemplo": "Amo la columna de Milfiii, LOS MEJORES, LOS UNICOS"
+   "ejemplo": "LOS PARAGUAYOS LE DEMOSTRARON A ALEMANIA COMO HACER UN MURO"
   },
   {
    "tema": "Energía y entusiasmo general",
@@ -48,6 +36,18 @@
    "cross_canal": true,
    "tipo": "otro",
    "ejemplo": "VAMOOO, DALE, con toda, dale que arrancxaaa"
+  },
+  {
+   "tema": "Apoyo a conductoras",
+   "n_programas": 2,
+   "n_signals": 2,
+   "canales": [
+    "GELATINA",
+    "Neura Media"
+   ],
+   "cross_canal": true,
+   "tipo": "otro",
+   "ejemplo": "July Male, que bombones, ojalá todos los programas de economía fuesen así"
   },
   {
    "tema": "Crítica a Azzaro",
@@ -94,15 +94,15 @@
    "ejemplo": "Martín, cuando sale un \"ASAD bursatil\" en zona sur?"
   },
   {
-   "tema": "Problemas de conexión y cambio de link",
+   "tema": "Precio de productos (Paraguay)",
    "n_programas": 1,
    "n_signals": 1,
    "canales": [
-    "BLENDER"
+    "Urbana Play 104.3 FM"
    ],
    "cross_canal": false,
-   "tipo": "pedido_link",
-   "ejemplo": "tuvieron que inventar la electricidad para verlos / Cambiaron de link nos perdimos todo"
+   "tipo": "pregunta_precio",
+   "ejemplo": "ayer aumentó la lista de precios de Paragüay!!"
   },
   {
    "tema": "Entrevista a Trueno",
@@ -127,15 +127,15 @@
    "ejemplo": "el dolarquedo com el mismo precio y todo subió.donde estamos?"
   },
   {
-   "tema": "Solicitud de likes",
+   "tema": "Reacción crítica a represión en CONEA",
    "n_programas": 1,
    "n_signals": 1,
    "canales": [
-    "Vorterix"
+    "Futurock FM"
    ],
    "cross_canal": false,
    "tipo": "pregunta_precio",
-   "ejemplo": "qué flojos con los likes. Dale viejo, que les cuesta, aprieten la manito"
+   "ejemplo": "perdón por mi francés, a veces no me sale muy claro, son unos HIJOS DE PUTA!"
   }
  ]
 }

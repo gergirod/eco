@@ -3009,6 +3009,53 @@
   "rubro": "automotriz"
  },
  {
+  "slug": "coca-cola",
+  "name": "Coca-Cola",
+  "mentions": 2,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 2,
+  "first_seen": "23/06/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 2409.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "23/06/2026",
+    "video_id": "Ovdcl6-B2kc",
+    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+    "minute": "01:45:02",
+    "views": 56741,
+    "conc_at": 38222
+   },
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "01/07/2026",
+    "video_id": "51sN7yf3xtc",
+    "title": "#ANTESQUENADIE | PERDEMOS FUERTE LA DIGNIDAD Y ¿QUÉ PASA ENTRE LA REINI Y LEUCO?",
+    "minute": "01:40:04",
+    "views": 131010,
+    "conc_at": 54873
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 2,
+  "n_programs": 2,
+  "peak_conc_at": 54873,
+  "confidence_tier": "emerging_confidence",
+  "confidence_reason": "Señal temprana: 2 activación(es) con evidencia en transcript (2 completas, 0 parciales) — aún no alcanza la densidad para el listado principal.",
+  "evidence_summary": {
+   "verified": 2,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "bebidas"
+ },
+ {
   "slug": "cordoba-destino-turistico",
   "name": "Córdoba (destino turístico)",
   "mentions": 2,
@@ -5627,43 +5674,6 @@
    "insufficient": 0
   },
   "rubro": "otro"
- },
- {
-  "slug": "coca-cola",
-  "name": "Coca-Cola",
-  "mentions": 1,
-  "channels": [
-   "luzu"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "23/06/2026",
-  "last_seen": "23/06/2026",
-  "value_usd": 820.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "23/06/2026",
-    "video_id": "Ovdcl6-B2kc",
-    "title": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
-    "minute": "01:45:02",
-    "views": 56741,
-    "conc_at": 38222
-   }
-  ],
-  "kind": "marca",
-  "n_activations": 1,
-  "n_programs": 1,
-  "peak_conc_at": 38222,
-  "confidence_tier": "detected",
-  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
-  "evidence_summary": {
-   "verified": 1,
-   "partial": 0,
-   "insufficient": 0
-  },
-  "rubro": "bebidas"
  },
  {
   "slug": "teresa",
@@ -8700,6 +8710,191 @@
   "rubro": "seguros"
  },
  {
+  "slug": "aqn",
+  "name": "AQN",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 218.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "01/07/2026",
+    "video_id": "51sN7yf3xtc",
+    "title": "#ANTESQUENADIE | PERDEMOS FUERTE LA DIGNIDAD Y ¿QUÉ PASA ENTRE LA REINI Y LEUCO?",
+    "minute": "01:02:09",
+    "views": 131010,
+    "conc_at": 29981
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 29981,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 0,
+   "partial": 1,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "electro-6",
+  "name": "Electro 6",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 3059.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "01/07/2026",
+    "video_id": "51sN7yf3xtc",
+    "title": "#ANTESQUENADIE | PERDEMOS FUERTE LA DIGNIDAD Y ¿QUÉ PASA ENTRE LA REINI Y LEUCO?",
+    "minute": "02:02:38",
+    "views": 131010,
+    "conc_at": 68661
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 68661,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "retail"
+ },
+ {
+  "slug": "fravega",
+  "name": "Fravega",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 3076.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "01/07/2026",
+    "video_id": "51sN7yf3xtc",
+    "title": "#ANTESQUENADIE | PERDEMOS FUERTE LA DIGNIDAD Y ¿QUÉ PASA ENTRE LA REINI Y LEUCO?",
+    "minute": "02:03:23",
+    "views": 131010,
+    "conc_at": 69050
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 69050,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "fintech"
+ },
+ {
+  "slug": "visa-macro",
+  "name": "Visa Macro",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 2332.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "01/07/2026",
+    "video_id": "51sN7yf3xtc",
+    "title": "#ANTESQUENADIE | PERDEMOS FUERTE LA DIGNIDAD Y ¿QUÉ PASA ENTRE LA REINI Y LEUCO?",
+    "minute": "02:36:20",
+    "views": 131010,
+    "conc_at": 80515
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 80515,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "fintech"
+ },
+ {
+  "slug": "nosotras",
+  "name": "Nosotras",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 1968.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "01/07/2026",
+    "video_id": "51sN7yf3xtc",
+    "title": "#ANTESQUENADIE | PERDEMOS FUERTE LA DIGNIDAD Y ¿QUÉ PASA ENTRE LA REINI Y LEUCO?",
+    "minute": "02:59:13",
+    "views": 131010,
+    "conc_at": 91733
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 91733,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "retail"
+ },
+ {
   "slug": "bariloche",
   "name": "Bariloche",
   "mentions": 1,
@@ -9615,6 +9810,80 @@
   "n_activations": 1,
   "n_programs": 1,
   "peak_conc_at": 3007,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "otro"
+ },
+ {
+  "slug": "fervor-reggaeton",
+  "name": "Fervor Reggaeton",
+  "mentions": 1,
+  "channels": [
+   "futurock-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 1.0,
+  "samples": [
+   {
+    "channel": "futurock-fm",
+    "channel_name": "Futurock FM",
+    "date": "01/07/2026",
+    "video_id": "XOwNclEqByk",
+    "title": "DEBUTÓ EL NUEVO ADORNI Y SE VIENE JULIO DE AUMENTOS | TOTAL NORMALIDAD",
+    "minute": "00:20:57",
+    "views": 3916,
+    "conc_at": 65
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 65,
+  "confidence_tier": "detected",
+  "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
+  "evidence_summary": {
+   "verified": 1,
+   "partial": 0,
+   "insufficient": 0
+  },
+  "rubro": "streaming"
+ },
+ {
+  "slug": "futurock",
+  "name": "Futurock",
+  "mentions": 1,
+  "channels": [
+   "futurock-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 10.0,
+  "samples": [
+   {
+    "channel": "futurock-fm",
+    "channel_name": "Futurock FM",
+    "date": "01/07/2026",
+    "video_id": "XOwNclEqByk",
+    "title": "DEBUTÓ EL NUEVO ADORNI Y SE VIENE JULIO DE AUMENTOS | TOTAL NORMALIDAD",
+    "minute": "02:39:02",
+    "views": 3916,
+    "conc_at": 1372
+   }
+  ],
+  "kind": "marca",
+  "n_activations": 1,
+  "n_programs": 1,
+  "peak_conc_at": 1372,
   "confidence_tier": "detected",
   "confidence_reason": "Una sola activación con evidencia en transcript — señal aislada; no alcanza la densidad de evidencia para destacar.",
   "evidence_summary": {

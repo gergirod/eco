@@ -1968,6 +1968,148 @@
     }
    ]
   },
+  "51sN7yf3xtc": {
+   "video_id": "51sN7yf3xtc",
+   "channel_id": "luzu",
+   "channel": "LUZU TV",
+   "title": "#ANTESQUENADIE | PERDEMOS FUERTE LA DIGNIDAD Y ¿QUÉ PASA ENTRE LA REINI Y LEUCO?",
+   "show_id": "aqn",
+   "show_name": "Antes Que Nadie",
+   "top_temas": [
+    {
+     "tema": "Álbum De Figuritas Del Mundial",
+     "score": 5
+    },
+    {
+     "tema": "Miedos Infantiles",
+     "score": 4
+    },
+    {
+     "tema": "Rutina De Ejercicios En Vivo",
+     "score": 3
+    },
+    {
+     "tema": "Fitness Y Acondicionamiento Físico",
+     "score": 3
+    },
+    {
+     "tema": "Reality Show/dinámica De Convivencia",
+     "score": 3
+    },
+    {
+     "tema": "Fútbol - Copa Del Mundo",
+     "score": 3
+    },
+    {
+     "tema": "Conflicto Con La Hija Nina (despertar Temprano)",
+     "score": 3
+    },
+    {
+     "tema": "Copa Mundial Fifa 2026",
+     "score": 3
+    },
+    {
+     "tema": "Rumor Relación Sofía Gonet Y Petinato",
+     "score": 3
+    },
+    {
+     "tema": "Sophie Gonnett Y Diego Leuco",
+     "score": 3
+    },
+    {
+     "tema": "Dinámicas De Parejas Y Celos",
+     "score": 3
+    },
+    {
+     "tema": "Lapsus Linguae Y Nombres En Parejas",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "cultura",
+     "score": 71
+    },
+    {
+     "categoria": "actividad",
+     "score": 55
+    },
+    {
+     "categoria": "otro",
+     "score": 38
+    },
+    {
+     "categoria": "salud",
+     "score": 21
+    },
+    {
+     "categoria": "persona",
+     "score": 17
+    },
+    {
+     "categoria": "lugar",
+     "score": 10
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 8
+    },
+    {
+     "categoria": "producto",
+     "score": 4
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Rutina De Ejercicios En Vivo",
+     "categoria": "actividad",
+     "contexto": "Conducción de sesión de entrenamiento con ejercicios de piernas y cardio, 20 segundos de trabajo y pausa",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Fitness Y Acondicionamiento Físico",
+     "categoria": "salud",
+     "contexto": "Enfoque en mejorar flexibilidad, movilidad y zona media del cuerpo con peso corporal",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Programa Alusuta Activa",
+     "categoria": "producto",
+     "contexto": "Presentación del programa especializado en mejora de calidad de vida y entrenamiento",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Miami Especial",
+     "categoria": "lugar",
+     "contexto": "Mención de especial grabado en Miami con talentos locales entrenando",
+     "minute": "0:00"
+    },
+    {
+     "tema": "Ejercicio Físico/entrenamiento",
+     "categoria": "actividad",
+     "contexto": "Estocadas hacia atrás, activar la fuerza en las piernas",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Reality Show/dinámica De Convivencia",
+     "categoria": "actividad",
+     "contexto": "Confesionario donde participantes votan quién es el más chismoso, quejoso, talentoso y mamón",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Verano En Miami",
+     "categoria": "lugar",
+     "contexto": "Mención de 'la revelación del verano de Miami' refiriéndose al Tano",
+     "minute": "0:10"
+    },
+    {
+     "tema": "Clima Y Frío Porteño",
+     "categoria": "otro",
+     "contexto": "Hablan de 6 grados en Buenos Aires, dificultad para salir de la cama por el frío",
+     "minute": "0:10"
+    }
+   ]
+  },
   "7ON4ZA5TtHc": {
    "video_id": "7ON4ZA5TtHc",
    "channel_id": "neura",
@@ -9559,6 +9701,148 @@
      "categoria": "producto",
      "contexto": "Se muestra y prueba un dispositivo de audio modificado para conectar en la nuca y alterar la voz con efectos de sustain, delay y otros filtros.",
      "minute": "0:10"
+    }
+   ]
+  },
+  "XOwNclEqByk": {
+   "video_id": "XOwNclEqByk",
+   "channel_id": "futurock-fm",
+   "channel": "Futurock FM",
+   "title": "DEBUTÓ EL NUEVO ADORNI Y SE VIENE JULIO DE AUMENTOS | TOTAL NORMALIDAD",
+   "show_id": "otros",
+   "show_name": "Otros",
+   "top_temas": [
+    {
+     "tema": "Aumento De Tarifas De Servicios Públicos",
+     "score": 3
+    },
+    {
+     "tema": "Nuevo Vocero Presidencial Rabier",
+     "score": 3
+    },
+    {
+     "tema": "Restricción De Circulación De Periodistas En Casa Rosada",
+     "score": 3
+    },
+    {
+     "tema": "Caso Adorni - Presunto Enriquecimiento Ilícito",
+     "score": 3
+    },
+    {
+     "tema": "Crisis En Conea Y Despidos Sector Público",
+     "score": 3
+    },
+    {
+     "tema": "Terremoto En Venezuela",
+     "score": 3
+    },
+    {
+     "tema": "Política Monetaria Y Tipo De Cambio",
+     "score": 3
+    },
+    {
+     "tema": "Morosidad Crediticia",
+     "score": 3
+    },
+    {
+     "tema": "Endeudamiento De Personas",
+     "score": 3
+    },
+    {
+     "tema": "Proscripción De Cristina Kirchner",
+     "score": 3
+    },
+    {
+     "tema": "Democracia En Argentina",
+     "score": 3
+    },
+    {
+     "tema": "Candidatura Presidencial 2027",
+     "score": 3
+    }
+   ],
+   "categorias": [
+    {
+     "categoria": "actividad",
+     "score": 39
+    },
+    {
+     "categoria": "economia",
+     "score": 23
+    },
+    {
+     "categoria": "otro",
+     "score": 21
+    },
+    {
+     "categoria": "tecnologia",
+     "score": 21
+    },
+    {
+     "categoria": "politica",
+     "score": 18
+    },
+    {
+     "categoria": "persona",
+     "score": 16
+    },
+    {
+     "categoria": "cultura",
+     "score": 16
+    },
+    {
+     "categoria": "salud",
+     "score": 9
+    }
+   ],
+   "samples": [
+    {
+     "tema": "Robo Y Devolución De Orson (mascota De Supermercado)",
+     "categoria": "otro",
+     "contexto": "Grupo de jóvenes bajo efectos del alcohol robó a Orson, muñeco de La Granja de Orson en Rosario, luego lo devolvieron arrepentidos con nota y estampa de Mascherano",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Clima Y Temperaturas Bajas",
+     "categoria": "salud",
+     "contexto": "Se advierte sobre ola de frío en AMBA con mínimas de 1 grado para jueves y 0 grados para viernes, el día más frío del año",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Asunción De Diego Santilli Como Jefe De Gabinete",
+     "categoria": "persona",
+     "contexto": "Diego Santilli juró como jefe de gabinete y protagonizó un polémico triple abrazo con el presidente",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Debut De Adrián Ravier Como Vocero Presidencial",
+     "categoria": "persona",
+     "contexto": "Adrián Ravier debutó como nuevo vocero presidencial con cambios en estética y se negó a hablar sobre Manuel Adorni",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Caso Manuel Adorni Y Enriquecimiento En Función Pública",
+     "categoria": "otro",
+     "contexto": "Debate sobre los delitos investigados a Adorni cometidos en función pública y responsabilidad del Poder Ejecutivo",
+     "minute": "0:20"
+    },
+    {
+     "tema": "Aumento De Tarifas De Servicios Públicos",
+     "categoria": "politica",
+     "contexto": "El gobierno aumentó tarifas de gas, agua y electricidad a precios de mercado, duplicando costos en algunos casos",
+     "minute": "0:30"
+    },
+    {
+     "tema": "Nuevo Vocero Presidencial Rabier",
+     "categoria": "persona",
+     "contexto": "Análisis de las primeras declaraciones del nuevo vocero y su gestión de comunicación",
+     "minute": "0:30"
+    },
+    {
+     "tema": "Restricción De Circulación De Periodistas En Casa Rosada",
+     "categoria": "politica",
+     "contexto": "Debate sobre nuevas limitaciones a la libre circulación de periodistas acreditados en Casa de Gobierno",
+     "minute": "0:30"
     }
    ]
   },

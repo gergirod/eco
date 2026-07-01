@@ -111,6 +111,75 @@
   "kind": "producto"
  },
  {
+  "slug": "sarmiento-tren",
+  "name": "Sarmiento (tren)",
+  "mentions": 2,
+  "channels": [
+   "futurock-fm",
+   "luzu"
+  ],
+  "n_channels": 2,
+  "n_videos": 2,
+  "first_seen": "29/06/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "29/06/2026",
+    "video_id": "jEEahJU8_jg",
+    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
+    "minute": "02:30",
+    "views": 533713
+   },
+   {
+    "channel": "futurock-fm",
+    "channel_name": "Futurock FM",
+    "date": "01/07/2026",
+    "video_id": "XOwNclEqByk",
+    "title": "DEBUTÓ EL NUEVO ADORNI Y SE VIENE JULIO DE AUMENTOS | TOTAL NORMALIDAD",
+    "minute": "01:40",
+    "views": 3916
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "directoriotickets-com",
+  "name": "directoriotickets.com",
+  "mentions": 2,
+  "channels": [
+   "futurock-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "futurock-fm",
+    "channel_name": "Futurock FM",
+    "date": "01/07/2026",
+    "video_id": "XOwNclEqByk",
+    "title": "DEBUTÓ EL NUEVO ADORNI Y SE VIENE JULIO DE AUMENTOS | TOTAL NORMALIDAD",
+    "minute": "00:20",
+    "views": 3916
+   },
+   {
+    "channel": "futurock-fm",
+    "channel_name": "Futurock FM",
+    "date": "01/07/2026",
+    "video_id": "XOwNclEqByk",
+    "title": "DEBUTÓ EL NUEVO ADORNI Y SE VIENE JULIO DE AUMENTOS | TOTAL NORMALIDAD",
+    "minute": "03:20",
+    "views": 3916
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "alfie-pelicula",
   "name": "Alfie (película)",
   "mentions": 1,
@@ -4536,6 +4605,81 @@
   "kind": "producto"
  },
  {
+  "slug": "magic-cartas",
+  "name": "Magic (cartas)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "01/07/2026",
+    "video_id": "51sN7yf3xtc",
+    "title": "#ANTESQUENADIE | PERDEMOS FUERTE LA DIGNIDAD Y ¿QUÉ PASA ENTRE LA REINI Y LEUCO?",
+    "minute": "01:20",
+    "views": 131010
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "nosotras-protectores-diarios",
+  "name": "Nosotras (protectores diarios)",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "01/07/2026",
+    "video_id": "51sN7yf3xtc",
+    "title": "#ANTESQUENADIE | PERDEMOS FUERTE LA DIGNIDAD Y ¿QUÉ PASA ENTRE LA REINI Y LEUCO?",
+    "minute": "02:50",
+    "views": 131010
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "entrada-1-com",
+  "name": "entrada 1.com",
+  "mentions": 1,
+  "channels": [
+   "luzu"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "luzu",
+    "channel_name": "LUZU TV",
+    "date": "01/07/2026",
+    "video_id": "51sN7yf3xtc",
+    "title": "#ANTESQUENADIE | PERDEMOS FUERTE LA DIGNIDAD Y ¿QUÉ PASA ENTRE LA REINI Y LEUCO?",
+    "minute": "03:10",
+    "views": 131010
+   }
+  ],
+  "kind": "producto"
+ },
+ {
   "slug": "balance-sociedad-de-bolsa",
   "name": "Balance (sociedad de bolsa)",
   "mentions": 1,
@@ -4705,31 +4849,6 @@
     "video_id": "jEEahJU8_jg",
     "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
     "minute": "02:20",
-    "views": 533713
-   }
-  ],
-  "kind": "producto"
- },
- {
-  "slug": "sarmiento-tren",
-  "name": "Sarmiento (tren)",
-  "mentions": 1,
-  "channels": [
-   "luzu"
-  ],
-  "n_channels": 1,
-  "n_videos": 1,
-  "first_seen": "29/06/2026",
-  "last_seen": "29/06/2026",
-  "value_usd": 0.0,
-  "samples": [
-   {
-    "channel": "luzu",
-    "channel_name": "LUZU TV",
-    "date": "29/06/2026",
-    "video_id": "jEEahJU8_jg",
-    "title": "#NADIEDICENADA l ¿NOS COMPRAN UNA CAMISA PARA MARCOS? EXPERTOS EN MIMITOS Y ¿CHAU NAVE?",
-    "minute": "02:30",
     "views": 533713
    }
   ],
@@ -5706,6 +5825,156 @@
     "title": "EL AMIGO DE TU NOVIA VE PAREN LA MANO...| #ESTONOSUCEDIÓ COMPLETO - 30/06 | VORTERIX",
     "minute": "00:50",
     "views": 5325
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "uba-inflacion",
+  "name": "UBA (inflación)",
+  "mentions": 1,
+  "channels": [
+   "futurock-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "futurock-fm",
+    "channel_name": "Futurock FM",
+    "date": "01/07/2026",
+    "video_id": "XOwNclEqByk",
+    "title": "DEBUTÓ EL NUEVO ADORNI Y SE VIENE JULIO DE AUMENTOS | TOTAL NORMALIDAD",
+    "minute": "00:50",
+    "views": 3916
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "san-martin-tren",
+  "name": "San Martín (tren)",
+  "mentions": 1,
+  "channels": [
+   "futurock-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "futurock-fm",
+    "channel_name": "Futurock FM",
+    "date": "01/07/2026",
+    "video_id": "XOwNclEqByk",
+    "title": "DEBUTÓ EL NUEVO ADORNI Y SE VIENE JULIO DE AUMENTOS | TOTAL NORMALIDAD",
+    "minute": "01:40",
+    "views": 3916
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "urquiza-tren",
+  "name": "Urquiza (tren)",
+  "mentions": 1,
+  "channels": [
+   "futurock-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "futurock-fm",
+    "channel_name": "Futurock FM",
+    "date": "01/07/2026",
+    "video_id": "XOwNclEqByk",
+    "title": "DEBUTÓ EL NUEVO ADORNI Y SE VIENE JULIO DE AUMENTOS | TOTAL NORMALIDAD",
+    "minute": "01:40",
+    "views": 3916
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "roca-tren",
+  "name": "Roca (tren)",
+  "mentions": 1,
+  "channels": [
+   "futurock-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "futurock-fm",
+    "channel_name": "Futurock FM",
+    "date": "01/07/2026",
+    "video_id": "XOwNclEqByk",
+    "title": "DEBUTÓ EL NUEVO ADORNI Y SE VIENE JULIO DE AUMENTOS | TOTAL NORMALIDAD",
+    "minute": "01:40",
+    "views": 3916
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "belgrano-tren",
+  "name": "Belgrano (tren)",
+  "mentions": 1,
+  "channels": [
+   "futurock-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "futurock-fm",
+    "channel_name": "Futurock FM",
+    "date": "01/07/2026",
+    "video_id": "XOwNclEqByk",
+    "title": "DEBUTÓ EL NUEVO ADORNI Y SE VIENE JULIO DE AUMENTOS | TOTAL NORMALIDAD",
+    "minute": "01:40",
+    "views": 3916
+   }
+  ],
+  "kind": "producto"
+ },
+ {
+  "slug": "azteca-estadio",
+  "name": "Azteca (estadio)",
+  "mentions": 1,
+  "channels": [
+   "futurock-fm"
+  ],
+  "n_channels": 1,
+  "n_videos": 1,
+  "first_seen": "01/07/2026",
+  "last_seen": "01/07/2026",
+  "value_usd": 0.0,
+  "samples": [
+   {
+    "channel": "futurock-fm",
+    "channel_name": "Futurock FM",
+    "date": "01/07/2026",
+    "video_id": "XOwNclEqByk",
+    "title": "DEBUTÓ EL NUEVO ADORNI Y SE VIENE JULIO DE AUMENTOS | TOTAL NORMALIDAD",
+    "minute": "03:00",
+    "views": 3916
    }
   ],
   "kind": "producto"

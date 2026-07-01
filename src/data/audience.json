@@ -2,8 +2,8 @@
  {
   "id": "luzu",
   "name": "Luzu TV",
-  "videos": 24,
-  "avg_concurrent": 80977,
+  "videos": 25,
+  "avg_concurrent": 79851,
   "peak_concurrent": 243607,
   "chat_coverage": 0,
   "chat_msgs_per_1k_min": null,
@@ -130,13 +130,13 @@
     "chat_writers_per_1k": 40.9
    },
    {
-    "title": "🚀 SOÑÉ QUE VOLABA con Migue Granados, Lucas Fridman, Vicky Garabal y Charo López | OLGA EN VIVO",
-    "video_id": "cOui_830fXg",
+    "title": "RECORREMOS OCEAN DRIVE EN VIVO | #TDT 30/6",
+    "video_id": "yVzJRVng6Q4",
     "chat_engagement": 1.39,
-    "avg_concurrent": 36685,
-    "chat_writers": 1527,
-    "chat_messages": 6439,
-    "chat_writers_per_1k": 41.6
+    "avg_concurrent": 15104,
+    "chat_writers": 397,
+    "chat_messages": 2203,
+    "chat_writers_per_1k": 26.3
    }
   ]
  },
@@ -267,24 +267,24 @@
  {
   "id": "x",
   "name": "x",
-  "videos": 26,
-  "avg_concurrent": 8163,
+  "videos": 27,
+  "avg_concurrent": 8663,
   "peak_concurrent": 43094,
   "chat_coverage": 100,
-  "chat_msgs_per_1k_min": 13.3,
-  "chat_writers_avg": 320,
-  "chat_avg_concurrent": 8163,
-  "chat_writers_per_1k": 39.2,
+  "chat_msgs_per_1k_min": 9.3,
+  "chat_writers_avg": 393,
+  "chat_avg_concurrent": 8663,
+  "chat_writers_per_1k": 45.4,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
-  "chat_noise_score": 0.26,
+  "chat_noise_score": 0.23,
   "room_participation": {
    "has_data": true,
-   "programs_with_room_data": 26,
-   "poll_count": 15,
-   "total_votes": 5873,
+   "programs_with_room_data": 27,
+   "poll_count": 12,
+   "total_votes": 6896,
    "banner_sessions": 10,
-   "participation_line": "Comunidad activa: la audiencia sumó 5.9K votos en encuestas en vivo; 10 mensajes fijados en 26 emisiones."
+   "participation_line": "Comunidad activa: la audiencia sumó 6.9K votos en encuestas en vivo; 10 mensajes fijados en 27 emisiones."
   },
   "top_programs": [
    {
@@ -299,7 +299,7 @@
    },
    {
     "title": "",
-    "peak": 34091,
+    "peak": 36601,
     "video_id": "HA1dexnR7Ng"
    },
    {
@@ -309,29 +309,11 @@
    },
    {
     "title": "",
-    "peak": 27189,
+    "peak": 28276,
     "video_id": "hc54LIYnMoE"
    }
   ],
   "top_programs_by_chat": [
-   {
-    "title": "",
-    "video_id": "bZUZnVsCn5M",
-    "chat_engagement": 87.69,
-    "avg_concurrent": 203,
-    "chat_writers": 33,
-    "chat_messages": 2421,
-    "chat_writers_per_1k": 162.6
-   },
-   {
-    "title": "",
-    "video_id": "7WJTeokhLUY",
-    "chat_engagement": 54.55,
-    "avg_concurrent": 330,
-    "chat_writers": 18,
-    "chat_messages": 450,
-    "chat_writers_per_1k": 54.5
-   },
    {
     "title": "",
     "video_id": "LjIm9sAasxA",
@@ -344,11 +326,20 @@
    {
     "title": "",
     "video_id": "nOx1je3BA2o",
-    "chat_engagement": 41.45,
-    "avg_concurrent": 634,
-    "chat_writers": 144,
-    "chat_messages": 2549,
-    "chat_writers_per_1k": 227.1
+    "chat_engagement": 43.45,
+    "avg_concurrent": 666,
+    "chat_writers": 160,
+    "chat_messages": 3733,
+    "chat_writers_per_1k": 240.2
+   },
+   {
+    "title": "",
+    "video_id": "7WJTeokhLUY",
+    "chat_engagement": 39.31,
+    "avg_concurrent": 381,
+    "chat_writers": 30,
+    "chat_messages": 1333,
+    "chat_writers_per_1k": 78.7
    },
    {
     "title": "",
@@ -358,6 +349,15 @@
     "chat_writers": 30,
     "chat_messages": 1098,
     "chat_writers_per_1k": 115.4
+   },
+   {
+    "title": "",
+    "video_id": "DMOHJbfdIlY",
+    "chat_engagement": 14.44,
+    "avg_concurrent": 943,
+    "chat_writers": 182,
+    "chat_messages": 1076,
+    "chat_writers_per_1k": 193.0
    }
   ]
  },
@@ -1087,24 +1087,24 @@
  {
   "id": "aura",
   "name": "Aura",
-  "videos": 3,
-  "avg_concurrent": 357,
+  "videos": 4,
+  "avg_concurrent": 318,
   "peak_concurrent": 485,
   "chat_coverage": 100,
-  "chat_msgs_per_1k_min": 48.2,
-  "chat_writers_avg": 35,
-  "chat_avg_concurrent": 357,
-  "chat_writers_per_1k": 98.0,
+  "chat_msgs_per_1k_min": 58.0,
+  "chat_writers_avg": 34,
+  "chat_avg_concurrent": 318,
+  "chat_writers_per_1k": 106.9,
   "chat_quality_tier": "alta",
   "chat_quality_label": "Comunidad activa",
   "chat_noise_score": 0.94,
   "room_participation": {
    "has_data": true,
-   "programs_with_room_data": 3,
-   "poll_count": 10,
-   "total_votes": 156,
-   "banner_sessions": 1,
-   "participation_line": "Comunidad activa: 10 encuestas en 3 emisiones medidas."
+   "programs_with_room_data": 4,
+   "poll_count": 14,
+   "total_votes": 256,
+   "banner_sessions": 2,
+   "participation_line": "Comunidad activa: 14 encuestas en 4 emisiones medidas."
   },
   "top_programs": [
    {
@@ -1121,9 +1121,23 @@
     "title": "🟠 ¿CÓMO QUEDARON LOS CRUCES DEL  MUNDIAL 2026? l HOY COMO SIEMPRE",
     "peak": 396,
     "video_id": "NZnTfvrPb0E"
+   },
+   {
+    "title": "ANALIZAMOS A FONDO A \"CABO VERDE\", EL PRÓXIMO RIVAL DE LA SELECCIÓN l #hoycomosiempre - 01/06/26",
+    "peak": 330,
+    "video_id": "bZUZnVsCn5M"
    }
   ],
   "top_programs_by_chat": [
+   {
+    "title": "ANALIZAMOS A FONDO A \"CABO VERDE\", EL PRÓXIMO RIVAL DE LA SELECCIÓN l #hoycomosiempre - 01/06/26",
+    "video_id": "bZUZnVsCn5M",
+    "chat_engagement": 87.69,
+    "avg_concurrent": 203,
+    "chat_writers": 33,
+    "chat_messages": 2421,
+    "chat_writers_per_1k": 162.6
+   },
    {
     "title": "🟠 ¿CÓMO QUEDARON LOS CRUCES DEL  MUNDIAL 2026? l HOY COMO SIEMPRE",
     "video_id": "NZnTfvrPb0E",

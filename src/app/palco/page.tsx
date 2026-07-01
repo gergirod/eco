@@ -2,7 +2,8 @@
 
 import { useEffect, useMemo, useState } from "react";
 import Link from "next/link";
-import data from "@/data/palco_entities.json";
+import bundled from "@/data/palco_entities.json";
+import { fetchDataset } from "@/lib/supabase";
 
 /* ---------- tipos ---------- */
 type Card = {
@@ -58,7 +59,7 @@ type IndexRow = {
 };
 type Data = { default: string; index: IndexRow[]; radars: Record<string, Radar> };
 
-const D = data as unknown as Data;
+const BUNDLED = bundled as unknown as Data;
 
 /* ---------- design system ----------
    Palco · capa de inteligencia de la atención.
@@ -159,14 +160,19 @@ const SENS_OPTS: { id: Sensibilidad; titulo: string; bajada: string; reco?: bool
   { id: "mas", titulo: "Más avisos", bajada: "Casi todo lo que se mueva." },
 ];
 const FREQ_OPTS: { id: Frecuencia; titulo: string; bajada: string }[] = [
-  { id: "al-toque", titulo: "Al toque", bajada: "Apenas pasa algo importante." },
+  { id: "al-toque", titulo: "Ni bien aparece", bajada: "En cuanto procesamos el programa." },
   { id: "diario", titulo: "Resumen diario", bajada: "Un mail cada tarde." },
   { id: "semanal", titulo: "Resumen semanal", bajada: "Un reporte curado." },
 ];
 
 export default function PalcoPage() {
-  const [slug, setSlug] = useState<string>(D.default);
+  // Dataset: arranca con el bundle horneado en el build y, si Supabase tiene
+  // una versión (la que pushea palco_build.py), la reemplaza en runtime.
+  // Así el tablero se actualiza sin re-deploy cada vez que corre el pipeline.
+  const [D, setD] = useState<Data>(BUNDLED);
+  const [slug, setSlug] = useState<string>(BUNDLED.default);
   const [query, setQuery] = useState("");
+  const [cat, setCat] = useState<string>("todas");
   const [tab, setTab] = useState<"todas" | "neg">("todas");
   const [watch, setWatch] = useState<string[]>([]);
   const [plan, setPlan] = useState<string>("");
@@ -175,6 +181,7 @@ export default function PalcoPage() {
   const [sensibilidad, setSensibilidad] = useState<Sensibilidad>("equilibrado");
   const [soloNegativo, setSoloNegativo] = useState(false);
   const [frecuencia, setFrecuencia] = useState<Frecuencia>("diario");
+  const [email, setEmail] = useState("");
 
   // Lee la watchlist elegida en el onboarding (?e=slug1,slug2&plan=pro).
   useEffect(() => {
@@ -193,21 +200,45 @@ export default function PalcoPage() {
     if (p.get("neg") === "1") setSoloNegativo(true);
     const f = p.get("freq");
     if (f === "al-toque" || f === "diario" || f === "semanal") setFrecuencia(f);
+    if (p.get("mail")) setEmail(p.get("mail")!);
   }, []);
 
-  const R = D.radars[slug];
+  // Trae la última versión del dataset desde Supabase (fallback: el bundle).
+  useEffect(() => {
+    let alive = true;
+    fetchDataset<Data>("palco_entities")
+      .then((remote) => {
+        if (alive && remote?.radars && remote?.index?.length) setD(remote);
+      })
+      .catch(() => {});
+    return () => {
+      alive = false;
+    };
+  }, []);
+
+  const R = D.radars[slug] ?? D.radars[D.default];
 
   // Catálogo base: si hay watchlist del onboarding, se limita a esas entidades.
   const baseIndex = useMemo(
     () => (watch.length ? D.index.filter((r) => watch.includes(r.slug)) : D.index),
-    [watch]
+    [watch, D]
   );
+
+  // Categorías presentes en el catálogo (Político, Empresa, Deporte…), para el filtro.
+  const cats = useMemo(() => {
+    const seen: string[] = [];
+    for (const r of baseIndex) if (r.type && !seen.includes(r.type)) seen.push(r.type);
+    return seen;
+  }, [baseIndex]);
 
   const filteredIndex = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return baseIndex;
-    return baseIndex.filter((r) => r.name.toLowerCase().includes(q));
-  }, [query, baseIndex]);
+    return baseIndex.filter(
+      (r) =>
+        (cat === "todas" || r.type === cat) &&
+        (!q || r.name.toLowerCase().includes(q))
+    );
+  }, [query, cat, baseIndex]);
 
   // Alertas: entidades de la watchlist (o todas) con crisis detectada.
   const alertas = useMemo(
@@ -218,7 +249,7 @@ export default function PalcoPage() {
         .sort(
           (a, b) => (b.crisis!.conc_at ?? 0) - (a.crisis!.conc_at ?? 0)
         ),
-    [baseIndex]
+    [baseIndex, D]
   );
 
   const notFound = query.trim().length > 0 && filteredIndex.length === 0;
@@ -395,8 +426,22 @@ export default function PalcoPage() {
                   })}
                 </div>
                 <p className="mt-2 text-[11px] text-stone-400">
-                  Los avisos de crisis siempre llegan al toque, sin importar esto.
+                  Los avisos de crisis los mandamos en cuanto los detectamos, sin importar esto.
                 </p>
+              </div>
+
+              {/* a dónde */}
+              <div>
+                <p className="text-[12px] font-semibold uppercase tracking-wide text-stone-400">
+                  A dónde te lo mandamos
+                </p>
+                <input
+                  type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="tu@email.com"
+                  className="mt-2 w-full rounded-lg border border-stone-300 bg-white px-4 py-2.5 text-[14px] outline-none focus:border-[#2f5fe0] focus:ring-2 focus:ring-blue-100"
+                />
               </div>
 
               <button
@@ -488,6 +533,26 @@ export default function PalcoPage() {
             placeholder="Escribí un nombre — persona, marca, tema…"
             className="mt-2 w-full rounded-lg border border-stone-300 bg-white px-4 py-2.5 text-[15px] text-stone-900 placeholder-stone-400 outline-none focus:border-[#2f5fe0] focus:ring-2 focus:ring-blue-100"
           />
+          {cats.length > 1 && (
+            <div className="mt-3 flex flex-wrap gap-1.5">
+              {["todas", ...cats].map((c) => {
+                const on = cat === c;
+                return (
+                  <button
+                    key={c}
+                    onClick={() => setCat(c)}
+                    className={`rounded-full border px-3 py-1 text-[12px] transition ${
+                      on
+                        ? "border-stone-800 bg-stone-800 text-white"
+                        : "border-stone-200 bg-white text-stone-500 hover:border-stone-400"
+                    }`}
+                  >
+                    {c === "todas" ? "Todas" : c}
+                  </button>
+                );
+              })}
+            </div>
+          )}
           {notFound ? (
             <div className="mt-3 rounded-lg border border-amber-300 bg-amber-50 px-4 py-3 text-[13px] text-amber-800">
               No hay resultados en <b>este demo</b>. En producción Palco no depende de una lista:
@@ -761,7 +826,7 @@ export default function PalcoPage() {
         <section className="mt-8 grid gap-4 md:grid-cols-2">
           <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm">
             <h2 className="text-[13px] font-semibold uppercase tracking-wide text-stone-500">
-              Share of voice por canal
+              Dónde más se habla · por canal
             </h2>
             <div className="mt-4 space-y-2">
               {R.share_of_voice.slice(0, 8).map((s) => (

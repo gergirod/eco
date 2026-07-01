@@ -45,45 +45,45 @@ const PLANES: Plan[] = [
   {
     id: "esencial",
     nombre: "Individual",
-    para: "Para vos solo",
+    para: "Un nombre",
     limite: 1,
     precio: "USD 90/mes",
-    bajada: "Seguí tu propio nombre y no te pierdas nada de lo que se dice de vos.",
+    bajada: "Seguí un nombre o tema y no te pierdas nada de lo que se dice.",
     incluye: [
       "1 nombre o tema",
       "Tablero en vivo, actualizado cada día",
       "Resumen diario por mail",
-      "1 usuario",
+      "Avisos de crisis apenas los detectamos",
     ],
   },
   {
     id: "profesional",
     nombre: "Pro",
-    para: "Para equipos de prensa",
+    para: "Hasta 3 nombres",
     limite: 3,
     precio: "USD 250/mes",
-    bajada: "Tu principal, un rival y un tema — todo junto.",
+    bajada: "Seguí tu principal, un rival y un tema — todo junto.",
     incluye: [
       "Hasta 3 nombres o temas",
-      "Avisos de crisis en tiempo real",
+      "Avisos de crisis apenas los detectamos",
+      "Resumen diario por mail",
       "Reporte semanal curado, listo para presentar",
-      "Hasta 5 usuarios",
     ],
     destacado: true,
   },
   {
     id: "enterprise",
     nombre: "A medida",
-    para: "Para consultoras y gobierno",
+    para: "Sin límite",
     limite: 999,
     precio: "Hablemos",
     aMedida: true,
-    bajada: "Todos los nombres que necesites, varias cuentas, API y soporte.",
+    bajada: "Todos los nombres que necesites, con reportes a tu marca y API.",
     incluye: [
       "Nombres o temas ilimitados",
-      "Varias cuentas / clientes en un lugar",
+      "Reporte semanal curado",
       "Reportes con tu marca + API",
-      "Usuarios ilimitados + soporte dedicado",
+      "Soporte dedicado",
     ],
   },
 ];
@@ -136,7 +136,11 @@ const SENSIBILIDADES: {
   },
 ];
 const FRECUENCIAS: { id: Frecuencia; titulo: string; bajada: string }[] = [
-  { id: "al-toque", titulo: "Al toque", bajada: "Apenas pasa algo importante." },
+  {
+    id: "al-toque",
+    titulo: "Ni bien aparece",
+    bajada: "En cuanto procesamos el programa donde te nombraron.",
+  },
   { id: "diario", titulo: "Resumen diario", bajada: "Un mail cada tarde con lo del día." },
   { id: "semanal", titulo: "Resumen semanal", bajada: "Un reporte curado, listo para presentar." },
 ];
@@ -162,6 +166,7 @@ export default function OnboardingPage() {
   const [sensibilidad, setSensibilidad] = useState<Sensibilidad>("equilibrado");
   const [soloNegativo, setSoloNegativo] = useState(false);
   const [frecuencia, setFrecuencia] = useState<Frecuencia>("diario");
+  const [email, setEmail] = useState("");
 
   const plan = PLANES.find((p) => p.id === planId)!;
   const pasoIdx = PASOS.findIndex((p) => p.id === paso);
@@ -192,6 +197,7 @@ export default function OnboardingPage() {
       sens: sensibilidad,
       neg: soloNegativo ? "1" : "0",
       freq: frecuencia,
+      mail: email.trim(),
     });
     router.push(`/palco?${q.toString()}`);
   }
@@ -656,8 +662,26 @@ export default function OnboardingPage() {
                 })}
               </div>
               <p className="mt-3 text-[12px] text-stone-400">
-                Los avisos de crisis siempre llegan al toque, sin importar esta
-                elección. Esto define el ritmo del resto.
+                Los avisos de crisis los mandamos en cuanto los detectamos, sin
+                importar esta elección. Esto define el ritmo del resto.
+              </p>
+            </div>
+
+            {/* a dónde */}
+            <div className="mt-6">
+              <p className="text-[13px] font-semibold uppercase tracking-wide text-stone-400">
+                A dónde te lo mandamos
+              </p>
+              <input
+                type="email"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
+                placeholder="tu@email.com"
+                className="mt-3 w-full rounded-lg border border-stone-300 bg-white px-4 py-2.5 text-[14px] outline-none focus:border-[#2f5fe0] focus:ring-2 focus:ring-blue-100"
+              />
+              <p className="mt-2 text-[12px] text-stone-400">
+                Ahí te llegan los avisos y el{" "}
+                {FRECUENCIAS.find((f) => f.id === frecuencia)!.titulo.toLowerCase()}.
               </p>
             </div>
 
@@ -670,7 +694,8 @@ export default function OnboardingPage() {
               </button>
               <button
                 onClick={() => setPaso("listo")}
-                className="rounded-lg px-6 py-3 text-[15px] font-semibold text-white hover:opacity-90"
+                disabled={!/^\S+@\S+\.\S+$/.test(email.trim())}
+                className="rounded-lg px-6 py-3 text-[15px] font-semibold text-white hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-40"
                 style={{ backgroundColor: BRAND }}
               >
                 Seguir →
@@ -699,7 +724,12 @@ export default function OnboardingPage() {
               <div className="flex items-center justify-between border-b border-stone-100 pb-3">
                 <span className="text-[13px] text-stone-500">Plan</span>
                 <span className="text-[14px] font-semibold">
-                  {plan.nombre} · seguimiento ilimitado
+                  {plan.nombre} ·{" "}
+                  {plan.aMedida
+                    ? "nombres ilimitados"
+                    : plan.limite === 1
+                    ? "1 nombre"
+                    : `hasta ${plan.limite} nombres`}
                 </span>
               </div>
               <p className="mt-3 text-[12px] font-semibold uppercase tracking-wide text-stone-400">
@@ -727,10 +757,11 @@ export default function OnboardingPage() {
                 </p>
                 <p className="flex gap-2">
                   <span style={{ color: BRAND }}>✓</span>{" "}
-                  {FRECUENCIAS.find((f) => f.id === frecuencia)!.titulo} por mail
+                  {FRECUENCIAS.find((f) => f.id === frecuencia)!.titulo} a{" "}
+                  <b className="text-stone-700">{email.trim()}</b>
                 </p>
                 <p className="flex gap-2">
-                  <span style={{ color: BRAND }}>✓</span> Avisos de crisis siempre al toque
+                  <span style={{ color: BRAND }}>✓</span> Avisos de crisis apenas los detectamos
                 </p>
                 {planId === "enterprise" && (
                   <p className="flex gap-2">

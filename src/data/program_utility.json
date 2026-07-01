@@ -135,6 +135,64 @@
    }
   },
   {
+   "video_id": "51sN7yf3xtc",
+   "channel": "LUZU TV",
+   "channel_id": "luzu",
+   "title": "#ANTESQUENADIE | PERDEMOS FUERTE LA DIGNIDAD Y ¿QUÉ PASA ENTRE LA REINI Y LEUCO?",
+   "date": "20260701",
+   "iup": 95,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 1.0,
+    "conversation": 1.0,
+    "commercial": 1.0,
+    "participation": 0.0,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 52814,
+     "peak_concurrent": 109701
+    },
+    "conversation": {
+     "blocks": 21,
+     "blocks_with_signal": 21,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 76,
+     "sponsored": 6,
+     "organic": 60,
+     "productos_marcas": 49
+    },
+    "participation": {
+     "chat_engagement": null,
+     "chat_noise": null,
+     "note": "sin chat"
+    },
+    "format": {
+     "show_id": "aqn",
+     "show_name": "Antes Que Nadie"
+    },
+    "capture_minutes": 197.55166666666668
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "7Oo5Hf7f14M",
    "channel": "LUZU TV",
    "channel_id": "luzu",
@@ -5645,6 +5703,64 @@
    }
   },
   {
+   "video_id": "XOwNclEqByk",
+   "channel": "Futurock FM",
+   "channel_id": "futurock fm",
+   "title": "DEBUTÓ EL NUEVO ADORNI Y SE VIENE JULIO DE AUMENTOS | TOTAL NORMALIDAD",
+   "date": "20260701",
+   "iup": 74,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.197,
+    "conversation": 0.826,
+    "commercial": 1.0,
+    "participation": 0.707,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 979,
+     "peak_concurrent": 1694
+    },
+    "conversation": {
+     "blocks": 19,
+     "blocks_with_signal": 13,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 52,
+     "sponsored": 2,
+     "organic": 28,
+     "productos_marcas": 45
+    },
+    "participation": {
+     "chat_engagement": 2.12,
+     "chat_noise": 0.0,
+     "chat_total": 432
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 185.03833333333333
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "btHFJgjSlls",
    "channel": "AHORA PLAY",
    "channel_id": "ahoraplay",
@@ -6156,6 +6272,64 @@
      "show_name": "Otros"
     },
     "capture_minutes": 109.93333333333334
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
+   "video_id": "bZUZnVsCn5M",
+   "channel": " A U R A ",
+   "channel_id": "aura",
+   "title": "ANALIZAMOS A FONDO A \"CABO VERDE\", EL PRÓXIMO RIVAL DE LA SELECCIÓN l #hoycomosiempre - 01/06/26",
+   "date": "20260630",
+   "iup": 71,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.055,
+    "conversation": 0.882,
+    "commercial": 1.0,
+    "participation": 0.616,
+    "format": 0.35
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 203,
+     "peak_concurrent": 330
+    },
+    "conversation": {
+     "blocks": 14,
+     "blocks_with_signal": 11,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 23,
+     "sponsored": 1,
+     "organic": 25,
+     "productos_marcas": 21
+    },
+    "participation": {
+     "chat_engagement": 87.69,
+     "chat_noise": 0.96,
+     "chat_total": 2421
+    },
+    "format": {
+     "show_id": "otros",
+     "show_name": "Otros"
+    },
+    "capture_minutes": 127.70333333333333
    },
    "weights": {
     "capture": 0.25,
@@ -10368,12 +10542,21 @@
    "tier_insuficiente": 0
   },
   {
+   "channel_id": "futurock fm",
+   "channel": "Futurock FM",
+   "programs": 1,
+   "iup_avg": 74.0,
+   "iup_median": 74,
+   "tier_alta": 1,
+   "tier_insuficiente": 0
+  },
+  {
    "channel_id": "luzu",
    "channel": "LUZU TV",
-   "programs": 58,
-   "iup_avg": 73.5,
+   "programs": 59,
+   "iup_avg": 73.9,
    "iup_median": 61,
-   "tier_alta": 24,
+   "tier_alta": 25,
    "tier_insuficiente": 0
   },
   {
@@ -10406,16 +10589,16 @@
   {
    "channel_id": "aura",
    "channel": " A U R A ",
-   "programs": 3,
-   "iup_avg": 70.3,
+   "programs": 4,
+   "iup_avg": 70.5,
    "iup_median": 74,
-   "tier_alta": 2,
+   "tier_alta": 3,
    "tier_insuficiente": 0
   }
  ],
  "totals": {
-  "programs": 176,
-  "tier_alta": 107,
+  "programs": 179,
+  "tier_alta": 110,
   "tier_media": 69,
   "tier_baja": 0,
   "tier_insuficiente": 0

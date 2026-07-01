@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-01T13:47:47.766475+00:00",
+  "generated_at": "2026-07-01T14:58:39.407179+00:00",
   "sentiment_engine": "haiku",
   "default": "manuel-adorni",
   "index": [
@@ -7,54 +7,54 @@
       "slug": "lionel-messi",
       "name": "Lionel Messi",
       "type": "Deporte",
-      "mentions": 1868,
-      "chat": 408,
-      "channels": 14,
+      "mentions": 1879,
+      "chat": 412,
+      "channels": 15,
       "neg": 13,
-      "neu": 86,
-      "pos": 48
+      "neu": 93,
+      "pos": 44
     },
     {
       "slug": "manuel-adorni",
       "name": "Manuel Adorni",
       "type": "Político",
-      "mentions": 844,
+      "mentions": 872,
       "chat": 3474,
-      "channels": 12,
-      "neg": 21,
-      "neu": 34,
-      "pos": 3
+      "channels": 13,
+      "neg": 24,
+      "neu": 35,
+      "pos": 2
     },
     {
       "slug": "diego-santilli",
       "name": "Diego Santilli",
       "type": "Político",
-      "mentions": 532,
+      "mentions": 540,
       "chat": 111,
-      "channels": 11,
-      "neg": 6,
-      "neu": 20,
+      "channels": 12,
+      "neg": 5,
+      "neu": 23,
       "pos": 6
     },
     {
       "slug": "lionel-scaloni",
       "name": "Lionel Scaloni",
       "type": "Deporte",
-      "mentions": 366,
+      "mentions": 368,
       "chat": 44,
       "channels": 10,
-      "neg": 3,
-      "neu": 37,
-      "pos": 15
+      "neg": 4,
+      "neu": 36,
+      "pos": 16
     },
     {
       "slug": "mauricio-macri",
       "name": "Mauricio Macri",
       "type": "Político",
-      "mentions": 309,
-      "chat": 424,
-      "channels": 12,
-      "neg": 19,
+      "mentions": 317,
+      "chat": 425,
+      "channels": 13,
+      "neg": 20,
       "neu": 30,
       "pos": 3
     },
@@ -65,53 +65,75 @@
       "mentions": 279,
       "chat": 66,
       "channels": 11,
-      "neg": 3,
-      "neu": 36,
-      "pos": 9
+      "neg": 4,
+      "neu": 37,
+      "pos": 7
+    },
+    {
+      "slug": "mercado-libre",
+      "name": "Mercado Libre",
+      "type": "Empresa",
+      "mentions": 273,
+      "chat": 85,
+      "channels": 9,
+      "neg": 2,
+      "neu": 49,
+      "pos": 19
     },
     {
       "slug": "javier-milei",
       "name": "Javier Milei",
       "type": "Político",
+      "mentions": 205,
+      "chat": 3280,
+      "channels": 12,
+      "neg": 9,
+      "neu": 27,
+      "pos": 7
+    },
+    {
+      "slug": "cristina-kirchner",
+      "name": "Cristina Kirchner",
+      "type": "Político",
       "mentions": 199,
-      "chat": 3278,
-      "channels": 11,
-      "neg": 7,
-      "neu": 29,
+      "chat": 94,
+      "channels": 12,
+      "neg": 13,
+      "neu": 26,
       "pos": 5
     },
     {
       "slug": "lali-esposito",
       "name": "Lali Espósito",
       "type": "Música",
-      "mentions": 184,
+      "mentions": 185,
       "chat": 12,
       "channels": 5,
       "neg": 6,
       "neu": 27,
-      "pos": 13
+      "pos": 14
     },
     {
-      "slug": "cristina-kirchner",
-      "name": "Cristina Kirchner",
-      "type": "Político",
-      "mentions": 169,
-      "chat": 83,
-      "channels": 11,
-      "neg": 16,
-      "neu": 23,
-      "pos": 4
+      "slug": "ypf",
+      "name": "YPF",
+      "type": "Empresa",
+      "mentions": 127,
+      "chat": 98,
+      "channels": 14,
+      "neg": 4,
+      "neu": 18,
+      "pos": 14
     },
     {
       "slug": "shakira",
       "name": "Shakira",
       "type": "Música",
-      "mentions": 123,
+      "mentions": 124,
       "chat": 2,
       "channels": 7,
       "neg": 4,
-      "neu": 25,
-      "pos": 8
+      "neu": 27,
+      "pos": 7
     },
     {
       "slug": "patricia-bullrich",
@@ -120,20 +142,31 @@
       "mentions": 111,
       "chat": 25,
       "channels": 11,
-      "neg": 12,
-      "neu": 14,
+      "neg": 13,
+      "neu": 13,
       "pos": 1
     },
     {
       "slug": "julian-alvarez",
       "name": "Julián Álvarez",
       "type": "Deporte",
-      "mentions": 90,
+      "mentions": 91,
       "chat": 0,
       "channels": 8,
-      "neg": 4,
-      "neu": 32,
-      "pos": 7
+      "neg": 3,
+      "neu": 33,
+      "pos": 8
+    },
+    {
+      "slug": "aerolineas-argentinas",
+      "name": "Aerolíneas Argentinas",
+      "type": "Empresa",
+      "mentions": 20,
+      "chat": 1,
+      "channels": 4,
+      "neg": 0,
+      "neu": 4,
+      "pos": 4
     }
   ],
   "radars": {
@@ -146,15 +179,15 @@
         "adorni"
       ],
       "totals": {
-        "transcript_mentions": 844,
+        "transcript_mentions": 872,
         "chat_mentions": 3474,
-        "programs_with_mentions": 58,
-        "channels": 12
+        "programs_with_mentions": 61,
+        "channels": 13
       },
       "sentiment": {
-        "neg": 21,
-        "neu": 34,
-        "pos": 3
+        "neg": 24,
+        "neu": 35,
+        "pos": 2
       },
       "sentiment_chat": {
         "neg": 75,
@@ -166,51 +199,56 @@
         {
           "channel": "GELATINA",
           "mentions": 273,
-          "pct": 32.3
+          "pct": 31.3
         },
         {
           "channel": "BLENDER",
           "mentions": 113,
-          "pct": 13.4
+          "pct": 13.0
         },
         {
           "channel": "OLGA",
           "mentions": 112,
-          "pct": 13.3
+          "pct": 12.8
         },
         {
           "channel": "Cenital",
           "mentions": 89,
-          "pct": 10.5
+          "pct": 10.2
         },
         {
           "channel": "AHORA PLAY",
           "mentions": 86,
-          "pct": 10.2
+          "pct": 9.9
         },
         {
           "channel": "Vorterix",
           "mentions": 55,
-          "pct": 6.5
+          "pct": 6.3
         },
         {
           "channel": "A U R A",
-          "mentions": 37,
-          "pct": 4.4
+          "mentions": 39,
+          "pct": 4.5
         },
         {
           "channel": "Neura Media",
           "mentions": 30,
-          "pct": 3.6
+          "pct": 3.4
         },
         {
           "channel": "BorderPeriodismo",
           "mentions": 26,
-          "pct": 3.1
+          "pct": 3.0
+        },
+        {
+          "channel": "Futurock FM",
+          "mentions": 25,
+          "pct": 2.9
         },
         {
           "channel": "LUZU TV",
-          "mentions": 15,
+          "mentions": 16,
           "pct": 1.8
         },
         {
@@ -255,11 +293,11 @@
         },
         {
           "day": "20260630",
-          "mentions": 220
+          "mentions": 222
         },
         {
           "day": "20260701",
-          "mentions": 63
+          "mentions": 89
         }
       ],
       "crisis": {
@@ -472,7 +510,7 @@
             "LA SALIDA DE LA PATO LA RENUNCIA DE ADORNI TODO PLANEADO POR MACRI. Y ESTK ES CAMPAÑA",
             "UN DIA CON ADORNI QUIERO!"
           ],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 32,
           "yt_url": "https://www.youtube.com/watch?v=WNe6QLgDfyM&t=12763s",
           "clip_start": 12763,
@@ -495,7 +533,7 @@
           "chat_ex": [
             "Los kukas siempre tienen una explicacion y sino tiran lo de Adorni y los que somos apoliti"
           ],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=tAUTd2FsMxA&t=11173s",
           "clip_start": 11173,
@@ -519,7 +557,7 @@
             "ES VERDAD QUE ADORNI VA A COBRAR 90M FE YPF ?",
             "Es verdad que Adorni tiene 249 allegados y familiares metidos en el gobierno?"
           ],
-          "sentiment": "pos",
+          "sentiment": "neu",
           "mentions_in_program": 38,
           "yt_url": "https://www.youtube.com/watch?v=e3av_6yqgHg&t=4909s",
           "clip_start": 4909,
@@ -613,70 +651,75 @@
         "milei"
       ],
       "totals": {
-        "transcript_mentions": 199,
-        "chat_mentions": 3278,
-        "programs_with_mentions": 41,
-        "channels": 11
+        "transcript_mentions": 205,
+        "chat_mentions": 3280,
+        "programs_with_mentions": 43,
+        "channels": 12
       },
       "sentiment": {
-        "neg": 7,
-        "neu": 29,
-        "pos": 5
+        "neg": 9,
+        "neu": 27,
+        "pos": 7
       },
       "sentiment_chat": {
-        "neg": 1,
+        "neg": 2,
         "neu": 116,
-        "pos": 3
+        "pos": 2
       },
       "chat_scored": 120,
       "share_of_voice": [
         {
           "channel": "GELATINA",
           "mentions": 65,
-          "pct": 32.7
+          "pct": 31.7
         },
         {
           "channel": "Cenital",
           "mentions": 35,
-          "pct": 17.6
+          "pct": 17.1
         },
         {
           "channel": "AHORA PLAY",
           "mentions": 23,
-          "pct": 11.6
+          "pct": 11.2
         },
         {
           "channel": "OLGA",
           "mentions": 21,
-          "pct": 10.6
+          "pct": 10.2
         },
         {
           "channel": "BLENDER",
           "mentions": 18,
-          "pct": 9.0
+          "pct": 8.8
         },
         {
           "channel": "Vorterix",
           "mentions": 14,
-          "pct": 7.0
+          "pct": 6.8
         },
         {
           "channel": "BorderPeriodismo",
           "mentions": 7,
-          "pct": 3.5
+          "pct": 3.4
+        },
+        {
+          "channel": "LUZU TV",
+          "mentions": 6,
+          "pct": 2.9
         },
         {
           "channel": "El Cronista",
           "mentions": 5,
-          "pct": 2.5
+          "pct": 2.4
         },
         {
           "channel": "A U R A",
           "mentions": 5,
-          "pct": 2.5
+          "pct": 2.4
         },
         {
-          "channel": "LUZU TV",
+          "channel": "Futurock FM",
           "mentions": 4,
           "pct": 2.0
         },
@@ -725,7 +768,7 @@
         },
         {
           "day": "20260701",
-          "mentions": 14
+          "mentions": 20
         }
       ],
       "crisis": null,
@@ -785,13 +828,34 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 1,
           "yt_url": "https://www.youtube.com/watch?v=0NuPTgKW5mc&t=12418s",
           "clip_start": 12418,
           "clip_label": "03:26:58",
           "origen": "hablado",
           "formato": "mención al pasar"
+        },
+        {
+          "video_id": "51sN7yf3xtc",
+          "channel": "LUZU TV",
+          "program": "#ANTESQUENADIE | PERDEMOS FUERTE LA DIGNIDAD Y ¿QUÉ PASA ENTRE LA REINI Y LEUCO?",
+          "date": "20260701",
+          "views": 131010,
+          "t_seconds": 11887,
+          "t_label": "03:18:07",
+          "quote": "Yanko, ya pedito que ya llegan mis amigos y amigas de Nadie Dice Nada. Empiezo con que Diego Santilli ya juró como nuevo jefe de gabinete de Javier Milei La ceremonia estuvo llena de gobernadores y dirigentes",
+          "conc_at": 108256,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=51sN7yf3xtc&t=11884s",
+          "clip_start": 11884,
+          "clip_label": "03:18:04",
+          "origen": "hablado",
+          "formato": "mención recurrente"
         },
         {
           "video_id": "WNe6QLgDfyM",
@@ -921,7 +985,7 @@
             "House of cards milei",
             "Dios que idiota es milei"
           ],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 4,
           "yt_url": "https://www.youtube.com/watch?v=JNLpggdieek&t=6155s",
           "clip_start": 6155,
@@ -1015,27 +1079,6 @@
           "clip_label": "01:52:41",
           "origen": "hablado",
           "formato": "tema del bloque"
-        },
-        {
-          "video_id": "2j8TvzmdrGY",
-          "channel": "Vorterix",
-          "program": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Dany Jiménez y Nico Etevenaux",
-          "date": "20260701",
-          "views": 16915,
-          "t_seconds": 2776,
-          "t_label": "00:46:16",
-          "quote": "La Fundación Faro es este think tank que dirige Agustín Laje, que es una de las columnas vertebrales de lo que se conoce como la batalla cultural de Javier Milei. Es especialista en macroeconomía y teoría monetaria, publicó distintos trabajos relacionados con la escuela austríaca",
-          "conc_at": 6676,
-          "chat_msgs": 34,
-          "chat_ratio": 0.7,
-          "chat_ex": [],
-          "sentiment": "pos",
-          "mentions_in_program": 2,
-          "yt_url": "https://www.youtube.com/watch?v=2j8TvzmdrGY&t=2773s",
-          "clip_start": 2773,
-          "clip_label": "00:46:13",
-          "origen": "hablado",
-          "formato": "mención recurrente"
         }
       ]
     },
@@ -1055,14 +1098,14 @@
         "channels": 11
       },
       "sentiment": {
-        "neg": 3,
-        "neu": 36,
-        "pos": 9
+        "neg": 4,
+        "neu": 37,
+        "pos": 7
       },
       "sentiment_chat": {
-        "neg": 47,
-        "neu": 16,
-        "pos": 3
+        "neg": 45,
+        "neu": 17,
+        "pos": 4
       },
       "chat_scored": 66,
       "share_of_voice": [
@@ -1524,62 +1567,67 @@
         "macri"
       ],
       "totals": {
-        "transcript_mentions": 309,
-        "chat_mentions": 424,
-        "programs_with_mentions": 52,
-        "channels": 12
+        "transcript_mentions": 317,
+        "chat_mentions": 425,
+        "programs_with_mentions": 53,
+        "channels": 13
       },
       "sentiment": {
-        "neg": 19,
+        "neg": 20,
         "neu": 30,
         "pos": 3
       },
       "sentiment_chat": {
-        "neg": 59,
-        "neu": 48,
-        "pos": 13
+        "neg": 57,
+        "neu": 49,
+        "pos": 14
       },
       "chat_scored": 120,
       "share_of_voice": [
         {
           "channel": "GELATINA",
           "mentions": 104,
-          "pct": 33.7
+          "pct": 32.8
         },
         {
           "channel": "OLGA",
           "mentions": 56,
-          "pct": 18.1
+          "pct": 17.7
         },
         {
           "channel": "BLENDER",
           "mentions": 40,
-          "pct": 12.9
+          "pct": 12.6
         },
         {
           "channel": "AHORA PLAY",
           "mentions": 32,
-          "pct": 10.4
+          "pct": 10.1
         },
         {
           "channel": "Vorterix",
           "mentions": 20,
-          "pct": 6.5
+          "pct": 6.3
         },
         {
           "channel": "BorderPeriodismo",
           "mentions": 19,
-          "pct": 6.1
+          "pct": 6.0
         },
         {
           "channel": "Neura Media",
           "mentions": 12,
-          "pct": 3.9
+          "pct": 3.8
         },
         {
           "channel": "Cenital",
           "mentions": 9,
-          "pct": 2.9
+          "pct": 2.8
+        },
+        {
+          "channel": "Futurock FM",
+          "mentions": 8,
+          "pct": 2.5
         },
         {
           "channel": "El Cronista",
@@ -1594,7 +1642,7 @@
         {
           "channel": "Bondi Live",
           "mentions": 3,
-          "pct": 1.0
+          "pct": 0.9
         },
         {
           "channel": "LUZU TV",
@@ -1649,7 +1697,7 @@
         },
         {
           "day": "20260701",
-          "mentions": 3
+          "mentions": 11
         }
       ],
       "crisis": {
@@ -2002,14 +2050,14 @@
         "colorado santilli"
       ],
       "totals": {
-        "transcript_mentions": 532,
+        "transcript_mentions": 540,
         "chat_mentions": 111,
-        "programs_with_mentions": 32,
-        "channels": 11
+        "programs_with_mentions": 34,
+        "channels": 12
       },
       "sentiment": {
-        "neg": 6,
-        "neu": 20,
+        "neg": 5,
+        "neu": 23,
         "pos": 6
       },
       "sentiment_chat": {
@@ -2022,42 +2070,42 @@
         {
           "channel": "GELATINA",
           "mentions": 207,
-          "pct": 38.9
+          "pct": 38.3
         },
         {
           "channel": "Cenital",
           "mentions": 60,
-          "pct": 11.3
+          "pct": 11.1
         },
         {
           "channel": "AHORA PLAY",
           "mentions": 59,
-          "pct": 11.1
+          "pct": 10.9
         },
         {
           "channel": "OLGA",
           "mentions": 58,
-          "pct": 10.9
+          "pct": 10.7
         },
         {
           "channel": "BorderPeriodismo",
           "mentions": 34,
-          "pct": 6.4
+          "pct": 6.3
         },
         {
           "channel": "A U R A",
           "mentions": 33,
-          "pct": 6.2
+          "pct": 6.1
         },
         {
           "channel": "Vorterix",
           "mentions": 31,
-          "pct": 5.8
+          "pct": 5.7
         },
         {
           "channel": "BLENDER",
           "mentions": 29,
-          "pct": 5.5
+          "pct": 5.4
         },
         {
           "channel": "Neura Media",
@@ -2071,8 +2119,13 @@
         },
         {
           "channel": "LUZU TV",
-          "mentions": 4,
-          "pct": 0.8
+          "mentions": 7,
+          "pct": 1.3
+        },
+        {
+          "channel": "Futurock FM",
+          "mentions": 5,
+          "pct": 0.9
         }
       ],
       "by_day": [
@@ -2094,7 +2147,7 @@
         },
         {
           "day": "20260701",
-          "mentions": 22
+          "mentions": 30
         }
       ],
       "crisis": null,
@@ -2182,6 +2235,27 @@
           "clip_label": "03:28:14",
           "origen": "hablado",
           "formato": "mención al pasar"
+        },
+        {
+          "video_id": "51sN7yf3xtc",
+          "channel": "LUZU TV",
+          "program": "#ANTESQUENADIE | PERDEMOS FUERTE LA DIGNIDAD Y ¿QUÉ PASA ENTRE LA REINI Y LEUCO?",
+          "date": "20260701",
+          "views": 131010,
+          "t_seconds": 11887,
+          "t_label": "03:18:07",
+          "quote": "Yanko, ya pedito que ya llegan mis amigos y amigas de Nadie Dice Nada. Empiezo con que Diego Santilli ya juró como nuevo jefe de gabinete de Javier Milei La ceremonia estuvo llena de gobernadores y dirigentes",
+          "conc_at": 108256,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 3,
+          "yt_url": "https://www.youtube.com/watch?v=51sN7yf3xtc&t=11884s",
+          "clip_start": 11884,
+          "clip_label": "03:18:04",
+          "origen": "hablado",
+          "formato": "mención recurrente"
         },
         {
           "video_id": "WNe6QLgDfyM",
@@ -2286,7 +2360,7 @@
           "chat_ex": [
             "Santilli es honesto"
           ],
-          "sentiment": "neu",
+          "sentiment": "pos",
           "mentions_in_program": 8,
           "yt_url": "https://www.youtube.com/watch?v=3CPnLRc7h2w&t=3185s",
           "clip_start": 3185,
@@ -2381,27 +2455,6 @@
           "clip_label": "00:54:13",
           "origen": "hablado",
           "formato": "mención al pasar"
-        },
-        {
-          "video_id": "tOyCjVcKZlE",
-          "channel": "BLENDER",
-          "program": "El día de CARNA CAMPEÓN en el ‘86, ADIÓS ADORNI y MARTITA-JOSEMA en modo MUNDIAL | BLENDER AT NIGHT",
-          "date": "20260630",
-          "views": 2410,
-          "t_seconds": 4967,
-          "t_label": "01:22:47",
-          "quote": "quedó de costado, estaba todo preparado por Milley para que una vez que jurara Santilli, viniera Manuel Adorni y se abrazaran.",
-          "conc_at": 5829,
-          "chat_msgs": 0,
-          "chat_ratio": 0.0,
-          "chat_ex": [],
-          "sentiment": "neu",
-          "mentions_in_program": 5,
-          "yt_url": "https://www.youtube.com/watch?v=tOyCjVcKZlE&t=4964s",
-          "clip_start": 4964,
-          "clip_label": "01:22:44",
-          "origen": "hablado",
-          "formato": "mención recurrente"
         }
       ]
     },
@@ -2418,77 +2471,82 @@
         "cristina"
       ],
       "totals": {
-        "transcript_mentions": 169,
-        "chat_mentions": 83,
-        "programs_with_mentions": 43,
-        "channels": 11
+        "transcript_mentions": 199,
+        "chat_mentions": 94,
+        "programs_with_mentions": 44,
+        "channels": 12
       },
       "sentiment": {
-        "neg": 16,
-        "neu": 23,
-        "pos": 4
+        "neg": 13,
+        "neu": 26,
+        "pos": 5
       },
       "sentiment_chat": {
-        "neg": 45,
-        "neu": 18,
-        "pos": 20
+        "neg": 49,
+        "neu": 21,
+        "pos": 24
       },
-      "chat_scored": 83,
+      "chat_scored": 94,
       "share_of_voice": [
         {
           "channel": "GELATINA",
           "mentions": 67,
-          "pct": 39.6
+          "pct": 33.7
         },
         {
           "channel": "OLGA",
           "mentions": 30,
-          "pct": 17.8
+          "pct": 15.1
+        },
+        {
+          "channel": "Futurock FM",
+          "mentions": 30,
+          "pct": 15.1
         },
         {
           "channel": "BLENDER",
           "mentions": 17,
-          "pct": 10.1
+          "pct": 8.5
         },
         {
           "channel": "Cenital",
           "mentions": 17,
-          "pct": 10.1
+          "pct": 8.5
         },
         {
           "channel": "LUZU TV",
           "mentions": 14,
-          "pct": 8.3
+          "pct": 7.0
         },
         {
           "channel": "Neura Media",
           "mentions": 9,
-          "pct": 5.3
+          "pct": 4.5
         },
         {
           "channel": "AHORA PLAY",
           "mentions": 7,
-          "pct": 4.1
+          "pct": 3.5
         },
         {
           "channel": "BorderPeriodismo",
           "mentions": 3,
-          "pct": 1.8
+          "pct": 1.5
         },
         {
           "channel": "A U R A",
           "mentions": 2,
-          "pct": 1.2
+          "pct": 1.0
         },
         {
           "channel": "Bondi Live",
           "mentions": 2,
-          "pct": 1.2
+          "pct": 1.0
         },
         {
           "channel": "Vorterix",
           "mentions": 1,
-          "pct": 0.6
+          "pct": 0.5
         }
       ],
       "by_day": [
@@ -2546,7 +2604,7 @@
         },
         {
           "day": "20260701",
-          "mentions": 1
+          "mentions": 31
         }
       ],
       "crisis": null,
@@ -2839,7 +2897,7 @@
           "chat_msgs": 172,
           "chat_ratio": 1.87,
           "chat_ex": [],
-          "sentiment": "neg",
+          "sentiment": "neu",
           "mentions_in_program": 15,
           "yt_url": "https://www.youtube.com/watch?v=mNBPDZhUOf8&t=3458s",
           "clip_start": 3458,
@@ -2860,19 +2918,19 @@
         "messi"
       ],
       "totals": {
-        "transcript_mentions": 1868,
-        "chat_mentions": 408,
-        "programs_with_mentions": 147,
-        "channels": 14
+        "transcript_mentions": 1879,
+        "chat_mentions": 412,
+        "programs_with_mentions": 150,
+        "channels": 15
       },
       "sentiment": {
         "neg": 13,
-        "neu": 86,
-        "pos": 48
+        "neu": 93,
+        "pos": 44
       },
       "sentiment_chat": {
-        "neg": 40,
-        "neu": 38,
+        "neg": 34,
+        "neu": 44,
         "pos": 42
       },
       "chat_scored": 120,
@@ -2880,17 +2938,17 @@
         {
           "channel": "OLGA",
           "mentions": 1000,
-          "pct": 53.5
+          "pct": 53.2
         },
         {
           "channel": "LUZU TV",
-          "mentions": 405,
-          "pct": 21.7
+          "mentions": 410,
+          "pct": 21.8
         },
         {
           "channel": "Vorterix",
           "mentions": 247,
-          "pct": 13.2
+          "pct": 13.1
         },
         {
           "channel": "BLENDER",
@@ -2909,8 +2967,8 @@
         },
         {
           "channel": "A U R A",
-          "mentions": 16,
-          "pct": 0.9
+          "mentions": 21,
+          "pct": 1.1
         },
         {
           "channel": "Urbana Play 104.3 FM",
@@ -2945,6 +3003,11 @@
         {
           "channel": "Cenital",
           "mentions": 2,
+          "pct": 0.1
+        },
+        {
+          "channel": "Futurock FM",
+          "mentions": 1,
           "pct": 0.1
         }
       ],
@@ -3027,11 +3090,11 @@
         },
         {
           "day": "20260630",
-          "mentions": 146
+          "mentions": 151
         },
         {
           "day": "20260701",
-          "mentions": 59
+          "mentions": 65
         }
       ],
       "crisis": {
@@ -3216,7 +3279,7 @@
           "chat_msgs": 0,
           "chat_ratio": 0.0,
           "chat_ex": [],
-          "sentiment": "neg",
+          "sentiment": "neu",
           "mentions_in_program": 17,
           "yt_url": "https://www.youtube.com/watch?v=fnvj0iK5yDI&t=11880s",
           "clip_start": 11880,
@@ -3265,6 +3328,27 @@
           "clip_label": "02:22:47",
           "origen": "hablado",
           "formato": "tema del bloque"
+        },
+        {
+          "video_id": "51sN7yf3xtc",
+          "channel": "LUZU TV",
+          "program": "#ANTESQUENADIE | PERDEMOS FUERTE LA DIGNIDAD Y ¿QUÉ PASA ENTRE LA REINI Y LEUCO?",
+          "date": "20260701",
+          "views": 131010,
+          "t_seconds": 6268,
+          "t_label": "01:44:28",
+          "quote": "decían Messi no existe más pero ya",
+          "conc_at": 57720,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neg",
+          "mentions_in_program": 5,
+          "yt_url": "https://www.youtube.com/watch?v=51sN7yf3xtc&t=6265s",
+          "clip_start": 6265,
+          "clip_label": "01:44:25",
+          "origen": "hablado",
+          "formato": "mención recurrente"
         },
         {
           "video_id": "bX7MB2_OI2I",
@@ -3328,27 +3412,6 @@
           "clip_label": "03:23:32",
           "origen": "hablado",
           "formato": "tema del bloque"
-        },
-        {
-          "video_id": "XHV2BV9DWMs",
-          "channel": "OLGA",
-          "program": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
-          "date": "20260619",
-          "views": 39368,
-          "t_seconds": 4149,
-          "t_label": "01:09:09",
-          "quote": "Por mi hermana que es argentina Le gusta mucho Messi ¿Y a vos?",
-          "conc_at": 41443,
-          "chat_msgs": 0,
-          "chat_ratio": 0.0,
-          "chat_ex": [],
-          "sentiment": "neu",
-          "mentions_in_program": 18,
-          "yt_url": "https://www.youtube.com/watch?v=XHV2BV9DWMs&t=4146s",
-          "clip_start": 4146,
-          "clip_label": "01:09:06",
-          "origen": "hablado",
-          "formato": "tema del bloque"
         }
       ]
     },
@@ -3363,32 +3426,32 @@
         "lali"
       ],
       "totals": {
-        "transcript_mentions": 184,
+        "transcript_mentions": 185,
         "chat_mentions": 12,
-        "programs_with_mentions": 46,
+        "programs_with_mentions": 47,
         "channels": 5
       },
       "sentiment": {
         "neg": 6,
         "neu": 27,
-        "pos": 13
+        "pos": 14
       },
       "sentiment_chat": {
         "neg": 3,
-        "neu": 4,
-        "pos": 5
+        "neu": 3,
+        "pos": 6
       },
       "chat_scored": 12,
       "share_of_voice": [
         {
           "channel": "LUZU TV",
-          "mentions": 105,
-          "pct": 57.1
+          "mentions": 106,
+          "pct": 57.3
         },
         {
           "channel": "OLGA",
           "mentions": 65,
-          "pct": 35.3
+          "pct": 35.1
         },
         {
           "channel": "Bondi Live",
@@ -3466,6 +3529,10 @@
         {
           "day": "20260630",
           "mentions": 10
+        },
+        {
+          "day": "20260701",
+          "mentions": 1
         }
       ],
       "crisis": null,
@@ -3532,6 +3599,27 @@
           "clip_label": "03:54:45",
           "origen": "hablado",
           "formato": "tema del bloque"
+        },
+        {
+          "video_id": "51sN7yf3xtc",
+          "channel": "LUZU TV",
+          "program": "#ANTESQUENADIE | PERDEMOS FUERTE LA DIGNIDAD Y ¿QUÉ PASA ENTRE LA REINI Y LEUCO?",
+          "date": "20260701",
+          "views": 131010,
+          "t_seconds": 4283,
+          "t_label": "01:11:23",
+          "quote": "Sonaba en quiero todo el tiempo Lali Lo pedís, lo tenés",
+          "conc_at": 32536,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "pos",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=51sN7yf3xtc&t=4280s",
+          "clip_start": 4280,
+          "clip_label": "01:11:20",
+          "origen": "hablado",
+          "formato": "mención al pasar"
         },
         {
           "video_id": "cEWsZ9vbiCg",
@@ -3744,27 +3832,6 @@
           "clip_label": "01:02:05",
           "origen": "hablado",
           "formato": "mención al pasar"
-        },
-        {
-          "video_id": "Vmo-2tGYPYg",
-          "channel": "OLGA",
-          "program": "CHISMES QUE JAMÁS LE CONTASTE A NADIE | #TDT 4/6",
-          "date": "20260604",
-          "views": 97693,
-          "t_seconds": 4170,
-          "t_label": "01:09:30",
-          "quote": "Ayer había gente de Ecuador, gente de Chile Estaban todos en la puerta porque vienen a ver a Lali Y de paso pasan por acá",
-          "conc_at": null,
-          "chat_msgs": 0,
-          "chat_ratio": 0.0,
-          "chat_ex": [],
-          "sentiment": "neu",
-          "mentions_in_program": 1,
-          "yt_url": "https://www.youtube.com/watch?v=Vmo-2tGYPYg&t=4167s",
-          "clip_start": 4167,
-          "clip_label": "01:09:27",
-          "origen": "hablado",
-          "formato": "mención al pasar"
         }
       ]
     },
@@ -3784,13 +3851,13 @@
         "channels": 11
       },
       "sentiment": {
-        "neg": 12,
-        "neu": 14,
+        "neg": 13,
+        "neu": 13,
         "pos": 1
       },
       "sentiment_chat": {
-        "neg": 13,
-        "neu": 10,
+        "neg": 14,
+        "neu": 9,
         "pos": 2
       },
       "chat_scored": 25,
@@ -4032,7 +4099,7 @@
           "chat_msgs": 55,
           "chat_ratio": 1.68,
           "chat_ex": [],
-          "sentiment": "neu",
+          "sentiment": "neg",
           "mentions_in_program": 4,
           "yt_url": "https://www.youtube.com/watch?v=C6BZb4k8gF0&t=3703s",
           "clip_start": 3703,
@@ -4201,15 +4268,15 @@
         "scaloni"
       ],
       "totals": {
-        "transcript_mentions": 366,
+        "transcript_mentions": 368,
         "chat_mentions": 44,
-        "programs_with_mentions": 55,
+        "programs_with_mentions": 56,
         "channels": 10
       },
       "sentiment": {
-        "neg": 3,
-        "neu": 37,
-        "pos": 15
+        "neg": 4,
+        "neu": 36,
+        "pos": 16
       },
       "sentiment_chat": {
         "neg": 3,
@@ -4221,12 +4288,12 @@
         {
           "channel": "OLGA",
           "mentions": 267,
-          "pct": 73.0
+          "pct": 72.6
         },
         {
           "channel": "LUZU TV",
           "mentions": 61,
-          "pct": 16.7
+          "pct": 16.6
         },
         {
           "channel": "Neura Media",
@@ -4236,7 +4303,7 @@
         {
           "channel": "Vorterix",
           "mentions": 9,
-          "pct": 2.5
+          "pct": 2.4
         },
         {
           "channel": "BLENDER",
@@ -4245,8 +4312,8 @@
         },
         {
           "channel": "A U R A",
-          "mentions": 4,
-          "pct": 1.1
+          "mentions": 6,
+          "pct": 1.6
         },
         {
           "channel": "BorderPeriodismo",
@@ -4336,7 +4403,7 @@
         },
         {
           "day": "20260630",
-          "mentions": 19
+          "mentions": 21
         },
         {
           "day": "20260701",
@@ -4669,15 +4736,15 @@
         "la arana"
       ],
       "totals": {
-        "transcript_mentions": 90,
+        "transcript_mentions": 91,
         "chat_mentions": 0,
-        "programs_with_mentions": 43,
+        "programs_with_mentions": 44,
         "channels": 8
       },
       "sentiment": {
-        "neg": 4,
-        "neu": 32,
-        "pos": 7
+        "neg": 3,
+        "neu": 33,
+        "pos": 8
       },
       "sentiment_chat": {
         "neg": 0,
@@ -4689,12 +4756,12 @@
         {
           "channel": "OLGA",
           "mentions": 48,
-          "pct": 53.3
+          "pct": 52.7
         },
         {
           "channel": "LUZU TV",
-          "mentions": 33,
-          "pct": 36.7
+          "mentions": 34,
+          "pct": 37.4
         },
         {
           "channel": "GELATINA",
@@ -4783,6 +4850,10 @@
         {
           "day": "20260630",
           "mentions": 4
+        },
+        {
+          "day": "20260701",
+          "mentions": 1
         }
       ],
       "crisis": null,
@@ -4828,6 +4899,27 @@
           "clip_label": "01:20:07",
           "origen": "hablado",
           "formato": "mención recurrente"
+        },
+        {
+          "video_id": "51sN7yf3xtc",
+          "channel": "LUZU TV",
+          "program": "#ANTESQUENADIE | PERDEMOS FUERTE LA DIGNIDAD Y ¿QUÉ PASA ENTRE LA REINI Y LEUCO?",
+          "date": "20260701",
+          "views": 131010,
+          "t_seconds": 11088,
+          "t_label": "03:04:48",
+          "quote": "hay una foto tuya con el delantal de jardín el jardinerito la foto ya medio ocre y una arañita arriba viste la araña con la y encima si todos los papás también los abuelos que el agua y la pelada de los papás también lo que es para ir a cambiar la sábana y",
+          "conc_at": 95610,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=51sN7yf3xtc&t=11085s",
+          "clip_start": 11085,
+          "clip_label": "03:04:45",
+          "origen": "hablado",
+          "formato": "mención al pasar"
         },
         {
           "video_id": "E1SnlQyyuRc",
@@ -5059,27 +5151,6 @@
           "clip_label": "01:21:29",
           "origen": "hablado",
           "formato": "mención al pasar"
-        },
-        {
-          "video_id": "vlNZMMmBbLw",
-          "channel": "GELATINA",
-          "program": "¿Por qué ADORNI SE FUE RECIÉN AHORA? | DEMASIADA PRESIÓN con Flor HALFON y Gaby VULCANO",
-          "date": "20260629",
-          "views": 7813,
-          "t_seconds": 4546,
-          "t_label": "01:15:46",
-          "quote": "Y me podrías contar qué pasa con Julián Álvarez Es el cholo que le sacó la gracia",
-          "conc_at": 1661,
-          "chat_msgs": 7,
-          "chat_ratio": 0.99,
-          "chat_ex": [],
-          "sentiment": "neu",
-          "mentions_in_program": 3,
-          "yt_url": "https://www.youtube.com/watch?v=vlNZMMmBbLw&t=4543s",
-          "clip_start": 4543,
-          "clip_label": "01:15:43",
-          "origen": "hablado",
-          "formato": "mención recurrente"
         }
       ]
     },
@@ -5092,15 +5163,15 @@
         "shakira"
       ],
       "totals": {
-        "transcript_mentions": 123,
+        "transcript_mentions": 124,
         "chat_mentions": 2,
-        "programs_with_mentions": 37,
+        "programs_with_mentions": 38,
         "channels": 7
       },
       "sentiment": {
         "neg": 4,
-        "neu": 25,
-        "pos": 8
+        "neu": 27,
+        "pos": 7
       },
       "sentiment_chat": {
         "neg": 1,
@@ -5111,13 +5182,13 @@
       "share_of_voice": [
         {
           "channel": "LUZU TV",
-          "mentions": 63,
-          "pct": 51.2
+          "mentions": 64,
+          "pct": 51.6
         },
         {
           "channel": "OLGA",
           "mentions": 49,
-          "pct": 39.8
+          "pct": 39.5
         },
         {
           "channel": "Vorterix",
@@ -5208,7 +5279,7 @@
         },
         {
           "day": "20260701",
-          "mentions": 3
+          "mentions": 4
         }
       ],
       "crisis": null,
@@ -5275,6 +5346,27 @@
           "clip_label": "00:05:03",
           "origen": "hablado",
           "formato": "mención recurrente"
+        },
+        {
+          "video_id": "51sN7yf3xtc",
+          "channel": "LUZU TV",
+          "program": "#ANTESQUENADIE | PERDEMOS FUERTE LA DIGNIDAD Y ¿QUÉ PASA ENTRE LA REINI Y LEUCO?",
+          "date": "20260701",
+          "views": 131010,
+          "t_seconds": 11823,
+          "t_label": "03:17:03",
+          "quote": "Estoy mejor o no, más o menos Sí, mirá lo que sos, Shakira Está mejor",
+          "conc_at": 107765,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "pos",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=51sN7yf3xtc&t=11820s",
+          "clip_start": 11820,
+          "clip_label": "03:17:00",
+          "origen": "hablado",
+          "formato": "mención al pasar"
         },
         {
           "video_id": "fnvj0iK5yDI",
@@ -5457,7 +5549,7 @@
           "chat_msgs": 3,
           "chat_ratio": 0.74,
           "chat_ex": [],
-          "sentiment": "pos",
+          "sentiment": "neu",
           "mentions_in_program": 5,
           "yt_url": "https://www.youtube.com/watch?v=JqkhC1EnyTQ&t=5726s",
           "clip_start": 5726,
@@ -5485,25 +5577,1180 @@
           "clip_label": "00:29:40",
           "origen": "hablado",
           "formato": "mención al pasar"
+        }
+      ]
+    },
+    "aerolineas-argentinas": {
+      "slug": "aerolineas-argentinas",
+      "entity": "Aerolíneas Argentinas",
+      "type": "Empresa",
+      "watchlist": [
+        "Aerolíneas Argentinas",
+        "aerolíneas argentinas",
+        "aerolineas argentinas",
+        "aerolíneas",
+        "aerolineas"
+      ],
+      "totals": {
+        "transcript_mentions": 20,
+        "chat_mentions": 1,
+        "programs_with_mentions": 8,
+        "channels": 4
+      },
+      "sentiment": {
+        "neg": 0,
+        "neu": 4,
+        "pos": 4
+      },
+      "sentiment_chat": {
+        "neg": 0,
+        "neu": 1,
+        "pos": 0
+      },
+      "chat_scored": 1,
+      "share_of_voice": [
+        {
+          "channel": "OLGA",
+          "mentions": 15,
+          "pct": 75.0
         },
         {
-          "video_id": "tAUTd2FsMxA",
-          "channel": "Bondi Live",
-          "program": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
+          "channel": "Vorterix",
+          "mentions": 3,
+          "pct": 15.0
+        },
+        {
+          "channel": "BLENDER",
+          "mentions": 1,
+          "pct": 5.0
+        },
+        {
+          "channel": "BorderPeriodismo",
+          "mentions": 1,
+          "pct": 5.0
+        }
+      ],
+      "by_day": [
+        {
+          "day": "20260622",
+          "mentions": 6
+        },
+        {
+          "day": "20260623",
+          "mentions": 3
+        },
+        {
+          "day": "20260624",
+          "mentions": 1
+        },
+        {
+          "day": "20260626",
+          "mentions": 3
+        },
+        {
+          "day": "20260629",
+          "mentions": 4
+        },
+        {
+          "day": "20260630",
+          "mentions": 1
+        },
+        {
+          "day": "20260701",
+          "mentions": 2
+        }
+      ],
+      "crisis": null,
+      "feed": [
+        {
+          "video_id": "95yJuQx7ol8",
+          "channel": "OLGA",
+          "program": "“Todo lo que es extraordinario, LIONEL lo hace ordinario” | #GolGana 22/6",
+          "date": "20260622",
+          "views": 15613,
+          "t_seconds": 5142,
+          "t_label": "01:25:42",
+          "quote": "Gente sacando pasaje Las aerolíneas sacando nuevos vuelos Nuevos aviones",
+          "conc_at": 14113,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 6,
+          "yt_url": "https://www.youtube.com/watch?v=95yJuQx7ol8&t=5139s",
+          "clip_start": 5139,
+          "clip_label": "01:25:39",
+          "origen": "hablado",
+          "formato": "tema del bloque"
+        },
+        {
+          "video_id": "NKhi31a86K8",
+          "channel": "OLGA",
+          "program": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+          "date": "20260623",
+          "views": 14487,
+          "t_seconds": 3607,
+          "t_label": "01:00:07",
+          "quote": "el Mundial de cerca y alentar a la selección como nunca. Aerolíneas Argentinas te lleva directo con vuelos especiales",
+          "conc_at": 8569,
+          "chat_msgs": 65,
+          "chat_ratio": 3.73,
+          "chat_ex": [
+            "El helicoptero de gaspi era aerolineas argentinas"
+          ],
+          "sentiment": "pos",
+          "mentions_in_program": 3,
+          "yt_url": "https://www.youtube.com/watch?v=NKhi31a86K8&t=3604s",
+          "clip_start": 3604,
+          "clip_label": "01:00:04",
+          "origen": "ambos",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "9ucd7zkq6P8",
+          "channel": "OLGA",
+          "program": "HOY NOS VISITA EL TENISTA ARGENTINO FEDERICO CORIA en #GolGana 26/6",
+          "date": "20260626",
+          "views": 10522,
+          "t_seconds": 1173,
+          "t_label": "00:19:33",
+          "quote": "De la entrada a la selección como nunca Aerolíneas Argentina te lleva directo Hay vuelos especiales para acompañar cada paso del equipo",
+          "conc_at": 7567,
+          "chat_msgs": 4,
+          "chat_ratio": 0.51,
+          "chat_ex": [],
+          "sentiment": "pos",
+          "mentions_in_program": 3,
+          "yt_url": "https://www.youtube.com/watch?v=9ucd7zkq6P8&t=1170s",
+          "clip_start": 1170,
+          "clip_label": "00:19:30",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "zpbJ8ju9xmk",
+          "channel": "Vorterix",
+          "program": "EQUIPO COMPLETO Y SOMOS MÁS PARAGUAYOS QUE NUNCA | #YQUE COMPLETO 30/6 | VORTERIX",
+          "date": "20260630",
+          "views": 30958,
+          "t_seconds": 2869,
+          "t_label": "00:47:49",
+          "quote": "Están todos buscando entradas como locos Aerolíneas agregó 8 vuelos para llevar gente a Miami Mirá, al final el país está bárbaro",
+          "conc_at": 7242,
+          "chat_msgs": 226,
+          "chat_ratio": 0.92,
+          "chat_ex": [],
+          "sentiment": "pos",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=zpbJ8ju9xmk&t=2866s",
+          "clip_start": 2866,
+          "clip_label": "00:47:46",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "tcq7UAzc3iw",
+          "channel": "BLENDER",
+          "program": "SHOWTIME de CHISTES, NAZARENO y las PIRUETAS MÁS LOCAS y CINE-POLÍTICO | BLENDER AT NIGHT",
           "date": "20260624",
-          "views": 37783,
-          "t_seconds": 19723,
-          "t_label": "05:28:43",
-          "quote": "y acá está la casa de de Shakira así que imaginate donde vive",
-          "conc_at": 3344,
-          "chat_msgs": 18,
-          "chat_ratio": 0.39,
+          "views": 4176,
+          "t_seconds": 5283,
+          "t_label": "01:28:03",
+          "quote": "económicas de Néstor Kirchner. La presidenta le abrió la puerta, lo llevó como gerente de Aerolíneas, lo hizo viceministro de Economía, todos los compañeros que trabajamos para que sea diputado.",
+          "conc_at": 7216,
+          "chat_msgs": 37,
+          "chat_ratio": 0.89,
           "chat_ex": [],
           "sentiment": "neu",
           "mentions_in_program": 1,
-          "yt_url": "https://www.youtube.com/watch?v=tAUTd2FsMxA&t=19720s",
-          "clip_start": 19720,
-          "clip_label": "05:28:40",
+          "yt_url": "https://www.youtube.com/watch?v=tcq7UAzc3iw&t=5280s",
+          "clip_start": 5280,
+          "clip_label": "01:28:00",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "cG_sxu72mSo",
+          "channel": "Vorterix",
+          "program": "MESSI CONOCIÓ A SPIDERMAN Y VINO MORE BELTRÁN | #ParenLaMano Completo - 30/06 | VORTERIX",
+          "date": "20260701",
+          "views": 62080,
+          "t_seconds": 467,
+          "t_label": "00:07:47",
+          "quote": "en distintas marcas. Aerolíneas, aerolíneas a disposición para distintos aeropuertos. Exactamente, exactamente.",
+          "conc_at": 3240,
+          "chat_msgs": 149,
+          "chat_ratio": 2.03,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=cG_sxu72mSo&t=464s",
+          "clip_start": 464,
+          "clip_label": "00:07:44",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "CP5OqzXez-g",
+          "channel": "BorderPeriodismo",
+          "program": "EL TAPON DE ADORNI y el NUEVO SANTILLI | VIVAN TODO en VIVO con OLIVÁN",
+          "date": "20260629",
+          "views": 2107,
+          "t_seconds": 5768,
+          "t_label": "01:36:08",
+          "quote": "con una oposición a las políticas económicas de Néstor Kirchner. La Presidenta le abrió la puerta, lo llevó como gerente de Aerolíneas, lo hizo Viceministro de Economía, Ministro de Economía,",
+          "conc_at": 2100,
+          "chat_msgs": 3,
+          "chat_ratio": 3.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=CP5OqzXez-g&t=5765s",
+          "clip_start": 5765,
+          "clip_label": "01:36:05",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "WCdVYizlDYA",
+          "channel": "OLGA",
+          "program": "⚽️ GOLGANA con AZZ: Flavio Azzaro, Chute D'attellis, Benito, Sangre y Mouche | OLGA EN VIVO 2026-06-29 14:53",
+          "date": "20260629",
+          "views": 6962,
+          "t_seconds": 4595,
+          "t_label": "01:16:35",
+          "quote": "De cerca de la entrada de la selección, como nunca Aerolíneas Argentinas te lleva directo vuelos especiales para acompañar",
+          "conc_at": null,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "pos",
+          "mentions_in_program": 3,
+          "yt_url": "https://www.youtube.com/watch?v=WCdVYizlDYA&t=4592s",
+          "clip_start": 4592,
+          "clip_label": "01:16:32",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        }
+      ]
+    },
+    "ypf": {
+      "slug": "ypf",
+      "entity": "YPF",
+      "type": "Empresa",
+      "watchlist": [
+        "YPF",
+        "ypf"
+      ],
+      "totals": {
+        "transcript_mentions": 127,
+        "chat_mentions": 98,
+        "programs_with_mentions": 36,
+        "channels": 14
+      },
+      "sentiment": {
+        "neg": 4,
+        "neu": 18,
+        "pos": 14
+      },
+      "sentiment_chat": {
+        "neg": 52,
+        "neu": 35,
+        "pos": 11
+      },
+      "chat_scored": 98,
+      "share_of_voice": [
+        {
+          "channel": "Neura Media",
+          "mentions": 29,
+          "pct": 22.8
+        },
+        {
+          "channel": "OLGA",
+          "mentions": 25,
+          "pct": 19.7
+        },
+        {
+          "channel": "GELATINA",
+          "mentions": 24,
+          "pct": 18.9
+        },
+        {
+          "channel": "AHORA PLAY",
+          "mentions": 15,
+          "pct": 11.8
+        },
+        {
+          "channel": "Vorterix",
+          "mentions": 9,
+          "pct": 7.1
+        },
+        {
+          "channel": "BLENDER",
+          "mentions": 7,
+          "pct": 5.5
+        },
+        {
+          "channel": "El Cronista",
+          "mentions": 5,
+          "pct": 3.9
+        },
+        {
+          "channel": "AZZ",
+          "mentions": 4,
+          "pct": 3.1
+        },
+        {
+          "channel": "LUZU TV",
+          "mentions": 2,
+          "pct": 1.6
+        },
+        {
+          "channel": "A U R A",
+          "mentions": 2,
+          "pct": 1.6
+        },
+        {
+          "channel": "Urbana Play 104.3 FM",
+          "mentions": 2,
+          "pct": 1.6
+        },
+        {
+          "channel": "BorderPeriodismo",
+          "mentions": 1,
+          "pct": 0.8
+        },
+        {
+          "channel": "Cenital",
+          "mentions": 1,
+          "pct": 0.8
+        },
+        {
+          "channel": "Futurock FM",
+          "mentions": 1,
+          "pct": 0.8
+        }
+      ],
+      "by_day": [
+        {
+          "day": "20260601",
+          "mentions": 1
+        },
+        {
+          "day": "20260604",
+          "mentions": 1
+        },
+        {
+          "day": "20260621",
+          "mentions": 4
+        },
+        {
+          "day": "20260623",
+          "mentions": 8
+        },
+        {
+          "day": "20260624",
+          "mentions": 2
+        },
+        {
+          "day": "20260625",
+          "mentions": 2
+        },
+        {
+          "day": "20260626",
+          "mentions": 10
+        },
+        {
+          "day": "20260629",
+          "mentions": 68
+        },
+        {
+          "day": "20260630",
+          "mentions": 28
+        },
+        {
+          "day": "20260701",
+          "mentions": 3
+        }
+      ],
+      "crisis": {
+        "video_id": "JNLpggdieek",
+        "channel": "Vorterix",
+        "program": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+        "date": "20260629",
+        "views": 29488,
+        "t_seconds": 5644,
+        "t_label": "01:34:04",
+        "quote": "estaba contando que Adorni va a renunciar a YPF porque qué cargo",
+        "conc_at": 8605,
+        "chat_msgs": 272,
+        "chat_ratio": 1.79,
+        "chat_ex": [
+          "SIGUE EN YPF",
+          "Adorni sigue en YPF"
+        ],
+        "sentiment": "neg",
+        "mentions_in_program": 4,
+        "yt_url": "https://www.youtube.com/watch?v=JNLpggdieek&t=5641s",
+        "clip_start": 5641,
+        "clip_label": "01:34:01",
+        "origen": "ambos",
+        "formato": "mención recurrente"
+      },
+      "feed": [
+        {
+          "video_id": "bX7MB2_OI2I",
+          "channel": "OLGA",
+          "program": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
+          "date": "20260623",
+          "views": 43284,
+          "t_seconds": 9982,
+          "t_label": "02:46:22",
+          "quote": "Y si no la dejas ahí, que ya van a caer Conseguilas en YPF full, es así, la cábala",
+          "conc_at": 40472,
+          "chat_msgs": 120,
+          "chat_ratio": 1.71,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=bX7MB2_OI2I&t=9979s",
+          "clip_start": 9979,
+          "clip_label": "02:46:19",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "ptOHcGEdWCk",
+          "channel": "OLGA",
+          "program": "EL GORDITO LOVE y LO PEOR DE LOS HOMBRES CHAMUYANDO | #SoñéQueVolaba 23/6",
+          "date": "20260623",
+          "views": 45112,
+          "t_seconds": 7648,
+          "t_label": "02:07:28",
+          "quote": "YPF, Argentina llena de energía YPF YPF",
+          "conc_at": 38013,
+          "chat_msgs": 112,
+          "chat_ratio": 1.22,
+          "chat_ex": [],
+          "sentiment": "pos",
+          "mentions_in_program": 4,
+          "yt_url": "https://www.youtube.com/watch?v=ptOHcGEdWCk&t=7645s",
+          "clip_start": 7645,
+          "clip_label": "02:07:25",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "3QJmfDvuxIk",
+          "channel": "OLGA",
+          "program": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
+          "date": "20260626",
+          "views": 40199,
+          "t_seconds": 4045,
+          "t_label": "01:07:25",
+          "quote": "Todo un país se ilusiona Así que muchas gracias, YPF, por estos cabumelos. No los puedo abrir.",
+          "conc_at": 28379,
+          "chat_msgs": 279,
+          "chat_ratio": 3.83,
+          "chat_ex": [],
+          "sentiment": "pos",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=3QJmfDvuxIk&t=4042s",
+          "clip_start": 4042,
+          "clip_label": "01:07:22",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "s__pKWUr4MM",
+          "channel": "OLGA",
+          "program": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
+          "date": "20260624",
+          "views": 40410,
+          "t_seconds": 1739,
+          "t_label": "00:28:59",
+          "quote": "El capitán marcó los favoritos y ahora que arrancan los partidos Ya sabés qué hacer, poné las guapaletas full de YPF en el freezer y activá la cábala. Preparate para congelar a los rivales antes de que salgan a la cancha.",
+          "conc_at": 28322,
+          "chat_msgs": 32,
+          "chat_ratio": 0.46,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=s__pKWUr4MM&t=1736s",
+          "clip_start": 1736,
+          "clip_label": "00:28:56",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "WNe6QLgDfyM",
+          "channel": "OLGA",
+          "program": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+          "date": "20260629",
+          "views": 74025,
+          "t_seconds": 3273,
+          "t_label": "00:54:33",
+          "quote": "Trátenlo bien, por favor. Que quiere ganar 90 palos como si fuera de YPF. Claro.",
+          "conc_at": 22213,
+          "chat_msgs": 116,
+          "chat_ratio": 1.97,
+          "chat_ex": [
+            "YPF? EL MEJOR OCTANAJE"
+          ],
+          "sentiment": "neg",
+          "mentions_in_program": 13,
+          "yt_url": "https://www.youtube.com/watch?v=WNe6QLgDfyM&t=3270s",
+          "clip_start": 3270,
+          "clip_label": "00:54:30",
+          "origen": "ambos",
+          "formato": "tema del bloque"
+        },
+        {
+          "video_id": "cEWsZ9vbiCg",
+          "channel": "LUZU TV",
+          "program": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+          "date": "20260629",
+          "views": 146307,
+          "t_seconds": 2281,
+          "t_label": "00:38:01",
+          "quote": "Lunes 29 de junio del 2026 Y la oposición exige que Manuel Adorni también deje su cargo en el directorio de YPF. El reclamo surge tras su renuncia al gobierno y apunta a que deje su lugar en la petrolera estatal,",
+          "conc_at": 18940,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neg",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=cEWsZ9vbiCg&t=2278s",
+          "clip_start": 2278,
+          "clip_label": "00:37:58",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "JXVQmuDctII",
+          "channel": "BLENDER",
+          "program": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+          "date": "20260625",
+          "views": 9779,
+          "t_seconds": 3974,
+          "t_label": "01:06:14",
+          "quote": "Y la que impulsa YPF todos los días YPF Argentina llena de energía De esta manera, queridos amigos, vamos a darle la bienvenida, no por primera vez, porque ya he estado en este estudio, pero siempre es un placer tenerlo, a Marcos, chico, que eres pochoclito, de la cabecita, de la",
+          "conc_at": 11161,
+          "chat_msgs": 135,
+          "chat_ratio": 1.23,
+          "chat_ex": [],
+          "sentiment": "pos",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=JXVQmuDctII&t=3971s",
+          "clip_start": 3971,
+          "clip_label": "01:06:11",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "JNLpggdieek",
+          "channel": "Vorterix",
+          "program": "EL FIN DE ADORNI Y FUIMOS A UNA FIESTA SADO | #YQUE COMPLETO 29/6 | VORTERIX",
+          "date": "20260629",
+          "views": 29488,
+          "t_seconds": 5644,
+          "t_label": "01:34:04",
+          "quote": "estaba contando que Adorni va a renunciar a YPF porque qué cargo",
+          "conc_at": 8605,
+          "chat_msgs": 272,
+          "chat_ratio": 1.79,
+          "chat_ex": [
+            "SIGUE EN YPF",
+            "Adorni sigue en YPF"
+          ],
+          "sentiment": "neu",
+          "mentions_in_program": 4,
+          "yt_url": "https://www.youtube.com/watch?v=JNLpggdieek&t=5641s",
+          "clip_start": 5641,
+          "clip_label": "01:34:01",
+          "origen": "ambos",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "3CPnLRc7h2w",
+          "channel": "Vorterix",
+          "program": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
+          "date": "20260629",
+          "views": 18515,
+          "t_seconds": 2979,
+          "t_label": "00:49:39",
+          "quote": "Bueno, se especulaba o por lo menos empezaban a señalar, che, ¿qué va a pasar con eso? Bueno, también ayer mi ley terminó aclarando que iba a dejar el cargo como funcionario de YPF, como directorio dentro del directorio de YPF y lógicamente ese cargo lo asumirá nuevamente el jefe",
+          "conc_at": 7432,
+          "chat_msgs": 34,
+          "chat_ratio": 0.51,
+          "chat_ex": [
+            "y sabes algo del cargo en el directorio de ypf? sigue alli cobrando $93millones por mes?",
+            "no iba a privatizar YPF?"
+          ],
+          "sentiment": "neu",
+          "mentions_in_program": 5,
+          "yt_url": "https://www.youtube.com/watch?v=3CPnLRc7h2w&t=2976s",
+          "clip_start": 2976,
+          "clip_label": "00:49:36",
+          "origen": "ambos",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "NHt6oqHZYd0",
+          "channel": "GELATINA",
+          "program": "Chau Adorni: TE RECORDAREMOS | TUGO con Nico Guthmann",
+          "date": "20260629",
+          "views": 12026,
+          "t_seconds": 4511,
+          "t_label": "01:15:11",
+          "quote": "Bueno, para, Adorni hasta ahora no estaba cobrando el... El de YPF. El de YPF.",
+          "conc_at": 6352,
+          "chat_msgs": 30,
+          "chat_ratio": 0.43,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 13,
+          "yt_url": "https://www.youtube.com/watch?v=NHt6oqHZYd0&t=4508s",
+          "clip_start": 4508,
+          "clip_label": "01:15:08",
+          "origen": "hablado",
+          "formato": "tema del bloque"
+        },
+        {
+          "video_id": "Iii3dqMJvwQ",
+          "channel": "BLENDER",
+          "program": "LA RENUNCIA DE ADORNI, ALLANAN LA CASA DE JESICA CIRIO y EL PRÓXIMO RIVAL de la SCALONETA | QUÉ DÍA",
+          "date": "20260629",
+          "views": 32665,
+          "t_seconds": 1546,
+          "t_label": "00:25:46",
+          "quote": "Porque ya te deja dudas ahora qué van a hacer. Perdón, ¿se confirmó que lo van a sacar del directorio de YPF también? Mi ley dice eso en la nota.",
+          "conc_at": 5710,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 5,
+          "yt_url": "https://www.youtube.com/watch?v=Iii3dqMJvwQ&t=1543s",
+          "clip_start": 1543,
+          "clip_label": "00:25:43",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "U8f_2vIvO7Y",
+          "channel": "Urbana Play 104.3 FM",
+          "program": "EN VIVO | PUNTO CARAMELO con Julieta Pink, Sol Rosales y Juli Schulkin",
+          "date": "20260626",
+          "views": 7678,
+          "t_seconds": 9836,
+          "t_label": "02:43:56",
+          "quote": "Los jugadores llenan energía a los hinchas. YPF, Energía Argentina Cobra con Nave en tu negocio",
+          "conc_at": 3356,
+          "chat_msgs": 2,
+          "chat_ratio": 0.17,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=U8f_2vIvO7Y&t=9833s",
+          "clip_start": 9833,
+          "clip_label": "02:43:53",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "pL9wgMQaBp4",
+          "channel": "GELATINA",
+          "program": "PARAGUAY y los DEDOS MARCADOS de ADORNI | DEMASIADA PRESIÓN con Flor HALFON, VULCANO y GEDDES",
+          "date": "20260630",
+          "views": 5782,
+          "t_seconds": 8092,
+          "t_label": "02:14:52",
+          "quote": "que con todo el boom que veníamos viendo por el lado de los precios, también le permite a las empresas como YPF colocar deuda en los mercados internacionales, que eso significa ingreso de dólares al mercado cambiario.",
+          "conc_at": 2183,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=pL9wgMQaBp4&t=8089s",
+          "clip_start": 8089,
+          "clip_label": "02:14:49",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "Yp0sVPQV8Dk",
+          "channel": "El Cronista",
+          "program": "¿El RIESGO PAÍS puede caer a 200 puntos? El dato de Yayi Morales que lo CAMBIA TODO",
+          "date": "20260629",
+          "views": 2023,
+          "t_seconds": 2936,
+          "t_label": "00:48:56",
+          "quote": "un resumen de Argentina cuando a YPF le va mal, a todo lo demás le va mal porque no tenés incentivos para",
+          "conc_at": 1992,
+          "chat_msgs": 6,
+          "chat_ratio": 1.12,
+          "chat_ex": [],
+          "sentiment": "neg",
+          "mentions_in_program": 4,
+          "yt_url": "https://www.youtube.com/watch?v=Yp0sVPQV8Dk&t=2933s",
+          "clip_start": 2933,
+          "clip_label": "00:48:53",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        }
+      ]
+    },
+    "mercado-libre": {
+      "slug": "mercado-libre",
+      "entity": "Mercado Libre",
+      "type": "Empresa",
+      "watchlist": [
+        "Mercado Libre",
+        "mercado libre",
+        "mercadolibre",
+        "meli"
+      ],
+      "totals": {
+        "transcript_mentions": 273,
+        "chat_mentions": 85,
+        "programs_with_mentions": 70,
+        "channels": 9
+      },
+      "sentiment": {
+        "neg": 2,
+        "neu": 49,
+        "pos": 19
+      },
+      "sentiment_chat": {
+        "neg": 21,
+        "neu": 40,
+        "pos": 24
+      },
+      "chat_scored": 85,
+      "share_of_voice": [
+        {
+          "channel": "OLGA",
+          "mentions": 133,
+          "pct": 48.7
+        },
+        {
+          "channel": "LUZU TV",
+          "mentions": 112,
+          "pct": 41.0
+        },
+        {
+          "channel": "BLENDER",
+          "mentions": 11,
+          "pct": 4.0
+        },
+        {
+          "channel": "Vorterix",
+          "mentions": 6,
+          "pct": 2.2
+        },
+        {
+          "channel": "A U R A",
+          "mentions": 3,
+          "pct": 1.1
+        },
+        {
+          "channel": "Cenital",
+          "mentions": 3,
+          "pct": 1.1
+        },
+        {
+          "channel": "GELATINA",
+          "mentions": 2,
+          "pct": 0.7
+        },
+        {
+          "channel": "Urbana Play 104.3 FM",
+          "mentions": 2,
+          "pct": 0.7
+        },
+        {
+          "channel": "AHORA PLAY",
+          "mentions": 1,
+          "pct": 0.4
+        }
+      ],
+      "by_day": [
+        {
+          "day": "20260601",
+          "mentions": 13
+        },
+        {
+          "day": "20260602",
+          "mentions": 4
+        },
+        {
+          "day": "20260603",
+          "mentions": 17
+        },
+        {
+          "day": "20260604",
+          "mentions": 17
+        },
+        {
+          "day": "20260605",
+          "mentions": 14
+        },
+        {
+          "day": "20260606",
+          "mentions": 9
+        },
+        {
+          "day": "20260608",
+          "mentions": 39
+        },
+        {
+          "day": "20260609",
+          "mentions": 23
+        },
+        {
+          "day": "20260610",
+          "mentions": 33
+        },
+        {
+          "day": "20260611",
+          "mentions": 19
+        },
+        {
+          "day": "20260619",
+          "mentions": 1
+        },
+        {
+          "day": "20260623",
+          "mentions": 8
+        },
+        {
+          "day": "20260624",
+          "mentions": 32
+        },
+        {
+          "day": "20260625",
+          "mentions": 2
+        },
+        {
+          "day": "20260626",
+          "mentions": 8
+        },
+        {
+          "day": "20260629",
+          "mentions": 5
+        },
+        {
+          "day": "20260630",
+          "mentions": 22
+        },
+        {
+          "day": "20260701",
+          "mentions": 7
+        }
+      ],
+      "crisis": null,
+      "feed": [
+        {
+          "video_id": "S1UDpsKkZvE",
+          "channel": "LUZU TV",
+          "program": "ANTES QUE NADIE con YOYI FRANCELLA, EL TRINCHE, ROLO BARBANO Y MUNI | EN VIVO",
+          "date": "20260623",
+          "views": 137091,
+          "t_seconds": 9681,
+          "t_label": "02:41:21",
+          "quote": "por suerte con la tarjeta de crédito de mercado pago puedes pagar todo en tres cosas sin interés en mercadolibre porque la ilusión por estos colores saben donde la vivimos la vivimos el mercado pago ahora sí y el momento que más deseaba es que te digo la verdad me gusta mucho el ",
+          "conc_at": 83635,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "pos",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=S1UDpsKkZvE&t=9678s",
+          "clip_start": 9678,
+          "clip_label": "02:41:18",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "cEWsZ9vbiCg",
+          "channel": "LUZU TV",
+          "program": "#ANTESQUENADIE | ¡NOS VAMOS A ROSARIO! Y ¿LA CASTRO NO CONOCE A DIEGO LEUCO?",
+          "date": "20260629",
+          "views": 146307,
+          "t_seconds": 6223,
+          "t_label": "01:43:43",
+          "quote": "las luces, toda la gente que invitaba la gente de Mercado Libre también, obviamente no va a llegar Franco, con lo que significa",
+          "conc_at": 56179,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 3,
+          "yt_url": "https://www.youtube.com/watch?v=cEWsZ9vbiCg&t=6220s",
+          "clip_start": 6220,
+          "clip_label": "01:43:40",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "0NuPTgKW5mc",
+          "channel": "LUZU TV",
+          "program": "#ANTESQUENADIE | AHHH TIRABA ESA: EL LEVANTE DE DIEGO Y ¿LAS SEÑORAS SABEN DE FÚTBOL?",
+          "date": "20260630",
+          "views": 134161,
+          "t_seconds": 6159,
+          "t_label": "01:42:39",
+          "quote": "Así que apuremos que tiene que irse rápido. Llegaron a fecha doble a Mercado Libre. Qué hermoso, boludo.",
+          "conc_at": 52923,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "pos",
+          "mentions_in_program": 6,
+          "yt_url": "https://www.youtube.com/watch?v=0NuPTgKW5mc&t=6156s",
+          "clip_start": 6156,
+          "clip_label": "01:42:36",
+          "origen": "hablado",
+          "formato": "tema del bloque"
+        },
+        {
+          "video_id": "7Oo5Hf7f14M",
+          "channel": "LUZU TV",
+          "program": "SE FUE LARGA con SANTI TALLEDO, FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+          "date": "20260624",
+          "views": 70980,
+          "t_seconds": 1802,
+          "t_label": "00:30:02",
+          "quote": "los envidios los envidios por lo que van a vivir dentro de un ratito nada más y amo mercado libre y encima tienen las fechas dobles de mercado libre llegaron la fecha doble de mercadolibre atención porque el 22 de junio al 7 de julio podés",
+          "conc_at": 49473,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "pos",
+          "mentions_in_program": 7,
+          "yt_url": "https://www.youtube.com/watch?v=7Oo5Hf7f14M&t=1799s",
+          "clip_start": 1799,
+          "clip_label": "00:29:59",
+          "origen": "hablado",
+          "formato": "tema del bloque"
+        },
+        {
+          "video_id": "q_clAienUJw",
+          "channel": "OLGA",
+          "program": "GASTUTI, ASESORÍA INCREÍBLE y REVIVIMOS GRANDES MOMENTOS DE AM  | #SeríaIncreíble 23/6",
+          "date": "20260623",
+          "views": 73490,
+          "t_seconds": 9837,
+          "t_label": "02:43:57",
+          "quote": "todavía tiene la baba de mortis emeline quiero cambiar quiero cambiar",
+          "conc_at": 42582,
+          "chat_msgs": 33,
+          "chat_ratio": 0.25,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 3,
+          "yt_url": "https://www.youtube.com/watch?v=q_clAienUJw&t=9834s",
+          "clip_start": 9834,
+          "clip_label": "02:43:54",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "XHV2BV9DWMs",
+          "channel": "OLGA",
+          "program": "MODO MORGAN FREEMAN, PREVIA, MUNDIALITO Y AXEL para ARRANCAR la SEMANA | #SoñéQueVolaba 22/6",
+          "date": "20260619",
+          "views": 39368,
+          "t_seconds": 5245,
+          "t_label": "01:27:25",
+          "quote": "partido puso unos conos en el sillón los conos son sqv el sillón es nuestro que no venga ningún balón de reserva que no venga ningún rizutti ningún ningún melián nadie que ubica ningún y ninguna valen y ubican y los de digital se robaron nuestros regalos de eso eso yo a mí una ve",
+          "conc_at": 41007,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=XHV2BV9DWMs&t=5242s",
+          "clip_start": 5242,
+          "clip_label": "01:27:22",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "Ovdcl6-B2kc",
+          "channel": "LUZU TV",
+          "program": "SE FUE LARGA con FERBO, LUCAS LEZIN, BELU NEGRI, DOMI FAENA Y TEO D´ELIA | EN VIVO",
+          "date": "20260623",
+          "views": 56741,
+          "t_seconds": 5829,
+          "t_label": "01:37:09",
+          "quote": "Apurate que es por tiempo ilimitado y si sos MeliMás tenés más envíos gratis. ¡Cómpranla!",
+          "conc_at": 38130,
+          "chat_msgs": 0,
+          "chat_ratio": 0.0,
+          "chat_ex": [],
+          "sentiment": "pos",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=Ovdcl6-B2kc&t=5826s",
+          "clip_start": 5826,
+          "clip_label": "01:37:06",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "WNe6QLgDfyM",
+          "channel": "OLGA",
+          "program": "PAULA y PEDRO TOMAN EL CONTROL DE #SeríaIncreíble 29/6",
+          "date": "20260629",
+          "views": 74025,
+          "t_seconds": 9413,
+          "t_label": "02:36:53",
+          "quote": "Pero no importa, pongamos que sí. Y en su cuenta de Mercado Libre Lo había comprado con la tarjeta de dos empleados",
+          "conc_at": 35097,
+          "chat_msgs": 18,
+          "chat_ratio": 0.31,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=WNe6QLgDfyM&t=9410s",
+          "clip_start": 9410,
+          "clip_label": "02:36:50",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "s__pKWUr4MM",
+          "channel": "OLGA",
+          "program": "🌶️ TAPADOS DE LABURO con Paula Chaves, Nacho Elizalde, Luli González, Melian y Cami | OLGA EN VIVO",
+          "date": "20260624",
+          "views": 40410,
+          "t_seconds": 6153,
+          "t_label": "01:42:33",
+          "quote": "No, no, Rogelio necesita irse Romelio, genio ¿Rogelio era?",
+          "conc_at": 29388,
+          "chat_msgs": 174,
+          "chat_ratio": 2.49,
+          "chat_ex": [
+            "Jimena se enamoró de Melian"
+          ],
+          "sentiment": "neu",
+          "mentions_in_program": 25,
+          "yt_url": "https://www.youtube.com/watch?v=s__pKWUr4MM&t=6150s",
+          "clip_start": 6150,
+          "clip_label": "01:42:30",
+          "origen": "ambos",
+          "formato": "tema del bloque"
+        },
+        {
+          "video_id": "3QJmfDvuxIk",
+          "channel": "OLGA",
+          "program": "PAULA CHAVES VS 10 FANS: ¿QUIÉN SABE MÁS? | #TapadosDeLaburo 26/6",
+          "date": "20260626",
+          "views": 40199,
+          "t_seconds": 6867,
+          "t_label": "01:54:27",
+          "quote": "Esperemos que se sienta mejor Con Melián Vos no vas a venir, pero vas a venir otro día",
+          "conc_at": 26336,
+          "chat_msgs": 147,
+          "chat_ratio": 2.02,
+          "chat_ex": [
+            "MELIAN FIJOOOOOOOOOO",
+            "Melian fijo y saquen a cami"
+          ],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=3QJmfDvuxIk&t=6864s",
+          "clip_start": 6864,
+          "clip_label": "01:54:24",
+          "origen": "ambos",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "FYdwwoHNrMs",
+          "channel": "Vorterix",
+          "program": "🔴 PAREN LA MANO MUNDIAL con Luquitas, Alfre, Germán y Joaco DESDE EEUU | VORTERIX EN VIVO",
+          "date": "20260626",
+          "views": 34139,
+          "t_seconds": 2880,
+          "t_label": "00:48:00",
+          "quote": "Con tu tarjeta de crédito Mercado Pago en Mercado Libre Y con QR en Comercio",
+          "conc_at": 17717,
+          "chat_msgs": 66,
+          "chat_ratio": 0.75,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=FYdwwoHNrMs&t=2877s",
+          "clip_start": 2877,
+          "clip_label": "00:47:57",
+          "origen": "hablado",
+          "formato": "mención al pasar"
+        },
+        {
+          "video_id": "JXVQmuDctII",
+          "channel": "BLENDER",
+          "program": "MIÉRCOLES de PUCHOS HISTÓRICO sobre COMEPECADOS y TALLER de MONSTRUOS y GORE | HAY ALGO AHÍ",
+          "date": "20260625",
+          "views": 9779,
+          "t_seconds": 1530,
+          "t_label": "00:25:30",
+          "quote": "Mirá, amor, compré películas Nada, como Mercado Libre El abrazo de Alperín, ¿no?",
+          "conc_at": 13698,
+          "chat_msgs": 75,
+          "chat_ratio": 0.68,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=JXVQmuDctII&t=1527s",
+          "clip_start": 1527,
+          "clip_label": "00:25:27",
+          "origen": "hablado",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "2j8TvzmdrGY",
+          "channel": "Vorterix",
+          "program": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral, Dany Jiménez y Nico Etevenaux",
+          "date": "20260701",
+          "views": 16915,
+          "t_seconds": 6578,
+          "t_label": "01:49:38",
+          "quote": "con cosas vinculadas a Edmundo Rivero Elmundo Rivero había pasado por su casa también, lo había visto cuando era chico y él decía que el motivo por el cual entró al tango es que quería cantar como Elmundo Rivero, pero la verdad es que le dio al tango un camino alternativo, muy pe",
+          "conc_at": 9042,
+          "chat_msgs": 20,
+          "chat_ratio": 0.41,
+          "chat_ex": [
+            "Melingo 1 - 0 Métrica",
+            "un grande MELINGO !!!"
+          ],
+          "sentiment": "neu",
+          "mentions_in_program": 2,
+          "yt_url": "https://www.youtube.com/watch?v=2j8TvzmdrGY&t=6575s",
+          "clip_start": 6575,
+          "clip_label": "01:49:35",
+          "origen": "ambos",
+          "formato": "mención recurrente"
+        },
+        {
+          "video_id": "NKhi31a86K8",
+          "channel": "OLGA",
+          "program": "¿PREOCUPA LA LESIÓN DEL CUTI ROMERO? | #GolGana 23/6",
+          "date": "20260623",
+          "views": 14487,
+          "t_seconds": 5742,
+          "t_label": "01:35:42",
+          "quote": "Catadores de perfume Sommelier de perfume es ¿Cómo?",
+          "conc_at": 8262,
+          "chat_msgs": 1,
+          "chat_ratio": 0.06,
+          "chat_ex": [],
+          "sentiment": "neu",
+          "mentions_in_program": 1,
+          "yt_url": "https://www.youtube.com/watch?v=NKhi31a86K8&t=5739s",
+          "clip_start": 5739,
+          "clip_label": "01:35:39",
           "origen": "hablado",
           "formato": "mención al pasar"
         }
