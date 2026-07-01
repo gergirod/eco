@@ -1237,6 +1237,64 @@
    }
   },
   {
+   "video_id": "z11vyvt5tuM",
+   "channel": "OLGA",
+   "channel_id": "olga",
+   "title": "HORA DE SALVAR A LA PAREJA | #SeríaIncreíble 1/",
+   "date": "20260701",
+   "iup": 93,
+   "tier": "alta",
+   "components": {
+    "capture": 1.0,
+    "audience": 0.881,
+    "conversation": 0.954,
+    "commercial": 1.0,
+    "participation": 0.255,
+    "format": 1.0
+   },
+   "detail": {
+    "capture": {
+     "has_transcript": true,
+     "has_topics": true,
+     "has_live_viewers": true,
+     "duration_ok": true
+    },
+    "audience": {
+     "avg_concurrent": 26748,
+     "peak_concurrent": 43094
+    },
+    "conversation": {
+     "blocks": 12,
+     "blocks_with_signal": 11,
+     "top_temas": 20
+    },
+    "commercial": {
+     "brand_mentions": 37,
+     "sponsored": 5,
+     "organic": 29,
+     "productos_marcas": 21
+    },
+    "participation": {
+     "chat_engagement": 1.16,
+     "chat_noise": 0.33,
+     "chat_total": 6892
+    },
+    "format": {
+     "show_id": "seria-increible",
+     "show_name": "Sería Increíble"
+    },
+    "capture_minutes": 220.105
+   },
+   "weights": {
+    "capture": 0.25,
+    "audience": 0.25,
+    "conversation": 0.25,
+    "commercial": 0.15,
+    "participation": 0.1,
+    "format": 0.05
+   }
+  },
+  {
    "video_id": "bBf-XfM_Q_c",
    "channel": "LUZU TV",
    "channel_id": "luzu",
@@ -10562,10 +10620,10 @@
   {
    "channel_id": "olga",
    "channel": "OLGA",
-   "programs": 56,
-   "iup_avg": 72.5,
+   "programs": 57,
+   "iup_avg": 72.9,
    "iup_median": 61,
-   "tier_alta": 24,
+   "tier_alta": 25,
    "tier_insuficiente": 0
   },
   {
@@ -10597,8 +10655,8 @@
   }
  ],
  "totals": {
-  "programs": 179,
-  "tier_alta": 110,
+  "programs": 180,
+  "tier_alta": 111,
   "tier_media": 69,
   "tier_baja": 0,
   "tier_insuficiente": 0

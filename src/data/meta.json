@@ -1,5 +1,5 @@
 {
- "exported_at": "2026-07-01T15:01:51.428519+00:00",
+ "exported_at": "2026-07-01T15:13:07.769334+00:00",
  "capture_scope": "live_only",
  "capture_sources": [
   "youtube_api",
@@ -11,12 +11,12 @@
  "n_brands": 226,
  "n_products": 238,
  "n_pauta_mentions": 399,
- "n_moments": 143,
+ "n_moments": 144,
  "n_trends": 120,
  "cpm": 30.0,
  "peso_default": 0.3,
  "live_capture": {
-  "hours_captured": 264.9,
+  "hours_captured": 265.4,
   "streams_captured": 126,
   "channels_captured": 13,
   "capture_days": 9,
@@ -97,7 +97,7 @@
    {
     "id": "luzu",
     "streams": 29,
-    "hours": 59.5,
+    "hours": 59.6,
     "first_capture": "2026-06-23",
     "last_capture": "2026-07-01"
    },
@@ -111,7 +111,7 @@
    {
     "id": "olga",
     "streams": 29,
-    "hours": 62.8,
+    "hours": 62.9,
     "first_capture": "2026-06-22",
     "last_capture": "2026-07-01"
    },
@@ -125,7 +125,7 @@
    {
     "id": "vorterix",
     "streams": 19,
-    "hours": 41.2,
+    "hours": 41.4,
     "first_capture": "2026-06-26",
     "last_capture": "2026-07-01"
    }
@@ -136,7 +136,7 @@
     "show_id": "otros",
     "show_name": "Otros",
     "streams": 15,
-    "hours": 32.9
+    "hours": 33.1
    },
    {
     "channel_id": "olga",
@@ -153,17 +153,17 @@
     "hours": 20.6
    },
    {
-    "channel_id": "urbana",
-    "show_id": "otros",
-    "show_name": "Otros",
-    "streams": 1,
-    "hours": 16.2
-   },
-   {
     "channel_id": "olga",
     "show_id": "sone-volaba",
     "show_name": "Soñé que Volaba",
     "streams": 7,
+    "hours": 16.3
+   },
+   {
+    "channel_id": "urbana",
+    "show_id": "otros",
+    "show_name": "Otros",
+    "streams": 1,
     "hours": 16.2
    },
    {
@@ -185,7 +185,7 @@
     "show_id": "ndn",
     "show_name": "Nadie Dice Nada",
     "streams": 6,
-    "hours": 14.1
+    "hours": 14.3
    },
    {
     "channel_id": "bondi",

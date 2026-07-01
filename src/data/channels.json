@@ -131,11 +131,11 @@
   "url": "https://www.youtube.com/@CarnavalStream",
   "genre": "Actualidad / política",
   "subscribers": "210K",
-  "enabled": false,
+  "enabled": true,
   "handle_verified": true,
   "has_data": false,
   "stats": null,
-  "pipeline_status": "disponible"
+  "pipeline_status": "configurado"
  },
  {
   "id": "neura",
@@ -250,6 +250,54 @@
    "last_processed": "01/07/2026"
   },
   "pipeline_status": "activo"
+ },
+ {
+  "id": "carajo",
+  "name": "Carajo",
+  "url": "https://www.youtube.com/@CarajoStream",
+  "genre": "Política / libertario",
+  "subscribers": "180K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": false,
+  "stats": null,
+  "pipeline_status": "configurado"
+ },
+ {
+  "id": "eldestape",
+  "name": "El Destape",
+  "url": "https://www.youtube.com/channel/UC5wAqJ9NF0fpGH9dVf3h6HA",
+  "genre": "Política / kirchnerismo",
+  "subscribers": "320K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": false,
+  "stats": null,
+  "pipeline_status": "configurado"
+ },
+ {
+  "id": "futurock",
+  "name": "Futurock",
+  "url": "https://www.youtube.com/@futurock",
+  "genre": "Política / progresismo",
+  "subscribers": "290K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": false,
+  "stats": null,
+  "pipeline_status": "configurado"
+ },
+ {
+  "id": "bravotv",
+  "name": "Bravo TV",
+  "url": "https://www.youtube.com/@canalbravotv",
+  "genre": "Política / análisis",
+  "subscribers": "95K",
+  "enabled": true,
+  "handle_verified": true,
+  "has_data": false,
+  "stats": null,
+  "pipeline_status": "configurado"
  },
  {
   "id": "lacasa",

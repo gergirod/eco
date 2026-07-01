@@ -102,6 +102,115 @@ function fmtDay(d: string): string {
   if (!d || d.length < 8) return d;
   return `${d.slice(6, 8)}/${d.slice(4, 6)}`;
 }
+
+/* iconos SVG (aire / chat) — sin emoji para render consistente */
+function IconMic({ className = "h-4 w-4" }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.75"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+    >
+      <rect x="9" y="3" width="6" height="10" rx="3" />
+      <path d="M5 11a7 7 0 0 0 14 0" />
+      <path d="M12 18v3" />
+      <path d="M8 21h8" />
+    </svg>
+  );
+}
+function IconChat({ className = "h-4 w-4" }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.75"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+    >
+      <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" />
+      <circle cx="9" cy="10" r="0.75" fill="currentColor" stroke="none" />
+      <circle cx="12" cy="10" r="0.75" fill="currentColor" stroke="none" />
+      <circle cx="15" cy="10" r="0.75" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+function IconPlay({ className = "h-3.5 w-3.5" }: { className?: string }) {
+  return (
+    <svg className={className} viewBox="0 0 24 24" fill="currentColor" aria-hidden>
+      <path d="M8 5v14l11-7L8 5z" />
+    </svg>
+  );
+}
+function IconEye({ className = "h-3.5 w-3.5" }: { className?: string }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.75"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+    >
+      <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7z" />
+      <circle cx="12" cy="12" r="3" />
+    </svg>
+  );
+}
+
+/** Badge vertical aire / chat (log de menciones). */
+function OrigenBadge({ origen }: { origen: "aire" | "chat" | "hablado" | "ambos" }) {
+  const esChat = origen === "chat";
+  const esAmbos = origen === "ambos";
+  const label =
+    origen === "chat" ? "chat" : origen === "ambos" ? "ambos" : "aire";
+  return (
+    <span
+      className={`mt-0.5 flex w-11 shrink-0 flex-col items-center justify-center rounded-lg border py-1.5 ${
+        esChat || esAmbos
+          ? "border-blue-200 bg-blue-50 text-[#2f5fe0]"
+          : "border-stone-200 bg-stone-50 text-stone-600"
+      }`}
+    >
+      <span className="flex items-center gap-0.5">
+        {(origen === "aire" || origen === "hablado" || esAmbos) && (
+          <IconMic className="h-3.5 w-3.5" />
+        )}
+        {(esChat || esAmbos) && <IconChat className="h-3.5 w-3.5" />}
+      </span>
+      <span className="mt-1 text-[9px] font-medium leading-none">{label}</span>
+    </span>
+  );
+}
+
+/** Pill horizontal con iconos (fichas, crisis). */
+function OrigenPill({
+  origen,
+  cls,
+  label,
+}: {
+  origen: "hablado" | "ambos" | "chat";
+  cls: string;
+  label: string;
+}) {
+  return (
+    <span className={`inline-flex items-center gap-1 rounded-full border px-2 py-0.5 text-[11px] ${cls}`}>
+      {(origen === "hablado" || origen === "ambos") && <IconMic className="h-3 w-3 shrink-0" />}
+      {(origen === "chat" || origen === "ambos") && <IconChat className="h-3 w-3 shrink-0" />}
+      {label}
+    </span>
+  );
+}
+
 const SENT = {
   neg: { label: "negativo", dot: "🔴", cls: "text-red-700 bg-red-50 border-red-200" },
   neu: { label: "neutro", dot: "⚪", cls: "text-stone-600 bg-stone-100 border-stone-200" },
@@ -154,10 +263,10 @@ function ToneThermo({
   );
 }
 
-const ORIGEN: Record<string, { label: string; cls: string }> = {
-  hablado: { label: "🎙 dicho al aire", cls: "text-stone-700 bg-stone-100 border-stone-200" },
-  ambos: { label: "🎙+💬 aire y sala", cls: "text-[#2f5fe0] bg-blue-50 border-blue-200" },
-  chat: { label: "💬 solo la sala", cls: "text-[#2f5fe0] bg-blue-50 border-blue-200" },
+const ORIGEN: Record<string, { label: string; cls: string; origen: "hablado" | "ambos" | "chat" }> = {
+  hablado: { label: "dicho al aire", cls: "text-stone-700 bg-stone-100 border-stone-200", origen: "hablado" },
+  ambos: { label: "aire y sala", cls: "text-[#2f5fe0] bg-blue-50 border-blue-200", origen: "ambos" },
+  chat: { label: "solo la sala", cls: "text-[#2f5fe0] bg-blue-50 border-blue-200", origen: "chat" },
 };
 
 /* ---------- página ---------- */
@@ -193,6 +302,7 @@ export default function PalcoPage() {
   const [tab, setTab] = useState<"todas" | "neg">("todas");
   const [logOrigen, setLogOrigen] = useState<"todas" | "aire" | "chat">("todas");
   const [logShow, setLogShow] = useState(30); // paginado del detalle
+  const [feedShow, setFeedShow] = useState(6); // destacados por programa (resumen)
   const [watch, setWatch] = useState<string[]>([]);
   const [plan, setPlan] = useState<string>("");
   // gobernanza de avisos (settings del tablero)
@@ -287,6 +397,7 @@ export default function PalcoPage() {
     ? conChat.reduce((a, b) => ((b.chat_ratio ?? 0) > (a.chat_ratio ?? 0) ? b : a))
     : null;
   const feed = tab === "neg" ? R.feed.filter((f) => f.sentiment === "neg") : R.feed;
+  const feedVisible = feed.slice(0, feedShow);
 
   // Detalle fino: TODO lo que se dijo (aire + chat), nuevo→viejo, con filtro por origen.
   const logAll = R.menciones ?? [];
@@ -543,8 +654,15 @@ export default function PalcoPage() {
                       {rr.crisis!.channel} · {fmtDay(rr.crisis!.date)}
                     </p>
                   </div>
-                  <span className="shrink-0 text-[12px] text-red-600">
-                    👁 {compact(rr.crisis!.conc_at)} · 💬 ×{rr.crisis!.chat_ratio}
+                  <span className="flex shrink-0 items-center gap-2 text-[12px] text-red-600">
+                    <span className="inline-flex items-center gap-0.5">
+                      <IconEye className="h-3.5 w-3.5" />
+                      {compact(rr.crisis!.conc_at)}
+                    </span>
+                    <span className="inline-flex items-center gap-0.5">
+                      <IconChat className="h-3.5 w-3.5" />
+                      ×{rr.crisis!.chat_ratio}
+                    </span>
                   </span>
                 </button>
               ))}
@@ -601,6 +719,7 @@ export default function PalcoPage() {
                       setSlug(r.slug);
                       setQuery("");
                       setTab("todas");
+                      setFeedShow(6);
                     }}
                     className={`rounded-full border px-3 py-1.5 text-left text-[12px] transition ${
                       active
@@ -659,6 +778,72 @@ export default function PalcoPage() {
               <p className="text-[12px] text-stone-400">{kpi.s}</p>
             </div>
           ))}
+        </section>
+
+        {/* resumen visual: dónde y cuándo (solo aire) */}
+        <section className="mt-6 grid gap-4 md:grid-cols-2">
+          <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm">
+            <h2 className="text-[13px] font-semibold uppercase tracking-wide text-stone-500">
+              Dónde más se habla · por canal
+            </h2>
+            <p className="mt-1 text-[12px] text-stone-400">
+              Solo lo dicho al aire (transcript de conductores). No suma la sala — el chat
+              {R.totals.chat_mentions > 0
+                ? ` (${compact(R.totals.chat_mentions)} menciones) va aparte en el detalle.`
+                : " va aparte cuando hay captura."}
+            </p>
+            <div className="mt-4 space-y-2">
+              {R.share_of_voice.slice(0, 8).map((s) => (
+                <div key={s.channel} className="flex items-center gap-3">
+                  <span className="w-24 shrink-0 truncate text-[12px] text-stone-600">{s.channel}</span>
+                  <div className="h-4 flex-1 overflow-hidden rounded bg-stone-100">
+                    <div
+                      className="h-full rounded"
+                      style={{ width: `${(s.mentions / maxSov) * 100}%`, backgroundColor: BRAND }}
+                    />
+                  </div>
+                  <span className="w-8 shrink-0 text-right text-[12px] tabular-nums text-stone-500">
+                    {s.mentions}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm">
+            <h2 className="text-[13px] font-semibold uppercase tracking-wide text-stone-500">
+              Menciones por día
+            </h2>
+            <p className="mt-1 text-[12px] text-stone-400">
+              Misma base: menciones habladas al aire por día (sin chat).
+            </p>
+            <div className="mt-6 flex h-44 gap-1.5">
+              {R.by_day.slice(-14).map((d) => {
+                const pct = d.mentions / maxDay;
+                return (
+                  <div key={d.day} className="flex min-w-0 flex-1 flex-col h-full">
+                    <span className="shrink-0 text-center text-[10px] tabular-nums text-stone-400">
+                      {d.mentions}
+                    </span>
+                    <div className="flex min-h-0 flex-1 items-end pt-1">
+                      <div
+                        className="w-full rounded-t"
+                        style={{
+                          height: `${Math.max(pct * 100, d.mentions > 0 ? 6 : 0)}%`,
+                          minHeight: d.mentions > 0 ? 4 : 0,
+                          background: `linear-gradient(to top, ${BRAND}, #7aa0f0)`,
+                        }}
+                        title={`${fmtDay(d.day)}: ${d.mentions} menciones`}
+                      />
+                    </div>
+                    <span className="shrink-0 pt-1 text-center text-[9px] text-stone-400">
+                      {fmtDay(d.day)}
+                    </span>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
         </section>
 
         {/* termómetros de tono: aire vs chat (separados a propósito) */}
@@ -725,11 +910,11 @@ export default function PalcoPage() {
                 </p>
                 <div className="mt-2 flex flex-wrap gap-1.5">
                   {R.crisis.origen && ORIGEN[R.crisis.origen] && (
-                    <span
-                      className={`rounded-full border px-2 py-0.5 text-[11px] ${ORIGEN[R.crisis.origen].cls}`}
-                    >
-                      {ORIGEN[R.crisis.origen].label}
-                    </span>
+                    <OrigenPill
+                      origen={ORIGEN[R.crisis.origen].origen}
+                      cls={ORIGEN[R.crisis.origen].cls}
+                      label={ORIGEN[R.crisis.origen].label}
+                    />
                   )}
                   {R.crisis.formato && (
                     <span className="rounded-full border border-stone-200 bg-stone-100 px-2 py-0.5 text-[11px] text-stone-600">
@@ -741,9 +926,13 @@ export default function PalcoPage() {
                   &ldquo;{R.crisis.quote}&rdquo;
                 </p>
                 <div className="mt-4 flex flex-wrap gap-4 text-[13px] text-stone-600">
-                  <span>👁 <b className="tabular-nums text-stone-900">{compact(R.crisis.conc_at)}</b> en vivo</span>
-                  <span>
-                    💬 chat{" "}
+                  <span className="inline-flex items-center gap-1">
+                    <IconEye className="h-3.5 w-3.5" />
+                    <b className="tabular-nums text-stone-900">{compact(R.crisis.conc_at)}</b> en vivo
+                  </span>
+                  <span className="inline-flex items-center gap-1">
+                    <IconChat className="h-3.5 w-3.5" />
+                    chat{" "}
                     <b className="tabular-nums" style={{ color: BRAND }}>
                       ×{R.crisis.chat_ratio}
                     </b>
@@ -762,24 +951,38 @@ export default function PalcoPage() {
                   className="mt-4 inline-flex items-center gap-2 rounded-lg px-3 py-2 text-[13px] font-medium text-white hover:opacity-90"
                   style={{ backgroundColor: BRAND }}
                 >
-                  🎬 {R.crisis.clip_label || "Ver clip en el minuto exacto"}
+                  <IconPlay className="h-3.5 w-3.5" />
+                  {R.crisis.clip_label || "Ver clip en el minuto exacto"}
                 </a>
               </div>
             </div>
           </section>
         )}
 
-        {/* feed de fichas */}
+        {/* destacados: una cita por programa (resumen), no es el detalle completo */}
         <section className="mt-8">
-          <div className="mb-3 flex items-center justify-between">
-            <h2 className="text-[13px] font-semibold uppercase tracking-wide text-stone-500">
-              Fichas de mención · por reacción del chat
-            </h2>
+          <div className="mb-3 flex flex-wrap items-end justify-between gap-3">
+            <div>
+              <h2 className="text-[13px] font-semibold uppercase tracking-wide text-stone-500">
+                Destacados por programa
+              </h2>
+              <p className="mt-1 max-w-xl text-[12px] text-stone-400">
+                Una cita al aire por programa donde apareció, ordenada por audiencia en vivo.
+                No es el listado completo — eso está en{" "}
+                <a href="#detalle-menciones" className="font-medium hover:underline" style={{ color: BRAND }}>
+                  Todo lo que se dijo
+                </a>
+                . El chat solo se muestra si el canal tiene sala capturada (Luzu, por ejemplo, no).
+              </p>
+            </div>
             <div className="flex gap-1 rounded-lg border border-stone-200 bg-white p-0.5 text-[12px]">
               {(["todas", "neg"] as const).map((t) => (
                 <button
                   key={t}
-                  onClick={() => setTab(t)}
+                  onClick={() => {
+                    setTab(t);
+                    setFeedShow(6);
+                  }}
                   className={`rounded-md px-3 py-1 ${
                     tab === t
                       ? "bg-stone-900 text-white"
@@ -792,15 +995,16 @@ export default function PalcoPage() {
             </div>
           </div>
 
-          {feed.length === 0 ? (
+          {feedVisible.length === 0 ? (
             <p className="rounded-xl border border-stone-200 bg-white p-6 text-center text-[13px] text-stone-400">
               Sin menciones negativas en el período.
             </p>
           ) : (
             <div className="grid gap-3 md:grid-cols-2">
-              {feed.map((c) => {
+              {feedVisible.map((c) => {
                 const s = SENT[c.sentiment];
                 const o = c.origen ? ORIGEN[c.origen] : null;
+                const conChat = (c.chat_ratio ?? 0) > 0 || (c.chat_msgs ?? 0) > 0;
                 return (
                   <article
                     key={c.video_id + c.t_seconds}
@@ -815,9 +1019,7 @@ export default function PalcoPage() {
                     <p className="mt-1 text-[12px] text-stone-400 line-clamp-1">{c.program}</p>
                     <div className="mt-2 flex flex-wrap gap-1.5">
                       {o && (
-                        <span className={`rounded-full border px-2 py-0.5 text-[10.5px] ${o.cls}`}>
-                          {o.label}
-                        </span>
+                        <OrigenPill origen={o.origen} cls={o.cls} label={o.label} />
                       )}
                       {c.formato && (
                         <span className="rounded-full border border-stone-200 bg-stone-100 px-2 py-0.5 text-[10.5px] text-stone-500">
@@ -829,27 +1031,38 @@ export default function PalcoPage() {
                       &ldquo;{c.quote}&rdquo;
                     </p>
                     {c.chat_ex?.[0] && (
-                      <p className="mt-2 rounded-md bg-stone-50 px-2.5 py-1.5 text-[12px] text-stone-500">
-                        💬 la sala: «{c.chat_ex[0]}»
+                      <p className="mt-2 flex items-start gap-1.5 rounded-md bg-stone-50 px-2.5 py-1.5 text-[12px] text-stone-500">
+                        <IconChat className="mt-0.5 h-3.5 w-3.5 shrink-0" />
+                        <span>la sala: «{c.chat_ex[0]}»</span>
                       </p>
                     )}
                     <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-[12px] text-stone-500">
-                      <span>👁 <b className="tabular-nums text-stone-800">{compact(c.conc_at)}</b></span>
-                      <span>
-                        💬{" "}
-                        <b className="tabular-nums" style={{ color: BRAND }}>
-                          ×{c.chat_ratio}
-                        </b>
+                      <span className="inline-flex items-center gap-1">
+                        <IconEye className="h-3.5 w-3.5" />
+                        <b className="tabular-nums text-stone-800">{compact(c.conc_at)}</b>
+                        <span className="text-stone-400">en vivo</span>
                       </span>
+                      {conChat ? (
+                        <span className="inline-flex items-center gap-1">
+                          <IconChat className="h-3.5 w-3.5" />
+                          <b className="tabular-nums" style={{ color: BRAND }}>
+                            ×{c.chat_ratio}
+                          </b>
+                          <span className="text-stone-400">chat</span>
+                        </span>
+                      ) : (
+                        <span className="text-[11px] text-stone-300">sin chat en este canal</span>
+                      )}
                       <span>{fmtDay(c.date)} · {c.t_label}</span>
                       <a
                         href={c.yt_url}
                         target="_blank"
                         rel="noreferrer"
-                        className="ml-auto font-medium hover:underline"
+                        className="ml-auto inline-flex items-center gap-1 font-medium hover:underline"
                         style={{ color: BRAND }}
                       >
-                        🎬 {c.clip_label || "clip"}
+                        <IconPlay className="h-3.5 w-3.5" />
+                        {c.clip_label || "clip"}
                       </a>
                     </div>
                   </article>
@@ -857,10 +1070,28 @@ export default function PalcoPage() {
               })}
             </div>
           )}
+
+          {feed.length > feedShow && (
+            <div className="mt-4 flex flex-wrap items-center justify-center gap-3">
+              <button
+                onClick={() => setFeedShow((n) => n + 6)}
+                className="rounded-lg border border-stone-300 bg-white px-5 py-2 text-[13px] font-medium text-stone-700 hover:border-stone-400"
+              >
+                Ver más programas ({feed.length - feedShow} restantes)
+              </button>
+              <a
+                href="#detalle-menciones"
+                className="text-[13px] font-medium hover:underline"
+                style={{ color: BRAND }}
+              >
+                Ir al detalle completo →
+              </a>
+            </div>
+          )}
         </section>
 
         {/* TODO lo que se dijo — línea de tiempo completa (aire + chat), nuevo→viejo */}
-        <section className="mt-8">
+        <section id="detalle-menciones" className="mt-8 scroll-mt-6">
           <div className="flex flex-wrap items-end justify-between gap-3">
             <div>
               <h2 className="text-[15px] font-semibold text-stone-800">
@@ -868,6 +1099,8 @@ export default function PalcoPage() {
               </h2>
               <p className="mt-0.5 text-[13px] text-stone-500">
                 Cada mención, textual, del más nuevo al más viejo — al aire y en el chat.
+                A diferencia de los destacados de arriba, acá no hay una sola cita por programa:
+                aparece todo, una por una.
                 {R.menciones_total && (
                   <>
                     {" "}
@@ -892,7 +1125,17 @@ export default function PalcoPage() {
                       : "text-stone-500 hover:text-stone-800"
                   }`}
                 >
-                  {o === "todas" ? "Todo" : o === "aire" ? "🎙 Al aire" : "💬 Chat"}
+                  {o === "todas" ? (
+                    "Todo"
+                  ) : o === "aire" ? (
+                    <span className="inline-flex items-center gap-1">
+                      <IconMic className="h-3 w-3" /> Al aire
+                    </span>
+                  ) : (
+                    <span className="inline-flex items-center gap-1">
+                      <IconChat className="h-3 w-3" /> Chat
+                    </span>
+                  )}
                 </button>
               ))}
             </div>
@@ -912,15 +1155,7 @@ export default function PalcoPage() {
                     key={m.video_id + m.origen + m.t_seconds + i}
                     className="flex gap-3 rounded-lg border border-stone-200 bg-white px-3.5 py-2.5 shadow-sm"
                   >
-                    <span
-                      className={`mt-0.5 shrink-0 rounded-full border px-2 py-0.5 text-[10.5px] ${
-                        esChat
-                          ? "border-blue-200 bg-blue-50 text-[#2f5fe0]"
-                          : "border-stone-200 bg-stone-100 text-stone-600"
-                      }`}
-                    >
-                      {esChat ? "💬 chat" : "🎙 aire"}
-                    </span>
+                    <OrigenBadge origen={esChat ? "chat" : "aire"} />
                     <div className="min-w-0 flex-1">
                       <p
                         className={`text-[13.5px] leading-relaxed text-stone-700 ${
@@ -936,7 +1171,10 @@ export default function PalcoPage() {
                           {fmtDay(m.date)} · {m.t_label}
                         </span>
                         {!esChat && m.conc_at != null && (
-                          <span>👁 {compact(m.conc_at)}</span>
+                          <span className="inline-flex items-center gap-0.5">
+                            <IconEye className="h-3 w-3" />
+                            {compact(m.conc_at)}
+                          </span>
                         )}
                         {s && (
                           <span className={`rounded-full border px-1.5 py-0.5 ${s.cls}`}>
@@ -947,10 +1185,11 @@ export default function PalcoPage() {
                           href={m.yt_url}
                           target="_blank"
                           rel="noreferrer"
-                          className="ml-auto font-medium hover:underline"
+                          className="ml-auto inline-flex items-center gap-1 font-medium hover:underline"
                           style={{ color: BRAND }}
                         >
-                          🎬 ver
+                          <IconPlay className="h-3 w-3" />
+                          ver
                         </a>
                       </div>
                     </div>
@@ -970,72 +1209,6 @@ export default function PalcoPage() {
               </button>
             </div>
           )}
-        </section>
-
-        {/* share of voice + timeline */}
-        <section className="mt-8 grid gap-4 md:grid-cols-2">
-          <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm">
-            <h2 className="text-[13px] font-semibold uppercase tracking-wide text-stone-500">
-              Dónde más se habla · por canal
-            </h2>
-            <p className="mt-1 text-[12px] text-stone-400">
-              Solo lo dicho al aire (transcript de conductores). No suma la sala — el chat
-              {R.totals.chat_mentions > 0
-                ? ` (${compact(R.totals.chat_mentions)} menciones) va aparte en el detalle.`
-                : " va aparte cuando hay captura."}
-            </p>
-            <div className="mt-4 space-y-2">
-              {R.share_of_voice.slice(0, 8).map((s) => (
-                <div key={s.channel} className="flex items-center gap-3">
-                  <span className="w-24 shrink-0 truncate text-[12px] text-stone-600">{s.channel}</span>
-                  <div className="h-4 flex-1 overflow-hidden rounded bg-stone-100">
-                    <div
-                      className="h-full rounded"
-                      style={{ width: `${(s.mentions / maxSov) * 100}%`, backgroundColor: BRAND }}
-                    />
-                  </div>
-                  <span className="w-8 shrink-0 text-right text-[12px] tabular-nums text-stone-500">
-                    {s.mentions}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          <div className="rounded-xl border border-stone-200 bg-white p-5 shadow-sm">
-            <h2 className="text-[13px] font-semibold uppercase tracking-wide text-stone-500">
-              Menciones por día
-            </h2>
-            <p className="mt-1 text-[12px] text-stone-400">
-              Misma base: menciones habladas al aire por día (sin chat).
-            </p>
-            <div className="mt-6 flex h-44 gap-1.5">
-              {R.by_day.slice(-14).map((d) => {
-                const pct = d.mentions / maxDay;
-                return (
-                  <div key={d.day} className="flex min-w-0 flex-1 flex-col h-full">
-                    <span className="shrink-0 text-center text-[10px] tabular-nums text-stone-400">
-                      {d.mentions}
-                    </span>
-                    <div className="flex min-h-0 flex-1 items-end pt-1">
-                      <div
-                        className="w-full rounded-t"
-                        style={{
-                          height: `${Math.max(pct * 100, d.mentions > 0 ? 6 : 0)}%`,
-                          minHeight: d.mentions > 0 ? 4 : 0,
-                          background: `linear-gradient(to top, ${BRAND}, #7aa0f0)`,
-                        }}
-                        title={`${fmtDay(d.day)}: ${d.mentions} menciones`}
-                      />
-                    </div>
-                    <span className="shrink-0 pt-1 text-center text-[9px] text-stone-400">
-                      {fmtDay(d.day)}
-                    </span>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
         </section>
 
         <footer className="mt-10 border-t border-stone-200 pt-4 text-[11px] text-stone-400">

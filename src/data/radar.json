@@ -287,8 +287,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 35,
   "chat_signals": {
-   "n_msgs": 1050,
-   "n_authors": 726,
+   "n_msgs": 1063,
+   "n_authors": 736,
    "programs": [
     {
      "video_id": "0_ua1dXLT5o",
@@ -685,7 +685,7 @@
   "evidence_lane": "corroborated",
   "audio_programs": 49,
   "chat_signals": {
-   "n_msgs": 266,
+   "n_msgs": 267,
    "n_authors": 213,
    "programs": [
     {
@@ -721,20 +721,20 @@
      "ejemplo": "RADIO BELDENT ENTRO EN CRISIS"
     },
     {
+     "video_id": "hc54LIYnMoE",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 15,
+     "n_authors": 14,
+     "ejemplo": "Buenos días saludos desde venezuela"
+    },
+    {
      "video_id": "tAUTd2FsMxA",
      "channel": "Bondi Live",
      "title": "▶️ PROGRAMACIÓN COMPLETA 26/06 | BONDI LIVE",
      "n_msgs": 15,
      "n_authors": 13,
      "ejemplo": "a la madrugada hubo otro temblor en venezuela"
-    },
-    {
-     "video_id": "hc54LIYnMoE",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 14,
-     "n_authors": 13,
-     "ejemplo": "Buenos días saludos desde venezuela"
     },
     {
      "video_id": "mxFu-R3O8TY",
@@ -774,8 +774,8 @@
      "video_id": "hc54LIYnMoE",
      "channel": "?",
      "title": "",
-     "n_msgs": 14,
-     "n_authors": 13,
+     "n_msgs": 15,
+     "n_authors": 14,
      "ejemplo": "Buenos días saludos desde venezuela"
     },
     {
@@ -1080,15 +1080,15 @@
   "evidence_lane": "corroborated",
   "audio_programs": 144,
   "chat_signals": {
-   "n_msgs": 836,
-   "n_authors": 626,
+   "n_msgs": 841,
+   "n_authors": 628,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 72,
-     "n_authors": 55,
+     "n_msgs": 73,
+     "n_authors": 56,
      "ejemplo": "@GenaroOrán El aguacate en argentina es la palta"
     },
     {
@@ -1153,8 +1153,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 72,
-     "n_authors": 55,
+     "n_msgs": 73,
+     "n_authors": 56,
      "ejemplo": "@GenaroOrán El aguacate en argentina es la palta"
     },
     {
@@ -1469,8 +1469,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 54,
   "chat_signals": {
-   "n_msgs": 175,
-   "n_authors": 144,
+   "n_msgs": 176,
+   "n_authors": 145,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -1484,8 +1484,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 12,
-     "n_authors": 9,
+     "n_msgs": 13,
+     "n_authors": 10,
      "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
     },
     {
@@ -1550,8 +1550,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 12,
-     "n_authors": 9,
+     "n_msgs": 13,
+     "n_authors": 10,
      "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
     },
     {
@@ -1852,16 +1852,24 @@
   "evidence_lane": "corroborated",
   "audio_programs": 34,
   "chat_signals": {
-   "n_msgs": 871,
-   "n_authors": 608,
+   "n_msgs": 889,
+   "n_authors": 618,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 80,
-     "n_authors": 66,
+     "n_msgs": 81,
+     "n_authors": 67,
      "ejemplo": "@argentoiluminacion6700 no me amenace con mandar a descerebrado Milei que les enviamos a los derechuzos de Vox, jajajaja"
+    },
+    {
+     "video_id": "tKOUyjkzDQ8",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 49,
+     "n_authors": 39,
+     "ejemplo": "acaso es un cover de Milei de nene malo?"
     },
     {
      "video_id": "qLQFv3bGuhA",
@@ -1878,14 +1886,6 @@
      "n_msgs": 45,
      "n_authors": 36,
      "ejemplo": "que grande milei SJJSj"
-    },
-    {
-     "video_id": "tKOUyjkzDQ8",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 45,
-     "n_authors": 36,
-     "ejemplo": "acaso es un cover de Milei de nene malo?"
     },
     {
      "video_id": "mNBPDZhUOf8",
@@ -1925,9 +1925,17 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 80,
-     "n_authors": 66,
+     "n_msgs": 81,
+     "n_authors": 67,
      "ejemplo": "@argentoiluminacion6700 no me amenace con mandar a descerebrado Milei que les enviamos a los derechuzos de Vox, jajajaja"
+    },
+    {
+     "video_id": "tKOUyjkzDQ8",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 49,
+     "n_authors": 39,
+     "ejemplo": "acaso es un cover de Milei de nene malo?"
     },
     {
      "video_id": "qLQFv3bGuhA",
@@ -1944,14 +1952,6 @@
      "n_msgs": 45,
      "n_authors": 36,
      "ejemplo": "que grande milei SJJSj"
-    },
-    {
-     "video_id": "tKOUyjkzDQ8",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 45,
-     "n_authors": 36,
-     "ejemplo": "acaso es un cover de Milei de nene malo?"
     },
     {
      "video_id": "IsK6-fLD-VQ",
@@ -3692,15 +3692,15 @@
   "evidence_lane": "corroborated",
   "audio_programs": 146,
   "chat_signals": {
-   "n_msgs": 861,
-   "n_authors": 644,
+   "n_msgs": 866,
+   "n_authors": 646,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 68,
-     "n_authors": 52,
+     "n_msgs": 69,
+     "n_authors": 53,
      "ejemplo": "@GenaroOrán El aguacate en argentina es la palta"
     },
     {
@@ -3765,8 +3765,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 68,
-     "n_authors": 52,
+     "n_msgs": 69,
+     "n_authors": 53,
      "ejemplo": "@GenaroOrán El aguacate en argentina es la palta"
     },
     {
@@ -3863,15 +3863,15 @@
   "evidence_lane": "corroborated",
   "audio_programs": 146,
   "chat_signals": {
-   "n_msgs": 906,
-   "n_authors": 675,
+   "n_msgs": 912,
+   "n_authors": 678,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 77,
-     "n_authors": 59,
+     "n_msgs": 79,
+     "n_authors": 61,
      "ejemplo": "@GenaroOrán El aguacate en argentina es la palta"
     },
     {
@@ -3936,8 +3936,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 77,
-     "n_authors": 59,
+     "n_msgs": 79,
+     "n_authors": 61,
      "ejemplo": "@GenaroOrán El aguacate en argentina es la palta"
     },
     {
@@ -4986,8 +4986,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 142,
   "chat_signals": {
-   "n_msgs": 687,
-   "n_authors": 536,
+   "n_msgs": 690,
+   "n_authors": 539,
    "programs": [
     {
      "video_id": "8XGdbbwUjEQ",
@@ -5286,8 +5286,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 65,
   "chat_signals": {
-   "n_msgs": 183,
-   "n_authors": 151,
+   "n_msgs": 184,
+   "n_authors": 152,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -5298,20 +5298,20 @@
      "ejemplo": "95% ensobrados y laburando para la política"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 13,
+     "n_authors": 10,
+     "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
+    },
+    {
      "video_id": "HTm_q34CwyM",
      "channel": "AHORA PLAY",
      "title": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
      "n_msgs": 12,
      "n_authors": 9,
      "ejemplo": "La sra. P. Bullrich tiene un conocido prontuario represivo y de participación en gobiernos de derecha y ultraderecha fracasados."
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 12,
-     "n_authors": 9,
-     "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
     },
     {
      "video_id": "3QJmfDvuxIk",
@@ -5367,8 +5367,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 12,
-     "n_authors": 9,
+     "n_msgs": 13,
+     "n_authors": 10,
      "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
     },
     {
@@ -5967,8 +5967,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 25,
   "chat_signals": {
-   "n_msgs": 111,
-   "n_authors": 92,
+   "n_msgs": 117,
+   "n_authors": 95,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -5990,8 +5990,8 @@
      "video_id": "p6DntkKAWNc",
      "channel": "?",
      "title": "",
-     "n_msgs": 8,
-     "n_authors": 8,
+     "n_msgs": 11,
+     "n_authors": 10,
      "ejemplo": "REVEAN ESTO ES CINE"
     },
     {
@@ -6048,8 +6048,8 @@
      "video_id": "p6DntkKAWNc",
      "channel": "?",
      "title": "",
-     "n_msgs": 8,
-     "n_authors": 8,
+     "n_msgs": 11,
+     "n_authors": 10,
      "ejemplo": "REVEAN ESTO ES CINE"
     },
     {
@@ -6338,8 +6338,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 110,
   "chat_signals": {
-   "n_msgs": 288,
-   "n_authors": 250,
+   "n_msgs": 289,
+   "n_authors": 251,
    "programs": [
     {
      "video_id": "zpbJ8ju9xmk",
@@ -6711,8 +6711,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 65,
   "chat_signals": {
-   "n_msgs": 149,
-   "n_authors": 134,
+   "n_msgs": 150,
+   "n_authors": 135,
    "programs": [
     {
      "video_id": "e3av_6yqgHg",
@@ -7111,8 +7111,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 54,
   "chat_signals": {
-   "n_msgs": 300,
-   "n_authors": 241,
+   "n_msgs": 301,
+   "n_authors": 242,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -7335,8 +7335,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 56,
   "chat_signals": {
-   "n_msgs": 306,
-   "n_authors": 247,
+   "n_msgs": 307,
+   "n_authors": 248,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -7717,8 +7717,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 87,
   "chat_signals": {
-   "n_msgs": 279,
-   "n_authors": 228,
+   "n_msgs": 285,
+   "n_authors": 230,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -7740,8 +7740,8 @@
      "video_id": "p6DntkKAWNc",
      "channel": "?",
      "title": "",
-     "n_msgs": 13,
-     "n_authors": 11,
+     "n_msgs": 16,
+     "n_authors": 13,
      "ejemplo": "REVEAN ESTO ES CINE"
     },
     {
@@ -7798,8 +7798,8 @@
      "video_id": "p6DntkKAWNc",
      "channel": "?",
      "title": "",
-     "n_msgs": 13,
-     "n_authors": 11,
+     "n_msgs": 16,
+     "n_authors": 13,
      "ejemplo": "REVEAN ESTO ES CINE"
     },
     {
@@ -8098,8 +8098,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 46,
   "chat_signals": {
-   "n_msgs": 1446,
-   "n_authors": 974,
+   "n_msgs": 1466,
+   "n_authors": 988,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
@@ -8470,8 +8470,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 46,
   "chat_signals": {
-   "n_msgs": 255,
-   "n_authors": 215,
+   "n_msgs": 258,
+   "n_authors": 218,
    "programs": [
     {
      "video_id": "zpbJ8ju9xmk",
@@ -8506,6 +8506,14 @@
      "ejemplo": "comida peruanaaaaa"
     },
     {
+     "video_id": "p6DntkKAWNc",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": "awante la paraguaya"
+    },
+    {
      "video_id": "Lm6Db-SEA0M",
      "channel": "OLGA",
      "title": "SOÑAMOS QUE CAZAMOS UTOPÍAS IMPOSIBLES | #SoñéQueVolaba 30/6",
@@ -8528,14 +8536,6 @@
      "n_msgs": 7,
      "n_authors": 6,
      "ejemplo": "Hoy vendrá la PARAGUAYA Y CARLOS AMARILLA??"
-    },
-    {
-     "video_id": "p6DntkKAWNc",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 6,
-     "n_authors": 6,
-     "ejemplo": "awante la paraguaya"
     }
    ],
    "chat_only_programs": [
@@ -8556,20 +8556,20 @@
      "ejemplo": "comida peruanaaaaa"
     },
     {
+     "video_id": "p6DntkKAWNc",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 8,
+     "n_authors": 8,
+     "ejemplo": "awante la paraguaya"
+    },
+    {
      "video_id": "8XGdbbwUjEQ",
      "channel": "?",
      "title": "",
      "n_msgs": 8,
      "n_authors": 6,
      "ejemplo": "jaajja re roba la comida"
-    },
-    {
-     "video_id": "p6DntkKAWNc",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 6,
-     "n_authors": 6,
-     "ejemplo": "awante la paraguaya"
     }
    ]
   }
@@ -8628,8 +8628,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 149,
   "chat_signals": {
-   "n_msgs": 454,
-   "n_authors": 379,
+   "n_msgs": 455,
+   "n_authors": 380,
    "programs": [
     {
      "video_id": "IB9cCJT0-_M",
@@ -9359,8 +9359,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 21,
   "chat_signals": {
-   "n_msgs": 32,
-   "n_authors": 29,
+   "n_msgs": 33,
+   "n_authors": 30,
    "programs": [
     {
      "video_id": "z11vyvt5tuM",
@@ -9411,20 +9411,20 @@
      "ejemplo": "Entiendo que no hay un etf del merval por la calificación de Argentina. Eso no permite que fondos extranjeros inviertan porque su estatuto no lo permite"
     },
     {
+     "video_id": "tKOUyjkzDQ8",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Como se nota el la inversión de ese 3% de la Kari"
+    },
+    {
      "video_id": "-FYveSXX_NA",
      "channel": "?",
      "title": "",
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "no tengo mas que una billetera virtual.. necesito mi 1 inversion"
-    },
-    {
-     "video_id": "3CPnLRc7h2w",
-     "channel": "Vorterix",
-     "title": "🔴 NO PREGUNTES POR RUSIA con Mario Pergolini, Nacho Corral y Nico Etevenaux | VORTERIX EN VIVO",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "TODO LO QUE SEA TECNOLOGIA SIEMPRE SERÁ UNA INVERSIÓN Y NUNCA UN GASTO."
     }
    ],
    "chat_only_programs": [
@@ -9461,12 +9461,12 @@
      "ejemplo": "Y la inversion para cuando Castiñeira?"
     },
     {
-     "video_id": "-FYveSXX_NA",
+     "video_id": "tKOUyjkzDQ8",
      "channel": "?",
      "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "no tengo mas que una billetera virtual.. necesito mi 1 inversion"
+     "n_msgs": 2,
+     "n_authors": 2,
+     "ejemplo": "Como se nota el la inversión de ese 3% de la Kari"
     }
    ]
   }
@@ -10130,8 +10130,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 23,
   "chat_signals": {
-   "n_msgs": 260,
-   "n_authors": 221,
+   "n_msgs": 262,
+   "n_authors": 223,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -10510,8 +10510,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 118,
   "chat_signals": {
-   "n_msgs": 1402,
-   "n_authors": 1108,
+   "n_msgs": 1409,
+   "n_authors": 1113,
    "programs": [
     {
      "video_id": "bX7MB2_OI2I",
@@ -11885,8 +11885,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 88,
   "chat_signals": {
-   "n_msgs": 474,
-   "n_authors": 389,
+   "n_msgs": 476,
+   "n_authors": 391,
    "programs": [
     {
      "video_id": "8lOkxIDSd4w",
@@ -11932,8 +11932,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 16,
-     "n_authors": 15,
+     "n_msgs": 17,
+     "n_authors": 16,
      "ejemplo": "El mejor programa del mundo"
     },
     {
@@ -11966,8 +11966,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 16,
-     "n_authors": 15,
+     "n_msgs": 17,
+     "n_authors": 16,
      "ejemplo": "El mejor programa del mundo"
     },
     {
@@ -14518,8 +14518,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 60,
   "chat_signals": {
-   "n_msgs": 193,
-   "n_authors": 159,
+   "n_msgs": 194,
+   "n_authors": 160,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -14530,20 +14530,20 @@
      "ejemplo": "95% ensobrados y laburando para la política"
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 13,
+     "n_authors": 10,
+     "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
+    },
+    {
      "video_id": "HTm_q34CwyM",
      "channel": "AHORA PLAY",
      "title": "MILEI REINICIA SU GOBIERNO I Claudio Zlotnik Paula Macchi Matías Battista #SerruchoEconómico",
      "n_msgs": 12,
      "n_authors": 9,
      "ejemplo": "NINGUN REINICIO DE UNA CLASE POLITICA MAFIOSA . SAQUEAN AL PUEBLO ARGENTINO"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 12,
-     "n_authors": 9,
-     "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
     },
     {
      "video_id": "3QJmfDvuxIk",
@@ -14599,8 +14599,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 12,
-     "n_authors": 9,
+     "n_msgs": 13,
+     "n_authors": 10,
      "ejemplo": "la politica zen de la CGT y el peronismo también tiene la culpa de este regimen de ocupación"
     },
     {
@@ -15821,8 +15821,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 152,
   "chat_signals": {
-   "n_msgs": 909,
-   "n_authors": 700,
+   "n_msgs": 912,
+   "n_authors": 703,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -16812,8 +16812,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 22,
   "chat_signals": {
-   "n_msgs": 104,
-   "n_authors": 89,
+   "n_msgs": 109,
+   "n_authors": 92,
    "programs": [
     {
      "video_id": "8lOkxIDSd4w",
@@ -16827,8 +16827,8 @@
      "video_id": "HA1dexnR7Ng",
      "channel": "?",
      "title": "",
-     "n_msgs": 26,
-     "n_authors": 21,
+     "n_msgs": 31,
+     "n_authors": 24,
      "ejemplo": "uuuhhhh ya arrancaron con el mundialito lpm"
     },
     {
@@ -16885,8 +16885,8 @@
      "video_id": "HA1dexnR7Ng",
      "channel": "?",
      "title": "",
-     "n_msgs": 26,
-     "n_authors": 21,
+     "n_msgs": 31,
+     "n_authors": 24,
      "ejemplo": "uuuhhhh ya arrancaron con el mundialito lpm"
     },
     {
@@ -19569,8 +19569,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 8,
   "chat_signals": {
-   "n_msgs": 243,
-   "n_authors": 165,
+   "n_msgs": 259,
+   "n_authors": 174,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
@@ -19584,8 +19584,8 @@
      "video_id": "3beEj7OhPJs",
      "channel": "?",
      "title": "",
-     "n_msgs": 42,
-     "n_authors": 20,
+     "n_msgs": 58,
+     "n_authors": 29,
      "ejemplo": "la Argentina necesita a Cristina libre:hand-purple-blue-peace::penguin::drum::musical_notes:"
     },
     {
@@ -19650,8 +19650,8 @@
      "video_id": "3beEj7OhPJs",
      "channel": "?",
      "title": "",
-     "n_msgs": 42,
-     "n_authors": 20,
+     "n_msgs": 58,
+     "n_authors": 29,
      "ejemplo": "la Argentina necesita a Cristina libre:hand-purple-blue-peace::penguin::drum::musical_notes:"
     },
     {
@@ -19947,8 +19947,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 22,
   "chat_signals": {
-   "n_msgs": 62,
-   "n_authors": 61,
+   "n_msgs": 63,
+   "n_authors": 62,
    "programs": [
     {
      "video_id": "q_clAienUJw",
@@ -20550,15 +20550,15 @@
   "evidence_lane": "corroborated",
   "audio_programs": 9,
   "chat_signals": {
-   "n_msgs": 76,
-   "n_authors": 66,
+   "n_msgs": 80,
+   "n_authors": 69,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 9,
-     "n_authors": 9,
+     "n_msgs": 10,
+     "n_authors": 10,
      "ejemplo": "bullrich adentro 100%"
     },
     {
@@ -20623,8 +20623,8 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 9,
-     "n_authors": 9,
+     "n_msgs": 10,
+     "n_authors": 10,
      "ejemplo": "bullrich adentro 100%"
     },
     {
@@ -20923,8 +20923,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 77,
   "chat_signals": {
-   "n_msgs": 642,
-   "n_authors": 523,
+   "n_msgs": 647,
+   "n_authors": 526,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -20959,6 +20959,14 @@
      "ejemplo": "CASTIGA LA VIDA"
     },
     {
+     "video_id": "hc54LIYnMoE",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 24,
+     "n_authors": 21,
+     "ejemplo": "No hay vida despues de la muerte. Solo tenemos esta existencia"
+    },
+    {
      "video_id": "O6sOwvMbRBU",
      "channel": "?",
      "title": "",
@@ -20975,20 +20983,12 @@
      "ejemplo": "aparicion con vida del sakito de la negra!!!!"
     },
     {
-     "video_id": "hc54LIYnMoE",
+     "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 22,
+     "n_msgs": 21,
      "n_authors": 19,
-     "ejemplo": "No hay vida despues de la muerte. Solo tenemos esta existencia"
-    },
-    {
-     "video_id": "bX7MB2_OI2I",
-     "channel": "OLGA",
-     "title": "✨ SERÍA INCREÍBLE con Vero Lozano, Leo Montero, Eial Moldavsky, Toto, Eve y Felipe | OLGA EN VIVO",
-     "n_msgs": 20,
-     "n_authors": 19,
-     "ejemplo": "mira Europa se mueren de calor. tan desarrollados ellos"
+     "ejemplo": "honrar la vida significa agradecer la vida que te dieron. No más que eso"
     }
    ],
    "chat_only_programs": [
@@ -21025,12 +21025,12 @@
      "ejemplo": "CASTIGA LA VIDA"
     },
     {
-     "video_id": "O6sOwvMbRBU",
+     "video_id": "hc54LIYnMoE",
      "channel": "?",
      "title": "",
-     "n_msgs": 27,
-     "n_authors": 20,
-     "ejemplo": "Dios demostró Su amor por nosotros al enviar a Su Hijo Jesucristo; Jesús murió por nuestros pecados y resucitó de entre los muertos para darnos vida eterna. Tam"
+     "n_msgs": 24,
+     "n_authors": 21,
+     "ejemplo": "No hay vida despues de la muerte. Solo tenemos esta existencia"
     }
    ]
   }
@@ -22074,8 +22074,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 19,
   "chat_signals": {
-   "n_msgs": 522,
-   "n_authors": 454,
+   "n_msgs": 524,
+   "n_authors": 456,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -22137,8 +22137,8 @@
      "video_id": "p6DntkKAWNc",
      "channel": "?",
      "title": "",
-     "n_msgs": 14,
-     "n_authors": 14,
+     "n_msgs": 15,
+     "n_authors": 15,
      "ejemplo": "Pasó la gran blender Nooooo"
     }
    ],
@@ -22546,9 +22546,17 @@
   "evidence_lane": "corroborated",
   "audio_programs": 17,
   "chat_signals": {
-   "n_msgs": 31,
-   "n_authors": 29,
+   "n_msgs": 32,
+   "n_authors": 30,
    "programs": [
+    {
+     "video_id": "tKOUyjkzDQ8",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "Como se nota el la inversión de ese 3% de la Kari"
+    },
     {
      "video_id": "3jZ7O8XoQyY",
      "channel": "AHORA PLAY",
@@ -22564,14 +22572,6 @@
      "n_msgs": 3,
      "n_authors": 3,
      "ejemplo": "Nose porque ahora te alcanza menos entonces la capacidad de ahorro baja. Por ende juntar 5mil dólares para ir a Miami es muy difícil"
-    },
-    {
-     "video_id": "tKOUyjkzDQ8",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 3,
-     "n_authors": 3,
-     "ejemplo": "Como se nota el la inversión de ese 3% de la Kari"
     },
     {
      "video_id": "nOx1je3BA2o",
@@ -22616,6 +22616,14 @@
    ],
    "chat_only_programs": [
     {
+     "video_id": "tKOUyjkzDQ8",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 4,
+     "n_authors": 4,
+     "ejemplo": "Como se nota el la inversión de ese 3% de la Kari"
+    },
+    {
      "video_id": "3jZ7O8XoQyY",
      "channel": "AHORA PLAY",
      "title": "SUBE EL DÓLAR: PRUEBA DE FUEGO PARA CAPUTO | Claudio Zlotnik y Esteban Rafele #SerruchoEconómico",
@@ -22630,14 +22638,6 @@
      "n_msgs": 3,
      "n_authors": 3,
      "ejemplo": "Nose porque ahora te alcanza menos entonces la capacidad de ahorro baja. Por ende juntar 5mil dólares para ir a Miami es muy difícil"
-    },
-    {
-     "video_id": "tKOUyjkzDQ8",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 3,
-     "n_authors": 3,
-     "ejemplo": "Como se nota el la inversión de ese 3% de la Kari"
     },
     {
      "video_id": "nOx1je3BA2o",
@@ -22763,8 +22763,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 136,
   "chat_signals": {
-   "n_msgs": 340,
-   "n_authors": 285,
+   "n_msgs": 341,
+   "n_authors": 286,
    "programs": [
     {
      "video_id": "IB9cCJT0-_M",
@@ -23235,8 +23235,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 42,
   "chat_signals": {
-   "n_msgs": 1071,
-   "n_authors": 743,
+   "n_msgs": 1080,
+   "n_authors": 750,
    "programs": [
     {
      "video_id": "0_ua1dXLT5o",
@@ -23601,8 +23601,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 105,
   "chat_signals": {
-   "n_msgs": 740,
-   "n_authors": 580,
+   "n_msgs": 744,
+   "n_authors": 583,
    "programs": [
     {
      "video_id": "zpbJ8ju9xmk",
@@ -23956,8 +23956,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 43,
   "chat_signals": {
-   "n_msgs": 152,
-   "n_authors": 129,
+   "n_msgs": 155,
+   "n_authors": 131,
    "programs": [
     {
      "video_id": "3CPnLRc7h2w",
@@ -23976,6 +23976,14 @@
      "ejemplo": "EL GOBIERNO NACIONAL Y PCIA BUENOS AIRES AHOGA A LOS JUBILADOS CON AUMENTOS EN GAS, LU, AYSA, ARBA Y TASAS MUNICIPALES. AXEL NO ES MEJOR QUE MILEI. ESCUCHA AXEL"
     },
     {
+     "video_id": "HA1dexnR7Ng",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 9,
+     "n_authors": 7,
+     "ejemplo": ":cherries::cherries::cherries:Los Antiguos Santa Cruz:cherries::cherries::cherries:Capital Nacional de la Cereza, El segundo lago mas grande de sudamerica, rios"
+    },
+    {
      "video_id": "cG_sxu72mSo",
      "channel": "Vorterix",
      "title": "MESSI CONOCIÓ A SPIDERMAN Y VINO MORE BELTRÁN | #ParenLaMano Completo - 30/06 | VORTERIX",
@@ -23990,14 +23998,6 @@
      "n_msgs": 7,
      "n_authors": 7,
      "ejemplo": "rock cristiano"
-    },
-    {
-     "video_id": "HA1dexnR7Ng",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 8,
-     "n_authors": 6,
-     "ejemplo": ":cherries::cherries::cherries:Los Antiguos Santa Cruz:cherries::cherries::cherries:Capital Nacional de la Cereza, El segundo lago mas grande de sudamerica, rios"
     },
     {
      "video_id": "8XGdbbwUjEQ",
@@ -24034,6 +24034,14 @@
      "ejemplo": "EL GOBIERNO NACIONAL Y PCIA BUENOS AIRES AHOGA A LOS JUBILADOS CON AUMENTOS EN GAS, LU, AYSA, ARBA Y TASAS MUNICIPALES. AXEL NO ES MEJOR QUE MILEI. ESCUCHA AXEL"
     },
     {
+     "video_id": "HA1dexnR7Ng",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 9,
+     "n_authors": 7,
+     "ejemplo": ":cherries::cherries::cherries:Los Antiguos Santa Cruz:cherries::cherries::cherries:Capital Nacional de la Cereza, El segundo lago mas grande de sudamerica, rios"
+    },
+    {
      "video_id": "cG_sxu72mSo",
      "channel": "Vorterix",
      "title": "MESSI CONOCIÓ A SPIDERMAN Y VINO MORE BELTRÁN | #ParenLaMano Completo - 30/06 | VORTERIX",
@@ -24048,14 +24056,6 @@
      "n_msgs": 7,
      "n_authors": 7,
      "ejemplo": "rock cristiano"
-    },
-    {
-     "video_id": "HA1dexnR7Ng",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 8,
-     "n_authors": 6,
-     "ejemplo": ":cherries::cherries::cherries:Los Antiguos Santa Cruz:cherries::cherries::cherries:Capital Nacional de la Cereza, El segundo lago mas grande de sudamerica, rios"
     },
     {
      "video_id": "8XGdbbwUjEQ",
@@ -24545,8 +24545,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 18,
   "chat_signals": {
-   "n_msgs": 89,
-   "n_authors": 67,
+   "n_msgs": 90,
+   "n_authors": 68,
    "programs": [
     {
      "video_id": "nOx1je3BA2o",
@@ -25612,7 +25612,7 @@
   "evidence_lane": "corroborated",
   "audio_programs": 70,
   "chat_signals": {
-   "n_msgs": 158,
+   "n_msgs": 159,
    "n_authors": 143,
    "programs": [
     {
@@ -25651,7 +25651,7 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 7,
+     "n_msgs": 8,
      "n_authors": 7,
      "ejemplo": "no estoy en tema. Parece un tema periférico en relación al desmantelamiento científico etc"
     },
@@ -25709,7 +25709,7 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 7,
+     "n_msgs": 8,
      "n_authors": 7,
      "ejemplo": "no estoy en tema. Parece un tema periférico en relación al desmantelamiento científico etc"
     },
@@ -25841,8 +25841,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 63,
   "chat_signals": {
-   "n_msgs": 280,
-   "n_authors": 253,
+   "n_msgs": 283,
+   "n_authors": 254,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
@@ -26558,8 +26558,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 24,
   "chat_signals": {
-   "n_msgs": 94,
-   "n_authors": 76,
+   "n_msgs": 97,
+   "n_authors": 77,
    "programs": [
     {
      "video_id": "nOx1je3BA2o",
@@ -26929,8 +26929,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 53,
   "chat_signals": {
-   "n_msgs": 163,
-   "n_authors": 137,
+   "n_msgs": 169,
+   "n_authors": 139,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -28031,8 +28031,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 88,
   "chat_signals": {
-   "n_msgs": 295,
-   "n_authors": 255,
+   "n_msgs": 297,
+   "n_authors": 257,
    "programs": [
     {
      "video_id": "WNe6QLgDfyM",
@@ -28395,8 +28395,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 103,
   "chat_signals": {
-   "n_msgs": 335,
-   "n_authors": 293,
+   "n_msgs": 336,
+   "n_authors": 294,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
@@ -28615,8 +28615,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 6,
   "chat_signals": {
-   "n_msgs": 20,
-   "n_authors": 17,
+   "n_msgs": 21,
+   "n_authors": 18,
    "programs": [
     {
      "video_id": "tAUTd2FsMxA",
@@ -29047,8 +29047,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 6,
   "chat_signals": {
-   "n_msgs": 8,
-   "n_authors": 8,
+   "n_msgs": 9,
+   "n_authors": 9,
    "programs": [
     {
      "video_id": "bX7MB2_OI2I",
@@ -29065,6 +29065,14 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "jamoncito, y porqué se te cerró el OGT y no cambiaste la fórmula de la inflación? porque sabes que mentis tanto como robás... a dos manos!!!"
+    },
+    {
+     "video_id": "3beEj7OhPJs",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "Necesito una fórmula con dos mujeres progresistas feministas"
     },
     {
      "video_id": "C6BZb4k8gF0",
@@ -29125,6 +29133,14 @@
      "ejemplo": "jamoncito, y porqué se te cerró el OGT y no cambiaste la fórmula de la inflación? porque sabes que mentis tanto como robás... a dos manos!!!"
     },
     {
+     "video_id": "3beEj7OhPJs",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 1,
+     "n_authors": 1,
+     "ejemplo": "Necesito una fórmula con dos mujeres progresistas feministas"
+    },
+    {
      "video_id": "C6BZb4k8gF0",
      "channel": "BLENDER",
      "title": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
@@ -29139,14 +29155,6 @@
      "n_msgs": 1,
      "n_authors": 1,
      "ejemplo": "LA UNICA FORMULA COMPETITIVA PARA EL 2027 VA A SER MACRI BURLICH"
-    },
-    {
-     "video_id": "qLQFv3bGuhA",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 1,
-     "n_authors": 1,
-     "ejemplo": "Axel-Natalia De La Sota va a ser la fórmula"
     }
    ]
   }
@@ -30080,8 +30088,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 38,
   "chat_signals": {
-   "n_msgs": 114,
-   "n_authors": 95,
+   "n_msgs": 115,
+   "n_authors": 96,
    "programs": [
     {
      "video_id": "mNBPDZhUOf8",
@@ -30108,20 +30116,20 @@
      "ejemplo": ":red_heart::victory_hand::flexed_biceps:... ¿ DÓNDE ESTÁ LA CGT PERONISTA FRENTE A LA CANTIDAD DE DESPIDOS Y HOSTIGAMIENTOS ? Xq ¿Para qué? reclamarle algo a la"
     },
     {
+     "video_id": "3beEj7OhPJs",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 10,
+     "n_authors": 7,
+     "ejemplo": "esto esta muy , pero muy parecido al gobierno peronista de los 90 , muchos aca no deben ni saber de lo que esta hablando , es terrible y triste."
+    },
+    {
      "video_id": "nOx1je3BA2o",
      "channel": "?",
      "title": "",
      "n_msgs": 9,
      "n_authors": 7,
      "ejemplo": "EL COLORADO SANTILLI IGUAL QUE BULRRICH CAMALEON EMPESO SIENDO PERONISTA LUEGO EL PRO AHORA LLA LA CUESTION ES SEGUIR AFANANDO CASTA PURA IGUAL QUE DIPUTADOS Y "
-    },
-    {
-     "video_id": "3beEj7OhPJs",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 9,
-     "n_authors": 6,
-     "ejemplo": "esto esta muy , pero muy parecido al gobierno peronista de los 90 , muchos aca no deben ni saber de lo que esta hablando , es terrible y triste."
     },
     {
      "video_id": "LjEHjrbNNgs",
@@ -30166,20 +30174,20 @@
      "ejemplo": ":red_heart::victory_hand::flexed_biceps:... ¿ DÓNDE ESTÁ LA CGT PERONISTA FRENTE A LA CANTIDAD DE DESPIDOS Y HOSTIGAMIENTOS ? Xq ¿Para qué? reclamarle algo a la"
     },
     {
+     "video_id": "3beEj7OhPJs",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 10,
+     "n_authors": 7,
+     "ejemplo": "esto esta muy , pero muy parecido al gobierno peronista de los 90 , muchos aca no deben ni saber de lo que esta hablando , es terrible y triste."
+    },
+    {
      "video_id": "nOx1je3BA2o",
      "channel": "?",
      "title": "",
      "n_msgs": 9,
      "n_authors": 7,
      "ejemplo": "EL COLORADO SANTILLI IGUAL QUE BULRRICH CAMALEON EMPESO SIENDO PERONISTA LUEGO EL PRO AHORA LLA LA CUESTION ES SEGUIR AFANANDO CASTA PURA IGUAL QUE DIPUTADOS Y "
-    },
-    {
-     "video_id": "3beEj7OhPJs",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 9,
-     "n_authors": 6,
-     "ejemplo": "esto esta muy , pero muy parecido al gobierno peronista de los 90 , muchos aca no deben ni saber de lo que esta hablando , es terrible y triste."
     },
     {
      "video_id": "e3av_6yqgHg",
@@ -30445,8 +30453,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 9,
   "chat_signals": {
-   "n_msgs": 331,
-   "n_authors": 291,
+   "n_msgs": 332,
+   "n_authors": 292,
    "programs": [
     {
      "video_id": "bYaixTloEdo",
@@ -31207,8 +31215,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 32,
   "chat_signals": {
-   "n_msgs": 185,
-   "n_authors": 150,
+   "n_msgs": 187,
+   "n_authors": 152,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
@@ -31219,20 +31227,20 @@
      "ejemplo": "@nicoesquibel hoy es mi primer día libre en 7 días, dps de emborrachar una ciudad, que son las fiestas de Burgos jajaja"
     },
     {
+     "video_id": "3beEj7OhPJs",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 11,
+     "n_authors": 11,
+     "ejemplo": "Mercado Choronga"
+    },
+    {
      "video_id": "nOx1je3BA2o",
      "channel": "?",
      "title": "",
      "n_msgs": 13,
      "n_authors": 9,
      "ejemplo": "Lo único que no tiene precio de mercado es el salario en la Argentina. Rumbo a ser Paraguay vamos."
-    },
-    {
-     "video_id": "3beEj7OhPJs",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 9,
-     "n_authors": 9,
-     "ejemplo": "Mercado Choronga"
     },
     {
      "video_id": "qLQFv3bGuhA",
@@ -31285,20 +31293,20 @@
      "ejemplo": "@nicoesquibel hoy es mi primer día libre en 7 días, dps de emborrachar una ciudad, que son las fiestas de Burgos jajaja"
     },
     {
+     "video_id": "3beEj7OhPJs",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 11,
+     "n_authors": 11,
+     "ejemplo": "Mercado Choronga"
+    },
+    {
      "video_id": "nOx1je3BA2o",
      "channel": "?",
      "title": "",
      "n_msgs": 13,
      "n_authors": 9,
      "ejemplo": "Lo único que no tiene precio de mercado es el salario en la Argentina. Rumbo a ser Paraguay vamos."
-    },
-    {
-     "video_id": "3beEj7OhPJs",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 9,
-     "n_authors": 9,
-     "ejemplo": "Mercado Choronga"
     },
     {
      "video_id": "qLQFv3bGuhA",
@@ -31436,8 +31444,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 25,
   "chat_signals": {
-   "n_msgs": 559,
-   "n_authors": 485,
+   "n_msgs": 562,
+   "n_authors": 488,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -31480,11 +31488,19 @@
      "ejemplo": "RE TARDE HERMANO"
     },
     {
+     "video_id": "p6DntkKAWNc",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 17,
+     "n_authors": 17,
+     "ejemplo": "Pasó la gran blender Nooooo"
+    },
+    {
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 15,
-     "n_authors": 15,
+     "n_msgs": 16,
+     "n_authors": 16,
      "ejemplo": "hola gran día para todos"
     },
     {
@@ -31494,14 +31510,6 @@
      "n_msgs": 15,
      "n_authors": 15,
      "ejemplo": "Parece Sol de gran hermano"
-    },
-    {
-     "video_id": "p6DntkKAWNc",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 15,
-     "n_authors": 15,
-     "ejemplo": "Pasó la gran blender Nooooo"
     }
    ],
    "chat_only_programs": [
@@ -31538,12 +31546,12 @@
      "ejemplo": "RE TARDE HERMANO"
     },
     {
-     "video_id": "RIx-w13AHO4",
+     "video_id": "p6DntkKAWNc",
      "channel": "?",
      "title": "",
-     "n_msgs": 15,
-     "n_authors": 15,
-     "ejemplo": "hola gran día para todos"
+     "n_msgs": 17,
+     "n_authors": 17,
+     "ejemplo": "Pasó la gran blender Nooooo"
     }
    ]
   }
@@ -31808,8 +31816,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 35,
   "chat_signals": {
-   "n_msgs": 125,
-   "n_authors": 109,
+   "n_msgs": 127,
+   "n_authors": 111,
    "programs": [
     {
      "video_id": "LjEHjrbNNgs",
@@ -32478,8 +32486,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 19,
   "chat_signals": {
-   "n_msgs": 116,
-   "n_authors": 91,
+   "n_msgs": 119,
+   "n_authors": 92,
    "programs": [
     {
      "video_id": "nOx1je3BA2o",
@@ -32849,8 +32857,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 28,
   "chat_signals": {
-   "n_msgs": 322,
-   "n_authors": 272,
+   "n_msgs": 323,
+   "n_authors": 273,
    "programs": [
     {
      "video_id": "tKOUyjkzDQ8",
@@ -33221,8 +33229,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 79,
   "chat_signals": {
-   "n_msgs": 650,
-   "n_authors": 530,
+   "n_msgs": 653,
+   "n_authors": 533,
    "programs": [
     {
      "video_id": "JNLpggdieek",
@@ -33714,8 +33722,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 17,
   "chat_signals": {
-   "n_msgs": 356,
-   "n_authors": 299,
+   "n_msgs": 359,
+   "n_authors": 302,
    "programs": [
     {
      "video_id": "zpbJ8ju9xmk",
@@ -33734,20 +33742,20 @@
      "ejemplo": "ERA EL MISMÍSIMO PABLO MIR"
     },
     {
+     "video_id": "p6DntkKAWNc",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 21,
+     "n_authors": 18,
+     "ejemplo": "me hace acordar a pablo agustín con el pelado espert, un desastre"
+    },
+    {
      "video_id": "LjEHjrbNNgs",
      "channel": "Vorterix",
      "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
      "n_msgs": 20,
      "n_authors": 18,
      "ejemplo": "Pablo dile a Jose que se siente"
-    },
-    {
-     "video_id": "p6DntkKAWNc",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 19,
-     "n_authors": 16,
-     "ejemplo": "me hace acordar a pablo agustín con el pelado espert, un desastre"
     },
     {
      "video_id": "NssiC9pO80s",
@@ -33792,20 +33800,20 @@
      "ejemplo": "PABLO MIR"
     },
     {
+     "video_id": "p6DntkKAWNc",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 21,
+     "n_authors": 18,
+     "ejemplo": "me hace acordar a pablo agustín con el pelado espert, un desastre"
+    },
+    {
      "video_id": "LjEHjrbNNgs",
      "channel": "Vorterix",
      "title": "🔴 Y QUÉ? con Male Sanchez, Guille Aquino, Damián Kuc, Navaja Crimen y Anacleta | VORTERIX EN VIVO",
      "n_msgs": 20,
      "n_authors": 18,
      "ejemplo": "Pablo dile a Jose que se siente"
-    },
-    {
-     "video_id": "p6DntkKAWNc",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 19,
-     "n_authors": 16,
-     "ejemplo": "me hace acordar a pablo agustín con el pelado espert, un desastre"
     },
     {
      "video_id": "1KdxLdm_3K0",
@@ -34805,8 +34813,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 32,
   "chat_signals": {
-   "n_msgs": 134,
-   "n_authors": 108,
+   "n_msgs": 136,
+   "n_authors": 110,
    "programs": [
     {
      "video_id": "nOx1je3BA2o",
@@ -34817,20 +34825,20 @@
      "ejemplo": "Nombrar a Pandora Santilli como jefe de gabinete no logra ocultar la dimensión de la crisis ni para presentar la toma de más deuda externa como un éxito."
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 11,
+     "n_authors": 10,
+     "ejemplo": "42 años de Democracia produjo este regimen Decadente...gracias a los politicos que pasaron x la funcion publica trabajando en pos de sus bolsillos y no para el "
+    },
+    {
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
      "n_msgs": 10,
      "n_authors": 10,
      "ejemplo": "HABLAN DE LA DEUDA PARA NO HABLAR DEL SAQUITO"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 10,
-     "n_authors": 9,
-     "ejemplo": "42 años de Democracia produjo este regimen Decadente...gracias a los politicos que pasaron x la funcion publica trabajando en pos de sus bolsillos y no para el "
     },
     {
      "video_id": "WNe6QLgDfyM",
@@ -34883,20 +34891,20 @@
      "ejemplo": "Nombrar a Pandora Santilli como jefe de gabinete no logra ocultar la dimensión de la crisis ni para presentar la toma de más deuda externa como un éxito."
     },
     {
+     "video_id": "RIx-w13AHO4",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 11,
+     "n_authors": 10,
+     "ejemplo": "42 años de Democracia produjo este regimen Decadente...gracias a los politicos que pasaron x la funcion publica trabajando en pos de sus bolsillos y no para el "
+    },
+    {
      "video_id": "bYaixTloEdo",
      "channel": "?",
      "title": "",
      "n_msgs": 10,
      "n_authors": 10,
      "ejemplo": "HABLAN DE LA DEUDA PARA NO HABLAR DEL SAQUITO"
-    },
-    {
-     "video_id": "RIx-w13AHO4",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 10,
-     "n_authors": 9,
-     "ejemplo": "42 años de Democracia produjo este regimen Decadente...gracias a los politicos que pasaron x la funcion publica trabajando en pos de sus bolsillos y no para el "
     },
     {
      "video_id": "WNe6QLgDfyM",
@@ -35415,8 +35423,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 20,
   "chat_signals": {
-   "n_msgs": 102,
-   "n_authors": 92,
+   "n_msgs": 103,
+   "n_authors": 93,
    "programs": [
     {
      "video_id": "O6sOwvMbRBU",
@@ -36166,8 +36174,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 70,
   "chat_signals": {
-   "n_msgs": 162,
-   "n_authors": 132,
+   "n_msgs": 163,
+   "n_authors": 133,
    "programs": [
     {
      "video_id": "W_HkPNOMeDc",
@@ -36339,23 +36347,23 @@
   "evidence_lane": "corroborated",
   "audio_programs": 21,
   "chat_signals": {
-   "n_msgs": 862,
-   "n_authors": 606,
+   "n_msgs": 868,
+   "n_authors": 610,
    "programs": [
     {
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 82,
-     "n_authors": 68,
+     "n_msgs": 83,
+     "n_authors": 69,
      "ejemplo": "@argentoiluminacion6700 no me amenace con mandar a descerebrado Milei que les enviamos a los derechuzos de Vox, jajajaja"
     },
     {
      "video_id": "tKOUyjkzDQ8",
      "channel": "?",
      "title": "",
-     "n_msgs": 46,
-     "n_authors": 37,
+     "n_msgs": 49,
+     "n_authors": 39,
      "ejemplo": "acaso es un cover de Milei de nene malo?"
     },
     {
@@ -36412,16 +36420,16 @@
      "video_id": "RIx-w13AHO4",
      "channel": "?",
      "title": "",
-     "n_msgs": 82,
-     "n_authors": 68,
+     "n_msgs": 83,
+     "n_authors": 69,
      "ejemplo": "@argentoiluminacion6700 no me amenace con mandar a descerebrado Milei que les enviamos a los derechuzos de Vox, jajajaja"
     },
     {
      "video_id": "tKOUyjkzDQ8",
      "channel": "?",
      "title": "",
-     "n_msgs": 46,
-     "n_authors": 37,
+     "n_msgs": 49,
+     "n_authors": 39,
      "ejemplo": "acaso es un cover de Milei de nene malo?"
     },
     {
@@ -36590,8 +36598,8 @@
   "evidence_lane": "corroborated",
   "audio_programs": 16,
   "chat_signals": {
-   "n_msgs": 234,
-   "n_authors": 177,
+   "n_msgs": 239,
+   "n_authors": 179,
    "programs": [
     {
      "video_id": "mNBPDZhUOf8",
@@ -36610,20 +36618,20 @@
      "ejemplo": "y detestan al peronismo por esa razon"
     },
     {
+     "video_id": "3beEj7OhPJs",
+     "channel": "?",
+     "title": "",
+     "n_msgs": 28,
+     "n_authors": 17,
+     "ejemplo": "Esa pasividad de las masas ante los actos impúdicos dé estos fachos, es la antesala de esa explosión interna contenida del pueblo... es cómo dice un tema de los"
+    },
+    {
      "video_id": "C6BZb4k8gF0",
      "channel": "BLENDER",
      "title": "GUILLERMO MORENO SIN FILTRO, LOS PROCESADOS EN LA CAUSA PROPOFOL y EL CUMPLE DE MESSI | QUÉ DÍA",
      "n_msgs": 21,
      "n_authors": 16,
      "ejemplo": "peronismo rancio de derecha entró al chat"
-    },
-    {
-     "video_id": "3beEj7OhPJs",
-     "channel": "?",
-     "title": "",
-     "n_msgs": 23,
-     "n_authors": 15,
-     "ejemplo": "Esa pasividad de las masas ante los actos impúdicos dé estos fachos, es la antesala de esa explosión interna contenida del pueblo... es cómo dice un tema de los"
     },
     {
      "video_id": "nOx1je3BA2o",
@@ -36671,8 +36679,8 @@
      "video_id": "3beEj7OhPJs",
      "channel": "?",
      "title": "",
-     "n_msgs": 23,
-     "n_authors": 15,
+     "n_msgs": 28,
+     "n_authors": 17,
      "ejemplo": "Esa pasividad de las masas ante los actos impúdicos dé estos fachos, es la antesala de esa explosión interna contenida del pueblo... es cómo dice un tema de los"
     },
     {
