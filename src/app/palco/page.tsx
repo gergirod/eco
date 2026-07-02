@@ -145,6 +145,7 @@ const CATALOG_BY_SLUG = new Map(CATALOG.curated.map((c) => [c.slug, c]));
      pos     emerald-600
 */
 const BRAND = "#2f5fe0";
+const TOP_ENTITIES_DEFAULT = 20;
 
 /* ---------- helpers ---------- */
 function compact(n: number | null | undefined): string {
@@ -368,6 +369,7 @@ export default function PalcoPage() {
   const [frecuencia, setFrecuencia] = useState<Frecuencia>("diario");
   const [email, setEmail] = useState("");
   const [cruceShow, setCruceShow] = useState<Record<string, number>>({});
+  const [showAllCatalog, setShowAllCatalog] = useState(false);
 
   // Lee la watchlist elegida en el onboarding (?e=slug1,slug2&plan=pro).
   useEffect(() => {
@@ -392,6 +394,10 @@ export default function PalcoPage() {
   useEffect(() => {
     setCruceShow({});
   }, [slug]);
+
+  useEffect(() => {
+    setShowAllCatalog(false);
+  }, [query, cat]);
 
   // Trae la última versión del dataset desde Supabase (fallback: el bundle).
   useEffect(() => {
@@ -432,6 +438,17 @@ export default function PalcoPage() {
       return matchesQuery(q, r.name, alias);
     });
   }, [query, cat, baseIndex, D]);
+
+  const sortedIndex = useMemo(
+    () => [...filteredIndex].sort((a, b) => b.mentions - a.mentions),
+    [filteredIndex]
+  );
+
+  const hasActiveFilter = query.trim().length > 0 || cat !== "todas";
+  const displayIndex = useMemo(() => {
+    if (hasActiveFilter || showAllCatalog) return sortedIndex;
+    return sortedIndex.slice(0, TOP_ENTITIES_DEFAULT);
+  }, [sortedIndex, hasActiveFilter, showAllCatalog]);
 
   // Alertas: entidades de la watchlist (o todas) con crisis detectada.
   const alertas = useMemo(
@@ -863,32 +880,62 @@ export default function PalcoPage() {
               </div>
             )
           ) : (
-            <div className="mt-3 flex flex-wrap gap-2">
-              {filteredIndex.map((r) => {
-                const active = r.slug === slug;
-                return (
-                  <button
-                    key={r.slug}
-                    onClick={() => {
-                      setSlug(r.slug);
-                      setQuery("");
-                      setTab("todas");
-                      setFeedShow(6);
-                    }}
-                    className={`rounded-full border px-3 py-1.5 text-left text-[12px] transition ${
-                      active
-                        ? "border-[#2f5fe0] bg-blue-50 text-[#2f5fe0]"
-                        : "border-stone-200 bg-white text-stone-600 hover:border-stone-400"
-                    }`}
-                  >
-                    <span className="font-medium">{r.name}</span>
-                    <span className="ml-2 text-stone-400">
-                      {r.type} · {compact(r.mentions)} menc.
-                    </span>
-                  </button>
-                );
-              })}
-            </div>
+            <>
+              {!hasActiveFilter && sortedIndex.length > TOP_ENTITIES_DEFAULT && (
+                <p className="mt-3 text-[11px] text-stone-400">
+                  Top {TOP_ENTITIES_DEFAULT} por menciones ·{" "}
+                  <span className="text-stone-500">{sortedIndex.length} en el catálogo</span>
+                  {showAllCatalog ? "" : " — usá el buscador o filtros para el resto"}
+                </p>
+              )}
+              {hasActiveFilter && (
+                <p className="mt-3 text-[11px] text-stone-400">
+                  {sortedIndex.length} resultado{sortedIndex.length === 1 ? "" : "s"} en el catálogo
+                </p>
+              )}
+              <div
+                className={`mt-2 flex flex-wrap gap-2${
+                  showAllCatalog && !hasActiveFilter ? " max-h-72 overflow-y-auto pr-1" : ""
+                }`}
+              >
+                {displayIndex.map((r) => {
+                  const active = r.slug === slug;
+                  return (
+                    <button
+                      key={r.slug}
+                      onClick={() => {
+                        setSlug(r.slug);
+                        setQuery("");
+                        setTab("todas");
+                        setFeedShow(6);
+                      }}
+                      className={`rounded-full border px-3 py-1.5 text-left text-[12px] transition ${
+                        active
+                          ? "border-[#2f5fe0] bg-blue-50 text-[#2f5fe0]"
+                          : "border-stone-200 bg-white text-stone-600 hover:border-stone-400"
+                      }`}
+                    >
+                      <span className="font-medium">{r.name}</span>
+                      <span className="ml-2 text-stone-400">
+                        {r.type} · {compact(r.mentions)} menc.
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+              {!hasActiveFilter && sortedIndex.length > TOP_ENTITIES_DEFAULT && (
+                <button
+                  type="button"
+                  onClick={() => setShowAllCatalog((v) => !v)}
+                  className="mt-3 text-[12px] font-medium hover:underline"
+                  style={{ color: BRAND }}
+                >
+                  {showAllCatalog
+                    ? "Mostrar solo top 20"
+                    : `Ver todas (${sortedIndex.length})`}
+                </button>
+              )}
+            </>
           )}
         </section>
 
